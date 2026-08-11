@@ -1,0 +1,15 @@
+# Large / copyrighted PDFs stay local — never pushed
+*.pdf
+*.PDF
+
+# Obsidian local state
+.obsidian/
+**/.obsidian/
+workspace.json
+
+# Lock files
+.~lock.*
+
+# Python build artifacts
+__pycache__/
+*.pyc

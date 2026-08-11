@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viva Set — Items 15 · 25 · 26</title>
+<style>
+:root{
+  --bg:#f1f5f9;--cardbg:#ffffff;--ink:#0f172a;--muted:#64748b;
+  --line:#e2e8f0;--acc:#0e7490;--acc2:#155e75;
+  --viva-hl:#fde047;--cok:#16a34a;--cno:#dc2626;
+  --s1a:#0e7490;--s1b:#155e75;--s2a:#1d4ed8;--s2b:#3b82f6;
+  --s3a:#7c3aed;--s3b:#a855f7;--s4a:#b45309;--s4b:#d97706;
+  --s5a:#be123c;--s5b:#e11d48;--headh:58px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,-apple-system,sans-serif}
+body.lock{overflow:hidden}
+
+/* ---------- header ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:50;height:var(--headh);
+  background:linear-gradient(90deg,#0f172a,#1e293b);color:#fff;
+  display:flex;align-items:center;gap:14px;padding:0 18px;box-shadow:0 2px 10px rgba(15,23,42,.35);
+}
+header .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.3px;white-space:nowrap}
+header .brand .b{width:30px;height:30px;border-radius:8px;flex:none;
+  background:conic-gradient(#0e7490,#7c3aed,#be123c,#0e7490);display:grid;place-items:center;font-size:14px}
+#burger{display:none;background:none;border:0;color:#fff;font-size:22px;cursor:pointer;padding:6px}
+#counter{font-size:12.5px;color:#94a3b8;white-space:nowrap;margin-left:auto}
+#filter{
+  flex:1;max-width:360px;margin-left:auto;height:36px;border:0;border-radius:9px;
+  padding:0 14px;font-size:13.5px;outline:none;background:#fff;color:var(--ink);
+}
+#menu{
+  position:fixed;top:var(--headh);left:0;right:0;z-index:40;background:#0f172a;
+  display:flex;flex-wrap:wrap;gap:8px;padding:10px 16px;box-shadow:0 6px 16px rgba(0,0,0,.25);
+}
+#menu .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-right:10px;padding-right:10px;border-right:1px solid #334155}
+#menu .grp:last-child{border-right:0;margin-right:0;padding-right:0}
+.chip{
+  border:1px solid #334155;background:transparent;color:#cbd5e1;font-size:12px;font-weight:600;
+  padding:5px 12px;border-radius:999px;cursor:pointer;transition:.15s;
+}
+.chip:hover{background:#1e293b}
+.chip.active{background:#fff;color:#0f172a;border-color:#fff}
+@media(max-width:760px){
+  #burger{display:block}
+  #menu{display:none;flex-direction:column;align-items:stretch}
+  #menu.open{display:flex}
+  #menu .grp{border-right:0;margin-right:0;padding-right:0;border-bottom:1px solid #334155;padding-bottom:8px;margin-bottom:6px}
+  #filter{max-width:none;margin-left:0}
+  #counter{display:none}
+  header{gap:8px;padding:0 10px}
+  header .brand .b{display:none}
+  header .brand{font-size:13px}
+  #filter{height:32px;font-size:12.5px}
+}
+
+/* ---------- layout ---------- */
+main{max-width:1080px;margin:calc(var(--headh) + 40px) auto 60px;padding:0 20px}
+.sechead{
+  border-radius:14px;color:#fff;padding:16px 20px;margin:34px 0 6px;
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;box-shadow:0 6px 18px rgba(0,0,0,.18);
+}
+.sechead h2{font-size:21px;font-weight:800;letter-spacing:.2px}
+.sechead .cnt{font-size:13px;opacity:.9;font-weight:600}
+.sechead p{flex-basis:100%;font-size:13.5px;opacity:.95}
+.s1{background:linear-gradient(135deg,var(--s1a),var(--s1b))}
+.s2{background:linear-gradient(135deg,var(--s2a),var(--s2b))}
+.s3{background:linear-gradient(135deg,var(--s3a),var(--s3b))}
+.s4{background:linear-gradient(135deg,var(--s4a),var(--s4b))}
+.s5{background:linear-gradient(135deg,var(--s5a),var(--s5b))}
+
+/* ---------- cards ---------- */
+.deck{display:grid;grid-template-columns:1fr;gap:20px;padding:14px 0 6px}
+.card{perspective:1500px;cursor:pointer;-webkit-tap-highlight-color:transparent;height:560px}
+.card .back{height:100%}
+.card .inner{
+  position:relative;width:100%;height:100%;transform-style:preserve-3d;
+  transition:transform .55s cubic-bezier(.4,.2,.2,1);
+}
+.card.flipped .inner{transform:rotateY(180deg)}
+.face{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border-radius:16px;background:var(--cardbg);box-shadow:0 8px 24px rgba(15,23,42,.12);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+.front{padding:16px 16px 14px}
+.front .top{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.qnum{
+  font-size:12px;font-weight:800;color:#fff;padding:3px 9px;border-radius:999px;letter-spacing:.3px;
+}
+.qcat{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.8px}
+.q{font-size:15px;font-weight:700;line-height:1.45;margin-bottom:10px}
+.q b{color:var(--acc2)}
+.fliphint{
+  margin-top:auto;font-size:11.5px;font-weight:700;color:var(--acc);letter-spacing:.6px;
+  text-transform:uppercase;text-align:center;border-top:1px dashed var(--line);padding-top:10px;
+}
+.fliphint span{background:var(--viva-hl);padding:1px 6px;border-radius:5px}
+.back{
+  transform:rotateY(180deg);padding:16px 18px 18px;overflow-y:auto;overscroll-behavior:contain;
+}
+.back::-webkit-scrollbar{width:8px}
+.back::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:6px}
+.back h4{font-size:14px;font-weight:800;color:#fff;background:linear-gradient(90deg,var(--acc),var(--acc2));border-radius:8px;padding:7px 11px;margin-bottom:12px}
+.back h5{margin:12px 0 5px;font-size:13px;color:var(--acc2)}
+.back p{font-size:13.2px;margin-bottom:8px}
+.back ul,.back ol{margin:0 0 8px 20px;font-size:13.2px}
+.back li{margin-bottom:4px}
+.back li b,.back p b{color:#0f172a}
+.back table{width:100%;border-collapse:collapse;font-size:12.3px;margin:8px 0 10px}
+.back th{background:#f1f5f9;color:#334155;text-align:left}
+.back th,.back td{border:1px solid var(--line);padding:5px 8px;vertical-align:top}
+.back .tip{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid var(--cok);border-radius:8px;padding:8px 10px;margin:8px 0;font-size:12.8px}
+.back .warn{background:#fef2f2;border:1px solid #fecaca;border-left:4px solid var(--cno);border-radius:8px;padding:8px 10px;margin:8px 0;font-size:12.8px}
+.viva-hl{background:linear-gradient(transparent 62%,var(--viva-hl) 62%)}
+.mech{background:#fffbeb;border:1px solid #fde68a;border-left:4px solid #f59e0b;border-radius:8px;padding:9px 11px;margin:9px 0;font-size:12.8px}
+.mech h6{margin-bottom:3px;font-size:12px;color:#b45309;text-transform:uppercase;letter-spacing:.5px}
+.src{
+  font-size:11px;color:var(--muted);border-top:1px dashed var(--line);margin-top:10px;padding-top:8px;
+}
+.src b{color:#94a3b8}
+.flow{
+  display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0;font-size:12.3px;font-weight:600;
+}
+.flow span{background:#eef2ff;color:#3730a3;border:1px solid #c7d2fe;border-radius:7px;padding:4px 8px}
+.flow i{color:var(--muted);font-style:normal}
+
+/* ---------- responsive ---------- */
+@media(max-width:1100px){
+  .card{height:520px}
+}
+@media(max-width:860px){
+  .card{height:480px}
+}
+@media(max-width:760px){
+  .deck{grid-template-columns:1fr}
+  .card{height:520px}
+  .front{padding:14px 14px 12px}
+  .q{font-size:14px}
+  .back{padding:14px 15px 16px}
+  .back p,.back ul,.back ol{font-size:12.8px}
+  .back h4{font-size:13.5px}
+  .back table{font-size:11.5px}
+  .back th,.back td{padding:4px 6px}
+  .sechead{padding:14px 16px}
+  .sechead h2{font-size:18px}
+}
+</style>
+</head>
+<body>
+<header>
+  <button id="burger" aria-label="Menu">&#9776;</button>
+  <div class="brand"><div class="b">V</div>Viva Set · Items 15, 25, 26</div>
+  <input id="filter" type="search" placeholder="Search questions… (e.g. seminoma, PSA, azoospermia, frozen, FNAC)">
+  <div id="counter"></div>
+</header>
+<div id="menu"></div>
+<main>
+
+<section id="s1" class="sechead s1">
+  <h2>Item 15A · Testis — Q1–6</h2>
+  <span class="cnt">6 cards</span>
+  <p>Classification of testicular tumours, cryptorchidism, seminoma, teratoma, seminoma vs non-seminomatous tumours, tumour markers.</p>
+</section>
+<div class="deck">
+
+<div class="card" data-sec="s1" data-q="Q1">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q1</span><span class="qcat">Testis · GCT</span></div>
+      <div class="q">Classify tumours of testis.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Classification of Testicular Tumours</h4>
+      <p><span class="viva-hl">GCTs = ~95% of testicular tumours</span>; the most common cancer in Caucasian males aged <b>15–45 yr</b>. Any solid testicular mass is treated as malignant until proven otherwise — a biopsy is avoided because of the risk of tumour spillage, and a <b>radical orchiectomy</b> is the standard first step.</p>
+      <h5>1. Germ cell tumours (GCT) — WHO 2016</h5>
+      <p>These arise from the germ cells (the cells that would normally form sperm). Two broad families exist based on which developmental stage the tumour cells resemble: seminomatous (like early germ cells) and non-seminomatous (like embryonic stem cells or cells differentiated toward yolk sac/placenta/mature tissues).</p>
+      <table>
+        <tr><th>Group</th><th>Types</th></tr>
+        <tr><td><b>Seminomatous</b></td><td><b>Seminoma</b> (~50% of GCTs)</td></tr>
+        <tr><td rowspan="4"><b>Non-seminomatous (NSGCT)</b></td><td><b>Embryonal carcinoma</b></td></tr>
+        <tr><td><b>Yolk sac tumour</b> (endodermal sinus)</td></tr>
+        <tr><td><b>Choriocarcinoma</b></td></tr>
+        <tr><td><b>Teratoma</b> (mature/immature)</td></tr>
+        <tr><td><b>Mixed GCT</b></td><td>~60% of GCTs contain &gt;1 type</td></tr>
+        <tr><td>Spermatocytic tumour</td><td>Separate entity — men &gt;65 yr</td></tr>
+      </table>
+      <ul>
+        <li><b>Seminoma</b> — most common single type, radiosensitive, best prognosis.</li>
+        <li><b>Embryonal carcinoma</b> — anaplastic, aggressive, often a component of mixed tumours.</li>
+        <li><b>Yolk sac tumour</b> — the commonest tumour of infants/children up to 3 years; secretes AFP.</li>
+        <li><b>Choriocarcinoma</b> — the most malignant; secretes hCG; often tiny primary with widespread hemorrhagic metastases.</li>
+        <li><b>Teratoma</b> — mixtures of mature/immature tissue; benign before puberty, malignant after.</li>
+        <li><b>Spermatocytic tumour</b> — old men (&gt;65), three cell populations, gain of 9q, never metastasizes.</li>
+      </ul>
+      <h5>2. Sex cord–stromal tumours</h5>
+      <ul>
+        <li><b>Leydig cell tumour</b> — elaborates androgens → gynecomastia/precocious puberty; Reinke crystalloids (~25%); ~10% malignant in adults.</li>
+        <li><b>Sertoli cell tumour</b> — usually hormonally silent; associated with Carney complex, Peutz-Jeghers, FAP.</li>
+        <li><b>Gonadoblastoma</b> — germ cells + stromal elements, almost always in dysgenetic gonads.</li>
+      </ul>
+      <h5>3. Others</h5>
+      <ul>
+        <li><b>Testicular lymphoma</b> — the <b>most common testicular tumour in men &gt;60 yr</b>; often bilateral DLBCL with CNS recurrence.</li>
+        <li>Metastatic/secondary tumours (rare).</li>
+        <li>Paratesticular: <b>adenomatoid tumour</b> (benign, mesothelial, upper pole of epididymis); rhabdomyosarcoma (children), liposarcoma (adults).</li>
+      </ul>
+      <h5>Pathogenesis chain (memorize)</h5>
+      <div class="flow">
+        <span>Primordial germ cell (differentiation defect)</span><i>→</i>
+        <span>KIT-activating mutations</span><i>→</i>
+        <span>GCNIS (in situ)</span><i>→</i>
+        <span>i(12p)</span><i>→</i>
+        <span>Invasive GCT</span>
+      </div>
+      <ul>
+        <li>GCNIS (germ cell neoplasia in situ) is found in <b>~90% of testes with germ cell neoplasms</b>; it arises <b>in utero</b> and stays dormant until puberty, when hormonal stimulation drives progression.</li>
+        <li><b>~70% of individuals with GCNIS develop an invasive GCT within 7 years.</b></li>
+        <li><b>i(12p)</b> (isochromosome of the short arm of chromosome 12) is <b>invariably present in invasive GCTs</b>, whatever the histologic type — it is the key cytogenetic hallmark.</li>
+      </ul>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Testis).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s1" data-q="Q2">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q2</span><span class="qcat">Testis · Congenital</span></div>
+      <div class="q">What is cryptorchidism?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Cryptorchidism (undescended testis)</h4>
+      <p><b>Cryptorchidism = failure of the testis to descend from the abdomen into the scrotum.</b> It is seen in about <b>1% of 1-year-old boys</b> (premature infants have a higher rate), and it is usually unilateral (bilateral in 25%). Most arrested testes lie <b>in the inguinal canal</b>; pure abdominal (intra-abdominal) arrest occurs in only 5–10%.</p>
+      <h5>Normal descent — two phases</h5>
+      <ul>
+        <li><b>Transabdominal phase</b> — controlled by <b>müllerian-inhibiting substance (MIS)</b>; the testis moves from the abdomen toward the internal ring.</li>
+        <li><b>Inguinoscrotal phase</b> — <b>androgen-dependent</b>, mediated by androgen-induced <b>calcitonin gene–related peptide (CGRP)</b> released from the genitofemoral nerve; the testis travels through the canal into the scrotum.</li>
+      </ul>
+      <h5>Histologic changes (begin by ~2 years of age)</h5>
+      <div class="flow">
+        <span>Basement-membrane thickening</span><i>→</i>
+        <span>Loss of spermatogonia</span><i>→</i>
+        <span>Sertoli-cell-only tubules</span><i>→</i>
+        <span>Hyaline cords</span>
+      </div>
+      <ul>
+        <li>The abnormal temperature of the undescended testis progressively damages the germinal epithelium. <b>Leydig cells are spared</b> (they appear prominent), so androgen production is usually maintained.</li>
+        <li>Similar changes can occur in the <b>contralateral descended testis</b> — this is why cryptorchidism is regarded as a <b>marker of an intrinsic defect in gonadal development</b>, not just a mechanical problem.</li>
+      </ul>
+      <h5>Consequences</h5>
+      <ul>
+        <li><b>Sterility</b> — loss of spermatogenesis; the longer the testis remains undescended, the greater the damage.</li>
+        <li><b>3- to 5-fold higher risk of testicular cancer</b> (most commonly seminoma) — even after orchiopexy the risk remains increased, so lifelong self-examination is advised.</li>
+        <li>Associated <b>inguinal hernia</b> (10–20%) and increased risk of trauma and torsion.</li>
+        <li>Treatment: <b>orchiopexy at 6–12 months</b> — <span class="viva-hl">reduces but does NOT eliminate the cancer/sterility risk</span>.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>The undescended testis is exposed to an abnormally high temperature. Over time the tubular basement membrane thickens, spermatogonia die off leaving Sertoli-cell-only tubules (hence sterility), while the persisting immature germ cells can transform into GCNIS and later seminoma. Because the whole germ-cell population is abnormal, even the normally descended fellow testis may be affected.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Testis).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s1" data-q="Q3">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q3</span><span class="qcat">Testis · Seminoma</span></div>
+      <div class="q">Short note on Seminoma.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Seminoma</h4>
+      <p>Seminoma is the <b>most common testicular germ cell tumour (~50%)</b>. It reproduces the morphology of <b>primordial germ cells / early gonocytes</b> and is the classic "good-prognosis" GCT.</p>
+      <h5>Epidemiology</h5>
+      <ul>
+        <li>Peak incidence <b>4th decade</b> (about a decade later than embryonal carcinoma).</li>
+        <li>Risk factors overlap with GCTs in general — cryptorchidism, prior GCT, family history.</li>
+      </ul>
+      <h5>Gross &amp; microscopic features</h5>
+      <ul>
+        <li>Cut surface: <b>homogeneous gray-white and lobulated</b>; hemorrhage and necrosis are conspicuously <b>absent</b> (an important gross contrast to NSGCTs).</li>
+        <li>Histology: <b>sheets and nests of uniform cells</b> with <b>clear cytoplasm and distinct cell borders</b> (the classic "fried-egg" appearance), separated by <b>fibrous septa carrying a lymphocytic infiltrate</b>, sometimes with epithelioid granulomas.</li>
+        <li>The tumour is usually well circumscribed and <b>does NOT penetrate the tunica albuginea</b>.</li>
+      </ul>
+      <h5>Immunohistochemistry (IHC)</h5>
+      <ul>
+        <li><b>KIT (CD117)+, OCT3/4+, podoplanin+ (D2-40); cytokeratin (CK) NEGATIVE.</b></li>
+        <li>This profile cleanly separates seminoma from embryonal carcinoma (which is OCT3/4+ but CK+, KIT−, podoplanin−).</li>
+      </ul>
+      <h5>Markers</h5>
+      <ul>
+        <li><b>~15% of seminomas contain syncytiotrophoblastic cells</b> → mild hCG elevation.</li>
+        <li><b>AFP is NEVER elevated in pure seminoma</b> — an elevated AFP means there is a non-seminomatous (yolk sac) component somewhere.</li>
+      </ul>
+      <h5>Spread &amp; prognosis</h5>
+      <ul>
+        <li>Spread is mainly <b>lymphatic</b> — first to the retroperitoneal para-aortic nodes, then mediastinal and supraclavicular; <b>hematogenous spread is late</b>.</li>
+        <li><b>Prognosis is the best of all testicular tumours</b> — highly radiosensitive and chemosensitive; <b>&gt;95% of stage I–II cases are cured</b>.</li>
+        <li>Synonyms: in the ovary the equivalent is <b>dysgerminoma</b>; in the CNS midline it is called <b>germinoma</b>.</li>
+      </ul>
+      <div class="tip"><b>Memory hook:</b> seminoma = <span class="viva-hl">KIT/OCT3/4/podoplanin +, CK −</span> — the exact reverse of embryonal carcinoma.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Testicular GCT).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s1" data-q="Q4">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q4</span><span class="qcat">Testis · Teratoma</span></div>
+      <div class="q">Short note on Teratoma.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Testicular Teratoma</h4>
+      <p>A teratoma is a germ cell tumour that contains <b>derivatives of more than one germ layer</b> (endoderm, mesoderm, ectoderm) — e.g., neural tissue, muscle, cartilage, bone, squamous epithelium with skin adnexa, thyroid-like follicles, bronchial and gut epithelium — all embedded in a fibrous or myxoid stroma. The elements may be <b>mature or immature</b> (fetal-type tissue).</p>
+      <h5>Prepubertal vs postpubertal — the critical contrast</h5>
+      <p>Whether a teratoma is benign or malignant depends <b>not on its microscopic appearance but on the age of the patient</b>, i.e., on its genetic background:</p>
+      <table>
+        <tr><th>Feature</th><th>Prepubertal</th><th>Postpubertal</th></tr>
+        <tr><td>Behaviour</td><td><b>BENIGN</b></td><td><b>MALIGNANT</b></td></tr>
+        <tr><td>GCNIS / i(12p)</td><td>Absent — no germ-cell neoplastic pathway</td><td>Present (i(12p)) — part of the invasive GCT pathway</td></tr>
+        <tr><td>Included forms</td><td><b>Dermoid cysts</b> (hair, teeth, skin); can mix with yolk sac tumour</td><td>5–10 cm heterogeneous cut surface (cysts, cartilage)</td></tr>
+        <tr><td>Prognosis</td><td>Excellent after excision</td><td>Malignant — may metastasize</td></tr>
+      </table>
+      <h5>Teratoma with somatic-type malignancy</h5>
+      <ul>
+        <li>In a small proportion, a <b>secondary non-germ-cell cancer</b> arises within the teratoma — e.g., squamous cell carcinoma, mucinous adenocarcinoma, or sarcoma.</li>
+        <li>Such tumours are <b>chemoresistant</b> — cure is only possible by complete surgical resection.</li>
+        <li>They <b>retain i(12p)</b>, proving they are clonally derived from the teratoma and not an independent primary.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>In the prepubertal testis, teratomas arise from germ cells that do not enter the GCNIS/i(12p) pathway — they are effectively benign developmental tumours. In the postpubertal testis, the teratoma shares the invasive GCT genotype (GCNIS + i(12p)), so even histologically "mature" elements carry malignant potential — the genetics, not the tissue of differentiation, decide the behaviour.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Teratoma).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s1" data-q="Q5">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q5</span><span class="qcat">Testis · Comparison</span></div>
+      <div class="q">How does seminoma differ from non-seminomatous testicular tumour?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Seminoma vs Non-Seminomatous Tumours (NSGCT)</h4>
+      <p>Both seminoma and NSGCT arise from the same precursor (GCNIS) and both carry <b>i(12p)</b>, but they differ in differentiation, gross appearance, markers, invasiveness and — most importantly — in prognosis and treatment response.</p>
+      <table>
+        <tr><th>Feature</th><th>Seminoma</th><th>NSGCT (e.g. embryonal)</th></tr>
+        <tr><td>Frequency</td><td><b>Most common GCT (~50%)</b></td><td>Less common as pure tumours; often mixed</td></tr>
+        <tr><td>Peak age</td><td><b>4th decade</b></td><td><b>20–30 yr</b> (a decade earlier)</td></tr>
+        <tr><td>Cut surface</td><td>Homogeneous <b>gray-white, lobulated</b>, no hemorrhage/necrosis</td><td><b>Variegated — hemorrhage + necrosis</b></td></tr>
+        <tr><td>Histology</td><td>Sheets of uniform cells, clear cytoplasm, distinct borders, fibrous septa + <b>lymphocytic infiltrate</b> (± granulomas)</td><td>Alveolar/tubular/papillary patterns; <b>large anaplastic cells</b>, indistinct borders</td></tr>
+        <tr><td>Invasion</td><td>Usually <b>does NOT penetrate tunica albuginea</b></td><td>Locally aggressive — through <b>tunica albuginea → epididymis/cord</b></td></tr>
+        <tr><td>IHC</td><td><b>KIT+, OCT3/4+, podoplanin+; CK −</b></td><td><b>OCT3/4+, CK+; KIT −, podoplanin −</b></td></tr>
+        <tr><td>Markers</td><td>~15% mild hCG (syncytiotrophoblasts); AFP never</td><td><b>AFP + hCG elevated in &gt;80%</b> (yolk sac → AFP; choriocarcinoma → hCG)</td></tr>
+        <tr><td>Spread</td><td>Nodal (para-aortic), <b>late</b> hematogenous</td><td><b>Earlier + more frequent</b> lymphatic &amp; hematogenous</td></tr>
+        <tr><td>Prognosis</td><td><b>Best</b> — radiosensitive + chemosensitive</td><td><b>More aggressive</b> (choriocarcinoma worst)</td></tr>
+      </table>
+      <h5>Why the difference matters clinically</h5>
+      <ul>
+        <li>Seminoma is exquisitely <b>radiosensitive</b> — a pure seminoma can often be cured with surgery + radiotherapy/chemotherapy even when node-positive.</li>
+        <li>NSGCTs are treated primarily with <b>chemotherapy</b> (BEP regimen) and are less radiosensitive; they metastasize earlier, so staging is more critical.</li>
+        <li>Marker pattern guides the choice: <b>AFP elevation</b> immediately proves the tumour is <b>not a pure seminoma</b>.</li>
+      </ul>
+      <div class="tip">Both derive from GCNIS and carry <b>i(12p)</b> — the difference is in differentiation, invasiveness, markers and chemo/radiosensitivity.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Testicular GCT).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s1" data-q="Q6">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s1a)">Q6</span><span class="qcat">Testis · Markers</span></div>
+      <div class="q">Name the testicular tumour markers and their uses.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Testicular Tumour Markers</h4>
+      <p>Serum tumour markers are proteins secreted by specific tumour components. In testicular GCTs they are used to <b>identify the tumour type, stage the disease, monitor response, and detect recurrence</b>.</p>
+      <table>
+        <tr><th>Marker</th><th>Produced by</th><th>Clinical value</th></tr>
+        <tr><td><b>hCG</b></td><td><b>Syncytiotrophoblastic elements</b> — <b>choriocarcinoma (markedly elevated)</b>; ~15% of seminomas have syncytiotrophoblasts → mild elevation</td><td>Marker of choriocarcinoma</td></tr>
+        <tr><td><b>AFP</b></td><td><b>Yolk sac tumour</b> (eosinophilic hyaline globules; also α1-antitrypsin)</td><td>Marker of yolk sac component</td></tr>
+        <tr><td><b>LDH</b></td><td>Correlates with <b>tumour burden</b> (mass of tumour cells)</td><td>Prognosis / bulk</td></tr>
+      </table>
+      <h5>Key facts to remember</h5>
+      <ul>
+        <li><span class="viva-hl">Both AFP and hCG are elevated in &gt;80% of NSGCTs at diagnosis.</span></li>
+        <li>Pure seminoma can show a <b>mild hCG rise</b> but <b>never an AFP rise</b> — elevated AFP excludes pure seminoma.</li>
+        <li>Markers do <b>not</b> have a role in screening; their main value is in the management of established disease.</li>
+      </ul>
+      <h5>Uses (clinical)</h5>
+      <ul>
+        <li><b>Diagnosis / tumour typing</b> — the marker pattern hints at the tumour components before histology is available.</li>
+        <li><b>Staging</b> — <span class="viva-hl">persistent elevation after orchiectomy = residual or metastatic disease</span>; the half-lives (hCG ~24–36 h, AFP ~5–7 days) guide interpretation.</li>
+        <li><b>Assessing tumour burden</b> — LDH rises with the total mass of tumour.</li>
+        <li><b>Monitoring therapy and follow-up</b> — a rising marker after treatment signals recurrence before it is visible on imaging.</li>
+      </ul>
+      <div class="tip">Memory: <b>AFP = yolk sac; hCG = syncytiotrophoblast</b> (choriocarcinoma); LDH = tumour load.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Biomarkers).</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<section id="s2" class="sechead s2">
+  <h2>Item 15B · Prostate — Q7–12</h2>
+  <span class="cnt">6 cards</span>
+  <p>Diseases of prostate, tumours of prostate, BPH pathogenesis &amp; morphology, BPH vs carcinoma, PSA.</p>
+</section>
+<div class="deck">
+
+<div class="card" data-sec="s2" data-q="Q7">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q7</span><span class="qcat">Prostate · Diseases</span></div>
+      <div class="q">What are the diseases of prostate?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Diseases of the Prostate</h4>
+      <p>The prostate is affected by a spectrum of diseases — inflammatory, hyperplastic, neoplastic and secondary. Recognizing the category is the first step in clinical evaluation, and each category has a distinct age, presentation and morphology.</p>
+      <table>
+        <tr><th>Category</th><th>Diseases</th></tr>
+        <tr><td><b>1. Inflammatory</b></td><td><b>Prostatitis</b> — acute bacterial, chronic bacterial, chronic abacterial (chronic pelvic pain syndrome), granulomatous</td></tr>
+        <tr><td><b>2. Hyperplastic</b></td><td><b>BPH</b> (benign prostatic hyperplasia) — most common benign disease &gt;50 yr</td></tr>
+        <tr><td><b>3. Neoplastic</b></td><td><b>Prostatic adenocarcinoma</b> (most common), ductal adenocarcinoma, small-cell (neuroendocrine) carcinoma, sarcomas (rare)</td></tr>
+        <tr><td><b>4. Secondary / metastatic</b></td><td><b>Urothelial (bladder) cancer</b> — most common secondary tumour of the prostate</td></tr>
+        <tr><td><b>5. Calcification / stones</b></td><td><b>Corpora amylacea / prostatic calculi</b> — common, usually incidental</td></tr>
+      </table>
+      <h5>Prostatitis — 4 types (quick)</h5>
+      <ul>
+        <li><b>Acute bacterial:</b> E. coli &amp; other gram-negatives; fever, dysuria, exquisitely tender boggy gland; <span class="viva-hl">biopsy CONTRAINDICATED (risk of sepsis)</span>.</li>
+        <li><b>Chronic bacterial:</b> recurrent UTIs from the same organism; antibiotics penetrate the prostate poorly, so infection persists and seeds the urinary tract.</li>
+        <li><b>Chronic abacterial:</b> <b>the most common form</b>; identical symptoms but no UTI history, &gt;10 leukocytes/HPF in secretions with <b>negative cultures</b>.</li>
+        <li><b>Granulomatous:</b> most common US cause = <b>BCG instillation</b> for bladder cancer; also fungal in immunocompromised patients.</li>
+      </ul>
+      <h5>Anatomy reminder (why zones matter)</h5>
+      <ul>
+        <li>The prostate has no true capsule and is divided into <b>4 zones — peripheral, central, transition, periurethral</b>.</li>
+        <li><b>Most hyperplasia → transition zone; most carcinoma → peripheral zone.</b> This anatomical split is the basis of Q11 (BPH vs cancer).</li>
+      </ul>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Prostate).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s2" data-q="Q8">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q8</span><span class="qcat">Prostate · Tumours</span></div>
+      <div class="q">What are the tumours of prostate?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Tumours of the Prostate</h4>
+      <p>Primary tumours of the prostate are almost always <b>epithelial</b>. By far the most important is <b>acinous (usual) adenocarcinoma</b>; the other types are less common but some are very aggressive. Secondary (metastatic) involvement is also important in practice.</p>
+      <table>
+        <tr><th>Tumour</th><th>Key facts</th></tr>
+        <tr><td><b>Prostatic adenocarcinoma</b></td><td><b>Most common</b>; most common cancer in US men; ~70% peripheral zone; Gleason grading; osteoblastic bone mets</td></tr>
+        <tr><td><b>Ductal adenocarcinoma</b></td><td>Periurethral large-duct lesions mimic <b>urothelial cancer</b> (hematuria + obstruction); overall <b>poorer prognosis</b></td></tr>
+        <tr><td><b>Small-cell (neuroendocrine) carcinoma</b></td><td><b>Most aggressive variant</b> — rapidly fatal; emerges after antiandrogen therapy (androgen-independent clone)</td></tr>
+        <tr><td><b>Squamous / adenosquamous</b></td><td>After hormone therapy or de novo</td></tr>
+        <tr><td><b>Colloid (mucinous) carcinoma</b></td><td>&gt;25% mucinous secretions</td></tr>
+        <tr><td><b>Secondary (urothelial) carcinoma</b></td><td><b>Most common secondary tumour</b> — direct invasion from bladder cancer, or bladder CIS extending down prostatic ducts/acini</td></tr>
+        <tr><td><b>Mesenchymal / sarcoma</b></td><td>Rare; rhabdomyosarcoma (children), leiomyosarcoma (adults)</td></tr>
+      </table>
+      <h5>Precursor — PIN</h5>
+      <ul>
+        <li><b>PIN (prostatic intraepithelial neoplasia)</b> is the accepted precursor: architecturally benign, large branching acini lined by <b>atypical cells with prominent nucleoli</b>, but <b>retaining (at least partly) a basal cell layer and intact basement membrane</b>.</li>
+        <li>It is present in ~80% of prostates removed for carcinoma and occupies the same (peripheral) zone — so it is the immediate pre-invasive step.</li>
+      </ul>
+      <h5>High-yield distinctions</h5>
+      <ul>
+        <li><b>Adenocarcinoma</b> — the everyday diagnosis (vast majority of cases).</li>
+        <li><b>Small-cell carcinoma</b> — the most lethal; appears as hormone-refractory disease.</li>
+        <li><b>Urothelial carcinoma</b> — the most common <i>secondary</i> tumour, from the bladder.</li>
+      </ul>
+      <div class="tip">Most important: <b>adenocarcinoma</b> (vast majority), <b>small-cell</b> (most lethal), <b>urothelial</b> (most common secondary).</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Prostate tumours).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s2" data-q="Q9">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q9</span><span class="qcat">Prostate · BPH</span></div>
+      <div class="q">Give the pathogenesis of benign prostatic hyperplasia (BPH).</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — BPH Pathogenesis (DHT + Estrogens)</h4>
+      <p>BPH is a <b>hormonally driven proliferation</b> of the transition-zone glands and stroma. The key player is <b>dihydrotestosterone (DHT)</b>, the most potent androgen of the prostate, with a supporting role for estrogens.</p>
+      <h5>The DHT pathway</h5>
+      <div class="flow">
+        <span>Testosterone</span><i>→ type 2 5α-reductase (stromal cells) →</i>
+        <span>DHT</span>
+      </div>
+      <ul>
+        <li><b>Type 2 5α-reductase</b> is expressed mainly in <b>stromal cells</b> of the prostate; <b>type 1</b> produces DHT in the liver/skin, giving a blood-borne extra-prostatic source of DHT.</li>
+        <li>DHT binds the <b>androgen receptor (AR)</b> with higher affinity and forms a more stable receptor complex than testosterone → efficient nuclear translocation.</li>
+        <li>The DHT–AR signal <b>upregulates the FGF family and TGFβ</b>: stromal-cell <b>FGFs act as paracrine drivers of epithelial growth</b>, while TGFβ is mitogenic for fibroblasts and inhibits epithelium — a classic stromal–epithelial interaction.</li>
+      </ul>
+      <h5>The estrogen side</h5>
+      <ul>
+        <li>With ageing, relative <b>estrogen levels rise</b> and tip the balance toward proliferation: <span class="viva-hl">ERα is proliferative while ERβ is antiproliferative</span>.</li>
+        <li>Mechanisms include effects on apoptosis, aromatase activity and PGE2 paracrine signalling.</li>
+      </ul>
+      <h5>Epidemiology</h5>
+      <ul>
+        <li>Most common benign prostatic disease in men <b>&gt;50 yr</b>; ~30% of white American men have moderate–severe symptoms.</li>
+        <li><span class="viva-hl">Histologic BPH is present in up to 90% of men by age 80.</span></li>
+        <li><b>BPH is NOT a premalignant lesion</b> — it does not evolve into carcinoma.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>Ageing shifts the androgen/estrogen balance: rising testosterone is converted to DHT in the stroma by type 2 5α-reductase; DHT–AR signaling drives stroma and, via FGF paracrine loops, epithelium to proliferate. Relative estrogen excess further stimulates growth through ERα, giving the mixed glandular + fibromuscular nodules of BPH.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (BPH).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s2" data-q="Q10">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q10</span><span class="qcat">Prostate · BPH</span></div>
+      <div class="q">Write down the morphology of BPH.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — BPH Morphology</h4>
+      <p>BPH produces nodular enlargement of the prostate, driven by the hormonal mechanisms described in Q9. The morphology is best described at two levels — gross (macroscopic) and microscopic.</p>
+      <h5>Gross</h5>
+      <ul>
+        <li>Prostate weight increases <b>3–5× (60–100 g</b>, normal ~20 g).</li>
+        <li><span class="viva-hl">The <b>transition + periurethral zones</b> are affected</span> — the lateral lobes compress the urethra into a <b>slit-like orifice</b>, which is why obstruction is the dominant symptom.</li>
+        <li>On the cut surface there are discrete <b>nodules</b> that vary in composition: <b>glandular</b> nodules (yellow-pink, soft, exuding milky fluid) vs <b>fibromuscular</b> nodules (pale gray, firm).</li>
+      </ul>
+      <h5>Microscopy</h5>
+      <ul>
+        <li>Glands are small to cystic, and each is lined by <b>two cell layers</b> — an inner columnar secretory layer and an outer cuboidal/flattened <b>basal</b> layer (this is the key difference from carcinoma, which lacks a basal layer).</li>
+        <li>The glands show <b>papillary infoldings</b> into their lumina, and the stroma is composed of bland spindle cells (fibromuscular).</li>
+        <li><b>Corpora amylacea</b> (concentrically laminated inspissated secretions) are common.</li>
+        <li>Marked enlargement may produce <b>prostatic infarcts</b>, with adjacent <b>squamous metaplasia</b> of surviving glands.</li>
+      </ul>
+      <h5>Clinical consequences</h5>
+      <ul>
+        <li>Bladder outlet obstruction → <b>bladder hypertrophy, trabeculation and diverticula</b>, distension and <b>residual urine</b> (a source of infection).</li>
+        <li>Symptoms: <b>frequency, nocturia, hesitancy, overflow dribbling, dysuria</b>; risk of bladder/kidney infections; acute urinary retention requiring catheterization.</li>
+      </ul>
+      <div class="tip">Key discriminator vs cancer: BPH glands <b>keep the basal cell layer</b> and are <b>not</b> single-layer glands.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (BPH).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s2" data-q="Q11">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q11</span><span class="qcat">Prostate · BPH vs Cancer</span></div>
+      <div class="q">Difference between benign prostatic hyperplasia and malignant prostatic hyperplasia.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — BPH vs Prostatic Carcinoma</h4>
+      <p>BPH ("benign prostatic hyperplasia") and prostatic carcinoma are both very common in older men, but they are fundamentally different diseases: BPH is a <b>benign, hormone-driven hyperplasia of the transition zone</b>, whereas carcinoma is a <b>malignant neoplasm of the peripheral zone</b>. The table below gives the complete comparison.</p>
+      <table>
+        <tr><th>Feature</th><th>BPH</th><th>Prostatic carcinoma</th></tr>
+        <tr><td><b>Zone</b></td><td><b>Transition + periurethral</b></td><td><b>Peripheral zone (~70%)</b> → palpable on DRE</td></tr>
+        <tr><td><b>Age</b></td><td>&gt;50 yr (histologic in 90% by 80)</td><td>Older men; autopsy 20% in 50s → 70% at 70–80</td></tr>
+        <tr><td><b>Nature</b></td><td><b>Benign</b>, NOT premalignant</td><td><b>Malignant</b> — invasive + metastatic</td></tr>
+        <tr><td><b>Gross</b></td><td>Nodular enlargement, soft</td><td>Gritty, firm, ill-defined</td></tr>
+        <tr><td><b>Gland layers</b></td><td><b>Two cell layers</b> (basal + luminal), papillary infoldings</td><td><b>Single layer</b>, tightly packed, <b>no basal layer</b></td></tr>
+        <tr><td><b>Nuclei</b></td><td>Bland, no nucleoli</td><td>Enlarged, <b>prominent nucleoli</b></td></tr>
+        <tr><td><b>Perineural invasion</b></td><td>Absent</td><td><b>Specific feature</b></td></tr>
+        <tr><td><b>IHC</b></td><td>Basal markers (p63/34βE12) <b>positive</b>; AMACR negative</td><td>Basal markers <b>negative</b>; <b>AMACR + (82–100%)</b></td></tr>
+        <tr><td><b>PSA</b></td><td>Mildly ↑ (with gland enlargement)</td><td>↑ (localized &amp; advanced) — organ-specific not cancer-specific</td></tr>
+        <tr><td><b>Spread</b></td><td>None (local obstruction only)</td><td>Perineural, seminal vesicles, <b>osteoblastic bone mets</b></td></tr>
+        <tr><td><b>Grading</b></td><td>—</td><td>Gleason score + Grade Groups</td></tr>
+        <tr><td><b>Treatment</b></td><td>α-blockers, 5α-reductase inhibitors, TURP</td><td>Surgery/radiation ± hormonal; androgen deprivation for mets</td></tr>
+      </table>
+      <h5>The one feature that decides everything</h5>
+      <ul>
+        <li>BPH glands retain their <b>basal cell layer</b>; carcinoma glands <b>lose it</b> — this is both the morphological rule and the basis of IHC (basal markers p63/34βE12 vs AMACR).</li>
+        <li>Anatomically, <b>BPH is central (transition zone)</b> and obstructs; <b>cancer is peripheral</b> and does not obstruct early — hence cancer is often asymptomatic and found on DRE or PSA.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>BPH is a hyperplasia driven by DHT/estrogen in the transition zone that keeps normal gland architecture (basal layer intact). Carcinoma arises in the peripheral zone when loss of the basal layer (plus AMACR upregulation and TMPRSS2–ETS fusion) lets single-layer glands invade — so presence/absence of the basal layer is the key morphological and IHC distinction.</div>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (Prostate).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s2" data-q="Q12">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s2a)">Q12</span><span class="qcat">Prostate · PSA</span></div>
+      <div class="q">Short note on Prostate Specific Antigen (PSA).</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — PSA (Prostate-Specific Antigen)</h4>
+      <p>PSA is a protein produced almost exclusively by <b>prostatic epithelium</b>. It is normally present in semen, where it acts as an <b>androgen-regulated serine protease that liquefies the seminal coagulum</b> after ejaculation; only minute amounts leak into the blood.</p>
+      <h5>When PSA rises</h5>
+      <ul>
+        <li>It rises in <b>prostate cancer</b> (localized AND advanced), but also in benign conditions that damage or stimulate the prostate: <b>BPH, acute/chronic prostatitis, prostatic infarction, instrumentation (biopsy/cystoscopy), and recent ejaculation</b>.</li>
+        <li><span class="viva-hl">PSA is therefore <b>organ-specific but NOT cancer-specific</b></span> — an elevated level is a clue, not a diagnosis.</li>
+        <li>Because of this overlap, its <b>sensitivity and specificity as a screening test are suboptimal</b>.</li>
+      </ul>
+      <h5>The screening controversy</h5>
+      <ul>
+        <li>PSA screening detects many cancers that are <b>clinically insignificant</b> — men who would never have been harmed by their tumour → <b>overdiagnosis and overtreatment</b> (with incontinence/impotence risks of therapy).</li>
+        <li>For this reason the <b>UK recommends AGAINST routine PSA screening</b>; other bodies advise shared decision-making.</li>
+        <li><span class="viva-hl">However, <b>serial PSA measurement after diagnosis is excellent for monitoring recurrence and progression</b></span> — a rising PSA after treatment predicts relapse before symptoms or imaging.</li>
+        <li>Localized cancer is usually <b>asymptomatic</b> and is discovered on a <b>DRE nodule or elevated PSA</b>, then confirmed by <b>transrectal ultrasound-guided needle biopsy</b>.</li>
+      </ul>
+      <h5>Treatment context (why PSA matters in management)</h5>
+      <ul>
+        <li>Localized high-risk → <b>radical prostatectomy</b> or radiation ± hormonal therapy (&gt;90% live 15 yr); low-volume low-grade → <b>active surveillance</b>.</li>
+        <li>Metastatic disease → <b>androgen deprivation</b> (orchiectomy or LHRH agonists), which eventually fails → castration-resistant prostate cancer.</li>
+        <li>PSA level/velocity is used to stratify risk, decide imaging, and judge response to all of these treatments.</li>
+      </ul>
+      <div class="src"><b>Source:</b> Robbins &amp; Kumar Basic Pathology, Ch. 21 (PSA).</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<section id="s3" class="sechead s3">
+  <h2>Item 15C · Semen — Q13–22</h2>
+  <span class="cnt">10 cards</span>
+  <p>Semen analysis: indications, collection, importance, prerequisites, normal report, terminology, causes &amp; investigation of male infertility.</p>
+</section>
+<div class="deck">
+
+<div class="card" data-sec="s3" data-q="Q13">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q13</span><span class="qcat">Semen · Indications</span></div>
+      <div class="q">What are the indications of semen analysis?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Indications of Semen Analysis</h4>
+      <p>Semen analysis is the laboratory examination of the ejaculate — volume, sperm concentration/count, motility, morphology, vitality, pH and liquefaction — standardized against <b>WHO reference values</b>. It is requested in the following situations:</p>
+      <ul>
+        <li><b>Male factor infertility</b> — the standard first investigation when a couple fails to conceive (usually after ~1 year of unprotected intercourse). It separates male from female causes.</li>
+        <li><b>Post-vasectomy confirmation</b> — to verify azoospermia after vasectomy (requires 2 consecutive negative samples before declaring sterility).</li>
+        <li><b>Evaluation after vasectomy reversal / orchidopexy</b> — to confirm re-establishment of sperm flow and monitor recovery.</li>
+        <li><b>Assessment of gonadal toxicity</b> — after chemotherapy, radiotherapy, or significant environmental/occupational exposure to toxins and heat.</li>
+        <li><b>Pre-IVF/ICSI planning</b> — results decide the assisted-reproduction strategy (IUI vs IVF vs ICSI).</li>
+        <li><b>Sperm donor screening</b> — to ensure donor samples meet quality standards for use.</li>
+        <li><b>Medicolegal / forensic</b> cases — detection and confirmation of semen for legal purposes.</li>
+      </ul>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th ed., 2021.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q14">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q14</span><span class="qcat">Semen · Collection</span></div>
+      <div class="q">How is the specimen collected for semen analysis?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Collection of the Specimen</h4>
+      <p>The reliability of a semen report depends completely on correct collection. Small errors — a lost drop, a wrong container, or delay — can turn a normal sample into an apparently abnormal one.</p>
+      <ul>
+        <li>Method: <b>masturbation</b> into a <b>sterile, wide-mouthed, non-toxic container</b>, ideally at the laboratory so there is no transport delay.</li>
+        <li><b>No lubricants or condoms</b> — most lubricants are spermicidal and will kill sperm; plain sterile container only.</li>
+        <li><b>The complete sample must be collected</b> — the first (sperm-rich) fraction of the ejaculate carries the majority of sperm; losing it invalidates the test.</li>
+      </ul>
+      <h5>Timing &amp; transport</h5>
+      <ul>
+        <li>Deliver to the laboratory <b>within 1 hour</b> of collection, keeping the sample at <b>20–37 °C</b> (body temperature) during transport — cold or heat destroys motility.</li>
+        <li>Label the container with <b>name, date, time of collection and abstinence period</b>.</li>
+        <li>Because semen shows natural day-to-day variation, an abnormal first result must be <b>confirmed by repeating the test 2–4 weeks apart</b> (2 samples minimum).</li>
+      </ul>
+      <div class="tip">The first portion of the ejaculate contains the majority of sperm — losing it is the commonest cause of a falsely low count.</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 6th ed., 2021.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q15">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q15</span><span class="qcat">Semen · Importance</span></div>
+      <div class="q">Mention the importance of semen analysis.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Importance of Semen Analysis</h4>
+      <p>Semen analysis is the single most important laboratory test in the evaluation of male fertility, and it also serves several non-fertility purposes.</p>
+      <ul>
+        <li><b>Cornerstone of male fertility evaluation</b> — it is the first and most informative test for the infertile couple; a normal result directs attention to the female partner or to functional/sperm-quality problems.</li>
+        <li><b>Diagnoses the cause of male infertility</b> — it objectively identifies oligospermia, azoospermia, asthenozoospermia, teratozoospermia, necrospermia, etc., which guides the next steps.</li>
+        <li><b>Confirms the success of vasectomy</b> — showing azoospermia after vasectomy is essential before the man can be considered sterile and stop contraception.</li>
+        <li><b>Guides the choice of treatment</b> — normal parameters may allow timed intercourse or IUI; severe oligo/astheno/teratozoospermia leads to IVF or ICSI.</li>
+        <li><b>Monitors therapy</b> — e.g., improvement after varicocele repair, hormonal treatment, or recovery of spermatogenesis after chemotherapy.</li>
+        <li><b>Screens sperm donors</b> — quality control of samples used in assisted reproduction.</li>
+        <li><b>Medicolegal value</b> — detection of semen in forensic cases.</li>
+      </ul>
+      <div class="tip">A normal semen analysis is reassuring, but a <b>single abnormal report must be repeated</b> because of day-to-day variability.</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 6th ed., 2021.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q16">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q16</span><span class="qcat">Semen · Prerequisites</span></div>
+      <div class="q">What are the prerequisites of semen analysis?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Prerequisites (Patient Preparation)</h4>
+      <p>For a semen analysis to be valid, the <b>patient must be prepared and the sample collected correctly</b>. If the pre-analytical conditions are wrong, the whole report becomes unreliable regardless of laboratory skill.</p>
+      <ul>
+        <li><b>Abstinence: 2–7 days</b> (ideally 2–3 days) — this controls the "storage" of sperm in the epididymis. <span class="viva-hl">Too long an abstinence lowers motility and raises dead/abnormal forms; too short lowers the count</span>, since the epididymis is not re-filled.</li>
+        <li>Avoid <b>alcohol, drugs and recent febrile illness</b> — a fever transiently suppresses spermatogenesis, and because spermatogenesis takes ~<b>74 days</b> to complete, the effect appears <b>~2–3 months later</b> and takes that long to recover.</li>
+        <li><b>No lubricants or spermicidal agents</b> during collection — most lubricants kill sperm and would invalidate the test.</li>
+        <li><b>Complete collection</b> — the <b>first (sperm-rich) fraction</b> must not be lost; losing it falsely lowers the count.</li>
+        <li>Use a <b>sterile, wide-mouthed, non-toxic container</b> (ideally a pre-weighed one) — avoids spillage, contamination and weight errors for volume measurement.</li>
+        <li>Deliver <b>within 1 hour</b>, kept at <b>20–37 °C</b> during transport — both cold and heat destroy sperm motility.</li>
+        <li>Proper <b>labeling</b> — name, date, time of collection, and abstinence period, so the lab can interpret the sample.</li>
+        <li><b>Repeat samples</b> if abnormal — 2 samples taken <b>2–4 weeks apart</b>, because normal day-to-day biological variability can produce a single abnormal result by chance.</li>
+      </ul>
+      <div class="warn">Wrong abstinence time, lost first fraction, or delay &gt;1 hour invalidate the result.</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 6th ed., 2021.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q17">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q17</span><span class="qcat">Semen · Normal Report</span></div>
+      <div class="q">Write a normal semen analysis report.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Normal Semen Analysis (WHO reference values)</h4>
+      <p>A normal (normozoospermic) report simply lists each measured parameter alongside the WHO lower reference limit; the examiner wants you to <b>quote the reference values</b> and know that a single value below the limit only becomes abnormal if <b>confirmed on a second sample</b>.</p>
+      <table>
+        <tr><th>Parameter</th><th>WHO 2021 (6th ed.)</th><th>WHO 2010 (5th ed.)</th></tr>
+        <tr><td><b>Volume</b></td><td>≥ 1.4 mL</td><td>≥ 1.5 mL</td></tr>
+        <tr><td><b>pH</b></td><td>≥ 7.2</td><td>≥ 7.2</td></tr>
+        <tr><td><b>Liquefaction</b></td><td>Within 60 min</td><td>Within 60 min</td></tr>
+        <tr><td><b>Sperm concentration</b></td><td>≥ 16 million/mL</td><td>≥ 15 million/mL</td></tr>
+        <tr><td><b>Total sperm number</b></td><td>≥ 39 million/ejaculate</td><td>≥ 39 million/ejaculate</td></tr>
+        <tr><td><b>Total motility</b></td><td>≥ 42%</td><td>≥ 40%</td></tr>
+        <tr><td><b>Progressive motility (PR)</b></td><td>≥ 30%</td><td>≥ 32%</td></tr>
+        <tr><td><b>Vitality</b></td><td>≥ 54%</td><td>≥ 58%</td></tr>
+        <tr><td><b>Normal morphology</b></td><td>≥ 4%</td><td>≥ 4%</td></tr>
+        <tr><td><b>Leukocytes</b></td><td>&lt; 1 million/mL</td><td>&lt; 1 million/mL</td></tr>
+      </table>
+      <h5>How to read the report</h5>
+      <ul>
+        <li>Each parameter is compared with the reference: <b>low volume</b> (hypo-/aspermia) may reflect short abstinence or retrograde ejaculation; <b>low count</b> = oligospermia; <b>low motility</b> = asthenozoospermia; <b>low normal forms</b> = teratozoospermia; <b>raised leukocytes</b> suggests infection/prostatitis.</li>
+        <li>A value below the lower reference limit on <b>two consecutive samples</b> is considered abnormal — never report a man infertile on a single sample.</li>
+      </ul>
+      <div class="tip"><b>Memory:</b> "15, 39, 40, 32, 58, 4" — concentration 15 M/mL, total 39 M, total motility 40%, progressive 32%, vitality 58%, morphology 4%.</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 5th ed. (2010) and 6th ed. (2021).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q18">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q18</span><span class="qcat">Semen · Definitions</span></div>
+      <div class="q">Define: Oligospermia, Azoospermia, Necrospermia.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Definitions</h4>
+      <p>These terms describe abnormalities of the <b>spermatozoa themselves</b> and are defined against the WHO lower reference limits. The examiner wants the exact definition plus the meaning of each.</p>
+      <ul>
+        <li><b>Oligospermia (oligozoospermia):</b> sperm concentration below the lower reference limit — <b>&lt; 15 million/mL</b> (WHO 2010) / &lt; 16 million/mL (WHO 2021). The term means "few sperm" — it does not distinguish whether the problem is production (testicular) or transport (obstruction).</li>
+        <li><b>Azoospermia:</b> <b>no spermatozoa in the ejaculate</b> — confirmed by examination of the <b>centrifuged deposit</b>, on <b>≥ 2 samples</b> (so that an error or a missed low count is excluded). It is further divided into <b>obstructive</b> (normal production, blocked ducts — vas, epididymis) and <b>non-obstructive</b> (testicular failure — Klinefelter, Sertoli-only, post-chemo).</li>
+        <li><b>Necrospermia (necrozoospermia):</b> all (or nearly all) spermatozoa are <b>dead</b> — i.e., vitality is below the reference (<b>&lt; 54% in WHO 2021 / &lt; 58% in WHO 2010</b>). It must be interpreted carefully, because a sperm that is immotile may simply be dead in the sample rather than in the body.</li>
+      </ul>
+      <table>
+        <tr><th>Term</th><th>Essential point</th></tr>
+        <tr><td><b>Oligospermia</b></td><td>Too few sperm (concentration ↓)</td></tr>
+        <tr><td><b>Azoospermia</b></td><td>No sperm at all (obstructive or testicular failure)</td></tr>
+        <tr><td><b>Necrospermia</b></td><td>Sperm present but all/nearly all dead</td></tr>
+      </table>
+      <div class="tip"><b>Related terms:</b> aspermia (no ejaculate / ejaculate volume 0), hypospermia (low volume), and cryptozoospermia (sperm found only after centrifugation).</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 5th ed. (2010) / 6th ed. (2021).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q19">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q19</span><span class="qcat">Semen · Normozoospermia</span></div>
+      <div class="q">Give the properties of normozoospermia.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Properties of Normozoospermia</h4>
+      <p><b>Normozoospermia</b> = a semen sample in which <b>all parameters are within the WHO reference ranges</b> (i.e., a completely normal report). The properties below are the checks the laboratory performs and that define the condition.</p>
+      <ul>
+        <li><b>Physical properties:</b> volume <b>≥ 1.5 mL</b> (2010) / ≥ 1.4 mL (2021); pH <b>≥ 7.2</b> (slightly alkaline); liquefies within <b>60 min</b> (normally 15–30 min); appearance opalescent/whitish, initially viscous then liquefied.</li>
+        <li><b>Count:</b> sperm concentration <b>≥ 15 million/mL</b> (2010) / ≥ 16 million/mL (2021), i.e., total <b>≥ 39 million per ejaculate</b>.</li>
+        <li><b>Motility:</b> total motility <b>≥ 40%</b> (2021: ≥ 42%); progressive motility (PR) <b>≥ 32%</b> (2021: ≥ 30%). Motility is graded as progressive (PR), non-progressive (NP) or immotile (IM).</li>
+        <li><b>Vitality:</b> <b>≥ 58%</b> live sperm (2021: ≥ 54%) — assessed by eosin/nigrosin or hypoosmotic swelling; a low vitality explains low motility.</li>
+        <li><b>Morphology:</b> normal forms <b>≥ 4%</b> by <b>strict (Kruger) criteria</b> — measuring head, midpiece and tail defects.</li>
+        <li><b>Extraneous cells:</b> leukocytes <b>&lt; 1 million/mL</b>; no significant sperm agglutination, no microorganisms (culture-negative), no blood.</li>
+      </ul>
+      <div class="tip">Simply put: <b>every parameter normal = normozoospermia</b>. Any single parameter below its limit renames the sample (oligo-, astheno-, terato-zoospermia).</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 5th ed. (2010) / 6th ed. (2021).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q20">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q20</span><span class="qcat">Semen · Terms</span></div>
+      <div class="q">What is: Normozoospermia, Hyperzoospermia, Teratozoospermia, Asthenozoospermia?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Terminology</h4>
+      <p>These WHO terms describe the <b>quality of the spermatozoa</b> (number, shape, movement) in a sample. The examiner will want each term defined against its reference value — and note that <b>several can coexist</b> in one sample.</p>
+      <table>
+        <tr><th>Term</th><th>Definition</th></tr>
+        <tr><td><b>Normozoospermia</b></td><td>All semen parameters within WHO reference values (normal)</td></tr>
+        <tr><td><b>Hyperzoospermia</b></td><td>Sperm concentration <b>above the upper reference</b> (commonly &gt; 250 million/mL)</td></tr>
+        <tr><td><b>Teratozoospermia</b></td><td><b>Abnormal sperm morphology</b> — normal forms &lt; 4% (strict Kruger criteria)</td></tr>
+        <tr><td><b>Asthenozoospermia</b></td><td><b>Reduced sperm motility</b> — total motility &lt; 40% (2010), i.e., &lt; 42% (2021); progressive &lt; 30–32%</td></tr>
+      </table>
+      <h5>Why these three matter together</h5>
+      <ul>
+        <li>Concentration, motility and morphology are the three "essential" sperm parameters, each measured by a different technique (counting chamber, motility grading, morphology smear).</li>
+        <li>They are <b>often reduced together</b> because they share common causes (varicocele, infection, hormones, toxins) — the combined pattern is <b>oligoasthenoteratozoospermia (OAT)</b>.</li>
+      </ul>
+      <div class="tip"><b>Combination:</b> oligoasthenoteratozoospermia (OAT) = all three defects — the commonest abnormal pattern.</div>
+      <div class="src"><b>Source:</b> WHO Laboratory Manual, 5th ed. (2010) / 6th ed. (2021).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q21">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q21</span><span class="qcat">Semen · Infertility causes</span></div>
+      <div class="q">Causes of male infertility.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Causes of Male Infertility</h4>
+      <p>Male infertility is classically divided by the <b>level of the defect</b>: before the testis (hormonal), at the testis (production failure), or after the testis (transport/ejaculation). Most causes fall into the first two groups, but the commonest single identifiable cause is the correctable <b>varicocele</b>.</p>
+      <h5>1. Pretesticular (hypothalamo–pituitary–gonadal)</h5>
+      <ul>
+        <li><b>Hypogonadotropic hypogonadism</b> — <b>Kallmann syndrome</b> (anosmia + GnRH deficiency), pituitary tumours, trauma, radiotherapy — too little FSH/LH means the testis is not stimulated.</li>
+        <li><b>Hyperprolactinemia</b> (prolactinomas suppress LH/FSH), thyroid and adrenal disease.</li>
+        <li><b>Drugs:</b> anabolic steroids (suppress gonadotrophins), opiates, spironolactone, cimetidine, ketoconazole; <b>alcohol and marijuana</b>.</li>
+      </ul>
+      <h5>2. Testicular (intrinsic / primary gonadal failure)</h5>
+      <ul>
+        <li><b>Chromosomal:</b> <b>Klinefelter syndrome (47,XXY)</b> — the commonest genetic cause of azoospermia (small firm testes, gynecomastia, tall stature).</li>
+        <li><b>Varicocele</b> — dilated pampiniform plexus; venous stasis raises scrotal temperature → impaired spermatogenesis; <b>most common correctable cause</b>.</li>
+        <li><b>Cryptorchidism</b> (undescended testis — germ-cell damage from abdominal temperature), <b>torsion, trauma</b>.</li>
+        <li><b>Orchitis</b> — especially <b>mumps orchitis</b> after puberty; irradiation and <b>chemotherapy</b> (gonadotoxic).</li>
+        <li><b>Sertoli-cell-only syndrome</b>, germ-cell <b>maturation arrest</b>, <b>anorchia</b> ("vanishing testis" syndrome).</li>
+        <li>Systemic disease: cirrhosis, chronic renal failure, malnutrition, and any <b>febrile illness</b> (transient suppression).</li>
+      </ul>
+      <h5>3. Post-testicular (ductal obstruction / ejaculatory)</h5>
+      <ul>
+        <li><b>Obstructive azoospermia:</b> <b>CBAVD — congenital bilateral absence of the vas deferens (CFTR mutations)</b>, epididymal obstruction (post-infection), ejaculatory duct obstruction.</li>
+        <li><b>Vasectomy</b> — the commonest intentional obstruction (reversible by re-anastomosis).</li>
+        <li><b>Retrograde ejaculation</b> — <b>diabetic neuropathy</b>, prostatectomy, α-blockers, spinal cord injury; sperm pass backwards into the bladder.</li>
+        <li><b>Immunologic:</b> <b>antisperm antibodies</b> after infection/injury or vasectomy reversal → sperm agglutination and poor penetration.</li>
+        <li>Sexual/ejaculatory dysfunction and penile factors (hypospadias, erectile dysfunction).</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>Fertility needs (a) gonadotrophin drive (pretesticular), (b) intact spermatogenesis in seminiferous tubules (testicular), and (c) patent ducts plus forward ejaculation (post-testicular). A defect at any level — hormone deficiency, tubular damage (heat, toxins, karyotype), or ductal block — interrupts the delivery of viable sperm.</div>
+      <div class="src"><b>Source:</b> WHO Manual; Robbins Basic Pathology (Male reproductive system).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s3" data-q="Q22">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s3a)">Q22</span><span class="qcat">Semen · Investigation</span></div>
+      <div class="q">How will you investigate a case of male infertility?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Investigation of Male Infertility</h4>
+      <p>The investigation follows a <b>logical order</b> — history → repeated semen analysis → hormones → imaging → genetics → biopsy. The aim is to identify the level of the defect (pretesticular / testicular / post-testicular) so the right treatment or ART can be chosen.</p>
+      <ul>
+        <li><b>History + clinical examination:</b> drug use, past <b>fever</b>, surgery (hernia, vasectomy), occupational/thermal exposure; examine <b>testicular volume</b> (small firm testes → Klinefelter), palpate for <b>varicocele</b>, check secondary sexual characters and gynaecomastia.</li>
+        <li><b>Repeat semen analysis</b> — <b>2 samples, 2–4 weeks apart</b> (single samples are unreliable because of day-to-day variability); confirm azoospermia on the centrifuged deposit.</li>
+        <li><b>Hormonal profile:</b> <b>FSH, LH, testosterone</b>, prolactin. <span class="viva-hl">High FSH + small testes → primary testicular failure; low FSH/LH + low testosterone → hypogonadotropic (pretesticular)</span>.</li>
+        <li><b>Imaging:</b> <b>scrotal ultrasound + Doppler</b> (varicocele, testicular mass, epididymal pathology); <b>transrectal US</b> (ejaculatory duct obstruction, seminal vesicle size); <b>MRI</b> of the pituitary (tumour) when FSH/LH are low.</li>
+        <li><b>Post-ejaculatory urine</b> — finding sperm in urine confirms <b>retrograde ejaculation</b>.</li>
+        <li><b>Genetic testing:</b> <b>karyotype</b> (Klinefelter 47,XXY), <b>CFTR mutations</b> (CBAVD — also screen the partner), and <b>Y-chromosome microdeletions (AZF)</b> before ICSI (the deletion can be inherited by male offspring).</li>
+        <li><b>Testicular biopsy</b> — the key test in azoospermia: it distinguishes <b>obstructive</b> (normal spermatogenesis — sperm can be retrieved by PESA/TESE) from <b>non-obstructive</b> (Sertoli-cell-only or maturation arrest).</li>
+        <li><b>Antisperm antibodies</b> — <b>MAR test</b> (mixed antiglobulin reaction) for unexplained infertility and after vasectomy reversal.</li>
+        <li>Specialized: sperm DNA fragmentation index, functional tests — usually reserved for planning <b>ICSI</b>.</li>
+      </ul>
+      <div class="tip">FSH is the key discriminator: <b>normal FSH</b> with azoospermia → suspect <b>obstruction</b>; <b>high FSH</b> → primary testicular failure.</div>
+      <div class="src"><b>Source:</b> WHO Manual; AUA/ASRM male infertility guidelines.</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<section id="s4" class="sechead s4">
+  <h2>Item 25 · Autopsy &amp; Histopathology — Q1–8</h2>
+  <span class="cnt">8 cards</span>
+  <p>Biopsy &amp; autopsy, core biopsy, histopathology steps, frozen section, tissue preservatives, fixation, tissue processing, staining.</p>
+</section>
+<div class="deck">
+
+<div class="card" data-sec="s4" data-q="Q1">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q1</span><span class="qcat">Item 25 · Biopsy vs Autopsy</span></div>
+      <div class="q">What is biopsy and autopsy? How histopathology helps the autopsy procedure?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Biopsy, Autopsy &amp; Histopathology</h4>
+      <p><b>Biopsy</b> and <b>autopsy</b> are two complementary ways of obtaining tissue for diagnosis — one from the <b>living</b> patient, one from the <b>dead</b> — and <b>histopathology</b> is the laboratory discipline that turns that tissue into diagnostic information in both settings.</p>
+      <ul>
+        <li><b>Biopsy</b> = removal of a small piece of tissue from a <b>living</b> patient for diagnostic examination (e.g., tumour typing/grading, confirming inflammation, transplant surveillance).</li>
+        <li><b>Autopsy (post-mortem examination / necropsy)</b> = systematic examination of a <b>dead body</b> to determine the <b>cause of death</b>, document the extent of disease, and assess the quality of medical care.</li>
+      </ul>
+      <h5>Autopsy types</h5>
+      <ul>
+        <li><b>Clinical / academic (hospital):</b> done with <b>consent</b>; goals = confirm diagnosis, quality assurance, teaching and research.</li>
+        <li><b>Medicolegal / forensic:</b> ordered by the <b>coroner/authority</b> in unnatural, suspicious or sudden deaths; answers legal questions (natural vs unnatural death, injury dating).</li>
+        <li><b>Complete vs limited</b> — e.g., organ-restricted examination (heart/brain only).</li>
+      </ul>
+      <h5>How histopathology helps the autopsy</h5>
+      <ul>
+        <li><b>Confirms the gross (macroscopic) diagnosis</b> and corrects discrepancies between clinical and post-mortem findings.</li>
+        <li><b>Identifies the cause of death</b> when gross findings are inconclusive — e.g., <b>early myocardial infarction</b> is grossly invisible for hours but shows coagulation necrosis microscopically within ~<b>4–6 h</b>; also pneumonia, myocarditis, sepsis, pulmonary embolism.</li>
+        <li><b>Detects clinically silent disease</b> — occult tumours, incidental findings (e.g., small pulmonary emboli).</li>
+        <li><b>Documents disease extent</b> — staging, spread and grading of a known disease.</li>
+        <li><b>Negative (exclusionary) findings</b> — e.g., ruling out suspected infection or neoplasm.</li>
+        <li><b>Quality assurance / audit</b> — comparing antemortem vs post-mortem diagnoses (correlates the accuracy of clinical tests) and monitoring the effect of therapy.</li>
+        <li><b>Medicolegal</b> — establishing natural vs unnatural death and dating injuries (age of wound by histology).</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>An autopsy proceeds as: external examination → internal (organ) examination with gross photography and sampling → histopathology of the sampled organs. Microscopy then confirms the cause of death (especially early/subtle lesions), quantifies disease, and produces the definitive autopsy report — so histopathology is the final arbiter of the autopsy's conclusions.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble, Theory and Practice of Histological Techniques; Robbins Basic Pathology.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q2">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q2</span><span class="qcat">Item 25 · Biopsy types</span></div>
+      <div class="q">Define &amp; classify biopsy. Write shortly on core biopsy.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Biopsy: Definition &amp; Classification</h4>
+      <p><b>Biopsy</b> = removal of tissue from a <b>living</b> patient for diagnostic examination (microscopic diagnosis of disease). The technique is chosen by the <b>site, size and nature</b> of the lesion and by how much tissue is needed for diagnosis.</p>
+      <h5>Classification</h5>
+      <table>
+        <tr><th>Type</th><th>Description &amp; use</th></tr>
+        <tr><td><b>Incisional biopsy</b></td><td>Excision of a <b>portion</b> of a large lesion (e.g., breast lump, soft-tissue mass) — gives diagnosis of large/unresectable lesions</td></tr>
+        <tr><td><b>Excisional biopsy</b></td><td>Removal of the <b>entire</b> lesion (e.g., small skin nodule, lymph node) — both diagnosis and treatment of small lesions</td></tr>
+        <tr><td><b>Core needle biopsy</b></td><td>Wide-bore needle (14–18 G) obtains a <b>core of tissue preserving architecture</b></td></tr>
+        <tr><td><b>Fine needle aspiration (FNA/FNAC)</b></td><td>Thin needle (22–25 G); obtains <b>cells, not tissue</b> — cytology</td></tr>
+        <tr><td><b>Punch biopsy</b></td><td>Circular blade cuts a full-thickness disc — <b>skin</b> (inflammatory/dysplastic dermatoses)</td></tr>
+        <tr><td><b>Shave biopsy</b></td><td>Superficial skin lesions (naevi, polyps)</td></tr>
+        <tr><td><b>Endoscopic biopsy</b></td><td>Forceps through an endoscope — GI, bronchus, bladder</td></tr>
+        <tr><td><b>Frozen section</b></td><td>Rapid intraoperative diagnosis (fresh tissue, cryostat)</td></tr>
+        <tr><td><b>Special</b></td><td>Bone marrow trephine/aspiration; cone biopsy (cervix); curettage (endometrium)</td></tr>
+      </table>
+      <h5>Core biopsy (shortly)</h5>
+      <ul>
+        <li>Wide-bore needle (<b>14–18 G</b>, spring-loaded or vacuum-assisted) takes a <b>tissue core that preserves architecture</b> — stroma + glandular pattern retained, unlike FNAC.</li>
+        <li>Uses: <b>prostate (TRUS-guided, often 12 cores)</b>, breast, liver, kidney, lung, soft tissue — the standard for most solid-organ diagnosis.</li>
+        <li>Advantages: allows <b>grading</b> and assessment of <b>invasion</b>, and provides tissue for <b>IHC, special stains and molecular tests</b>; fewer false negatives than FNAC; usually image-guided and done under local anesthesia.</li>
+        <li>Risks: bleeding, infection, rarely pneumothorax or needle-tract seeding — higher than FNAC but much lower than open surgical biopsy.</li>
+      </ul>
+      <div class="tip">Choose FNAC for <b>cells</b> (screening, thyroid, lymph node) and core biopsy for <b>tissue/architecture</b> (grading, invasion, IHC).</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble; Robbins Basic Pathology (Methods in pathology).</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q3">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q3</span><span class="qcat">Item 25 · Histopathology steps</span></div>
+      <div class="q">State the steps in histopathology.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Steps in Histopathology (tissue → section)</h4>
+      <p>The tissue removed at biopsy reaches the microscope only after a <b>sequence of preparation steps</b>. Each step prepares the sample for the next, and together they convert a soft, watery tissue into thin, stained sections that preserve architecture.</p>
+      <div class="flow">
+        <span>Fixation</span><i>→</i>
+        <span>Dehydration</span><i>→</i>
+        <span>Clearing</span><i>→</i>
+        <span>Wax impregnation</span><i>→</i>
+        <span>Embedding</span><i>→</i>
+        <span>Sectioning</span><i>→</i>
+        <span>Staining</span><i>→</i>
+        <span>Mounting</span><i>→</i>
+        <span>Microscopy &amp; report</span>
+      </div>
+      <ul>
+        <li><b>1. Fixation</b> — preserve tissue, prevent autolysis/putrefaction and harden it (<b>10% neutral buffered formalin</b>, ~24 h).</li>
+        <li><b>2. Dehydration</b> — remove water with <b>ascending grades of alcohol</b> (70% → 95% → 100% ethanol); water would not mix with the paraffin wax.</li>
+        <li><b>3. Clearing</b> — replace alcohol with a clearing agent miscible with wax (<b>xylene</b>); tissue becomes translucent and the alcohol no longer blocks wax penetration.</li>
+        <li><b>4. Wax impregnation</b> — infiltrate with <b>molten paraffin wax</b> (44–60 °C oven) so the tissue is fully permeated by a cuttable medium.</li>
+        <li><b>5. Embedding</b> — orient the tissue in a <b>wax block</b> that sets hard for cutting.</li>
+        <li><b>6. Sectioning</b> — the <b>microtome</b> cuts ribbons of <b>3–5 µm</b> sections which are floated onto slides.</li>
+        <li><b>7. Staining</b> — routine <b>H&amp;E</b> (or special stains) makes components visible.</li>
+        <li><b>8. Mounting</b> — coverslip with a resinous mountant (e.g., <b>DPX</b>) to protect and preserve the section.</li>
+        <li><b>9. Reporting</b> — microscopic examination under the microscope + a written histopathology report.</li>
+      </ul>
+      <div class="mech"><h6>Why the order matters</h6>Water and paraffin are immiscible, so the tissue must be carried stepwise: fixative cross-links proteins → alcohol replaces water → xylene replaces alcohol → wax replaces xylene. Skipping or shortening a step causes poor wax penetration and cutting artifacts.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble, Theory and Practice of Histological Techniques.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q4">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q4</span><span class="qcat">Item 25 · Frozen section</span></div>
+      <div class="q">What is Frozen Section? Write its indication, use, limitation.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Frozen Section</h4>
+      <p>A <b>frozen section</b> is a rapid tissue diagnosis made <b>while the patient is still on the operating table</b>, by freezing the fresh tissue instead of going through the multi-day paraffin process.</p>
+      <ul>
+        <li>Principle: fresh (unfixed) tissue is <b>frozen</b> (cryostat at −20 °C), cut into thin sections, and stained with a <b>quick H&amp;E / toluidine blue</b> — a diagnosis can be given in <b>~10–20 minutes</b>.</li>
+      </ul>
+      <h5>Indications</h5>
+      <ul>
+        <li><b>Margin assessment</b> — breast lumpectomy, skin (BCC/SCC), soft-tissue sarcoma: the surgeon wants to know in-surgery whether the excision is clear.</li>
+        <li><b>Lymph node staging</b> — <b>sentinel lymph node</b> for metastasis (breast, melanoma), which determines whether to do a full node dissection.</li>
+        <li><b>Tissue identification</b> — e.g., confirming <b>parathyroid</b> vs lymph node vs fat during neck/thyroid surgery.</li>
+        <li><b>Determining adequacy</b> of the specimen (is there enough diagnostic tissue?).</li>
+      </ul>
+      <h5>Uses</h5>
+      <ul>
+        <li>Guides the surgical decision <b>in the same sitting</b> and avoids a second operation.</li>
+      </ul>
+      <h5>Limitations</h5>
+      <ul>
+        <li><b>Ice-crystal artifacts</b> distort cell morphology (bubbly cytoplasm, crushed cells).</li>
+        <li>Thicker sections + <b>poorer morphology</b> than paraffin sections — subtle lesions are hard to grade.</li>
+        <li><b>Sampling error</b> — only a small portion is examined.</li>
+        <li>Limited special stains/IHC, and the <b>tissue is not permanently preserved</b>.</li>
+      </ul>
+      <div class="warn">The frozen-section report is <b>provisional</b> — permanent paraffin sections are the gold standard for the final diagnosis.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble; Robbins Basic Pathology.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q5">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q5</span><span class="qcat">Item 25 · Preservatives</span></div>
+      <div class="q">What is tissue preservatives? Name some preservatives &amp; aims. Mention steps of tissue processing.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Tissue Preservatives &amp; Processing</h4>
+      <p><b>Tissue preservatives</b> = agents that keep tissue from deteriorating after removal, preventing <b>autolysis</b> (self-digestion by the tissue's own enzymes) and <b>putrefaction</b> (decay by bacteria), so the sample remains fit for study.</p>
+      <h5>Common preservatives</h5>
+      <ul>
+        <li><b>10% neutral buffered formalin</b> — the most common (it is both a preservative and a fixative).</li>
+        <li><b>Alcohol (ethanol/methanol)</b> — used for cytology smears (wet fixation).</li>
+        <li><b>Glutaraldehyde</b> — the fixative of choice for <b>electron microscopy</b>.</li>
+        <li><b>Cold (4 °C) / freezing (−20/−80 °C)</b> — short-term preservation without chemical alteration.</li>
+        <li>Compound fixatives — Bouin's, Carnoy's, Zenker's (used for specific structures/enzymes).</li>
+      </ul>
+      <h5>Aims of preservation</h5>
+      <ul>
+        <li>Prevent <b>autolysis and putrefaction</b> from the moment of removal.</li>
+        <li>Preserve morphology <b>close to the living state</b>.</li>
+        <li>Keep the tissue suitable for later processing and staining.</li>
+      </ul>
+      <h5>Steps of tissue processing</h5>
+      <div class="flow">
+        <span>Fixation</span><i>→</i>
+        <span>Dehydration (ascending alcohol)</span><i>→</i>
+        <span>Clearing (xylene)</span><i>→</i>
+        <span>Wax impregnation</span><i>→</i>
+        <span>Embedding</span><i>→</i>
+        <span>Sectioning (microtome)</span><i>→</i>
+        <span>Staining</span><i>→</i>
+        <span>Mounting</span>
+      </div>
+      <h5>What each step does</h5>
+      <ul>
+        <li><b>Dehydration</b> removes water (ascending 70% → 100% alcohol); <b>clearing</b> removes alcohol (xylene) and makes the tissue miscible with wax; <b>impregnation</b> fills the tissue with molten paraffin; <b>embedding</b> creates a firm block; <b>sectioning</b> cuts 3–5 µm slices; <b>staining</b> (H&amp;E) makes structures visible; <b>mounting</b> preserves the section under a coverslip.</li>
+      </ul>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble; Culling's Handbook.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q6">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q6</span><span class="qcat">Item 25 · Fixatives</span></div>
+      <div class="q">What is fixatives? Mention aim of fixation. Classification of fixatives.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Fixation &amp; Fixatives</h4>
+      <p><b>Fixative</b> = a chemical (or physical) agent used to <b>fix (preserve) tissue</b> so that morphology is retained close to the living state and the tissue is <b>hardened</b> for sectioning. Fixation is the <b>first and most important step</b> of tissue handling.</p>
+      <h5>Aims of fixation</h5>
+      <ul>
+        <li>Preserve cells/tissues <b>close to the living state</b> (stop all ongoing cellular activity).</li>
+        <li><b>Prevent autolysis</b> (enzymatic self-digestion) and <b>putrefaction</b> (bacterial decay) — both begin within minutes of death/removal.</li>
+        <li><b>Harden</b> the tissue so that thin sections (3–5 µm) can be cut.</li>
+        <li>Permit <b>staining</b> — by cross-linking/denaturing proteins so that dyes can bind and produce contrast.</li>
+      </ul>
+      <h5>Classification with examples</h5>
+      <table>
+        <tr><th>Class</th><th>Examples</th><th>Notes</th></tr>
+        <tr><td><b>Simple</b></td><td>10% formalin, glutaraldehyde, alcohol, acetone</td><td>Single chemical</td></tr>
+        <tr><td><b>Compound / mixtures</b></td><td><b>Bouin's</b>, <b>Zenker's</b>, Carnoy's, formol-saline</td><td>Combine fixatives + additives (picric acid, mercury)</td></tr>
+        <tr><td><b>Microanatomical</b></td><td>Formaldehyde, glutaraldehyde, osmium tetroxide</td><td>Preserve fine structure (EM = glutaraldehyde + osmium)</td></tr>
+        <tr><td><b>Cytological</b></td><td>Alcohol (95% ethanol), acetone</td><td>Preserve individual cells (cytology smears)</td></tr>
+        <tr><td><b>Histochemical</b></td><td>Bouin's, Carnoy's</td><td>Preserve carbohydrates, enzymes, etc. for special staining</td></tr>
+      </table>
+      <h5>Why 10% neutral buffered formalin dominates</h5>
+      <ul>
+        <li>It preserves <b>antigens for immunohistochemistry</b> (IHC), is compatible with routine H&amp;E, and penetrates well.</li>
+        <li>"Neutral buffered" (pH 7) prevents formic-acid pigment formation; the commonest artefact of poor fixation is acid hematin or autolytic change.</li>
+      </ul>
+      <div class="tip"><b>Most common overall = 10% neutral buffered formalin</b> — preserves antigens for IHC, compatible with H&amp;E.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble; Culling's Handbook.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q7">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q7</span><span class="qcat">Item 25 · Processing</span></div>
+      <div class="q">Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Tissue Processing &amp; Its Purpose</h4>
+      <p><b>Tissue processing</b> is the series of steps that converts a <b>fixed, watery biopsy</b> into a <b>paraffin block</b> from which thin sections can be cut and stained. The whole point is to replace the water in the tissue with a solid supporting medium — paraffin wax.</p>
+      <h5>Steps (in order)</h5>
+      <div class="flow">
+        <span>Fixation</span><i>→</i>
+        <span>Dehydration</span><i>→</i>
+        <span>Clearing</span><i>→</i>
+        <span>Wax impregnation</span><i>→</i>
+        <span>Embedding</span><i>→</i>
+        <span>Sectioning</span><i>→</i>
+        <span>Staining</span><i>→</i>
+        <span>Mounting</span>
+      </div>
+      <ul>
+        <li><b>Fixation</b> — formalin preserves &amp; hardens the tissue (stops autolysis).</li>
+        <li><b>Dehydration</b> — <b>ascending alcohols (70% → 100%)</b> remove all water, because water and wax do not mix.</li>
+        <li><b>Clearing</b> — <b>xylene</b> replaces alcohol; the tissue becomes translucent and is now miscible with molten wax.</li>
+        <li><b>Wax impregnation</b> — <b>molten paraffin</b> infiltrates the tissue in a 44–60 °C oven, filling every space.</li>
+        <li><b>Embedding</b> — tissue is oriented in a <b>wax block</b> that sets hard.</li>
+        <li><b>Sectioning</b> — the <b>microtome</b> cuts ribbons of 3–5 µm sections onto slides.</li>
+        <li><b>Staining + Mounting</b> — H&amp;E (or special stains), then a coverslip for permanence.</li>
+      </ul>
+      <h5>Why tissue must undergo processing</h5>
+      <ul>
+        <li>Fresh tissue is <b>soft, watery and colorless</b> — it cannot be cut into thin slices (it would crush under the blade) and shows no contrast under the microscope.</li>
+        <li>Processing <b>replaces water with paraffin wax</b>, producing a <b>firm block</b> that supports the tissue while it is sliced into micron-thin sections.</li>
+        <li>Wax acts as the <b>support medium</b> — the tissue keeps its architecture intact during cutting.</li>
+        <li>It enables <b>staining</b> (fixed, sectioned tissue takes up dyes) and gives <b>permanent, archivable</b> slides for later review.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>Each step removes one barrier: fixative cross-links proteins (stops decay), alcohol removes water, xylene removes alcohol, molten wax replaces xylene so the tissue becomes a solid, cuttable block. Without processing, tissue would crush under the microtome blade and be too thick to see detail.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s4" data-q="Q8">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s4a)">Q8</span><span class="qcat">Item 25 · Staining</span></div>
+      <div class="q">What are the staining methods used in histopathology? What is the purpose of staining?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Staining Methods &amp; Purpose</h4>
+      <p><b>Staining</b> is what makes an otherwise transparent tissue section visible. Different dyes bind to different chemical components, so staining both reveals structure and allows the pathologist to identify specific substances.</p>
+      <h5>Purpose of staining</h5>
+      <ul>
+        <li>Fixed tissue sections are <b>colorless</b> and show no contrast — stains make components visible under the microscope.</li>
+        <li>Dyes selectively bind different structures → <b>identify morphology</b>, differentiate cell types, and help make a diagnosis (e.g., distinguish a tumour's cell of origin).</li>
+      </ul>
+      <h5>Routine stain — H&amp;E</h5>
+      <ul>
+        <li><b>Hematoxylin</b> (basic dye) → stains <b>nuclei blue</b> (it binds acidic DNA/RNA in the nucleus).</li>
+        <li><b>Eosin</b> (acidic dye) → stains <b>cytoplasm &amp; extracellular proteins pink</b>.</li>
+        <li>Together they give the familiar blue-pink contrast that is the basis of routine histopathology.</li>
+      </ul>
+      <h5>Common special stains</h5>
+      <table>
+        <tr><th>Stain</th><th>Demonstrates</th></tr>
+        <tr><td><b>PAS</b></td><td>Glycogen, mucin, basement membranes, fungi</td></tr>
+        <tr><td><b>Masson's trichrome / Van Gieson</b></td><td><b>Collagen</b> vs muscle — fibrosis, cirrhosis</td></tr>
+        <tr><td><b>Reticulin (Gordon-Sweet)</b></td><td>Reticulin fibers — architecture (e.g., cirrhosis, lymph nodes)</td></tr>
+        <tr><td><b>Perl's Prussian blue</b></td><td><b>Iron</b> (hemosiderin) — hemochromatosis, haemosiderin-laden macrophages</td></tr>
+        <tr><td><b>Congo red</b></td><td><b>Amyloid</b> (apple-green birefringence under polarized light)</td></tr>
+        <tr><td><b>Gram</b></td><td>Gram-positive vs gram-negative bacteria</td></tr>
+        <tr><td><b>Ziehl-Neelsen</b></td><td><b>Acid-fast bacilli</b> (TB, leprosy)</td></tr>
+        <tr><td><b>Oil Red O / Sudan black</b></td><td><b>Fat/lipids</b> (frozen sections only — fat dissolves in paraffin)</td></tr>
+        <tr><td><b>Mucicarmine / Alcian blue</b></td><td><b>Mucin</b></td></tr>
+        <tr><td><b>Verhoeff-van Gieson</b></td><td><b>Elastic fibers</b></td></tr>
+      </table>
+      <div class="tip">Order of work: H&amp;E first; special stains are requested when H&amp;E suggests a specific structure/substance to confirm.</div>
+      <div class="src"><b>Source:</b> Bancroft &amp; Gamble; Culling's Handbook.</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<section id="s5" class="sechead s5">
+  <h2>Item 26 · Cytopathology — Q1–9</h2>
+  <span class="cnt">9 cards</span>
+  <p>Cytopathology types, exfoliative &amp; abrasive cytology, FNAC (advantages, procedure, needles, complications), deep-organ sampling, staining, fixatives, FNAC vs biopsy.</p>
+</section>
+<div class="deck">
+
+<div class="card" data-sec="s5" data-q="Q1">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q1</span><span class="qcat">Item 26 · Types</span></div>
+      <div class="q">What are the types of cytopathology? Mention with examples.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Types of Cytopathology</h4>
+      <p><b>Cytopathology</b> = the branch of pathology that studies <b>individual cells</b> (rather than tissue architecture) from body fluids, smears or needle aspirates, to diagnose disease — above all <b>malignancy</b>. It is divided by how the cells are obtained.</p>
+      <table>
+        <tr><th>Type</th><th>Examples</th></tr>
+        <tr><td><b>1. Exfoliative cytology</b> — cells shed <b>spontaneously</b></td><td>Vaginal (Pap smear), sputum, urine, pleural/peritoneal/pericardial fluids, CSF, breast nipple discharge</td></tr>
+        <tr><td><b>2. Abrasive cytology</b> — cells <b>scraped/brushed</b> off a surface</td><td><b>Cervical scrape</b>, oral scrape, <b>bronchial brush</b>, gastric brush, impression smears</td></tr>
+        <tr><td><b>3. Aspiration cytology (FNAC)</b> — needle <b>extracts cells</b> from solid lesions</td><td>Breast lump, thyroid nodule, lymph node, salivary gland, deep organs (guided)</td></tr>
+      </table>
+      <h5>How the types differ in practice</h5>
+      <ul>
+        <li><b>Exfoliative</b> relies on cells that fall off naturally (e.g., into urine, sputum, serous effusions); <b>abrasive</b> uses an instrument to scrape/brush a surface; <b>aspiration</b> sucks cells out of a solid mass with a fine needle.</li>
+        <li>Exfoliative/abrasive are <b>non-needle</b> techniques suited to <b>screening</b> (e.g., cervical); FNAC samples a specific <b>palpable or imaged lesion</b> and is the diagnostic workhorse.</li>
+      </ul>
+      <div class="tip"><b>Memory:</b> exfoliative = cells fall off by themselves; abrasive = cells are scraped/brushed; aspiration = cells sucked out by needle.</div>
+      <div class="src"><b>Source:</b> Koss, Diagnostic Cytology; Orell &amp; Sterrett.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q2">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q2</span><span class="qcat">Item 26 · Short note</span></div>
+      <div class="q">Short note: Exfoliative cytology, Abrasive cytology.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Exfoliative &amp; Abrasive Cytology</h4>
+      <p>Both techniques examine <b>surface cells</b> — the difference is whether those cells came off <b>by themselves</b> (exfoliative) or had to be <b>mechanically removed</b> (abrasive). Neither requires a needle.</p>
+      <h5>Exfoliative cytology</h5>
+      <ul>
+        <li>Study of <b>spontaneously shed cells</b> that are cast off from a surface into a cavity or fluid.</li>
+        <li>Specimens: <b>vaginal (Pap smear)</b>, sputum, urine, <b>pleural/peritoneal/pericardial fluids</b>, CSF, nipple discharge, ascitic fluid.</li>
+        <li>Applications: <b>cervical cancer screening (Pap test)</b>, diagnosis of malignant effusions, urothelial carcinoma detection in urine, lung cancer screening (sputum cytology).</li>
+        <li>Advantages: simple, non-invasive, excellent for <b>screening</b> populations; limitations: <b>cannot localize or grade</b> the lesion, and relies on cells actually being shed.</li>
+      </ul>
+      <h5>Abrasive cytology</h5>
+      <ul>
+        <li>Cells are <b>mechanically removed (scraped/brushed)</b> from a surface by an instrument — a more active collection than exfoliation.</li>
+        <li>Methods: <b>cervical scrape/scraping</b> (spatula), <b>bronchial brush</b>, gastric brushing, oral mucosal scrape, endoscopic brushing.</li>
+        <li>Applications: cervical dysplasia screening, bronchial/endobronchial lesions, GI lesions.</li>
+        <li>Advantages: directly samples the suspicious surface (higher yield than waiting for shedding); limitation: samples <b>surface cells only</b> — cannot tell how deep a lesion invades.</li>
+      </ul>
+      <div class="tip">Both are <b>non-needle</b> cytologic techniques (vs FNAC which aspirates).</div>
+      <div class="src"><b>Source:</b> Koss, Diagnostic Cytology.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q3">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q3</span><span class="qcat">Item 26 · FNAC</span></div>
+      <div class="q">What is FNAC? Mention the advantages of FNAC.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — FNAC &amp; Its Advantages</h4>
+      <p><b>FNAC (fine needle aspiration cytology)</b> = a cytologic technique in which a <b>fine needle (22–25 G)</b> aspirates cells from a <b>palpable or image-guided lesion</b>, and the aspirate is smeared, stained and examined microscopically. It is the standard first-line tissue test for superficial lumps.</p>
+      <h5>Advantages</h5>
+      <ul>
+        <li><b>Rapid</b> — same-day / OPD diagnosis (patient need not be admitted).</li>
+        <li><b>Minimally invasive</b> — no major surgery; usually <b>no anesthesia</b> needed (or only local).</li>
+        <li><b>Cost-effective</b> — far cheaper than surgical biopsy.</li>
+        <li><b>Low complication rate</b> — minimal scarring, quick recovery, few adverse events.</li>
+        <li><b>Repeatable</b> — can be done again for monitoring (post-chemotherapy, thyroid follow-up).</li>
+        <li><b>Wide applicability</b> — breast, thyroid, lymph node, salivary gland, liver, lung, kidney, pancreas, soft tissue.</li>
+        <li><b>Guided sampling of deep organs</b> — USG/CT/EUS-guided FNAC reaches lesions not palpable at all.</li>
+        <li><b>Good for screening/triaging</b> — separates benign from suspicious/malignant and directs who needs a full biopsy.</li>
+        <li>Provides material for ancillary tests — a <b>cell block</b> allows IHC, molecular testing and microbiology.</li>
+      </ul>
+      <div class="warn">Major limitation: <b>cells only, no architecture</b> → can't reliably grade tumours or assess invasion.</div>
+      <div class="src"><b>Source:</b> Orell &amp; Sterrett; Koss.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q4">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q4</span><span class="qcat">Item 26 · Procedure</span></div>
+      <div class="q">Describe shortly the procedure of FNAC.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — FNAC Procedure</h4>
+      <p>The FNAC procedure is a sequence of <b>localization → aspiration → smear-making</b>. Mastery of two points decides the yield: <b>where you sample</b> and <b>how you handle the syringe pressure</b>.</p>
+      <ol>
+        <li><b>Localization</b> — palpable lesions are located by <b>palpation/fixing</b> with one hand; deep lesions by <b>USG/CT/EUS guidance</b>.</li>
+        <li><b>Preparation</b> — explain the procedure to the patient, position comfortably, <b>disinfect the skin</b>.</li>
+        <li><b>Needle &amp; syringe</b> — <b>22–25 G needle</b> on a <b>10–20 mL syringe</b>, often held in a syringe holder/pistol for one-handed control.</li>
+        <li><b>Insertion &amp; aspiration</b> — insert into the lesion; apply <b>negative pressure</b>; make <b>small multidirectional movements</b> within the lesion to dislodge cells from different areas.</li>
+        <li><b>Release pressure before withdrawal</b> — crucial step: pressure is released <b>while the needle is still in the tissue</b> so cells are not sucked into the syringe hub, where they are lost.</li>
+        <li><b>Withdraw</b> — apply pressure/ice over the puncture site to prevent hematoma formation.</li>
+        <li><b>Smearing</b> — expel a drop onto slides; make both <b>air-dried</b> smears (→ Giemsa/MGG) and <b>wet-fixed in 95% ethanol</b> smears (→ Pap/H&amp;E).</li>
+        <li><b>Staining &amp; reporting</b> — stain, examine microscopically and issue a report.</li>
+        <li>Special handling: <b>cell block</b> (for IHC), <b>culture</b> (if infection is suspected), <b>flow cytometry</b> (lymphoma), and on-site <b>adequacy assessment</b>.</li>
+      </ol>
+      <div class="tip">Key error to avoid: maintaining negative pressure while withdrawing the needle pulls the sample into the syringe, where it is lost.</div>
+      <div class="src"><b>Source:</b> Orell &amp; Sterrett.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q5">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q5</span><span class="qcat">Item 26 · Needles</span></div>
+      <div class="q">What type of needle is used in FNAC? Mention the complications of FNAC.</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Needle Used &amp; Complications</h4>
+      <p>The defining feature of FNAC is the <b>fine (thin) needle</b>: it limits trauma and bleeding, which in turn keeps complications low.</p>
+      <h5>Needle</h5>
+      <ul>
+        <li>A <b>fine needle</b> = small-caliber needle with an <b>outer diameter ≤ ~1 mm</b> — usually <b>22–25 gauge</b> (sometimes 21–27 G).</li>
+        <li>Decidedly thinner than core-biopsy needles (14–18 G). Mounted on a <b>10–20 mL syringe</b>, often with a pistol-style holder.</li>
+      </ul>
+      <h5>Why a fine needle?</h5>
+      <ul>
+        <li>Minimal trauma — less bleeding, less pain, fewer complications.</li>
+        <li>High cellular yield <b>relative to blood contamination</b> (thin lumen limits hemorrhage into the aspirate).</li>
+        <li>Safe in <b>vascular organs</b> (thyroid, liver); reduces the already rare <b>needle-tract seeding</b> risk.</li>
+      </ul>
+      <h5>Complications</h5>
+      <ul>
+        <li><b>Bleeding / hematoma</b> at the puncture site — the most common, usually trivial.</li>
+        <li><b>Infection</b> — rare, minimized by skin disinfection.</li>
+        <li><b>Pneumothorax</b> — with lung/chest-wall lesions.</li>
+        <li><b>Vasovagal reaction</b> — fainting, hypotension (patient anxiety/pain).</li>
+        <li><b>Tumour seeding along the needle tract</b> — very rare with fine needles.</li>
+        <li>Thyroid: rare hemorrhage, transient voice change.</li>
+        <li><b>Inadequate / unsatisfactory sample</b> — non-diagnostic; needs a repeat or a biopsy.</li>
+      </ul>
+      <div class="tip">Overall FNAC is <b>very safe</b>; the commonest practical problem is not a complication but an <b>inadequate sample</b>.</div>
+      <div class="src"><b>Source:</b> Orell &amp; Sterrett; Koss.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q6">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q6</span><span class="qcat">Item 26 · Deep organs</span></div>
+      <div class="q">How can the tumours in deep seated organs (Liver, lung) be sampled for cytopathology?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Sampling Deep-Seated Organs (Liver, Lung)</h4>
+      <p>Deep lesions cannot be felt, so the sample is taken by <b>imaging guidance</b>. The same fine-needle principle is used, with the modality chosen by the organ and the equipment available.</p>
+      <ul>
+        <li>Palpable lesions: direct FNAC. Deep lesions require <b>image guidance</b> — the choice below.</li>
+      </ul>
+      <h5>Guidance modalities</h5>
+      <table>
+        <tr><th>Method</th><th>Targets</th></tr>
+        <tr><td><b>USG-guided FNAC</b></td><td>Liver (focal lesions), kidney, thyroid, abdomen, retroperitoneum</td></tr>
+        <tr><td><b>CT-guided FNAC</b></td><td>Lung, mediastinum, deep abdominal/retroperitoneal, bone, adrenal</td></tr>
+        <tr><td><b>Bronchoscopic / transbronchial</b></td><td>Central lung lesions, hilar nodes (brush, washings, TBNA)</td></tr>
+        <tr><td><b>EBUS-TBNA</b></td><td>Mediastinal/hilar lymph nodes (lung cancer staging)</td></tr>
+        <tr><td><b>EUS-FNA</b></td><td>Pancreas, mediastinal nodes, GI wall, peri-pancreatic lesions</td></tr>
+        <tr><td><b>CT/USG-guided core biopsy</b></td><td>When architecture is needed (alternative to FNAC)</td></tr>
+      </table>
+      <h5>Practical points</h5>
+      <ul>
+        <li><b>Liver:</b> USG-guided; USG also shows the vessels to be avoided — a needle track through the lesion plus a rim of normal liver is targeted.</li>
+        <li><b>Lung:</b> CT-guided for peripheral lesions, bronchoscopic (brush/wash/TBNA) for central ones; a radiologist screens for <b>pneumothorax</b> after the procedure.</li>
+        <li><b>On-site adequacy (ROSE):</b> a <b>rapid Diff-Quik stain</b> done by a cytologist during the procedure confirms adequate cells and lets the operator re-sample if not — this dramatically cuts the non-diagnostic rate.</li>
+        <li>The aspirate is triaged on site for <b>flow cytometry</b> (lymphoma), <b>culture</b> (suspected infection) or a <b>cell block</b> (IHC/molecular).</li>
+      </ul>
+      <div class="warn">Lung/chest lesions carry a risk of <b>pneumothorax</b> — image guidance reduces but does not eliminate it.</div>
+      <div class="src"><b>Source:</b> Orell &amp; Sterrett; current EUS/EBUS-FNA guidelines.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q7">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q7</span><span class="qcat">Item 26 · Stains</span></div>
+      <div class="q">Mention the names of cytological staining methods. Which one is used commonly?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Cytological Staining Methods</h4>
+      <p>Cytology stains differ from histology stains mainly in <b>fixation</b>: some need <b>air-drying</b> and some need <b>wet (ethanol) fixation</b>. Getting this right is essential — the wrong fixation ruins the smear for a given stain.</p>
+      <table>
+        <tr><th>Stain</th><th>Fixation</th><th>Features / use</th></tr>
+        <tr><td><b>Papanicolaou (Pap)</b></td><td>Wet-fixed (95% ethanol / spray fixative)</td><td>Excellent nuclear detail; best for gynecologic &amp; body-fluid cytology</td></tr>
+        <tr><td><b>Giemsa / May-Grünwald-Giemsa (MGG)</b></td><td>Air-dried smears</td><td>Best cytoplasmic detail (lymphomas, thyroid colloid)</td></tr>
+        <tr><td><b>Hematoxylin &amp; Eosin (H&amp;E)</b></td><td>Wet-fixed (ethanol)</td><td>Familiar morphology; used on cell-block sections &amp; smears</td></tr>
+        <tr><td><b>Rapid stains</b> (Diff-Quik, toluidine blue)</td><td>Air-dried</td><td>On-site adequacy assessment (ROSE) — answer in seconds</td></tr>
+        <tr><td><b>Special / ancillary</b></td><td>—</td><td>PAS (fungi/mucin), ZN (AFB), immunocytochemistry, FISH/molecular on cell block</td></tr>
+      </table>
+      <h5>Why the Pap stain is first among equals</h5>
+      <ul>
+        <li>It combines a nuclear stain (hematoxylin) with <b>cytoplasmic counterstains</b> that show differentiation and maturity — ideal for screening programs like cervical screening.</li>
+        <li><b>MGG</b>, by contrast, reveals cytoplasmic granules and colloid, so it is preferred for lymph nodes, thyroid and haematologic smears.</li>
+      </ul>
+      <div class="tip"><span class="viva-hl"><b>Most commonly used = Papanicolaou (Pap) stain</b></span> in cytology screening programs (cervical); MGG is preferred for lymph nodes/thyroid.</div>
+      <div class="src"><b>Source:</b> Koss; Bancroft &amp; Gamble.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q8">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q8</span><span class="qcat">Item 26 · Fixatives</span></div>
+      <div class="q">Name the fixatives used in cytopathology. Which one is most commonly used? What is coating fixative?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Cytology Fixatives</h4>
+      <p>Fixation in cytology is quick-fixation of <b>individual smeared cells</b> — its overriding goal is to <b>stop air-drying</b>, because air-drying ruins nuclear detail for Papanicolaou/H&amp;E staining.</p>
+      <ul>
+        <li><b>95% (95–100%) ethanol</b> — <span class="viva-hl">the most common cytologic fixative</span>; used for wet-fixed smears (Pap, H&amp;E).</li>
+        <li><b>Methanol</b> — good nuclear preservation (used in some hematology smears).</li>
+        <li><b>Acetone</b> — used for some enzyme and immunostains.</li>
+        <li><b>Coating / spray fixative (Carbowax / polyethylene-glycol in alcohol)</b> — sprayed on the smear; forms a <b>thin plastic-like film</b> preventing drying when a jar of alcohol is unavailable (e.g., for transport).</li>
+        <li><b>Alcohol-formalin mixtures</b> — used for <b>cell blocks</b> (mini-histology).</li>
+      </ul>
+      <h5>What is a coating fixative?</h5>
+      <ul>
+        <li>A fixative in <b>aerosol/spray form</b> that deposits a <b>protective plastic film</b> over the smear on contact.</li>
+        <li>It <b>fixes the cells</b> (alcohol) and <b>prevents air-drying artifacts</b>, preserving nuclear detail for later Pap/H&amp;E staining.</li>
+        <li>Essential for smears collected where a liquid fixative jar is impractical — OPD, outreach and field settings.</li>
+      </ul>
+      <div class="tip"><b>Air-dried = Giemsa; ethanol-fixed = Pap/H&amp;E.</b> Never air-dry the smear you plan to Pap-stain.</div>
+      <div class="src"><b>Source:</b> Koss; Bancroft &amp; Gamble.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" data-sec="s5" data-q="Q9">
+  <div class="inner">
+    <div class="face front">
+      <div class="top"><span class="qnum" style="background:var(--s5a)">Q9</span><span class="qcat">Item 26 · FNAC vs Biopsy</span></div>
+      <div class="q">Between biopsy &amp; FNAC; which one is better for diagnosis &amp; why?</div>
+      <div class="fliphint"><span>Tap to reveal</span></div>
+    </div>
+    <div class="face back">
+      <h4>Answer — Biopsy vs FNAC: Which is Better?</h4>
+      <p>The short answer: <b>biopsy is better for a definitive, final diagnosis; FNAC is better as a rapid first step</b>. The deciding factor is whether the diagnosis depends on <b>tissue architecture</b> (which only a biopsy preserves).</p>
+      <table>
+        <tr><th>Feature</th><th>FNAC</th><th>Tissue biopsy</th></tr>
+        <tr><td>Sample</td><td><b>Cells only</b> (aspirate/smear)</td><td><b>Whole tissue</b> (architecture preserved)</td></tr>
+        <tr><td>Invasiveness</td><td>Minimal (needle)</td><td>Surgical / core needle</td></tr>
+        <tr><td>Anesthesia</td><td>Usually none / local</td><td>Local/general</td></tr>
+        <tr><td>Time to result</td><td><b>Rapid</b> (hours)</td><td>Slower (1–3 days; frozen = same-day)</td></tr>
+        <tr><td>Cost</td><td>Low</td><td>Higher</td></tr>
+        <tr><td>Complications</td><td>Low</td><td>Higher</td></tr>
+        <tr><td>Assess <b>invasion</b></td><td><b>No</b></td><td><b>Yes</b></td></tr>
+        <tr><td><b>Grade/stage</b></td><td>Limited/unreliable</td><td><b>Yes</b> (grading, margins, nodes)</td></tr>
+        <tr><td>Ancillary tests</td><td>IHC on cell block, molecular</td><td>Full IHC, molecular, special stains</td></tr>
+        <tr><td>Role</td><td>Screening / triage / follow-up</td><td><b>Definitive diagnosis</b></td></tr>
+      </table>
+      <h5>Which is better for diagnosis?</h5>
+      <ul>
+        <li><span class="viva-hl"><b>Biopsy is better for definitive diagnosis</b> because it preserves tissue architecture</span> — allowing assessment of <b>invasion</b>, <b>grading</b>, and a full IHC panel (e.g., distinguishing in-situ from invasive carcinoma, subtyping sarcomas).</li>
+        <li><b>FNAC is better for screening/triage</b>, deep inaccessible lesions, high-risk/elderly patients, and rapid follow-up — it answers "is this benign or malignant?" fast.</li>
+        <li>In practice the two are <b>complementary</b>: FNAC first, then a biopsy if the diagnosis needs architecture or grading.</li>
+      </ul>
+      <div class="mech"><h6>Mechanism in brief</h6>Biopsy preserves the <b>architectural context</b> (basement membrane, stroma, margins, glands) that defines benign vs malignant and invasive vs in-situ; FNAC collects <b>dispersed cells</b>, losing that context — so it can say "malignant cells present" but not always "invasion present." Hence biopsy remains the gold standard when architecture decides the diagnosis.</div>
+      <div class="src"><b>Source:</b> Orell &amp; Sterrett; Robbins (Methods in pathology).</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</main>
+<script>
+const SEC=[
+ {k:"s1",n:"15A · Testis",g:"15A",c:"s1"},
+ {k:"s2",n:"15B · Prostate",g:"15B",c:"s2"},
+ {k:"s3",n:"15C · Semen",g:"15C",c:"s3"},
+ {k:"s4",n:"Item 25 · Autopsy & Histopath",g:"25",c:"s4"},
+ {k:"s5",n:"Item 26 · Cytopathology",g:"26",c:"s5"}
+];
+const menu=document.getElementById("menu");
+SEC.forEach(s=>{
+  const g=document.createElement("div");g.className="grp";g.id="g-"+s.k;
+  const chip=document.createElement("button");chip.className="chip active";chip.dataset.sec=s.k;
+  chip.textContent=s.n;chip.onclick=()=>{chip.classList.toggle("active");apply()};
+  g.appendChild(chip);menu.appendChild(g);
+});
+const cards=[...document.querySelectorAll(".card")];
+const filter=document.getElementById("filter");
+const counter=document.getElementById("counter");
+cards.forEach(c=>{
+  c.addEventListener("click",()=>{
+    if(window.getSelection().toString())return;
+    c.classList.toggle("flipped");
+  });
+});
+function apply(){
+  const q=filter.value.toLowerCase();
+  let shown=0;
+  cards.forEach(c=>{
+    const inSec=document.querySelector('#g-'+c.dataset.sec+" .chip").classList.contains("active");
+    const text=(c.dataset.q+" "+c.textContent).toLowerCase();
+    const match=text.includes(q);
+    const show=inSec&&match;
+    c.style.display=show?"":"none";
+    if(show)shown++;
+    if(!show)c.classList.remove("flipped");
+  });
+  counter.textContent=shown+" / "+cards.length+" cards";
+}
+filter.addEventListener("input",apply);
+document.getElementById("burger").addEventListener("click",()=>menu.classList.toggle("open"));
+apply();
+</script>
+</body>
+</html>

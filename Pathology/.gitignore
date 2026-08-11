@@ -1,0 +1,9 @@
+# Copyrighted textbook — do not distribute
+Robbins Cotran Pathologic Basis of Disease.pdf
+.~lock.Robbins Cotran Pathologic Basis of Disease.pdf#
+
+# Obsidian local state
+.obsidian/workspace.json
+
+# Python build artifacts
+__pycache__/
