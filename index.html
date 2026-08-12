@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Notes Hub</title>
+<style>
+:root{
+  --bg:#f1f5f9;--cardbg:#ffffff;--ink:#0f172a;--muted:#64748b;
+  --line:#e2e8f0;--acc:#0e7490;--acc2:#155e75;--chip:#e0f2fe;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Bengali",Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.6;
+}
+.wrap{max-width:960px;margin:0 auto;padding:48px 24px 72px}
+header{padding:8px 0 28px}
+h1{font-size:2rem;letter-spacing:-.02em}
+header p{color:var(--muted);margin-top:6px}
+section{margin-top:36px}
+h2{
+  font-size:1.05rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:18px;
+}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{
+  background:var(--cardbg);border:1px solid var(--line);border-radius:14px;
+  padding:20px;text-decoration:none;color:inherit;display:block;
+  transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(2,6,23,.08);border-color:var(--acc)}
+.card h3{font-size:1.05rem;color:var(--acc2)}
+.card p{font-size:.9rem;color:var(--muted);margin-top:6px}
+.chip{
+  display:inline-block;margin-top:12px;font-size:.72rem;font-weight:600;
+  color:var(--acc2);background:var(--chip);padding:3px 10px;border-radius:999px;
+}
+.note{
+  background:var(--cardbg);border:1px dashed var(--line);border-radius:14px;
+  padding:18px 20px;font-size:.92rem;color:var(--muted);
+}
+.note code{background:#e2e8f0;padding:1px 6px;border-radius:6px;font-size:.85rem;color:var(--ink)}
+ol{padding-left:20px;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Study Notes Hub</h1>
+    <p>All study materials in one place, readable from any browser.</p>
+  </header>
+
+  <section>
+    <h2>Interactive &amp; HTML notes</h2>
+    <div class="grid">
+      <a class="card" href="Pathology/flashcards_hepatobiliary/">
+        <h3>Hepatobiliary Flashcards</h3>
+        <p>Interactive flip cards for liver &amp; biliary pathology (Robbins-based).</p>
+        <span class="chip">Interactive</span>
+      </a>
+      <a class="card" href="Pathology/viva-set-question/">
+        <h3>Pathology Viva Set</h3>
+        <p>Viva question bank with answers — Item 5: Respiratory system.</p>
+        <span class="chip">Q&amp;A bank</span>
+      </a>
+      <a class="card" href="davidson/davidson_immunology_bangla.html">
+        <h3>Davidson Immunology — Bangla</h3>
+        <p>Immunology notes from Davidson's, explained in Bangla.</p>
+        <span class="chip">Notes</span>
+      </a>
+      <a class="card" href="bd-constitution.html">
+        <h3>Bangladesh Constitution</h3>
+        <p>Constitution notes and highlights.</p>
+        <span class="chip">Notes</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Markdown notes</h2>
+    <div class="grid">
+      <a class="card" href="https://github.com/anikmahmud2003/notes/tree/main/Pathology">
+        <h3>Pathology (Robbins)</h3>
+        <p>29 chapters of full notes with index &amp; start-here guide.</p>
+        <span class="chip">Markdown</span>
+      </a>
+      <a class="card" href="https://github.com/anikmahmud2003/notes/blob/main/README.md">
+        <h3>Full contents &amp; workflow</h3>
+        <p>Everything in this repo, plus how new subjects get added.</p>
+        <span class="chip">Markdown</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Add a new subject</h2>
+    <div class="note">
+      <ol>
+        <li>Add a subfolder (e.g. <code>Physiology/</code>) with your notes.</li>
+        <li>Drop a card link above in <code>index.html</code>.</li>
+        <li>Commit &amp; push — it appears here automatically.</li>
+      </ol>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

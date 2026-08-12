@@ -2,13 +2,16 @@
 
 Everything study-related, in one repo, readable from any browser.
 
+**Best viewed as a website:** https://anikmahmud2003.github.io/notes/
+
 ## Contents
 
 | Path | What it is |
 |---|---|
+| [index.html](index.html) | Hub page — links to all HTML notes (also the GitHub Pages front door) |
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes — 29 chapters, index, start-here guide |
-| [Pathology/flashcards_hepatobiliary/index.html](Pathology/flashcards_hepatobiliary/index.html) | Interactive Hepatobiliary flashcards |
-| [Pathology/viva set question/](Pathology/viva%20set%20question/) | Viva question banks with answers (Item 5 Respiratory) |
+| [Pathology/flashcards_hepatobiliary/](Pathology/flashcards_hepatobiliary/) | Interactive Hepatobiliary flashcards |
+| [Pathology/viva-set-question/](Pathology/viva-set-question/) | Viva question banks with answers (Item 5 Respiratory) |
 | [davidson/davidson_immunology_bangla.html](davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
 | [bd-constitution.html](bd-constitution.html) | Bangladesh Constitution notes |
 
@@ -36,4 +39,4 @@ git push
 
 1. Edit notes in Obsidian (open this folder as a vault).
 2. Commit + push with the commands above (or the obsidian-git plugin).
-3. Read anywhere: open this repo on github.com in any browser.
+3. Read anywhere: open https://anikmahmud2003.github.io/notes/ in any browser.
