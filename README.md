@@ -12,6 +12,7 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes — 29 chapters, index, start-here guide |
 | [Pathology/flashcards_hepatobiliary/](Pathology/flashcards_hepatobiliary/) | Interactive Hepatobiliary flashcards |
 | [Pathology/viva-set-question/](Pathology/viva-set-question/) | Viva question banks with answers (Item 5 Respiratory) |
+| [systemic pathology 15-26 item set questions/](systemic%20pathology%2015-26%20item%20set%20questions/) | Systemic Pathology item-set question bank with answers (Items 15–17, 24–26) |
 | [davidson/davidson_immunology_bangla.html](davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
 | [bd-constitution.html](bd-constitution.html) | Bangladesh Constitution notes |
 
