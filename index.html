@@ -8,40 +8,99 @@
 :root{
   --bg:#f1f5f9;--cardbg:#ffffff;--ink:#0f172a;--muted:#64748b;
   --line:#e2e8f0;--acc:#0e7490;--acc2:#155e75;--chip:#e0f2fe;
+  --tree:#f8fafc;--match:#fef9c3;--local:#f1f5f9;--local-ink:#94a3b8;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Bengali",Helvetica,Arial,sans-serif;
   background:var(--bg);color:var(--ink);line-height:1.6;
 }
-.wrap{max-width:960px;margin:0 auto;padding:48px 24px 72px}
-header{padding:8px 0 28px}
-h1{font-size:2rem;letter-spacing:-.02em}
-header p{color:var(--muted);margin-top:6px}
-section{margin-top:36px}
+.wrap{max-width:1020px;margin:0 auto;padding:32px 24px 72px}
+header{padding:4px 0 18px}
+h1{font-size:1.9rem;letter-spacing:-.02em}
+header p{color:var(--muted);margin-top:4px}
+section{margin-top:32px}
 h2{
-  font-size:1.05rem;text-transform:uppercase;letter-spacing:.08em;
-  color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:18px;
+  font-size:1.02rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:16px;
 }
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+h2 .count{font-weight:600;text-transform:none;letter-spacing:0;color:var(--acc)}
+
+/* toolbar */
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.search{flex:1 1 260px;position:relative}
+.search input{
+  width:100%;padding:11px 38px 11px 14px;border:1px solid var(--line);border-radius:12px;
+  font-size:.95rem;background:#fff;color:var(--ink);outline:none;
+}
+.search input:focus{border-color:var(--acc);box-shadow:0 0 0 3px rgba(14,116,144,.12)}
+.search svg{position:absolute;right:12px;top:50%;transform:translateY(-50%);width:17px;height:17px;stroke:var(--muted)}
+select{
+  padding:10px 12px;border:1px solid var(--line);border-radius:12px;font-size:.9rem;
+  background:#fff;color:var(--ink);cursor:pointer;
+}
+button#refresh{
+  padding:10px 14px;border:1px solid var(--line);border-radius:12px;font-size:.9rem;
+  background:#fff;color:var(--acc);cursor:pointer;font-weight:600;
+}
+button#refresh:hover{border-color:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{
+  border:1px solid var(--line);background:#fff;color:var(--muted);
+  padding:6px 14px;border-radius:999px;font-size:.8rem;font-weight:600;cursor:pointer;
+  transition:all .12s ease;
+}
+.chip:hover{border-color:var(--acc);color:var(--acc)}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.stats{color:var(--muted);font-size:.82rem;margin-top:12px}
+.stats a{color:var(--acc)}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
 .card{
   background:var(--cardbg);border:1px solid var(--line);border-radius:14px;
-  padding:20px;text-decoration:none;color:inherit;display:block;
+  padding:18px;text-decoration:none;color:inherit;display:block;
   transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;
 }
 .card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(2,6,23,.08);border-color:var(--acc)}
-.card h3{font-size:1.05rem;color:var(--acc2)}
-.card p{font-size:.9rem;color:var(--muted);margin-top:6px}
-.chip{
-  display:inline-block;margin-top:12px;font-size:.72rem;font-weight:600;
+.card h3{font-size:1.02rem;color:var(--acc2)}
+.card .crumb{font-size:.72rem;color:var(--muted);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag{
+  display:inline-block;margin-top:10px;font-size:.7rem;font-weight:600;
   color:var(--acc2);background:var(--chip);padding:3px 10px;border-radius:999px;
 }
+mark{background:var(--match);color:inherit;border-radius:3px;padding:0 1px}
+.empty{color:var(--muted);padding:18px;text-align:center}
+
+/* tree */
+.tree{background:var(--tree);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:.9rem}
+.tree-item{padding:2px 0}
+.tree-item .row{
+  display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:8px;
+  text-decoration:none;color:var(--ink);
+}
+.tree-item .row:hover{background:#eef6f8}
+.tree-item a.row.linkable{color:var(--acc2);font-weight:500}
+.tree-item a.row.linkable:hover{text-decoration:underline}
+.tree-item .row .ico{flex:0 0 auto;width:22px;text-align:center;color:var(--muted);font-size:.85rem}
+.tree-item .row .caret{flex:0 0 auto;width:16px;text-align:center;color:var(--muted);font-size:.75rem;transition:transform .12s ease}
+.tree-item .row .caret.open{transform:rotate(90deg)}
+.tree-item .children{margin-left:22px;border-left:1px dashed var(--line);padding-left:8px}
+.tree-item .children.collapsed{display:none}
+.tree-item .row .lbl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tree-item .row .lbl.dim{color:var(--muted)}
+.badge{font-size:.66rem;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em}
+.badge.md{background:#e0f2fe;color:#0c4a6e}
+.badge.html{background:#fce7f3;color:#9d174d}
+.badge.dir{background:#e2e8f0;color:#334155}
+
 .note{
   background:var(--cardbg);border:1px dashed var(--line);border-radius:14px;
-  padding:18px 20px;font-size:.92rem;color:var(--muted);
+  padding:18px 20px;font-size:.9rem;color:var(--muted);
 }
-.note code{background:#e2e8f0;padding:1px 6px;border-radius:6px;font-size:.85rem;color:var(--ink)}
+.note code{background:#e2e8f0;padding:1px 6px;border-radius:6px;font-size:.84rem;color:var(--ink)}
 ol{padding-left:20px;margin-top:8px}
+@media (max-width:640px){ .wrap{padding:24px 14px 56px} }
 </style>
 </head>
 <body>
@@ -49,67 +108,238 @@ ol{padding-left:20px;margin-top:8px}
 
   <header>
     <h1>Study Notes Hub</h1>
-    <p>All study materials in one place, readable from any browser.</p>
+    <p>Everything is listed here automatically from the repo. Click a note → it opens on GitHub (rendered), click an HTML page → it opens as a page.</p>
+
+    <div class="toolbar">
+      <div class="search">
+        <input id="q" type="search" placeholder="Search notes… (name or path)" autocomplete="off">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </div>
+      <select id="sort" title="Sort order">
+        <option value="order">Sort: folder order</option>
+        <option value="name-az">Sort: Name A–Z</option>
+        <option value="name-za">Sort: Name Z–A</option>
+        <option value="type">Sort: Type (notes → pages)</option>
+      </select>
+      <button id="refresh" title="Reload the list from GitHub">⟳ Refresh</button>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="stats" id="stats"></div>
   </header>
 
-  <section>
-    <h2>Interactive &amp; HTML notes</h2>
-    <div class="grid">
-      <a class="card" href="Pathology/flashcards_hepatobiliary/">
-        <h3>Hepatobiliary Flashcards</h3>
-        <p>Interactive flip cards for liver &amp; biliary pathology (Robbins-based).</p>
-        <span class="chip">Interactive</span>
-      </a>
-      <a class="card" href="Pathology/viva-set-question/">
-        <h3>Pathology Viva Set</h3>
-        <p>Viva question bank with answers — Item 5: Respiratory system.</p>
-        <span class="chip">Q&amp;A bank</span>
-      </a>
-      <a class="card" href="systemic%20pathology%2015-26%20item%20set%20questions/">
-        <h3>Systemic Pathology 15–26</h3>
-        <p>Item-set question bank with answers — Items 15, 16, 17, 24, 25, 26.</p>
-        <span class="chip">Q&amp;A bank</span>
-      </a>
-      <a class="card" href="davidson/davidson_immunology_bangla.html">
-        <h3>Davidson Immunology — Bangla</h3>
-        <p>Immunology notes from Davidson's, explained in Bangla.</p>
-        <span class="chip">Notes</span>
-      </a>
-      <a class="card" href="bd-constitution.html">
-        <h3>Bangladesh Constitution</h3>
-        <p>Constitution notes and highlights.</p>
-        <span class="chip">Notes</span>
-      </a>
-    </div>
+  <section id="resultssec">
+    <h2>Results <span class="count" id="count"></span></h2>
+    <div class="grid" id="grid"></div>
   </section>
 
   <section>
-    <h2>Markdown notes</h2>
-    <div class="grid">
-      <a class="card" href="https://github.com/anikmahmud2003/notes/tree/main/Pathology">
-        <h3>Pathology (Robbins)</h3>
-        <p>29 chapters of full notes with index &amp; start-here guide.</p>
-        <span class="chip">Markdown</span>
-      </a>
-      <a class="card" href="https://github.com/anikmahmud2003/notes/blob/main/README.md">
-        <h3>Full contents &amp; workflow</h3>
-        <p>Everything in this repo, plus how new subjects get added.</p>
-        <span class="chip">Markdown</span>
-      </a>
-    </div>
+    <h2>Full notes hierarchy</h2>
+    <div class="tree" id="tree"></div>
   </section>
 
   <section>
-    <h2>Add a new subject</h2>
+    <h2>How this works</h2>
     <div class="note">
       <ol>
-        <li>Add a subfolder (e.g. <code>Physiology/</code>) with your notes.</li>
-        <li>Drop a card link above in <code>index.html</code>.</li>
-        <li>Commit &amp; push — it appears here automatically.</li>
+        <li>Add/edit <code>.md</code> notes in any folder (Obsidian vault) — notes stay <b>markdown</b>, no HTML needed.</li>
+        <li>Commit &amp; push to the repo.</li>
+        <li>This page reloads the file list from GitHub automatically — the hierarchy updates by itself.</li>
+        <li>Click a <code>.md</code> file → opens the rendered note on GitHub. Click a <code>.html</code> file → opens the page.</li>
       </ol>
     </div>
   </section>
 
 </div>
+
+<script>
+/* ============ config ============ */
+const REPO="anikmahmud2003/notes";
+const BRANCH="main";
+const GH="https://github.com/"+REPO;
+const SITE="https://anikmahmud2003.github.io/notes";
+const API="https://api.github.com/repos/"+REPO+"/git/trees/"+BRANCH+"?recursive=1";
+
+/* ============ helpers ============ */
+const enc=p=>p.split("/").map(encodeURIComponent).join("/");
+const esc=s=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const urlFor=p=>p.endsWith(".html")?SITE+"/"+enc(p):GH+"/blob/"+BRANCH+"/"+enc(p);
+const base=p=>p.split("/").pop();
+function nat(a,b){
+  const pa=a.split(/(\d+)/),pb=b.split(/(\d+)/);
+  for(let i=0;i<Math.max(pa.length,pb.length);i++){
+    const x=pa[i]||"",y=pb[i]||"";
+    if(x===y)continue;
+    if(/^\d+$/.test(x)&&/^\d+$/.test(y))return (+x)-(+y);
+    return x<y?-1:1;
+  }
+  return 0;
+}
+
+/* ============ state ============ */
+const state={q:"",cat:"all",sort:"order"};
+let root={name:"",kind:"dir",path:"",children:[]};   /* nested tree */
+let flat=[];                                          /* flat list {name,path,kind,url} */
+let cats=["all"];
+
+function buildFromPaths(paths){
+  root={name:"",kind:"dir",path:"",children:[]};
+  flat=[];
+  const insert=(node,parts)=>{
+    let cur=node;
+    for(let i=0;i<parts.length;i++){
+      const name=parts[i],last=i===parts.length-1,path=parts.slice(0,i+1).join("/");
+      let child=cur.children.find(c=>c.name===name);
+      if(!child){
+        child={name,kind:last?(name.endsWith(".html")?"html":"md"):"dir",path,url:last?urlFor(path):GH+"/tree/"+BRANCH+"/"+enc(path),children:[]};
+        cur.children.push(child);
+      }
+      if(last)flat.push(child);
+      cur=child;
+    }
+  };
+  paths.forEach(p=>insert(root,p.split("/")));
+  cats=["all"].concat([...new Set(flat.map(n=>n.path.split("/")[0]))].sort(nat));
+  renderChips();
+  apply();
+}
+
+/* ============ filtering ============ */
+const catOk=n=>state.cat==="all"||n.path===""||n.path===state.cat||n.path.startsWith(state.cat+"/");
+const selfMatch=n=>n.name.toLowerCase().includes(state.q);
+function isShown(n){
+  if(!catOk(n))return false;
+  if(!state.q)return true;
+  if(selfMatch(n))return true;
+  return n.children.some(isShown);
+}
+function hl(s){
+  if(!state.q)return esc(s);
+  const re=new RegExp("("+state.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");
+  return esc(s).replace(re,"<mark>$1</mark>");
+}
+
+/* ============ grid ============ */
+const TYPE={md:0,html:1,dir:2};
+const SORTS={
+  "order":(a,b)=>nat(a.path,b.path),
+  "name-az":(a,b)=>nat(a.name,b.name),
+  "name-za":(a,b)=>nat(b.name,a.name),
+  "type":(a,b)=>TYPE[a.kind]-TYPE[b.kind]||nat(a.name,b.name),
+};
+function renderGrid(){
+  const list=flat.filter(n=>catOk(n)&&(!state.q||selfMatch(n))).sort(SORTS[state.sort]);
+  const g=document.getElementById("grid");
+  g.innerHTML=list.length?list.map(n=>`
+    <a class="card" href="${n.url}">
+      <h3>${hl(n.name)}</h3>
+      <div class="crumb">${esc(n.path)}</div>
+      <span class="tag">${n.kind==="html"?"page":"note"}</span>
+    </a>`).join(""):`<div class="empty">Nothing matches "${esc(state.q)}" in this folder.</div>`;
+  document.getElementById("count").textContent=`(${list.length})`;
+  document.getElementById("resultssec").style.display=list.length? "":"none";
+}
+document.getElementById("resultssec").style.display="none";
+
+/* ============ tree ============ */
+const cmpNodes=(a,b)=>a.kind!==b.kind?(a.kind==="dir"?-1:1):nat(a.name,b.name);
+function rowHtml(n){
+  const isDir=n.kind==="dir";
+  const caret=(isDir&&n.children.length)?`<span class="caret ${n.open?"open":""}">▸</span>`:`<span class="caret"></span>`;
+  const ico=isDir?"📁":n.kind==="html"?"🌐":"📄";
+  const dim=(state.q&&!selfMatch(n))?"lbl dim":"lbl";
+  const label=(state.q&&selfMatch(n))?hl(n.name):esc(n.name);
+  return `${caret}<span class="ico">${ico}</span>
+        <span class="${dim}">${label}</span>
+        <span class="badge ${n.kind}">${n.kind}</span>`;
+}
+function renderNode(n){
+  const kids=[...n.children].sort(cmpNodes);
+  const shown=kids.filter(isShown);
+  if(state.q&&!selfMatch(n)&&!shown.length)return "";
+  if(state.q)n.open=true;
+  const kidsWrap=shown.length?`<div class="children ${n.open?"":"collapsed"}">${shown.map(renderNode).join("")}</div>`:"";
+  if(n.kind!=="dir"){
+    return `<div class="tree-item"><a class="row linkable" href="${n.url}">${rowHtml(n)}</a></div>`;
+  }
+  const click=n.children.length?`onclick="toggleTree(this)"`:"";
+  return `<div class="tree-item"><div class="row" ${click}>${rowHtml(n)}</div>${kidsWrap}</div>`;
+}
+function renderTree(){
+  const kids=[...root.children].sort(cmpNodes);
+  const shown=kids.filter(isShown);
+  document.getElementById("tree").innerHTML=
+    `<div class="tree-item"><div class="row"><span class="ico">📦</span><span class="lbl">All notes (repo root)</span><span class="badge dir">repo</span></div>
+     <div class="children">${shown.map(renderNode).join("")}</div></div>`;
+}
+function toggleTree(el){
+  const item=el.closest(".tree-item");if(!item)return;
+  const caret=item.querySelector(":scope > .row .caret");
+  if(caret)caret.classList.toggle("open");
+  const ch=item.querySelector(":scope > .children");
+  if(ch)ch.classList.toggle("collapsed");
+}
+
+/* ============ chips / stats / events ============ */
+function renderChips(){
+  document.getElementById("chips").innerHTML=cats.map(c=>
+    `<button class="chip ${state.cat===c?"on":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
+}
+document.getElementById("chips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip");if(!b)return;
+  state.cat=b.dataset.cat;renderChips();apply();
+});
+document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim().toLowerCase();apply();});
+document.getElementById("sort").addEventListener("change",e=>{state.sort=e.target.value;apply();});
+document.getElementById("refresh").addEventListener("click",loadData);
+function apply(){renderGrid();renderTree();renderStats();}
+function renderStats(){
+  document.getElementById("stats").innerHTML=
+    `${flat.length} notes found in the repo · ${esc(state.q?`search: "${state.q}" · `:"")}folder: ${esc(state.cat)} · <a href="#" onclick="event.preventDefault();loadData()">reload from GitHub</a>`;
+}
+
+/* ============ data source ============ */
+const clean=paths=>paths.filter(p=>
+  !p.startsWith(".")&&!p.includes("/.")&&!p.includes("__pycache__")&&!p.endsWith(".pyc")&&
+  p!=="index.html"&&p!=="README.md"&&/\.(md|html)$/i.test(p));
+const FALLBACK_PATHS=[
+  "README.md",
+  "bd-constitution.html",
+  "davidson/davidson_immunology_bangla.html",
+  "Pathology/README.md","Pathology/00_START_HERE.md","Pathology/00_INDEX.md",
+  "Pathology/flashcards_hepatobiliary/index.html",
+  "Pathology/viva-set-question/index.html",
+  "Pathology/viva-set-question/item 5 respiratory/Item-5_Respiratory_System_Viva_Answers.md",
+  "systemic pathology 15-26 item set questions/README.md",
+  "systemic pathology 15-26 item set questions/Item-15_Testis_Prostate_Semen.md",
+  "systemic pathology 15-26 item set questions/Item-16_Female_Genital_Infections_CIN_Cervix.md",
+  "systemic pathology 15-26 item set questions/Item-17_Uterus_Placenta_Ovary_PregnancyTest.md",
+  "systemic pathology 15-26 item set questions/Item-24_Sample_Collection_Preservation_Processing.md",
+  "systemic pathology 15-26 item set questions/Item-25_Autopsy_Histopathology_Techniques.md",
+  "systemic pathology 15-26 item set questions/Item-26_Cytopathology_Techniques.md",
+];
+const FNAMES=["Cell_as_Unit","Cell_Injury_Death_Adaptations","Inflammation_Repair","Hemodynamic_Disorders_Shock","Genetic_Disorders","Diseases_of_Immune_System","Neoplasia","Infectious_Diseases","Environmental_Nutritional","Infancy_Childhood","Blood_Vessels","Heart","WBC_LymphNodes_Spleen_Thymus","RBC_Bleeding_Disorders","Lung","Head_and_Neck","GIT","Liver_Gallbladder","Pancreas","Kidney","LowerUrinary_Male_Genital","Female_Genital_Tract","Breast","Endocrine","Skin","Bone_Joint_STT","PNS_Skeletal_Muscle","CNS","Eye"];
+for(let i=0;i<29;i++)FALLBACK_PATHS.push(`Pathology/ch${String(i+1).padStart(2,"0")}_${FNAMES[i]}.md`);
+
+function fallback(msg){
+  buildFromPaths(clean(FALLBACK_PATHS));
+  document.getElementById("stats").innerHTML+=`<br>⚠ ${esc(msg)} Showing a bundled snapshot instead (update index.html to refresh it).`;
+}
+async function loadData(){
+  document.getElementById("stats").textContent="Loading notes from GitHub…";
+  try{
+    const r=await fetch(API,{headers:{Accept:"application/vnd.github+json"}});
+    if(!r.ok)throw new Error("GitHub API HTTP "+r.status);
+    const j=await r.json();
+    const paths=clean((j.tree||[]).filter(e=>e.type==="blob").map(e=>e.path));
+    buildFromPaths(paths);
+    document.getElementById("stats").innerHTML=`${paths.length} notes loaded live from the repo — hierarchy updates automatically.`;
+  }catch(err){
+    fallback("Could not reach GitHub API ("+err.message+").");
+  }
+}
+
+/* ============ boot ============ */
+loadData();
+</script>
 </body>
 </html>
