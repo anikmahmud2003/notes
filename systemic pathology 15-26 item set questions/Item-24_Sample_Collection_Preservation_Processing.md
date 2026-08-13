@@ -4,7 +4,7 @@
 
 ---
 
-## Q1. What is tissue accessioning? Why is clinical data important for proper histopathological diagnosis?
+## Q1. What is tissue accessioning? Why clinical data is important for proper histopathological diagnosis?
 
 ### Definition
 **Tissue accessioning = the formal process of RECEIVING, REGISTERING and TRACKING a specimen when it arrives at the pathology laboratory.** Each specimen is given a **unique accession number**, its details (patient identity, specimen type, site, clinical history, requesting clinician) are entered into the laboratory record, and it is then routed for grossing, processing and reporting. It is the **first and essential step of laboratory governance** — every subsequent slide and report is linked to the accession number, which also enables retrieval of blocks/slides and audit.
@@ -21,7 +21,7 @@
 
 ---
 
-## Q2. Name the fixatives used in histopathology. Which one is most commonly used and how does it work?
+## Q2. Name the fixatives used in histopathology. Which one is most commonly used and how it works?
 
 ### Fixatives used in histopathology
 | Fixative | Use |
@@ -125,7 +125,7 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-## Q6. How can biopsy specimens be transported from peripheral centers to histopathology lab?
+## Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?
 
 ### Principles
 Transport must keep the tissue **adequately fixed** (to stop autolysis), **correctly identified**, **physically protected**, and **traceable** — from a site where specimens are collected (OPD, operation theatre, peripheral hospital) to the histopathology laboratory.

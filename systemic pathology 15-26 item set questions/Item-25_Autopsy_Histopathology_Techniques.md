@@ -4,7 +4,7 @@
 
 ---
 
-## Q1. What is biopsy and autopsy? How does histopathology help the autopsy procedure?
+## Q1. What is biopsy and autopsy? How histopathology helps the autopsy procedure?
 
 ### Definitions
 - 🔴 **Biopsy = removal of a small piece of tissue from a LIVING patient for diagnostic examination** (e.g., tumour typing/grading, confirming inflammation, transplant surveillance).
@@ -102,7 +102,7 @@ Guides the surgical decision **in the same sitting** and avoids a second operati
 
 ---
 
-## Q5. What are tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.
+## Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.
 
 ### Definition
 **Tissue preservatives = agents that keep tissue from deteriorating after removal**, preventing **autolysis** (self-digestion by the tissue's own enzymes) and **putrefaction** (decay by bacteria), so the sample remains fit for study.
@@ -128,7 +128,7 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-## Q6. What are fixatives? Mention aim of fixation. Classification of fixatives.
+## Q6. What is fixatives? Mention aim of fixation. Classification of fixatives.
 
 ### Definition
 **Fixative = a chemical (or physical) agent used to FIX (preserve) tissue** so that morphology is retained close to the living state and the tissue is **hardened** for sectioning. **Fixation is the FIRST and MOST IMPORTANT step of tissue handling.**
@@ -158,7 +158,7 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-## Q7. Mention the steps of tissue processing. Why must tissue undergo processing for histopathology?
+## Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?
 
 ### Steps (in order)
 ```

@@ -4,7 +4,7 @@
 
 ---
 
-## Q1. What is cytopathology? Mention types of cytopathology.
+## Q1. What are the types of cytopathology? Mention with examples.
 
 ### Definition
 🔴 **Cytopathology (exfoliative + aspiration cytology) = the study of DISEASE at the level of individual CELLS.** Unlike histopathology (which studies intact tissue architecture), cytopathology examines **cells** that have been **exfoliated (shed), scraped, or aspirated** from the body — it answers "what cells are present and are they benign or malignant?" but loses the tissue architecture.
@@ -22,7 +22,7 @@
 
 ---
 
-## Q2. What is exfoliative and abrasive cytology?
+## Q2. Short note: Exfoliative cytology, Abrasive cytology.
 
 ### Exfoliative cytology
 - Study of cells that **shed spontaneously** (exfoliate) from a surface into a lumen or cavity.
@@ -43,7 +43,7 @@
 
 ---
 
-## Q3. Define FNAC and write its advantages.
+## Q3. What is FNAC. Mention the advantages of FNAC.
 
 ### Definition
 🔴 **FNAC = Fine Needle Aspiration Cytology — a technique in which cells are aspirated from a palpable or image-detected lesion using a THIN needle (22–25 G), smeared onto slides, stained and examined microscopically.** It is a cytological (not histological) method — cells only, no tissue architecture.
@@ -69,7 +69,7 @@
 
 ---
 
-## Q4. Write the procedure of FNAC.
+## Q4. Describe shortly the procedure of FNAC.
 
 ### Equipment
 - 10–20 ml syringe (or **syringe holder/pistol** for one-handed control) with **22–25 G needle** (🔴 thin needle).
@@ -93,7 +93,7 @@
 
 ---
 
-## Q5. What needles are used in FNAC and what are its complications?
+## Q5. What types of needle is used in FNAC? Mention the complications of FNAC.
 
 ### Needles
 | Needle gauge (G) | Use |
@@ -120,7 +120,7 @@
 
 ---
 
-## Q6. How can deep-seated organs be sampled for cytology?
+## Q6. How the tumors in deep seated organs (Liver, lung) can be sampled for cytopathology?
 
 Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroperitoneum) cannot be palpated — they are sampled under **IMAGE GUIDANCE**:
 
@@ -138,7 +138,7 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q7. What are the cytological staining methods?
+## Q7. Mention the names cytological staining methods. Which one is used commonly?
 
 | Stain | Type / cells shown | Best for |
 |---|---|---|
@@ -151,6 +151,8 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 | **Oil Red O / Sudan** | Fat | Lipid vacuoles in cells |
 
 ### Key principle
+- 🔴 **Pap stain is used commonly / most routinely** — for gynaecological (cervical Pap), fluid, urine and sputum cytology.
+- 🔴 **MGG/Giemsa is equally common in FNAC practice** (lymph nodes, bone marrow, fluids) — best for cytoplasmic detail.
 - **Pap stain** → **wet-fixed** smears (alcohol/spray) → nuclear detail.
 - **Giemsa (MGG)** → **air-dried** smears → cytoplasmic detail.
 - 🔴 **Two stains are complementary** — labs often do BOTH on FNAC (one wet-fixed for Pap, one air-dried for MGG).
@@ -159,7 +161,7 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q8. What fixatives are used in cytopathology?
+## Q8. Name the fixatives used in cytopathology. Which one is most commonly used? What is coating fixative?
 
 | Fixative | Use |
 |---|---|
@@ -173,6 +175,8 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 | **No fixative → air-drying** | For Giemsa (air-dried smears are the fix method) |
 
 ### Key principles
+- 🔴 **Most commonly used fixative = 95% ethanol (alcohol)** — the routine wet fixative for cytology smears (Pap stain).
+- 🔴 **Coating fixative = a spray containing Carbowax (polyethylene glycol) in alcohol** — sprayed onto a fresh smear it forms a **thin plastic-like polymer film** that seals the cells, **prevents air-drying artefacts** and preserves them during **transport** when a jar of ethanol is unavailable; the film is dissolved off before staining.
 - **Wet fixation (alcohol/spray)** → preserves **nuclear detail** → needed for **Pap stain**.
 - **Air-drying** → preserves **cytoplasm** → needed for **Giemsa/MGG**.
 - 🔴 **Spray (coating) fixatives** are the practical alternative when 95% ethanol is unavailable — they are also ideal for **transporting** smears from peripheral centres.
@@ -181,7 +185,7 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q9. Difference between biopsy and FNAC.
+## Q9. Between Biopsy & FNAC; Which in one is better for diagnosis & Why?
 
 | Feature | **FNAC (cytology)** | **Biopsy (histology)** |
 |---|---|---|

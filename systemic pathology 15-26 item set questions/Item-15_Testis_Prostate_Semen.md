@@ -6,7 +6,7 @@
 
 # Part A — Testis (Q1–6)
 
-## Q1. Classify tumours of the testis.
+## Q1. Classify tumours of testis.
 
 ### Overview
 **Germ cell tumours (GCT) = ~95% of testicular tumours** — the most common cancer in Caucasian males aged **15–45 yr**. Any solid testicular mass is treated as **malignant until proven otherwise**; biopsy is avoided (risk of tumour spillage) and **radical orchiectomy** is the standard first step.
@@ -134,7 +134,7 @@ A germ cell tumour containing **derivatives of more than one germ layer** (endod
 
 ---
 
-## Q5. How does seminoma differ from non-seminomatous testicular tumour (NSGCT)?
+## Q5. How does seminoma differ from non-seminomatous testicular tumour?
 
 Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they differ in differentiation, gross appearance, markers, invasiveness, and prognosis.
 
@@ -184,7 +184,7 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 # Part B — Prostate (Q7–12)
 
-## Q7. What are the diseases of the prostate?
+## Q7. What are the diseases of prostate?
 
 | Category | Diseases |
 |---|---|
@@ -206,7 +206,7 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 ---
 
-## Q8. What are the tumours of the prostate?
+## Q8. What are the tumours of prostate?
 
 Primary prostate tumours are almost always **epithelial**; by far the most important is **acinar (usual) adenocarcinoma**.
 
@@ -275,7 +275,7 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 ---
 
-## Q11. Difference between benign prostatic hyperplasia and malignant prostatic hyperplasia (carcinoma).
+## Q11. Difference between benign prostatic hyperplasia and malignant prostatic hyperplasia.
 
 | Feature | **BPH** | **Prostatic carcinoma** |
 |---|---|---|
@@ -405,7 +405,10 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-## Q18. Define: Oligospermia, Azoospermia, Necrospermia.
+## Q18. Define:
+- Oligospermia
+- Azoospermia
+- Necrospermia
 
 - **Oligospermia (oligozoospermia):** sperm concentration below the lower reference limit — **<15 million/mL** (WHO 2010) / **<16 million/mL** (WHO 2021). "Few sperm" — does not distinguish production vs transport problem.
 - **Azoospermia:** **no spermatozoa in the ejaculate** — confirmed on the **centrifuged deposit**, on **≥2 samples**. Divided into **obstructive** (normal production, blocked ducts) vs **non-obstructive** (testicular failure — Klinefelter, Sertoli-only, post-chemo).
@@ -436,7 +439,11 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-## Q20. What is: Normozoospermia, Hyperzoospermia, Teratozoospermia, Asthenozoospermia?
+## Q20. What is:
+- Normozoospermia
+- Hyperzoospermia
+- Teratozoospermia
+- Asthenozoospermia
 
 | Term | Definition |
 |---|---|
