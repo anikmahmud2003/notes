@@ -66,7 +66,7 @@
 
 ### Definition
 **Clue cells = mature squamous epithelial (vaginal) cells covered with adherent clusters of small coccobacilli**, giving a **shaggy, stippled ("ground-glass") border** and obscuring the cell margin. Best seen on a **saline (wet) mount**.
-
+![](image_fd2603f5.png)
 ### Condition
 🔴 **Bacterial vaginosis** (*Gardnerella vaginalis* and anaerobes). Their presence with a **fishy odor** (positive whiff/KOH test) and **pH > 4.5** confirms BV.
 
