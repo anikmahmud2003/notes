@@ -84,6 +84,7 @@
 
 ### Definition
 **"Strawberry cervix" = erythematous, inflamed cervix studded with multiple punctate/petechial hemorrhages** — a colposcopic appearance likened to a strawberry.
+![](image_15b5df61.png)
 
 ### Infection
 🔴 **Trichomoniasis (*Trichomonas vaginalis*)**.
@@ -108,12 +109,16 @@
 
 ### Definition
 **PID = infection that starts in the vulva/vagina/cervix and spreads UPWARD (ascending) to involve the uterus (endometritis), fallopian tubes (salpingitis), and ovaries (oophoritis)** → pelvic pain, adnexal tenderness, fever, cervical motion tenderness and discharge.
-
+![](image_fbd6ea3.png)
 ### Causative organisms
 - 🔴 **Neisseria gonorrhoeae + Chlamydia trachomatis** = the big **sexually transmitted** causes.
 - **Puerperal PID** (post-abortion/delivery) is **polymicrobial**: staph, strep, coliforms, *Clostridium perfringens*.
 
+The adnexa are the structures next to the uterus, including the ovaries, fallopian tubes, and supporting ligaments. Adnexal tenderness is ==pain or discomfort felt in this pelvic area during a physical exam, signaling an underlying issue like a cyst, infection, or ectopic pregnancy==
+
+
 ---
+
 
 ## Q9. Mention four complications of PID.
 
