@@ -40,7 +40,7 @@
 ---
 
 ## Q2. What is bacterial vaginosis? Name the most common organism associated with it.
-![](image_7e0d80c7.png)
+![](../image_7e0d80c7.png)
 ### Definition
 **Bacterial vaginosis (BV) = a polymicrobial clinical syndrome in which the normal lactobacillus-dominant flora is replaced by an overgrowth of mixed anaerobes and coccobacilli**, producing a **thin, gray-white, fishy-smelling discharge** — 🔴 **with minimal inflammation** (the name "vaginosis," not "vaginitis"). Linked to **premature labor**, pelvic inflammatory disease and post-abortal sepsis.
 
