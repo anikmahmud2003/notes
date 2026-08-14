@@ -1,6 +1,7 @@
 # Item 16 — Female Genital System: Infections, Cervix, CIN & Cervical Carcinoma
 
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 22 (The Female Genital Tract)
+> **Mam's slides (📌):** Dr. Sharmeen Jahan — "Infections of the Female Genital Tract" + "Cervical Intraepithelial Neoplasia (CIN), Carcinoma Cervix and Screening" (Shaheed Ziaur Rahman Medical College, Bogura)
 
 **This file has two parts:**
 - **Part A** — Infections of the female genital tract (Q1–20 + Scenarios 1–10 + Extras + Quick-fire)
@@ -37,6 +38,8 @@
 2. **Trichomonas vaginalis** — sexually transmitted protozoan; frothy yellow-green discharge.
 > Other causes: **Gardnerella vaginalis** (bacterial vaginosis), HSV, gonococcus, *Chlamydia*, allergic/contact irritants, low estrogen (atrophic vaginitis).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* Inflammation of the vulva and vagina caused by infectious agents. *Two common causes:* ① **Candida albicans** (candidiasis) — the most common fungal infection of the vagina; predisposing factors: pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression. ② **Trichomonas vaginalis** — a sexually transmitted protozoan causing frothy yellow-green discharge.
+
 ---
 
 ## Q2. What is bacterial vaginosis? Name the most common organism associated with it.
@@ -49,6 +52,8 @@
 
 > 🎯 "Fishy odor + clue cells + high pH = bacterial vaginosis (Gardnerella)."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Bacterial vaginosis = replacement of the normal lactobacilli by a mixed bacterial flora. **Most commonly associated with:** ① **Gardnerella vaginalis**, ② **anaerobic bacteria**. *Clinical features:* thin gray-white discharge; fishy odor (especially after intercourse); minimal inflammation. *Microscopy:* presence of "clue cells" = vaginal epithelial cells coated with bacteria.
+
 ---
 
 ## Q3. Write four clinical features of vulvovaginal candidiasis.
@@ -59,6 +64,8 @@
 4. **Dyspareunia, dysuria and burning** — discomfort on intercourse and micturition.
 
 > 🎯 "Itching + curd-like discharge = candidiasis (KOH positive)."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Four clinical features of vulvovaginal candidiasis — ① **Intense vulvar itching (pruritus)**; ② **Burning sensation**; ③ **Thick, white, "curd-like" vaginal discharge**; ④ **Redness and edema of the vulva**. *Predisposing factors:* pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression. *Microscopy:* budding yeast cells + pseudohyphae on KOH preparation.
 
 ---
 
@@ -72,11 +79,15 @@
 
 > 🎯 "Clue cells = shaggy squamous cells covered with coccobacilli → bacterial vaginosis."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Clue cells = **vaginal epithelial cells coated with bacteria**. Seen in **bacterial vaginosis**.
+
 ---
 
 ## Q5. Name the causative organism of trichomoniasis.
 
 🔴 **Trichomonas vaginalis** — a **flagellated protozoan**, sexually transmitted. It is pear-shaped with 4–5 anterior flagella and a characteristic **jerky motility** on a fresh wet mount.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Causative organism of trichomoniasis = **Trichomonas vaginalis** — a sexually transmitted protozoan infection.
 
 ---
 
@@ -91,6 +102,8 @@
 
 > 🎯 "Strawberry cervix = Trichomonas. Fishy discharge + clue cells = Gardnerella/BV. Curd-like + pruritus = Candida."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** "Strawberry cervix" = cervix showing **punctate hemorrhages**, seen in **Trichomonas vaginalis** infection (with frothy yellow-green discharge, vaginal irritation, dysuria, dyspareunia).
+
 ---
 
 ## Q7. Define cervicitis. Mention two common infectious causes.
@@ -102,6 +115,8 @@
 1. **Neisseria gonorrhoeae** — purulent (mucopurulent) cervicitis.
 2. **Chlamydia trachomatis** — the most common bacterial STI; mucopurulent cervicitis that may be clinically silent.
 > Others: HSV, *Mycoplasma*, *Ureaplasma*.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* **Cervicitis = inflammation of the cervix.** *Two common infectious causes:* ① **Chlamydia trachomatis** — the most common bacterial sexually transmitted infection; may be asymptomatic; causes mucopurulent cervical discharge, dysuria, pelvic pain; complications → PID, infertility, ectopic pregnancy. ② **Neisseria gonorrhoeae** — causes acute purulent cervicitis, often associated with urethritis; complications → ascending infection, PID, tubal scarring.
 
 ---
 
@@ -117,6 +132,9 @@
 The adnexa are the structures next to the uterus, including the ovaries, fallopian tubes, and supporting ligaments. Adnexal tenderness is ==pain or discomfort felt in this pelvic area during a physical exam, signaling an underlying issue like a cyst, infection, or ectopic pregnancy==
 
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** PID = **ascending infection involving the endometrium, fallopian tubes, ovaries and pelvic peritoneum**. *Etiologic agents:* ① Chlamydia trachomatis, ② Neisseria gonorrhoeae, ③ mixed aerobic and anaerobic bacteria. *Pathogenesis:* infection ascends from **Vagina → Cervix → Uterus → Fallopian tubes**. *Risk factors:* multiple sexual partners, unprotected intercourse, previous STI, young age. *Clinical features:* lower abdominal pain, fever, abnormal vaginal discharge, cervical motion tenderness, dyspareunia.
+
+
 ---
 
 
@@ -128,6 +146,8 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 4. **Tubo-ovarian abscess / pyosalpinx / hydrosalpinx** and intestinal obstruction from adhesions.
 > Also: peritonitis, pelvic adhesions, Fitz-Hugh–Curtis syndrome (perihepatitis), recurrent infection.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Complications of PID — ① **Tubal infertility**, ② **Ectopic pregnancy**, ③ **Chronic pelvic pain**, ④ **Pelvic adhesions**, ⑤ **Tubo-ovarian abscess**.
+
 ---
 
 ## Q10. Name the common causative organisms of salpingitis.
@@ -136,6 +156,8 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 - **Chlamydia trachomatis** — most of the remainder (part of PID).
 - **Tuberculous salpingitis** (*Mycobacterium tuberculosis*) — 1–2% in the US; **an important cause of infertility where TB is common**.
 - Polymicrobial (puerperal): staph, strep, coliforms.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Salpingitis is usually part of PID. Common organisms: ① **Chlamydia trachomatis**, ② **Neisseria gonorrhoeae**.
 
 ---
 
@@ -156,6 +178,8 @@ Pregnancy, diabetes mellitus, **broad-spectrum antibiotics**, immunosuppression 
 4. **Vaginal pH** — usually **normal (≤4.5)** (unlike BV/trichomoniasis).
 
 > 🎯 "KOH mount: pseudohyphae + budding yeast = Candida."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Clinical features:* intense vulvar itching (pruritus), burning sensation, thick white "curd-like" vaginal discharge, redness and edema of vulva. *Microscopy:* **budding yeast cells + pseudohyphae visible on KOH preparation**. *Predisposing factors:* pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression.
 
 ---
 
@@ -185,6 +209,8 @@ The protozoan attaches to the vaginal squamous epithelium, producing inflammatio
 > 🎯 "Frothy yellow-green discharge + strawberry cervix + motile flagellate on wet mount = Trichomonas."
 ![](image_6bab4514.png)
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Trichomoniasis = sexually transmitted protozoan infection. *Clinical features:* frothy yellow-green vaginal discharge, vaginal irritation, dysuria, dyspareunia, **"strawberry cervix" due to punctate hemorrhages**. *Microscopy:* **motile flagellated trophozoites in wet mount preparation**.
+
 
 ---
 
@@ -210,9 +236,12 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "Thin gray fishy discharge + pH>4.5 + clue cells + minimal inflammation = BV."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Etiology:* caused by replacement of normal lactobacilli by mixed bacterial flora — most commonly **Gardnerella vaginalis** + **anaerobic bacteria**. *Clinical features:* thin gray-white discharge, fishy odor (especially after intercourse), minimal inflammation. *Microscopy:* presence of clue cells (vaginal epithelial cells coated with bacteria).
+
 ---
 
 ## Q14. Describe the pathogenesis of pelvic inflammatory disease.
+![](image_d36d7ba0.png)
 
 1. **Initial cervical/vaginal infection** — gonococcus (2–7 days after inoculation) or Chlamydia; both ascend from the cervix.
 2. **Ascending spread** — organisms travel **through the endometrial cavity → fallopian tubes** (the endometrial lumen provides the conduit). Bacteria also travel **via lymphatics and veins** (especially puerperal streptococcal/staphylococcal infection).
@@ -223,6 +252,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 5. **Healing → chronic salpingitis:** denuded plicae fuse in scarring → **gland-like spaces/blind pouches + hydrosalpinx** → **infertility + ectopic pregnancy**.
 
 > 🎯 "Cervix → uterus → tubes → ovaries: mucosal (gonococcus) vs lymphatic (strep) routes → chronic scarring → infertility + ectopic."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Pathogenesis of PID — infection ascends from **Vagina → Cervix → Uterus → Fallopian tubes**, producing an ascending infection that involves the endometrium, fallopian tubes, ovaries and pelvic peritoneum. *Etiologic agents:* Chlamydia trachomatis, Neisseria gonorrhoeae, mixed aerobic and anaerobic bacteria.
 
 ---
 
@@ -247,6 +278,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "Scarred, dilated, non-functional tubes = infertility; partially blocked, non-ciliated tube = ectopic pregnancy."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Complications — ① tubal infertility, ② ectopic pregnancy, ③ chronic pelvic pain, ④ pelvic adhesions, ⑤ tubo-ovarian abscess. *How infertility occurs:* ascending infection → tubal inflammation with pus formation and tubal wall destruction → healing by fibrosis → blocked/damaged tubes → infertility.
+
 ---
 
 ## Q16. Discuss acute and chronic endometritis.
@@ -264,12 +297,14 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ### Differentiation (quick table)
 
-| Feature | Acute endometritis | Chronic endometritis |
-|---|---|---|
-| Setting | Postpartum / post-abortal | PID, IUD, retained tissue, Chlamydia |
-| Key cell | **Neutrophils** | **Plasma cells** (diagnostic) |
-| Onset | Rapid, febrile | Insidious |
-| Treatment | Curettage + antibiotics | Treat cause; remove IUD |
+| Feature   | Acute endometritis        | Chronic endometritis                       |
+| --------- | ------------------------- | ------------------------------------------ |
+| Setting   | Postpartum / post-abortal | PID, IUD, retained tissue, Chlamydia       |
+| Key cell  | **Neutrophils**           | **Plasma cells** (diagnostic) , Lymphocyte |
+| Onset     | Rapid, febrile            | Insidious                                  |
+| Treatment | Curettage + antibiotics   | Treat cause; remove IUD                    |
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Endometritis = inflammation of the endometrium. *Acute endometritis* — causes: postpartum infection, post-abortion infection, retained products of conception; microscopy: **neutrophilic infiltration**. *Chronic endometritis* — causes: PID, intrauterine contraceptive device (IUCD), tuberculosis; microscopy: **plasma cells in endometrial stroma + lymphocytes**.
 
 ---
 
@@ -289,6 +324,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ### Sequelae
 **Infertility, ectopic pregnancy, chronic pelvic pain.**
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Salpingitis = inflammation of the fallopian tubes, usually part of PID. *Pathologic changes:* ① acute inflammation, ② **pus formation within the tube**, ③ **tubal wall destruction**, ④ **fibrosis during healing**. *Complications:* hydrosalpinx, pyosalpinx, infertility, ectopic pregnancy.
 
 ---
 
@@ -313,6 +350,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "HSV = painful vesicles + multinucleated giant cells + ground-glass nuclear inclusions; latent in lumbosacral ganglia."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Etiology:* caused mainly by **Herpes Simplex Virus Type 2 (HSV-2)**, sometimes HSV-1. *Clinical features:* painful vesicles and ulcers, burning sensation, fever and malaise during primary infection; recurrent episodes are common. *Microscopic features:* **multinucleated giant cells + intranuclear viral inclusions**.
+
 ---
 
 ## Q19. What is HPV infection? Mention the low-risk and high-risk HPV types.
@@ -328,6 +367,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "High-risk = 16 & 18 (~70% of cervical cancer); low-risk = 6 & 11 (warts)."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV = sexually transmitted infection. *Important types:* **Low-risk: 6, 11**; **High-risk: 16, 18, 31, 33**. *Pathologic change:* koilocytosis — squamous cells with perinuclear clearing + nuclear enlargement and irregularity. *Significance:* persistent infection with high-risk HPV may lead to cervical cancer.
+
 ---
 
 ## Q20. Describe the histological features of condyloma acuminatum.
@@ -341,9 +382,13 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "Condyloma acuminatum = HPV 6/11, papillary fibrovascular cores + koilocytosis, not premalignant."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Common manifestation of HPV = **condyloma acuminatum (genital warts)**. *Gross appearance:* multiple papillary warty lesions. *Histologic features:* ① **acanthosis**, ② **papillomatosis**, ③ **koilocytosis**.
+
 ---
 
 # SCENARIO-BASED QUESTIONS
+
+> 📌 **Note:** All 10 scenarios + Extra 1 appear verbatim in Dr. Sharmeen Jahan's "Infections of the Female Genital Tract" slides. The slides give the answers in the content sections (Vulvovaginitis → Salpingitis) — those are captured in the 📌 Mam's slide notes of Part A Q1–Q20 above.
 
 ## Scenario 1: Vulvovaginal Candidiasis
 > A 28-year-old pregnant woman presents with intense vulval itching and thick white "cottage cheese-like" vaginal discharge. She recently completed a course of broad-spectrum antibiotics.
@@ -601,6 +646,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **Fungal:** *Candida albicans*.
 **Protozoal:** *Trichomonas vaginalis*.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Infections may involve the vulva, vagina, cervix, uterus, fallopian tubes and ovaries. *Causative agents:* bacteria, viruses, fungi, protozoa. These infections can lead to PID, infertility, ectopic pregnancy, chronic pelvic pain, and increased risk of cervical neoplasia.
+
 ### R2. What is PID? Name the complications of PID.
 (→ see Part A Q8, Q9, Q15)
 
@@ -622,6 +669,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 - **CIN II:** lower **two-thirds** (moderate).
 - **CIN III:** **> two-thirds to full thickness** (severe/CIS).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* CIN is a **premalignant epithelial lesion of the cervix**, characterized by disordered growth and maturation of squamous epithelial cells **without invasion through the basement membrane**; it represents a spectrum of epithelial dysplasia that may progress to invasive cervical cancer. *Etiology:* persistent infection with **high-risk HPV** — most important oncogenic types: **HPV-16, 18, 31, 33, 45**. *Grading:* **CIN I (mild)** = dysplastic cells occupy lower one-third; usually a productive HPV infection, many regress spontaneously. **CIN II (moderate)** = lower two-thirds; increased nuclear atypia and mitotic activity. **CIN III (severe/CIS)** = more than two-thirds or full thickness; marked atypia and abnormal mitoses; high risk of progression to invasive carcinoma.
+
 ### R4. Mention the risk factors of carcinoma cervix.
 1. 🔴 **Persistent high-risk HPV infection (HPV-16/18)** — the most important.
 2. **Early age at first sexual intercourse**, multiple sexual partners.
@@ -629,6 +678,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 4. **Smoking**.
 5. **High parity**, long-term **oral contraceptive use**.
 6. **Low socioeconomic status** and lack of screening (poor Pap compliance) — >½ of invasive cancers occur in women not participating in regular screening.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Risk factors of carcinoma cervix — ① persistent high-risk HPV infection, ② early sexual activity, ③ multiple sexual partners, ④ smoking, ⑤ immunosuppression (HIV infection), ⑥ multiparity, ⑦ long-term oral contraceptive use.
 
 ### R5. Give the pathogenesis of cervical carcinoma due to HPV infection.
 1. 🔴 **Persistent infection with high-risk HPV (16, 18)** — episomal → **integration** of viral DNA into host genome ↑ E6/E7 expression (may dysregulate MYC).
@@ -639,6 +690,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "E6 → p53; E7 → RB; integration + persistence → CIN → cancer. p16/Ki-67 overexpress as surrogate markers."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV carcinogenesis — *Step 1:* virus infects basal epithelial cells through microabrasions → *Step 2:* viral DNA integrates into host DNA → *Step 3:* expression of viral oncoproteins → **E6 protein** binds and degrades p53, prevents apoptosis, promotes genetic instability; **E7 protein** binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation. *Additional effects:* increased telomerase activity, genomic instability, accumulation of mutations. *Result:* HPV infection → CIN → CIN III → invasive carcinoma.
+
 ### R6. Mention the diagnostic tool of cervical cancer.
 1. **Screening:** **Pap smear (cytology)** + **HPV DNA testing** (co-testing ≥30 yr).
 2. **Diagnostic:** **Colposcopy + directed cervical biopsy** (aceto-white areas); **endocervical curettage**.
@@ -646,12 +699,27 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 4. **Histology** — the gold standard for invasion; IHC **p16** + **Ki-67** confirm high-risk HPV effect.
 5. **Staging:** clinical (FIGO) with examination, imaging (MRI/CT/PET).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Screening tests for carcinoma cervix — **A. Papanicolaou (Pap) smear:** cytological examination of exfoliated cervical cells; detects precancerous lesions before invasive cancer develops; findings: koilocytes, dysplastic cells, HSIL, malignant cells; advantages: simple, inexpensive, highly effective. **B. Liquid-based cytology (LBC):** cells collected in liquid medium; better preservation; fewer unsatisfactory samples. **C. HPV DNA testing:** detects high-risk HPV infection; used for primary screening, co-testing with Pap smear, and triage of abnormal cytology. **D. VIA:** 3–5% acetic acid applied to cervix; dysplastic areas become white (acetowhite); low cost, useful in low-resource settings.
+
 ### R7. What are the differences between carcinoma in situ and CIN III?
 - **CIN III** is the 3-tier grade that includes **severe dysplasia** AND **carcinoma in situ**.
 - 🔴 **The terms are used interchangeably** — both mean full-thickness (or >⅔) dysplastic epithelium **confined above the intact basement membrane with no stromal invasion**.
 - In the current WHO/Bethesda concept, **both are reported as HSIL**; the distinction "CIS" vs "CIN III" is historical/archaic. When invasion through the basement membrane occurs, it becomes **microinvasive (stage Ia1) or invasive carcinoma**.
 
 > 🎯 "CIS = CIN III = HSIL — same lesion; the important boundary is basement membrane invasion."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Difference between CIS and CIN III —
+
+> | Feature | CIN III | Carcinoma in situ (CIS) |
+> |---|---|---|
+> | Epithelial involvement | >2/3 thickness to full thickness | Full thickness |
+> | Cellular atypia | Severe | Severe |
+> | Basement membrane | Intact | Intact |
+> | Invasion | Absent | Absent |
+> | Current terminology | Included within CIN III/HSIL | Included within CIN III/HSIL |
+> | Clinical significance | Precancerous lesion | Immediate precursor of invasive cancer |
+
+> **Important Robbins concept:** Modern terminology combines severe dysplasia and carcinoma in situ into **CIN III (HSIL)** because biologically they behave similarly.
 
 ### R8. Short note: Pap smear.
 
@@ -667,6 +735,8 @@ The **Papanicolaou (Pap) smear** = exfoliative cytology of the **cervical transf
 - The single greatest screening success story: **75% reduction in cervical cancer mortality** (from #1 to #13 cause of cancer death in US women).
 - Combined with **HPV DNA testing** (≥30 yr) and the **HPV vaccine (16/18)** → near-complete prevention.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Pap smear = cytological examination of exfoliated cervical cells. *Purpose:* detect precancerous lesions before invasive cancer develops. *Findings:* koilocytes, dysplastic cells, HSIL, malignant cells. *Advantages:* simple, inexpensive, highly effective screening tool.
+
 ---
 
 # SAQs on CIN, Carcinoma Cervix & Screening (1–20)
@@ -681,6 +751,8 @@ c) Mention two histological features of CIN III.
 **b)** CIN I (lower ⅓) = LSIL; CIN II (lower ⅔) = HSIL; CIN III (>⅔ to full thickness) = HSIL.
 **c)** 🔴 **Full-thickness (or >⅔) immature dysplastic basaloid cells with loss of normal maturation**; nuclear atypia (hyperchromasia, pleomorphism, ↑N:C ratio, mitoses, atypical mitoses) with an **intact basement membrane**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** CIN = premalignant epithelial lesion with disordered growth/maturation of squamous cells, **no invasion through the basement membrane**. Classification: CIN I (lower ⅓), CIN II (lower ⅔), CIN III (>⅔–full thickness). *Histologic features of CIN III:* loss of normal maturation, hyperchromatic nuclei, increased N:C ratio, pleomorphism, increased mitotic figures, koilocytosis.
+
 ## SAQ 2
 a) What is dysplasia?
 b) What are the microscopic features of cervical dysplasia?
@@ -690,6 +762,8 @@ c) What is the significance of dysplasia?
 **a)** A precancerous change characterized by **loss of orderly maturation** + **nuclear atypia** confined to the epithelium (above the basement membrane).
 **b)** ↑N:C ratio, nuclear hyperchromasia, pleomorphism, loss of polarity/maturation, increased and atypical mitoses, koilocytes (if HPV).
 **c)** It is the **premalignant precursor** — with persistent high-risk HPV it can progress to carcinoma in situ → invasive carcinoma; detection enables screening to prevent cancer.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysplasia = disordered epithelial growth with cytologic atypia. *Features:* nuclear enlargement, hyperchromasia, pleomorphism, increased mitosis, loss of maturation. *Significance:* reversible in early stages; may progress to carcinoma.
 
 ## SAQ 3
 a) Define carcinoma in situ (CIS).
@@ -708,6 +782,8 @@ c) How does CIS differ from invasive carcinoma?
 | Metastasis | Never | Possible |
 | Prognosis | Excellent (curable) | Depends on stage |
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** CIS = full-thickness epithelial atypia without invasion — entire epithelial thickness replaced by malignant cells; basement membrane remains intact; **no access to blood vessels or lymphatics**; direct precursor of invasive carcinoma. Invasive carcinoma: malignant cells penetrate through the basement membrane into cervical stroma → stromal invasion, ability to metastasize, desmoplastic reaction, lymphovascular invasion; may spread to parametrium, pelvic lymph nodes, distant organs.
+
 ## SAQ 4
 a) Define invasive carcinoma of the cervix.
 b) Mention two routes of spread of cervical carcinoma.
@@ -717,6 +793,8 @@ c) Name the most common histological type of cervical carcinoma.
 **a)** Malignant squamous (or glandular) epithelium that has **penetrated the basement membrane** and invaded the cervical stroma.
 **b)** ① **Direct extension** — to paracervical tissue, vagina, uterus, bladder/ureters, rectum; ② **Lymphatic spread** — to local pelvic and para-aortic lymph nodes (then liver, lungs, bone marrow).
 **c)** 🔴 **Squamous cell carcinoma (~80%)** (adenocarcinoma ~15%; adenosquamous + neuroendocrine remainder).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Histologic types:* **Squamous cell carcinoma — most common, about 75%** of cervical cancers; **Adenocarcinoma — about 20–25%**, arises from endocervical glands.
 
 ## SAQ 5
 a) What is the transformation zone?
@@ -728,6 +806,8 @@ c) Mention two lesions commonly arising in this zone.
 **b)** 🔴 **The immature squamous metaplastic cells here are the most HPV-susceptible** — the majority of CIN and cancers arise in the transformation zone (hence the Pap scrapes it).
 **c)** **CIN/dysplasia (HSIL) and invasive squamous cell carcinoma**; also endocervical polyps.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Transformation zone = the area where the original **columnar epithelium of the endocervix** meets the **squamous epithelium of the ectocervix**; components: squamocolumnar junction (SCJ) + area of squamous metaplasia. *Importance:* most cervical precancerous lesions arise here; nearly all cervical carcinomas originate here; most Pap smear abnormalities are detected from this region. *Why vulnerable:* active cellular proliferation → metaplastic epithelium is susceptible to HPV infection.
+
 ## SAQ 6
 a) What is HPV?
 b) Name four high-risk HPV types associated with cervical cancer.
@@ -737,6 +817,8 @@ c) Which HPV types are most commonly associated with cervical carcinoma?
 **a)** Human papillomavirus — small **DNA virus** of squamous epithelium, sexually transmitted.
 **b)** **16, 18, 31, 45** (others: 33, 35, 52, 58…).
 **c)** **HPV-16 (~60%) and HPV-18 (~10%)** — together ~70% of cervical cancers.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** High-risk HPV types: **16, 18, 31, 33** (also 45). Most important oncogenic types: HPV-16, 18, 31, 33, 45.
 
 ## SAQ 7
 a) Describe the role of HPV in cervical carcinogenesis.
@@ -748,6 +830,8 @@ c) Mention their effects on p53 and RB genes.
 **b)** Viral oncoproteins encoded by high-risk HPV; E6 = the "p53 killer", E7 = the "RB killer".
 **c)** 🔴 **E6 → proteasomal degradation of p53 + ↑ telomerase; E7 → proteasomal degradation of RB + inhibition of p21/p27.** Result: loss of apoptosis/checkpoints + drive of cell cycle = immortalized, genetically unstable cells.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** E6 protein binds and degrades p53, prevents apoptosis, promotes genetic instability. E7 protein binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation. Additional effects: increased telomerase activity, genomic instability, accumulation of mutations.
+
 ## SAQ 8
 a) Enumerate the risk factors for carcinoma cervix.
 b) Which risk factor is considered most important?
@@ -757,6 +841,8 @@ c) Mention two host-related risk factors.
 **a)** Persistent high-risk HPV, early coitus, multiple partners, immunosuppression (HIV), smoking, high parity, OCPs, low socioeconomic status/lack of screening.
 **b)** 🔴 **Persistent infection with high-risk HPV (HPV-16/18).**
 **c)** **Immunosuppression** (HIV) and **smoking** (or high parity/OCP use).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Risk factors: persistent high-risk HPV infection, early sexual activity, multiple sexual partners, smoking, immunosuppression (HIV), multiparity, long-term oral contraceptive use.
 
 ## SAQ 9
 a) Classify cervical intraepithelial neoplasia.
@@ -768,6 +854,8 @@ c) Mention the risk of progression of CIN III.
 **b)** Dysplastic (immature) cells confined to the **lower third** of the epithelium; **koilocytic atypia** (HPV effect); mild nuclear atypia, preserved superficial maturation.
 **c)** 🔴 **~10% progress to invasive carcinoma within 2–10 years** (if untreated); ~30% regress, ~60% persist.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** CIN I (mild) = dysplastic cells occupy lower one-third; usually associated with productive HPV infection; many lesions regress spontaneously. CIN III = marked atypia and abnormal mitoses; high risk of progression to invasive carcinoma.
+
 ## SAQ 10
 a) Differentiate between CIN III and carcinoma in situ.
 b) What is the current WHO/Robbins concept regarding these lesions?
@@ -775,6 +863,8 @@ b) What is the current WHO/Robbins concept regarding these lesions?
 **Answers:**
 **a)** Historically CIN III = severe dysplasia (≤ full thickness), CIS = full thickness. **Both have identical biology and risk** → 🔴 **current concept = one entity (HSIL)**, distinguished only by degree (⅔–full vs full thickness); both confined by the intact basement membrane.
 **b)** They are **grouped as HSIL (2-tier system)** — a single management category (colposcopy + conization); the term CIS is retained only descriptively.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Modern terminology combines severe dysplasia and carcinoma in situ into **CIN III (HSIL)** because biologically they behave similarly.
 
 ## SAQ 11
 a) Write the sequence of development of cervical carcinoma.
@@ -789,6 +879,8 @@ Normal squamous epithelium
 ```
 **b)** 🔴 **Integration of HPV DNA → E6 (p53 degradation + telomerase) + E7 (RB degradation + p21/p27 inhibition) → deregulated cell cycle, genomic instability → accumulation of mutations → malignant transformation.**
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Sequence of development:* HPV infection → CIN I → CIN II → CIN III/CIS → invasive carcinoma. *Molecular events:* E6-mediated p53 degradation, E7-mediated RB inactivation, cell-cycle dysregulation, genetic instability → malignant transformation.
+
 ## SAQ 12
 a) What is koilocytosis?
 b) Mention its significance.
@@ -798,6 +890,8 @@ c) In which viral infection is it commonly seen?
 **a)** Nuclear enlargement + hyperchromasia + coarse chromatin + **perinuclear halo (vacuolization)** in squamous epithelial cells.
 **b)** The **cytopathic effect of HPV infection** — evidence of active HPV replication; seen in CIN I/LSIL.
 **c)** **HPV** (low-risk in warts; high-risk in SIL/cancer).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Koilocytosis = squamous cells with **perinuclear clearing** + **nuclear enlargement and irregularity** — the HPV effect.
 
 ## SAQ 13
 a) What is a Pap smear?
@@ -809,6 +903,8 @@ c) Mention its importance in cervical cancer prevention.
 **b)** Exfoliated cells are examined for **nuclear abnormalities** (↑N:C ratio, hyperchromasia, koilocytes) that indicate dysplasia/malignancy, graded by Bethesda (NILM/ASC-US/LSIL/HSIL).
 **c)** 🔴 Detects **precursor lesions in the long pre-invasive window** → early colposcopy/treatment prevents invasive cancer → **75% reduction in cervical cancer mortality** (the best-documented success of screening).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Pap smear = cytological examination of exfoliated cervical cells. *Purpose:* detect precancerous lesions before invasive cancer develops. *Findings:* koilocytes, dysplastic cells, HSIL, malignant cells. *Advantages:* simple, inexpensive, highly effective.
+
 ## SAQ 14
 a) Enumerate the screening methods for cervical carcinoma.
 b) Which screening test is most widely used?
@@ -818,6 +914,8 @@ c) What is HPV DNA testing?
 **a)** **Pap smear**, **HPV DNA testing**, **VIA (visual inspection with acetic acid)**, **liquid-based cytology (LBC)**.
 **b)** 🔴 **Pap smear (cervical cytology)**.
 **c)** Molecular test detecting **DNA of high-risk HPV types** in a cervical sample — **higher sensitivity, lower specificity than Pap**; used with cytology in women **≥30 yr** (co-testing) and to triage ASC-US.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV DNA testing detects **high-risk HPV infection**. *Uses:* ① primary screening, ② co-testing with Pap smear, ③ triage of abnormal cytology.
 
 ## SAQ 15
 a) What is VIA (Visual Inspection with Acetic Acid)?
@@ -829,6 +927,8 @@ c) Mention two advantages of VIA.
 **b)** Apply acetic acid to the cervix → wait ~1 minute → **abnormal (dysplastic) epithelium turns white (aceto-white)** because of high nuclear density/protein → suspicious areas identified for biopsy/treatment.
 **c)** ① **Cheap and simple** — no laboratory/pathologist required (suitable for low-resource settings); ② **Immediate result** → same-visit treatment ("screen-and-treat").
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** VIA procedure — 3–5% acetic acid applied to cervix → dysplastic areas become white (**acetowhite**). *Advantages:* low cost; useful in low-resource settings.
+
 ## SAQ 16
 a) What is liquid-based cytology (LBC)?
 b) Mention two advantages over conventional Pap smear.
@@ -837,6 +937,8 @@ b) Mention two advantages over conventional Pap smear.
 **a)** A cervical sample suspended in a preservative fluid, then processed into a **thin, uniform monolayer slide** (instead of a direct smear).
 **b)** ① **Thinner, more uniform slide** → fewer obscuring cells, better reading; ② Allows **ancillary tests from the same sample** (HPV DNA testing, immunocytochemistry).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** LBC features — cells collected in **liquid medium**; **better preservation**; **fewer unsatisfactory samples**.
+
 ## SAQ 17
 a) What are the benefits of cervical cancer screening?
 b) How does screening reduce mortality from cervical cancer?
@@ -844,6 +946,8 @@ b) How does screening reduce mortality from cervical cancer?
 **Answers:**
 **a)** Detects **precursor (CIN) and early-stage lesions** → treatment before invasion → **reduced incidence and mortality**; fewer advanced/hysterectomy cases.
 **b)** 🔴 Screening **shortens the effective duration of pre-invasive disease** by finding CIN in the decades-long window before invasion → early conization/cure → fewer women progress to invasive cancer → lower death rate.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Benefits of cervical cancer screening — detects CIN before cancer develops; reduces incidence of invasive carcinoma; decreases mortality; enables early treatment; cost-effective public health strategy.
 
 ## SAQ 18
 a) Name the two major histological types of cervical carcinoma.
@@ -855,6 +959,8 @@ c) From where does adenocarcinoma arise?
 **b)** **Squamous cell carcinoma.**
 **c)** 🔴 **Endocervical columnar (glandular) epithelium — precursor = adenocarcinoma in situ (AIS)**; often in the endocervical canal (harder to sample).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Histologic types — **SCC = most common, about 75%** of cervical cancers; **Adenocarcinoma = about 20–25%**, arises from endocervical glands.
+
 ## SAQ 19
 a) Mention the functions of p53.
 b) How does HPV E6 protein affect p53?
@@ -865,6 +971,8 @@ c) What is the consequence of this interaction?
 **b)** Binds p53 and targets it for **proteasomal degradation**; also upregulates telomerase.
 **c)** Loss of p53 → **no cell-cycle arrest/apoptosis after DNA damage** → accumulation of mutations → **immortalized, genetically unstable cell** → carcinogenesis.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** E6 protein binds and degrades p53, prevents apoptosis, promotes genetic instability.
+
 ## SAQ 20
 a) What is the role of RB protein in cell cycle regulation?
 b) How does HPV E7 protein affect RB?
@@ -874,6 +982,8 @@ c) What is the result of RB inactivation?
 **a)** RB protein **inhibits E2F transcription factors**, blocking G1→S transition; when phosphorylated by CDKs, RB releases E2F and the cell enters S phase — RB is the **"brake"** of the cell cycle.
 **b)** Binds the **hypophosphorylated (active) RB** and targets it for **proteasomal degradation**; also inhibits **p21/p27** (CDK inhibitors).
 **c)** **Unrestrained E2F activity → loss of the G1/S brake → uncontrolled cell proliferation** (with p53 loss, no apoptosis) → malignant transformation.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** E7 protein binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation.
 
 ---
 
@@ -903,8 +1013,12 @@ The squamocolumnar junction area where columnar epithelium is replaced by **imma
 ## 8. Squamous cell carcinoma of cervix
 🔴 **~80% of cervical cancers**; arises from CIN in the transformation zone; keratinizing or nonkeratinizing nests/tongues invading stroma; precursor CIN/HSIL; high-risk HPV 16/18. Spread: direct (bladder/ureter → uremia), lymphatic. Staging Ia1 ≤3 mm → IV; 5-yr survival 100% (superficially invasive) → <20% beyond pelvis. Death usually from **local invasion (ureteral obstruction → pyelonephritis → uremia)**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** SCC = the most common histologic type, **about 75%** of cervical cancers.
+
 ## 9. Adenocarcinoma of cervix
 **~15% of cervical cancers**; arises from **endocervical columnar epithelium (precursor: adenocarcinoma in situ)**; **mucin-depleted dark glands** with large hyperchromatic nuclei. Progresses **faster than SCC** → often presents advanced, worse prognosis; high-risk HPV-related (18 more than 16).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Adenocarcinoma = **about 20–25%** of cervical cancers; arises from endocervical glands.
 
 ## 10. HPV vaccination
 Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); the broader 9-valent vaccine adds **5 more high-risk types + 6/11 (genital warts)**. Given to **boys and girls at 11–12 yr** (catch-up to 26). ~10-yr protection; 🔴 **screening must continue** (not all types covered).
@@ -929,6 +1043,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **d)** **HPV-16 most common** (>80% of LSIL are high-risk HPV+); any of the 15 high-risk types.
 **e)** 🔴 **Yes — 60% regress spontaneously** (30% persist, 10% progress to HSIL). LSIL is a **productive viral infection**, NOT treated as premalignant — observed.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Diagnosis = **CIN I (mild dysplasia)** — dysplastic cells occupy the lower one-third of the epithelium; usually associated with **productive HPV infection**; many lesions regress spontaneously.
+
 ## PBQ 2: CIN III
 > A 32-year-old woman presents with an abnormal Pap smear. Cervical biopsy shows severe epithelial atypia involving almost the entire thickness of the squamous epithelium. The basement membrane remains intact.
 >
@@ -944,6 +1060,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **c)** **No** — the basement membrane is intact.
 **d)** 🔴 **~10% progress to invasive squamous cell carcinoma**; most others persist.
 **e)** **HSIL** (high-grade squamous intraepithelial lesion).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Diagnosis = **CIN III (severe dysplasia / carcinoma in situ)** — dysplastic cells involve more than two-thirds or full thickness of epithelium, with marked atypia and abnormal mitoses; basement membrane intact (no invasion); high risk of progression to invasive carcinoma.
 
 ## PBQ 3: Carcinoma in Situ vs Invasive Carcinoma
 > A cervical biopsy demonstrates full-thickness epithelial atypia. In another patient, atypical cells are seen penetrating the basement membrane and infiltrating the cervical stroma.
@@ -961,6 +1079,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **d)** **Invasive carcinoma (Patient B).**
 **e)** Invasion through the basement membrane exposes **lymphatic and vascular channels** → the capacity to spread (CIS lacks this access).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** First patient = **CIS** (full-thickness epithelial atypia, intact basement membrane, no access to vessels/lymphatics). Second patient = **invasive carcinoma** — malignant cells penetrate through the basement membrane into cervical stroma (stromal invasion, desmoplastic reaction, lymphovascular invasion → spread to parametrium, pelvic nodes, distant organs).
+
 ## PBQ 4: HPV Infection
 > A 28-year-old sexually active woman is found to have persistent HPV-16 infection during cervical cancer screening.
 >
@@ -977,6 +1097,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **d)** **E6 → p53 (+ telomerase); E7 → RB (+ p21/p27).**
 **e)** p53 = cell-cycle arrest + apoptosis after DNA damage; RB = G1→S cell-cycle brake (inhibits E2F) — both are **tumour suppressors**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV infects basal epithelial cells through microabrasions → viral DNA integrates into host DNA → E6/E7 oncoprotein expression (E6 degrades p53; E7 binds RB releasing E2F) → uncontrolled proliferation → CIN → CIN III → invasive carcinoma.
+
 ## PBQ 5: Screening
 > A 35-year-old woman with no symptoms undergoes a Pap smear as part of routine screening. The report shows high-grade squamous intraepithelial lesion (HSIL).
 >
@@ -992,6 +1114,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **c)** 🔴 **Colposcopy + directed cervical biopsy** (aceto-white areas), endocervical curettage; then **conization** for treatment.
 **d)** HSIL causes **no symptoms**; only screening finds it during the **decades-long pre-invasive window**.
 **e)** By detecting and treating **precursor lesions before invasion**, screening stops progression to invasive cancer → the **75% fall in cervical cancer deaths** ("no form of cancer better documents the benefits of screening").
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Benefits of screening — detects CIN before cancer develops, reduces incidence of invasive carcinoma, decreases mortality, enables early treatment, cost-effective public health strategy.
 
 ---
 

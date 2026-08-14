@@ -1,6 +1,7 @@
 # Item 17 — Corpus Uteri, Placenta, Ovary & Pregnancy Test
 
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 22 (The Female Genital Tract)
+> **Mam's slides (📌):** Dr. Sharmeen Jahan — "Endometrial Pathology, AUB & Endometrial Carcinoma" + "Ovarian Tumors" (Shaheed Ziaur Rahman Medical College, Bogura)
 
 **Contents:** Part A — the main question list (Q1–15) · Part B — Ovarian tumour SAQs (1–40) · Part C — Ovarian tumour cases (1–5)
 
@@ -24,6 +25,8 @@
 - Intravenous leiomyomatosis, disseminated peritoneal leiomyomatosis (benign variants)
 
 > 🎯 "Most common uterine tumour = leiomyoma; most common invasive cancer of the female genital tract = endometrial (endometrioid) carcinoma."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan) — Endometrial carcinoma (see Endometrial Pathology PDF):** most common invasive cancer of the female genital tract in developed countries; usually after menopause (peak 55–65 yr). **Type I (endometrioid, ~80%)** — excess estrogen, endometrial hyperplasia, PTEN/PIK3CA/KRAS mutations, microsatellite instability; generally favorable prognosis. **Type II (serous)** — not estrogen related, arises in atrophic endometrium, TP53 mutation; more aggressive.
 
 ## Q2. What do you mean by endometriosis? Name the common sites of endometriosis.
 
@@ -75,6 +78,12 @@
 
 > 🎯 "DUB = bleeding without a structural lesion — usually anovulatory (unopposed estrogen)."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** AUB = abnormal uterine bleeding: excessive, irregular, prolonged bleeding, or bleeding occurring outside the normal menstrual cycle. *Common causes by age:*
+> - **Adolescents:** most common = **anovulatory cycles** (immature hypothalamic-pituitary-ovarian axis; no ovulation → no progesterone → continuous estrogen stimulation); other causes = coagulation disorders (von Willebrand disease, platelet disorders), endocrine abnormalities.
+> - **Reproductive age:** pregnancy-related (spontaneous abortion, ectopic pregnancy, gestational trophoblastic disease); structural (leiomyoma, endometrial polyps, adenomyosis); infections (endometritis, PID); endocrine (PCOS, thyroid disease, hyperprolactinemia); functional (anovulatory cycles).
+> - **Perimenopausal:** anovulatory cycles, endometrial hyperplasia, leiomyomas, endometrial polyps (irregular ovarian function, unopposed estrogen).
+> - **Postmenopausal:** endometrial atrophy (most common), endometrial polyps, endometrial hyperplasia, endometrial carcinoma. **Any postmenopausal bleeding should be considered endometrial carcinoma until proven otherwise.**
+
 ## Q5. Short note: Leiomyomas/ Fibroids.
 
 ### Overview
@@ -116,6 +125,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 > 🎯 "Granulosa cell = estrogen → endometrial hyperplasia; Sertoli-Leydig = androgen → virilization."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Surface epithelial-stromal tumors:* arise from ovarian surface epithelium/cortical inclusion cysts; ~65–70% of all ovarian tumors and ~90% of malignant ovarian tumors; types — serous, mucinous, endometrioid, clear cell, Brenner (transitional), mixed. *Germ cell tumors:* derived from totipotent germ cells; most common in children and young women; mature cystic teratoma (dermoid), dysgerminoma, yolk sac, choriocarcinoma, immature teratoma. *Sex cord-stromal tumors:* often hormone-producing — **granulosa cell (estrogen)**, **fibroma/thecoma**, **Sertoli-Leydig (androgen)**. *Metastatic:* Krukenberg (usually gastric), colon, breast, endometrium, pancreas.
+
 ## Q7. Classify germ cell tumor of ovary. What is dermoid cyst?
 
 ### Classification of ovarian germ cell tumours
@@ -135,17 +146,23 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 > 🎯 "Dermoid = mature cystic teratoma: hair + sebum + all 3 germ layers; 1% → SCC."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** *Dermoid cyst (mature cystic teratoma):* most common germ cell tumor; usually benign; contains mature tissues from all three germ layers (ectoderm, mesoderm, endoderm); gross — hair, teeth, sebaceous material; complications — ovarian torsion, rare malignant transformation. *Malignant GCTs:* dysgerminoma (most common malignant GCT; ovarian counterpart of seminoma; large uniform cells with clear cytoplasm + fibrous septa infiltrated by lymphocytes; highly radiosensitive, excellent prognosis), yolk sac tumor (AFP, Schiller-Duval bodies), immature teratoma (malignant potential depends on grade), embryonal carcinoma, non-gestational choriocarcinoma, mixed GCT.
+
 ## Q8. What do you mean by Krukenberg tumor?
 
 🔴 **Krukenberg tumour = a BILATERAL metastatic ovarian tumour containing mucin-filled SIGNET-RING cells**, usually from **gastric carcinoma** (also colon, breast, biliary, pancreas). The ovaries are typically **enlarged bilaterally**, firm, and often retain an ovarian shape. It is a **metastatic** (secondary) tumour, NOT a primary ovarian neoplasm.
 
 > 🎯 "Krukenberg = bilateral ovarian mets with signet-ring cells → think stomach."
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Krukenberg tumor = metastatic tumor of the ovary (usually from **gastric carcinoma**); other primaries — colon, breast, endometrium, pancreas.
+
 ## Q9. What is Meigs syndrome?
 
 🔴 **Meigs syndrome = the triad of an OVARIAN FIBROMA (>6 cm) + ASCITES + RIGHT-SIDED HYDROTHORAX.** The ascites and pleural effusion **disappear after removal of the fibroma**. Association with **basal cell nevus (Gorlin) syndrome**.
 
 > 🎯 "Fibroma + ascites + right hydrothorax = Meigs syndrome — cured by surgery."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Meigs syndrome = **ovarian fibroma + ascites + pleural effusion**.
 
 ## Q10. Short note: Dysgerminoma.
 
@@ -162,6 +179,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 80–90% **unilateral**; all malignant but only ~⅓ aggressive → **confined unilateral = up to 96% cure**; overall survival >80%; **chemo-responsive**; radiosensitive (like seminoma).
 
 > 🎯 "Dysgerminoma = ovarian seminoma: uniform clear cells + lymphocytic septa; OCT3/4+, KIT; 96% cure if confined."
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysgerminoma — most common **malignant** germ cell tumor; ovarian counterpart of seminoma of the testis. *Microscopy:* large uniform cells with clear cytoplasm; fibrous septa infiltrated by lymphocytes. *Prognosis:* highly radiosensitive; excellent prognosis.
 
 ## Q11. Enumerates the functions of placenta.
 
@@ -218,17 +237,27 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 ## SAQ 1. Classify ovarian tumors according to their cell of origin.
 ① **Surface epithelial–stromal (müllerian)** — serous, mucinous, endometrioid, clear cell, Brenner; ② **Germ cell** — teratoma, dysgerminoma, yolk sac, choriocarcinoma; ③ **Sex cord–stromal** — granulosa, thecoma/fibroma, Sertoli-Leydig, hilus; ④ **Metastatic** — Krukenberg, breast/colon.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Same 4-category classification (surface epithelial-stromal, germ cell, sex cord–stromal, metastatic) — see the Ovarian Tumors PDF flowchart.
+
 ## SAQ 2. Name the major categories of ovarian tumors.
 **Epithelial (~65%), germ cell (15–20%), sex cord–stromal (~5–10%), metastatic/others.**
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Surface epithelial-stromal tumors account for ~65–70% of all ovarian tumors and ~90% of malignant ovarian tumors — the most common type in adults.
 
 ## SAQ 3. What are surface epithelial–stromal tumors? Give four examples.
 Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. Four examples: **Serous, mucinous, endometrioid, clear cell** (+ Brenner, undifferentiated, carcinosarcoma).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Arise from the ovarian surface epithelium or cortical inclusion cysts. Types: serous, mucinous, endometrioid, clear cell, Brenner (transitional cell), mixed epithelial. Each may be benign, borderline, or malignant.
+
 ## SAQ 4. Enumerate the types of serous ovarian tumors.
 **Benign serous cystadenoma** (→ cystadenofibroma) · **Borderline (atypical proliferative)** · **Serous carcinoma** (low-grade = micropapillary; high-grade).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Serous tumors are the **most common ovarian epithelial tumors** (resemble fallopian tube epithelium). *Benign serous cystadenoma:* usually unilateral, thin-walled cyst with clear serous fluid, lined by ciliated columnar epithelium. *Borderline:* increased epithelial proliferation, **no stromal invasion**. *Serous carcinoma:* most common malignant ovarian tumor, frequently bilateral; **high-grade serous carcinoma is the most common form** — often originates from **STIC (serous tubal intraepithelial carcinoma) in the fimbrial end of the fallopian tube**; TP53 mutations (>95%), BRCA1/BRCA2. *Low-grade serous carcinoma:* develops from borderline tumors; KRAS/BRAF mutations. *Morphology:* complex papillary structures, solid and cystic areas, **psammoma bodies** may be present. *Spread:* peritoneal dissemination common; omental involvement → "omental cake".
+
 ## SAQ 5. Enumerate the types of mucinous ovarian tumors.
 **Benign mucinous cystadenoma · borderline · mucinous carcinoma.** (The trichotomy benign → borderline → malignant per lineage.)
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Mucinous tumors — lined by mucin-producing epithelial cells; usually large multiloculated cystic masses. *Benign mucinous cystadenoma:* most unilateral, filled with thick gelatinous material. *Mucinous carcinoma:* less common than serous carcinoma, often large and unilateral. **Pseudomyxoma peritonei** = accumulation of mucin in the peritoneal cavity — usually originates from **appendiceal** mucinous tumors rather than ovarian tumors.
 
 ## SAQ 6. Mention the benign, borderline, and malignant forms of epithelial ovarian tumors.
 | Lineage | Benign | Borderline | Malignant |
@@ -237,50 +266,82 @@ Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. F
 | Mucinous | Mucinous cystadenoma | Mucinous borderline | Mucinous carcinoma |
 | Endometrioid | (rare) | Borderline | Endometrioid carcinoma |
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Each epithelial lineage has benign / borderline / malignant categories (serous, mucinous, endometrioid, clear cell, Brenner) — e.g., serous cystadenoma → serous borderline → serous carcinoma.
+
 ## SAQ 7. List the important types of germ cell tumors of the ovary.
 Mature & immature teratoma, **dysgerminoma, yolk sac tumor, choriocarcinoma**, embryonal carcinoma, polyembryoma, mixed.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Germ cell tumors are derived from **totipotent germ cells** — most common ovarian tumors in children and young women. *Benign:* mature cystic teratoma (dermoid cyst). *Malignant:* dysgerminoma, yolk sac (endodermal sinus) tumor, immature teratoma, embryonal carcinoma, non-gestational choriocarcinoma, mixed germ cell tumors.
 
 ## SAQ 8. Name the most common benign ovarian germ cell tumor.
 🔴 **Mature cystic teratoma (dermoid cyst).**
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Mature cystic teratoma = most common germ cell tumor; usually benign; contains mature tissues from ectoderm, mesoderm and endoderm (hair, teeth, sebaceous material); complications: ovarian torsion, rare malignant transformation.
+
 ## SAQ 9. Name the most common malignant germ cell tumor of the ovary.
 🔴 **Dysgerminoma** (~50% of malignant GCTs).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysgerminoma = most common malignant germ cell tumor; ovarian counterpart of seminoma of the testis; highly radiosensitive with excellent prognosis.
 
 ## SAQ 10. What is a mature cystic teratoma?
 Benign unilocular cyst with **hair + sebum**, all 3 germ layers, 46,XX, bilateral 10–15%, ~1% → SCC.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Most common germ cell tumor; usually benign; contains mature tissues from all three germ layers (ectoderm, mesoderm, endoderm); gross — hair, teeth, sebaceous material; complications — ovarian torsion, rare malignant transformation.
+
 ## SAQ 11. List the malignant germ cell tumors of the ovary.
 **Dysgerminoma, immature teratoma, yolk sac tumor, choriocarcinoma**, embryonal carcinoma, mixed.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Malignant GCTs — dysgerminoma, yolk sac (endodermal sinus) tumor, immature teratoma, embryonal carcinoma, non-gestational choriocarcinoma, mixed germ cell tumors.
 
 ## SAQ 12. Mention the important sex cord–stromal tumors of the ovary.
 **Granulosa cell tumor, thecoma, fibroma, fibrothecoma, Sertoli-Leydig cell tumor, hilus (Leydig) cell tumor.**
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Sex cord–stromal tumors arise from ovarian stroma and sex cord derivatives; often hormonally active. *Granulosa-stromal cell tumors:* adult & juvenile granulosa cell tumor, fibroma, thecoma, fibrothecoma. *Sertoli-Leydig cell tumors:* Sertoli cell, Leydig cell, Sertoli-Leydig cell tumors.
+
 ## SAQ 13. What are the common hormone-producing ovarian tumors?
 Granulosa cell (estrogen), thecoma/fibrothecoma (estrogen), Sertoli-Leydig (androgen), hilus cell (testosterone).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Granulosa cell tumor **produces estrogen** (→ precocious puberty, endometrial hyperplasia, AUB, increased risk of endometrial carcinoma). Sertoli-Leydig cell tumor **produces androgens** (→ hirsutism, amenorrhea, virilization).
 
 ## SAQ 14. Name the ovarian tumors associated with estrogen production.
 🔴 **Granulosa cell tumor** (→ endometrial hyperplasia/carcinoma); thecoma/fibrothecoma.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Granulosa cell tumor = the most common sex cord–stromal tumor; produces estrogen.
+
 ## SAQ 15. Name the ovarian tumors associated with androgen production.
 🔴 **Sertoli-Leydig cell tumor** (virilization); **hilus (Leydig) cell tumor** (Reinke crystalloids, testosterone).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Sertoli-Leydig cell tumor produces androgens → hirsutism, amenorrhea, virilization.
 
 ## SAQ 16. What is a granulosa cell tumor?
 Estrogen-producing sex cord–stromal tumor (~5% of ovarian tumors; 95% adult type, ~⅔ postmenopausal). Histology: small cuboidal/polygonal cells with **Call-Exner bodies**; **inhibin +**; **FOXL2 mutations in 97% of adult type**; estrogen → precocious puberty (juvenile), endometrial hyperplasia/carcinoma (10–15%). **All potentially malignant (5–25%)**, indolent — late recurrences (10–20 yr); 10-yr survival ~85%.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Most common sex cord–stromal tumor; **produces estrogen**. Clinical effects: precocious puberty in children, endometrial hyperplasia, abnormal uterine bleeding, increased risk of endometrial carcinoma. Histology: **Call-Exner bodies, coffee bean nuclei**. Molecular: **FOXL2 mutation**.
+
 ## SAQ 17. What is a Sertoli-Leydig cell tumor?
 Masculinizing tumor (virilization: breast atrophy, amenorrhea, hirsutism, clitoral hypertrophy, voice change); **DICER1 mutations in >½**; <5% recur/metastasize.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Sertoli-Leydig cell tumor **produces androgens** → clinical manifestations: hirsutism, amenorrhea, virilization.
 
 ## SAQ 18. What is an ovarian fibroma?
 Benign solid gray-white sex cord–stromal tumor, **unilateral ~90%**, hormonally inactive; associated with **Meigs syndrome** and **Gorlin (basal cell nevus) syndrome**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Fibroma = benign stromal tumor composed of fibroblasts. Associated with **Meigs syndrome** (fibroma + ascites + pleural effusion).
+
 ## SAQ 19. Define Meigs syndrome.
 Ovarian **fibroma** (>6 cm) + **ascites** + **right-sided hydrothorax** — resolves after tumor removal.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Meigs syndrome = **ovarian fibroma + ascites + pleural effusion**.
 
 ## SAQ 20. What is a Krukenberg tumor?
 Bilateral ovarian metastasis of **signet-ring cells**, most often **gastric** (→ see Q8).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Krukenberg tumor = metastatic ovarian tumor, usually from **gastric carcinoma**; other primaries: colon, breast, endometrium, pancreas.
+
 ## SAQ 21. Mention the common primary sites that metastasize to the ovary.
 Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian — **breast, colon, stomach, biliary tract, pancreas**; Krukenberg (gastric signet-ring).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Metastatic ovarian tumors — Krukenberg tumor (usually gastric); metastatic carcinoma from colon, breast, endometrium, pancreas.
 
 ## SAQ 22. Differentiate primary ovarian tumor from metastatic ovarian tumor.
 | Feature | Primary | Metastatic |
@@ -291,59 +352,105 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 | Clinical | Ovarian symptoms | Symptoms of primary; known primary elsewhere |
 | IHC | PAX8+, WT1+ (serous) | **CK7/CK20 + CDX2/GATA3 profile of the primary**; PAX8 often negative (colorectal) |
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Metastatic tumors spread to the ovary as secondary tumors from other organs (Krukenberg from stomach; colon, breast, endometrium, pancreas).
+
 ## SAQ 23. What is the most common malignant ovarian epithelial tumor?
 🔴 **High-grade serous carcinoma.**
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Serous carcinoma = most common malignant ovarian tumor; frequently bilateral; high-grade serous carcinoma is the most common form.
 
 ## SAQ 24. What is the most common ovarian tumor in young women?
 🔴 **Mature cystic teratoma (dermoid cyst)** (most common overall benign); most common **malignant** in young women = dysgerminoma.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Germ cell tumors are the most common ovarian tumors in children and young women; mature cystic teratoma is the most common benign one.
+
 ## SAQ 25. Mention the tumor markers used in ovarian tumors.
 **CA-125** (epithelial/serous — monitoring), **AFP** (yolk sac), **hCG** (choriocarcinoma/dysgerminoma with syncytiotrophoblasts), **inhibin** (granulosa cell), **OCT3/4, NANOG, KIT** (dysgerminoma), **CEA** (mucinous).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan) — marker table:**
+
+> | Tumor type | Marker |
+> |---|---|
+> | Serous carcinoma | CA-125 |
+> | Yolk sac tumor | AFP |
+> | Choriocarcinoma | β-hCG |
+> | Dysgerminoma | LDH |
+> | Granulosa cell tumor | Inhibin |
 
 ## SAQ 26. Write the tumor marker of yolk sac tumor.
 🔴 **AFP (α-fetoprotein)** — also α1-antitrypsin in hyaline globules.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Yolk sac (endodermal sinus) tumor → elevated **AFP**; histology: **Schiller-Duval bodies**.
+
 ## SAQ 27. Write the tumor marker of dysgerminoma.
 🔴 **OCT3/OCT4/NANOG** (+ LDH; mild hCG if syncytiotrophoblasts; **KIT mutations** in ~⅓).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysgerminoma marker = **LDH**.
 
 ## SAQ 28. Write the tumor marker of granulosa cell tumor.
 🔴 **Inhibin** (serum + tissue — diagnostic & monitoring) (+ estrogen/FOXL2).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Granulosa cell tumor marker = **Inhibin**.
+
 ## SAQ 29. Write the tumor marker commonly used for monitoring epithelial ovarian carcinoma.
 🔴 **CA-125** (used to monitor known disease, NOT a screening test).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Serous carcinoma → **CA-125**.
 
 ## SAQ 30. Mention two molecular abnormalities associated with high-grade serous carcinoma.
 **TP53 mutations (>95%)** and **RB deletions / aneuploidy** (also PIK3CA amplifications); arises from **STIC** (fallopian fimbriae) or cortical inclusion cysts (Type II pathway).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** High-grade serous carcinoma is associated with **TP53 mutations (>95%), BRCA1 and BRCA2 mutations**; often originates from STIC in the fimbrial end of the fallopian tube.
+
 ## SAQ 31. Mention two molecular abnormalities associated with endometrioid carcinoma of the ovary.
 **PTEN, PIK3CA, ARID1A, KRAS, CTNNB1 (β-catenin), MMR defects (MSI)** — the "Type I" low-grade pathway (also endometriosis-associated); quote any two.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Endometrioid tumors — molecular abnormalities: **PTEN, PIK3CA, ARID1A** mutations; frequently associated with endometriosis and endometrial carcinoma.
 
 ## SAQ 32. Mention the characteristic mutation of granulosa cell tumor.
 🔴 **FOXL2 mutation in 97% of adult-type granulosa cell tumors.**
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Granulosa cell tumor → **FOXL2 mutation**.
+
 ## SAQ 33. Mention the characteristic histological feature of dysgerminoma.
 Sheets of **large uniform clear cells** + **fibrous septa with lymphocytes** (± noncaseating granulomas); OCT3/4+.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysgerminoma microscopy — large uniform cells with clear cytoplasm; fibrous septa infiltrated by lymphocytes.
 
 ## SAQ 34. Mention the characteristic histological feature of yolk sac tumor.
 **Lace-like (reticular) pattern** of cuboidal/flattened cells + **Schiller-Duval bodies** + eosinophilic **hyaline globules (AFP+)**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Yolk sac (endodermal sinus) tumor histology = **Schiller-Duval bodies**; marker = AFP.
+
 ## SAQ 35. Mention the characteristic histological feature of granulosa cell tumor.
 Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bodies** (follicle-like spaces with eosinophilic material); microfollicular growth; nuclear grooves ("coffee-bean" nuclei).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Granulosa cell tumor histology = **Call-Exner bodies + coffee bean nuclei**.
 
 ## SAQ 36. What are Call-Exner bodies?
 🔴 **Small follicle-like glandular spaces containing eosinophilic material** (secretions) surrounded by granulosa cells — a hallmark of **granulosa cell tumor** (mimics primordial follicles).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Call-Exner bodies = characteristic histology of granulosa cell tumor.
+
 ## SAQ 37. What are Schiller-Duval bodies?
 🔴 **Glomerulus-like structures** — a central vessel wrapped in tumor cells inside a tumor-lined space — the signature of **yolk sac (endodermal sinus) tumor**.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Schiller-Duval bodies = characteristic histology of yolk sac tumor.
 
 ## SAQ 38. What are psammoma bodies?
 **Concentric laminated calcifications (calcified spherules)**; occur in **serous tumors** (benign, borderline, malignant) — common but **not specific**; also seen in papillary thyroid carcinoma and meningioma.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Psammoma bodies may be present in the morphology of serous tumors (complex papillary structures, solid and cystic areas).
+
 ## SAQ 39. What is the usual route of spread of ovarian carcinoma?
 🔴 **Transcoelomic — direct shedding/exfoliation onto the peritoneal surfaces** (peritoneal carcinomatosis, omental caking, ascites) → then **lymphatic** (para-aortic) and **hematogenous** (liver, lung).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Routes of spread of ovarian carcinoma — ① **direct extension** to adjacent organs, ② **transcoelomic spread** throughout the peritoneal cavity, ③ **lymphatic spread**, ④ **hematogenous spread (less common)**.
+
 ## SAQ 40. Why is ovarian carcinoma often diagnosed at an advanced stage?
 **Vague/insidious early symptoms** (bloating, abdominal discomfort) + **silent intraperitoneal spread before local symptoms**; no effective screening test (CA-125 is not sensitive/specific enough); most present **after spread beyond the ovary** (stage III–IV with peritoneal disease).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Ovarian cancer is one of the leading causes of death from gynecologic malignancies because it is often diagnosed at an advanced stage. *Clinical manifestations of ovarian tumors:* abdominal pain, abdominal distension, pelvic mass, increased abdominal girth, early satiety, urinary frequency, menstrual abnormalities, ascites (advanced disease).
 
 ---
 
@@ -364,6 +471,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 **4. Name the most common complication.**
 🔴 **Ovarian torsion** (twisting of the pedicle → infarction/acute pain).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Mature cystic teratoma — most common germ cell tumor, usually benign; contains mature tissues from all three germ layers (ectoderm, mesoderm, endoderm); gross: hair, teeth, sebaceous material; complications: ovarian torsion, rare malignant transformation.
+
 ## Case 2: Dysgerminoma
 > A 19-year-old woman presents with abdominal distension and pelvic mass. Histology shows sheets of large uniform cells with clear cytoplasm separated by fibrous septa containing lymphocytes.
 
@@ -381,6 +490,8 @@ Malignant **germ cell tumor** (ovarian counterpart of seminoma).
 
 **5. Comment on its prognosis.**
 **Excellent** — all malignant but only ~⅓ aggressive; confined unilateral → **up to 96% cure**; overall survival >80%; radiosensitive + chemosensitive.
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysgerminoma — most common malignant germ cell tumor; ovarian counterpart of seminoma of the testis; microscopy: large uniform cells with clear cytoplasm, fibrous septa infiltrated by lymphocytes; highly radiosensitive with excellent prognosis.
 
 ## Case 3: Sertoli-Leydig Cell Tumor
 > A 28-year-old woman develops hirsutism, deepening of voice, amenorrhea, and clitoromegaly. Imaging reveals a unilateral ovarian mass.
@@ -400,6 +511,8 @@ Malignant **germ cell tumor** (ovarian counterpart of seminoma).
 **5. Differentiate it from granulosa cell tumor regarding hormonal effect.**
 Sertoli-Leydig = **androgen → virilization/masculinization**; granulosa cell = **estrogen → feminizing effects** (endometrial hyperplasia, precocious puberty, proliferative breast disease).
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Sertoli-Leydig cell tumor produces **androgens** → clinical manifestations: hirsutism, amenorrhea, virilization.
+
 ## Case 4: Clear Cell Carcinoma
 > A 45-year-old woman with long-standing endometriosis develops an ovarian mass. Histology shows malignant cells with clear cytoplasm.
 
@@ -418,6 +531,8 @@ Sertoli-Leydig = **androgen → virilization/masculinization**; granulosa cell =
 **5. Comment on its response to chemotherapy.**
 **Poor relative to other epithelial tumors** — advanced-stage clear cell morphology = poor; but **confined to the ovary → 90% 5-yr survival**.
 
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Clear cell carcinoma — composed of **clear glycogen-rich cells**; **strongly associated with endometriosis**; molecular changes: **ARID1A, PIK3CA** mutations; prognosis generally aggressive, often resistant to chemotherapy.
+
 ## Case 5: Krukenberg Tumor
 > A 50-year-old woman presents with bilateral ovarian enlargement. Histology shows mucin-filled signet-ring cells in the ovarian stroma. Further investigation reveals gastric carcinoma.
 
@@ -435,6 +550,8 @@ Bilateral involvement is characteristic of **hematogenous/transcoelomic seeding 
 
 **5. Mention two other organs that can give metastasis to the ovary.**
 **Breast and colon** (also biliary tract, pancreas; müllerian primaries — endometrium, tube).
+
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** Krukenberg tumor = metastatic ovarian tumor (usually from gastric carcinoma); other metastatic primaries: colon, breast, endometrium, pancreas.
 
 ---
 
