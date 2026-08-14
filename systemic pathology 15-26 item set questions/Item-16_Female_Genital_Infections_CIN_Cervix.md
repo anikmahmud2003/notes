@@ -183,6 +183,8 @@ The protozoan attaches to the vaginal squamous epithelium, producing inflammatio
 **Metronidazole** (treat partner as well).
 
 > 🎯 "Frothy yellow-green discharge + strawberry cervix + motile flagellate on wet mount = Trichomonas."
+![](image_6bab4514.png)
+
 
 ---
 
@@ -191,8 +193,11 @@ The protozoan attaches to the vaginal squamous epithelium, producing inflammatio
 ### Etiology
 - **Polymicrobial overgrowth**: 🔴 **Gardnerella vaginalis** + anaerobes (*Mobiluncus*, *Bacteroides*, *Peptostreptococcus*) + *Mycoplasma hominis* replace the normal **lactobacilli**.
 - Triggered by douching, multiple partners, new sexual partner, and anything that raises vaginal pH.
-- The bacteria produce **amines** (putrescine, cadaverine) → **fishy odor** (enhanced by KOH/alkali = positive **whiff test**).
+- The bacteria produce **amines salts** (putrescine, cadaverine) → **fishy odor** (enhanced by KOH/alkali = positive **whiff test**).
+**Amine Salt (অ্যামিন লবণ) + KOH = Free Amine (মুক্ত অ্যামিন গ্যাস)**
 
+
+Douching is ==the practice of washing or flushing the inside of the vagina with a fluid mixture, usually water mixed with vinegar, baking soda, or iodine==.
 ### Clinical features
 - **Thin, gray-white homogeneous discharge** that coats the vaginal walls.
 - **Fishy/ammoniacal odor**, especially after intercourse or menses.
