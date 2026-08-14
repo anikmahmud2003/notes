@@ -31,7 +31,7 @@
 **Vulvovaginitis = inflammation of the vulva and vagina**, usually together, typically an **infection** but may follow chemical/physical irritation. It is characterized by vaginal discharge, itching/burning, dyspareunia and erythema.
 
 ==dyspereunia = persistent or recurrent pain before, during, or after sexual intercourse==.
-![](../image_f6867637.png)
+![](image_f6867637.png)
 ### Two common causes (examples)
 1. **Vulvovaginal candidiasis** (*Candida albicans*) — part of normal flora; curd-like discharge.
 2. **Trichomonas vaginalis** — sexually transmitted protozoan; frothy yellow-green discharge.
@@ -40,7 +40,7 @@
 ---
 
 ## Q2. What is bacterial vaginosis? Name the most common organism associated with it.
-![](../image_7e0d80c7.png)
+![](image_7e0d80c7.png)
 ### Definition
 **Bacterial vaginosis (BV) = a polymicrobial clinical syndrome in which the normal lactobacillus-dominant flora is replaced by an overgrowth of mixed anaerobes and coccobacilli**, producing a **thin, gray-white, fishy-smelling discharge** — 🔴 **with minimal inflammation** (the name "vaginosis," not "vaginitis"). Linked to **premature labor**, pelvic inflammatory disease and post-abortal sepsis.
 
