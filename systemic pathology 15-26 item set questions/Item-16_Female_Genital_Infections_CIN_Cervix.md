@@ -31,7 +31,7 @@
 **Vulvovaginitis = inflammation of the vulva and vagina**, usually together, typically an **infection** but may follow chemical/physical irritation. It is characterized by vaginal discharge, itching/burning, dyspareunia and erythema.
 
 ==dyspereunia = persistent or recurrent pain before, during, or after sexual intercourse==.
-![[image_f6867637.png]]
+![](../image_f6867637.png)
 ### Two common causes (examples)
 1. **Vulvovaginal candidiasis** (*Candida albicans*) — part of normal flora; curd-like discharge.
 2. **Trichomonas vaginalis** — sexually transmitted protozoan; frothy yellow-green discharge.
