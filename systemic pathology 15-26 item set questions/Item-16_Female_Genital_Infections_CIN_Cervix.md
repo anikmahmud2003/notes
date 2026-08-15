@@ -340,7 +340,7 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 - **Painful genital vesicles** on erythematous base → rupture → **coalescent shallow ulcers**.
 - Associated **fever, malaise**, local lymphadenopathy, dysuria (vulvar ulcers).
 - **Recurrent episodes** (reactivation from ganglia) — shorter, milder than primary.
-- Active infection **increases HIV-1 acquisition**; **cesarean delivery** for active genital infection at term.
+- Active infection **increases HIV-1 acquisition**; **cesarean delivery** for active genital infection at term. 
 
 ### Microscopic features
 - 🔴 **Multinucleated syncytial giant cells** (Tzanck smear).
@@ -367,7 +367,7 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > 🎯 "High-risk = 16 & 18 (~70% of cervical cancer); low-risk = 6 & 11 (warts)."
 
-> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV = sexually transmitted infection. *Important types:* **Low-risk: 6, 11**; **High-risk: 16, 18, 31, 33**. *Pathologic change:* koilocytosis — squamous cells with perinuclear clearing + nuclear enlargement and irregularity. *Significance:* persistent infection with high-risk HPV may lead to cervical cancer.
+> **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV = sexually transmitted infection. *Important types:* **Low-risk: 6, 11**; **High-risk: 16, 18, 31, 33**. *Pathologic change:* ==koilocytosis — squamous cells with perinuclear clearing== + nuclear enlargement and irregularity. *Significance:* persistent infection with high-risk HPV may lead to cervical cancer.
 
 ---
 

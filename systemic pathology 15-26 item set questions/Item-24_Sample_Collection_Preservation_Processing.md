@@ -129,7 +129,7 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ### Principles
 Transport must keep the tissue **adequately fixed** (to stop autolysis), **correctly identified**, **physically protected**, and **traceable** — from a site where specimens are collected (OPD, operation theatre, peripheral hospital) to the histopathology laboratory.
-
+![](image_34f8ae1f.png)
 ### Methods / practical steps
 1. **Immediate fixation at source** — put the specimen **immediately into 10% neutral buffered formalin** (volume ≥ 10× tissue volume) in a **leak-proof, wide-mouthed container** with correct patient labelling.
    - Exception: fresh tissue for **frozen section, culture, flow cytometry, cytogenetics, or enzyme tests** must be sent **UNFIXED** — in **normal saline/moist gauze or a sterile container on ice**, with clear instructions.
