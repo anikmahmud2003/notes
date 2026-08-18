@@ -14,44 +14,44 @@ Skin tumours are classified by **cell of origin** and **biological behaviour**. 
 
 ### A. Tumours of the Epidermis
 
-| Category | Examples |
-|---|---|
-| **Benign** | Seborrhoeic keratosis (horn cysts, FGFR3), Acanthosis nigricans, Fibroepithelial polyp (skin tag), Epithelial inclusion cyst (wen) |
-| **Premalignant** | **Actinic (solar) keratosis** → progresses to SCC |
-| **Malignant** | **Squamous cell carcinoma (SCC)**, **Basal cell carcinoma (BCC)** |
-
+| Category         | Examples                                                                                                                           |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Benign**       | Seborrhoeic keratosis (horn cysts, FGFR3), Acanthosis nigricans, Fibroepithelial polyp (skin tag), Epithelial inclusion cyst (wen) |
+| **Premalignant** | **Actinic (solar) keratosis** → progresses to SCC                                                                                  |
+| **Malignant**    | **Squamous cell carcinoma (SCC)**, **Basal cell carcinoma (BCC)**                                                                  |
+![](image_9014d98e.png)
 ### B. Tumours of Melanocytes
 
-| Category | Examples |
-|---|---|
-| **Benign** | Freckle (ephelis), Lentigo, **Melanocytic naevus** (junctional → compound → intradermal), Blue naevus, Spitz naevus, Halo naevus |
-| **Premalignant** | **Dysplastic naevus** (atypical mole — marker/precursor of melanoma) |
-| **Malignant** | **Malignant melanoma** (superficial spreading, lentigo maligna, acral lentiginous, nodular) |
-
+| Category         | Examples                                                                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Benign**       | Freckle (ephelis), Lentigo, **Melanocytic naevus** (junctional → compound → intradermal), Blue naevus, Spitz naevus, Halo naevus |
+| **Premalignant** | **Dysplastic naevus** (atypical mole — marker/precursor of melanoma)                                                             |
+| **Malignant**    | **Malignant melanoma** (superficial spreading, lentigo maligna, acral lentiginous, nodular)                                      |
+![](image_24869f54.png)
 ### C. Tumours of the Dermis
 
-| Category | Examples |
-|---|---|
-| **Benign** | Dermatofibroma (benign fibrous histiocytoma), Lipoma, Haemangioma, Neurofibroma |
+| Category      | Examples                                                                                                       |
+| ------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Benign**    | Dermatofibroma (benign fibrous histiocytoma), Lipoma, Haemangioma, Neurofibroma                                |
 | **Malignant** | **Dermatofibrosarcoma protuberans (DFSP)** — COL1A1–PDGFB translocation, storiform pattern, honeycomb subcutis |
-
+![](image_e953fe02.png)
 ### D. Tumours of Skin Appendages (Adnexal)
 
-| Tumour | Differentiation | Key association |
-|---|---|---|
-| Cylindroma | Ductal (apocrine/eccrine) | **CYLD mutation → turban tumour, Brooke-Spiegler syndrome** |
-| Sebaceous adenoma | Sebaceous | **Muir-Torre syndrome** (MSH2/MLH1 → Lynch/HNPCC) |
-| Pilomatricoma | Hair follicle | **CTNNB1 (β-catenin)**, ghost cells |
-| Eccrine poroma | Eccrine | Palms/soles |
-| Syringoma | Eccrine | Lower eyelids |
-| Sebaceous carcinoma | Meibomian glands | Eyelid; aggressive |
-
+| Tumour              | Differentiation           | Key association                                             |
+| ------------------- | ------------------------- | ----------------------------------------------------------- |
+| Cylindroma          | Ductal (apocrine/eccrine) | **CYLD mutation → turban tumour, Brooke-Spiegler syndrome** |
+| Sebaceous adenoma   | Sebaceous                 | **Muir-Torre syndrome** (MSH2/MLH1 → Lynch/HNPCC)           |
+| Pilomatricoma       | Hair follicle             | **CTNNB1 (β-catenin)**, ghost cells                         |
+| Eccrine poroma      | Eccrine                   | Palms/soles                                                 |
+| Syringoma           | Eccrine                   | Lower eyelids                                               |
+| Sebaceous carcinoma | Meibomian glands          | Eyelid; aggressive                                          |
+![](image_fdfe2046.png)
 ### E. Tumours of Cellular Migrants to the Skin
 
-| Tumour | Cell of origin | Key feature |
-|---|---|---|
+| Tumour                       | Cell of origin           | Key feature                                                |
+| ---------------------------- | ------------------------ | ---------------------------------------------------------- |
 | **Mycosis fungoides (CTCL)** | Skin-homing CD4+ T cells | Pautrier microabscess, cerebriform nuclei, Sézary syndrome |
-| **Mastocytosis** | Mast cells | KIT mutation, Darier sign, urticaria pigmentosa |
+| **Mastocytosis**             | Mast cells               | KIT mutation, Darier sign, urticaria pigmentosa            |
 
 ### F. Tumours of the Subcutis
 
@@ -65,24 +65,24 @@ Skin tumours are classified by **cell of origin** and **biological behaviour**. 
 
 ### Premalignant (Pre-cancerous) Lesions
 
-| Lesion | Site | Risk | Key pathology |
-|---|---|---|---|
-| **Actinic keratosis (AK)** | Sun-exposed skin (face, dorsum hands, forearms) | **→ SCC** (progressive dysplasia) | Atypia of **lowermost epidermis only**, parakeratosis, elastosis, intercellular bridges present; **imiquimod eradicates ~50% vs ~5% spontaneous regression** |
-| **Actinic cheilitis** | Lower lip | → SCC of lip | Actinic keratosis of the lip |
-| **Dysplastic naevus** | Any skin | Marker/precursor of **melanoma** | **>5 mm**, variegated, irregular borders; CDKN2A/CDK4; coalescent nests + cytologic atypia + lamellar fibrosis |
-| **Bowen disease (SCC in situ)** | Any skin (often trunk) | → Invasive SCC | Atypia at **ALL levels** of epidermis (vs AK = lower levels only); sharply defined red scaling plaque |
-| **Leukoplakia (oral)** | Oral mucosa | → Oral SCC | Hyperkeratosis + dysplasia |
-| **Paget disease (extramammary)** | Anogenital, axillae | Underlying adenocarcinoma | Paget cells in epidermis |
+| Lesion                           | Site                                            | Risk                              | Key pathology                                                                                                                                                |
+| -------------------------------- | ----------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Actinic keratosis (AK)**       | Sun-exposed skin (face, dorsum hands, forearms) | **→ SCC** (progressive dysplasia) | Atypia of **lowermost epidermis only**, parakeratosis, elastosis, intercellular bridges present; **imiquimod eradicates ~50% vs ~5% spontaneous regression** |
+| **Actinic cheilitis**            | Lower lip                                       | → SCC of lip                      | Actinic keratosis of the lip                                                                                                                                 |
+| **Dysplastic naevus**            | Any skin                                        | Marker/precursor of **melanoma**  | **>5 mm**, variegated, irregular borders; CDKN2A/CDK4; coalescent nests + cytologic atypia + lamellar fibrosis                                               |
+| **Bowen disease (SCC in situ)**  | Any skin (often trunk)                          | → Invasive SCC                    | Atypia at **ALL levels** of epidermis (vs AK = lower levels only); sharply defined red scaling plaque                                                        |
+| **Leukoplakia (oral)**           | Oral mucosa                                     | → Oral SCC                        | Hyperkeratosis + dysplasia                                                                                                                                   |
+| **Paget disease (extramammary)** | Anogenital, axillae                             | Underlying adenocarcinoma         | Paget cells in epidermis                                                                                                                                     |
 
 ### Malignant Lesions
 
-| Malignancy | Incidence rank | Metastasis risk | Key molecular |
-|---|---|---|---|
-| **Basal cell carcinoma (BCC)** | **#1 most common invasive cancer** (~1 million/yr US) | **<0.5% — almost never** | Hedgehog pathway: **PTCH loss → SMO → GLI1**; UV signature (C→T) |
-| **Squamous cell carcinoma (SCC)** | **#2 most common** on sun-exposed skin | **<5%** (usually deeply invasive) | **TP53**, ↑RAS, ↓Notch; UV pyrimidine dimers |
-| **Malignant melanoma** | Rising incidence, **most deadly** | **High — early lymphatic** | **BRAF 40–50%**, RAS 15–20%, **TERT promoter ~70%**, CDKN2A (familial) |
-| **Dermatofibrosarcoma protuberans** | Rare | Locally aggressive, rarely mets | **COL1A1–PDGFB** translocation |
-| **Mycosis fungoides (CTCL)** | Most common cutaneous lymphoma | May involve blood (Sézary) | CD4+ skin-homing T cells, CLA/CCR4 |
+| Malignancy                          | Incidence rank                                        | Metastasis risk                   | Key molecular                                                          |
+| ----------------------------------- | ----------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- |
+| **Basal cell carcinoma (BCC)**      | **#1 most common invasive cancer** (~1 million/yr US) | **<0.5% — almost never**          | Hedgehog pathway: **PTCH loss → SMO → GLI1**; UV signature (C→T)       |
+| **Squamous cell carcinoma (SCC)**   | **#2 most common** on sun-exposed skin                | **<5%** (usually deeply invasive) | **TP53**, ↑RAS, ↓Notch; UV pyrimidine dimers                           |
+| **Malignant melanoma**              | Rising incidence, **most deadly**                     | **High — early lymphatic**        | **BRAF 40–50%**, RAS 15–20%, **TERT promoter ~70%**, CDKN2A (familial) |
+| **Dermatofibrosarcoma protuberans** | Rare                                                  | Locally aggressive, rarely mets   | **COL1A1–PDGFB** translocation                                         |
+| **Mycosis fungoides (CTCL)**        | Most common cutaneous lymphoma                        | May involve blood (Sézary)        | CD4+ skin-homing T cells, CLA/CCR4                                     |
 
 ### The Dysplasia → Carcinoma Sequence
 
@@ -177,21 +177,21 @@ Actinic keratosis (TP53 mutation) → SCC in situ (Bowen disease) → Invasive S
 - **Notch pathway loss** — failure of keratinocyte differentiation
 
 ### Morphology
-
+![](image_59105eec.png)
 #### Gross
-| Variant | Appearance |
-|---|---|
-| **In situ (Bowen disease)** | Sharply defined red scaling plaque; atypia at **ALL levels** of epidermis |
-| **Invasive SCC** | Nodular, variable keratin production, may ulcerate; firm pink-white nodule |
+| Variant                     | Appearance                                                                 |
+| --------------------------- | -------------------------------------------------------------------------- |
+| **In situ (Bowen disease)** | Sharply defined red scaling plaque; atypia at **ALL levels** of epidermis  |
+| **Invasive SCC**            | Nodular, variable keratin production, may ulcerate; firm pink-white nodule |
 
 #### Microscopy — the Hallmarks
-| Feature | Description |
-|---|---|
-| **Keratin pearls** | Concentric lamellated keratin within tumour nests — well-differentiated SCC |
-| **Intercellular bridges** | Visible desmosomes between tumour cells (present in SCC, absent in BCC) |
-| **Dyskeratosis** | Premature individual cell keratinization (aberrant pink cytoplasm) |
-| **Atypia spectrum** | Well-differentiated → orderly lobules with keratin pearls; Poorly differentiated → anaplastic cells, may need **keratin IHC** to confirm squamous origin |
-| **Invasion** | Through basement membrane into dermis ± subcutis |
+| Feature                   | Description                                                                                                                                              |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Keratin pearls**        | Concentric lamellated keratin within tumour nests — well-differentiated SCC                                                                              |
+| **Intercellular bridges** | Visible desmosomes between tumour cells (present in SCC, absent in BCC)                                                                                  |
+| **Dyskeratosis**          | Premature individual cell keratinization (aberrant pink cytoplasm)                                                                                       |
+| **Atypia spectrum**       | Well-differentiated → orderly lobules with keratin pearls; Poorly differentiated → anaplastic cells, may need **keratin IHC** to confirm squamous origin |
+| **Invasion**              | Through basement membrane into dermis ± subcutis                                                                                                         |
 
 ### Staging & Prognosis
 
@@ -214,7 +214,7 @@ Actinic keratosis (TP53 mutation) → SCC in situ (Bowen disease) → Invasive S
 ### Definition
 
 **BCC = the most common invasive cancer in humans** (~1 million cases/year in the US). It is a slow-growing malignant tumour of **basaloid cells** arising from the **epidermis or follicular epithelium** that is **locally destructive but almost never metastasizes (<0.5%)**.
-
+A basaloid cell is ==a type of cell that looks dark blue and small under a microscope==.
 ### Epidemiology
 
 - **Most common cancer in humans** (incidence > all other cancers combined)
@@ -339,12 +339,12 @@ Other histologic features:
 
 ### Morphology — Gross
 
-| Feature | Description |
-|---|---|
-| **Colour** | Striking variation: black, brown, red, dark blue, gray; white/flesh zones = **focal regression** |
-| **Borders** | **Irregular, notched** (vs smooth round borders of naevi) |
-| **Size** | Usually **>10 mm at diagnosis** |
-| **ABCD** | **A**symmetry, irregular **B**orders, variegated **C**olor, increasing **D**iameter, **E**volution |
+| Feature     | Description                                                                                        |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| **Colour**  | Striking variation: black, brown, red, dark blue, gray; white/flesh zones = **focal regression**   |
+| **Borders** | **Irregular, notched** (vs smooth round borders of naevi)                                          |
+| **Size**    | Usually **>10 mm at diagnosis**                                                                    |
+| **ABCD**    | **A**symmetry, irregular **B**orders, variegated **C**olor, increasing **D**iameter, **E**volution |
 
 ### The Two Growth Phases — THE Key Concept
 
@@ -428,11 +428,11 @@ Inflammatory dermatoses are grouped by **pattern of inflammation**:
 
 ### B. Chronic Inflammatory Dermatoses
 
-| Disease | Mechanism | Hallmark |
-|---|---|---|
-| **Psoriasis** | **Th1/Th17** CD4+ T cells + TNF/IL-17 → keratinocyte hyperproliferation | **Munro microabscesses**, parakeratosis, **Auspitz sign**, acanthosis "test tubes in a rack"; Koebner phenomenon; 15% arthritis |
-| **Seborrhoeic dermatitis** | Inflammation of epidermis (NOT sebaceous glands); *Malassezia* | **Follicular lipping** (parakeratosis mounds at follicle ostia); dandruff = scalp form; ↑ in Parkinson disease + HIV |
-| **Lichen planus** | CD8+ cytotoxic T-cell interface dermatitis | **6 Ps** (pruritic, purple, polygonal, planar papules/plaques); **Wickham striae** (hypergranulosis); **Civatte bodies** (necrotic basal cells); **sawtoothing**; oral SCC risk |
+| Disease                    | Mechanism                                                               | Hallmark                                                                                                                                                                        |
+| -------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Psoriasis**              | **Th1/Th17** CD4+ T cells + TNF/IL-17 → keratinocyte hyperproliferation | **Munro microabscesses**, parakeratosis, **Auspitz sign**, acanthosis "test tubes in a rack"; Koebner phenomenon; 15% arthritis                                                 |
+| **Seborrhoeic dermatitis** | Inflammation of epidermis (NOT sebaceous glands); *Malassezia*          | **Follicular lipping** (parakeratosis mounds at follicle ostia); dandruff = scalp form; ↑ in Parkinson disease + HIV                                                            |
+| **Lichen planus**          | CD8+ cytotoxic T-cell interface dermatitis                              | **6 Ps** (pruritic, purple, polygonal, planar papules/plaques); **Wickham striae** (hypergranulosis); **Civatte bodies** (necrotic basal cells); **sawtoothing**; oral SCC risk |
 
 ### C. Comparative Table — Exam Gold
 
@@ -506,7 +506,7 @@ BASEMENT MEMBRANE ZONE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DERMIS
 ```
-
+![](graph.png)
 ### Classification of Primary Blistering Diseases
 
 #### I. Intraepidermal (Acantholytic) Blistering
