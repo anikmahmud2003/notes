@@ -18,6 +18,9 @@
 | **23** | **Skin** — Inflammatory dermatoses, blistering diseases (pemphigus/pemphigoid/DH), pigmented lesions & naevi, premalignant lesions (AK, dysplastic naevus), **SCC, BCC, malignant melanoma** | [Item-23_Skin_Pathology.md](Item-23_Skin_Pathology.md) | 8 |
 | **24** | Histo-cytopathological sample collection, preservation, transport & processing | [Item-24_Sample_Collection_Preservation_Processing.md](Item-24_Sample_Collection_Preservation_Processing.md) | 6 |
 | **25** | Autopsy, histopathology techniques, gross examination & tissue processing | [Item-25_Autopsy_Histopathology_Techniques.md](Item-25_Autopsy_Histopathology_Techniques.md) | 8 |
+| **18** | **Breast** — Inflammatory disorders, fibrocystic changes, fibroadenoma, molecular subtypes of invasive carcinoma, prognostic factors, gynecomastia, clinical cases | [Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md](Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md) | 10 |
+| **19** | **Endocrine: Thyroid** — Neoplasms, hyperthyroidism, thyrotoxicosis, Hashimoto, Graves, goiter, papillary carcinoma, TFTs, thyroglossal duct cyst | [Item-19_Endocrine_Thyroid.md](Item-19_Endocrine_Thyroid.md) | 11 |
+| **21** | **Eye, ENT & CNS** — Retinoblastoma, uveal vs conjunctival melanoma, diabetic retinopathy, cataract, glaucoma, retinal detachment, AMD, sympathetic ophthalmia, phthisis bulbi, papilledema vs AION, sinusitis, otitis media, cholesteatoma, otosclerosis, NPC, angiofibroma, brain tumors, schwannoma vs neurofibroma, meningitis, CSF examination, CVD | [Item-21_Eye_ENT_CNS.md](Item-21_Eye_ENT_CNS.md) | 24 |
 | **26** | Cytopathology techniques — FNAC, Pap smear, fluid cytology | [Item-26_Cytopathology_Techniques.md](Item-26_Cytopathology_Techniques.md) | 9 |
 
 ---
@@ -33,6 +36,11 @@
 - **Uterus (DUB / adenomyosis / endometriosis / leiomyoma)** → Item 17, Part A
 - **Placenta + pregnancy test** → Item 17, Part A (Q11–15)
 - **Ovary — cysts & tumours** → Item 17, Part B (SAQ 1–40 + Cases 1–5)
+- **Breast pathology (inflammatory, fibrocystic, benign/malignant tumors, gynecomastia)** → Item 18, Q1–10
+- **Thyroid (hypo/hyperthyroidism, thyroiditis, papillary carcinoma, TFTs)** → Item 19, Q1–11
+- **Eye: Retinoblastoma, uveal/conjunctival melanoma, diabetic retinopathy, cataract, glaucoma, RD, AMD, optic neuropathy** → Item 21, Part A–D (Q1–10)
+- **ENT: Sinusitis, otitis media, cholesteatoma, otosclerosis, NPC, angiofibroma** → Item 21, Part E–F (Q11–16)
+- **CNS: Brain tumors, meningitis, CSF examination, degenerative diseases, CVD** → Item 21, Part G–H (Q17–24)
 - **Skin tumour classification + premalignant/malignant lesions** → Item 23, Q1–3
 - **SCC, BCC, Malignant melanoma** → Item 23, Q4–6
 - **Inflammatory dermatoses (eczema, psoriasis, lichen planus)** → Item 23, Q7
