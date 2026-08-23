@@ -207,5 +207,5 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 ---
 
 ### 🔗 Source files
-- [Pathology/README.md](../Pathology/README.md) · [README.md](README.md)
+- [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-25](Item-25_Autopsy_Histopathology_Techniques.md) · [Item-15 →](Item-15_Testis_Prostate_Semen.md)

@@ -506,5 +506,5 @@ Follows a logical order: **history → repeated semen analysis → hormones → 
 ---
 
 ### 🔗 Source files
-- [Pathology/ch21_LowerUrinary_Male_Genital.md](../Pathology/ch21_LowerUrinary_Male_Genital.md)
+- [Pathology/ch21_LowerUrinary_Male_Genital.md](../robbins/ch21_LowerUrinary_Male_Genital.md)
 - [README.md](README.md) · [Item-16 →](Item-16_Female_Genital_Infections_CIN_Cervix.md) · [Item-17 →](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md)

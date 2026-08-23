@@ -1420,7 +1420,7 @@ Complications: ↑ ICP, vasculitis, cranial nerve palsies, hydrocephalus
 ---
 
 ### 🔗 Source files
-- [Pathology/ch16_Head_and_Neck.md](../Pathology/ch16_Head_and_Neck.md)
-- [Pathology/ch28_CNS.md](../Pathology/ch28_CNS.md)
-- [Pathology/ch29_Eye.md](../Pathology/ch29_Eye.md)
+- [Pathology/ch16_Head_and_Neck.md](../robbins/ch16_Head_and_Neck.md)
+- [Pathology/ch28_CNS.md](../robbins/ch28_CNS.md)
+- [Pathology/ch29_Eye.md](../robbins/ch29_Eye.md)
 - [README.md](README.md) · [← Item-19](Item-19_Endocrine_Thyroid.md)

@@ -5,8 +5,8 @@
 When the user provides content (text, questions, answers, PDFs, or any study material):
 
 1. **Create notes** — write a properly structured `.md` file in the correct folder:
-   - Pathology item sets → `systemic pathology 15-26 item set questions/Item-XX_Topic.md`
-   - Chapter notes → `Pathology/chXX_Topic.md`
+   - Pathology item sets → `Pathology/systemic pathology set questions/Item-XX_Topic.md`
+   - Chapter notes → `Pathology/robbins/chXX_Topic.md`
    - Other subjects → appropriate folder with consistent naming (`Item-XX_Topic.md`)
 
 2. **Follow existing style** — read 1–2 existing files in the target folder first to match naming convention, formatting, table style, and emoji usage (🔴/📌 = key points, 🎯 = one-liner mnemonics).

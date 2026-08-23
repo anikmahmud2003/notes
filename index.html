@@ -303,26 +303,25 @@ const clean=paths=>paths.filter(p=>
   p!=="index.html"&&p!=="README.md"&&/\.(md|html)$/i.test(p));
 const FALLBACK_PATHS=[
   "README.md",
-  "bd-constitution.html",
-  "davidson/davidson_immunology_bangla.html",
-  "Pathology/README.md","Pathology/00_START_HERE.md","Pathology/00_INDEX.md",
-  "Pathology/flashcards_hepatobiliary/index.html",
-  "Pathology/viva-set-question/index.html",
-  "Pathology/viva-set-question/item 5 respiratory/Item-5_Respiratory_System_Viva_Answers.md",
-  "systemic pathology 15-26 item set questions/README.md",
-  "systemic pathology 15-26 item set questions/Item-15_Testis_Prostate_Semen.md",
-  "systemic pathology 15-26 item set questions/Item-16_Female_Genital_Infections_CIN_Cervix.md",
-  "systemic pathology 15-26 item set questions/Item-17_Uterus_Placenta_Ovary_PregnancyTest.md",
-  "systemic pathology 15-26 item set questions/Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md",
-  "systemic pathology 15-26 item set questions/Item-19_Endocrine_Thyroid.md",
-  "systemic pathology 15-26 item set questions/Item-21_Eye_ENT_CNS.md",
-  "systemic pathology 15-26 item set questions/Item-23_Skin_Pathology.md",
-  "systemic pathology 15-26 item set questions/Item-24_Sample_Collection_Preservation_Processing.md",
-  "systemic pathology 15-26 item set questions/Item-25_Autopsy_Histopathology_Techniques.md",
-  "systemic pathology 15-26 item set questions/Item-26_Cytopathology_Techniques.md",
+  "GK/bd-constitution.html",
+  "Medicine/davidson/davidson_immunology_bangla.html",
+  "Pathology/README.md",
+  "Pathology/robbins/00_START_HERE.md","Pathology/robbins/00_INDEX.md",
+  "Pathology/systemic pathology set questions/README.md",
+  "Pathology/systemic pathology set questions/Item-5_Respiratory_System_Viva_Answers.md",
+  "Pathology/systemic pathology set questions/Item-15_Testis_Prostate_Semen.md",
+  "Pathology/systemic pathology set questions/Item-16_Female_Genital_Infections_CIN_Cervix.md",
+  "Pathology/systemic pathology set questions/Item-17_Uterus_Placenta_Ovary_PregnancyTest.md",
+  "Pathology/systemic pathology set questions/Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md",
+  "Pathology/systemic pathology set questions/Item-19_Endocrine_Thyroid.md",
+  "Pathology/systemic pathology set questions/Item-21_Eye_ENT_CNS.md",
+  "Pathology/systemic pathology set questions/Item-23_Skin_Pathology.md",
+  "Pathology/systemic pathology set questions/Item-24_Sample_Collection_Preservation_Processing.md",
+  "Pathology/systemic pathology set questions/Item-25_Autopsy_Histopathology_Techniques.md",
+  "Pathology/systemic pathology set questions/Item-26_Cytopathology_Techniques.md",
 ];
 const FNAMES=["Cell_as_Unit","Cell_Injury_Death_Adaptations","Inflammation_Repair","Hemodynamic_Disorders_Shock","Genetic_Disorders","Diseases_of_Immune_System","Neoplasia","Infectious_Diseases","Environmental_Nutritional","Infancy_Childhood","Blood_Vessels","Heart","WBC_LymphNodes_Spleen_Thymus","RBC_Bleeding_Disorders","Lung","Head_and_Neck","GIT","Liver_Gallbladder","Pancreas","Kidney","LowerUrinary_Male_Genital","Female_Genital_Tract","Breast","Endocrine","Skin","Bone_Joint_STT","PNS_Skeletal_Muscle","CNS","Eye"];
-for(let i=0;i<29;i++)FALLBACK_PATHS.push(`Pathology/ch${String(i+1).padStart(2,"0")}_${FNAMES[i]}.md`);
+for(let i=0;i<29;i++)FALLBACK_PATHS.push(`Pathology/robbins/ch${String(i+1).padStart(2,"0")}_${FNAMES[i]}.md`);
 
 function fallback(msg){
   buildFromPaths(clean(FALLBACK_PATHS));

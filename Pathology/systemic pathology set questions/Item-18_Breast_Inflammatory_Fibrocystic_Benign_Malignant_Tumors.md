@@ -535,5 +535,5 @@ Bacterial entry (cracked nipple / duct obstruction)
 ---
 
 ### 🔗 Source files
-- [Pathology/ch23_Breast.md](../Pathology/ch23_Breast.md)
+- [Pathology/ch23_Breast.md](../robbins/ch23_Breast.md)
 - [README.md](README.md) · [← Item-17](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · [Item-19 →](Item-19_Endocrine_Thyroid.md)

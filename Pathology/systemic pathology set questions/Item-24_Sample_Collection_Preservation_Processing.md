@@ -148,5 +148,5 @@ Transport must keep the tissue **adequately fixed** (to stop autolysis), **corre
 ---
 
 ### 🔗 Source files
-- [Pathology/README.md](../Pathology/README.md) · [README.md](README.md)
+- [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-17](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · [Item-25 →](Item-25_Autopsy_Histopathology_Techniques.md)

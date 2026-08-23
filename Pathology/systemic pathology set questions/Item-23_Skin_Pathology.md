@@ -622,4 +622,4 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 ## 🔗 Links
 
 - **Previous:** [Item 22](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · **Next:** [Item 24](Item-24_Sample_Collection_Preservation_Processing.md)
-- **Robbins Ch 25 source:** [Pathology/ch25_Skin.md](../Pathology/ch25_Skin.md)
+- **Robbins Ch 25 source:** [Pathology/ch25_Skin.md](../robbins/ch25_Skin.md)

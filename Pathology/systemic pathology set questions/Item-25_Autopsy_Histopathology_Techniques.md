@@ -215,5 +215,5 @@ Antibody-based staining for **specific proteins/antigens** (e.g., CK, CD markers
 ---
 
 ### 🔗 Source files
-- [Pathology/README.md](../Pathology/README.md) · [README.md](README.md)
+- [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-24](Item-24_Sample_Collection_Preservation_Processing.md) · [Item-26 →](Item-26_Cytopathology_Techniques.md)

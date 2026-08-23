@@ -1120,5 +1120,5 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 ---
 
 ### 🔗 Source files
-- [Pathology/ch22_Female_Genital_Tract.md](../Pathology/ch22_Female_Genital_Tract.md)
+- [Pathology/ch22_Female_Genital_Tract.md](../robbins/ch22_Female_Genital_Tract.md)
 - [README.md](README.md) · [← Item-15](Item-15_Testis_Prostate_Semen.md) · [Item-17 →](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md)

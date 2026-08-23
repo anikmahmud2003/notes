@@ -556,5 +556,5 @@ Bilateral involvement is characteristic of **hematogenous/transcoelomic seeding 
 ---
 
 ### 🔗 Source files
-- [Pathology/ch22_Female_Genital_Tract.md](../Pathology/ch22_Female_Genital_Tract.md)
+- [Pathology/ch22_Female_Genital_Tract.md](../robbins/ch22_Female_Genital_Tract.md)
 - [README.md](README.md) · [← Item-16](Item-16_Female_Genital_Infections_CIN_Cervix.md) · [Item-24 →](Item-24_Sample_Collection_Preservation_Processing.md)

@@ -652,5 +652,5 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 ---
 
 ### 🔗 Source files
-- [Pathology/ch24_Endocrine.md](../Pathology/ch24_Endocrine.md)
+- [Pathology/ch24_Endocrine.md](../robbins/ch24_Endocrine.md)
 - [README.md](README.md) · [← Item-18](Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md) · [Item-21 →](Item-21_Eye_ENT_CNS.md)
