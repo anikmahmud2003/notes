@@ -1,4 +1,4 @@
-# Study Notes — Master Hub
+# Study Notes — Master Hub By Anik Mahmud SZMC 32 
 
 Everything study-related, in one repo, readable from any browser.
 
