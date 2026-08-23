@@ -52,6 +52,8 @@ button#refresh:hover{border-color:var(--acc)}
 }
 .chip:hover{border-color:var(--acc);color:var(--acc)}
 .chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.chip.up{border-style:dashed;color:var(--acc)}
+.chip .n{margin-left:6px;font-size:.68rem;font-weight:700;opacity:.55}
 .stats{color:var(--muted);font-size:.82rem;margin-top:12px}
 .stats a{color:var(--acc)}
 
@@ -179,7 +181,6 @@ function nat(a,b){
 const state={q:"",cat:"all",sort:"order"};
 let root={name:"",kind:"dir",path:"",children:[]};   /* nested tree */
 let flat=[];                                          /* flat list {name,path,kind,url} */
-let cats=["all"];
 
 function buildFromPaths(paths){
   root={name:"",kind:"dir",path:"",children:[]};
@@ -198,7 +199,6 @@ function buildFromPaths(paths){
     }
   };
   paths.forEach(p=>insert(root,p.split("/")));
-  cats=["all"].concat([...new Set(flat.map(n=>n.path.split("/")[0]))].sort(nat));
   renderChips();
   apply();
 }
@@ -280,9 +280,28 @@ function toggleTree(el){
 }
 
 /* ============ chips / stats / events ============ */
+function subCatsOf(cat){
+  const pref=cat==="all"?"":cat+"/";
+  return [...new Set(flat.filter(n=>n.path.startsWith(pref))
+    .map(n=>n.path.slice(pref.length))
+    .filter(r=>r.includes("/"))
+    .map(r=>r.split("/")[0]))].sort(nat);
+}
 function renderChips(){
-  document.getElementById("chips").innerHTML=cats.map(c=>
-    `<button class="chip ${state.cat===c?"on":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");
+  const cnt=p=>flat.reduce((a,n)=>a+(n.path.startsWith(p+"/")?1:0),0);
+  const fbtn=p=>`<button class="chip" data-cat="${esc(p)}">📁 ${esc(p.split("/").pop())}<span class="n">${cnt(p)}</span></button>`;
+  let html="";
+  if(state.cat==="all"){
+    html=`<button class="chip on" data-cat="all">all<span class="n">${flat.length}</span></button>`;
+    subCatsOf("all").forEach(c=>html+=fbtn(c));
+  }else{
+    const parts=state.cat.split("/");
+    const parent=parts.length>1?parts.slice(0,-1).join("/"):"all";
+    html=`<button class="chip up" data-cat="${esc(parent)}">↩ ${esc(parent==="all"?"all":parent.split("/").pop())}</button>`;
+    html+=`<button class="chip on" data-cat="${esc(state.cat)}">${esc(parts[parts.length-1])}<span class="n">${cnt(state.cat)}</span></button>`;
+    subCatsOf(state.cat).forEach(c=>html+=fbtn(state.cat+"/"+c));
+  }
+  document.getElementById("chips").innerHTML=html;
 }
 document.getElementById("chips").addEventListener("click",e=>{
   const b=e.target.closest(".chip");if(!b)return;
