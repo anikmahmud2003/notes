@@ -128,7 +128,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
   <header>
     <h1>Study Notes Hub</h1>
-    <p>Everything is listed here automatically from the repo. Click a note → it opens on GitHub (rendered), click an HTML page → it opens as a page.</p>
+    <p>Self-hosted study hub. Click a note → opens in the built-in reader (<b>Read / Split / Source</b>, synced scroll). Click an HTML page → it opens directly.</p>
 
     <div class="toolbar">
       <div class="search">
@@ -164,7 +164,7 @@ html,body{max-width:100%;overflow-x:hidden}
         <li>Add/edit <code>.md</code> notes in any folder (Obsidian vault) — notes stay <b>markdown</b>, no HTML needed.</li>
         <li>Commit &amp; push to the repo.</li>
         <li>This page reloads the file list from GitHub automatically — the hierarchy updates by itself.</li>
-        <li>Click a <code>.md</code> file → opens the rendered note on GitHub. Click a <code>.html</code> file → opens the page.</li>
+        <li>Click a <code>.md</code> file → opens in the built-in reader with Read / Split (source + preview, synced scroll) / Source modes. Click a <code>.html</code> file → opens the page directly.</li>
       </ol>
     </div>
   </section>
@@ -176,13 +176,12 @@ html,body{max-width:100%;overflow-x:hidden}
 const REPO="anikmahmud2003/notes";
 const BRANCH="main";
 const GH="https://github.com/"+REPO;
-const SITE="https://anikmahmud2003.github.io/notes";
 const API="https://api.github.com/repos/"+REPO+"/git/trees/"+BRANCH+"?recursive=1";
 
 /* ============ helpers ============ */
 const enc=p=>p.split("/").map(encodeURIComponent).join("/");
 const esc=s=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const urlFor=p=>p.endsWith(".html")?SITE+"/"+enc(p):GH+"/blob/"+BRANCH+"/"+enc(p);
+const urlFor=p=>p.endsWith(".html")?enc(p):"viewer.html?file="+encodeURIComponent(p);
 const base=p=>p.split("/").pop();
 function nat(a,b){
   const pa=a.split(/(\d+)/),pb=b.split(/(\d+)/);
@@ -337,7 +336,7 @@ function renderStats(){
 /* ============ data source ============ */
 const clean=paths=>paths.filter(p=>
   !p.startsWith(".")&&!p.includes("/.")&&!p.includes("__pycache__")&&!p.endsWith(".pyc")&&
-  p!=="index.html"&&p!=="README.md"&&/\.(md|html)$/i.test(p));
+  p!=="index.html"&&p!=="viewer.html"&&p!=="README.md"&&/\.(md|html)$/i.test(p));
 const FALLBACK_PATHS=[
   "README.md",
   "GK/bd-constitution.html",

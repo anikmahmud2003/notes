@@ -2,13 +2,14 @@
 
 Everything study-related, in one repo, readable from any browser.
 
-**Best viewed as a website:** https://anikmahmud2003.github.io/notes/
+**Read online:** https://note.anik-mahmud.online · mirror: https://anikmahmud2003.github.io/notes/
 
 ## Contents
 
 | Path | What it is |
 |---|---|
 | [index.html](index.html) | Hub page — links to all HTML notes (also the GitHub Pages front door) |
+| [viewer.html](viewer.html) | Built-in markdown reader — Read / Split (source + preview, synced scroll) / Source modes |
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
