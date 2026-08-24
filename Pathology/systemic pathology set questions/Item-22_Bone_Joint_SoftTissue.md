@@ -35,6 +35,8 @@
 | **Subacute osteomyelitis** | Weeks–months | Walled-off lesion = 🔴 **Brodie abscess**; low-grade symptoms |
 | **Chronic osteomyelitis** | >6 weeks | 🔴 **Sequestrum + involucrum + cloaca**; draining sinus tracts; relapsing course |
 
+![](image.png)
+![](image-1.png)
 ### B. According to route of infection
 
 | Route | Mechanism / Example |
@@ -116,6 +118,33 @@ Direct implantation (compound fracture, surgery, puncture)
 | **Children (>1 yr)** | 🔴 **Metaphysis of long bones** (distal femur, proximal tibia) | Metaphyseal capillary loops are sinusoidal with **sluggish blood flow** ("hair-pin" bends) favoring bacterial lodging; growth plate acts as barrier |
 | **Neonates/infants (<1 yr)** | Metaphysis **± epiphysis ± joint** | Metaphyseal vessels **cross the open growth plate** → epiphyseal involvement → **septic arthritis**; sequestration not prominent (periosteum loosely attached → large subperiosteal abscesses instead) |
 | **Adults** | 🔴 **Vertebrae** (hematogenous) / epiphysis-subchondral region; also via wounds/diabetic foot | Growth plate closed; Batson vertebral venous plexus + rich red marrow |
+
+
+আপনার দেওয়া তথ্যটি অ্যাকিউট এবং ক্রনিক অস্টিওমাইলাইটিস (Acute & Chronic Osteomyelitis)-এর প্যাথলজি বোঝার জন্য অত্যন্ত গুরুত্বপূর্ণ এবং নির্ভুল। মেডিকেল পরীক্ষায় এই "Age-related location and pathogenesis" অংশ থেকে প্রায়ই প্রশ্ন আসে।
+আপনার দেওয়া টেবিলটির ওপর ভিত্তি করে মূল কারণগুলো নিচে সহজ ভাষায় বিশ্লেষণ করা হলো:
+## ১. শিশু (>১ বছর): মেটাফাইসিস (Metaphysis) আক্রান্ত হওয়ার কারণ
+
+* চুলের কাঁটার মতো বাঁক (Hair-pin bends): শিশুদের লং বোনের (যেমন: Femur বা Tibia) মেটাফাইসিস অংশে রক্তনালী বা ক্যাপিলারিগুলো "U" আকৃতির বা হেয়ার-পিনের মতো বাঁক নেয়।
+* ধীর রক্তপ্রবাহ (Sluggish blood flow): এই বিশেষ বাঁকের কারণে সেখানে রক্তপ্রবাহ খুব ধীর হয়ে যায়। ফলে রক্তে থাকা ব্যাকটেরিয়া খুব সহজেই এখানে আটকে (Lodging) ইনফেকশন তৈরি করতে পারে।
+* গ্রোথ প্লেটের বাধা (Growth plate barrier): শিশুদের গ্রোথ প্লেট বা এপিফাইসিয়াল কার্টিলেজ একটি শক্ত দেয়াল হিসেবে কাজ করে। তাই ইনফেকশন সহজে এপিফাইসিস বা জয়েন্টে ছড়াতে পারে না, মেটাফাইসিসেই সীমাবদ্ধ থাকে।
+
+## ২. নবজাতক/ইনফ্যান্ট (<১ বছর): জয়েন্ট ও এপিফাইসিস আক্রান্ত হওয়ার কারণ
+
+* উন্মুক্ত রক্তনালী (Transphyseal vessels): ১ বছরের কম বয়সী শিশুদের গ্রোথ প্লেট সম্পূর্ণ তৈরি হয় না। রক্তনালীগুলো গ্রোথ প্লেট ভেদ করে মেটাফাইসিস থেকে সরাসরি এপিফাইসিস (Epiphysis) পর্যন্ত চলে যায়।
+* সেপ্টিক আর্থ্রাইটিস (Septic Arthritis): রক্তনালীর এই সংযোগের কারণে ইনফেকশন খুব দ্রুত জয়েন্টে ছড়িয়ে পড়ে পুঁজ জমায়।
+* হাড়ের খোসা আলগা হওয়া: নবজাতকদের হাড়ের বাইরের আবরণ (Periosteum) খুব আলগা থাকে। তাই সেখানে সেকুয়েস্ট্রাম না হয়ে বড় আকৃতির পুঁজ বা সাবপেরিওস্টিয়াল অ্যাবসেস (Subperiosteal abscess) তৈরি হয়।
+
+## ৩. প্রাপ্তবয়স্ক (Adults): মেরুদণ্ড (Vertebrae) আক্রান্ত হওয়ার কারণ
+
+* ক্লোজড গ্রোথ প্লেট: বড়দের গ্রোথ প্লেট বন্ধ হয়ে যাওয়ায় লং বোনের মেটাফাইসিসের সেই বিশেষ রক্তনালী আর থাকে না।
+* ব্যাটসনের ভেনাস প্লেক্সাস (Batson's Plexus): প্রাপ্তবয়স্কদের মেরুদণ্ডের চারপাশে একটি বিশেষ শিরা বা ভেনাস নেটওয়ার্ক থাকে, যেখানে কোনো ভালভ (Valve) থাকে না। এর ফলে শরীরের অন্য কোনো অংশের (যেমন: প্রস্রাবের ইনফেকশন বা UTI) ব্যাকটেরিয়া খুব সহজে এবং সরাসরি মেরুদণ্ডের হাড়ে চলে আসতে পারে।
+
+------------------------------
+মেডিকেল পরীক্ষার প্রস্তুতির সুবিধার্থে আপনি কি এই টপিকের ওপর কিছু গুরুত্বপূর্ণ MCQ এবং Single Best Answer (SBA) প্রশ্ন ও উত্তর প্র্যাকটিস করতে চান? নাকি এর প্যাথলজিক্যাল মেকানিজম বা ডায়াগ্রাম নিয়ে আরও জানতে চান?
+
+
+
+
 
 ### B. Pathogenesis — step-by-step chain
 
