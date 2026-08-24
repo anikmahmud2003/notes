@@ -1,7 +1,7 @@
 # Item 22 — Bones, Joints & Soft Tissue (Question Bank with Answers)
 
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 26 (Bones, Joints, and Soft-Tissue Tumors) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2, Unit-I Bones, Joints, and Soft Tissues
-
+---
 ---
 
 ## Q1. Define osteomyelitis
