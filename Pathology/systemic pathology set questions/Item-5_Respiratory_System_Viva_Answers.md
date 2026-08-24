@@ -541,7 +541,7 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 8. Occupational dust exposure — pneumoconiosis surveillance.
 9. Monitoring response of TB to treatment (smear conversion).
 
-### How sputum is tested in the laboratory
+### How sputum is tested in the laboratory?
 
 **Step 1 — Collection:** deep-cough **early-morning sample ×3** in sterile wide-mouth screw-cap container, **before starting antibiotics**; transport promptly/refrigerate; reject saliva (<10 pus cells or >25 squamous cells/HPF = unsatisfactory).
 
