@@ -50,6 +50,8 @@ Primordial germ cell (acquired differentiation defect)
 
 > 🎯 GCT = 95% of testicular tumours · i(12p) in all invasive GCTs · "Any solid testicular mass = malignant until proven otherwise."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q2. What is cryptorchidism?
@@ -82,6 +84,8 @@ Basement membrane thickening → loss of spermatogonia
 
 > 🎯 Cryptorchidism = sterility + 3–5× cancer risk · orchiopexy at 6–12 months.
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q3. Short note on Seminoma.
@@ -108,6 +112,8 @@ Seminoma is the **most common testicular germ cell tumour (~50%)**, reproducing 
 
 > 🎯 Seminoma = KIT/OCT3/4/podoplanin +, CK − · "AFP elevated ⇒ NOT pure seminoma."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q4. Short note on Teratoma.
@@ -131,6 +137,8 @@ A germ cell tumour containing **derivatives of more than one germ layer** (endod
 - **Retains i(12p)** → proves clonal origin from the teratoma.
 
 > 🎯 "Prepubertal teratoma = benign; postpubertal teratoma = malignant — the genetics, not the tissue, decide."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
 
 ---
 
@@ -157,6 +165,8 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 > 🎯 "Both have i(12p); the difference is differentiation, invasiveness, markers, and chemo/radiosensitivity."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q6. Name the testicular tumour markers and their uses.
@@ -179,6 +189,8 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 4. **Monitoring therapy & follow-up** — a rising marker signals recurrence before imaging.
 
 > 🎯 "AFP = yolk sac, hCG = syncytiotrophoblast (choriocarcinoma), LDH = tumour load."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
 
 ---
 
@@ -204,6 +216,10 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 - Prostate has **4 zones — peripheral, central, transition, periurethral**.
 - 🔴 **Most hyperplasia → transition zone; most carcinoma → peripheral zone** ("Peripheral = carcinoma, Transition = hyperplasia").
 
+> 🎯 "Prostate diseases = prostatitis (inflammation) + BPH (transition zone) + carcinoma (peripheral zone) + secondary urothelial + corpora amylacea/calculi."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q8. What are the tumours of prostate?
@@ -225,6 +241,8 @@ Primary prostate tumours are almost always **epithelial**; by far the most impor
 - Present in **~80%** of prostates removed for carcinoma; same (peripheral) zone as cancer.
 
 > 🎯 Most important: **adenocarcinoma** (vast majority), **small-cell** (most lethal), **urothelial** (most common secondary).
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
 
 ---
 
@@ -252,6 +270,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 > 🎯 DHT (via type 2 5α-reductase in stroma) + estrogen excess → transition-zone nodular hyperplasia.
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q10. Write down the morphology of BPH.
@@ -272,6 +292,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 - Symptoms: **frequency, nocturia, hesitancy, overflow dribbling, dysuria**; ↑ risk of bladder/kidney infections; acute retention requiring catheterization.
 
 > 🎯 BPH = transition zone + two cell layers + papillary infoldings; carcinoma = peripheral zone + single layer + no basal layer.
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
 
 ---
 
@@ -297,6 +319,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 > 🎯 "Presence/absence of the basal layer = the key morphological and IHC distinction."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 ## Q12. Short note on Prostate Specific Antigen (PSA).
@@ -320,6 +344,8 @@ PSA is a protein produced almost exclusively by **prostatic epithelium**. It is 
 
 > 🎯 "PSA = organ-specific, NOT cancer-specific — good for monitoring, controversial for screening."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263
+
 ---
 
 # Part C — Semen Analysis & Male Infertility (Q13–22)
@@ -336,6 +362,10 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 6. **Sperm donor screening** — quality control of donor samples.
 7. **Medicolegal / forensic** cases — detection and confirmation of semen.
 
+> 🎯 "Semen analysis indications: infertility work-up, post-vasectomy check, gonadotoxicity assessment, ART planning, donor & medicolegal screening."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
+
 ---
 
 ## Q14. How is the specimen collected for semen analysis?
@@ -351,6 +381,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 > 🎯 "The first portion of the ejaculate contains most of the sperm — losing it is the commonest cause of a falsely low count."
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
+
 ---
 
 ## Q15. Mention the importance of semen analysis.
@@ -364,6 +396,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 - **Medicolegal value** — detection of semen in forensic cases.
 
 > 🎯 A **single abnormal report must be repeated** because of day-to-day variability.
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
 
 ---
 
@@ -379,6 +413,10 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 - **Repeat samples** if abnormal — 2 samples, 2–4 weeks apart.
 
 > ⚠️ Wrong abstinence, lost first fraction, or delay >1 hour invalidate the result.
+
+> 🎯 "Abstinence 2–7 days + complete first (sperm-rich) fraction + no lubricants + laboratory delivery within 1 hour at 20–37 °C."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
 
 ---
 
@@ -403,6 +441,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 > 🎯 **Memory: "15, 39, 40, 32, 58, 4"** — concentration 15 M/mL, total 39 M, total motility 40%, progressive 32%, vitality 58%, morphology 4%.
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
+
 ---
 
 ## Q18. Define:
@@ -422,6 +462,10 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 > **Related terms:** aspermia (no ejaculate), hypospermia (low volume), cryptozoospermia (sperm only after centrifugation).
 
+> 🎯 "Oligospermia <15–16 M/mL · azoospermia = no sperm on centrifuged deposit (≥2 samples) · necrospermia = sperm present but all dead (<54–58% vitality)."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
+
 ---
 
 ## Q19. Give the properties of normozoospermia.
@@ -436,6 +480,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 - **Extraneous:** leukocytes <1 million/mL; no significant agglutination; culture-negative; no blood.
 
 > 🎯 "Every parameter normal = normozoospermia. Any single value below its limit renames the sample."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
 
 ---
 
@@ -456,6 +502,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 - They are **often reduced together** → **oligoasthenoteratozoospermia (OAT)** = the commonest abnormal pattern.
 
 > 🎯 OAT = all three defects together = commonest abnormal pattern.
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
 
 ---
 
@@ -485,6 +533,8 @@ Classified by **level of the defect** — pretesticular / testicular / post-test
 
 > 🎯 Fertility needs (a) gonadotrophin drive, (b) intact spermatogenesis, (c) patent ducts + forward ejaculation.
 
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
+
 ---
 
 ## Q22. How will you investigate a case of male infertility?
@@ -502,6 +552,8 @@ Follows a logical order: **history → repeated semen analysis → hormones → 
 9. **Specialized** — sperm DNA fragmentation index, functional tests (ICSI planning).
 
 > 🎯 "FSH is the key discriminator: normal FSH + azoospermia → obstruction; high FSH → primary testicular failure."
+
+> 📖 Robbins 10e, Ch 21 (Lower Urinary Tract & Male Genital System), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Male Genital System, pp. 250–263 · Unit-II Semen Analysis, pp. 449–455
 
 ---
 

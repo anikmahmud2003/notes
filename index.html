@@ -102,7 +102,25 @@ mark{background:var(--match);color:inherit;border-radius:3px;padding:0 1px}
 }
 .note code{background:#e2e8f0;padding:1px 6px;border-radius:6px;font-size:.84rem;color:var(--ink)}
 ol{padding-left:20px;margin-top:8px}
-@media (max-width:640px){ .wrap{padding:24px 14px 56px} }
+
+/* ===== anti-overflow fixes: keep long names/paths inside boxes ===== */
+html,body{max-width:100%;overflow-x:hidden}
+.grid{grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr))}
+.grid>*{min-width:0;width:100%}
+.card h3{
+  overflow-wrap:anywhere;word-break:break-word;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.card .crumb{
+  white-space:normal;overflow-wrap:anywhere;word-break:break-word;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.tree-item .row .lbl{white-space:normal;overflow-wrap:anywhere;word-break:break-word}
+.badge{flex:0 0 auto;margin-left:6px}
+.chip{max-width:100%}
+.chip,.stats,.note,header p{overflow-wrap:anywhere;word-break:break-word}
+.note code{overflow-wrap:anywhere;word-break:break-word}
+@media (max-width:640px){ .wrap{padding:24px 14px 56px} .toolbar{gap:8px} select{flex:1 1 auto} }
 </style>
 </head>
 <body>
@@ -327,13 +345,28 @@ const FALLBACK_PATHS=[
   "Pathology/README.md",
   "Pathology/robbins/00_START_HERE.md","Pathology/robbins/00_INDEX.md",
   "Pathology/systemic pathology set questions/README.md",
+  "Pathology/systemic pathology set questions/Item-1_Blood_Vessels_Atherosclerosis_Vasculitis_Lipid.md",
+  "Pathology/systemic pathology set questions/Item-2_IHD_HypertensiveHD_Cardiac_Enzymes.md",
+  "Pathology/systemic pathology set questions/Item-3_CHD_RheumaticFever_IE_Myocardium.md",
+  "Pathology/systemic pathology set questions/Item-4_Respiratory_Pneumonia_TB_LungAbscess.md",
   "Pathology/systemic pathology set questions/Item-5_Respiratory_System_Viva_Answers.md",
+  "Pathology/systemic pathology set questions/Item-6_Kidney_Glomerular_Disease.md",
+  "Pathology/systemic pathology set questions/Item-7_Pyelonephritis_UTI_RFT_Calculi.md",
+  "Pathology/systemic pathology set questions/Item-8_Renal_Tumours_Bladder_Cystitis.md",
+  "Pathology/systemic pathology set questions/Item-9_OralCavity_Salivary_Esophagus.md",
+  "Pathology/systemic pathology set questions/Item-10_Stomach_Gastritis_PUD_GastricCa.md",
+  "Pathology/systemic pathology set questions/Item-11_Intestine_IBD_Appendicitis_CRC.md",
+  "Pathology/systemic pathology set questions/Item-12_Hepatitis_LFT_Jaundice.md",
+  "Pathology/systemic pathology set questions/Item-13_Cirrhosis_PortalHTN_LiverFailure_HCC.md",
+  "Pathology/systemic pathology set questions/Item-14_Gallbladder_Pancreas.md",
   "Pathology/systemic pathology set questions/Item-15_Testis_Prostate_Semen.md",
   "Pathology/systemic pathology set questions/Item-16_Female_Genital_Infections_CIN_Cervix.md",
   "Pathology/systemic pathology set questions/Item-17_Uterus_Placenta_Ovary_PregnancyTest.md",
   "Pathology/systemic pathology set questions/Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md",
   "Pathology/systemic pathology set questions/Item-19_Endocrine_Thyroid.md",
+  "Pathology/systemic pathology set questions/Item-20_Diabetes_OGTT_BenedictTest.md",
   "Pathology/systemic pathology set questions/Item-21_Eye_ENT_CNS.md",
+  "Pathology/systemic pathology set questions/Item-22_Bone_Joint_SoftTissue.md",
   "Pathology/systemic pathology set questions/Item-23_Skin_Pathology.md",
   "Pathology/systemic pathology set questions/Item-24_Sample_Collection_Preservation_Processing.md",
   "Pathology/systemic pathology set questions/Item-25_Autopsy_Histopathology_Techniques.md",
@@ -341,6 +374,14 @@ const FALLBACK_PATHS=[
 ];
 const FNAMES=["Cell_as_Unit","Cell_Injury_Death_Adaptations","Inflammation_Repair","Hemodynamic_Disorders_Shock","Genetic_Disorders","Diseases_of_Immune_System","Neoplasia","Infectious_Diseases","Environmental_Nutritional","Infancy_Childhood","Blood_Vessels","Heart","WBC_LymphNodes_Spleen_Thymus","RBC_Bleeding_Disorders","Lung","Head_and_Neck","GIT","Liver_Gallbladder","Pancreas","Kidney","LowerUrinary_Male_Genital","Female_Genital_Tract","Breast","Endocrine","Skin","Bone_Joint_STT","PNS_Skeletal_Muscle","CNS","Eye"];
 for(let i=0;i<29;i++)FALLBACK_PATHS.push(`Pathology/robbins/ch${String(i+1).padStart(2,"0")}_${FNAMES[i]}.md`);
+const ARIF="Pathology/Arif Pathology/Arif Guide 2025 Extracted/";
+const ARIF_V1=["Front-Matter","Cell-Injury-and-Cell-Death","Cellular-Adaptation-Intracellular-Accumulation-and-Cell-Agin","Inflammation","Tissue-Repair","Haemodynamic-Disorders-Thromboembolic-Disease-and-Shock","Genetic-Disorders","Immunological-Disorders","Neoplasia","Environment-and-Nutritional-Pathology","Diseases-of-Infancy-and-Childhood","MCQs-General-Pathology","Hemopoiesis","Bone-Marrow-Examination","Peripheral-Blood-Film-ESR-and-Iron-Metabolism","Estimation-of-Hemoglobin-PCV-Red-Cell-Indices","Anaemia","WBC-and-Leukaemia","Myeloproliferative-Disorders-Lymphoproliferative-Disorders-a","Paraproteinaemia-and-Multiple-Myeloma","Bleeding-Disorders","Blood-Groups-Blood-Transfusion-and-Anticoagulants","MCQs-Haematology"];
+ARIF_V1.forEach((n,i)=>{FALLBACK_PATHS.push(i===0?ARIF+"V1-ch00_"+n+".md":ARIF+`V1-ch${String(i).padStart(2,"0")}_`+n+".md");});
+FALLBACK_PATHS.push(ARIF+"V1-ch23_Index.md");
+const ARIF_V2=["Front-Matter","Blood-Vessels","The-Heart","Diseases-of-WBC-Lymph-Nodes-Spleen-and-Thymus","Respiratory-System","Head-Neck-and-Oral-Cavity","The-Gastrointestinal-System","Liver-and-Biliary-Tract","Renal-System","Male-Genital-System","Female-Genital-System","Gestational-Trophoblastic-Disease","The-Breast","Endocrine-System","The-Skin","Bones-Joints-and-Soft-Tissues","The-Central-Nervous-System","The-Eye","MCQs-Systemic-Pathology","Liver-Function-Test-and-Jaundice","Renal-Function-Test","Blood-Glucose-and-Diabetes-Mellitus","Semen-Analysis","Body-Fluids-CSF-Pleural-Fluid-Ascitic-Fluid","Electrolyte-and-Acid-Base-Balance","Enzymes","Lipid-and-Cholesterol","Pregnancy-Test","Stool-Examination","Sputum-Examination","Miscellaneous","MCQs-Clinical-Pathology","Back-Matter"];
+ARIF_V2.forEach((n,i)=>{FALLBACK_PATHS.push(ARIF+`V2-ch${String(i).padStart(2,"0")}_`+n+".md");});
+FALLBACK_PATHS.push(ARIF+"_INDEX.md");
+FALLBACK_PATHS.push("Pathology/Arif Pathology/README.md");
 
 function fallback(msg){
   buildFromPaths(clean(FALLBACK_PATHS));

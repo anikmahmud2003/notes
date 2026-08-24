@@ -27,6 +27,7 @@
 5. **Small-airway disease (bronchiolitis obliterans)**
 
 > 🎯 **Remember:** Obstructive = **"can't blow out"** — FEV1/FVC < 0.7.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -53,6 +54,9 @@
 | **Small-airway disease** | Bronchiole | Inflammatory scarring/obliteration | Cough, dyspnea |
 
 > 💡 Emphysema + chronic bronchitis commonly coexist in the same patient (overlap syndrome).
+> 🎯 **Remember:** "COPD triad = chronic bronchitis + emphysema (+ small-airway disease); smoking is the engine."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -80,6 +84,7 @@
 Loss of **elastic recoil** → ↓ **radial traction** on small airways → respiratory bronchioles **collapse during expiration** = functional obstruction. Young smokers also get small-airway inflammation → narrowing.
 
 > 🎯 **One-liner:** Smoking → elastase/anti-elastase imbalance + oxidants → elastic destruction → loss of recoil → expiratory bronchiolar collapse.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -104,6 +109,7 @@ Loss of **elastic recoil** → ↓ **radial traction** on small airways → resp
 Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor pulmonale**.
 
 > 🎯 **One-liner:** Smoke → gland hypertrophy + goblet hyperplasia (Reid index ↑) → mucus hypersecretion → small-airway fibrosis → obstruction → cor pulmonale.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -125,6 +131,7 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 | **Clinical picture** | **Blue bloater** | **Pink puffer** |
 
 > 🎯 **Pink puffer blows out; blue bloater drowns in his own mucus.**
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -157,6 +164,7 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 4. **Neuromuscular disease** (polio, muscular dystrophies)
 
 > 🎯 Restrictive = **FEV1/FVC normal** (both FEV1 and FVC fall proportionally); obstructive = FEV1/FVC < 0.7.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -173,6 +181,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 5. Atopic asthmatics: **eosinophilia**, **Curschmann spirals** (mucus plugs) + **Charcot-Leyden crystals** (galectin-10) in sputum.
 6. **Acute severe form (status asthmaticus)** → severe respiratory distress, cyanosis → death.
 7. **Up to 50% of childhood asthma remits at adolescence**, but returns in many adults.
+> 🎯 **Remember:** "Asthma = reversible obstruction, Type I hypersensitivity, eosinophils + Charcot-Leyden + Curschmann spirals."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -197,6 +208,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 | **Airway remodeling** | Late, sub-basement membrane fibrosis | Present (small-airway fibrosis) |
 | **Cor pulmonale** | Rare | Common (esp. bronchitic type) |
 | **Mucous gland (Reid index)** | Mild ↑ | Prominent ↑ (chronic bronchitis) |
+> 🎯 **Remember:** "Small cell = central + paraneoplastic king (SIADH/Lambert-Eaton) + chemotherapy."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -230,6 +244,7 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 - Clinical: profound dyspnea, **cyanosis, death if untreated** (respiratory failure).
 
 > 🎯 **One-liner:** Allergen → Th2 (IL-4/5/13) → IgE on mast cells → early bronchospasm + late eosinophilic inflammation → remodeling.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -261,6 +276,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 **Morphology:** lower lobes bilaterally, vertical/distal airways most severe; airways dilated up to **4× normal**, running almost to the pleura; cut surface = cystic, filled with mucopurulent secretions; acute + chronic inflammation, ulceration, squamous metaplasia.
 
 **Clinical:** severe persistent cough, **foul-smelling, sometimes bloody sputum**, dyspnea, **hemoptysis (may be massive)**; morning paroxysms (positional drainage).
+> 🎯 **Remember:** "SCLC staging = limited vs extensive — systemic disease from day one."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -290,6 +308,7 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 8. Also: acute → **ARDS**; **interstitial edema**
 
 > 🎯 **One-liner:** Obstructive FEV1/FVC <0.7; restrictive FEV1/FVC normal.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -326,6 +345,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 | **Small cell** | 15% |
 | **Large cell** | 2% |
 | Other | 13% |
+> 🎯 **Remember:** "Clubbing + Pancoast = apical mass (Horner syndrome)."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -357,6 +379,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 6. **Molecular testing** — **EGFR, ALK, ROS1, MET, RET, BRAF, KRAS, PD-L1** (guides targeted therapy/immunotherapy).
 7. **Staging (TNM)** — T (tumor size/extension), N (nodes), M (metastasis); imaging: CT + PET + brain MRI.
 8. **Screening for paraneoplastic syndromes** — serum Ca²⁺ (PTHrP), Na⁺ (SIADH), ACTH, etc.
+> 🎯 **Remember:** "Paraneoplasia follows histology: squamous→Ca (PTHrP), adeno→clotting (Trousseau), small cell→ACTH/SIADH/Lambert-Eaton."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -389,6 +414,9 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ### Local effects (secondary pathology)
 Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericarditis/pleuritis, **Pancoast tumor** (superior sulcus → ulnar pain + **Horner syndrome: enophthalmos, ptosis, miosis, anhidrosis**), hoarseness (recurrent laryngeal), dysphagia (esophagus), diaphragm paralysis (phrenic), rib destruction.
+> 🎯 **Remember:** "Adeno = peripheral & gland-forming; Squamous = central, keratin pearls & cavitates; Small = mustard-oil nuclei & necrosis."
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -418,6 +446,7 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 - Chemo/radiation sensitive but **rarely cured** (5-yr survival ~5%; extensive disease median ~10 months); **no known preinvasive phase**.
 
 > 🎯 **One-liner:** Small cell = salt-and-pepper, molding, absent nucleoli, TP53+RB loss, neuroendocrine markers, paraneoplastic champion.
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
@@ -465,7 +494,151 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 - **Lobar pneumonia 4 stages:** Congestion → red hepatization → gray hepatization → resolution.
 - **COPD spectrum:** Chronic bronchitis (bronchus, cough) · Bronchiectasis (dilation, foul sputum) · Asthma (reversible wheeze) · Emphysema (airspace destruction, dyspnea) · Small-airway disease.
 - **Emphysema types:** Centriacinar (smoker, upper) · Panacinar (α1-AT def, lower) · Paraseptal (pneumothorax) · Irregular (scar).
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
+
+---
+
+## Q17. What are causes of pleural effusion? Name the pleural tumors.
+
+### Definition
+**Pleural effusion = abnormal accumulation of fluid in the pleural cavity** (normally ≤15 mL of serous fluid). Mechanisms: **↑hydrostatic pressure (CHF)** · **↑vascular permeability (pneumonia)** · **↓osmotic pressure (nephrotic syndrome)** · ↑intrapleural negative pressure (**atelectasis**) · **↓lymphatic drainage (mediastinal carcinomatosis)**.
+
+### 🔴 Causes of pleural effusion
+
+| Type | Causes |
+|---|---|
+| **A. Inflammatory (exudate)** | **Serofibrinous/fibrinous pleuritis:** underlying lung disease — 🔴 **TB**, pneumonia, lung infarction, lung abscess, bronchiectasis; systemic — **RA, SLE**, uremia, systemic infections; metastatic pleural deposits; radiotherapy |
+| | 🔴 **Empyema** = purulent exudate (pneumonia spreading contiguously, abscess below diaphragm — right side more) |
+| | **Hemorrhagic pleuritis** — bleeding diathesis, rickettsial disease, neoplasm (search for tumor cells) |
+| **B. Non-inflammatory** | 🔴 **Hydrothorax** (clear straw-colored transudate): **CHF (most common)**, renal failure, cirrhosis |
+| | **Hemothorax** — chest trauma/surgery, ruptured aortic aneurysm (usually fatal) |
+| | **Chylothorax** (milky, emulsified fat) — thoracic duct trauma or malignant obstruction |
+
+### 🔴 Pleural tumors
+
+| Tumor | Key features |
+|---|---|
+| **1. Metastatic (≫ primary)** | Most frequent primaries = 🔴 **lung + breast**; ovarian cancer → widespread implants; effusions often contain neoplastic cells → **cytology of sediment diagnostically valuable** |
+| **2. Solitary fibrous tumor (primary)** | Pedunculated pleural mass; spindle cells + collagen whorls; 🔴 **CD34 + STAT6 positive, keratin negative**; **NAB2-STAT6 fusion**; **no asbestos relationship** |
+| **3. Malignant mesothelioma (primary)** | 🔴 **Asbestos-related in up to 90%**; latent period 25–45 yr; **NOT increased by smoking** (contrast with lung carcinoma); diffuse tumor sheathing the lung; types: **epithelioid 60–80% / sarcomatoid / biphasic**; 🔴 **IHC: calretinin +, WT-1 +, CK5/6 +, podoplanin +, Claudin4 −** (adenocarcinoma opposite); homozygous CDKN2A deletion, NF2/BAP1 mutations; chest pain + recurrent effusion, 50% die within 12 months |
+
+> 🎯 **Effusion causes: CHF transudate champion, TB/pneumonia exudate, empyema pus, chylo = thoracic duct; tumors: metastases (lung/breast) ≫ solitary fibrous (CD34+) & mesothelioma (calretinin+, asbestos).**
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135 · Unit-II Body Fluids/Pleural Fluid, pp. 456–469
+
+---
+
+## Q18. What are the indications of sputum examination? How sputum is tested in laboratory?
+
+### 🔴 Indications of sputum examination
+1. 🔴 **Persistent/productive cough ≥2–3 weeks — TB screening** (national guideline indication).
+2. Suspected **pneumonia** — identify organism (Gram stain, culture).
+3. 🔴 **Hemoptysis** — cause search (TB, carcinoma, bronchiectasis).
+4. Suspected **bronchogenic carcinoma** — sputum **cytology** for malignant cells (squamous CIS is sputum-positive).
+5. **Bronchial asthma** — eosinophils, **Curschmann spirals**, **Charcot-Leyden crystals**.
+6. **Heart failure / mitral stenosis** — hemosiderin-laden macrophages ("heart failure cells").
+7. **Lung abscess/bronchiectasis** — foul-smelling sputum, anaerobes, elastic fibers.
+8. Occupational dust exposure — pneumoconiosis surveillance.
+9. Monitoring response of TB to treatment (smear conversion).
+
+### How sputum is tested in the laboratory
+
+**Step 1 — Collection:** deep-cough **early-morning sample ×3** in sterile wide-mouth screw-cap container, **before starting antibiotics**; transport promptly/refrigerate; reject saliva (<10 pus cells or >25 squamous cells/HPF = unsatisfactory).
+
+**Step 2 — Macroscopic examination:** amount, color (**rusty = pneumococcus; yellow-green = pus; mucoid blood-tinged = Klebsiella; black = anthracosis**), odor (**foul = anaerobe/abscess/bronchiectasis**), consistency (tenacious, mucoid).
+
+**Step 3 — Microscopic examination:**
+
+| Test | Findings |
+|---|---|
+| Direct wet mount | Pus cells, RBCs, **elastic fibers** (tissue destruction — abscess/TB), Curschmann spirals |
+| 🔴 **Gram stain** | Predominant bacteria: gram-positive diplococci (*S. pneumoniae*), gram-negative encapsulated rods (*Klebsiella*) |
+| 🔴 **ZN stain (AFB)** | Red acid-fast bacilli of *M. tuberculosis* on blue background; graded scanty/1+/2+/3+ |
+| Fluorescence stain | Auramine-rhodamine (more sensitive screening for AFB) |
+| KOH mount | Fungal elements (Aspergillus, Candida) |
+| **Cytology (Papanicolaou)** | Malignant cells, eosinophils (asthma), hemosiderin-laden macrophages |
+
+**Step 4 — Culture & sensitivity:** routine bacterial (blood/chocolate agar) → organism ID + antibiotic sensitivity; **Löwenstein–Jensen/MGIT medium for M. tuberculosis** (gold standard, 3–6 weeks solid / 1–3 weeks liquid).
+
+**Step 5 — Molecular tests:** 🔴 **GeneXpert MTB/RIF** (TB DNA + rifampicin resistance in ~2 h); multiplex PCR for atypicals/viruses.
+
+> 🎯 **Sputum: collect early-morning ×3 before antibiotics; examine macroscopic → Gram → ZN-AFB → cytology → culture → GeneXpert.**
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135 · Unit-II Sputum Examination, pp. 497–498
+
+---
+
+## Q19. Short Note: Pancoast tumour, Pneumoconiosis, Pleural fluid analysis, Pneumothorax, Pulmonary embolism.
+
+### (a) Pancoast Tumour
+🔴 **Bronchogenic carcinoma arising in the apex/superior sulcus of the lung (superior sulcus tumour)** that invades surrounding structures.
+- **Compression/invasion of:** lower roots of **brachial plexus (C8–T2 → severe ulnar-sided arm pain)**, **cervical sympathetic chain → 🔴 HORNER SYNDROME (enophthalmos, ptosis, miosis, anhidrosis)**; may erode ribs/spine.
+- Usually **squamous cell carcinoma or adenocarcinoma**; smoker, 50+ years.
+- 🎯 *Apical lung cancer + ulnar pain + Horner syndrome = Pancoast tumour.*
+
+### (b) Pneumoconiosis
+🔴 **Non-neoplastic lung reaction to inhalation of mineral dusts** (particles **1–5 µm** are most dangerous — reach terminal airways/alveoli).
+- Determinants: dust retention (duration/concentration, clearance), solubility/cytotoxicity, inflammasome activation, smoking worsens (especially asbestos).
+- **Coal workers'** — anthracosis → macules → progressive massive fibrosis (PMF). **Silicosis** — upper-zone hard collagen nodules, eggshell calcification of hilar nodes, **↑TB susceptibility**, 2× lung cancer risk. **Asbestosis** — lower-zone/subpleural fibrosis + **asbestos bodies**; 6 diseases (plaques, effusion, asbestosis, lung cancer, mesothelioma, laryngeal ca); asbestos + smoking = **55× lung cancer risk**.
+- Organic dusts → hypersensitivity pneumonitis (farmer's lung)/byssinosis.
+- 🎯 *Dust disease: silica = upper zone + TB; asbestos = lower zone + mesothelioma.*
+
+### (c) Pleural Fluid Analysis
+Laboratory work-up of pleural aspirate to classify & diagnose:
+1. **Appearance:** clear straw-colored (transudate/hydrothorax) · turbid purulent (**empyema**) · bloody (**malignancy, infarct, trauma**) · milky (**chylothorax**).
+2. 🔴 **Transudate vs Exudate — Light criteria** (exudate if any: **pleural protein/serum protein >0.5 · pleural LDH/serum LDH >0.6 · pleural LDH >2/3 upper limit serum LDH**). Transudate = CHF, cirrhosis, nephrosis; exudate = infection, malignancy, TB, RA/SLE.
+3. **Cell count:** neutrophils (bacterial), lymphocytes (🔴 TB/malignancy), mesothelial cells.
+4. **Biochemistry:** glucose low + pH <7.2 (empyema/malignancy/Rheumatoid); **ADA >40 U/L supports tuberculous effusion**.
+5. **Cytology** — malignant cells; **Gram stain/Ziehl–Neelsen + culture**; pleural biopsy if nondiagnostic.
+- 🎯 *Light criteria separate exudate from transudate; lymphocyte-rich exudate + ADA↑ = TB.*
+
+### (d) Pneumothorax
+🔴 **Air/gas in the pleural cavity** causing partial/complete lung collapse; associated with emphysema, asthma, TB.
+- **Spontaneous:** rupture of small **apical subpleural blebs** (young tall males, self-limited, recurrent) or of abscess/emphysematous bulla.
+- **Traumatic:** chest-wall perforation ± lung puncture (rib fracture, stabbing).
+- **Therapeutic** (historical) — deliberately induced to collapse TB lung.
+- 🔴 **Tension pneumothorax:** flap-valve defect lets air IN on inspiration but not OUT → progressively rising intrapleural pressure compresses mediastinum + contralateral lung → respiratory distress/emergency (needle decompression then chest tube).
+- Mediastinum shifts **away** from collapsed side (compression atelectasis).
+- 🎯 *Air in pleura: spontaneous bleb rupture; tension = one-way valve emergency.*
+
+### (e) Pulmonary Embolism
+🔴 **Occlusion of pulmonary arterial tree by thrombus dislodged from deep leg veins (>95% source)** (Virchow triad); also pelvic veins/right heart; rare fat, air, amniotic fluid emboli.
+- Risk factors: obesity, surgery, cancer, OCP, pregnancy, hip fracture, immobilization, thrombophilias (factor V Leiden, antiphospholipid).
+- **Fates:** majority silent (fibrinolysis); large/**saddle** embolus → sudden death/acute cor pulmonale; ~10% → **hemorrhagic wedge-shaped infarct** (needs compromised bronchial circulation); recurrent → chronic thromboembolic pulmonary hypertension; septic emboli → abscess.
+- Symptoms: dyspnea > pleuritic pain > cough; diagnosis: **D-dimer (normal excludes) → CT pulmonary angiography (definitive)**; treatment anticoagulation/thrombolysis/IVC filter.
+- 🎯 *PE = DVT in the lungs; D-dimer screens, CTPA confirms.*
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135 · Unit-II Body Fluids/Pleural Fluid, pp. 456–469
+
+---
+
+## Q20 (PBQ). A 56 years old smoker male presented with firm, fixed lymph nodes at right supraclavicular region. FNAC of the Lymphnodes reveal anaplastic squamous cell carcinoma. Chest X-Ray revealed circumscribed coin like lesion near hilar region of right lung with hilar lymphadenopathy. What is your diagnosis? How will you confirm the diagnosis?
+
+### 🔴 Diagnosis
+**BRONCHOGENIC CARCINOMA (SQUAMOUS CELL CARCINOMA) OF THE RIGHT LUNG WITH IPSILATERAL SUPRACLAVICULAR LYMPH NODE METASTASIS (N3 disease).**
+
+### Justification
+
+| Finding in the case | Interpretation |
+|---|---|
+| Male, 56 years, 🔴 heavy smoker | Classical demographic for lung cancer, esp. squamous type |
+| 🔴 **FNAC of node = anaplastic SQUAMOUS CELL CARCINOMA** | Squamous differentiation proven cytologically; supraclavicular node = common drainage site for right lung (N3) |
+| 🔴 **Coin lesion near the HILAR region (central)** | 🔴 **Squamous cell carcinoma arises centrally from major/segmental bronchi** (vs peripheral adenocarcinoma) |
+| **Hilar lymphadenopathy** | Regional nodal spread of central tumor |
+
+### How to CONFIRM the diagnosis
+1. 🔴 **Fibre-optic bronchoscopy + endobronchial/transbronchial biopsy** — central hilar lesion is ideal for bronchoscopic visualization + histologic confirmation (also washings/brushings for cytology).
+2. **CT-guided percutaneous needle biopsy / core biopsy** of the coin lesion if bronchoscopy negative.
+3. 🔴 **Histopathology + immunohistochemistry:** keratinization + intercellular bridges + squamous pearls; 🔴 **IHC: p40/p63 positive, CK5/6 positive, TTF-1/napsin A negative** (confirms squamous over adenocarcinoma).
+4. **Sputum cytology** — malignant squamous cells (supportive).
+5. **Staging work-up:** contrast CT chest/upper abdomen (nodal mapping, adrenal/liver mets), **PET-CT**, brain MRI; FNAC of remaining suspicious nodes; TNM stage assignment (supraclavicular node = N3 → stage IIIB).
+6. **Molecular/ancillary tests:** PD-L1 expression (immunotherapy guidance); serum calcium (PTHrP — hypercalcemia typical of squamous).
+
+> 🎯 **Smoker + central/hilar coin lesion + squamous cells in node = squamous cell bronchogenic carcinoma with supraclavicular (N3) metastasis; confirm by bronchoscopic biopsy + p40+/TTF-1− IHC + PET-CT staging.**
+
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
 *End of Item 5 viva answers — Respiratory System.*
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135

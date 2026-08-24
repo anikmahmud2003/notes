@@ -11,7 +11,7 @@ Everything study-related, in one repo, readable from any browser.
 | [index.html](index.html) | Hub page — links to all HTML notes (also the GitHub Pages front door) |
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
-| [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (Items 5, 15–19, 21, 23–26) |
+| [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
 | [Medicine/davidson/davidson_immunology_bangla.html](Medicine/davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
 | [GK/bd-constitution.html](GK/bd-constitution.html) | Bangladesh Constitution notes |
 

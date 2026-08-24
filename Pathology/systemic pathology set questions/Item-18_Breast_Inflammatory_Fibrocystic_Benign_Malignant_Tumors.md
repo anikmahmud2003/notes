@@ -56,6 +56,8 @@
 
 > 🎯 "Fibroadenoma = most common benign; phyllodes = leaf-like, high-grade stromal mets; angiosarcoma = only sarcoma with any frequency."
 
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
+
 ---
 
 ## Q2. Mention risk factors of carcinoma breast. How will you diagnose a case of carcinoma cervix?
@@ -124,6 +126,8 @@
 
 > 🎯 "Pap smear = screening; colposcopy + biopsy = diagnosis; p16 IHC = HPV surrogate; MRI = staging."
 
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
+
 ---
 
 # Part B — Inflammatory Disorders & Breast Lump (Q3–4)
@@ -157,7 +161,7 @@ Bacterial entry (cracked nipple / duct obstruction)
    → Acute suppurative inflammation
    → Neutrophilic infiltration + tissue necrosis
    → Walled-off pus collection = ABSCESS
-   →如果不treated → chronic abscess, fistula formation
+   →if untreated → chronic abscess, fistula formation
 ```
 
 #### Clinical Features
@@ -190,6 +194,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 - Rarely: sepsis, spread to chest wall
 
 > 🎯 "Breast abscess = I&D + antibiotics + culture; non-lactational → think smoking + rule out underlying carcinoma."
+
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
 
 ---
 
@@ -233,6 +239,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 | 6 | Known malignancy | Already biopsy-proven |
 
 > 🎯 "Triple assessment = clinical + imaging + tissue → near-100% accuracy. Core biopsy > FNAC for architecture and IHC."
+
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
 
 ---
 
@@ -283,6 +291,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 > 🎯 "Fibroadenoma = rubbery, mobile, circumscribed, slit-like spaces; MED12; pericanalicular/intracanalicular; breast mouse."
 
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
+
 ---
 
 ## Q6. Mention the molecular subtypes of invasive breast cancer.
@@ -328,6 +338,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 > 🎯 "Luminal = ER+ → bone mets → tamoxifen; HER2 = amplified → targeted therapy → bimodal relapse; TNBC = basal → chemo + immunotherapy → early relapse."
 
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
+
 ---
 
 # Part D — Prognostic Factors & Gynecomastia (Q7–8)
@@ -370,6 +382,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 - Gene expression assays may substitute for some parameters
 
 > 🎯 "Distant mets > lymph node status > tumor size > grade > ER/PR/HER2. N0 = 70–80% 10-yr DFS; >10 nodes = 10–15%."
+
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
 
 ---
 
@@ -427,6 +441,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 > 🎯 "Gynecomastia = estrogen/androgen imbalance; rule out male breast cancer (1%); Klinefelter = most common genetic cause; tamoxifen = first-line treatment."
 
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
+
 ---
 
 # Part E — Clinical Cases (Q9–10)
@@ -476,6 +492,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 - Genetic counseling if family history positive
 
 > 🎯 "25 yr + firm mobile nodule = fibroadenoma until proven otherwise; ultrasound first → core biopsy if needed → IHC if malignant."
+
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
 
 ---
 
@@ -531,6 +549,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 - Genetic counseling if indicated
 
 > 🎯 "65 yr + firm/fixed/irregular mass = invasive carcinoma until proven otherwise. Triple assessment → core biopsy + IHC → staging → MDT."
+
+> 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
 
 ---
 

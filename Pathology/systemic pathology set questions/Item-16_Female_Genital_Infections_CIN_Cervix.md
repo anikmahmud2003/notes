@@ -40,6 +40,10 @@
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* Inflammation of the vulva and vagina caused by infectious agents. *Two common causes:* ① **Candida albicans** (candidiasis) — the most common fungal infection of the vagina; predisposing factors: pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression. ② **Trichomonas vaginalis** — a sexually transmitted protozoan causing frothy yellow-green discharge.
 
+> 🎯 "Vulvovaginitis = inflamed vulva + vagina; leading causes: Candida (curd-like discharge) and Trichomonas (frothy discharge)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q2. What is bacterial vaginosis? Name the most common organism associated with it.
@@ -54,6 +58,8 @@
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Bacterial vaginosis = replacement of the normal lactobacilli by a mixed bacterial flora. **Most commonly associated with:** ① **Gardnerella vaginalis**, ② **anaerobic bacteria**. *Clinical features:* thin gray-white discharge; fishy odor (especially after intercourse); minimal inflammation. *Microscopy:* presence of "clue cells" = vaginal epithelial cells coated with bacteria.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q3. Write four clinical features of vulvovaginal candidiasis.
@@ -66,6 +72,8 @@
 > 🎯 "Itching + curd-like discharge = candidiasis (KOH positive)."
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Four clinical features of vulvovaginal candidiasis — ① **Intense vulvar itching (pruritus)**; ② **Burning sensation**; ③ **Thick, white, "curd-like" vaginal discharge**; ④ **Redness and edema of the vulva**. *Predisposing factors:* pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression. *Microscopy:* budding yeast cells + pseudohyphae on KOH preparation.
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -81,6 +89,8 @@
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Clue cells = **vaginal epithelial cells coated with bacteria**. Seen in **bacterial vaginosis**.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q5. Name the causative organism of trichomoniasis.
@@ -88,6 +98,10 @@
 🔴 **Trichomonas vaginalis** — a **flagellated protozoan**, sexually transmitted. It is pear-shaped with 4–5 anterior flagella and a characteristic **jerky motility** on a fresh wet mount.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Causative organism of trichomoniasis = **Trichomonas vaginalis** — a sexually transmitted protozoan infection.
+
+> 🎯 "Trichomonas vaginalis = flagellated protozoan STI with jerky motility on fresh wet mount."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -104,6 +118,8 @@
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** "Strawberry cervix" = cervix showing **punctate hemorrhages**, seen in **Trichomonas vaginalis** infection (with frothy yellow-green discharge, vaginal irritation, dysuria, dyspareunia).
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q7. Define cervicitis. Mention two common infectious causes.
@@ -117,6 +133,10 @@
 > Others: HSV, *Mycoplasma*, *Ureaplasma*.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* **Cervicitis = inflammation of the cervix.** *Two common infectious causes:* ① **Chlamydia trachomatis** — the most common bacterial sexually transmitted infection; may be asymptomatic; causes mucopurulent cervical discharge, dysuria, pelvic pain; complications → PID, infertility, ectopic pregnancy. ② **Neisseria gonorrhoeae** — causes acute purulent cervicitis, often associated with urethritis; complications → ascending infection, PID, tubal scarring.
+
+> 🎯 "Mucopurulent cervicitis = Gonococcus + Chlamydia (also HSV, Mycoplasma/Ureaplasma)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -134,6 +154,10 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** PID = **ascending infection involving the endometrium, fallopian tubes, ovaries and pelvic peritoneum**. *Etiologic agents:* ① Chlamydia trachomatis, ② Neisseria gonorrhoeae, ③ mixed aerobic and anaerobic bacteria. *Pathogenesis:* infection ascends from **Vagina → Cervix → Uterus → Fallopian tubes**. *Risk factors:* multiple sexual partners, unprotected intercourse, previous STI, young age. *Clinical features:* lower abdominal pain, fever, abnormal vaginal discharge, cervical motion tenderness, dyspareunia.
 
+> 🎯 "PID = ASCENDING infection: vagina → cervix → uterus → tubes → ovaries (Gonococcus/Chlamydia)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 
 ---
 
@@ -148,6 +172,10 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Complications of PID — ① **Tubal infertility**, ② **Ectopic pregnancy**, ③ **Chronic pelvic pain**, ④ **Pelvic adhesions**, ⑤ **Tubo-ovarian abscess**.
 
+> 🎯 "PID complication tetrad: infertility · ectopic pregnancy · chronic pelvic pain · tubo-ovarian abscess."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q10. Name the common causative organisms of salpingitis.
@@ -158,6 +186,10 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 - Polymicrobial (puerperal): staph, strep, coliforms.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Salpingitis is usually part of PID. Common organisms: ① **Chlamydia trachomatis**, ② **Neisseria gonorrhoeae**.
+
+> 🎯 "Salpingitis organisms: Gonococcus >60% → Chlamydia → TB (where endemic) → puerperal polymicrobial."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -180,6 +212,8 @@ Pregnancy, diabetes mellitus, **broad-spectrum antibiotics**, immunosuppression 
 > 🎯 "KOH mount: pseudohyphae + budding yeast = Candida."
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Clinical features:* intense vulvar itching (pruritus), burning sensation, thick white "curd-like" vaginal discharge, redness and edema of vulva. *Microscopy:* **budding yeast cells + pseudohyphae visible on KOH preparation**. *Predisposing factors:* pregnancy, diabetes mellitus, oral contraceptive use, broad-spectrum antibiotic therapy, immunosuppression.
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -211,6 +245,8 @@ The protozoan attaches to the vaginal squamous epithelium, producing inflammatio
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Trichomoniasis = sexually transmitted protozoan infection. *Clinical features:* frothy yellow-green vaginal discharge, vaginal irritation, dysuria, dyspareunia, **"strawberry cervix" due to punctate hemorrhages**. *Microscopy:* **motile flagellated trophozoites in wet mount preparation**.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 
 ---
 
@@ -238,6 +274,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Etiology:* caused by replacement of normal lactobacilli by mixed bacterial flora — most commonly **Gardnerella vaginalis** + **anaerobic bacteria**. *Clinical features:* thin gray-white discharge, fishy odor (especially after intercourse), minimal inflammation. *Microscopy:* presence of clue cells (vaginal epithelial cells coated with bacteria).
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q14. Describe the pathogenesis of pelvic inflammatory disease.
@@ -254,6 +292,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 > 🎯 "Cervix → uterus → tubes → ovaries: mucosal (gonococcus) vs lymphatic (strep) routes → chronic scarring → infertility + ectopic."
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Pathogenesis of PID — infection ascends from **Vagina → Cervix → Uterus → Fallopian tubes**, producing an ascending infection that involves the endometrium, fallopian tubes, ovaries and pelvic peritoneum. *Etiologic agents:* Chlamydia trachomatis, Neisseria gonorrhoeae, mixed aerobic and anaerobic bacteria.
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -279,6 +319,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 > 🎯 "Scarred, dilated, non-functional tubes = infertility; partially blocked, non-ciliated tube = ectopic pregnancy."
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Complications — ① tubal infertility, ② ectopic pregnancy, ③ chronic pelvic pain, ④ pelvic adhesions, ⑤ tubo-ovarian abscess. *How infertility occurs:* ascending infection → tubal inflammation with pus formation and tubal wall destruction → healing by fibrosis → blocked/damaged tubes → infertility.
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -306,6 +348,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Endometritis = inflammation of the endometrium. *Acute endometritis* — causes: postpartum infection, post-abortion infection, retained products of conception; microscopy: **neutrophilic infiltration**. *Chronic endometritis* — causes: PID, intrauterine contraceptive device (IUCD), tuberculosis; microscopy: **plasma cells in endometrial stroma + lymphocytes**.
 
+> 🎯 "Acute endometritis = neutrophils, postpartum; chronic = PLASMA CELLS in stroma (PID/IUD/retained tissue/TB)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q17. What are the pathological changes seen in salpingitis?
@@ -326,6 +372,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **Infertility, ectopic pregnancy, chronic pelvic pain.**
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Salpingitis = inflammation of the fallopian tubes, usually part of PID. *Pathologic changes:* ① acute inflammation, ② **pus formation within the tube**, ③ **tubal wall destruction**, ④ **fibrosis during healing**. *Complications:* hydrosalpinx, pyosalpinx, infertility, ectopic pregnancy.
+
+> 🎯 "Salpingitis: acute → pyosalpinx; chronic → fused plicae → hydrosalpinx → infertility + ectopic."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -352,6 +402,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Etiology:* caused mainly by **Herpes Simplex Virus Type 2 (HSV-2)**, sometimes HSV-1. *Clinical features:* painful vesicles and ulcers, burning sensation, fever and malaise during primary infection; recurrent episodes are common. *Microscopic features:* **multinucleated giant cells + intranuclear viral inclusions**.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q19. What is HPV infection? Mention the low-risk and high-risk HPV types.
@@ -369,6 +421,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV = sexually transmitted infection. *Important types:* **Low-risk: 6, 11**; **High-risk: 16, 18, 31, 33**. *Pathologic change:* ==koilocytosis — squamous cells with perinuclear clearing== + nuclear enlargement and irregularity. *Significance:* persistent infection with high-risk HPV may lead to cervical cancer.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 ## Q20. Describe the histological features of condyloma acuminatum.
@@ -383,6 +437,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 > 🎯 "Condyloma acuminatum = HPV 6/11, papillary fibrovascular cores + koilocytosis, not premalignant."
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Common manifestation of HPV = **condyloma acuminatum (genital warts)**. *Gross appearance:* multiple papillary warty lesions. *Histologic features:* ① **acanthosis**, ② **papillomatosis**, ③ **koilocytosis**.
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -406,6 +462,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **d)** **Budding yeast cells + pseudohyphae** (KOH dissolves debris so fungi are visible).
 **e)** High estrogen → **increased glycogen in vaginal epithelium** and reduced cell-mediated immunity → favorable environment for yeast growth.
 
+> 🎯 "Pregnant + recent antibiotics + curd-like discharge = candidiasis; KOH → budding yeast + pseudohyphae."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Scenario 2: Trichomoniasis
 > A 24-year-old sexually active woman complains of vaginal itching and foul-smelling frothy yellow-green discharge. On examination, the cervix appears erythematous with multiple punctate hemorrhages ("strawberry cervix").
 >
@@ -421,6 +481,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **c)** **Sexual contact** (also contaminated fomites).
 **d)** **Saline wet mount showing actively motile flagellated trophozoites** (also culture, NAAT/PCR, Pap smear).
 **e)** Erythematous cervix with **multiple punctate hemorrhages** seen in trichomoniasis.
+
+> 🎯 "Strawberry cervix + frothy yellow-green discharge = trichomoniasis; wet mount → motile flagellated trophozoites."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## Scenario 3: Bacterial Vaginosis
 > A 30-year-old woman presents with a thin gray-white vaginal discharge and a fishy odor, particularly after sexual intercourse. Vaginal pH is elevated.
@@ -447,6 +511,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 | Wet mount | Clue cells | Pseudohyphae + budding yeast |
 | KOH/whiff | Fishy (positive) | Negative |
 
+> 🎯 "Fishy thin discharge + pH >4.5 + clue cells = bacterial vaginosis (minimal inflammation)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Scenario 4: Chlamydial Cervicitis
 > A 22-year-old woman presents with mucopurulent cervical discharge and dysuria. She has multiple sexual partners. Laboratory tests reveal infection with Chlamydia trachomatis.
 >
@@ -462,6 +530,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **c)** **PID → salpingitis → tubal scarring → infertility and ectopic pregnancy**; Fitz-Hugh–Curtis; infection in pregnancy → neonatal conjunctivitis/pneumonia.
 **d)** It is frequently **silent** → ascends unnoticed → chronic salpingitis → **tubal occlusion + scarring (hydrosalpinx)** → blocked sperm/egg transport.
 **e)** **Ascending canalicular spread** from the cervix through the endometrial cavity into the tubes (facilitated by menstrual reflux, IUDs, instrumentation).
+
+> 🎯 "The silent chlamydial cervicitis ascends unnoticed → scarred tubes → infertility + ectopic pregnancy."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## Scenario 5: Gonococcal Infection
 > A 26-year-old woman presents with purulent vaginal discharge, pelvic pain, and fever. Cervical swab culture reveals Neisseria gonorrhoeae.
@@ -487,6 +559,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 | Sequelae | Salpingitis → tubo-ovarian abscess | Chronic salpingitis → hydrosalpinx |
 | Diagnosis | Culture on Thayer-Martin, Gram (-) diplococci | NAAT/PCR, serology |
 
+> 🎯 "Gonococcus = acute purulent PID 2–7 days after exposure; endometrium spared, tubes suppurate."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Scenario 6: Pelvic Inflammatory Disease (PID)
 > A 27-year-old woman presents with lower abdominal pain, fever, abnormal vaginal discharge, and cervical motion tenderness. She has a history of untreated sexually transmitted infection.
 >
@@ -502,6 +578,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **c)** Cervical/vaginal infection → **ascending spread** through endometrial cavity → acute **salpingitis** (mucosal, gonococcal) or lymphatic/deep spread (strep) → **salpingo-oophoritis, tubo-ovarian abscess** → healing with scarring → chronic salpingitis/hydrosalpinx.
 **d)** Tubal **scarring + loss of cilia + partial occlusion** → **the fertilized ovum is trapped/slowed in the tube** → implants in the tubal mucosa (90% of ectopics) → tubal rupture/hemorrhage.
 **e) Four long-term complications:** ① **Infertility**, ② **ectopic pregnancy**, ③ **chronic pelvic pain**, ④ **tubo-ovarian abscess / adhesions / recurrent PID**.
+
+> 🎯 "PID = ascending STI — treat early to prevent infertility, ectopic pregnancy and chronic pelvic pain."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## Scenario 7: Chronic Endometritis
 > A 35-year-old woman presents with abnormal uterine bleeding and infertility. Endometrial biopsy reveals plasma cells within the endometrial stroma.
@@ -525,6 +605,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 | Setting | Postpartum/post-abortal | PID, IUD, retained tissue |
 | Clinical | Fever, acute onset | AUB, pelvic pain, infertility |
 
+> 🎯 "Plasma cells in endometrial stroma = chronic endometritis (never a normal finding)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Scenario 8: Salpingitis
 > A woman with a history of PID undergoes laparoscopy. The fallopian tubes are thickened and filled with pus.
 >
@@ -540,6 +624,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **c)** *Neisseria gonorrhoeae* (>60%), *Chlamydia trachomatis*; TB where endemic.
 **d)** **Chronic salpingitis → hydrosalpinx → infertility; ectopic pregnancy; chronic pelvic pain; adhesions/obstruction.**
 **e)** **Scarring + loss of cilia + partial luminal occlusion** slow the fertilized egg → it implants within the tube → ectopic pregnancy (→ hematosalpinx, rupture, intraperitoneal hemorrhage).
+
+> 🎯 "Pus-filled distended tube = pyosalpinx → heals as hydrosalpinx → infertility."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## Scenario 9: Genital Herpes
 > A 23-year-old woman presents with painful genital vesicles and ulcers associated with fever and malaise. Tzanck smear demonstrates multinucleated giant cells.
@@ -564,6 +652,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 | Inguinal nodes | Tender | Painless enlargement |
 | Diagnosis | Tzanck/PCR | Dark-field microscopy, serology |
 
+> 🎯 "Painful vesicles + multinucleated giant cells = HSV, latent in lumbosacral dorsal root ganglia."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Scenario 10: HPV Infection and Cervical Cancer
 > A 32-year-old woman undergoes cervical screening. Cytology shows koilocytosis. HPV DNA testing is positive for HPV-16.
 >
@@ -579,6 +671,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **c)** **HPV 6 and 11** (genital warts).
 **d)** 🔴 **Persistent high-risk HPV infection → viral E6 (degrades p53, ↑telomerase) + E7 (degrades RB, inhibits p21/p27) → uncontrolled proliferation of mutation-prone cells → CIN → HSIL → invasive carcinoma**, over decades.
 **e)** Detects **precursor lesions during the decades-long window** before invasion → colposcopy + conization → prevents progression; **cervical cancer is "the best-documented success story of screening"** (75% mortality reduction in the US).
+
+> 🎯 "Koilocytosis = HPV cytopathic effect; HPV-16 = the most important high-risk genotype → keep screening."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## Extra 1: Chlamydial PID
 > A 25-year-old sexually active woman presents with lower abdominal pain, fever, mucopurulent cervical discharge, and cervical motion tenderness. Laboratory tests reveal Chlamydia trachomatis infection.
@@ -596,6 +692,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 **d)** Infertility, ectopic pregnancy, chronic pelvic pain, tubo-ovarian abscess/recurrent PID.
 **e)** Tubal **occlusion** prevents fertilization → **infertility**; partial occlusion/ciliary loss **traps the fertilized ovum in the tube** → **ectopic pregnancy**.
 
+> 🎯 "Chlamydia → silent PID → tubal scarring → infertility + ectopic pregnancy."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Extra 2: Frothy green discharge
 > A 25-year-old woman presents with frothy green vaginal discharge and itching.
 >
@@ -607,6 +707,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 **a)** Trichomoniasis. **b)** *Trichomonas vaginalis*. **c)** Erythematous cervix with punctate hemorrhages. **d)** Saline wet mount — **motile flagellated trophozoites** (also culture/NAAT).
 
+> 🎯 "Frothy green discharge = Trichomonas — confirm with motile flagellates on saline wet mount."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## Extra 3: Thick white curd-like discharge
 > A woman presents with thick white curd-like vaginal discharge and intense itching.
 >
@@ -617,6 +721,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 > d) Describe the microscopic findings.
 
 **a)** Vulvovaginal candidiasis. **b)** *Candida albicans*. **c)** Pregnancy, broad-spectrum antibiotics, diabetes mellitus, immunosuppression. **d)** KOH/Gram shows **budding yeast + pseudohyphae**.
+
+> 🎯 "Thick white curd-like discharge + intense itch = Candida; KOH shows budding yeast + pseudohyphae."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -633,6 +741,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 9. **What microscopic feature confirms chronic endometritis?** → **Plasma cells in the endometrial stroma**.
 10. **Why does PID cause ectopic pregnancy?** → Tubal scarring + ciliary loss → **the fertilized ovum is trapped in the tube**.
 
+> 🎯 "Candida → pseudohyphae · Gardnerella → clue cells · Trichomonas → strawberry cervix · Chlamydia → silent PID · HSV → ground-glass inclusions."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 # PART B — Cervical Intraepithelial Neoplasia (CIN), Carcinoma Cervix & Screening
@@ -648,8 +760,16 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Infections may involve the vulva, vagina, cervix, uterus, fallopian tubes and ovaries. *Causative agents:* bacteria, viruses, fungi, protozoa. These infections can lead to PID, infertility, ectopic pregnancy, chronic pelvic pain, and increased risk of cervical neoplasia.
 
+> 🎯 "FGT invaders: viral (HSV, HPV) · bacterial (Gonococcus, Chlamydia, Gardnerella, TB) · fungal (Candida) · protozoal (Trichomonas)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ### R2. What is PID? Name the complications of PID.
 (→ see Part A Q8, Q9, Q15)
+
+> 🎯 "PID = ascending genital infection → infertility, ectopic pregnancy, chronic pelvic pain, tubo-ovarian abscess."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ### R3. What do you mean by CIN? Mention its type.
 
@@ -671,6 +791,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Definition:* CIN is a **premalignant epithelial lesion of the cervix**, characterized by disordered growth and maturation of squamous epithelial cells **without invasion through the basement membrane**; it represents a spectrum of epithelial dysplasia that may progress to invasive cervical cancer. *Etiology:* persistent infection with **high-risk HPV** — most important oncogenic types: **HPV-16, 18, 31, 33, 45**. *Grading:* **CIN I (mild)** = dysplastic cells occupy lower one-third; usually a productive HPV infection, many regress spontaneously. **CIN II (moderate)** = lower two-thirds; increased nuclear atypia and mitotic activity. **CIN III (severe/CIS)** = more than two-thirds or full thickness; marked atypia and abnormal mitoses; high risk of progression to invasive carcinoma.
 
+> 🎯 "CIN I = LSIL (lower ⅓) · CIN II–III = HSIL (⅔–full thickness) · basement membrane always intact."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ### R4. Mention the risk factors of carcinoma cervix.
 1. 🔴 **Persistent high-risk HPV infection (HPV-16/18)** — the most important.
 2. **Early age at first sexual intercourse**, multiple sexual partners.
@@ -680,6 +804,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 6. **Low socioeconomic status** and lack of screening (poor Pap compliance) — >½ of invasive cancers occur in women not participating in regular screening.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Risk factors of carcinoma cervix — ① persistent high-risk HPV infection, ② early sexual activity, ③ multiple sexual partners, ④ smoking, ⑤ immunosuppression (HIV infection), ⑥ multiparity, ⑦ long-term oral contraceptive use.
+
+> 🎯 "Ca cervix risks cluster around persistent HPV-16/18: early coitus, multiple partners, smoking, HIV, high parity, OCPs."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ### R5. Give the pathogenesis of cervical carcinoma due to HPV infection.
 1. 🔴 **Persistent infection with high-risk HPV (16, 18)** — episomal → **integration** of viral DNA into host genome ↑ E6/E7 expression (may dysregulate MYC).
@@ -692,6 +820,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV carcinogenesis — *Step 1:* virus infects basal epithelial cells through microabrasions → *Step 2:* viral DNA integrates into host DNA → *Step 3:* expression of viral oncoproteins → **E6 protein** binds and degrades p53, prevents apoptosis, promotes genetic instability; **E7 protein** binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation. *Additional effects:* increased telomerase activity, genomic instability, accumulation of mutations. *Result:* HPV infection → CIN → CIN III → invasive carcinoma.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ### R6. Mention the diagnostic tool of cervical cancer.
 1. **Screening:** **Pap smear (cytology)** + **HPV DNA testing** (co-testing ≥30 yr).
 2. **Diagnostic:** **Colposcopy + directed cervical biopsy** (aceto-white areas); **endocervical curettage**.
@@ -700,6 +830,10 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 5. **Staging:** clinical (FIGO) with examination, imaging (MRI/CT/PET).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Screening tests for carcinoma cervix — **A. Papanicolaou (Pap) smear:** cytological examination of exfoliated cervical cells; detects precancerous lesions before invasive cancer develops; findings: koilocytes, dysplastic cells, HSIL, malignant cells; advantages: simple, inexpensive, highly effective. **B. Liquid-based cytology (LBC):** cells collected in liquid medium; better preservation; fewer unsatisfactory samples. **C. HPV DNA testing:** detects high-risk HPV infection; used for primary screening, co-testing with Pap smear, and triage of abnormal cytology. **D. VIA:** 3–5% acetic acid applied to cervix; dysplastic areas become white (acetowhite); low cost, useful in low-resource settings.
+
+> 🎯 "Screen with Pap ± HPV DNA; diagnose with colposcopy + directed biopsy; conization defines invasion."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ### R7. What are the differences between carcinoma in situ and CIN III?
 - **CIN III** is the 3-tier grade that includes **severe dysplasia** AND **carcinoma in situ**.
@@ -721,6 +855,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 > **Important Robbins concept:** Modern terminology combines severe dysplasia and carcinoma in situ into **CIN III (HSIL)** because biologically they behave similarly.
 
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ### R8. Short note: Pap smear.
 
 ### Definition
@@ -736,6 +872,10 @@ The **Papanicolaou (Pap) smear** = exfoliative cytology of the **cervical transf
 - Combined with **HPV DNA testing** (≥30 yr) and the **HPV vaccine (16/18)** → near-complete prevention.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Pap smear = cytological examination of exfoliated cervical cells. *Purpose:* detect precancerous lesions before invasive cancer develops. *Findings:* koilocytes, dysplastic cells, HSIL, malignant cells. *Advantages:* simple, inexpensive, highly effective screening tool.
+
+> 🎯 "Pap smear = exfoliative cytology of the transformation zone — catches CIN decades before invasion."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ---
 
@@ -753,6 +893,10 @@ c) Mention two histological features of CIN III.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** CIN = premalignant epithelial lesion with disordered growth/maturation of squamous cells, **no invasion through the basement membrane**. Classification: CIN I (lower ⅓), CIN II (lower ⅔), CIN III (>⅔–full thickness). *Histologic features of CIN III:* loss of normal maturation, hyperchromatic nuclei, increased N:C ratio, pleomorphism, increased mitotic figures, koilocytosis.
 
+> 🎯 "CIN = dysplasia WITHOUT stromal invasion: I = LSIL, II/III = HSIL; CIN III = >⅔ thickness."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 2
 a) What is dysplasia?
 b) What are the microscopic features of cervical dysplasia?
@@ -764,6 +908,10 @@ c) What is the significance of dysplasia?
 **c)** It is the **premalignant precursor** — with persistent high-risk HPV it can progress to carcinoma in situ → invasive carcinoma; detection enables screening to prevent cancer.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Dysplasia = disordered epithelial growth with cytologic atypia. *Features:* nuclear enlargement, hyperchromasia, pleomorphism, increased mitosis, loss of maturation. *Significance:* reversible in early stages; may progress to carcinoma.
+
+> 🎯 "Dysplasia = lost maturation + nuclear atypia above the basement membrane — premalignant."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 3
 a) Define carcinoma in situ (CIS).
@@ -784,6 +932,10 @@ c) How does CIS differ from invasive carcinoma?
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** CIS = full-thickness epithelial atypia without invasion — entire epithelial thickness replaced by malignant cells; basement membrane remains intact; **no access to blood vessels or lymphatics**; direct precursor of invasive carcinoma. Invasive carcinoma: malignant cells penetrate through the basement membrane into cervical stroma → stromal invasion, ability to metastasize, desmoplastic reaction, lymphovascular invasion; may spread to parametrium, pelvic lymph nodes, distant organs.
 
+> 🎯 "CIS = full-thickness atypia, intact basement membrane — curable, can never metastasize."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 4
 a) Define invasive carcinoma of the cervix.
 b) Mention two routes of spread of cervical carcinoma.
@@ -795,6 +947,10 @@ c) Name the most common histological type of cervical carcinoma.
 **c)** 🔴 **Squamous cell carcinoma (~80%)** (adenocarcinoma ~15%; adenosquamous + neuroendocrine remainder).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Histologic types:* **Squamous cell carcinoma — most common, about 75%** of cervical cancers; **Adenocarcinoma — about 20–25%**, arises from endocervical glands.
+
+> 🎯 "Cervical carcinoma spreads by direct extension + lymphatics; SCC (~80%) dominates."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 5
 a) What is the transformation zone?
@@ -808,6 +964,10 @@ c) Mention two lesions commonly arising in this zone.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Transformation zone = the area where the original **columnar epithelium of the endocervix** meets the **squamous epithelium of the ectocervix**; components: squamocolumnar junction (SCJ) + area of squamous metaplasia. *Importance:* most cervical precancerous lesions arise here; nearly all cervical carcinomas originate here; most Pap smear abnormalities are detected from this region. *Why vulnerable:* active cellular proliferation → metaplastic epithelium is susceptible to HPV infection.
 
+> 🎯 "Transformation zone = metaplastic squamocolumnar junction — the most HPV-susceptible cradle of CIN and cancer."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 6
 a) What is HPV?
 b) Name four high-risk HPV types associated with cervical cancer.
@@ -819,6 +979,10 @@ c) Which HPV types are most commonly associated with cervical carcinoma?
 **c)** **HPV-16 (~60%) and HPV-18 (~10%)** — together ~70% of cervical cancers.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** High-risk HPV types: **16, 18, 31, 33** (also 45). Most important oncogenic types: HPV-16, 18, 31, 33, 45.
+
+> 🎯 "HPV 16 + 18 cause ~70% of cervical cancers; 6 + 11 cause genital warts."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 7
 a) Describe the role of HPV in cervical carcinogenesis.
@@ -832,6 +996,10 @@ c) Mention their effects on p53 and RB genes.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** E6 protein binds and degrades p53, prevents apoptosis, promotes genetic instability. E7 protein binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation. Additional effects: increased telomerase activity, genomic instability, accumulation of mutations.
 
+> 🎯 "E6 degrades p53; E7 degrades RB — integration + persistence drives CIN → carcinoma."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 8
 a) Enumerate the risk factors for carcinoma cervix.
 b) Which risk factor is considered most important?
@@ -843,6 +1011,10 @@ c) Mention two host-related risk factors.
 **c)** **Immunosuppression** (HIV) and **smoking** (or high parity/OCP use).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Risk factors: persistent high-risk HPV infection, early sexual activity, multiple sexual partners, smoking, immunosuppression (HIV), multiparity, long-term oral contraceptive use.
+
+> 🎯 "Number-one risk = persistent high-risk HPV; then early coitus, multiple partners, smoking, immunosuppression."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 9
 a) Classify cervical intraepithelial neoplasia.
@@ -856,6 +1028,10 @@ c) Mention the risk of progression of CIN III.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** CIN I (mild) = dysplastic cells occupy lower one-third; usually associated with productive HPV infection; many lesions regress spontaneously. CIN III = marked atypia and abnormal mitoses; high risk of progression to invasive carcinoma.
 
+> 🎯 "CIN I = lower-⅓ koilocytic atypia (usually regresses); CIN III ≈ 10% invade within 2–10 yr."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 10
 a) Differentiate between CIN III and carcinoma in situ.
 b) What is the current WHO/Robbins concept regarding these lesions?
@@ -865,6 +1041,10 @@ b) What is the current WHO/Robbins concept regarding these lesions?
 **b)** They are **grouped as HSIL (2-tier system)** — a single management category (colposcopy + conization); the term CIS is retained only descriptively.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Modern terminology combines severe dysplasia and carcinoma in situ into **CIN III (HSIL)** because biologically they behave similarly.
+
+> 🎯 "Severe dysplasia = CIS = CIN III = HSIL — one biological entity in current practice."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 11
 a) Write the sequence of development of cervical carcinoma.
@@ -881,6 +1061,10 @@ Normal squamous epithelium
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** *Sequence of development:* HPV infection → CIN I → CIN II → CIN III/CIS → invasive carcinoma. *Molecular events:* E6-mediated p53 degradation, E7-mediated RB inactivation, cell-cycle dysregulation, genetic instability → malignant transformation.
 
+> 🎯 "Normal → HPV → CIN I → II/III → invasive; the engine room = E6/E7 vs p53/RB."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 12
 a) What is koilocytosis?
 b) Mention its significance.
@@ -892,6 +1076,10 @@ c) In which viral infection is it commonly seen?
 **c)** **HPV** (low-risk in warts; high-risk in SIL/cancer).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Koilocytosis = squamous cells with **perinuclear clearing** + **nuclear enlargement and irregularity** — the HPV effect.
+
+> 🎯 "Koilocyte = perinuclear halo + enlarged hyperchromatic nucleus = the HPV fingerprint."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 13
 a) What is a Pap smear?
@@ -905,6 +1093,10 @@ c) Mention its importance in cervical cancer prevention.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Pap smear = cytological examination of exfoliated cervical cells. *Purpose:* detect precancerous lesions before invasive cancer develops. *Findings:* koilocytes, dysplastic cells, HSIL, malignant cells. *Advantages:* simple, inexpensive, highly effective.
 
+> 🎯 "Pap smear reads nuclear atypia (Bethesda grades) during the long pre-invasive window."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
+
 ## SAQ 14
 a) Enumerate the screening methods for cervical carcinoma.
 b) Which screening test is most widely used?
@@ -916,6 +1108,10 @@ c) What is HPV DNA testing?
 **c)** Molecular test detecting **DNA of high-risk HPV types** in a cervical sample — **higher sensitivity, lower specificity than Pap**; used with cytology in women **≥30 yr** (co-testing) and to triage ASC-US.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV DNA testing detects **high-risk HPV infection**. *Uses:* ① primary screening, ② co-testing with Pap smear, ③ triage of abnormal cytology.
+
+> 🎯 "Screening = Pap ± HPV DNA co-testing (≥30 yr); the HPV test is sensitive, cytology is specific."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ## SAQ 15
 a) What is VIA (Visual Inspection with Acetic Acid)?
@@ -929,6 +1125,10 @@ c) Mention two advantages of VIA.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** VIA procedure — 3–5% acetic acid applied to cervix → dysplastic areas become white (**acetowhite**). *Advantages:* low cost; useful in low-resource settings.
 
+> 🎯 "VIA: acetic acid turns dysplastic epithelium aceto-white — cheap, instant, screen-and-treat."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
+
 ## SAQ 16
 a) What is liquid-based cytology (LBC)?
 b) Mention two advantages over conventional Pap smear.
@@ -939,6 +1139,10 @@ b) Mention two advantages over conventional Pap smear.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** LBC features — cells collected in **liquid medium**; **better preservation**; **fewer unsatisfactory samples**.
 
+> 🎯 "LBC = monolayer from liquid suspension — fewer unsatisfactory slides + reflex HPV testing on the same sample."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
+
 ## SAQ 17
 a) What are the benefits of cervical cancer screening?
 b) How does screening reduce mortality from cervical cancer?
@@ -948,6 +1152,10 @@ b) How does screening reduce mortality from cervical cancer?
 **b)** 🔴 Screening **shortens the effective duration of pre-invasive disease** by finding CIN in the decades-long window before invasion → early conization/cure → fewer women progress to invasive cancer → lower death rate.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Benefits of cervical cancer screening — detects CIN before cancer develops; reduces incidence of invasive carcinoma; decreases mortality; enables early treatment; cost-effective public health strategy.
+
+> 🎯 "Screening detects CIN before invasion → early cure → 75% fewer cervical cancer deaths."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ## SAQ 18
 a) Name the two major histological types of cervical carcinoma.
@@ -961,6 +1169,10 @@ c) From where does adenocarcinoma arise?
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Histologic types — **SCC = most common, about 75%** of cervical cancers; **Adenocarcinoma = about 20–25%**, arises from endocervical glands.
 
+> 🎯 "SCC ~80% (transformation zone); adenocarcinoma ~15% from endocervical glands (precursor: AIS)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## SAQ 19
 a) Mention the functions of p53.
 b) How does HPV E6 protein affect p53?
@@ -972,6 +1184,10 @@ c) What is the consequence of this interaction?
 **c)** Loss of p53 → **no cell-cycle arrest/apoptosis after DNA damage** → accumulation of mutations → **immortalized, genetically unstable cell** → carcinogenesis.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** E6 protein binds and degrades p53, prevents apoptosis, promotes genetic instability.
+
+> 🎯 "p53 = guardian of the genome (arrest · apoptosis · repair); E6 deletes it → genomic instability."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## SAQ 20
 a) What is the role of RB protein in cell cycle regulation?
@@ -985,6 +1201,10 @@ c) What is the result of RB inactivation?
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** E7 protein binds RB, releases E2F transcription factors, promotes uncontrolled cell proliferation.
 
+> 🎯 "RB brakes G1→S by binding E2F; E7 breaks the brake → unrestrained proliferation."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ---
 
 # 🐀 Write Short Notes On (CIN/cervix set)
@@ -992,36 +1212,76 @@ c) What is the result of RB inactivation?
 ## 1. CIN III
 High-grade cervical intraepithelial neoplasia (= severe dysplasia/CIS = **HSIL**). Dysplastic basaloid cells occupy **>⅔ to full epithelial thickness** with nuclear atypia, mitoses; **intact basement membrane (no invasion)**. Caused by **persistent high-risk HPV** (16/18); **~10% progress to invasive cancer in 2–10 yr**. IHC: **p16+ (block), Ki-67 high**. Treatment: **colposcopy + conization**.
 
+> 🎯 "CIN III = HSIL: >⅔–full thickness, intact BM, ~10% invade in 2–10 yr → colposcopy + conization."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## 2. Carcinoma in situ
 Full-thickness dysplastic/malignant squamous epithelium **confined above the intact basement membrane** — no stromal invasion, no metastasis. Currently reported as **HSIL (CIN III)**. Curable by cone excision; the boundary with invasive carcinoma is basement-membrane breach (nests/tongues of cells + stromal reaction).
+
+> 🎯 "CIS = full-thickness malignancy held back by the basement membrane — no metastasis possible."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## 3. Pap smear
 Exfoliative cytology of the **transformation zone**, Papanicolaou-stained, read by Bethesda. Detects **koilocytes → LSIL → HSIL** in the pre-invasive window. Combined with HPV testing (≥30 yr); the backbone of the **75% cervical cancer mortality reduction**.
 
+> 🎯 "Pap smear = transformation-zone cytology behind the 75% cervical-cancer mortality reduction."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
+
 ## 4. HPV DNA testing
 Molecular detection of **high-risk HPV DNA** in cervical samples. **Higher sensitivity, lower specificity than Pap**; used for women **≥30 yr** (co-testing) and to triage ASC-US. **Persistent high-risk HPV positivity** = the carcinogenic event → closer surveillance/colposcopy.
+
+> 🎯 "HPV DNA testing = the sensitivity king for persistent high-risk infection (co-testing ≥30 yr)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ## 5. Koilocytosis
 Nuclear enlargement + hyperchromasia + coarse chromatin + **perinuclear halo** — the **HPV E5 cytopathic effect**; hallmark of LSIL/CIN I (also seen in condylomata). Confirms active HPV replication.
 
+> 🎯 "Koilocytosis = halo + enlarged dark nucleus = active HPV replication (E5 effect)."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## 6. Transformation zone
 The squamocolumnar junction area where columnar epithelium is replaced by **immature metaplastic squamous epithelium**. 🔴 **Most HPV-susceptible region** → the site of CIN and cervical carcinoma; targeted by the Pap smear.
 
+> 🎯 "Transformation zone = metaplastic junction where CIN and carcinoma begin."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## 7. VIA
 **Visual Inspection with Acetic Acid** — 3–5% acetic acid → abnormal epithelium turns **aceto-white**. Cheap, instant, no lab needed → **screen-and-treat** programs in low-resource settings.
+
+> 🎯 "VIA = acetowhite naked-eye test — instant triage where laboratories are scarce."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ## 8. Squamous cell carcinoma of cervix
 🔴 **~80% of cervical cancers**; arises from CIN in the transformation zone; keratinizing or nonkeratinizing nests/tongues invading stroma; precursor CIN/HSIL; high-risk HPV 16/18. Spread: direct (bladder/ureter → uremia), lymphatic. Staging Ia1 ≤3 mm → IV; 5-yr survival 100% (superficially invasive) → <20% beyond pelvis. Death usually from **local invasion (ureteral obstruction → pyelonephritis → uremia)**.
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** SCC = the most common histologic type, **about 75%** of cervical cancers.
 
+> 🎯 "Cervical SCC = 80%, CIN-derived, kills locally via ureteric obstruction → uremia."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## 9. Adenocarcinoma of cervix
 **~15% of cervical cancers**; arises from **endocervical columnar epithelium (precursor: adenocarcinoma in situ)**; **mucin-depleted dark glands** with large hyperchromatic nuclei. Progresses **faster than SCC** → often presents advanced, worse prognosis; high-risk HPV-related (18 more than 16).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Adenocarcinoma = **about 20–25%** of cervical cancers; arises from endocervical glands.
 
+> 🎯 "Adenocarcinoma cervix = 15%, glandular, AIS precursor, faster course, leans to HPV-18."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## 10. HPV vaccination
 Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); the broader 9-valent vaccine adds **5 more high-risk types + 6/11 (genital warts)**. Given to **boys and girls at 11–12 yr** (catch-up to 26). ~10-yr protection; 🔴 **screening must continue** (not all types covered).
+
+> 🎯 "HPV vaccine = VLP 16/18 (±9 types) at age 11–12 yr — prevention PLUS continued screening."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ---
 
@@ -1045,6 +1305,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Diagnosis = **CIN I (mild dysplasia)** — dysplastic cells occupy the lower one-third of the epithelium; usually associated with **productive HPV infection**; many lesions regress spontaneously.
 
+> 🎯 "Lower-third dysplasia = CIN I/LSIL — productive HPV infection; observe, 60% regress."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## PBQ 2: CIN III
 > A 32-year-old woman presents with an abnormal Pap smear. Cervical biopsy shows severe epithelial atypia involving almost the entire thickness of the squamous epithelium. The basement membrane remains intact.
 >
@@ -1062,6 +1326,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **e)** **HSIL** (high-grade squamous intraepithelial lesion).
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Diagnosis = **CIN III (severe dysplasia / carcinoma in situ)** — dysplastic cells involve more than two-thirds or full thickness of epithelium, with marked atypia and abnormal mitoses; basement membrane intact (no invasion); high risk of progression to invasive carcinoma.
+
+> 🎯 "Near-full-thickness atypia + intact BM = CIN III/HSIL — cone biopsy; ~10% invasion risk."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
 
 ## PBQ 3: Carcinoma in Situ vs Invasive Carcinoma
 > A cervical biopsy demonstrates full-thickness epithelial atypia. In another patient, atypical cells are seen penetrating the basement membrane and infiltrating the cervical stroma.
@@ -1081,6 +1349,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** First patient = **CIS** (full-thickness epithelial atypia, intact basement membrane, no access to vessels/lymphatics). Second patient = **invasive carcinoma** — malignant cells penetrate through the basement membrane into cervical stroma (stromal invasion, desmoplastic reaction, lymphovascular invasion → spread to parametrium, pelvic nodes, distant organs).
 
+> 🎯 "Basement-membrane breach is the single line dividing CIS from invasive carcinoma."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## PBQ 4: HPV Infection
 > A 28-year-old sexually active woman is found to have persistent HPV-16 infection during cervical cancer screening.
 >
@@ -1099,6 +1371,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** HPV infects basal epithelial cells through microabrasions → viral DNA integrates into host DNA → E6/E7 oncoprotein expression (E6 degrades p53; E7 binds RB releasing E2F) → uncontrolled proliferation → CIN → CIN III → invasive carcinoma.
 
+> 🎯 "Persistent HPV-16: E6 → p53, E7 → RB — the carcinogenic power couple."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291
+
 ## PBQ 5: Screening
 > A 35-year-old woman with no symptoms undergoes a Pap smear as part of routine screening. The report shows high-grade squamous intraepithelial lesion (HSIL).
 >
@@ -1116,6 +1392,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 **e)** By detecting and treating **precursor lesions before invasion**, screening stops progression to invasive cancer → the **75% fall in cervical cancer deaths** ("no form of cancer better documents the benefits of screening").
 
 > **📌 Mam's slide (Dr. Sharmeen Jahan):** Benefits of screening — detects CIN before cancer develops, reduces incidence of invasive carcinoma, decreases mortality, enables early treatment, cost-effective public health strategy.
+
+> 🎯 "HSIL on Pap → straight to colposcopy + biopsy — asymptomatic precancer hides until screened."
+
+> 📖 Robbins 10e, Ch 22 (Female Genital Tract), pp. 985–1036 · 📗 Arif 15e (2025), Vol-2, Unit-I Female Genital System, pp. 264–291 · Cervical cytology (Bethesda System)
 
 ---
 

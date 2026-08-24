@@ -59,6 +59,8 @@ Skin tumours are classified by **cell of origin** and **biological behaviour**. 
 
 > 🎯 **Classify by layer:** Epidermis → Dermis → Subcutis × Benign/Malignant. Most common cancer in humans = **BCC**. Most deadly = **melanoma**.
 
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
+
 ---
 
 ## Q2. Mention the premalignant and malignant lesions of the skin.
@@ -95,6 +97,8 @@ Invasive SCC (keratin pearls, <5% mets)
 ```
 
 > 🎯 **Premalignant = AK (→ SCC), dysplastic naevus (→ melanoma), Bowen disease (SCC in situ). Malignant = BCC > SCC > melanoma (by commonality); melanoma > SCC > BCC (by lethality).**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 
@@ -134,6 +138,8 @@ BCC invasion:
 | Treatment | Excision ± Mohs | Excision ± node dissection | Wide excision + sentinel node + immunotherapy |
 
 > 🎯 **Locally malignant = BCC (rodent ulcer) + DFSP. BCC "eats" locally but almost never travels. DFSP recurs but rarely metastasizes.**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 
@@ -206,6 +212,8 @@ Actinic keratosis (TP53 mutation) → SCC in situ (Bowen disease) → Invasive S
 - **Cetuximab** (anti-EGFR) for advanced/metastatic SCC
 
 > 🎯 **SCC = 2nd most common skin cancer · Keratin pearls + intercellular bridges · TP53 + UV · <5% metastasize (only deep/invasive) · Much less aggressive than mucosal SCC · Actinic keratosis → SCC in situ → invasive SCC.**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 
@@ -300,6 +308,8 @@ Other histologic features:
 | Metastasis risk | <0.5% | <5% | Never |
 
 > 🎯 **BCC = most common cancer · Hedgehog/PTCH → SMO → GLI1 · Pearly papule + telangiectasia · Peripheral palisading + clefting · "Rodent ulcer" = locally destructive · Almost never metastasizes (<0.5%) · Gorlin syndrome = PTCH germline + medulloblastoma + jaw cysts + palmar pits.**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 
@@ -410,6 +420,8 @@ epidermis + superficial dermis         into deep dermis
 
 > 🎯 **Melanoma = most deadly skin cancer · BRAF 40–50% + TERT promoter ~70% · Radial (curable) → Vertical (metastatic) · Breslow depth = best predictor · ABCDE warning signs · Immune checkpoint inhibitors = most responsive cancer to immunotherapy · Sentinel lymph node biopsy for staging.**
 
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
+
 ---
 
 ## Q7. Mention the inflammatory dermatoses of skin.
@@ -479,6 +491,8 @@ Spongiosis: oedema seeps into intercellular spaces of stratum spinosum
 ```
 
 > 🎯 **Acute = urticaria (wheals), eczema (spongiosis), EM (targetoid). Chronic = psoriasis (Munro + Auspitz + Th1/17), seborrhoeic dermatitis (follicular lipping), lichen planus (sawtoothing + Wickham + Civatte bodies).**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 
@@ -593,6 +607,8 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 ```
 
 > 🎯 **Pemphigus = intraepidermal acantholysis (suprabasilar in PV, subcorneal in PF) · IgG anti-desmoglein · fishnet DIF. Pemphigoid = subepidermal, tense bullae, linear IgG at BMZ, BPAG2. DH = subepidermal, granular IgA at dermal papillae, celiac/gluten, gluten-free diet. EB = inherited structural protein defects (K5/K14 = simplex, COL7A1 = dystrophic).**
+
+> 📖 Robbins 10e, Ch 25 (The Skin), pp. 1133–1170 · 📗 Arif 15e (2025), Vol-2, Unit-I The Skin, pp. 336–347
 
 ---
 

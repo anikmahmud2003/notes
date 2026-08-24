@@ -26,6 +26,8 @@
 
 > 🎯 "Autopsy = external → internal gross exam + sampling → histopathology. Microscopy is the final arbiter of the autopsy's conclusions."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q2. Define & classify biopsy. Write shortly on core biopsy.
@@ -54,6 +56,8 @@
 
 > 🎯 "FNAC = cells (screening); core biopsy = tissue/architecture (grading, invasion, IHC)."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q3. State the steps in histopathology.
@@ -73,6 +77,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 9. **Reporting** — microscopic examination + a written histopathology report.
 
 > 🎯 "Water and paraffin are immiscible → fix → alcohol → xylene → wax. Skipping a step = poor penetration and cutting artifacts."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -100,6 +106,10 @@ Guides the surgical decision **in the same sitting** and avoids a second operati
 
 > ⚠️ The frozen-section report is **provisional** — permanent paraffin sections remain the gold standard for the final diagnosis.
 
+> 🎯 "Frozen = fresh tissue, cryostat (−20 °C), ~10–20 min, ON the operating table — for margins/sentinel node/tissue ID; ice-crystal artefact is the price; paraffin gives the FINAL word."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.
@@ -125,6 +135,10 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
   → Embedding → Sectioning (microtome) → Staining → Mounting
 ```
 - **Dehydration** removes water (ascending 70% → 100% alcohol); **clearing** removes alcohol (xylene) and makes tissue miscible with wax; **impregnation** fills the tissue with molten paraffin; **embedding** creates a firm block; **sectioning** cuts 3–5 µm slices; **staining** (H&E) makes structures visible; **mounting** preserves the section under a coverslip.
+
+> 🎯 "Preserve = STOP autolysis/putrefaction (formalin = routine, alcohol = smears, glutaraldehyde = EM, cold = fresh); process = fix → alcohol → xylene → wax → block → cut → stain → mount."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -156,6 +170,8 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 > 🎯 "Most common fixative = 10% neutral buffered formalin; glutaraldehyde = EM; alcohol = cytology."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?
@@ -179,6 +195,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 4. It enables **staining** (fixed, sectioned tissue takes up dyes) and gives **permanent, archivable** slides for later review.
 
 > 🎯 "Fixative cross-links proteins → alcohol removes water → xylene removes alcohol → wax replaces xylene → solid cuttable block."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -211,6 +229,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 Antibody-based staining for **specific proteins/antigens** (e.g., CK, CD markers, HER2, p53) — essential for tumour classification, lineage, and predictive markers.
 
 > 🎯 "H&E first; special stains confirm what H&E suggests (e.g., amyloid = Congo red, iron = Perls, AFB = Ziehl-Neelsen)."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 

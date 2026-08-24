@@ -20,6 +20,8 @@
 
 > 🎯 "Exfoliative = cells fall off by themselves; abrasive = we scrape them; aspiration = we suck them out; imprint = we press tissue on glass."
 
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q2. Short note: Exfoliative cytology, Abrasive cytology.
@@ -40,6 +42,8 @@
 | Cell preservation | May degenerate in the fluid | Better, fresher cells |
 
 > 🎯 "Pap smear = the classic ABRASIVE (scraped) cytology; urine = the classic EXFOLIATIVE cytology."
+
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -67,6 +71,8 @@
 
 > 🎯 "FNAC = cells, cheap, fast, repeatable, safe, no anaesthesia — but no architecture, so biopsy decides final surgery."
 
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q4. Describe shortly the procedure of FNAC.
@@ -90,6 +96,8 @@
 11. **Report** — categorize as benign, suspicious, malignant, or inadequate/insufficient (needs repeat).
 
 > 🎯 "Fix the lump → insert thin needle → to-and-fro with negative pressure → release pressure before pulling out → smear → fix/air-dry → stain → report."
+
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -118,6 +126,8 @@
 
 > 🎯 "FNAC is SAFE (thin needle) — main risks: bruising, haematoma; rare: infection, pneumothorax, needle-tract seeding (very rare with fine needles)."
 
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q6. How the tumors in deep seated organs (Liver, lung) can be sampled for cytopathology?
@@ -135,6 +145,8 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 6. **Route & safety:** approach planned to avoid vessels/bowel; after sampling, imaging may be repeated to check for **haemorrhage/pneumothorax**; USG/CT guidance → allows aspiration of only a few millilitres from cysts/fluid collections (fluid sent for cytology + biochemistry/microbiology).
 
 > 🎯 "Deep organs: USG/CT-guided FNAC; mediastinum/bronchi: EBUS-TBNA; pancreas: EUS-FNA."
+
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -158,6 +170,8 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 - 🔴 **Two stains are complementary** — labs often do BOTH on FNAC (one wet-fixed for Pap, one air-dried for MGG).
 
 > 🎯 "Pap = wet-fixed, nuclei; MGG/Giemsa = air-dried, cytoplasm. Use both in FNAC."
+
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -183,6 +197,8 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 > 🎯 "Ethanol/spray = wet-fix for Pap; air-dry = for Giemsa; Cytolyt/LBC = liquid-based; formalin = cell blocks."
 
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q9. Between Biopsy & FNAC; Which in one is better for diagnosis & Why?
@@ -203,6 +219,10 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ### Bottom line
 > 🔴 **FNAC = cheap, quick, safe, repeatable — a "screening/triage" tool; Biopsy = provides tissue architecture, grading, invasion and IHC — the GOLD STANDARD for final diagnosis and treatment planning.** They are complementary: FNAC first → if malignant or suspicious → biopsy for confirmation and subtyping.
+
+> 🎯 "FNAC screens (fast, cheap, cells); biopsy confirms (architecture, grade, invasion, IHC) — FNAC asks the question, biopsy gives the final answer."
+
+> 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 

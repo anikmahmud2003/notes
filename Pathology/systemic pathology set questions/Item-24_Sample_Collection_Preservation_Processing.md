@@ -9,6 +9,13 @@
 ### Definition
 **Tissue accessioning = the formal process of RECEIVING, REGISTERING and TRACKING a specimen when it arrives at the pathology laboratory.** Each specimen is given a **unique accession number**, its details (patient identity, specimen type, site, clinical history, requesting clinician) are entered into the laboratory record, and it is then routed for grossing, processing and reporting. It is the **first and essential step of laboratory governance** — every subsequent slide and report is linked to the accession number, which also enables retrieval of blocks/slides and audit.
 
+### Accessioning workflow
+```
+Specimen arrives → cross-check container label vs requisition → assign UNIQUE accession number
+   → register patient/site/clinician details in log/LIS → route to grossing (cut-up)
+   → blocks/slides labelled with accession number → report linked & archived (retrieval/audit)
+```
+
 ### Why clinical data is important
 1. **Orientation & appropriate sampling** — the pathologist chooses where/how to cut and whether margins, nodes or special handling are needed (e.g., breast lumpectomy margins, axillary nodes).
 2. **Tumour typing & grading context** — a lung nodule in a smoker vs a non-smoker, or a testicular mass in a young man, changes the differential and the workup.
@@ -18,6 +25,8 @@
 6. **Quality & audit** — allows correlation of the diagnosis with the clinical picture and monitoring of laboratory performance.
 
 > 🎯 "Accessioning = registering the specimen with a unique number; clinical data guides sampling, staining, and interpretation."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -47,6 +56,8 @@
 
 > 🎯 "Formalin = protein cross-linker (methylene bridges) → preserves + hardens tissue. Glutaraldehyde = EM; alcohol = cytology."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q3. What entities should be included within a requisition along with a biopsy specimen?
@@ -65,6 +76,8 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 10. **The specimen itself** must be correctly **labelled (name + site)** and placed in an **adequately sized container with fixative** — the requisition and container must be cross-checked.
 
 > 🎯 "Every specimen needs: who (patient), what (site/type), why (history/working diagnosis), how (special requests) + correct labelling."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 
@@ -95,6 +108,8 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 
 > 🎯 "Fixation aims: STOP decay (autolysis/putrefaction), preserve near-life morphology, harden for cutting, enable staining."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q5. Mention the steps of tissue processing. What are the methods of sectioning of tissue?
@@ -123,6 +138,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 > 🎯 "Routine = paraffin microtome (3–5 µm). Rapid = frozen/cryostat. EM = ultramicrotome (ultrathin)."
 
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
+
 ---
 
 ## Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?
@@ -144,6 +161,8 @@ Transport must keep the tissue **adequately fixed** (to stop autolysis), **corre
 
 > 🎯 "Fix in formalin immediately (or ice for specials) → leak-proof labelled container → requisition + transport log → courier → accessioning at the lab."
 > ⚠️ "Fresh/frozen, culture and EM specimens must NEVER be placed in formalin."
+
+> 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
 
 ---
 

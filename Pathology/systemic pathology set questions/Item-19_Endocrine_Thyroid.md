@@ -36,6 +36,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 > 🎯 "PTC = most common (85%); FTC = capsular/vascular invasion; MTC = C cells + calcitonin + amyloid + RET; Anaplastic = TP53, death <1 yr."
 
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
+
 ---
 
 ## Q2. Define hyperthyroidism and thyrotoxicosis.
@@ -61,6 +63,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 - **Thyroid storm:** abrupt severe thyrotoxicosis — fever + tachycardia out of proportion; medical emergency; untreated → cardiac arrhythmia → death
 
 > 🎯 "Thyrotoxicosis = excess hormone in tissues (any cause); hyperthyroidism = thyroid overfunction. TSH is the best single screening test."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -93,6 +97,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 > 🎯 "Graves = 85% of thyrotoxicosis; thyroiditis causes thyrotoxicosis WITHOUT hyperthyroidism (↓ radioiodine uptake)."
 
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
+
 ---
 
 ## Q4. Enumerate the causes of hyperthyroidism.
@@ -123,6 +129,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 | Age | 20–40 yr | Older adults | 30s–50s |
 
 > 🎯 "Graves = diffuse ↑ uptake + ophthalmopathy; toxic MNG = focal hot nodules in long-standing goiter; toxic adenoma = single hot nodule."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -173,6 +181,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 - Monitoring TSH levels
 
 > 🎯 "Hashimoto = anti-TPO + anti-Tg + Hürthle cells + lymphoplasmacytic infiltrate + germinal centers → hypothyroidism. Most common cause of hypothyroidism in iodine-sufficient areas."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -249,6 +259,8 @@ Compensatory increase in iodide trapping efficiency
 - Large goiters → compressive symptoms, cosmetic concerns, retrosternal extension
 
 > 🎯 "Goiter = iodine deficiency → ↓T3/T4 → ↑TSH → follicular hypertrophy/hyperplasia → thyroid enlargement. Endemic = >10% population affected."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -347,6 +359,8 @@ TSH RECEPTOR ANTIBODIES:
 
 > 🎯 "Graves = TSI → TSH receptor stimulation → diffuse hot goiter + ophthalmopathy + dermopathy. Diffuse ↑ radioiodine uptake. Scalloped colloid. 10:1 F:M."
 
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
+
 ---
 
 # Part C — Papillary Carcinoma & Investigation (Q8–9)
@@ -428,6 +442,8 @@ TSH RECEPTOR ANTIBODIES:
 - **Monitoring:** serum thyroglobulin + neck ultrasound
 
 > 🎯 "PTC = most common thyroid cancer; Orphan Annie nuclei + grooves + pseudo-inclusions + psammoma bodies; lymphatic spread; BRAF V600E; >95% 10-yr survival."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -511,6 +527,8 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 > 🎯 "TSH = best screening test. ↓TSH + ↑FT4 = hyperthyroidism. ↑TSH + ↓FT4 = hypothyroidism. RAIU differentiates Graves (diffuse ↑) from thyroiditis (↓)."
 
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
+
 ---
 
 # Part D — Clinical Case & Thyroglossal Duct Cyst (Q10–11)
@@ -575,6 +593,8 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 - Lifelong therapy
 
 > 🎯 "24 yr female + goiter + edema + ↑TSH = Hashimoto thyroiditis → confirm with ↓FT4 + anti-TPO. Treat with levothyroxine; screen for associated autoimmunity."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
@@ -648,6 +668,8 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 - 🔴 Must confirm presence of normal thyroid gland in normal position before surgery (ectopic thyroid may be the only functioning tissue)
 
 > 🎯 "Thyroglossal duct cyst = most common congenital neck midline mass; moves with swallowing + tongue protrusion; Sistrunk procedure; rule out ectopic thyroid."
+
+> 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
 
 ---
 
