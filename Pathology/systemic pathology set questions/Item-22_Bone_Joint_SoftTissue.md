@@ -538,6 +538,50 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 - Even distribution of giant cells distinguishes GCT from: **ABC** (giant cells clustered in septa around blood-filled spaces), **brown tumour** (peritrabecular fibrosis, no H3F3A), **chondroblastoma** (chondroid matrix, chicken-wire calcification, younger age), **tenosynovial giant cell tumour** (extraosseous, lobulated).
 - Grading unreliable for predicting recurrence → behaviour judged by clinical/imaging extent (Campanacci grading I–III).
 
+আপনি যে চমৎকার নোটটি শেয়ার করেছেন, এটি মূলত জায়ান্ট সেল টিউমার (Giant Cell Tumor of bone বা GCT / Osteoclastoma)-এর মরফোলজি। মেডিকেল পরীক্ষায় ভাইভা এবং রিটেনে এই টপিক থেকে প্রচুর প্রশ্ন আসে।
+এটিকে সহজে এবং আজীবন মনে রাখার মতো করে নিচে ভেঙে বুঝিয়ে দেওয়া হলো:
+------------------------------
+## 🦴 Gross Findings: খালি চোখে কেমন দেখাবে?
+সহজে মনে রাখার জন্য একটি "বেলুন"-এর কথা চিন্তা করুন।
+
+* Location (কোথায় হয়?): এটি হাড়ের একদম মাথায় বা প্রান্তে হয়, যাকে Epiphysis বলে (এটি অস্টিওসারকোমা বা ইউইং সারকোমা থেকে সম্পূর্ণ আলাদা)। এটি জয়েন্টের ঠিক নিচের হাড়ের অংশটিকে (Subchondral plate) স্পর্শ করে থাকে।
+* Shape (আকৃতি): টিউমারটি একপাশে চেপে বড় হতে থাকে (Eccentric) এবং হাড়ের বাইরের শক্ত দেয়ালকে (Cortex) ঠেলে বেলুনের মতো ফুলিয়ে দেয় (Ballooned)। হাড়ের দেয়ালটি একদম পাতলা হয়ে গেলেও সাধারণত ফেটে যায় না (খুব মারাত্মক কেস ছাড়া)।
+* Colour & Consistency (রঙ ও গঠন): টিউমারটি দেখতে বড়, লালচে-বাদামী (Red-brown) এবং মাংসল (Fleshy)। কারণ এর ভেতর প্রচুর রক্তক্ষরণ (Hemorrhage) হয়। এটি বেশ নরম ও ভেঙে যাওয়ার মতো (Soft, friable) হয় এবং এর ভেতরে রক্তে ভরা ছোট ছোট কুঠুরি বা সিস্ট (Cystic degeneration) তৈরি হতে পারে।
+* Matrix (সবচেয়ে গুরুত্বপূর্ণ পয়েন্ট): এই টিউমারে কোনো শক্ত হাড় বা তরুণাস্থি তৈরি হয় না (NO hard bone/cartilage matrix)। তাই এটি নরম মাংসের মতো লাগে।
+
+------------------------------
+## 🔬 Microscopic Findings: দুই ধরনের কোষের খেলা (Two Cell Populations)
+পরীক্ষায় স্যারদের সবচেয়ে প্রিয় প্রশ্ন (Exam Favorite) হলো—"GCT-তে কী কী কোষ থাকে?"। মনে রাখবেন, এখানে দুই ধরনের কোষ একসাথে থাকে:
+## ১. Mononuclear Stromal Cells (এক নিউক্লিয়াসযুক্ত কোষ):
+
+* আসল অপরাধী: মনে রাখবেন, এই কোষগুলোই হলো আসল ক্যান্সার বা টিউমার কোষ (The neoplastic component)।
+* বৈশিষ্ট্য: এগুলো দেখতে গোল, ডিম্বাকার বা সুতার মতো (Spindle) হয় এবং চাদরের মতো বিছানো থাকে।
+* জিনগত বৈশিষ্ট্য: এই কোষগুলোতে H3F3A জিনের মিউটেশন থাকে এবং এরা RANKL নামের একটি প্রোটিন তৈরি করে (যা পরবর্তী কোষটিকে ডেকে আনে)।
+
+## ২. Multinucleated Osteoclast-like Giant Cells (বহু নিউক্লিয়াসযুক্ত দৈত্যাকার কোষ):
+
+* অতিথি কোষ: এরা কিন্তু আসল টিউমার কোষ নয়! এরা হলো নির্দোষ বা রিয়্যাক্টিভ (Reactive) কোষ। ওপরের স্ট্রোমাল কোষের RANKL প্রোটিনের ডাকে সাড়া দিয়ে শরীরের সাধারণ কোষগুলো একসাথে জোড়া লেগে এই দৈত্যাকার কোষ তৈরি করে।
+* বৈশিষ্ট্য: এগুলো দেখতে বিশাল বড় এবং একেকটিতে ৫০ থেকে ১০০টিরও বেশি নিউক্লিয়াস থাকে।
+* সাজানো: এরা পুরো স্লাইড জুড়ে একদম সমানভাবে এবং চমৎকারভাবে ছড়িয়ে-ছিটিয়ে থাকে (Evenly scattered)।
+
+⚠️ পার্থক্য করার মূল চাবিকাঠি (Key Negative Finding): এই টিউমার কোষগুলো কখনো কোনো অস্টিওয়েড (Osteoid) বা কার্টিলেজ তৈরি করে না। অস্টিওসারকোমাতে ক্যান্সার কোষ নিজে অস্টিওয়েড তৈরি করে, কিন্তু GCT-তে তা কখনোই হয় না।
+
+------------------------------
+## 💡 Diagnostic Pearls: মনে রাখার গোল্ডেন টিপস
+পরীক্ষায় বা ভাইভায় কনফিউশন দূর করার জন্য এই পয়েন্টগুলো মাথায় রাখবেন:
+
+   1. GCT চেনার উপায়: এখানে দৈত্যাকার কোষগুলো (Giant cells) পুরো স্লাইডে সমানভাবে ছড়ানো থাকে। অন্য টিউমারে (যেমন: ABC বা Brown tumor) এগুলো এক জায়গায় দলা পাকিয়ে বা গুচ্ছ আকারে থাকে।
+   2. ভবিষ্যদ্বাণী করা কঠিন: মাইক্রোস্কোপে কোষের চেহারা দেখে (Grading) বলা সম্ভব নয় যে এই টিউমার আবার ফিরে আসবে কি না। টিউমারটি কতটা ছড়াচ্ছে তা এক্স-রে বা সিটি স্ক্যান (Imaging) দেখেই ভালো বোঝা যায়।
+
+------------------------------
+## 🎯 মনে রাখার সহজ চাবিকাঠি (GCT Summary)
+
+"Epiphysis-এ লাল-বাদামী মাংসের বেলুন, যেখানে ১ নিউক্লিয়াসের আসল চোর RANKL দিয়ে ডেকে আনে ১০০ নিউক্লিয়াসের নিরীহ দৈত্যকে—কিন্তু কোনো নতুন হাড় বানায় না!"
+
+এই নোটটি কি আপনার কাছে পরিষ্কার হয়েছে? পরীক্ষার প্রস্তুতির জন্য আপনি কি Mononuclear cell এবং Giant cell-এর একটি মাইক্রোস্কোপিক ছবি দেখতে চান, নাকি পরবর্তী টপিকে যাব?
+
+
+
 > 🎯 "GCT micro = TWO populations: uniform NEOPLASTIC mononuclear stromal cells (H3F3A+, RANKL+) + scattered REACTIVE osteoclast-giant cells (100+ nuclei); gross = red-brown hemorrhagic flesh; never any osteoid/cartilage."
 
 > 📖 Robbins 10e, Ch 26 (Bones, Joints, Soft-Tissue Tumors), pp. 1171–1216 · 📗 Arif 15e (2025), Vol-2, Unit-I Bones, Joints, and Soft Tissues, pp. 348–362
