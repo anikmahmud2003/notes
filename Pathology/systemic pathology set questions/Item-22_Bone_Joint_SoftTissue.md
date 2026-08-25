@@ -723,6 +723,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 ### Supporting points to say in viva
 
 - Likely findings: elevated serum **alkaline phosphatase**, warm tender fixed mass, possible limp; Codman triangle + sunburst spicules on X-ray.
+![](image-2.png)
+
 - Origin: malignant mesenchymal cells producing osteoid (RB/TP53 pathways).
 
 ### Next investigations (work-up plan)
