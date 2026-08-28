@@ -1,0 +1,95 @@
+Chapter-20: Health information and basic medical statistics ——— 387
+
+Q. What is sampling procedure or sampling method?
+Answer
+
+Sampling procedure / sampling method:
+e selected sample represents the
+
+it is a method of selecting a part of a population in a way that th
+population.
+
+Q. What are the advantages of sampling?
+Answer
+
+Advantages of sampling:
+
+1) It reduces cost of study and investigation.
+2) It reduces the time required.
+3) Itreduces the number of personnel involved.
+
+Q. Define population. [SUST-17N, RU-17M, CU-10Ju]
+Answer
+
+Population:
+
+Population refers to totality of all individuals about which data are collected.
+
+[Ref- Rashid, Khabir, Hyder / 5/110]
+
+Or,
+aving some common observable characteristic.
+
+A complete set of individuals, objects or measurements hi
+
+Q. What do you mean by parameter?
+
+Answer
+
+Parameter:
+
+The numerical characteristic of a given population is called parameter.
+
+Q. How sample differs from population in a research? [CU-09J]
+
+Answer
+Sample versus population in a research:
+1) Most of the statistical investigations are concerned with the properties of the population, but data are
+generally collected from samples.
+inference needs to be made about the population
+
+2) On the basis of the properties of samples,
+characteristics.
+
+3) Asample should, therefor
+
+4) The representativeness of
+
+e, be representative of the population.
+the sample is ensured by random selection
+
+[Ref- Rashid, Khabir, Hyder /5"/ 110, 121]
+
+of sample units.
+
+ive the characteristics of a good sample.
+
+t Bias
+
+The characteristics of a ood sample:
+1) Sample design must result in a representative sample.
+2) Sample design must be such which results in a small sampling error.
+3) Sample design must be viable in the context of funds available for research study. .
+4) Sample design must be such so that systemic bias can be controlled in a better way.
+5) Sample design must such that the results of the sample study can be applied in general for the universe
+
+with a reasonable level of confidence.
+, [Ref- C. R. Kothary 12" /72)
+
+Q. What is the usefulness of sampling?
+Answer
+
+Usefulness of sampling:
+1. Sampling can save time ai
+produces results at a relatively faster sp!
+
+variety of reasons such as:
+
+Sample is used in practice for a
+dy is unusually less expensive than census study and
+
+nd money. A sample stu
+eed.
+
+Scanned with CamScanner
+

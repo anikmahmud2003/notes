@@ -1,0 +1,71 @@
+Chapter-09: Demography, Census & Fertility
+i
+Q. The growth rate of a country j 309
+the time when the Bonnlatines 2.5 percent and her population size is 10 million. Calculate
+
+Answer Will be 20 million. [RU-1 1)
+
+We know, Doubling time = =
+a= |
+
+Growth rate
+70
+ee = 28 years,
+
+Crude death rate (CDR): It is defi
+Ser peiktieee pplllaSiin Ene yeas - Pi rl oe of deaths (from all causes) per 1000 estimated
+
+Calculation: The crude death rate is calculated from the following formula —
+Number of deat i
+Crude death rate = a 1000
+x
+Mid-year population
+
+Crude birth rate (CBR): CRB is defined as the number of total live births per 1000 estimated mid- |
+year population, in a given year. It is the simplest indicator of fertility.
+
+No of live births during the year
+Crude birth rate = —————_______________— x 1000
+Estimated mid-year population
+
+[Ref- Rashid, Khabir, Hyder /5™/ 196]
+
+Q. Why CBR is a weaker fertility related statistics?
+
+Ansye
+CBR is a weaker fertility related statistics because the denominator of this includes men and women
+
+outside the reproductive age group i.e. those not at risk of giving birth.
+
+Q. What do you mean by growth rate? [RU-15Ju]
+Q. Calculate growth rate of Bangladesh. \
+Answer |
+
+Population growth rate: F
+It is the net residual calculated in percent when the crude death rate is subtracted from the crude birth
+
+rate, exclusive of migration.
+i]
+
+|
+[Ref- Rashid, Khabir, Hyder / 5"/ 196] :
+|
+|
+
+Calculation:
+Crude birth rate — Crude death rate
+
+Growth rate =
+10
+
+So, according to 2001 census, growth rate of Bangladesh is —
+
+Crude birth rate (18.9) - Crude death rate (4.8)
+Growth rate = -
+14.1
+2 > =141%
+10
+, .
+SNR NNN
+
+Scanned with CamScanner

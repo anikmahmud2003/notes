@@ -1,0 +1,61 @@
+Problem based question
+
+Q. Ina given year ina defined population, the following statistics were found: (i) Mid-year
+population 6000; (ii) No. of people suffering from TB 600; (iii) No. of deaths due to TB 150; (iv)
+Total no. of deaths 450. Now calculate the following measurements. [RU-18M]
+
+a) Specific death rate due to TB.
+b) Proportional mortality rate of TB.
+Answer
+Total number of deaths from TB in a year
+Specific death rate = x 1000
+Mid-year population in the same year
+
+= 150/6000 x 1000 = 25 per 1000
+
+Total number of deaths from TB ina year
+
+Proportional mortality rate = x 100
+Total number of deaths from all causes in that year
+
+= 150/450 x 100 = 33.33%
+
+Measurement of Morbidity
+
+Incidence and Prevalence
+
+Q. Define incidence and prevalence. [SUST-13Ju]
+Q. Define incidence rate & prevalence rate with their uses. [RU-18M,16J]
+r _Q< Write short note on: Prevalence. [CU-15J]
+—~ Answer
+Incidence / incidence rate: Incidence rate is defined as the number of NEW cases occurring in a defined
+population during a specified period of time.) >
+Number of new cases of specific disease during a given time period
+
+Incidence rate = x 1,000
+Population at risk during that period
+
+<>~ Incidence refers:
+_AY_Only to new cases.
+~_2y During a given period (Usually 1 year).
+~ 3) Ina specified population or population at risk.
+4) New spells or episodes of disease arising in a given period of time, per 1000 population.
+
+4 ses of incidence:
+_AZ_Jo control disease.
+ay ‘or research into:
+P< Etiology & pathogenesis.
+>~ Distribution of diseases.
+
+“> Efficacy of preventive & therapeutic measures.
+[Ref- Park / 24" / 65]
+
+Prevalence / prevalence rate: Number of all current cases (old and new) existing at a given point in time or
+over a period time in a given population.
+
+< Types of prevalence:
+OY vero prevalence
+
+Period prevalence
+
+Scanned with CamScanner

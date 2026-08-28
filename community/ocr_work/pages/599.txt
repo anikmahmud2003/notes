@@ -1,0 +1,80 @@
+586 —— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPR
+
+Sample & Sampling
+
+Q. Define sample. [DU-16N, SUST-17N/M, RU-17M, CU-10Ju]
+Answer
+Sample:
+
+; A sample isa part of the population about which information is actually obtained with a view to
+studying the population characteristics. A sample should, therefore, be representative of the population. The
+Tepresentativeness of the sample is ensured by random selection of sample units.
+
+[Ref- Rashid, Khabir, Hyder /5" / 110, 121)
+
+Q. Define sampling. [RU-1 8M, 12Ju,11J, SUST-17N,16N/M, 13Ju]
+Q. Define sample unit.
+Answer
+Sampling:
+a Sampling is the procedure through which sample is collected from population.
+
+T,
+
+Sampling is a technique of securing information about the universe by examining only a part of the
+
+same.
+
+Sample unit:
+
+Each number of the population from which we collect data is called sample unit.
+
+Q. Define sampling frame.
+Answer
+Sampling frame: The list of all the sampling unit in the population survey is called sampling frame.
+
+[Ref- Rashid, Khabir, Hyder / 5" / 121]
+
+Q. Define sample interval.
+
+Answer
+
+Sample interval: It is a number which is calculated by the formula —
+N (number of sample unit)
+
+Sample interval (SI) =
+n (desired sample size)
+
+Q. Define sample size.
+Answer 4
+Sample size: The number of persons or sampling unit selected from the population of the study comprises the
+
+sample size.
+
+Q. How can you calculate sample size?
+Answer
+
+Calculation of sample size: Sample size can be calculated by the following formula —
+Pq
+
+n=
+
+d
+
+Here,
+
+n’ is the requested sample size.
+
+‘p’ is the rough estimate of the parameter (proportion of population).
+
+q=l-p
+
+z= The value corresponding to the given confidence level (z = 1.96 for 95% confidence level; z = 2.98
+
+for 99% confidence level).
+
+d= Error limit (or the accuracy desired). 21
+[Ref- Rashid, Khabir, Hyder /5" / 121, 12
+
+Scanned with CamScanner
+
+ewmmuecneceeseeen

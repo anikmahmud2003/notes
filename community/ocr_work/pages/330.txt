@@ -1,0 +1,113 @@
+3. General fertility rate
+
+4. Age-specific fertility rate
+5. Age-specific marital fertility rate
+6. Total fertility rate
+
+7. Total marital fertility rate
+8. Gross reproduction rate
+9. Net reproduction rate
+
+10. Child-women ratio
+
+11. Pregnancy rate
+
+12. Abortion rate
+
+13. Abortion ratio
+
+14. Marriage rate
+
+[Ref- Park / 24" / 522]
+
+Q. Describe three fertility statistics with example. [RU-10Ju]
+
+Answer
+
+Please see above — NRR, GFR, GRR.
+
+Q. Demographic process includes: [DU-18N,
+17N]
+
+Ans. a)
+
+a) Fertility.
+
+b) Morbidity.
+c) Mortality.
+d) Marriage.
+e) Fecundity.
+
+T, b) F, c) T, d) T, e) F.
+
+Q. Demographic process includes: [DU-17M,
+16J,14J,13J]
+
+Ans. a)
+
+a) Fertility.
+
+b) Morbidity.
+
+c) Mortality.
+
+d) Social mobility.
+e) Fecundity.
+
+T, b) F, c) T, d) T, e) F.
+
+Q. Demographic processes are: [DU-16N]
+
+Ans. a)
+
+a) Morbidity.
+
+b) Mortality.
+
+c) Social mobility.
+d) Census.
+
+e) Marriage.
+
+F, b) T, c) T, d) F, e) T.
+
+Q. Case fatality rate: [DU-16N]
+
+a) Associated with specific time interval.
+
+b) It is the ratio of death to cause.
+
+c) Closely relates the disease elimination.
+d) Represents the killing power of a disease.
+e) It is computed for a broad disease group.
+
+Ans. a) F, b) F, ¢) F, d) T, e) T.
+
+Q. Main sources of demographic statistics
+are: [DU-15Ju]
+
+a) National surveys.
+
+b) Distribution of population.
+
+c) Population census.
+
+d) Growth & decline in population size.
+e) Registration of vital events.
+
+Ans. a) T, b) F, c) T, d) F, e) T.
+
+Q. Fertility can be measured by: [DU- _
+15J,14Ju]
+
+a) Child woman ratio.
+b) Marriage rate.
+
+c) Case fatality rate.
+d) MMR.
+
+e) Birth rate.
+
+Ans. a) T, b) T, ¢) F, d) F, e) T.
+
+Scanned with CamScanner

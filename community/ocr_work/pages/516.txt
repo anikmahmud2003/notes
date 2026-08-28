@@ -1,0 +1,69 @@
+Chapter-15: Environment & Health ee
+
+Q. What is ‘Daylight Factor (DF)’? [RU-1 IJu}
+Answer
+Daylight factor (DF):
+It is the ratio illumination at a given point to illumination at a point exposed simultaneously to the
+whole hemisphere of the sky excluding direct sunlight.
+
+Instantaneous illumination INDOORS
+D.F= ; x 100
+Simultaneous occurring illumination OUTDOORS
+
+Y  Itcan be measured by DF factor.
+Y It is recommended that- the D.F should be at least 8 % in living room and 10% in kitchen.
+
+[Ref- Park /24"/777]
+
+For Viva
+
+%
+
+“* Recommended illumination:
+
+Very severe tasks
+Watch making
+
+_. Illumination (lux) =~
+
+1300-2000
+2000-3000
+
+[Ref- Park / 24" / 778]
+
+Q. List the effects of light on human health. [RU-10J]
+
+Q. List the good effects of light on human health.
+
+Q. Enumerate the biological effects of light. [RU-I6N, 15Ju,1 1Ju]
+Q. What are the effects of improper lighting?
+
+Answer
+
+Good effects / biological effects of light:
+
+1) Breakdown of bilirubin.
+2) Biologic rhythms of body temperature.
+3) Physical activity.
+4) Stimulation of melanin synthesis.
+5) Activation of precursors of vitamin D.
+6) Adrenocortical secretion.
+7) Food consumption.
+[Ref- Park /24"/ 778]
+
+Bad effects / effects of improper lighting:
+1) Effects of poor lighting:
+> Eye strain
+Headache
+Lacrimation
+Interfere with efficiency
+Eye fatigue
+
+2) Effects of glare:
+> Eye strain
+> Accidents
+> Reduce critical vision
+
+VVVVV
+
+Scanned with CamScanner

@@ -1,0 +1,76 @@
+Chapter-20: Health information and basic medical statistics LE
+
+* Other classification:
+1) Continuous data: A continuous data is one which can have an infinite number of possible
+‘ ya ues in any given interval. e.g. height in cm. Here fraction is possible.
+) ! iscrete data: A discrete value is one which can have only finite number of value in any given
+interval; e.g. number of hospital bed. Here fraction is not possible. :
+
+Q. Describe the different types of data collection.
+Q. What are the methods of data collection? [DU-18N,17N, SUST-18N, | 5Ju, 14Ju,12J, RU-15J,
+CU-17N,16N,12Ju]
+Q. How data can be collected? [CU-13Ju, SUST-14J]
+Answer
+Methods / types of data collection: There are several methods of data collection. Important ones are:
+1) Observational Method: This is the most commonly used method of data collection. Under the
+observational method, the information is sought by way of investigators own direct observation without
+asking from the respondent.
+
+Types:
+“+ According to planning of observation:
+> Structured observation.
+> Unstructured observation.
+
+a
+
+“> According to participation of the observation:
+> Participant observation.
+
+> Non participant observation.
+> Disguised observation.
+
+“ According to controlling of observation:
+> Controlled observation.
+
+> Uncontrolled observation.
+
+Advantages:
+1) Subjective bias is limited.
+2) Information obtained relates to what is currently happening.
+3) Independent of respondent’s willingness to respondent.
+
+Disadvantage:
+1) Expensive.
+2) Information is very limited.
+3) Unforeseen factors may interfere with the observational task.
+
+2) Interview Method: The interview method of collecting data involves presentation of oral verbal
+stimuli and reply in terms of oral verbal response. It may be:
+Y Personal interview &
+Y Telephone interview
+
+3) Through Questionnaires: This method of data collection is quite popular, particularly in case of big
+enquiries. In this method a questionnaire is sent to the persons concerned with a request to answer the
+
+questions and return the questionnaire.
+
+ugh schedules: This method of data collection is very much like the collection of data through
+
+4) Throug
+questionnaire with little difference which lies in the fact that schedules are being filled in by the
+
+enumerators who are specially appointed for this purpose. ;
+5) Some other methods of data collection: ae
+1) Warranty card
+2) Distributor or store audits
+3) Pantry audits
+4) Consumer panel
+5) Use of mechanical device
+
+6) Project technique
+
+Scanned with CamScanner
+
+a
+7
+

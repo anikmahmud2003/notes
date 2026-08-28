@@ -1,0 +1,57 @@
+Chapter-04
+
+Screening for Diseases
+
+Q. Define screening. [SUST-15Ju,14J]
+Q. Classify screening. [SUST-14J]
+Q. Write short note on: Screening. [SUST-18N, 17N,16N, 1 1Ju, CU-18N/M,16M,15J,14J,13Ju/J]
+Answer
+Screening: ;
+Disease screening refers to the “identification of hidden or unknown diseases or defects in a large group
+
+of apparently healthy individuals in the community by means of rapidly applied tests, examinations or other
+procedures”.
+
+[Ref- Rashid, Khabir, Hyder / 5® / 23]
+Example:
+1) Pap smear of cervical cancer.
+2) Serological blood test for syphilis.
+3) Chest X-ray for pulmonary tuberculosis.
+4) Test for BP blood sugar, blood cholesterol.
+
+Aims and objective of screening:
+1) To sort out from large group of apparently healthy person those likely to have a disease or at
+increased risk of the disease under study.
+2) To bring those who are apparently abnormal under medical supervision & treatment.
+3) To alter the natural history of disease in a significant proportion of those who are identified as
+positive by earlier diagnosis & subsequent treatment.
+
+Apparently healthy (screening tests)
+
+Apparently normal Apparently abnormal
+(Periodic re-screening) > Normal: periodic re-screening
+> Intermediate: surveillance
+> Abnormal: treatment
+
+Figure: Possible outcomes of screening.
+
+Uses of screening:
+1) Case detection
+2) Control of disease
+3) Research purposes
+4) Education opportunities
+
+1) Mass screening: It implies screening of whole population or a subgroup (e.g. serological test to
+know malaria infection amongst the population of an area). ; ; ;
+
+2) High risk or selective screening: Screening in high risk groups e.g. cervix cancer in lower social
+group and diabetes, hypertension, breast cancer in higher social group.
+
+3) Multiphase screening: Application of two or more screening tests.
+
+[Ref- Park /24" / 146, 147 + Rashid, Khabir, Hyder / 5" /23]
+
+97
+
+Scanned with CamScanner
+

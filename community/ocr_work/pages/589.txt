@@ -1,0 +1,72 @@
+576 —— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPF
+
+7) Medical Records Linkage.
+8) Epidemiological surveillance.
+9) Other health service records: such as- records of hospital out-patient departments, primary health
+centers & subcentres, ploy-clinics, private practitioners, MCH centers etc.
+10) Environmental health data.
+11) Health manpower statistics.
+12) Population surveys.
+13) Other routine statistics related to health, e.g.
+> Demographic
+> Economic
+> Social security schemes.
+
+14) Non-quantifiable information.
+
+For international information on vital statistics:
+¥ The "Annual Demographic Year book" of the United Nation.
+Y The epidemiological and vital statistical reports of the WHO.
+. [Ref- Park / 24" / 877]
+
+Q. Define data. [DU-14J, RU-18N,13Ju, SUST-18N/M, 14Ju/J,12J]
+
+Q. Classify data with example. [DU-18M,16M/J,12Ju, RU-18N, 13Ju, SUST-18N,15Ju, 14Ju,12J,
+CU-17N,16N,14J,13Ju]
+
+Q. Classify data with example based on measurements. [RU-17N]
+
+Q. Classify sources of data. [DU-16N]
+
+Q. State the sources from where data can be collected. [SUST-08J]
+
+Q. Write short note on: Data. [CU-16J]
+
+Answer
+
+Data:
+
+Data consists of discrete observations of attributes or events.
+Data are sets of values recorded on one or more observational units.
+
+Classification of data:
+* On the basis of source: :
+1) Primary data: Data that is obtained directly from an individual, objects or phenomenon is
+called primary data.
+
+Example:
+> The census of 2001 is an example of collecting primary data relating to the population.
+
++
+
+* The collection of data about the health and sickness of a population is primary data.
+
+2) Secondary data: Data that is obtained from outside source is called secondary data.
+
+Example:
+> Hospital records.
+
+Previous surveys,
+> Professional journals etc,
+
+3) Tertiary data: Data that is obtained from text books,
+
+“* On the basis of nature:
+
+1) Quantitative: Data which have a magnitude. Examples- weight of a person.
+2) Qualitative: Data which have no Magnitude or size. Example- male, female; vaccinated, not
+vaccinated; anaemic, not anaemic etc,
+
+Vv
+
+Scanned with CamScanner

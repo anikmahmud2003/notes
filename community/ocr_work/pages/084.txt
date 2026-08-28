@@ -1,0 +1,89 @@
+Chapter-03: Principles of epidemiology & Epidemiological methods 11
+
+Q. State the differences between cross sectional & longitudinal studies. [DU-16N, RU-17M]
+Q. Write down the differences between descriptive cross sectional & longitudinal studies. [DU-
+
+8M]
+
+swer
+Differences between cross sectional and longitudinal studies:
+
+sy Cross sectional studies
+1) Simplest form of observational study. _
+2) A single observation of a cross-section of
+population at one point in time is done by survey
+method.
+3) Useful for chronic diseases.
+4) Itis also known as prevalence study.
+5) It gives distribution of disease in the population
+6) Usually less time is needed.
+
+~ | Dy More expensive.
+
+Ty Less expensive. .
+8) Gives little information about natural history of © 3) “Gives good information about natural history of
+disease.
+
+disease. as
+
+1) It is an observational study.
+
+2) Observations are repeated in the same population
+over prolonged period of time by follow up
+examination.
+
+3) Useful for both acute and chronic diseases.
+
+4) Incidence rate can be determined. _
+
+5) It identifies the risk factors of disease. _
+
+6) It is time consuming.
+
+<
+
+|
+\
+
+|
+
+Fl
+
+[Ref- Rashid, Khabir, Hyder /5" /94]
+
+Q. To estimate prevalence rate of a disease which study you prefer and why?
+Q. Why you choose cross sectional study to estimate the prevalence of scabies among under two
+?
+
+years old child in a village?
+Q. To find out the incidence of lung cancer among the workers of a garments factory which type
+of study you suggest and why?
+Answer
+Cross-sectional study, because, it is the —
+1) Simplest form of observational study.
+2) A single observation is done.
+3) Usually less time consuming.
+4) Less expensive.
+5) Free of selection bias because t
+control group.
+
+Analytical Epidemiology
+
+Q. Wass the analytical studies? [RU-16N]
+
+Q. Classify analytical studies. [CU-10J]
+_ Apswer
+\ : In analytical studies the subject of interest is the individual within
+
+nalytical study / analytical epidemiolo,
+the population. The object is not to formulate but to test hypotheses.
+
+Types of analytical study: It comprises 2 distinct types of observational studies:
+YY Case control study (retrospective): Please see above.
+
+Pr oonon study (prospective): Please sce above.
+[Ref- Park /24"/ 75]
+
+he investigator has no control to select study group and
+
+Scanned with CamScanner

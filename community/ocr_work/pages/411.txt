@@ -1,0 +1,65 @@
+ened
+
+398 — ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPr
+
+Q. What are the live vaccines used in EPI schedule?
+Answer
+
+Live vaccines used in EPI; BCG, measles, oral polio.
+
+Q. What are the contraindications for vaccination? [SUST-12Ju]
+Answer
+Contraindications for vaccination:
+1) Contraindications of all vaccines:
+> Ananaphylactic reaction following a previous dose.
+> Current serious illness.
+
+2) Contraindications of live vaccines (MMR, BCG, yellow fever):
+> Pregnancy.
+> Radiation therapy (i.e. total body radiation).
+
+3) Contraindications of yellow fever vaccine:
+> Eggallergy.
+> Immunodeficiency (from medication, disease or symptomatic HIV infection).
+4) Contraindications of BCG vaccine: Symptomatic HIV infection.
+5) Contraindications of influenza & yellow fever vaccine: History of anaphylactic reaction
+following egg ingestion.
+
+6) Contraindications of pertussis-containing vaccine:
+
+> Anaphylactic reaction to a previous dose.
+> Evolving neurological disease (e.g. uncontrolled epilepsy or progressive encephalopathy),
+
+[Ref- Park /24"/ 128]
+
+Q. Mention the contraindications of live vaccines. [DU-13Ju]
+Answer
+Contraindications of live vaccines: Live vaccines should not be administered to —
+1) Immunodeficiency state.
+2) Anaphylaxis.
+3) Pregnancy.
+4) To persons whose immune response may be suppressed because of leukaemia, lymphoma or
+malignancy or because of therapy with corticosteroids, alkylating agents, anti-metabolic agents or
+radiation.
+
+[Ref- Park / 24" / 128]
+
+Q. Define monovalent, polyvalent and combined vaccine.
+Answer
+* Monovalent vaccine: Monovalent vaccines are those which are prepared from only one strain of a
+species.
+
+“> Polyvalent vaccine: The term “polyvalent” is applied to vaccines which are prepared from two or more
+strains of the same species.
+
+“+ Combined / mixed vaccine: If more than one kind of immunizing agent is included in the vaccine, itis
+
+called a mixed or combined vaccine.
+[Ref- Park /24"/ 110]
+
+For Viva
+“+ Auto vaccine / autogenous vaccine: When the organism in the vaccine is obtained from the same
+patient.
+[Ref- Park /24"/ 110]
+
+Scanned with CamScanner

@@ -1,0 +1,64 @@
+Chapter-03: Principles of epidemiology & Epidemiological methods ——————__________ 61
+
+Example:
+
+[Points _| Group: Atherosclerosis (case)|_ Group: No Atherosclerosis (contro
+[Mostly male | Mostly female ——SCS~S~SY
+[TypeB oO SCSC~s™Y
+
+lh
+
+[More
+[Personality |TypeA
+
+Thus, epidemiological study can find out the aetiology of form such comparison.
+[Ref- Park /24" /58, 59 + Rashid, Khabir, Hyder /5*]
+
+Basic Measurements of Epidemiology
+Measurements in epidemiology
+
+Q. Enumerate the measurements of epidemiology.
+an the basic measurements in epidemiology? [CU-14Ju]
+\U An wer
+Measurements of epidemiology:
+1) Measurement of mortality.
+2) ‘ Measurement of morbidity.
+3) Measurement of the disability.
+4) Measurement of the presence, absence or distribution of the characteristic or attributes of the
+disease.
+5) Measurement of natality.
+6) Measurement of medical needs, health care facilities, Utilization of health services and other health
+related events.
+7) Measurement of the presence, absence or distribution of the environmental and other factors
+suspected of causing the disease.
+8) Measurement of demographic variables.
+
+[Ref- Park / 24/59]
+
+Tools of measurément in epidemiology
+
+Q. Whafare the basic tools of measurement in epidemiology? [DU-16N,12Ju, RU-18M,16M,14Ju,
+_—~ CU-15J, 133]
+
+Q. What are the measurements used in epidemiology? State the ratio and proportion.
+
+Answer
+
+Basic tools of measurement in epidemiology:
+7 > Rates,
+
+> Ratios,
+
+> Proportions.
+
+Rate:(Rate measures the occurrence of some particular events (e.g. disease) in a population
+during a given period of time. |
+
+Numerator (X)
+Rate = ————————_ x Multiplier (K).
+Denominator (Y)
+
+K= is a convenient number or bases to express the relation of X and Y.
+It is usual to use 100; 1,000; 10,000; 100,000 or 100,0000.
+
+Scanned with CamScanner

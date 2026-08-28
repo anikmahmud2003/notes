@@ -1,0 +1,92 @@
+Chapter-20: Health information and basic medical statistics ————————— 585
+
+Variable
+
+Q. Define variable. [DU-I6N, CU-! — RU-15J]
+Q. Classify variables. [DU-15Ju, Ct 18N,16M,15J,13J,10J, RU-15J]
+
+Answer
+Variable: A variable is a characteristic of a person, object or phenomenon that can take on di
+
+Example: Age, height etc.
+
+fferent values.
+
+Types of variable:
+A) Qualitative / categorical variables: The values of variables which are expressed in
+
+numeric narrative values. Example — doctor, engineer, teacher, urban, rural etc.
+B) Quantitative / numerical variables: The values of variables which are expressed in numbers, e.g. age,
+weight, monthly income etc. It is of two types —
+1. Continuous variable: A continuous variable is one which can have an infinite numbers of
+possible values in a given interval. For example — height in cm, weight in kg etc.
+2. Discrete variable: A discrete variable is one which can have only a finite numbers of values in
+a given interval. For example — number of hospital bed, number of family members ete.
+
+C) Other types: . .
+1. Dependent variable: If one variable depends upon or is a consequence of the other variable it
+
+is termed as a dependent variable.
+
+2. Independent variable: The variable tl
+an independent variable. For example, Smoking caus
+
+independent variable and lung cancer is a dependent vari
+
+3. Extraneous / Confounding variable: Independent variables that are not related to the purpose
+of study, but may affect the dependent variable are termed as confounding variable. Example —
+
+Alcohol consumption causes oesophageal cancer. Smoking influences oesophageal cancer.
+Here, alcohol is independent variable, oesophageal cancer is dependent variable, and smoking
+
+is confounding variable.
+
+categories or non-
+
+hat is antecedent to the dependent variable is termed as
+
+es lung cancer. Here smoking is
+able.
+
+Q. Describe the basic scales of measurement of variables.
+
+Answer
+Scales of measurement of variables:
+1) Nominal scale: Qualitative varia
+in this scale. Example —
+> Marital status: Single, married, widowed, divorced.
+
+> Sex: Male, female.
+2) Ordinal scale: Qualitative variables, which can be ranked, are measured by this scale. Each rank or
+
+class bears the same situational relationship to the class, which follows it; the scale shows position
+
+ona ladder. Example —
+> Social class: I, II, Il, IV.
+> Year of education: 0, 1 -5,6-9, 10 — 12, more than 12 etc.
+
+3) Interval scale: This has the additional quality that the intervals between classes are equal. As for
+example is temperature measured in degrees. Equal differences between any pair of numbers in the
+scale indicate equal difference is the attribute being measured the difference of temperature
+between a room at 22°C and 37°C. the ratio between number in the scale is not, however necessary
+the same as that between the amounts of the attribute. A room at 20°C is not twice as hot as one at _,
+10°C.
+
+4) Ratio scale: This has the additional
+consequence, the ratio between num
+attribute being measured. Example —
+
+> Weight: Measured in kilograms or pounds.
+> Income: Measured in taka, dollars, pound etc.
+> Mortality rate: Number of deaths per 100 persons at risk.
+
+There are 4 basic scales of measurement —
+bles which cannot be arranged in any definite order are measured
+
+quality that zero indicates absence of the attribute. Asa
+bers in the scale is the same as that between the amounts of the
+
+Scanned with CamScanner
+
+Se ‘
+

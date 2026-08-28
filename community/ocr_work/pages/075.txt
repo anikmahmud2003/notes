@@ -1,0 +1,70 @@
+|
+
+62__—— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SA MCQ), VIVA & OSPE
+Tepes,
+eo Crude rates: Actual observed rates — e.g, crude birth rate, crude death rate.
+v. Specific rates; Actual observed rates.
+> Due to specific cause (e.g. TB).
+
+> Occurring in specific groups (e.g. 5-10 years boy).
+> During Specific time (e.g. July, 2000) periods.
+
+A ‘Standardized rates: Directly or indirect method of standardization or adjustment.
+
+Example:
+Number of death in | year
+Death Rate = x 1000
+/ Mid-year population
+ov tae te is a Relation between two random quantities.
+Numerator
+Ratio =
+Denominator
+Example:
+> RBC: WBC ratio
+> Sex ratio
+
+> Child-women ratio
+> Doctor-population ratio etc.
+
+3) Proportion: It is a ratio which indicates the relation in magnitude of a part to the whole. A
+proportion is usually expressed as percentage.
+
+Example: In a certain time in a village.
+The number of children with scabies
+
+Proportion = —————————_—_ * 100
+
+Total number of children
+
+The numerator is always included in the denominator.
+[Ref- Park / 24" /60]
+
+For Viva
+Numerator: Number of time an event (e.g. sickness, birth, death) has occurred in a population during a
+
+given time period.
+4 Denominator: The population to which the events are related.
+SS [Ref- Park / 24" / 60]
+
+Q. In an urban community, a total of 250 children aged 3 years have been suffering from
+measles. 35 children died of the disease among them. What rate should be calculated about
+the disease? Calculate the rate. [RU-14J}
+
+Answer
+Rate should be calculated: Death rate / mortality rate.
+
+Calculation of rate:
+Numerator (X)
+Rate = ————————_ x Multiplier (K).
+Denominator (Y)
+
+35
+
+=—__—__——-_x 1000
+250
+
+= 140 per 1000 affected children
+
+—-==088
+
+Scanned with CamScanner

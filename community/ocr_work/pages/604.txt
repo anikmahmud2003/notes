@@ -1,0 +1,84 @@
+Chapter-20: Health information and basic medical statistics |
+Q. Age of 8 people are 52, 42, 65, 52, 60, 45, 38 and 40, Find out median age & present the data
+graphically. [DU-16M]
+Answer
+Median: In ascending order, the numbers are: 38, 40, 42, 45, 52, 52, 60, 65
+Here, there are 08 numbers (even). So, median is the arithmetic mean of n/2 that means
+n/2 + | that means 5" number. So, the median is (45+52) + 2 = 48.5
+
+Q. Estimated Hb% of eight pregnant mothers are 8, 8.5, 9.5, 10, 10.5, 11, 13 & 12 in mg/dl
+
+respectively. Find out the median Hb level & present the data demographically. [DU-14Ju]
+
+Answer
+Median Hb level: In ascending order, the Hb percentages (in mg/dl) are: 8, 8.5, 9.5, 10, 10.5, 11, 12, 13
+
+Here, there are 08 numbers (even). So, median is the arithmetic mean of n/2 that means 4" number &
+n/2 + 1 that means 5" number. So, median is (10 + 10.5) +2 = 10.25 (mg/dl)
+
+1, 95, 75, 77, 84 & 90. Calculate
+
+4" number &
+
+Q. The DBP of 10 individuals is recorded as 84, 75, 81, 79, 7
+mean & median value of above observations. [RU-14Ju]
+
+Answer
+Mean: (84 +75 +81+79+71 +95 +75 +77+84 +90) + 10=811 + 10 = 81.10
+
+5, 77, 19, 81, 84, 84, 90, 95
+
+Median: In ascending order, the numbers are: 71,75, 7
+mean of n/2 that means 5” number and
+
+Here, there are 10 numbers (even). So, median is the arithmetic
+n/2 +1 that means 6" number. So, median is (79 + 81) +2 = 80
+
+Q. Calculate the mean, median and mode from the following observed values: 72, 82, 76, 83, 89,
+77, 76, 78, 90, 95. [SUST-13Ju]
+
+Answer
+
+Central tendency:
+
++ Mean: (72 + 82 + 76 + 83 + 89 +77 + 76 +78 + 90 +95) + 10= 818+ 10=81.8
+
+Median: In ascending order, the numbers are: 72, 76, 76, 77, 78, 82, 83, 89, 90, 95.
+Here, there are 10 numbers (even). So, median is the arithmetic mean of n/2 that means 5" number and
+n/2 + | that means 6" number. So, median is (78 + 82) + 2 = 80
++ Mode: Mode is the most frequent number. Here, most frequent numbers is 76.
+Q. Calculate the measures of central tendency of ‘8’ girls aged 10, 15, 8, 9, 12, 8, 8 & 26 years.
+[CU-14J,13Ju]
+Answer
+Central tendency:
+“Mean: (10 + 15+8+9+ 12+ 8+8+26)+8=96+8=12
+numbers are: 8, 8, 8, 9, 10, 12, 15, 26
+median is the arithmetic mean of n/2 that means 4" number and
+dian is (9 + 10)+2=9.5
+
+Median: In ascending order, the
+Here, there are 8 numbers (even). So,
+n/2 + | that means 5" number. So, me
+
+most frequent numbers is 8.
+
+"ef
+
+% Mode: Mode is the most frequent number. Here,
+
+Q. Calculate mean, median and mode from the following observed values: 24, 7, 10, 21, 15, 28,
+
+12, 21, 16, 19, 8, 21. [SUST-14J]
+Answer
+Central tendency:
+Mean: (24+7+10+21 +15+28+12+21 + 16+ 19 +8 +21) + 12 =202 + 12 = 16.8333
+Median: In ascending order, the numbers are: 7, 8, 10, 12, 15, 16, 19, 21, 21, 21, 24, 28
+). So, median is the arithmetic mean of n/2 that means 6" number and
+
+Here, there are 12 numbers (even
+th number. So, median is (16 + 19) +2 = 17.5
+
+n/2 + 1 that means 7
+
+Scanned with CamScanner
+

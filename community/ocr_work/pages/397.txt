@@ -1,0 +1,69 @@
+>,
+
+384 —- ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
+
+Q. In a district during the calendar year of 2013, among 200 pregnant mothers, 05 died from
+APH, 10 from PPH, 5 from RTA and rest gave live births. Calculate the MMR of that
+district. [RU-14J]
+
+Answer
+
+Calculation of MMR:
+
+Total number of female deaths due to complications of pregnancy, child birth or
+within 6 weeks of delivery from 'puerperal causes’ in an area during a given year
+MMR = x 1000
+Total number of live births in the same area in that year.
+
+5 (from APH) + 10 (from PPH)
+= x 1000
+
+200 —(5 + 10 + 5)
+
+1S
+=———— x 1000
+180
+
+= 83.33 / 1000 live births
+
+Q. In a given year in a defined population, the following statistics were found. Calculate
+maternal mortality rate (MMR) and maternal mortality ratio from the data. [RU-18N]
+a) Mid-year population 16000.
+b) Total women of reproductive age 5000.
+c) Total live birth 800.
+d) Women died due to-pregnancy complication 300.
+
+Answer
+Please calculate from above discussion.
+
+causes [DU-13J,1 1J, CU-16J,14J] / important causes [SUST-18N] / common
+
+ST-18M,17N,16N] / main causes [SUST-13Ju] / leading causes [SUST-17M, 1 5Ju] of
+matersfal mortality in Bangladesh?
+
+Q. Menfion the causes of high MMR in Bangladesh. [CU-17M, 12J,11Ju/J]
+
+Q. What are the factors related to high MMR in Bangladesh? [DU-16M]
+
+‘uses of maternal mortality / maternal death in Bangladesh:
+1) Haemorrhage: Ante-partum haemorrhage (APH) & post-partum haemorrhage (PPH).
+2) Toxaemia of pregnancy (eclampsia).
+3) Infection (puerperal sepsis).
+4) Obstructed labour.
+5) Septic abortion.
+6) Severe anaemia.
+7) Associated diseases: Cardiac, renal, hepatic, metabolic etc.
+8) Malignancy.
+9) Accidents.
+|Ref- Rashid, Khabir, Hyder /5"/175]
+
+“ Significance of MMR:
+1) Itreflects inadequacy of health care services for mothers
+2) Itreflects a low standard of living & socio-economic status of the community.
+3) Itis the indicator of the availability utilization and effectiveness of health care.
+4) Itreflects the state of public health & hygiene & environmental sanitation.
+5) Italso reflects the position of the woman in society.
+
+__ ati
+
+Scanned with CamScanner

@@ -1,0 +1,77 @@
+Chapter-03: Principles of epidemiology & Epidemiological methods — 87
+
+This is infection chain. Basically there are three links in the chain of transmission-
+Y Source of infection or reservoir,
+Y Mode of transmission.
+Y Susceptible host.
+[Ref- Park /24"/ 100]
+
+(@)
+
+ase
+
+Q. Define case.
+
+Q. Classify case.
+
+Q. Write short note on: Primary case. [CU-17N,16N]
+Answer
+Case:
+
+A case is defined as a person in the population or study group identified as having the particular
+disease, health disorders or condition under investigation.
+
+Types of cases: :
+1) Clinical cases: It may mild to moderate, typical or atypical, severe or fatal depending upon the
+
+gradient of involvement. Epidemiologically mild cases are more important sources of infection than
+severe cases because they are ambulant and spread the infection whenever they go, whenever
+
+severe cases are usually confined to bed.
+
+2) Sub-clinical cases: They are variously referred to as inapparent, covert, missed or abortive cases.
+The disease agent may multiply in the host, but does not manifest itself signs and symptoms, e.g.
+rubella, mumps, polio, influenza, diphtheria, but measles has no sub-clinical infection. Sub clinical .
+infection can be detected only by laboratory test, e.g. antibody response, biochemical & skin
+sensitivity test.
+
+3) Latent infection: In latent infection, the host does not shed the infectious agent which lies dormant
+within the host- without symptoms. For example latent infection in herpes simplex.
+
+In epidemiological terminology:
+1) Primary case: It refers to the first case 0
+
+unit being studied.
+2) Index case: It refers to the first case to come to the attention of the investigator.
+
+3) Secondary case: Secondary cases are those developing from contact with primary case.
+[Ref- Park /24"7/ 100]
+
+f a communicable disease introduced in to the population
+
+Carrier
+
+Q. Define carrier. [RU-18N, SUST-14J,12Ju,1 1Ju,10Ju)
+
+Q. Classify carriers with examples. [RU-18N, SUST-14J,12Ju, | Ju, CU-1 Ju]
+
+Q. Explain different types of carrier. [CU-10J]
+
+Q. State the epidemiological importance of carrier. [SUST-14J]
+
+Q. Discuss the epidemiological importance of different types of carrier. [SUST-10Ju]
+Q. Write about carriers and its importance. [CU-14J]
+
+Q. Write short note on: Carrier. [SUST-16J,15J,13Ju]
+
+Answer
+
+Carrier: © ; ; a. ; ,
+It is defined as “an infected person or animal that harbours a specific infectious agent in the absence of
+
+discernible clinical disease and serves as a potential source of infection for others”.
+[Ref- Park /24™/ 100]
+
+Example: “Typhoid Mary” is a classic example of a carrier.
+
+Scanned with CamScanner

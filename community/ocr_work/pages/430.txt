@@ -1,0 +1,54 @@
+Chapter-13: Disinfection & Sterilization 417
+
+a physical agents of disinfectants,
+
+Physical agents of disinfectants:
+¢ Buming or incineration.
+e Hot air oven.
+¢ Autoclaving.
+¢ Radiation.
+
+Dry heat:
+
+1. Burning of articles of small value, e.g. rags, pillows and mattresses etc. This is the best method of
+disinfection.
+
+2. Hot dry air: Hot air oven is electrically heated with a thermostat and a fan & blower. The temperature
+& holding time 160°C for 1 hour.
+Dry heat is also used for sterilizing glass-wares, e.g., petridishes, pipettes, glass syringes & flasks.
+Moist heat:
+1. Boiling: At 100°C, germs & spores are killed, if boiled for half an hour.
+2. Steam: It can be used as
+¢ Current steam
+e Saturated steam
+e Superheated steam.
+3. Autoclave: Here steam is used under regulated pressure (at 120°C) temperature under 15 Ib/ sq. inch
+pressure for 15 minutes). It is used for the sterilization of culture media and destruction of old cultures.
+1 also used for sterilization of surgical equipment & dressing.
+
+Radiation:
+e UV radiation (240-280nm wv) can he used for sterilizing air in hospital ward & operation
+theatre.
+¢ UV is equally effective in gram-positive & gram-negative organisms.
+¢ Ionizing radiation: plastic syringes, catheter, anaesthetic instrument & transfusion set can be
+sterilized.
+
+Q. Write short note on: Incineration. [CU-17M, RU-11Ju]
+Answer
+Incineration:
+Incineration is a high temperature dry oxidation process, that reduces organic and combustible waste to
+inorganic incombustible matter and results in a very significant reduction of waste volume and weight.
+
+Use: .
+The process is usually selected to treat wastes that cannot be recycled, reused or disposed off in a land
+fill site. Hospital refuse which is particularly dangerous is best disposed by incineration.
+
+[Ref- Park / 24" / 827]
+Q. Define pasteurization. State the process of pasteurization of milk. [RU-10J]
+
+Q. How milk is pasteurized / preserved?
+
+Answer
+Please see in the ‘Chapter-14: Nutrition & Health’.
+
+Scanned with CamScanner

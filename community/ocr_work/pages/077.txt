@@ -1,0 +1,66 @@
+VIVA & OSPE
+64__—— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SA MC é
+
+Q. Write short note on: Case fatality rate (CFR). [CU-15J]
+Answer
+
+Case fatality rate (CFR):
+
+Case fatality rate =
+
+Total number of deaths due to particular disease i
+x
+
+Total number of cases due to the same disease
+
+Case fatality rate represents the killing power of a disease. It is Gecally used in acute infectious diseases
+(e.g. food poisoning, cholera, measles etc.). Case fatality is closely related to viru : se Patied sai se
+
+i ic i i ffering from cholera for two days,
+. During cholera epidemic in a village, 200 people have been su a
+. pone them 20 people already died after hospitalization. Find out the case fatality rate (CFR)
+
+among them due to cholera.
+Answer ; ;
+Total number of deaths due to a particular disease
+x 1000
+
+Case fatality rate = ;
+Total number of cases due to the same disease
+
+20
+= x 1000
+200
+
+= 100
+
+Q. Define proportional mortality rate.
+Q. Write short note on: PMR. [CU-18M,17M]
+Answer
+
+Proportional mortality rate (Ratio) / PMR:
+
+Proportional mortality rate (PMR) expresses the “number of deaths due to a particular cause (or ina
+specific age group) per 100 (or 1000) total deaths”.
+
+Total number of deaths from the specific disease in a year
+Proportional mortality rate = x 100 (or 1000)
+Total number of deaths from all causes in that year
+
+Advantage: .
+1) The simplest measure of estimating the burden of a disease in the community,
+
+2) It is sometimes useful to know what proportions of total deaths are due to a particular cause (e.g.
+cancer, coronary heart disease etc.).
+3) PMR is used when population data are not available.
+
+Disadvantage: Limited value.
+
+Note
+
+Total number of deaths from the specific disease in a year
+Specific death rate = x 1000
+
+Mid-year population in the same year
+
+Scanned with CamScanner

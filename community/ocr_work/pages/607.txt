@@ -1,0 +1,66 @@
+594 ——— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN ‘SAQ, MCQ), VIVA & OSPR
+
+DBP (x) | Arithmetic mean (&) | Deviation from the mean (x-y)
+
+Total = 56 ( ignoring + sign
+
+The mean deviation = 56/10 = 5.6
+
+> The standard deviation: In simple terms, it is defined as “Root-Means- Square- Deviation. It is
+denoted by the Greek letter sigma, o or by the initials S.D. The basic formula is:
+
+L(x-xy
+
+S.D. = ——.
+n
+
+When the sample size is 30 or less than 30, the above basic formula is modified to as follows:
+LZ (x-xy
+S.D. = ——_
+n-1
+
+Q. What are the uses / importance of standard deviation?
+Answer
+Fd Uses / Importance of standard deviation:
+: 1) It summarizes the deviation of a large distribution from mean in one figure as a unit of variation.
+é 2) In indicates whether the variation of difference of an individual from the mean is by chance, i.e.
+natural or real due to some special reasons.
+3) Helps in finding the standard error.
+4) Italso helps in finding the suitable size of sample for valid conclusions.
+
+[Ref- Park / 24" / 885]
+
+a,
+
+[Ref- Mahajan / 6" / 67]
+
+Viva Q. What is mid-year population?
+Answer
+
+Mid-year population:
+
+The mid-year population refers to the population estimated as on the first July of a year.
+
+[Ref- Park / 24" / 60]
+
+Q. How can you calculate standard deviation (SD)?
+Q. Write down the steps of calculation of standard deviation, [CU-11Ju]
+Q. Write short note on: Standard deviation. [CU-13Ju]
+Answer
+Standard deviation (SD):
+Standard deviation is defined as “Root — Means — Square — Deviation.”
+It is denoted by the Greek letter o or by the initials S.D.
+The standard deviation is calculated from the basic formula;
+
+L(x-xy
+S.D.= es
+
+n
+
+Steps of calculation: The steps involved in calculating the standard deviation are as follows —
+> First of all, take the deviation of each value from the arithmetic mean, (Xx — x).
+
+. : = SA ee ee
+= SENS — Scanned with CamScanner
+
+|

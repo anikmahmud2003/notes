@@ -1,0 +1,74 @@
+ee
+
+592 ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCO), VIVA & OSPE
+
+% Mode: Mode is the most frequent number. Here, most frequent numbers is 21.
+
+UST-18N]
+Calculate the tendency. [CU-18N]
+
+3, 5, 5, 6, 4, 5, 7, 7.
+
+Q. Calculate central tendency from 3, 5, 5, 6, 4, 5, 6 and 4. [S
+Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11kg.
+Q. Calculate mean, median & mode from the following observed values:
+
+[SUST-18M]
+
+Q. Weight of 6 children are 14, 12, 14, 20, 13 & 11 kg. Calculate the measures of central
+tendency. [CU-17N]
+
+Q. Calculate mean, median & mode from the following observed values: 3, 5, 5, 6, 4,5, 6, & 4.
+[SUST-17M]
+
+Q. Calculate the measures of central tendency from the following observed values: 8, 10, 6, 9, 8, 10,
+
+12, 9. [SUST-15J]
+Q. The ESR of 10 patients are 6, 8, 16, 5, 10, 7, 6, 12, 14 and 6. Calculate various measures of
+
+central tendency by using formula. [CU-125u]
+Q. Calculate the measures of central tendency from the following observed values: 55, 60, 63, 55,
+
+75, 63, 58, 55, 62 and 61. [CU-11J]
+Q. Calculate the measures of central tendency from the following observation: 8, 10, 6, 9, 8, 10,
+
+12, 9. [SUST-12Ju,10Ju]
+Q. Calculate the measures of central tendency from the following observed values: 8, 9, 5, 6, 8, 7,
+
+8, 5, 8, 6. [CU-10Ju]
+Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11 kg. Calculate the central tendency.
+
+[CU-16J]
+
+Answer
+Please try yourself.
+
+Central tendency measurement of odd numbers
+
+Q. Compute mean, median & modal values from the following observations: 52, 65, 52, 60, 45,
+42, 46, 58, 36, 52 & 40. [DU-16J]
+
+Answer
+Central tendency:
+Mean: 52+ 65+52+60+45 +42 +46 + 58 +36 +52 +40 =548 +11 = 49.81
+
+“ Median: In ascending order, the numbers are: 36, 40, 42, 45, 46, 52, 52, 52, 58, 60, 65
+Here, there are 11 numbers (odd). So, median is 52.
+“Mode: Mode is the most frequent number. Here, most frequent numbers is 52.
+
+*
+
+Q. Calculate the mean, median and mode values of following observations: 52, 65, 52, 60, 45.
+
+[DU-14J]
+Answer
+Central tendency:
+
+“ Mean: (52 + 65 + 52 + 60+ 45) +5=274+5=54.8
+“Median: In ascending order, the numbers are: 45, 52, 52, 60, & 65.
+
+Here, there are 5 numbers (odd). So, median is the (n + 1)/2 that means 3“ number. So, median is 52
+
+Mode: Mode is the most frequent number. Here, most frequent numbers is 52.
+
+Scanned with CamScanner

@@ -1,0 +1,67 @@
+Chapter-03: Principles of epidemiology & Epidemiological methods _73
+
+2) Matching: It is the process by which controls are selected in such a way that they are similar to
+cases with regard to certain pertinent selected variables (e.g. Age).
+
+3) Measurement of exposure: It is obtained by interviews, questionnaires, studying post, and records
+of cases such as hospital record employment records etc,
+
+4) Analysis & interpretation: It finds out-
+
+> Exposure rate among cases and controls to suspected factor.
+> Estimation of disease risk associated with exposure.
+[Ref- Park / 24" / 76-79]
+
+Q. Write down the merits and demerits of case-control study.
+Q< Enlist the advantages & disadvantages of case-control study. [CU-1 1Ju,10Ju, RU-16J,10J]
+
+“Answer
+Merits / advantages of case-control study:
+Dr Relatively easy,to carry out.
+2) Rapid and inexpensive.
+~~ 3Y Require Comparatively few subjects.
+_AY Particularly suitable to investigate rare diseases.
+TAY No tisk to subjects.
+6) _ Allows the study of several different aetiological factors (e.g. smoking).
+_T) Risk factors can be identified.
+8) No attrition problems (because case control studies do not require follow-up of individuals into the
+future).
+yy Ethical problems minimal.
+
+Demerits / disadvantages of case-control study:
+1) Problems of bias.
+Selection of an appropriate control group may be difficult.
+We cannot measure incidence-and can only estimate the relative risk.
+4) Do not distinguish between causes and associated factors.
+5) Selection of comparison groups is a limiting factor.
+’ Cohort studies are expensive.
+~ The study itself may alter people's behaviour.
+8) Finally, in a cohort study practical considerations dictate that we must concentrate on a limited
+
+number of factors possible related to disease outcome.
+[Ref- Park / 24/79]
+
+Q. Discuss about the biasness in case control study.
+Answer :
+Biasness of case control study: Many varieties of bias may arise in case control study; e.g.
+1) Bias due to confounding: A confounding factor is defined as one which is associated both with the
+exposure and disease, and is distributed unequally in study and control groups.
+2) Memory or recall bias.
+3) Selection bias: The cases and controls may not be representative of cases and controls in’ the
+general population.
+4) Berkesonian bias: The bias arises because of the different rates o admission to hospitals for people
+with different cases.
+5) Interviewer’s bias: Bias may also occur when the interviewer knows the hypothesis and also
+
+knows who the cases are.
+[Ref- Park / 24" / 78]
+
+Q. Name some diseases that are studied in case-control study.
+nswer
+
+Diseases that are studied in case-control study:
+
+1) Lung cancer.
+2) Carcinoma stomach.
+
+Scanned with CamScanner

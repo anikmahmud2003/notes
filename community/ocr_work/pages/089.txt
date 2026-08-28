@@ -1,0 +1,85 @@
+OI EE ee
+
+76__—— ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPp }
+
+6) There may be changes in the standard methods of diagnostic criteria of the disease over Prolongeq
+
+follow up.
+7) Cohort studies are expensive.
+
+8) The cohort study group may change his life style.
+[Ref- Park / 24" 194
+
+Answer
+
+The following general considerations are taken into account:
+
+1) The cohorts must be free from the disease under study
+2) Inso far as the knowledge of the disease permits, both the groups should be equally susceptible to
+
+the disease under study
+3) Both the groups should be comparable in respect of all the possible variables, which may influence
+
+the frequency of the disease ‘
+4) The diagnostic and eligibility criteria of the disease must be defined beforehand
+
+[Ref- Park / 24" 180)
+
+Q. What are general considerations in assembling cohorts?
+
+Q. Give the flowchart of a study design to find out the outcomes of tobacco consumption. [DU-
+
+13Ju]
+
+Answer
+Acohorts design to find out the outco of tobacco consumption:
+
+to smoking
+lung cancer
+to smoking
+Q. Write short note on: Relative risk or risk ratio.
+
+Q. What is relative risk or risk ratio? Interpret relative risk of 6.2 of particular phenomenon.
+
+{SUST-10J]
+
+‘Answer
+Relative risk (RR): It is defined as the ratio between the incidence of disease among exposed persons and
+
+incidence among non-exposed. It is given by the formula —
+Incidence of disease (or death) among exposed
+
+No disease
+
+Relative risk =
+Incidence of disease (or death) among non-exposed
+
+Example:
+A relative risk of 1 indicates no association.
+
+A relative risk >1 suggests ‘positive’ association between exposure and the disease under study.
+A relative risk of 2 indicates that the incidence rate of disease is 2 times higher in the exposed
+
+group as compared with the unexposed.
+A relative risk of 6.2 indicates that the incidence rate of disease is 6.2 times higher in the exposed
+
+group as compared with the unexposed.
+A relative risk of 0.25 indicates a 75% reduction in incidence rate in exposed individuals as
+
+compared with the unexposed.
+
+Vv VVV
+
+Vv
+
+m which relative risk can be
+
+A typical case-control study does not provide incidence rates fro 4
+rt study:
+
+calculated directly. In general, the relative risk can be exactly determined only from a coho
+[Ref- Park /24°/83]
+
+|
+
+Scanned with CamScanner

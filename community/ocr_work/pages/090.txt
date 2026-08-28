@@ -1,0 +1,76 @@
+Chapter-03: Principles of epidemiology & Epidemiological methods ———______ 77
+
+Q. Write short note on: Attributable risk.
+Answer
+
+Attributable risk (AR):
+
+It is the difference in incidence rates of disease between an exposed e
+Sometimes the term ‘Risk Difference’ is used. posed group and non-exposed group.
+This is given by the formula:
+
+Incidence of disease rate among exposed minus — incidence of disease rate among non-exposed
+
+AR= :
+Incidence rate among exposed
+
+Attributable risk indicates to what extent the disease under study can be attributed to the exposure.
+[Ref- Park / 24" /83]
+
+Q. Write short note on: Population-attributable risk.
+
+Answer
+Population-attributable risk: It is the incidence of the disease (or death) in the total population minus the
+incidence of disease (or death) among those who were not exposed to the suspected causal factor.
+
+The concept of population attributable risk is helpful in that it provides an estimate of the amount by
+which the disease should be reduced in that population if the suspected factors were eliminated or modified.
+[Ref- Park / 24" / 83]
+
+Q. Compare case control study, cohort study & cross sectional study.
+Answer
+Differences between case control study, cohort study & cross sectional stud
+
+Case control stud’ Cohort stud:
+
+Outcome based. Exposure based.
+
+Cross sectional stud:
+Without regard to
+exposure or outcome.
+
+1) Sampling
+
+2) Exposure
+3) Outcome Known.
+4) Case definition With outcome.
+
+Control definition
+
+Temporal sequence _| Usually retrospective.
+
+Sample size needed _| Small. i ge.
+8) Classification of Population with outcome Population free from
+population & without outcome. outcome; but with & identification of outcome
+_ without exposure. or exposure. _
+
+10) Function Compare prevalence of | Compare incidence rates | Describe association
+exposure between cases & | of outcome in exposed & |between exposure &
+control. unexposed. outcome simultaneously.
+
+Q. Differentiate between case control & cohort study. [DU-17M,16J, SUST-18N,1 6N,14J,12Ju,
+aaa ee CU-16N/J,13J]
+— Q Stat 6 important [CU-14Ju, SUST-11J]/3 important [DU-13J] differences between case
+\—~ “control & cohort study.
+Q. Compare the different aspects of case control and cohort study. [CU-13Ju]
+Answer
+
+Anybody in a definite
+population
+No control needed.
+
+With exposure.
+
+Without outcome. Without exposure.
+
+Scanned with CamScanner

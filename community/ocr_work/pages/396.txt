@@ -1,0 +1,75 @@
+Chapter-11: Maternal & Child health (MCH) ——————____——_————————— 383
+
+According to WHO, a maternal death is defined as" the death of woman while pregnant or within 42
+days of termination of pregnancy, irrespective of the duration & site of pregnancy, from any cause related to or
+aggravated by the pregnancy or its management but not from accidental or incidental causes".
+
+[Ref- Park / 24" / 593]
+
+Q. Define maternal mortality rate (MMR). [DU-11J, SUST-16J,15Ju, RU-16J]
+
+Q. Mention current MMR. [SUST-17M]
+for calculation of MMR. [RU-16J]
+
+on: Maternal mortality rate (MMR). [CU-18N, 17N, 16M, 12Ju]
+
+mortali: A
+It is the number of death of mother from pregnancy,
+
+year per thousand of childbirth.
+
+delivery and puerperal causes during a calendar
+
+Calculation: We can calculate MMR by following formula —
+
+Total number of female deaths due to complications of pregnancy, child birth or
+in an area during a given year
+
+within 6 weeks of delivery from ‘puerperal causes' i
+x 1000
+
+MMR =
+Total number of live births in the same area in that year.
+
++ It is expressed as rate per 1000 live births.
+
++ MMR in Bangladesh: 3 per 1000 live births per year (in 1998).
+
+were 3000 live births & 60 maternal deaths due to
+It was also found that mid-year population of that
+f women of reproductive age was 12000. Calculate
+
+Q. Ina rural community 2016, there
+pregnancy related complications.
+community was 120000 & number o'
+maternal mortality rate & mortality ratio. [RU-17M]
+
+Q. A defined rural community had 5000 women of reproductive age 2500 live birth in 2012.
+During that year 30 women of reproductive age died by poisoning due to quarreling with
+their spouse, 25 women due to pregnancy related complication & 10 due to PPH. Calculate
+
+MMR of the community of that year. [RU-15J]
+
+Answer
+Calculation of MMR:
+Total number of fema
+
+le deaths due to complications of pregnancy, child birth or
+| causes' in an area during a given year
+
+within 6 weeks of delivery from ‘puerpera
+MMR = x 1000
+Total number of live births in the same area in that year
+25 (from pregnancy related complications) + 10 (from PPH)
+= x 1000
+2500
+
+25
+= ——_——— x 1000
+
+2500
+
+= 10/1000 live births
+
+Scanned with CamScanner
+

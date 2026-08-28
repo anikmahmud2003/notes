@@ -1,0 +1,67 @@
+526 — ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
+Sewage
+
+Q. Mention the composition of sewage. Mention aims of sewage purification.
+Answer
+Composition of sewage:
+
+1) Water: 99.9%
+
+2) Solid: 0.1% (organic & inorganic)
+
+Aims of sewage purification:
+1) To stabilize the organic matter so that it can be disposed off safely.
+
+2) To convert the sewage water into an effluent of an acceptable standard of purity that can be disposed
+off in to land, rivers or sea.
+[Ref- Park / 24" / 799)
+
+For Viva
+
+“+ Methods of disposal of sewage:
+1) Sewage disposa} after treatment (purification) — Activated sludge process.
+
+2) Sewage disposal without treatment:
+> Sea outfall
+> River outfall
+> Land treatment
+> Oxidation pond.
+> Oxidation ditches.
+
+“ Aims & objectives of sewage treatment (purification):
+
+Y To 'stabilize' the organic matter. It means breaking down the organic matter to simple
+substances, which will not decompose further. This is accomplished by bacterial action.
+
+Y To produce an effluent which is free from pathogens and which can be disposed of without
+causing a nuisance,
+
+Y To utilize the water (effluent) and solids (sludge) economically if necessary, without risk to
+health.
+
+[Ref- Park / 24/799]
+
+Q. Give the characteristics of good sewage effluent.
+Answer
+Characteristics of good sewage effluents are:
+1) It should be clear, free from any deposit and should not have any faecal smell
+2) When a small living fish is kept in it, it should not die within few hours
+3) Ifincubated for a week at 37 deg C there will be no sign of putrefaction
+4) Amount of organic ammonia present should not exceed 1 ppm, and
+5) It should not absorb more than 2 parts of dissolved oxygen per 100,000 parts, kept at uniform
+temperature for 5 days.
+[Ref- Rashid, Khabir, Hyder / 5" / 500]
+
+For Viva
+
+** Biological oxygen demand (BOD): It is defined as the amount of oxygen that must be supplied to a
+waste material to maintain aerobic condition during decomposition. BOD is computed in terms of parts
+of million BOD values range from | ppm in natural water to 300 ppm in unnatural domestic sewage.
+BOD greater than 300 indicates strong sewage, whereas BOD less than 100 indicates weak sewage.
+
+Chemical oxygen demand (COD): It is the amount of oxygen required by a sewage for oxidation of
+organic matter present in it by a chemical oxidizer.
+
+[Ref- Rashid, Khabir, Hyder /5" / 498 + Park / 24 / 800]
+
+Scanned with CamScanner

@@ -1,0 +1,75 @@
+CO), VIVA &
+72__—~ ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, Mt OSPR |
+
+Case control study
+
+Q. Who are the cases, non-cases & controls?
+
+nswer ; .
+al Cases: Persons in the population or study group having a i
+be a disease, a response, an effect, a problem, an outcome efc.). ; . =
+
+Persons in the population or study group not having the condition under investigation.
+
+senate
+
+under investigation (condition may
+
+> Non-cases: ; "
+* Controls; Non-cases but similar in every other respect to the cases in the stu ly.
+
+Q. Define exposure & outcome.
+
+Answer - : ri
+<*” Exposure: The substances, characteristics, or events those are (or that is) determinants of the outcome
+
+of interest.
+*” Outcome: The possible result stem from an exposure.
+A
+
+Q. Write down the steps [CU-12Ju, RU-10J] / basic steps [DU-11Ju, CU-10Ju/J, RU-16J] of case
+
+control study.
+Q. Write short note on: Case control study. [CU-14J]
+
+a hose
+Case control study: . a . .
+A case control study involves two populations - Case (with disease) & Control (without disease).
+In case-control studies, the unit is the individual rather than a group. The focus is on.a disease or some
+
+other health problem that has already developed. 2
+[Ref- Park /24 176)
+
+The case control study has three distinct features:
+1) Both exposure & outcome (disease) have occurred before the start of the study.
+2) The study proceeds backwards from effect to cause.
+3) It uses a control or comparison group to support or refute an inference.
+4) Other features:
+> Itis usually first & easier to test a causal hypothesis.
+> Ituses a fewer number of subject.
+> Study yields relative quick results.
+> Relative inexpensive.
+> Suitable to study rare diseases.
+
+Basic steps of case control study: There are four basic steps in conducting a case control study-
+
+1) Selection of cases and controls:
+a) Selection of case:
+Y Definition of case: It involves two specification
+> Diagnostic criteria: The diagnostic criteria of the disease and the stage of
+disease e.g. breast cancer stage I.
+> Eligibility criteria: Only newly diagnosed cases.
+
+Y Sources of case: Hospitals, General population.
+
+b) Selection of controls: The control must be free from the disease under study. They must be
+as similar to the cases as possible except for the absence of the diseased under study. Asa
+rule comparison group is identified before a study is done.
+
+Source of controls:
+> Hospital controls,
+> Relatives
+> Neighborhood controls
+> General population.
+
+Scanned with CamScanner

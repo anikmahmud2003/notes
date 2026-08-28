@@ -1,0 +1,87 @@
+Chapter-05: Epidemiology of Communicable Diseases ———— ee
+* Classification b i
+1) New oes ee history of previous TB treatment (patient registration group):
+
+2)
+
+for less than | org who have never been treated for TB or have been taken anti-TB drugs
+
+Previously treated patients:
+Relapse patient: They are those who have previously been treated for TB & declared
+or treatment completed at the end of most recent course of treatment and
+are now diagnosed with a recurrent episode of TB.
+
+> Treatment after failure patients: They are those who have previously been treated
+_ iB & ‘ia treatment failed at the end of their most recent course of
+ment.
+
+> Treatment after loss to follow-up patients / treatment after default patients:
+
+Treated for TB & were declared lost to follow up at the end of their most recent course
+of treatment.
+
+> Other previously treated patient: Previously treated for TB but whose outcome after
+
+their most recent course of treatment is unknown or undocumented.
+
+> Patient with unknown previous TB treatment history: Do not fit into any of the
+
+Categories listed above.
+
+* Classification based on drug resistance: Based on ‘Drug susceptibility testing (DST)’ of clinical
+isolates confirmed to M. tuberculosis.
+
+1)
+2)
+
+3)
+
+4)
+5)
+
+Monoresistant TB: Resistant one 1* line anti-TB drug only.
+
+Rifampicin resistant TB (RR-TB): Resistance to Rifampicin with or without other anti-TB
+rug.
+
+Polydrug resistance TB (PDR-TB): Resistant to more than one 1" line anti-TB drug (other
+
+than both Isoniazid & Rifampicin).
+
+Multidrug resistant TB (MDR-TB): Resistance to at least both Isoniazid & Rifampicin.
+
+Extensive drug resistant TB (XDR-TB): Resistance to any fluroquinolone & at least one of
+
+three 2™ line anti-TB drugs (Capreomycin, Kanamycin & Amikacin) in addition to multidrug
+resitance.
+
+* Classification based on HIV status:
+
+1)
+2)
+3)
+
+HIV positive TB patient.
+HIV negative TB patient.
+
+HIV status unknown TB patient.
+[Ref- Park / 24" / 189]
+
+Q. Define primary complex.
+Q. What is Ghon focus?
+
+Answer
+
+Primary complex /Ghon complex:
+
+In primary tuberculosis, there is formation of primary complex (Ghon complex) consisting of:
+
+> Small caseous primary focus (Ghon focus)
+> Large caseous lymph node.
+- Lung (most common site).
+- Tonsil and cervical lymph node.
+- Intestine and mesenteric lymph node.
+- Skin.
+
+Scanned with CamScanner
+

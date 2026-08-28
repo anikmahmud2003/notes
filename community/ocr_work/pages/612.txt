@@ -1,0 +1,99 @@
+Chapter-20: Health information and basic medical statistics 599
+
+Q. Qualitative data are presented: [DU-18N,
+17N]
+a) Simple bar diagram.
+b) Scatter diagram.
+c) Table.
+d) Pie diagram.
+e) Histogram.
+
+Ans. a) T, b) F, c) F, d) T, e) F.
+
+Q. Qualitative data include: [DU-18M]
+a) Age.
+b) Sex.
+c) Religion.
+d) Height.
+e) Vaccination status.
+
+Ans. a) F, b) T, c) T, d) F, e) T.
+
+Q. Measures of dispersion: [DU-18M]
+a) Range.
+b) Median.
+c) Mean deviation.
+d) Mode.
+e) Standard deviation.
+
+Ans. a) T, b) F, c) T, d) F, e) T.
+
+Q. Vital events are: [DU-18M]
+a) Morbidity.
+b) Mortality.
+c) Marriage.
+d) Migration.
+e) Fertility.
+
+Ans. a) T, b) T, c) T, d) F, e) F.
+
+Q. Qualitative data can be presented by: [DU-
+16N]
+a) Simple bar
+b) Pie chart
+c) Scatter diagram
+d) Frequency polygon
+e) Component bar
+
+Ans. a) F, b) T, c) F, d) T, €) F.
+
+Q. The normal distribution curve is: [DU-16N]
+
+a) Bell shaped.
+
+b) Perfectly symmetrical curve.
+
+c) Based on number of observations.
+d) Determined by a single parameter.
+e) Mean, median & mode coincide.
+
+Ans. a) T, b) T, ¢) T, d) F, e) T.
+
+Q. Vital events are: [DU-16J]
+a) Modbidity.
+b) Mortality.
+c) Marriage.
+d) Cencus.
+e) Divorce.
+
+Ans, a) T, b) T, c) T, d) F, e) F.
+
+Q. Measures of dispersion includes: [DU-16J]
+a) Range.
+b) Median.
+c) Mode.
+d) Mean deviation.
+e) Normal distribution.
+
+Ans. a) T, b) F, ¢) F, d) T, e) F.
+
+Q. Methods of selecting random sample are:
+[DU-15Ju]
+a) Simple.
+b) Systematic.
+c) Stratified.
+d) Convenient.
+e) Quota.
+
+Ans. a) T, b) T, c) T, d) F, e) F.
+
+Q. Qualitative data presented by: [DU-15J]
+a) Bar diagram
+b) Frequency polygon
+c) Pie diagram
+d) Histogram
+e) Line diagram
+
+Ans. a) F, b) T, ¢) T, d) T, e) F.
+
+Scanned with CamScanner

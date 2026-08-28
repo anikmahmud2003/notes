@@ -1,0 +1,74 @@
+Chapter-20: Health i; i
+ap! information and basic medical statistics IP
+
+Q. Mention the require i
+answer quirements for simple random sampling technique.
+/B quirements for simple rand pling que:
+ww IA table of random fib aeomeme
+2) Scientific calculator.
+3) Lottery.
+4) Asample frame.
+5) Number to each of the units (individuals or households),
+[Ref- Park /24™ / 887]
+
+Q. Which sampling technique is better and why?
+ed simple random technique is better than other techniques?
+
+Simms le random sampling technique is better than other techniques: Because —
+) dividual in the population has an
+
+With this procedure, the sample is drawn in such a way that every in
+equal chance of being selected in the sample.
+2) This technique provides the greatest number of possible samples.
+3) Random numbers are haphazard collection of certain numbers, arranged in a cunning manner to
+eliminate personal selection of unconscious bias.
+[Ref- Park /24" / 887]
+
+Q. Write the steps of systematic random sampling with example. [CU-12J]
+Q. Discuss “random sampling”. [SUST-13Ju]
+Answer
+
+Steps of systematic random sampling:
+th or 10" unit at regular intervals.
+
+1) This is done by picking every 5
+2) The houses are numbered first.
+3) Then anumber is selected at random between | and 10 (say four).
+
+4) Then every 10" number is selected from that point on 4, 14, 24, 34, etc.
+By this method, each unit in the sampling frame would have the same chance of being selected,
+
+but the number of possible samples is greatly reduced.
+
+Example: Filaria survey in a region.
+[Ref- Park / 24" / 887]
+
+Q. What is non-sampling?
+Answer
+
+Non-sampling: oo, . . .
+Error due to other than chance in conducting a statistical investigation e.g. bias due to faulty
+ign of the questioner, interpretation etc. these errors may be present
+
+measurement, interviewing method, the desi
+in a complete count as well as in a sample.
+
+Central tendency
+
+y? [RU-12J, SUST-08)]
+
+ry? [DU-15J,13J, CU-10Ju, RU-I6N, I 5Ju,12J, SUST-
+
+Q. What do you mean by central tendenc
+
+Q. What are the measures of central tendenc:
+18N/M,15J,12Ju,10Ju]
+
+Q. Mention and define the three important measures of central tendency. [CU-11Ju]
+
+Q. Define mean, median & mode with examples. [RU-I6N, 1 5Ju]
+
+Answer
+
+Scanned with CamScanner
+

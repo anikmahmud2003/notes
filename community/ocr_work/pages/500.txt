@@ -1,0 +1,64 @@
+Chapter-15: Environment & Health ee
+
+Q. Prin you want to disinfect water of a tank which contains 800 liter of water. Now estimate
+e amount of free residual chlorine when you think that chlorine demand of water has been
+fulfilled. [RU-16J]
+Answer
+Please write from above.
+
+Q. Narrate the function and action of Chlorine.
+Answer
+Chlorine is one of the greatest advances in water purification.
+
+Function of chlorine:
+1) Itkills pathogenic bacteria
+2) Itcan also kill spores and certain viruses (polio, viral hepatitis) in high doses
+3) It oxidizes iron, manganese and hydrogen sulphide
+4) It destroys some taste and odour producing constituents
+5) It controls algae and some slime organisms
+6) Itaids coagulation
+
+Action of chlorine:
+When chlorine is added to water, there is
+hydrochloric acid is neutralized by the alkalinity of the water. The hypocloro
+
+ions and hypochlorite ions, as follows:
+H,0 + Cl, > HCI + HOCI
+
+formation hydrochloric and hypochorous acids. The
+us acid ionizes to form hydrogen
+
+HOCI > H+ OCI
+The disinfection action of chlorine is mainly due to the hypochlorous acid, and to a small extent due to
+the hypochlorite ion. , :
+[Ref- Park /24"/751]
+
+Q. What is super chlorination?
+Answer
+
+Super chlorination:
+d by dechlorination comprises the addition of large doses of chlorine after
+
+Super chlorination followe'
+disinfection. This method is applicable to heavily polluted water whose quality fluctuates greatly.
+[Ref- Park / 24" / 752]
+
+chlorination? [DU-13Ju, RU-18M,16J]
+
+Q. What is break point
+Q. Write short note on: Break point chlorination.
+Answer
+Break point chlorination:
+The addition of chlorine to ammonia in water produces Chloramines. If the chlorine dose in the water is
+
+increased, residual chlorine will continue with further increase in chlorine dose and after a stage, the residual
+
+chlorines begin to increase in proportion to the added dose of chlorine. This point at which the residual chlorine
+
+appears and when all combined chlorines have been destroyed is the breakpoint and corresponding dosage is the
+
+breakpoint dosage.
+; [Ref- Park /24" / 752]
+
+Scanned with CamScanner
+

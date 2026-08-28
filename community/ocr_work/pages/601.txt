@@ -1,0 +1,94 @@
+588 ENDEAVOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
+
+2.
+
+3.
+4,
+5
+
+Q.
+
+Sampling may enable more accurate measurement for a sample study is generally conducted by trained
+and experience investigators.
+Sampling remains the only way when population contains infinitely many members.
+Sampling remains the only choice when a test involves the destruction of the item under study.
+Sampling usually enables to estimate the sampling and thus estimates the sampling error and thus
+assists in obtaining information concerning some characteristics of the population.
+
+[Ref- C. R. Kothari /2"*/ 187]
+
+Classify sampling [DU-17N, 12Ju, SUST-15J,13Ju, RU-18M, 12Ju,11J, CU-12J] / sampling
+technique [DU-17M, SUST-17M,16N] / different methods of sampling [DU-15J,11Ju, CU-
+
+14Ju,10Ju, SUST-17N, 16M, 13J,10J, RU-17M,16J,10J] with example.
+Explain simple random sampling. [DU-16J, CU-12Ju, 10J]
+
+Discuss types of probability sampling technique with example. [DU-10J, CU-16J]
+
+Q.
+
+Q. Mention stratified sampling technique with example. [DU-15J]
+Q.
+
+Q.
+
+Discuss different sampling methods. [DU-18M,16N]
+Q. Give the characteristic features of simple random sampling. [RU-18M]
+Q. Write short note on: Sampling techniques. [CU-13J]
+Q. Write short note on: Simple random sampling. [RU-11J]
+
+Answer
+
+Classification of sampling / different methods of sampling / sampling technique:
+A) Probability sampling / Chance sampling / Random sampling:
+
+1) Simple random sampling: This method is applicable when the population is small,
+homogenous and readily available. The simple is drawn in such a way that each unit has an
+
+equal chance of being drawn in the sample. So, this method is also called unrestricted random
+sampling. To ensure randomness of selection, lottery method or table of Random Number can
+
+be adopted.
+2) Systematic sampling: In a systematic sampling, the selection of the first unit is made at
+random and subsequent units are selected at certain interval.
+
+3) Stratified sampling: The sample is deliberately drawn in a systemic way so that each portion
+of the sample represents a corresponding stratum of the universe. This method is particularly
+
+useful where one is interested in analyzing the data by a certain characteristics of the
+population, viz Muslims, Hindus, Christians.
+
+4) Multistage sampling: This method refers to the sampling procedures carried out in several
+stages using random sampling techniques.
+
+5) Cluster sampling: A cluster is a randomly selected group. This method is used when units of
+population are natural groups or clusters such as villages, wards, blocks, slums of a town,
+
+factories, workshops or children of a school etc. As per module approved by WHO, it is the
+most often used to evaluate vaccination coverage in Expanded Program of Immunization and
+
+Universal Immunization Programme.
+
+6) Multiphase sampling: In this method, part of the information is collected from the whole
+sample and part from sub-sample.
+
+B) Non-probability sampling:
+1) Deliberate sampling / Purposive sampling / Judgment sampling: In this method, items for
+her; his choice concerning the items remains
+
+the sample are selected deliberately by the researc!
+
+supreme.
+
+2) Quota sampling: Under quota sampling the interviewers are simply given quota to be filled
+from the different strata, with some restriction on how they are to be filled.
+
+3) Accidental sampling: When the sample is collected without the intension of the researcher to
+collect the sample of that occasion.
+
+4) Convenient sampling: When the sampling is carried out according to the convenience of the
+
+researcher.
+|Ref- B.K. Mahajan / 6" /96 + Rashid, Khabir, Hyder / 5" / 121]
+
+Scanned with CamScanner

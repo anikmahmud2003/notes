@@ -1,0 +1,70 @@
+Chapter-12: Immunology & FE Py —————____t— 393
+
+Q. Define immune response. What are the fimr
+S whale you wcan'by'i types of immune responses? —
+van y immune response? [RU-13J]
+Immune response: Development of resistance to foreign substance is called immune response.
+Types:
+1) Primary immune response: When an antigen is administered for the first time to a person who has
+er been exposed to it, this initial encounter of a native immunocompetent lymphocyte with the
+antigen induces a response which is known as primary response.
+2) Secondary immune response: A second or subsequent contract of the host with the same antigen
+elicits a more rapid & heightened response which is known is as the secondary response.
+. The amplified population of memory cells accounts for the rapidity & intensity that
+distinguishes a secondary response from the primary response.
+
+Q. How primary response differs from secondary response?
+
+nswer
+
+Comparison between primary & secondary immune response:
+
+#: ' > Features”
+1) Latent period
+2) Rate of antibody production
+
+3) Peak antibody titer
+
+4) Persistence of Ab titer Short ptong
+Affinity of Ab Low [High
+
+7) Cross reactive antibody g :
+
+8) Predominant Ig class g g =
+
+Q. Discuss mechanism of immune response.
+
+Q. How an individual will response to an antigen when introduced for first time? [DU-10J]
+
+Q. Discuss the mechanism of immune response after vaccination.
+
+Answer
+Mechanism of immune response: Immunogenic stimulus by vaccination or any foreign antigen > Processing
+and presentation of the antigen by macrophage or other antigen presenting cells which are recognized by helper
+T cells (Th) > Activation and proliferation of helper T cells >
+> Activation of cytotoxic T cells > Delayed hypersensitivity reaction > Cell-mediated immunity.
+> Production of B cell growth and differentiation factors (IL-4 & 5) by Th cells > Activation of B
+lymphocyte > Proliferation & differentiation of activated B cells to plasma cells > Production of
+
+antibody > Humoral immunity.
+
+[Ref- LANGE Microbiology review /12"]
+
+Q. What is anamnestic reaction and its importance?
+
+Answer
+
+Anamnestic reaction: ,
+f host on second time with subsequent exposure the same or closely related
+
+The response or reaction 0 j D
+antigen, months or years after primary response is known as anamnestic reaction.
+
+Importance:
+1) Shorten latent period.
+2) Production of Ab more rapid.
+
+3) Antibody more abundant.
+4) Antibody response maintains at higher level for a longer period of time.
+
+Scanned with CamScanner

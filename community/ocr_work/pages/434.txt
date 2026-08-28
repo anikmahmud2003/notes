@@ -1,0 +1,79 @@
+Chapter-13: Disinfection & sterilization 421
+
+; Boiling is suitable for disinfection of small instruments, tools which are not used for subcutaneous
+insertion, linen and rubber goods such as gloves,
+: Addition of 1% soap and 0.3% of washing soda enhances the effect of boiling. Boiling for about 30 1
+minutes is adequate to disinfect linen, utensils, and bedpans. i]
+; The drawbacks of boiling are that it is a slow process, unsuitable for thick beddings and woolen
+
+materials as they shrink, and it fixes albuminous stain,
+[Ref- Park /24"/ 137]
+
+Q. Write short note on: Autoclave. |
+Answer H
+Autoclave:
+
+Sterilizers which operate at high temperatures (in excess of 100°C) and pressure are called autoclaves.
+
+Types of autoclave: They fall into two categories — i
+1) Double chamber autoclave &
+
+|
+2) Single chamber autoclave |
+
+Time, temperature & pressure used in autoclave:
+
+|
+121°C temperature under 15 Ibs/sq inch pressure for 15 minutes. Ht
+
+Principle of autoclave: {i}
+
+1. Atatmospheric pressure, water boils at 100°C i}
+
+2. With the rise of pressure, the boiling point of water also rises e.g.
+
+3. Steam under pressure unmixed with air has more temperature than that mixed with air.
+
+4. Steam under pressure has more penetrating power. This is due to fact that, steam condenses to water on
+contact with materials.
+
+5. During condensation of steam to water, a large amount of latent heat is liberated, thus increasing the i|}
+efficacy of sterilization.
+
+Uses of autoclaving:
+Autoclaving is widely used in hospital and laboratory practice. It destroys all forms of organisms Hi
+
+including spores. It is the most effective method for sterilization of linen, dressings, gloves, syringes, blunt
+surgical instruments and culture media. It is not suitable for sterilization of plastics and sharp instruments by
+autoclave.
+
+[Ref- Rashid, Khabir, Hyder / 4" /267 + M.R. Choudhury / 5" / 43 + Park / 24" / 137]
+
+Q. Give the mechanism of action of dry heat and moist heat. l
+Answer i|
+Mechanism of action of dry heat: 1
+
+1. Denaturation of cell protein
+
+2. Oxidative damage
+
+3. Toxic effect of elevated electrolyte. |
+
+Mechanism of action of moist heat: i
+1. Loss of functional integrity of cytoplasmic membrane. |
+2. Denaturation and coagulation of structural proteins and enzymes. |
+3. Breakage of DNA strands.
+
+Q. Mention the advantages of moist heat over dry heat in sterilization. |
+
+Q. Why moist heat is better / superior than dry heat?
+
+Answer
+
+Moist heat is superior to dry heat due to:
+1. Moist heat has a better penetrating power at a lower temperature. |
+2. It produces latent heat. |
+3. Kills the bacteria by denaturing their enzyme & structural proteins. \ |
+4. Bacteria are more susceptible to moist heat |
+
+Scanned with CamScanner
