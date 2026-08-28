@@ -48,8 +48,8 @@
 
 | Set | Source PDF | File |
 |---|---|---|
-| Board-1 (30 question sets) | `Com Med set ques Board-1.pdf` | [Board-1_Question_Sets.md](Board-1_Question_Sets.md) |
-| Board-2 (30 question sets) | `Com Med set qsn Board-2.pdf` | [Board-2_Question_Sets.md](Board-2_Question_Sets.md) |
+| Board-1 (30 question sets) | `Com Med set ques Board-1.pdf` | [Board-1_Question_Sets.md](set%20questions/Board-1_Question_Sets.md) |
+| Board-2 (30 question sets) | `Com Med set qsn Board-2.pdf` | [Board-2_Question_Sets.md](set%20questions/Board-2_Question_Sets.md) |
 
 ---
 
