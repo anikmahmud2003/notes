@@ -53,6 +53,48 @@
 
 ---
 
+## 🎙️ Viva Question Bank (Board-1 + Board-2, topic-wise answers)
+
+> Every SAQ from Boards 1 & 2 answered visually with tables, 🎯 mnemonic one-liners and 🔴 key points,
+> each referenced with `(S#,Q#)` tags and a 📖 chapter/Endeavour-PDF citation footer.
+
+| Viva | Topic | File | # of questions |
+|---|---|---|---|
+| 01 | Community Medicine & Concept of Health | [Viva-01_Community_Medicine_and_Concept_of_Health.md](set%20questions/Viva-01_Community_Medicine_and_Concept_of_Health.md) | 19 |
+| 02 | Concept of Disease | [Viva-02_Concept_of_Disease.md](set%20questions/Viva-02_Concept_of_Disease.md) | 7 |
+| 03 | Primary Health Care & Public Health Administration | [Viva-03_Primary_Health_Care_and_Public_Health_Administration.md](set%20questions/Viva-03_Primary_Health_Care_and_Public_Health_Administration.md) | 5 |
+| 04 | Epidemiology | [Viva-04_Epidemiology.md](set%20questions/Viva-04_Epidemiology.md) | 29 |
+| 05 | Immunity, EPI & Disinfection–Sterilization | [Viva-05_Immunity_EPI_and_Disinfection_Sterilization.md](set%20questions/Viva-05_Immunity_EPI_and_Disinfection_Sterilization.md) | 29 |
+| 06 | Demography | [Viva-06_Demography.md](set%20questions/Viva-06_Demography.md) | 29 |
+| 07 | Biostatistics | [Viva-07_Biostatistics.md](set%20questions/Viva-07_Biostatistics.md) | 28 |
+| 08 | MCH | [Viva-08_MCH.md](set%20questions/Viva-08_MCH.md) | 29 |
+| 09 | Family Planning | [Viva-09_Family_Planning.md](set%20questions/Viva-09_Family_Planning.md) | 1 |
+| 10 | Food & Nutrition | [Viva-10_Food_and_Nutrition.md](set%20questions/Viva-10_Food_and_Nutrition.md) | 29 |
+| 11 | School Health | [Viva-11_School_Health.md](set%20questions/Viva-11_School_Health.md) | 9 |
+| 12 | Personal Hygiene | [Viva-12_Personal_Hygiene.md](set%20questions/Viva-12_Personal_Hygiene.md) | 9 |
+| 13 | Epidemiology of Communicable Diseases | [Viva-13_Epidemiology_of_Communicable_Diseases.md](set%20questions/Viva-13_Epidemiology_of_Communicable_Diseases.md) | 3 |
+| 14 | Medical Entomology | [Viva-14_Medical_Entomology.md](set%20questions/Viva-14_Medical_Entomology.md) | 15 |
+| 15 | International Health | [Viva-15_International_Health.md](set%20questions/Viva-15_International_Health.md) | 14 |
+| 16 | Community Medicine & Concept of Health (Board-2) | [Viva-16_Community_Medicine_and_Concept_of_Health.md](set%20questions/Viva-16_Community_Medicine_and_Concept_of_Health.md) | 18 |
+| 17 | Primary Health Care (Board-2) | [Viva-17_Primary_Health_Care.md](set%20questions/Viva-17_Primary_Health_Care.md) | 2 |
+| 18 | Concept of Disease (Board-2) | [Viva-18_Concept_of_Disease.md](set%20questions/Viva-18_Concept_of_Disease.md) | 19 |
+| 19 | Viral Diseases | [Viva-19_Viral_Diseases.md](set%20questions/Viva-19_Viral_Diseases.md) | 21 |
+| 20 | Bacterial Diseases | [Viva-20_Bacterial_Diseases.md](set%20questions/Viva-20_Bacterial_Diseases.md) | 11 |
+| 21 | Protozoal Diseases | [Viva-21_Protozoal_Diseases.md](set%20questions/Viva-21_Protozoal_Diseases.md) | 3 |
+| 22 | Helminthic Diseases | [Viva-22_Helminthic_Diseases.md](set%20questions/Viva-22_Helminthic_Diseases.md) | 1 |
+| 23 | ARI & Diarrhoeal Diseases | [Viva-23_ARI_and_Diarrhoeal_Diseases.md](set%20questions/Viva-23_ARI_and_Diarrhoeal_Diseases.md) | 5 |
+| 24 | STD & Non-communicable Diseases | [Viva-24_STD_and_Non-communicable_Diseases.md](set%20questions/Viva-24_STD_and_Non-communicable_Diseases.md) | 4 |
+| 25 | Environmental Health & Water Arsenicosis | [Viva-25_Environmental_Health_and_Water_Arsenicosis.md](set%20questions/Viva-25_Environmental_Health_and_Water_Arsenicosis.md) | 20 |
+| 26 | Disposal of Wastes, Noise, Housing, Radiation & Humidity | [Viva-26_Disposal_of_Wastes_Noise_Housing_Radiation_Humidity.md](set%20questions/Viva-26_Disposal_of_Wastes_Noise_Housing_Radiation_Humidity.md) | 9 |
+| 27 | Air Pollution, Ventilation, Global Warming & Light | [Viva-27_Air_Pollution_Ventilation_Global_Warming_Light.md](set%20questions/Viva-27_Air_Pollution_Ventilation_Global_Warming_Light.md) | 8 |
+| 28 | Occupational Health | [Viva-28_Occupational_Health.md](set%20questions/Viva-28_Occupational_Health.md) | 30 |
+| 29 | Communication & Health Education | [Viva-29_Communication_and_Health_Education.md](set%20questions/Viva-29_Communication_and_Health_Education.md) | 30 |
+| 30 | Disaster, Accidents & Camp Sanitation | [Viva-30_Disaster_Accidents_and_Camp_Sanitation.md](set%20questions/Viva-30_Disaster_Accidents_and_Camp_Sanitation.md) | 29 |
+| 31 | Behavioral Science & Mental Health | [Viva-31_Behavioral_Science_and_Mental_Health.md](set%20questions/Viva-31_Behavioral_Science_and_Mental_Health.md) | 17 |
+| 32 | Public Health Administration | [Viva-32_Public_Health_Administration.md](set%20questions/Viva-32_Public_Health_Administration.md) | 7 |
+
+---
+
 ## 🔤 Legend & format
 
 - 📌 Each chapter file starts with its **title**, then one block per PDF page (marked `*PDF page N*`).
