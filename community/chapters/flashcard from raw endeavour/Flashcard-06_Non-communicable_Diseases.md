@@ -31,7 +31,7 @@ defined “Non communicable disease” which have one or more of the following c
 - They require special training of the patient for rehabilitation.
 - They may be expected to require a long period of supervision, observation or care.
 [Ref- Park /24" /380]
-vwaeno
+নন-কমিউনিকেবল ডিজিজ সহজে মনে রাখার সূত্র: "P-R-A-I-S" (প্রেইস)
 </details>
 
 <details>
