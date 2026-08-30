@@ -12,6 +12,10 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
+| [community/](community/) | Endeavour Community Medicine — full book text, board question sets & Viva bank |
+| [community/chapters/](community/chapters/) | Chapter-by-chapter full text of the Endeavour guide (26 chapters, 722 pages) |
+| [community/chapters/flashcard from raw endeavour/](community/chapters/flashcard%20from%20raw%20endeavour/) | Collapsible Q&A flashcards — click a question to reveal its answer |
+| [community/set questions/](community/set%20questions/) | Board-1 & Board-2 question sets + topic-wise Viva answer bank (Viva-01…32) |
 | [Medicine/davidson/davidson_immunology_bangla.html](Medicine/davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
 | [GK/bd-constitution.html](GK/bd-constitution.html) | Bangladesh Constitution notes |
 

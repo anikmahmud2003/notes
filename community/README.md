@@ -44,6 +44,17 @@
 
 ---
 
+## 🎴 Flashcard Versions (collapsible Q&A toggles)
+
+> Same content, re-structured as GitHub `<details>` toggles — every Q, Viva point and MCQ is clickable,
+> with the answer hidden below. No content removed.
+
+| Flashcard | Based on | File |
+|---|---|---|
+| 15 | Environment & Health (PDF 487–549) | [Flashcard-15_Environment_and_Health.md](chapters/flashcard%20from%20raw%20endeavour/Flashcard-15_Environment_and_Health.md) |
+
+---
+
 ## 📝 Board Question Sets
 
 | Set | Source PDF | File |
