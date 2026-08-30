@@ -25,11 +25,11 @@ risk factors have been identified to be associated.
 
 **Cardinal characteristics of non-communicable diseases:** The commission on chronic illness in USA has
 defined “Non communicable disease” which have one or more of the following characteristics —
-They are permanent.
-They leave residual disability.
-They are caused by non-reversible pathological alternation.
-They require special training of the patient for rehabilitation.
-They may be expected to require a long period of supervision, observation or care.
+- They are permanent.
+- They leave residual disability.
+- They are caused by non-reversible pathological alternation.
+- They require special training of the patient for rehabilitation.
+- They may be expected to require a long period of supervision, observation or care.
 [Ref- Park /24" /380]
 vwaeno
 </details>
