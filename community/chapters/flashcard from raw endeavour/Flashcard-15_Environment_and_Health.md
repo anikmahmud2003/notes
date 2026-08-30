@@ -9,28 +9,28 @@
 <details>
 <summary><b>Q. Define environment.<br>Q. Classify environment with example. [DU-17M]<br>Q. Classify macro-environment with example. [DU-18M]<br>Q. Enumerate the component of physical environment. [SUST-16J]</b></summary>
 
-Environment:
+**Environment:**
 The term environment implies all the external factors — living and non-living, material and non-material
 which surround man,
 Classification:
-* Internal environment: It relates to tissues, organ, organ system and their harmonious functioning.
-“External / macro environment: It is defined as, all that which is external to the individual human host,
+- Internal environment: It relates to tissues, organ, organ system and their harmonious functioning.
+External / macro environment: It is defined as, all that which is external to the individual human host,
 living and non-living and with which he is in constant interaction. These include all of man’s external
 surroundings such as air, water, food, housing etc.
 For descriptive purpose, the environment has been divided into three components, all closely related:
-** Physical: Water, air, soil, housing, wastes, radiation etc.
-* Biological: Plant and animal life including bacteria, viruses, rodents, insects and animals.
+- **Physical:** Water, air, soil, housing, wastes, radiation etc.
+- Biological: Plant and animal life including bacteria, viruses, rodents, insects and animals.
 o
-* Social / psychosocial: Customs, culture, habits, income, occupation, religion etc.
+- Social / psychosocial: Customs, culture, habits, income, occupation, religion etc.
 [Ref- Park / 24" / 742 + Rashid, Khabir, Hyder /5°/ 478]
 </details>
 
 <details>
 <summary><b>Q. What do you mean by sanitation?</b></summary>
 
-Sanitation: The dictionary meaning of sanitation is “the science of safe guarding health”.
+**Sanitation:** The dictionary meaning of sanitation is “the science of safe guarding health”.
 The National Sanitation Foundation of the U.S.A has defined sanitation as follows:
-“Sanitation is a way of life. It is the quality of living that is expressed in the clean home, the clean farm,
+Sanitation is a way of life. It is the quality of living that is expressed in the clean home, the clean farm,
 the clean business, the clean neighbourhood and the clean community. Being a way of life it must come from
 within the people; it is nourished ty knowledge and grows as an obligation and an ideal in human relations.”
 [Ref- Park / 24" / 742]
@@ -39,7 +39,7 @@ within the people; it is nourished ty knowledge and grows as an obligation and a
 <details>
 <summary><b>Q. What do you mean by environmental sanitation? [RU-10Ju]<br>Q. Write short note on: Environmental sanitation.</b></summary>
 
-Environmental sanitation / Environmental health:
+**Environmental sanitation / Environmental health:**
 The term environmental sanitation has been defined by WHO as, “the control of all those factors in
 man’s physical environment which exercise or may exercise a deleterious effect on his physical development,
 health & survival.
@@ -50,6 +50,7 @@ Purpose: To create and maintain ecological; conditions that will promote health 
 <details>
 <summary><b>📌 Viva — Basic needs of environmental health</b></summary>
 
+**~~ Ba Basic needs of environmental health:**
 Provision of safe water and adequate water supply.
 Disposal of wastes (refuse and human excreta)
 Provision of good housing
@@ -65,7 +66,7 @@ Control of occupational hazards.
 <details>
 <summary><b>Q. Enumerate the environmental health problems in Bangladesh. [SUST-16M/J,14Ju]<br>Q. Write down environmental health problem of your country.</b></summary>
 
-Environmental health problems in Bangladesh:
+**Environmental health problems in Bangladesh:**
 1) Provision of safe and adequate water supply.
 2) Disposal of wastes (refuse and human excreta).
 3) Provision of good housing.
@@ -81,7 +82,7 @@ Environmental health problems in Bangladesh:
 <details>
 <summary><b>Q. What are the environmental factors that can influence people’s health?</b></summary>
 
-Environmental factors that influence people’s health:
+**Environmental factors that influence people’s health:**
 1) Water supply 8) Humidity
 2) Air pollution 9) Precipitation
 3) Ventilation 10) Air velocity
@@ -94,17 +95,17 @@ Environmental factors that influence people’s health:
 <details>
 <summary><b>Q. What are the health measures used to take for a Haji Camp?<br>Q. What are the health measures used to take for a Camps, Fairs and Festivals?</b></summary>
 
-Health measures used to take for a haji camp:
+**Health measures used to take for a haji camp:**
 1) Site selection:
-> Itshould be selected on a high land not subject to flooding or water lodging.
-> Itshould have good approach from the main road.
+  - Itshould be selected on a high land not subject to flooding or water lodging.
+  - Itshould have good approach from the main road.
 2) Accommodation:
-> The front of the camp should face the prevailing wind.
+  - The front of the camp should face the prevailing wind.
 ,
-> Transport lines, animals & vehicles should be concentrated in special areas in the rear.
-> He sleeping accommodation should be in front, with kitchen & messing accommodation
+  - Transport lines, animals & vehicles should be concentrated in special areas in the rear.
+  - He sleeping accommodation should be in front, with kitchen & messing accommodation
 nearby at one side.
-> Surface drainage of the camp areas should be provided.
+  - Surface drainage of the camp areas should be provided.
 3) Water supply: Should be only safe but also free from accidental contamination.
 4) Disposal of refuse & excreta
 5) Medical & public health management: All the religious festivals,
@@ -121,7 +122,7 @@ a SS
 <details>
 <summary><b>Q. What is safe and wholesome water? [CU-1 lJu,10Ju/J, SUST-13Ju,12J]<br>Q. What are the characteristics of safe and wholesome water? [SUST-18M]<br>Q. Explain the criteria of safe drinking water. [CU-13J]</b></summary>
 
-Safe and wholesome water: Safe & wholesome water has been defined as water that is —
+**Safe and wholesome water:** Safe & wholesome water has been defined as water that is —
 1) Free from pathogenic agents
 2) Free from harmful chemical substances
 3) Pleasant to taste, i.e., free from colour and odour; and
@@ -132,6 +133,7 @@ Safe and wholesome water: Safe & wholesome water has been defined as water that 
 <details>
 <summary><b>📌 Viva — Water needs / requirements</b></summary>
 
+**<* Water needs / requirements:**
 1) Basic physiological requirements for drinking water have been estimated at about 2 L per head
 per day.
 2) A quantity of 150-200 L of water per head per day is considered to be adequate; more is needed
@@ -144,7 +146,7 @@ habit of the people.
 <details>
 <summary><b>Q. Give the uses of water.</b></summary>
 
-Uses of water:
+**Uses of water:**
 1) Essential for body functions: Maintenance of vital body functions and personal body physiology.
 2) Essential for plants: Plants use water to convert the nutrients in the soil into food, which keeps
 them alive and helps them to grow.
@@ -160,7 +162,7 @@ them alive and helps them to grow.
 <details>
 <summary><b>Q. Give the physiological functions of water.</b></summary>
 
-Physiological functions of water:
+**Physiological functions of water:**
 1) Replaces fluid loss from the body.
 2) Maintains fluidity of blood and lymph
 3) Helps elimination of waste material from the body
@@ -173,7 +175,7 @@ Physiological functions of water:
 <details>
 <summary><b>Q. Give the physical characters of water.</b></summary>
 
-Physical characters of water:
+**Physical characters of water:**
 1) Colourless
 2) Odourless
 3) No resident
@@ -190,22 +192,23 @@ Physical characters of water:
 <details>
 <summary><b>Q. What are common sources of water? [SUST-16]]</b></summary>
 
-There are three main sources of water:
+**There are three main sources of water:**
 1) Rain.
 2) Surface water:
-> Impounding reservoirs
-> Rivers and streams
-> Tanks, ponds and lakes
+  - Impounding reservoirs
+  - Rivers and streams
+  - Tanks, ponds and lakes
 3) Ground water:
-> Shallow wells
-> Deep wells
-> Springs
+  - Shallow wells
+  - Deep wells
+  - Springs
 [Ref- Park /24"/744]
 </details>
 
 <details>
 <summary><b>📌 Viva — Preferred sources of drinking water</b></summary>
 
+**“ Preferred sources of drinking water:**
 1) Tube well: It is the best source of drinking water unless affected by flood.
 2) Rain water: If possible to harvest, it can be used without treatment.
 3) Treated surface water.
@@ -215,27 +218,27 @@ There are three main sources of water:
 <details>
 <summary><b>Q. Describe the impounding reservoir.</b></summary>
 
-Impounding reservoir: . ;
+**Impounding reservoir:** . ;
 These are artificial lakes constructed usually of earthwork or masonry in which large quantities of
 surface water is stored. Dams built across rivers and mountain streams also provide large reserve of surface
 water. The area draining into reservoir is called “catchment area”.
-“+ Advantage:
-> The water is clear and palatable
-> Itis soft and considered to be free of pathogenic organism
-> Ranks next to rain water in purity
-“Disadvantage: If water is stored for long period there may be growth of algae and other microscopic
++ Advantage:
+  - The water is clear and palatable
+  - Itis soft and considered to be free of pathogenic organism
+  - Ranks next to rain water in purity
+Disadvantage: If water is stored for long period there may be growth of algae and other microscopic
 organisms, which impart bad tastes and odour to water.
 “ Impurities:
-> It derives impurities from catchment area, the sources being human habitation and animal
+  - It derives impurities from catchment area, the sources being human habitation and animal
 keeping or grazing.
-> It may also derive impurities from wild animals.
+  - It may also derive impurities from wild animals.
 [Ref- Park / 24" / 744]
 </details>
 
 <details>
 <summary><b>Q. How we can construct a sanitary well?</b></summary>
 
-Sanitary well: A sanitary well is one which
+**Sanitary well:** A sanitary well is one which
 contamination with a view to yield a supply of safe water.
 Construction of a sanitary well: /
 1) Location: Not less than 15 meters from likely sources of bacteria! contamination.
@@ -265,7 +268,7 @@ most satisfactory source of water supply, which is bacteriologically safe.
 <details>
 <summary><b>Q. Write short note on: Wells.<br>Q. Mention the types of wells. Give the differen</b></summary>
 
-Wells:
+**Wells:**
 Traditionally wells are an important source of water supply. Even today, they are an important source of
 water supply in many countries. Technically wells are of 2 kinds-
 1) Shallow wells: Shallow wells tap subsoil water i.e. the water from above the first impervious layer
@@ -294,7 +297,7 @@ Much hard
 <details>
 <summary><b>Q. Discuss the steps in well disinfection with example. [RU-15Ju]</b></summary>
 
-Steps in well disinfection:
+**Steps in well disinfection:**
 Wells are the main source of water supply in rural areas. The most effective and cheapest method of
 disinfecting wells is by bleaching powder. The steps of well disinfections are —
 1, Find the volume of water in well:
@@ -311,7 +314,7 @@ of the well water by “Horrock’s Apparatus (vide Annex 1) and calculate the a
 powder required to disinfect the well. Roughly, 2.5 grms of good quality bleaching powder would
 be required to disinfect 100 litres of water. This will give an approximate dose of 0.7 mg of applied
 chlorine per litre of water. .
-* 3. Dissolve bleaching powder in water: The bleaching powder is placed in a bucket (not more than
+- 3. Dissolve bleaching powder in water: The bleaching powder is placed in a bucket (not more than
 100 gm in one bucket) and made into a thin paste. More water is added till the bucket is nearly
 three fourth full. The contents are stirred well and allowed to sediment for 5 to 10 minutes when
 lime settles down. The supernatant solution which is chlorine solution, is transferred to another
@@ -330,19 +333,19 @@ solution mixes intimately with the water inside the well.
 <details>
 <summary><b>Q. What are the impurities of water?<br>Q. Write down the causes of water pollution. [CU-12Ju]</b></summary>
 
-Causes of water pollution / Impurities of water:
+**Causes of water pollution / Impurities of water:**
 “ Natural:
 1) Dissolved impurities:
-> Gases like carbonic acid, oxygen, hydrogen sulphide.
-> Salts e.g. chlorides, calcium and magnesium sulphates.
-> Metals like arsenic, iron, lead etc.
-> Organic material from soil and other sources.
+  - Gases like carbonic acid, oxygen, hydrogen sulphide.
+  - Salts e.g. chlorides, calcium and magnesium sulphates.
+  - Metals like arsenic, iron, lead etc.
+  - Organic material from soil and other sources.
 2) Suspended impurities:
-> Inorganic e.g. sand, silt, mud, clay.
-> Organic derived from vegetable & animal matter.
-> Bacteria.
-> Ova of worms, etc.
-“Manmade:
+  - Inorganic e.g. sand, silt, mud, clay.
+  - Organic derived from vegetable & animal matter.
+  - Bacteria.
+  - Ova of worms, etc.
+Manmade:
 1) Sewage which contains decomposable organic matter and pathogenic agents.
 2) Industrial and trade wastes, which contain toxic agents ranging from salts to complex
 synthetic organic chemicals.
@@ -355,7 +358,7 @@ synthetic organic chemicals.
 <details>
 <summary><b>Q. Enlist the sources of water pollution. [DU-17N, SUST-18N, | TN, 15J,14J, 1 1Ju,10Ju, CU-16N]<br>Q. Mention the sources of water pollution of the river Buriganga. [DU-14Ju]</b></summary>
 
-Sources of impurities of water / water pollution:
+**Sources of impurities of water / water pollution:**
 1) Substances received at sources: It depends upon the nature of soil, water of chalky soil contains
 excess of calcium; in a densely populated town, water contains calcium, sodium, nitrates, nitrites
 phosphates etc.
@@ -372,31 +375,31 @@ polluted by sewage, wastewater and industrial sources, etc.
 <details>
 <summary><b>Q. List the water borne diseases. [DU-17N,11Ju, SUST-17N, 15J,14J,10Ju]<br>Q. List the biological water borne diseases. [DU-17M, SUST-18N, 13J]<br>Q. Mention the diseases transmitted by contaminated water. [DU-12Ju]<br>Q. List the water borne health problems. [SUST-11J]<br>Q. What are the water borne diseases prevailing among slum dwellers? [DU-13J]<br>Q. Name the bacteriological & viral diseases transmitted through water. [SUST-16N]<br>Q. Enumerate the water-related public health problems in Bangladesh. [SUST-10J]</b></summary>
 
-Hazards of water pollution:
-“+ Biological hazards (water borne disease):
+**Hazards of water pollution:**
++ Biological hazards (water borne disease):
 A) Disease due to the presence of an infective agent:
 1) Viral:
-> Viral hepatitis A & E
-> Poliomyelitis
-> Rotavirus diarrhea in infants
+  - Viral hepatitis A & E
+  - Poliomyelitis
+  - Rotavirus diarrhea in infants
 2) Bacterial:
 Typhoid, paratyphoid
 Bacillary dysentery
 coli diarrhea
 Cholera
 3) Protozoal:
-> Amoebiasis
-> Giardiasis
+  - Amoebiasis
+  - Giardiasis
 4) Helminthic:
->» Round worm infection
-> Thread worm infection
-> Hydatid disease
+  - » Round worm infection
+  - Thread worm infection
+  - Hydatid disease
 5) Leptospiral: Weil's disease
 B) Disease due to aquatic host:
 1) Cyclops: Guinea worm, fish tape worm
 2) Snail: Schistosomiasis
 Q
-** Chemical hazards:
+- **Chemical hazards:**
 1) Salts of Pb, Zn, Fe > Constipation
 2) Salts of Fe + Dyspepsia
 3) Prolonged use of water containing Pb salts + Plumbism
@@ -409,8 +412,8 @@ Q
 10) Rotten vegetable material — diarrhea, abdominal upset.
 [Ref- Park / 24" / 747]
 Note:
-> Slum: A neighborhood where many people live in a state of poverty.
-> Dweller: An inhabitant of a specific place.
+  - Slum: A neighborhood where many people live in a state of poverty.
+  - Dweller: An inhabitant of a specific place.
 </details>
 
 <details>
@@ -422,7 +425,7 @@ Write from above discussion.
 <details>
 <summary><b>Q. Give the differences between pollution and contamination.</b></summary>
 
-Differences between pollution and contamination:
+**Differences between pollution and contamination:**
 a Pollution 52150 ae gn ee GontamnAtOnwane ss eet
 [LTurbidity+ | Turbidity #/-
 2. Pathogens doubtful Pathogens definite :
@@ -447,17 +450,17 @@ industrial sources etc.
 <details>
 <summary><b>Q. How water can be purified?<br>Q. Write short note on: Purification of water.</b></summary>
 
-Impure water can be purified by the following methods:
+**Impure water can be purified by the following methods:**
 A) Purification of water on large scale:
 1) Storage
 2) Filtration
 3) Disinfection
 B) Purification of water on small scale:
 1) Household purification:
-> Physical: Boiling.
-> Chemical disinfection (by chlorine solution, bleaching powder, high test
+  - Physical: Boiling.
+  - Chemical disinfection (by chlorine solution, bleaching powder, high test
 hypochlorite, chlorine tablets, iodine, potassium permanganate etc.).
-> Filtration: Slow sand filter & rapid sand filter.
+  - Filtration: Slow sand filter & rapid sand filter.
 isinfection of wells.
 2) Disinfection o [Ref- Park /24" 749)
 </details>
@@ -465,7 +468,7 @@ isinfection of wells.
 <details>
 <summary><b>Q. Describe the water purification process by surface water treatment.</b></summary>
 
-Natural purification process in surface water:
+**Natural purification process in surface water:**
 1) Sunlight: It bleaches colour, encourages growth of algae or plankton which are active purifiers,
 Most important function of algae is reoxygenation of polluted water. Ultraviolet rays are
 germicidal.
@@ -482,9 +485,9 @@ Stream purification.
 <details>
 <summary><b>Viva Q. Diarrhoea is breaking out in a flood affected area. What measures to be taken?</b></summary>
 
-Measures to be taken in an area affected by diarrhoea:
+**Measures to be taken in an area affected by diarrhoea:**
 1) Measures to supply safe and purified drinking water by using:
-> Bleaching powder. (CaOC]1,)
+  - Bleaching powder. (CaOC]1,)
 Chlorine solution
 Chlorine tablets (e.g. halozone)
 High test hypochlorite (HTH)
@@ -507,8 +510,8 @@ Nesfield tablets
 <details>
 <summary><b>Q. Mention the steps in large scale water purification. [SUST-16N/J]<br>Q. Enumerate briefly the water purification on large scale. [DU-17M]<br>Q. How storage improves the quality of water? [CU-10J]</b></summary>
 
-Purification of water ona large scale:
-* Storage: Storage Provides a reserve of water from which further pollution is excluded. As a result of
+**Purification of water ona large scale:**
+- Storage: Storage Provides a reserve of water from which further pollution is excluded. As a result of
 Storage, a very considerable amount of purification takes place. This is called natural purification which
 can be looked from 3 Points of view:
 1) Physical: By mere storage, the quality of water improves about 90% of the suspended
@@ -518,15 +521,15 @@ OMANI -——-----— .
 a rise in nitrates occurs.
 3) Biological: A tremendous drop of bacteria takes place during storage.
 %
-** Filtration: There are two types of filters are in use:
+- **Filtration:** There are two types of filters are in use:
 1) Slow sand filters or biological filters: It consists of
-> Supematant (raw) water.
-> A bed of graded sand.
-> An under-drainage system.
-> Asystem of filter control valves.
+  - Supematant (raw) water.
+  - A bed of graded sand.
+  - An under-drainage system.
+  - Asystem of filter control valves.
 2) The rapid sand filters or mechanical filters: It is of 2 types:
-> The gravity type; e.g. Paterson’s filter
-> The pressure type; e.g. Candy’s filter
+  - The gravity type; e.g. Paterson’s filter
+  - The pressure type; e.g. Candy’s filter
 The following steps are involved in the purification of water by rapid sand filter:
 Coagulation
 Rapid mixing
@@ -534,7 +537,7 @@ Flocculation
 Sedimentation
 Filtration
 SAN SN AES
-“+ Disinfection:
++ Disinfection:
 1) Chlorination.
 2) Ozonation.
 3) Ultraviolet irradiation [Ref- Park / 24" 748-751]
@@ -546,7 +549,7 @@ SAN SN AES
 <details>
 <summary><b>Q. Discuss slow sand filtration method with diagram for purification of water.</b></summary>
 
-Slow sand or biological filtration:
+**Slow sand or biological filtration:**
 Elements: The various elements of a slow sand filter are:
 1) Supernatant (raw) water
 2) A bed of graded sand
@@ -572,7 +575,7 @@ Figure: Slow sand filter.
 <details>
 <summary><b>Q. State the advantages of slow sand filter.</b></summary>
 
-Advantages of slow sand filter:
+**Advantages of slow sand filter:**
 1) Simple to construct and operate.
 2) The cost of construction is cheaper than that of rapid sand filters.
 3) The physical, chemical and bacteriological quality of filtered water is very high.
@@ -593,11 +596,11 @@ meter of filter sand presents some 15,000 sq. meters of surface :
 area. Water percolates through the sand bed very stowly (a |x SAND"
 process taking two hours or more) and as it does so, it is
 subjected to a number of purification processes -
-¥ Mechanical straining
-Y Sedimentation
-Y Adsorption
-Y Oxidation
-Y Bacterial action
+- Mechanical straining
+- Sedimentation
+- Adsorption
+- Oxidation
+- Bacterial action
 The designed rate of infiltration of water normally lies
 between 0.1 and 0.4 m’'/ hour/ per sq. meter of sand bed surface.
 [Ref- Park / 24" / 749] Figure: Section of filter bed.
@@ -606,7 +609,7 @@ between 0.1 and 0.4 m’'/ hour/ per sq. meter of sand bed surface.
 <details>
 <summary><b>Q. What is biological layer?<br>Q. ‘Zoogleal layer is the heart of show sand filter’-explain. [RU-15Ju]<br>Q. Explain zoogleal layer with its importance. [RU-18M]<br>Q. Write short note on: Zoogleal layer. [RU-13Ju]</b></summary>
 
-Biological layer / zoogleal layer:
+**Biological layer / zoogleal layer:**
 When the filter is newly laid, it acts merely as a mechanical strainer and cannot truly be considered as
 ‘biological’. But very soon, the surface of the sand bed gets covered with a slimy growth known as
 ‘Schmutzdecke’, vital layer, zoogleal layer or biological layer.
@@ -627,16 +630,16 @@ the sand bed becomes covered with a slimy growth, known as vital layer, biologic
 formulation of vital layer is known as ripening of the filter. It takes several days for the vital layer to form fully.
 When fully formed it extends for 2-3 cm into the top portion of the sand bed.
 Composition / constituents: The layer is limy gelatinous and consists of —
-> Thread like algae
-> Plankton
-> Diatoms
-> Bacteria
+  - Thread like algae
+  - Plankton
+  - Diatoms
+  - Bacteria
 Function / role: It is the heart of the slow sand filter.
 aeee
-> Itremoves organic matter.
-> It holds back bacteria.
-> It oxidizes ammoniacal nitrogen into nitrates.
-> Ithelps in yielding a bacteria free water.
+  - Itremoves organic matter.
+  - It holds back bacteria.
+  - It oxidizes ammoniacal nitrogen into nitrates.
+  - Ithelps in yielding a bacteria free water.
 [Ref- Park /24"/ 749)
 </details>
 
@@ -669,26 +672,26 @@ Chlorination
 <details>
 <summary><b>Q. Describe the principles and methods of chlorination.<br>Q. Write short note on: Chlorination.</b></summary>
 
-Principles of chlorination: [Jn water works practice, the term disinfection is synonymous with chlorination]
-¥ Firstly, the water to be chlorinated should be clear and free from turbidity.
-¥ Secondly, the chlorine demand of the water should be estimated.
-Y Thirdly, the presence of free residual chlorine for a contact period of at least 1 hour is essential to
+**Principles of chlorination:** [Jn water works practice, the term disinfection is synonymous with chlorination]
+- Firstly, the water to be chlorinated should be clear and free from turbidity.
+- Secondly, the chlorine demand of the water should be estimated.
+- Thirdly, the presence of free residual chlorine for a contact period of at least 1 hour is essential to
 kill bacteria and viruses.
-¥ The minimum recommended concentration of free chlorine is 0.5 mg/L for | hour.
-v The sum of the chlorine demand of the specific water plus the free residual chlorine of 0.5 mg/l
+- The minimum recommended concentration of free chlorine is 0.5 mg/L for | hour.
+- The sum of the chlorine demand of the specific water plus the free residual chlorine of 0.5 mg/l
 constitutes the current dose of the chlorine to be applied.
 Methods of chlorination:
 1) Chlorination of water ona small scale:
-> Chlorine gas.
-> Chloramines.
-> Perchloron or high test hypochlorite.
+  - Chlorine gas.
+  - Chloramines.
+  - Perchloron or high test hypochlorite.
 2) Chlorination of water ona large scale:
 Bleaching powder.
 Chlorine solution.
 Perchloron or high test hypochlorite.
 Chlorine tablet.
 [Ref- Park / 24/751]
->
+  - 
 ee re
 </details>
 
@@ -727,7 +730,7 @@ the hypochlorite ion. , :
 <details>
 <summary><b>Q. What is super chlorination?</b></summary>
 
-Super chlorination:
+**Super chlorination:**
 d by dechlorination comprises the addition of large doses of chlorine after
 Super chlorination followe'
 disinfection. This method is applicable to heavily polluted water whose quality fluctuates greatly.
@@ -738,7 +741,7 @@ chlorination? [DU-13Ju, RU-18M,16J]
 <details>
 <summary><b>Q. What is break point<br>Q. Write short note on: Break point chlorination.</b></summary>
 
-Break point chlorination:
+**Break point chlorination:**
 The addition of chlorine to ammonia in water produces Chloramines. If the chlorine dose in the water is
 increased, residual chlorine will continue with further increase in chlorine dose and after a stage, the residual
 chlorines begin to increase in proportion to the added dose of chlorine. This point at which the residual chlorine
@@ -750,7 +753,7 @@ breakpoint dosage.
 <details>
 <summary><b>Q. Define chlorine demand. [DU-15Ju]<br>Q. State the Principles of chlorine demand. [DU-15Ju]<br>Q. Write short note on: Chlorine demand.</b></summary>
 
-Chlorine demand:
+**Chlorine demand:**
 Chlorine demand is the difference between total chlorine added in the water and residual chlorine,
 To purify water supplies and make them suitable for purposes like drinking, cooking and swimming,
 chlorine is added. Chlorine demand from the total chlorine added can be explained using the following
@@ -776,9 +779,9 @@ area. [CU-11J]
 <details>
 <summary><b>Q. Mention the measures for water purification in small scale. [DU-18N]</b></summary>
 
-Methods of purification of water on a small scale:
-** Household purification of water,
-** Disinfection of well.
+**Methods of purification of water on a small scale:**
+- Household purification of water,
+- Disinfection of well.
 Description:
 A) Household purification of water: 3 methods are generally available for purifying water on an
 individual or domestic level.
@@ -787,20 +790,20 @@ effective, the water must be brought to a “rolling boil” for 5 to 10 minutes
 spores, cyst and ova.
 b) Chemical disinfection:
 1) Bleaching powder (CaOCl,):
-Y It is mostly used in proportion of 30gm/100 gallons of water.
-VY Stock solution is made by adding | tea spoonful of bleaching powder to | pint
+- It is mostly used in proportion of 30gm/100 gallons of water.
+- Stock solution is made by adding | tea spoonful of bleaching powder to | pint
 of water.
-Y 1 mlof stock solution can sterilized 10 gallons of water in half an hour.
+- 1 mlof stock solution can sterilized 10 gallons of water in half an hour.
 2) Potassium per manganite (KMnQ,):
-Y It oxidizes the organic matter and also serves as deodorant.
-Y 0.5 part in 100,000 parts of water,
-Y  Sterilizes water in 4 to 6 hours.
+- It oxidizes the organic matter and also serves as deodorant.
+- 0.5 part in 100,000 parts of water,
+- Sterilizes water in 4 to 6 hours.
 3) Alum:
-v It is used to purify muddy water.
-Y For | gallon of water, alum is required 2-5 grams.
+- It is used to purify muddy water.
+- For | gallon of water, alum is required 2-5 grams.
 4) Copper sulphate:
-¥ It is used to prevent the growth of algae and other vegetable growth in tanks.
-Y  Itis used in proportion of 0.1-0,25 parts per million parts of water.
+- It is used to prevent the growth of algae and other vegetable growth in tanks.
+- Itis used in proportion of 0.1-0,25 parts per million parts of water.
 ee
 5) Calcium oxide: 6 grams of lime will sterilize | grain of soft water in 5-24 hours.
 6) Chloride tablet: A single tablet of 0.5 gm is sufficient to disinfectant 20 liters of
@@ -810,9 +813,9 @@ water.
 9) High test hypochlorite. ;
 10) Nesfield tablets.
 c) Filtration:
-> Pasteur; Chamberland filter
-> Berkefeld filter: Commonly used in streams, industries and dispensaries.
-> Katadyn filter.
+  - Pasteur; Chamberland filter
+  - Berkefeld filter: Commonly used in streams, industries and dispensaries.
+  - Katadyn filter.
 B) Disinfection of well:
 1) The volume of the water in a well is calculated
 2) The amount of the bleaching powder required for disinfection is estimated.
@@ -826,7 +829,7 @@ B) Disinfection of well:
 <details>
 <summary><b>Q. Name the water disinfectants with their doses.</b></summary>
 
-Water disinfectants with their doses:
+**Water disinfectants with their doses:**
 Water disinfectant
 Chlorine tablets
 Potassium per manganate
@@ -848,20 +851,20 @@ citric acid for 4 gallons of water
 <details>
 <summary><b>Q. Discuss the standard of quality of drinking water.<br>Q. Mention the criteria for bacteriological standard of drinking water. [SUST-18M]</b></summary>
 
-Criteria & standards of water quality: The guidelines for drinking water quality recommended by WHO ,
+**Criteria & standards of water quality:** The guidelines for drinking water quality recommended by WHO ,
 relates to the following variables:
-“+ Acceptability aspects,
-** Microbiological aspects,
-“* Chemical aspects,
++ Acceptability aspects,
+- Microbiological aspects,
+* Chemical aspects,
 %
-“* Radiological aspects.
+* Radiological aspects.
 Description of variables:
 A) Acceptability aspects:
 1) Physical parameter:
-> Turbidity- should be free from turbidity
-> Colour — should be colourless
-> Taste and odour
-> Temperature
+  - Turbidity- should be free from turbidity
+  - Colour — should be colourless
+  - Taste and odour
+  - Temperature
 2) Inorganic constituents: The following criteria have been suggested —
 Chloride 200 mg/liter
 Hardness Ca: 100-200 ing/liter
@@ -877,31 +880,31 @@ Zinc 4me/titer
 Manganese Less than 0.3 mg/liter
 B) Microbiology aspects:
 1) Bacteriological indicators:
-Y Coliform organism,
-v Faecal streptococci,
-Y CL. Perfringes.
+- Coliform organism,
+- Faecal streptococci,
+- CL. Perfringes.
 Bacteriological indicator of pure water:
-Y No sample should contain E. coli in 100ml. Fee
-¥ No sample should contain more than 3 coliform organisms per 100 ml
-Y Not more than 5% sample throughout the year should contain coliform in 100 ml.
-¥ No two consecutive samples should have coliform organisms in 100 ml.
+- No sample should contain E. coli in 100ml. Fee
+- No sample should contain more than 3 coliform organisms per 100 ml
+- Not more than 5% sample throughout the year should contain coliform in 100 ml.
+- No two consecutive samples should have coliform organisms in 100 ml.
 2) Mirological aspects: New recommendation is that faecal bacteriophagers enterpathogenic
 viruses should be absent.
 3) Biological aspects:
-> Protozoa
-> Helminthic
->» Free-living organisms
+  - Protozoa
+  - Helminthic
+  - » Free-living organisms
 C) Chemical aspects:
 1) Inorganic constituents:
 Cyanide
 Selenium
 2) Organic constituents:
-> Chlorinated alkanes
-> Chlorinated ethane
-* Aromatic hydrocarbon
+  - Chlorinated alkanes
+  - Chlorinated ethane
+- Aromatic hydrocarbon
 D) Radiological aspects: The proposed guideline values are:
-Y Gross alpha activity 0.1 Baq/I.
-Y Gross beta activity 1.0 Bq/I.
+- Gross alpha activity 0.1 Baq/I.
+- Gross beta activity 1.0 Bq/I.
 [Ref- Park / 24" /756 + Rashid, Khabir, Hyder / 5" / 492]
 </details>
 
@@ -949,12 +952,12 @@ Bacteriological standard of pure water:
 water?
 Coliform organisms are chosen as indicator of faecal pollution rather than the water pathogens for the
 following purposes:
-Y They are constantly present in great abundance in human intestine. These organisms are foreign to
+- They are constantly present in great abundance in human intestine. These organisms are foreign to
 potable waters, and hence their presence is looked upon as evidence of faecal contamination.
-Y They are easily detected by culture methods- as small as one bacterium in 100 ml of water.
+- They are easily detected by culture methods- as small as one bacterium in 100 ml of water.
 Whereas the methods for detection of other bacteria are time consuming.
-Y They survive longer than the pathogens, which tend to die out more rapidly.
-Y They have the greater resistance to the forces of natural purification than the water borne
+- They survive longer than the pathogens, which tend to die out more rapidly.
+- They have the greater resistance to the forces of natural purification than the water borne
 pathogens. If the coliform organisms are present in a water sample, the assumption is the probable
 presence of intestinal pathogens.
 [Ref- Park / 24" / 758]
@@ -964,14 +967,15 @@ presence of intestinal pathogens.
 <details>
 <summary><b>📌 Viva — Bacterial indicator of faecal pollution</b></summary>
 
-> Primary indicator: Coliform organism.
-> Secondary indicator: Faecal streptococci, sulphite reducing clostridia.
+**“ Bacterial indicator of faecal pollution:**
+  - Primary indicator: Coliform organism.
+  - Secondary indicator: Faecal streptococci, sulphite reducing clostridia.
 “ Surveillance of drinking water quality: The activities include:
 1) Approval of new sources ( including private-owned supplies)
 2) Watershed protection
-> |
+  - |
 3) Approval of the construction and operating procedures of waterworks including
-> Disinfection of the plant and of the distribution system after repair or interruption of
+  - Disinfection of the plant and of the distribution system after repair or interruption of
 supply
 Periodic flushing programmes and cleaning of water storage facilities
 Certification of operators
@@ -991,7 +995,7 @@ services
 <details>
 <summary><b>Q. Define hardness of water. Classify it.<br>Q. How can you remove the hardness of water?</b></summary>
 
-Hardness of water: It is defined as the soap-destroying power of water.
+**Hardness of water:** It is defined as the soap-destroying power of water.
 Types: It is of 2 types-
 1) Temporary hardness: It is due to the presence of bicarbonates of calcium or magnesium in water
 held in solution by carbon dioxide.
@@ -1020,7 +1024,7 @@ CaSO, + Na,CO; -> CaCO; + Na,SO,
 <details>
 <summary><b>Q. What are the disadvantages of hard water?</b></summary>
 
-Disadvantages of hard water:
+**Disadvantages of hard water:**
 1) Consumes more soap and detergent.
 2) Staining in clothes and shorten their life. *
 3) Adversely affects cooking.
@@ -1036,7 +1040,7 @@ sometime boiler explosion.
 It is a predominantly physical mixture of a variety of individual gases enveloping the terrestrial globe to
 form the earth’s atmosphere.
 Composition: Pure dry air is a mixture of gases in relatively stable proportions —
-> Nitrogen — 78.09%
+  - Nitrogen — 78.09%
 Oxygen — 20.95%
 Argon — 0.93%
 Carbon dioxide — 0.03%
@@ -1048,8 +1052,8 @@ The specific gravity at 0 deg C and 760 mmHg is 1.293.
 <details>
 <summary><b>Q. Discuss the air borne diseases.</b></summary>
 
-Air borne diseases:
-“> Air borne infections:
+**Air borne diseases:**
+> Air borne infections:
 A) Droplet infection: Infection transmitted by coughing, sneezing or talking loudly droplets
 containing large number of organisms:
 Tuberculosis
@@ -1070,7 +1074,7 @@ t
 }
 '
 2) Viral infection:
-> Chicken pox
+  - Chicken pox
 Measles
 Mumps
 Influenza
@@ -1082,25 +1086,25 @@ C) Dust: Diseases are transmitted through air or dust infected food, milk etc.
 3) Streptococcal infection
 4) Staphylococcal infection
 5) Psittacosis etc.
-* Diseases due to inhalation of harmful air borne agents:
+- Diseases due to inhalation of harmful air borne agents:
 A) Inhalation of non-infective dust: Irritation causes subsequent lowering of resistance to eye ad
 tespiratory infection.
 B) Toxic and non-toxic industrial particles and air pollutants of cities:
 1) Pneumoconiosis such as-
-> Siderosis
-> Silicosis
-> Anthracosis
-> Pb poisoning
+  - Siderosis
+  - Silicosis
+  - Anthracosis
+  - Pb poisoning
 2) Delayed effects of air pollution:
-> Chronic bronchtis
-> Bronchogenic carcinoma.
+  - Chronic bronchtis
+  - Bronchogenic carcinoma.
 [Ref- Park /24" / 103]
 </details>
 
 <details>
 <summary><b>Q. What are the air pollutants?<br>Q. Name 6 (six) important air pollutants. [RU-18N]</b></summary>
 
-Air pollutants: More than 100 contaminants have been identified. The important ones are —
+**Air pollutants:** More than 100 contaminants have been identified. The important ones are —
 “ Gaseous pollutants:
 1) Carbon dioxide
 2) Carbon mono-oxide
@@ -1136,9 +1140,9 @@ thereby constituting additional source of human axionie: "eine present in drinki
 </details>
 
 <details>
-<summary><b>Q. Mention the sources of air pollution. [SUST-18M,16N/J, 15Ju, 14J,13J, RU-18N,11J, CU-</b></summary>
+<summary><b>Q. Mention the sources of air pollution. [SUST-18M,16N/J, 15Ju, 14J,13J, RU-18N,11J, CU- 17N,16M,14Ju]</b></summary>
 
-17N,16M,14Ju]
+_Answer: see section above._
 </details>
 
 <details>
@@ -1191,7 +1195,7 @@ Biological pollutants
 <details>
 <summary><b>Q. Write down the impacts of indoor air pollution.</b></summary>
 
-Impact of indoor air pollution on health:
+**Impact of indoor air pollution on health:**
 1) Acute respiratory infections in young children.
 2) Chronic lung disease & cancer in adult, .
 3) Adverse pregnancy outcomes (such as stillbirth) for women exposed during pregnancy.
@@ -1201,7 +1205,7 @@ Impact of indoor air pollution on health:
 <details>
 <summary><b>Viva Q. Air pollution of Dhaka city is high, why? Explain.</b></summary>
 
-Air pollution of Dhaka city is high: The causes are —
+**Air pollution of Dhaka city is high:** The causes are —
 1) Extremely high population density. ee
 2) Uncontrolled emission from motor vehicles and other economic activities give rise to severe air
 pollution. ' , eer
@@ -1220,19 +1224,19 @@ popularly as a vehicle fuel.
 <details>
 <summary><b>Q. Write the effects of health pollution on health and disease. [CU-12J]<br>Q. Give the effects of air pollution on health. [DU-09J, CU-14Ju]<br>Q. What are the effects of air pollution? [RU-16J]<br>Q. Enumerate the health effects of air pollution on future generation. [CU-1 8M]</b></summary>
 
-Effects of air pollution:
+**Effects of air pollution:**
 “ Health effects:
 1) Immediate effects:
 » Symptoms of respiratory system (acute bronchitis)
-> Immediate death by suffocation
-> Increase morbidity and mortality
+  - Immediate death by suffocation
+  - Increase morbidity and mortality
 2) Delayed effects:
 Chronic bronchitis
 Primary lung cancer
 Bronchial asthma
 Emphysema
 Respiratory allergies
-“* Other effects:
+* Other effects:
 1) Effects on plant and animals:
 Spotting and burning of leaves
 Destruction of crops
@@ -1240,9 +1244,9 @@ Retardation of growth of plants
 Increase mortality and morbidity of cattle and other animals
 Vv
 2) Social and economic effects:
-> Impairment of human, plant and animal health
-> Corrosion of metals and building materials
-> Cost of cleaning and repairing
+  - Impairment of human, plant and animal health
+  - Corrosion of metals and building materials
+  - Cost of cleaning and repairing
 Unpleasant odours
 Cost of research
 Cost of adoption of technical measures to control pollution
@@ -1270,7 +1274,7 @@ Effects of lead in air:
 <details>
 <summary><b>Q. What are the indicators used to measure the air pollution? [CU-1 IJu]<br>Q. Discuss the tools of monitoring of air pollution.</b></summary>
 
-Indicators / tools of monitoring air pollution: The best indicators of air pollution are:
+**Indicators / tools of monitoring air pollution:** The best indicators of air pollution are:
 1) Sulphur dioxide: This gas is a major containment in many urban and industrial areas. Its
 concentration is estimated in all air pollution surveys.
 2) Smoke or soiling index: A known volume of air is filtered through a white filter paper under
@@ -1324,7 +1328,7 @@ warnings of air pollution when and where necessary.
 <details>
 <summary><b>Q. How air borne diseases can be controlled?</b></summary>
 
-Control of air borne diseases:
+**Control of air borne diseases:**
 1) By giving vaccines we can prevent and control air borne diseases such as- diphtheria, tuberculosis,
 pertussis, measles, mumps, chicken pox etc.
 2) Inhalation of air pollutants (e.g. silicosis, siderosis, anthracosis, lead poisoning can be prevented by
@@ -1340,7 +1344,7 @@ ambient air by engineering methods and by adequate disposal of waste products.
 <details>
 <summary><b>Q. How air impurities can be removed?<br>Q. How air in a room is disinfected?<br>Q. Enumerate the methods of disinfection of indoor air. [RU-18N,15J]</b></summary>
 
-Disinfection of air:
+**Disinfection of air:**
 1) Mechanical ventilation: This reduces vitiated air and bacterial density.
 2) UV radiation: Effective for disinfection in the operation theaters and infectious disease wards.
 3) Chemical mists: e.g. triethylene glucol vapours are effective air bactericides, particularly against
@@ -1372,7 +1376,7 @@ least content of lead.
 <details>
 <summary><b>Q. Define ventilation. [SUST-13Ju]<br>Q. Write short note on: Ventilation.</b></summary>
 
-Ventilation:
+**Ventilation:**
 Ventilation is a science of maintaining atmospheric conditions which are comfortable and healthful to
 the human body.
 The modern concept of ventilation:
@@ -1390,10 +1394,11 @@ Purpose of ventilation:
 <details>
 <summary><b>📌 Viva — Standards of ventilation</b></summary>
 
-1) Cubic space: 1000-1200 cft/ person
+- Standards of ventilation:
+**1) Cubic space:** 1000-1200 cft/ person
 2) Air change:
-> 2-3 times change/ hour (home).
-> 4-6 times change/ hour (assemblies).
+  - 2-3 times change/ hour (home).
+  - 4-6 times change/ hour (assemblies).
 3) Floor space: 50-100 sq ft/person
 [Ref- Park /24"/775 + Rashid, Khabir, Hyder / 5"/505]
 </details>
@@ -1401,30 +1406,30 @@ Purpose of ventilation:
 <details>
 <summary><b>Q. Classify ventilation.<br>Q. Mention the types of ventilation. [SUST-13Ju]</b></summary>
 
-Classification of ventilation:
+**Classification of ventilation:**
 1) Natural ventilation:
-> Thewind:
-Y Perflation: When air blow through a room.
-Y Aspiration: When there is an obstruction, wind bypasses and exerts a suction
+  - Thewind:
+- Perflation: When air blow through a room.
+- Aspiration: When there is an obstruction, wind bypasses and exerts a suction
 action at its tail end- this is called aspiration.
-Y  Cross-ventilation: Doors and windows facing each other provides cross
+- Cross-ventilation: Doors and windows facing each other provides cross
 ventilation.
-> Diffusion: Air passes through the smallest openings or spaces by diffusion. This is a slow
+  - Diffusion: Air passes through the smallest openings or spaces by diffusion. This is a slow
 process.
-> Temperature differences: Air flows from the high density to low density. The greater the
+  - Temperature differences: Air flows from the high density to low density. The greater the
 temperature differences between inside and outside air, the greater the velocity of the
 incoming air.
 2) Mechanical / Artificial ventilation:
-> Exhaust ventilation: In this system, air is extracted or exhausted to the outside by the
+  - Exhaust ventilation: In this system, air is extracted or exhausted to the outside by the
 exhaust fans usually driven by electricity. As air is extracted, a vacuum is created which
 induces fresh air to enter the room through windows, doors and other walls, high up near
 the roof which facilitates removal of the upper layers of the heated light air.
-> Plenum ventilation: In this system, fresh air is blown into the room by centrifugal fans so
+  - Plenum ventilation: In this system, fresh air is blown into the room by centrifugal fans so
 as to create a positive pressure and displaces the vitiated air. This system is used for
 supplying air to air conditioned buildings and factories.
-> Balanced ventilation: This is a combination of the exhaust and plenum system of
+  - Balanced ventilation: This is a combination of the exhaust and plenum system of
 ventilation.
-> Air conditioning: Air conditioning is defined as, “the simultaneous control of all, or at
+  - Air conditioning: Air conditioning is defined as, “the simultaneous control of all, or at
 least temperature, humidity and air movement of the atmosphere within any confined space
 or room.
 [Ref- Rashid, Khabir, Hyder / 5" / 505]
@@ -1439,12 +1444,12 @@ Please see above the procedures of mechanical / artificial ventilation.
 <details>
 <summary><b>Q. What is air conditioning? State the mechanism of air conditioning.</b></summary>
 
-Air conditioning:
+**Air conditioning:**
 Air condition is defined as "the simultaneous control of all or at least the first three of those factors
 affects both the physical and chemical conditions of the atmosphere within any structure. These factors include
 temperature, humidity, air movement, distribution, dust, bacteria, odours and toxic gases and comfort.
 Principle of air condition:
-Y  Inair conditioning, the air is first filtered and is drained through a layer of fine water jets and while
+- Inair conditioning, the air is first filtered and is drained through a layer of fine water jets and while
 passing through it, evaporates the water and thereby becomes cooler (due to the loss of heat absorbed
 by water during its process of evaporation). This cool air becomes saturated with water vapour. The
 excess of moisture is subsequently removed by pass into it over a cold surface. And the air is heated to
@@ -1459,7 +1464,7 @@ suddenly exposed to the high or low temperature.
 <details>
 <summary><b>Q. What do you mean by comfort zone?</b></summary>
 
-Comfort zone:
+**Comfort zone:**
 It may be defined as the range of effective temperature at which majority of adults feel comfortable.
 Comfortable thermal conditions are those under which a person can maintain a balance between production and
 loss of heat at normal body temperature and without sweating.
@@ -1488,14 +1493,14 @@ chemical changes but physical changes. These are temperature, humidity, air move
 <details>
 <summary><b>Q. Mention the effects of ill ventilation.</b></summary>
 
-Effects of ill ventilation in a room: The effects of il
+**Effects of ill ventilation in a room:** The effects of il
 Rise in room temperature.
 Increased in humidity.
 Unpleasant body odour.
 Increased bacterial pollution.
 | ventilation in a room or overcrowding in a room are —
 Clinical features of ill ventilation:
-v Headache.
+- Headache.
 Drowsiness.
 Lassitude.
 Inability to concentrate.
@@ -1513,13 +1518,13 @@ Causes of discomfort in an occupied / ill ventilated room:
 1) Chemical changes: The air becomes progressively contaminated by carbon dioxide and oxygen
 content decreases due to metabolic process.
 2) Physical change:
-> Rise in indoor temperature as a result of the emanation of body heat
-> Increase in the relative humidity due to moisture evaporated from the skin and lungs.
-> Decrease in the air movement: The natural movement of air is impeded
+  - Rise in indoor temperature as a result of the emanation of body heat
+  - Increase in the relative humidity due to moisture evaporated from the skin and lungs.
+  - Decrease in the air movement: The natural movement of air is impeded
 ~
-> Body odours: Unpleasant odours arise from foul breath, perspiration, bad oral hygiene
+  - Body odours: Unpleasant odours arise from foul breath, perspiration, bad oral hygiene
 dirty clothes and other sources,
-> Bacterial pollution: There are discharge of bacteria principally saprophyte into the air
+  - Bacterial pollution: There are discharge of bacteria principally saprophyte into the air
 during conversation, coughing, sneezing and loud speaking.
 [Ref- Park / 23", 731]
 </details>
@@ -1527,23 +1532,23 @@ during conversation, coughing, sneezing and loud speaking.
 <details>
 <summary><b>Q. Define light. Give its sources.</b></summary>
 
-Light: It is the electromagnetic radiation to which the human eye is sensitive.
+**Light:** It is the electromagnetic radiation to which the human eye is sensitive.
 Sources:
 1) Natural lighting:
-Y Visible lighting.
-Y Reflection.
+- Visible lighting.
+- Reflection.
 2) Artificial lighting: There are five systems of artificial lighting — direct, semi-direct, indirect, semi-
 indirect and direct-indirect.
 Methods of artificial illumination:
-> Filament lamps.
-> Fluorescent lamps.
+  - Filament lamps.
+  - Fluorescent lamps.
 [Ref- Park /24"/776]
 </details>
 
 <details>
 <summary><b>Q. List the characteristics of good lighting in a room. [RU-15J]</b></summary>
 
-Criteria of good lighting:
+**Criteria of good lighting:**
 1) Sufficiency: The lighting should be sufficient to enable the eye to discern the details of the object.
 Distribution: The distribution of light should be uniform, having the same intensity over the whole
 2)
@@ -1561,7 +1566,7 @@ colour.
 <details>
 <summary><b>Q. Mention the different measurements of light. [RU-12Ju]</b></summary>
 
-Light measurement units:
+**Light measurement units:**
 Description’ ’ Recommended unit [Other units |
 1) Brightness of point source Luminous intensity
 [Lumen «|
@@ -1575,20 +1580,22 @@ surface
 <details>
 <summary><b>Q. What is ‘Daylight Factor (DF)’? [RU-1 IJu}</b></summary>
 
-Daylight factor (DF):
+**Daylight factor (DF):**
 It is the ratio illumination at a given point to illumination at a point exposed simultaneously to the
 whole hemisphere of the sky excluding direct sunlight.
 Instantaneous illumination INDOORS
 D.F= ; x 100
 Simultaneous occurring illumination OUTDOORS
-Y  Itcan be measured by DF factor.
-Y It is recommended that- the D.F should be at least 8 % in living room and 10% in kitchen.
+- Itcan be measured by DF factor.
+- It is recommended that- the D.F should be at least 8 % in living room and 10% in kitchen.
 [Ref- Park /24"/777]
 </details>
 
 <details>
 <summary><b>📌 Viva — Recommended illumination</b></summary>
 
+%
+* Recommended illumination:
 Very severe tasks
 Watch making
 _. Illumination (lux) =~
@@ -1600,7 +1607,7 @@ _. Illumination (lux) =~
 <details>
 <summary><b>Q. List the effects of light on human health. [RU-10J]<br>Q. List the good effects of light on human health.<br>Q. Enumerate the biological effects of light. [RU-I6N, 15Ju,1 1Ju]<br>Q. What are the effects of improper lighting?</b></summary>
 
-Good effects / biological effects of light:
+**Good effects / biological effects of light:**
 1) Breakdown of bilirubin.
 2) Biologic rhythms of body temperature.
 3) Physical activity.
@@ -1611,29 +1618,29 @@ Good effects / biological effects of light:
 [Ref- Park /24"/ 778]
 Bad effects / effects of improper lighting:
 1) Effects of poor lighting:
-> Eye strain
+  - Eye strain
 Headache
 Lacrimation
 Interfere with efficiency
 Eye fatigue
 2) Effects of glare:
-> Eye strain
-> Accidents
-> Reduce critical vision
+  - Eye strain
+  - Accidents
+  - Reduce critical vision
 3) Effects of infra-red rays:
-> Burn
-> Eye cataract
-> Chronic inflammation
+  - Burn
+  - Eye cataract
+  - Chronic inflammation
 4) Effects of Ultra violet rays:
-> Inflammation of cornea and conjunctiva
-> Pain and running eye.
+  - Inflammation of cornea and conjunctiva
+  - Pain and running eye.
 [Ref- Rashid, Khabir, Hyder /5"/ 508]
 </details>
 
 <details>
 <summary><b>Q. Mention the suggestions for improvement of daylight illumination.</b></summary>
 
-Suggestions for improvement of daylight illumination:
+**Suggestions for improvement of daylight illumination:**
 1) Qrientation: Buildings are oriented towards north or south for uniform illumination. When a
 building faces east and west, window shades are provided to protect against the direct penetration of
 sunlight.
@@ -1651,11 +1658,11 @@ as to give comfortable contrast to the eyes.
 <details>
 <summary><b>Q. Define noise. [SUST-17M, CU-15J]<br>Q. Write the properties.</b></summary>
 
-Noise: Wrong sound in the wrong place at the wrong time.
+**Noise:** Wrong sound in the wrong place at the wrong time.
 Properties: Noise has 2 important properties —
-> Loudness/intensity: It depends upon the amplitude o the vibrations which initiated the noise. It is
+  - Loudness/intensity: It depends upon the amplitude o the vibrations which initiated the noise. It is
 measured in decibels (dB).
-> Frequency: The frequency is denoted as hertz (Hz). The human ear can hear frequencies from
+  - Frequency: The frequency is denoted as hertz (Hz). The human ear can hear frequencies from
 about 20 to 20,000 Hz.
 [Ref- Park / 24" / 778]
 </details>
@@ -1663,7 +1670,7 @@ about 20 to 20,000 Hz.
 <details>
 <summary><b>Q. Describe the factors related to harmful effects of noise.</b></summary>
 
-The factors related to harmful effects of noise:
+**The factors related to harmful effects of noise:**
 1) Intensity: The loudness or intensity of sound depends on the amplitude of the
 acoustic vibration and is measured | decibel (dB).A daily exposure of 85 dB is about the limit
 people can tolerate without substantial damage to their hearing.
@@ -1680,12 +1687,12 @@ intermittent). Impulsive noise is particularly harmful.
 <details>
 <summary><b>Q. Write down the sources of noise / sound pollution.<br>Q. Enumerate the sources of sound pollution in Dhaka. [CU-17M]</b></summary>
 
-Sources of sound pollution / noise:
+**Sources of sound pollution / noise:**
 1) Industrial noise: Mining, tunneling, quarry
 2) Transportation:
 ing, heavy engineering & textile machines etc.
-Y Surface of vehicular transportation, e.g. rail road, heavy trucks, motor cycles, automobiles
-v Aircraft’s
+- Surface of vehicular transportation, e.g. rail road, heavy trucks, motor cycles, automobiles
+- Aircraft’s
 3) Construction equipment.
 4) Amplified music.
 5) Animals.
@@ -1694,10 +1701,11 @@ v Aircraft’s
 <details>
 <summary><b>📌 Viva — Loudness of noise</b></summary>
 
-Y Normal conversation: 60 — 65 dB.
-Y Whispering: 20 — 30 dB.
-Y Heavy street traffic: 60 — 80 dB.
-Y Boiler factories: 120 dB.
+**“ Loudness of noise:**
+- Normal conversation: 60 — 65 dB.
+- Whispering: 20 — 30 dB.
+- Heavy street traffic: 60 — 80 dB.
+- Boiler factories: 120 dB.
 “ Acceptable noise levels (dBA ):
 Residential: Bed room
 Office
@@ -1713,7 +1721,7 @@ Commercial:
 Industrial:
 Educational
 Hospital
-“> Sound levels of some noises:
+> Sound levels of some noises:
 Sources of noise
 Whisper
 Speech, 2-3 people
@@ -1778,15 +1786,15 @@ e) >160dB.
 <details>
 <summary><b>Q. Discuss the health impact of noise. [DU-1 IJ, CU-16J, RU-10Ju, SUST-14Ju]</b></summary>
 
-Effects of noise exposure:
-* Auditory effects:
+**Effects of noise exposure:**
+- Auditory effects:
 1) Auditory fatigue (noise induced temporary threshold shift- NITTS) - In the 90 dB region and
 greatest at 4000 - 6000 Hz.
 2) Deafness:
-> A daily exposure up to 85 dB is about limit people can tolerate without substantial
+  - A daily exposure up to 85 dB is about limit people can tolerate without substantial
 damage to hearing.
-> Repeated or continuous exposure to noise around 100 dB nay result in deafness.
-> Single exposure to noise above 160 dB may rupture tympanic membrane.
+  - Repeated or continuous exposure to noise around 100 dB nay result in deafness.
+  - Single exposure to noise above 160 dB may rupture tympanic membrane.
 + % Non-auditory effects:
 1) Interference with speech.
 2) Annoyance
@@ -1800,9 +1808,9 @@ increase sweating and giddiness, nausea, fatigue.
 <details>
 <summary><b>Q. Tell in brief the approaches to control of noise. [CU-11J]<br>Q. How can we minimize noise pollution / hazards of noise in a big city?<br>Q. ‘Sound pollution in Dhaka’- how can be prevented? [CU-15J]</b></summary>
 
-Control measures for noise: A variety of approaches are needed to control noise. These include —
+**Control measures for noise:** A variety of approaches are needed to control noise. These include —
 1) Careful planning of the cities: The following measure should be taken to reduce noise:
-> Division of cities into zones with separation of areas concerned with industry and transport.
+  - Division of cities into zones with separation of areas concerned with industry and transport.
 » The separation of the residential areas from the main street by means of wide green belts.
 » Widening of main streets to reduce the level of noise penetration into dwelling.
 2) Control of vehicles: Heavy vehicles should not be routed into narrow streets. Vehicular traffic on
@@ -1845,25 +1853,25 @@ Please see above.
 <details>
 <summary><b>Q. Write down the sources of radiation exposure?<br>Q. Mention the sources of radiation hazards. [CU-18N]</b></summary>
 
-Sources of radiation exposures:
-“> Natural:
+**Sources of radiation exposures:**
+> Natural:
 1) Cosmic rays.
 2) Environmental:
-> Terrestrial.
-> Atmosphere.
+  - Terrestrial.
+  - Atmosphere.
 3) Internal:
-> Potassium-40
-> Carbon-14
+  - Potassium-40
+  - Carbon-14
 °
-“* Man-made:
+* Man-made:
 1) Medical and dental: X-rays, Radio isotopes.
 2) Occupational exposure.
 3) Nuclear: radioactive fallout.
 4) Miscellaneous:
-> Television sets
+  - Television sets
 Radioactive dial
-> Watches, Isotope, tagged products,
-> Luminous markers
+  - Watches, Isotope, tagged products,
+  - Luminous markers
 a
 [Ref- Park /24™ / 780]
 </details>
@@ -1871,27 +1879,27 @@ a
 <details>
 <summary><b>Viva Q. What do you mean by ionizing radiation?</b></summary>
 
-lonizing radiation:
+**lonizing radiation:**
 The term ionizing radiation is applied to radiation which has the ability to penetrate tissues and deposit
 its energy within them. lonizing radiation may be divided into two main groups —
-Y Electromagnetic radiations: e.g. X-ray, y-ray.
-Y Corpuscular radiations: e.g. & particles, B particles (electron) and protons.
+- Electromagnetic radiations: e.g. X-ray, y-ray.
+- Corpuscular radiations: e.g. & particles, B particles (electron) and protons.
 [Ref- Park /24"/ 781]
 </details>
 
 <details>
 <summary><b>Q. Mention the effects of radiation on human health. [RU-10Ju]<br>Q. What are the biological effects of radiation? [RU-17N, 16M, 13Ju, 12Ju]<br>Q. Write short note on: Biological effects of radiation.</b></summary>
 
-Biological effects of radiation: The biological effects of radiation may be divided into two separate groups ~
+**Biological effects of radiation:** The biological effects of radiation may be divided into two separate groups ~
 A) Somatic effects:
 1) Immediate;
-> Radiation sickness
-> Acute radiation syndrome
+  - Radiation sickness
+  - Acute radiation syndrome
 2) Delayed:
-> Leukaemia
-> Carcinogenesis
-> Foetal developmental abnormalities
-> Shortening of life
+  - Leukaemia
+  - Carcinogenesis
+  - Foetal developmental abnormalities
+  - Shortening of life
 B) Genetic effects:
 1) Chromosome mutations.
 2) Point mutations.
@@ -1901,24 +1909,24 @@ B) Genetic effects:
 <details>
 <summary><b>Q. Write down the health effects of radiation. [DU-16M, CU-18N]<br>Q. Write short note on: Hazards of radiation.</b></summary>
 
-Hazards / health effects of radiation:
+**Hazards / health effects of radiation:**
 A) Acute general effects:
 1) Central nervous system syndrome (exposure to 10,000 rads or above):
-Y Increase intra ocular pressure
-vY Headache
-Y Vomiting
-vY Nausea
-Y  Papilloedema
+- Increase intra ocular pressure
+- Headache
+- Vomiting
+- Nausea
+- Papilloedema
 2) Gastrointestinal syndrome:
 Anorexia
 v
-v¥ Nausea
-Y Vomiting
-Y Loose motion, mucoid stool
-Y Sometimes melaena
+- Nausea
+- Vomiting
+- Loose motion, mucoid stool
+- Sometimes melaena
 3) Bone marrow syndrome (exposure to 50 rads):
-vY  Pancytopenia
-Y Decreased Hb%, WBC & thrombocytopenia
+- Pancytopenia
+- Decreased Hb%, WBC & thrombocytopenia
 B) Long term or late effects of radiation:
 1) Aplastic anaemia
 2) Chronic radio dermatitis
@@ -1927,16 +1935,16 @@ B) Long term or late effects of radiation:
 5) Congenital malformation
 6) Carcinoma:
 Bone tumour
-¥ Squamous cell carcinoma, basal cell carcinoma of skin
-Y Bone tumours
+- Squamous cell carcinoma, basal cell carcinoma of skin
+- Bone tumours
 v
 v
 SN
 Leukaemia
 Lymphoma
 awe eemeneeee ween momen ween tenn ene eget Nae
-Y Thyroid carcinoma
-Y Lung cancer
+- Thyroid carcinoma
+- Lung cancer
 7) Shortening of life
 8) Genetic defects.
 [Ref- Rashid, Khabir, Hyder /5" / 511]
@@ -1945,15 +1953,15 @@ Y Lung cancer
 <details>
 <summary><b>Q. What is acute radiation syndrome?</b></summary>
 
-Acute radiation syndrome:
+**Acute radiation syndrome:**
 _ Exposure of whole body to a large dose of over 100 rems penetrating radiation in a single exposure
 within 1 to 2 days, resulting in progressive series of sign & symptoms known as acute radiation syndrome. The
 symptoms are —
-Y Inthe first phase there is short interval between exposure and onset of symptoms
-Y Second phase consists of nausea and vomiting, diarrhea and abdominal pain. There may be
+- Inthe first phase there is short interval between exposure and onset of symptoms
+- Second phase consists of nausea and vomiting, diarrhea and abdominal pain. There may be
 headache, erythema of skin and conjunctivitis.
-Y Inthe third phase there may be loss of hair and desquamation of skin.
-Y Inthe final stage bone marrow aplasia, thrombocytopenia and agranulocytosis occurs.
+- Inthe third phase there may be loss of hair and desquamation of skin.
+- Inthe final stage bone marrow aplasia, thrombocytopenia and agranulocytosis occurs.
 [Ref- Rashid, Khabir, Hyder / 5" / S511]
 </details>
 
@@ -1992,7 +2000,7 @@ B) Preventive measures for external irradiation:
 <details>
 <summary><b>Q. What are the elements of meteorological environments?</b></summary>
 
-Elements of meteorological environments are:
+**Elements of meteorological environments are:**
 1) Atmospheric pressure.
 2) Air temperature.
 3) Humidity.
@@ -2005,7 +2013,7 @@ Elements of meteorological environments are:
 <details>
 <summary><b>Q. What do you mean by global warming? [DU-10Ju, SUST-13Ju]<br>Q. Enumerate the impacts of global warming in Bangladesh. [CU-17N,16N]<br>Q. How the situation can be controlled to avoid the future danger? [CU-17N,16N]<br>Q. Explain the genesis of global warming. [CU-16J]<br>Q. Write short note on: Global warming. [CU-18N/M,17M,16M, 15Ju,14Ju, SUST-11J]</b></summary>
 
-Global warming:
+**Global warming:**
 Emission of greenhouse gases into the atmosphere has been increasing ever since the beginning of the
 industrial revolution. It is generally conceded that the main effects of this include an increase of about 3°C in
 the average global surface temperature by the year 2030, a rise in the sea level of 0.1-0.3 meters by 2050 and an
@@ -2022,7 +2030,7 @@ Consequences & prevention: Please see below in the ‘consequences and preventio
 <details>
 <summary><b>Q. What is meant by ‘Green house effects’? [SUST-15J]<br>Q. ‘Greenhouse effect in Bangladesh’: explain. [CU-15J]<br>Q. Write short note on: Greenhouse effect. (CU-14J,13Ju]<br>Q. Write short note on: Green house phenomena. [CU-10J]</b></summary>
 
-Green house:
+**Green house:**
 ; Green house is a kind of glass-house specially designed and built to rear vegetable and other plants
 inside while protecting them against excessive heat or cold of the outside environment. The glass panes of he
 greenhouse allows the sun light and with it the solar radiation to enter freely inside the house, but the reradiated
@@ -2045,7 +2053,7 @@ radiation trapped by atmosphere layer rich in these gases.
 <details>
 <summary><b>Q. List the greenhouse gases. [DU-13J, CU-15J, SUST-15J]</b></summary>
 
-Greenhouse gases: The atmosphere gases responsible for the greenhouse effect are usually referred to as
+**Greenhouse gases:** The atmosphere gases responsible for the greenhouse effect are usually referred to as
 greenhouse gases. The greenhouse gases are given below:
 Carbon dioxide: It is the principal one (49%)
 Methane (18%)
@@ -2058,7 +2066,7 @@ Some other gases (13%)
 <details>
 <summary><b>Q. What are the sources of greenhouse gases?</b></summary>
 
-Sources of greenhouse gases are:
+**Sources of greenhouse gases are:**
 1) Emission of carbon dioxide from motor vehicles, in
 ovens
 2) Combustion of all kinds of fossil fuels, e.g., coal, natural gas, diesel oil, petrol, etc.
@@ -2077,7 +2085,7 @@ dustrial plants and various kinds of furnaces and
 <details>
 <summary><b>Q. What are the consequences of greenhouse effect in Bangladesh? [CU-16J]<br>Q. “Bangladesh will suffer if current trend of warming is not stopped” — discuss. [SUST-13Ju]<br>Q. Discuss the climate change and its impact on health. [DU-15J]<br>Q. Discuss on “climate change and health impacts” in Bangladesh. [DU-10J]<br>Q. Write short note on: Climate change & health. [SUST-16J]</b></summary>
 
-Consequences of greenhouse effect / Global effects:
+**Consequences of greenhouse effect / Global effects:**
 1) There will be an increase of about 2°C-5°C by the year 2050 AD.
 2) The climate temperature will raise the sea level by about 4 to 5 feet in the next 50-60 years.
 3) There will be melting of ice in Antarctic, raising the sea level by 15 to 20 feet in the next 100 years.
@@ -2106,7 +2114,7 @@ forest beauty and wildlife.
 <details>
 <summary><b>Q. How can you propose to reduce the greenhouse effect?</b></summary>
 
-Prevention of greenhouse effect:
+**Prevention of greenhouse effect:**
 1) To reduce the continually increasing carbon dioxide content of the atmosphere by conserving fuel
 energy.
 2) To place more trees on the use of solar, hydraulic and atomic energy which are reusable.
@@ -2124,7 +2132,7 @@ fertilizers.
 <details>
 <summary><b>Q. Write short note on: Heat stroke. [SUST-15J]</b></summary>
 
-Heat stroke:
+**Heat stroke:**
 This is attributed to failure of the heat regulating mechanism. It is characterized by very high body
 temperature which may rise to 110 °F (43.3 °C). It is often fatal (mortality rate is about 40%).
 Clinical features of heat stroke:
@@ -2145,7 +2153,7 @@ Treatment:
 <details>
 <summary><b>Q. Define and classify humidity.<br>Q. What are the health effects of humidity?<br>Q. Name the instruments used for measurement of humidity.</b></summary>
 
-Humidity / moisture: Humidity is the amount of water present in a unit volume of air.
+**Humidity / moisture:** Humidity is the amount of water present in a unit volume of air.
 Classification:
 1) Absolute humidity: It is the weight of water vapour in a unit volume of air.
 2) Relative humidity: It is the percentage of moisture present in the air, complete si
@@ -2172,7 +2180,7 @@ aturation being
 <details>
 <summary><b>Q. Give the criteria of healthful residential environment. [RU-16M]</b></summary>
 
-Housing: i
+**Housing:** i
 he physical structure that man uses and the environs of the
 A WHO expert Group defined housing as t
 structure including all necessary services, facilities, equipment and devices needed for the desired for the
@@ -2197,10 +2205,10 @@ for ecological principles and by these means promote mental health.
 <details>
 <summary><b>Q. Narrate the role of houses in human life. [CU-17N]<br>Q. “Healthful housing for healthy life” — explain. [DU-1 3Ju]</b></summary>
 
-Healthful housing for healthy life: _
-> Housing is part of the total environment of man and being a part, it is to some extent responsible
+**Healthful housing for healthy life:** _
+  - Housing is part of the total environment of man and being a part, it is to some extent responsible
 for the status of man’s health and well-being.
-* Poor housing is associa ith different diseases and adverse condi
+- Poor housing is associa ith different diseases and adverse condi
 1) Respiratory infections
 2) Skin infections
 3) Rat infestations: Plague
@@ -2233,7 +2241,7 @@ buildings is now well known to have harmful effects.
 <details>
 <summary><b>Viva Q. What are the functions of housing?</b></summary>
 
-Functions of housing:
+**Functions of housing:**
 1) To provide shelter and privacy.
 2) To provide protection from noise and pollution hazards. \
 3) To provide protection from excess heat and cold.
@@ -2252,40 +2260,40 @@ Overcrowdin
 <details>
 <summary><b>Q. Describe overcrowding with its accepted standards, [RU-15Ju]<br>Q. Write short note on: Over-crowding.</b></summary>
 
-QOvercrowding:
+**QOvercrowding:**
 It refers to the situation in which more people are living within a single dwelling than there is space for,
 so that movement is restricted, privacy secluded, hygiene impossible, rest and sleep difficult.
 Hazards of over-crowding:
-Vv Physical hazards: Spread of communicable diseases such as tuberculosis, influenza, diphtheria
-Y Psychosocial hazard: Irritability, frustration, lack of sleep, anxiety, violence and mental disorders.
+- Physical hazards: Spread of communicable diseases such as tuberculosis, influenza, diphtheria
+- Psychosocial hazard: Irritability, frustration, lack of sleep, anxiety, violence and mental disorders.
 The accepted standards with respect to overcrowding are as below:
-“+ Persons per room:
-> 1 room — 2 persons
-> 2 rooms — 3 persons
-> 3rooms — 5 persons
-> 4 rooms — 7 persons
-> 5 rooms — 10 persons (addition 2 for each further room)
-“> Floor space: (A baby under 12 months is no counted, children between | to 10 counted as half a
++ Persons per room:
+  - 1 room — 2 persons
+  - 2 rooms — 3 persons
+  - 3rooms — 5 persons
+  - 4 rooms — 7 persons
+  - 5 rooms — 10 persons (addition 2 for each further room)
+> Floor space: (A baby under 12 months is no counted, children between | to 10 counted as half a
 unit)
-> 110 sq feet — 2 persons
-> 90-110 sq feet > 1% persons
-> 70-90 sq feet — 1 person
-> 50-70 sq feet + % person
-> Under 50 sq feet — nil
+  - 110 sq feet — 2 persons
+  - 90-110 sq feet > 1% persons
+  - 70-90 sq feet — 1 person
+  - 50-70 sq feet + % person
+  - Under 50 sq feet — nil
 [Ref- Park /24" / 789]
 </details>
 
 <details>
 <summary><b>Q. Write short note on: Housing standards.</b></summary>
 
-‘Housing standards:
+**‘Housing standards:**
 1) Site:
-> It should be elevated from its surroundings so that it is not subject to flooding during rains.
-> The site should have an independent access to a street of adequate width.
-> Itshould be away from the breeding places of mosquitoes and flies.
-> It should be away from nuisances such as dust, smoke, smell, PACs noise and traffic.
-> Itshould be in pleasing surroundings.
-> The soil should be dry & safe for founding the structure and should be well drained.
+  - It should be elevated from its surroundings so that it is not subject to flooding during rains.
+  - The site should have an independent access to a street of adequate width.
+  - Itshould be away from the breeding places of mosquitoes and flies.
+  - It should be away from nuisances such as dust, smoke, smell, PACs noise and traffic.
+  - Itshould be in pleasing surroundings.
+  - The soil should be dry & safe for founding the structure and should be well drained.
 2) Set back: An open space of the house for proper lighting and ventilation. In rural area- should not
 '/,rd of the total area. In urban area — should be up to ‘rd of the total area.
 3) Floor: It should be pucca, impermeable, damp-proof and smooth.
@@ -2315,7 +2323,7 @@ and providing proper privacy. vas
 ## Disposal of Wastes
 
 
-Classification of wastes: Wastes are mainly 3 types —
+**Classification of wastes:** Wastes are mainly 3 types —
 1) Refuse or solid waste.
 2) Excreta or night soil.
 3) Sullage.
@@ -2323,9 +2331,9 @@ Classification of wastes: Wastes are mainly 3 types —
 <details>
 <summary><b>Q. Define refuse [SUST-18N, 12J], sewage [SUST-17N,16N, RUe16J] & sullage. [SUST-16N]</b></summary>
 
-Refuse: It is defined as being the waste materials from homes, restaurants and other establishments in
+**Refuse:** It is defined as being the waste materials from homes, restaurants and other establishments in
 the community. It includes mainly garbage, rubbish and ashes.
-“> Excreta: It implies faeces. ;
+> Excreta: It implies faeces. ;
 Garbage: It denotes left over putrefiable food products from homes and restaurants.
 Rubbish: It includes non putrefiable waste materials, such as paper, polythene, bags, glass, empty cans,
 boxes, scrap metals, broken pieces of crockery, wood etc.
@@ -2336,7 +2344,7 @@ houses, street and yard washings, factories and industries.
 pumps and all of the facilities
 + Sewage system: It is a system of waste transport and consists of sewers,
 for carrying the sewage to the place of final disposal.
-“> Sewage treatment plant: The equipment, tanks and other apparatus used in the treatment of sewage is
+> Sewage treatment plant: The equipment, tanks and other apparatus used in the treatment of sewage is
 called sewage treatment plant.
 % Sullage: The term ‘sullage’ is applied to waste water which does not contain human excreta, e.g. waste
 water from kitchens & bathrooms.
@@ -2362,7 +2370,7 @@ Chapter-15; Environment & Health ee
 <details>
 <summary><b>Q. Classify refuse with example. [RU-17M]<br>Q. Enumerate the sources of refuse.</b></summary>
 
-Sources / types of refuses:
+**Sources / types of refuses:**
 1) Street refuse: Refuse that is collected by the street cleaning service or scavenging. It consists of
 leaves, straw, paper, animal droppings and litter of al} kinds.
 2) Market refuse: Refuse that is collected from markets. It contains a large proportion of putrid
@@ -2390,7 +2398,7 @@ of Sylhet & Dhaka [SUST-16N] of Bangladesh.
 <details>
 <summary><b>Q. Discuss the best option of refuse disposal for a city like Sylhet. [SUST-16M]<br>Q. Discuss about sanitary disposal of refuse at a rural setting. [DU-14Ju]<br>Q. Write short note on: Refuse disposal. [SUST-16J, 15Ju,14Ju/J,12J]<br>Q. Write short note on: Solid waste disposal. [CU-10J]</b></summary>
 
-The principal methods of refuse disposal are: 6 principles of methods.
+**The principal methods of refuse disposal are:** 6 principles of methods.
 1) Dumping: Refuse is dumped in low lying areas as an easy method of disposal of dry refuse. As a
 result of bacterial action, refuse decreases considerably in volume and is gradually converted into
 humus. Due to its certain drawbacks, it is regarded by WHO Expert Committee as the most
@@ -2402,9 +2410,9 @@ earth at the end of working day > Temperature rises to over 60°C within 7 days 
 pathogens are killed & decomposition process is hastened + Cooling down within 2-3 weeks >
 Complete decomposition of organic matter within 4 to 6 months into an innocuous mass.
 Three methods are used in this operation:
-> The trench method.
-> The ramp method.
-> The area method.
+  - The trench method.
+  - The ramp method.
+  - The area method.
 3) Incineration: It is the method of choice where suitable lands are not available. Hospital refuse
 which is particularly dangerous is best decomposed by incineration. It is mainly practiced in the
 industrialized countries due to lack of suitable land. Due to certain drawbacks incineration has a
@@ -2413,10 +2421,10 @@ limited application in refuse disposal.
 process the organic matters are broken down by bacterial action resulting in the formation of
 compost-relatively stable humus like material. The compost can be used as manure in agricultural
 land. The methods commonly used are:
-> Hot fermentation method: In this method the heat produced during composting destroys
+  - Hot fermentation method: In this method the heat produced during composting destroys
 pathogenic organisms and eggs and larvae of flies. It generally takes 4 to 6 months for the
 decomposition of refuse and formation of composts.
-> Mechanical or aerobic method
+  - Mechanical or aerobic method
 5) Manure pits: This method is commonly used in rural areas, Manure pits are dug and garbage,
 cattle dung, straw and leaves are dumped into the pits and covered with earth after each day’s
 dumping. Within 5-6 month the refuse is converted into manure which can be returned to the field.
@@ -2433,7 +2441,7 @@ new trench is dug out.
 <details>
 <summary><b>Q. Which method of disposal of refuse is ideal and why? [SUST-18N, 17M, 13Ju]</b></summary>
 
-Ideal method of disposal of refuse:
+**Ideal method of disposal of refuse:**
 Composting is the best method of disposal of refuse.
 Cause:
 It is a process of nature whereby organic matter breaks down under bacterial action resulting in the
@@ -2456,7 +2464,7 @@ Dhaka city corporation (north & south).
 <details>
 <summary><b>Viva Q. Solid waste is a great problem of Dhaka city, why? Explain.</b></summary>
 
-Solid waste (refuse) is a great problem of Dhaka city:
+**Solid waste (refuse) is a great problem of Dhaka city:**
 f public health depends to a
 Solid waste (refuse) is a great problem of Dhaka city, since the standard o
 great extent on the efficiency with which the solid waste (refuse) is disposed. It has been observed that solid
@@ -2465,7 +2473,7 @@ environmental problems may be created through improper collection and disposal o
 wastes). These are —
 It may pollute the air by offensive odour.
 When it is scattered by dogs, cows, birds etc., it becomes a nuisance.
-> Insects and rodent populations increase considerably, and when this occurs, the fly-bome and rodent-
+  - Insects and rodent populations increase considerably, and when this occurs, the fly-bome and rodent-
 borne diseases become more imminent.
 VV
 [Ref- Rashid, Khabir, Hyder 75" 7/501]
@@ -2477,7 +2485,7 @@ VV
 <details>
 <summary><b>Q. Discuss the extent of health problem due to improper disposal of excreta. [DU-18M]<br>Q. Mention hazards due to improper disposal of solid waste. [DU-17N]</b></summary>
 
-Hazards of improper excreta disposal:
+**Hazards of improper excreta disposal:**
 1) Soil pollution.
 2) Water pollution.
 3) Contamination of foods.
@@ -2503,14 +2511,14 @@ preventive measures are to be taken at various points to combat the situation wi
 <details>
 <summary><b>Q. Write short not on: Transmission of faecal-borne diseases.</b></summary>
 
-Faecal borne disease transmission:
+**Faecal borne disease transmission:**
 The human excreta of a sick person contains the agent which is transmitted to a new host through
 various channels:
-> Water
-> Finger
-> Flies (wate)
-> Soil
->
+  - Water
+  - Finger
+  - Flies (wate)
+  - Soil
+  - 
 Food
 ED
 Prevention of faecal borne disease: Usually faecal borne diseases can be prevented by sanitary barrier. The
@@ -2527,20 +2535,20 @@ step. As a result disease cannot reach the new host. The disease cycle can be br
 <details>
 <summary><b>Q. What are the faecal borne diseases? [DU-15Ju]</b></summary>
 
-Faecal borne diseases:
+**Faecal borne diseases:**
 1) Viral: .
-> Viral hepatitis A & E.
-> Poliomyelitis.
-> Rotavirus diarrhea in infants.
+  - Viral hepatitis A & E.
+  - Poliomyelitis.
+  - Rotavirus diarrhea in infants.
 oo eee RE re et RRR RR ee
 2) Bacterial:
-> Typhoid, paratyphoid.
-> Bacillary dysentery.
-> E.coli diarrhoea.
-> Cholera.
+  - Typhoid, paratyphoid.
+  - Bacillary dysentery.
+  - E.coli diarrhoea.
+  - Cholera.
 3) Protozoal:
-> Amoebiasis.
-> Giardiasis.
+  - Amoebiasis.
+  - Giardiasis.
 4) Helminthic:
 Round worm infection.
 Thread worm infection.
@@ -2555,7 +2563,7 @@ Tape worm.
 <details>
 <summary><b>Q. Define sanitation barrier. [DU-13J,10J, SUST-1 1J]<br>Q. Illustrate sanitation barrier. [DU-15J,14J]<br>Q. Draw and explain the sanitation barrier. [DU-12J]<br>Q. Write short note on: Sanitation barrier. [SUST-1 8N,17M, 15Ju,13Ju,12J,1 1Ju}</b></summary>
 
-Sanitation barrier:
+**Sanitation barrier:**
 Segregation of the excreta by imposing a barrier is called sanitation barrier. The barrier can be provided
 by a sanitary latrine & a disposal pit. They break the disease cycle in the most effective step. As a result disease
 cannot reach the new host. The disease cycle can be broken at various levels:
@@ -2575,39 +2583,39 @@ Methods of Excreta Disposal .
 <details>
 <summary><b>Q. Enumerate the different methods of excreta disposal. [DU-10J]<br>Q. Define latrine and classify it.</b></summary>
 
-Latrine:
+**Latrine:**
 A latrine is a place where a person can ease himself to the response of nature with complete privacy.
 Methods of excreta disposal (Latrine): Classification of latrine is given below —
 A) Unsewered areas:
 1) Service type latrine (conservancy system).
 2) Non-service type latrine (Sanitary latrine):
-> Bore-hole latrine.
-> Dug well or pit latrine.
-> Water-seal type of latrine:
-Y P.RA.I type
-v R.C.A type
-Y  Sulabh Shauchalaya
-> Septic tank
-> Aqua privy
+  - Bore-hole latrine.
+  - Dug well or pit latrine.
+  - Water-seal type of latrine:
+- P.RA.I type
+- R.C.A type
+- Sulabh Shauchalaya
+  - Septic tank
+  - Aqua privy
 3) Latrine suitable for camps and temporary use:
-> Shallow trench latrine
-> Deep trench latrine
-> Pit latrine
-> Bore hole latrine
+  - Shallow trench latrine
+  - Deep trench latrine
+  - Pit latrine
+  - Bore hole latrine
 B) Sewered areas:
-“+ Water-carriage system and sewage treatment:
++ Water-carriage system and sewage treatment:
 1) Primary treatment:
-Y Screening.
-Y Removal of grit.
-v Plain sedimentation.
+- Screening.
+- Removal of grit.
+- Plain sedimentation.
 2) Secondary treatment:
-Y Trickling filters.
-Y Activated sludge process.
+- Trickling filters.
+- Activated sludge process.
 3) Other methods:
-Y Sea outfall.
+- Sea outfall.
 v_ River outfall.
-Y Sewage arming.
-Y Oxidation Ponds. .
+- Sewage arming.
+- Oxidation Ponds. .
 [Ref- Park / 24/794]
 </details>
 
@@ -2620,7 +2628,7 @@ U
 <details>
 <summary><b>Q. Mention the characteristics / criteria [DU-18N] of a sanitary latrine.</b></summary>
 
-Characteristics / criteria of a sanitary latrine: A sanitary latrine is one, which fulfils the following criteria:
+**Characteristics / criteria of a sanitary latrine:** A sanitary latrine is one, which fulfils the following criteria:
 1) Excreta should not contaminate the ground or surface water.
 2) Excreta should not pollute the soil. ; ;
 3) Excreta should not be accessible to flies, ane me animals. ‘ag
@@ -2633,27 +2641,27 @@ i... |
 <details>
 <summary><b>Q. Write short note on: Bore hole latrine.</b></summary>
 
-Bore hole latrine: It is a non-service type of latrine. The latrine consists of:
-> Acircular hole 30 to 40 cm in diameter, dug vertically into the ground to a depth of 4-8 m.
-> A concrete squatting plate with a central opening and foot rests.
-> A suitable enclosure to provide privacy.
-> Bamboo matting or earthen-ware rings in case of loose and sandy soils,
-* Site: Should be 50 feet away from the source of water.
-> Working of bore hole latrine: The night soit undergoes purification by anaerobic digestion and is
+**Bore hole latrine:** It is a non-service type of latrine. The latrine consists of:
+  - Acircular hole 30 to 40 cm in diameter, dug vertically into the ground to a depth of 4-8 m.
+  - A concrete squatting plate with a central opening and foot rests.
+  - A suitable enclosure to provide privacy.
+  - Bamboo matting or earthen-ware rings in case of loose and sandy soils,
+- Site: Should be 50 feet away from the source of water.
+  - Working of bore hole latrine: The night soit undergoes purification by anaerobic digestion and is
 eventually converted into a harmless mass.
 Service period: | year.
 Merits:
-¥ There is no need for the services of a sweeper for daily removal of night soil.
-¥ The pit is dark and unsuitable for fly breeding.
-Y Ifsituated 50 feet away from the source of water supply, there should be no danger of water
+- There is no need for the services of a sweeper for daily removal of night soil.
+- The pit is dark and unsuitable for fly breeding.
+- Ifsituated 50 feet away from the source of water supply, there should be no danger of water
 pollution.
 od
 *
 < Demerits:
-Y It fills up rapidly due to its small capacity.
+- It fills up rapidly due to its small capacity.
 YA special equipment, the auger is required for its construction which may not be readily
 available.
-v Inmany places, it is difficult to dig a hole deeper than 3 m.
+- Inmany places, it is difficult to dig a hole deeper than 3 m.
 [Ref- Park / 24" / 794]
 </details>
 
@@ -2666,14 +2674,14 @@ Bangladesh.
 <details>
 <summary><b>Q. Enumerate the sanitation measures to control cholera outbreak. [CU-14Ju]<br>Q. Mention the parts of a water sealed latrine. [SUST-1 1J]<br>Q. Write short note on: Water seal latrine.</b></summary>
 
-Hand flashed water seal latrine:
+**Hand flashed water seal latrine:**
 Hand-flushed water seal type of latrine is the improved sanitary latrine for rural families.
 Parts of water seal type of latrine:
 1) Location:
-> It should be 50 feet away from the source of water supply.
-> It should be at a lower elevation to prevent the possibility of bacterial contamination of the
+  - It should be 50 feet away from the source of water supply.
+  - It should be at a lower elevation to prevent the possibility of bacterial contamination of the
 water supply.
-> It should not be in areas usually subject to flooding.
+  - It should not be in areas usually subject to flooding.
 2) Squatting plate: It should be made of an impervious material so that it can be washed and kept
 clean and dry. For the convenience of the users, raised footrests are included in the squatting plate.
 3) Pan: The width of front portion is 12.5 cm and at its widest portion width is 20 cm. There should
@@ -2695,7 +2703,7 @@ eople should flush the pan after use with adequate quantity of water.
 <details>
 <summary><b>Q. Discuss the advantages & disadvantages of water seal latrine at rural area.<br>Q. What are the advantages of water seal latrine? [CU-1 |Ju]</b></summary>
 
-Advantages of water-seal latrine: The hand flushed water seal type of sanitary latrines are ideal ones for rural
+**Advantages of water-seal latrine:** The hand flushed water seal type of sanitary latrines are ideal ones for rural
 areas. It is an ideal latrine for rural areas, because —
 1) It prevents access of flies, rodents and insects due to presence of water in the trap.
 2) It prevents escape of odours and foul gases and thereby eliminate the nuisance of bad smell.
@@ -2712,7 +2720,7 @@ Demerits:
 <details>
 <summary><b>Q. Write short note on: Septic tank.</b></summary>
 
-Septic tank: It is a water-tight tank into which household sewage is admitted for treatment.
+**Septic tank:** It is a water-tight tank into which household sewage is admitted for treatment.
 Design feature:
 1) Capacity: Minimum capacity of a septic tank should ne at least 500 gallons.
 2) Length: It is usually twice the breadth.
@@ -2740,8 +2748,8 @@ Operation and maintenance:
 
 Bangladesh.
 The most suitable methods of excreta disposal in rural areas are-
-> The hand flushed water seal type of latrines for majority of the families
-> The septic tank type of latrine for the well-to-do families.
+  - The hand flushed water seal type of latrines for majority of the families
+  - The septic tank type of latrine for the well-to-do families.
 — a
 These latrines are suitable for the rural areas of Bangladesh because-
 |
@@ -2758,7 +2766,7 @@ These latrines are suitable for the rural areas of Bangladesh because-
 <details>
 <summary><b>Q. Write short note on: Chemical closet.</b></summary>
 
-Chemical closet: It is used on boats and aircrafts.
+**Chemical closet:** It is used on boats and aircrafts.
 Parts of chemical closet: . .
 The closet consists of a seat cover resting on the top of a metal tank containing a disinfectant fluid, the
 activated gradients of which are caustic soda, phenol, a harmless water dye and a decolourizing-substance.
@@ -2766,8 +2774,8 @@ Actions in chemical closet:
 The night soil is liquefied and sterilized by the chemical e.g. soda solution liquefies the night soil,
 phenols kills bacteria and the oil acts as a deodorant.
 Maintenance:
-¥ Nothing but the toilet paper should be thrown into the chemical closet.
-v After several months of operation, the spent chemical and contents are removed and disposed of
+- Nothing but the toilet paper should be thrown into the chemical closet.
+- After several months of operation, the spent chemical and contents are removed and disposed of
 suitably.
 [Ref- Park /24"/798]
 </details>
@@ -2775,7 +2783,7 @@ suitably.
 <details>
 <summary><b>Q. Write short note on: Man hole.</b></summary>
 
-Man hole: They are openings built in the sewerage system. They are placed —
+**Man hole:** They are openings built in the sewerage system. They are placed —
 1) Whenever there is a change in the direction of sewage
 2) At the meeting point of 2 or more sewers
 3) At the distances of 100 meters in long straight runs.
@@ -2786,7 +2794,7 @@ the manhole are liable to gas poisoning and asphyxiation. Due precaution should 
 <details>
 <summary><b>Viva Q. State the special points for camp sanitation.</b></summary>
 
-Special points for camp sanitation:
+**Special points for camp sanitation:**
 1) Site selection.
 2) Accommodation.
 3) Water supply.
@@ -2801,7 +2809,7 @@ AN cr MAI
 <details>
 <summary><b>Q. Enumerate the parts of water carriage system.<br>Q. State the water carriage system with the help of a diagram. [RU-10J]</b></summary>
 
-Water carriage system: |
+**Water carriage system:** |
 The water carriage system or sewerage system implies collecting and transporting of human excreta and |
 waste water from residential, commercial and industrial areas by a network of underground pipes, called
 sewers, to the place of ultimate disposal. [Ref- Park /24"/ 798] i
@@ -2835,7 +2843,7 @@ Sewage
 <details>
 <summary><b>Q. Mention the composition of sewage. Mention aims of sewage purification.</b></summary>
 
-Composition of sewage:
+**Composition of sewage:**
 1) Water: 99.9%
 2) Solid: 0.1% (organic & inorganic)
 Aims of sewage purification:
@@ -2848,19 +2856,20 @@ off in to land, rivers or sea.
 <details>
 <summary><b>📌 Viva — Methods of disposal of sewage</b></summary>
 
+**+ Methods of disposal of sewage:**
 1) Sewage disposa} after treatment (purification) — Activated sludge process.
 2) Sewage disposal without treatment:
-> Sea outfall
-> River outfall
-> Land treatment
-> Oxidation pond.
-> Oxidation ditches.
+  - Sea outfall
+  - River outfall
+  - Land treatment
+  - Oxidation pond.
+  - Oxidation ditches.
 “ Aims & objectives of sewage treatment (purification):
-Y To 'stabilize' the organic matter. It means breaking down the organic matter to simple
+- To 'stabilize' the organic matter. It means breaking down the organic matter to simple
 substances, which will not decompose further. This is accomplished by bacterial action.
-Y To produce an effluent which is free from pathogens and which can be disposed of without
+- To produce an effluent which is free from pathogens and which can be disposed of without
 causing a nuisance,
-Y To utilize the water (effluent) and solids (sludge) economically if necessary, without risk to
+- To utilize the water (effluent) and solids (sludge) economically if necessary, without risk to
 health.
 [Ref- Park / 24/799]
 </details>
@@ -2868,7 +2877,7 @@ health.
 <details>
 <summary><b>Q. Give the characteristics of good sewage effluent.</b></summary>
 
-Characteristics of good sewage effluents are:
+**Characteristics of good sewage effluents are:**
 1) It should be clear, free from any deposit and should not have any faecal smell
 2) When a small living fish is kept in it, it should not die within few hours
 3) Ifincubated for a week at 37 deg C there will be no sign of putrefaction
@@ -2881,7 +2890,7 @@ temperature for 5 days.
 <details>
 <summary><b>📌 Viva — Viva points</b></summary>
 
-** Biological oxygen demand (BOD): It is defined as the amount of oxygen that must be supplied to a
+- **Biological oxygen demand (BOD):** It is defined as the amount of oxygen that must be supplied to a
 waste material to maintain aerobic condition during decomposition. BOD is computed in terms of parts
 of million BOD values range from | ppm in natural water to 300 ppm in unnatural domestic sewage.
 BOD greater than 300 indicates strong sewage, whereas BOD less than 100 indicates weak sewage.
@@ -2894,7 +2903,7 @@ ed
 <details>
 <summary><b>Q. Write short note on: Sewer.</b></summary>
 
-Sewer:
+**Sewer:**
 A sewer is an underlyin; in whi i i
 n g trunk channel in which house drains empty their contents and from where the
 sewage goes to the disposal works. It is provided with manholes and flushing gates for inspection and cleaning.
@@ -2914,54 +2923,54 @@ i
 <details>
 <summary><b>Qa. Describe activated sludge process. How primary treatment of sewage is a<br>Q. Discuss modern sewage treatment with diagram. [RU-17N,16J]<br>Q. Describe the most important test of assessing the strength of sewage. [RU-16M]</b></summary>
 
-Activated sludge process: Stages of followin;
+**Activated sludge process:** Stages of followin;
 1) Primary treatment:
-> Screening.
-> Removal of grit.
-> Plain sedimentation.
+  - Screening.
+  - Removal of grit.
+  - Plain sedimentation.
 complished?
 g, modern method of sewage disposal (WHO recommend):
 2) Secondary treatment:
-> Trickling filters.
-> Activated sludge process.
+  - Trickling filters.
+  - Activated sludge process.
 3) Disposal of sludge.
 4) Disposal of effluent.
 5) Other methods:
 Sea outfall.
-> River outfall.
-> Sewage arming.
-> Oxidation Ponds.
+  - River outfall.
+  - Sewage arming.
+  - Oxidation Ponds.
 [Ref- Park / 24" / 794]
 Vv
 Activated sludge treatment process: This is the most modern method of sewage disposal. The stages are:
 1) Primary treatment: This consists of three stages:
-> Screening: Sewage is passed through a metal screen which intercepts large floating objects.
+  - Screening: Sewage is passed through a metal screen which intercepts large floating objects.
 ber allows settlement of heavier solids but allow passage of sewage
-> Grit chamber: Grit cham
+  - Grit chamber: Grit cham
 containing organic matter. The grit collected at the bottom is periodically removed and
 disposed by dumping.
-> Primary sedimentation: The sewage in the primary sedimentation tank flows very slowly with
+  - Primary sedimentation: The sewage in the primary sedimentation tank flows very slowly with
 a retention period of 6-8 hours. Purification takes place through sedimentation of suspended
 matter; 50-70% solids settle down. Fat and grease rise to the surface to form scum which is
 removed time to time.
 a . WAS EEE —
 ——
 2) Secondary treatment: It consists of 2 stages —
-> Biological treatment: The sewage effluent containing organic matter and micro-organisms is
+  - Biological treatment: The sewage effluent containing organic matter and micro-organisms is
 subjected to biological treatment in an aeration tank. In the aeration tank, the mixture of
 activated sludge and sewage is subjected to aeration for 6-8 hours by forcing air from the
 bottom of the aeration tank. During aeration aerobic bacteria of the activated sludge oxidize the
 organic matter of the sewage into carbon monoxide, nitrates and water. The pathogenic
 microorganisms are destroyed.
-> Final sedimentation: The oxidized sewage from the aeration tank is allowed to pass into the
+  - Final sedimentation: The oxidized sewage from the aeration tank is allowed to pass into the
 final or secondary settling tank where it is detained from 2-3 hours. The sludge collected at the
 settling tank is called activated sludge. Part of this activated sludge is pumped back into
 aeration tank for biological action.
 3) Disposal of sludge: The sludge disposed either by composting or by digestion in the digestion
 chamber.
 4) Disposal of effluent:
-> Disposal by dilution: After chlorination it can be disposed into the sea or river.
-> Disposal inland: If suitable land is available the effluent can be used for irrigation purposes.
+  - Disposal by dilution: After chlorination it can be disposed into the sea or river.
+  - Disposal inland: If suitable land is available the effluent can be used for irrigation purposes.
 [Ref- Park / 24" / 799-804 + Rashid, Khabir, Hyder /5"™ / 499]
 an Primary Cans
 —»| Screen rit Sedimentation Sedimentation | —————»
@@ -2980,25 +2989,25 @@ Renee ee
 <details>
 <summary><b>Q. Classify soil borne disease with causative agents.</b></summary>
 
-Soil borne diseases:
+**Soil borne diseases:**
 1) Bacterial:
-> Anthrax — B. anthracis
-> Tetanus — Cl. tetani
-> Gas gangrene > Cl. welchi
+  - Anthrax — B. anthracis
+  - Tetanus — Cl. tetani
+  - Gas gangrene > Cl. welchi
 2) Parasitic:
-> Ankylostomiasis + A. Duodenale
-> Ascariasis + A. Lumbricoides
-> Taeniasis — Taenia solium
+  - Ankylostomiasis + A. Duodenale
+  - Ascariasis + A. Lumbricoides
+  - Taeniasis — Taenia solium
 3) Indirectly: (due to dampness of soil)
-> Rheumatism
-> Respiratory diseases
+  - Rheumatism
+  - Respiratory diseases
 [Ref- Rashid, Khabir, Hyder / 4" / 492]
 </details>
 
 <details>
 <summary><b>Q. How will you prevent soil borne diseases?</b></summary>
 
-Prevention of soil borne diseases:
+**Prevention of soil borne diseases:**
 1) Prevention of contamination with soil
 2) By wearing shoes
 3) Maintenance of personal hygiene
@@ -3019,7 +3028,7 @@ are taken by the GOB to tackle the situation? [CU-18N, 17M,16M, | 5Ju,14Ju]
 <details>
 <summary><b>Q. How can you prevent arsenicosis? [SUST-17M]<br>Q. Write short note on: Arsenicosis. [SUST-15J,13Ju,1 Ju]</b></summary>
 
-Arsenicosis:
+**Arsenicosis:**
 ‘Arsenicosis means the clinical conditions that develop due to excess level of arsenic in the blood.
 Arsenic problem in Bangladesh:
 Background information:
@@ -3035,15 +3044,15 @@ arsenic concentration in potable water is 0.01mg/liter, in Bangladesh that limit
 ~~
 Causes of arsenic poisoning: The groundwater arsenic problem in Bangladesh arises because of an
 unfortunate combination of three factors:
-v Asource of arsenic (arsenic is present in the aquifer sediments),
-Y Mobilization (arsenic is released from the sediments to the groundwater) &
-Y Transport (arsenic is flushed away in the natural groundwater circulation).
+- Asource of arsenic (arsenic is present in the aquifer sediments),
+- Mobilization (arsenic is released from the sediments to the groundwater) &
+- Transport (arsenic is flushed away in the natural groundwater circulation).
 Clinical features:
-> Primary Stage or stage 1: Melanosis, kerotosis, conjunctivitis, gastroenteritis, inflammation
+  - Primary Stage or stage 1: Melanosis, kerotosis, conjunctivitis, gastroenteritis, inflammation
 respiratory tract.
-> Secondary Stage or stage 2: Leukomelanosis, hyperkeratosis, non-pitting oedema of feet and legs,
+  - Secondary Stage or stage 2: Leukomelanosis, hyperkeratosis, non-pitting oedema of feet and legs,
 peripheral neuropathy, liver and kidney disorder, ; ,
-> Tertiary Stage or stage 3: Gangrene of distal organs or parts of the body, cancer of the skin, lungs
+  - Tertiary Stage or stage 3: Gangrene of distal organs or parts of the body, cancer of the skin, lungs
 urinary bladder, kidney and liver failure. ,
 Prevention & control of arsenicosis:
 1) Detection of contamination,
@@ -3051,15 +3060,15 @@ Prevention & control of arsenicosis:
 3) Cessation of arsenic contaminated water intake,
 4) ,Provision of safe drinking water,
 5) Treatment of arsenicosis:
-> Symptomatic treatment of cases:
-Y Adequate nutrition, sufficient protein supplementation & anti-oxidants (vitamin A,
+  - Symptomatic treatment of cases:
+- Adequate nutrition, sufficient protein supplementation & anti-oxidants (vitamin A,
 C, E) therapy can help in reversal of early arsenicosis.
-Y Liniments of 20% urea & 10-20% acetyl salicylates in petroleum jelly base are
+- Liniments of 20% urea & 10-20% acetyl salicylates in petroleum jelly base are
 used locally as keratolytic treatment on thickened palms & soles.
-> Treatment with specific antidotes: D-Penicillamine, Dimercaprol & Dimercaptosuccinic
+  - Treatment with specific antidotes: D-Penicillamine, Dimercaprol & Dimercaptosuccinic
 acid are established chelating agents in acute arsenic poisoning (sequester arsenic away
 from the blood, common side effect is hypertension).
-> Treatment of complications.
+  - Treatment of complications.
 6) Rehabilitation of patients,
 7) Social advocacy & counseling to raise morale.
 Bangladesh program for tackling the problem:
@@ -3068,9 +3077,9 @@ mitigation activities. The steering committee consists of al! agencies working i
 problems. The government has so far taken three major strategies:
 Phase-one: To identify the arsenic contaminated tube-wells and mark them with red colour and
 mark the non-contaminated ones with green colour.
-> Phase-two: To provide deep tube wells as well as emergency measures in those locations where
+  - Phase-two: To provide deep tube wells as well as emergency measures in those locations where
 most of the tube wells are found to be contaminated by arsenic.
-> Phase-three: To provide treated safe surface water through pipes to the people. Simultaneously
+  - Phase-three: To provide treated safe surface water through pipes to the people. Simultaneously
 efforts are to be taken to create awareness among the people.
 Three projects under the ministry of Health and Family Welfare have just completed their phase one.
 [Ref- Rashid, Khabir, Hyder / 5" / 485-487]
@@ -3091,7 +3100,7 @@ we
 <details>
 <summary><b>Q. Write short note on: Sono filter.</b></summary>
 
-Sono filter / Sono arsenic filter:
+**Sono filter / Sono arsenic filter:**
 The S i i
 ono arsenic filter was invented in 2006 by Dr. Abul Hussam, a Bangladeshi scientist, who is
 a chemistry professor at Geor, iversi
@@ -3133,7 +3142,7 @@ Prevention: Please see above.
 <details>
 <summary><b>Q. Define plumbism.<br>Q. List at risk workers for plumbism. [DU-14Ju]<br>Q. Write short note on: Plumbism. [RU-17N,16M]</b></summary>
 
-Plumbism /saturnism: Chronic exposure of lead (Pb) is called plumbism.
+**Plumbism /saturnism:** Chronic exposure of lead (Pb) is called plumbism.
 1) Facial pallor.
 2) Anaemia. .
 3) Lead line / ‘Burtonian line’: A strippled blue line is seen at the gums in 50-70% cases. It appears at
@@ -3204,7 +3213,7 @@ the radiation from going through).
 <details>
 <summary><b>Q. Define ozone layer.<br>Q. State the impact of ozone layer depletion on community health. [DU-14Ju]</b></summary>
 
-Ozone layer / Ozone shield / Ozonosphere:
+**Ozone layer / Ozone shield / Ozonosphere:**
 The ozone layer refers to a region of earth’s stratosphere that absorbs most of the Sun’s ultraviolet (UV)
 radiation. It contains high concentrations of ozone (Os) relative to other parts of the atmosphere, although still
 very small relative to other gases in the stratosphere. It is situated roughly between 15 and 35 km (9 and 22
@@ -3255,9 +3264,8 @@ Ans. a) T, b) T, c) T, d) T, e) F.
 </details>
 
 <details>
-<summary><b>Q. Air pollution can be monitored by: [DU-</b></summary>
+<summary><b>Q. Air pollution can be monitored by: [DU- 17M,11Ju]</b></summary>
 
-17M,11Ju]
 a) Smoke index.
 b) Orthotolidine test.
 c) Sulpher-di-oxide.
@@ -3267,9 +3275,8 @@ Ans. a) T, b) F, c) T, d) F, e) F.
 </details>
 
 <details>
-<summary><b>Q. Gas responsible for global warming: [DU-</b></summary>
+<summary><b>Q. Gas responsible for global warming: [DU- 16N]</b></summary>
 
-16N]
 a) SQ.
 b) CO).
 c) CFC.
@@ -3279,9 +3286,8 @@ Ans. a) F, b) T, c) T, d) F, e) T.
 </details>
 
 <details>
-<summary><b>Q. Domestic combustion is a major source of:</b></summary>
+<summary><b>Q. Domestic combustion is a major source of: [DU-15J]</b></summary>
 
-[DU-15J]
 a) Sulphur dioxide.
 b) Nitrogen oxide.
 c) Smoke.
@@ -3293,7 +3299,7 @@ Ans. a) T, b) T, c) T, d) F, e) F,
 <details>
 <summary><b>Q. Greenhouse gases increases continuously</b></summary>
 
-due to: [DU-14Ju, 10Ju]
+**due to:** [DU-14Ju, 10Ju]
 a) Excessive raining.
 b) Emission of CO, from motor vehicle.
 c) Excessive draught.
@@ -3306,7 +3312,7 @@ Ans. a) F, b) T, c) F, d) T, e) T.
 <details>
 <summary><b>Q. Gases responsible for global warming</b></summary>
 
-include: [DU-14J]
+**include:** [DU-14J]
 a) CO,
 b) CO
 c) SO,
@@ -3318,7 +3324,7 @@ Ans, a) T, b) F, c) F, d) T, e) T.
 <details>
 <summary><b>Q. Following chemicals are major water</b></summary>
 
-pollutants in Bangladesh: [DU-14J]
+**pollutants in Bangladesh:** [DU-14J]
 a) Arsenic
 b) Asbestos
 c) Lead
@@ -3342,7 +3348,7 @@ oA fey tak A eed te ves
 <details>
 <summary><b>Q. The water borne disea : -</b></summary>
 
-cael ses are: [DU-13Ju]
+**cael ses are:** [DU-13Ju]
 b) guinea worm disease
 c) hook worm
 d) hepatitis-C
@@ -3384,9 +3390,8 @@ Ans. a) T, b) F, c) T, d) T, e) F.
 </details>
 
 <details>
-<summary><b>Q. The best indicators of air pollution are:</b></summary>
+<summary><b>Q. The best indicators of air pollution are: [DU-12J]</b></summary>
 
-[DU-12J]
 a) carbon disulphide
 b) sulphur dioxide
 c) lead
@@ -3396,9 +3401,8 @@ Ans. a) F, b) T, c) F, d) T, e) F.
 </details>
 
 <details>
-<summary><b>Q. Slow sand filter bed composed of: [DU-</b></summary>
+<summary><b>Q. Slow sand filter bed composed of: [DU- Ju]</b></summary>
 
-Ju]
 a) coarse gravel
 b) filter sand
 c) algae
@@ -3419,9 +3423,8 @@ Ans. a) F, b) T, ¢) T, d) F, e) T.
 </details>
 
 <details>
-<summary><b>Q. A water carriage system consists of: [DU-</b></summary>
+<summary><b>Q. A water carriage system consists of: [DU- 11J]</b></summary>
 
-11J]
 a) Trunk sewer
 b) Sludge digester
 c) House sewer
@@ -3431,9 +3434,8 @@ Ans. a) T, b) F, c) T, d) F, e) T-
 </details>
 
 <details>
-<summary><b>Q. Delayed somatic effects of radiation are:</b></summary>
+<summary><b>Q. Delayed somatic effects of radiation are: [DU-11J]</b></summary>
 
-[DU-11J]
 a) Leukaemia
 b) Radiation sickness
 c) Shortening of life
