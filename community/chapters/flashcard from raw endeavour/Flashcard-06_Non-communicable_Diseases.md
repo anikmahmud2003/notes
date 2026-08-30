@@ -31,7 +31,32 @@ defined “Non communicable disease” which have one or more of the following c
 - They require special training of the patient for rehabilitation.
 - They may be expected to require a long period of supervision, observation or care.
 [Ref- Park /24" /380]
-নন-কমিউনিকেবল ডিজিজ সহজে মনে রাখার সূত্র: "P-R-A-I-S" (প্রেইস)
+### 📌 Cardinal Characteristics of Non-Communicable Diseases (NCDs)
+
+The Commission on Chronic Illness in the USA defines an NCD as having **one or more** of the following characteristics. 
+
+To memorize them effortlessly, use the acronym **"P-R-A-I-S"** (Praise) or follow a simple clinical story.
+
+---
+
+#### 🧠 The Mnemonic: **P-R-A-I-S**
+
+*   **P** – **P**ermanent (তারা স্থায়ী হয়)
+*   **R** – **R**esidual disability (অবশিষ্ট অক্ষমতা বা পঙ্গুত্ব রেখে যায়)
+*   **A** – **A**ltered pathology (নন-রিভার্সিবল প্যাথলজিক্যাল পরিবর্তন ঘটে)
+*   **I** – **I**ntense training (পুনর্বাসনের জন্য রোগীর বিশেষ ট্রেনিং বা শিক্ষার প্রয়োজন হয়)
+*   **S** – **S**upervision & care (দীর্ঘদিন ধরে পর্যবেক্ষণ বা যত্নের প্রয়োজন হয়)
+
+---
+
+#### 🏥 মনে রাখার সহজ গল্প (Clinical Scenario)
+একজন **স্ট্রোক (Stroke)** বা **প্যারালাইসিস** রোগীর কথা চিন্তা করুন:
+1. **Permanent:** রোগটি হওয়ার পর তা শরীরে **স্থায়ী** হয়ে গেল।
+2. **Residual disability:** রোগটি সেরে গেলেও তার এক পাশ অবশ বা **অক্ষমতা** রয়ে গেল।
+3. **Pathological alteration:** কেন এমন হলো? কারণ তার মস্তিষ্কের ভেতরের রক্তনালীর ক্ষতিটা আর আগের অবস্থায় ফিরবে না (**নন-রিভার্সিবল**)।
+4. **Special training:** এখন তাকে নতুন করে চলাফেরা বা থেরাপি নেওয়ার জন্য **স্পেশাল ট্রেনিং** দিতে হবে।
+5. **Long supervision:** সবশেষে, এই অবস্থায় টিকে থাকার জন্য তাকে আজীবন **দীর্ঘদিন ডাক্তারের তত্ত্বাবধান** বা কেয়ারে থাকতে হবে।
+
 </details>
 
 <details>
