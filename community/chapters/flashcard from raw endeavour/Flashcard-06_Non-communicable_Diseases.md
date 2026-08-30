@@ -17,7 +17,7 @@
 
 **Non-communicable diseases:** oo.
 These are a group of chronic diseases where the causative agents are not clearly identified, but a set of
-tisk factors have been identified to be associated.
+risk factors have been identified to be associated.
 </details>
 
 <details>
