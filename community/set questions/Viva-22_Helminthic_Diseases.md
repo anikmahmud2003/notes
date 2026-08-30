@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. State the prevention and control of Filariasis in a community? (S11,Q7)
+<details>
+<summary><b>Q1. State the prevention and control of Filariasis in a community? (S11,Q7)</b></summary>
 
 > 🔴 Lymphatic filariasis = infection by **nematode worms *Wuchereria bancrofti*, *Brugia malayi*, *Brugia timori***, transmitted by the bite of infective mosquitoes (***Culex* (common in Bangladesh), *Aedes, Anopheles, Mansonia***). Control rests on **chemotherapy + vector control + community participation = the "Twin Pillars".**
 
@@ -35,3 +36,5 @@
 > 🎯 Filariasis control = **DEC mass treatment + vector control (larviciding, Pistia removal, fogging) + personal protection + morbidity care.**
 
 > 📖 Ch-05, Endeavour PDF pp. 223–225
+
+</details>

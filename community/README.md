@@ -93,6 +93,7 @@
 
 > Every SAQ from Boards 1 & 2 answered visually with tables, 🎯 mnemonic one-liners and 🔴 key points,
 > each referenced with `(S#,Q#)` tags and a 📖 chapter/Endeavour-PDF citation footer.
+> 🎴 Now **collapsible** — every Q is a `<details>` toggle (answer hidden until clicked).
 
 | Viva | Topic | File | # of questions |
 |---|---|---|---|

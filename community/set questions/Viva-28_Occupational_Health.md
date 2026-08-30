@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Define occupational health and mention factors essential for safe occupational environment. (S1,Q4)
+<details>
+<summary><b>Q1. Define occupational health and mention factors essential for safe occupational environment. (S1,Q4)</b></summary>
 
 ### Definition of occupational health
 > 🔴 The **Joint ILO/WHO Committee on Occupational Health (1950):** "Occupational health should aim at the **promotion and maintenance of the highest degree of physical, mental and social well-being of workers in all occupations**; the **prevention** among workers of departures from health caused by their working conditions; the **protection** of workers in their employment from risks resulting from factors adverse to health; the placing & maintenance of the worker in an occupational environment adapted to this physiological & psychological equipment; and, to summarize, **the adaptation of work to man and each man to his job**."
@@ -25,7 +26,10 @@
 
 ---
 
-## Q2. What are the objects of occupational health? Tell about maternity benefit of female workers. (S2,Q4)
+</details>
+
+<details>
+<summary><b>Q2. What are the objects of occupational health? Tell about maternity benefit of female workers. (S2,Q4)</b></summary>
 
 ### Objects (objectives) of occupational health
 1. **Promotion & maintenance** of the highest degree of physical, mental & social well-being of workers in all occupations.
@@ -44,7 +48,10 @@
 
 ---
 
-## Q3. What do you mean by Ergonomics? Classify the common occupational hazards in exposed population. (S3,Q4)
+</details>
+
+<details>
+<summary><b>Q3. What do you mean by Ergonomics? Classify the common occupational hazards in exposed population. (S3,Q4)</b></summary>
 
 ### Ergonomics
 > 🔴 **Ergonomics** (Greek: *ergon* = work, *nomos* = law) simply means **"fitting the job to the worker"**; its objective is to achieve the **best mutual adjustment of man and his work** for improvement of human efficiency & well-being.
@@ -64,7 +71,10 @@
 
 ---
 
-## Q4. What are the common occupational hazards? Tell about the worker's benefits. (S4,Q4)
+</details>
+
+<details>
+<summary><b>Q4. What are the common occupational hazards? Tell about the worker's benefits. (S4,Q4)</b></summary>
 
 ### Common occupational hazards
 **Physical** (heat – hyperpyrexia/heat cramps, cold – trench foot/frostbite, light – cataract/nystagmus, pressure – caisson disease, noise – deafness, radiation – leukaemia/aplastic anaemia, mechanical – accidents, electricity – burns) · **Chemical** (dermatitis, gas poisoning – CO/CO₂/HCN/H₂S, metal poisoning – Pb/Hg/Cd/Mn/As, solvents, dusts → pneumoconiosis, ingestion) · **Biological** (brucellosis, anthrax, leptospirosis, tetanus, fungal infections) · **Mechanical** (accidents) · **Psychosocial** (stress, absenteeism) + occupational cancer & dermatosis.
@@ -83,7 +93,10 @@
 
 ---
 
-## Q5. What are the heat related occupational hazards? List the general measures to protect the health of workers. (S5,Q4)
+</details>
+
+<details>
+<summary><b>Q5. What are the heat related occupational hazards? List the general measures to protect the health of workers. (S5,Q4)</b></summary>
 
 ### Heat-related occupational hazards
 1. **Heat hyperpyrexia (heat-stroke).**
@@ -108,7 +121,10 @@
 
 ---
 
-## Q6. List cold related conditions. Mention the benefits for employees. (S6,Q4)
+</details>
+
+<details>
+<summary><b>Q6. List cold related conditions. Mention the benefits for employees. (S6,Q4)</b></summary>
 
 ### Cold-related occupational conditions
 1. **Trench foot.**
@@ -131,7 +147,10 @@
 
 ---
 
-## Q7. Define ergonomics. What are the chemicals that cause occupational hazards? (S7,Q4)
+</details>
+
+<details>
+<summary><b>Q7. Define ergonomics. What are the chemicals that cause occupational hazards? (S7,Q4)</b></summary>
 
 ### Ergonomics
 > 🔴 "**Fitting the job to the worker**" — best mutual adjustment of man & his work (improve human efficiency & well-being).
@@ -150,7 +169,10 @@
 
 ---
 
-## Q8. What are the diseases due to biological agents in occupational environment? (S8,Q4)
+</details>
+
+<details>
+<summary><b>Q8. What are the diseases due to biological agents in occupational environment? (S8,Q4)</b></summary>
 
 ### Diseases due to biological agents (occupational)
 1. **Brucellosis** (farmers, dairy/vet workers).
@@ -170,7 +192,10 @@
 
 ---
 
-## Q9. What are the common health hazards in agricultural workers? (S9,Q4)
+</details>
+
+<details>
+<summary><b>Q9. What are the common health hazards in agricultural workers? (S9,Q4)</b></summary>
 
 ### Common occupational hazards of agricultural workers
 **1. Zoonotic/biological hazards:** brucellosis, **anthrax**, leptospirosis, **tetanus**, bovine TB, Q fever, fungal infection (hands & feet), parasitic worms.
@@ -185,7 +210,10 @@
 
 ---
 
-## Q10. Define and classify pneumoconiosis? Give example of each of them. Enumerate the physical hazards among the factory workers. (S10,Q4)
+</details>
+
+<details>
+<summary><b>Q10. Define and classify pneumoconiosis? Give example of each of them. Enumerate the physical hazards among the factory workers. (S10,Q4)</b></summary>
 
 ### Pneumoconiosis — definition & classification
 > 🔴 **Pneumoconiosis** = a **lung disease caused by inhalation of dust** particles (size **0.5–3 micron**) over a variable period of exposure, which may gradually cripple the worker by reducing working capacity via **lung fibrosis** & complications.
@@ -212,7 +240,10 @@
 
 ---
 
-## Q11. Name the asbestos fibres. What do you mean by Farmer's lung? (S11,Q4)
+</details>
+
+<details>
+<summary><b>Q11. Name the asbestos fibres. What do you mean by Farmer's lung? (S11,Q4)</b></summary>
 
 ### Asbestos fibres
 1. **Chrysotile (white asbestos)** — the most widely used.
@@ -232,7 +263,10 @@
 
 ---
 
-## Q12. Name the occupational cancers with their carcinogens. (S12,Q4)
+</details>
+
+<details>
+<summary><b>Q12. Name the occupational cancers with their carcinogens. (S12,Q4)</b></summary>
 
 ### Occupational cancers with causative agents
 | Occupational cancer | Causative agents |
@@ -254,7 +288,10 @@
 
 ---
 
-## Q13. State the causes of absenteeism. List the benefits of employees. (S13,Q4)
+</details>
+
+<details>
+<summary><b>Q13. State the causes of absenteeism. List the benefits of employees. (S13,Q4)</b></summary>
 
 ### Causes of sickness absenteeism
 1. **Economic causes** — worker entitled to **sick leave with pay** tends to avail of this privilege by reporting sick.
@@ -272,7 +309,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q14. What are the medical measures for combating the occupational hazards. (S14,Q4)
+</details>
+
+<details>
+<summary><b>Q14. What are the medical measures for combating the occupational hazards. (S14,Q4)</b></summary>
 
 ### Medical measures for prevention of occupational hazards
 1. **Pre-placement examination** — done at the time of employment: medical, family, occupational & social history + thorough physical exam + laboratory/biological investigations.
@@ -290,7 +330,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q15. What do you mean by pre-placement examination? State its importance. (S15,Q4)
+</details>
+
+<details>
+<summary><b>Q15. What do you mean by pre-placement examination? State its importance. (S15,Q4)</b></summary>
 
 ### Pre-placement examination
 > 🔴 **Pre-placement examination** = a **medical examination carried out at the time of employment** — it includes the worker's **medical, family, occupational & social history**, a **thorough physical examination** and a battery of **laboratory & biological investigations**.
@@ -307,7 +350,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q16. Name the engineering measures for controlling the occupational hazards. (S16,Q4)
+</details>
+
+<details>
+<summary><b>Q16. Name the engineering measures for controlling the occupational hazards. (S16,Q4)</b></summary>
 
 ### Engineering measures for control of occupational hazards
 1. **Design of building** — floor, walls, height, roof, windows, cubic space in original plan.
@@ -328,7 +374,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q17. What are the legislative measures to control occupational hazards? (S17,Q4)
+</details>
+
+<details>
+<summary><b>Q17. What are the legislative measures to control occupational hazards? (S17,Q4)</b></summary>
 
 ### Legislative measures (Health & safety legislation, Bangladesh)
 1. **The Factories Act, 1965.**
@@ -348,7 +397,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q18. Define ergonomics. What are the benefits for the employees? (S18,Q4)
+</details>
+
+<details>
+<summary><b>Q18. Define ergonomics. What are the benefits for the employees? (S18,Q4)</b></summary>
 
 ### Ergonomics
 > 🔴 "**Fitting the job to the worker**" — best mutual adjustment of man & his work to improve human efficiency & well-being.
@@ -362,7 +414,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q19. Tell about maternity benefits of female workers. Mention the personal protective measures for the workers. (S19,Q4)
+</details>
+
+<details>
+<summary><b>Q19. Tell about maternity benefits of female workers. Mention the personal protective measures for the workers. (S19,Q4)</b></summary>
 
 ### Maternity benefits of female workers
 - **Maternity benefit (ESI/act): 12 weeks — now extended to 24 weeks**; **miscarriage → 6 weeks**; sickness after confinement → up to 30 days.
@@ -384,7 +439,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q20. What do you mean by offensive trades? Name some offensive and dusty trades. (S20,Q4)
+</details>
+
+<details>
+<summary><b>Q20. What do you mean by offensive trades? Name some offensive and dusty trades. (S20,Q4)</b></summary>
 
 ### Offensive trades
 > 🔴 An **offensive trade** = any trade which **may impair the health of a person in some way or is a source of nuisance from the public health point of view.**
@@ -408,7 +466,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q21. Name the personal protective equipment used in an industry. (S21,Q4)
+</details>
+
+<details>
+<summary><b>Q21. Name the personal protective equipment used in an industry. (S21,Q4)</b></summary>
 
 ### Personal protective equipment (PPEs) in an industry
 1. **Respiratory devices (masks, respirators).**
@@ -430,7 +491,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q22. Name the engineering measures for controlling the occupational hazards. (S22,Q4)
+</details>
+
+<details>
+<summary><b>Q22. Name the engineering measures for controlling the occupational hazards. (S22,Q4)</b></summary>
 
 *Repeat of Q16.* **Building design · good housekeeping · general ventilation · mechanization · substitution · dust control (water-sprays) · enclosure · isolation · local exhaust ventilation · protective devices (PPE) · environmental/statistical monitoring · research.**
 
@@ -438,7 +502,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q23. What are the medical measures for controlling the occupational hazards? (S23,Q4)
+</details>
+
+<details>
+<summary><b>Q23. What are the medical measures for controlling the occupational hazards? (S23,Q4)</b></summary>
 
 *Repeat of Q14.* **Pre-placement examination · periodical examination (annual/monthly) · medical & health-care services · notification of occupational disease · supervision of working environment · maintenance & analysis of records · health education & counseling · rehabilitation.**
 
@@ -446,7 +513,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q24. Enumerate the benefits for the employees. (S24,Q4)
+</details>
+
+<details>
+<summary><b>Q24. Enumerate the benefits for the employees. (S24,Q4)</b></summary>
 
 ### Benefits for the employees
 1. **Medical benefit** — full free medical care incl. hospitalization (OPD, drugs, specialists, investigations, domiciliary, maternal/child care, immunization, FP, emergency, ambulance, health education, inpatient).
@@ -463,7 +533,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q25. Name the notifiable diseases. List the general measures to protect the health of the workers. (S25,Q4)
+</details>
+
+<details>
+<summary><b>Q25. Name the notifiable diseases. List the general measures to protect the health of the workers. (S25,Q4)</b></summary>
 
 ### Notifiable occupational diseases (as in Bangladesh)
 1. Poisoning by **lead**, **phosphorus**, **arsenic**, **manganese**, nitrous fumes, **carbon-bisulphide**, **benzene**, halogens.
@@ -488,7 +561,10 @@ Medical, sickness (91 days), **maternity (24 weeks)**, disablement (72%), depend
 
 ---
 
-## Q26. What are the medical measures for controlling the occupational hazards? List the causes of sickness absenteeism. (S26,Q4)
+</details>
+
+<details>
+<summary><b>Q26. What are the medical measures for controlling the occupational hazards? List the causes of sickness absenteeism. (S26,Q4)</b></summary>
 
 ### Medical measures (repeat of Q14)
 Pre-placement examination · periodical examination · medical & health care services · notification · supervision of environment · records · health education/counseling · rehabilitation.
@@ -500,7 +576,10 @@ Pre-placement examination · periodical examination · medical & health care ser
 
 ---
 
-## Q27. What are the benefits for the employees? Tell about maternity benefits of female workers. (S27,Q4)
+</details>
+
+<details>
+<summary><b>Q27. What are the benefits for the employees? Tell about maternity benefits of female workers. (S27,Q4)</b></summary>
 
 ### Benefits for employees
 *As Q4/Q24* — medical, sickness (91 days), maternity (24 weeks), disablement (72% / pension), dependants' benefit, funeral expenses, rehabilitation allowance.
@@ -512,7 +591,10 @@ Pre-placement examination · periodical examination · medical & health care ser
 
 ---
 
-## Q28. What do you mean by offensive trades? Name some offensive and dusty trades. (S28,Q4)
+</details>
+
+<details>
+<summary><b>Q28. What do you mean by offensive trades? Name some offensive and dusty trades. (S28,Q4)</b></summary>
 
 *Repeat of Q20.*
 > 🔴 **Offensive trade** = any trade which may impair the health of a person or is a source of nuisance from the public health point of view.
@@ -524,7 +606,10 @@ Pre-placement examination · periodical examination · medical & health care ser
 
 ---
 
-## Q29. Define pneumoconiosis and give examples. What are the benefits for the employees? (S29,Q4)
+</details>
+
+<details>
+<summary><b>Q29. Define pneumoconiosis and give examples. What are the benefits for the employees? (S29,Q4)</b></summary>
 
 ### Pneumoconiosis — definition & examples
 > 🔴 **Pneumoconiosis** = lung disease caused by inhalation of dust (0.5–3 micron) → lung fibrosis with reduced working capacity.
@@ -549,7 +634,10 @@ Pre-placement examination · periodical examination · medical & health care ser
 
 ---
 
-## Q30. What do you mean by offensive trades? Name some offensive trades. (S30,Q4)
+</details>
+
+<details>
+<summary><b>Q30. What do you mean by offensive trades? Name some offensive trades. (S30,Q4)</b></summary>
 
 *Repeat of Q20/Q28.*
 > 🔴 **Offensive trade** = any trade that may **impair the health of a person** or is a **source of nuisance from the public health point of view.**
@@ -557,3 +645,5 @@ Pre-placement examination · periodical examination · medical & health care ser
 **Examples:** tannery & leather processing; slaughtering of animals; keeping animals/animal trading; fat melting (grease factories); bone boiling & drying (fertilizer factories); gut scraping; brick-fields, cement, fertilizer & lime factories; corrosive chemical factories; dusty mills (jute, rice, flour, wool, cotton, sugar, paper, tobacco).
 
 > 📖 Ch-17, Endeavour PDF pp. 577–578
+
+</details>

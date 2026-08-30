@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. What do you mean by food fortification and food enrichment. Give example of each of them. (S1,Q7)
+<details>
+<summary><b>Q1. What do you mean by food fortification and food enrichment. Give example of each of them. (S1,Q7)</b></summary>
 
 ### Food fortification
 > 🔴 **Food fortification** (WHO) = the process whereby **nutrients are added to foods (in relatively small quantities)** to maintain or improve the quality of the diet of a group, a community or a population.
@@ -32,7 +33,10 @@
 
 ---
 
-## Q2. Mention the function of food, why egg is considered as reference protein? (S2,Q7)
+</details>
+
+<details>
+<summary><b>Q2. Mention the function of food, why egg is considered as reference protein? (S2,Q7)</b></summary>
 
 ### Functions of food
 1. **Yielding energy** — carbohydrates, proteins & fats provide energy (kcal).
@@ -52,7 +56,10 @@
 
 ---
 
-## Q3. Mention the food borne disease. (S3,Q7)
+</details>
+
+<details>
+<summary><b>Q3. Mention the food borne disease. (S3,Q7)</b></summary>
 
 ### Food borne diseases
 > 🔴 **Food borne disease** = "a disease, usually either infectious or toxin in nature, **caused by agents that enter the body through the ingestion of food.**"
@@ -77,7 +84,10 @@
 
 ---
 
-## Q4. What are the dietary goals? (S4,Q7)
+</details>
+
+<details>
+<summary><b>Q4. What are the dietary goals? (S4,Q7)</b></summary>
 
 ### Dietary goals (WHO recommended)
 > 📌 All countries should develop a **national nutrition and food policy** setting out "dietary goals" (the "**prudent diet**") recommended by WHO Expert Committees.
@@ -96,7 +106,10 @@
 
 ---
 
-## Q5. Name the source and functions of protein. (S5,Q5)
+</details>
+
+<details>
+<summary><b>Q5. Name the source and functions of protein. (S5,Q5)</b></summary>
 
 ### Sources of protein
 1. **Animal source (first class / reference / biologically complete / high biological value):** milk, meat, **eggs**, cheese, **fish** and fowl — contain **all essential amino acids in adequate amounts.**
@@ -115,7 +128,10 @@
 
 ---
 
-## Q6. Name the source and function of fat? (S6,Q5)
+</details>
+
+<details>
+<summary><b>Q6. Name the source and function of fat? (S6,Q5)</b></summary>
 
 ### Sources of fat
 - **Animal fat:** ghee, butter, cheese, eggs, fat of meat & fish.
@@ -139,7 +155,10 @@
 
 ---
 
-## Q7. Name the source and functions of carbohydrate? (S7,Q1)
+</details>
+
+<details>
+<summary><b>Q7. Name the source and functions of carbohydrate? (S7,Q1)</b></summary>
 
 ### Sources of carbohydrate (3 main sources)
 1. **Starches** — cereals, roots and tubers, plant stems.
@@ -162,7 +181,10 @@
 
 ---
 
-## Q8. List the essential amino acids. What are the limiting amino acids. Say protein deficiency diseases. (S8,Q6)
+</details>
+
+<details>
+<summary><b>Q8. List the essential amino acids. What are the limiting amino acids. Say protein deficiency diseases. (S8,Q6)</b></summary>
 
 ### Essential amino acids
 > 🔴 **Essential amino acids** = amino acids which **cannot be synthesized in the body** but are essential for growth and maintenance, so they **must be supplied in the diet.** There are **eight:**
@@ -194,7 +216,10 @@
 
 ---
 
-## Q9. What are the criteria for a good quality protein. (S9,Q6)
+</details>
+
+<details>
+<summary><b>Q9. What are the criteria for a good quality protein. (S9,Q6)</b></summary>
 
 ### Criteria / assessment of quality of protein
 1. **Amino acid content of protein** — presence of all essential amino acids in adequate amounts.
@@ -211,7 +236,10 @@
 
 ---
 
-## Q10. What do you mean by reference protein. Why egg is considered as reference protein? (S10,Q5)
+</details>
+
+<details>
+<summary><b>Q10. What do you mean by reference protein. Why egg is considered as reference protein? (S10,Q5)</b></summary>
 
 ### Reference protein
 > 🔴 A **reference protein** is one which would produce **1 gm of tissue for each gm consumed**, i.e., it has a **biological value of 100.** Other proteins can be compared with it to measure their biological values.
@@ -229,7 +257,10 @@
 
 ---
 
-## Q11. Mention the daily requirements of protein? (S11,Q5)
+</details>
+
+<details>
+<summary><b>Q11. Mention the daily requirements of protein? (S11,Q5)</b></summary>
 
 ### Protein requirements (gm/kg/day)
 | Group | Requirement |
@@ -247,7 +278,10 @@
 
 ---
 
-## Q12. Enumerate the protein deficiency disorders. (S12,Q5)
+</details>
+
+<details>
+<summary><b>Q12. Enumerate the protein deficiency disorders. (S12,Q5)</b></summary>
 
 ### Protein deficiency diseases / health problems
 1. **Marasmus** — lack of protein **and** calorie.
@@ -264,7 +298,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q13. Mention the difference between marasmus & kwashiorkor. (S13,Q6)
+</details>
+
+<details>
+<summary><b>Q13. Mention the difference between marasmus &amp; kwashiorkor. (S13,Q6)</b></summary>
 
 ### Difference between kwashiorkor & marasmus
 | Features | Kwashiorkor | Marasmus |
@@ -287,7 +324,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q14. What is fat and oil. Classify fat. What are the measures to be taken to rear a healthy skin. (S14,Q6)
+</details>
+
+<details>
+<summary><b>Q14. What is fat and oil. Classify fat. What are the measures to be taken to rear a healthy skin. (S14,Q6)</b></summary>
 
 ### Fat and oil
 > 🔴 Fats (lipids) are made of **fatty acids (saturated, monounsaturated, polyunsaturated), triglycerides, phospholipids, glycolipids** etc. Fats are **solid at 20°C**; they are called **"oil" if liquid at that temperature.**
@@ -310,7 +350,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q15. Name the essential fatty acids? (S15,Q6)
+</details>
+
+<details>
+<summary><b>Q15. Name the essential fatty acids? (S15,Q6)</b></summary>
 
 ### Essential fatty acids (EFAs)
 > 🔴 **Essential fatty acids** are those that **cannot be synthesized by man** and can be derived **only from food.**
@@ -329,7 +372,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q16. Mention the fat related diseases. (S16,Q6)
+</details>
+
+<details>
+<summary><b>Q16. Mention the fat related diseases. (S16,Q6)</b></summary>
 
 ### Diseases associated with high fat intake / demerits of excess fat
 1. **Obesity** — fat-rich diet → adipose tissue may increase up to **30%.**
@@ -344,7 +390,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q17. Enumerate the functions of fat. Classify carbohydrate. (S17,Q6)
+</details>
+
+<details>
+<summary><b>Q17. Enumerate the functions of fat. Classify carbohydrate. (S17,Q6)</b></summary>
 
 ### Functions of fat
 1. **High-energy food** — 9 kcal/gm.
@@ -366,7 +415,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q18. Define and classify vitamin with examples? (S18,Q5)
+</details>
+
+<details>
+<summary><b>Q18. Define and classify vitamin with examples? (S18,Q5)</b></summary>
 
 ### Vitamins — definition
 > 🔴 **Vitamins** are **organic complex chemical substances** which are required by the body **in small amounts**, act as a **catalyst in various body processes**, **cannot be synthesized by the body** and must be **supplied by diet.**
@@ -385,7 +437,10 @@ Also part of PEM spectrum: **marasmic kwashiorkor, nutritional dwarfism, underwe
 
 ---
 
-## Q19. Enumerate the deficiency disorders due to Vit-A. Mention the daily requirement of Vit-A. (S19,Q5)
+</details>
+
+<details>
+<summary><b>Q19. Enumerate the deficiency disorders due to Vit-A. Mention the daily requirement of Vit-A. (S19,Q5)</b></summary>
 
 ### Vitamin-A deficiency disorders
 **Ocular (Xerophthalmia) — stages of ocular changes (X series):**
@@ -419,7 +474,10 @@ Prevention schedule (Bangladesh): **vitamin A capsule — 6 months–1 yr: 100,0
 
 ---
 
-## Q20. Mention the role of sunlight in the synthesis of Vit-D in human body? (S21,Q5)
+</details>
+
+<details>
+<summary><b>Q20. Mention the role of sunlight in the synthesis of Vit-D in human body? (S21,Q5)</b></summary>
 
 ### Role of sunlight in vitamin-D synthesis
 > 🔴 Vitamin D is **synthesized in the body by the action of UV rays of sunlight on 7-dehydrocholesterol in the skin.**
@@ -435,7 +493,10 @@ Prevention schedule (Bangladesh): **vitamin A capsule — 6 months–1 yr: 100,0
 
 ---
 
-## Q21. List the milk born diseases? (S22,Q6)
+</details>
+
+<details>
+<summary><b>Q21. List the milk born diseases? (S22,Q6)</b></summary>
 
 ### Milk borne diseases (FAO/WHO Expert Committee, 1970 classification)
 **A) Infections of animals transmitted to man:**
@@ -455,7 +516,10 @@ Prevention schedule (Bangladesh): **vitamin A capsule — 6 months–1 yr: 100,0
 
 ---
 
-## Q22. Tell the signs and symptoms of Rickets. What is the daily requirement of Vit-D. (S23,Q5)
+</details>
+
+<details>
+<summary><b>Q22. Tell the signs and symptoms of Rickets. What is the daily requirement of Vit-D. (S23,Q5)</b></summary>
 
 ### Rickets — signs & symptoms
 > 🔴 **Rickets** occurs usually in **young children (6 months to 2 years)** due to **reduced calcification of bone**, characterized by **growth failure, bone deformity, muscular hypotonia, tetany and convulsions.**
@@ -481,7 +545,10 @@ Main clinical features:
 
 ---
 
-## Q23. Enumerate the functions and daily requirement of Vit-E. (S24,Q6)
+</details>
+
+<details>
+<summary><b>Q23. Enumerate the functions and daily requirement of Vit-E. (S24,Q6)</b></summary>
 
 ### Functions of vitamin E (tocopherol)
 1. **Potent biological antioxidant** — prevents oxidation of polyunsaturated fatty acids (PUFA) & vitamin A; protects cell membranes (structural integrity).
@@ -498,7 +565,10 @@ Main clinical features:
 
 ---
 
-## Q24. Name some water soluble vitamins. Mention the functions, daily requirements and deficiency disorders of Vit- B1, B2, B6 and B12? (S25,Q5)
+</details>
+
+<details>
+<summary><b>Q24. Name some water soluble vitamins. Mention the functions, daily requirements and deficiency disorders of Vit- B1, B2, B6 and B12? (S25,Q5)</b></summary>
 
 ### Water-soluble vitamins
 **Vitamin-B complex (thiamine B1, riboflavin B2, niacin B3, pantothenic acid B5, pyridoxine B6, biotin B7, folic acid, cobalamine B12) + vitamin C.**
@@ -532,7 +602,10 @@ Main clinical features:
 
 ---
 
-## Q25. Mention the sources of dietary iodine and its daily requirement. List the iodine deficiency disorder. (S26,Q7)
+</details>
+
+<details>
+<summary><b>Q25. Mention the sources of dietary iodine and its daily requirement. List the iodine deficiency disorder. (S26,Q7)</b></summary>
 
 ### Sources of dietary iodine
 1. **Sea foods** — sea fish, sea salt.
@@ -566,7 +639,10 @@ Main clinical features:
 
 ---
 
-## Q26. List the milk borne disease. Mention the pasteurization process of milk. (S27,Q7)
+</details>
+
+<details>
+<summary><b>Q26. List the milk borne disease. Mention the pasteurization process of milk. (S27,Q7)</b></summary>
 
 ### Milk borne diseases
 - **Animal infections transmitted to man (primary):** TB, Brucellosis, Streptococcal infections, Salmonellosis, Q fever; (lesser) cowpox, FMD, anthrax, leptospirosis, tick-borne encephalitis.
@@ -586,7 +662,10 @@ Main clinical features:
 
 ---
 
-## Q27. Mention the criteria for fresh meat and fish. List the meat borne diseases. (S28,Q7)
+</details>
+
+<details>
+<summary><b>Q27. Mention the criteria for fresh meat and fish. List the meat borne diseases. (S28,Q7)</b></summary>
 
 ### Criteria for fresh meat and fish
 > 📌 A food is "fresh" when it has not lost its natural colour, odour, taste and texture.
@@ -604,7 +683,10 @@ Main clinical features:
 
 ---
 
-## Q28. Define balanced diet. Mention the daily requirements of food in balanced diet. (S29,Q7)
+</details>
+
+<details>
+<summary><b>Q28. Define balanced diet. Mention the daily requirements of food in balanced diet. (S29,Q7)</b></summary>
 
 ### Balanced diet — definition
 > 🔴 **Balanced diet** = one which **contains a variety of foods in such quantities and proportions** that the need for **energy, amino acids, vitamins, minerals, fats, carbohydrate and other nutrients** is adequately met for maintaining health, vitality and general well-being, and also makes a small provision for extra nutrients to withstand short duration of leanness.
@@ -633,7 +715,10 @@ Main clinical features:
 
 ---
 
-## Q29. Define malnutrition. Give its classification. How can you assess the nutrition status of a community. (S30,Q6)
+</details>
+
+<details>
+<summary><b>Q29. Define malnutrition. Give its classification. How can you assess the nutrition status of a community. (S30,Q6)</b></summary>
 
 ### Malnutrition — definition
 > 🔴 **Malnutrition** = a **pathological state resulting from a relative or absolute deficiency or excess of one or more essential nutrients.**
@@ -658,3 +743,5 @@ Main clinical features:
 > 📖 Ch-14, Endeavour PDF pp. 470–471 (malnutrition), 444–445 (assessment)
 
 > 📌 Chapter reference range ends at Endeavour PDF p. 486 (with Ch-15 starting there).
+
+</details>

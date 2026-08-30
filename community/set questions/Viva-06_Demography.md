@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. What do you mean by demography. Mention its use? (S1,Q4)
+<details>
+<summary><b>Q1. What do you mean by demography. Mention its use? (S1,Q4)</b></summary>
 
 ### Demography (definition)
 > 🔴 **Demography** is the **scientific study of human population.** It mainly concentrates on —
@@ -26,7 +27,10 @@
 
 ---
 
-## Q2. Define demography. What are the demographic stages? (S2,Q4) · also (S17,Q4)
+</details>
+
+<details>
+<summary><b>Q2. Define demography. What are the demographic stages? (S2,Q4) · also (S17,Q4)</b></summary>
 
 ### Definition
 *(See Q1.)*
@@ -46,7 +50,10 @@
 
 ---
 
-## Q3. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S3,Q4) · also (S18,Q4) · (S26,Q4)
+</details>
+
+<details>
+<summary><b>Q3. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S3,Q4) · also (S18,Q4) · (S26,Q4)</b></summary>
 
 ### Growth rate (population growth rate)
 > 🔴 **Growth rate** = the **net residual (in %) when the crude death rate is subtracted from the crude birth rate**, exclusive of migration.
@@ -80,7 +87,10 @@ Growth rate (%) =  Crude birth rate − Crude death rate
 
 ---
 
-## Q4. Tell us about birth rate. List the causes of high birth rate in Bangladesh? (S4,Q4) · also (S19,Q3)
+</details>
+
+<details>
+<summary><b>Q4. Tell us about birth rate. List the causes of high birth rate in Bangladesh? (S4,Q4) · also (S19,Q3)</b></summary>
 
 ### Birth rate — Crude birth rate (CBR)
 > 🔴 **CBR** = number of **total live births per 1000 estimated mid-year population** in a given year. It is the **simplest indicator of fertility.**
@@ -113,7 +123,10 @@ CBR =  No. of live births during the year   × 1,000
 
 ---
 
-## Q5. Define death rate. What are the causes of high death rate in Bangladesh? (S5,Q3)
+</details>
+
+<details>
+<summary><b>Q5. Define death rate. What are the causes of high death rate in Bangladesh? (S5,Q3)</b></summary>
 
 ### Death rate — Crude death rate (CDR)
 > 🔴 **CDR** = number of **deaths (from all causes) per 1000 estimated mid-year population** in one year, in a given place.
@@ -142,7 +155,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q6. Define population pyramid. Compare age-gender pyramid between developed & developing countries? (S6,Q3) · also (S27,Q4)
+</details>
+
+<details>
+<summary><b>Q6. Define population pyramid. Compare age-gender pyramid between developed &amp; developing countries? (S6,Q3) · also (S27,Q4)</b></summary>
 
 ### Population pyramid (age-sex structure / age pyramid)
 > 🔴 **Age & sex structure gives a visual presentation of population growth in a country** — a two-directional bar diagram showing the proportion of males & females in each age group.
@@ -160,7 +176,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q7. Define fertility. Name the influencing factors of fertility. (S7,Q4) · also (S21,Q4)
+</details>
+
+<details>
+<summary><b>Q7. Define fertility. Name the influencing factors of fertility. (S7,Q4) · also (S21,Q4)</b></summary>
 
 ### Fertility (definition)
 > 🔴 **Fertility is the child-bearing performance of individuals, couples or populations.** (It is the **actual reproductive performance** — measured by live births.)
@@ -188,7 +207,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q8. Define and classify census. What information that you gather from a census? (S8,Q4) · also (S28,Q4)
+</details>
+
+<details>
+<summary><b>Q8. Define and classify census. What information that you gather from a census? (S8,Q4) · also (S28,Q4)</b></summary>
 
 ### Census (definition)
 > 🔴 The **United Nations** defined census as — **"the process of collecting, compiling and publishing demographic, economic and social data pertaining, at a specified time or times, to all persons in a country or delineated territory."**
@@ -213,7 +235,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q9. What are the indicators of fertility? (S9,Q4)
+</details>
+
+<details>
+<summary><b>Q9. What are the indicators of fertility? (S9,Q4)</b></summary>
 
 ### Indicators used to measure fertility
 1. **Birth rate (crude birth rate, CBR)**
@@ -237,7 +262,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q10. What are the factors influencing declining the death rate. What is statistical averages? (S10,Q3)
+</details>
+
+<details>
+<summary><b>Q10. What are the factors influencing declining the death rate. What is statistical averages? (S10,Q3)</b></summary>
 
 ### Causes of declining death rate
 1. **Absence of natural checks** — e.g., famines & large-scale epidemics.
@@ -261,7 +289,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q11. Define and classify census. (S11,Q4) · also (S23,Q4)
+</details>
+
+<details>
+<summary><b>Q11. Define and classify census. (S11,Q4) · also (S23,Q4)</b></summary>
 
 *(Same as Q8.)*
 > Census = collecting, compiling & publishing demographic, economic & social data of all persons of a country at a specified time. Classified into **De-facto** (counted where present on census night) and **De-jure** (usual residence). Methods: enumeration, questionnaire, or combination.
@@ -270,7 +301,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q12. What are the uses of demography. (S12,Q4)
+</details>
+
+<details>
+<summary><b>Q12. What are the uses of demography. (S12,Q4)</b></summary>
 
 *(Same as Q1 — 5 uses.)*
 1. Focus on changes in **size, composition & distribution**.
@@ -283,7 +317,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q13. What information we gather from a census? (S13,Q4) · also (S24,Q4)
+</details>
+
+<details>
+<summary><b>Q13. What information we gather from a census? (S13,Q4) · also (S24,Q4)</b></summary>
 
 *(Same as Q8.)*
 **Demographic, social & economic characteristics** (living conditions, work, income) + **basic data for vital statistical rates & health/demographic/socio-economic indicators.**
@@ -292,7 +329,10 @@ CDR =  Number of deaths during the year   × 1,000
 
 ---
 
-## Q14. What are the uses of census? (S14,Q4)
+</details>
+
+<details>
+<summary><b>Q14. What are the uses of census? (S14,Q4)</b></summary>
 
 The census is the **major source of population data**. Its uses:
 1. Provides data on **population size, composition (age, sex), distribution** and density.
@@ -306,7 +346,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q15. What do you mean by population explosion. Enumerate the causes. (S15,Q4) · also (S29/Q30,Q4)
+</details>
+
+<details>
+<summary><b>Q15. What do you mean by population explosion. Enumerate the causes. (S15,Q4) · also (S29/Q30,Q4)</b></summary>
 
 ### Population explosion
 > 🔴 **Population explosion** = a situation **when the growth rate is more than 2%** per year.
@@ -332,7 +375,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q16. What do you mean by demography. (S16,Q4)
+</details>
+
+<details>
+<summary><b>Q16. What do you mean by demography. (S16,Q4)</b></summary>
 
 *(Same as Q1 — definition.)*
 
@@ -340,7 +386,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q17. What are the demographic stages. (S17,Q4)
+</details>
+
+<details>
+<summary><b>Q17. What are the demographic stages. (S17,Q4)</b></summary>
 
 *(Same as Q2 — the 5 stages: high stationary → early expanding → late expanding → low stationary → declining.)*
 
@@ -348,7 +397,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q18. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S18,Q4)
+</details>
+
+<details>
+<summary><b>Q18. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S18,Q4)</b></summary>
 
 *(Same as Q3.)*
 
@@ -356,7 +408,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q19. Define birth rate. List the causes of high birth rate in Bangladesh. (S19,Q3)
+</details>
+
+<details>
+<summary><b>Q19. Define birth rate. List the causes of high birth rate in Bangladesh. (S19,Q3)</b></summary>
 
 *(Same as Q4.)*
 
@@ -364,7 +419,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q20. Enumerate some mortality rates used in demography. What are the causes of high death rate in Bangladesh? (S20,Q4)
+</details>
+
+<details>
+<summary><b>Q20. Enumerate some mortality rates used in demography. What are the causes of high death rate in Bangladesh? (S20,Q4)</b></summary>
 
 ### Mortality rates used in demography
 1. **Crude death rate (CDR)** — all deaths/1000 mid-year population.
@@ -385,7 +443,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q21. Define fertility. Name some fertility rates and influencing factors of fertility. (S22,Q4)
+</details>
+
+<details>
+<summary><b>Q21. Define fertility. Name some fertility rates and influencing factors of fertility. (S22,Q4)</b></summary>
 
 ### Definition *(see Q7)* + influencing factors *(see Q7 — 15 factors).*
 
@@ -402,7 +463,10 @@ The census is the **major source of population data**. Its uses:
 
 ---
 
-## Q22. Enumerate some fertility rates. Define GFR. (S23,Q4)
+</details>
+
+<details>
+<summary><b>Q22. Enumerate some fertility rates. Define GFR. (S23,Q4)</b></summary>
 
 ### Fertility rates *(see Q9 — 14 indicators).*
 
@@ -419,7 +483,10 @@ GFR =  No. of live births in an area during the year   × 1,000
 
 ---
 
-## Q23. Define and classify census. (S24,Q4)
+</details>
+
+<details>
+<summary><b>Q23. Define and classify census. (S24,Q4)</b></summary>
 
 *(Same as Q8/Q11.)*
 
@@ -427,7 +494,10 @@ GFR =  No. of live births in an area during the year   × 1,000
 
 ---
 
-## Q24. What information we gather from a census. (S25,Q4)
+</details>
+
+<details>
+<summary><b>Q24. What information we gather from a census. (S25,Q4)</b></summary>
 
 *(Same as Q8/Q13.)*
 
@@ -435,7 +505,10 @@ GFR =  No. of live births in an area during the year   × 1,000
 
 ---
 
-## Q25. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S26,Q4)
+</details>
+
+<details>
+<summary><b>Q25. What do you mean by growth rate. Enumerate the factors causing high growth rate. (S26,Q4)</b></summary>
 
 *(Same as Q3.)*
 
@@ -443,7 +516,10 @@ GFR =  No. of live births in an area during the year   × 1,000
 
 ---
 
-## Q26. Define total fertility rate (TFR). List the causes of high birth rate in Bangladesh. (S27,Q4)
+</details>
+
+<details>
+<summary><b>Q26. Define total fertility rate (TFR). List the causes of high birth rate in Bangladesh. (S27,Q4)</b></summary>
 
 ### Total fertility rate (TFR)
 > 🔴 **TFR** = the **average number of children a woman would have** if she were to pass through her whole reproductive life bearing children at the rates currently observed in each age group (under the current age-specific fertility schedule).
@@ -460,7 +536,10 @@ Also defined as: total number of live births a woman aged 15–49 years experien
 
 ---
 
-## Q27. Define population pyramid. Compare age-gender pyramids between developed & developing countries. (S28,Q4)
+</details>
+
+<details>
+<summary><b>Q27. Define population pyramid. Compare age-gender pyramids between developed &amp; developing countries. (S28,Q4)</b></summary>
 
 *(Same as Q6.)*
 
@@ -468,7 +547,10 @@ Also defined as: total number of live births a woman aged 15–49 years experien
 
 ---
 
-## Q28. Define and classify census. What information we gather from a census. (S29,Q4)
+</details>
+
+<details>
+<summary><b>Q28. Define and classify census. What information we gather from a census. (S29,Q4)</b></summary>
 
 *(Same as Q8.)*
 
@@ -476,8 +558,13 @@ Also defined as: total number of live births a woman aged 15–49 years experien
 
 ---
 
-## Q29. What do you mean by population explosion. Enumerate its causes. (S30,Q4)
+</details>
+
+<details>
+<summary><b>Q29. What do you mean by population explosion. Enumerate its causes. (S30,Q4)</b></summary>
 
 *(Same as Q15.)*
 
 > 📖 Ch-09, Endeavour PDF pp. 324–325
+
+</details>

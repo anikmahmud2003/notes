@@ -6,7 +6,8 @@
 
 ---
 
-## Q1. Define community medicine. What do you mean by community diagnosis? (S1,Q1)
+<details>
+<summary><b>Q1. Define community medicine. What do you mean by community diagnosis? (S1,Q1)</b></summary>
 
 ### Community Medicine
 
@@ -32,7 +33,10 @@
 
 ---
 
-## Q2. What is community diagnosis & treatment? (S2,Q1)
+</details>
+
+<details>
+<summary><b>Q2. What is community diagnosis &amp; treatment? (S2,Q1)</b></summary>
 
 **Community diagnosis** — as above (Q1): pattern of disease in a community described in terms of factors that influence it; identification & quantification of health problems + their correlates.
 
@@ -52,7 +56,10 @@
 
 ---
 
-## Q3. Define health and mention its dimensions? (S3,Q1)
+</details>
+
+<details>
+<summary><b>Q3. Define health and mention its dimensions? (S3,Q1)</b></summary>
 
 ### Definition of Health (WHO)
 
@@ -80,7 +87,10 @@
 
 ---
 
-## Q4. Major health indicators. (S4,Q1)
+</details>
+
+<details>
+<summary><b>Q4. Major health indicators. (S4,Q1)</b></summary>
 
 **Health indicator** = tools with which we measure the health status of a community.
 
@@ -107,7 +117,10 @@
 
 ---
 
-## Q5. Characteristics of physical, mental & social health? (S5,Q1)
+</details>
+
+<details>
+<summary><b>Q5. Characteristics of physical, mental &amp; social health? (S5,Q1)</b></summary>
 
 ### Physical health
 > 🔴 **Perfect functioning of the body; every cell & organ functioning at optimum capacity.**
@@ -137,7 +150,10 @@ Good complexion · Clean skin · Bright eyes · Good appetite · Sound sleep · 
 
 ---
 
-## Q6. What are changing concept of health? (S6,Q1)
+</details>
+
+<details>
+<summary><b>Q6. What are changing concept of health? (S6,Q1)</b></summary>
 
 ### The 4 changing concepts
 
@@ -159,7 +175,10 @@ Good complexion · Clean skin · Bright eyes · Good appetite · Sound sleep · 
 
 ---
 
-## Q7. What do you mean by positive health? (S7,Q1)
+</details>
+
+<details>
+<summary><b>Q7. What do you mean by positive health? (S7,Q1)</b></summary>
 
 > 🔴 **Positive health** = the state which implies the notion of **"perfect functioning" of the body & mind**; it conceptualizes health **biologically, psychologically and socially**.
 
@@ -173,7 +192,10 @@ A person who enjoys health at **three planes — good physical, mental and socia
 
 ---
 
-## Q8. What is spectrum of health and disease? Enumerate the dimensions of health. (S8,Q1)
+</details>
+
+<details>
+<summary><b>Q8. What is spectrum of health and disease? Enumerate the dimensions of health. (S8,Q1)</b></summary>
 
 ### Spectrum of health / health-sickness spectrum
 > 📌 The spectral concept of health denotes that **health of an individual is not static** — it fluctuates within a range varying from **optimum well-being** to various levels of dysfunction, including total dysfunction (**death**). The transition from good health to ill health is often **gradual**; where one step ends and another begins is a matter of judgment. The systematic representation of these levels = **health–sickness spectrum**.
@@ -198,7 +220,10 @@ A person who enjoys health at **three planes — good physical, mental and socia
 
 ---
 
-## Q9. List the determinants of health. (S9,Q1)
+</details>
+
+<details>
+<summary><b>Q9. List the determinants of health. (S9,Q1)</b></summary>
 
 **Determinants of health** = factors which influence health, lying both **within the individual and externally in the society** in which he/she lives.
 
@@ -219,7 +244,10 @@ A person who enjoys health at **three planes — good physical, mental and socia
 
 ---
 
-## Q10. Who are responsible for health. How can you promote the health of a community? (S10,Q1)
+</details>
+
+<details>
+<summary><b>Q10. Who are responsible for health. How can you promote the health of a community? (S10,Q1)</b></summary>
 
 ### Who are responsible for health
 Health is on one hand a highly **personal responsibility** and on the other a major **public concern** — it involves the joint efforts of the whole social fabric:
@@ -242,7 +270,10 @@ From the concept of **community treatment / community health action**:
 
 ---
 
-## Q11. Indicators of health and health care. (S11,Q1)
+</details>
+
+<details>
+<summary><b>Q11. Indicators of health and health care. (S11,Q1)</b></summary>
 
 See full classification table in **Q4**. On "indicators of health **and health care**", emphasise:
 - **Indicators of health:** mortality, morbidity, disability, nutritional status, social & mental health, environmental, socio-economic, quality of life.
@@ -259,7 +290,10 @@ See full classification table in **Q4**. On "indicators of health **and health c
 
 ---
 
-## Q12. Ideal characteristics of a health indicator. What are the common mortality indicators used in health sector? (S12,Q1)
+</details>
+
+<details>
+<summary><b>Q12. Ideal characteristics of a health indicator. What are the common mortality indicators used in health sector? (S12,Q1)</b></summary>
 
 ### Characteristics / criteria of an ideal health indicator
 1. **Valid** — actually measures what it is supposed to measure.
@@ -285,7 +319,10 @@ See full classification table in **Q4**. On "indicators of health **and health c
 
 ---
 
-## Q13. What is health care? List the ideal characteristics of health care. (S14,Q1)
+</details>
+
+<details>
+<summary><b>Q13. What is health care? List the ideal characteristics of health care. (S14,Q1)</b></summary>
 
 ### Health care
 > 📌 **"A multitude of services rendered to individuals, families or communities by the agents of the health services or professions, for the purpose of promoting, maintaining, monitoring or restoring health."**
@@ -305,7 +342,10 @@ See full classification table in **Q4**. On "indicators of health **and health c
 
 ---
 
-## Q14. Define health team and mention its importance. (S16,Q1)
+</details>
+
+<details>
+<summary><b>Q14. Define health team and mention its importance. (S16,Q1)</b></summary>
 
 ### Definition
 > 🔴 Health team = **"a group of persons who share a common health goal and common objectives, determined by community needs and toward the achievement of which each member of the team contributes in accordance with his/her competence and skills, and respecting the functions of the others."**
@@ -326,7 +366,10 @@ See full classification table in **Q4**. On "indicators of health **and health c
 
 ---
 
-## Q15. Characteristics of ideal health indicator. List socio-economic indicators of health. (S18,Q1)
+</details>
+
+<details>
+<summary><b>Q15. Characteristics of ideal health indicator. List socio-economic indicators of health. (S18,Q1)</b></summary>
 
 ### Characteristics of ideal health indicator
 Valid · Reliable & objective · Sensitive · Specific · Feasible · Relevant (full detail in **Q12**).
@@ -349,7 +392,10 @@ Valid · Reliable & objective · Sensitive · Specific · Feasible · Relevant (
 
 ---
 
-## Q16. Define ecology and ecological triad. (S19,Q1)
+</details>
+
+<details>
+<summary><b>Q16. Define ecology and ecological triad. (S19,Q1)</b></summary>
 
 ### Ecology
 > 📌 **Ecology** = "the science of **mutual relationship between living organisms and their environments**."
@@ -375,7 +421,10 @@ The occurrence of a disease can be **blocked by intersecting the triangle at any
 
 ---
 
-## Q17. Explain comprehensive health care. (S27,Q1)
+</details>
+
+<details>
+<summary><b>Q17. Explain comprehensive health care. (S27,Q1)</b></summary>
 
 ### Definition
 The term **"comprehensive health care"** was first used by the **Bhore Committee (1946)**.
@@ -407,7 +456,10 @@ The term **"comprehensive health care"** was first used by the **Bhore Committee
 
 ---
 
-## Q18. List the characteristics of mental and social health. (S29,Q1)
+</details>
+
+<details>
+<summary><b>Q18. List the characteristics of mental and social health. (S29,Q1)</b></summary>
 
 ### Characteristics of mental health
 > 📌 "A state of **balance between the individual and the surrounding world** ... harmony between oneself & others, co-existence between the realities of the self, other people and the environment."
@@ -431,7 +483,10 @@ The term **"comprehensive health care"** was first used by the **Bhore Committee
 
 ---
 
-## Q19. State about Family Medicine. (S30,Q1)
+</details>
+
+<details>
+<summary><b>Q19. State about Family Medicine. (S30,Q1)</b></summary>
 
 **Family medicine** — it may be defined as:
 
@@ -445,3 +500,5 @@ The term **"comprehensive health care"** was first used by the **Bhore Committee
 > 🎯 Family medicine = **family as the unit · from prevention to rehabilitation · ongoing care of chronic problems.**
 
 > 📖 Ch-01 (Introduction to the Community Medicine), Endeavour PDF p. 17
+
+</details>

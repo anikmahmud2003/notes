@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Define social medicine & preventive medicine. (S1,Q1)
+<details>
+<summary><b>Q1. Define social medicine &amp; preventive medicine. (S1,Q1)</b></summary>
 
 ### Social medicine
 > 📌 By derivation, **social medicine** is the study of man as a **social being in his total environment** (physical, biological and socio-economic).
@@ -19,7 +20,10 @@
 
 ---
 
-## Q2. List the determinants of health. (S2,Q1)
+</details>
+
+<details>
+<summary><b>Q2. List the determinants of health. (S2,Q1)</b></summary>
 
 ### Determinants / factors of health
 The factors which influence health, lying both **within the individual and externally in the society**, are collectively known as **determinants of health**:
@@ -42,7 +46,10 @@ The factors which influence health, lying both **within the individual and exter
 
 ---
 
-## Q3. What is public health? Mention the areas of public health. (S3,Q1)
+</details>
+
+<details>
+<summary><b>Q3. What is public health? Mention the areas of public health. (S3,Q1)</b></summary>
 
 ### Definition of public health
 > The WHO expert committee, adapting **C.E.A. Winslow's (1920)** definition, has defined public health as:
@@ -61,7 +68,10 @@ The factors which influence health, lying both **within the individual and exter
 
 ---
 
-## Q4. What is positive health? List the function of a doctor & mention the responsibility of a physician. (S7,Q1)
+</details>
+
+<details>
+<summary><b>Q4. What is positive health? List the function of a doctor &amp; mention the responsibility of a physician. (S7,Q1)</b></summary>
 
 ### Positive health
 > 🔴 The state of **positive health** implies the notion of *"perfect functioning"* of the body & mind — it conceptualizes health **biologically, psychologically and socially**. A person who enjoys health at **three planes (good physical, mental and social well-being)** is said to be in a state of positive health.
@@ -88,7 +98,10 @@ The factors which influence health, lying both **within the individual and exter
 
 ---
 
-## Q5. Define ecology & ecological triad. (S8,Q1)
+</details>
+
+<details>
+<summary><b>Q5. Define ecology &amp; ecological triad. (S8,Q1)</b></summary>
 
 ### Ecology
 > 🔴 **Ecology** is *"the science of mutual relationship between **living organisms and their environments**"*. Health, in ecological terms, is a state of **dynamic equilibrium between man and his environment**.
@@ -105,7 +118,10 @@ The factors which influence health, lying both **within the individual and exter
 
 ---
 
-## Q6. Define community medicine & public health. State the spiritual dimension of health. (S16,Q1)
+</details>
+
+<details>
+<summary><b>Q6. Define community medicine &amp; public health. State the spiritual dimension of health. (S16,Q1)</b></summary>
 
 ### Community medicine
 > 📌 Community medicine (WHO, 1972) is *"a system of delivery of **comprehensive health care** to the people **by a health team** in order to **improve the health of the community**"*. Comprehensive health care = preventive + promotive + curative + rehabilitative care *from womb to tomb*.
@@ -122,7 +138,10 @@ The factors which influence health, lying both **within the individual and exter
 
 ---
 
-## Q7. When you lebel a person mentally healthy? (S17,Q7)
+</details>
+
+<details>
+<summary><b>Q7. When you lebel a person mentally healthy? (S17,Q7)</b></summary>
 
 ### Criteria of a mentally healthy person
 One is labelled mentally healthy if he/she:
@@ -140,7 +159,10 @@ One is labelled mentally healthy if he/she:
 
 ---
 
-## Q8. What do you mean by community diagnosis & treatment. (S18,Q1)
+</details>
+
+<details>
+<summary><b>Q8. What do you mean by community diagnosis &amp; treatment. (S18,Q1)</b></summary>
 
 ### Community diagnosis
 > 🔴 It is *"the pattern of disease in a community described in terms of the important factors which influence this pattern"* — i.e. **identification & quantification of health problems** in a community in terms of mortality & morbidity rates/ratios, and identification of their correlates for defining groups **at risk or in need of health care**.
@@ -163,7 +185,10 @@ One is labelled mentally healthy if he/she:
 
 ---
 
-## Q9. What are the warning signals of poor mental health? (S18,Q7)
+</details>
+
+<details>
+<summary><b>Q9. What are the warning signals of poor mental health? (S18,Q7)</b></summary>
 
 ### Warning signals of poor mental health
 1. **Worrying all the while.**
@@ -184,7 +209,10 @@ One is labelled mentally healthy if he/she:
 
 ---
 
-## Q10. Mention the important causes for mental illness. (S19,Q7)
+</details>
+
+<details>
+<summary><b>Q10. Mention the important causes for mental illness. (S19,Q7)</b></summary>
 
 ### Important causes of mental illness
 1. **Hereditary / genetic factors** — schizophrenia, manic-depressive psychosis, mental retardation.
@@ -201,7 +229,10 @@ One is labelled mentally healthy if he/she:
 
 ---
 
-## Q11. Mention the changing concept of public health. Define health team and mention its formation. (S19,Q1)
+</details>
+
+<details>
+<summary><b>Q11. Mention the changing concept of public health. Define health team and mention its formation. (S19,Q1)</b></summary>
 
 ### Changing concept of public health (4 phases)
 | Phase | Period | Goal / Aims |
@@ -225,7 +256,10 @@ One is labelled mentally healthy if he/she:
 
 ---
 
-## Q12. Who are the responsible agencies for health. Describe spectrum of health. (S20,Q1)
+</details>
+
+<details>
+<summary><b>Q12. Who are the responsible agencies for health. Describe spectrum of health. (S20,Q1)</b></summary>
 
 ### Responsible agencies for health
 Health is both a personal responsibility and a major public concern — it needs the joint efforts of the whole social fabric:
@@ -247,7 +281,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q13. When you lebel a person mentally healthy. (S21,Q7)
+</details>
+
+<details>
+<summary><b>Q13. When you lebel a person mentally healthy. (S21,Q7)</b></summary>
 
 *Repeat of Q7* — Criteria of a mentally healthy person:
 1. Is free from internal conflicts.
@@ -264,7 +301,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q14. What are the warning signals of poor mental health? (S22,Q7)
+</details>
+
+<details>
+<summary><b>Q14. What are the warning signals of poor mental health? (S22,Q7)</b></summary>
 
 *Repeat of Q9* — 11 warning signals of poor mental health:
 1. Worrying all the while.
@@ -283,7 +323,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q15. Tell the major types if mental illness and mention important causes of mental illness. (S23,Q7)
+</details>
+
+<details>
+<summary><b>Q15. Tell the major types if mental illness and mention important causes of mental illness. (S23,Q7)</b></summary>
 
 ### Major types of mental illness
 1. **Psychoses** — schizophrenia, affective disorders (depression, mania) — severe, loss of insight & contact with reality.
@@ -308,7 +351,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q16. List the characteristics of ideal health care. (S26,Q1)
+</details>
+
+<details>
+<summary><b>Q16. List the characteristics of ideal health care. (S26,Q1)</b></summary>
 
 ### Characteristics of ideal health care
 1. **Appropriateness (relevance)** — whether the service is needed in relation to essential human needs, priorities & policies.
@@ -325,7 +371,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q17. Define mental health. Mention the important causes for mental illness. (S29,Q7)
+</details>
+
+<details>
+<summary><b>Q17. Define mental health. Mention the important causes for mental illness. (S29,Q7)</b></summary>
 
 ### Mental health
 > 🔴 Mental health is defined as *"a state of **balance between the individual and the surrounding world**, a state of harmony between oneself and others, coexistence between the realities of the self and that of other people and that of the environment"*.
@@ -344,7 +393,10 @@ Health is both a personal responsibility and a major public concern — it needs
 
 ---
 
-## Q18. Enumerate the common mental health problem in Bangladesh. Tell in short the preventive strategies for mental disorders. (S30,Q7)
+</details>
+
+<details>
+<summary><b>Q18. Enumerate the common mental health problem in Bangladesh. Tell in short the preventive strategies for mental disorders. (S30,Q7)</b></summary>
 
 ### Common mental health problems in Bangladesh
 1. **Neuroses** — anxiety neurosis (commonest).
@@ -377,3 +429,5 @@ Health is both a personal responsibility and a major public concern — it needs
 > 🎯 Prevention = **Primary (family life, child-rearing, education) → Secondary (early Rx) → Tertiary (rehabilitation).**
 
 > 📖 Standard text (Park, Mental Health); Ch-18, Endeavour PDF pp. 582–583 (complements Ch-02, p. 30)
+
+</details>

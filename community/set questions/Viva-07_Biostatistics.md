@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Define Biostatistics & vital statistics. What are the common sources of data? (S1,Q5) · also (S30,Q5)
+<details>
+<summary><b>Q1. Define Biostatistics &amp; vital statistics. What are the common sources of data? (S1,Q5) · also (S30,Q5)</b></summary>
 
 ### Biostatistics
 > 🔴 **Biostatistics** is the discipline concerned with **the collection, organization, analysis, presentation and interpretation of numerical facts/data** arising out of problems of **biology, medicine and public health** (health sciences).
@@ -41,7 +42,10 @@
 
 ---
 
-## Q2. Classify data with example. What are the common sources of data. (S2,Q5)
+</details>
+
+<details>
+<summary><b>Q2. Classify data with example. What are the common sources of data. (S2,Q5)</b></summary>
 
 ### Data
 > 🔴 **Data** = sets of values recorded on one or more observational units; **discrete observations of attributes or events** (facts of observation stripped of opinion).
@@ -76,7 +80,10 @@
 
 ---
 
-## Q3. What do you mean by population & sample. Mention the major techniques of sampling (S3,Q5)
+</details>
+
+<details>
+<summary><b>Q3. What do you mean by population &amp; sample. Mention the major techniques of sampling (S3,Q5)</b></summary>
 
 ### Population
 > 🔴 **Population (universe)** = the **totality of all individuals (or objects/measurements) about which the data are to be collected** — a complete set of individuals having some common observable characteristic.
@@ -109,7 +116,10 @@
 
 ---
 
-## Q4. What is data. List the types and sources of data. (S4,Q5)
+</details>
+
+<details>
+<summary><b>Q4. What is data. List the types and sources of data. (S4,Q5)</b></summary>
 
 *(See Q2 — data def + classification; Q1 — sources.)*
 
@@ -117,7 +127,10 @@
 
 ---
 
-## Q5. What are the common methods of data collection? (S6,Q4) · also (S18,Q5) · (S22,Q4)
+</details>
+
+<details>
+<summary><b>Q5. What are the common methods of data collection? (S6,Q4) · also (S18,Q5) · (S22,Q4)</b></summary>
 
 ### Methods / types of data collection
 **1. Observational method** — most commonly used; information obtained by the **investigator's own direct observation** without asking the respondent.
@@ -141,7 +154,10 @@
 
 ---
 
-## Q6. Name scales of measurements in biostatistics. (S7,Q5)
+</details>
+
+<details>
+<summary><b>Q6. Name scales of measurements in biostatistics. (S7,Q5)</b></summary>
 
 ### Four basic scales of measurement
 | Scale | Feature | Example |
@@ -157,7 +173,10 @@
 
 ---
 
-## Q7. What is variable. Classify variable with example. Mention the ways of presenting data. (S8,Q5)
+</details>
+
+<details>
+<summary><b>Q7. What is variable. Classify variable with example. Mention the ways of presenting data. (S8,Q5)</b></summary>
 
 ### Variable
 > 🔴 **Variable** = a characteristic of a person, object or phenomenon that **can take on different values** (e.g., age, height).
@@ -186,7 +205,10 @@
 
 ---
 
-## Q8. How can you present your collected data. List the characteristics of a table? (S9,Q5) · also (S27,Q5-part)
+</details>
+
+<details>
+<summary><b>Q8. How can you present your collected data. List the characteristics of a table? (S9,Q5) · also (S27,Q5-part)</b></summary>
 
 ### Methods of data presentation (overview)
 **A) Tabulation** — three types: 1) **Master table** (all initial readings serially recorded) · 2) **Simple table** (one characteristic fixed, few events) · 3) **Frequency distribution table** (large unsorted data in small manageable groups).
@@ -209,7 +231,10 @@
 
 ---
 
-## Q9. What is central tendency. What are the measures of central tendency? (S11,Q4)
+</details>
+
+<details>
+<summary><b>Q9. What is central tendency. What are the measures of central tendency? (S11,Q4)</b></summary>
 
 ### Central tendency
 > 🔴 With a large number of observations there is generally a **tendency of the observations to cluster around a central point** — this is known as **central tendency.**
@@ -227,7 +252,10 @@
 
 ---
 
-## Q10. Tell us about mean, median and mode. (S12,Q4) · also (S15,Q4 partial) · (S17,Q4)
+</details>
+
+<details>
+<summary><b>Q10. Tell us about mean, median and mode. (S12,Q4) · also (S15,Q4 partial) · (S17,Q4)</b></summary>
 
 ### Mean
 > 🔴 **Mean** is the **sum of all observations divided by the number of observations** (`X = ΣX/N`).
@@ -251,7 +279,10 @@
 
 ---
 
-## Q11. What are the measures of dispersion? (S13,Q4) · also (S14,Q4-part)
+</details>
+
+<details>
+<summary><b>Q11. What are the measures of dispersion? (S13,Q4) · also (S14,Q4-part)</b></summary>
 
 ### Dispersion
 > 🔴 **Dispersion** means the **scattering (spread) of values of the variable** around the center.
@@ -276,7 +307,10 @@
 
 ---
 
-## Q12. What do you mean by range and standard deviation (SD) (S14,Q4)
+</details>
+
+<details>
+<summary><b>Q12. What do you mean by range and standard deviation (SD) (S14,Q4)</b></summary>
 
 ### Range
 > 🔴 **Range** = difference between the **highest and lowest value** in a given sample (simplest measure of dispersion).
@@ -298,7 +332,10 @@
 
 ---
 
-## Q13. What is sampling. Mention the different types of sampling techniques. (S13,S15,Q5) · also (S16,Q4) · (S24/S26,Q5)
+</details>
+
+<details>
+<summary><b>Q13. What is sampling. Mention the different types of sampling techniques. (S13,S15,Q5) · also (S16,Q4) · (S24/S26,Q5)</b></summary>
 
 ### Sampling
 > 🔴 **Sampling** = the procedure through which a **part of the population (sample) is collected** so that the sample represents the population — a technique of securing information about the universe by **examining only a part of it.**
@@ -324,7 +361,10 @@
 
 ---
 
-## Q14. What is sampling. Mention the different sampling techniques? (S16,Q4)
+</details>
+
+<details>
+<summary><b>Q14. What is sampling. Mention the different sampling techniques? (S16,Q4)</b></summary>
 
 *(Same as Q13.)*
 
@@ -332,7 +372,10 @@
 
 ---
 
-## Q15. Tell us about mean, median and mode. (S17,Q4)
+</details>
+
+<details>
+<summary><b>Q15. Tell us about mean, median and mode. (S17,Q4)</b></summary>
 
 *(Same as Q10.)*
 
@@ -340,7 +383,10 @@
 
 ---
 
-## Q16. Mention the ways of data presentation. (S18,Q5) · also (S26/Q28,Q5 part)
+</details>
+
+<details>
+<summary><b>Q16. Mention the ways of data presentation. (S18,Q5) · also (S26/Q28,Q5 part)</b></summary>
 
 ### Methods of data presentation
 
@@ -366,7 +412,10 @@
 
 ---
 
-## Q17. Classify and define variable. Tell us how to calculate Mid-year population of a country. (S19,Q4)
+</details>
+
+<details>
+<summary><b>Q17. Classify and define variable. Tell us how to calculate Mid-year population of a country. (S19,Q4)</b></summary>
 
 ### Variable — definition & classification
 *(See Q7.)*
@@ -388,7 +437,10 @@ or equivalently — **initial population + ½ (births − deaths + immigrants �
 
 ---
 
-## Q18. What are the common methods of data collection. (S20,Q5)
+</details>
+
+<details>
+<summary><b>Q18. What are the common methods of data collection. (S20,Q5)</b></summary>
 
 *(Same as Q5.)*
 
@@ -396,7 +448,10 @@ or equivalently — **initial population + ½ (births − deaths + immigrants �
 
 ---
 
-## Q19. Define biostatistics and vital statistics. Classify bar diagram with example. (S19,S21,Q4)
+</details>
+
+<details>
+<summary><b>Q19. Define biostatistics and vital statistics. Classify bar diagram with example. (S19,S21,Q4)</b></summary>
 
 ### Biostatistics & vital statistics
 *(See Q1.)*
@@ -413,7 +468,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q20. What are the sources of data. (S22,Q5)
+</details>
+
+<details>
+<summary><b>Q20. What are the sources of data. (S22,Q5)</b></summary>
 
 *(Same as Q1 — 12 sources.)*
 
@@ -421,7 +479,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q21. What are the uses of bio-statistics. (S23,Q4)
+</details>
+
+<details>
+<summary><b>Q21. What are the uses of bio-statistics. (S23,Q4)</b></summary>
 
 ### Uses of biostatistics in health sciences
 1. **Defining "normal"** — normality of physical & physiological variables (BP, Hb%, birth weight).
@@ -439,7 +500,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q22. Define data. What are the common methods of collection? (S24,Q4)
+</details>
+
+<details>
+<summary><b>Q22. Define data. What are the common methods of collection? (S24,Q4)</b></summary>
 
 ### Data
 > 🔴 **Data** consists of discrete observations of attributes or events — sets of values recorded on one or more **observational units.**
@@ -451,7 +515,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q23. Define and classify variable with example. (S24,Q4)
+</details>
+
+<details>
+<summary><b>Q23. Define and classify variable with example. (S24,Q4)</b></summary>
 
 *(See Q7.)*
 
@@ -459,7 +526,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q24. What is sampling. Mention the different sampling tecnique. (S26,Q5)
+</details>
+
+<details>
+<summary><b>Q24. What is sampling. Mention the different sampling tecnique. (S26,Q5)</b></summary>
 
 *(Same as Q13.)*
 
@@ -467,7 +537,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q25. What do you mean by Mean, Median and Mode. How pie chart is contructed. (S27,Q5)
+</details>
+
+<details>
+<summary><b>Q25. What do you mean by Mean, Median and Mode. How pie chart is contructed. (S27,Q5)</b></summary>
 
 ### Mean, Median & Mode
 *(See Q10.)*
@@ -487,7 +560,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q26. Define Survey. What are the common methods of data collection and their presentation. (S28,Q5)
+</details>
+
+<details>
+<summary><b>Q26. Define Survey. What are the common methods of data collection and their presentation. (S28,Q5)</b></summary>
 
 ### Survey
 > 🔴 **Survey** = **collection of data on a particular disease, especially its epidemiological aspects** — a commonly used observational (descriptive) method carried out on a sample of the population.
@@ -502,7 +578,10 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q27. List the types of data with example. What are the characteristics of a table? (S29,Q5)
+</details>
+
+<details>
+<summary><b>Q27. List the types of data with example. What are the characteristics of a table? (S29,Q5)</b></summary>
 
 ### Types of data (with examples)
 1. **Primary data** — obtained directly (census; survey of health & sickness of a population).
@@ -520,8 +599,13 @@ A bar chart presents a set of numbers by the **length of a bar**, the length bei
 
 ---
 
-## Q28. Define Bio-statistics and vital statistics. What are the common sources of data. (S30,Q5)
+</details>
+
+<details>
+<summary><b>Q28. Define Bio-statistics and vital statistics. What are the common sources of data. (S30,Q5)</b></summary>
 
 *(Same as Q1.)*
 
 > 📖 Ch-20, Endeavour PDF pp. 589, 597
+
+</details>

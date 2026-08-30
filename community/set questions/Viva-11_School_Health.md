@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. What are the instruments that a school medical officer will carry during school visit? (S6,Q6)
+<details>
+<summary><b>Q1. What are the instruments that a school medical officer will carry during school visit? (S6,Q6)</b></summary>
 
 ### Instruments required to examine the school children
 1. **Weighing machine.**
@@ -25,7 +26,10 @@
 
 ---
 
-## Q2. What do you mean by healthful school environment? (S7,Q4)
+</details>
+
+<details>
+<summary><b>Q2. What do you mean by healthful school environment? (S7,Q4)</b></summary>
 
 ### Healthful school environment
 > 📌 School environment should be **healthful** as a **child spends a good portion of his time in the school.**
@@ -45,7 +49,10 @@
 
 ---
 
-## Q3. What are the common health problems of school children. (S3,Q7)
+</details>
+
+<details>
+<summary><b>Q3. What are the common health problems of school children. (S3,Q7)</b></summary>
 
 ### School health problems
 **A) Problems related to the health of the students:**
@@ -71,7 +78,10 @@
 
 ---
 
-## Q4. What is the importance of mid-day school meal. Mention the characteristics of mid-day meal? (S4,Q7)
+</details>
+
+<details>
+<summary><b>Q4. What is the importance of mid-day school meal. Mention the characteristics of mid-day meal? (S4,Q7)</b></summary>
 
 ### Mid-day school meal — importance
 > 🔴 To combat **malnutrition** and improve the health of school children, a good nourishing meal is provided to school children on a **"no profit no loss"** basis — this is the mid-day school meal (School Lunch Programme).
@@ -91,7 +101,10 @@
 
 ---
 
-## Q5. Mention the common health problems of school children. (S21,Q6)
+</details>
+
+<details>
+<summary><b>Q5. Mention the common health problems of school children. (S21,Q6)</b></summary>
 
 *Repeat of Q3* — Common health problems of school children:
 
@@ -109,7 +122,10 @@
 
 ---
 
-## Q6. Tell the importance of mid-day school meal. Mention the characteristics of mid-day meal. (S22,Q7)
+</details>
+
+<details>
+<summary><b>Q6. Tell the importance of mid-day school meal. Mention the characteristics of mid-day meal. (S22,Q7)</b></summary>
 
 *Repeat of Q4* — Importance & characteristics of mid-day school meal:
 
@@ -126,7 +142,10 @@
 
 ---
 
-## Q7. What are the common types desk in the school. Mention the advantages and disadvantages of each type of school desk. (S23,Q6)
+</details>
+
+<details>
+<summary><b>Q7. What are the common types desk in the school. Mention the advantages and disadvantages of each type of school desk. (S23,Q6)</b></summary>
 
 ### Types of school desk
 1. **Zero desk** — posterior edge of the desk is **vertically in line** with the anterior edge of the seat.
@@ -152,7 +171,10 @@
 
 ---
 
-## Q8. What do you mean by healthful school environment. (S24,Q7)
+</details>
+
+<details>
+<summary><b>Q8. What do you mean by healthful school environment. (S24,Q7)</b></summary>
 
 *Repeat of Q2* — Healthful school environment criteria:
 
@@ -170,7 +192,10 @@
 
 ---
 
-## Q9. Mention the factors required to ensure healthy environment in a classroom. (S30,Q6)
+</details>
+
+<details>
+<summary><b>Q9. Mention the factors required to ensure healthy environment in a classroom. (S30,Q6)</b></summary>
 
 ### Factors for a healthy classroom environment
 1. **Location** — school centrally situated, away from busy roads, cinema halls, factories, railways and market.
@@ -193,3 +218,5 @@
 > 🎯 Ideal classroom = **≤40 students · height 12 ft · 10 sq ft space/student · windows 25% floor area · light from left · toilet 1/100.**
 
 > 📖 Ch-08, Endeavour PDF pp. 305–306
+
+</details>

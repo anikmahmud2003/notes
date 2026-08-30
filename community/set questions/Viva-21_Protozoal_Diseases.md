@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Classify Leishmaniasis. Mention the major clinical features. How can diagnosis this case? (S5,Q2)
+<details>
+<summary><b>Q1. Classify Leishmaniasis. Mention the major clinical features. How can diagnosis this case? (S5,Q2)</b></summary>
 
 ### Classification of leishmaniasis
 > 🔴 Depending on the clinical picture, leishmaniasis is classified into:
@@ -45,7 +46,10 @@
 
 ---
 
-## Q2. What is black water fever? (S11,Q2)
+</details>
+
+<details>
+<summary><b>Q2. What is black water fever? (S11,Q2)</b></summary>
 
 ### Black water fever
 > 🔴 **Black water fever** is a **serious complication of *Plasmodium falciparum* malaria**, seen in semi-immune (chronically exposed) persons, characterized by **massive intravascular haemolysis → haemoglobinuria → passage of dark black (port-wine coloured) urine**.
@@ -62,7 +66,10 @@
 
 ---
 
-## Q3. What is 'Black water fever'? Mention the complications of falciparum malaria. (S29,Q2)
+</details>
+
+<details>
+<summary><b>Q3. What is 'Black water fever'? Mention the complications of falciparum malaria. (S29,Q2)</b></summary>
 
 ### Black water fever
 *As in Q2* — a complication of *P. falciparum* malaria with massive **intravascular haemolysis → haemoglobinuria (dark/black urine)**, severe anaemia & acute renal failure, seen in semi-immune patients (often after irregular quinine therapy).
@@ -82,3 +89,5 @@
 > 🎯 Falciparum complications = **cerebral malaria · severe anaemia · BWF/renal failure · ARDS · hypoglycaemia · algid shock · DIC.**
 
 > 📖 Ch-05, Endeavour PDF pp. 204–206
+
+</details>

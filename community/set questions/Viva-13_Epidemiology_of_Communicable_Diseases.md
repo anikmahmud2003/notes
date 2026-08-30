@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Name the mechanism of disease transmission and biological transmission. (S5,Q6)
+<details>
+<summary><b>Q1. Name the mechanism of disease transmission and biological transmission. (S5,Q6)</b></summary>
 
 ### Mechanism / mechanism of disease transmission
 > 📌 The **infection chain** transmits communicable diseases from the reservoir (source) to the susceptible host through the **mode of transmission.** Transmission is of **two main mechanisms:**
@@ -38,7 +39,10 @@
 
 ---
 
-## Q2. Differentiate communicable and infectious disease. (S27,Q2)
+</details>
+
+<details>
+<summary><b>Q2. Differentiate communicable and infectious disease. (S27,Q2)</b></summary>
 
 ### Definitions (Park)
 > 🔴 **Infectious disease** = a **clinical manifest disease of man or animals resulting from an infection** (an agent multiplies in the host, signs & symptoms develop).
@@ -59,7 +63,10 @@
 
 ---
 
-## Q3. Classify mode of transmission of disease with example. (S28,Q2)
+</details>
+
+<details>
+<summary><b>Q3. Classify mode of transmission of disease with example. (S28,Q2)</b></summary>
 
 ### Modes of transmission of diseases
 **A) Direct transmission:**
@@ -87,3 +94,5 @@
 > 🎯 Transmission = **Direct (contact · droplet · soil · inoculation · vertical) + Indirect (5 F's: flies, fingers, fomites, food & fluid).**
 
 > 📖 Ch-05, Endeavour PDF pp. 117–118
+
+</details>

@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. What are the mode of transmission of disease by arthropods? (S7,Q5)
+<details>
+<summary><b>Q1. What are the mode of transmission of disease by arthropods? (S7,Q5)</b></summary>
 
 ### Transmission of arthropod-borne disease — 3 types
 1. **Direct contact** — arthropods directly transferred from man to man through close contact; e.g., **scabies and pediculosis.**
@@ -18,7 +19,10 @@
 
 ---
 
-## Q2. What are the types of biological transmission. Cite an example. (S8,Q7)
+</details>
+
+<details>
+<summary><b>Q2. What are the types of biological transmission. Cite an example. (S8,Q7)</b></summary>
 
 ### Types of biological transmission
 > 🔴 **Biological transmission** = when the disease agent multiplies or undergoes some developmental change, with or without multiplication, in the arthropod host. Three types:
@@ -33,7 +37,10 @@
 
 ---
 
-## Q3. Classify flies. What are the diseases transmitted by house fly. (S9,Q7)
+</details>
+
+<details>
+<summary><b>Q3. Classify flies. What are the diseases transmitted by house fly. (S9,Q7)</b></summary>
 
 ### Classification of flies (public health importance)
 > 📌 Flies are insects (Class Insecta) of the order **Diptera, family Muscidae.** The following classification (Park) is commonly asked:
@@ -69,7 +76,10 @@
 
 ---
 
-## Q4. Name the species of sand fly. What are the disease transmitted by sand fly. (S10,Q6)
+</details>
+
+<details>
+<summary><b>Q4. Name the species of sand fly. What are the disease transmitted by sand fly. (S10,Q6)</b></summary>
 
 ### Species of sand fly (genus *Phlebotomus* / *Sergentomyia*)
 ### Diseases transmitted by sand fly
@@ -86,7 +96,10 @@
 
 ---
 
-## Q5. Mention the life cycle and control measures of sand fly. (S11,Q6)
+</details>
+
+<details>
+<summary><b>Q5. Mention the life cycle and control measures of sand fly. (S11,Q6)</b></summary>
 
 ### Life cycle of sand fly (complete metamorphosis — 4 stages)
 1. **Egg** — laid in damp dark places in the vicinity of cattle sheds and poultry.
@@ -106,7 +119,10 @@
 
 ---
 
-## Q6. Difference between sand fly and mosquito. (S12,Q7)
+</details>
+
+<details>
+<summary><b>Q6. Difference between sand fly and mosquito. (S12,Q7)</b></summary>
 
 ### Difference between mosquito and sand fly (morphology)
 | Trait | Mosquito | Sand fly |
@@ -124,7 +140,10 @@
 
 ---
 
-## Q7. Name the species of Fleas and diseases transmitted by them. (S15,Q7)
+</details>
+
+<details>
+<summary><b>Q7. Name the species of Fleas and diseases transmitted by them. (S15,Q7)</b></summary>
 
 ### Species of fleas of public health importance (classification)
 1. **Rat fleas (oriental):** *Xenopsylla cheopis, X. astia, X. braziliensis.*
@@ -147,7 +166,10 @@
 
 ---
 
-## Q8. Name the louse borne diseases and their control measures. (S16,Q7)
+</details>
+
+<details>
+<summary><b>Q8. Name the louse borne diseases and their control measures. (S16,Q7)</b></summary>
 
 ### Louse — types
 1. **Head louse** — *Pediculus capitis*.
@@ -179,7 +201,10 @@
 
 ---
 
-## Q9. What is blocked flea. Name the flea indices. Mention flea control measures. (S19,Q6)
+</details>
+
+<details>
+<summary><b>Q9. What is blocked flea. Name the flea indices. Mention flea control measures. (S19,Q6)</b></summary>
 
 ### Blocked flea
 > 🔴 A flea may ingest up to **0.5 cu mm of blood** containing as many as **5,000 plague bacilli**. The bacilli multiply enormously in the gut of the rat flea and may **block the proventriculus** so that no food can pass through. Such a flea is called a **"blocked flea."**
@@ -204,7 +229,10 @@
 
 ---
 
-## Q10. Name the diseases transmitted by itch mite and treatment of that disease. (S20,Q6)
+</details>
+
+<details>
+<summary><b>Q10. Name the diseases transmitted by itch mite and treatment of that disease. (S20,Q6)</b></summary>
 
 ### Itch mite (*Sarcoptes scabiei* / *Acarus scabiei*)
 > The itch mite is an extremely **small, globular arthropod** just visible to the naked eye. The **female parasite burrows into the epidermis** where it breeds and causes **scabies (itch).**
@@ -226,7 +254,10 @@
 
 ---
 
-## Q11. Define and classify insecticides. What are the insecticides used in residual and space spray? (S21,Q7)
+</details>
+
+<details>
+<summary><b>Q11. Define and classify insecticides. What are the insecticides used in residual and space spray? (S21,Q7)</b></summary>
 
 ### Insecticide — definition
 > 🔴 **Insecticides** are **substances which are used to kill insects.**
@@ -256,7 +287,10 @@
 
 ---
 
-## Q12. Classify flea. Name the flea borne diseases. (S22,Q5)
+</details>
+
+<details>
+<summary><b>Q12. Classify flea. Name the flea borne diseases. (S22,Q5)</b></summary>
 
 ### Classification of fleas (public health importance)
 1. **Rat fleas (oriental):** *Xenopsylla cheopis, X. astia, X. braziliensis.*
@@ -277,7 +311,10 @@
 
 ---
 
-## Q13. Name the control measures of itch mite. (S23,Q7)
+</details>
+
+<details>
+<summary><b>Q13. Name the control measures of itch mite. (S23,Q7)</b></summary>
 
 ### Control measures of scabies (itch mite)
 **1) Sanitation control:**
@@ -300,7 +337,10 @@
 
 ---
 
-## Q14. What are the diseases transmitted by soft and hard ticks. (S24,Q6)
+</details>
+
+<details>
+<summary><b>Q14. What are the diseases transmitted by soft and hard ticks. (S24,Q6)</b></summary>
 
 ### Ticks
 > Ticks are important arthropods of **class Arachnida.** Two types — **Hard ticks (ixodidae)** & **Soft ticks (argasidae).** Life cycle: Egg → Larva → Nymph → Adult. Transmission: by biting.
@@ -325,7 +365,10 @@
 
 ---
 
-## Q15. Classify louse. What are the diseases transmitted by louse? (S21,Q6)
+</details>
+
+<details>
+<summary><b>Q15. Classify louse. What are the diseases transmitted by louse? (S21,Q6)</b></summary>
 
 ### Classification of louse (types)
 1. **Head louse** — *Pediculus capitis*.
@@ -342,3 +385,5 @@
 > 🎯 Louse = **head · body · crab**; diseases = **epidemic typhus · relapsing fever · trench fever.**
 
 > 📖 Ch-07, Endeavour PDF pp. 295–296
+
+</details>

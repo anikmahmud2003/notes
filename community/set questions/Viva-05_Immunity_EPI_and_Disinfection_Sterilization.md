@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Define immunity. Classify immunity with example? (S1,Q3)
+<details>
+<summary><b>Q1. Define immunity. Classify immunity with example? (S1,Q3)</b></summary>
 
 ### Immunity (definition)
 > 🔴 **Immunity** = the **ability of the body to recognize, destroy and eliminate antigenic material** (e.g., bacteria, virus) **foreign to its own.**
@@ -31,7 +32,10 @@
 
 ---
 
-## Q2. What are the types of non-specific immunity. How active and passive immunity develop in human? (S2,Q3)
+</details>
+
+<details>
+<summary><b>Q2. What are the types of non-specific immunity. How active and passive immunity develop in human? (S2,Q3)</b></summary>
 
 ### Types of non-specific (innate) immunity
 1. **Genetic / constitutional.**
@@ -58,7 +62,10 @@ Developed by:
 
 ---
 
-## Q3. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S3,Q3)
+</details>
+
+<details>
+<summary><b>Q3. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S3,Q3)</b></summary>
 
 ### Cell-mediated immunity (CMI)
 > Immunity mediated by **T-lymphocytes** — developed when antigen is processed by macrophages and presented to helper T-cells (→ delayed hypersensitivity). Principal in **intracellular** infections (TB, viral infections).
@@ -92,7 +99,10 @@ Developed by:
 
 ---
 
-## Q4. Define antigen and antibody. What are different type of immunoglobulin. What is toxin and toxoid? (S4,Q3)
+</details>
+
+<details>
+<summary><b>Q4. Define antigen and antibody. What are different type of immunoglobulin. What is toxin and toxoid? (S4,Q3)</b></summary>
 
 ### Antigen
 > An **antigen** is a substance (protein or polysaccharide in nature) which, when introduced into the body, is **capable of inducing an immune response** leading to formation of **antibodies** with which it reacts **specifically**.
@@ -122,7 +132,10 @@ Developed by:
 
 ---
 
-## Q5. Differentiate toxoid, toxin and antisera? (S6,Q2)
+</details>
+
+<details>
+<summary><b>Q5. Differentiate toxoid, toxin and antisera? (S6,Q2)</b></summary>
 
 | Feature | Toxin | Toxoid | Antisera / antitoxin |
 |---|---|---|---|
@@ -138,7 +151,10 @@ Developed by:
 
 ---
 
-## Q6. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S7,Q3) · also (S20,Q3) · (S27,Q3)
+</details>
+
+<details>
+<summary><b>Q6. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S7,Q3) · also (S20,Q3) · (S27,Q3)</b></summary>
 
 ### Herd immunity (definition)
 > 🔴 **Herd immunity** = the **level of resistance of a community (herd) or group of people to a particular disease**; i.e., **group protection beyond that afforded to immunized individuals themselves**, by virtue of the herd structure (reduced transmission among individuals).
@@ -169,7 +185,10 @@ Developed by:
 
 ---
 
-## Q7. What is immunization. Define and classify vaccines with examples. Why live vaccine is more potent than killed vaccine? (S8,Q3)
+</details>
+
+<details>
+<summary><b>Q7. What is immunization. Define and classify vaccines with examples. Why live vaccine is more potent than killed vaccine? (S8,Q3)</b></summary>
 
 ### Immunization
 > A technique by which **immunizing agents are introduced into the body for the production of antibodies** to prevent disease.
@@ -200,7 +219,10 @@ Live vaccines are more potent because:
 
 ---
 
-## Q8. Name the diseases that are preventable by immunization. What are EPI and UCI. Why is it successful in this country? (S9,Q3)
+</details>
+
+<details>
+<summary><b>Q8. Name the diseases that are preventable by immunization. What are EPI and UCI. Why is it successful in this country? (S9,Q3)</b></summary>
 
 ### Diseases preventable by immunization
 **6 classic EPI diseases:** Diphtheria · Pertussis (whooping cough) · Tetanus · Tuberculosis · Poliomyelitis · Measles *(+ Hepatitis-B, Haemophilus influenzae-b added → pentavalent).*
@@ -225,7 +247,10 @@ Live vaccines are more potent because:
 
 ---
 
-## Q9. What is EPI plus. Name the vaccine used in EPI programme in our country. (S10,Q2)
+</details>
+
+<details>
+<summary><b>Q9. What is EPI plus. Name the vaccine used in EPI programme in our country. (S10,Q2)</b></summary>
 
 ### EPI plus
 > **EPI plus** = special programmes carried out **in addition to vaccination** from the EPI office:
@@ -250,7 +275,10 @@ Live vaccines are more potent because:
 
 ---
 
-## Q10. List EPI diseases. Tell EPI schedule. (S11,Q3)
+</details>
+
+<details>
+<summary><b>Q10. List EPI diseases. Tell EPI schedule. (S11,Q3)</b></summary>
 
 ### EPI diseases
 TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepatitis-B, Hib** via pentavalent).
@@ -272,7 +300,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q11. Give the immunization schedule for a woman of reproductive age. Why measles vaccine is given at the end of 9 month? (S12,Q3) · also (S23,Q3)
+</details>
+
+<details>
+<summary><b>Q11. Give the immunization schedule for a woman of reproductive age. Why measles vaccine is given at the end of 9 month? (S12,Q3) · also (S23,Q3)</b></summary>
 
 ### TT (tetanus toxoid) schedule for women of reproductive age
 | Dose | Minimum interval | Duration of protection |
@@ -297,7 +328,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q12. What is combined vaccine. Give example and mention the usefulness of combined vaccine? (S13,Q3) · also (S24,Q3)
+</details>
+
+<details>
+<summary><b>Q12. What is combined vaccine. Give example and mention the usefulness of combined vaccine? (S13,Q3) · also (S24,Q3)</b></summary>
 
 ### Combined (mixed) vaccine
 > If **more than one kind of immunizing agent is included in one vaccine**, it is called a **mixed or combined vaccine.**
@@ -323,7 +357,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q13. What is booster dose. Mention the importance of booster dose. Name the Ig that crosses the placenta? (S14,Q3)
+</details>
+
+<details>
+<summary><b>Q13. What is booster dose. Mention the importance of booster dose. Name the Ig that crosses the placenta? (S14,Q3)</b></summary>
 
 ### Booster dose
 > 🔴 **Booster dose** = an **additional dose of an already given vaccine, administered some time (months/years) after the primary series**, to **boost (restore/heighten) the immune response** when antibody level falls below the protective level.
@@ -348,7 +385,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q14. Define and classify immunity with example. What are the primary and secondary immune response? (S15,Q3)
+</details>
+
+<details>
+<summary><b>Q14. Define and classify immunity with example. What are the primary and secondary immune response? (S15,Q3)</b></summary>
 
 ### Immunity + classification
 *(Definition & full classification with examples — see Q1.)*
@@ -377,7 +417,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q15. Define and classify immunity with example. List the hazards of vaccination? (S16,Q3)
+</details>
+
+<details>
+<summary><b>Q15. Define and classify immunity with example. List the hazards of vaccination? (S16,Q3)</b></summary>
 
 ### Immunity + classification
 *(See Q1.)*
@@ -400,7 +443,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q16. Classify non specific immunity. How active and passive immunity develop in human body? (S17,Q3)
+</details>
+
+<details>
+<summary><b>Q16. Classify non specific immunity. How active and passive immunity develop in human body? (S17,Q3)</b></summary>
 
 *(Same as Q2.)*
 
@@ -422,7 +468,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q17. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S18,Q3) · also (S30,Q3)
+</details>
+
+<details>
+<summary><b>Q17. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S18,Q3) · also (S30,Q3)</b></summary>
 
 *(Same as Q3.)*
 
@@ -443,7 +492,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q18. What is Herd & Ring immunity? How herd immunity can be developed? List the live vaccines? (S19,Q2)
+</details>
+
+<details>
+<summary><b>Q18. What is Herd &amp; Ring immunity? How herd immunity can be developed? List the live vaccines? (S19,Q2)</b></summary>
 
 ### Herd immunity
 *(Definition & development — full in Q6.)*
@@ -465,7 +517,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q19. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S20,Q3)
+</details>
+
+<details>
+<summary><b>Q19. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S20,Q3)</b></summary>
 
 *(Same as Q6.)* — definition, 7 ways of development, serological surveys for determination, and 4 points of epidemiological significance (immunological barrier · epidemic unlikely at high level · may lead to elimination - diphtheria/polio · epidemic curve declines). Not 100% necessary. Maintained by on-going immunization.
 
@@ -473,7 +528,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q20. What are vaccines used in EPI programme in our country? Enumerate the equipment essential to maintain cold chain effectively? (S21,Q3)
+</details>
+
+<details>
+<summary><b>Q20. What are vaccines used in EPI programme in our country? Enumerate the equipment essential to maintain cold chain effectively? (S21,Q3)</b></summary>
 
 ### Vaccines used in EPI (Bangladesh)
 **BCG · OPV · Pentavalent (DPT+HBV+Hib) · Pneumococcal (PCV) · Measles · MR** *(see Q9).*
@@ -495,7 +553,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q21. List the diseases under EPI. Tell EPI schedule followed in Bangladesh. (S22,Q3)
+</details>
+
+<details>
+<summary><b>Q21. List the diseases under EPI. Tell EPI schedule followed in Bangladesh. (S22,Q3)</b></summary>
 
 *(Same as Q10.)* — EPI diseases: TB, Diphtheria, Pertussis, Tetanus, Polio, Measles (+ Hep-B, Hib). Schedule: **BCG at birth (0.05 ml ID, left upper arm/deltoid) · Penta+OPV+PCV at 6, 10, 14 weeks (0.5 ml IM mid-thigh) · Measles+OPV at 9 months (0.5 ml SC) · MR after 15 months.**
 
@@ -503,7 +564,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q22. Give the immunization schedule for a woman of reproductive age. Why measles vaccine is given at the end of 9 month? (S23,Q3)
+</details>
+
+<details>
+<summary><b>Q22. Give the immunization schedule for a woman of reproductive age. Why measles vaccine is given at the end of 9 month? (S23,Q3)</b></summary>
 
 *(Same as Q11.)* — **TT-1 → TT-2 (4 wks; 3 yrs protection) → TT-3 (6 mo; 5 yrs) → TT-4 (1 yr; 10 yrs) → TT-5 (1 yr; life).** During pregnancy: 2 doses (16–20 wk & 20–24 wk). **Measles at 9 months** because maternal antibodies block the vaccine earlier.
 
@@ -511,7 +575,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q23. Define and state the process of disinfection for cough and sputum of TB patient. Give example and mention the usefulness of combined vaccine? (S24,Q3)
+</details>
+
+<details>
+<summary><b>Q23. Define and state the process of disinfection for cough and sputum of TB patient. Give example and mention the usefulness of combined vaccine? (S24,Q3)</b></summary>
 
 ### Disinfection (definition)
 > Disinfection = **process of reduction of the number of contaminating organisms to a level that cannot cause infection** (some organisms & bacterial spores may survive) — unlike **sterilization** (absolute removal of all microbes including spores).
@@ -538,7 +605,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q24. Mention the importance of booster dose. Name the Ig that crosses the placenta. Differentiate killed and live vaccine. (S25,Q3)
+</details>
+
+<details>
+<summary><b>Q24. Mention the importance of booster dose. Name the Ig that crosses the placenta. Differentiate killed and live vaccine. (S25,Q3)</b></summary>
 
 ### Importance of booster dose
 *(See Q13.) — restores waning immunity, rapid secondary (anamnestic) response, higher & longer-lasting antibody, prevents breakthrough infection, extends protection.*
@@ -565,7 +635,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q25. What are the types of non-specific immunity. How active and passive immunity differs and develop in human body? (S26,Q3)
+</details>
+
+<details>
+<summary><b>Q25. What are the types of non-specific immunity. How active and passive immunity differs and develop in human body? (S26,Q3)</b></summary>
 
 *(Combine Q2 + Q3.)*
 - **Non-specific immunity types:** genetic · mechanical · humoral · cellular.
@@ -576,7 +649,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q26. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S27,Q3)
+</details>
+
+<details>
+<summary><b>Q26. Define herd immunity. How is it developed in human population. State the epidemiological significance of herd immunity. (S27,Q3)</b></summary>
 
 *(Same as Q6.)*
 
@@ -584,7 +660,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q27. Why live vaccine is more potent than killed vaccine. How cold chain is maintained from the production site to vaccination centre? (S28,Q3)
+</details>
+
+<details>
+<summary><b>Q27. Why live vaccine is more potent than killed vaccine. How cold chain is maintained from the production site to vaccination centre? (S28,Q3)</b></summary>
 
 ### Live vaccine more potent than killed
 1. **Multiply in the host** → antigenic dose larger than injected.
@@ -610,7 +689,10 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q28. What is EPI plus? Differentiate killed & live polio vaccine. (S29,Q3)
+</details>
+
+<details>
+<summary><b>Q28. What is EPI plus? Differentiate killed &amp; live polio vaccine. (S29,Q3)</b></summary>
 
 ### EPI plus
 *(See Q9.)* — Additional programmes run alongside vaccination: **vitamin A to under-5s · sex education · breast-feeding advice · family planning advice.**
@@ -633,8 +715,13 @@ TB · Diphtheria · Pertussis · Tetanus · Poliomyelitis · Measles (+ **Hepati
 
 ---
 
-## Q29. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S30,Q3)
+</details>
+
+<details>
+<summary><b>Q29. What is cell mediated and humoral immunity. How active immunity differs from passive immunity? (S30,Q3)</b></summary>
 
 *(Same as Q3/Q17.)*
 
 > 📖 Ch-12, Endeavour PDF pp. 404–406
+
+</details>

@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. How can you prevent and control STDs in a community? (S26,Q2)
+<details>
+<summary><b>Q1. How can you prevent and control STDs in a community? (S26,Q2)</b></summary>
 
 > 🔴 **STDs** = a group of communicable diseases transmitted predominantly by **sexual contact**, caused by bacterial (N. gonorrhoeae, T. pallidum, C. trachomatis, H. ducreyi), viral (HIV, HPV, HBV, HSV), protozoal, fungal & ectoparasitic agents.
 
@@ -38,7 +39,10 @@
 
 ---
 
-## Q2. Enumerate the risk factors of coronary heart disease. (S17,Q2)
+</details>
+
+<details>
+<summary><b>Q2. Enumerate the risk factors of coronary heart disease. (S17,Q2)</b></summary>
 
 ### Risk factors of CHD (Modifiable)
 1. **Cigarette smoking.**
@@ -61,7 +65,10 @@
 
 ---
 
-## Q3. State the preventive approaches for the rheumatic fever. (S25,Q2)
+</details>
+
+<details>
+<summary><b>Q3. State the preventive approaches for the rheumatic fever. (S25,Q2)</b></summary>
 
 ### Prevention of rheumatic fever / rheumatic heart disease
 **1. Primary prevention (prevent first attack — treat streptococcal sore throat):**
@@ -84,7 +91,10 @@
 
 ---
 
-## Q4. Define obesity. List the health problems with obesity. (S28,Q7)
+</details>
+
+<details>
+<summary><b>Q4. Define obesity. List the health problems with obesity. (S28,Q7)</b></summary>
 
 ### Definition of obesity
 > 🔴 **Obesity** = abnormal growth of the **adipose tissue** due to enlargement of fat cell size (**hypertrophic obesity**) or increase in fat cell number (**hyperplastic obesity**) or both.
@@ -105,3 +115,5 @@
 > 🎯 Obesity = **BMI ≥ 30 · adipose-tissue growth** · Health problems = **DM, HTN/CHD, gallstones, OA, sleep apnoea, PCOS, cancer.**
 
 > 📖 Ch-06, Endeavour PDF pp. 274
+
+</details>

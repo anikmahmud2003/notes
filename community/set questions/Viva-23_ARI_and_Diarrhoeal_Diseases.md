@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Classify ARI. (S12,Q2)
+<details>
+<summary><b>Q1. Classify ARI. (S12,Q2)</b></summary>
 
 ### Classification of ARI (Acute Respiratory Infection)
 **A. Anatomical classification:**
@@ -32,7 +33,10 @@
 
 ---
 
-## Q2. How can you prevent ARI in rural community? (S13,Q2)
+</details>
+
+<details>
+<summary><b>Q2. How can you prevent ARI in rural community? (S13,Q2)</b></summary>
 
 ### Prevention & control of ARI in a rural community
 1. **Improved living conditions** — avoid crowding in living & sleeping quarters; **ensure proper (cross) ventilation**.
@@ -51,7 +55,10 @@
 
 ---
 
-## Q3. How can you assess and manage a case of moderate dehydrate patient? (S24,Q2)
+</details>
+
+<details>
+<summary><b>Q3. How can you assess and manage a case of moderate dehydrate patient? (S24,Q2)</b></summary>
 
 > "Moderate (some) dehydration" = **5–10% body weight loss (50–100 ml/kg)**.
 
@@ -84,7 +91,10 @@
 
 ---
 
-## Q4. Define diarrhoea and its causative organism. (S25,Q2)
+</details>
+
+<details>
+<summary><b>Q4. Define diarrhoea and its causative organism. (S25,Q2)</b></summary>
 
 ### Definition of diarrhoea
 > 🔴 **Diarrhoea** = passage of **loose, liquid or watery stools three or more times a day**. However, it is the **recent change in the consistency & character of stools** (rather than mere number) that is important (e.g. in breast-fed infants).
@@ -107,7 +117,10 @@
 
 ---
 
-## Q5. Classify food poisoning. What are the common cardinal features of food poisoning outbreak? (S27,Q2)
+</details>
+
+<details>
+<summary><b>Q5. Classify food poisoning. What are the common cardinal features of food poisoning outbreak? (S27,Q2)</b></summary>
 
 ### Definition & classification of food poisoning
 > 🔴 **Food poisoning** = **acute gastro-enteritis** caused by ingestion of food or drink contaminated with **living bacteria / their toxins / inorganic chemical substances / poisons from plants & animals**.
@@ -131,3 +144,5 @@
 > 🎯 Food poisoning = **bacterial (Salmonella, Staph, Botulinum, B. cereus) + non-bacterial (chemicals/plants/seafood)** · Outbreak features = **common food + many ill together + similar symptoms.**
 
 > 📖 Ch-05, Endeavour PDF pp. 245
+
+</details>

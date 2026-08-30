@@ -7,7 +7,8 @@
 
 ## Environmental Health
 
-### Q1. What do you mean by psychosocial environment? (S10,Q1)
+<details>
+<summary><b>Q1. What do you mean by psychosocial environment? (S10,Q1)</b></summary>
 
 > 🔴 **Psychosocial environment** (social environment) — one of the three components of the external environment (with physical & biological). It includes the man-made surroundings & **way of living** of people in the community.
 
@@ -25,7 +26,10 @@
 
 ---
 
-### Q2. Define environment with its classification. (S12,Q1)
+</details>
+
+<details>
+<summary><b>Q2. Define environment with its classification. (S12,Q1)</b></summary>
 
 ### Definition
 > 🔴 **Environment** = all the **external factors — living & non-living, material & non-material — which surround man.**
@@ -48,9 +52,11 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-## Water, Arsenicosis
+</details>
 
-### Q3. Mention the characteristics of safe and wholesome water. What are the common waterborne diseases in Bangladesh? (S1,Q3)
+### Water, Arsenicosis
+<details>
+<summary><b>Q3. Mention the characteristics of safe and wholesome water. What are the common waterborne diseases in Bangladesh? (S1,Q3)</b></summary>
 
 ### Characteristics of safe and wholesome water
 > 🔴 **Safe & wholesome water** is water that is:
@@ -77,7 +83,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q4. Mention the uses and daily requirements of water. What are the sources of water? Tell the major differences between the deep and shallow well. (S2,Q3)
+</details>
+
+<details>
+<summary><b>Q4. Mention the uses and daily requirements of water. What are the sources of water? Tell the major differences between the deep and shallow well. (S2,Q3)</b></summary>
 
 ### Uses of water
 1. Essential for body functions (physiological).
@@ -113,7 +122,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q5. When it may be shallow and deep well? Explain contamination and pollution of water. (S3,Q3)
+</details>
+
+<details>
+<summary><b>Q5. When it may be shallow and deep well? Explain contamination and pollution of water. (S3,Q3)</b></summary>
 
 ### When a well is shallow / deep
 - **Shallow well** — taps **subsoil water** (water above the **first impervious layer** in the ground); yields limited water, notoriously liable to pollution unless well-constructed.
@@ -133,7 +145,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q6. Mention the sources of water pollution. List the common water borne diseases in Bangladesh. (S4,Q3)
+</details>
+
+<details>
+<summary><b>Q6. Mention the sources of water pollution. List the common water borne diseases in Bangladesh. (S4,Q3)</b></summary>
 
 ### Sources (causes) of water pollution
 **A. Natural (impurities):**
@@ -155,7 +170,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q7. List the water related diseases in Bangladesh. What are the methods of supplying safe drinking water in a community? (S5,Q3)
+</details>
+
+<details>
+<summary><b>Q7. List the water related diseases in Bangladesh. What are the methods of supplying safe drinking water in a community? (S5,Q3)</b></summary>
 
 ### Water-related diseases in Bangladesh
 - **Water-borne (infective):** cholera, typhoid/paratyphoid, infectious hepatitis (A & E), polio, bacillary dysentery, rotavirus diarrhoea, amoebiasis, giardiasis, leptospirosis.
@@ -177,7 +195,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q8. What are the small scale water purification processes? Explain breakpoint chlorination. (S6,Q3)
+</details>
+
+<details>
+<summary><b>Q8. What are the small scale water purification processes? Explain breakpoint chlorination. (S6,Q3)</b></summary>
 
 ### Small-scale (household) water purification
 1. **Boiling** — "rolling boil" for **5–10 minutes** kills bacteria, spores, cysts & ova.
@@ -200,7 +221,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q9. Enumerate the difference between slow and rapid sand filtration methods of water purification. What is super chlorination? (S7,Q3)
+</details>
+
+<details>
+<summary><b>Q9. Enumerate the difference between slow and rapid sand filtration methods of water purification. What is super chlorination? (S7,Q3)</b></summary>
 
 ### Slow vs Rapid sand filtration
 | Trait | Rapid sand filter | Slow sand filter |
@@ -224,7 +248,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q10. Mention the characteristics of ideal disinfectants of water. What do you mean by Chlorine demand? (S8,Q3)
+</details>
+
+<details>
+<summary><b>Q10. Mention the characteristics of ideal disinfectants of water. What do you mean by Chlorine demand? (S8,Q3)</b></summary>
 
 ### Characteristics of an ideal water disinfectant
 1. **Cheap and easily available.**
@@ -248,7 +275,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q11. How can you disinfect drinking water in small scale? Tell the formation and roles of vital layer in water purification. (S9,Q3)
+</details>
+
+<details>
+<summary><b>Q11. How can you disinfect drinking water in small scale? Tell the formation and roles of vital layer in water purification. (S9,Q3)</b></summary>
 
 ### Disinfection of drinking water in small scale
 1. **Boiling** for 5–10 minutes.
@@ -275,7 +305,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q12. What is superchlorination? Mention its effect on health. (S11,Q3)
+</details>
+
+<details>
+<summary><b>Q12. What is superchlorination? Mention its effect on health. (S11,Q3)</b></summary>
 
 ### Super chlorination
 > 🔴 **Super chlorination** = the addition of **large doses of chlorine** to water (followed by **dechlorination**) after the disinfection has been accomplished. It is applicable to **heavily polluted water whose quality fluctuates greatly** (flood water, emergency/field supplies).
@@ -291,7 +324,10 @@ For descriptive purpose, the external environment is divided into **three closel
 
 ---
 
-### Q13. What are the recommended criteria of drinking water set by WHO? (S12,Q3)
+</details>
+
+<details>
+<summary><b>Q13. What are the recommended criteria of drinking water set by WHO? (S12,Q3)</b></summary>
 
 ### WHO criteria/guidelines for drinking water quality
 The guidelines relate to **four variables:**
@@ -309,7 +345,10 @@ The guidelines relate to **four variables:**
 
 ---
 
-### Q14. Mention the microbiological standard of drinking water. (S13,Q3)
+</details>
+
+<details>
+<summary><b>Q14. Mention the microbiological standard of drinking water. (S13,Q3)</b></summary>
 
 ### Bacteriological (microbiological) standard of drinking water
 > 🔴 **Coliform organism** = the **primary bacteriological indicator** of faecal pollution (supplementary: faecal streptococci, *Cl. perfringens*).
@@ -329,7 +368,10 @@ The guidelines relate to **four variables:**
 
 ---
 
-### Q15. What are the steps of well disinfection? (S14,Q3)
+</details>
+
+<details>
+<summary><b>Q15. What are the steps of well disinfection? (S14,Q3)</b></summary>
 
 ### Steps of well disinfection (with bleaching powder)
 > The most effective & cheapest method of disinfecting wells is by **bleaching powder**:
@@ -350,7 +392,10 @@ The guidelines relate to **four variables:**
 
 ---
 
-### Q16. List the water borne diseases. What are the common methods used to purify water at domestic level? (S15,Q3)
+</details>
+
+<details>
+<summary><b>Q16. List the water borne diseases. What are the common methods used to purify water at domestic level? (S15,Q3)</b></summary>
 
 ### Water-borne diseases
 - **Viral:** viral hepatitis A & E, poliomyelitis, rotavirus diarrhoea.
@@ -372,7 +417,10 @@ The guidelines relate to **four variables:**
 
 ---
 
-### Q17. List water related diseases in Bangladesh. What are the health effects of excess arsenic in water? (S21,Q3)
+</details>
+
+<details>
+<summary><b>Q17. List water related diseases in Bangladesh. What are the health effects of excess arsenic in water? (S21,Q3)</b></summary>
 
 ### Water-related diseases in Bangladesh
 As in Q7: **water-borne** (cholera, typhoid, hepatitis A/E, polio, dysentery, rotavirus, amoebiasis, giardiasis) · **water-washed** (trachoma, scabies) · **water-based** (inguinal/intestinal parasites — ascariasis) · **vector-borne** (malaria, dengue, filariasis) · **chemical** (**arsenicosis**, fluorosis, goitre, plumbism).
@@ -393,7 +441,10 @@ As in Q7: **water-borne** (cholera, typhoid, hepatitis A/E, polio, dysentery, ro
 
 ---
 
-### Q18. Define and classify the hardness of water. List the water borne diseases in Bangladesh. (S26,Q3)
+</details>
+
+<details>
+<summary><b>Q18. Define and classify the hardness of water. List the water borne diseases in Bangladesh. (S26,Q3)</b></summary>
 
 ### Hardness of water — definition & classification
 > 🔴 **Hardness of water** = the **soap-destroying power** of water (due to Ca & Mg salts).
@@ -413,7 +464,10 @@ Cholera, typhoid/paratyphoid, bacillary dysentery, rotavirus diarrhoea, infectio
 
 ---
 
-### Q19. Tell the water related diseases. What are the methods of small scale water purification? (S27,Q3)
+</details>
+
+<details>
+<summary><b>Q19. Tell the water related diseases. What are the methods of small scale water purification? (S27,Q3)</b></summary>
 
 ### Water-related diseases
 Water-borne (cholera, typhoid, hepatitis A/E, polio, dysentery, amoebiasis, giardiasis, ascariasis), water-washed (trachoma, scabies), water-based (schistosomiasis), aquaculture/vector-borne (malaria, filariasis, dengue), chemical (arsenicosis, fluorosis, methaemoglobinaemia).
@@ -428,7 +482,10 @@ Water-borne (cholera, typhoid, hepatitis A/E, polio, dysentery, amoebiasis, giar
 
 ---
 
-### Q20. What are the advantages and disadvantages of hardness of water? Mention the process of removal of hardness. (S28,Q3)
+</details>
+
+<details>
+<summary><b>Q20. What are the advantages and disadvantages of hardness of water? Mention the process of removal of hardness. (S28,Q3)</b></summary>
 
 ### Advantages of hard water
 1. **Palatable** & pleasant to taste (better than distilled).
@@ -454,3 +511,5 @@ Water-borne (cholera, typhoid, hepatitis A/E, polio, dysentery, amoebiasis, giar
 > 🎯 Hard water pros = **taste + Ca/Mg nutrition + less corrosive** · cons = **more soap, boiler scaling** · removal = **boiling/lime (temp.) + Na₂CO₃/base exchange (perm.)**.
 
 > 📖 Ch-15, Endeavour PDF pp. 505–506
+
+</details>

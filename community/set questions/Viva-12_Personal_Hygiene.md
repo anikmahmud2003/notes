@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. A person with healthy personal hygiene liked by others, justify it? (S10,Q4)
+<details>
+<summary><b>Q1. A person with healthy personal hygiene liked by others, justify it? (S10,Q4)</b></summary>
 
 ### Justification — why a person with healthy personal hygiene is liked by others
 > 🔴 **Personal hygiene** = measures which are the **personal responsibilities of the individual for the promotion of good health.** "It is the quality of life that renders the individual **fit to live and serve best.**"
@@ -22,7 +23,10 @@
 
 ---
 
-## Q2. What influence does exercise in maintaining personal hygiene? (S12,Q6)
+</details>
+
+<details>
+<summary><b>Q2. What influence does exercise in maintaining personal hygiene? (S12,Q6)</b></summary>
 
 ### Influence of exercise on personal hygiene / personal health
 > 📌 Exercise is one of the **health habits** which a person must maintain regularly for good personal hygiene (healthful living).
@@ -40,7 +44,10 @@
 
 ---
 
-## Q3. Explain orodental care of an individual? (S13,Q5)
+</details>
+
+<details>
+<summary><b>Q3. Explain orodental care of an individual? (S13,Q5)</b></summary>
 
 ### Oro-dental care
 1. **Use of fluoride** — it **inhibits the development of dental caries**; but **excess fluoride intake may cause dental fluorosis.**
@@ -56,7 +63,10 @@
 
 ---
 
-## Q4. What are the consequences of not maintaining personal hygiene? (S16,Q6)
+</details>
+
+<details>
+<summary><b>Q4. What are the consequences of not maintaining personal hygiene? (S16,Q6)</b></summary>
 
 ### Consequences of not maintaining personal hygiene
 > 📌 Poor personal hygiene = neglect of the **personal responsibilities** (cleanliness, eating & drinking, rest & sleep, care of bowel, clothing, dental care) → disease and social rejection.
@@ -77,7 +87,10 @@
 
 ---
 
-## Q5. You are visiting a girl's school, attending students of class seven. What factors will you consider for their personal hygiene. (S11,Q7)
+</details>
+
+<details>
+<summary><b>Q5. You are visiting a girl's school, attending students of class seven. What factors will you consider for their personal hygiene. (S11,Q7)</b></summary>
 
 ### Factors to be considered for their personal hygiene (girls' school, class-VII)
 1. **Oral hygiene / dental care.**
@@ -100,7 +113,10 @@
 
 ---
 
-## Q6. Explain the appropriate food habit and its effects on health in relation to personal hygiene. (S17,Q7)
+</details>
+
+<details>
+<summary><b>Q6. Explain the appropriate food habit and its effects on health in relation to personal hygiene. (S17,Q7)</b></summary>
 
 ### Appropriate food habit & its effects on health
 > 📌 Food habit (eating & drinking) is a component of the **"health habit"** of personal hygiene — habits should be **regular and healthy** with regard to eating and drinking.
@@ -126,7 +142,10 @@
 
 ---
 
-## Q7. What are the factors to be considered for appropriate food habit of an individual. (S18,Q7)
+</details>
+
+<details>
+<summary><b>Q7. What are the factors to be considered for appropriate food habit of an individual. (S18,Q7)</b></summary>
 
 ### Factors for appropriate food habit of an individual
 1. **Regular eating & drinking pattern** — timely, regular meals (health habit).
@@ -146,7 +165,10 @@
 
 ---
 
-## Q8. Explain orodental care of an individual. (S25,Q6)
+</details>
+
+<details>
+<summary><b>Q8. Explain orodental care of an individual. (S25,Q6)</b></summary>
 
 *Repeat of Q3* — Oro-dental care:
 
@@ -161,7 +183,10 @@
 
 ---
 
-## Q9. What is personal hygiene. What factor do you consider to maintain healthy personal hygiene. (S27,Q8)
+</details>
+
+<details>
+<summary><b>Q9. What is personal hygiene. What factor do you consider to maintain healthy personal hygiene. (S27,Q8)</b></summary>
 
 ### Personal hygiene — definition
 > 🔴 **Personal hygiene** (personal health care) deals with measures which are the **personal responsibilities of the individual for the promotion of good health.** It is the quality of life that renders the individual **fit to live and serve best.**
@@ -184,3 +209,5 @@
 > 🎯 Personal hygiene factors = **health habits (8) + weight control + dental care + sex education.**
 
 > 📖 Ch-19, Endeavour PDF p. 584
+
+</details>

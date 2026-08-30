@@ -6,7 +6,8 @@
 
 ---
 
-## Q1. What do you mean by behavioural science? Mention the importance of behavioural science. (S1,Q7)
+<details>
+<summary><b>Q1. What do you mean by behavioural science? Mention the importance of behavioural science. (S1,Q7)</b></summary>
 
 ### Behavioural science
 > 🔴 **Behavioural science** is the **scientific study of psychology, anthropology and sociology** which is concerned with and deals with **human behaviour**; it is a part of the **social science**.
@@ -28,7 +29,10 @@
 
 ---
 
-## Q2. Define and classify family with example. Mention the major functions of family. (S2,Q7)
+</details>
+
+<details>
+<summary><b>Q2. Define and classify family with example. Mention the major functions of family. (S2,Q7)</b></summary>
 
 ### Family (definition)
 > 🔴 The **family is a primary unit in all societies** — a **group of biologically related individuals living together and eating from a common kitchen.** It differs from a *household* in that all members of a household may not be blood relations (e.g. servants).
@@ -53,7 +57,10 @@
 
 ---
 
-## Q3. Define motivation. Mention different motives with examples. (S3,Q7)
+</details>
+
+<details>
+<summary><b>Q3. Define motivation. Mention different motives with examples. (S3,Q7)</b></summary>
 
 ### Motivation (definition)
 > 🔴 **Motivation** is an **intra-psychic instinct, desire or force of attitude or behavioural change.** In every person there is a fundamental desire to learn; **awakening this desire is called motivation.** According to *William Scot*: *"a process of stimulating people to action to accomplish desired goals."*
@@ -73,7 +80,10 @@
 
 ---
 
-## Q4. Define personality and mention its types with their characteristic features. (S4,Q7)
+</details>
+
+<details>
+<summary><b>Q4. Define personality and mention its types with their characteristic features. (S4,Q7)</b></summary>
 
 ### Personality (definition)
 > 🔴 **Personality** is a key word in psychology — it implies **certain physical and mental traits which are characteristic of a given individual**; these traits determine to some extent the individual's **behaviour or adjustment to his surroundings.**
@@ -91,7 +101,11 @@
 
 ---
 
-## Q5. What are the principles of learning? (S5,Q7)
+</details>
+
+<details>
+<summary><b>Q5. What are the principles of learning? (S5,Q7)</b></summary>
+
 *(UH&FPO functions part of this Q → Viva-32)*
 
 ### Principles of learning
@@ -108,7 +122,10 @@
 
 ---
 
-## Q6. Define behavior. Enumerate different types of behavior with example. (S6,Q7)
+</details>
+
+<details>
+<summary><b>Q6. Define behavior. Enumerate different types of behavior with example. (S6,Q7)</b></summary>
 
 ### Behavior (definition)
 > 🔴 **Behaviour** is *"the total reactions (of an individual) accessible to external observation."* It is the result of **physical and mental factors (body & mind) interacting in complicated ways** — the various voluntary movements undertaken by the body in response to motives and decisions.
@@ -126,7 +143,10 @@
 
 ---
 
-## Q7. What do you mean by culture? Mention the various types of personality with example. (S7,Q7)
+</details>
+
+<details>
+<summary><b>Q7. What do you mean by culture? Mention the various types of personality with example. (S7,Q7)</b></summary>
 
 ### Culture (definition)
 > 🔴 **Culture is defined as "learned behaviour which has been socially acquired"** — that complex whole which includes **knowledge, belief, art, law, morals, custom** and any other capabilities and habits acquired by man as a member of society.
@@ -144,7 +164,11 @@
 
 ---
 
-## Q8. What do you mean by social norms and values? (S8,Q7)
+</details>
+
+<details>
+<summary><b>Q8. What do you mean by social norms and values? (S8,Q7)</b></summary>
+
 *(Health Assistant functions part of this Q → Viva-32)*
 
 ### Social norms
@@ -159,7 +183,10 @@
 
 ---
 
-## Q9. What do you mean by leadership and kinship system in rural Bangladesh? Mention the qualities of a leader. (S9,Q7)
+</details>
+
+<details>
+<summary><b>Q9. What do you mean by leadership and kinship system in rural Bangladesh? Mention the qualities of a leader. (S9,Q7)</b></summary>
 
 ### Leadership
 > 🔴 A **leader is any person who can influence a group of people and guide them to action.**
@@ -187,7 +214,10 @@ A leader —
 
 ---
 
-## Q10. What are the factors to be considered to improve the doctor-patient relationship? (S10,Q7)
+</details>
+
+<details>
+<summary><b>Q10. What are the factors to be considered to improve the doctor-patient relationship? (S10,Q7)</b></summary>
 
 ### Doctor-patient relationship (background)
 > 🔴 The doctor-patient relationship is **central to the practice of health care** and essential for the delivery of high-quality care in diagnosis & treatment; it forms one of the **foundations of contemporary medical ethics.**
@@ -218,7 +248,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q11. Define and classify family. Mention the major functions of family. (S12,Q6)
+</details>
+
+<details>
+<summary><b>Q11. Define and classify family. Mention the major functions of family. (S12,Q6)</b></summary>
 
 *(Same as Q2 — repeated question in the PDF.)*
 
@@ -234,7 +267,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q12. Define Motivation. Mention different motives. (S13,Q7)
+</details>
+
+<details>
+<summary><b>Q12. Define Motivation. Mention different motives. (S13,Q7)</b></summary>
 
 *(Same as Q3 — repeated question in the PDF.)*
 
@@ -251,7 +287,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q13. Define personality and mention its types with their characteristic features. (S14,Q5)
+</details>
+
+<details>
+<summary><b>Q13. Define personality and mention its types with their characteristic features. (S14,Q5)</b></summary>
 
 *(Same as Q4 — repeated question in the PDF.)*
 
@@ -269,7 +308,11 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q14. Define behavior. (S15,Q6)
+</details>
+
+<details>
+<summary><b>Q14. Define behavior. (S15,Q6)</b></summary>
+
 *(Grass-root level health worker functions part of this Q → Viva-32)*
 
 *(Same as Q6 — behavior part of the question.)*
@@ -283,7 +326,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q15. What do you mean by mental retardation? Mention the common causes of mental retardation. (S16,Q7)
+</details>
+
+<details>
+<summary><b>Q15. What do you mean by mental retardation? Mention the common causes of mental retardation. (S16,Q7)</b></summary>
 
 ### Mental retardation (definition)
 > 🔴 **Mental retardation** (mental subnormality) means **significantly sub-average general intellectual functioning (IQ < 70)** with onset **before the age of 18 years**, associated with **deficits in adaptive behaviour** (daily living, social & communication skills). *(Definition per standard text.)*
@@ -309,7 +355,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q16. Define personality and mention its types with their characteristic features. (S26,Q7)
+</details>
+
+<details>
+<summary><b>Q16. Define personality and mention its types with their characteristic features. (S26,Q7)</b></summary>
 
 *(Same as Q4/Q13 — repeated question in the PDF.)*
 
@@ -327,7 +376,10 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 
 ---
 
-## Q17. What are the factors to be considered to improve the doctor-patient relationship? (S27,Q7)
+</details>
+
+<details>
+<summary><b>Q17. What are the factors to be considered to improve the doctor-patient relationship? (S27,Q7)</b></summary>
 
 *(Same as Q10 — repeated question in the PDF.)*
 
@@ -343,3 +395,5 @@ Uncooperative attitude of the patient · differential treatment between rich & p
 > 🎯 Improve = **secrecy + sympathy + complete history + confidence + emotional/cultural/intellectual communication → close the social distance.**
 
 > 📖 Ch-22, Endeavour PDF pp. 644–646
+
+</details>

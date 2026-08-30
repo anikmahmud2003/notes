@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Classify oral contraceptive pills and list their complications? (S18,Q6)
+<details>
+<summary><b>Q1. Classify oral contraceptive pills and list their complications? (S18,Q6)</b></summary>
 
 ### Oral contraceptive pills (OCP) — classification
 > 🔴 **Oral contraceptive pills** are hormonal contraceptives taken by mouth, containing **estrogen and/or progestogen.**
@@ -43,3 +44,5 @@
 > 🎯 OCP = **Combined (mono/bi/tri-phasic) · Minipill (POP) · Emergency pill.** Top complications = **CVS thrombotic · cervical CA · HTN/Lipids · breast tenderness + weight gain.**
 
 > 📖 Ch-10, Endeavour PDF pp. 341–343
+
+</details>

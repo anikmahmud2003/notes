@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Mention the types of Rehabilitation with example. (S1,Q1)
+<details>
+<summary><b>Q1. Mention the types of Rehabilitation with example. (S1,Q1)</b></summary>
 
 ### Rehabilitation (definition)
 > 📌 Rehabilitation = the **combined and coordinated use of medical, social, educational and vocational measures** for training and re-training the individual to the **highest possible level of functional ability**.
@@ -24,7 +25,10 @@
 
 ---
 
-## Q2. Define & classify various levels of prevention. What do you mean by primordial prevention? (S4,Q1)
+</details>
+
+<details>
+<summary><b>Q2. Define &amp; classify various levels of prevention. What do you mean by primordial prevention? (S4,Q1)</b></summary>
 
 ### Levels of prevention — 4 levels
 1. **Primordial prevention.**
@@ -52,7 +56,10 @@
 
 ---
 
-## Q3. Define eradication of disease. What are the mode of intervention in primary & secondary prevention? (S5,Q1)
+</details>
+
+<details>
+<summary><b>Q3. Define eradication of disease. What are the mode of intervention in primary &amp; secondary prevention? (S5,Q1)</b></summary>
 
 ### Eradication of disease
 > 🔴 Eradication literally means to *"tear out by roots"* — it implies **termination of all transmission of infection by extermination of the infectious agent** through surveillance and containment. **Example: smallpox** (the only disease eradicated so far).
@@ -71,7 +78,10 @@
 
 ---
 
-## Q4. Define rehabilitation and mention its type with example. Differentiate between elimination & eradication of disease. (S6,Q1)
+</details>
+
+<details>
+<summary><b>Q4. Define rehabilitation and mention its type with example. Differentiate between elimination &amp; eradication of disease. (S6,Q1)</b></summary>
 
 ### Rehabilitation
 > 📌 Combined & coordinated use of medical, social, educational & vocational measures to train/re-train the individual to the **highest possible level of functional ability**.
@@ -90,7 +100,10 @@
 
 ---
 
-## Q5. Explain "ice berg" phenomenon of disease. (S8,Q1)
+</details>
+
+<details>
+<summary><b>Q5. Explain "ice berg" phenomenon of disease. (S8,Q1)</b></summary>
 
 ### Definition
 > 🔴 It is the representation of a **disease process in a human being in a community in the same manner as an iceberg** — only a small clinical part is visible while a huge hidden mass of disease remains unseen.
@@ -112,7 +125,10 @@
 
 ---
 
-## Q6. State the natural history of disease. (S9,Q1)
+</details>
+
+<details>
+<summary><b>Q6. State the natural history of disease. (S9,Q1)</b></summary>
 
 ### Natural history of disease
 > 🔴 **Natural history** signifies *"the way in which a disease evolves over time, from the earliest stage of its **pre-pathogenesis phase** to its termination (recovery, disability or death), in the absence of intervention"*.
@@ -132,7 +148,10 @@
 
 ---
 
-## Q7. Give an example in causation of disease. (S10,Q1)
+</details>
+
+<details>
+<summary><b>Q7. Give an example in causation of disease. (S10,Q1)</b></summary>
 
 ### Example — causation of cholera (ecological triad model)
 | Factor | Example in cholera |
@@ -153,7 +172,10 @@
 
 ---
 
-## Q8. Explain the concept of control of a disease. Important characteristics of host. (S11,Q1)
+</details>
+
+<details>
+<summary><b>Q8. Explain the concept of control of a disease. Important characteristics of host. (S11,Q1)</b></summary>
 
 ### Concept of control of disease
 > 🔴 **Disease control** describes operations aimed at **reducing**:
@@ -176,7 +198,10 @@
 
 ---
 
-## Q9. Define prevention & control of disease. Steps of control the communicable disease. (S13,Q1)
+</details>
+
+<details>
+<summary><b>Q9. Define prevention &amp; control of disease. Steps of control the communicable disease. (S13,Q1)</b></summary>
 
 ### Definitions
 - **Prevention** implies to **intercept or oppose the "cause"** and thereby the disease process (apply at pre-pathogenesis stage by removing hosts' susceptibility).
@@ -205,7 +230,10 @@
 
 ---
 
-## Q10. What are the levels of prevention? What do you mean by prevention? (S14,Q1)
+</details>
+
+<details>
+<summary><b>Q10. What are the levels of prevention? What do you mean by prevention? (S14,Q1)</b></summary>
 
 ### Prevention
 > 🔴 **Prevention** implies to **intercept or oppose the "cause"** and thereby the disease process (applied before the disease becomes manifest).
@@ -222,7 +250,10 @@
 
 ---
 
-## Q11. Mention the levels of prevention with example. (S17,Q1)
+</details>
+
+<details>
+<summary><b>Q11. Mention the levels of prevention with example. (S17,Q1)</b></summary>
 
 ### Levels of prevention with examples
 | Level | What is prevented | Example |
@@ -238,7 +269,10 @@
 
 ---
 
-## Q12. How health status of a community can be promoted? (S21,Q1)
+</details>
+
+<details>
+<summary><b>Q12. How health status of a community can be promoted? (S21,Q1)</b></summary>
 
 ### Promoting the health status of a community (health promotion)
 > 🔴 **Health promotion** = the process of enabling people **to increase control over, and to improve, their own health**.
@@ -259,7 +293,10 @@
 
 ---
 
-## Q13. Illustrate the concept of rehabilitation. Classify rehabilitation with examples. (S22,Q1)
+</details>
+
+<details>
+<summary><b>Q13. Illustrate the concept of rehabilitation. Classify rehabilitation with examples. (S22,Q1)</b></summary>
 
 *Repeat of Q1/Q4* — Rehabilitation is the **combined & coordinated use of medical, social, educational and vocational measures for training and re-training the individual to the highest possible level of functional ability**.
 
@@ -275,7 +312,10 @@
 
 ---
 
-## Q14. State concept of control of disease. (S23,Q1)
+</details>
+
+<details>
+<summary><b>Q14. State concept of control of disease. (S23,Q1)</b></summary>
 
 *Repeat of Q8* — **Disease control** describes operations aimed at **reducing:**
 1. The incidence of disease.
@@ -289,7 +329,10 @@
 
 ---
 
-## Q15. How can you rehabilitate drug addictive person in a community. (S24,Q7)
+</details>
+
+<details>
+<summary><b>Q15. How can you rehabilitate drug addictive person in a community. (S24,Q7)</b></summary>
 
 ### Rehabilitation of a drug-addicted person (tertiary prevention)
 1. **Detoxification & medical treatment** — supervised withdrawal with medical support at a rehabilitation/treatment centre.
@@ -305,7 +348,10 @@
 
 ---
 
-## Q16. What are the mode of intervention in primary & secondary prevention? Explain with example. (S25,Q1)
+</details>
+
+<details>
+<summary><b>Q16. What are the mode of intervention in primary &amp; secondary prevention? Explain with example. (S25,Q1)</b></summary>
 
 ### Modes of intervention
 **In primary prevention** (pre-pathogenesis phase):
@@ -323,7 +369,10 @@
 
 ---
 
-## Q17. Tell in short the preventive strategies for mental disorders. (S25,Q7)
+</details>
+
+<details>
+<summary><b>Q17. Tell in short the preventive strategies for mental disorders. (S25,Q7)</b></summary>
 
 ### Prevention of mental disorders (3 levels)
 **1. Primary prevention:**
@@ -346,7 +395,10 @@
 
 ---
 
-## Q18. State the natural history of disease. Explain ecological triad. (S28,Q1)
+</details>
+
+<details>
+<summary><b>Q18. State the natural history of disease. Explain ecological triad. (S28,Q1)</b></summary>
 
 ### Natural history of disease
 > 🔴 Natural history = *the way in which a disease evolves over time, from the earliest stage of its pre-pathogenesis phase to its termination (recovery, disability or death), in the absence of intervention.*
@@ -365,7 +417,10 @@
 
 ---
 
-## Q19. Define prevention of disease. What are levels of prevention? What do you mean by primordial prevention? (S29,Q1)
+</details>
+
+<details>
+<summary><b>Q19. Define prevention of disease. What are levels of prevention? What do you mean by primordial prevention? (S29,Q1)</b></summary>
 
 ### Prevention of disease
 > 🔴 Prevention implies to **intercept or oppose the "cause"** and thereby the disease process — action taken before the disease process is fully established.
@@ -382,3 +437,5 @@
 > 🎯 Primordial = **prevent risk factors from ever appearing** (educate children to avoid unhealthy life-style).
 
 > 📖 Ch-02, Endeavour PDF pp. 62–63
+
+</details>

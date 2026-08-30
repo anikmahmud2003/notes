@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. What is the significance of open case of TB. Mention the DOTS regimen. (S6,Q2)
+<details>
+<summary><b>Q1. What is the significance of open case of TB. Mention the DOTS regimen. (S6,Q2)</b></summary>
 
 ### Significance of an open case of TB
 > 🔴 **Open case of TB (smear-positive TB)** = patient with **at least one initial sputum smear positive for AFB**.
@@ -23,7 +24,10 @@
 
 ---
 
-## Q2. Enumerate the complications of Pulmonary Tuberculosis. (S12,Q2)
+</details>
+
+<details>
+<summary><b>Q2. Enumerate the complications of Pulmonary Tuberculosis. (S12,Q2)</b></summary>
 
 ### Complications of pulmonary tuberculosis
 1. **Pleurisy.**
@@ -43,7 +47,10 @@
 
 ---
 
-## Q3. What are the significant of 'open case' of TB? Imterpret the "montoux" test. (S14,Q2)
+</details>
+
+<details>
+<summary><b>Q3. What are the significant of 'open case' of TB? Imterpret the "montoux" test. (S14,Q2)</b></summary>
 
 ### Significance of an open case of TB
 > 🔴 Open (smear-positive) case = sputum AFB positive — **infectious to the community**, the principal reservoir/spreader of infection → **early detection, isolation-mindedness & treatment of open cases is the key to TB control.**
@@ -65,7 +72,10 @@
 
 ---
 
-## Q4. What do you mean by DOTS? Describe the DOTS regimen. (S15,Q2)
+</details>
+
+<details>
+<summary><b>Q4. What do you mean by DOTS? Describe the DOTS regimen. (S15,Q2)</b></summary>
 
 ### DOTS — definition
 > 🔴 **DOTS** = **Directly Observed Treatment, Short-course** — a strategy in which **someone (usually a health worker — "DOT agent") takes responsibility for observing the patient take each dose** of the anti-TB drugs, ensuring full & regular treatment.
@@ -94,7 +104,10 @@
 
 ---
 
-## Q5. What are the causitive agents and mode of transmission of enteric fever. (S7,Q2)
+</details>
+
+<details>
+<summary><b>Q5. What are the causitive agents and mode of transmission of enteric fever. (S7,Q2)</b></summary>
 
 ### Causative agents of enteric fever
 > 🔴 Enteric fever includes both **typhoid and paratyphoid fevers**:
@@ -112,7 +125,10 @@
 
 ---
 
-## Q6. What are the causative agents and mode of transmission of Enteric fever? (S26,Q2)
+</details>
+
+<details>
+<summary><b>Q6. What are the causative agents and mode of transmission of Enteric fever? (S26,Q2)</b></summary>
 
 *Repeat of Q5* — Causative agents: **S. typhi** (typhoid), **S. paratyphi A & B** (paratyphoid). Mode of transmission: **faecal-oral route** via contaminated **water & food**; spread by **fingers, flies, fomites, food, fluid** from cases/carriers.
 
@@ -120,7 +136,10 @@
 
 ---
 
-## Q7. What are the types of diptheria. Mention the complications of diptheria. (S9,Q2)
+</details>
+
+<details>
+<summary><b>Q7. What are the types of diptheria. Mention the complications of diptheria. (S9,Q2)</b></summary>
 
 ### Types of diphtheria
 Three major clinical types:
@@ -146,7 +165,10 @@ Other types: **Laryngeal** (serious in infants & young children) and **cutaneous
 
 ---
 
-## Q8. Tell the treatment of diptheria. What are the contents of diptheria patch? (S10,Q2)
+</details>
+
+<details>
+<summary><b>Q8. Tell the treatment of diptheria. What are the contents of diptheria patch? (S10,Q2)</b></summary>
 
 ### Treatment of diphtheria
 1. **Notification** of the case to public health authorities.
@@ -170,7 +192,10 @@ Other types: **Laryngeal** (serious in infants & young children) and **cutaneous
 
 ---
 
-## Q9. Mention the common complications of wooping cough? (S11,Q2)
+</details>
+
+<details>
+<summary><b>Q9. Mention the common complications of wooping cough? (S11,Q2)</b></summary>
 
 ### Complications of whooping cough (pertussis)
 **1. Respiratory system:**
@@ -190,7 +215,10 @@ Other types: **Laryngeal** (serious in infants & young children) and **cutaneous
 
 ---
 
-## Q10. Enumerate the characteristics features of Clostridium tetani and mention the clinical features of tetanus. (S18,Q2)
+</details>
+
+<details>
+<summary><b>Q10. Enumerate the characteristics features of Clostridium tetani and mention the clinical features of tetanus. (S18,Q2)</b></summary>
 
 ### Characteristics of *Clostridium tetani*
 1. **Gram-positive** bacillus.
@@ -215,7 +243,10 @@ Other types: **Laryngeal** (serious in infants & young children) and **cutaneous
 
 ---
 
-## Q11. What do you mean by neonatal tetanus? Mentin the preventive measures of tetanus neonatorum. (S19,Q2)
+</details>
+
+<details>
+<summary><b>Q11. What do you mean by neonatal tetanus? Mentin the preventive measures of tetanus neonatorum. (S19,Q2)</b></summary>
 
 ### Neonatal tetanus (tetanus neonatorum)
 > 🔴 **Neonatal tetanus** = tetanus occurring in the newborn (usually 3–28 days of life), typically due to **septic cutting of the umbilical cord by unsterilized instruments** in unhygienic delivery. Features: **inability to suck** → trismus → generalized spasms (opisthotonos) → high mortality.
@@ -239,3 +270,5 @@ Other types: **Laryngeal** (serious in infants & young children) and **cutaneous
 > 🎯 Prevention = **TT immunization of mother · clean delivery & cord care · antitoxin at birth if unimmunized mother.**
 
 > 📖 Ch-05, Endeavour PDF pp. 132–135
+
+</details>

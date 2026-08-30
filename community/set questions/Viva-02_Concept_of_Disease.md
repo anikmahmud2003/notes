@@ -5,7 +5,8 @@
 
 ---
 
-## Q1. Name the nail borne disease. (S9,Q1)
+<details>
+<summary><b>Q1. Name the nail borne disease. (S9,Q1)</b></summary>
 
 Nail-borne (finger-/hand-borne) diseases are those spread through **unclean hands and fingers** — i.e., when people with **dirty nails / poor personal hygiene** transmit infection (the **"fingers"** of the 5 F's — flies, fingers, fomites, food & fluid).
 
@@ -23,7 +24,10 @@ Nail-borne (finger-/hand-borne) diseases are those spread through **unclean hand
 
 ---
 
-## Q2. Explain "iceberg" phenomenon of disease. (S11,Q1)
+</details>
+
+<details>
+<summary><b>Q2. Explain "iceberg" phenomenon of disease. (S11,Q1)</b></summary>
 
 ### Definition
 > 🔴 It is the representation of a **disease process in a human being in a community in the same manner as an iceberg** — only a small clinical part is visible, while a huge hidden mass of disease remains unseen.
@@ -51,7 +55,10 @@ Nail-borne (finger-/hand-borne) diseases are those spread through **unclean hand
 
 ---
 
-## Q3. What are the time distributions in describing the disease. (S13,Q2)
+</details>
+
+<details>
+<summary><b>Q3. What are the time distributions in describing the disease. (S13,Q2)</b></summary>
 
 Time is one of the **three distributions** (time, place, person) used to describe the occurrence of disease. **Time distribution** = how disease varies with time.
 
@@ -80,7 +87,10 @@ Time is one of the **three distributions** (time, place, person) used to describ
 
 ---
 
-## Q4. Name the host factors in disease causation. (S15,Q2)
+</details>
+
+<details>
+<summary><b>Q4. Name the host factors in disease causation. (S15,Q2)</b></summary>
 
 ### Host
 > A person or other animal (including birds and arthropods) that affords **subsistence or lodgment to an infectious agent** under natural conditions.
@@ -98,7 +108,10 @@ Time is one of the **three distributions** (time, place, person) used to describ
 
 ---
 
-## Q5. Classify rehabilitation with example. (S16,Q1)
+</details>
+
+<details>
+<summary><b>Q5. Classify rehabilitation with example. (S16,Q1)</b></summary>
 
 ### Rehabilitation (definition)
 > 📌 Rehabilitation = the **combined and coordinated use of medical, social, educational and vocational measures** for training and re-training the individual to the **highest possible level of functional ability**.
@@ -118,7 +131,10 @@ Time is one of the **three distributions** (time, place, person) used to describ
 
 ---
 
-## Q6. What do you mean by disease, sickness & illness? (S17,Q1)
+</details>
+
+<details>
+<summary><b>Q6. What do you mean by disease, sickness &amp; illness? (S17,Q1)</b></summary>
 
 | Term | Meaning (Susser's view) |
 |---|---|
@@ -132,7 +148,10 @@ Time is one of the **three distributions** (time, place, person) used to describ
 
 ---
 
-## Q7. Define and classify agent. List host characteristics. (S20,Q1)
+</details>
+
+<details>
+<summary><b>Q7. Define and classify agent. List host characteristics. (S20,Q1)</b></summary>
 
 ### Agent (definition)
 > 🔴 Agent = **a substance, living or non-living, or a force, tangible or intangible, the excessive presence or relative lack of which may initiate or perpetuate a disease process.**
@@ -165,3 +184,5 @@ Time is one of the **three distributions** (time, place, person) used to describ
 > 🎯 Agents = **Biological, Nutrient, Physical, Chemical, Mechanical, Deficiency/excess, Social — "BNPCMD-S".** Host = **4 D's: Demographic, Biological, Social, Life-style.**
 
 > 📖 Ch-02 (Concept of Health & Disease), Endeavour PDF pp. 54–55
+
+</details>
