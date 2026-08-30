@@ -7,7 +7,7 @@
 ---
 
 
-i ee... |
+
 
 
 ## Non-communicable diseases (NCDs) .
