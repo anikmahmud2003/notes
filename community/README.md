@@ -132,6 +132,17 @@
 
 ---
 
+## 📚 2nd Term Suggestion (Bayezid Sir)
+
+> Comprehensive coverage of all 2nd term suggestion questions for Community Medicine.
+> 58 questions across 17 sections — NCD, CVD, HTN, RF/RHD, Cancer, DM, Obesity, Demography, MCH, LBW/Newborn, School Health, FP, Accidents/Disaster, Occupational Health, Environment, Communicable Disease, Planning.
+
+| Document | File |
+|---|---|
+| 2nd Term Suggestion (Bayezid Sir) | [2nd_Term_Suggestion_Bayezid_Sir.md](2nd%20term%20suggestion%20by%20Bayezid%20Sir/2nd_Term_Suggestion_Bayezid_Sir.md) |
+
+---
+
 ## 🔤 Legend & format
 
 - 📌 Each chapter file starts with its **title**, then one block per PDF page (marked `*PDF page N*`).
