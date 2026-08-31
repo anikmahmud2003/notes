@@ -1404,9 +1404,15 @@ Byssinosis (cotton dust), COPD, mechanical injury, allergic pneumonitis, occupat
 **Bacterial:** Typhoid, dysentery, cholera, E. coli diarrhoea
 **Protozoal:** Amoebiasis, giardiasis
 **Helminthic:** Ascariasis, thread worm
+  
+Schistosomiasis (snail), Guinea worm (Cyclops), Weil's disease (leptospira)
 
 ### Water-Related Diseases
-Schistosomiasis (snail), Guinea worm (Cyclops), Weil's disease (leptospira)
+- Arsenicosis 
+- Dyspepsia 
+- Fluorosis 
+- Dental carries
+
 
 > 🎯 Safe water = pathogen-free + no harmful chemicals + pleasant + usable. Water-borne = cholera + typhoid + hepatitis A. Water-related = schistosomiasis + Guinea worm.
 
