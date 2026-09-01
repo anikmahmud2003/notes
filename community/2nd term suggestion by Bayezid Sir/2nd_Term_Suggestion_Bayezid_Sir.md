@@ -1812,6 +1812,19 @@ Reduce CO₂ + more trees + solar/hydraulic/atomic energy + fuel-efficient vehic
 1. **Plan formulation** — identifying objectives, assessing needs, setting priorities
 2. **Execution** — implementation of the plan with available resources
 3. **Evaluation** — assessing outcomes, monitoring progress, making adjustments
+  💡 সহজে অনুধাবন করার ট্রিক (Practical Story):একটি বাস্তব উদাহরণের সাথে মিলিয়ে মনে রাখলে সিরিয়াল আর কখনোই ভুল হবে না। ধরুন, আপনার এলাকায় হুট করে টাইফয়েড (Typhoid) বেড়ে গেছে। এখন আপনি কীভাবে প্ল্যান করবেন?
+  
+## 💡 সহজে মনে রাখার প্র্যাক্টিক্যাল স্টোরি (Practical Scenario)
+
+পরীক্ষার হলে সিরিয়াল গুলিয়ে গেলে নিচের বাস্তব উদাহরণটি মনে মনে কল্পনা করুন। ধরুন, আপনার এলাকায় হুট করে **টাইফয়েড (Typhoid)** বেড়ে গেছে। এখন আপনি পাবলিক হেলথ অফিসার হিসেবে যেভাবে প্ল্যান করবেন:
+
+1. **Situation Analysis:** প্রথমে আপনি সার্ভে বা ডাটা কালেক্ট করে দেখলেন পরিস্থিতি কতটা খারাপ (**S**ituation)।
+2. **Setting Priorities:** এলাকার অনেক সমস্যার মধ্যে টাইফয়েড যেহেতু এখন সবচেয়ে মারাত্মক, তাই এটাকে তালিকার ১ নাম্বারে রাখলেন (**P**riorities)।
+3. **Formulation of Objectives:** আপনি নির্দিষ্ট টার্গেট নিলেন, "আগামী ১ বছরে টাইফয়েডের রেট ৫০% কমাবো" (**O**bjectives)।
+4. **Alternative Strategies:** এবার ভাবলেন পানি ফুটিয়ে খাওয়ানোর ক্যাম্পেইন করবেন নাকি গণ-ভ্যাকসিন দেবেন? সব অপশন তুলনা করলেন (**S**trategies)।
+5. **Plan of Action:** কোন দিন কোন টিম কাজ করবে, কত বাজেট লাগবে—তার একটি ফাইনাল লিখিত খসড়া বা গাইডলাইন বানালেন (**A**ction)।
+6. **Implementation:** এবার টিম নিয়ে মাঠে নেমে গেলেন এবং কাজ শুরু করে দিলেন (**I**mplementation)।
+7. **Monitoring & Evaluation:** কাজ ঠিকঠাক হচ্ছে কি না প্রতিদিন খোঁজ নিলেন (**M**onitoring) এবং বছর শেষে হিসাব করে দেখলেন টাইফয়েডের হার আসলেই ৫০% কমলো কি না (**E**valuation)।
 
 ### Types of Planning
 | Type | Also Called | Duration |
