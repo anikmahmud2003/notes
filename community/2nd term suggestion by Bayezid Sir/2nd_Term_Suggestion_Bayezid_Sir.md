@@ -1826,16 +1826,14 @@ Reduce CO₂ + more trees + solar/hydraulic/atomic energy + fuel-efficient vehic
 3. Develop best course of action for defined objectives
 
 ### Management
-> 🔴 **Management** = the process of **planning, organizing, staffing, directing, coordinating, reporting, and budgeting** (POSDCORB) to achieve organizational goals efficiently and effectively.
+> 🔴 **Management** = the process of coordination of the available resources by **planning, organizing, directing, controlling** to achieve goals efficiently and effectively stated .
 
 **Functions of management:**
 1. **Planning** — setting objectives and strategies
 2. **Organizing** — arranging resources and tasks
-3. **Staffing** — recruiting and developing personnel
-4. **Directing** — leading and motivating
-5. **Coordinating** — synchronizing activities
-6. **Controlling** — monitoring performance
-7. **Budgeting** — financial planning and control
+3. **Directing** — leading and motivating
+4. **Controlling** — monitoring performance
+
 
 **DG Health functions:** Planning → Implementation → Monitoring → Review
 
