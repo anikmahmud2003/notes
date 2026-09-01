@@ -2731,7 +2731,7 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 **3) Disinfection:** Chlorination, ozonation, UV irradiation.
 
 ### 🏡 Small-Scale (Household) Purification
-**a) Boiling:** Must reach a **"rolling boil" for 5–10 minutes** — kills all bacteria, spores, cysts & ova.
+**a) Boiling:** Must reach a **"rolling boil" for 15–20 minutes** — kills all bacteria, spores, cysts & ova.
 **b) Chemical disinfection:**
 | Agent | Dose |
 |-------|------|
