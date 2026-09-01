@@ -2701,6 +2701,12 @@ An industrial worker may be exposed to **five types of hazards:**
 
 ### ☣️ Chemical Hazards of Polluted Water
 Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **plumbism** · excess nitrate → infantile **methaemoglobinaemia** · iodine deficiency → goitre · fluoride deficiency → dental caries · Hg/Al salts → diarrhoea · Zn/Fe salts → constipation → dyspepsia.
+  
+# Water related disease bolle : 
+  - Arsenicosis
+  - Fluorosis
+  - Dyspepsia
+  - Dental carries
 
 > 🎯 Environment = all external factors (physical + biological + social). Safe water = pathogen-free + no harmful chemicals + pleasant + usable. Water-borne = cholera + typhoid + hepatitis A/E + polio. Water-related = schistosomiasis + Guinea worm + Weil's.
 
