@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Demography definition, processes and vital events">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#34495E"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q21 · Demography 🌍</text>
+  <text x="29" y="56" font-size="13" fill="#b7c8dc">Scientific study of human population · processes · vital events</text>
+
+  <rect x="28" y="86" width="744" height="84" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="110" font-size="14" font-weight="bold" fill="#922B21">🔴 Demography = scientific study of human population, focusing on —</text>
+  <text x="46" y="132" font-size="13" fill="#7b241c">① <tspan font-weight="bold">Changes in size</tspan> (growth or decline)</text>
+  <text x="46" y="152" font-size="13" fill="#7b241c">② <tspan font-weight="bold">Composition</tspan> (age, sex, ethnic groups) · ③ <tspan font-weight="bold">Distribution in space</tspan> (urban/rural)</text>
+
+  <text x="28" y="190" font-size="15" font-weight="bold" fill="#34495E">🔄 The Five Demographic Processes</text>
+  <g font-size="12">
+    <rect x="28" y="200" width="140" height="66" rx="10" fill="#EBF5FB" stroke="#2980B9"/><text x="98" y="226" fill="#1F618D" font-weight="bold" text-anchor="middle">👶 Fertility</text><text x="98" y="246" fill="#21618C" text-anchor="middle">↑ → ↑ population</text>
+    <rect x="180" y="200" width="140" height="66" rx="10" fill="#FDECEC" stroke="#C0392B"/><text x="250" y="226" fill="#922B21" font-weight="bold" text-anchor="middle">⚰️ Mortality</text><text x="250" y="246" fill="#7b241c" text-anchor="middle">↑ → ↓ population</text>
+    <rect x="332" y="200" width="140" height="66" rx="10" fill="#FEF9E7" stroke="#F39C12"/><text x="402" y="226" fill="#9C640C" font-weight="bold" text-anchor="middle">💍 Marriage</text><text x="402" y="246" fill="#7E5109" text-anchor="middle">early → ↑ pop</text>
+    <rect x="484" y="200" width="140" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/><text x="554" y="226" fill="#6C3483" font-weight="bold" text-anchor="middle">✈️ Migration</text><text x="554" y="246" fill="#6C3483" text-anchor="middle">↑immigration → ↑</text>
+    <rect x="636" y="200" width="136" height="66" rx="10" fill="#F4F6F7" stroke="#95A5A6"/><text x="704" y="226" fill="#5D6D7E" font-weight="bold" text-anchor="middle">🔄 Social</text><text x="704" y="246" fill="#5D6D7E" text-anchor="middle">mobility</text>
+  </g>
+  <text x="28" y="290" font-size="12" fill="#922B21">⚠️ MCQ trap: <tspan font-weight="bold">NOT</tspan> demographic processes → Morbidity, Fecundity, Census</text>
+
+  <text x="28" y="326" font-size="15" font-weight="bold" fill="#34495E">📅 Vital Events of Life</text>
+  <rect x="28" y="336" width="744" height="54" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="358" font-size="13" font-weight="bold" fill="#5D6D7E">Events concerning the beginning and end of life —</text>
+  <text x="46" y="380" font-size="13" fill="#5D6D7E">👶 Birth (fertility) · ⚰️ Death (mortality) · 🤒 Sickness (morbidity) · 💍 Marriage · 💔 Divorce</text>
+
+  <text x="28" y="412" font-size="15" font-weight="bold" fill="#34495E">💡 Uses of demography</text>
+  <rect x="28" y="420" width="744" height="66" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+  <text x="46" y="442" font-size="12.5" fill="#21618C">• Measures &amp; meets health &amp; healthcare needs of a population</text>
+  <text x="46" y="460" font-size="12.5" fill="#21618C">• Prerequisite for forecasting future population size &amp; structure → healthcare planning</text>
+  <text x="46" y="478" font-size="12.5" fill="#21618C">• Answers how population changes and how changes are measured</text>
+
+  <rect x="28" y="504" width="744" height="42" rx="10" fill="#34495E" fill-opacity="0.08"/>
+  <text x="46" y="530" font-size="13" font-weight="bold" fill="#2C3E50">🎯 5 processes = Fertility · Mortality · Marriage · Migration · Social mobility · Vital events = birth, death, marriage, divorce, sickness</text>
+</svg>

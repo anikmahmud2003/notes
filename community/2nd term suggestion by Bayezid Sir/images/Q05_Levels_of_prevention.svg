@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Levels of prevention pyramid for NCD">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#0E7C7B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q5 · Levels of Prevention of NCD 🛡</text>
+  <text x="29" y="56" font-size="13" fill="#bde1e0">Pyramid model — strongest base first</text>
+
+  <text x="28" y="96" font-size="14" font-weight="bold" fill="#0E7C7B">"Prevention pyramid" 🏔 + target &amp; examples</text>
+
+  <g font-size="12.5">
+    <rect x="28" y="108" width="744" height="74" rx="10" fill="#EAFAF1" stroke="#27AE60" stroke-width="2"/>
+    <text x="48" y="130" font-size="14" font-weight="bold" fill="#1E8449">A) Primordial Prevention 🟢 — first tier</text>
+    <text x="48" y="150" fill="#145A32">Prevents the <tspan font-weight="bold">emergence of risk factors themselves</tspan> — before they appear / become endemic.</text>
+    <text x="48" y="170" fill="#145A32">Directed mainly at <tspan font-weight="bold">children</tspan> 🧒 — e.g. prevent smoking, high-fat diet, sedentary life, stress early in life.</text>
+
+    <rect x="28" y="194" width="744" height="74" rx="10" fill="#EBF5FB" stroke="#2980B9" stroke-width="2"/>
+    <text x="48" y="216" font-size="14" font-weight="bold" fill="#1F618D">B) Primary Prevention 🔵 — disease onset</text>
+    <text x="48" y="236" fill="#21618C">Population strategy: diet change (↓fat, ↑complex CHO), no alcohol, no smoking, BP control, activity, weight control.</text>
+    <text x="48" y="256" fill="#21618C">High-risk strategy: serum cholesterol estimation → specific advice (treat HTN, stop smoking).</text>
+
+    <rect x="28" y="280" width="744" height="66" rx="10" fill="#FEF9E7" stroke="#F39C12" stroke-width="2"/>
+    <text x="48" y="302" font-size="14" font-weight="bold" fill="#9C640C">C) Secondary Prevention 🟡 — early detection &amp; treatment</text>
+    <text x="48" y="322" fill="#7E5109">Screening &amp; health examination techniques · improved diagnostic methods · treatment.</text>
+    <text x="48" y="340" fill="#7E5109">Slogan: catch it early, treat it fast. 🩺</text>
+
+    <rect x="28" y="358" width="744" height="66" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+    <text x="48" y="380" font-size="14" font-weight="bold" fill="#922B21">D) Tertiary Prevention 🔴 — rehabilitation</text>
+    <text x="48" y="400" fill="#7b241c">Disability limitation + rehabilitation of the disabled.</text>
+    <text x="48" y="418" fill="#7b241c">Upgrade standard of institutional care. ♿→🚶</text>
+  </g>
+
+  <text x="28" y="452" font-size="14" font-weight="bold" fill="#0E7C7B">🌐 Overall measures (Park):</text>
+  <text x="28" y="474" font-size="12.5" fill="#5D6D7E">1 Screening · 2 Better diagnosis · 3 Treatment &amp; rehab · 4 Control air/water/food pollution · 5 Reduce accidents</text>
+  <text x="28" y="492" font-size="12.5" fill="#5D6D7E">6 Influence behaviour/lifestyle (education) · 7 Upgrade institutional care · 8 Comprehensive care incl. PHC · 9 Integrated NCD programme</text>
+
+  <rect x="28" y="508" width="744" height="40" rx="10" fill="#0E7C7B" fill-opacity="0.08"/>
+  <text x="46" y="533" font-size="13" font-weight="bold" fill="#09514F">🎯 Primordial = prevent risk-factor emergence · Primary = prevent onset · Secondary = early detection · Tertiary = rehab &amp; disability limitation</text>
+</svg>

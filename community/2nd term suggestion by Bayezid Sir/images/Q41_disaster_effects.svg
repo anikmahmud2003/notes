@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Health effects of disaster, epidemiology and disaster management aspects">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#C62828"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q41 · Disaster Health Effects &amp; Management 🌪</text>
+  <text x="29" y="56" font-size="13" fill="#f8c9cb">Effects on health · epidemiology · 3 fundamental aspects</text>
+
+  <text x="28" y="86" font-size="14" font-weight="bold" fill="#C62828">🚨 Health effects of disaster</text>
+  <g font-size="11.5">
+    <rect x="28" y="94" width="240" height="50" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="148" y="113" fill="#922B21" font-weight="bold" text-anchor="middle">1 Deaths 💀</text><text x="148" y="130" fill="#7b241c" text-anchor="middle">many in quake/tidal wave</text>
+    <rect x="280" y="94" width="240" height="50" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="400" y="113" fill="#922B21" font-weight="bold" text-anchor="middle">2 Severe injuries 🤕</text><text x="400" y="130" fill="#7b241c" text-anchor="middle">overwhelming in earthquake</text>
+    <rect x="532" y="94" width="240" height="50" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="652" y="113" fill="#922B21" font-weight="bold" text-anchor="middle">3 Risk of infection 🦠</text><text x="652" y="130" fill="#7b241c" text-anchor="middle">↑ in all major disasters</text>
+    <rect x="28" y="152" width="240" height="50" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="148" y="171" fill="#9C640C" font-weight="bold" text-anchor="middle">4 Malnutrition 🍚</text><text x="148" y="188" fill="#7E5109" text-anchor="middle">food scarcity in flood/drought</text>
+    <rect x="280" y="152" width="240" height="50" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="400" y="171" fill="#9C640C" font-weight="bold" text-anchor="middle">5 Population movement 🚶</text><text x="400" y="188" fill="#7E5109" text-anchor="middle">displacement → camps, ARI</text>
+    <rect x="532" y="152" width="240" height="50" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="652" y="171" fill="#9C640C" font-weight="bold" text-anchor="middle">6 Animal bites 🐍</text><text x="652" y="188" fill="#7E5109" text-anchor="middle">tiger, snake, jackal</text>
+  </g>
+
+  <text x="28" y="222" font-size="14" font-weight="bold" fill="#C62828">🏚 Other effects (destruction &amp; nuisance)</text>
+  <g font-size="11.5">
+    <rect x="28" y="230" width="240" height="56" rx="9" fill="#F4F6F7" stroke="#95A5A6"/><text x="148" y="248" fill="#5D6D7E" font-weight="bold" text-anchor="middle">Property</text><text x="44" y="264" fill="#5D6D7E">houses, institutes, roads, markets,</text><text x="44" y="278" fill="#5D6D7E">crops, stored food, clothing</text>
+    <rect x="280" y="230" width="240" height="56" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="400" y="248" fill="#1F618D" font-weight="bold" text-anchor="middle">Water pollution 💧</text><text x="296" y="264" fill="#21618C">overflooded ponds, tanks,</text><text x="296" y="278" fill="#21618C">rivers → unsafe drinking water</text>
+    <rect x="532" y="230" width="240" height="56" rx="9" fill="#FDF2E9" stroke="#D68910"/><text x="652" y="248" fill="#9C640C" font-weight="bold" text-anchor="middle">Nuisance 🪰</text><text x="548" y="264" fill="#7E5109">dead animals, humans,</text><text x="548" y="278" fill="#7E5109">human excreta → flies &amp; odour</text>
+  </g>
+
+  <text x="28" y="306" font-size="14" font-weight="bold" fill="#C62828">🔬 Epidemiology of disaster — two phases</text>
+  <g font-size="12">
+    <rect x="28" y="314" width="360" height="58" rx="10" fill="#FDE3DF" stroke="#E53935"/>
+    <text x="208" y="334" fill="#B71C1C" font-weight="bold" text-anchor="middle">1 · Disaster impact ⚡</text>
+    <text x="44" y="353" fill="#7F1D1D" text-anchor="middle">the event itself — earthquake,</text>
+    <text x="44" y="369" fill="#7F1D1D" text-anchor="middle">flood, cyclone</text>
+    <rect x="412" y="314" width="360" height="58" rx="10" fill="#E8F5E9" stroke="#43A047"/>
+    <text x="592" y="334" fill="#1B5E20" font-weight="bold" text-anchor="middle">2 · Response &amp; aftermath 🌊</text>
+    <text x="428" y="353" fill="#2E7D32" text-anchor="middle">deaths, injuries, epidemics,</text>
+    <text x="428" y="369" fill="#2E7D32" text-anchor="middle">displacement, malnutrition, destruction</text>
+  </g>
+
+  <text x="28" y="392" font-size="14" font-weight="bold" fill="#C62828">🔑 Fundamental aspects of disaster management (3)</text>
+  <g font-size="12">
+    <rect x="28" y="400" width="240" height="66" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="148" y="422" fill="#922B21" font-weight="bold" text-anchor="middle">1 Disaster response 🚨</text>
+    <text x="148" y="442" fill="#7b241c" text-anchor="middle">immediate care of</text>
+    <text x="148" y="458" fill="#7b241c" text-anchor="middle">the injured</text>
+    <rect x="280" y="400" width="240" height="66" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="400" y="422" fill="#9C640C" font-weight="bold" text-anchor="middle">2 Disaster preparedness 📋</text>
+    <text x="400" y="442" fill="#7E5109" text-anchor="middle">planning &amp; training</text>
+    <text x="400" y="458" fill="#7E5109" text-anchor="middle">before the event</text>
+    <rect x="532" y="400" width="240" height="66" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="652" y="422" fill="#1E8449" font-weight="bold" text-anchor="middle">3 Disaster mitigation 🕊</text>
+    <text x="652" y="442" fill="#145A32" text-anchor="middle">flood works · land use</text>
+    <text x="652" y="458" fill="#145A32" text-anchor="middle">· building codes · protect</text>
+  </g>
+
+  <rect x="28" y="484" width="744" height="40" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+  <text x="46" y="502" font-size="11.5" fill="#6C3483">📌 <tspan font-weight="bold">Mitigation measures:</tspan> flood mitigation works · appropriate land-use planning · improved building codes</text>
+  <text x="46" y="518" font-size="11.5" fill="#6C3483">· reduction/protection of vulnerable population &amp; structures — prevent hazards from becoming an emergency</text>
+
+  <rect x="28" y="532" width="744" height="20" rx="6" fill="#C62828" fill-opacity="0.08"/>
+  <text x="46" y="546" font-size="11" font-weight="bold" fill="#7F1D1D">🎯 Effects = death + injury + infection + malnutrition + displacement + destruction + pollution + animal bites · Manage = response + preparedness + mitigation</text>
+</svg>

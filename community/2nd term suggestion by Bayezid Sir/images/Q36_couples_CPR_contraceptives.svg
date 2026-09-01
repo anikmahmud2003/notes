@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Eligible couple, target couple, CPR and classification of contraceptive methods">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#00897B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q36 · Couples, CPR &amp; Contraceptive Methods 🔧</text>
+  <text x="29" y="56" font-size="13" fill="#b2dfdb">Eligible · target couple · CPR · spacing &amp; permanent methods</text>
+
+  <g font-size="12">
+    <rect x="28" y="82" width="240" height="92" rx="10" fill="#E0F2F1" stroke="#00897B"/>
+    <text x="148" y="102" fill="#004D40" font-weight="bold" text-anchor="middle">👥 Eligible couple</text>
+    <text x="44" y="120" fill="#00695C">Legally married couple, wife in</text>
+    <text x="44" y="136" fill="#00695C">reproductive age 15–49 yrs, in</text>
+    <text x="44" y="152" fill="#00695C">need of FP services</text>
+    <text x="44" y="168" fill="#004D40" font-weight="bold">~20% are 15–24 yrs · register = base doc</text>
+
+    <rect x="280" y="82" width="240" height="92" rx="10" fill="#E0F2F1" stroke="#00897B"/>
+    <text x="400" y="102" fill="#004D40" font-weight="bold" text-anchor="middle">🎯 Target couple</text>
+    <text x="296" y="120" fill="#00695C">Originally: couples with 2–3 living</text>
+    <text x="296" y="136" fill="#00695C">children · Now: 1 child or even</text>
+    <text x="296" y="152" fill="#00695C">newlyweds → early FP acceptance</text>
+    <text x="296" y="168" fill="#004D40" font-weight="bold">shift = earliest-stage motivation</text>
+
+    <rect x="532" y="82" width="240" height="92" rx="10" fill="#E8F5E9" stroke="#43A047"/>
+    <text x="652" y="102" fill="#1B5E20" font-weight="bold" text-anchor="middle">📊 CPR (Couple Protection Rate)</text>
+    <text x="548" y="120" fill="#2E7D32">% of eligible couples protected by</text>
+    <text x="548" y="136" fill="#2E7D32">sterilization · IUCD · condom · pills</text>
+    <text x="548" y="152" fill="#2E7D32">= indicator of contraceptive prevalence</text>
+    <text x="548" y="168" fill="#1B5E20" font-weight="bold">🇧🇩 Bangladesh CPR = 45%</text>
+  </g>
+
+  <text x="28" y="194" font-size="14" font-weight="bold" fill="#00897B">🗂 Classification of contraceptive (fertility-regulating) methods</text>
+  <text x="28" y="210" font-size="12" fill="#00695C">A) Spacing / temporary methods</text>
+
+  <g font-size="10.5">
+    <rect x="28" y="218" width="240" height="118" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="148" y="236" fill="#1F618D" font-weight="bold" text-anchor="middle">1 · Barrier methods 🧱</text>
+    <text x="44" y="254" fill="#21618C">Physical: condom (male/female),</text>
+    <text x="44" y="268" fill="#21618C">diaphragm, vaginal sponge</text>
+    <text x="44" y="284" fill="#21618C">Chemical: foam, creams, jelly,</text>
+    <text x="44" y="298" fill="#21618C">suppository, soluble film</text>
+    <text x="44" y="314" fill="#21618C">Combined: condom + jelly/cream</text>
+    <text x="44" y="330" fill="#6C3483" font-weight="bold">act at time of intercourse (conventional)</text>
+
+    <rect x="280" y="218" width="240" height="118" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="400" y="236" fill="#6C3483" font-weight="bold" text-anchor="middle">2 · Intrauterine devices 💠</text>
+    <text x="296" y="254" fill="#6C3483">1st gen non-medicated: Lippes loop</text>
+    <text x="296" y="268" fill="#6C3483">2nd gen medicated: Cu-T-200, Cu-T-220C,</text>
+    <text x="296" y="282" fill="#6C3483">nova-T, multiload</text>
+    <text x="296" y="296" fill="#6C3483">3rd gen hormonal: Progestasert</text>
+    <text x="296" y="312" fill="#4A148C" font-weight="bold">mechanical, long-acting &amp; reversible</text>
+    <text x="296" y="328" fill="#6C3483">high continuation rate</text>
+
+    <rect x="532" y="218" width="240" height="118" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="652" y="236" fill="#9C640C" font-weight="bold" text-anchor="middle">3 · Hormonal methods 💊</text>
+    <text x="548" y="254" fill="#7E5109">Oral pill: combined, POP/mini pill,</text>
+    <text x="548" y="268" fill="#7E5109">once-a-month, postcoital, emergency,</text>
+    <text x="548" y="282" fill="#7E5109">male pill (gossypol), triphasic</text>
+    <text x="548" y="296" fill="#7E5109">Slow release: DMPA, NET-EN, Norplant,</text>
+    <text x="548" y="310" fill="#7E5109">vaginal ring, injectable Cyclofem</text>
+    <text x="548" y="326" fill="#6C3483" font-weight="bold">oestrogen + progesterone</text>
+  </g>
+
+  <g font-size="11">
+    <rect x="28" y="348" width="360" height="70" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="208" y="368" fill="#9C640C" font-weight="bold" text-anchor="middle">4 · Post-conceptional</text>
+    <text x="44" y="386" fill="#7E5109">Menstrual regulation (MR) · menstrual induction (MI) · abortion</text>
+    <text x="44" y="404" fill="#7E5109">— used when conception suspected</text>
+
+    <rect x="412" y="348" width="360" height="70" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="592" y="368" fill="#922B21" font-weight="bold" text-anchor="middle">5 · Miscellaneous / natural</text>
+    <text x="428" y="386" fill="#7b241c">Abstinence · coitus interruptus · safe period (rhythm) · BBT, cervical mucus,</text>
+    <text x="428" y="404" fill="#7b241c">symptothermic · breast feeding · birth control vaccine (research)</text>
+  </g>
+
+  <text x="28" y="436" font-size="12" font-weight="bold" fill="#00695C">B) Permanent / terminal methods</text>
+  <g font-size="12">
+    <rect x="28" y="446" width="360" height="56" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="208" y="468" fill="#6C3483" font-weight="bold" text-anchor="middle">1 · Male sterilization ✂️</text>
+    <text x="44" y="488" fill="#6C3483">Vasectomy — occlusion of vas deferens</text>
+    <rect x="412" y="446" width="360" height="56" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="592" y="468" fill="#6C3483" font-weight="bold" text-anchor="middle">2 · Female sterilization ✂️</text>
+    <text x="428" y="488" fill="#6C3483">Tubectomy / tubal ligation</text>
+  </g>
+
+  <rect x="28" y="514" width="744" height="34" rx="8" fill="#00897B" fill-opacity="0.08"/>
+  <text x="46" y="536" font-size="12" font-weight="bold" fill="#004D40">🎯 Eligible = wife 15–49 yrs · Target = 2–3 children (now 1/none) · CPR = protected couples %, BD 45% · Spacing = barrier+IUCD+hormonal+natural · Permanent = vasectomy+tubectomy</text>
+</svg>

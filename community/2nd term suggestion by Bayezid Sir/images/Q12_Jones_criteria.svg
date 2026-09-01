@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Revised Duckett-Jones criteria for rheumatic fever">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6C3483"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q12 · Revised (Duckett-Jones) Criteria</text>
+  <text x="29" y="56" font-size="13" fill="#e3c9f5">Diagnosis of acute rheumatic fever</text>
+
+  <text x="28" y="92" font-size="15" font-weight="bold" fill="#6C3483">🅰 Major Criteria — 5 (mnemonic: "Call Poly Choreo, Nodular Enthusiasm")</text>
+  <g font-size="12.5">
+    <rect x="28" y="100" width="140" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="98" y="122" fill="#6C3483" font-weight="bold" text-anchor="middle">C · Carditis</text>
+    <text x="98" y="142" fill="#6C3483" text-anchor="middle">heart valves ❤️</text>
+
+    <rect x="180" y="100" width="140" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="250" y="122" fill="#6C3483" font-weight="bold" text-anchor="middle">P · Polyarthritis</text>
+    <text x="250" y="142" fill="#6C3483" text-anchor="middle">migratory joints 🦵</text>
+
+    <rect x="332" y="100" width="140" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="402" y="122" fill="#6C3483" font-weight="bold" text-anchor="middle">C · Chorea</text>
+    <text x="402" y="142" fill="#6C3483" text-anchor="middle">Sydenham chorea</text>
+
+    <rect x="484" y="100" width="140" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="554" y="122" fill="#6C3483" font-weight="bold" text-anchor="middle">N · Nodules</text>
+    <text x="554" y="142" fill="#6C3483" text-anchor="middle">subcutaneous 💠</text>
+
+    <rect x="636" y="100" width="136" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="704" y="122" fill="#6C3483" font-weight="bold" text-anchor="middle">E · Erythema</text>
+    <text x="704" y="142" fill="#6C3483" text-anchor="middle">marginatum 🔴</text>
+  </g>
+
+  <text x="28" y="190" font-size="15" font-weight="bold" fill="#6C3483">🅱 Minor Criteria</text>
+  <rect x="28" y="198" width="364" height="110" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+  <text x="44" y="220" font-size="13" font-weight="bold" fill="#1F618D">Clinical</text>
+  <text x="44" y="240" fill="#21618C">• Fever 🌡</text>
+  <text x="44" y="258" fill="#21618C">• Arthralgia</text>
+  <text x="44" y="276" fill="#21618C">• Previous rheumatic fever</text>
+  <text x="44" y="294" fill="#21618C">• Prolonged PR interval (ECG)</text>
+
+  <rect x="408" y="198" width="364" height="110" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+  <text x="424" y="220" font-size="13" font-weight="bold" fill="#9C640C">Laboratory 🧪</text>
+  <text x="424" y="240" fill="#7E5109">• Raised ESR / C-reactive protein</text>
+  <text x="424" y="258" fill="#7E5109">• Leucocytosis</text>
+  <text x="424" y="276" fill="#7E5109">• Raised ASO titre</text>
+  <text x="424" y="294" fill="#7E5109">• Positive throat culture · recent scarlet fever</text>
+
+  <text x="28" y="332" font-size="15" font-weight="bold" fill="#6C3483">🩺 Diagnosis</text>
+  <rect x="28" y="340" width="744" height="62" rx="10" fill="#EAFAF1" stroke="#27AE60" stroke-width="2"/>
+  <text x="400" y="366" font-size="14.5" font-weight="bold" fill="#1E8449" text-anchor="middle">2 Major   OR   1 Major + 2 Minor</text>
+  <text x="400" y="390" font-size="13" fill="#145A32" text-anchor="middle">PLUS evidence of preceding streptococcal infection (raised ASO titre / positive throat culture / recent scarlet fever)</text>
+
+  <rect x="28" y="420" width="744" height="52" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="443" font-size="12.5" fill="#5D6D7E">📌 5 Major + 2 Minor signs most frequently considered in clinical practice.</text>
+  <text x="46" y="461" font-size="12.5" fill="#5D6D7E">Acute RF must always be distinguished from juvenile rheumatoid arthritis 🦴 and infective endocarditis.</text>
+
+  <rect x="28" y="488" width="744" height="56" rx="10" fill="#6C3483" fill-opacity="0.08"/>
+  <text x="46" y="511" font-size="13" font-weight="bold" fill="#512E5F">🎯 JONES 5 = C-P-C-N-E (mnemonic: "Call Poly Choreo, Nodular Enthusiasm")</text>
+  <text x="46" y="531" font-size="12" fill="#6C3483">Diagnosis = 2 major OR 1 major + 2 minor + streptococcal evidence</text>
+</svg>

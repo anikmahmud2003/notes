@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Prevention and control of diabetes mellitus">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#2E86C1"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q19 · Prevention &amp; Control of DM 🛡</text>
+  <text x="29" y="56" font-size="13" fill="#d4e6f1">Levels of prevention · diet · "no cure, but controlled" philosophy</text>
+
+  <g font-size="12">
+    <rect x="28" y="88" width="744" height="108" rx="10" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="46" y="110" font-size="13.5" font-weight="bold" fill="#1E8449">🟢 Primary prevention</text>
+    <text x="46" y="132" fill="#145A32"><tspan font-weight="bold">Population:</tspan> primordial (prevent risk-factor emergence) · keep normal weight · high dietary fibre · avoid sweet foods</text>
+    <text x="46" y="152" fill="#145A32"><tspan font-weight="bold">High-risk:</tspan> avoid sedentary life, over-nutrition, obesity &amp; alcohol · avoid diabetogenic drugs (OCP)</text>
+    <text x="46" y="172" fill="#145A32">· reduce smoking, ↑BP, high cholesterol/triglycerides (anti-atherogenic factors)</text>
+
+    <rect x="28" y="216" width="744" height="96" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="46" y="238" font-size="13.5" font-weight="bold" fill="#1F618D">🔵 Secondary prevention</text>
+    <text x="46" y="260" fill="#21618C">Adequate treatment · periodic blood sugar, urine protein &amp; ketones, BP, visual acuity, weight</text>
+    <text x="46" y="280" fill="#21618C">HbA1c at half-yearly intervals · self-care with medical guidance</text>
+    <text x="46" y="300" fill="#21618C">Home blood glucose monitoring 🏠</text>
+
+    <rect x="28" y="324" width="744" height="54" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="46" y="346" font-size="13.5" font-weight="bold" fill="#922B21">🔴 Tertiary prevention</text>
+    <text x="46" y="366" fill="#7b241c">Specialised diabetic clinics/units for complications — blindness, kidney failure, coronary thrombosis, gangrene</text>
+  </g>
+
+  <text x="28" y="402" font-size="14" font-weight="bold" fill="#2E86C1">🍽 Dietary management goals</text>
+  <rect x="28" y="410" width="744" height="52" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+  <text x="46" y="432" font-size="12" fill="#7E5109">🍞 CHO 45–60% · 🧈 fat &lt;35% (sat &lt;10%) · 🥚 protein 10–15% · 🥗 fruit/veg 5 portions · 🧂 salt ≤6 g (&lt;3 g if hypertensive)</text>
+  <text x="46" y="452" font-size="12" fill="#7E5109">Weight control + exercise ~30 min daily · low-calorie sweeteners · alcohol moderate</text>
+
+  <rect x="28" y="478" width="744" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD" stroke-width="2"/>
+  <text x="46" y="500" font-size="13" font-weight="bold" fill="#6C3483">🔒 "DM cannot be fully cured, but can be controlled" — why?</text>
+  <text x="46" y="520" font-size="12" fill="#6C3483">No cure: Type-1 → irreversible autoimmune β-cell destruction (lifelong insulin) · Type-2 → progressive insulin resistance</text>
+  <text x="46" y="538" font-size="12" fill="#6C3483">Controlled: targets HbA1c &lt;7% · fasting 80–130 mg/dL · post-prandial &lt;180 · BP &lt;130/80 · LDL &lt;100 → near-normal life</text>
+</svg>

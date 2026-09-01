@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="First antenatal visit activities and high-risk pregnancy criteria">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D81B60"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q27 · First Antenatal Visit 🤰 &amp; High-Risk Pregnancy</text>
+  <text x="29" y="56" font-size="13" fill="#f8cddd">Activities of ANC visit 1 · 14 criteria of high-risk pregnancy</text>
+
+  <rect x="28" y="82" width="744" height="40" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="100" font-size="12.5" fill="#922B21" font-weight="bold">🔴 ANC = care of the woman during pregnancy · Antenatal period = fertilization → delivery</text>
+  <text x="46" y="116" font-size="11.5" fill="#7b241c">Objectives: promote health of mother · detect high-risk cases · prevent complications · ↓ maternal-infant mortality · teach childcare · FP sensitization</text>
+
+  <text x="28" y="140" font-size="14" font-weight="bold" fill="#D81B60">📋 Activities of the 1st antenatal visit (5 steps)</text>
+  <g font-size="11.5">
+    <rect x="28" y="148" width="140" height="78" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="98" y="170" fill="#9C640C" font-weight="bold" text-anchor="middle">1 · Registration</text>
+    <text x="98" y="188" fill="#7E5109" text-anchor="middle">enrol the</text>
+    <text x="98" y="203" fill="#7E5109" text-anchor="middle">pregnant</text>
+    <text x="98" y="218" fill="#7E5109" text-anchor="middle">woman</text>
+
+    <rect x="180" y="148" width="200" height="78" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="280" y="170" fill="#1F618D" font-weight="bold" text-anchor="middle">2 · History taking</text>
+    <text x="196" y="188" fill="#21618C">Obstetric (current + past)</text>
+    <text x="196" y="203" fill="#21618C">General (HTN, DM, cardiac…)</text>
+    <text x="196" y="218" fill="#21618C">Family (genetic, TB, twin)</text>
+
+    <rect x="392" y="148" width="200" height="78" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="492" y="170" fill="#6C3483" font-weight="bold" text-anchor="middle">3 · Examinations</text>
+    <text x="408" y="188" fill="#6C3483">General (BP, oedema, anaemia)</text>
+    <text x="408" y="203" fill="#6C3483">Obstetrical (uterus, lie, FHS)</text>
+    <text x="408" y="218" fill="#6C3483">Vaginal (external genitalia)</text>
+
+    <rect x="604" y="148" width="168" height="78" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="688" y="170" fill="#1E8449" font-weight="bold" text-anchor="middle">4 · Investigations</text>
+    <text x="620" y="188" fill="#145A32">Blood ABO/Rh · Hb% · VDRL</text>
+    <text x="620" y="203" fill="#145A32">Urine sugar/albumin</text>
+    <text x="620" y="218" fill="#145A32">HBsAg · HIV · USG</text>
+
+    <rect x="604" y="234" width="168" height="78" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="688" y="256" fill="#922B21" font-weight="bold" text-anchor="middle">5 · Advice</text>
+    <text x="620" y="274" fill="#7b241c">Diet · hygiene · rest</text>
+    <text x="620" y="289" fill="#7b241c">avoid teratogenic drugs,</text>
+    <text x="620" y="304" fill="#7b241c">X-ray 1st 4 months</text>
+  </g>
+
+  <text x="28" y="332" font-size="14" font-weight="bold" fill="#D81B60">🩺 High-risk pregnancy — 14 criteria</text>
+  <g font-size="11.5">
+    <rect x="28" y="340" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="144" y="362" fill="#922B21" text-anchor="middle">Elderly primi (≥30 yr) ·</text><text x="144" y="378" fill="#922B21" text-anchor="middle">short stature primi (≤140 cm)</text>
+    <rect x="268" y="340" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="384" y="362" fill="#922B21" text-anchor="middle">Malpresentation · APH ·</text><text x="384" y="378" fill="#922B21" text-anchor="middle">pre-eclampsia/eclampsia</text>
+    <rect x="28" y="400" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="144" y="422" fill="#922B21" text-anchor="middle">Anaemia · twins ·</text><text x="144" y="438" fill="#922B21" text-anchor="middle">polyhydramnios</text>
+    <rect x="268" y="400" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="384" y="422" fill="#922B21" text-anchor="middle">Previous stillbirth/IUD/</text><text x="384" y="438" fill="#922B21" text-anchor="middle">manual removal placenta</text>
+    <rect x="28" y="460" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="144" y="482" fill="#922B21" text-anchor="middle">Elderly grand multipara ·</text><text x="144" y="498" fill="#922B21" text-anchor="middle">prolonged pregnancy</text>
+    <rect x="268" y="460" width="232" height="52" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="384" y="482" fill="#922B21" text-anchor="middle">Previous caesarean /</text><text x="384" y="498" fill="#922B21" text-anchor="middle">instrumental delivery</text>
+
+    <rect x="508" y="340" width="264" height="82" rx="8" fill="#F4F6F7" stroke="#95A5A6"/>
+    <text x="640" y="362" fill="#5D6D7E" text-anchor="middle" font-weight="bold">Pregnancy + general disease</text>
+    <text x="640" y="380" fill="#5D6D7E" text-anchor="middle">(cardiovascular, kidney, DM, TB)</text>
+    <text x="640" y="398" fill="#5D6D7E" text-anchor="middle">Infertility treatment · ≥3 recurrent</text>
+    <text x="640" y="414" fill="#5D6D7E" text-anchor="middle">spontaneous abortions</text>
+    <text x="640" y="440" fill="#922B21" text-anchor="middle" font-size="11">🔴 High-risk mother = pregnancy affected by factor(s) adversely altering outcome</text>
+  </g>
+
+  <rect x="28" y="528" width="744" height="18" rx="6" fill="#D81B60" fill-opacity="0.08"/>
+  <text x="46" y="541" font-size="11.5" font-weight="bold" fill="#880E4F">🎯 1st ANC = Register + History + Examination + Investigation + Advice · ≥4 visits (WHO)</text>
+</svg>

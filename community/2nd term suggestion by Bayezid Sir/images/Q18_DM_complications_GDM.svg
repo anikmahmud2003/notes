@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Complications of diabetes mellitus and GDM">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#2E86C1"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q18 · Complications of DM &amp; GDM</text>
+  <text x="29" y="56" font-size="13" fill="#d4e6f1">Acute + chronic complications · gestational diabetes importance</text>
+
+  <text x="28" y="88" font-size="14" font-weight="bold" fill="#2E86C1">🅰 Acute complications (medical emergencies) 🚨</text>
+  <g font-size="12">
+    <rect x="28" y="96" width="180" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="118" y="123" fill="#922B21" font-weight="bold" text-anchor="middle">😵 Diabetic ketoacidosis</text>
+    <rect x="216" y="96" width="180" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="306" y="123" fill="#922B21" font-weight="bold" text-anchor="middle">🥶 Hypoglycaemic coma</text>
+    <rect x="404" y="96" width="180" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="494" y="123" fill="#922B21" font-weight="bold" text-anchor="middle">💧 Hyperosmolar coma</text>
+    <rect x="592" y="96" width="180" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="682" y="123" fill="#922B21" font-weight="bold" text-anchor="middle">🧪 Lactic acidosis</text>
+  </g>
+
+  <text x="28" y="164" font-size="14" font-weight="bold" fill="#2E86C1">🅱 Chronic complications</text>
+  <g font-size="12">
+    <rect x="28" y="172" width="364" height="100" rx="10" fill="#F4ECF7" stroke="#8E44AD" stroke-width="1.5"/>
+    <text x="44" y="194" font-size="13" font-weight="bold" fill="#6C3483">Microvascular 🔬</text>
+    <text x="44" y="214" fill="#6C3483">👁 Retinopathy / cataract → blindness</text>
+    <text x="44" y="232" fill="#6C3483">🫘 Nephropathy → renal failure</text>
+    <text x="44" y="250" fill="#6C3483">🦵 Peripheral &amp; autonomic neuropathy</text>
+    <text x="44" y="268" fill="#6C3483">🦶 Foot disease → ulcer, gangrene, amputation</text>
+
+    <rect x="408" y="172" width="364" height="100" rx="10" fill="#EBF5FB" stroke="#2980B9" stroke-width="1.5"/>
+    <text x="424" y="194" font-size="13" font-weight="bold" fill="#1F618D">Macrovascular 🔴</text>
+    <text x="424" y="214" fill="#21618C">❤️ Coronary → ischaemia / MI</text>
+    <text x="424" y="232" fill="#21618C">🧠 Cerebral → TIA / stroke</text>
+    <text x="424" y="250" fill="#21618C">🦵 Peripheral → claudication,</text>
+    <text x="424" y="268" fill="#21618C">   ischaemia, gangrene</text>
+  </g>
+
+  <text x="28" y="294" font-size="14" font-weight="bold" fill="#2E86C1">🤰 Gestational Diabetes Mellitus (GDM)</text>
+  <rect x="28" y="302" width="744" height="46" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="324" font-size="13" font-weight="bold" fill="#922B21">🔴 GDM = glucose intolerance first recognised during pregnancy (2nd/3rd trimester)</text>
+  <text x="46" y="342" font-size="12" fill="#7b241c">Usually resolves after delivery, but strong predictor of future Type-2 DM</text>
+
+  <g font-size="11.5">
+    <rect x="28" y="360" width="364" height="74" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="44" y="382" font-weight="bold" fill="#6C3483">👶 To the fetus:</text>
+    <text x="44" y="400" fill="#6C3483">Macrosomia · birth trauma · neonatal</text>
+    <text x="44" y="416" fill="#6C3483">hypoglycaemia · RDS · stillbirth</text>
+
+    <rect x="408" y="360" width="364" height="74" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="424" y="382" font-weight="bold" fill="#1F618D">👩 To the mother:</text>
+    <text x="424" y="400" fill="#21618C">Pre-eclampsia/eclampsia · ↑ caesarean</text>
+    <text x="424" y="416" fill="#21618C">rate · ↑ risk of future Type-2 DM</text>
+  </g>
+
+  <rect x="28" y="450" width="744" height="94" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="472" font-size="13" fill="#5D6D7E">📋 <tspan font-weight="bold">DM foot care &amp; surveillance (secondary prevention of complications):</tspan></text>
+  <text x="46" y="492" font-size="12" fill="#5D6D7E">• regular blood-sugar &amp; urine checks · BP, visual acuity &amp; weight review</text>
+  <text x="46" y="510" font-size="12" fill="#5D6D7E">• HbA1c every 6 months · foot examination · self-care &amp; home glucose monitoring</text>
+
+  <rect x="28" y="540" width="744" height="14" rx="6" fill="#2E86C1" fill-opacity="0.08"/>
+  <text x="46" y="551" font-size="11.5" font-weight="bold" fill="#154360">🎯 Acute = DKA + hypo/hyperosmolar coma · Micro = eyes·kidneys·nerves·feet · Macro = heart·brain·peripheral</text>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Types of rash in different fevers and prevention of dengue and chikungunya">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6A1B9A"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q57 · Rash Types &amp; Dengue/Chikungunya 🦟</text>
+  <text x="29" y="56" font-size="13" fill="#e1bee7">Rash in fevers · vector control &amp; personal protection</text>
+
+  <text x="28" y="84" font-size="13.5" font-weight="bold" fill="#6A1B9A">📌 Types of rash in different fevers</text>
+  <g font-size="10">
+    <rect x="28" y="92" width="170" height="34" fill="#34495E"/><text x="113" y="114" fill="#ffffff" text-anchor="middle" font-weight="bold">Disease</text>
+    <rect x="198" y="92" width="430" height="34" fill="#34495E"/><text x="413" y="114" fill="#ffffff" text-anchor="middle" font-weight="bold">Rash type &amp; distribution</text>
+    <rect x="628" y="92" width="144" height="34" fill="#34495E"/><text x="700" y="114" fill="#ffffff" text-anchor="middle" font-weight="bold">Marker</text>
+
+    <rect x="28" y="126" width="170" height="34" fill="#F4F6F7"/><text x="113" y="147" fill="#922B21" text-anchor="middle"><tspan font-weight="bold">Measles</tspan></text>
+    <rect x="198" y="126" width="430" height="34" fill="#F4F6F7"/><text x="413" y="147" fill="#5D6D7E" text-anchor="middle">Maculopapular erythematous · cephalocaudal (face→trunk)→</text>
+    <rect x="628" y="126" width="144" height="34" fill="#FDECEC"/><text x="700" y="147" fill="#922B21" text-anchor="middle">Koplik spots</text>
+
+    <rect x="28" y="160" width="170" height="34" fill="#F4F6F7"/><text x="113" y="181" fill="#7E5109" text-anchor="middle"><tspan font-weight="bold">Rubella</tspan></text>
+    <rect x="198" y="160" width="430" height="34" fill="#F4F6F7"/><text x="413" y="181" fill="#5D6D7E" text-anchor="middle">Maculopapular pink finer · face→trunk faster</text>
+    <rect x="628" y="160" width="144" height="34" fill="#FDEBD0"/><text x="700" y="181" fill="#7E5109" text-anchor="middle">lymphadenopathy</text>
+
+    <rect x="28" y="194" width="170" height="34" fill="#F4F6F7"/><text x="113" y="215" fill="#922B21" text-anchor="middle"><tspan font-weight="bold">Scarlet fever</tspan></text>
+    <rect x="198" y="194" width="430" height="34" fill="#F4F6F7"/><text x="413" y="215" fill="#5D6D7E" text-anchor="middle">Diffuse erythema, sandpaper · Pastia's lines</text>
+    <rect x="628" y="194" width="144" height="34" fill="#FDECEC"/><text x="700" y="215" fill="#922B21" text-anchor="middle">strawberry tongue</text>
+
+    <rect x="28" y="228" width="170" height="34" fill="#F4F6F7"/><text x="113" y="249" fill="#922B21" text-anchor="middle"><tspan font-weight="bold">Typhoid</tspan></text>
+    <rect x="198" y="228" width="430" height="34" fill="#F4F6F7"/><text x="413" y="249" fill="#5D6D7E" text-anchor="middle">Rose spots · faint blanching maculopapular 2–4 mm</text>
+    <rect x="628" y="228" width="144" height="34" fill="#FDEBD0"/><text x="700" y="249" fill="#7E5109" text-anchor="middle">stepladder fever</text>
+
+    <rect x="28" y="262" width="170" height="34" fill="#F4F6F7"/><text x="113" y="283" fill="#922B21" text-anchor="middle"><tspan font-weight="bold">Chickenpox</tspan></text>
+    <rect x="198" y="262" width="430" height="34" fill="#F4F6F7"/><text x="413" y="283" fill="#5D6D7E" text-anchor="middle">Vesicular (macule→papule→vesicle→crust) crops · centripetal</text>
+    <rect x="628" y="262" width="144" height="34" fill="#FDECEC"/><text x="700" y="283" fill="#922B21" text-anchor="middle">dew-drop on rose</text>
+
+    <rect x="28" y="296" width="170" height="34" fill="#F4F6F7"/><text x="113" y="317" fill="#7E5109" text-anchor="middle"><tspan font-weight="bold">Meningococcal</tspan></text>
+    <rect x="198" y="296" width="430" height="34" fill="#F4F6F7"/><text x="413" y="317" fill="#5D6D7E" text-anchor="middle">Petechial / purpuric rash</text>
+    <rect x="628" y="296" width="144" height="34" fill="#FDEBD0"/><text x="700" y="317" fill="#7E5109" text-anchor="middle">neck stiffness</text>
+
+    <rect x="28" y="330" width="170" height="34" fill="#F4F6F7"/><text x="113" y="351" fill="#922B21" text-anchor="middle"><tspan font-weight="bold">Dengue</tspan></text>
+    <rect x="198" y="330" width="430" height="34" fill="#F4F6F7"/><text x="413" y="351" fill="#5D6D7E" text-anchor="middle">Maculopapular (2–5 days after fever)</text>
+    <rect x="628" y="330" width="144" height="34" fill="#FDECEC"/><text x="700" y="351" fill="#922B21" text-anchor="middle">biphasic fever</text>
+  </g>
+
+  <text x="28" y="380" font-size="13.5" font-weight="bold" fill="#6A1B9A">🦟 Prevention of Dengue &amp; Chikungunya</text>
+  <text x="28" y="394" font-size="11" fill="#4A148C">Vector = <tspan font-weight="bold">Aedes aegypti (day-biter)</tspan> · source reduction + larviciding + adulticiding</text>
+  <g font-size="10.5">
+    <rect x="28" y="402" width="240" height="62" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="148" y="420" fill="#145A32" font-weight="bold" text-anchor="middle">Vector control</text>
+    <text x="44" y="438" fill="#1E8449">Source reduction (no standing water</text>
+    <text x="44" y="452" fill="#1E8449">in pots/tyres) · temephos larvicide ·</text>
+    <text x="44" y="466" fill="#1E8449">space spraying / fogging during outbreak</text>
+    <rect x="280" y="402" width="240" height="62" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="400" y="420" fill="#1F618D" font-weight="bold" text-anchor="middle">Personal protection</text>
+    <text x="296" y="438" fill="#21618C">Repellents (DEET) · long sleeves</text>
+    <text x="296" y="452" fill="#21618C">window screens · sleep under nets</text>
+    <text x="296" y="466" fill="#21618C">(daytime too — Aedes bites in day ⚠)</text>
+    <rect x="532" y="402" width="240" height="62" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="652" y="420" fill="#6C3483" font-weight="bold" text-anchor="middle">Community / hospital</text>
+    <text x="548" y="438" fill="#6C3483">Awareness &amp; education · waste disposal</text>
+    <text x="548" y="452" fill="#6C3483">surveillance &amp; notification · hospital</text>
+    <text x="548" y="466" fill="#6C3483">preparedness for DHF/DSS (fluids, blood)</text>
+  </g>
+
+  <rect x="28" y="478" width="744" height="42" rx="9" fill="#F3E5F5"/>
+  <text x="46" y="496" font-size="10.5" fill="#4A148C">🎯 Rash mnemonic: Measles = Koplik+cephalocaudal · Scarlet = sandpaper+strawberry tongue · Typhoid = rose spots ·</text>
+  <text x="46" y="512" font-size="10.5" fill="#4A148C">Chickenpox = vesicular crops · Meningococcal = petechial · Dengue = biphasic fever · Rubella = post-auricular nodes</text>
+</svg>

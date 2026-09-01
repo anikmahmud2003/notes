@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Sickness absenteeism, hazards of doctors garment and agricultural workers and medical benefits">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#37474F"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q46 · Absenteeism &amp; Worker Health 🧑🏻‍🏭</text>
+  <text x="29" y="56" font-size="13" fill="#cfd8dc">Sickness absenteeism · doctor/garment/industrial/agri hazards · benefits</text>
+
+  <g font-size="11">
+    <rect x="28" y="82" width="360" height="176" rx="10" fill="#ECEFF1" stroke="#546E7A"/>
+    <text x="208" y="100" fill="#263238" font-weight="bold" text-anchor="middle">🏥 Sickness absenteeism</text>
+    <text x="44" y="118" fill="#37474F">🔴 = absence from work due to sickness ·</text>
+    <text x="44" y="132" fill="#37474F">index of worker health &amp; well-being</text>
+    <text x="44" y="150" fill="#455A64" font-weight="bold">Causes:</text>
+    <text x="44" y="166" fill="#455A64">1 Economic — paid sick leave availed</text>
+    <text x="44" y="180" fill="#455A64">2 Social — weddings, festivals, house work</text>
+    <text x="44" y="194" fill="#455A64">3 Medical — respiratory &amp; alimentary illness</text>
+    <text x="44" y="208" fill="#455A64">4 Non-occupational — alcoholism, drugs</text>
+    <text x="44" y="226" fill="#00695C" font-weight="bold">Prevent: good management · pre-placement</text>
+    <text x="44" y="240" fill="#00695C">exam · human relations · ergonomics ⚙</text>
+
+    <rect x="412" y="82" width="360" height="176" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="592" y="100" fill="#922B21" font-weight="bold" text-anchor="middle">🩺 Health hazards of a doctor</text>
+    <text x="428" y="118" fill="#7b241c">1 Radiation → leukaemia, cancer, sterility</text>
+    <text x="428" y="132" fill="#7b241c">2 Chemical → NO₂ neuropathy; anaesthetic</text>
+    <text x="428" y="146" fill="#7b241c">gases → abortion, teratogenesis, liver disease</text>
+    <text x="428" y="160" fill="#7b241c">3 Biological → Hepatitis B&amp;C, AIDS, TB</text>
+    <text x="428" y="174" fill="#7b241c">4 Mechanical → needle-prick, trauma, back pain</text>
+    <text x="428" y="188" fill="#7b241c">5 Psychological → peptic ulcer, depression,</text>
+    <text x="428" y="202" fill="#7b241c">drug abuse, alcoholism, frustration</text>
+    <text x="428" y="220" fill="#B03A2E" font-weight="bold">→ protect with PPE, gloves, immunisation</text>
+    <text x="428" y="234" fill="#B03A2E" font-weight="bold">(Hep-B), safe OT ventilation</text>
+  </g>
+
+  <g font-size="11">
+    <rect x="28" y="266" width="360" height="92" rx="10" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="208" y="284" fill="#9C640C" font-weight="bold" text-anchor="middle">👗 Garment / industrial worker</text>
+    <text x="44" y="302" fill="#7E5109">1 Byssinosis (cotton dust) → COPD</text>
+    <text x="44" y="316" fill="#7E5109">2 Mechanical injury · 3 allergic pneumonitis</text>
+    <text x="44" y="330" fill="#7E5109">4 Occupational lung cancer (fatal end)</text>
+    <text x="44" y="346" fill="#7E5109">5 Psychological — anxiety, depression (♀)</text>
+    <text x="44" y="360" fill="#7E5109"></text>
+    <rect x="412" y="266" width="360" height="92" rx="10" fill="#E0F2F1" stroke="#00897B"/>
+    <text x="592" y="284" fill="#004D40" font-weight="bold" text-anchor="middle">🌾 Agricultural worker</text>
+    <text x="428" y="302" fill="#00695C">1 Zoonoses — brucellosis, anthrax, tetanus, Q</text>
+    <text x="428" y="316" fill="#00695C">2 Accidents — farm machinery</text>
+    <text x="428" y="330" fill="#00695C">3 Chemicals — fertilisers, pesticides</text>
+    <text x="428" y="346" fill="#00695C">4 Physical — heat, noise, vibration</text>
+    <text x="428" y="360" fill="#00695C">5 Respiratory — byssinosis, farmer's lung</text>
+  </g>
+
+  <text x="28" y="376" font-size="14" font-weight="bold" fill="#37474F">💰 Medical &amp; other benefits of workers</text>
+  <g font-size="11">
+    <rect x="28" y="384" width="238" height="56" rx="8" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="147" y="402" fill="#145A32" font-weight="bold" text-anchor="middle">1 Medical benefit 🏥</text>
+    <text x="44" y="418" fill="#1E8449">full care + hospitalization</text>
+    <text x="44" y="432" fill="#1E8449">free of cost, all services</text>
+    <rect x="278" y="384" width="238" height="56" rx="8" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="397" y="402" fill="#1F618D" font-weight="bold" text-anchor="middle">2 Sickness benefit 💵</text>
+    <text x="294" y="418" fill="#21618C">cash for max 91 days in any</text>
+    <text x="294" y="432" fill="#21618C">continuous 365-day period</text>
+    <rect x="528" y="384" width="244" height="56" rx="8" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="650" y="402" fill="#6C3483" font-weight="bold" text-anchor="middle">3 Maternity benefit 🤱</text>
+    <text x="544" y="418" fill="#6C3483">12 wks (now 24 wks) · 6 wks for</text>
+    <text x="544" y="432" fill="#6C3483">miscarriage · 30 d for confinement</text>
+    <rect x="28" y="448" width="238" height="56" rx="8" fill="#F9EBEA" stroke="#C0392B"/>
+    <text x="147" y="466" fill="#922B21" font-weight="bold" text-anchor="middle">4 Disablement ♿</text>
+    <text x="44" y="482" fill="#7b241c">temporary ≈72% of wages ·</text>
+    <text x="44" y="496" fill="#7b241c">total → life pension full rate</text>
+    <rect x="278" y="448" width="238" height="56" rx="8" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="397" y="466" fill="#9C640C" font-weight="bold" text-anchor="middle">5 Death benefit ⚰</text>
+    <text x="294" y="482" fill="#7E5109">pension 40% above standard</text>
+    <text x="294" y="496" fill="#7E5109">rate to widow &amp; children</text>
+    <rect x="528" y="448" width="244" height="56" rx="8" fill="#FDF2E9" stroke="#D68910"/>
+    <text x="650" y="466" fill="#9C640C" font-weight="bold" text-anchor="middle">6 Funeral + rehab</text>
+    <text x="544" y="482" fill="#7E5109">funeral ≤Rs 1000 · rehab allowance</text>
+    <text x="544" y="496" fill="#7E5109">Rs 10/mo continuing care</text>
+  </g>
+
+  <rect x="28" y="520" width="744" height="30" rx="8" fill="#37474F" fill-opacity="0.08"/>
+  <text x="46" y="540" font-size="12" font-weight="bold" fill="#1A2428">🎯 "Badge of the trade" = characteristic occupational stigma (photographer's stained nails, white fingers in vibration tools) · 7 benefits covered = medical·sickness·maternity·disablement·death·funeral·rehab</text>
+</svg>

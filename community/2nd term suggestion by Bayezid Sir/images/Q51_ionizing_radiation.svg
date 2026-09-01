@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Ionizing radiation sources, health effects and acute radiation syndrome">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#F9A825"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q51 · Ionizing Radiation ☢️</text>
+  <text x="29" y="56" font-size="13" fill="#fff8e1">Sources · health effects · acute radiation syndrome · protection</text>
+
+  <rect x="28" y="82" width="744" height="30" rx="8" fill="#FFF8E1" stroke="#F9A825"/>
+  <text x="46" y="100" font-size="11.5" fill="#7D6608">🔴 Radiation able to <tspan font-weight="bold">penetrate tissues &amp; deposit energy</tspan> · electromagnetic (X-ray, γ) + corpuscular (α, β, protons)</text>
+
+  <text x="28" y="128" font-size="13.5" font-weight="bold" fill="#7D6608">📡 Sources of radiation exposure</text>
+  <g font-size="11">
+    <rect x="28" y="136" width="360" height="86" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="208" y="156" fill="#922B21" font-weight="bold" text-anchor="middle">Natural 🌍</text>
+    <text x="44" y="174" fill="#7b241c">1 Cosmic rays (space)</text>
+    <text x="44" y="188" fill="#7b241c">2 Environmental — terrestrial &amp; atmospheric</text>
+    <text x="44" y="202" fill="#7b241c">3 Internal — K-40, C-14 in body</text>
+    <text x="44" y="216" fill="#7b241c"></text>
+    <rect x="412" y="136" width="360" height="86" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="592" y="156" fill="#9C640C" font-weight="bold" text-anchor="middle">Man-made 🏭</text>
+    <text x="428" y="174" fill="#7E5109">1 Medical &amp; dental X-rays, isotopes</text>
+    <text x="428" y="188" fill="#7E5109">2 Occupational exposure</text>
+    <text x="428" y="202" fill="#7E5109">3 Nuclear fallout · 4 TV, dials, luminous markers</text>
+    <text x="428" y="216" fill="#7E5109"></text>
+  </g>
+
+  <text x="28" y="242" font-size="13.5" font-weight="bold" fill="#7D6608">⚕️ Biological / health effects</text>
+  <g font-size="10.5">
+    <rect x="28" y="250" width="360" height="92" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="208" y="270" fill="#6C3483" font-weight="bold" text-anchor="middle">A · Somatic effects</text>
+    <text x="44" y="288" fill="#6C3483">Immediate: radiation sickness,</text>
+    <text x="44" y="302" fill="#6C3483">acute radiation syndrome</text>
+    <text x="44" y="316" fill="#6C3483">Delayed: leukaemia, carcinogenesis,</text>
+    <text x="44" y="330" fill="#6C3483">foetal defects, shortened life</text>
+    <text x="44" y="344" fill="#6C3483"></text>
+    <rect x="412" y="250" width="360" height="92" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="592" y="270" fill="#922B21" font-weight="bold" text-anchor="middle">B · Genetic effects 🧬</text>
+    <text x="428" y="288" fill="#7b241c">Chromosome mutations</text>
+    <text x="428" y="302" fill="#7b241c">Point mutations</text>
+    <text x="428" y="322" fill="#B03A2E" font-weight="bold">→ transmitted to offspring</text>
+    <text x="428" y="336" fill="#B03A2E"></text>
+  </g>
+
+  <text x="28" y="358" font-size="13.5" font-weight="bold" fill="#7D6608">🩸 Acute general effects (by dose) + late effects</text>
+  <g font-size="10.5">
+    <rect x="28" y="366" width="360" height="118" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="208" y="384" fill="#9C640C" font-weight="bold" text-anchor="middle">Acute syndromes</text>
+    <text x="44" y="400" fill="#7E5109"><tspan font-weight="bold">CNS</tspan> (≥10,000 rads): headache, vomiting,</text>
+    <text x="44" y="414" fill="#7E5109">papilloedema, ↑intraocular pressure</text>
+    <text x="44" y="430" fill="#7E5109"><tspan font-weight="bold">GI</tspan>: anorexia, nausea, vomiting, melaena</text>
+    <text x="44" y="446" fill="#7E5109"><tspan font-weight="bold">Bone-marrow</tspan> (~50 rads): pancytopenia,</text>
+    <text x="44" y="460" fill="#7E5109">↓Hb, ↓WBC, thrombocytopenia</text>
+    <text x="44" y="476" fill="#7E5109"></text>
+    <rect x="412" y="366" width="360" height="118" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="592" y="384" fill="#6C3483" font-weight="bold" text-anchor="middle">Late effects</text>
+    <text x="428" y="400" fill="#6C3483">Aplastic anaemia · chronic radiodermatitis</text>
+    <text x="428" y="414" fill="#6C3483">Cataract · sterility · congenital malformation</text>
+    <text x="428" y="430" fill="#6C3483">Carcinoma (bone, skin, leukaemia, lymphoma,</text>
+    <text x="428" y="444" fill="#6C3483">thyroid, lung)</text>
+    <text x="428" y="460" fill="#6C3483">Shortening of life · genetic defects</text>
+  </g>
+
+  <text x="28" y="500" font-size="13.5" font-weight="bold" fill="#7D6608">🚨 Acute radiation syndrome</text>
+  <rect x="28" y="508" width="744" height="34" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="46" y="526" font-size="11.5" fill="#922B21">🔴 Whole-body dose of <tspan font-weight="bold">&gt;100 rems</tspan> in a single exposure within 1–2 days → progressive signs &amp; symptoms</text>
+
+  <rect x="28" y="548" width="744" height="12" rx="6" fill="#FF8F00" fill-opacity="0.15"/>
+  <text x="46" y="558" font-size="10" font-weight="bold" fill="#7D6608">Phases: nausea/vomiting/diarrhoea → epilation &amp; skin desquamation → marrow aplasia (thrombocytopenia + agranulocytosis)</text>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Occupational health definition, objectives, occupational environment and ergonomics">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#37474F"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q43 · Occupational Health &amp; Ergonomics 👷</text>
+  <text x="29" y="56" font-size="13" fill="#cfd8dc">Definition · 5 objectives · occupational environment · ergonomics</text>
+
+  <rect x="28" y="82" width="744" height="76" rx="10" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+  <text x="46" y="102" font-size="12" font-weight="bold" fill="#263238">🔴 ILO/WHO (1950): promotion &amp; maintenance of the highest degree of physical, mental &amp; social</text>
+  <text x="46" y="118" font-size="11.5" fill="#37474F">well-being of workers in all occupations; prevention of departures from health caused by working conditions; protection from adverse factors; placing the worker in an environment adapted to his physiology &amp; psychology</text>
+  <text x="46" y="138" font-size="12" font-weight="bold" fill="#00695C">→ "adaptation of work to man and each man to his job"</text>
+
+  <text x="28" y="174" font-size="14" font-weight="bold" fill="#37474F">🎯 Objectives of occupational health (5)</text>
+  <g font-size="11">
+    <rect x="28" y="182" width="232" height="62" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="144" y="201" fill="#004D40" font-weight="bold" text-anchor="middle">1 Promote &amp; maintain well-being</text><text x="144" y="218" fill="#00695C" text-anchor="middle">physical, mental &amp; social</text><text x="144" y="234" fill="#00695C" text-anchor="middle">of all workers</text>
+    <rect x="268" y="182" width="232" height="62" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="384" y="201" fill="#004D40" font-weight="bold" text-anchor="middle">2 Prevent departures</text><text x="384" y="218" fill="#00695C" text-anchor="middle"></text><text x="384" y="234" fill="#00695C" text-anchor="middle">caused by working conditions</text>
+    <rect x="508" y="182" width="264" height="62" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="640" y="201" fill="#004D40" font-weight="bold" text-anchor="middle">3 Protect from adverse risks</text><text x="640" y="218" fill="#00695C" text-anchor="middle"></text><text x="640" y="234" fill="#00695C" text-anchor="middle">factors harmful to health</text>
+    <rect x="28" y="252" width="360" height="62" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="208" y="271" fill="#004D40" font-weight="bold" text-anchor="middle">4 Place &amp; maintain the worker</text><text x="208" y="288" fill="#00695C" text-anchor="middle">in environment adapted to his</text><text x="208" y="304" fill="#00695C" text-anchor="middle">physiological &amp; psychological equipment</text>
+    <rect x="412" y="252" width="360" height="62" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="592" y="271" fill="#004D40" font-weight="bold" text-anchor="middle">5 Adapt work to man</text><text x="592" y="288" fill="#00695C" text-anchor="middle"></text><text x="592" y="304" fill="#00695C" text-anchor="middle">each man to his job</text>
+  </g>
+
+  <text x="28" y="334" font-size="14" font-weight="bold" fill="#37474F">🏭 Occupational / working environment — 3 interactions</text>
+  <g font-size="11">
+    <rect x="28" y="342" width="240" height="100" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="148" y="362" fill="#922B21" font-weight="bold" text-anchor="middle">1 · Man ↔ agent 🧑🔬</text>
+    <text x="44" y="380" fill="#7b241c">Physical: heat, noise, vibration,</text>
+    <text x="44" y="394" fill="#7b241c">radiation, pressure, light</text>
+    <text x="44" y="410" fill="#7b241c">Chemical: toxic dusts, gases</text>
+    <text x="44" y="426" fill="#7b241c">Biological: bacteria, parasites</text>
+    <text x="44" y="438" fill="#7b241c"></text>
+    <rect x="280" y="342" width="240" height="100" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="400" y="362" fill="#9C640C" font-weight="bold" text-anchor="middle">2 · Man ↔ machine ⚙️</text>
+    <text x="296" y="380" fill="#7E5109">Unguarded machines, protruding</text>
+    <text x="296" y="394" fill="#7E5109">&amp; moving parts → accidents</text>
+    <text x="296" y="410" fill="#7E5109">Long hours / unphysiological</text>
+    <text x="296" y="426" fill="#7E5109">posture → fatigue, backache,</text>
+    <text x="296" y="438" fill="#7E5109">joint &amp; muscle disease</text>
+    <rect x="532" y="342" width="240" height="100" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="652" y="362" fill="#6C3483" font-weight="bold" text-anchor="middle">3 · Man ↔ man 🤝</text>
+    <text x="548" y="380" fill="#6C3483">Human relationships at work</text>
+    <text x="548" y="394" fill="#6C3483">Severe prolonged stress →</text>
+    <text x="548" y="410" fill="#6C3483">physical &amp; mental symptoms,</text>
+    <text x="548" y="426" fill="#6C3483">inefficiency</text>
+    <text x="548" y="438" fill="#6C3483"></text>
+  </g>
+
+  <text x="28" y="460" font-size="14" font-weight="bold" fill="#37474F">⚙️ Ergonomics</text>
+  <rect x="28" y="468" width="744" height="42" rx="9" fill="#ECEFF1" stroke="#546E7A"/>
+  <text x="46" y="488" font-size="12" fill="#263238">🔴 <tspan font-weight="bold">Ergonomics</tspan> — from Greek <tspan font-style="italic">ergon</tspan> (work) + <tspan font-style="italic">nomos</tspan> (law) = <tspan font-weight="bold">"fitting the job to the worker"</tspan></text>
+  <text x="46" y="504" font-size="11.5" fill="#37474F">Objective: best mutual adjustment of man &amp; his work → improve human efficiency and well-being</text>
+
+  <rect x="28" y="520" width="744" height="30" rx="8" fill="#37474F" fill-opacity="0.08"/>
+  <text x="46" y="540" font-size="12.5" font-weight="bold" fill="#1A2428">🎯 Occupational health = highest well-being of workers · Environment = man↔agent, man↔machine, man↔man · Ergonomics = fit the job to the worker</text>
+</svg>

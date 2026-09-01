@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Noise level chart, health effects of noise and prevention of noise pollution">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#558B2F"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q50 · Noise 🔊</text>
+  <text x="29" y="56" font-size="13" fill="#e8efd8">Level chart · auditory &amp; non-auditory effects · prevention</text>
+
+  <rect x="28" y="82" width="744" height="26" rx="7" fill="#F1F8E9"/>
+  <text x="46" y="99" font-size="11.5" fill="#33691E">🔴 Noise = "wrong sound in the wrong place at the wrong time" · measured in <tspan font-weight="bold">decibels (dB)</tspan></text>
+
+  <text x="28" y="124" font-size="13.5" font-weight="bold" fill="#558B2F">📊 Noise level chart</text>
+  <g font-size="11">
+    <rect x="28" y="132" width="400" height="26" fill="#34495E"/><text x="38" y="150" fill="#ffffff" font-weight="bold">Source</text><text x="392" y="150" fill="#ffffff" font-weight="bold" text-anchor="end">dB</text>
+    <rect x="28" y="158" width="400" height="22" fill="#F4F6F7"/><text x="38" y="174" fill="#5D6D7E">Whispering</text><text x="392" y="174" fill="#5D6D7E" text-anchor="end">20–30</text>
+    <rect x="28" y="180" width="400" height="22" fill="#F4F6F7"/><text x="38" y="196" fill="#5D6D7E">Quiet library</text><text x="392" y="196" fill="#5D6D7E" text-anchor="end">40</text>
+    <rect x="28" y="202" width="400" height="22" fill="#F4F6F7"/><text x="38" y="218" fill="#5D6D7E">Normal conversation</text><text x="392" y="218" fill="#5D6D7E" text-anchor="end">60–65</text>
+    <rect x="28" y="224" width="400" height="22" fill="#F4F6F7"/><text x="38" y="240" fill="#5D6D7E">Heavy street traffic / printing press</text><text x="392" y="240" fill="#5D6D7E" text-anchor="end">80</text>
+    <rect x="28" y="246" width="400" height="26" fill="#FDECEC" stroke="#C0392B"/><text x="38" y="263" fill="#922B21" font-weight="bold">Recommended maximum ⚠</text><text x="392" y="263" fill="#922B21" font-weight="bold" text-anchor="end">90 (≈85)</text>
+    <rect x="28" y="272" width="400" height="22" fill="#F4F6F7"/><text x="38" y="288" fill="#5D6D7E">Train passing station</text><text x="392" y="288" fill="#5D6D7E" text-anchor="end">100–110</text>
+    <rect x="28" y="294" width="400" height="22" fill="#F4F6F7"/><text x="38" y="310" fill="#5D6D7E">Motor car horn / boiler factory</text><text x="392" y="310" fill="#5D6D7E" text-anchor="end">120</text>
+    <rect x="28" y="316" width="400" height="22" fill="#FDECEC" stroke="#C0392B"/><text x="38" y="332" fill="#922B21" font-weight="bold">Threshold of pain</text><text x="392" y="332" fill="#922B21" font-weight="bold" text-anchor="end">130–140</text>
+    <rect x="28" y="338" width="400" height="22" fill="#FDECEC" stroke="#C0392B"/><text x="38" y="354" fill="#922B21" font-weight="bold">Mechanical damage</text><text x="392" y="354" fill="#922B21" font-weight="bold" text-anchor="end">150–160</text>
+  </g>
+
+  <g font-size="11.5">
+    <rect x="440" y="132" width="332" height="120" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="606" y="152" fill="#922B21" font-weight="bold" text-anchor="middle">🧠 Health effects — auditory</text>
+    <text x="456" y="170" fill="#7b241c">1 Auditory fatigue (NITTS) — at ~90 dB,</text>
+    <text x="456" y="184" fill="#7b241c">max 4000–6000 Hz (temporary shift)</text>
+    <text x="456" y="198" fill="#7b241c">2 Deafness — daily 85 dB = tolerance;</text>
+    <text x="456" y="212" fill="#7b241c">repeated ~100 dB → deafness</text>
+    <text x="456" y="226" fill="#7b241c">3 Single &gt;160 dB → tympanic rupture ⚠</text>
+    <text x="456" y="240" fill="#7b241c"></text>
+    <rect x="440" y="260" width="332" height="118" rx="10" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="606" y="280" fill="#9C640C" font-weight="bold" text-anchor="middle">🧠 Health effects — non-auditory</text>
+    <text x="456" y="298" fill="#7E5109">1 Interference with speech · 2 annoyance</text>
+    <text x="456" y="312" fill="#7E5109">3 Reduced efficiency · 4 ↑ BP, ↑HR, ↑breathing,</text>
+    <text x="456" y="326" fill="#7E5109">giddiness, nausea, fatigue · 5 economic loss</text>
+    <text x="456" y="344" fill="#B03A2E" font-weight="bold">impulsive noise is particularly harmful</text>
+    <text x="456" y="362" fill="#B03A2E"></text>
+  </g>
+
+  <text x="28" y="380" font-size="13.5" font-weight="bold" fill="#558B2F">🛡 Control / prevention of noise pollution</text>
+  <g font-size="11">
+    <rect x="28" y="388" width="360" height="50" rx="8" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="208" y="406" fill="#145A32" font-weight="bold" text-anchor="middle">Planning &amp; layout</text>
+    <text x="44" y="424" fill="#1E8449">city zoning · green belts 🌳 · wide streets · heavy</text>
+    <text x="44" y="438" fill="#1E8449">vehicles away from narrow residential streets</text>
+    <rect x="412" y="388" width="360" height="50" rx="8" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="592" y="406" fill="#1F618D" font-weight="bold" text-anchor="middle">Industry &amp; insulation</text>
+    <text x="428" y="424" fill="#21618C">sound-proof buildings · industries in special</text>
+    <text x="428" y="438" fill="#21618C">areas · protective green belts</text>
+    <rect x="28" y="446" width="360" height="50" rx="8" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="208" y="464" fill="#6C3483" font-weight="bold" text-anchor="middle">Protection of workers</text>
+    <text x="44" y="482" fill="#6C3483">hearing protection (earmuffs) for all</text>
+    <text x="44" y="496" fill="#6C3483">consistently exposed to loud noise</text>
+    <rect x="412" y="446" width="360" height="50" rx="8" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="592" y="464" fill="#9C640C" font-weight="bold" text-anchor="middle">Legislation + education</text>
+    <text x="428" y="482" fill="#7E5109">noise control by law · education through all</text>
+    <text x="428" y="496" fill="#7E5109">available media</text>
+  </g>
+
+  <rect x="28" y="510" width="744" height="40" rx="9" fill="#F1F8E9"/>
+  <text x="46" y="528" font-size="11" fill="#33691E">📌 <tspan font-weight="bold">Green belt</tspan> = belt of thickly planted trees &amp; bushes around residential areas → blocks industry noise.</text>
+  <text x="46" y="544" font-size="11" fill="#33691E">Harmful factors: intensity (85 dB limit) + frequency + duration + impulsive nature.</text>
+</svg>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Triage four colour system, disaster preparedness four phases and mass casualty management">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#C62828"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q42 · Triage · Disaster Phases · Mass Casualties 🏷</text>
+  <text x="29" y="56" font-size="13" fill="#f8c9cb">Four-colour triage · preparedness &amp; response · mass casualty management</text>
+
+  <text x="28" y="84" font-size="14" font-weight="bold" fill="#C62828">🏷 Triage — four-colour system</text>
+  <g font-size="11.5">
+    <rect x="28" y="92" width="80" height="34" fill="#E74C3C"/><text x="68" y="114" fill="#ffffff" font-weight="bold" text-anchor="middle">🔴 Red</text>
+    <rect x="108" y="92" width="100" height="34" fill="#F5B041"/><text x="158" y="114" fill="#ffffff" font-weight="bold" text-anchor="middle">🟡 Yellow</text>
+    <rect x="208" y="92" width="90" height="34" fill="#27AE60"/><text x="253" y="114" fill="#ffffff" font-weight="bold" text-anchor="middle">🟢 Green</text>
+    <rect x="298" y="92" width="86" height="34" fill="#2C3E50"/><text x="341" y="114" fill="#ffffff" font-weight="bold" text-anchor="middle">⚫ Black</text>
+    <rect x="28" y="126" width="356" height="70" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="206" y="145" fill="#922B21" font-weight="bold" text-anchor="middle">Rapid classification of the injured</text>
+    <text x="44" y="163" fill="#7b241c">by severity &amp; likelihood of survival with prompt</text>
+    <text x="44" y="179" fill="#7b241c">care → maximum benefit to the greatest number</text>
+
+    <rect x="400" y="92" width="372" height="104" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+    <text x="586" y="113" fill="#5D6D7E" font-weight="bold" text-anchor="middle">Colour → priority</text>
+    <text x="416" y="131" fill="#5D6D7E">🔴 Red = high — priority treatment or transfer</text>
+    <text x="416" y="149" fill="#5D6D7E">🟡 Yellow = medium — medium priority</text>
+    <text x="416" y="167" fill="#5D6D7E">🟢 Green = ambulatory — walking wounded, can wait</text>
+    <text x="416" y="185" fill="#5D6D7E">⚫ Black = dead/moribund — beyond help, lowest priority</text>
+  </g>
+
+  <text x="28" y="212" font-size="14" font-weight="bold" fill="#C62828">🗺 Disaster preparedness &amp; response — 4 phases</text>
+  <g font-size="11">
+    <rect x="28" y="220" width="180" height="128" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="118" y="240" fill="#922B21" font-weight="bold" text-anchor="middle">A · Prevention 📡</text>
+    <text x="44" y="258" fill="#7b241c">Forecasting · risk assessment</text>
+    <text x="44" y="274" fill="#7b241c">Evacuation to shelter</text>
+    <text x="44" y="290" fill="#7b241c">Community preparedness</text>
+    <text x="44" y="306" fill="#7b241c">(first-aid, sanitation)</text>
+    <text x="44" y="322" fill="#7b241c">Improve local health staff</text>
+    <text x="44" y="338" fill="#7b241c"></text>
+
+    <rect x="216" y="220" width="180" height="128" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="306" y="240" fill="#9C640C" font-weight="bold" text-anchor="middle">B · Emergency care 🚑</text>
+    <text x="232" y="258" fill="#7E5109">Set up emergency committee</text>
+    <text x="232" y="274" fill="#7E5109">Inform via loudspeakers ·</text>
+    <text x="232" y="290" fill="#7E5109">mobilize volunteers</text>
+    <text x="232" y="306" fill="#7E5109">★ First priority = care</text>
+    <text x="232" y="322" fill="#7E5109">of the injured → transfer</text>
+    <text x="232" y="338" fill="#7E5109"></text>
+
+    <rect x="404" y="220" width="180" height="128" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="494" y="240" fill="#1F618D" font-weight="bold" text-anchor="middle">C · Aftermath 🛠</text>
+    <text x="420" y="258" fill="#21618C">Environmental sanitation</text>
+    <text x="420" y="274" fill="#21618C">Epidemic monitoring</text>
+    <text x="420" y="290" fill="#21618C">Vaccination (6 diseases)</text>
+    <text x="420" y="306" fill="#21618C">Food &amp; nutrition</text>
+    <text x="420" y="322" fill="#21618C"></text>
+    <text x="420" y="338" fill="#21618C"></text>
+
+    <rect x="592" y="220" width="180" height="128" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="682" y="240" fill="#1E8449" font-weight="bold" text-anchor="middle">D · Rehabilitation 🏗</text>
+    <text x="608" y="258" fill="#145A32">Reconstructive planning</text>
+    <text x="608" y="274" fill="#145A32">(industry, agriculture…)</text>
+    <text x="608" y="290" fill="#145A32">Statistical information</text>
+    <text x="608" y="306" fill="#145A32">Establish priorities: roads,</text>
+    <text x="608" y="322" fill="#145A32">houses, public buildings</text>
+    <text x="608" y="338" fill="#145A32"></text>
+  </g>
+
+  <text x="28" y="368" font-size="14" font-weight="bold" fill="#C62828">🚑 Management of mass casualties</text>
+  <g font-size="12">
+    <rect x="28" y="376" width="130" height="52" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="93" y="396" fill="#283593" font-weight="bold" text-anchor="middle">1 Search &amp; rescue</text><text x="93" y="414" fill="#3F51B5" text-anchor="middle">🔍 find victims</text>
+    <rect x="166" y="376" width="130" height="52" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="231" y="396" fill="#283593" font-weight="bold" text-anchor="middle">2 First aid</text><text x="231" y="414" fill="#3F51B5" text-anchor="middle">🩹 on site</text>
+    <rect x="304" y="376" width="130" height="52" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="369" y="396" fill="#283593" font-weight="bold" text-anchor="middle">3 Triage</text><text x="369" y="414" fill="#3F51B5" text-anchor="middle">🏷 sort severity</text>
+    <rect x="442" y="376" width="130" height="52" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="507" y="396" fill="#283593" font-weight="bold" text-anchor="middle">4 Treatment</text><text x="507" y="414" fill="#3F51B5" text-anchor="middle">💊 priority care</text>
+    <rect x="580" y="376" width="192" height="52" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="676" y="396" fill="#283593" font-weight="bold" text-anchor="middle">5 Referral</text><text x="676" y="414" fill="#3F51B5" text-anchor="middle">🏥 to higher centre</text>
+  </g>
+
+  <rect x="28" y="440" width="744" height="46" rx="9" fill="#FDF2E9" stroke="#D68910"/>
+  <text x="46" y="458" font-size="11.5" fill="#7E5109">🦠 <tspan font-weight="bold">Preventing communicable disease after disaster (e.g. Sidr):</tspan></text>
+  <text x="46" y="476" font-size="11" fill="#7E5109">① all public health measures ASAP · ② reliable disease reporting system · ③ rapidly investigate every outbreak report</text>
+
+  <rect x="28" y="498" width="744" height="30" rx="8" fill="#C62828" fill-opacity="0.08"/>
+  <text x="46" y="518" font-size="12" font-weight="bold" fill="#7F1D1D">🎯 Triage: Red = immediate · Yellow = delayed · Green = walking · Black = dead · Phases = prevent → emergency → aftermath → rehab</text>
+  <text x="46" y="536" font-size="11" fill="#7F1D1D">FOUR WORDS to remember triage purpose: maximum benefit to greatest number of injured</text>
+</svg>

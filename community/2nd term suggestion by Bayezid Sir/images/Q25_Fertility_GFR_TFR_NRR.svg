@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Fertility, GFR, TFR, NRR">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#34495E"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q25 · Fertility — GFR · TFR · NRR 👶</text>
+  <text x="29" y="56" font-size="13" fill="#b7c8dc">Fertility measures &amp; significance of NRR = 1</text>
+
+  <rect x="28" y="86" width="744" height="46" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="106" font-size="13.5" font-weight="bold" fill="#922B21">🔴 FERTILITY = child-bearing performance of individuals, couples or populations</text>
+  <text x="46" y="124" font-size="12" fill="#7b241c">Sterility = incapability of female to conceive / male to cause conception</text>
+
+  <g font-size="11.5">
+    <rect x="28" y="152" width="240" height="110" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="148" y="174" font-size="13" font-weight="bold" fill="#1F618D" text-anchor="middle">GFR (General Fertility Rate)</text>
+    <text x="44" y="196" fill="#21618C">Live births per 1000 women aged</text>
+    <text x="44" y="212" fill="#21618C">15–44/49 in a year</text>
+    <text x="44" y="232" fill="#154360" font-weight="bold">GFR = births ×1000 ÷ mid-yr</text>
+    <text x="44" y="250" fill="#154360" font-weight="bold">  women 15–44/49</text>
+
+    <rect x="280" y="152" width="240" height="110" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="400" y="174" font-size="13" font-weight="bold" fill="#9C640C" text-anchor="middle">TFR (Total Fertility Rate)</text>
+    <text x="296" y="196" fill="#7E5109">Average children a woman would</text>
+    <text x="296" y="212" fill="#7E5109">have at current age-specific rates</text>
+    <text x="296" y="232" fill="#7E5109" font-weight="bold">≈ "completed family size"</text>
+    <text x="296" y="250" fill="#7E5109">BD TFR ≈ 2.45 children/woman</text>
+
+    <rect x="532" y="152" width="240" height="110" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="652" y="174" font-size="13" font-weight="bold" fill="#6C3483" text-anchor="middle">NRR (Net Reproduction Rate)</text>
+    <text x="548" y="196" fill="#6C3483">No. of daughters a newborn girl</text>
+    <text x="548" y="212" fill="#6C3483">will bear in her lifetime at fixed</text>
+    <text x="548" y="232" fill="#6C3483">fertility + mortality rates</text>
+    <text x="548" y="250" fill="#6C3483" font-weight="bold">GRR = same, assuming NO mortality</text>
+  </g>
+
+  <text x="28" y="288" font-size="15" font-weight="bold" fill="#34495E">🧮 Significance of NRR = 1</text>
+  <g font-size="12">
+    <rect x="28" y="296" width="180" height="62" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="118" y="318" fill="#1E8449" font-weight="bold" text-anchor="middle">Replacement level</text>
+    <text x="118" y="336" fill="#145A32" text-anchor="middle">NRR=1 ↔ approximately</text>
+    <text x="118" y="351" fill="#145A32" text-anchor="middle">the 2-child norm</text>
+
+    <rect x="216" y="296" width="180" height="62" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="306" y="318" fill="#922B21" font-weight="bold" text-anchor="middle">NRR &lt; 1</text>
+    <text x="306" y="336" fill="#7b241c" text-anchor="middle">below replacement</text>
+    <text x="306" y="351" fill="#7b241c" text-anchor="middle">level reproduction</text>
+
+    <rect x="404" y="296" width="368" height="62" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="420" y="318" font-weight="bold" fill="#1F618D">Achieving NRR = 1 requires:</text>
+    <text x="420" y="338" fill="#21618C">≥ 60% of eligible couples practising family planning</text>
+    <text x="420" y="354" fill="#21618C">→ Contraceptive prevalence rate (CPR) ≥ 60%</text>
+  </g>
+
+  <text x="28" y="380" font-size="14" font-weight="bold" fill="#34495E">📇 Indicators used to measure fertility</text>
+  <rect x="28" y="388" width="744" height="34" rx="8" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="409" font-size="11.5" fill="#5D6D7E">Birth rate · GFR · Age-specific · Total · Marital fertility rates · GRR · NRR · Child-woman ratio · Pregnancy/abortion/marriage rates</text>
+
+  <text x="28" y="440" font-size="14" font-weight="bold" fill="#34495E">🌏 Factors influencing high fertility (Bangladesh)</text>
+  <g font-size="11.5">
+    <rect x="28" y="448" width="240" height="62" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="148" y="470" fill="#9C640C" text-anchor="middle">Universality of marriage 💍</text>
+    <text x="148" y="488" fill="#7E5109" text-anchor="middle">+ early marriage</text>
+    <rect x="280" y="448" width="240" height="62" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="400" y="470" fill="#9C640C" text-anchor="middle">Poverty · low living standard</text>
+    <text x="400" y="488" fill="#7E5109" text-anchor="middle">· poor diet</text>
+    <rect x="532" y="448" width="240" height="62" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="652" y="470" fill="#9C640C" text-anchor="middle">Tradition + religion + no FP habit</text>
+    <text x="652" y="488" fill="#7E5109" text-anchor="middle">+ absence of entertainment</text>
+  </g>
+
+  <rect x="28" y="524" width="744" height="22" rx="6" fill="#34495E" fill-opacity="0.08"/>
+  <text x="46" y="540" font-size="11.5" font-weight="bold" fill="#2C3E50">🎯 NRR = daughters per newborn girl · NRR=1 = replacement/2-child norm · needs CPR ≥ 60%</text>
+</svg>

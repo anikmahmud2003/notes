@@ -36,6 +36,8 @@
 <details>
 <summary><b>Q1. Define non-communicable disease. What are the cardinal characteristics of NCD?</b></summary>
 
+![Q1 — NCD definition & cardinal characteristics](images/Q01_NCD_definition.svg)
+
 ### 🌡 Non-Communicable Disease (NCD) — Definition
 > 🔴 **Non-communicable diseases (NCDs)** are a group of **chronic diseases** where the **causative agents are not clearly identified**, but a **set of risk factors has been identified** to be associated with them. They are **non-infectious** and **non-transmissible** from person to person.
 >
@@ -82,6 +84,8 @@ A "chronic disease" (NCD) is one which has one or more of the following characte
 <details>
 <summary><b>Q2. What are the differences between communicable and non-communicable diseases?</b></summary>
 
+![Q2 — NCD vs CD comparison](images/Q02_NCD_vs_CD.svg)
+
 ### NCD vs CD — Comparison Table
 
 | Feature | Non-Communicable Disease (NCD) | Communicable Disease (CD) |
@@ -107,6 +111,8 @@ A "chronic disease" (NCD) is one which has one or more of the following characte
 
 <details>
 <summary><b>Q3. Write the common (major/important) NCDs prevalent in Bangladesh. Justify: "NCDs are increasing in Bangladesh and worldwide."</b></summary>
+
+![Q3 — Common NCDs in Bangladesh & why increasing](images/Q03_Common_NCDs_BD.svg)
 
 ### 🌏 Common NCDs Prevalent in Bangladesh
 1. **Cardiovascular diseases**
@@ -155,6 +161,8 @@ At present, most countries of the **South-East Asia Region are passing through d
 <details>
 <summary><b>Q4. What do you mean by epidemiological transition? Mention its different stages.</b></summary>
 
+![Q4 — Stages of epidemiological transition](images/Q04_Epidemiological_transition.svg)
+
 ### 🔄 Epidemiological Transition — Definition
 > 🔴 **Epidemiological transition** is the **shift in the pattern of disease** from predominantly **communicable/infectious diseases (associated with famine, pestilence, and poor sanitation)** to predominantly **non-communicable, chronic, and degenerative diseases** (e.g., CVD, cancer, diabetes) as a country develops.
 >
@@ -181,6 +189,8 @@ Bangladesh is currently in **Stage 3** — still facing a **double burden** of d
 
 <details>
 <summary><b>Q5. Write down the preventive measures for NCD (levels of prevention).</b></summary>
+
+![Q5 — Levels of prevention of NCD](images/Q05_Levels_of_prevention.svg)
 
 ### 🛡 Levels of Prevention of NCD
 The preventive attack of chronic NCDs is based on the knowledge that **they are multifactorial in causation**, so their prevention demands a **complex mix of interventions**. With identification of risk factors, **health-promotion activities aimed at primary prevention** are increasingly applied (elimination/reduction of risk factors, modification of lifestyle).
@@ -233,6 +243,8 @@ The preventive attack of chronic NCDs is based on the knowledge that **they are 
 
 <details>
 <summary><b>Q6. Mention the principal cardiovascular diseases. Write the risk factors and preventive measures of CHD/CVD.</b></summary>
+
+![Q6 — CVD & CHD: risk factors + prevention](images/Q06_CVD_CHD.svg)
 
 ### 🫀 Principal Cardiovascular Diseases
 1. **Coronary heart disease (CHD)** / Ischaemic heart disease (IHD) / Coronary artery disease
@@ -328,6 +340,8 @@ The preventive attack of chronic NCDs is based on the knowledge that **they are 
 <details>
 <summary><b>Q7. What is hypertension? What are the stages and classification (causes) of HTN? Write the risk factors of HTN.</b></summary>
 
+![Q7 — HTN: stages, classification & risk factors](images/Q07_HTN_classification.svg)
+
 ### 🩸 Definition of Hypertension
 > 🔴 **Hypertension** is defined as *"persistently raised **systolic blood pressure of 140 mmHg or greater** and **diastolic blood pressure of 90 mmHg or greater** in subjects who are **not taking antihypertensive medication**."*
 
@@ -382,6 +396,8 @@ The preventive attack of chronic NCDs is based on the knowledge that **they are 
 <details>
 <summary><b>Q8. What is BMI? How do you interpret BMI (WHO classification)?</b></summary>
 
+![Q8 — BMI formula & WHO classification](images/Q08_BMI.svg)
+
 ### ⚖️ Body Mass Index (BMI) — Definition
 > 🔴 **BMI** (Quetelet's index) = **Weight in kilograms ÷ (Height in metres)²**
 >
@@ -414,6 +430,8 @@ The preventive attack of chronic NCDs is based on the knowledge that **they are 
 
 <details>
 <summary><b>Q9. Why is hypertension called an "iceberg disease"? Explain the "rule of halves".</b></summary>
+
+![Q9 — HTN iceberg & rule of halves](images/Q09_HTN_iceberg.svg)
 
 ### 🧊 Hypertension as an "Iceberg Disease"
 Hypertension is an **"iceberg disease"** — only a small visible portion (diagnosed and treated) of the affected population is above the surface; the **largest hidden mass** (undiagnosed, untreated, inadequately treated) remains below the surface. **Baseline 2010:** Only ~46% of hypertensive people are aware of it, ~40% of those are on treatment, and ~14% are adequately treated.
@@ -450,6 +468,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 
 <details>
 <summary><b>Q10. Mention the complications of untreated hypertension. Write the prevention & control measures of HTN.</b></summary>
+
+![Q10 — Complications & prevention of HTN](images/Q10_HTN_complications.svg)
 
 ### ⚠️ Complications of Untreated Hypertension
 
@@ -525,6 +545,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 <details>
 <summary><b>Q11. Define rheumatic fever (RF) / rheumatic heart disease (RHD). Describe the epidemiological features and consequences of RF/RHD. How do you prevent RF/RHD?</b></summary>
 
+![Q11 — RF/RHD: epidemiology, consequences & prevention](images/Q11_Rheumatic_fever.svg)
+
 ### 🦠 Rheumatic Fever (RF) — Definition
 > 🔴 **Rheumatic fever** is a **febrile disease affecting the connective tissues**, particularly of the **heart and joints**, initiated by infection of the **throat by Group-A beta-haemolytic streptococci (GABHS)**.
 
@@ -584,6 +606,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 <details>
 <summary><b>Q12. Write the Revised (Duckett-Jones) criteria for diagnosis of rheumatic fever.</b></summary>
 
+![Q12 — Revised Duckett-Jones criteria](images/Q12_Jones_criteria.svg)
+
 ### 📋 Revised / Duckett-Jones Criteria for Diagnosis of Acute Rheumatic Fever
 
 **🅰 Major Criteria (5):**
@@ -623,6 +647,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 <details>
 <summary><b>Q13. Define cancer (neoplasm). What are the major categories (3 major types) of cancer with examples?</b></summary>
 
+![Q13 — Cancer definition & 3 major types](images/Q13_Cancer_types.svg)
+
 ### 🧬 Cancer — Definition
 > 🔴 **Cancer** may be regarded as a group of diseases characterized by:
 > 1. An **abnormal growth of cells**,
@@ -648,6 +674,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 
 <details>
 <summary><b>Q14. Write down the warning/danger signs of cancer. What are the most common cancers in Bangladesh (male & female)?</b></summary>
+
+![Q14 — Cancer warning signs & top cancers in BD](images/Q14_Cancer_warning_signs.svg)
 
 ### ⚠️ 7 Warning / Danger Signs of Cancer
 | # | Warning Sign |
@@ -695,6 +723,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 
 <details>
 <summary><b>Q15. What are the environmental factors (causes) of cancer? Write about cancer screening tests.</b></summary>
+
+![Q15 — Causes of cancer & screening tests](images/Q15_Cancer_causes_screening.svg)
 
 ### 🌍 Environmental Factors (Causes) of Cancer
 **1. Tobacco:** Cancer of the lung, larynx, mouth, pharynx, oesophagus, bladder, pancreas, and probably kidney.
@@ -746,6 +776,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 <details>
 <summary><b>Q16. Write the risk factors of breast, lung and cervical cancer (carcinoma).</b></summary>
 
+![Q16 — Risk factors: breast, lung & cervical cancer](images/Q16_Cancer_risk_factors.svg)
+
 ### 🎀 Risk Factors of Carcinoma of the Breast
 1. **Age:** incidence increasing rapidly between 35 and 50 years
 2. **Family history:** positive family history of breast cancer ↑ risk
@@ -793,6 +825,8 @@ Hypertension is an **"iceberg disease"** — only a small visible portion (diagn
 
 <details>
 <summary><b>Q17. What is diabetes mellitus? What are the differences between type-1 and type-2 DM?</b></summary>
+
+![Q17 — DM: classification & Type-1 vs Type-2](images/Q17_DM_types.svg)
 
 ### 🍬 Diabetes Mellitus — Definition
 > 🔴 **Diabetes mellitus (DM)** is a condition of **absolute (reduced insulin secretion) or relative (reduced insulin action) deficiency of insulin**, resulting in **hyperglycaemia**. It is a chronic metabolic disorder characterised by raised blood glucose.
@@ -855,6 +889,8 @@ Healthy people (genetic susceptibility) → Environmental/Diabetic insults
 <details>
 <summary><b>Q18. Write down the complications of DM. Define GDM and explain its importance.</b></summary>
 
+![Q18 — Complications of DM & GDM importance](images/Q18_DM_complications_GDM.svg)
+
 ### ⚠️ Complications of Diabetes Mellitus
 
 **🅰 Acute Complications:**
@@ -896,6 +932,8 @@ Healthy people (genetic susceptibility) → Environmental/Diabetic insults
 
 <details>
 <summary><b>Q19. Write the control (preventive) measures of DM. Explain: "DM cannot be fully cured but can be controlled."</b></summary>
+
+![Q19 — Prevention & control of DM](images/Q19_DM_prevention.svg)
 
 ### 🛡 Prevention & Control of Diabetes Mellitus
 
@@ -954,6 +992,8 @@ Healthy people (genetic susceptibility) → Environmental/Diabetic insults
 
 <details>
 <summary><b>Q20. Define obesity. Write the risk factors, complications/health risks and prevention of obesity.</b></summary>
+
+![Q20 — Obesity: risks, complications & prevention](images/Q20_Obesity.svg)
 
 ### ⚖️ Obesity — Definition
 > 🔴 **Obesity** may be defined as an **abnormal growth of the adipose tissue** due to:
@@ -1016,6 +1056,8 @@ Healthy people (genetic susceptibility) → Environmental/Diabetic insults
 <details>
 <summary><b>Q21. Define demography. What are the demographic processes? What are the vital events of life?</b></summary>
 
+![Q21 — Demography: processes & vital events](images/Q21_Demography.svg)
+
 ### 🌍 Demography — Definition
 > 🔴 **Demography** is the **scientific study of human population**, which mainly concentrates on —
 > 1. **Changes in population size** (growth or decline)
@@ -1056,6 +1098,8 @@ Demography deals with **five demographic processes** which are continuously at w
 <details>
 <summary><b>Q22. What are the stages of the demographic cycle? Which stage is Bangladesh in currently?</b></summary>
 
+![Q22 — Demographic cycle stages & Bangladesh position](images/Q22_Demographic_cycle.svg)
+
 ### 🔄 The Demographic Cycle — 5 Stages
 *The history of the population of the world since 1650 suggests that there is a **demographic cycle of 5 stages** through which a population passes:*
 
@@ -1084,6 +1128,8 @@ Demography deals with **five demographic processes** which are continuously at w
 
 <details>
 <summary><b>Q23. What do you mean by age-sex pyramid? What are the characteristics of the age-sex pyramid in Bangladesh (developing country)?</b></summary>
+
+![Q23 — Age-sex pyramids: developing vs developed](images/Q23_Age_sex_pyramid.svg)
 
 ### 👥 Age and Sex Structure (Age Pyramid) — Definition
 > 🔴 The **age and sex structure** gives a **visual presentation of population growth** in a country. A pyramid with a **wide base and narrow apex** indicates a *higher proportion of population in the younger age group*, indicating a **rapid population growth in the future**. The pyramids of **developed countries** are usually with a **narrow base, wide in the body (middle), and narrow at the apex**.
@@ -1117,6 +1163,8 @@ Demography deals with **five demographic processes** which are continuously at w
 
 <details>
 <summary><b>Q24. What is population growth rate? Doubling time. Define and classify census.</b></summary>
+
+![Q24 — Growth rate, doubling time & census](images/Q24_Growth_rate_census.svg)
 
 ### 📈 Population Growth Rate
 > 🔴 **Population growth rate** is the **net residual (in percent)** calculated when the **crude death rate is subtracted from the crude birth rate**, exclusive of migration.
@@ -1180,6 +1228,8 @@ Demography deals with **five demographic processes** which are continuously at w
 <details>
 <summary><b>Q25. Define Fertility, GFR, TFR, NRR. What is the significance of NRR = 1?</b></summary>
 
+![Q25 — Fertility: GFR, TFR, NRR](images/Q25_Fertility_GFR_TFR_NRR.svg)
+
 ### 👶 Fertility — Definition
 > 🔴 **Fertility** is the **child-bearing performance of individuals, couples or populations**.
 >
@@ -1241,6 +1291,8 @@ Birth rate, General fertility rate, Age-specific fertility rate, Age-specific ma
 <details>
 <summary><b>Q26. What are the MCH care services in Bangladesh? What are the MCH problems in Bangladesh? How can these be prevented?</b></summary>
 
+![Q26 — MCH services & problems](images/Q26_MCH_services.svg)
+
 ### 🤰 Maternal & Child Health (MCH) — Concept
 > 🔴 The term "maternal and child health" refers to the **promotive, preventive, curative and rehabilitative health care for mothers and children** (up to pre-school age).
 >
@@ -1289,6 +1341,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 
 <details>
 <summary><b>Q27. Write down the activities carried out during the 1st antenatal visit. What are the criteria of high-risk pregnancy?</b></summary>
+
+![Q27 — 1st antenatal visit & high-risk pregnancy](images/Q27_ANC_high_risk.svg)
 
 ### 🤰 Antenatal Care (ANC) — Definition & Objectives
 > 🔴 **Antenatal period** = period from **fertilization of the ovum to the delivery of the fetus**.
@@ -1371,6 +1425,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 <details>
 <summary><b>Q28. What are the danger signs of pregnancy? What is CSBA? Write the immediate and late care of the newborn (with APGAR score).</b></summary>
 
+![Q28 — danger signs, CSBA & newborn care](images/Q28_Danger_CSBA_Newborn.svg)
+
 ### ⚠️ Danger Signs of Pregnancy
 1. **Swelling of the feet**
 2. **Fits** (convulsions)
@@ -1441,6 +1497,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 
 <details>
 <summary><b>Q29. Define and classify LBW. What are the causes and public health importance of LBW? What are the complications of LBW? What is a growth chart / road to health chart? What is GOBI-FFF?</b></summary>
+
+![Q29 — low birth weight & ROAD-TO-HEALTH](images/Q29_LBW.svg)
 
 ### ⚖️ Low Birth Weight (LBW) — Definition & Classification
 > 🔴 **Low birth weight (LBW) baby** = a birth weight of **less than 2.5 kg** (up to and including 2499 gm), the measurement being taken preferably **within the 1st hour of life**, before significant postnatal weight loss has occurred.
@@ -1543,6 +1601,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 <details>
 <summary><b>Q30. Define MMR and write its causes. Define exclusive breast feeding and write its advantages. What is colostrum and its importance?</b></summary>
 
+![Q30 — MMR, breast feeding & colostrum](images/Q30_MMR_breastfeeding_colostrum.svg)
+
 ### 🩸 MMR (Maternal Mortality Rate) — Definition
 > 🔴 **MMR** = the number of **maternal deaths** (from pregnancy, childbirth, or within **42 days** of termination of pregnancy) **per 1,000 live births** in a given year.
 >
@@ -1602,6 +1662,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 
 <details>
 <summary><b>Q31. What are the causes of infant, neonatal, post-neonatal and under-5 (1–4 year) mortality? What are the criteria of high-risk baby?</b></summary>
+
+![Q31 — mortality causes & high-risk baby](images/Q31_mortality_high_risk.svg)
 
 ### 👶 Causes of Neonatal Mortality (0–28 days)
 1. **Low birth weight / prematurity** (most important)
@@ -1680,6 +1742,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 <details>
 <summary><b>Q32. What are the complications of the postnatal period? Define weaning, IYCF. What is milk injury? Write the advantages of colostrum and contraindications of breast feeding.</b></summary>
 
+![Q32 — puerperium, weaning & IYCF](images/Q32_postnatal_weaning_IYCF.svg)
+
 ### 🤰 Complications of the Postnatal Period (Puerperium)
 1. **Puerperal sepsis** — infection of the genital tract within 3 weeks after delivery; accompanied by rise in temperature & pulse rate, foul-smelling lochia, pain & tenderness in the lower abdomen
 2. **Thrombophlebitis** — infection of the veins of the legs associated with varicose veins; leg may become tender, pale & swollen
@@ -1737,6 +1801,8 @@ The three main problems are **Malnutrition, Infection, and Uncontrolled reproduc
 <details>
 <summary><b>Q33. What are the components of school health service? What are the criteria of healthful school environment? What are the school health problems in Bangladesh?</b></summary>
 
+![Q33 — school health service](images/Q33_school_health.svg)
+
 ### 🏫 School Health Service — Essential Components
 School health services comprise the following **essential components**:
 1. **Health education** to children
@@ -1793,6 +1859,8 @@ School health services comprise the following **essential components**:
 <details>
 <summary><b>Q34. What are the duties of a school health medical officer? What are the criteria of the mid-day school meal?</b></summary>
 
+![Q34 — school medical officer & mid-day meal](images/Q34_SMO_midday_meal.svg)
+
 ### 🩺 Duties & Responsibilities of the School Health Medical Officer (SMO)
 1. To **plan & conduct training programmes** on school health for school teachers, school health monitors & other PHC workers
 2. To **organize & implement health education programmes** in the school in collaboration with the school health team
@@ -1831,6 +1899,8 @@ School health services comprise the following **essential components**:
 
 <details>
 <summary><b>Q35. Family planning — definition, concept, objectives, scope. Health aspects & health outcomes.</b></summary>
+
+![Q35 — family planning](images/Q35_family_planning.svg)
 
 ### 🧠 Definition of Family Planning
 > 🔴 An **Expert Committee (1971) of the WHO** defined family planning as — *"A way of thinking and living that is adopted **voluntarily**, upon the basis of **knowledge, attitudes and responsible decisions** by individuals and couples, in order to **promote the health and welfare of the family group** and thus contribute effectively to the **social development of a country**."*
@@ -1901,6 +1971,8 @@ School health services comprise the following **essential components**:
 <details>
 <summary><b>Q36. Eligible couple, target couple, CPR. Classification of contraceptive methods.</b></summary>
 
+![Q36 — couples, CPR & contraceptives](images/Q36_couples_CPR_contraceptives.svg)
+
 ### 👥 Eligible Couple
 > 🔴 A **legally married couple** wherein the **wife is in the reproductive age** (**15–45 or 49 years**) and who are in need of family planning services.
 - About **20%** of eligible couples are in the age group **15–24 years**
@@ -1941,6 +2013,8 @@ School health services comprise the following **essential components**:
 
 <details>
 <summary><b>Q37. Criteria of ideal contraceptive. OCP (combined pill) — indications, contraindications, complications, non-contraceptive benefits.</b></summary>
+
+![Q37 — ideal contraceptive & OCP](images/Q37_ideal_contraceptive_OCP.svg)
 
 ### ⭐ Features of an Ideal Contraceptive
 It should be —
@@ -2024,6 +2098,8 @@ It should be —
 <details>
 <summary><b>Q38. Emergency contraceptive pill. Safe period calculation. IUCD (indications, contraindications, complications). Ideal candidates of sterilization.</b></summary>
 
+![Q38 — emergency pill, safe period & IUCD](images/Q38_emergency_safe_period_IUCD.svg)
+
 ### 🆘 Emergency Contraceptive Pill (Post-coital, Morning-after)
 > 🔴 Recommended **within 48–72 hours of unprotected intercourse**. Types: **1) IUCD, 2) Hormonal (post-coital pill)**.
 
@@ -2104,6 +2180,8 @@ It should be —
 <details>
 <summary><b>Q39. Accident — definition, classification, agents. Factors of RTA in Bangladesh. Prevention of RTA.</b></summary>
 
+![Q39 — accidents & RTA](images/Q39_accident_RTA.svg)
+
 ### 🩹 Accident — Definition
 > 🔴 An accident is an **unintended and unpremeditated event** that almost invariably results in **unexpected injury, death or property damage**.
 
@@ -2155,6 +2233,8 @@ It should be —
 
 <details>
 <summary><b>Q40. Domestic accident — definition, common types, prevention. Epidemiological triad of RTA. Industrial & sports accidents. Disaster — define, classify.</b></summary>
+
+![Q40 — domestic accidents & disasters](images/Q40_domestic_triad_disaster.svg)
 
 ### 🏠 Domestic Accident
 > 🔴 An accident which **takes place in the home or in its immediate surroundings**, and more generally, **all accidents not connected with traffic, vehicles or sport**.
@@ -2233,6 +2313,8 @@ It should be —
 <details>
 <summary><b>Q41. Health effects of disaster. Epidemiology. Disaster management aspects.</b></summary>
 
+![Q41 — disaster health effects](images/Q41_disaster_effects.svg)
+
 ### 🚨 Effects / Health Effects of Disaster
 1. **Deaths:** Many perish in earthquake & tidal wave; immediate deaths in flood are not significant
 2. **Severe injuries:** Overwhelming in earthquake, moderate in cyclones, very few in floods — requiring intensive medical care
@@ -2270,6 +2352,8 @@ Two complementary phases:
 
 <details>
 <summary><b>Q42. Triage (four-colour system). Disaster preparedness & response (4 phases). Mass casualty management.</b></summary>
+
+![Q42 — triage & disaster phases](images/Q42_triage_disaster_phases.svg)
 
 ### 🏷 Triage
 > 🔴 Triage consists of **rapidly classifying the injured** on the basis of the **severity of injuries and likelihood of survival** with prompt medical attention. It is the only approach that can provide **maximum benefit to the greatest number** of injured in a major disaster.
@@ -2331,6 +2415,8 @@ Two complementary phases:
 <details>
 <summary><b>Q43. Occupational health — definition, objectives. Occupational environment. Ergonomics — definition, objectives.</b></summary>
 
+![Q43 — occupational health & ergonomics](images/Q43_occupational_health_ergonomics.svg)
+
 ### 🧑🔧 Occupational Health
 > 🔴 The Joint **ILO/WHO committee (1950)** defined occupational health as — promotion and maintenance of the **highest degree of physical, mental and social well-being of workers in all occupations**; prevention among workers of departures from health caused by their **working conditions**; protection of workers in their employment from risks resulting from factors **adverse to health**; placing & maintenance of the worker in an occupational environment adapted to his physiological & psychological equipment; and, to summarize, **adaptation of work to man and each man to his job**.
 
@@ -2367,6 +2453,8 @@ Two complementary phases:
 
 <details>
 <summary><b>Q44. Occupational health hazards — physical, chemical, biological, mechanical, psychosocial. Offensive trades.</b></summary>
+
+![Q44 — occupational health hazards](images/Q44_occupational_hazards.svg)
 
 ### ⚠️ Occupational Hazards — 5 Types
 An industrial worker may be exposed to **five types of hazards:**
@@ -2428,6 +2516,8 @@ An industrial worker may be exposed to **five types of hazards:**
 
 <details>
 <summary><b>Q45. Prevention of occupational hazards. Pneumoconiosis — dusts & diseases. Farmer's lung. Silicosis.</b></summary>
+
+![Q45 — prevention & pneumoconiosis](images/Q45_pneumoconiosis_silicosis.svg)
 
 ### 🛡 Prevention of Occupational / Industrial Hazards
 
@@ -2506,6 +2596,8 @@ An industrial worker may be exposed to **five types of hazards:**
 <details>
 <summary><b>Q46. Sickness absenteeism. Health hazards of doctor/garment worker/industrial worker. Medical benefits of workers. Agriculture worker hazards.</b></summary>
 
+![Q46 — absenteeism & worker hazards](images/Q46_absenteeism_worker_hazards.svg)
+
 ### 🏥 Sickness Absenteeism
 > 🔴 An important health problem in industry and a useful **index to assess the state of health of workers** and their physical, mental and social well-being — defined as **absence from work due to sickness**.
 
@@ -2564,6 +2656,8 @@ An industrial worker may be exposed to **five types of hazards:**
 <details>
 <summary><b>Q47. Define & classify environment. Safe & wholesome water. Water-borne & water-related diseases.</b></summary>
 
+![Q47 — environment & safe water](images/Q47_environment_safe_water.svg)
+
 ### 🌍 Environment — Definition
 > 🔴 **Environment** implies all the **external factors — living and non-living, material and non-material — which surround man**.
 
@@ -2619,6 +2713,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 <details>
 <summary><b>Q48. Water purification — large scale & small scale. Chlorination.</b></summary>
 
+![Q48 — water purification & chlorination](images/Q48_water_purification_chlorination.svg)
+
 ### 🏭 Large-Scale Purification of Water (3 steps)
 **1) Storage:** Provides a reserve of water; **~90% of suspended impurities settle in 24 hours** → water becomes clear; aerobic bacteria oxidize organic matter (free ammonia ↓, nitrates ↑); a **tremendous drop of bacteria** occurs (natural purification).
 
@@ -2673,6 +2769,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q49. WHO criteria of drinking water. Bacteriological standards. Why coliform indicator. Health effects of air pollution & prevention.</b></summary>
+
+![Q49 — water standards & air pollution](images/Q49_water_standards_air_pollution.svg)
 
 ### 🥤 WHO Drinking-Water Quality Standards
 **A) Acceptability / physical aspects:**
@@ -2746,6 +2844,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 <details>
 <summary><b>Q50. Noise level chart. Effects of noise. Prevention of noise pollution.</b></summary>
 
+![Q50 — noise](images/Q50_noise.svg)
+
 ### 🔊 Noise — Definition & Properties
 > 🔴 **Noise** = *"wrong sound in the wrong place at the wrong time."*
 
@@ -2800,6 +2900,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q51. Ionizing radiation — sources, health effects. Acute radiation syndrome.</b></summary>
+
+![Q51 — ionizing radiation](images/Q51_ionizing_radiation.svg)
 
 ### ☢️ Ionizing Radiation
 > 🔴 Radiation which has the ability to **penetrate tissues and deposit energy within them**.
@@ -2879,6 +2981,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 <details>
 <summary><b>Q52. Greenhouse effect & greenhouse gases. Global warming — mechanism, health effects in Bangladesh.</b></summary>
 
+![Q52 — greenhouse & global warming](images/Q52_greenhouse_global_warming.svg)
+
 ### 🌡 Greenhouse Effect
 > 🔴 The earth behaves like a greenhouse: **short-wave solar radiation** passes through the atmosphere & is absorbed by the earth's surface, but the **re-radiated long-wave infrared rays** are **partially trapped** by certain atmospheric gases → progressive **warming of the earth and atmosphere**.
 
@@ -2933,6 +3037,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q53. Ventilation — definition, purpose, standards, classification. Effects of ill ventilation.</b></summary>
+
+![Q53 — ventilation](images/Q53_ventilation.svg)
 
 ### 🪟 Ventilation
 > 🔴 **Ventilation** is the **science of maintaining atmospheric conditions which are comfortable and healthful to the human body**.
@@ -2997,6 +3103,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q54. Communicable disease — definition. Incubation period. Tuberculosis & DOTS. Prevention of communicable diseases.</b></summary>
+
+![Q54 — communicable disease & DOTS](images/Q54_communicable_TB_DOTS.svg)
 
 ### 🦠 Communicable Disease — Definition
 > 🔴 An illness due to a **specific infectious agent or its toxic products**, capable of being **directly or indirectly transmitted from man to man, animal to animal, or from the environment** (air, dust, soil, water, food) **to man or animal**.
@@ -3068,6 +3176,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q55. Complications — Measles, Mumps, Enteric (typhoid) fever, Rubella.</b></summary>
+
+![Q55 — disease complications](images/Q55_complications.svg)
 
 ### 🦠 Complications of Measles
 **1) Effects of the measles virus itself:**
@@ -3143,6 +3253,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 <details>
 <summary><b>Q56. Transmission of Hepatitis (A, B, C, D, E). Rabies — clinical features & post-exposure prophylaxis.</b></summary>
 
+![Q56 — hepatitis transmission & rabies](images/Q56_hepatitis_rabies.svg)
+
 ### 🦠 Transmission of Viral Hepatitis
 | Type | Mode of transmission |
 |------|----------------------|
@@ -3196,6 +3308,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 <details>
 <summary><b>Q57. Types of rash in different fevers. Dengue, Chikungunya — prevention.</b></summary>
 
+![Q57 — rashes & dengue prevention](images/Q57_rash_dengue.svg)
+
 ### 📌 Types of Rash in Different Fevers
 | Disease | Rash type & distribution | Other features |
 |---------|--------------------------|----------------|
@@ -3238,6 +3352,8 @@ Excess fluoride → endemic **fluorosis** (dental & skeletal) · Pb salts → **
 
 <details>
 <summary><b>Q58. Planning — definition. Planning cycle. Types of planning. Management (POSDCORB).</b></summary>
+
+![Q58 — planning & POSDCORB](images/Q58_planning_POSDCORB.svg)
 
 ### 📋 Planning — Definition
 > 🔴 **Planning** is the process of **deciding how the future should be better than the present**, what changes are necessary, and **how the changes should be implemented**. It matches **limited resources** with **many problems**.

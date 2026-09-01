@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Four stages of epidemiological transition">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#0E7C7B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q4 · Epidemiological Transition 🔄</text>
+  <text x="29" y="56" font-size="13" fill="#bde1e0">Shift in disease pattern as a country develops (Omran, 1971)</text>
+
+  <rect x="28" y="86" width="744" height="72" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="46" y="110" font-size="14" font-weight="bold" fill="#922B21">🔴 Definition</text>
+  <text x="46" y="130" font-size="12.5" fill="#7b241c">Shift in the pattern of disease from predominantly <tspan font-weight="bold">communicable / infectious</tspan> (famine, pestilence, poor sanitation)</text>
+  <text x="46" y="148" font-size="12.5" fill="#7b241c">to predominantly <tspan font-weight="bold">non-communicable, chronic &amp; degenerative</tspan> diseases (CVD, cancer, diabetes).</text>
+
+  <text x="28" y="182" font-size="15" font-weight="bold" fill="#0E7C7B">📊 The 4 Stages of Epidemiological Transition</text>
+
+  <g font-size="12.5">
+    <rect x="400" y="194" width="372" height="66" rx="10" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="416" y="214" font-size="13.5" font-weight="bold" fill="#1E8449">1 · Age of Pestilence &amp; Famine</text>
+    <text x="416" y="234" fill="#145A32">Infectious &amp; parasitic diseases,</text>
+    <text x="416" y="250" fill="#145A32">malnutrition, famine</text>
+
+    <rect x="28" y="268" width="372" height="66" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="44" y="288" font-size="13.5" font-weight="bold" fill="#1F618D">2 · Age of Receding Pandemics</text>
+    <text x="44" y="308" fill="#21618C">Infectious diseases declining;</text>
+    <text x="44" y="324" fill="#21618C">CVD emerging; sanitation improving</text>
+
+    <rect x="400" y="268" width="372" height="66" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="416" y="288" font-size="13.5" font-weight="bold" fill="#9C640C">3 · Age of Degenerative &amp; Man-made Diseases</text>
+    <text x="416" y="308" fill="#7E5109">CVD, cancer, diabetes, accidents —</text>
+    <text x="416" y="324" fill="#7E5109">due to lifestyle &amp; industrialization</text>
+
+    <rect x="28" y="342" width="744" height="66" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="44" y="362" font-size="13.5" font-weight="bold" fill="#6C3483">4 · Age of Delayed Degenerative Diseases</text>
+    <text x="44" y="382" fill="#6C3483">Degenerative diseases still dominant, but <tspan font-weight="bold">mortality is delayed</tspan> to older ages — compression of morbidity</text>
+    <text x="44" y="398" fill="#6C3483">📉 longer survival ↑ life expectancy</text>
+  </g>
+
+  <rect x="28" y="426" width="744" height="56" rx="10" fill="#FEF9E7" stroke="#F39C12" stroke-width="1.5"/>
+  <text x="46" y="449" font-size="13.5" font-weight="bold" fill="#9C640C">🇧🇩 Where is Bangladesh?</text>
+  <text x="46" y="469" font-size="12.5" fill="#7E5109">Stage 3 — a "double burden": persisting communicable diseases + rising NCDs</text>
+
+  <rect x="28" y="498" width="744" height="46" rx="10" fill="#0E7C7B" fill-opacity="0.08"/>
+  <text x="46" y="525" font-size="13" font-weight="bold" fill="#09514F">🎯 Transition = infectious → chronic-degenerative pattern · 4 stages: pestilence → receding pandemics → degenerative → delayed degenerative</text>
+</svg>

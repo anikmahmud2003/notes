@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Population growth rate, doubling time and census">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#34495E"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q24 · Growth Rate · Doubling Time · Census</text>
+  <text x="29" y="56" font-size="13" fill="#b7c8dc">Formulas + census definition, types &amp; methods</text>
+
+  <rect x="28" y="86" width="364" height="92" rx="10" fill="#EBF5FB" stroke="#2980B9" stroke-width="2"/>
+  <text x="44" y="110" font-size="13.5" font-weight="bold" fill="#1F618D">📈 Population growth rate</text>
+  <text x="44" y="128" font-size="14" font-weight="bold" fill="#154360">Growth % = (CBR − CDR) ÷ 10</text>
+  <text x="44" y="148" font-size="12" fill="#21618C">BD 2001: (18.9 − 4.8)/10 = 1.41%</text>
+  <text x="44" y="166" font-size="12" fill="#21618C">CBR=35, CDR=20 → (35−20)/10 = 1.5%</text>
+
+  <rect x="408" y="86" width="364" height="92" rx="10" fill="#F4ECF7" stroke="#8E44AD" stroke-width="2"/>
+  <text x="424" y="110" font-size="13.5" font-weight="bold" fill="#6C3483">⏱ Doubling time</text>
+  <text x="424" y="128" font-size="14" font-weight="bold" fill="#4A235A">Doubling time = 70 ÷ growth %</text>
+  <text x="424" y="148" font-size="12" fill="#6C3483">2.0% → 35 yr · 2.5% → 28 yr</text>
+  <text x="424" y="166" font-size="12" fill="#6C3483">BD 1.41% → ~50 yr (2001)</text>
+
+  <text x="28" y="200" font-size="12" fill="#922B21">⚠️ CBR is a <tspan font-weight="bold">weaker</tspan> fertility statistic — denominator includes men &amp; women outside reproductive age (not at risk of birth)</text>
+
+  <text x="28" y="232" font-size="15" font-weight="bold" fill="#34495E">🗂 Census — Definition &amp; Classification</text>
+  <rect x="28" y="240" width="744" height="58" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="262" font-size="13" font-weight="bold" fill="#922B21">🔴 Census (UN) = the process of collecting, compiling and publishing</text>
+  <text x="46" y="282" font-size="12.5" fill="#7b241c">demographic, economic and social data pertaining, at a specified time, to ALL persons in a country/territory</text>
+
+  <g font-size="12">
+    <rect x="28" y="310" width="364" height="76" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="44" y="332" font-weight="bold" fill="#1F618D">Type — De-facto 🏠</text>
+    <text x="44" y="352" fill="#21618C">Counted where a person happens to</text>
+    <text x="44" y="370" fill="#21618C">be on the census day/night</text>
+
+    <rect x="408" y="310" width="364" height="76" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="424" y="332" font-weight="bold" fill="#6C3483">Type — De-jure 📍</text>
+    <text x="424" y="352" fill="#6C3483">Enumerated at his/her usual place</text>
+    <text x="424" y="370" fill="#6C3483">of residence</text>
+  </g>
+
+  <g font-size="12">
+    <rect x="28" y="398" width="240" height="76" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="44" y="420" font-weight="bold" fill="#9C640C">1 · By enumeration</text>
+    <text x="44" y="440" fill="#7E5109">Enumerator visits every house —</text>
+    <text x="44" y="458" fill="#7E5109">USA, Bangladesh, Pakistan</text>
+
+    <rect x="280" y="398" width="240" height="76" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="296" y="420" font-weight="bold" fill="#9C640C">2 · By questionnaire</text>
+    <text x="296" y="440" fill="#7E5109">Form handed to head of household</text>
+    <text x="296" y="458" fill="#7E5109">who fills the information</text>
+
+    <rect x="532" y="398" width="240" height="76" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="548" y="420" font-weight="bold" fill="#9C640C">3 · Combination of both</text>
+    <text x="548" y="440" fill="#7E5109">Enumeration + questionnaire</text>
+    <text x="548" y="458" fill="#7E5109">together</text>
+  </g>
+
+  <rect x="28" y="490" width="744" height="42" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="508" font-size="12" fill="#5D6D7E">📚 Viva facts: 1st census Sweden 1749 · Subcontinent 1881 · Bangladesh 1974/1981/1991/2001/2011 (de-facto)</text>
+  <text x="46" y="524" font-size="12" fill="#5D6D7E">5th census (2011): March 15–19 · 4th census (2001): Jan 23–27, midnight Jan 22</text>
+
+  <rect x="28" y="530" width="744" height="18" rx="6" fill="#34495E" fill-opacity="0.08"/>
+  <text x="46" y="543" font-size="11.5" font-weight="bold" fill="#2C3E50">🎯 Growth % = (CBR−CDR)/10 · Doubling = 70/rate · De-facto = where you are · De-jure = usual residence</text>
+</svg>

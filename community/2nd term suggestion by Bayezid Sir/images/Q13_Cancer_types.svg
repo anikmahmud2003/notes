@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Cancer definition and three major types">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#1A5276"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q13 · Cancer (Neoplasm) 🧬</text>
+  <text x="29" y="56" font-size="13" fill="#aed6f1">Definition + 3 major categories with examples</text>
+
+  <rect x="28" y="86" width="744" height="82" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="110" font-size="14" font-weight="bold" fill="#922B21">🔴 Cancer = a group of diseases characterised by —</text>
+  <text x="46" y="132" font-size="12.5" fill="#7b241c">① Abnormal growth of cells · ② Invasion of adjacent tissues &amp; distant organs (metastasis)</text>
+  <text x="46" y="152" font-size="12.5" fill="#7b241c">③ Eventual death of the patient if the tumour has progressed beyond the resectable stage</text>
+
+  <text x="28" y="190" font-size="15" font-weight="bold" fill="#1A5276">📖 3 Major Categories of Cancer (by tissue of origin)</text>
+  <g font-size="12.5">
+    <rect x="28" y="200" width="240" height="156" rx="10" fill="#EBF5FB" stroke="#2980B9" stroke-width="2"/>
+    <text x="148" y="224" font-size="14" font-weight="bold" fill="#1F618D" text-anchor="middle">1 · CARCINOMA</text>
+    <text x="148" y="246" fill="#21618C" text-anchor="middle">Arises from EPITHELIAL cells</text>
+    <text x="148" y="266" fill="#21618C" text-anchor="middle">(lining of organs + skin)</text>
+    <line x1="80" y1="280" x2="216" y2="280" stroke="#2980B9" stroke-width="1.5"/>
+    <text x="148" y="302" fill="#1F618D" font-weight="bold" text-anchor="middle">Examples:</text>
+    <text x="148" y="322" fill="#21618C" text-anchor="middle">Lung · Breast · Colon</text>
+    <text x="148" y="340" fill="#21618C" text-anchor="middle">Cervix · Skin</text>
+
+    <rect x="280" y="200" width="240" height="156" rx="10" fill="#F4ECF7" stroke="#8E44AD" stroke-width="2"/>
+    <text x="400" y="224" font-size="14" font-weight="bold" fill="#6C3483" text-anchor="middle">2 · SARCOMA</text>
+    <text x="400" y="246" fill="#6C3483" text-anchor="middle">Arises from MESODERMAL</text>
+    <text x="400" y="266" fill="#6C3483" text-anchor="middle">connective tissue cells</text>
+    <line x1="332" y1="280" x2="468" y2="280" stroke="#8E44AD" stroke-width="1.5"/>
+    <text x="400" y="302" fill="#6C3483" font-weight="bold" text-anchor="middle">Examples:</text>
+    <text x="400" y="322" fill="#6C3483" text-anchor="middle">Osteosarcoma (bone)</text>
+    <text x="400" y="340" fill="#6C3483" text-anchor="middle">Fat · fibrous · cartilage</text>
+
+    <rect x="532" y="200" width="240" height="156" rx="10" fill="#FEF9E7" stroke="#F39C12" stroke-width="2"/>
+    <text x="652" y="224" font-size="14" font-weight="bold" fill="#9C640C" text-anchor="middle">3 · LYMPHOMA /</text>
+    <text x="652" y="242" font-size="14" font-weight="bold" fill="#9C640C" text-anchor="middle">   MYELOMA / LEUK</text>
+    <text x="652" y="262" fill="#7E5109" text-anchor="middle">From bone marrow &amp;</text>
+    <text x="652" y="280" fill="#7E5109" text-anchor="middle">immune-system cells</text>
+    <line x1="584" y1="294" x2="720" y2="294" stroke="#F39C12" stroke-width="1.5"/>
+    <text x="652" y="316" fill="#9C640C" font-weight="bold" text-anchor="middle">Examples:</text>
+    <text x="652" y="336" fill="#7E5109" text-anchor="middle">Hodgkin / Non-Hodgkin</text>
+    <text x="652" y="352" fill="#7E5109" text-anchor="middle">Myeloma · Leukaemia</text>
+  </g>
+
+  <rect x="28" y="374" width="744" height="56" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="396" font-size="13" fill="#5D6D7E">📌 Cancer can occur at <tspan font-weight="bold">any site or tissue</tspan> of the body and may involve <tspan font-weight="bold">any type of cells</tspan>.</text>
+  <text x="46" y="416" font-size="12.5" fill="#5D6D7E">≈ 85% of malignant tumours are carcinoma; sarcomas are relatively rare (≈5%).</text>
+
+  <rect x="28" y="446" width="744" height="56" rx="10" fill="#1A5276" fill-opacity="0.08"/>
+  <text x="46" y="469" font-size="13.5" font-weight="bold" fill="#154360">🎯 Type = Carcinoma (epithelial) + Sarcoma (connective tissue) + Lymphoma/Myeloma/Leukaemia (immune)</text>
+  <text x="46" y="489" font-size="12" fill="#1A5276">Epithelial → Carcinoma · Mesodermal → Sarcoma · Marrow/immune → Leukaemia/lymphoma</text>
+</svg>

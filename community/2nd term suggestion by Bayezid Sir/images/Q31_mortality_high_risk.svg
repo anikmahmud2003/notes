@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Causes of infant and under-five mortality and high-risk baby criteria">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6D4C41"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q31 · Mortality Causes &amp; High-Risk Baby 👶</text>
+  <text x="29" y="56" font-size="13" fill="#f3e5dc">Neonatal · post-neonatal · 1–4 yr mortality · why IMR high in BD · at-risk baby</text>
+
+  <text x="28" y="84" font-size="14" font-weight="bold" fill="#6D4C41">📊 Causes of mortality by age group</text>
+  <g font-size="11.5">
+    <rect x="28" y="92" width="240" height="128" rx="10" fill="#FBE9E7" stroke="#BF360C"/>
+    <text x="148" y="112" fill="#A93226" font-weight="bold" text-anchor="middle">👶 Neonatal (0–28 days)</text>
+    <text x="44" y="130" fill="#7b241c">1 LBW / prematurity ★</text>
+    <text x="44" y="146" fill="#7b241c">2 Birth injury</text>
+    <text x="44" y="162" fill="#7b241c">3 Sepsis</text>
+    <text x="44" y="178" fill="#7b241c">4 Congenital anomalies</text>
+    <text x="44" y="194" fill="#7b241c">5 Haemolytic disease</text>
+    <text x="44" y="210" fill="#7b241c">6 Neonatal tetanus · placenta/cord lesions</text>
+
+    <rect x="280" y="92" width="240" height="128" rx="10" fill="#FFF3E0" stroke="#EF6C00"/>
+    <text x="400" y="112" fill="#E65100" font-weight="bold" text-anchor="middle">🧒 Post-neonatal (1–12 mo)</text>
+    <text x="296" y="130" fill="#a04000">1 Diarrhoeal diseases</text>
+    <text x="296" y="146" fill="#a04000">2 ARI</text>
+    <text x="296" y="162" fill="#a04000">3 Other communicable diseases</text>
+    <text x="296" y="178" fill="#a04000">4 Malnutrition</text>
+    <text x="296" y="194" fill="#a04000">5 Congenital anomalies</text>
+    <text x="296" y="210" fill="#a04000">6 Accidents</text>
+
+    <rect x="532" y="92" width="240" height="128" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="652" y="112" fill="#6C3483" font-weight="bold" text-anchor="middle">👦 1–4 yr (developing)</text>
+    <text x="548" y="130" fill="#6C3483">1 Diarrhoea</text>
+    <text x="548" y="146" fill="#6C3483">2 Respiratory infections</text>
+    <text x="548" y="162" fill="#6C3483">3 Malnutrition</text>
+    <text x="548" y="178" fill="#6C3483">4 Measles / whooping cough</text>
+    <text x="548" y="194" fill="#6C3483">5 Febrile diseases</text>
+    <text x="548" y="210" fill="#6C3483">6 Accidents (developed: accidents ≥) ⚠️</text>
+  </g>
+
+  <text x="28" y="238" font-size="14" font-weight="bold" fill="#6D4C41">🇧🇩 High IMR in Bangladesh (causes)</text>
+  <g font-size="11.5">
+    <rect x="28" y="246" width="150" height="42" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="103" y="263" fill="#922B21" font-weight="bold" text-anchor="middle">Diarrhoea 30%</text><text x="103" y="278" fill="#7b241c" text-anchor="middle">(biggest)</text>
+    <rect x="186" y="246" width="150" height="42" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="261" y="263" fill="#922B21" font-weight="bold" text-anchor="middle">ARI 18% 💨</text><text x="261" y="278" fill="#7b241c" text-anchor="middle"></text>
+    <rect x="344" y="246" width="150" height="42" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="419" y="263" fill="#9C640C" font-weight="bold" text-anchor="middle">Prematurity/LBW 11%</text><text x="419" y="278" fill="#7E5109" text-anchor="middle"></text>
+    <rect x="502" y="246" width="140" height="42" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="572" y="263" fill="#9C640C" font-weight="bold" text-anchor="middle">Neonatal tetanus 8%</text><text x="572" y="278" fill="#7E5109" text-anchor="middle"></text>
+    <rect x="650" y="246" width="122" height="42" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="711" y="263" fill="#9C640C" font-weight="bold" text-anchor="middle">Measles 7%</text><text x="711" y="278" fill="#7E5109" text-anchor="middle"></text>
+  </g>
+  <text x="28" y="302" font-size="11" fill="#7f8c8d">IMR 2015: Bangladesh 31 / India 38 / Pakistan 66 per 1000 live births · other causes 24% = anomalies + malnutrition</text>
+
+  <text x="28" y="324" font-size="14" font-weight="bold" fill="#6D4C41">🩺 Criteria of high-risk baby (at-risk)</text>
+  <g font-size="11.5">
+    <rect x="28" y="332" width="180" height="38" rx="8" fill="#FBE9E7" stroke="#BF360C"/><text x="118" y="355" fill="#A93226" text-anchor="middle">1 Birth weight &lt; 2.5 kg ⚖️</text>
+    <rect x="216" y="332" width="180" height="38" rx="8" fill="#FBE9E7" stroke="#BF360C"/><text x="306" y="355" fill="#A93226" text-anchor="middle">2 Twins 👯</text>
+    <rect x="404" y="332" width="180" height="38" rx="8" fill="#FBE9E7" stroke="#BF360C"/><text x="494" y="355" fill="#A93226" text-anchor="middle">3 Birth order 5+ 🔢</text>
+    <rect x="592" y="332" width="180" height="38" rx="8" fill="#FBE9E7" stroke="#BF360C"/><text x="682" y="355" fill="#A93226" text-anchor="middle">4 Artificial feeding 🍼</text>
+    <rect x="28" y="378" width="180" height="38" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="118" y="401" fill="#922B21" text-anchor="middle">5 Weight &lt; 70% expected 📉</text>
+    <rect x="216" y="378" width="180" height="38" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="306" y="401" fill="#922B21" text-anchor="middle">6 No weight gain 3 months</text>
+    <rect x="404" y="378" width="180" height="38" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="494" y="401" fill="#922B21" text-anchor="middle">7 PEM · diarrhoea 🩹</text>
+    <rect x="592" y="378" width="180" height="38" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="682" y="401" fill="#922B21" text-anchor="middle">8 Working mother / one parent</text>
+  </g>
+
+  <rect x="28" y="428" width="744" height="76" rx="10" fill="#EAFAF1" stroke="#27AE60"/>
+  <text x="46" y="448" font-size="13" fill="#145A32" font-weight="bold">🛡 How to reduce IMR (prevention)</text>
+  <text x="46" y="466" font-size="11.5" fill="#1E8449">1 Prenatal nutrition · 2 Prevention of infection → immunization (neonatal tetanus) · 3 Breast feeding ⭐ <tspan font-weight="bold">most effective</tspan> · 4 Growth monitoring · 5 Family planning</text>
+  <text x="46" y="484" font-size="11.5" fill="#1E8449">6 Sanitation · 7 PHC: better prenatal care, special care baby units, referral · 8 Socio-economic development (literacy, safe water, housing) · 9 Education of mothers</text>
+  <text x="46" y="499" font-size="10.5" fill="#7B8B6F" font-style="italic">— breastfeeding = single most effective measure for lowering IMR</text>
+
+  <rect x="28" y="516" width="744" height="32" rx="8" fill="#6D4C41" fill-opacity="0.08"/>
+  <text x="46" y="537" font-size="12.5" font-weight="bold" fill="#3E2723">🎯 Neonatal = LBW/sepsis/tetanus · post-neonatal = diarrhoea+ARI · 1–4 yr (dev'd) = accidents · high-risk baby = &lt;2.5 kg + twins + BF=best prevention!</text>
+</svg>

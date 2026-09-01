@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Planning definition, planning cycle, types of planning and management POSDCORB">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#455A64"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q58 · Planning &amp; Management 📋</text>
+  <text x="29" y="56" font-size="13" fill="#d9e2e6">Definition · cycle · types · POSDCORB</text>
+
+  <rect x="28" y="82" width="744" height="58" rx="10" fill="#ECEFF1" stroke="#546E7A" stroke-width="2"/>
+  <text x="46" y="100" font-size="11.5" fill="#263238">🔴 <tspan font-weight="bold">Planning</tspan> = the process of deciding how the <tspan font-weight="bold">future should be better than the present</tspan>,</text>
+  <text x="46" y="116" font-size="11.5" fill="#37474F">what changes are necessary, and how to implement them · matches <tspan font-weight="bold">limited resources</tspan> with <tspan font-weight="bold">many problems</tspan></text>
+  <text x="46" y="132" font-size="10.5" fill="#78909C">Purpose: eliminate wasteful/duplicate expenditure · develop best course of action</text>
+
+  <text x="28" y="158" font-size="13.5" font-weight="bold" fill="#455A64">🔄 Planning cycle (3 steps)</text>
+  <g font-size="11">
+    <rect x="28" y="166" width="240" height="66" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="148" y="187" fill="#922B21" font-weight="bold" text-anchor="middle">1 · Plan formulation</text>
+    <text x="44" y="205" fill="#7b241c">objectives · needs</text>
+    <text x="44" y="221" fill="#7b241c">assessment · priorities</text>
+    <rect x="280" y="166" width="240" height="66" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="400" y="187" fill="#9C640C" font-weight="bold" text-anchor="middle">2 · Execution</text>
+    <text x="296" y="205" fill="#7E5109">implementation with</text>
+    <text x="296" y="221" fill="#7E5109">available resources</text>
+    <rect x="532" y="166" width="240" height="66" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="652" y="187" fill="#1E8449" font-weight="bold" text-anchor="middle">3 · Evaluation</text>
+    <text x="548" y="205" fill="#145A32">assess outcomes</text>
+    <text x="548" y="221" fill="#145A32">monitor · adjust</text>
+  </g>
+
+  <text x="28" y="252" font-size="13.5" font-weight="bold" fill="#455A64">🗂 Types of planning</text>
+  <g font-size="11">
+    <rect x="28" y="260" width="240" height="70" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="148" y="282" fill="#6C3483" font-weight="bold" text-anchor="middle">Long-term</text>
+    <text x="148" y="298" fill="#6C3483" text-anchor="middle">Perspective planning</text>
+    <text x="148" y="314" fill="#4A148C" font-weight="bold" text-anchor="middle">15–20 years</text>
+    <rect x="280" y="260" width="240" height="70" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="400" y="282" fill="#1F618D" font-weight="bold" text-anchor="middle">Medium-term</text>
+    <text x="400" y="298" fill="#1F618D" text-anchor="middle">Strategic planning</text>
+    <text x="400" y="314" fill="#21618C" font-weight="bold" text-anchor="middle">4–6 years</text>
+    <rect x="532" y="260" width="240" height="70" rx="9" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="652" y="282" fill="#9C640C" font-weight="bold" text-anchor="middle">Short-term</text>
+    <text x="652" y="298" fill="#9C640C" text-anchor="middle">Tactical planning</text>
+    <text x="652" y="314" fill="#7E5109" font-weight="bold" text-anchor="middle">1–2 years (= budget)</text>
+  </g>
+
+  <text x="28" y="352" font-size="13.5" font-weight="bold" fill="#455A64">🧑‍💼 Management — POSDCORB</text>
+  <rect x="28" y="360" width="744" height="32" rx="8" fill="#ECEFF1" stroke="#546E7A"/>
+  <text x="46" y="381" font-size="12" fill="#263238">🔴 Planning · Organizing · Staffing · Directing · Coordinating · Reporting · Budgeting</text>
+
+  <g font-size="10.5">
+    <rect x="28" y="400" width="180" height="70" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="118" y="420" fill="#922B21" font-weight="bold" text-anchor="middle">P · Planning</text><text x="44" y="438" fill="#7b241c">setting objectives</text><text x="44" y="454" fill="#7b241c">&amp; strategies</text>
+    <rect x="216" y="400" width="180" height="70" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="306" y="420" fill="#9C640C" font-weight="bold" text-anchor="middle">O · Organizing</text><text x="232" y="438" fill="#7E5109">arranging resources</text><text x="232" y="454" fill="#7E5109">&amp; tasks</text>
+    <rect x="404" y="400" width="180" height="70" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="494" y="420" fill="#6C3483" font-weight="bold" text-anchor="middle">S · Staffing</text><text x="420" y="438" fill="#6C3483">recruiting &amp; developing</text><text x="420" y="454" fill="#6C3483">personnel</text>
+    <rect x="592" y="400" width="180" height="70" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="682" y="420" fill="#1F618D" font-weight="bold" text-anchor="middle">D · Directing</text><text x="608" y="438" fill="#21618C">leading &amp;</text><text x="608" y="454" fill="#21618C">motivating</text>
+    <rect x="28" y="478" width="360" height="52" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="208" y="496" fill="#9C640C" font-weight="bold" text-anchor="middle">Co · Coordinating · Re · Reporting</text><text x="44" y="514" fill="#7E5109">synchronize activities · inform stakeholders</text>
+    <rect x="412" y="478" width="360" height="52" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="592" y="496" fill="#145A32" font-weight="bold" text-anchor="middle">B · Budgeting 💰</text><text x="428" y="514" fill="#1E8449">financial planning &amp; control</text>
+  </g>
+
+  <rect x="28" y="542" width="744" height="18" rx="6" fill="#455A64" fill-opacity="0.1"/>
+  <text x="46" y="555" font-size="10.5" font-weight="bold" fill="#263238">🎯 Mgmt cycle (DG Health): Planning → Implementation → Monitoring → Review · Long=15–20yr · Medium=4–6yr · Short=1–2yr</text>
+</svg>

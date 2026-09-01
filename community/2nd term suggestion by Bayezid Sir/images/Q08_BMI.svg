@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Body Mass Index formula and WHO classification">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D35400"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q8 · Body Mass Index (BMI) ⚖️</text>
+  <text x="29" y="56" font-size="13" fill="#fbd5bd">Quetelet's index · WHO + Asian classification</text>
+
+  <rect x="28" y="86" width="744" height="78" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="110" font-size="14" font-weight="bold" fill="#922B21">🔴 BMI = Weight (kg) ÷ Height² (m²)</text>
+  <text x="46" y="132" font-size="12.5" fill="#7b241c">Simple index to classify overweight &amp; obesity in adults.</text>
+  <text x="46" y="150" font-size="12.5" fill="#7b241c">Example: 70 kg, 1.75 m → 70 ÷ 3.06 = <tspan font-weight="bold">22.9 kg/m²</tspan></text>
+
+  <text x="28" y="184" font-size="14" font-weight="bold" fill="#D35400">📊 WHO BMI Classification (International)</text>
+  <rect x="28" y="194" width="744" height="30" rx="6" fill="#34495E"/>
+  <text x="46" y="214" font-size="12" font-weight="bold" fill="#ffffff">Category</text>
+  <text x="400" y="214" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">BMI (kg/m²)</text>
+
+  <g font-size="12.5">
+    <rect x="28" y="224" width="744" height="30" fill="#F4F6F7"/><text x="46" y="244" fill="#5D6D7E">Underweight 🟦</text><text x="400" y="244" fill="#5D6D7E" text-anchor="middle">&lt; 18.5</text>
+    <rect x="28" y="254" width="744" height="30" fill="#EAFAF1"/><text x="46" y="274" fill="#1E8449" font-weight="bold">Normal range ✅</text><text x="400" y="274" fill="#1E8449" text-anchor="middle">18.5 – 24.9</text>
+    <rect x="28" y="284" width="744" height="30" fill="#FEF9E7"/><text x="46" y="304" fill="#9C640C">Overweight (pre-obese) ⚠️</text><text x="400" y="304" fill="#9C640C" text-anchor="middle">25.0 – 29.9</text>
+    <rect x="28" y="314" width="744" height="30" fill="#FDEBD0"/><text x="46" y="334" fill="#AF601A">Obese Class I 🟠</text><text x="400" y="334" fill="#AF601A" text-anchor="middle">30.0 – 34.9</text>
+    <rect x="28" y="344" width="744" height="30" fill="#FBF3EB"/><text x="46" y="364" fill="#B34A00">Obese Class II 🔶</text><text x="400" y="364" fill="#B34A00" text-anchor="middle">35.0 – 39.9</text>
+    <rect x="28" y="374" width="744" height="30" fill="#FDECEC"/><text x="46" y="394" fill="#922B21" font-weight="bold">Obese Class III · Morbid 🔴</text><text x="400" y="394" fill="#922B21" text-anchor="middle">≥ 40.0</text>
+  </g>
+
+  <text x="28" y="426" font-size="14" font-weight="bold" fill="#D35400">🌏 Asian / Bangladeshi cut-offs (WHO Expert Consultation)</text>
+  <g font-size="12.5">
+    <rect x="28" y="434" width="240" height="44" rx="9" fill="#EAFAF1" stroke="#27AE60"/><text x="148" y="454" fill="#1E8449" font-weight="bold" text-anchor="middle">Normal</text><text x="148" y="470" fill="#1E8449" text-anchor="middle">18.5 – 22.9</text>
+    <rect x="280" y="434" width="240" height="44" rx="9" fill="#FEF9E7" stroke="#F39C12"/><text x="400" y="454" fill="#9C640C" font-weight="bold" text-anchor="middle">Overweight</text><text x="400" y="470" fill="#9C640C" text-anchor="middle">23.0 – 27.4</text>
+    <rect x="532" y="434" width="240" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="652" y="454" fill="#922B21" font-weight="bold" text-anchor="middle">Obese</text><text x="652" y="470" fill="#922B21" text-anchor="middle">≥ 27.5</text>
+  </g>
+
+  <rect x="28" y="496" width="744" height="50" rx="10" fill="#D35400" fill-opacity="0.08"/>
+  <text x="46" y="519" font-size="13" font-weight="bold" fill="#A04000">🎯 Normal 18.5–24.9 · Overweight 25–29.9 · Obese ≥30 (morbid ≥40)</text>
+  <text x="46" y="538" font-size="12" fill="#D35400">Asians → lower cut-offs: ≥23 overweight, ≥27.5 obese</text>
+</svg>

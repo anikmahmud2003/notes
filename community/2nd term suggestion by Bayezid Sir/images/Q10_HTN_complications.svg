@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Complications and prevention of hypertension">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D35400"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q10 · Complications &amp; Prevention of HTN</text>
+  <text x="29" y="56" font-size="13" fill="#fbd5bd">Untreated HTN damages vital organs — "Silent Killer" 💀</text>
+
+  <rect x="300" y="86" width="200" height="40" rx="20" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="400" y="112" font-size="14" font-weight="bold" fill="#922B21" text-anchor="middle">🩸 UNTREATED HTN</text>
+
+  <g font-size="12">
+    <rect x="28" y="146" width="236" height="118" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="146" y="168" font-size="13" font-weight="bold" fill="#922B21" text-anchor="middle">🫀 Heart</text>
+    <text x="44" y="188" fill="#7b241c">• LV hypertrophy</text>
+    <text x="44" y="206" fill="#7b241c">• CHD · CCF</text>
+    <text x="44" y="224" fill="#7b241c">• Arrhythmias · MI</text>
+    <text x="44" y="242" fill="#7b241c">• Sudden death</text>
+
+    <rect x="282" y="146" width="236" height="118" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="400" y="168" font-size="13" font-weight="bold" fill="#6C3483" text-anchor="middle">🧠 Brain</text>
+    <text x="298" y="188" fill="#6C3483">• Intracranial haemorrhage</text>
+    <text x="298" y="206" fill="#6C3483">• Cerebral infarction (stroke)</text>
+    <text x="298" y="224" fill="#6C3483">• Hypertensive encephalopathy</text>
+
+    <rect x="536" y="146" width="236" height="118" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="654" y="168" font-size="13" font-weight="bold" fill="#1F618D" text-anchor="middle">🫘 Kidneys</text>
+    <text x="552" y="188" fill="#21618C">• Renal failure</text>
+    <text x="552" y="206" fill="#21618C">• Nephrosclerosis</text>
+    <text x="552" y="224" fill="#21618C">• Nephropathy</text>
+  </g>
+
+  <rect x="28" y="280" width="744" height="44" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="304" font-size="12.5" fill="#5D6D7E">👁️ <tspan font-weight="bold">Eyes:</tspan> retinopathy (grades) · 🩻 <tspan font-weight="bold">Vessels:</tspan> peripheral vascular disease, aortic dissection · 🚨 <tspan font-weight="bold">Emergencies:</tspan> malignant HTN, pulmonary oedema, eclampsia</text>
+
+  <text x="28" y="346" font-size="14" font-weight="bold" fill="#D35400">🛡 Prevention &amp; Control of HTN</text>
+  <g font-size="12">
+    <rect x="28" y="354" width="364" height="96" rx="10" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="44" y="374" font-size="13" font-weight="bold" fill="#1E8449">🟢 Primary prevention</text>
+    <text x="44" y="394" fill="#145A32">• Salt &lt; 5 g/day · moderate fat</text>
+    <text x="44" y="412" fill="#145A32">• Weight reduction · exercise 🚴</text>
+    <text x="44" y="430" fill="#145A32">• No alcohol · health education 📢</text>
+    <text x="44" y="448" fill="#145A32">• High-risk: screen &amp; counsel</text>
+
+    <rect x="404" y="354" width="368" height="96" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="420" y="374" font-size="13" font-weight="bold" fill="#1F618D">🔵 Secondary prevention</text>
+    <text x="420" y="394" fill="#21618C">• Early case detection 🩺</text>
+    <text x="420" y="412" fill="#21618C">• Treatment &amp; BP control 💊</text>
+    <text x="420" y="430" fill="#21618C">• Patient compliance ✅</text>
+  </g>
+
+  <rect x="28" y="466" width="744" height="46" rx="10" fill="#FDEBD0" stroke="#E67E22"/>
+  <text x="46" y="486" font-size="12.5" font-weight="bold" fill="#AF601A">🥗 Diet of hypertensive patient:</text>
+  <text x="46" y="503" font-size="12" fill="#935116">good nutrition + weight loss · low-salt · exercise · more fruit &amp; veg · reduce alcohol</text>
+
+  <rect x="28" y="528" width="744" height="22" rx="6" fill="#FDECEC"/>
+  <text x="46" y="543" font-size="11.5" font-weight="bold" fill="#922B21">🎯 HTN damages Heart + Brain + Kidneys + Eyes + Vessels · Prevent: salt&lt;5g/day, exercise, weight, early detection</text>
+</svg>

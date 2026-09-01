@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Hypertension iceberg disease and rule of halves">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D35400"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q9 · HTN — Iceberg Disease 🧊 &amp; Rule of Halves</text>
+  <text x="29" y="56" font-size="13" fill="#fbd5bd">Only the tip is seen — the huge hidden mass is undiagnosed/untreated</text>
+
+  <text x="40" y="96" font-size="14" font-weight="bold" fill="#D35400">🧊 The Iceberg</text>
+  <line x1="40" y1="252" x2="330" y2="252" stroke="#2980B9" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="185" y="270" font-size="10.5" fill="#1F618D" text-anchor="middle">water level</text>
+
+  <polygon points="210,104 302,244 118,244" fill="#D6EAF8" stroke="#2E86C1" stroke-width="2"/>
+  <text x="210" y="170" font-size="11.5" text-anchor="middle" fill="#1F618D" font-weight="bold">VISIBLE TIP</text>
+  <text x="210" y="186" font-size="10.5" text-anchor="middle" fill="#21618C">diagnosed &amp; treated</text>
+  <text x="210" y="200" font-size="10.5" text-anchor="middle" fill="#21618C">~ 14% adequately</text>
+
+  <polygon points="100,265 320,265 290,420 130,420" fill="#5DADE2" stroke="#2874A6" stroke-width="2"/>
+  <polygon points="120,282 150,348 96,300" fill="#85C1E9" stroke="#2874A6"/>
+  <polygon points="270,290 300,352 258,310" fill="#85C1E9" stroke="#2874A6"/>
+  <text x="210" y="330" font-size="11.5" text-anchor="middle" fill="#ffffff" font-weight="bold">HUGE HIDDEN MASS</text>
+  <text x="210" y="346" font-size="10.5" text-anchor="middle" fill="#EBF5FB">undiagnosed · untreated</text>
+  <text x="210" y="360" font-size="10.5" text-anchor="middle" fill="#EBF5FB">inadequately treated</text>
+  <text x="210" y="388" font-size="10.5" text-anchor="middle" fill="#EBF5FB">the community reservoir</text>
+
+  <text x="382" y="96" font-size="14" font-weight="bold" fill="#D35400">➗ The Rule of Halves</text>
+  <g>
+    <rect x="395" y="108" width="360" height="44" rx="8" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="575" y="135" font-size="12.5" font-weight="bold" fill="#1F618D" text-anchor="middle">100% hypertensive population 👥</text>
+
+    <line x1="575" y1="152" x2="575" y2="168" stroke="#95A5A6" stroke-width="3" marker-end="url(#arr)"/>
+    <rect x="485" y="172" width="180" height="44" rx="8" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="575" y="199" font-size="12.5" font-weight="bold" fill="#9C640C" text-anchor="middle">50% are AWARE</text>
+
+    <line x1="575" y1="216" x2="575" y2="232" stroke="#95A5A6" stroke-width="3" marker-end="url(#arr)"/>
+    <rect x="530" y="236" width="90" height="44" rx="8" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="575" y="263" font-size="12.5" font-weight="bold" fill="#AF601A" text-anchor="middle">25%</text>
+    <text x="575" y="279" font-size="10.5" fill="#AF601A" text-anchor="middle">being TREATED</text>
+
+    <line x1="575" y1="280" x2="575" y2="296" stroke="#95A5A6" stroke-width="3" marker-end="url(#arr)"/>
+    <rect x="552" y="300" width="46" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="575" y="327" font-size="12.5" font-weight="bold" fill="#922B21" text-anchor="middle">12.5%</text>
+    <text x="575" y="343" font-size="10.5" fill="#922B21" text-anchor="middle">ADEQUATELY treated</text>
+  </g>
+
+  <rect x="382" y="368" width="390" height="66" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="398" y="390" font-size="12" fill="#5D6D7E">📌 Baseline (2010): ~46% aware · ~40% of those on treatment</text>
+  <text x="398" y="408" font-size="12" fill="#5D6D7E">~14% adequately treated → vast majority hidden</text>
+  <text x="398" y="426" font-size="11.5" fill="#7f8c8d">Why it is called an "iceberg disease"/silent killer</text>
+
+  <rect x="382" y="450" width="390" height="34" rx="8" fill="#D35400" fill-opacity="0.08"/>
+  <text x="398" y="472" font-size="12" font-weight="bold" fill="#A04000">🎯 Half aware · half treated · half controlled → 12.5%</text>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#95A5A6"/>
+    </marker>
+  </defs>
+</svg>

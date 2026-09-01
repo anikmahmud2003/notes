@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Complications of measles, mumps, typhoid and rubella">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6A1B9A"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q55 · Disease Complications 🦠</text>
+  <text x="29" y="56" font-size="13" fill="#e1bee7">Measles · Mumps · Typhoid · Rubella</text>
+
+  <g font-size="10.5">
+    <rect x="28" y="82" width="360" height="226" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="208" y="102" fill="#922B21" font-weight="bold" text-anchor="middle">🦠 Measles complications</text>
+    <text x="44" y="120" fill="#7b241c" font-weight="bold">Virus itself:</text>
+    <text x="44" y="136" fill="#7b241c">stomatitis · enteritis · <tspan font-weight="bold">pneumonia</tspan></text>
+    <text x="44" y="150" fill="#7b241c">(commonest cause of DEATH) · keratitis</text>
+    <text x="44" y="164" fill="#7b241c">· measles-associated diarrhoea</text>
+    <text x="44" y="182" fill="#7b241c" font-weight="bold">Secondary bacterial:</text>
+    <text x="44" y="198" fill="#7b241c"><tspan font-weight="bold">otitis media (commonest)</tspan> ·</text>
+    <text x="44" y="212" fill="#7b241c">bronchopneumonia · conjunctivitis</text>
+    <text x="44" y="230" fill="#7b241c" font-weight="bold">Neurological:</text>
+    <text x="44" y="246" fill="#7b241c">post-viral encephalitis · SSPE (rare,fatal)</text>
+    <text x="44" y="264" fill="#7b241c" font-weight="bold">Nutritional:</text>
+    <text x="44" y="280" fill="#7b241c">weight loss · kwashiorkor · corneal</text>
+    <text x="44" y="294" fill="#7b241c">ulceration → blindness ← AIDS vitamin-A</text>
+    <text x="44" y="308" fill="#7b241c"></text>
+
+    <rect x="412" y="82" width="360" height="226" rx="10" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="592" y="102" fill="#9C640C" font-weight="bold" text-anchor="middle">😷 Mumps complications</text>
+    <text x="428" y="120" fill="#7E5109" font-weight="bold">Frequent:</text>
+    <text x="428" y="136" fill="#7E5109"><tspan font-weight="bold">Orchitis</tspan> (post-pubertal ♂; bilateral →</text>
+    <text x="428" y="150" fill="#7E5109">sterility) · <tspan font-weight="bold">oophoritis</tspan> (♀)</text>
+    <text x="428" y="164" fill="#7E5109"><tspan font-weight="bold">Pancreatitis</tspan> · <tspan font-weight="bold">meningo-encephalitis</tspan></text>
+    <text x="428" y="178" fill="#7E5109">thyroiditis · neuritis · hepatitis · myocarditis</text>
+    <text x="428" y="196" fill="#7E5109" font-weight="bold">Rare:</text>
+    <text x="428" y="212" fill="#7E5109">nerve deafness · polyarthritis · hydrocephalus</text>
+    <text x="428" y="226" fill="#7E5109">· cerebellar ataxia · facial palsy</text>
+    <text x="428" y="240" fill="#7E5109">· transverse myelitis · diabetes</text>
+    <text x="428" y="258" fill="#B03A2E" font-weight="bold">★ Bilateral orchitis → sterility</text>
+    <text x="428" y="276" fill="#7E5109"></text>
+    <text x="428" y="292" fill="#7E5109"></text>
+  </g>
+
+  <g font-size="10.5">
+    <rect x="28" y="318" width="360" height="178" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="208" y="338" fill="#1F618D" font-weight="bold" text-anchor="middle">🤒 Typhoid (enteric) complications</text>
+    <text x="44" y="356" fill="#21618C"><tspan font-weight="bold">1 Intestinal haemorrhage</tspan></text>
+    <text x="44" y="370" fill="#21618C"><tspan font-weight="bold">2 Perforation</tspan> — most dangerous, ileum</text>
+    <text x="44" y="384" fill="#21618C">3 Urinary retention · 4 pneumonia</text>
+    <text x="44" y="398" fill="#21618C">5 Thrombophlebitis · 6 myocarditis</text>
+    <text x="44" y="412" fill="#21618C">7 Psychosis · 8 cholecystitis</text>
+    <text x="44" y="426" fill="#21618C">9 Nephritis · 10 osteomyelitis</text>
+    <text x="44" y="444" fill="#B03A2E" font-weight="bold">★ perforation = highest danger</text>
+    <text x="44" y="460" fill="#B03A2E"></text>
+
+    <rect x="412" y="318" width="360" height="178" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="592" y="338" fill="#6C3483" font-weight="bold" text-anchor="middle">🤰 Rubella — Congenital Rubella Syndrome</text>
+    <text x="428" y="356" fill="#6C3483">If infection in <tspan font-weight="bold">1st trimester</tspan>:</text>
+    <text x="428" y="370" fill="#4A148C" font-weight="bold">Classical triad:</text>
+    <text x="428" y="386" fill="#6C3483"><tspan font-weight="bold">PDA + cataract + deafness</tspan></text>
+    <text x="428" y="402" fill="#6C3483">Heart: cardinal septal defect/PDA</text>
+    <text x="428" y="416" fill="#6C3483">Eye: cataract · Brain: mental retardation</text>
+    <text x="428" y="430" fill="#6C3483">Ear: deafness</text>
+    <text x="428" y="448" fill="#6C3483" font-weight="bold">2nd trimester → deafness · &gt;16 wks → none</text>
+    <text x="428" y="464" fill="#6C3483">Adult: arthritis (♀) · encephalitis · purpura</text>
+  </g>
+
+  <rect x="28" y="508" width="744" height="40" rx="9" fill="#F3E5F5"/>
+  <text x="46" y="526" font-size="11" fill="#4A148C">📌 Measles → treat severe cases with <tspan font-weight="bold">vitamin A</tspan> (prevents keratomalacia &amp; blindness)</text>
+  <text x="46" y="542" font-size="11" fill="#4A148C">🎯 Measles = otitis media (1st) + pneumonia (death) · Mumps = orchitis → sterility · Typhoid = perforation · Rubella = PDA+cataract+deafness</text>
+</svg>

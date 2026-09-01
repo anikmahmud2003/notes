@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Maternal mortality rate, exclusive breast feeding and colostrum">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6D4C41"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q30 · MMR · Breast Feeding · Colostrum 🍼</text>
+  <text x="29" y="56" font-size="13" fill="#f3e5dc">Maternal mortality · exclusive BF advantages · colostrum composition &amp; importance</text>
+
+  <rect x="28" y="82" width="744" height="42" rx="10" fill="#FBE9E7" stroke="#BF360C" stroke-width="2"/>
+  <text x="46" y="100" font-size="12.5" fill="#A93226" font-weight="bold">🔴 MMR = maternal deaths per 1,000 live births</text>
+  <text x="46" y="117" font-size="11.5" fill="#7b241c">maternal death = pregnancy/childbirth/within 42 days of termination (modern def: per 100,000 live births)</text>
+
+  <text x="28" y="142" font-size="13.5" font-weight="bold" fill="#6D4C41">🩸 Top causes of maternal death (Bangladesh)</text>
+  <g font-size="11.5">
+    <rect x="28" y="150" width="240" height="34" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="148" y="172" fill="#922B21" font-weight="bold" text-anchor="middle">1 Haemorrhage (APH &amp; PPH) 💧</text>
+    <rect x="276" y="150" width="240" height="34" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="396" y="172" fill="#922B21" font-weight="bold" text-anchor="middle">2 Toxaemia / eclampsia ⚡</text>
+    <rect x="524" y="150" width="248" height="34" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="648" y="172" fill="#922B21" font-weight="bold" text-anchor="middle">3 Infection / puerperal sepsis 🦠</text>
+    <rect x="28" y="190" width="240" height="34" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="148" y="212" fill="#9C640C" font-weight="bold" text-anchor="middle">4 Obstructed labour 🚧</text>
+    <rect x="276" y="190" width="240" height="34" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="396" y="212" fill="#9C640C" font-weight="bold" text-anchor="middle">5 Septic abortion ♀</text>
+    <rect x="524" y="190" width="248" height="34" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="648" y="212" fill="#9C640C" font-weight="bold" text-anchor="middle">6 Severe anaemia 🩸</text>
+    <rect x="28" y="230" width="744" height="22" rx="7" fill="#FFF8E1"/><text x="46" y="245" font-size="11" fill="#8d6e00">7 Associated diseases (heart disease, DM, TB…) — ⊕ maternal care at delivery (skilled birthing) + EOC = key to ↓ MMR</text>
+  </g>
+
+  <rect x="28" y="260" width="744" height="20" rx="7" fill="#F4ECF7"/>
+  <text x="46" y="274" font-size="12" fill="#5B2C6F">🤱 <tspan font-weight="bold">Exclusive breast feeding</tspan> = only breast milk — <tspan font-weight="bold">not even a drop of water</tspan> — up to <tspan font-weight="bold">5–6 months</tspan> (WHO: 6 months)</text>
+
+  <text x="28" y="300" font-size="13.5" font-weight="bold" fill="#6D4C41">✅ Advantages of breast feeding</text>
+  <g font-size="11">
+    <rect x="28" y="308" width="366" height="118" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="44" y="328" fill="#1F618D" font-weight="bold" text-anchor="middle">👶 Benefits to baby</text>
+    <text x="44" y="346" fill="#21618C">1 Complete food — species specific</text>
+    <text x="44" y="362" fill="#21618C">2 Easily digested &amp; absorbed</text>
+    <text x="44" y="378" fill="#21618C">3 Protects against infection (sigA, WBC)</text>
+    <text x="44" y="394" fill="#21618C">4 Emotional bonding 🔗</text>
+    <text x="44" y="410" fill="#21618C">5 Better brain growth + lower childhood cancer</text>
+
+    <rect x="406" y="308" width="366" height="118" rx="10" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="422" y="328" fill="#1E8449" font-weight="bold" text-anchor="middle">🤰 Benefits to mother</text>
+    <text x="422" y="346" fill="#145A32">1 Uterine involution · 2 delays pregnancy (spacing)</text>
+    <text x="422" y="362" fill="#145A32">3 ↓ breast &amp; ovarian cancer</text>
+    <text x="422" y="378" fill="#145A32">4 Less workload · 5 saves money 💰</text>
+    <text x="422" y="394" fill="#145A32">6 Promotes FP · 7 ↓ hospitalisation</text>
+    <text x="422" y="410" fill="#145A32">8 Contributes to child survival</text>
+  </g>
+
+  <rect x="28" y="434" width="744" height="70" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+  <text x="46" y="454" font-size="12.5" fill="#9C640C">🥛 <tspan font-weight="bold">Colostrum</tspan> = first 2–3 days secretion after birth — high in <tspan font-weight="bold">proteins &amp; calories</tspan> + <tspan font-weight="bold">antibodies &amp; lymphocytes</tspan> (esp. secretory IgA)</text>
+  <text x="46" y="472" font-size="11.5" fill="#7E5109">Composition: protein moderate · sugar few · minerals high · antibody (secretory IgA) high · fat</text>
+  <text x="46" y="490" font-size="11.5" fill="#7E5109">Importance: protects against infection · sterilizes small intestine · laxative (passes meconium) · passive immunity to newborn 💪</text>
+
+  <rect x="28" y="516" width="744" height="32" rx="8" fill="#6D4C41" fill-opacity="0.08"/>
+  <text x="46" y="537" font-size="12.5" font-weight="bold" fill="#3E2723">🎯 MMR = maternal deaths/1000 live births · BF = only milk 6 months · causes of MMR = haemorrhage+toxaemia+sepsis · colostrum = first golden milk with sigA!</text>
+</svg>

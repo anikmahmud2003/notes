@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Family planning definition, concept, objectives, scope and health aspects">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#00897B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q35 · Family Planning 👨‍👩‍👧</text>
+  <text x="29" y="56" font-size="13" fill="#b2dfdb">Definition · concept · 5 objectives · 13 scope · health outcomes</text>
+
+  <rect x="28" y="82" width="744" height="70" rx="10" fill="#E0F2F1" stroke="#00897B" stroke-width="2"/>
+  <text x="46" y="102" font-size="12" fill="#004D40" font-weight="bold">🔴 WHO (Expert Committee, 1971):</text>
+  <text x="46" y="120" font-size="11.5" fill="#00695C">"A way of thinking and living adopted <tspan font-weight="bold">voluntarily</tspan>, on the basis of <tspan font-weight="bold">knowledge, attitudes &amp; responsible decisions</tspan> by individuals &amp; couples, to promote the <tspan font-weight="bold">health &amp; welfare of the family group</tspan> and contribute to the <tspan font-weight="bold">social development of a country</tspan>."</text>
+  <text x="46" y="141" font-size="11.5" fill="#00695C">Concept: earlier = <tspan font-weight="bold">birth control</tspan> (limit number) · modern = <tspan font-weight="bold">family welfare</tspan> (spacing, timing, total health)</text>
+
+  <text x="28" y="170" font-size="14" font-weight="bold" fill="#00897B">🎯 Objectives of family planning (5)</text>
+  <g font-size="11.5">
+    <rect x="28" y="178" width="176" height="46" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="116" y="197" fill="#004D40" font-weight="bold" text-anchor="middle">1 Avoid unwanted births</text><text x="116" y="213" fill="#00695C" text-anchor="middle"></text>
+    <rect x="216" y="178" width="176" height="46" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="304" y="197" fill="#004D40" font-weight="bold" text-anchor="middle">2 Bring wanted births</text><text x="304" y="213" fill="#00695C" text-anchor="middle"></text>
+    <rect x="404" y="178" width="176" height="46" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="492" y="197" fill="#004D40" font-weight="bold" text-anchor="middle">3 Regulate intervals ⏱</text><text x="492" y="213" fill="#00695C" text-anchor="middle">between pregnancies</text>
+    <rect x="592" y="178" width="180" height="46" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="682" y="197" fill="#004D40" font-weight="bold" text-anchor="middle">4 Control timing</text><text x="682" y="213" fill="#00695C" text-anchor="middle">ages of parents</text>
+    <rect x="216" y="232" width="176" height="46" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="304" y="251" fill="#004D40" font-weight="bold" text-anchor="middle">5 Determine number</text><text x="304" y="267" fill="#00695C" text-anchor="middle">of children</text>
+  </g>
+
+  <text x="28" y="298" font-size="14" font-weight="bold" fill="#00897B">📋 Scope of FP services (WHO Expert Committee, 1970)</text>
+  <g font-size="11">
+    <rect x="28" y="306" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="148" y="323" fill="#5D6D7E" text-anchor="middle">1 Spacing &amp; limitation of births</text><text x="148" y="339" fill="#5D6D7E" text-anchor="middle">2 Advice on sterility</text>
+    <rect x="280" y="306" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="400" y="323" fill="#5D6D7E" text-anchor="middle">3 Education for parenthood</text><text x="400" y="339" fill="#5D6D7E" text-anchor="middle">4 Sex education</text>
+    <rect x="532" y="306" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="652" y="323" fill="#5D6D7E" text-anchor="middle">5 Screening (e.g. cervical Ca)</text><text x="652" y="339" fill="#5D6D7E" text-anchor="middle">6 Genetic counselling</text>
+    <rect x="28" y="366" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="148" y="383" fill="#5D6D7E" text-anchor="middle">7 Premarital consultation</text><text x="148" y="399" fill="#5D6D7E" text-anchor="middle">8 Pregnancy tests</text>
+    <rect x="280" y="366" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="400" y="383" fill="#5D6D7E" text-anchor="middle">9 Marriage counselling</text><text x="400" y="399" fill="#5D6D7E" text-anchor="middle">10 Preparation for 1st child</text>
+    <rect x="532" y="366" width="240" height="52" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="652" y="383" fill="#5D6D7E" text-anchor="middle">11 Services for unmarried mothers</text><text x="652" y="399" fill="#5D6D7E" text-anchor="middle">12 Home econ &amp; nutrition</text>
+    <rect x="28" y="426" width="240" height="42" rx="8" fill="#F4F6F7" stroke="#95A5A6"/><text x="148" y="452" fill="#5D6D7E" text-anchor="middle">13 Adoption services 🏡</text>
+  </g>
+
+  <text x="28" y="484" font-size="14" font-weight="bold" fill="#00897B">🩺 Health outcomes</text>
+  <g font-size="11.5">
+    <rect x="28" y="492" width="360" height="40" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="208" y="509" fill="#922B21" font-weight="bold" text-anchor="middle">Women: ↓ maternal mortality · ↓ morbidity ·</text><text x="208" y="525" fill="#922B21" text-anchor="middle">better nutrition (wt, Hb)</text>
+    <rect x="412" y="492" width="360" height="40" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="592" y="509" fill="#1F618D" font-weight="bold" text-anchor="middle">Foetus: ↓ foetal mortality · ↓ abnormal</text><text x="592" y="525" fill="#1F618D" text-anchor="middle">development</text>
+    <rect x="28" y="540" width="360" height="18" rx="6" fill="#EAFAF1"/><text x="208" y="553" font-size="10.5" fill="#145A32" text-anchor="middle">Infant/child: ↓ neonatal, infant, preschool mortality · better birth weight</text>
+    <rect x="412" y="540" width="360" height="18" rx="6" fill="#FEF9E7"/><text x="592" y="553" font-size="10.5" fill="#7E5109" text-anchor="middle">Spacing 2–3 yrs desirable → ↑ child survival &amp; IQ</text>
+  </g>
+</svg>

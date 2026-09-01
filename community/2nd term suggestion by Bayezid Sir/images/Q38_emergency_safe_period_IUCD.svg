@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Emergency contraceptive pill, safe period calculation, IUCD and sterilization">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#00897B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q38 · Emergency Pill · Safe Period · IUCD 💠</text>
+  <text x="29" y="56" font-size="13" fill="#b2dfdb">Post-coital pill · rhythm method · IUCD · sterilization prerequisites</text>
+
+  <text x="28" y="86" font-size="13.5" font-weight="bold" fill="#00897B">🆘 Emergency contraceptive pill (post-coital / morning-after)</text>
+  <rect x="28" y="94" width="744" height="32" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="46" y="115" font-size="12" fill="#922B21">🔴 Recommended within <tspan font-weight="bold">48–72 hours of unprotected intercourse</tspan> · types = IUCD + hormonal pill</text>
+  <g font-size="11.5">
+    <rect x="28" y="134" width="236" height="58" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="146" y="154" fill="#9C640C" font-weight="bold" text-anchor="middle">💊 Levonorgestrel 1.5 mg</text><text x="146" y="172" fill="#7E5109" text-anchor="middle">single dose within 72 h OR</text><text x="146" y="186" fill="#7E5109" text-anchor="middle">0.75 mg ×2 (12 h apart)</text>
+    <rect x="276" y="134" width="248" height="58" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="400" y="154" fill="#9C640C" font-weight="bold" text-anchor="middle">💊 Combined OCP double dose</text><text x="400" y="172" fill="#7E5109" text-anchor="middle">2 pills immediately +</text><text x="400" y="186" fill="#7E5109" text-anchor="middle">2 pills 12 h later</text>
+    <rect x="536" y="134" width="236" height="58" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="654" y="154" fill="#9C640C" font-weight="bold" text-anchor="middle">💊 Ethinyl estradiol</text><text x="654" y="172" fill="#7E5109" text-anchor="middle">2.5 mg ×2/d for 5 days</text><text x="654" y="186" fill="#7E5109" text-anchor="middle">(older option)</text>
+    <rect x="28" y="200" width="744" height="26" rx="8" fill="#E0F2F1"/>
+    <text x="46" y="217" font-size="11.5" fill="#004D40">Indications: 1 unprotected intercourse · 2 rape 👮 · 3 contraceptive failure ⚠️</text>
+  </g>
+
+  <text x="28" y="242" font-size="13.5" font-weight="bold" fill="#00897B">📅 Safe period (rhythm / calendar) method</text>
+  <rect x="28" y="250" width="744" height="24" rx="7" fill="#F4ECF7" stroke="#8E44AD"/>
+  <text x="46" y="266" font-size="11" fill="#6C3483">Principle: ovulation ~day 14 (12–16) · ovum lives 48 h · sperm lives 72 h</text>
+
+  <g font-size="11">
+    <rect x="28" y="282" width="360" height="96" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="208" y="300" fill="#1F618D" font-weight="bold" text-anchor="middle">Regular 28-day cycle</text>
+    <text x="44" y="318" fill="#21618C">1st unsafe = shortest−18 = 28−18 = 10</text>
+    <text x="44" y="334" fill="#21618C">Last unsafe = longest−10 = 28−10 = 18</text>
+    <text x="44" y="350" fill="#21618C">🔴 Unsafe = day 10–18 (9 days)</text>
+    <text x="44" y="366" fill="#1E8449" font-weight="bold">✅ all other days = safe</text>
+
+    <rect x="412" y="282" width="360" height="96" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="592" y="300" fill="#9C640C" font-weight="bold" text-anchor="middle">Irregular 26–31 day cycle</text>
+    <text x="428" y="318" fill="#7E5109">1st unsafe = 26−18 = 8</text>
+    <text x="428" y="334" fill="#7E5109">Last unsafe = 31−10 = 21</text>
+    <text x="428" y="350" fill="#7E5109">🔴 Unsafe = day 8–21 (14 days)</text>
+    <text x="428" y="366" fill="#B03A2E" font-weight="bold">⚠️ Not suitable for BD women (illiteracy, irregularity)</text>
+  </g>
+  <text x="28" y="392" font-size="10.5" fill="#7f8c8d">Merits: natural, free, shared responsibility · Demerits: education needed, 9–14 abstinence days, failure with irregular cycles, STDs, poor reliability</text>
+
+  <text x="28" y="414" font-size="13.5" font-weight="bold" fill="#00897B">💠 IUCD — intrauterine contraceptive device</text>
+  <g font-size="10.5">
+    <rect x="28" y="422" width="248" height="62" rx="8" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="152" y="440" fill="#1B5E20" font-weight="bold" text-anchor="middle">Indications ✅</text>
+    <text x="44" y="456" fill="#2E7D32">Multiparous spacing · &lt;5 days of unprotected sex · cannot use hormones · poor pill compliance (unreliable)</text>
+    <rect x="288" y="422" width="248" height="62" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="412" y="440" fill="#922B21" font-weight="bold" text-anchor="middle">Contraindications ⛔</text>
+    <text x="304" y="456" fill="#7b241c">Pregnancy · PID · unknown vaginal bleed · cervical/uterine Ca · previous ectopic</text>
+    <rect x="548" y="422" width="224" height="62" rx="8" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="660" y="440" fill="#9C640C" font-weight="bold" text-anchor="middle">Insertion time ⏰</text>
+    <text x="564" y="456" fill="#7E5109">In menses / within 10 days · 1st wk after delivery · best 6–8 wks post-puerperal</text>
+  </g>
+  <rect x="28" y="492" width="744" height="26" rx="8" fill="#E0F2F1"/>
+  <text x="46" y="509" font-size="10.5" fill="#004D40">Complications: bleeding, pain, PID, perforation, pregnancy, expulsion, infertility · Cu-T advantage = simple, cheap, reversible, high continuation (97%)</text>
+
+  <rect x="28" y="526" width="744" height="26" rx="8" fill="#F4ECF7" stroke="#8E44AD"/>
+  <text x="46" y="542" font-size="11" fill="#6C3483">🏆 <tspan font-weight="bold">Sterilization:</tspan> Vasectomy (husband 25–50 yr) · Tubectomy (wife 20–45 yr) · ≥2 living children at operation</text>
+</svg>

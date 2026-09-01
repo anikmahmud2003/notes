@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Seven cancer warning signs and common cancers in Bangladesh">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#1A5276"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q14 · Cancer — Warning Signs ⚠️ &amp; Top Cancers in BD</text>
+  <text x="29" y="56" font-size="13" fill="#aed6f1">"BLEED-CHAIC" mnemonic + male/female frequency</text>
+
+  <text x="28" y="90" font-size="14" font-weight="bold" fill="#1A5276">7 Warning / Danger Signs of Cancer</text>
+  <g font-size="12.5">
+    <rect x="28" y="98" width="372" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="44" y="116" fill="#922B21" font-weight="bold">1 · Unusual bleeding / discharge 💧</text><text x="44" y="134" fill="#7b241c">from any natural orifice</text>
+    <rect x="412" y="98" width="360" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="428" y="116" fill="#922B21" font-weight="bold">2 · Lump or thickening 🎗</text><text x="428" y="134" fill="#7b241c">of breast or elsewhere</text>
+    <rect x="28" y="150" width="372" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="44" y="168" fill="#922B21" font-weight="bold">3 · Sore that does not heal 🩹</text>
+    <rect x="412" y="150" width="360" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="428" y="168" fill="#922B21" font-weight="bold">4 · Change in bowel / bladder habit 🚻</text>
+    <rect x="28" y="202" width="372" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="44" y="220" fill="#922B21" font-weight="bold">5 · Hoarseness / persistent cough 😮‍💨</text>
+    <rect x="412" y="202" width="360" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="428" y="220" fill="#922B21" font-weight="bold">6 · Constant indigestion / dysphagia 🍽</text>
+    <rect x="28" y="254" width="744" height="44" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="44" y="272" fill="#922B21" font-weight="bold">7 · Change in wart or mole 🟤</text>
+  </g>
+
+  <text x="28" y="320" font-size="14" font-weight="bold" fill="#1A5276">🇧🇩 Most Common Cancers in Bangladesh (frequency order)</text>
+  <g font-size="12">
+    <rect x="28" y="328" width="364" height="132" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="210" y="350" font-size="13.5" font-weight="bold" fill="#6C3483" text-anchor="middle">♀ Females</text>
+    <text x="44" y="370" fill="#6C3483">1 Cervix · 2 Breast · 3 Oral cavity</text>
+    <text x="44" y="388" fill="#6C3483">4 Lymphoma · 5 Oesophagus</text>
+    <text x="44" y="406" fill="#6C3483">6 Uterus · 7 Lung · 8 Ovary</text>
+    <text x="44" y="424" fill="#6C3483">9 Larynx · 10 CUP</text>
+    <text x="44" y="448" fill="#4A235A" font-weight="bold">★ Cervix + Breast = top two</text>
+
+    <rect x="408" y="328" width="364" height="132" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="590" y="350" font-size="13.5" font-weight="bold" fill="#1F618D" text-anchor="middle">♂ Males</text>
+    <text x="424" y="370" fill="#21618C">1 Lung (bronchogenic) · 2 Larynx</text>
+    <text x="424" y="388" fill="#21618C">3 Oral cavity · 4 Lymphoma</text>
+    <text x="424" y="406" fill="#21618C">5 Pharynx · 6 CUP</text>
+    <text x="424" y="424" fill="#21618C">7 Bone · 8 Eye · 9 Brain · 10 Skin</text>
+    <text x="424" y="448" fill="#154360" font-weight="bold">★ Lung + Larynx = top two</text>
+  </g>
+
+  <rect x="28" y="476" width="744" height="68" rx="10" fill="#1A5276" fill-opacity="0.08"/>
+  <text x="46" y="498" font-size="13" font-weight="bold" fill="#154360">🎯 7 signs = BLEED-CHAIC: Bleeding · Lump · non-healing Sore · bowel/bladder change</text>
+  <text x="46" y="518" font-size="12.5" fill="#1A5276">  · Hoarseness/cough · indigestion-dysphagia · mole change</text>
+  <text x="46" y="535" font-size="12" fill="#1A5276">Female top = Cervix, Breast · Male top = Lung, Larynx</text>
+</svg>

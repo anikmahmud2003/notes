@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="School health service components, healthful environment criteria and problems in Bangladesh">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#3949AB"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q33 · School Health Service 🏫</text>
+  <text x="29" y="56" font-size="13" fill="#c5cae9">Essential components · 7 criteria of healthful environment · problems in Bangladesh</text>
+
+  <text x="28" y="86" font-size="14" font-weight="bold" fill="#3949AB">📋 Essential components of school health service</text>
+  <g font-size="11">
+    <rect x="28" y="94" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="148" y="113" fill="#283593" font-weight="bold" text-anchor="middle">1 Health education</text><text x="148" y="129" fill="#3F51B5" text-anchor="middle">to children</text>
+    <rect x="280" y="94" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="400" y="113" fill="#283593" font-weight="bold" text-anchor="middle">2 Periodic medical exam</text><text x="400" y="129" fill="#3F51B5" text-anchor="middle">health appraisal</text>
+    <rect x="532" y="94" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="652" y="113" fill="#283593" font-weight="bold" text-anchor="middle">3 Exam of teachers</text><text x="652" y="129" fill="#3F51B5" text-anchor="middle">+ school personnel</text>
+    <rect x="28" y="146" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="148" y="165" fill="#283593" font-weight="bold" text-anchor="middle">4 Daily morning inspection</text><text x="148" y="181" fill="#3F51B5" text-anchor="middle">by class teacher</text>
+    <rect x="280" y="146" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="400" y="165" fill="#283593" font-weight="bold" text-anchor="middle">5 Immunization 💉</text><text x="400" y="181" fill="#3F51B5" text-anchor="middle"></text>
+    <rect x="532" y="146" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="652" y="165" fill="#283593" font-weight="bold" text-anchor="middle">6 First aid 🩹</text><text x="652" y="181" fill="#3F51B5" text-anchor="middle">given by teachers</text>
+    <rect x="28" y="198" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="148" y="217" fill="#283593" font-weight="bold" text-anchor="middle">7 Referral services</text><text x="148" y="233" fill="#3F51B5" text-anchor="middle">to higher centres</text>
+    <rect x="280" y="198" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="400" y="217" fill="#283593" font-weight="bold" text-anchor="middle">8 Healthful environment</text><text x="400" y="233" fill="#3F51B5" text-anchor="middle"></text>
+    <rect x="532" y="198" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="652" y="217" fill="#283593" font-weight="bold" text-anchor="middle">9 Mid-day meal 🍱</text><text x="652" y="233" fill="#3F51B5" text-anchor="middle">school lunch</text>
+    <rect x="28" y="250" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="148" y="269" fill="#283593" font-weight="bold" text-anchor="middle">10 Disease control</text><text x="148" y="285" fill="#3F51B5" text-anchor="middle">communicable</text>
+    <rect x="280" y="250" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="400" y="269" fill="#283593" font-weight="bold" text-anchor="middle">11 Mental health care</text><text x="400" y="285" fill="#3F51B5" text-anchor="middle">🧠</text>
+    <rect x="532" y="250" width="240" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="652" y="269" fill="#283593" font-weight="bold" text-anchor="middle">12 Health cards 🪪</text><text x="652" y="285" fill="#3F51B5" text-anchor="middle">+ 13 health instruction</text>
+  </g>
+
+  <text x="28" y="314" font-size="14" font-weight="bold" fill="#3949AB">🏛 Criteria of healthful school environment (7)</text>
+  <g font-size="11">
+    <rect x="28" y="322" width="180" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="118" y="340" fill="#922B21" font-weight="bold" text-anchor="middle">1 Toilet &amp; lavatory 🚽</text><text x="118" y="356" fill="#7b241c" text-anchor="middle">1 toilet/100 students</text>
+    <rect x="216" y="322" width="180" height="44" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="306" y="340" fill="#1F618D" font-weight="bold" text-anchor="middle">2 Pure water supply 💧</text><text x="306" y="356" fill="#21618C" text-anchor="middle">independent, potable</text>
+    <rect x="404" y="322" width="180" height="44" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="494" y="340" fill="#9C640C" font-weight="bold" text-anchor="middle">3 Light &amp; ventilation</text><text x="494" y="356" fill="#7E5109" text-anchor="middle">💡 natural from left</text>
+    <rect x="592" y="322" width="180" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="682" y="340" fill="#6C3483" font-weight="bold" text-anchor="middle">4 Glare-proof boards</text><text x="682" y="356" fill="#6C3483" text-anchor="middle">ceiling &amp; walls</text>
+    <rect x="28" y="374" width="240" height="44" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="148" y="393" fill="#1E8449" font-weight="bold" text-anchor="middle">5 Suitable chairs &amp; desks</text><text x="148" y="409" fill="#145A32" text-anchor="middle">🪑</text>
+    <rect x="280" y="374" width="240" height="44" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="400" y="393" fill="#1E8449" font-weight="bold" text-anchor="middle">6 Restroom &amp; playground</text><text x="400" y="409" fill="#145A32" text-anchor="middle">⚽</text>
+    <rect x="532" y="374" width="240" height="44" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="652" y="393" fill="#1E8449" font-weight="bold" text-anchor="middle">7 Clean environment</text><text x="652" y="409" fill="#145A32" text-anchor="middle">🧹</text>
+  </g>
+
+  <text x="28" y="438" font-size="14" font-weight="bold" fill="#3949AB">⚠️ School health problems in Bangladesh</text>
+  <g font-size="11.5">
+    <rect x="28" y="446" width="240" height="58" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="148" y="465" fill="#922B21" font-weight="bold" text-anchor="middle">Student health problems</text><text x="44" y="482" fill="#7b241c">Malnutrition · communicable diseases</text><text x="44" y="497" fill="#7b241c">helminths · skin · eye · dental · ear</text>
+    <rect x="280" y="446" width="240" height="58" rx="9" fill="#FDEBD0" stroke="#E67E22"/><text x="400" y="465" fill="#9C640C" font-weight="bold" text-anchor="middle">Environmental problems</text><text x="296" y="482" fill="#7E5109">Sanitation · water pollution</text><text x="296" y="497" fill="#7E5109">overcrowding · no playground · drugs</text>
+    <rect x="532" y="446" width="240" height="58" rx="9" fill="#F4ECF7" stroke="#8E44AD"/><text x="652" y="465" fill="#6C3483" font-weight="bold" text-anchor="middle">Ideal classroom</text><text x="548" y="482" fill="#6C3483">≤40 students · 12 ft height</text><text x="548" y="497" fill="#6C3483">10 sq ft/student · window 25% floor</text>
+  </g>
+
+  <rect x="28" y="516" width="744" height="32" rx="8" fill="#3949AB" fill-opacity="0.08"/>
+  <text x="46" y="537" font-size="12.5" font-weight="bold" fill="#1A237E">🎯 Health education + exams + immunization + first aid + referral + mid-day meal + environment · 7 criteria = toilet+water+light+boards+desks+playground+clean!</text>
+</svg>

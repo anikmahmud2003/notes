@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Environmental causes of cancer and screening tests">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#1A5276"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q15 · Causes of Cancer 🌍 &amp; Screening 🩺</text>
+  <text x="29" y="56" font-size="13" fill="#aed6f1">Environmental factors (causes) + cancer screening tests</text>
+
+  <text x="28" y="88" font-size="14" font-weight="bold" fill="#1A5276">🌍 Environmental factors (causes) of cancer</text>
+  <g font-size="12">
+    <rect x="28" y="96" width="180" height="58" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="118" y="116" fill="#922B21" text-anchor="middle" font-weight="bold">🚬 Tobacco</text><text x="118" y="134" fill="#7b241c" text-anchor="middle">lung, larynx, mouth,</text><text x="118" y="148" fill="#7b241c" text-anchor="middle">bladder, pancreas</text>
+    <rect x="216" y="96" width="180" height="58" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="306" y="116" fill="#922B21" text-anchor="middle" font-weight="bold">🍺 Alcohol</text><text x="306" y="134" fill="#7b241c" text-anchor="middle">oesophagus, liver,</text><text x="306" y="148" fill="#7b241c" text-anchor="middle">rectum</text>
+    <rect x="404" y="96" width="180" height="58" rx="9" fill="#F4F6F7" stroke="#95A5A6"/><text x="494" y="116" fill="#5D6D7E" text-anchor="middle" font-weight="bold">🍽 Dietary</text><text x="494" y="134" fill="#5D6D7E" text-anchor="middle">smoked fish → stomach</text><text x="494" y="148" fill="#5D6D7E" text-anchor="middle">high-fat → breast</text>
+    <rect x="592" y="96" width="180" height="58" rx="9" fill="#F4F6F7" stroke="#95A5A6"/><text x="682" y="116" fill="#5D6D7E" text-anchor="middle" font-weight="bold">🏭 Occupational</text><text x="682" y="134" fill="#5D6D7E" text-anchor="middle">benzene, asbestos,</text><text x="682" y="148" fill="#5D6D7E" text-anchor="middle">arsenic, chromium</text>
+  </g>
+  <g font-size="12">
+    <rect x="28" y="162" width="180" height="58" rx="9" fill="#F4ECF7" stroke="#8E44AD"/><text x="118" y="182" fill="#6C3483" text-anchor="middle" font-weight="bold">🦠 Viruses</text><text x="118" y="200" fill="#6C3483" text-anchor="middle">HBV/HCV → liver · HPV →</text><text x="118" y="214" fill="#6C3483" text-anchor="middle">cervix · EBV → Burkitt</text>
+    <rect x="216" y="162" width="180" height="58" rx="9" fill="#F4F6F7" stroke="#95A5A6"/><text x="306" y="182" fill="#5D6D7E" text-anchor="middle" font-weight="bold">🪱 Parasites</text><text x="306" y="200" fill="#5D6D7E" text-anchor="middle">Schistosomiasis →</text><text x="306" y="214" fill="#5D6D7E" text-anchor="middle">bladder cancer</text>
+    <rect x="404" y="162" width="180" height="58" rx="9" fill="#F4F6F7" stroke="#95A5A6"/><text x="494" y="182" fill="#5D6D7E" text-anchor="middle" font-weight="bold">🧬 Genetic</text><text x="494" y="200" fill="#5D6D7E" text-anchor="middle">e.g. retinoblastoma in</text><text x="494" y="214" fill="#5D6D7E" text-anchor="middle">children of same parent</text>
+    <rect x="592" y="162" width="180" height="58" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="682" y="182" fill="#922B21" text-anchor="middle" font-weight="bold">☀️ Others</text><text x="682" y="200" fill="#7b241c" text-anchor="middle">UV, radiation, drugs,</text><text x="682" y="214" fill="#7b241c" text-anchor="middle">air/water pollution</text>
+  </g>
+
+  <text x="28" y="242" font-size="14" font-weight="bold" fill="#1A5276">🩺 Cancer screening — early detection</text>
+  <rect x="28" y="250" width="744" height="34" rx="8" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="272" font-size="12" fill="#5D6D7E">People &gt;35 years who can afford it → thorough <tspan font-weight="bold">annual medical check-up</tspan> + full history + physical examination</text>
+
+  <g font-size="12.5">
+    <rect x="28" y="292" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="44" y="317" fill="#1F618D">👶<tspan font-weight="bold"> Pap smear</tspan> → cancer of the CERVIX</text>
+    <rect x="408" y="292" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="424" y="317" fill="#1F618D">🎀<tspan font-weight="bold"> Mammography</tspan> → early BREAST cancer</text>
+    <rect x="28" y="340" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="44" y="365" fill="#1F618D">🫁<tspan font-weight="bold"> Chest X-ray / CT-FNAC</tspan> → LUNG cancer</text>
+    <rect x="408" y="340" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="424" y="365" fill="#1F618D">💩<tspan font-weight="bold"> Stool blood</tspan> → GI tract cancer</text>
+    <rect x="28" y="388" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="44" y="413" fill="#1F618D">🔬<tspan font-weight="bold"> Sigmoidoscopy</tspan> → colorectal cancer</text>
+    <rect x="408" y="388" width="364" height="40" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="424" y="413" fill="#1F618D">🩸<tspan font-weight="bold"> CBC &amp; biochemistry</tspan> → leukaemia, organ damage</text>
+  </g>
+
+  <rect x="28" y="446" width="744" height="60" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+  <text x="46" y="468" font-size="12.5" fill="#7E5109">📌 General investigations: chest/other X-ray · CBC &amp; blood biochemistry · stool for occult blood</text>
+  <text x="46" y="488" font-size="12.5" fill="#7E5109">Complete medical history may reveal symptoms of localised / generalised cancer</text>
+
+  <rect x="28" y="520" width="744" height="26" rx="8" fill="#1A5276" fill-opacity="0.08"/>
+  <text x="46" y="537" font-size="12" font-weight="bold" fill="#154360">🎯 Screening: Pap (cervix) · Mammography (breast) · CXR/FNAC (lung) · stool blood (GI) · sigmoidoscopy (colorectal)</text>
+</svg>

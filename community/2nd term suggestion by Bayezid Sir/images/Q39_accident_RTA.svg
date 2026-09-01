@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Accident definition, classification, agents, RTA factors and prevention">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#C62828"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q39 · Accident &amp; Road Traffic Accidents 🚗</text>
+  <text x="29" y="56" font-size="13" fill="#f8c9cb">Definition · classification · agents · RTA factors in BD · prevention</text>
+
+  <rect x="28" y="82" width="744" height="40" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="100" font-size="12.5" fill="#922B21" font-weight="bold">🔴 Accident = an unintended and unpremeditated event resulting in unexpected injury, death or property damage</text>
+  <text x="46" y="116" font-size="11.5" fill="#7b241c">Classification: RTA · industrial · domestic · sports · public places</text>
+
+  <text x="28" y="138" font-size="14" font-weight="bold" fill="#C62828">⚡ Common agents of accidents</text>
+  <g font-size="11.5">
+    <rect x="28" y="146" width="150" height="44" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="103" y="164" fill="#9C640C" font-weight="bold" text-anchor="middle">1 Mechanical 💥</text><text x="103" y="180" fill="#7E5109" text-anchor="middle">crash · fall · sports</text>
+    <rect x="186" y="146" width="150" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="261" y="164" fill="#922B21" font-weight="bold" text-anchor="middle">2 Thermal 🔥</text><text x="261" y="180" fill="#7b241c" text-anchor="middle">burns &amp; scalds</text>
+    <rect x="344" y="146" width="150" height="44" rx="8" fill="#FEF9E7" stroke="#F39C12"/><text x="419" y="164" fill="#9C640C" font-weight="bold" text-anchor="middle">3 Electrical ⚡</text><text x="419" y="180" fill="#7E5109" text-anchor="middle">electrocution</text>
+    <rect x="502" y="146" width="140" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="572" y="164" fill="#6C3483" font-weight="bold" text-anchor="middle">4 Radiation ☢</text><text x="572" y="180" fill="#6C3483" text-anchor="middle">burns</text>
+    <rect x="650" y="146" width="122" height="44" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="711" y="164" fill="#1F618D" font-weight="bold" text-anchor="middle">5 Chemical 🧪</text><text x="711" y="180" fill="#21618C" text-anchor="middle">CO brain injury</text>
+    <rect x="650" y="198" width="122" height="50" rx="8" fill="#E8F5E9" stroke="#43A047"/><text x="711" y="218" fill="#1B5E20" font-weight="bold" text-anchor="middle">6 Drowning 🌊</text><text x="711" y="236" fill="#2E7D32" text-anchor="middle">pulmonary water</text>
+  </g>
+
+  <text x="28" y="268" font-size="14" font-weight="bold" fill="#C62828">🇧🇩 Factors responsible for RTA in Bangladesh</text>
+  <g font-size="11.5">
+    <rect x="28" y="276" width="240" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="148" y="294" fill="#922B21" font-weight="bold" text-anchor="middle">1 Risky mix of vehicles 🚌🚲</text><text x="148" y="310" fill="#7b241c" text-anchor="middle">in the traffic stream</text>
+    <rect x="280" y="276" width="240" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="400" y="294" fill="#922B21" font-weight="bold" text-anchor="middle">2 Defective roads 🛣</text><text x="400" y="310" fill="#7b241c" text-anchor="middle">poor lighting</text>
+    <rect x="532" y="276" width="240" height="44" rx="8" fill="#FDECEC" stroke="#C0392B"/><text x="652" y="294" fill="#922B21" font-weight="bold" text-anchor="middle">3 Defective cross-roads</text><text x="652" y="310" fill="#7b241c" text-anchor="middle">layout</text>
+    <rect x="28" y="328" width="240" height="44" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="148" y="346" fill="#9C640C" font-weight="bold" text-anchor="middle">4 No segregation 🚶vs🚙</text><text x="148" y="362" fill="#7E5109" text-anchor="middle">pedestrians &amp; traffic</text>
+    <rect x="280" y="328" width="240" height="44" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="400" y="346" fill="#9C640C" font-weight="bold" text-anchor="middle">5 Poor vehicle upkeep 🔧</text><text x="400" y="362" fill="#7E5109" text-anchor="middle">maintenance</text>
+    <rect x="532" y="328" width="240" height="44" rx="8" fill="#FDEBD0" stroke="#E67E22"/><text x="652" y="346" fill="#9C640C" font-weight="bold" text-anchor="middle">6 Overloaded transports</text><text x="652" y="362" fill="#7E5109" text-anchor="middle">👥👥👥</text>
+    <rect x="28" y="380" width="240" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="148" y="398" fill="#6C3483" font-weight="bold" text-anchor="middle">7 Low driving standards</text><text x="148" y="414" fill="#6C3483" text-anchor="middle">rules ignored</text>
+    <rect x="280" y="380" width="240" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="400" y="398" fill="#6C3483" font-weight="bold" text-anchor="middle">8 Unpredictable pedestrians</text><text x="400" y="414" fill="#6C3483" text-anchor="middle">🚸 behaviour</text>
+    <rect x="532" y="380" width="240" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/><text x="652" y="398" fill="#6C3483" font-weight="bold" text-anchor="middle">WHO: accidents 2.5% deaths</text><text x="652" y="414" fill="#6C3483" text-anchor="middle">~300,000 deaths/yr worldwide</text>
+  </g>
+
+  <text x="28" y="442" font-size="14" font-weight="bold" fill="#C62828">🛡 Prevention of RTA</text>
+  <g font-size="11">
+    <rect x="28" y="450" width="244" height="52" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="150" y="468" fill="#145A32" font-weight="bold" text-anchor="middle">Data + safety education</text><text x="44" y="484" fill="#1E8449">reporting system · school-first</text><text x="44" y="498" fill="#1E8449">education · driver training</text>
+    <rect x="284" y="450" width="244" height="52" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="406" y="468" fill="#145A32" font-weight="bold" text-anchor="middle">Safety measures + no alcohol</text><text x="300" y="484" fill="#1E8449">helmets, seat belts, door locks</text><text x="300" y="498" fill="#1E8449">· avoid drugs &amp; alcohol ⛔</text>
+    <rect x="540" y="450" width="232" height="52" rx="8" fill="#EAFAF1" stroke="#27AE60"/><text x="656" y="468" fill="#145A32" font-weight="bold" text-anchor="middle">Care + laws + rehab</text><text x="556" y="484" fill="#1E8449">trauma care · speed limits · tests</text><text x="556" y="498" fill="#1E8449">· medical fitness · rehabilitation</text>
+  </g>
+
+  <rect x="28" y="514" width="744" height="34" rx="8" fill="#C62828" fill-opacity="0.08"/>
+  <text x="46" y="536" font-size="12.5" font-weight="bold" fill="#7F1D1D">🎯 RTA factors = risky mix + bad roads + no segregation + overloading · Prevention = data + education + safety gear + law enforcement + rehab · ARC=BUET</text>
+</svg>

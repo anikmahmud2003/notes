@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Transmission of hepatitis A B C D E and rabies clinical features and post exposure prophylaxis">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6A1B9A"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q56 · Hepatitis Transmission &amp; Rabies 🐕</text>
+  <text x="29" y="56" font-size="13" fill="#e1bee7">A–E transmission · rabies stages · PEP</text>
+
+  <text x="28" y="84" font-size="13.5" font-weight="bold" fill="#6A1B9A">🦠 Transmission of viral hepatitis</text>
+  <g font-size="11">
+    <rect x="28" y="92" width="240" height="192" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="148" y="112" fill="#922B21" font-weight="bold" text-anchor="middle">🥣 Faeco-oral route</text>
+    <text x="44" y="130" fill="#7b241c"><tspan font-weight="bold">Hepatitis A</tspan> — contaminated water/food,</text>
+    <text x="44" y="144" fill="#7b241c">poor sanitation, person-to-person</text>
+    <text x="44" y="162" fill="#7b241c"><tspan font-weight="bold">Hepatitis E</tspan> — like A; dangerous</text>
+    <text x="44" y="176" fill="#7b241c">in pregnancy (high mortality)</text>
+    <text x="44" y="196" fill="#7b241c"></text>
+    <text x="44" y="214" fill="#7b241c"></text>
+    <text x="44" y="232" fill="#7b241c"></text>
+    <text x="44" y="250" fill="#7b241c"></text>
+    <text x="44" y="266" fill="#7b241c"></text>
+    <text x="44" y="280" fill="#7b241c"></text>
+
+    <rect x="280" y="92" width="240" height="192" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="400" y="112" fill="#922B21" font-weight="bold" text-anchor="middle">💉 Parenteral / blood route</text>
+    <text x="296" y="130" fill="#7b241c"><tspan font-weight="bold">Hepatitis B</tspan> — blood, syringes, needles,</text>
+    <text x="296" y="144" fill="#7b241c">transfusion; <tspan font-weight="bold">perinatal/vertical</tspan></text>
+    <text x="296" y="158" fill="#7b241c">(mother→child ★ high prevalence) · sexual</text>
+    <text x="296" y="174" fill="#7b241c"><tspan font-weight="bold">Hepatitis C</tspan> — transfusion · sexual · vertical</text>
+    <text x="296" y="190" fill="#7b241c"><tspan font-weight="bold">Hepatitis D</tspan> — REQUIRES HBV co/super-</text>
+    <text x="296" y="204" fill="#7b241c">infection · same routes as B</text>
+    <text x="296" y="224" fill="#4A148C" font-weight="bold">Why BD high: unsafe injections,</text>
+    <text x="296" y="238" fill="#4A148C">reused needles, unscreened blood,</text>
+    <text x="296" y="252" fill="#4A148C">mother-child, tattooing, barber razors</text>
+    <text x="296" y="270" fill="#7b241c"></text>
+  </g>
+
+  <rect x="28" y="296" width="744" height="20" rx="6" fill="#F3E5F5"/>
+  <text x="46" y="310" font-size="11.5" fill="#4A148C">🎯 A &amp; E = faeco-oral · B, C, D = parenteral (+sexual +vertical for B)</text>
+
+  <text x="28" y="332" font-size="13.5" font-weight="bold" fill="#6A1B9A">🐕 Rabies — clinical features</text>
+  <g font-size="10.5">
+    <rect x="28" y="340" width="360" height="72" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="208" y="358" fill="#922B21" font-weight="bold" text-anchor="middle">💧 Hydrophobia = pathognomonic</text>
+    <text x="44" y="376" fill="#7b241c">terroring spasms on drinking · spasm of</text>
+    <text x="44" y="390" fill="#7b241c">deglutition muscles + violent diaphragm</text>
+    <text x="44" y="404" fill="#7b241c">&amp; inspiratory muscle contraction</text>
+    <rect x="412" y="340" width="360" height="72" rx="9" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="592" y="358" fill="#9C640C" font-weight="bold" text-anchor="middle">Stages</text>
+    <text x="428" y="376" fill="#7E5109">1 Prodromal: fever, tingling at bite site</text>
+    <text x="428" y="390" fill="#7E5109">2 Excitative (furious): hydrophobia, aerophobia</text>
+    <text x="428" y="404" fill="#7E5109">3 Paralytic (dumb): descending paralysis → coma</text>
+  </g>
+  <rect x="28" y="420" width="744" height="22" rx="7" fill="#FDF2E9"/>
+  <text x="46" y="435" font-size="10.5" fill="#7E5109">Death ~4–7 days after onset · ~100% fatal · dx: Negri bodies, IF antigen, virus isolation, mice test · Louis Pasteur discovered</text>
+
+  <text x="28" y="458" font-size="13.5" font-weight="bold" fill="#6A1B9A">💉 Rabies — post-exposure prophylaxis (PEP)</text>
+  <g font-size="10.5">
+    <rect x="28" y="466" width="240" height="78" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="148" y="484" fill="#145A32" font-weight="bold" text-anchor="middle">a · Wound care 🧼</text>
+    <text x="44" y="502" fill="#1E8449">wash with soap &amp; water; don't</text>
+    <text x="44" y="516" fill="#1E8449">close open wounds; RIG 20 IU/kg</text>
+    <text x="44" y="530" fill="#1E8449">infiltrate severe head wounds</text>
+    <rect x="280" y="466" width="240" height="78" rx="9" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="400" y="484" fill="#6C3483" font-weight="bold" text-anchor="middle">b · HDCV immunization 💉</text>
+    <text x="296" y="502" fill="#6C3483">1 ml IM days 0, 3, 7, 14, 28 (+90)</text>
+    <text x="296" y="516" fill="#6C3483">Class-I (licks): vaccine</text>
+    <text x="296" y="530" fill="#6C3483">Class-II: vaccine · Class-III: vaccine+RIG</text>
+    <rect x="532" y="466" width="240" height="78" rx="9" fill="#EBF5FB" stroke="#2980B9"/>
+    <text x="652" y="484" fill="#1F618D" font-weight="bold" text-anchor="middle">c · Pre-exposure 🧬</text>
+    <text x="548" y="502" fill="#21618C">for lab/animal handlers: 3 doses</text>
+    <text x="548" y="516" fill="#21618C">0, 7, 21/28 · previously vaccinated:</text>
+    <text x="548" y="530" fill="#21618C">0,3,7 or 0,3</text>
+  </g>
+
+  <rect x="28" y="552" width="744" height="8" rx="4" fill="#6A1B9A" fill-opacity="0.1"/>
+  <text x="46" y="559" font-size="9.5" font-weight="bold" fill="#4A148C">🎯 PEP = clean wound + HDCV (0,3,7,14,28) + RIG 20 IU/kg for Class-III</text>
+</svg>

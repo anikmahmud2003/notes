@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Duties of school health medical officer and criteria of mid-day school meal">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#3949AB"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q34 · School Medical Officer &amp; Mid-Day Meal 🍱</text>
+  <text x="29" y="56" font-size="13" fill="#c5cae9">Duties of SMO · criteria of the mid-day school meal</text>
+
+  <text x="28" y="84" font-size="14" font-weight="bold" fill="#3949AB">🧑‍⚕️ Duties &amp; responsibilities of the School Health Medical Officer</text>
+  <g font-size="11.5">
+    <rect x="28" y="92" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="152" y="111" fill="#283593" font-weight="bold" text-anchor="middle">1 Training programmes</text><text x="152" y="127" fill="#3F51B5" text-anchor="middle">for teachers, monitors, PHC workers</text>
+    <rect x="288" y="92" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="412" y="111" fill="#283593" font-weight="bold" text-anchor="middle">2 Health education</text><text x="412" y="127" fill="#3F51B5" text-anchor="middle">with the school health team</text>
+    <rect x="548" y="92" width="224" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="660" y="111" fill="#283593" font-weight="bold" text-anchor="middle">3 Visit schools/hostels</text><text x="660" y="127" fill="#3F51B5" text-anchor="middle">water, sanitation, lighting, seating</text>
+    <rect x="28" y="146" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="152" y="165" fill="#283593" font-weight="bold" text-anchor="middle">4 Periodic exams + cards</text><text x="152" y="181" fill="#3F51B5" text-anchor="middle">new entrants ≤1 yr · secondary 2-yrly</text>
+    <rect x="288" y="146" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="412" y="165" fill="#283593" font-weight="bold" text-anchor="middle">5 Referral system</text><text x="412" y="181" fill="#3F51B5" text-anchor="middle">for specialised care</text>
+    <rect x="548" y="146" width="224" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="660" y="165" fill="#283593" font-weight="bold" text-anchor="middle">6 Control epidemics</text><text x="660" y="181" fill="#3F51B5" text-anchor="middle">outbreaks in school 📢</text>
+    <rect x="28" y="200" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="152" y="219" fill="#283593" font-weight="bold" text-anchor="middle">7 Deworming programme</text><text x="152" y="235" fill="#3F51B5" text-anchor="middle">albendazole 400 mg single dose</text>
+    <rect x="288" y="200" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="412" y="219" fill="#283593" font-weight="bold" text-anchor="middle">8 Inform parents</text><text x="412" y="235" fill="#3F51B5" text-anchor="middle">physical &amp; mental health of students</text>
+    <rect x="548" y="200" width="224" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="660" y="219" fill="#283593" font-weight="bold" text-anchor="middle">9 Coordinate dept.</text><text x="660" y="235" fill="#3F51B5" text-anchor="middle">education dept · SHP director</text>
+    <rect x="28" y="254" width="248" height="44" rx="8" fill="#E8EAF6" stroke="#3949AB"/><text x="152" y="273" fill="#283593" font-weight="bold" text-anchor="middle">10 Activity reports</text><text x="152" y="289" fill="#3F51B5" text-anchor="middle">+ 11 other assigned duties</text>
+    <rect x="288" y="254" width="484" height="44" rx="8" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="530" y="273" fill="#6C3483" font-weight="bold" text-anchor="middle">💡 Theme: train · educate · inspect · examine · refer · deworm · report</text>
+    <text x="530" y="289" fill="#6C3483" text-anchor="middle">SMO = coordinator, educator &amp; supervisor of school health</text>
+  </g>
+
+  <text x="28" y="318" font-size="14" font-weight="bold" fill="#3949AB">🍽 Mid-day school meal — definition &amp; 6 criteria</text>
+  <rect x="28" y="326" width="744" height="34" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="46" y="349" font-size="12" fill="#922B21">🔴 Nourishing meal for students on a <tspan font-weight="bold">'no profit no loss'</tspan> basis → combat malnutrition &amp; improve health</text>
+
+  <g font-size="11.5">
+    <rect x="28" y="368" width="240" height="56" rx="9" fill="#FEF9E7" stroke="#F39C12"/><text x="148" y="388" fill="#9C640C" font-weight="bold" text-anchor="middle">1 Supplement, not</text><text x="148" y="404" fill="#9C640C" font-weight="bold" text-anchor="middle">substitute</text><text x="148" y="418" fill="#7E5109" text-anchor="middle">to home diet 🏠</text>
+    <rect x="280" y="368" width="240" height="56" rx="9" fill="#EAFAF1" stroke="#27AE60"/><text x="400" y="388" fill="#14532D" font-weight="bold" text-anchor="middle">2 Energy &amp; protein</text><text x="400" y="404" fill="#14532D" font-weight="bold" text-anchor="middle">⅓ energy · ½ protein</text><text x="400" y="418" fill="#1E8449" text-anchor="middle">≥734 kcal (2200 kcal diet)</text>
+    <rect x="532" y="368" width="240" height="56" rx="9" fill="#EBF5FB" stroke="#2980B9"/><text x="652" y="388" fill="#1F618D" font-weight="bold" text-anchor="middle">3 Reasonably low cost</text><text x="652" y="404" fill="#1F618D" font-weight="bold" text-anchor="middle"></text><text x="652" y="418" fill="#21618C" text-anchor="middle">💰 affordable</text>
+    <rect x="28" y="434" width="240" height="56" rx="9" fill="#F4ECF7" stroke="#8E44AD"/><text x="148" y="454" fill="#6C3483" font-weight="bold" text-anchor="middle">4 Easily prepared</text><text x="148" y="470" fill="#6C3483" font-weight="bold" text-anchor="middle"></text><text x="148" y="484" fill="#6C3483" text-anchor="middle">in school kitchens</text>
+    <rect x="280" y="434" width="240" height="56" rx="9" fill="#FDECEC" stroke="#C0392B"/><text x="400" y="454" fill="#922B21" font-weight="bold" text-anchor="middle">5 Locally available</text><text x="400" y="470" fill="#922B21" font-weight="bold" text-anchor="middle">foods</text><text x="400" y="484" fill="#7b241c" text-anchor="middle">to lower cost</text>
+    <rect x="532" y="434" width="240" height="56" rx="9" fill="#FDEBD0" stroke="#E67E22"/><text x="652" y="454" fill="#9C640C" font-weight="bold" text-anchor="middle">6 Menu changed</text><text x="652" y="470" fill="#9C640C" font-weight="bold" text-anchor="middle">frequently</text><text x="652" y="484" fill="#7E5109" text-anchor="middle">avoid monotony 🔁</text>
+  </g>
+
+  <rect x="28" y="503" width="744" height="28" rx="8" fill="#E8EAF6"/>
+  <text x="46" y="521" font-size="11.5" fill="#283593">Model menu divide: protein 20% (107 g) · fat 20% (47 g) · carbohydrate 60% (321 g) of 2200 kcal</text>
+
+  <rect x="28" y="537" width="744" height="18" rx="6" fill="#3949AB" fill-opacity="0.08"/>
+  <text x="46" y="550" font-size="10.5" font-weight="bold" fill="#1A237E">🎯 Mid-day meal = supplement giving ⅓ energy + ½ protein · low cost · easy · local · varied</text>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Hypertension definition, classification and risk factors">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D35400"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q7 · Hypertension (HTN) 🩸</text>
+  <text x="29" y="56" font-size="13" fill="#fbd5bd">Definition · stages · classification by cause · risk factors</text>
+
+  <rect x="28" y="82" width="744" height="56" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="104" font-size="13.5" font-weight="bold" fill="#922B21">🔴 HYPERTENSION = persistently raised SBP ≥ 140 mmHg AND/OR DBP ≥ 90 mmHg</text>
+  <text x="46" y="123" font-size="12.5" fill="#7b241c">in subjects not taking antihypertensive medication</text>
+
+  <text x="28" y="156" font-size="14" font-weight="bold" fill="#D35400">📊 Stages of Hypertension (JNC/Park)</text>
+  <g font-size="12.5">
+    <rect x="28" y="164" width="250" height="34" fill="#34495E"/><text x="153" y="186" fill="#ffffff" font-weight="bold" text-anchor="middle">Stage</text>
+    <rect x="278" y="164" width="247" height="34" fill="#34495E"/><text x="401" y="186" fill="#ffffff" font-weight="bold" text-anchor="middle">Systolic</text>
+    <rect x="525" y="164" width="247" height="34" fill="#34495E"/><text x="648" y="186" fill="#ffffff" font-weight="bold" text-anchor="middle">Diastolic</text>
+
+    <rect x="28" y="198" width="250" height="32" fill="#EAFAF1"/><text x="153" y="219" fill="#1E8449" font-weight="bold" text-anchor="middle">Normal</text>
+    <rect x="278" y="198" width="247" height="32" fill="#EAFAF1"/><text x="401" y="219" fill="#145A32" text-anchor="middle">&lt; 130</text>
+    <rect x="525" y="198" width="247" height="32" fill="#EAFAF1"/><text x="648" y="219" fill="#145A32" text-anchor="middle">&lt; 85</text>
+
+    <rect x="28" y="230" width="250" height="32" fill="#EBF5FB"/><text x="153" y="251" fill="#1F618D" font-weight="bold" text-anchor="middle">High normal</text>
+    <rect x="278" y="230" width="247" height="32" fill="#EBF5FB"/><text x="401" y="251" fill="#21618C" text-anchor="middle">130 – 139</text>
+    <rect x="525" y="230" width="247" height="32" fill="#EBF5FB"/><text x="648" y="251" fill="#21618C" text-anchor="middle">85 – 90</text>
+
+    <rect x="28" y="262" width="250" height="32" fill="#FEF9E7"/><text x="153" y="283" fill="#9C640C" font-weight="bold" text-anchor="middle">Stage 1 · Mild</text>
+    <rect x="278" y="262" width="247" height="32" fill="#FEF9E7"/><text x="401" y="283" fill="#7E5109" text-anchor="middle">140 – 159</text>
+    <rect x="525" y="262" width="247" height="32" fill="#FEF9E7"/><text x="648" y="283" fill="#7E5109" text-anchor="middle">90 – 99</text>
+
+    <rect x="28" y="294" width="250" height="32" fill="#FDEBD0"/><text x="153" y="315" fill="#AF601A" font-weight="bold" text-anchor="middle">Stage 2 · Moderate</text>
+    <rect x="278" y="294" width="247" height="32" fill="#FDEBD0"/><text x="401" y="315" fill="#935116" text-anchor="middle">160 – 179</text>
+    <rect x="525" y="294" width="247" height="32" fill="#FDEBD0"/><text x="648" y="315" fill="#935116" text-anchor="middle">100 – 109</text>
+
+    <rect x="28" y="326" width="250" height="32" fill="#FDECEC"/><text x="153" y="347" fill="#922B21" font-weight="bold" text-anchor="middle">Stage 3 · Severe</text>
+    <rect x="278" y="326" width="247" height="32" fill="#FDECEC"/><text x="401" y="347" fill="#7b241c" text-anchor="middle">≥ 180</text>
+    <rect x="525" y="326" width="247" height="32" fill="#FDECEC"/><text x="648" y="347" fill="#7b241c" text-anchor="middle">≥ 110</text>
+  </g>
+
+  <text x="28" y="384" font-size="14" font-weight="bold" fill="#D35400">🔄 Classification by Cause</text>
+  <rect x="28" y="392" width="360" height="62" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+  <text x="44" y="414" font-size="13.5" font-weight="bold" fill="#1F618D">Primary / Essential</text>
+  <text x="44" y="434" font-size="12.5" fill="#21618C">No specific cause · <tspan font-weight="bold">&gt; 90%</tspan> of patients</text>
+
+  <rect x="412" y="392" width="360" height="62" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="428" y="414" font-size="13.5" font-weight="bold" fill="#922B21">Secondary</text>
+  <text x="428" y="434" font-size="12.5" fill="#7b241c">Cause detectable · <tspan font-weight="bold">&lt; 10%</tspan>: renal, endocrine,</text>
+  <text x="428" y="450" font-size="11.5" fill="#7b241c">coarctation of aorta, pregnancy, drugs (OCP)</text>
+
+  <rect x="28" y="470" width="744" height="40" rx="10" fill="#FEF9E7" stroke="#F39C12"/>
+  <text x="46" y="494" font-size="12.5" fill="#7E5109">⚠️ <tspan font-weight="bold">Risk:</tspan> non-modifiable = age + genetics + family history · modifiable = obesity + salt + fat + alcohol + inactivity + stress</text>
+
+  <rect x="28" y="522" width="744" height="26" rx="8" fill="#D35400" fill-opacity="0.08"/>
+  <text x="46" y="539" font-size="12" font-weight="bold" fill="#A04000">🎯 HTN = ≥140/90 · 90% essential · 10% secondary</text>
+</svg>

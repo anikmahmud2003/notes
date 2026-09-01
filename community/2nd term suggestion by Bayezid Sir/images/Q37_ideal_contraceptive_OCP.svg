@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Ideal contraceptive features and combined oral pill with indications and risks">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#00897B"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q37 · Ideal Contraceptive &amp; OCP 💊</text>
+  <text x="29" y="56" font-size="13" fill="#b2dfdb">Features of ideal method · combined oral pill · indications · contraindications · side effects</text>
+
+  <text x="28" y="84" font-size="14" font-weight="bold" fill="#00897B">⭐ Features of an ideal contraceptive</text>
+  <g font-size="11">
+    <rect x="28" y="92" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="98" y="112" fill="#004D40" font-weight="bold" text-anchor="middle">Safe 🛡</text><text x="98" y="130" fill="#00695C" text-anchor="middle">no risk</text>
+    <rect x="176" y="92" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="246" y="112" fill="#004D40" font-weight="bold" text-anchor="middle">Effective ✅</text><text x="246" y="130" fill="#00695C" text-anchor="middle">reliable</text>
+    <rect x="324" y="92" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="394" y="112" fill="#004D40" font-weight="bold" text-anchor="middle">Acceptable 👍</text><text x="394" y="126" fill="#00695C" text-anchor="middle">culturally,</text><text x="394" y="140" fill="#00695C" text-anchor="middle">socially</text>
+    <rect x="472" y="92" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="542" y="112" fill="#004D40" font-weight="bold" text-anchor="middle">Inexpensive 💰</text><text x="542" y="130" fill="#00695C" text-anchor="middle">easy access</text>
+    <rect x="620" y="92" width="152" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="696" y="112" fill="#004D40" font-weight="bold" text-anchor="middle">Reversible 🔄</text><text x="696" y="130" fill="#00695C" text-anchor="middle">fertility returns</text>
+    <rect x="28" y="158" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="98" y="178" fill="#004D40" font-weight="bold" text-anchor="middle">Simple ⏱</text><text x="98" y="196" fill="#00695C" text-anchor="middle">to administer</text>
+    <rect x="176" y="158" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="246" y="178" fill="#004D40" font-weight="bold" text-anchor="middle">Independent of</text><text x="246" y="196" fill="#004D40" font-weight="bold" text-anchor="middle">coitus 🚫🍑</text>
+    <rect x="324" y="158" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="394" y="178" fill="#004D40" font-weight="bold" text-anchor="middle">Long lasting 📅</text><text x="394" y="196" fill="#00695C" text-anchor="middle">effect</text>
+    <rect x="472" y="158" width="140" height="58" rx="8" fill="#E0F2F1" stroke="#00897B"/><text x="542" y="178" fill="#004D40" font-weight="bold" text-anchor="middle">Little/no medical</text><text x="542" y="196" fill="#004D40" font-weight="bold" text-anchor="middle">supervision 👩‍⚕️</text>
+    <rect x="620" y="158" width="152" height="58" rx="8" fill="#E8F5E9" stroke="#43A047"/>
+    <text x="696" y="178" fill="#1B5E20" font-weight="bold" text-anchor="middle">Cafeteria choice</text>
+    <text x="696" y="194" fill="#2E7D32" text-anchor="middle">all methods offered →</text>
+    <text x="696" y="208" fill="#2E7D32" text-anchor="middle">user picks 🧺</text>
+  </g>
+
+  <text x="28" y="236" font-size="14" font-weight="bold" fill="#00897B">💊 Combined oral pill (OCP)</text>
+  <rect x="28" y="244" width="744" height="30" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+  <text x="46" y="264" font-size="11.5" fill="#922B21">🔴 Major <tspan font-weight="bold">spacing method</tspan> with oestrogen + progesterone · start Day 5 · fixed time · 21 days + 7 iron days</text>
+  <g font-size="11">
+    <rect x="28" y="282" width="372" height="118" rx="9" fill="#EAFAF1" stroke="#27AE60"/>
+    <text x="214" y="300" fill="#145A32" font-weight="bold" text-anchor="middle">🛡 Indications / non-contraceptive benefits</text>
+    <text x="44" y="318" fill="#1E8449">1 ↓ premenstrual tension · 2 dysmenorrhoea</text>
+    <text x="44" y="334" fill="#1E8449">3 abnormal uterine bleeding · 4 DUB</text>
+    <text x="44" y="350" fill="#1E8449">5 functional ovarian cyst · 6 benign breast disease</text>
+    <text x="44" y="366" fill="#1E8449">7 sterility · 8 endometriosis · 9 menopause</text>
+    <text x="44" y="384" fill="#1E8449">10 contraceptive use · ideal: young, sexually active, nulliparous</text>
+
+    <rect x="412" y="282" width="360" height="118" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="592" y="300" fill="#922B21" font-weight="bold" text-anchor="middle">🚫 Contraindications</text>
+    <text x="428" y="318" fill="#7b241c">A. Absolute: breast/genital Ca · liver disease</text>
+    <text x="428" y="334" fill="#7b241c">thromboembolism · cardiac abnormalities</text>
+    <text x="428" y="350" fill="#7b241c">congenital hyperlipidaemia · undiagnosed AUB</text>
+    <text x="428" y="366" fill="#7b241c">B. Monitor: &gt;40 yrs · smoking &gt;35 · HTN · DM</text>
+    <text x="428" y="382" fill="#7b241c">epilepsy · migraine · nursing mothers 1st 6 mo</text>
+    <text x="428" y="398" fill="#7b241c">gall bladder · amenorrhoea</text>
+  </g>
+
+  <text x="28" y="420" font-size="14" font-weight="bold" fill="#00897B">⚠️ Adverse effects / complications</text>
+  <g font-size="11">
+    <rect x="28" y="428" width="240" height="66" rx="8" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="148" y="446" fill="#922B21" font-weight="bold" text-anchor="middle">Cardiovascular ❤️</text>
+    <text x="44" y="464" fill="#7b241c">MI · cerebral thrombosis ·</text>
+    <text x="44" y="480" fill="#7b241c">venous embolism/PE</text>
+    <rect x="280" y="428" width="240" height="66" rx="8" fill="#F4ECF7" stroke="#8E44AD"/>
+    <text x="400" y="446" fill="#6C3483" font-weight="bold" text-anchor="middle">Carcinogenesis 🎗</text>
+    <text x="296" y="464" fill="#6C3483">cervical carcinoma (mainly)</text>
+    <text x="296" y="480" fill="#6C3483">+ liver adenoma</text>
+    <rect x="532" y="428" width="240" height="66" rx="8" fill="#FEF9E7" stroke="#F39C12"/>
+    <text x="652" y="446" fill="#9C640C" font-weight="bold" text-anchor="middle">Common 😐</text>
+    <text x="548" y="464" fill="#7E5109">breast tenderness · weight gain</text>
+    <text x="548" y="480" fill="#7E5109">headache · migraine</text>
+    <rect x="28" y="502" width="360" height="34" rx="8" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="208" y="524" fill="#7E5109" text-anchor="middle">Metabolic: ↑BP · ↑LDL/VLDL · ↓HDL · lactation ↓ milk</text>
+    <rect x="412" y="502" width="360" height="34" rx="8" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="592" y="524" fill="#7E5109" text-anchor="middle">Fertility: ↓ subsequent fertility · ectopic pregnancy · birth defects</text>
+  </g>
+
+  <rect x="28" y="542" width="744" height="14" rx="6" fill="#00897B" fill-opacity="0.08"/>
+  <text x="46" y="553" font-size="10.5" font-weight="bold" fill="#004D40">🎯 OCP = Mala-N/Mala-D · contraindications = breast/liver cancer + thromboembolism · complications = CVD + cervical Ca + metabolic</text>
+</svg>

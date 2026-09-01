@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="Postnatal complications, weaning, IYCF, milk injury and contraindications of breast feeding">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#6D4C41"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q32 · Puerperium · Weaning · IYCF 🍼</text>
+  <text x="29" y="56" font-size="13" fill="#f3e5dc">Postnatal complications · weaning · IYCF · milk injury · contraindications of BF</text>
+
+  <text x="28" y="84" font-size="14" font-weight="bold" fill="#6D4C41">⚠️ Complications of postnatal period (puerperium)</text>
+  <g font-size="11.5">
+    <rect x="28" y="92" width="238" height="60" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="147" y="112" fill="#922B21" font-weight="bold" text-anchor="middle">1 Puerperal sepsis 🦠</text>
+    <text x="44" y="128" fill="#7b241c">genital infection &lt;3 wks · fever, foul lochia,</text>
+    <text x="44" y="144" fill="#7b241c">↑ pulse, lower-abd pain/tenderness</text>
+
+    <rect x="278" y="92" width="238" height="60" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="397" y="112" fill="#922B21" font-weight="bold" text-anchor="middle">2 Thrombophlebitis 🦵</text>
+    <text x="294" y="128" fill="#7b241c">leg-vein infection with varicose veins ·</text>
+    <text x="294" y="144" fill="#7b241c">leg tender, pale, swollen</text>
+
+    <rect x="528" y="92" width="244" height="60" rx="9" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="650" y="112" fill="#922B21" font-weight="bold" text-anchor="middle">3 Secondary haemorrhage 🩸</text>
+    <text x="544" y="128" fill="#7b241c">PV bleeding from 6 h after delivery</text>
+    <text x="544" y="144" fill="#7b241c">to end of puerperium (6 wks)</text>
+
+    <rect x="28" y="160" width="238" height="44" rx="9" fill="#FDEBD0" stroke="#E67E22"/><text x="147" y="179" fill="#9C640C" font-weight="bold" text-anchor="middle">4 Urinary tract infection 💧</text><text x="147" y="196" fill="#7E5109" text-anchor="middle">check urine during puerperium</text>
+    <rect x="278" y="160" width="238" height="44" rx="9" fill="#FDEBD0" stroke="#E67E22"/><text x="397" y="179" fill="#9C640C" font-weight="bold" text-anchor="middle">5 Mastitis (breast infection) 🍼</text><text x="397" y="196" fill="#7E5109" text-anchor="middle">breast+abdomen+lochia checks</text>
+    <rect x="528" y="160" width="244" height="44" rx="9" fill="#FDF2E9" stroke="#D68910"/><text x="650" y="179" fill="#9C640C" text-anchor="middle">Prevention: twice-a-day exam first 3 days</text><text x="650" y="196" fill="#7E5109" text-anchor="middle">· asepsis at &amp; after delivery ▶</text>
+  </g>
+
+  <rect x="28" y="216" width="424" height="96" rx="10" fill="#EBF5FB" stroke="#2980B9"/>
+  <text x="46" y="236" font-size="12.5" fill="#1F618D">👶 <tspan font-weight="bold">Weaning</tspan> = gradual withdrawal of the baby</text>
+  <text x="46" y="254" font-size="11.5" fill="#21618C">from breast feeding starting at 4–5 months, adding</text>
+  <text x="46" y="270" font-size="11.5" fill="#21618C">protein-rich supplementary foods · complete by</text>
+  <text x="46" y="286" font-size="11.5" fill="#21618C">9 months–1 yr when child takes adult diet</text>
+  <text x="46" y="302" font-size="11" fill="#5D6D7E">Foods: cow's milk · fruit juice · mashed rice/khichuri · potato soup · cerelac</text>
+
+  <rect x="464" y="216" width="308" height="96" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+  <text x="482" y="236" font-size="12.5" fill="#6C3483">🥤 <tspan font-weight="bold">Milk injury</tspan> = milk-only feeding for</text>
+  <text x="482" y="254" font-size="11.5" fill="#6C3483">1–2 years without any supplementary food</text>
+  <text x="482" y="270" font-size="11.5" fill="#6C3483">→ baby becomes 🥴 <tspan font-weight="bold">flabby &amp; oedematous</tspan></text>
+  <text x="482" y="286" font-size="11.5" fill="#6C3483">(protein deficiency) + <tspan font-weight="bold">anaemic</tspan> (iron deficiency)</text>
+  <text x="482" y="302" font-size="11" fill="#B03A2E">Weaning period is crucial → if misdone: PEM + infection</text>
+
+  <rect x="28" y="324" width="744" height="22" rx="7" fill="#FDF2E9"/>
+  <text x="46" y="339" font-size="12" fill="#9C640C">🤱 <tspan font-weight="bold">IYCF (Infant &amp; Young Child Feeding):</tspan> ① Exclusive BF first 6 months ② complementary feeding from 6 months ③ continue BF to 2 yrs or beyond</text>
+
+  <text x="28" y="362" font-size="13.5" font-weight="bold" fill="#6D4C41">⛔ Contraindications of breast feeding</text>
+  <g font-size="11.5">
+    <rect x="28" y="370" width="366" height="104" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="211" y="390" fill="#922B21" font-weight="bold" text-anchor="middle">A · In the mother 🤰</text>
+    <text x="44" y="408" fill="#7b241c">1 Serious psychiatric disorder</text>
+    <text x="44" y="424" fill="#7b241c">2 Markedly inverted / cracked nipple</text>
+    <text x="44" y="440" fill="#7b241c">3 Acute fever · TB · chronic nephritis · breast abscess · septicaemia · breast tumour</text>
+    <text x="44" y="456" fill="#7b241c">4 Anti-cancer drug treatment</text>
+    <text x="44" y="472" fill="#7b241c">5 AIDS ⚡ (higher in BD)</text>
+
+    <rect x="406" y="370" width="366" height="104" rx="10" fill="#FDEBD0" stroke="#E67E22"/>
+    <text x="589" y="390" fill="#9C640C" font-weight="bold" text-anchor="middle">B · In the child 👶</text>
+    <text x="422" y="408" fill="#7E5109">1 <tspan font-weight="bold">Galactosemia</tspan> — ABSOLUTE ⛔</text>
+    <text x="422" y="424" fill="#7E5109">2 Phenylketonuria (PKU)</text>
+    <text x="422" y="440" fill="#7E5109">3 Gross prematurity / cannot suck</text>
+    <text x="422" y="458" fill="#5B2C6F" font-weight="bold" font-size="12">✅ Anti-infective agents in human milk</text>
+    <text x="422" y="472" fill="#6C3483">secretory IgA (IgG, IgM) · lymphoid cells/MΦ · C3-C4 complement · lactoferrin &amp; transferrin</text>
+  </g>
+
+  <rect x="28" y="486" width="744" height="22" rx="7" fill="#FEF9E7"/>
+  <text x="46" y="501" font-size="11.5" fill="#7E5109">Good weaning: one new food at a time, small → banana → rice+pulses/khichuri → egg, meat · colostrum gives passive immunity + protects against infection</text>
+
+  <rect x="28" y="520" width="744" height="30" rx="8" fill="#6D4C41" fill-opacity="0.08"/>
+  <text x="46" y="540" font-size="12.5" font-weight="bold" fill="#3E2723">🎯 Puerperium problems = sepsis+thrombophlebitis+haemorrhage+UTI+mastitis · Weaning = 4–5 mo gradual · IYCF = 6 mo EBF + to 2 yrs · Milk injury = flabby+anaemic!</text>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Arial,'Segoe UI','Noto Sans',sans-serif" role="img" aria-label="MCH care services, problems and prevention in Bangladesh">
+  <rect width="800" height="560" fill="#ffffff"/>
+  <rect width="800" height="70" fill="#D81B60"/>
+  <text x="28" y="35" font-size="22" font-weight="bold" fill="#ffffff">Q26 · Maternal &amp; Child Health (MCH) 🤰</text>
+  <text x="29" y="56" font-size="13" fill="#f8cddd">Services in Bangladesh · the 3 problems · prevention</text>
+
+  <rect x="28" y="82" width="744" height="48" rx="10" fill="#FDECEC" stroke="#C0392B" stroke-width="2"/>
+  <text x="46" y="102" font-size="13" fill="#922B21" font-weight="bold">🔴 MCH = promotive, preventive, curative &amp; rehabilitative health care for mothers &amp; children</text>
+  <text x="46" y="120" font-size="11.5" fill="#7b241c">Objectives: ↓ maternal/perinatal/infant mortality · promote reproductive health · child development</text>
+
+  <text x="28" y="148" font-size="14" font-weight="bold" fill="#D81B60">📋 MCH care services in Bangladesh</text>
+  <g font-size="11.5">
+    <rect x="28" y="156" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="118" y="177" fill="#1F618D" text-anchor="middle">1 · ANC · 2 · INC · 3 · PNC</text>
+    <rect x="216" y="156" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="306" y="177" fill="#1F618D" text-anchor="middle">4 · Immunization 💉</text>
+    <rect x="404" y="156" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="494" y="177" fill="#1F618D" text-anchor="middle">5 · High-risk screening</text>
+    <rect x="592" y="156" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="682" y="177" fill="#1F618D" text-anchor="middle">6 · Health education</text>
+    <rect x="28" y="196" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="118" y="217" fill="#1F618D" text-anchor="middle">7 · Emergency obstetric care</text>
+    <rect x="216" y="196" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="306" y="217" fill="#1F618D" text-anchor="middle">8 · Vit-A &amp; iron supplement</text>
+    <rect x="404" y="196" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="494" y="217" fill="#1F618D" text-anchor="middle">9 · ORS distribution</text>
+    <rect x="592" y="196" width="180" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="682" y="217" fill="#1F618D" text-anchor="middle">10 · Medical treatment</text>
+    <rect x="28" y="236" width="362" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="209" y="257" fill="#1F618D" text-anchor="middle">11 · MR &amp; post-abortion care</text>
+    <rect x="404" y="236" width="368" height="32" rx="8" fill="#EBF5FB" stroke="#2980B9"/><text x="588" y="257" fill="#1F618D" text-anchor="middle">12 · RTI / STI services</text>
+  </g>
+
+  <text x="28" y="290" font-size="14" font-weight="bold" fill="#D81B60">⚠️ MCH problems in Bangladesh (the big 3)</text>
+  <g font-size="12">
+    <rect x="28" y="298" width="244" height="82" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="44" y="318" font-weight="bold" fill="#922B21">1 · Malnutrition 🍽</text>
+    <text x="44" y="338" fill="#7b241c">maternal depletion · anaemia ·</text>
+    <text x="44" y="354" fill="#7b241c">toxaemia · PPH · LBW</text>
+    <text x="44" y="372" fill="#7b241c">↓ food supplement + fortify</text>
+
+    <rect x="284" y="298" width="244" height="82" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="300" y="318" font-weight="bold" fill="#922B21">2 · Infection 🦠</text>
+    <text x="300" y="338" fill="#7b241c">ARI · EPI-6 diseases ·</text>
+    <text x="300" y="354" fill="#7b241c">diarrhoea · puerperal sepsis</text>
+    <text x="300" y="372" fill="#7b241c">↓ immunization + hygiene</text>
+
+    <rect x="540" y="298" width="232" height="82" rx="10" fill="#FDECEC" stroke="#C0392B"/>
+    <text x="556" y="318" font-weight="bold" fill="#922B21">3 · Uncontrolled reproduction</text>
+    <text x="556" y="338" fill="#7b241c">anaemia · abortion · APH · LBW</text>
+    <text x="556" y="354" fill="#7b241c">· maternal mortality</text>
+    <text x="556" y="372" fill="#7b241c">↓ ANC/INC/PNC + family planning</text>
+  </g>
+
+  <rect x="28" y="396" width="744" height="42" rx="10" fill="#F4F6F7" stroke="#95A5A6"/>
+  <text x="46" y="414" font-size="12.5" fill="#5D6D7E">💡 Common child health problems in BD: LBW · malnutrition · infections &amp; parasitoses · accidents &amp; poisoning · behavioural problems</text>
+  <text x="46" y="430" font-size="11.5" fill="#7f8c8d">Prevention triangle = food + infection control + family planning/spacing (safe motherhood)</text>
+
+  <rect x="28" y="450" width="744" height="54" rx="10" fill="#F4ECF7" stroke="#8E44AD"/>
+  <text x="46" y="472" font-size="12.5" fill="#6C3483">📌 The three main problems — Malnutrition · Infection · Uncontrolled reproduction —</text>
+  <text x="46" y="490" font-size="12" fill="#6C3483">form the "3-legged stool" causing most maternal &amp; child morbidity/mortality in developing countries</text>
+
+  <rect x="28" y="516" width="744" height="32" rx="8" fill="#D81B60" fill-opacity="0.08"/>
+  <text x="46" y="537" font-size="12.5" font-weight="bold" fill="#880E4F">🎯 MCH = ANC·INC·PNC + immunization + EOC + nutrition · Problems = malnutrition + infection + uncontrolled reproduction</text>
+</svg>
