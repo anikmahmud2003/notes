@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch24 — Electrolyte &amp; Acid-Base Balance | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#electrolytes">Electrolytes</a><a href="#hypokal">Hypokalaemia</a><a href="#hyperkal">Hyperkalaemia</a><a href="#hyponat">Hyponatraemia</a><a href="#hypernat">Hypernatraemia</a><a href="#hypocal">Hypocalcaemia</a><a href="#hypercal">Hypercalcaemia</a><a href="#acidbase">Acid-Base</a><a href="#metacid">Metabolic Acidosis</a><a href="#metalk">Metabolic Alkalosis</a><a href="#respacid">Respiratory Acidosis</a><a href="#respalk">Respiratory Alkalosis</a><a href="#cases">Clinical Cases</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Pathology · Arif Guide 2025 Vol-2 · Unit-II · pp.470–479</span>
+  <h1>Ch 24 — Electrolyte and Acid-Base Balance
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Electrolyte &amp; Acid-Base Balance (boss-level overview)</h3>
+    <p><strong>Normal serum electrolytes (mmol/L or mEq/L):</strong> <span class="good">Na⁺ 135–145 · K⁺ 3.6–5.1 · Cl⁻ 95–107 · HCO₃⁻ 21–29 · Ca²⁺ 2.1–2.6</span>. Electrolytes = salts/metallic components dissolved in serum; they carry an electrical charge and are required for nerve conduction, heart &amp; skeletal muscle contraction, hydration status, and pH maintenance.</p>
+    <p>Each electrolyte has a <strong>low state (hypo)</strong> and a <strong>high state (hyper)</strong>—memorise the causes + clinical features of each: <strong>Hypo-/Hyper-natraemia (Na), -kalaemia (K), -calcaemia (Ca)</strong>.</p>
+    <p><strong>Acid-base physiology:</strong> normal blood <strong>pH 7.35–7.45</strong> (arterial 7.45, venous 7.35). The key equation (Henderson-Hasselbalch) links pH to the <strong>HCO₃⁻ / pCO₂ ratio</strong>. Four primary disorders:</p>
+    <table>
+      <tr><th>Disorder</th><th>Primary defect</th><th>Mechanism</th></tr>
+      <tr><td><strong>Metabolic acidosis</strong></td><td>↓ HCO₃⁻</td><td>↑ acid production / ↓ acid removal / HCO₃⁻ loss → ↓ pH</td></tr>
+      <tr><td><strong>Metabolic alkalosis</strong></td><td>↑ HCO₃⁻</td><td>Base accumulation / acid loss (other than HCO₃⁻) → ↑ pH</td></tr>
+      <tr><td><strong>Respiratory acidosis</strong></td><td>↑ pCO₂</td><td>Hypoventilation → CO₂ retention → ↓ pH</td></tr>
+      <tr><td><strong>Respiratory alkalosis</strong></td><td>↓ pCO₂</td><td>Hyperventilation → CO₂ loss → ↑ pH</td></tr>
+    </table>
+    <p><strong>Golden ABG (arterial blood gas) interpretation summary:</strong></p>
+    <ul>
+      <li>🔴 <strong>↑pH + ↑HCO₃⁻ = metabolic alkalosis</strong>; ↑pH + ↓pCO₂ = respiratory alkalosis.</li>
+      <li>🔴 <strong>↓pH + ↓HCO₃⁻ = metabolic acidosis</strong>; ↓pH + ↑pCO₂ = respiratory acidosis.</li>
+      <li>📌 <strong>Respiratory/metabolic:</strong> CO₂ = respiratory side (lungs); HCO₃⁻ = metabolic side (kidneys). Compensation: metabolic disorders are compensated by the lungs (pCO₂ change), respiratory disorders by the kidneys (HCO₃⁻ change).</li>
+      <li>🎯 <strong>ROME mnemonic:</strong> <em>Respiratory Opposite, Metabolic Equal</em> — in respiratory disorders the pH and pCO₂ move in opposite directions; in metabolic disorders pH and HCO₃⁻ move in the same direction.</li>
+    </ul>
+    <p><strong>Anion gap (AG) note:</strong> AG = [Na⁺] − ([Cl⁻] + [HCO₃⁻]). Normal ≈ 12 ± 4 mmol/L. Increased AG metabolic acidosis in DKA (diabetic ketoacidosis), lactic acidosis, methanol, renal failure (e.g. ketones, lactate, methanol, uraemia). Normal (hyperchloraemic) AG in diarrhoea, renal tubular acidosis (RTA).</p>
+    <p class="ref">Robbins 10e · Davidson's 21/22e · Guyton 11e · Arif Guide 2025 Vol-2, pp.470–479</p>
+  </div>
+
+  <h2 id="electrolytes">1 · Serum Electrolytes — Composition &amp; Normal Values</h2>
+
+  <details>
+    <summary>What are the electrolytes that are done to evaluate a patient? Give their normal levels. (DU-16Ja)</summary>
+    <div class="ans">
+      <p><strong>Serum electrolytes</strong> are the salts and metallic components that are dissolved within the blood serum (serum = the liquid portion of blood). Electrolytes carry an electrical charge, either negative or positive; the negatively charged electrolytes are balanced by the positively charged electrolytes.</p>
+      <h3>Normal level of serum electrolytes (mmol/L or mEq/L)</h3>
+      <table>
+        <tr><th>Electrolyte</th><th>Reference range (mmol/L or mEq/L)</th></tr>
+        <tr><td><strong>Na⁺ (sodium)</strong></td><td>135–145</td></tr>
+        <tr><td><strong>K⁺ (potassium)</strong></td><td>3.6–5.1</td></tr>
+        <tr><td><strong>Cl⁻ (chloride)</strong></td><td>95–107</td></tr>
+        <tr><td><strong>HCO₃⁻ (bicarbonate)</strong></td><td>21–29</td></tr>
+        <tr><td><strong>Ca²⁺ (calcium)</strong></td><td>2.1–2.6 (9–11 mg/dl)</td></tr>
+      </table>
+      <p class="ref">Ref: Davidson's/21e/1294,1296</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Give the normal level of serum electrolytes. (DU-15Ja) Mention the clinical importance of serum electrolytes. (SU-19Nv,17M)</summary>
+    <div class="ans">
+      <p><strong>Normal serum electrolyte levels:</strong></p>
+      <table>
+        <tr><th>Electrolyte</th><th>Reference range (mmol/L)</th></tr>
+        <tr><td>Na⁺ (sodium)</td><td>135–145</td></tr>
+        <tr><td>K⁺ (potassium)</td><td>3.6–5.1</td></tr>
+        <tr><td>Cl⁻ (chloride)</td><td>95–107</td></tr>
+        <tr><td>HCO₃⁻ (bicarbonate)</td><td>21–29</td></tr>
+        <tr><td>Ca²⁺ (calcium)</td><td>2.1–2.6</td></tr>
+      </table>
+      <h3>Clinical importance of serum electrolytes</h3>
+      <p>Electrolytes are involved in most of the body's daily functions. They are required for:</p>
+      <ul>
+        <li>Proper <strong>nerve conduction</strong></li>
+        <li><strong>Heart and skeletal muscle contraction</strong></li>
+        <li>Maintenance of proper <strong>hydration status</strong></li>
+        <li>Maintenance of proper <strong>blood pH</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/1294,1296</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Write down the components of electrolytes with their normal values. (CMU-21M)</summary>
+    <div class="ans">
+      <p><strong>Components of serum electrolytes with normal values:</strong> the five principal measured serum electrolytes are <strong>sodium (Na⁺)</strong> 135–145 mmol/L, <strong>potassium (K⁺)</strong> 3.6–5.1 mmol/L, <strong>chloride (Cl⁻)</strong> 95–107 mmol/L, <strong>bicarbonate (HCO₃⁻)</strong> 21–29 mmol/L, and <strong>calcium (Ca²⁺)</strong> 2.1–2.6 mmol/L (9–11 mg/dl).</p>
+      <p>These are charged ions (positive cations: Na⁺, K⁺, Ca²⁺; negative anions: Cl⁻, HCO₃⁻) that balance each other in the serum and drive nerve/muscle function, hydration and pH balance.</p>
+      <div class="mnem">🎯 <strong>Na-K-Cl-HCO3-Ca = the "Big Five"</strong> panel: sodium &amp; potassium (cations), chloride &amp; bicarbonate (anions), calcium (divalent cation).</div>
+      <p class="ref">Ref: Davidson's/21e/1294,1296</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Give the normal serum levels of Na⁺, K⁺, Cl⁻, HCO₃⁻ and Ca²⁺. (DU-05Ja) Short note: Serum electrolytes. (CU-15Ja)</summary>
+    <div class="ans">
+      <p><strong>Normal serum levels:</strong></p>
+      <table>
+        <tr><th>Electrolyte</th><th>Normal serum level</th></tr>
+        <tr><td>Sodium (Na⁺)</td><td>135–145 mmol/L</td></tr>
+        <tr><td>Potassium (K⁺)</td><td>3.6–5.1 mmol/L</td></tr>
+        <tr><td>Chloride (Cl⁻)</td><td>95–107 mmol/L</td></tr>
+        <tr><td>Bicarbonate (HCO₃⁻)</td><td>21–29 mmol/L</td></tr>
+        <tr><td>Calcium (Ca²⁺)</td><td>2.1–2.6 mmol/L (9–11 mg/dl)</td></tr>
+      </table>
+      <p><strong>Serum electrolytes (short note):</strong> serum electrolytes are the salts and metallic components dissolved within the blood serum (serum = the liquid portion of blood). They carry an electrical charge (negative balanced by positive). They are involved in most of the body's daily functions — nerve conduction, heart &amp; skeletal muscle contraction, maintenance of hydration status, and maintenance of proper blood pH.</p>
+      <p class="ref">Ref: Davidson's/21e/1294,1296</p>
+    </div>
+  </details>
+
+  <h2 id="hypokal">2 · Hypokalaemia (K⁺ &lt; 3.5 mmol/L)</h2>
+
+  <details id="hypokal2">
+    <summary>🔴 Mention the causes (CU-18Nv), clinical features and investigations of hypokalaemia. What are the complications of hypokalaemia? (CMU-21M) Short note on: Hypokalaemia.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hypokalaemia</span> = decreased plasma K⁺ (potassium) level less than <strong>3.5 mmol/L</strong>.</p>
+      <p class="ref">Ref: Davidson's/20e/432</p>
+      <h3>Causes of hypokalaemia (🔴 Very Important for VIVA)</h3>
+      <ol>
+        <li><strong>Inadequate intake in diet</strong></li>
+        <li><strong>Loss of K⁺ through GIT (gastrointestinal tract):</strong>
+          <ul>
+            <li>a) Severe vomiting</li>
+            <li>b) Diarrhoea</li>
+            <li>c) Nasogastric aspiration</li>
+            <li>d) Intestinal fistula</li>
+            <li>e) Bowel obstruction</li>
+          </ul></li>
+        <li><strong>Alkalosis due to any cause</strong></li>
+        <li><strong>Endocrine disorders:</strong>
+          <ul>
+            <li>a) Cushing's syndrome</li>
+            <li>b) Conn's syndrome (primary hyperaldosteronism)</li>
+          </ul></li>
+        <li><strong>Diuretic therapy</strong></li>
+        <li><strong>Corticosteroid therapy</strong></li>
+        <li><strong>Prolonged I.V. (intravenous) therapy</strong></li>
+        <li><strong>Insulin excess</strong></li>
+        <li><strong>Mg (magnesium) depletion</strong></li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/439,440</p>
+      <h3>Clinical features / consequences / effects of hypokalaemia</h3>
+      <ul>
+        <li>i) Muscular weakness</li>
+        <li>ii) Tiredness</li>
+        <li>iii) Functional bowel obstruction due to paralytic ileus</li>
+        <li>iv) Hypokalaemic nephropathy</li>
+        <li>i) Flaccid paralysis</li>
+        <li>ii) Mental confusion</li>
+        <li>v) Cardiac arrhythmia</li>
+        <li>iii) (Finally) <strong>cardiac arrest</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/439</p>
+      <h3>Diagnosis / investigations</h3>
+      <p>Measurement of <strong>plasma electrolytes, bicarbonate, urine potassium</strong>, and sometimes of <strong>Ca &amp; Mg</strong> is usually sufficient to establish the diagnosis.</p>
+      <h3>ECG (electrocardiogram) change</h3>
+      <p>Typical ECG changes occur, affecting particularly the <span class="hot">T wave</span> (e.g. flattened/inverted T wave, U waves).</p>
+      <div class="mnem">🎯 <strong>"HypoK = Low &amp; Lethargic":</strong> causes → <em>vomiting, diarrhoea, diuretics, Conn's/Cushing, alkalosis</em>; complications → <em>arrhythmia → cardiac arrest</em> (the killer).</div>
+      <p class="ref">Ref: Davidson's/21e/439</p>
+    </div>
+  </details>
+
+  <h2 id="hyperkal">3 · Hyperkalaemia (K⁺ &gt; 5 mmol/L)</h2>
+
+  <details id="hyperkal2">
+    <summary>🔴 Write 5 causes of hyperkalaemia. (CU-12Ja) Short note: Hyperkalaemia.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hyperkalaemia</span> = increased plasma K⁺ (potassium) level above the upper limit of normal range (<strong>&gt;5 mmol/L</strong>). <span class="good">Severe hyperkalaemia occurs when K⁺ level goes above <strong>6.5 mmol/L</strong></span>, which can participate in cardiac arrhythmia.</p>
+      <h3>Causes of hyperkalaemia (🔴 Very Important for VIVA)</h3>
+      <ol>
+        <li>Excessive IV (intravenous) infusion</li>
+        <li>Acute and chronic renal failure</li>
+        <li>Acidosis due to any cause</li>
+        <li>Leakage of cellular K⁺ in diabetic ketoacidosis (DKA)</li>
+        <li>Acute starvation</li>
+        <li>Gross haemorrhage</li>
+        <li>Dehydration</li>
+        <li>Adrenocortical failure (Addison's disease)</li>
+        <li>Drugs (<strong>NSAIDs</strong> = non-steroidal anti-inflammatory drugs, <strong>ACE inhibitors</strong> = angiotensin-converting-enzyme inhibitors, <strong>β-blockers</strong>, prolonged heparin therapy, spironolactone)</li>
+        <li>Insulin deficiency and severe hyperglycaemia</li>
+        <li>Severe tissue injury such as:
+          <ul>
+            <li>a) Massive road traffic accident</li>
+            <li>b) Bomb blast</li>
+            <li>c) Massive haemolysis</li>
+            <li>d) Chemotherapy</li>
+            <li>e) Severe burn</li>
+          </ul></li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/439–441; Lecture SSMC</p>
+      <h3>Clinical features</h3>
+      <ol>
+        <li>Progressive muscular weakness</li>
+        <li>Paralysis</li>
+        <li><span class="hot">Diastolic cardiac arrest</span></li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/440</p>
+      <h3>Diagnosis</h3>
+      <p>Measurement of <strong>plasma electrolytes, creatinine, and bicarbonate</strong>.</p>
+      <h3>ECG (electrocardiogram) change</h3>
+      <p>Typical ECG changes occur — <span class="good">peaking of the T wave is an early ECG sign</span>, but <strong>widening of the QRS complex presages a dangerous cardiac arrhythmia</strong>.</p>
+      <div class="mnem">🎯 <strong>"HyperK = High &amp; Hyperactive (then stops)":</strong> causes → <em>renal failure, acidosis, DKA, haemolysis/burns, Addison's, K⁺-sparing drugs</em>; ECG → <em>peaked T → wide QRS → diastolic cardiac arrest</em>.</div>
+      <p class="ref">Ref: Davidson's/21e/440</p>
+    </div>
+  </details>
+
+  <h2 id="hyponat">4 · Hyponatraemia (Na⁺ &lt; 135 mmol/L)</h2>
+
+  <details id="hyponat2">
+    <summary>🔴 Short note on: Hyponatraemia. State the causes and effects of hyponatraemia. (RU-07Ja) What are the features of hyponatraemia? (SU-07Ju)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hyponatraemia</span> = low levels of sodium in serum below normal (<strong>&lt;135 mmol/L</strong>).</p>
+      <h3>Causes of hyponatraemia</h3>
+      <p><strong>1. Hypovolaemic hyponatraemia (sodium deficit with a relatively smaller water deficit):</strong></p>
+      <ul>
+        <li><strong>Renal Na⁺ losses:</strong> diuretic therapy (especially thiazide), adrenocortical failure</li>
+        <li><strong>Gastrointestinal Na⁺ losses:</strong> vomiting, diarrhoea</li>
+        <li><strong>Skin Na⁺ losses:</strong> burns</li>
+      </ul>
+      <p><strong>2. Euvolaemic hyponatraemia (water retention alone):</strong></p>
+      <ul>
+        <li>Primary polydipsia</li>
+        <li>Excessive electrolyte-free water infusion</li>
+        <li><strong>Syndrome of inappropriate ADH (antidiuretic hormone) secretion (SIADH)</strong></li>
+        <li>Hypothyroidism</li>
+      </ul>
+      <p><strong>3. Hypervolaemic hyponatraemia (Na⁺ retention with relatively greater water retention):</strong></p>
+      <ul>
+        <li>Congestive cardiac failure (CCF)</li>
+        <li>Cirrhosis of liver</li>
+        <li>Nephrotic syndrome</li>
+        <li>Chronic renal failure (during free water intake)</li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/435</p>
+      <h3>Effects / features of hyponatraemia</h3>
+      <ul>
+        <li>i) May be asymptomatic</li>
+        <li>ii) Anorexia, nausea &amp; vomiting</li>
+        <li>iii) Confusion</li>
+        <li>iv) Lethargy</li>
+        <li>v) Seizures</li>
+        <li>vi) Coma</li>
+        <li>vii) <strong>Death</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/435</p>
+      <div class="mnem">🎯 <strong>"Low Na = Neurons complain":</strong> causes classified by volume status (hypovolaemic / euvolaemic / hypervolaemic); effects = CNS — confusion → seizures → coma → death.</div>
+      <p class="ref">Ref: Davidson's/21e/435</p>
+    </div>
+  </details>
+
+  <h2 id="hypernat">5 · Hypernatraemia (Na⁺ &gt; 150 mmol/L)</h2>
+
+  <details id="hypernat2">
+    <summary>🔴 Mention the causes of hypernatraemia. (CMU-21M) Short note: Hypernatraemia.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hypernatraemia</span> = increased level of sodium in the serum above normal (<strong>&gt;150 mmol/L</strong>).</p>
+      <h3>Causes of hypernatraemia</h3>
+      <p><strong>1. Hypovolaemic hypernatraemia (sodium deficit with a relatively greater water deficit):</strong></p>
+      <ul>
+        <li><strong>Renal Na⁺ losses:</strong> diuretic therapy (especially osmotic diuretic, or loop diuretic during water restriction), glycosuria</li>
+        <li><strong>Gastrointestinal Na⁺ losses:</strong> colonic diarrhoea</li>
+        <li><strong>Skin Na⁺ losses:</strong> excessive sweating</li>
+      </ul>
+      <p><strong>2. Euvolaemic hypernatraemia (water deficit alone):</strong></p>
+      <ul>
+        <li><strong>Diabetes insipidus</strong> (central or nephrogenic)</li>
+      </ul>
+      <p><strong>3. Hypervolaemic hypernatraemia (Na⁺ retention with relatively less water retention):</strong></p>
+      <ul>
+        <li>Enteral or parenteral alimentation</li>
+        <li>IV or oral salt administration</li>
+        <li>Chronic renal failure (during water restriction)</li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/437</p>
+      <h3>Clinical features of hypernatraemia</h3>
+      <ul>
+        <li>Cloudiness</li>
+        <li>Dizziness</li>
+        <li>Disorientation</li>
+        <li>Convulsion</li>
+        <li>Confusion</li>
+        <li>Weakness</li>
+        <li>Coma</li>
+        <li><strong>Death</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's/21e/437</p>
+      <div class="mnem">🎯 <strong>"High Na = Hot &amp; Dry":</strong> causes grouped by volume status; hallmark of water-loss hypernatraemia = <em>diabetes insipidus</em>; features = CNS symptoms (disorientation → convulsion → coma → death).</div>
+    </div>
+  </details>
+
+  <h2 id="hypocal">6 · Hypocalcaemia (Ca²⁺ &lt; normal)</h2>
+
+  <details id="hypocal2">
+    <summary>🔴 What are the causes of hypocalcaemia? (RU-08Ju) Mention 4 causes of hypocalcaemia. (CU-12Ju) Short note: Hypocalcaemia.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hypocalcaemia</span> = decreased blood calcium level below normal.</p>
+      <h3>Causes of hypocalcaemia (🔴 Very Important for VIVA)</h3>
+      <ol>
+        <li><strong>Hypoalbuminaemia</strong></li>
+        <li><strong>Alkalosis</strong>
+          <ul>
+            <li>Respiratory e.g. hyperventilation</li>
+            <li>Metabolic e.g. Conn's syndrome</li>
+          </ul></li>
+        <li><strong>Vitamin-D deficiency</strong></li>
+        <li><strong>Chronic renal failure</strong></li>
+        <li><strong>Hypoparathyroidism</strong>
+          <ul>
+            <li>Complication during thyroid surgery</li>
+            <li>Haemochromatosis</li>
+            <li>Wilson's disease</li>
+          </ul></li>
+        <li><strong>Pseudohypoparathyroidism</strong></li>
+        <li><strong>Acute pancreatitis</strong></li>
+        <li><strong>Hypomagnesaemia</strong></li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/766</p>
+      <h3>Clinical features</h3>
+      <ol>
+        <li><strong>Tetany</strong> (characteristic triad of <span class="hot">carpopedal spasm, stridor and convulsion</span>)</li>
+        <li>Papilloedema</li>
+        <li>Prolongation of the ECG (electrocardiogram) <strong>Q-T interval</strong>, which may predispose to ventricular arrhythmias</li>
+        <li>Epilepsy</li>
+        <li>Psychosis</li>
+        <li>Cataract</li>
+        <li><strong>Rickets</strong> in children and <strong>osteomalacia</strong> in adults</li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/766</p>
+      <div class="mnem">🎯 <strong>"Low Ca = Chronic Twitching":</strong> tetany (carpopedal spasm + stridor + convulsion) is the hallmark; Q-T prolongation → ventricular arrhythmia; rickets/osteomalacia.</div>
+    </div>
+  </details>
+
+  <h2 id="hypercal">7 · Hypercalcaemia (Ca²⁺ &gt; normal)</h2>
+
+  <details id="hypercal2">
+    <summary>🔴 What are the causes of hypercalcaemia? (RU-08Ju) Mention 4 causes of hypercalcaemia. (CU-12Ju) Short note: Hypercalcaemia.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">hypercalcaemia</span> = excess blood calcium level above normal.</p>
+      <h3>Causes of hypercalcaemia</h3>
+      <ol>
+        <li><strong>Primary or tertiary hyperparathyroidism</strong></li>
+        <li><strong>Familial hypocalciuric hypercalcaemia</strong></li>
+        <li><strong>Malignancy</strong> (e.g. lung, breast, renal, ovarian, colonic &amp; thyroid carcinoma, lymphoma, multiple myeloma)</li>
+        <li><strong>Vitamin D intoxication</strong></li>
+        <li><strong>Thyrotoxicosis</strong></li>
+        <li><strong>Paget's disease with immobilisation</strong></li>
+        <li><strong>Granulomatous diseases</strong>: e.g. tuberculosis, sarcoidosis</li>
+        <li><strong>Milk-alkali syndrome</strong></li>
+        <li><strong>Thiazide diuretics</strong></li>
+        <li><strong>Glucocorticoid deficiency</strong></li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/764–765</p>
+      <h3>Clinical features of hypercalcaemia</h3>
+      <ol>
+        <li>Polyuria</li>
+        <li>Polydipsia</li>
+        <li>Renal colic</li>
+        <li>Lethargy</li>
+        <li>Anorexia</li>
+        <li>Nausea</li>
+        <li>Dyspepsia</li>
+        <li>Peptic ulceration</li>
+        <li>Constipation</li>
+        <li>Depression</li>
+        <li>Drowsiness</li>
+        <li>Impaired cognition</li>
+      </ol>
+      <p class="ref">Ref: Davidson's/21e/765</p>
+      <p><strong>Clinical importance of serum calcium (DU-10Ja):</strong> answer by describing the causes of the increased state (hypercalcaemia, clinical features above) and the decreased state (hypocalcaemia, causes + features above).</p>
+      <div class="mnem">🎯 <strong>"High Ca = Stones, bones, groans, and psychic moans":</strong> renal stones (polyuria, renal colic), bones (Paget's), abdominal groans (anorexia, constipation, peptic ulcer), psychic moans (depression, drowsiness, impaired cognition). <em>Causes: Parathyroid → Malignancy → Vit-D → Sarcoid → Thiazide (PMS-VST).</em></div>
+      <p class="ref">Ref: Davidson's/21e/764–765</p>
+    </div>
+  </details>
+
+  <h2 id="acidbase">8 · Acid-Base Balance — Normal pH of Body Fluids</h2>
+
+  <details id="normalph">
+    <summary>What is the normal pH of blood &amp; urine? (DU-12Ju)</summary>
+    <div class="ans">
+      <p><strong>Normal pH of blood &amp; other body fluids:</strong></p>
+      <table>
+        <tr><th>Fluid</th><th>Average</th><th>Range</th></tr>
+        <tr><td><strong>Blood</strong></td><td>7.45 (arterial), 7.35 (venous)</td><td><strong>7.35–7.45</strong></td></tr>
+        <tr><td><strong>Urine</strong></td><td>6.0</td><td>4.5–6.8 (up to 8 in strict vegetarian)</td></tr>
+        <tr><td>Saliva</td><td>6.0–7.0</td><td>—</td></tr>
+        <tr><td>Milk</td><td>6.6–7.0</td><td>—</td></tr>
+        <tr><td>Tear</td><td>7.4</td><td>6–8</td></tr>
+        <tr><td>Pancreatic juice</td><td>8–8.3</td><td>—</td></tr>
+        <tr><td>ICF (intracellular fluid)</td><td>7.2</td><td>—</td></tr>
+        <tr><td>Bile</td><td>7.8</td><td>—</td></tr>
+      </table>
+      <p class="ref">Ref: Guyton/11e/794; Orten/10e/881; West &amp; Todd/4e/30</p>
+      <div class="mnem">🎯 <strong>Blood pH 7.35–7.45</strong> (arterial 7.45, venous 7.35); <strong>ICF 7.2</strong>; urine pH ~6 (4.5–6.8).</div>
+    </div>
+  </details>
+
+  <h2 id="metacid">9 · Metabolic Acidosis</h2>
+
+  <details id="metacid2">
+    <summary>🔴 What is metabolic acidosis? (DU-18Nv, CU-17M) Write down the causes of metabolic acidosis. (DU-18Nv,16Ja,12Ju,11/05Ja, CU-16/12Ju) Short note: Metabolic acidosis / Causes of metabolic acidosis. (DU-22Nv/M,15/08Ju,07Ja,06S, CU-20Ju,16Ja,15/13/11Ju, DU-17M)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">metabolic acidosis</span> = the primary decrease in plasma [HCO₃⁻] (bicarbonate) which arises either from increased production or decreased removal of acids other than H₂CO₃ (carbonic acid), or by loss of HCO₃⁻ from the body.</p>
+      <p>Or — <span class="good">decreased pH due to HCO₃⁻ deficit is called metabolic acidosis</span>.</p>
+      <p><strong>Primary defect:</strong> ↓ plasma HCO₃⁻ due to any cause.</p>
+      <p><strong>Mechanism / consequence:</strong> ↓ plasma HCO₃⁻ → ↓ ratio of HCO₃⁻ / CO₂ → ↓ pH → metabolic acidosis.</p>
+      <h3>Causes of metabolic acidosis (🔴 Very Important for VIVA)</h3>
+      <ol>
+        <li><strong>Addition of excessive metabolic acids to plasma:</strong>
+          <ul>
+            <li>a. Diabetic ketoacidosis (DKA)</li>
+            <li>b. Prolonged starvation</li>
+            <li>c. Lactic acidosis</li>
+            <li>d. Methanol poisoning</li>
+          </ul></li>
+        <li><strong>Failure to excrete acid at a normal rate:</strong>
+          <ul>
+            <li>a. Renal failure</li>
+          </ul></li>
+        <li><strong>Loss of HCO₃⁻:</strong>
+          <ul>
+            <li>a. Severe diarrhoea</li>
+            <li>b. Intestinal, pancreatic or biliary fistula</li>
+            <li>c. Vomiting of intestinal content</li>
+            <li>d. Renal tubular acidosis (RTA)</li>
+          </ul></li>
+        <li><strong>Drugs:</strong>
+          <ul>
+            <li>a. K⁺-sparing drugs, NH₄Cl (ammonium chloride), aspirin or methyl alcohol</li>
+          </ul></li>
+      </ol>
+      <p class="ref">Ref: Guyton/11e/397; Davidson's</p>
+      <h3>Lab findings in metabolic acidosis (CU-16Ju)</h3>
+      <table>
+        <tr><th>Parameter</th><th>Finding</th></tr>
+        <tr><td>pH</td><td><strong>Decreased</strong></td></tr>
+        <tr><td>Serum HCO₃⁻</td><td>↓ HCO₃⁻ (primary defect)</td></tr>
+        <tr><td>PCO₂ (partial pressure of carbon dioxide)</td><td>↓ PCO₂ (compensatory response — hyperventilation)</td></tr>
+        <tr><td>HCO₃⁻ / PCO₂ ratio</td><td>Decreased</td></tr>
+        <tr><td>Serum K⁺ concentration</td><td><strong>Increased</strong> (K⁺ shifts out of cells in acidosis)</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>Remember inversions:</strong> metabolic acidosis ↔ <em>hypokalaemia</em> of the gut is a trap — but in ACIDOSIS serum K⁺ RISES (K⁺ shifts out of cells in exchange for H⁺).</div>
+    </div>
+  </details>
+
+  <h2 id="metalk">10 · Metabolic Alkalosis</h2>
+
+  <details id="metalk2">
+    <summary>🔴 What is metabolic alkalosis? (DU-18Nv) Write the causes of metabolic alkalosis. (CU-12Ju) What are the conditions that may lead to metabolic alkalosis? Give the biochemical changes in such a patient. (DU-04M) Short note: Metabolic alkalosis. (DU-09/08Ja,07Ju, BUP-22M)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">metabolic alkalosis</span> = primary increase in plasma [HCO₃⁻] (bicarbonate) due to the accumulation of base or loss of acid other than HCO₃⁻.</p>
+      <p>Or — <span class="good">alkalosis characterised by an increase in plasma HCO₃⁻ and a decrease in plasma [H⁺] (hydrogen ion concentration) is called metabolic alkalosis</span>.</p>
+      <p><strong>Primary defect:</strong> ↑ plasma HCO₃⁻ due to any cause.</p>
+      <p><strong>Mechanism / consequence:</strong> ↑ plasma HCO₃⁻ → ↑ ratio of HCO₃⁻ / CO₂ → ↑ pH → metabolic alkalosis.</p>
+      <h3>Causes of metabolic alkalosis (🔴 Very Important for VIVA)</h3>
+      <ol>
+        <li><strong>Administration of diuretics</strong></li>
+        <li><strong>Excess aldosterone secretion</strong></li>
+        <li><strong>Vomiting / aspiration of gastric contents</strong> (loss of HCl = hydrochloric acid)</li>
+        <li><strong>Injudicious ingestion of alkaline drugs</strong> (e.g. NaHCO₃ = sodium bicarbonate)</li>
+        <li><strong>Migration of H⁺ into ICF (intracellular fluid) in K⁺ deficiency</strong></li>
+        <li><strong>Massive blood transfusion, containing citrate</strong></li>
+      </ol>
+      <p class="ref">Ref: Guyton/11e/397</p>
+      <p><strong>Biochemical changes in metabolic alkalosis:</strong> ↑ plasma HCO₃⁻, ↑ pH, compensatory ↑ PCO₂ (hypoventilation).</p>
+      <div class="mnem">🎯 <strong>"Metabolic alkalosis = Vomiting / Diuretics / Aldosterone":</strong> remember the "chloride-responsive" trio — <em>vomiting (loss of HCl), diuretics, and mineralocorticoid (aldosterone) excess</em>.</div>
+    </div>
+  </details>
+
+  <h2 id="respacid">11 · Respiratory Acidosis</h2>
+
+  <details id="respacid2">
+    <summary>🔴 Write in short about respiratory acidosis. (DU-21Ja,20Nv/M)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">respiratory acidosis</span> = primary increase in PCO₂ (partial pressure of carbon dioxide) where there is impaired excretion of CO₂.</p>
+      <p>Or — <span class="good">a rise in arterial PCO₂ due to hypoventilation with consequent decrease in pH is called respiratory acidosis</span>.</p>
+      <p><strong>Primary defect:</strong> ↑ arterial PCO₂ due to any cause.</p>
+      <p><strong>Mechanism / consequence:</strong> hypoventilation → ↓ CO₂ elimination → ↑ arterial PCO₂ → ↑ ratio of HCO₃⁻ / CO₂ → ↓ pH → respiratory acidosis.</p>
+      <h3>Causes of respiratory acidosis (🔴 Very Important for VIVA)</h3>
+      <p>The <span class="hot">ultimate cause is hypoventilation</span>, which occurs due to:</p>
+      <ul>
+        <li>Chronic lung disease e.g. chronic bronchitis, emphysema, pulmonary fibrosis</li>
+        <li>Acute bronchial asthma</li>
+        <li>Acute pulmonary oedema</li>
+        <li>Pneumonia</li>
+        <li>Unconscious patient</li>
+        <li>Myasthenia (gravis)</li>
+        <li>Poliomyelitis</li>
+        <li>Damage of respiratory centre (e.g. morphine poisoning)</li>
+        <li>Chest deformities — kyphosis, lordosis etc.</li>
+      </ul>
+      <p class="ref">Ref: Guyton/11e/397; Lecture SSMC</p>
+      <div class="mnem">🎯 <strong>"Respiratory acidosis = CO₂ retention":</strong> anything that causes <em>hypoventilation</em> (lung disease, muscle weakness, CNS depression, chest deformities).</div>
+    </div>
+  </details>
+
+  <h2 id="respalk">12 · Respiratory Alkalosis</h2>
+
+  <details id="respalk2">
+    <summary>🔴 Short note on: Respiratory alkalosis.</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">respiratory alkalosis</span> = primary decrease in plasma PCO₂ (partial pressure of carbon dioxide) due to hyperventilation, resulting in increased pH.</p>
+      <p><strong>Primary defect:</strong> ↓ arterial PCO₂, caused by hyperventilation due to any cause.</p>
+      <p><strong>Mechanism / consequence:</strong> hyperventilation → ↑ CO₂ elimination → ↓ arterial PCO₂ → ↑ ratio of HCO₃⁻ / CO₂ → ↑ pH → respiratory alkalosis.</p>
+      <h3>Causes of respiratory alkalosis (🔴 Very Important for VIVA)</h3>
+      <p>Any cause of hyperventilation:</p>
+      <ol>
+        <li>High altitude (physiological)</li>
+        <li>Hysterical attacks</li>
+        <li>Salicylate poisoning</li>
+        <li>High fever</li>
+        <li>Meningitis, encephalitis</li>
+        <li>Cerebral tumour</li>
+        <li>Hepatic failure</li>
+      </ol>
+      <p class="ref">Ref: Lecture SSMC</p>
+      <div class="mnem">🎯 <strong>"Respiratory alkalosis = hyperventilation":</strong> <em>altitude, hysteria, salicylate, fever, CNS lesions, hepatic failure</em> — "H-H-S-F-M-C-H".</div>
+    </div>
+  </details>
+
+  <h2 id="cases">13 · Clinical Cases — Electrolyte &amp; Acid-Base Status</h2>
+
+  <details id="case1">
+    <summary>🔴 A male of 55 years presents with excessive vomiting. He gives history of long standing peptic ulcer disease. What is the likely diagnosis of his present illness? What will be his electrolyte and acid-base status? (DU-16Ju)</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> Gastric outlet obstruction due to <span class="hot">pyloric stenosis</span> (due to long standing peptic ulcer disease).</p>
+      <p><strong>Acid-base status:</strong> <span class="hot">Metabolic alkalosis (hypochloraemic metabolic alkalosis)</span>.</p>
+      <p><strong>Electrolyte status:</strong></p>
+      <ul>
+        <li>Hyponatraemia (low Na⁺)</li>
+        <li>Hypokalaemia (low K⁺)</li>
+        <li>Hypochloraemia (low Cl⁻)</li>
+        <li>Hypocalcaemia (low Ca²⁺)</li>
+      </ul>
+      <p class="ref">Ref: Bailey &amp; Love's/25e/1066</p>
+      <div class="mnem">🎯 <strong>Vomiting → loss of HCl → hypochloraemic metabolic alkalosis</strong> + hypokalaemia + hyponatraemia + hypocalcaemia.</div>
+    </div>
+  </details>
+
+  <details id="case2">
+    <summary>🔴 A 10 year old boy develops severe diarrhoea. What changes do you expect in his electrolyte and acid-base status? (DU-10Ja) Write down the electrolyte pattern of a case of acute diarrhoea. (DU-18Nv)</summary>
+    <div class="ans">
+      <p><strong>Acid-base status:</strong> <span class="hot">Metabolic acidosis</span> (due to loss of HCO₃⁻ in stools).</p>
+      <p><strong>Electrolyte status:</strong></p>
+      <ul>
+        <li><strong>Hypokalaemia</strong> (due to loss of K⁺ in stools)</li>
+        <li><strong>Hyponatraemia</strong> (due to loss of Na⁺ in stools and oral intake of free water)</li>
+        <li><strong>Hypochloraemia</strong> (low Cl⁻)</li>
+        <li><strong>Reduced HCO₃⁻ level</strong></li>
+      </ul>
+      <div class="mnem">🎯 <strong>Diarrhoea → loss of HCO₃⁻ in stool → metabolic acidosis</strong> (opposite of vomiting → metabolic alkalosis). Cl⁻ follows Na⁺ and K⁺ losses → hypochloraemia.</div>
+    </div>
+  </details>
+
+  <details id="case3">
+    <summary>🔴 A male of 65 years with longstanding chronic duodenal ulcer has developed excessive vomiting. What will be his electrolyte and acid-base status? (DU-10/09/08Ju,07Ja)</summary>
+    <div class="ans">
+      <p><strong>Acid-base status:</strong> <span class="hot">Metabolic alkalosis (hypochloraemic metabolic alkalosis)</span>.</p>
+      <p><strong>Electrolyte status:</strong></p>
+      <ul>
+        <li>Hyponatraemia (low Na⁺)</li>
+        <li>Hypokalaemia (low K⁺)</li>
+        <li>Hypochloraemia (low Cl⁻)</li>
+        <li>Hypocalcaemia (low Ca²⁺)</li>
+      </ul>
+      <p class="ref">Ref: Bailey &amp; Love's/25e/1066</p>
+      <div class="mnem">🎯 Same pattern as pyloric stenosis: <strong>excessive vomiting → loss of HCl → hypochloraemic metabolic alkalosis</strong> with hyponatraemia, hypokalaemia, hypocalcaemia.</div>
+    </div>
+  </details>
+
+  <details id="case4">
+    <summary>🔴 A man aged 25 years is in shock following a road traffic accident. He passed 40 ml urine during the last 4 hours. What will be his acid-base and electrolyte status? (DU-09Ja)</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> The patient is suffering from <span class="hot">acute renal failure (ARF) due to hypovolaemia</span> (shock → renal hypoperfusion; oliguria — only 40 ml urine in 4 hours).</p>
+      <p><strong>Acid-base status:</strong> <span class="hot">Metabolic acidosis (lactic acidosis)</span> — due to tissue hypoperfusion (shock) → anaerobic metabolism → lactate accumulation.</p>
+      <p><strong>Electrolyte status:</strong></p>
+      <ul>
+        <li><strong>Hyperkalaemia</strong> (due to tissue haemolysis and acidosis)</li>
+        <li><strong>Hyponatraemia</strong> (due to excess plasma loss)</li>
+        <li><strong>Hypocalcaemia</strong> (due to renal failure and reduced renal production of <span class="good">1,25-dihydroxycholecalciferol</span>, the active vitamin D)</li>
+      </ul>
+      <div class="mnem">🎯 <strong>Shock → acute renal failure</strong> → the triple danger: <em>metabolic (lactic) acidosis + hyperkalaemia + hypocalcaemia</em>.</div>
+    </div>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded clinical MCQs from ch31)</h2>
+
+  <details class="rapid" open>
+    <summary>Electrolytes &amp; Acid-Base — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Normal values: blood pH, arterial/venous; urine pH; serum Na⁺; serum K⁺; serum Cl⁻; serum HCO₃⁻; serum Ca²⁺.</div>
+      <div class="a">Blood pH 7.35–7.45 (arterial 7.45, venous 7.35) · urine ~6.0 (4.5–6.8) · Na⁺ 135–145 mmol/L · K⁺ 3.6–5.1 · Cl⁻ 95–107 · HCO₃⁻ 21–29 · Ca²⁺ 2.1–2.6 (9–11 mg/dl).</div>
+
+      <div class="q">Causes of hypokalaemia include: (BUP-22Nv) Diabetic ketoacidosis (F), Diarrhoea (T), Haemolysis (F), Purgative abuse (T), Use of diuretics (T)?</div>
+      <div class="a">DKA = <strong>False</strong> (DKA actually causes hyperkalaemia from K⁺ shift) · diarrhoea = <strong>True</strong> · haemolysis = <strong>False</strong> (→ hyperkalaemia) · purgative abuse = <strong>True</strong> · diuretics = <strong>True</strong>.</div>
+
+      <div class="q">Causes of hyperkalaemia include: (DU-16Ju) Haemolysis (T), Treatment with thiazide diuretic (F), Acidosis (T), Diarrhoea (F), Hyperaldosteronism (F)?</div>
+      <div class="a">Haemolysis = <strong>True</strong> · thiazide diuretic = <strong>False</strong> (thiazides → hypokalaemia) · acidosis = <strong>True</strong> · diarrhoea = <strong>False</strong> (→ hypokalaemia) · hyperaldosteronism = <strong>False</strong> (aldosterone → hypokalaemia).</div>
+
+      <div class="q">Causes of hypokalaemia include: (DU-16Ja) Metabolic alkalosis (T), Respiratory acidosis (F), Acute renal failure (F), Cushing syndrome (T), Secondary aldosteronism (T)?</div>
+      <div class="a">Metabolic alkalosis = <strong>True</strong> · respiratory acidosis = <strong>False</strong> · acute renal failure = <strong>False</strong> (ARF → hyperkalaemia) · Cushing syndrome = <strong>True</strong> · secondary aldosteronism = <strong>True</strong>.</div>
+
+      <div class="q">Following conditions are associated with hypokalaemia: (DU-12Ju) End-stage of renal failure (F), Adrenal insufficiency (F), Metabolic alkalosis (T), Nasogastric suction (T), Rhabdomyolysis (F)?</div>
+      <div class="a">End-stage renal failure = <strong>False</strong> (→ hyperkalaemia) · adrenal insufficiency = <strong>False</strong> (Addison's → hyperkalaemia) · metabolic alkalosis = <strong>True</strong> · nasogastric suction = <strong>True</strong> · rhabdomyolysis = <strong>False</strong> (cell breakdown → hyperkalaemia).</div>
+
+      <div class="q">Causes of hyponatraemia include: (DU-08Ju) Excess ADH secretion (F), Congestive cardiac failure (T), Diuretics (T), Dehydration (F), Excessive ingestion of salt (F)?</div>
+      <div class="a">Excess ADH (SIADH) = <strong>False</strong> (SIADH actually causes hyponatraemia by water retention — flag: Arif lists SIADH under euvolaemic hyponatraemia, so this marked as False is a known MCQ quirk; clinically SIADH IS a cause of hyponatraemia) · CCF = <strong>True</strong> · diuretics = <strong>True</strong> · dehydration = <strong>False</strong> · excess salt = <strong>False</strong> (→ hypernatraemia).</div>
+
+      <div class="q">Major serum electrolytes: (DU-22Nv) Calcium (T), Potassium (T), Phosphate (F), Chloride (T), Magnesium (F)?</div>
+      <div class="a">Calcium = <strong>True</strong> · potassium = <strong>True</strong> · phosphate = <strong>False</strong> · chloride = <strong>True</strong> · magnesium = <strong>False</strong>. (The "big five" measured are Na, K, Cl, HCO₃, Ca.)</div>
+
+      <div class="q">Causes of hypocalcaemia include: (DU-09Ja) Hypoparathyroidism (T), Renal failure (T), Sarcoidosis (F), Hypervitaminosis D (F), Malabsorption (T)?</div>
+      <div class="a">Hypoparathyroidism = <strong>True</strong> · renal failure = <strong>True</strong> · sarcoidosis = <strong>False</strong> (→ hypercalcaemia) · hypervitaminosis D = <strong>False</strong> (→ hypercalcaemia) · malabsorption = <strong>True</strong>.</div>
+
+      <div class="q">Causes of hypercalcaemia include: (DU-21Ja,20Nv/M) Hyperthyroidism (T), Sarcoidosis (T), Vit-D intoxication (T), Metastatic tumour of bone (F), Non-Hodgkin's lymphoma (T)?</div>
+      <div class="a">Hyperthyroidism = <strong>True</strong> (thyrotoxicosis) · sarcoidosis = <strong>True</strong> · Vit-D intoxication = <strong>True</strong> · metastatic tumour of bone = <strong>False</strong> · non-Hodgkin's lymphoma = <strong>True</strong>.</div>
+
+      <div class="q">Causes of hypercalcaemia include: (DU-15Ju) Hyperparathyroidism (T), Sarcoidosis (T), Vitamin A deficiency (F), Malabsorption (F), Menopause (F)?</div>
+      <div class="a">Hyperparathyroidism = <strong>True</strong> · sarcoidosis = <strong>True</strong> · vit-A deficiency = <strong>False</strong> · malabsorption = <strong>False</strong> (→ hypocalcaemia) · menopause = <strong>False</strong>.</div>
+
+      <div class="q">Causes of hypercalcaemia include: (DU-14Ju) Hyperparathyroidism (T), Multiple myeloma (T), Malabsorption syndrome (F), Sarcoidosis (T), Gout (F)?</div>
+      <div class="a">Hyperparathyroidism = <strong>True</strong> · multiple myeloma = <strong>True</strong> (malignancy) · malabsorption = <strong>False</strong> · sarcoidosis = <strong>True</strong> · gout = <strong>False</strong>.</div>
+
+      <div class="q">Metabolic acidosis may be due to: (DU-23M) Excessive vomiting (F), Hyperventilation (F), Uncontrolled diabetes mellitus (T), Acute renal failure (T), Hepatic failure (F)?</div>
+      <div class="a">Excessive vomiting = <strong>False</strong> (→ metabolic ALKALOSIS) · hyperventilation = <strong>False</strong> (→ respiratory alkalosis) · uncontrolled DM = <strong>True</strong> (DKA) · acute renal failure = <strong>True</strong> · hepatic failure = <strong>False</strong>.</div>
+
+      <div class="q">Causes of metabolic acidosis include: (DU-21Oct/M) Diarrhoea (T), Diabetic ketoacidosis (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</div>
+      <div class="a">Diarrhoea = <strong>True</strong> · DKA = <strong>True</strong> · primary hyperaldosteronism = <strong>False</strong> (→ metabolic alkalosis) · severe vomiting = <strong>True</strong> (as listed in source; vomiting of intestinal content/fistula = HCO₃⁻ loss) · shock = <strong>False</strong> (source marks it False).</div>
+
+      <div class="q">Causes of metabolic acidosis are: (DU-19Nv) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), Excessive severe diabetes mellitus (T), Head injury (F)?</div>
+      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> (→ alkalosis) · excessive diarrhoea = <strong>True</strong> · severe DM = <strong>True</strong> · head injury = <strong>False</strong>.</div>
+
+      <div class="q">Causes of metabolic acidosis include: (DU-18M) Uncontrolled diabetes mellitus (T), Diarrhoea (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</div>
+      <div class="a">Uncontrolled DM = <strong>True</strong> · diarrhoea = <strong>True</strong> · primary hyperaldosteronism = <strong>False</strong> · severe vomiting = <strong>True</strong> · shock = <strong>False</strong>.</div>
+
+      <div class="q">Causes of metabolic acidosis are (DU-18M): Excessive vomiting (T), Increase alkali intake (F), Excessive diarrhoea (T), Uncontrolled diabetes mellitus (T), Prolonged starvation (F)?</div>
+      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> · excessive diarrhoea = <strong>True</strong> · uncontrolled DM = <strong>True</strong> · prolonged starvation = <strong>False</strong> (starvation actually causes metabolic acidosis via ketoacidosis — source marks this MCQ as False; note the textbook physiology affirms starvation ketosis).</div>
+
+      <div class="q">Causes of metabolic acidosis are: (DU-17Ja) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), DIC (F), Head injury (F)?</div>
+      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> · excessive diarrhoea = <strong>True</strong> · DIC = <strong>False</strong> · head injury = <strong>False</strong>.</div>
+
+      <div class="q">Metabolic acidosis may be due to: (DU-14Ja) Overdose of insulin (F), Uncontrolled diabetes mellitus (T), Ketoacidosis (T), Hyperventilation (T), Excessive vomiting (T)?</div>
+      <div class="a">Overdose of insulin = <strong>False</strong> (→ hypoglycaemia) · uncontrolled DM = <strong>True</strong> · ketoacidosis = <strong>True</strong> · hyperventilation = <strong>True</strong> (source marks as True here) · excessive vomiting = <strong>True</strong>.</div>
+
+      <div class="q">Causes of metabolic acidosis are: (DU-13/12J,11/10/08Ju) Ketoacidosis (T), Chronic renal failure (T), Vomiting (F), Cushing syndrome (F), Acute renal failure (T)?</div>
+      <div class="a">Ketoacidosis = <strong>True</strong> · chronic renal failure = <strong>True</strong> · vomiting = <strong>False</strong> · Cushing = <strong>False</strong> (→ alkalosis) · acute renal failure = <strong>True</strong>.</div>
+
+      <div class="q">Metabolic alkalosis may be due to: (DU-19M) Excessive vomiting (T), Thiazide diuretics (T), Hyperventilation (F), Conn's syndrome (F), Milk-alkali syndrome (F)?</div>
+      <div class="a">Excessive vomiting = <strong>True</strong> · thiazide diuretics = <strong>True</strong> · hyperventilation = <strong>False</strong> (→ respiratory alkalosis) · Conn's syndrome = <strong>False</strong> (per this MCQ; though aldosterone excess is a classic cause of metabolic alkalosis — answer key marks it False) · milk-alkali syndrome = <strong>False</strong> (per this key; milk-alkali is classically a cause of metabolic alkalosis + hypercalcaemia).</div>
+
+      <div class="q">Causes of metabolic alkalosis are: (DU-15Ja) Potassium depletion (F), Cushing syndrome (T), Severe diarrhoea (T), Shock (F), Conn's syndrome (T)?</div>
+      <div class="a">Potassium depletion = <strong>False</strong> · Cushing syndrome = <strong>True</strong> · severe diarrhoea = <strong>True</strong> · shock = <strong>False</strong> · Conn's syndrome = <strong>True</strong> (primary hyperaldosteronism → metabolic alkalosis).</div>
+
+      <div class="q">Metabolic alkalosis can be due to: (DU-13Ju) Excessive vomiting (T), Intake of alkali (T), Acute renal failure (F), Complication of uncontrolled diabetes mellitus (F), Hyperventilation (F)?</div>
+      <div class="a">Excessive vomiting = <strong>True</strong> · intake of alkali = <strong>True</strong> · acute renal failure = <strong>False</strong> (→ metabolic acidosis) · uncontrolled DM complication = <strong>False</strong> (→ acidosis) · hyperventilation = <strong>False</strong> (→ respiratory alkalosis).</div>
+
+      <div class="q">🎯 One-liners: What does hypokalaemic metabolic alkalosis suggest? What causes metabolic acidosis in DKA? What is the ECG hallmark of hypokalaemia? What is the early ECG sign of hyperkalaemia?</div>
+      <div class="a"><strong>Hypokalaemic (hypochloraemic) metabolic alkalosis = vomiting / gastric aspiration / pyloric stenosis</strong> · DKA acidosis = ketoacids (acetoacetic &amp; β-hydroxybutyric) · hypokalaemia = T-wave changes (flattened/inverted, U waves) · hyperkalaemia = <strong>peaked T wave</strong> (then wide QRS → diastolic cardiac arrest).</div>
+
+      <div class="q">🎯 One-liner mnemonics: respiratory vs metabolic? Compensation direction? Anion-gap acidosis examples?</div>
+      <div class="a"><strong>ROME</strong> = Respiratory Opposite, Metabolic Equal (pH vs pCO₂ opposite in respiratory; pH vs HCO₃⁻ same in metabolic) · lungs compensate metabolic disorders (↓pCO₂ in acidosis, ↑pCO₂ in alkalosis), kidneys compensate respiratory disorders · <strong>Anion-gap acidosis: MUDPILES</strong> = Methanol, Uraemia, DKA, Paraldehyde, Isoniazid/Iron, Lactic acidosis, Ethylene glycol, Salicylates.</div>
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="00_Index.html">← Index</a></span>
+    <span>Ch 24 · Electrolyte &amp; Acid-Base</span>
+    <span><a href="ch25_Enzymes.html">Next: Enzymes →</a></span>
+  </div>
+</div>
+</body>
+</html>

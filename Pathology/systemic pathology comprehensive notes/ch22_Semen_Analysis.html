@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch22 — Semen Analysis | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#indications">Indications</a><a href="#collection">Collection</a><a href="#advices">Advices</a><a href="#normal">Normal Values</a><a href="#terminology">Terminology</a><a href="#fertility">Fertility</a><a href="#oligospermia">Oligospermia</a><a href="#azoospermia">Azoospermia</a><a href="#causes">Causes</a><a href="#infertility-test">Infertility Test</a><a href="#hormones">Hormones</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Ch 22 · Semen Analysis · Arif Guide 2025 Vol-2 · Unit-II · pp.449–455</span>
+  <h1>Ch 22 — Semen Analysis
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Semen Analysis (boss-level overview)</h3>
+    <p><strong>Semen analysis</strong> evaluates the quality and quantity of seminal fluid (liquid portion) and spermatozoa (microscopic moving cells) secreted during ejaculation. It is the <span class="hot">cornerstone investigation for male infertility</span> and also serves medicolegal purposes (paternity, rape cases) and post-vasectomy follow-up.</p>
+    <p><strong>What is measured:</strong> 🔴 <strong>Volume</strong> (2–5 ml) → <strong>Appearance/Colour</strong> (opalescent, greyish-white) → <strong>pH</strong> (≥7.8) → <strong>Sperm concentration</strong> (20–110 million/ml) → <strong>Motility</strong> (≥50% forward) → <strong>Morphology</strong> (≥30–50% normal) → <strong>Viability</strong> (≥75%) → <strong>Liquefaction</strong> (within 30 min) → <strong>Fructose</strong> (1.5–6.5 mg/dl) → <strong>Leucocytes</strong> (&lt;1 million/ml).</p>
+    <p><strong>Key terminology map:</strong> <span class="good">Normozoospermia</span> (all normal) → <span class="warn">Oligospermia</span> (low count) → <span class="warn">Asthenozoospermia</span> (low motility) → <span class="warn">Teratozoospermia</span> (abnormal morphology) → <span class="hot">Azoospermia</span> (no sperm) → <span class="hot">Necrozoospermia</span> (all dead) → <span class="warn">Polyzoospermia</span> (excessively high count). <strong>Causes of oligospermia/azoospermia</strong> are classified as pre-testicular, testicular, and post-testicular — always think systematically!</p>
+    <p class="ref">Arif Guide 2025 Vol-2, pp.449–455 · Ref: SSMC Lectures, BSMMU Lab Medicine &amp; AFIP Clinical Pathology</p>
+  </div>
+
+  <div class="toc-box">
+    <a href="#indications">1. Indications of Semen Analysis</a>
+    <a href="#collection">2. Semen Collection Procedure</a>
+    <a href="#advices">3. Advices / Prerequisites</a>
+    <a href="#normal">4. Normal Findings (Reference Values)</a>
+    <a href="#terminology">5. Sperm Analysis Terminology</a>
+    <a href="#fertility">6. Male Fertility Status by Semen Exam</a>
+    <a href="#oligospermia">7. Oligospermia — Short Note</a>
+    <a href="#azoospermia">8. Azoospermia — Short Note</a>
+    <a href="#oligoastheno">9. Oligoasthenozoospermia</a>
+    <a href="#causes">10. Etiological Factors of Male Infertility</a>
+    <a href="#pseudocyesis">11. Pseudocyesis (False Pregnancy)</a>
+    <a href="#infertility-test">12. Infertility Test (Male &amp; Female)</a>
+    <a href="#hormones">13. Hormones for Infertility Evaluation</a>
+    <a href="#rapid">🔁 Rapid-Fire Sweep</a>
+  </div>
+
+  <!-- ============================== SECTION 1 ============================== -->
+  <h2 id="indications">1 · Indications of Semen Analysis</h2>
+
+  <details>
+    <summary>🔴 What are the indications of semen analysis? Enumerate the medicolegal importance.</summary>
+    <div class="ans">
+      <p><strong>Indications of semen analysis</strong> (<span class="hot">Very Important for VIVA — asked repeatedly DU, RMU, CMU, BUP, SU</span>):</p>
+      <ol>
+        <li><strong>Evaluation of male infertility</strong> — the most common indication; assesses count, motility, morphology.</li>
+        <li><strong>Follow-up after vasectomy</strong> — to confirm successful occlusion (absence of sperm).</li>
+        <li><strong>Artificial insemination</strong> — to evaluate donor or partner semen quality before assisted reproduction.</li>
+        <li><strong>Paternity test</strong> (forensic medicine purpose) — DNA profiling from seminal material.</li>
+        <li><strong>In suspected rape cases</strong> — for identification of the accused (forensic identification).</li>
+      </ol>
+      <p><strong>Medicolegal importance:</strong> semen analysis is crucial in (a) paternity disputes — linking biological fatherhood, (b) sexual assault cases — identifying the perpetrator through spermatozoa or seminal markers, and (c) post-vasectomy confirmation — legal proof of sterility.</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 2 ============================== -->
+  <h2 id="collection">2 · Semen Collection Procedure</h2>
+
+  <details>
+    <summary>How is semen collected for analysis? Describe the collection and transport procedure.</summary>
+    <div class="ans">
+      <h3>A. Preparation of the Patient</h3>
+      <ul>
+        <li>Patient should be instructed to collect semen after <strong>3–5 days of sexual abstinence</strong>.</li>
+        <li>Should be obtained by <strong>masturbation</strong> (self-stimulation) or collected at home during intercourse by <strong>coitus interruptus</strong> (withdrawal method).</li>
+        <li><strong>Condom should be avoided</strong>, as condoms contain spermicidal agents that kill sperm.</li>
+        <li>Patient should <strong>evacuate his bladder</strong> before ejaculation.</li>
+        <li>Patient must <strong>wash hands</strong> before collection.</li>
+      </ul>
+      <h3>B. Collection of Specimen &amp; Transport</h3>
+      <ul>
+        <li>Should be collected in a <strong>dry, clean, plastic container</strong> provided by the laboratory.</li>
+        <li><strong>Condom collection is unacceptable</strong> (spermicidal contamination).</li>
+        <li>Patient's <strong>name, age, date, and time of collection</strong> should be recorded on the container.</li>
+        <li>Sample should be taken to the laboratory <strong>within 1 hour</strong> of collection and kept at <strong>body temperature</strong> during transport.</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 3 ============================== -->
+  <h2 id="advices">3 · Advices / Prerequisites Before Semen Analysis</h2>
+
+  <details>
+    <summary>What advices/prerequisites should be given before doing semen analysis?</summary>
+    <div class="ans">
+      <p><strong>Advices before semen analysis</strong> (asked as DU-20Ju, 16Ja, SU-13Ju, CU-15Ja):</p>
+      <ol>
+        <li>Semen should be collected after <strong>3–5 days of sexual abstinence</strong>.</li>
+        <li>Should be obtained by <strong>masturbation</strong> or collected at home during intercourse (coitus interruptus). <strong>Condom should be avoided</strong> as it contains spermicidal agent.</li>
+        <li>Patient should <strong>evacuate his bladder</strong> before ejaculation.</li>
+        <li>Should be collected in a <strong>dry, clean, plastic container</strong> provided by the laboratory.</li>
+        <li><strong>Condom collection is unacceptable.</strong></li>
+        <li>Sample should be taken to the laboratory <strong>within 1 hour</strong> of collection and kept at <strong>body temperature</strong>.</li>
+      </ol>
+      <div class="mnem">🎯 <strong>Key point:</strong> The "3–5 days abstinence" rule ensures optimal sperm concentration and quality for accurate analysis.</div>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 4 ============================== -->
+  <h2 id="normal">4 · Normal Findings of Semen Analysis (Reference Values)</h2>
+
+  <details>
+    <summary>🔴 Mention the normal findings of semen analysis. Write a normal semen analysis report.</summary>
+    <div class="ans">
+      <p><strong>Normal findings of semen analysis</strong> (<span class="hot">"Please read this at least 10 times for VIVA"</span> — Arif):</p>
+
+      <h3>A. Macroscopic (Physical) Examination</h3>
+      <table>
+        <tr><th>Parameter</th><th>Normal Value</th></tr>
+        <tr><td><strong>Appearance</strong></td><td>Opalescent / Opaque</td></tr>
+        <tr><td><strong>Colour</strong></td><td>Greyish white</td></tr>
+        <tr><td><strong>Volume</strong></td><td>2–5 ml per ejaculation</td></tr>
+        <tr><td><strong>Viscosity</strong></td><td>High</td></tr>
+        <tr><td><strong>Consistency</strong></td><td>Thick</td></tr>
+        <tr><td><strong>Odour</strong></td><td>Musty / Fishy</td></tr>
+        <tr><td><strong>pH range</strong></td><td>≥ 7.8 (slightly alkaline)</td></tr>
+      </table>
+
+      <h3>B. Microscopic Examination</h3>
+      <table>
+        <tr><th>Parameter</th><th>Normal Value</th></tr>
+        <tr><td><strong>Sperm concentration</strong></td><td>20–110 million / ml</td></tr>
+        <tr><td><strong>Sperm motility</strong></td><td>60–65% sperms actively motile within 1 hour</td></tr>
+        <tr><td><strong>Sperm morphology</strong></td><td>&gt;50% sperms morphologically normal (normal head, body &amp; tail)</td></tr>
+        <tr><td><strong>Sperm viability</strong></td><td>&gt;75% sperms are viable (alive)</td></tr>
+        <tr><td><strong>Leucocytes (WBC)</strong></td><td>&lt;1 million / ml</td></tr>
+        <tr><td><strong>Liquefaction</strong></td><td>Complete within 30 minutes</td></tr>
+        <tr><td><strong>Sperm clumping</strong></td><td>Absent</td></tr>
+      </table>
+
+      <h3>C. Biochemical</h3>
+      <table>
+        <tr><th>Parameter</th><th>Normal Value</th></tr>
+        <tr><td><strong>Fructose estimation</strong></td><td>1.5–6.5 mg/dl</td></tr>
+      </table>
+
+      <p><strong>WHO cut-offs (note differences):</strong></p>
+      <ul>
+        <li>Most WHO laboratories use a cut-off of <strong>50% motility</strong> as the lower limit of normal.</li>
+        <li><strong>Greater than 30% normal morphology</strong> is accepted by WHO (some newer WHO 2010+ criteria use stricter &gt;4% normal forms).</li>
+      </ul>
+      <p><strong>Low semen volume</strong> may indicate <strong>retrograde ejaculation</strong> (semen enters the bladder instead of being expelled externally).</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What information can we get from semen analysis? Mention the features examined and important messages in reporting.</summary>
+    <div class="ans">
+      <p><strong>Basic semen analysis measures (4 parameters):</strong></p>
+      <ol>
+        <li><strong>Semen volume</strong></li>
+        <li><strong>Sperm concentration</strong> (count)</li>
+        <li><strong>Sperm motility</strong></li>
+        <li><strong>Sperm morphology</strong></li>
+      </ol>
+      <p><strong>Additional tests:</strong></p>
+      <ul>
+        <li><strong>pH</strong> — high pH may be associated with ejaculatory tract obstruction or seminal vesicle dysfunction.</li>
+        <li><strong>Fructose levels</strong> — absence of fructose may indicate ejaculatory tract obstruction or seminal vesicle dysfunction.</li>
+        <li><strong>WBC (leucocyte) counts</strong> within semen — to detect infection (leucospermia).</li>
+      </ul>
+      <p><strong>Important messages in semen analysis reporting:</strong> Always comment on (1) volume, (2) sperm count, (3) motility percentage, (4) morphology, (5) liquefaction status, (6) presence/absence of agglutination, (7) WBC count, (8) fructose (if requested).</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Define normozoospermia.</summary>
+    <div class="ans">
+      <p><strong>Normozoospermia:</strong> a condition where <span class="good">all semen parameters are within normal reference ranges</span> — normal volume, normal sperm count (&gt;20 million/ml), normal motility (&gt;50% forward motile), and normal morphology (&gt;30% normal forms). The male is considered <strong>fertile</strong>.</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 5 ============================== -->
+  <h2 id="terminology">5 · Sperm Analysis Terminology (Classification)</h2>
+
+  <details>
+    <summary>🔴 Define oligospermia and necrospermia. Enumerate all sperm analysis terminologies.</summary>
+    <div class="ans">
+      <p><strong>Complete sperm analysis terminology (must-know for VIVA):</strong></p>
+      <table>
+        <tr><th>Term</th><th>Definition</th></tr>
+        <tr><td><strong>Normozoospermia</strong></td><td>All semen parameters are normal</td></tr>
+        <tr><td><strong>Oligospermia (Oligozoospermia)</strong></td><td>Reduced sperm number (&lt;20 million sperm/ml of semen)<br>
+          • <strong>Mild to moderate:</strong> 5–20 million/ml<br>
+          • <strong>Severe:</strong> &lt;5 million/ml</td></tr>
+        <tr><td><strong>Asthenozoospermia</strong></td><td>Reduced sperm motility (&lt;50% sperm have forward motility)</td></tr>
+        <tr><td><strong>Teratozoospermia</strong></td><td>Increased abnormal forms of sperm (&lt;30% are morphologically normal)</td></tr>
+        <tr><td><strong>Azoospermia</strong></td><td>No sperm in semen (complete absence of spermatozoa)</td></tr>
+        <tr><td><strong>Necrozoospermia (Necrospermia)</strong></td><td>All sperms are non-viable or dead</td></tr>
+        <tr><td><strong>Polyzoospermia (Polypermia)</strong></td><td>Sperm count is &gt;350 million/ml</td></tr>
+      </table>
+      <p><strong>Note on Aspermia (= Ejaculation failure):</strong> absence of semen entirely — no ejaculate produced.</p>
+      <div class="mnem">🎯 <strong>Mnemonic:</strong> <em>"Normo → all OK; Oligo → few; Astheno → slow; Terato → ugly; Azo → none; Necro → dead; Poly → too many."</em></div>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 6 ============================== -->
+  <h2 id="fertility">6 · Male Fertility Status by Examining Semen</h2>
+
+  <details>
+    <summary>How can you know male fertility status by examining semen?</summary>
+    <div class="ans">
+      <p><strong>Three parameters determine fertility status:</strong></p>
+
+      <h3>A. Sperm Count → Fertility Correlation</h3>
+      <table>
+        <tr><th>Condition</th><th>Sperm Count</th><th>Fertility Status</th></tr>
+        <tr><td><strong>Normozoospermia</strong></td><td>Normal (&gt;20 million/ml)</td><td><span class="good">Fertile</span></td></tr>
+        <tr><td><strong>Oligozoospermia</strong></td><td>&lt;20 million/ml<br>(Mild–moderate: 5–20; Severe: &lt;5)</td><td><span class="warn">Susceptible to infertility</span></td></tr>
+        <tr><td><strong>Azoospermia</strong></td><td>No sperm in semen</td><td><span class="hot">Infertile</span></td></tr>
+        <tr><td><strong>Necrozoospermia</strong></td><td>All sperms non-viable / dead</td><td><span class="hot">Infertile</span></td></tr>
+        <tr><td><strong>Polyzoospermia</strong></td><td>&gt;350 million/ml</td><td><span class="warn">Susceptible to infertility</span></td></tr>
+      </table>
+
+      <h3>B. Motility of Sperm</h3>
+      <p>For normal fertility, <span class="hot">&gt;50% spermatozoa must be motile</span> (forward progressive motility). Most WHO laboratories use 50% as the lower limit of normal.</p>
+
+      <h3>C. Morphology of Sperm</h3>
+      <p>For normal fertility, <span class="hot">&gt;30% of sperms must be morphologically normal</span> (normal head, body &amp; tail). WHO accepts &gt;30%; newer WHO 2010 criteria use &gt;4% strict normal forms.</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 7 ============================== -->
+  <h2 id="oligospermia">7 · Oligospermia — Short Note</h2>
+
+  <details>
+    <summary>🔴 What is oligospermia? Give its causes.</summary>
+    <div class="ans">
+      <p><strong>Oligospermia:</strong> less than <span class="hot">20 million sperm/ml of semen</span>. Classified as mild–moderate (5–20 million/ml) or severe (&lt;5 million/ml).</p>
+
+      <h3>Causes (organised systematically — pre-testicular, testicular, post-testicular)</h3>
+
+      <h3>A. Idiopathic</h3>
+      <p>No identifiable cause found.</p>
+
+      <h3>B. Pre-testicular Causes</h3>
+      <ul>
+        <li><strong>Hypogonadism</strong> due to any cause</li>
+        <li><strong>Drugs, alcohol, smoking</strong></li>
+        <li><strong>Heat</strong> exposure (to the testes)</li>
+        <li><strong>Strenuous riding of bicycle</strong> (repeated perineal pressure &amp; heat)</li>
+        <li><strong>Tight-fitting undergarments</strong> (heat retention)</li>
+        <li><strong>Diabetes mellitus (DM)</strong></li>
+        <li><strong>Cancer treatment</strong> — radiotherapy / chemotherapy</li>
+        <li><strong>Severe illness:</strong> malignancy, liver failure, renal failure</li>
+      </ul>
+
+      <h3>C. Testicular Causes</h3>
+      <ul>
+        <li><strong>Age</strong> (advancing age)</li>
+        <li><strong>Genetic defect</strong></li>
+        <li><strong>Chromosomal abnormality</strong> — e.g., <span class="hot">Klinefelter syndrome</span> (47,XXY)</li>
+        <li><strong>Cryptorchidism</strong> (undescended testis)</li>
+        <li><strong>Orchitis</strong> (testicular infection — e.g., mumps orchitis)</li>
+        <li><strong>Varicocele, hydrocele</strong></li>
+        <li><strong>Trauma / surgery</strong> to the testes</li>
+        <li><strong>Neoplasm:</strong> seminoma</li>
+      </ul>
+
+      <h3>D. Post-testicular Causes</h3>
+      <ul>
+        <li><strong>Infection:</strong> prostatitis</li>
+        <li><strong>Obstruction in vas deferens</strong></li>
+        <li><strong>Obstruction in ejaculatory duct</strong></li>
+        <li><strong>Absence of vas deferens</strong> (congenital bilateral absence — associated with CFTR mutations / cystic fibrosis carrier state)</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 8 ============================== -->
+  <h2 id="azoospermia">8 · Azoospermia — Short Note</h2>
+
+  <details>
+    <summary>🔴 What is azoospermia? What are the causes of azoospermia?</summary>
+    <div class="ans">
+      <p><strong>Azoospermia:</strong> <span class="hot">no sperm in semen — complete lack of spermatozoa in the ejaculate</span>. It occurs in approximately <strong>5% of infertile men</strong>.</p>
+
+      <h3>Causes (pre-testicular, testicular, post-testicular + idiopathic)</h3>
+
+      <h3>A. Idiopathic</h3>
+      <p>No identifiable cause found.</p>
+
+      <h3>B. Pre-testicular Causes</h3>
+      <ul>
+        <li><strong>Hypogonadism</strong> due to any cause</li>
+        <li><strong>Drugs, alcohol</strong></li>
+        <li><strong>Diabetes mellitus (DM)</strong></li>
+        <li><strong>Cancer treatment</strong> — radiotherapy / chemotherapy</li>
+        <li><strong>Severe illness:</strong> malignancy, liver failure, renal failure</li>
+        <li><strong>Haemochromatosis</strong> (iron overload → pituitary/gonadal damage)</li>
+        <li><strong>Sickle cell anaemia</strong></li>
+      </ul>
+
+      <h3>C. Testicular Causes</h3>
+      <ul>
+        <li><strong>Primary / Secondary testicular failure</strong></li>
+        <li><strong>Genetic defect</strong></li>
+        <li><strong>Chromosomal abnormality</strong> — e.g., <span class="hot">Klinefelter syndrome</span> (47,XXY)</li>
+        <li><strong>Cryptorchidism</strong> (undescended testis)</li>
+        <li><strong>Orchitis</strong></li>
+        <li><strong>Varicocele, hydrocele</strong></li>
+        <li><strong>Trauma / surgery</strong></li>
+        <li><strong>Sperm autoimmunity</strong> — anti-sperm antibodies (Ab)</li>
+      </ul>
+
+      <h3>D. Post-testicular Causes</h3>
+      <ul>
+        <li><strong>Infection:</strong> epididymitis, prostatitis</li>
+        <li><strong>Obstruction in vas deferens</strong></li>
+        <li><strong>Obstruction in ejaculatory duct</strong></li>
+        <li><strong>Absence of vas deferens</strong></li>
+        <li><strong>Vasectomy</strong> (surgical occlusion)</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>A 36-year-old male presented with infertility. Semen analysis showed absent sperm. Comment on the semen analysis and give possible causes.</summary>
+    <div class="ans">
+      <p><strong>Comment:</strong> <span class="hot">Azoospermia</span> — complete absence of spermatozoa in the ejaculate.</p>
+      <p><strong>Possible causes:</strong> (organise as pre-testicular, testicular, post-testicular)</p>
+      <ul>
+        <li><em>Pre-testicular:</em> hypogonadism, DM, drugs/chemotherapy, severe systemic illness, haemochromatosis, sickle cell anaemia.</li>
+        <li><em>Testicular:</em> primary/secondary testicular failure, Klinefelter syndrome, cryptorchidism, orchitis, varicocele, anti-sperm antibodies, prior trauma/surgery.</li>
+        <li><em>Post-testicular:</em> epididymitis/prostatitis, vas deferens obstruction (congenital or acquired), ejaculatory duct obstruction, vasectomy.</li>
+        <li><em>Idiopathic:</em> no identifiable cause.</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 9 ============================== -->
+  <h2 id="oligoastheno">9 · Oligoasthenozoospermia</h2>
+
+  <details>
+    <summary>Short note: Oligoasthenozoospermia.</summary>
+    <div class="ans">
+      <p><strong>Oligoasthenozoospermia:</strong> a sperm disorder involving <span class="warn">two abnormalities simultaneously</span>:</p>
+      <ol>
+        <li><strong>Oligospermia:</strong> low sperm count (&lt;20 million/ml).</li>
+        <li><strong>Asthenozoospermia:</strong> abnormal sperm motility — more than 60% of sperm being immotile or unable to move in a straight direction.</li>
+      </ol>
+      <h3>Causes</h3>
+      <ul>
+        <li>In most cases, causes are <strong>unknown / idiopathic</strong>.</li>
+        <li><strong>Testicular diseases</strong> — e.g., orchitis.</li>
+        <li>Some <strong>genetic disorders</strong> — e.g., Klinefelter syndrome, immotile cilia syndrome (Kartagener syndrome).</li>
+        <li><strong>Immunologic</strong> — anti-sperm antibodies causing agglutination and reduced motility.</li>
+      </ul>
+      <h3>Treatment</h3>
+      <p>Treatment of <strong>reversible causes</strong>, if any (e.g., infection → antibiotics; varicocele → surgery; hormonal → correction).</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 10 ============================== -->
+  <h2 id="causes">10 · Etiological Factors of Male Infertility</h2>
+
+  <details>
+    <summary>🔴 Mention the etiological factors of male infertility.</summary>
+    <div class="ans">
+      <p><strong>Etiological factors of male infertility</strong> (<span class="hot">Very Important for VIVA</span> — asked DU-10Ja):</p>
+
+      <h3>A. Failure of Spermatogenesis</h3>
+      <ul>
+        <li>Incomplete development of testis / <strong>undescended testis</strong> (cryptorchidism)</li>
+        <li>Absence of testis</li>
+        <li><strong>Orchitis</strong> — due to mumps, influenza, Chlamydia</li>
+        <li>Cryptorchidism (repeated for emphasis)</li>
+        <li><strong>Chromosomal abnormality:</strong> Klinefelter syndrome (47,XXY)</li>
+        <li>Damage of testis — due to <strong>radiation, trauma, or heat</strong></li>
+        <li>Diseases of testis — <strong>TB (tuberculosis), syphilis, seminoma</strong></li>
+        <li><strong>Varicocele</strong> (↑scrotal temperature → impaired spermatogenesis)</li>
+        <li><strong>Drugs:</strong> nicotine, sulfonamide, antihistamines, cytotoxic drugs, alcohol, pesticides</li>
+        <li><strong>Anti-sperm antibody</strong> (autoimmune destruction)</li>
+        <li><strong>Endocrine disease:</strong>
+          <ul>
+            <li>Hypothalamic–pituitary dysfunction (trauma, radiation, tumour, surgery)</li>
+            <li><strong>Hyperprolactinaemia</strong></li>
+            <li>Thyroid disorders (thyrotoxicosis / hyperthyroidism)</li>
+            <li>Adrenal hyperplasia</li>
+          </ul>
+        </li>
+        <li><strong>DNA damage</strong> by reactive oxygen species (ROS), fever, and high testicular temperature</li>
+        <li><strong>General factors:</strong> diabetes mellitus (DM), smoking</li>
+      </ul>
+
+      <h3>B. Failure of Transport of Semen</h3>
+      <p>Bilateral obstruction of <strong>epididymis, vas deferens, or ejaculatory duct</strong>.</p>
+
+      <h3>C. Failure to Deposit Sperm in Vagina</h3>
+      <ul>
+        <li><strong>Impotency</strong> (erectile dysfunction)</li>
+        <li><strong>Retrograde ejaculation</strong> (semen enters bladder)</li>
+        <li><strong>Premature ejaculation</strong></li>
+      </ul>
+
+      <h3>D. Errors of Seminal Fluid</h3>
+      <p>Low volume, physicochemical abnormality of semen — including azoospermia, oligospermia, teratospermia, hypospermia, etc.</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 11 ============================== -->
+  <h2 id="pseudocyesis">11 · Pseudocyesis (False Pregnancy)</h2>
+
+  <details>
+    <summary>Define pseudocyesis.</summary>
+    <div class="ans">
+      <p><strong>Pseudocyesis (false pregnancy):</strong> a syndrome in which a woman shows <span class="warn">all the symptoms and signs of being pregnant except for the presence of a fetus</span>. Her belly grows like a pregnant woman, and she can even go into false labour. It is a psychosomatic condition.</p>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 12 ============================== -->
+  <h2 id="infertility-test">12 · Infertility Test (Male &amp; Female)</h2>
+
+  <details>
+    <summary>🔴 How will you proceed to diagnose a case of male and female infertility? Write a short note on infertility test.</summary>
+    <div class="ans">
+      <p><strong>Infertility test:</strong> tests meant to establish the reason why a couple is not able to conceive naturally. Overall, <span class="hot">20–30% of infertility cases are due to a problem with the male partner</span>.</p>
+
+      <h3>A. Diagnosis of Male Infertility</h3>
+      <ol>
+        <li><strong>Medical, sexual, and social history</strong></li>
+        <li><strong>General physical examination</strong> (including examination of genitals)</li>
+        <li><strong>Specific fertility tests:</strong>
+          <ul>
+            <li>Semen analysis — physical, chemical, and microscopic test</li>
+            <li>Immunological assay / Anti-sperm antibody test</li>
+            <li>Sperm function test</li>
+            <li>Post-ejaculatory urine analysis (to rule out retrograde ejaculation)</li>
+            <li>Hormone testing (testosterone and other male hormones)</li>
+            <li>Transrectal and scrotal ultrasound</li>
+            <li>Genetic testing</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3>B. Diagnosis of Female Infertility</h3>
+      <ol>
+        <li><strong>Medical, sexual, and social history</strong></li>
+        <li><strong>General physical examination</strong> (including regular gynaecological examination)</li>
+        <li><strong>Specific fertility tests:</strong>
+          <ul>
+            <li>Hormone assay — LH (luteinising hormone), FSH (follicle-stimulating hormone), oestradiol, progesterone, prolactin, thyroid &amp; pituitary hormones</li>
+            <li>Hysterosalpingography — special X-ray to locate blockage or problems in the uterus and fallopian tubes</li>
+            <li>Ovulation testing — blood test to measure hormone levels to determine ovulation</li>
+            <li>Ovarian reserve test — determines quality and quantity of eggs available for ovulation</li>
+            <li>Diagnostic laparoscopy — identifies endometriosis, scarring, blockages of fallopian tubes, ovarian &amp; uterine problems</li>
+            <li>Imaging tests — pelvic ultrasound, hysterosonography, hysteroscopy</li>
+            <li>Endometrial biopsy — to verify ovulation and inspect uterine lining</li>
+            <li>Pap's smear</li>
+            <li>Genetic testing — to determine genetic defects causing infertility</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== SECTION 13 ============================== -->
+  <h2 id="hormones">13 · Hormones for Infertility Evaluation</h2>
+
+  <details>
+    <summary>What are the common hormones done in male and female to evaluate infertility?</summary>
+    <div class="ans">
+      <h3>A. Common Hormones in Male Infertility Evaluation</h3>
+      <ol>
+        <li><strong>Testosterone</strong> (primary male sex hormone — low levels → impaired spermatogenesis)</li>
+        <li><strong>Thyroid hormone</strong> (T3, T4, TSH — thyroid dysfunction impairs fertility)</li>
+        <li><strong>Prolactin</strong> (hyperprolactinaemia suppresses GnRH → hypogonadism)</li>
+      </ol>
+
+      <h3>B. Common Hormones in Female Infertility Evaluation</h3>
+      <ol>
+        <li><strong>Follicle-Stimulating Hormone (FSH)</strong> — measured on day 3 of the menstrual cycle; elevated FSH → diminished ovarian reserve</li>
+        <li><strong>Luteinising Hormone (LH)</strong> — LH surge triggers ovulation</li>
+        <li><strong>Progesterone</strong> — to confirm ovulation (elevated in luteal phase)</li>
+        <li><strong>Thyroid hormone</strong> (T3, T4, TSH)</li>
+        <li><strong>Prolactin</strong> — hyperprolactinaemia inhibits ovulation</li>
+        <li><strong>Testosterone</strong> (elevated in PCOS — polycystic ovarian syndrome)</li>
+        <li><strong>Anti-Müllerian Hormone (AMH)</strong> — marker of ovarian reserve</li>
+      </ol>
+      <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
+    </div>
+  </details>
+
+  <!-- ============================== RAPID-FIRE ============================== -->
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs)</h2>
+
+  <details class="rapid" open>
+    <summary>Semen Analysis — True/False, one-liners &amp; folded MCQs from Ch31 (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Normal semen is characterised by — 2 to 5 ml per ejaculation (T/F)</div>
+      <div class="a"><strong>True.</strong> Normal ejaculated volume is 2–5 ml.</div>
+
+      <div class="q">Sperm count 20 million per ml is normal (T/F)</div>
+      <div class="a"><strong>True.</strong> Normal sperm concentration is 20–110 million/ml.</div>
+
+      <div class="q">&gt;70% motile in first hour is normal (T/F)</div>
+      <div class="a"><strong>False.</strong> Normal is 60–65% actively motile within 1 hour; most WHO labs use ≥50% as the lower limit.</div>
+
+      <div class="q">50% normal in morphology is accepted by WHO (T/F)</div>
+      <div class="a"><strong>True.</strong> &gt;50% morphologically normal (normal head, body &amp; tail) is the traditional criterion; WHO also accepts &gt;30%.</div>
+
+      <div class="q">Normal liquefaction is completed within half an hour (T/F)</div>
+      <div class="a"><strong>True.</strong> Complete liquefaction should occur within 30 minutes.</div>
+
+      <div class="q">Normal liquefaction time is 20–30 minutes (T/F) — from Semen analysis MCQ</div>
+      <div class="a"><strong>False.</strong> Normal liquefaction time is <strong>within 30 minutes</strong>, not "20–30 minutes" — the statement is considered False in the MCQ key (likely because the accepted window is simply "≤30 min").</div>
+
+      <div class="q">Sperm &lt;20 million/ml is oligospermia (T/F)</div>
+      <div class="a"><strong>True.</strong> Oligospermia = sperm count &lt;20 million/ml.</div>
+
+      <div class="q">Prolonged liquefaction time indicates sterility (T/F)</div>
+      <div class="a"><strong>True.</strong> Significantly prolonged liquefaction may indicate pathology and is associated with reduced fertility.</div>
+
+      <div class="q">40 million/ml sperm count is hyperzoospermia (T/F)</div>
+      <div class="a"><strong>False.</strong> 40 million/ml is within normal range (20–110 million/ml). Hyperzoospermia (polyzoospermia) = &gt;350 million/ml.</div>
+
+      <div class="q">No spermatozoa either living or dead is called asthenozoospermia (T/F)</div>
+      <div class="a"><strong>False.</strong> Absence of all spermatozoa = <strong>azoospermia</strong>. Asthenozoospermia = reduced motility.</div>
+
+      <div class="q">Indications of semen analysis include: undescended testis (F), following vasectomy (T), hypogonadism (F), testicular neoplasm (F), following chemotherapy (F)?</div>
+      <div class="a">Undescended testis = <strong>False</strong> · following vasectomy = <strong>True</strong> · hypogonadism = <strong>False</strong> · testicular neoplasm = <strong>False</strong> · following chemotherapy = <strong>False</strong>. Indications are: infertility evaluation, post-vasectomy follow-up, artificial insemination, paternity test, suspected rape case.</div>
+
+      <div class="q">Indications of semen analysis are: infertility (T), paternity test (T), after vagotomy (F), rape (T), after vasectomy (T)?</div>
+      <div class="a">Infertility = <strong>True</strong> · paternity test = <strong>True</strong> · after vagotomy = <strong>False</strong> (vagotomy is a gastric surgery, irrelevant) · rape = <strong>True</strong> · after vasectomy = <strong>True</strong>.</div>
+
+      <div class="q">🎯 One-liner: Low semen volume indicates?</div>
+      <div class="a"><strong>Retrograde ejaculation</strong> (semen enters bladder instead of being expelled externally).</div>
+
+      <div class="q">🎯 One-liner: Most WHO laboratories use a cut-off of what percentage motility as the lower limit of normal?</div>
+      <div class="a"><strong>50% motility.</strong></div>
+
+      <div class="q">🎯 One-liner: Greater than what percentage normal morphology is accepted by WHO?</div>
+      <div class="a"><strong>&gt;30% normal morphology</strong> (traditional WHO criteria).</div>
+
+      <div class="q">🎯 One-liner: In azoospermia, what percentage of infertile men are affected?</div>
+      <div class="a"><strong>5% of infertile men.</strong></div>
+
+      <div class="q">🎯 One-liner: What is polyzoospermia?</div>
+      <div class="a"><strong>Sperm count &gt;350 million/ml</strong> — associated with susceptibility to infertility (paradoxically high count can also impair fertility).</div>
+
+      <div class="q">🎯 One-liner: Klinefelter syndrome (47,XXY) is a cause of which sperm disorder?</div>
+      <div class="a"><strong>Oligospermia / Azoospermia</strong> — chromosomal abnormality causing primary testicular failure.</div>
+
+      <div class="q">🎯 One-liner: Absence of fructose in semen suggests?</div>
+      <div class="a"><strong>Ejaculatory tract obstruction or seminal vesicle dysfunction</strong> (fructose is secreted by seminal vesicles).</div>
+
+      <div class="q">🎯 One-liner: Why is condom collection unacceptable for semen analysis?</div>
+      <div class="a"><strong>Condoms contain spermicidal agents</strong> that kill sperm and give false results.</div>
+
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="00_Index.html">← Index</a></span>
+    <span>Ch 22 · Semen Analysis</span>
+    <span><a href="ch23_Body_Fluids_CSF_Pleural_Ascitic.html">Next: Body Fluids, CSF →</a></span>
+  </div>
+</div>
+</body>
+</html>

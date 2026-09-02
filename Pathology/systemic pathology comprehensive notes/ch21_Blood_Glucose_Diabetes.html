@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch21 — Blood Glucose and Diabetes Mellitus | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#glucose">Blood glucose levels</a><a href="#dm">DM definition/classif</a><a href="#diagnosis">Diagnosis</a><a href="#criteria">Diagnostic criteria</a><a href="#goals">Metabolic goals</a><a href="#hyper">Hyperglycaemia</a><a href="#glycosuria">Glycosuria</a><a href="#ogtt">OGTT</a><a href="#predm">Pre-diabetes</a><a href="#hba1c">HbA1c</a><a href="#complications">Complications</a><a href="#ketoacidosis">Ketoacidosis</a><a href="#gdm">GDM</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Ch 21 · Blood Glucose and Diabetes Mellitus · Arif Guide 2025 Vol-2 · Unit-II · pp.433–448</span>
+  <h1>Ch 21 — Blood Glucose and Diabetes Mellitus
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Blood Glucose &amp; Diabetes Mellitus (boss-level overview)</h3>
+    <p><strong>Physiology first:</strong> glucose is the body's energy currency. Its level is kept within a tight range by <strong>insulin</strong> (the only hormone that lowers blood glucose) and counter-regulatory hormones that raise it. Hyperglycaemia = blood glucose above normal; <strong>diabetes mellitus (DM)</strong> is a clinical syndrome of persistent hyperglycaemia from absolute or relative <strong>insulin deficiency</strong>.</p>
+    <p>Boss-level mind-map of this chapter:</p>
+    <p>📌 <strong>1. Normal glucose values</strong> (fasting, random, postprandial, OGTT cut-offs) → <strong>2. DM definition + full classification</strong> (Type 1 · Type 2 · Other specific types · GDM) → <strong>3. Diagnosis/confirmatory tests</strong> (FBS, random glucose, OGTT, HbA1c, urine) &amp; <strong>ADA/WHO diagnostic criteria</strong> → <strong>4. Pre-diabetes</strong> (IFG + IGT) → <strong>5. Glycosuria</strong> (renal, alimentary, hyperglycaemia sine glycosuria) → <strong>6. OGTT</strong> (indications, preparation, procedure, interpretation + curves) → <strong>7. HbA1c</strong> → <strong>8. Complications</strong> (acute: DKA/HHS/lactic acidosis/hypoglycaemic coma; chronic: microvascular + macrovascular) → <strong>9. Ketoacidosis</strong> (mechanism, features, management) → <strong>10. GDM</strong>.</p>
+    <p class="ref">Robbins 10e Ch 24 (The Endocrine Pancreas) pp.1097–1110 · Arif Guide 2025 Vol-2 (Clinical Pathology), pp.433–448</p>
+  </div>
+
+  <h2>1 · Blood Glucose Levels (normal values)</h2>
+
+  <details id="glucose">
+    <summary>🔴 Write the normal blood glucose level. (CMU-24M)</summary>
+    <div class="ans">
+      <p><strong>Normal blood glucose level (Very Important for VIVA):</strong></p>
+      <table>
+        <tr><th>State</th><th>mmol/L</th><th>mg/dl</th></tr>
+        <tr><td>Fasting</td><td>3.6–6.1</td><td>65–110</td></tr>
+        <tr><td>Random &amp; 2 hours postprandial</td><td>&lt;7.8</td><td>&lt;140</td></tr>
+        <tr><td><strong>Impaired glucose tolerance (IGT)</strong> — fasting</td><td>6.1–6.9</td><td>110–125</td></tr>
+        <tr><td><strong>IGT</strong> — random &amp; 2 hrs postprandial</td><td>7.8–11.0</td><td>140–199</td></tr>
+        <tr><td><strong>Diabetes mellitus (DM)</strong> — fasting</td><td>&gt;7.0</td><td>&gt;126</td></tr>
+        <tr><td><strong>DM</strong> — random &amp; 2 hrs postprandial</td><td>&gt;11.1</td><td>&gt;200</td></tr>
+      </table>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+    </div>
+  </details>
+
+  <h2 id="dm">2 · Diabetes Mellitus — Definition &amp; Classification</h2>
+
+  <details>
+    <summary>🔴 What is diabetes mellitus? (DU-22M,17Ja,08Ju, BUP-22Nv/M,21Nv/M, CMU-22Nv,05Ja, RU-18Ja) Classify diabetes mellitus. (DU-22M,17Ja,14Ju, CMU-22Nv)</summary>
+    <div class="ans">
+      <p><strong>Diabetes mellitus (DM):</strong> a clinical syndrome characterised by an increase in plasma blood glucose (hyperglycaemia) due to <strong>absolute or relative deficiency of insulin</strong>. <span class="ref">(Ref: Davidson's 23rd ed. p.722)</span></p>
+      <p>Or, diabetes mellitus is a group of metabolic disorders sharing the common feature of <strong>hyperglycaemia</strong> caused by defects in <strong>insulin secretion</strong>, <strong>insulin action</strong>, or, most commonly, <strong>both</strong>. <span class="ref">(Ref: Robbins 10e p.1097)</span></p>
+      <h3>Classification of DM</h3>
+      <p><strong>A. Type 1 diabetes (T1D)</strong> — β-cell destruction, usually leading to absolute insulin deficiency:</p>
+      <ul>
+        <li>Immune-mediated</li>
+        <li>Idiopathic (autoantibody-negative)</li>
+      </ul>
+      <p><strong>B. Type 2 diabetes (T2D)</strong> — combination of insulin resistance and β-cell dysfunction.</p>
+      <p><strong>C. Other specific types:</strong></p>
+      <ol>
+        <li><strong>Genetic defects of β-cell function:</strong> maturity-onset diabetes of the young (MODY), neonatal diabetes, maternally inherited diabetes and deafness (MIDD), defects in proinsulin conversion, insulin gene mutations.</li>
+        <li><strong>Genetic defects in insulin action:</strong> type A insulin resistance, lipoatrophic diabetes.</li>
+        <li><strong>Exocrine pancreatic defects</strong> ("pancreatogenic" or type 3C diabetes): pancreatitis, pancreatectomy/trauma, pancreatic cancer, cystic fibrosis, haemochromatosis, fibrocalculous pancreatopathy.</li>
+        <li><strong>Endocrinopathies:</strong> acromegaly, Cushing syndrome, hyperthyroidism, pheochromocytoma, glucagonoma.</li>
+        <li><strong>Infections:</strong> cytomegalovirus, Coxsackie B virus, congenital rubella.</li>
+        <li><strong>Drugs:</strong> glucocorticoids, thyroid hormone, interferon-α, protease inhibitors, β-adrenergic agonists, thiazides, nicotinic acid, phenytoin (dilantin), Vacor.</li>
+        <li><strong>Genetic syndromes associated with diabetes:</strong> Down syndrome, Klinefelter syndrome, Turner syndrome, Prader-Willi syndrome.</li>
+      </ol>
+      <p><strong>D. Gestational diabetes mellitus (GDM).</strong></p>
+      <p class="ref">Ref: Robbins 10e p.1099; Davidson's 23rd ed. p.733</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Mention the risk factors of diabetes mellitus. (BUP-21Nv/M)</summary>
+    <div class="ans">
+      <p>Key risk factors for developing diabetes mellitus:</p>
+      <ul>
+        <li><strong>Obesity</strong> (especially central/abdominal obesity)</li>
+        <li><strong>Family history</strong> of diabetes (first-degree relatives)</li>
+        <li><strong>Increasing age</strong></li>
+        <li><strong>Sedentary lifestyle / physical inactivity</strong></li>
+        <li><strong>Hypertension</strong> (&gt;140/90 mmHg)</li>
+        <li><strong>Dyslipidaemia</strong> (low HDL cholesterol ≤35 mg/dl, or high triglycerides ≥250 mg/dl)</li>
+        <li><strong>History of gestational diabetes</strong> or delivery of a macrosomic baby</li>
+        <li><strong>Previous impaired glucose tolerance (IGT)</strong> or impaired fasting glucose (IFG)</li>
+        <li><strong>Ethnicity / genetic susceptibility</strong></li>
+        <li><strong>Polycystic ovary syndrome (PCOS)</strong></li>
+      </ul>
+      <div class="mnem">🎯 <strong>"ROAD-FIT"</strong> — Risk factors: <strong>R</strong>elative (family history) · <strong>O</strong>besity · <strong>A</strong>ge · <strong>D</strong>yslipidaemia · <strong>F</strong>amily/ethnicity · <strong>I</strong>nactivity · <strong>T</strong>his hypertension &amp; prior GDM.</div>
+      <p class="ref">Ref: Davidson's 23rd ed.; ADA criteria (cross-referenced)</p>
+    </div>
+  </details>
+
+  <h2 id="diagnosis">3 · Clinical Features &amp; Diagnosis of DM</h2>
+
+  <details>
+    <summary>🔴 What are the clinical features of a diabetes patient? (DU-03Ja)</summary>
+    <div class="ans">
+      <p><strong>Common symptoms:</strong></p>
+      <ul>
+        <li><strong>Polyuria</strong> (frequent micturition)</li>
+        <li><strong>Polydipsia</strong> (increased thirst)</li>
+        <li><strong>Polyphagia</strong> (increased appetite)</li>
+        <li>Tachycardia</li>
+        <li>Weakness</li>
+        <li>Weight loss</li>
+      </ul>
+      <p><strong>Other features (severe/presenting late):</strong></p>
+      <ul>
+        <li>Dehydration</li>
+        <li>Hypotension</li>
+        <li>Hypothermia</li>
+        <li>Confusion</li>
+        <li>Drowsiness</li>
+        <li>Hyperventilation</li>
+        <li>Muscle wasting</li>
+        <li>Acidosis &amp; coma</li>
+      </ul>
+      <div class="mnem">🎯 <strong>Classic triad "3-P":</strong> Polyuria · Polydipsia · Polyphagia (+ weight loss) = the hallmark symptoms of diabetes.</div>
+      <p class="ref">Ref: Lippincott's 5th ed. p.337; Ganong 24th ed. p.449</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 How will you diagnose / confirm a case of diabetes mellitus in a pathology laboratory? (CMU-23/22Nv,18M, SU-17M,04Ja) How will you confirm a case of diabetes mellitus? (RU-17Ja) Write down the methods you will use in the diagnosis of diabetes mellitus. (RU-14/13/11Ja) Write down the laboratory diagnosis of diabetes mellitus. (CU-20Ju, RU-17Nv/Ju,16Ja) Give your approach to diagnose a case of diabetes mellitus. (RU-18Nv)</summary>
+    <div class="ans">
+      <p><strong>Diagnosis of DM:</strong> the term <em>diagnosis</em> refers to confirmation of diabetes in people who have symptoms, or who have had a positive screening test. The approach is two-part: (A) elicit symptoms, (B) laboratory investigations.</p>
+      <h3>A. Symptoms suggesting diabetes</h3>
+      <p>Common: <strong>polyuria, polydipsia, polyphagia, tachycardia, weakness, weight loss.</strong> Others: dehydration, hypotension, hypothermia, confusion, drowsiness, hyperventilation, muscle wasting, acidosis &amp; coma.</p>
+      <h3>B. Laboratory investigations in DM</h3>
+      <ol>
+        <li><strong>Fasting, random and post-prandial blood glucose concentration</strong> — diagnosis is confirmed by:
+          <ul>
+            <li>Fasting blood glucose &gt;7.0 mmol/L (≥126 mg/dl)</li>
+            <li>Random blood glucose &gt;11.1 mmol/L (&gt;200 mg/dl)</li>
+            <li>Post-prandial blood glucose (2 hrs after meal) &gt;11.1 mmol/L (&gt;200 mg/dl)</li>
+          </ul>
+          <span class="hot">In asymptomatic patients, two samples are required to confirm diabetes.</span>
+        </li>
+        <li><strong>Oral glucose tolerance test (OGTT):</strong>
+          <ul>
+            <li>Fasting plasma glucose &gt;7.0 mmol/L (&gt;126 mg/dl)</li>
+            <li>2 hours after 75 gm glucose load &gt;11.1 mmol/L (&gt;200 mg/dl)</li>
+          </ul>
+        </li>
+        <li><strong>Urine testing</strong> for glucose, ketone bodies, and proteins</li>
+        <li><strong>Glycosylated Hb (HbA1c):</strong>
+          <ul>
+            <li>Normally 4–6% of total Hb is glycosylated</li>
+            <li>Diagnosis of diabetes is confirmed by HbA1c ≥48 mmol/mol (&gt;6.5%)</li>
+          </ul>
+        </li>
+        <li><strong>Other investigations:</strong> full blood count, fasting lipid profile, blood urea and serum creatinine, serum electrolytes.</li>
+      </ol>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+      <div class="mnem">🎯 <strong>Nice to Know (definitions):</strong> <em>Random</em> means without regard to time since last meal · <em>Fasting</em> means no calorie intake for at least 8 hours (but not more than 16 hours). <span class="ref">(Ref: Long Cases in Clinical Medicine 1st ed. p.610)</span></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>Write down the confirmatory biochemical tests for diabetes mellitus.</summary>
+    <div class="ans">
+      <p><strong>Confirmatory biochemical tests for DM:</strong></p>
+      <ul>
+        <li>Either <strong>fasting plasma glucose (FPG)</strong> or <strong>random plasma glucose (RPG)</strong> can be used for the confirmation of diagnosis.</li>
+        <li>In <strong>symptomatic</strong> individuals, one abnormal plasma glucose measurement in the diabetic range confirms the diagnosis.</li>
+        <li><strong>Asymptomatic</strong> individuals with a positive screening test (FPG or RPG) need another abnormal plasma glucose measurement on <strong>another day</strong> for confirmation.</li>
+        <li><strong>OGTT is not recommended for routine use as a confirmatory test.</strong></li>
+      </ul>
+      <div class="mnem">📌 <strong>Definitions:</strong> Fasting = no caloric intake for at least 8 h. Random = any time of day without regard to time since last meal. <span class="ref">(Ref: Manual of diabetes mellitus)</span></div>
+      <h3>Nice to Know — Screening tests for DM</h3>
+      <ul>
+        <li>Screening is recommended for all individuals with one or more <strong>major risk factors</strong> for developing DM.</li>
+        <li><strong>FPG (fasting plasma glucose)</strong> is the laboratory test recommended for screening.</li>
+        <li><strong>RPG (random plasma glucose)</strong> is an alternative test for screening.</li>
+        <li>When facilities for FPG or RPG are not available, <strong>CBG (capillary blood glucose)</strong> and <strong>UG (urinary glucose)</strong> are alternative screening tests for patients with classical symptoms of DM.</li>
+      </ul>
+      <p class="ref">Ref: Manual of diabetes mellitus</p>
+    </div>
+  </details>
+
+  <h2 id="criteria">4 · Diagnostic Criteria for DM (ADA &amp; WHO)</h2>
+
+  <details>
+    <summary>🔴 Write the diagnostic criteria for diabetes mellitus (as per ADA &amp; WHO). (CMU-22M,21/20Nv) Give the WHO diagnostic criteria for diagnosis of diabetes mellitus. (DU-23Nv,21Ja,20Nv/M,19Nv,14/07Ju, BUP-22Nv,21Nv/M, CU-20M, RU-12Ja)</summary>
+    <div class="ans">
+      <p><strong>Diagnostic criteria for DM (ADA &amp; WHO) — Very Important for VIVA:</strong></p>
+      <ol>
+        <li>A single <strong>fasting plasma glucose &gt;7.0 mmol/L (≥126 mg/dl)</strong> in symptomatic patients and on <strong>two separate occasions</strong> in asymptomatic patients.</li>
+        <li>A <strong>random plasma glucose &gt;11.1 mmol/L (≥200 mg/dl)</strong> in an individual with classic signs/symptoms of diabetes (polyuria, polydipsia, polyphagia &amp; weight loss) and on two separate occasions in asymptomatic patients.</li>
+        <li>A <strong>2-hour OGTT &gt;11.1 mmol/L (&gt;200 mg/dl)</strong> after a 75 gm load of glucose.</li>
+        <li>An <strong>HbA1c of ≥48 mmol/mol (&gt;6.5%)</strong> is also diagnostic of diabetes.</li>
+      </ol>
+      <div class="mnem">🎯 <strong>N.B:</strong> As HbA1c reflects the last 2–3 months of glycaemia, it should <strong>not</strong> be used to diagnose diabetes where the duration of onset is short, i.e. in someone with suspected type 1 diabetes or severe symptomatic hyperglycaemia. <span class="ref">(Ref: Davidson's 23rd ed. p.727)</span></div>
+      <p class="ref">Ref: Lecture SSMC; Davidson's 23rd ed. p.727</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Mention the criteria of the patients who should be considered for diabetic testing.</summary>
+    <div class="ans">
+      <p><strong>Criteria for patients who should be considered for diabetic testing:</strong></p>
+      <ul>
+        <li>All individuals <strong>45 years of age or older</strong> (repeat at 3-year interval)</li>
+        <li>Persons with <strong>classic signs &amp; symptoms</strong> of diabetes (polyuria, polydipsia, polyphagia &amp; weight loss)</li>
+        <li><strong>Obesity</strong></li>
+        <li>History of <strong>first-degree relations</strong> with diabetes</li>
+        <li>Women with <strong>gestational diabetes</strong></li>
+        <li>Individuals with <strong>hypertension</strong> (&gt;140/90 mmHg)</li>
+        <li>An <strong>HDL (high-density lipoprotein) cholesterol</strong> level ≤35 mg/dl or <strong>triglyceride (TG)</strong> level ≥250 mg/dl</li>
+        <li>Presence of <strong>impaired glucose tolerance</strong> on previous testing</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details id="goals">
+    <summary>What are the metabolic goals of management of diabetes mellitus? (CU-11Ju)</summary>
+    <div class="ans">
+      <p><strong>Metabolic goals of management of DM:</strong></p>
+      <ol>
+        <li><strong>Target blood glucose level:</strong> fasting blood glucose &lt;6 mmol/L</li>
+        <li><strong>Target HbA1c:</strong> &lt;7%</li>
+        <li><strong>Target levels of blood lipids:</strong>
+          <ul>
+            <li>Total cholesterol: &lt;5.0 mmol/L (approx. 190 mg/dl)</li>
+            <li>LDL (low-density lipoprotein) cholesterol: &lt;3.0 mmol/L (approx. 115 mg/dl)</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="ref">Ref: Davidson's 23rd ed.</p>
+    </div>
+  </details>
+
+  <h2 id="hyper">5 · Hyperglycaemia</h2>
+
+  <details>
+    <summary>What is hyperglycaemia? (DU-12Ju) What are the causes of hyperglycaemia? (SUST-21/19Nv, RU-20Nv) Mention the important causes (any 4) of hyperglycaemia. (DU-05M, RU-17Ja, CU-18M,16/14Ja,11/10Ju,11/09Ja, SU-17M,16Ja,15/13Ja,09Ju) Mention the hyperglycaemic conditions.</summary>
+    <div class="ans">
+      <p><strong>Hyperglycaemia:</strong> a condition when blood sugar level is raised above normal.</p>
+      <p><strong>Causes of hyperglycaemia:</strong></p>
+      <ol>
+        <li>Diabetes mellitus</li>
+        <li>Impaired glucose tolerance</li>
+        <li>Pregnancy</li>
+        <li>Pancreatic diseases — e.g. pancreatitis, haemochromatosis, pancreatectomy</li>
+        <li>Liver disease</li>
+        <li>Endocrine disorders — e.g. thyrotoxicosis, Cushing's syndrome, acromegaly, pheochromocytoma</li>
+        <li>Drugs — e.g. corticosteroids, thiazide diuretics, phenytoin</li>
+      </ol>
+      <p class="ref">Ref: Prof. Khaleque p.191</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is hyperglycaemia sine glycosuria? (DU-08Ju, RU-07Ja) Why is sugar absent in urine during hyperglycaemia sine glycosuria? (DU-22Nv,21Oct/M) Write about hyperglycaemia sine glycosuria. (RU-19M) Short note: Hyperglycaemia sine glycosuria. (DU-09Ju, CU-11Ju, RU-16Ja,14Ju,12Ja,10Ju)</summary>
+    <div class="ans">
+      <p><strong>Hyperglycaemia sine glycosuria:</strong> a condition in which the plasma glucose is above the normal renal threshold for glucose (<strong>180 mg/dl</strong>), but the urine is free from glucose.</p>
+      <p><strong>Cause:</strong> this is due to a <span class="hot">raised renal threshold above normal</span>. This may occur in prolonged uncontrolled diabetes mellitus.</p>
+      <p class="ref">Ref: Prof. Khaleque p.191</p>
+      <div class="mnem">🎯 <strong>"sine" = without.</strong> Hyperglycaemia <strong>sine</strong> glycosuria = high blood sugar <strong>without</strong> sugar in urine (raised renal threshold).</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 In which disease is blood glucose normal but there is glucose in urine? (Very Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Renal glycosuria</strong> — the reverse of hyperglycaemia sine glycosuria.</p>
+      <p class="ref">Ref: Prof. Khaleque</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 A diabetic patient has blood glucose level more than 200 mg/dl, but he has no glycosuria. How can it be possible? (Very Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Hyperglycaemia sine glycosuria</strong> — the plasma glucose is above the renal threshold, but the urine is free from glucose because the renal threshold is raised above normal (e.g., in prolonged uncontrolled diabetes mellitus).</p>
+      <p class="ref">Ref: Prof. Khaleque p.191</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Enumerate the causes of hypoglycaemia. (RU-17/15Ja, CU-13Ju/Ja) Short note: Hypoglycaemia. (CU-16Ju)</summary>
+    <div class="ans">
+      <p><strong>Hypoglycaemia:</strong> the condition when blood glucose level is reduced below normal (&lt;2.2 mmol/L).</p>
+      <p><strong>Causes of hypoglycaemia (Very Important for VIVA):</strong></p>
+      <ol>
+        <li>Diabetic patients taking anti-diabetic drugs with <strong>delayed, inadequate or missed meal</strong>, heavy exercise or alcohol</li>
+        <li><strong>Overdose</strong> of hypoglycaemic drugs such as insulin or sulphonylurea drugs</li>
+        <li><strong>Addison's disease</strong></li>
+        <li><strong>Insulin-secreting tumour</strong>, e.g. insulinoma, retroperitoneal fibrosarcoma etc.</li>
+        <li>Malnutrition</li>
+        <li>Severe liver disease</li>
+        <li>Malabsorption, e.g. coeliac disease</li>
+        <li><strong>Gastroparesis</strong> due to autonomic neuropathy</li>
+        <li><strong>Breast-feeding</strong> by diabetic mother</li>
+      </ol>
+      <div class="mnem">🎯 <strong>Remember AMI:</strong> A — <strong>A</strong>nti-diabetic drugs · M — <strong>M</strong>alabsorption · I — <strong>I</strong>nsulinoma.</div>
+      <h3>Symptoms of hypoglycaemia</h3>
+      <ul>
+        <li><strong>1. Neuroglycopenic:</strong> confusion, drowsiness, speech difficulty, inability to concentrate, irritability, incoordination</li>
+        <li><strong>2. Autonomic:</strong> sweating, trembling, hunger, anxiety</li>
+        <li><strong>3. Non-specific:</strong> nausea, headache, tiredness</li>
+      </ul>
+      <p class="ref">Ref: Davidson's 21st ed. pp.812–813</p>
+    </div>
+  </details>
+
+  <h2 id="glycosuria">6 · Glycosuria</h2>
+
+  <details>
+    <summary>🔴 What is glycosuria? (CH-?Ja) Enumerate the causes of glycosuria. (BSFMMUS-23Nv, RU-MM/Ju, JU,14,13,11,07Ja, CU-14Ju/07Ja, SU-11Ju)</summary>
+    <div class="ans">
+      <p><strong>Glycosuria:</strong> presence of glucose in urine which can be detected by conventional method (Benedict test). <span class="ref">(Ref: Prof. Khaleque p.202)</span></p>
+      <p><strong>Causes:</strong></p>
+      <ol>
+        <li><strong>Untreated diabetes mellitus (DM)</strong></li>
+        <li><strong>Renal glycosuria:</strong> blood glucose values are normal but sugar is present in urine due to low renal threshold value for glucose. There is reduced rate of reabsorption of glucose by kidney tubules, as occurs in serious tubular damage or inherited defect in tubular absorption.</li>
+        <li><strong>Alimentary (lag storage) glycosuria:</strong> glycosuria developing after ingestion of a moderate amount of sugar or starch (which normally is dissipated without appearing in the urine) because the rate of intestinal absorption exceeds the capacity of the liver and other tissues to remove the glucose, thus allowing blood glucose levels to become high enough for renal excretion (above renal threshold, 10 mmol or 180 mg/dl). This may occur in:
+          <ul>
+            <li>Normal people</li>
+            <li>Liver disease</li>
+            <li>Hyperthyroidism</li>
+            <li>After gastric surgery (gastrectomy &amp; vagotomy)</li>
+          </ul>
+        </li>
+        <li><strong>Fanconi syndrome:</strong> glucose, amino acid, and phosphate are excreted due to impaired absorption</li>
+        <li><strong>Sometimes during pregnancy</strong></li>
+      </ol>
+      <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.192</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is renal glycosuria? (DU-24Nv,11Ja) Short note: Renal glycosuria. (BUP-22M, RU-14Ju, SU-12a) Why is sugar present in renal glycosuria? (DU-23Nv)</summary>
+    <div class="ans">
+      <p><strong>Renal glycosuria:</strong> blood glucose values are <strong>normal</strong>, but sugar is present in urine due to a <span class="hot">low renal threshold value for glucose</span> (reduced rate of reabsorption of glucose by kidney tubules — as occurs in serious tubular damage or inherited defect in tubular absorption). It is the <strong>reverse of hyperglycaemia sine glycosuria</strong>.</p>
+      <h3>Raised renal threshold for glucose occurs in:</h3>
+      <ul>
+        <li>Heart failure</li>
+        <li>Shock</li>
+        <li>Na⁺ (sodium) depletion</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.192</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Short note: Alimentary glycosuria. (DU-15Ja, RU-13/10Ja)</summary>
+    <div class="ans">
+      <p><strong>Alimentary (lag storage) glycosuria:</strong> glycosuria developing after ingestion of a moderate amount of sugar or starch (which normally is dissipated without appearing in the urine) because the rate of <span class="hot">intestinal absorption exceeds the capacity of the liver and other tissues</span> to remove the glucose, thus allowing blood glucose levels to become high enough for renal excretion (above renal threshold, 10 mmol or 180 mg/dl).</p>
+      <p>This may occur in:</p>
+      <ul>
+        <li>Normal people</li>
+        <li>Liver disease</li>
+        <li>Hyperthyroidism</li>
+        <li>After gastric surgery (gastrectomy &amp; vagotomy)</li>
+      </ul>
+      <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.192</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How will you differentiate diabetes mellitus from renal and alimentary glycosuria?</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Feature</th><th>Diabetes mellitus</th><th>Renal glycosuria</th><th>Alimentary glycosuria</th></tr>
+        <tr><td><strong>Hyperglycaemia</strong></td><td>Present</td><td>Absent</td><td>Transient hyperglycaemia (due to increased absorption) present</td></tr>
+        <tr><td><strong>Renal threshold value of sugar</strong></td><td>Normal</td><td>Below normal</td><td>Normal</td></tr>
+        <tr><td><strong>Ketosis</strong></td><td>Present</td><td>Absent</td><td>Absent</td></tr>
+        <tr><td><strong>Cause</strong></td><td>Disease of the pancreas</td><td>Diseases of the kidney</td><td>Liver disease; hyperthyroidism; after gastric surgery (gastrectomy &amp; vagotomy)</td></tr>
+      </table>
+      <p class="ref">Ref: Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Raised renal threshold for glucose occurs in — name the conditions.</summary>
+    <div class="ans">
+      <p><strong>Raised renal threshold for glucose occurs in:</strong></p>
+      <ul>
+        <li>Heart failure</li>
+        <li>Shock</li>
+        <li>Na⁺ (sodium) depletion</li>
+      </ul>
+      <p>(This is the cause of hyperglycaemia sine glycosuria.)</p>
+      <p class="ref">Ref: Prof. Khaleque</p>
+    </div>
+  </details>
+
+  <h2 id="ogtt">7 · Oral Glucose Tolerance Test (OGTT / GTT)</h2>
+
+  <details>
+    <summary>🔴 What do you mean by OGTT? (DU-22Nv,21Oct/M,11Ja, BUP-22Nv, SU-20M) Discuss the interpretation of OGTT. (DU-11Ja, BSFMMUS-23Nv, SUST-21Nv,20M,19Nv,15/13Ja,11Ju, RU-18M,16Ju, CU-14Ja,10Ju/Ja) How can you confirm OGTT? (DU-15Ja) Short note: GTT / OGTT. (DU-05S/Ja,04Ja, SU-22/19M,14Ju,06Ja,05M, RU-17M) Short note: OGTT and its interpretation. (DU-13Ju)</summary>
+    <div class="ans">
+      <p><strong>Oral glucose tolerance test (OGTT / GTT):</strong> a laboratory test to diagnose diabetes mellitus. When random blood glucose values are elevated but are not diagnostic of diabetes, glucose tolerance is usually assessed by the glycaemic response to oral ingestion of a glucose load. It measures the ability of the body to tolerate, or cope with, a standard dose of glucose. <span class="hot">Tolerance is reduced when insulin is insufficient or absent.</span></p>
+      <h3>Indication of OGTT — patients with:</h3>
+      <ul>
+        <li>Fasting plasma glucose: 6.1–6.9 mmol/L (110–125 mg/dl)</li>
+        <li>Random plasma glucose: 7.8–11.0 mmol/L (140–199 mg/dl)</li>
+      </ul>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+      <h3>Preparation of the patient</h3>
+      <ol>
+        <li>Unrestricted CHO (carbohydrate) diet (minimum 150 gm/day) for 3 days before test</li>
+        <li>Avoidance of drugs affecting blood glucose level (e.g. corticosteroid, oral contraceptives etc.)</li>
+        <li>Treatment of any infection (if present)</li>
+        <li>Fasted overnight (for at least 8 hours) prior to the test</li>
+        <li>Avoidance of smoking &amp; exercise prior to the test</li>
+        <li>Rest before test (for at least 30 minutes)</li>
+        <li>The person should sit throughout the procedure</li>
+        <li>No smoking is permitted during test interval</li>
+        <li>Caffeinated beverages should not be consumed</li>
+        <li>The person should not be bed-ridden or under stress</li>
+      </ol>
+      <h3>Procedure</h3>
+      <ol>
+        <li>Fasting venous blood for plasma and corresponding urine sample is collected.</li>
+        <li>75 gm glucose dissolved in 250–300 ml of water is given by mouth within 5 minutes of fasting sample collection.</li>
+        <li>Venous blood and urine samples are collected 2 hours after the 75 gm glucose load — or at half-hourly intervals for at least two hours.</li>
+        <li>Plasma glucose on each blood sample and sugar on each urine sample is estimated.</li>
+      </ol>
+      <h3>Interpretation of OGTT curve</h3>
+      <table>
+        <tr><th>Category</th><th>Fasting</th><th>2 hrs after 75 gm glucose load</th></tr>
+        <tr><td><strong>Healthy</strong></td><td>3.6–6.1 mmol/L (65–110 mg/dl)</td><td>&lt;7.8 mmol/L (&lt;140 mg/dl)</td></tr>
+        <tr><td><strong>Diabetic</strong></td><td>&gt;7.0 mmol/L (≥126 mg/dl)</td><td>&gt;11.1 mmol/L (≥200 mg/dl)</td></tr>
+        <tr><td><strong>Impaired glucose tolerance (IGT)</strong></td><td>6.1–6.9 mmol/L (110–125 mg/dl)</td><td>7.8–11.0 mmol/L (140–199 mg/dl)</td></tr>
+      </table>
+      <div class="mnem">📌 <strong>N.B:</strong> For asymptomatic patients, <span class="hot">2 abnormal values greater than 11.1 mmol/L</span> are needed to establish the diagnosis of DM. <span class="ref">(Ref: Davidson's 23rd ed. p.726)</span></div>
+      <h3>Nice to Know</h3>
+      <ul>
+        <li>In OGTT, testing of urine for glucose in all the samples is the usual procedure for detecting DM, but it has <strong>no diagnostic value</strong> because DM may exist without glycosuria if blood glucose level does not exceed the renal threshold.</li>
+        <li>Sometimes there may be glycosuria in the absence of DM, e.g. renal glycosuria, alimentary glycosuria.</li>
+        <li>Glycosuria frequently coexists with DM, but <strong>for diagnosis of DM glycosuria is not mandatory.</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Enumerate the indications of glucose tolerance test (GTT)/OGTT. (CMU-24M, RU-19Nv,18M,07Ja) Write down the importance of glucose tolerance test.</summary>
+    <div class="ans">
+      <p><strong>Indication of OGTT:</strong> patients with:</p>
+      <ul>
+        <li>Fasting plasma glucose: 6.1–6.9 mmol/L (110–125 mg/dl)</li>
+        <li>Random plasma glucose: 7.8–11.0 mmol/L (140–199 mg/dl)</li>
+      </ul>
+      <p><strong>Importance of glucose tolerance test:</strong></p>
+      <ol>
+        <li>To find out the ability of the body for carbohydrate metabolism</li>
+        <li>To detect:
+          <ul>
+            <li>Diabetes mellitus</li>
+            <li>Endocrine dysfunction</li>
+            <li>Renal glycosuria</li>
+            <li>Alimentary glycosuria</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How will you prepare a patient for OGTT? (SU-22Nv, CU-11Ja) Briefly describe the procedure of oral glucose tolerance test (OGTT). (BSFMMUS-23Nv, SU-20M,19Nv, RU-16Ju,10Ja, CU-15/14Ju,12/09Ja) Write down the procedure &amp; interpretation of OGTT. (DU-22Nv,21Oct/M,18Nv,17M,06S/Ja, CMU-24M, SU-16Ja, RU-15/12/08Ju, CU-08Ju,07/05Ja)</summary>
+    <div class="ans">
+      <h3>Preparation of a patient for OGTT</h3>
+      <ol>
+        <li>Unrestricted CHO (carbohydrate) diet (minimum 150 gm/day) for 3 days before test</li>
+        <li>Avoidance of drugs affecting blood glucose level (e.g. corticosteroid, oral contraceptives etc.)</li>
+        <li>Treatment of any infection (if present)</li>
+        <li>Fasted overnight (for at least 8 hours) prior to the test</li>
+        <li>Avoidance of smoking &amp; exercise prior to the test</li>
+        <li>Rest before test (for at least 30 minutes)</li>
+        <li>The person should sit throughout the procedure</li>
+        <li>No smoking is permitted during test interval</li>
+        <li>Caffeinated beverages should not be consumed</li>
+        <li>The person should not be bed-ridden or under stress</li>
+      </ol>
+      <h3>Procedure</h3>
+      <ol>
+        <li>Fasting venous blood for plasma and corresponding urine sample is collected.</li>
+        <li>75 gm glucose dissolved in 250–300 ml of water is given by mouth within 5 minutes of fasting sample collection.</li>
+        <li>Venous blood and urine samples are collected 2 hours after the 75 gm glucose load — or at half-hourly intervals for at least two hours.</li>
+        <li>Plasma glucose on each blood sample and sugar on each urine sample is estimated.</li>
+      </ol>
+      <h3>Interpretation of OGTT curve</h3>
+      <table>
+        <tr><th>Category</th><th>Fasting</th><th>2 hrs after 75 gm glucose load</th></tr>
+        <tr><td><strong>Healthy</strong></td><td>3.6–6.1 mmol/L (65–110 mg/dl)</td><td>&lt;7.8 mmol/L (&lt;140 mg/dl)</td></tr>
+        <tr><td><strong>Diabetic</strong></td><td>&gt;7.0 mmol/L (≥126 mg/dl)</td><td>&gt;11.1 mmol/L (≥200 mg/dl)</td></tr>
+        <tr><td><strong>Impaired glucose tolerance (IGT)</strong></td><td>6.1–6.9 mmol/L (110–125 mg/dl)</td><td>7.8–11.0 mmol/L (140–199 mg/dl)</td></tr>
+      </table>
+      <p><strong>Normal curve:</strong> near-normal fasting, peaks modestly (&lt;140 mg/dl by 2 hrs). <strong>Diabetic curve:</strong> fasting &gt;126 mg/dl, rising sharply and not returning to normal by 2 hrs (&gt;200 mg/dl). <strong>IGT curve:</strong> 2-hr value 140–199 mg/dl.</p>
+      <div class="mnem">🎯 <strong>Nobody will pass at VIVA without pinpoint explanation of the OGTT interpretation.</strong> Know the three cut-offs cold: normal &lt;7.8 · IGT 7.8–11.0 · diabetic &gt;11.1 (mmol/L) at 2 hrs.</div>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726</p>
+    </div>
+  </details>
+
+  <h2 id="predm">8 · Pre-diabetes (IFG &amp; IGT)</h2>
+
+  <details>
+    <summary>🔴 Short note: Pre diabetes. (Very Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Pre-diabetes:</strong> the intermediary metabolic stage of glucose between normal glucose homeostasis and diabetes mellitus.</p>
+      <p><strong>Components:</strong></p>
+      <ol>
+        <li><strong>IFG (impaired fasting glucose)</strong></li>
+        <li><strong>IGT (impaired glucose tolerance)</strong></li>
+      </ol>
+      <p><strong>Laboratory diagnosis (by OGTT, WHO criteria):</strong></p>
+      <table>
+        <tr><th>Fasting glucose (mmol/L)</th><th>2 hrs after OGTT (mmol/L)</th><th>Diagnosis</th></tr>
+        <tr><td>6.1 – 6.9</td><td>&lt;7.8</td><td><strong>IFG</strong></td></tr>
+        <tr><td>6.1 – 6.9</td><td>7.8 – 11.0</td><td><strong>IGT</strong></td></tr>
+      </table>
+      <p><strong>Consequence / importance:</strong></p>
+      <ol>
+        <li>Pre-diabetics are at <span class="hot">risk of developing diabetes mellitus (DM)</span> later</li>
+        <li>Pre-diabetics are at <span class="hot">increased risk of vascular complications</span></li>
+        <li>It is a useful cautionary clinical message to decide on <strong>preventive measures</strong> through dietary and lifestyle modification to avoid development of DM</li>
+      </ol>
+      <p class="ref">Ref: Lecture SSMC; WHO/NICE criteria</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is IFG? (DU-15Ja,13Ju) Short note: Impaired fasting glucose (IFG). (Very Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Impaired fasting glucose (IFG):</strong> refers to a condition in which the fasting blood glucose level is consistently elevated above what is considered normal levels; however, it is not high enough to be diagnosed as diabetes mellitus.</p>
+      <p>Or, IFG is defined as the fasting glucose level between <strong>6.1 to 6.9 mmol/L (110 to 125 mg/dL)</strong> according to WHO.</p>
+      <h3>Diagnostic criteria — WHO criteria for IFG</h3>
+      <ul>
+        <li>Fasting plasma glucose = <strong>6.1 mmol/L (110 mg/dL) to 6.9 mmol/L (125 mg/dL)</strong></li>
+        <li>2 hrs after OGTT glucose is normal, i.e. <strong>&lt;7.8 mmol/L (&lt;140 mg/dl)</strong></li>
+      </ul>
+      <h3>Importance</h3>
+      <ol>
+        <li>These patients are prone to develop frank diabetes mellitus and cardiovascular disease.</li>
+        <li>There is a <span class="hot">50% risk over 10 years</span> of progressing to overt diabetes.</li>
+        <li>IFG is a risk factor for mortality due to the serious complications of type-2 diabetes mellitus.</li>
+      </ol>
+      <h3>Advice to patients with IFG</h3>
+      <p>Patients are advised for weight reduction of about 5–10% of their body weight, regular exercise and follow-up. Usually <span class="good">no drug therapy is recommended.</span></p>
+      <p class="ref">Ref: Lecture SSMC; Long Cases in Clinical Medicine 1st ed. p.610</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is IGT? (DU-15Ja,13Ju) Mention the clinical importance of IGT. (CU-11Ju) What will be the OGTT findings in IGT? (SU-14Ju) Write the diagnostic criteria for defining impaired glucose tolerance test. (CMU-21M) Short note: Impaired glucose tolerance (IGT). (DU-15Ju,12Ja) (Very Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Impaired glucose tolerance (IGT):</strong> when a random or fasting blood glucose is suggestive but not diagnostic of DM — that is, when the values are above the upper limits of normal but below the values diagnostic of diabetes — it is called impaired glucose tolerance (IGT).</p>
+      <p>Or, when fasting glucose is less than 7 mmol/L, but during OGTT, 2 hours after the glucose load is <strong>7.8 to 11.0 mmol/L</strong>, it is called IGT.</p>
+      <h3>Diagnostic criteria — WHO criteria for IGT</h3>
+      <table>
+        <tr><th>Parameter</th><th>Value</th></tr>
+        <tr><td>Fasting plasma glucose</td><td>6.1–6.9 mmol/L (110–125 mg/dl)</td></tr>
+        <tr><td>2 hrs after OGTT</td><td>7.8–11.0 mmol/L (140–199 mg/dl)</td></tr>
+      </table>
+      <h3>Clinical importance of IGT</h3>
+      <p>The patient who has IGT is at <span class="hot">increased risk of developing frank DM type 2</span> with time, and also <span class="hot">macrovascular complications are more</span> (mainly cardiovascular). Lifestyle modification for type 2 DM and annual check-up for glucose are recommended. <strong>Cardiovascular risk factors should be treated aggressively.</strong></p>
+      <p class="ref">Ref: Lecture SSMC; Long Cases in Clinical Medicine 1st ed. p.610; Davidson's 23rd ed. p.726</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How will you differentiate impaired glucose tolerance (IGT) from overt diabetes? (DU-04S)</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Feature</th><th>Impaired glucose tolerance (IGT)</th><th>Overt diabetes</th></tr>
+        <tr><td><strong>Definition</strong></td><td>Blood sugar is in between normal &amp; DM</td><td>Blood glucose &gt;11.1 mmol/L</td></tr>
+        <tr><td><strong>Blood glucose</strong></td><td>Fasting: 6.1–6.9 mmol/L (110–125 mg/dl) · 2 hrs after OGTT: 7.8–11.0 mmol/L (140–199 mg/dl)</td><td>Fasting: &gt;7.0 mmol/L (≥126 mg/dl) · 2 hrs after OGTT: &gt;11.1 mmol/L (≥200 mg/dl)</td></tr>
+        <tr><td><strong>Urine sample</strong></td><td>Corresponding urine sugar absent in all the samples</td><td>Corresponding urine sugar present when plasma glucose is above renal threshold</td></tr>
+      </table>
+      <p class="ref">Ref: Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 An obese male of 58 years complaining of loss of weight and mild generalized weakness. Laboratory investigations reveal fasting blood sugar 6.6 mmol/L and random level 10.0 mmol/L. Serum lipid level is also raised. What is the diagnosis? How will you investigate the case? (DU-11Ju)</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> Impaired glucose tolerance (IGT).</p>
+      <p>Fasting blood sugar 6.6 mmol/L falls in the IGT range (6.1–6.9 mmol/L); random level 10.0 mmol/L falls in the IGT range (7.8–11.0 mmol/L) — suggestive but not diagnostic of DM.</p>
+      <p><strong>Investigation:</strong> by <span class="good">OGTT (oral glucose tolerance test)</span>.</p>
+      <p class="ref">Ref: Davidson's 23rd ed.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 An obese female aged 45 years with glucosuria, found during routine medical check-up. OGTT done and the results: Fasting 5.4 mmol/L (-), 1 hour 10.7 mmol/L (+), 2 hours 9.9 mmol/L (+). How will you interpret this OGTT result? What is the underlying cause for this? (DU-08Ja)</summary>
+    <div class="ans">
+      <p><strong>Interpretation of OGTT result:</strong> Impaired glucose tolerance (IGT) <strong>with renal glycosuria</strong>.</p>
+      <ul>
+        <li>Fasting 5.4 mmol/L → normal (&lt;6.1)</li>
+        <li>1 hour 10.7 mmol/L → high (transient, above renal threshold)</li>
+        <li>2 hours 9.9 mmol/L → in IGT range (7.8–11.0 mmol/L) — suggestive but not diagnostic of DM</li>
+        <li>Urine sugar positive even though fasting blood glucose is normal → <strong>renal glycosuria</strong> (low renal threshold for glucose)</li>
+      </ul>
+      <p><strong>Underlying cause of renal glycosuria:</strong> in renal glycosuria, blood glucose values are normal but sugar is present in urine due to a low renal threshold value for glucose (reduced rate of reabsorption of glucose by kidney tubules — as occurs in serious tubular damage or inherited defect in tubular absorption).</p>
+      <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.192</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Mention the tests for blood glucose estimation. (Nice to Know)</summary>
+    <div class="ans">
+      <p><strong>Tests for blood glucose estimation:</strong></p>
+      <ol>
+        <li>Enzymatic method by using glucose oxidase</li>
+        <li>Colorimeter</li>
+        <li>Spectrophotometer</li>
+        <li>Automated biochemistry analyzer</li>
+        <li>Test strips</li>
+        <li>Chemical reduction method</li>
+      </ol>
+      <p class="ref">Ref: Prof. Khaleque p.193</p>
+    </div>
+  </details>
+
+  <h2 id="hba1c">9 · Glycosylated Haemoglobin (HbA1c)</h2>
+
+  <details>
+    <summary>🔴 What is the significance of HbA1c? (CU-18Nv) Short note: Glycosylated haemoglobin (HbA1c). (DU-21Ja,20Nv/M,16Ju, CMU-21Nv,20Ju,16Ja,13Ju,11/10/09Ja) (Must be Asked in VIVA)</summary>
+    <div class="ans">
+      <p><strong>Glycosylated haemoglobin (HbA1c):</strong> the most widely used measure of long-term glycaemic control in diabetes mellitus. It is produced by the glycosylation of haemoglobin at a rate proportional to the glucose concentration.</p>
+      <div class="mnem">📌 <strong>N.B:</strong> Slow non-enzymatic covalent attachment of glucose to haemoglobin is called <strong>glycosylation</strong> of haemoglobin.</div>
+      <p><strong>Normal value:</strong> <span class="good">4.0 – 6.0% of total Hb (haemoglobin).</span></p>
+      <p><strong>Importance:</strong></p>
+      <ol>
+        <li>Glycosylated haemoglobin provides an <span class="hot">accurate and objective measure of glycaemic control over a period of weeks to months.</span></li>
+        <li>The measurement of HbA1c level in the blood is a useful adjunct in <strong>monitoring the management of DM.</strong></li>
+        <li>The rate of formation of HbA1c is <strong>directly proportional to the ambient blood glucose concentration.</strong></li>
+        <li>A rise of <strong>1% in HbA1c corresponds to an approximate average increase of 2 mmol/L</strong> blood glucose.</li>
+        <li>A large shift in blood glucose control is rapidly accompanied by a change in HbA1c, <strong>detectable within 2–3 weeks.</strong></li>
+        <li>It also provides an <strong>index of risk for developing diabetic complications.</strong></li>
+      </ol>
+      <p class="ref">Ref: Davidson's 23rd ed. p.726; Lecture SSMC; Prof. Khaleque p.193</p>
+    </div>
+  </details>
+
+  <h2 id="complications">10 · Complications of Diabetes Mellitus</h2>
+
+  <details>
+    <summary>🔴 What are the complications of diabetes mellitus? (DU-22M,21Ja,20Nv/M,19Nv,17/15Ja,13/12Ju, RMU-22Nv,18Ja,17Nv,11Ja,09Ju, BUP-22M, SU-20M, CU-19M) Mention the acute and chronic complications of diabetes mellitus. (CMU-22Nv) Short note: Complications of diabetes mellitus. (RU-15/14Ju)</summary>
+    <div class="ans">
+      <h3>Acute complications</h3>
+      <ol>
+        <li>Diabetes ketoacidosis</li>
+        <li>Hypoglycaemic coma</li>
+        <li>Hyperglycaemic hyperosmolar state (HHS)</li>
+        <li>Lactic acidosis</li>
+      </ol>
+      <h3>Chronic complications</h3>
+      <p><strong>A) Microvascular / neuropathic:</strong></p>
+      <ol>
+        <li><strong>Diabetic retinopathy</strong> — impaired vision</li>
+        <li><strong>Diabetic nephropathy</strong> — renal failure</li>
+        <li><strong>Diabetic neuropathy</strong> — sensory loss, motor weakness, pain</li>
+        <li><strong>Autonomic neuropathy</strong> — gastrointestinal problems (gastroparesis; altered bowel habit), postural hypotension</li>
+        <li><strong>Diabetic foot disease</strong> — ulceration, arthropathy</li>
+      </ol>
+      <p><strong>B) Macrovascular:</strong></p>
+      <ol>
+        <li><strong>Coronary circulation</strong> — myocardial ischaemia / infarction</li>
+        <li><strong>Cerebral circulation</strong> — transient ischaemic attack (TIA), stroke</li>
+        <li><strong>Peripheral circulation</strong> — claudication, ischaemia (e.g. gangrene of the lower extremities)</li>
+      </ol>
+      <p class="ref">Ref: Davidson's 23rd ed. pp.734,756; Robbins 10e pp.1106–1107</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are the ketone bodies? (DU-11Ju,10Ja, RU-17/16Ja) Define ketonuria. How is it formed?</summary>
+    <div class="ans">
+      <p><strong>Ketone bodies / ketones:</strong> acetoacetate, β-hydroxybutyrate, and acetone collectively called ketone bodies. Excretion of more than a trace of these substances in the urine is called <strong>ketonuria</strong>.</p>
+      <p><strong>Mechanism of formation of ketonuria:</strong> glucose provides energy to our body. If intake is insufficient or metabolism defective due to lack of insulin (as in untreated or uncontrolled diabetes), the body obtains energy by <span class="hot">breaking down fats &amp; producing ketones.</span> Ketones are toxic to the brain and can cause coma (found in diabetic ketoacidosis). In ketoacidosis, <strong>ketonuria is always present.</strong> Urine ketone test detects <strong>acetoacetate and acetone only.</strong></p>
+      <p class="ref">Ref: Lecture SSMC</p>
+    </div>
+  </details>
+
+  <h2 id="ketoacidosis">11 · Diabetic Ketoacidosis (DKA)</h2>
+
+  <details>
+    <summary>🔴 How does ketoacidosis develop in cases of uncontrolled diabetes mellitus? (DU-24Nv,11Ju,10Ja,08Ju) Explain the mechanism of developing metabolic acidosis in diabetes mellitus. (DU-03M, RU-08Ju) Discuss in short about the pathogenesis of diabetic ketoacidosis. (DU-23Nv) Short note: Diabetic ketoacidosis. (DU-19M,18Ja) Short note on: Ketoacidosis. (DU-17Ja)</summary>
+    <div class="ans">
+      <p><strong>Ketoacidosis / diabetic ketoacidosis (DKA):</strong> over-production of ketone bodies in long-standing uncontrolled or poorly controlled diabetes mellitus exceeds the buffering capacity of blood. As a result, blood pH is decreased and acidosis is produced — this is called ketoacidosis.</p>
+      <h3>Mechanism of development of ketoacidosis in uncontrolled DM</h3>
+      <ol>
+        <li>Diabetes mellitus → <strong>↓ plasma insulin level</strong></li>
+        <li>Loss of the inhibitory effect of insulin on lipolysis → <strong>↑ lipolysis</strong></li>
+        <li>↑ Free fatty acid in plasma → <strong>↑ β-oxidation</strong></li>
+        <li>↑ Acetyl CoA (coenzyme A)</li>
+        <li>All the acetyl CoA <strong>cannot be utilised by the TCA (tricarboxylic acid / Krebs) cycle</strong> in the liver</li>
+        <li>Excess acetyl CoA is converted to <strong>acetoacetic acid &amp; 3-hydroxybutyric acids</strong></li>
+        <li>↑ Ketone bodies in blood</li>
+        <li>↑ Excretion of ketone body (and glucose) in urine → <strong>dehydration</strong></li>
+        <li>↑ Ketone bodies in decreased volume of plasma → ↑ plasma ketone body concentration</li>
+        <li>→ <span class="hot">Diabetic ketoacidosis</span></li>
+      </ol>
+      <p class="ref">Ref: Lippincott's 3rd ed. p.195</p>
+      <h3>Cardinal biochemical features</h3>
+      <ol>
+        <li>Hyperglycaemia</li>
+        <li>Hyperketonaemia</li>
+        <li>Metabolic acidosis</li>
+      </ol>
+      <h3>Clinical features</h3>
+      <p><strong>A. Symptoms:</strong></p>
+      <ul>
+        <li>Polyuria, thirst</li>
+        <li>Weight loss</li>
+        <li>Weakness</li>
+        <li>Nausea, vomiting</li>
+        <li>Leg cramps</li>
+        <li>Blurred vision</li>
+        <li>Abdominal pain</li>
+      </ul>
+      <p><strong>B. Signs:</strong></p>
+      <ul>
+        <li>Dehydration</li>
+        <li>Hypotension</li>
+        <li>Cold extremities / peripheral cyanosis</li>
+        <li>Tachycardia</li>
+        <li>Air hunger (Kussmaul breathing)</li>
+        <li>Smell of acetone</li>
+        <li>Hypothermia</li>
+        <li>Confusion, drowsiness, coma (10%)</li>
+      </ul>
+      <h3>Management</h3>
+      <p>The principle components of treatment are:</p>
+      <ul>
+        <li>The administration of <strong>short-acting (soluble) insulin</strong></li>
+        <li><strong>Fluid replacement</strong></li>
+        <li><strong>Potassium replacement</strong></li>
+        <li>The administration of <strong>antibiotics</strong> if infection is present</li>
+      </ul>
+      <h3>Complications of diabetic ketoacidosis</h3>
+      <ul>
+        <li>Cerebral oedema</li>
+        <li>Acute respiratory distress syndrome (ARDS)</li>
+        <li>Thromboembolism</li>
+        <li>Disseminated intravascular coagulation (DIC) (rare)</li>
+        <li>Acute circulatory failure</li>
+      </ul>
+      <p class="ref">Ref: Davidson's 23rd ed. pp.735–736</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 A 48-year-old diabetic patient became unconscious following a chest infection. He did not take any anti-diabetic drugs. He also developed a musty odour in breath. What is the diagnosis? What may be the likely findings in urine analysis?</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> <span class="hot">Diabetic ketoacidosis (DKA).</span></p>
+      <div class="mnem">📌 Any form of stress, particularly that produced by infection, may <strong>precipitate severe ketoacidosis.</strong> <span class="ref">(Ref: Davidson's 21st ed. p.809)</span></div>
+      <p><strong>Likely findings in urine analysis:</strong></p>
+      <ul>
+        <li>pH of urine: <span class="hot">↓ (low / acidic)</span></li>
+        <li>Urinary glucose: <span class="hot">↑↑ (markedly increased)</span></li>
+        <li>Urinary ketone body: <span class="hot">↑↑ (markedly increased)</span></li>
+      </ul>
+      <p class="ref">Ref: Davidson's 21st ed. p.809</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 A 26-year-old female was brought to the hospital with a recent history of polyuria, nausea, vomiting, and abdominal pain. Blood parameters on admission: glucose 19 mmol/L, serum electrolytes — Na 120 meq/L, Cl 85 meq/L, K 2.5 meq/L, HCO₃ 10 mmol/L. What is the likely diagnosis?</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> <span class="hot">Diabetic ketoacidosis (DKA)</span>.</p>
+      <p>Glucose 19 mmol/L is markedly elevated (&gt;11.1 mmol/L, diabetic range). The low HCO₃ (10 mmol/L) confirms metabolic acidosis. Polyuria, nausea, vomiting and abdominal pain are classic presenting symptoms of DKA.</p>
+      <p class="ref">Ref: Davidson's 23rd ed.</p>
+    </div>
+  </details>
+
+  <h2 id="gdm">12 · Gestational Diabetes Mellitus (GDM)</h2>
+
+  <details>
+    <summary>🔴 Define gestational diabetes mellitus. (DU-09Ja, RU-20Nv,18Ja) Short note: Gestational diabetes mellitus. (Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Gestational diabetes mellitus (GDM):</strong> glucose metabolism changes during normal pregnancy. Gestational diabetes is defined as <span class="hot">diabetes with first onset or recognition during pregnancy.</span></p>
+      <p>WHO suggests that all women meeting criteria for impaired glucose tolerance or diabetes after a <strong>75 gm OGTT</strong> should be classified as having gestational diabetes.</p>
+      <h3>Risk factors for gestational diabetes</h3>
+      <ol>
+        <li>Obesity</li>
+        <li>Family history of type 2 diabetes</li>
+        <li>Previous glucose abnormality in pregnancy</li>
+        <li>Previous macrosomia (large baby)</li>
+      </ol>
+      <h3>Complications of gestational diabetes</h3>
+      <ul>
+        <li>Gestational diabetes is associated with an increased risk of <strong>later development of type 2 diabetes.</strong></li>
+        <li>Maternal hyperglycaemia is associated with <span class="hot">increased fetal size (fetal macrosomia) &amp; obstructed labour.</span></li>
+      </ul>
+      <h3>Diagnosis of GDM — European criteria</h3>
+      <ul>
+        <li>Venous plasma glucose in the fasting state: <strong>&gt;5.5 mmol/L (99 mg/dl)</strong></li>
+        <li>2 hours after a glucose load: <strong>&gt;9 mmol/L (162 mg/dl)</strong></li>
+      </ul>
+      <p class="ref">Ref: Davidson's 23rd ed. p.752</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 A 32-year-old pregnant woman case with high blood sugar level who had no diabetes mellitus before pregnancy. What is your diagnosis and how will you investigate &amp; confirm the condition of the case? (RMU-24M)</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> <span class="hot">Gestational diabetes mellitus (GDM)</span> — diabetes with first onset or recognition during pregnancy.</p>
+      <p><strong>Investigations to confirm the case:</strong></p>
+      <ul>
+        <li><strong>OGTT (oral glucose tolerance test) with 75 gm glucose</strong> — the diagnostic test. WHO suggests all women meeting criteria for impaired glucose tolerance or diabetes after a 75 gm OGTT should be classified as having gestational diabetes.</li>
+        <li><strong>European diagnostic criteria:</strong>
+          <ul>
+            <li>Venous plasma glucose in the fasting state: &gt;5.5 mmol/L (99 mg/dl)</li>
+            <li>2 hours after a glucose load: &gt;9 mmol/L (162 mg/dl)</li>
+          </ul>
+        </li>
+        <li>Also: fasting blood glucose, random blood glucose, and urine testing for glucose / ketones as supportive tests.</li>
+      </ul>
+      <p class="ref">Ref: Davidson's 23rd ed. p.752</p>
+    </div>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs from ch31)</h2>
+
+  <details class="rapid" open>
+    <summary>Blood Glucose &amp; Diabetes Mellitus — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Characteristics of type 1 DM include: (DU-24Nv)</div>
+      <div class="a">Markedly reduced blood insulin = <strong>True</strong> · insulin resistance = <strong>False</strong> · older age = <strong>False</strong> · β-cell destruction = <strong>True</strong> · linkage to HLA (human leukocyte antigen) gene = <strong>True</strong>.</div>
+
+      <div class="q">Characteristics of type 1 diabetes mellitus include: (DU-23M)</div>
+      <div class="a">Increased age = <strong>False</strong> · obesity = <strong>False</strong> · linkage with HLA-DR = <strong>True</strong> · beta cell destruction = <strong>True</strong> · frequent ketoacidosis = <strong>True</strong>.</div>
+
+      <div class="q">Characteristics of type-1 DM: (DU-22Nv)</div>
+      <div class="a">Markedly reduced blood insulin = <strong>False</strong> · insulin resistance = <strong>True</strong> · younger age = <strong>False</strong> · beta cell destruction = <strong>False</strong> · linkage to HLA gene = <strong>False</strong>. (Note: answer key as printed — contradictory wording; the correct physiology is type 1 = ↓insulin, β-cell destruction, HLA-linked.)</div>
+
+      <div class="q">Type-1 DM is characterized by: (DU-22M,20Nv/M)</div>
+      <div class="a">Early onset = <strong>True</strong> · patients commonly obese = <strong>False</strong> · associated with significant genetic factor = <strong>False</strong> · autoimmune destruction of islet cells = <strong>True</strong> · hypoglycaemic coma is frequent = <strong>False</strong>.</div>
+
+      <div class="q">Causes of hypoglycaemia are: (RMU-22M)</div>
+      <div class="a">Diabetes mellitus = <strong>False</strong> · insulinoma = <strong>True</strong> · Addison's disease = <strong>False</strong> · acromegaly = <strong>False</strong> · pregnancy = <strong>False</strong>.</div>
+
+      <div class="q">Following features are associated with hyperglycaemia sine glycosuria: (DU-21Oct/M)</div>
+      <div class="a">Presence of sugar in urine = <strong>False</strong> · low renal threshold for glucose = <strong>False</strong> · found in uncontrolled DM = <strong>True</strong> · metabolic acidosis = <strong>True</strong> · hyperkalaemia = <strong>True</strong>.</div>
+
+      <div class="q">Causes of hyperglycaemia include: (DU-21Ja,20Nv/M,18Ja)</div>
+      <div class="a">Diabetes mellitus = <strong>True</strong> · hyperadrenalism = <strong>True</strong> · insulin overdose = <strong>False</strong> · septic shock = <strong>False</strong> · heavy exercise = <strong>False</strong>.</div>
+
+      <div class="q">Glycosuria may occur in: (CU-19Nv)</div>
+      <div class="a">Diabetes mellitus = <strong>True</strong> · Cushing syndrome = <strong>True</strong>.</div>
+
+      <div class="q">Oral glucose tolerance test is done in: (RU-19M)</div>
+      <div class="a">Gestational diabetes = <strong>True</strong> · hyperthyroidism = <strong>False</strong> · liver disease = <strong>False</strong> · impaired glucose tolerance = <strong>True</strong> · hypoglycaemia = <strong>False</strong>.</div>
+
+      <div class="q">Hypoglycaemia occurs in: (DU-18M)</div>
+      <div class="a">Insulinoma = <strong>True</strong> · Cushing syndrome = <strong>False</strong> · septic shock = <strong>False</strong> · missed meal of diabetics = <strong>True</strong> · burn = <strong>False</strong>.</div>
+
+      <div class="q">Following are causes of glycosuria: (RU-17M)</div>
+      <div class="a">Partial gastrectomy = <strong>True</strong> · intestinal obstruction = <strong>False</strong> · insulinoma = <strong>False</strong> · increased renal threshold for glucose = <strong>False</strong> · pregnancy = <strong>True</strong>.</div>
+
+      <div class="q">Causes of hyperglycaemia include: (DU-17Ja)</div>
+      <div class="a">Grave's disease = <strong>True</strong> · Hashimoto thyroiditis = <strong>False</strong> · myxoedema = <strong>False</strong> · insulinoma = <strong>False</strong> · diabetes insipidus = <strong>False</strong>.</div>
+
+      <div class="q">Indications of GTT are: (DU-14Ju)</div>
+      <div class="a">Pregnancy-related diabetes = <strong>False</strong> · IGT = <strong>True</strong> · alimentary glycosuria = <strong>False</strong> · longstanding hypertension = <strong>False</strong> · hyperthyroidism = <strong>False</strong>.</div>
+
+      <div class="q">Ketonuria may occur in: (DU-14Ju)</div>
+      <div class="a">Severe diabetes mellitus = <strong>True</strong> · diabetes insipidus = <strong>False</strong> · prolonged starvation = <strong>True</strong> · uraemia = <strong>False</strong> · cachectic person = <strong>True</strong>.</div>
+
+      <div class="q">The indications of GTT are: (DU-14Ja)</div>
+      <div class="a">To detect hyperglycaemia = <strong>True</strong> · to diagnose endocrine disorder = <strong>False</strong> · alimentary glycosuria = <strong>False</strong> · to diagnose diabetes insipidus = <strong>False</strong> · to find out the cause of coma or convulsion = <strong>False</strong>.</div>
+
+      <div class="q">Causes of hypoglycaemia: (RU-13Ju)</div>
+      <div class="a">Overdose of insulin = <strong>True</strong> · diabetes mellitus = <strong>False</strong> · Addison's disease = <strong>True</strong> · insulinoma = <strong>True</strong> · acromegaly = <strong>False</strong>.</div>
+
+      <div class="q">Causes of ketosis: (RU-13Ju)</div>
+      <div class="a">Severe diabetes mellitus = <strong>True</strong> · persistent vomiting = <strong>True</strong> · nephritic syndrome = <strong>False</strong> · ischaemic heart disease = <strong>False</strong> · CCF (congestive cardiac failure) = <strong>False</strong>.</div>
+
+      <div class="q">Endocrinopathies leading to diabetes mellitus include: (DU-12Ja)</div>
+      <div class="a">Cushing syndrome = <strong>True</strong> · hypothyroidism = <strong>False</strong> · glucagonoma = <strong>True</strong> · pituitary adenoma = <strong>True</strong> · acute renal failure = <strong>False</strong>.</div>
+
+      <div class="q">Causes of hypoglycaemia are: (DU-09Ja)</div>
+      <div class="a">Excess insulin = <strong>True</strong> · liver disease = <strong>True</strong> · alcoholism = <strong>True</strong> · Cushing syndrome = <strong>False</strong> · steroid administration = <strong>False</strong>.</div>
+
+      <div class="q">Specific gravity of urine is increased in: (DU-10Nv,18Ja)</div>
+      <div class="a">Chronic renal failure = <strong>False</strong> · diabetes mellitus = <strong>True</strong> · diabetes insipidus = <strong>False</strong> · acute glomerulonephritis = <strong>True</strong> · nephrotic syndrome = <strong>True</strong>.</div>
+
+      <div class="q">Ketonuria may occur in: (DU-17Ja) &amp; causes of ketonuria: (DU-11Ja,10Ja)</div>
+      <div class="a">Complicated diabetes mellitus = <strong>True</strong> · starvation = <strong>True</strong> (DU-17Ja) · Untreated diabetes mellitus = <strong>True</strong> · starvation = <strong>True</strong> · severe dehydration = <strong>True</strong> · diet low in fat = <strong>False</strong> · obesity = <strong>False</strong> (DU-11Ja) · Untreated diabetes = <strong>True</strong> · severe dehydration = <strong>True</strong> · glycogen storage disease = <strong>True</strong> · diet high in carbohydrate = <strong>False</strong> · decreased fat metabolism = <strong>False</strong> (DU-10Ja).</div>
+
+      <div class="q">The following values are within normal limit: (DU-13Ja)</div>
+      <div class="a">FBS (fasting blood sugar): 5.5 mmol/L = <strong>True</strong> · serum creatinine: 3.4 mg/dl = <strong>False</strong> · blood urea 120 mg/dl = <strong>False</strong> · triglyceride 180 mg/dl = <strong>False</strong> · serum PSA (prostate-specific antigen): 0.4 U/L = <strong>True</strong>.</div>
+
+      <div class="q">Metabolic acidosis may be due to: (DU-23M) — cross-linked with DM</div>
+      <div class="a">Excessive vomiting = <strong>False</strong> · hyperventilation = <strong>False</strong> · uncontrolled diabetes mellitus = <strong>True</strong> · acute renal failure = <strong>True</strong> · hepatic failure = <strong>False</strong>.</div>
+
+      <div class="q">Uncontrolled diabetes mellitus is a cause of metabolic acidosis — True/False?</div>
+      <div class="a"><strong>True.</strong> DKA produces metabolic acidosis (hyperketonaemia + excess ketoacids overwhelm buffering capacity).</div>
+
+      <div class="q">🎯 One-liners: What is the renal threshold for glucose? What is the normal HbA1c?</div>
+      <div class="a"><strong>Renal threshold for glucose ≈ 180 mg/dl (10 mmol/L).</strong> <strong>Normal HbA1c = 4–6%</strong> of total haemoglobin; DM diagnosed at HbA1c ≥48 mmol/mol (&gt;6.5%); target &lt;7% in management.</div>
+
+      <div class="q">🎯 One-liner: Normal fasting / random blood glucose (mmol/L and mg/dl)?</div>
+      <div class="a"><strong>Fasting 3.6–6.1 mmol/L (65–110 mg/dl); random &amp; 2-hr postprandial &lt;7.8 mmol/L (&lt;140 mg/dl).</strong> DM: fasting &gt;7.0 (≥126 mg/dl), random/2-hr &gt;11.1 (≥200 mg/dl).</div>
+
+      <div class="q">🎯 One-liner: "High blood sugar, no sugar in urine" = ? And "normal blood sugar, sugar in urine" = ?</div>
+      <div class="a">High sugar, no urinary sugar = <strong>Hyperglycaemia sine glycosuria</strong> (raised renal threshold). Normal blood sugar with urinary sugar = <strong>Renal glycosuria</strong> (low renal threshold).</div>
+
+      <div class="q">🎯 One-liner: Classic "3-P" symptoms of diabetes?</div>
+      <div class="a"><strong>Polyuria · Polydipsia · Polyphagia</strong> (plus weight loss). These classic symptoms + random glucose &gt;11.1 mmol/L confirm diagnosis.</div>
+
+      <div class="q">🎯 One-liner: Which insulin-secreting tumour causes hypoglycaemia?</div>
+      <div class="a"><strong>Insulinoma</strong> (pancreatic β-cell tumour).</div>
+
+      <div class="q">🎯 One-liner: A 1% rise in HbA1c corresponds to how much average blood glucose rise?</div>
+      <div class="a">≈ <strong>2 mmol/L</strong> average increase in blood glucose.</div>
+
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="ch20_Renal_Function_Test.html">← Ch 20 · Renal Function Test</a></span>
+    <span>Ch 21 · Blood Glucose &amp; Diabetes Mellitus</span>
+    <span><a href="ch22_Semen_Analysis.html">Next: Semen Analysis →</a></span>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch28 — Stool Examination | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#lab-exam">Lab Examinations</a><a href="#indications">Indications</a><a href="#obt">Occult Blood Test</a><a href="#ova">Common Ova</a><a href="#melaena">Melaena</a><a href="#haematochezia">Haematochezia</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Clinical Pathology · Arif Guide 2025 Vol-2 · Unit-II · pp.494–496</span>
+  <h1>Ch 28 — Stool Examination
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Stool Examination (boss-level overview)</h3>
+    <p>Stool (faecal) examination is a cornerstone of <strong>clinical pathology</strong> for evaluating gastrointestinal (GI) diseases. It follows a <strong>five-part workflow</strong>:</p>
+    <p><strong>1. Physical examination</strong> → amount, consistency (semisolid), odour, colour (brown; pale in obstructive jaundice), presence of mucus and/or blood.</p>
+    <p><strong>2. Chemical examination</strong> → occult blood test (OBT) to detect hidden GI bleeding; faecal fat test to assess malabsorption/pancreatic insufficiency; reducing substances to screen for carbohydrate malabsorption; bilirubin (present in haemolytic jaundice).</p>
+    <p><strong>3. Microscopic examination</strong> → trophozoites and cysts of protozoa (e.g., <em>Entamoeba histolytica</em>); larvae and ova of helminths (worms); epithelial cells, pus cells (inflammatory lesions), red blood cells (RBCs), macrophages (bacillary dysentery), and muscle fibres (improper digestion).</p>
+    <p><strong>4. Culture of the specimen</strong> → identification of pathogenic bacteria.</p>
+    <p><strong>5. Culture sensitivity test</strong> → guides appropriate antibiotic therapy.</p>
+    <p>Clinically, stool examination answers five critical questions: <span class="hot">(a)</span> Is there parasitic infestation? <span class="hot">(b)</span> What type of dysentery? <span class="hot">(c)</span> What type of jaundice? <span class="hot">(d)</span> Is there fat malabsorption (pancreatic disease/obstructive jaundice)? <span class="hot">(e)</span> Is there occult GI bleeding?</p>
+    <p class="ref">Arif Guide 2025 Vol-2, pp.494–496 · Ref: Prof. Khaleque/378–379 · Davidson's 23rd ed./781–782</p>
+  </div>
+
+  <div class="toc-box">
+    <strong style="color:var(--accent)">Table of Contents</strong>
+    <a href="#lab-exam">1 · Laboratory Examinations Done with Stool</a>
+    <a href="#indications">2 · Indications of Routine Stool Examination</a>
+    <a href="#obt">3 · Occult Blood Test (OBT)</a>
+    <a href="#ova">4 · Common Ova Found in Stool</a>
+    <a href="#melaena">5 · Melaena — Definition &amp; Causes</a>
+    <a href="#haematochezia">6 · Fresh Blood in Stool (Haematochezia)</a>
+    <a href="#rapid">🔁 Rapid-Fire Sweep (incl. Clinical MCQs)</a>
+  </div>
+
+  <!-- ============================================================ -->
+  <h2 id="lab-exam">1 · Laboratory Examinations Done with Stool</h2>
+
+  <details>
+    <summary>What are the laboratory examinations done with stool? Describe each briefly.</summary>
+    <div class="ans">
+      <p>Laboratory examinations done with stool are divided into <strong>five categories</strong>:</p>
+      <h3>1. Physical Examination</h3>
+      <ul>
+        <li><strong>Amount</strong> — estimated grossly.</li>
+        <li><strong>Consistency</strong> — normally semisolid.</li>
+        <li><strong>Odour</strong> — characteristic; may change in malabsorption or infection.</li>
+        <li><strong>Colour</strong> — normally brown; <span class="hot">pale/clay-coloured in obstructive jaundice</span> (absence of stercobilinogen).</li>
+        <li><strong>Mucus</strong> — presence suggests inflammation (e.g., dysentery, irritable bowel disease).</li>
+        <li><strong>Blood-stained</strong> — visible (fresh) or occult (hidden) blood.</li>
+      </ul>
+      <h3>2. Chemical Examination</h3>
+      <ul>
+        <li><strong>Occult blood test (OBT)</strong> — detects trace/altered blood not visible to the naked eye.</li>
+        <li><strong>Test for faecal fat</strong> — assesses fat malabsorption (steatorrhoea); elevated in cystic fibrosis of pancreas and obstructive jaundice.</li>
+        <li><strong>Reducing substances</strong> — screens for unabsorbed sugars (e.g., lactose intolerance).</li>
+        <li><strong>Bilirubin</strong> — normally absent from adult stool; <span class="hot">present in haemolytic jaundice</span> and diarrhoeal conditions.</li>
+      </ul>
+      <h3>3. Microscopic Examination</h3>
+      <ul>
+        <li><strong>Trophozoite of protozoa</strong> — e.g., <em>Entamoeba histolytica</em> (motile, invasive form).</li>
+        <li><strong>Cyst of protozoa</strong> — dormant/transmissible form of intestinal protozoa.</li>
+        <li><strong>Larvae of helminths</strong> (parasitic worms).</li>
+        <li><strong>Ova (eggs) of helminths</strong> — diagnostic for specific worm infestations.</li>
+        <li><strong>Other cellular elements:</strong></li>
+      </ul>
+      <table>
+        <tr><th>Element</th><th>Significance</th></tr>
+        <tr><td>Epithelial cells</td><td>GI mucosal irritation/damage</td></tr>
+        <tr><td>Pus cells (white blood cells/WBCs)</td><td>Inflammatory/infectious lesions (e.g., bacillary dysentery, ulcerative colitis)</td></tr>
+        <tr><td>Red blood cells (RBCs)</td><td>Lower GI bleeding (haematochezia)</td></tr>
+        <tr><td>Macrophages</td><td><span class="hot">Bacillary dysentery</span> (pathognomonic finding)</td></tr>
+        <tr><td>Muscle fibres (undigested)</td><td>Improper digestion / exocrine pancreatic insufficiency</td></tr>
+        <tr><td>Vegetable matter, hair, starch cells, fat globules</td><td>Dietary; excessive fat globules → steatorrhoea</td></tr>
+        <tr><td>Air bubbles</td><td>Normal finding</td></tr>
+      </table>
+      <h3>4. Culture of the Specimen</h3>
+      <p>Grows pathogenic bacteria (e.g., <em>Salmonella</em>, <em>Shigella</em>, <em>Vibrio cholerae</em>) to identify the causative organism.</p>
+      <h3>5. Culture Sensitivity Test</h3>
+      <p>Determines which antibiotics the identified pathogen is susceptible to → guides targeted therapy and helps prevent antimicrobial resistance.</p>
+      <div class="mnem">🎯 <strong>Microscopy mnemonic:</strong> <strong>"POMM"</strong> — Pus cells (inflammation), Ova (worms), Macrophages (bacillary dysentery), Muscle fibres (malabsorption).</div>
+      <p class="ref">Arif Guide 2025 Vol-2 pp.494–495 · Ref: Prof. Khaleque/378</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="indications">2 · Indications of Routine Stool Examination</h2>
+
+  <details>
+    <summary>What are the indications of routine examination of stool?</summary>
+    <div class="ans">
+      <p>Routine stool examination is indicated in the following clinical scenarios:</p>
+      <ol>
+        <li><strong>Parasitic infestation</strong> — detection of ova, cysts, larvae, and trophozoites of different parasites (e.g., <em>Ascaris lumbricoides</em>, <em>Entamoeba histolytica</em>, hookworms).</li>
+        <li><strong>Type of dysentery</strong> — to differentiate <strong>bacillary dysentery</strong> (pus cells + macrophages + no parasites) from <strong>amoebic dysentery</strong> (trophozoites/cysts of <em>E. histolytica</em>).</li>
+        <li><strong>Type of jaundice</strong> — pale/clay-coloured stool → obstructive jaundice; normal or dark stool → haemolytic or hepatocellular jaundice; bilirubin present → haemolytic jaundice.</li>
+        <li><strong>Fat in stool (steatorrhoea)</strong> — to assess cystic fibrosis of pancreas (pancreatic insufficiency) and obstructive jaundice (bile salt deficiency).</li>
+        <li><strong>Occult blood test (OBT)</strong> — to detect any (upper or lower) gastrointestinal tract (GIT) bleeding that is not visible to the naked eye.</li>
+      </ol>
+      <div class="mnem">🎯 <strong>5 Indications mnemonic:</strong> <strong>"P-D-J-F-O"</strong> — Parasites, Dysentery, Jaundice, Fat, Occult blood.</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.495</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="obt">3 · Occult Blood Test (OBT)</h2>
+
+  <details>
+    <summary>🔴 Write in short about the occult blood test (OBT). Describe its procedure, interpretation, and clinical significance. (DU-06S, BUP-22Nv, RU-19/18/17Nv, 16/14Ju, 13/12Ja, SU-17M, 11Ja, 09Ju, CU-16Ju, 07Ja)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> The occult blood test (OBT) is done to detect <span class="hot">altered blood or trace amounts of blood in stool that are not visible to the naked eye</span>. It is one of the most frequently examined investigations in clinical pathology.</p>
+
+      <h3>Methods</h3>
+      <p>Two commonly used methods:</p>
+      <ol>
+        <li><strong>Orthotoluidine test</strong> (benzidine-based peroxidase reaction)</li>
+        <li><strong>Hema-Check slide test</strong> (rapid immunochromatographic card test)</li>
+      </ol>
+
+      <h3>A. Orthotoluidine Test — Detailed Procedure</h3>
+      <ol>
+        <li><strong>Make an emulsion</strong> of the stool (a pea-sized amount) in distilled water in a test tube.</li>
+        <li><strong>Boil for 5 minutes</strong> and cool. (This destroys bacterial peroxidases that could give a false positive.)</li>
+        <li>In a clean test tube, place <strong>4 drops of orthotoluidine reagent</strong> and <strong>1 drop of hydrogen peroxide (H₂O₂)</strong>; leave for <strong>1 minute</strong>.</li>
+        <li>Add <strong>1 drop of the stool suspension</strong> to the mixture.</li>
+      </ol>
+
+      <h3>Interpretation</h3>
+      <p><span class="hot">A green colour developing within 1 minute = positive result</span> → indicates the presence of occult (hidden) blood in the stool.</p>
+      <p>The reaction is based on the <strong>peroxidase-like activity of haemoglobin</strong>, which catalyses the oxidation of orthotoluidine by H₂O₂ to produce a green colour.</p>
+
+      <h3>Precautions / Sources of Error</h3>
+      <ul>
+        <li><span class="hot">False positive</span> may occur due to the presence of <strong>meat (red meat) or green vegetable products</strong> in the stool sample (both contain haemoglobin or plant peroxidases).</li>
+        <li>Therefore, the individual must <span class="hot">not take meat or green vegetables for 3 days</span> prior to the test to make the result significant.</li>
+        <li>Boiling the stool emulsion destroys bacterial peroxidases (reduces false positives from gut flora).</li>
+      </ul>
+
+      <h3>B. Hema-Check Slide Test</h3>
+      <p>A rapid, <strong>immunochromatographic test paper (slide)</strong> is used. It detects human haemoglobin specifically (more specific than orthotoluidine). The slide is dipped in stool suspension and results are read within minutes.</p>
+
+      <h3>Conditions Where Occult Blood Test May Be Positive</h3>
+      <table>
+        <tr><th>#</th><th>Condition</th></tr>
+        <tr><td>1</td><td><strong>Bleeding peptic ulcer disease (PUD)</strong> — due to <em>Helicobacter pylori</em> infection or NSAIDs (non-steroidal anti-inflammatory drugs)</td></tr>
+        <tr><td>2</td><td><strong>Carcinoma (Ca.) of stomach</strong></td></tr>
+        <tr><td>3</td><td><strong>Carcinoma (Ca.) of colon</strong> (colorectal cancer screening)</td></tr>
+        <tr><td>4</td><td><strong>Ulcerative colitis</strong> — chronic inflammatory bowel disease (IBD)</td></tr>
+      </table>
+      <p><strong>Additional causes</strong> (from clinical context): oesophageal varices, gastric erosions (NSAIDs/alcohol), angiodysplasia (vascular malformations), Meckel's diverticulum, colorectal polyps, and other GI malignancies.</p>
+      <p><strong>Clinical significance:</strong> OBT is used as a <span class="good">screening test for colorectal cancer</span> (especially in individuals &gt;50 years), for evaluating iron-deficiency anaemia of unknown origin, and for monitoring GI bleeding.</p>
+      <div class="mnem">🎯 <strong>OBT Positive mnemonic:</strong> <strong>"PUC-C"</strong> — Peptic ulcer, Ulcerative colitis, Ca. stomach, Ca. colon.</div>
+      <p class="ref">Arif Guide 2025 Vol-2 pp.495–496 · Ref: Prof. Khaleque/378–379 · DU-06S, BUP-22Nv, RU-19/18/17Nv, 16/14Ju, 13/12Ja, SU-17M, 11Ja, 09Ju, CU-16Ju, 07Ja</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="ova">4 · Common Ova Found in Stool</h2>
+
+  <details>
+    <summary>What are the common ova found in stool?</summary>
+    <div class="ans">
+      <p>The four <span class="hot">most common ova (eggs) of helminths (parasitic worms)</span> found in human stool:</p>
+      <table>
+        <tr><th>#</th><th>Parasite</th><th>Common Name / Notes</th></tr>
+        <tr><td>1</td><td><strong><em>Ascaris lumbricoides</em></strong></td><td>Roundworm — largest intestinal nematode; transmitted via ingestion of embryonated eggs from contaminated food/water. May cause intestinal obstruction, biliary/pancreatic duct obstruction, Löffler syndrome (pulmonary eosinophilia).</td></tr>
+        <tr><td>2</td><td><strong><em>Ankylostoma duodenale</em></strong></td><td>Hookworm (Old World) — attachment to duodenal/intestinal mucosa → chronic blood loss → <span class="hot">iron-deficiency anaemia</span>; larvae penetrate skin (e.g., bare feet).</td></tr>
+        <tr><td>3</td><td><strong><em>Trichuris trichiura</em></strong></td><td>Whipworm — anterior end embeds in colonic mucosa → mild to moderate colitis; heavy infections may cause rectal prolapse in children.</td></tr>
+        <tr><td>4</td><td><strong><em>Enterobius vermicularis</em></strong></td><td>Pinworm/threadworm — most common helminth in temperate climates; perianal itching (especially at night due to gravid female migration); diagnosed by the <strong>Scotch tape (cellophane tape) test</strong> rather than routine stool O&amp;P (ova &amp; parasite).</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>Ova mnemonic:</strong> <strong>"ATEE"</strong> — <strong>A</strong>scaris · <strong>T</strong>richuris · <strong>E</strong>nterobius · <strong>E</strong>ncylostoma (hookworm).</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.496</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="melaena">5 · Melaena — Definition &amp; Causes</h2>
+
+  <details>
+    <summary>🔴 What is melaena? What are the causes of melaena? (Ref: Davidson's 23rd/781)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">Melaena is the passage of black, tarry, foul-smelling stools containing altered (digested) blood</span>, usually caused by <strong>bleeding from the upper gastrointestinal tract (GIT)</strong> — typically proximal to the ligament of Treitz (i.e., oesophagus, stomach, duodenum).</p>
+      <p><strong>Why black and tarry?</strong> When blood passes through the upper GIT, haemoglobin is degraded by gastric acid and bacterial action → converted to <strong>acid haematin</strong> (a black pigment) → gives the characteristic tarry appearance and characteristic smell.</p>
+
+      <h3>Causes of Bleeding from Upper GIT (Melaena)</h3>
+      <table>
+        <tr><th>#</th><th>Cause</th><th>Key Details</th></tr>
+        <tr><td>1</td><td><strong>Peptic ulcer disease (PUD)</strong></td><td>The <span class="hot">most common cause</span>; risk factors: <em>Helicobacter pylori</em> infection, NSAIDs (non-steroidal anti-inflammatory drugs)</td></tr>
+        <tr><td>2</td><td><strong>Gastric erosions</strong></td><td>Caused by NSAIDs, alcohol, stress (Curling ulcer in burns; Cushing ulcer in CNS injury)</td></tr>
+        <tr><td>3</td><td><strong>Oesophageal varices</strong></td><td>Due to liver diseases (cirrhosis) with portal hypertension ± portal vein thrombosis → dilated submucosal oesophageal veins rupture</td></tr>
+        <tr><td>4</td><td><strong>Cancer of stomach and oesophagus</strong></td><td>Gastric carcinoma (most common in males); oesophageal carcinoma</td></tr>
+        <tr><td>5</td><td><strong>Oesophagitis with hiatus hernia</strong></td><td>Acid reflux → oesophageal mucosal inflammation/ulceration</td></tr>
+        <tr><td>6</td><td><strong>Vascular malformations</strong></td><td>Angiodysplasia (common in elderly); hereditary haemorrhagic telangiectasia (Osler-Weber-Rendu syndrome)</td></tr>
+        <tr><td>7</td><td><strong>Mallory-Weiss tear</strong></td><td>Longitudinal mucosal tear at the gastro-oesophageal junction following forceful vomiting/retching</td></tr>
+      </table>
+      <p class="ref">Arif Guide 2025 Vol-2 p.496 · Ref: Davidson's Principles and Practice of Medicine, 23rd ed./781</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="haematochezia">6 · Fresh Blood in Stool (Haematochezia)</h2>
+
+  <details>
+    <summary>🔴 Write four causes of fresh blood in stool (haematochezia). (Ref: Davidson's 23rd/782)</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> <span class="hot">Haematochezia</span> = the passage of <strong>fresh (bright red) blood per rectum</strong>, typically indicating <strong>bleeding from the lower gastrointestinal tract (GIT)</strong> (distal to the ligament of Treitz — i.e., small intestine distal portion, colon, rectum, anal canal).</p>
+
+      <h3>Causes of Fresh Blood in Stool (Haematochezia)</h3>
+      <table>
+        <tr><th>#</th><th>Cause</th><th>Key Details</th></tr>
+        <tr><td>1</td><td><strong>Dysentery</strong></td><td>Amoebic (trophozoites of <em>E. histolytica</em>) or bacillary (<em>Shigella</em> spp.) dysentery → bloody diarrhoea with mucus</td></tr>
+        <tr><td>2</td><td><strong>Bleeding piles (haemorrhoids)</strong></td><td>Dilated rectal/anal venous plexuses → painless bright red bleeding, often during defecation</td></tr>
+        <tr><td>3</td><td><strong>Malignant disease</strong></td><td>Ca. rectum, Ca. colon — <span class="hot">a change in bowel habit with rectal bleeding in a patient &gt;40 yr = colorectal cancer until proven otherwise</span></td></tr>
+        <tr><td>4</td><td><strong>Ulcerative colitis</strong></td><td>Chronic inflammatory bowel disease (IBD) — bloody diarrhoea, tenesmus, abdominal pain</td></tr>
+        <tr><td>5</td><td><strong>Crohn's disease</strong></td><td>Transmural granulomatous inflammation — less commonly bloody stool than ulcerative colitis, but can cause fistulae, strictures</td></tr>
+        <tr><td>6</td><td><strong>Anorectal fissure and haemorrhoids</strong></td><td>Fissure = painful linear tear of the anal mucosa → bright red bleeding on defecation</td></tr>
+        <tr><td>7</td><td><strong>Meckel's diverticulum</strong></td><td>Congenital remnant of the vitellointestinal (omphalomesenteric) duct; may contain ectopic gastric mucosa → acid secretion → ulceration of adjacent ileal mucosa → painless rectal bleeding (especially in children); follows the <strong>"Rule of 2s"</strong>: 2 feet from ileocaecal valve, 2 inches long, 2% of population, symptomatic before age 2.</td></tr>
+      </table>
+
+      <h3>Melaena vs Haematochezia — Key Distinction</h3>
+      <table>
+        <tr><th>Feature</th><th>Melaena</th><th>Haematochezia</th></tr>
+        <tr><td>Appearance</td><td>Black, tarry, foul-smelling</td><td>Bright red / fresh blood</td></tr>
+        <tr><td>Source</td><td>Upper GIT (proximal to ligament of Treitz)</td><td>Lower GIT (distal to ligament of Treitz)</td></tr>
+        <tr><td>Mechanism</td><td>Blood degraded by acid + bacteria → acid haematin</td><td>Blood passes rapidly → not altered</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>Haematochezia mnemonic:</strong> <strong>"D-D-M-U-C-F-M"</strong> — Dysentery, Diverticula (Meckel's), Malignancy, Ulcerative colitis, Crohn's, Fissure/Haemorrhoids, Meckel's.</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.496 · Ref: Davidson's Principles and Practice of Medicine, 23rd ed./782 · Lecture SSMC &amp; DMC</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. Folded Clinical Pathology MCQs)</h2>
+
+  <details class="rapid" open>
+    <summary>Stool Examination — True/False &amp; One-Liners (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Colour of normal stool is brown. (T/F)</div>
+      <div class="a"><strong>True</strong> — due to stercobilinogen (urobilinogen derivative of bilirubin).</div>
+
+      <div class="q">Stool is pale/clay-coloured in haemolytic jaundice. (T/F)</div>
+      <div class="a"><strong>False</strong> — pale/clay-coloured stool occurs in <strong>obstructive jaundice</strong> (absence of bile salts reaching the gut → no stercobilinogen). In haemolytic jaundice, stool is characteristically <strong>dark</strong> due to excess stercobilinogen.</div>
+
+      <div class="q">Bilirubin is present in stool of a patient with obstructive jaundice. (T/F)</div>
+      <div class="a"><strong>False</strong> — bilirubin is present in stool in <strong>haemolytic jaundice</strong> (excess unconjugated bilirubin reaches gut). In obstructive jaundice, bilirubin cannot reach the gut → absent from stool.</div>
+
+      <div class="q">Macrophages in stool are seen in amoebic dysentery. (T/F)</div>
+      <div class="a"><strong>False</strong> — macrophages in stool are characteristically seen in <strong>bacillary dysentery</strong>. In amoebic dysentery, one finds <em>E. histolytica</em> trophozoites.</div>
+
+      <div class="q">Undigested muscle fibres in stool suggest pancreatic insufficiency. (T/F)</div>
+      <div class="a"><strong>True</strong> — failure of proteolytic enzyme secretion → improper digestion of protein (meat) fibres.</div>
+
+      <div class="q">The orthotoluidine test for occult blood uses H₂O₂. (T/F)</div>
+      <div class="a"><strong>True</strong> — orthotoluidine + H₂O₂ is oxidised by the peroxidase-like activity of haemoglobin → green colour (positive).</div>
+
+      <div class="q">Eating green vegetables before an orthotoluidine test may cause a false positive. (T/F)</div>
+      <div class="a"><strong>True</strong> — plant peroxidases in green vegetables catalyse the same reaction → false positive. Patient should avoid meat and green vegetables for 3 days.</div>
+
+      <div class="q">Boiling the stool emulsion in the orthotoluidine test is done to destroy bacterial peroxidases. (T/F)</div>
+      <div class="a"><strong>True</strong> — eliminates false positives from bacterial enzymes present in normal gut flora.</div>
+
+      <div class="q">Hema-Check slide test uses immunochromatography to detect human haemoglobin specifically. (T/F)</div>
+      <div class="a"><strong>True</strong> — it is more specific than the orthotoluidine test (detects human-specific haemoglobin, not plant or animal peroxidases).</div>
+
+      <div class="q">🎯 One-liner: A positive occult blood test with a green colour within 1 minute in the orthotoluidine test indicates?</div>
+      <div class="a"><strong>Presence of occult (hidden) blood in stool</strong> — peroxidase-like activity of haemoglobin oxidises orthotoluidine in the presence of H₂O₂.</div>
+
+      <div class="q">🎯 One-liner: Give 4 causes of melaena (black tarry stool).</div>
+      <div class="a">(1) Peptic ulcer disease, (2) Gastric erosions (NSAIDs), (3) Oesophageal varices (liver cirrhosis), (4) Carcinoma of stomach.</div>
+
+      <div class="q">🎯 One-liner: Give 4 causes of fresh blood in stool (haematochezia).</div>
+      <div class="a">(1) Dysentery, (2) Bleeding piles (haemorrhoids), (3) Malignancy (Ca. rectum/colon), (4) Ulcerative colitis / Meckel's diverticulum.</div>
+
+      <div class="q">🎯 One-liner: Common ova found in stool — name four parasites.</div>
+      <div class="a"><em>Ascaris lumbricoides</em> (roundworm), <em>Ankylostoma duodenale</em> (hookworm), <em>Trichuris trichiura</em> (whipworm), <em>Enterobius vermicularis</em> (pinworm).</div>
+
+      <div class="q">🎯 One-liner: What is the most common cause of melaena?</div>
+      <div class="a"><strong>Peptic ulcer disease (PUD)</strong> — caused by <em>H. pylori</em> infection or NSAID use.</div>
+
+      <div class="q">🎯 One-liner: What does the presence of pus cells and macrophages in stool suggest?</div>
+      <div class="a"><strong>Bacillary dysentery</strong> (shigellosis) — an invasive bacterial infection of the colon causing inflammatory/dysenteric stool.</div>
+
+      <div class="q">Melaena indicates bleeding from the upper GIT. (T/F)</div>
+      <div class="a"><strong>True</strong> — blood is black/tarry because haemoglobin is degraded by gastric acid and bacteria into acid haematin.</div>
+
+      <div class="q">Haematochezia indicates bleeding from the upper GIT. (T/F)</div>
+      <div class="a"><strong>False</strong> — haematochezia (fresh bright red blood) indicates bleeding from the <strong>lower GIT</strong>.</div>
+
+      <div class="q">Meckel's diverticulum follows the rule of 2s. (T/F)</div>
+      <div class="a"><strong>True</strong> — 2 feet from ileocaecal valve, 2 inches long, 2% of population, symptomatic before age 2.</div>
+
+      <div class="q">🎯 One-liner: Most common site of carcinoma of stomach causing occult blood in stool?</div>
+      <div class="a"><strong>Pyloric antrum</strong> — the most common site for gastric carcinoma overall.</div>
+
+      <div class="q">Fatty stool (steatorrhoea) in obstructive jaundice is due to bile salt deficiency. (T/F)</div>
+      <div class="a"><strong>True</strong> — bile salts are required for emulsification and absorption of dietary fats; obstruction prevents bile salts from reaching the intestine → fat malabsorption → pale, bulky, greasy/frothy stool.</div>
+
+    </div>
+  </details>
+
+  <details class="rapid" open>
+    <summary>Folded Clinical Pathology MCQs — Stool Examination (from Ch 31)</summary>
+    <div class="ans">
+
+      <div class="q">Q. Occult bleed test is positive in: (DU-18Ja)</div>
+      <div class="a">
+        <strong>a) Obstructive jaundice — FALSE</strong> · <strong>b) Bleeding peptic ulcer disease (PUD) — TRUE</strong> · <strong>c) Carcinoma (Ca.) of stomach — TRUE</strong> · <strong>d) Ca. gall bladder — FALSE</strong> · <strong>e) Ulcerative colitis — TRUE</strong>.<br>
+        <em>Note: PUD, Ca. stomach, and ulcerative colitis are the classic causes of a positive occult blood test. Obstructive jaundice and Ca. gall bladder do not typically cause occult GI bleeding.</em>
+      </div>
+
+      <div class="q">Q. Features of obstructive jaundice include: (DU-18M)</div>
+      <div class="a">
+        <strong>a) Unconjugated hyperbilirubinaemia — FALSE</strong> · <strong>b) Pale, bulky and frothy stool — TRUE</strong> (steatorrhoea from bile salt deficiency) · <strong>c) Increased prothrombin time (PT) — TRUE</strong> (decreased vitamin K absorption → impaired clotting factor synthesis) · <strong>d) Increased alkaline phosphatase (ALP) — TRUE</strong> (cholestatic marker) · <strong>e) Increased urinary urobilinogen — FALSE</strong> (urobilinogen is <em>absent</em> from urine in obstructive jaundice because bilirubin cannot reach the gut to be converted).
+      </div>
+
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="00_Index.html">← Index</a></span>
+    <span>Ch 28 · Stool Examination</span>
+    <span><a href="ch29_Sputum_Examination.html">Next: Sputum Examination →</a></span>
+  </div>
+</div>
+</body>
+</html>

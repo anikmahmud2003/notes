@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch14 — The Skin | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#struct">Structure</a><a href="#diseases">Diseases</a><a href="#dermis">Dermal inflam</a><a href="#psoriasis">Psoriasis</a><a href="#blister">Blistering</a><a href="#tumours">Tumours</a><a href="#bcc">BCC</a><a href="#scc">SCC</a><a href="#nevus">Nevus</a><a href="#melanoma">Melanoma</a><a href="#terms">Terminology</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Pathology · Arif Guide 2025 Vol-2 · Unit-I · pp.336–347</span>
+  <h1>Ch 14 — The Skin
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Diseases &amp; Tumours of the Skin (boss-level overview)</h3>
+    <p>The skin is the <strong>largest organ of the body</strong>, built of <strong>two layers — epidermis + dermis</strong> (overlying the subcutis). Almost every skin disease can be filed under <strong>six big headings</strong>:</p>
+    <p><strong>1.</strong> <span class="warn">Disorders of pigmentation &amp; melanocytes</span> (Vitiligo · Albinism · Freckle · Melasma · Lentigo · Nevus=benign · Melanoma=malignant) · <strong>2.</strong> <span class="warn">Disorders of epidermal maturation</span> (Ichthyosis, Urticaria) · <strong>3.</strong> <span class="warn">Inflammatory dermatoses</span> — acute (Urticaria/hives, acute eczematous dermatitis, erythema multiforme) &amp; chronic (Psoriasis, Seborrheic dermatitis, Lichen planus) · <strong>4.</strong> <span class="warn">Blistering (bullous) diseases</span> — inflammatory (Pemphigus, Bullous pemphigoid, Dermatitis herpetiformis) &amp; non-inflammatory (Epidermolysis bullosa, Porphyria) · <strong>5.</strong> <span class="warn">Disorders of epidermal appendages &amp; infections</span> (Acne, Rosacea; warts, Molluscum, Impetigo, superficial fungal infections) · <strong>6.</strong> <span class="warn">Tumours &amp; tumour-like lesions.</span></p>
+    <p><span class="hot">Tumour triangles to remember:</span> benign (squamous papilloma, seborrheic keratosis, keratoacanthoma, nevus) → pre-malignant (actinic/solar keratosis, Bowen disease, xeroderma pigmentosum, erythroplasia of Queyrat, leukoplakia, radiodermatitis, dysplastic nevus) → malignant (<span class="hot">BCC</span>=basal cell carcinoma "rodent ulcer" [most common], <span class="hot">SCC</span>=squamous cell carcinoma "Marjolin ulcer" [2nd most common], <span class="hot">malignant melanoma=MM</span> [most deadly], Merkel cell carcinoma). Locally malignant: BCC + dermatofibrosarcoma protuberans.</p>
+    <p class="ref">Robbins 10e, Ch 25 (The Skin), pp. 1133–1169 · Arif 15e (2025) Vol-2, pp.336–347</p>
+  </div>
+
+  <h2 id="struct">1 · Normal Structure of the Skin</h2>
+
+  <details>
+    <summary>Describe the normal structure of the skin (epidermis + dermis) and its cell types.</summary>
+    <div class="ans">
+      <p><strong>Normal skin = 2 layers:</strong> the <span class="good">epidermis</span> (surface) and the <span class="good">dermis</span> (deeper), lying over the <strong>subcutis</strong> (subcutaneous fat). The lining epithelium of skin is <span class="hot">keratinized stratified squamous epithelium</span>.</p>
+      <h3>EPIDERMIS — 5 layers (base → surface)</h3>
+      <ol>
+        <li><strong>Stratum basale</strong> (stratum germinativum) — the basal (germinative) layer.</li>
+        <li><strong>Stratum spinosum</strong> — prickle-cell layer. (Basal + spinosum together = "<strong>basal layer</strong>".)</li>
+        <li><strong>Stratum granulosum</strong> — granular layer.</li>
+        <li><strong>Stratum lucidum</strong> — <span class="hot">present exclusively in the palms and soles</span>.</li>
+        <li><strong>Stratum corneum</strong> — superficial layer of <span class="hot">dead keratinocytes, devoid of nuclei</span>.</li>
+      </ol>
+      <h3>Four types of cells in the epidermis</h3>
+      <table>
+        <tr><th>Cell</th><th>Key feature</th></tr>
+        <tr><td>1. <strong>Squamous epithelial cells (keratinocytes)</strong></td><td>Main structural cells of the epidermis</td></tr>
+        <tr><td>2. <strong>Melanocytes</strong></td><td>Responsible for the production of <span class="hot">melanin</span></td></tr>
+        <tr><td>3. <strong>Langerhans cells</strong></td><td>Intraepidermal dendritic cells; <span class="good">bone-marrow-derived cells of the mononuclear–phagocytic system</span> (i.e. antigen-presenting cells)</td></tr>
+        <tr><td>4. <strong>Merkel cells</strong></td><td>Neuroendocrine/touch receptor cells</td></tr>
+      </table>
+      <h3>DERMIS — 2 parts</h3>
+      <ol>
+        <li><strong>Superficial — papillary dermis</strong> (contains papillary blood vessels; forms dermal papillae).</li>
+        <li><strong>Deeper — reticular dermis</strong>.</li>
+      </ol>
+      <p>The dermis contains the <strong>cutaneous appendages (adnexal structures)</strong>: sweat glands (eccrine &amp; apocrine), sebaceous glands, hair follicles, arrectores pilorum (arrector pili muscles) and nails. The reticular dermis also holds the arrector pili muscle, hair root, apocrine and eccrine ducts/glands, as seen in the labelled skin section.</p>
+      <div class="mnem">🎯 Epidermal layers base→surface: <strong>"Can Some Girls Let Curls Stay"</strong> → Corneum · Lucidum · Granulosum · Spinosum · (Germinativum). <em>Lucidum = only in palms &amp; soles (L for "L"imited / LUxury).</em></div>
+      <p class="ref">Robbins 10e p.1133; Harsh Mohan 7e p.759; Pathoma Lecture Notes</p>
+    </div>
+  </details>
+
+  <h2 id="diseases">2 · Diseases of the Skin — Complete List</h2>
+
+  <details>
+    <summary>Mention the diseases of the skin (full classification). (Important for VIVA)</summary>
+    <div class="ans">
+      <h3>Diseases of the skin — full classification</h3>
+      <ol>
+        <li><strong>Disorders of pigmentation &amp; melanocytes:</strong>
+          <ul>
+            <li>Vitiligo</li>
+            <li>Albinism</li>
+            <li>Freckle (Ephelis)</li>
+            <li>Melasma</li>
+            <li>Lentigo</li>
+            <li>Nevus (benign neoplasm of melanocytes)</li>
+            <li>Melanoma (malignant neoplasm of melanocytes)</li>
+          </ul>
+        </li>
+        <li><strong>Disorders of epidermal maturation:</strong> Ichthyosis · Urticaria</li>
+        <li><strong>Acute inflammatory dermatoses:</strong> Acute eczematous dermatitis · Erythema multiforme · Urticaria</li>
+        <li><strong>Chronic inflammatory dermatoses:</strong> Psoriasis · Seborrheic dermatitis · Lichen planus</li>
+        <li><strong>Blistering (bullous) diseases:</strong>
+          <ul>
+            <li><em>Inflammatory blistering disorders:</em> Pemphigus · Bullous pemphigoid · Dermatitis herpetiformis</li>
+            <li><em>Non-inflammatory blistering disorders:</em> Epidermolysis bullosa · Porphyria</li>
+          </ul>
+        </li>
+        <li><strong>Disorders of epidermal appendages:</strong> Acne vulgaris · Rosacea</li>
+        <li><strong>Infections:</strong> Verrucae (warts) · Molluscum contagiosum · Impetigo · Superficial fungal infections</li>
+        <li><strong>Tumours &amp; tumour-like lesions:</strong> (see next section below)</li>
+      </ol>
+      <p class="ref">Robbins 10e pp.1133–1169; Pathoma Lecture Notes</p>
+    </div>
+  </details>
+
+  <h2 id="dermis">3 · Inflammatory Conditions of the Dermis</h2>
+
+  <details>
+    <summary>What are the inflammatory conditions of the dermis?</summary>
+    <div class="ans">
+      <h3>1. Acute inflammatory dermatoses</h3>
+      <ul>
+        <li><strong>Urticaria</strong> (hives)</li>
+        <li><strong>Acute eczematous dermatitis</strong></li>
+        <li><strong>Erythema multiforme</strong></li>
+      </ul>
+      <h3>2. Chronic inflammatory dermatoses</h3>
+      <ul>
+        <li><strong>Psoriasis</strong></li>
+        <li><strong>Seborrheic dermatitis</strong></li>
+        <li><strong>Lichen planus</strong></li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1153–1159</p>
+    </div>
+  </details>
+
+  <h2 id="psoriasis">4 · Psoriasis (Chronic Inflammatory Dermatosis)</h2>
+
+  <details>
+    <summary>Short note: Psoriasis of the skin. (CMU-24M)</summary>
+    <div class="ans">
+      <p><strong>Psoriasis:</strong> a chronic inflammatory dermatosis affecting about <span class="hot">2% of the population</span>.</p>
+      <h3>Characteristics</h3>
+      <ul>
+        <li>Usually appears <strong>first between 15 and 30 years of age</strong>.</li>
+        <li>Lesions: <strong>brownish-red papules and plaques</strong>, <span class="good">sharply demarcated</span>, covered with fine <strong>silvery-white scales</strong>.</li>
+        <li>When scales are removed by gentle scraping, <span class="hot">fine bleeding points appear → "Auspitz sign"</span>.</li>
+        <li>Common sites: <strong>scalp, upper back, sacral region, and extensor surfaces</strong> of the extremities — especially <strong>knees and elbows</strong>.</li>
+        <li>In ~<strong>25%</strong> of cases, peculiar <strong>pitting of the nails</strong> is seen.</li>
+        <li>Psoriatic arthritis resembling <strong>rheumatoid arthritis</strong> occurs in ~<strong>5%</strong> of cases, but <span class="good">rheumatoid factor (RF) is absent</span>.</li>
+      </ul>
+      <h3>Histopathology (fully developed lesions)</h3>
+      <ul>
+        <li><strong>Acanthosis</strong> with <span class="good">regular downgrowth of rete ridges</span> to almost the same dermal level, with thickening of their lower portion.</li>
+        <li>Elongation &amp; oedema of the dermal <strong>papillae</strong> with broadening of their tips.</li>
+        <li><strong>Suprapapillary thinning of the stratum malpighii</strong>.</li>
+        <li><strong>Absence of the granular cell layer</strong>.</li>
+        <li><strong>Prominent parakeratosis</strong>.</li>
+        <li><span class="hot">Presence of "Munro microabscesses" in the parakeratotic horny layer — diagnostic of psoriasis.</span></li>
+      </ul>
+      <div class="mnem">🎯 Psoriasis histo = <strong>REPAIR</strong> (Regular elongation of rete ridges + Absent granular layer + Munro microabscess + Parakeratosis + Auspitz sign). <em>Joint = seronegative arthritis (RF absent).</em></div>
+      <p class="ref">Robbins 10e pp.1153–1159; Harsh Mohan 7e p.768 (figure)</p>
+    </div>
+  </details>
+
+  <h2 id="blister">5 · Blistering (Bullous) Diseases of the Skin</h2>
+
+  <details>
+    <summary>What are the blistering (bullous) diseases of the skin? Classify them. (CMU-23Nv, CU-19M)</summary>
+    <div class="ans">
+      <h3>Blistering (bullous) diseases of the skin — classification</h3>
+      <h3>1. Inflammatory blistering disorders</h3>
+      <ul>
+        <li><strong>Pemphigus</strong></li>
+        <li><strong>Bullous pemphigoid</strong></li>
+        <li><strong>Dermatitis herpetiformis</strong></li>
+      </ul>
+      <h3>2. Non-inflammatory blistering disorders</h3>
+      <ul>
+        <li><strong>Epidermolysis bullosa</strong></li>
+        <li><strong>Porphyria</strong></li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1159–1164</p>
+    </div>
+  </details>
+
+  <h2 id="tumours">6 · Tumours &amp; Tumour-like Lesions of the Skin</h2>
+
+  <details>
+    <summary>🔴 Classify skin tumours. Write the surface epidermal tumours. What are the malignant tumours? Classify the 5 common tumours. (RU-17M, SU-18M, RMU-22/21Nv/20M, CU-19Nv/20Nv)</summary>
+    <div class="ans">
+      <p><strong>Merged VIVA question</strong> — the classification of skin tumours covers all of: classify skin tumour, name surface epidermal tumours, malignant tumours of skin, name 3 malignant neoplasms, classify 5 common tumours of skin.</p>
+      <p><strong>Origin of skin tumours:</strong> the skin is the <span class="hot">largest organ of the body</span>. Tumours &amp; tumour-like lesions may arise from: <strong>surface epidermis</strong>, <strong>epidermal appendages</strong>, and <strong>dermal tissues</strong>. Each may give rise to <em>benign tumours &amp; tumour-like lesions</em>, <em>pre-malignant lesions</em>, and <em>malignant tumours</em>. A final group arises elsewhere but migrates to the skin — <strong>metastatic deposits (secondaries) in skin</strong>.</p>
+      <h3>A) Tumours of the skin (VIVA favourite) — full list</h3>
+      <table>
+        <tr><th>Category</th><th>Examples</th></tr>
+        <tr><td><strong>Benign tumours</strong></td><td>Squamous papilloma · Seborrheic keratosis · Acanthosis nigricans · Keratoacanthoma · Fibroepithelial polyps · Epithelial cyst (Wen) · Benign nevus</td></tr>
+        <tr><td><strong>Pre-malignant lesions</strong></td><td>Solar (actinic/senile) keratosis · Bowen disease · Xeroderma pigmentosum · Erythroplasia of Queyrat · Leukoplakia · Radiodermatitis · Dysplastic nevi</td></tr>
+        <tr><td><strong>Malignant tumours</strong></td><td>Squamous cell carcinoma (SCC) · Basal cell carcinoma (BCC, "rodent ulcer") · Malignant melanoma (MM) · Merkel cell carcinoma</td></tr>
+        <tr><td><strong>Adnexal (appendageal) tumours</strong></td><td>Tumours of hair follicles · Tumours of sebaceous glands · Tumours of sweat glands (incl. sweat gland carcinoma)</td></tr>
+        <tr><td><strong>Dermal tumours</strong></td><td>Benign fibrous histiocytoma (dermatofibroma) · Malignant fibrous histiocytoma · Dermatofibrosarcoma protuberans · Lipoma &amp; liposarcoma · Leiomyoma &amp; leiomyosarcoma · Haemangiomas, lymphangiomas &amp; angiosarcoma · Kaposi sarcoma</td></tr>
+        <tr><td><strong>Cellular migrant tumours (metastatic deposits of skin)</strong></td><td>Mycosis fungoides (cutaneous T-cell lymphoma, CTCL) · Langerhans cell histiocytosis · Mastocytosis · Lymphomas &amp; leukaemias · Plasmacytoma</td></tr>
+      </table>
+      <p class="warn">N.B.: Nevus (benign neoplasm of melanocytes) and Melanoma / Malignant melanoma (malignant neoplasm of melanocytes) may be listed under a separate heading <strong>"MELANOCYTIC TUMOURS"</strong>.</p>
+      <div class="mnem">🎯 3 nameable malignant skin neoplasms = <strong>SCC · BCC · Malignant melanoma</strong> (+ Merkel cell carcinoma). <em>BCC=most common, SCC=2nd, Melanoma=most deadly.</em></div>
+      <p class="ref">Robbins 10e pp.1142, 1145; Harsh Mohan 7e p.771; BRS Pathology 5e p.346</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are the locally malignant tumours of the skin?</summary>
+    <div class="ans">
+      <p><span class="hot">Locally malignant tumours of the skin:</span></p>
+      <ul>
+        <li><strong>Basal cell carcinoma (BCC)</strong> — of the epidermis.</li>
+        <li><strong>Dermatofibrosarcoma protuberans (DFSP)</strong> — of the dermis.</li>
+      </ul>
+      <p>Both grow aggressively and invade locally but <strong>rarely metastasise</strong>.</p>
+      <p class="ref">Robbins 10e pp.1147, 1150; Harsh Mohan 7e p.771; BRS Pathology 5e p.346</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Name the premalignant conditions of the skin. Name some primary skin lesions. (RMU-23/22/21M, CU-20M)</summary>
+    <div class="ans">
+      <h3>Pre-malignant (precancerous) lesions of the skin</h3>
+      <ul>
+        <li><strong>Solar keratosis</strong> (actinic keratosis, senile keratosis)</li>
+        <li><strong>Bowen disease</strong> (SCC in situ of the skin)</li>
+        <li><strong>Xeroderma pigmentosum (XP)</strong></li>
+        <li><strong>Erythroplasia of Queyrat</strong></li>
+        <li><strong>Leukoplakia</strong></li>
+        <li><strong>Radiodermatitis</strong></li>
+        <li><strong>Dysplastic nevi</strong></li>
+      </ul>
+      <h3>Primary skin lesions (representative)</h3>
+      <ul>
+        <li>Macule · Papule · Nodule · Plaque · Vesicle/Bulla (blister) · Pustule · Wheal · Scale · Erosion/ulcer · Lichenification · Excoriation · Onycholysis.</li>
+      </ul>
+      <p>(These are formally defined in the "Nice to Know — macroscopic/microscopic terminology" table at the end.)</p>
+      <div class="mnem">🎯 Pre-malignant skin = <strong>"SB BXXXELDR"</strong>-ish → Solar keratosis, Bowen, XP, Erythroplasia of Queyrat, Leukoplakia, Radiodermatitis, Dysplastic nevus.</div>
+      <p class="ref">Robbins 10e pp.1142, 1145; Harsh Mohan 7e p.771; BRS Pathology 5e p.346</p>
+    </div>
+  </details>
+
+  <h2 id="bcc">7 · Basal Cell Carcinoma (BCC / Rodent Ulcer)</h2>
+
+  <details>
+    <summary>Short note: Basal cell carcinoma / rodent ulcer. Give its etiology, pathogenesis and morphology. (CMU-23M/20Ju/19Nv, RMU-23M/19/18Nv, BUP-21Nv/M, SU-13Ja, DU-10/08Ju, RU-17Nv/Ja)</summary>
+    <div class="ans">
+      <p><strong>Basal cell carcinoma (BCC, "rodent ulcer"):</strong> malignant proliferation of the <span class="hot">basal cell (stem cell) of the epidermis</span>.</p>
+      <p>It is the <span class="good">most common of all malignant skin tumours</span>, arising from the basal layer of the epidermis and its appendages. Typically a <span class="hot">locally invasive, slow-growing tumour of middle age that rarely metastasises</span> (i.e. a locally malignant tumour).</p>
+      <h3>Sites (important for VIVA)</h3>
+      <ul>
+        <li>Chronic <strong>sun-exposed</strong> sites in <strong>lightly pigmented elderly adults</strong>.</li>
+        <li>Most commonly on the <span class="hot">face (90%)</span>, usually <strong>above a line from the angle of the mouth up to the ear lobule</strong>.</li>
+      </ul>
+      <h3>Aetiology (etiology)</h3>
+      <ul>
+        <li><strong>i) Age:</strong> mostly after <strong>40 years</strong>.</li>
+        <li><strong>ii) Race:</strong> <strong>lightly skinned races</strong> (little melanin) are more susceptible than Black individuals.</li>
+        <li><strong>iii) Precancerous conditions:</strong> Xeroderma pigmentosum (XP), <strong>basal cell nevus syndrome</strong>.</li>
+        <li><strong>iv) Environmental factor:</strong> chronic sun exposure (UV=ultraviolet radiation → DNA damage).</li>
+      </ul>
+      <h3>Morphology</h3>
+      <h4>Macroscopic</h4>
+      <ol>
+        <li><strong>Ulcerated (most common pattern):</strong> a slow-growing small nodule undergoes central ulceration with <span class="hot">pearly, raised, rolled margins</span>. The tumour enlarges by <strong>burrowing and destroying tissues locally like a rodent</strong> → hence "rodent ulcer".</li>
+        <li><strong>Non-ulcerated (less frequent pattern):</strong> pearly and shiny papules, often containing <strong>dilated (telangiectatic) vessels</strong>.</li>
+      </ol>
+      <h4>Microscopic</h4>
+      <p>Tumour cells resemble those of the <strong>normal basal cell layer</strong> of the epidermis. Two growth patterns:</p>
+      <ul>
+        <li><strong>Multifocal growth (superficial spreading BCC):</strong> extends over the skin surface several square centimetres or more.</li>
+        <li><strong>Nodular lesions (nodular BCC):</strong> growing <strong>downwards deeply into the dermis</strong>.</li>
+      </ul>
+      <h3>Metastasis</h3>
+      <p><span class="good">Rarely metastasises</span> (locally malignant tumour).</p>
+      <div class="mnem">🎯 BCC = <strong>"Basal Cell = Burrowing Cancer"</strong> — locally destructive, rarely spreads, rodent-ulcer with pearly rolled margins, face/upper sun sites, age &gt;40, light skin.</div>
+      <p class="ref">Robbins 10e p.1147; Harsh Mohan 7e p.775</p>
+    </div>
+  </details>
+
+  <h2 id="scc">8 · Squamous Cell Carcinoma (SCC / Marjolin Ulcer)</h2>
+
+  <details>
+    <summary>Short note: Squamous cell carcinoma (Marjolin ulcer). Give its morphology. (CMU/RMJ-style VIVA)</summary>
+    <div class="ans">
+      <p><strong>Squamous cell carcinoma (SCC, "Marjolin ulcer"):</strong> the <span class="hot">second most common skin cancer</span>, arising on <strong>sun-exposed sites in older people</strong>.</p>
+      <p><strong>Incidence:</strong> higher in <strong>men</strong> than in women.</p>
+      <h3>Pathogenesis (etiopathogenesis)</h3>
+      <p>The most important cause of cutaneous SCC is <span class="hot">DNA damage induced by exposure to UV light</span>. Tumour incidence is <strong>proportional to the degree of lifetime sun exposure</strong>.</p>
+      <h3>Predisposing factors (12)</h3>
+      <ol>
+        <li>Prolonged sun exposure</li>
+        <li>Immunosuppressive therapy</li>
+        <li>Industrial carcinogens (tars and oils)</li>
+        <li>Chronic ulcers and draining osteomyelitis</li>
+        <li>Old burn scars (<strong>Marjolin ulcers</strong>)</li>
+        <li>Arsenic exposure</li>
+        <li>Psoriasis</li>
+        <li>HIV (human immunodeficiency virus) infection</li>
+        <li>Ionizing radiation</li>
+        <li>(In the oral cavity) tobacco and betel-nut chewing</li>
+        <li>Precancerous conditions — xeroderma pigmentosum, actinic keratosis</li>
+        <li>Human papillomavirus (HPV)</li>
+      </ol>
+      <h3>Sites</h3>
+      <p>May arise on any part of the skin and mucous membranes lined by squamous epithelium. <strong>Most common locations:</strong> the face, <strong>pinna of the ears, back of the hands</strong>, and <strong>mucocutaneous junctions</strong> such as the lips, anal canal and glans penis.</p>
+      <h3>Morphology</h3>
+      <h4>Macroscopic — two patterns</h4>
+      <ul>
+        <li><strong>More common:</strong> an <span class="hot">ulcerated growth with elevated and indurated margin</span>.</li>
+        <li><strong>Less often:</strong> a raised <strong>fungating (polypoid) growth without ulceration</strong>.</li>
+      </ul>
+      <h4>Microscopic</h4>
+      <ul>
+        <li><strong>SCC in situ (CIS):</strong> cells with atypical (enlarged and hyperchromatic) nuclei involving <strong>all levels</strong> of the epidermis.</li>
+        <li><strong>Invasive SCC:</strong> variable degrees of differentiation — from tumours of polygonal cells in orderly lobules with numerous large areas of <strong>keratinization</strong>, to highly anaplastic neoplasms showing only abortive, <strong>single-cell keratinization (dyskeratosis)</strong>.</li>
+      </ul>
+      <h3>Investigations</h3>
+      <ol>
+        <li>Skin biopsy (shave biopsy, punch biopsy, or excisional biopsy)</li>
+        <li>USG (ultrasonography) / CT (computed tomography) scan to identify nodal disease</li>
+        <li>FNAC (fine-needle aspiration cytology) from the lymph node</li>
+        <li>MRI (magnetic resonance imaging) to identify local extension</li>
+      </ol>
+      <div class="mnem">🎯 SCC = <strong>"Sun + Scar → Cancer"</strong>. Marjolin ulcer = SCC in old burn scar. Sun-exposed sites, men&gt;women, keratinizing cells, metastasises (unlike BCC). N.B.: SCC may arise in skin, oral cavity, oesophagus, lungs, urinary bladder, salivary gland, cervix.</div>
+      <p class="ref">Robbins 10e p.1146; Harsh Mohan 7e p.774</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>A 72-year-old man has an ulcerative lesion on his right great toe for 6 months, spreading for the last month, with a swelling in the right inguinal region. What is the probable diagnosis &amp; how will you investigate? (BUP-16Ju)</summary>
+    <div class="ans">
+      <p><strong>Probable diagnosis:</strong> <span class="hot">Squamous cell carcinoma (SCC)</span> — ulcerative lesion on a chronic/sun-exposed site with regional (inguinal) lymph-node metastasis.</p>
+      <h3>Investigation plan</h3>
+      <ol>
+        <li>Skin biopsy (shave biopsy, punch biopsy, or excisional biopsy)</li>
+        <li>USG (ultrasonography) / CT (computed tomography) scan to identify nodal disease</li>
+        <li>FNAC (fine-needle aspiration cytology) from the inguinal lymph node</li>
+        <li>MRI (magnetic resonance imaging) to identify local extension</li>
+      </ol>
+      <p class="ref">Robbins 10e p.1146</p>
+    </div>
+  </details>
+
+  <h2 id="nevus">9 · Nevus (Benign Melanocytic Tumour)</h2>
+
+  <details>
+    <summary>Short note: Nevus / Melanocytic nevus (common mole). (DU-03S)</summary>
+    <div class="ans">
+      <p><strong>Nevus:</strong> the term denotes a <span class="hot">benign tumour of melanocytes</span>. Most melanocytic nevi are <strong>acquired</strong>.</p>
+      <h3>Types of nevus</h3>
+      <ol>
+        <li>Congenital nevus</li>
+        <li>Blue nevus</li>
+        <li>Spindle and epithelioid cell nevus (Spitz nevus)</li>
+        <li>Halo nevus</li>
+        <li><span class="warn">Dysplastic nevus (may transform into malignant melanoma)</span></li>
+      </ol>
+      <h3>Morphology</h3>
+      <h4>Gross</h4>
+      <p>Tan to brown, uniformly pigmented, small (usually <strong>&lt;6 mm</strong> across), solid regions of relatively flat (<strong>macules</strong>) to elevated skin (<strong>papules</strong>) with <strong>well-defined, rounded borders</strong>.</p>
+      <h4>Microscopic</h4>
+      <ul>
+        <li>Nevus cells may be <strong>epithelioid, cuboidal, fusiform or dendritic</strong>.</li>
+        <li>Nuclei are <span class="good">uniform and rounded in contour</span>, contain inconspicuous nucleoli, and show <strong>little or no mitotic activity</strong>.</li>
+      </ul>
+      <div class="mnem">🎯 Nevus = <strong>NEVer malignant</strong> (unless it becomes <em>dysplastic</em> → melanoma). Small (&lt;6 mm), symmetric, uniform nuclei, no mitosis.</div>
+      <p class="ref">Robbins 10e p.1136; BRS Pathology 5e p.344</p>
+    </div>
+  </details>
+
+  <h2 id="melanoma">10 · Malignant Melanoma (MM)</h2>
+
+  <details>
+    <summary>Short note: Malignant melanoma / Melanoma. Give its morphology. (Very Important for VIVA; CU-16/14/12Ju, CMU-21M/15Ju)</summary>
+    <div class="ans">
+      <p><strong>Malignant melanoma (MM):</strong> the <span class="hot">most deadly of all skin cancers</span>, arising from <strong>melanocytes or nevus cells</strong>.</p>
+      <p><strong>Incidence:</strong> most common in <strong>fair-skinned persons</strong>; can occur at <strong>all ages</strong>.</p>
+      <h3>Predisposing factors</h3>
+      <ol>
+        <li>Excessive exposure of <strong>white skin to sunlight</strong></li>
+        <li>Persistent change in the appearance of a mole</li>
+        <li>Presence of a pre-existing naevus (especially <strong>dysplastic naevus</strong>)</li>
+        <li>Family history of melanoma in a patient with atypical mole</li>
+        <li>Higher age of the patient</li>
+        <li>Exposure to certain carcinogens</li>
+      </ol>
+      <h3>Sites</h3>
+      <ul>
+        <li><strong>Skin</strong> (men: upper back; women: back and the leg); other locations — face, <strong>soles, palms and nail-beds</strong>.</li>
+        <li><strong>Oral and anogenital mucosa</strong> (oropharynx, gastrointestinal and genitourinary tracts).</li>
+        <li>Oesophagus · Conjunctiva · Orbit · Meninges.</li>
+      </ul>
+      <h3>Clinical features</h3>
+      <ol>
+        <li>Usually <strong>asymptomatic</strong>.</li>
+        <li><strong>Itching or pain</strong> may be early manifestations.</li>
+        <li>Majority of lesions are <strong>greater than 10 mm</strong> in diameter.</li>
+        <li><span class="hot">Change in colour, size, or shape in a pigmented lesion</span> is the most consistent clinical sign.</li>
+      </ol>
+      <h3>Clinical warning signs — the <span class="hot">ABCDEs</span> of melanoma</h3>
+      <ul>
+        <li><strong>A</strong>symmetry</li>
+        <li><strong>B</strong> — Irregular <strong>B</strong>orders</li>
+        <li><strong>C</strong> — Change in <strong>C</strong>olour</li>
+        <li><strong>D</strong> — Increasing <strong>D</strong>iameter</li>
+        <li><strong>E</strong> — <strong>E</strong>volution / change over time, especially if rapid</li>
+      </ul>
+      <h3>Other warning features</h3>
+      <ul>
+        <li>Pigmented lesions <strong>&gt;6 mm</strong> in diameter</li>
+        <li>Any change in appearance</li>
+        <li>New onset of itching or pain</li>
+      </ul>
+      <h3>Growth pattern</h3>
+      <ol>
+        <li><strong>Radial growth (initial phase):</strong> growth in all directions but predominantly <span class="good">lateral, within the epidermis and papillary zone of the dermis</span>. During this stage melanomas <span class="good">do NOT metastasise; clinical cure is frequent</span>.</li>
+        <li><strong>Vertical growth (later phase):</strong> growth extends into the <strong>reticular dermis or beyond</strong>. Prognosis varies with the <strong>depth of the lesion</strong>. During this phase, <span class="hot">lymphatic or haematogenous metastasis may occur</span>.</li>
+      </ol>
+      <h3>Morphology</h3>
+      <h4>Macroscopic</h4>
+      <ul>
+        <li>Striking variation in colour — shades of <strong>black, brown, red, dark blue, and gray</strong>.</li>
+        <li>Occasionally zones of <strong>white or flesh-coloured hypopigmentation</strong> appear.</li>
+        <li>Borders are <span class="hot">irregular and often notched</span>.</li>
+      </ul>
+      <h4>Microscopic</h4>
+      <ul>
+        <li>Melanoma cells are <strong>larger than normal</strong> with <span class="hot">large nuclei, irregular contours</span> and prominent <span class="hot">red (eosinophilic) nucleoli</span>.</li>
+        <li>The appearance of the tumour cells is similar in <strong>radial and vertical phases</strong>.</li>
+      </ul>
+      <div class="mnem">🎯 Melanoma mnemonics: <strong>ABCDE</strong> = Asymmetry, Border, Colour, Diameter, Evolution. Growth = <strong>"Radial first (safe), Vertical later (dangerous)"</strong>. Most deadly skin cancer, fair skin, UV exposure.</div>
+      <p class="ref">Robbins 10e p.1139; BRS Pathology 5e p.347; Harsh Mohan 7e p.778</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>A 70-year-old man has a black ulcerated lesion on his right great toe for 6 months, rapidly spreading for the last 2 months. Give the differential diagnosis &amp; how would you confirm it? (DU-17Ja)</summary>
+    <div class="ans">
+      <h3>Differential diagnosis</h3>
+      <ul>
+        <li><strong>Malignant melanoma (MM)</strong></li>
+        <li><strong>Squamous cell carcinoma (SCC)</strong></li>
+      </ul>
+      <h3>Confirmatory diagnosis</h3>
+      <p><span class="hot">Biopsy and histopathology.</span></p>
+      <p class="ref">Robbins 10e p.1139</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>A 70-year-old man developed a blackish, pigmented, ulcerated lesion on the sole of the right foot for 3 months; recently a right inguinal swelling is noted. What is the probable diagnosis &amp; the explanation of the inguinal swelling? (DU-16Ja)</summary>
+    <div class="ans">
+      <p><strong>Probable diagnosis:</strong> <span class="hot">Malignant melanoma (MM)</span> — pigmented, ulcerating lesion on the sole (a classic acral/sun-independent melanoma site).</p>
+      <p><strong>Explanation of the inguinal swelling:</strong> <span class="good">Lymphatic metastasis in the vertical growth phase</span> of the melanoma.</p>
+      <p class="ref">Robbins 10e p.1139</p>
+    </div>
+  </details>
+
+  <h2 id="terms">11 · Nice to Know — Dermatologic Terminology</h2>
+
+  <details>
+    <summary>Define the macroscopic and microscopic terms used to describe skin lesions. (Nice to Know)</summary>
+    <div class="ans">
+      <h3>Definitions of macroscopic terms</h3>
+      <table>
+        <tr><th>Term</th><th>Definition</th></tr>
+        <tr><td><strong>Excoriation</strong></td><td>Traumatic lesion breaking the epidermis and causing a raw linear area (i.e. deep scratch); often self-induced</td></tr>
+        <tr><td><strong>Lichenification</strong></td><td>Thickened and rough skin with prominent skin markings (like lichen on a tree trunk); usually from repeated rubbing</td></tr>
+        <tr><td><strong>Onycholysis</strong></td><td>Separation of the nail plate from the nail bed</td></tr>
+        <tr><td><strong>Macule</strong></td><td>Circumscribed lesion, 5 mm or smaller, flat, distinguished by coloration (patch is &gt;5 mm)</td></tr>
+        <tr><td><strong>Papule</strong></td><td>Elevated dome-shaped or flat-topped lesion 5 mm or less across (nodule is &gt;5 mm)</td></tr>
+        <tr><td><strong>Plaque</strong></td><td>Elevated flat-topped lesion, usually &gt;5 mm across (may be caused by coalescent papules)</td></tr>
+        <tr><td><strong>Pustule</strong></td><td>Discrete, pus-filled, raised lesion</td></tr>
+        <tr><td><strong>Scale</strong></td><td>Dry, horny, platelike excrescence; usually the result of imperfect cornification</td></tr>
+        <tr><td><strong>Vesicle</strong></td><td>Fluid-filled raised lesion 5 mm or less across (Bulla is &gt;5 mm; <strong>blister</strong> is the common term for either)</td></tr>
+        <tr><td><strong>Wheal</strong></td><td>Itchy, transient, elevated lesion with variable blanching and erythema, formed as a result of dermal oedema</td></tr>
+      </table>
+      <h3>Definitions of microscopic terms</h3>
+      <table>
+        <tr><th>Term</th><th>Definition</th></tr>
+        <tr><td><strong>Acantholysis</strong></td><td>Loss of intercellular cohesion between keratinocytes (pemphigus)</td></tr>
+        <tr><td><strong>Acanthosis</strong></td><td>Diffuse epidermal hyperplasia (psoriasis)</td></tr>
+        <tr><td><strong>Dyskeratosis</strong></td><td>Abnormal, premature keratinization within cells below the stratum granulosum</td></tr>
+        <tr><td><strong>Erosion</strong></td><td>Discontinuity of the skin showing incomplete loss of the epidermis</td></tr>
+        <tr><td><strong>Exocytosis</strong></td><td>Infiltration of the epidermis by inflammatory cells</td></tr>
+        <tr><td><strong>Hydropic swelling (ballooning)</strong></td><td>Intracellular oedema of keratinocytes, often seen in viral infections</td></tr>
+        <tr><td><strong>Hypergranulosis</strong></td><td>Hyperplasia of the stratum granulosum, often due to intense rubbing</td></tr>
+        <tr><td><strong>Hyperkeratosis</strong></td><td>Thickening of the stratum corneum, often with a qualitative abnormality of keratin</td></tr>
+        <tr><td><strong>Lentiginous</strong></td><td>A linear pattern of melanocyte proliferation within the epidermal basal cell layer</td></tr>
+        <tr><td><strong>Papillomatosis</strong></td><td>Surface elevation caused by hyperplasia and enlargement of contiguous dermal papillae</td></tr>
+        <tr><td><strong>Parakeratosis</strong></td><td>Keratinization with retained nuclei in the stratum corneum. On mucous membranes, parakeratosis is normal</td></tr>
+        <tr><td><strong>Spongiosis</strong></td><td>Intercellular oedema of the epidermis (eczema)</td></tr>
+        <tr><td><strong>Ulceration</strong></td><td>Discontinuity of the skin with complete loss of the epidermis, revealing dermis or subcutis</td></tr>
+        <tr><td><strong>Vacuolization</strong></td><td>Formation of vacuoles within or adjacent to cells; often refers to the basal cell–basement membrane zone area</td></tr>
+      </table>
+      <div class="mnem">🎯 Macule/papule/vesicle ≤5mm; patch/nodule/bulla &gt;5mm. <em>Pemphigus = acantholysis; Psoriasis = acanthosis; Eczema = spongiosis; Viral = hydropic ballooning.</em></div>
+      <p class="ref">Robbins 10e p.1135</p>
+    </div>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
+
+  <details class="rapid" open>
+    <summary>Skin — True/False MCQs folded from V2-ch18 + one-liner mnemonics (test yourself, then reveal)</summary>
+    <div class="ans">
+      <div class="q">Disorders of the skin due to melanocyte defect (VIVA): Vitiligo (T/F), Melasma (T/F), Nevus (T/F), Psoriasis (T/F), Acne vulgaris (T/F)? (CMU-22M)</div>
+      <div class="a">Vitiligo = <strong>True</strong> · Melasma = <strong>True</strong> · Nevus = <strong>True</strong> · Psoriasis = <strong>False</strong> (chronic inflammatory dermatosis, not a melanocyte defect) · Acne vulgaris = <strong>False</strong> (appendageal disorder).</div>
+
+      <div class="q">Benign adnexal tumours of the skin (VIVA): Keratoacanthoma (T/F), Trichoepithelioma (T/F), Benign fibrous histiocytoma (T/F), Cylindroma (T/F), Sebaceous adenoma (T/F)? (CU-19Nv)</div>
+      <div class="a">Keratoacanthoma = <strong>True</strong> (benign epidermal/adnexal tumour) · Trichoepithelioma = <strong>False</strong> · Benign fibrous histiocytoma = <strong>False</strong> (a dermal tumour, not adnexal) · Cylindroma = <strong>True</strong> (sweat-gland adnexal tumour) · Sebaceous adenoma = <strong>True</strong> (sebaceous-gland adnexal tumour).</div>
+
+      <div class="q">Pre-malignant lesions of the skin include (1): Paget disease (T/F), Psoriasis (T/F), Keratoacanthoma (T/F), Basal cell carcinoma (T/F), Leukoplakia (T/F)? (RU-17M)</div>
+      <div class="a">Paget disease = <strong>False</strong> · Psoriasis = <strong>False</strong> · Keratoacanthoma = <strong>False</strong> (benign) · Basal cell carcinoma = <strong>False</strong> (already malignant) · Leukoplakia = <strong>True</strong>.</div>
+
+      <div class="q">Pre-malignant lesions of the skin are (2): Seborrheic keratosis (T/F), Actinic keratosis (T/F), Leukoplakia (T/F), Nevus (T/F), Marjolin ulcer (T/F)? (RU-17M)</div>
+      <div class="a">Seborrheic keratosis = <strong>False</strong> (benign) · Actinic keratosis = <strong>True</strong> · Leukoplakia = <strong>True</strong> · Nevus = <strong>False</strong> (benign; only <em>dysplastic</em> nevus is pre-malignant) · Marjolin ulcer = <strong>False</strong> (it is already an established SCC).</div>
+
+      <div class="q">🎯 One-liners: Most common malignant skin tumour? 2nd most common? Most deadly skin cancer? Locally malignant tumours?</div>
+      <div class="a"><strong>BCC = most common</strong> (rodent ulcer) · <strong>SCC = 2nd most common</strong> (Marjolin ulcer) · <strong>Malignant melanoma = most deadly</strong> · <strong>Locally malignant: BCC + dermatofibrosarcoma protuberans</strong>.</div>
+
+      <div class="q">🎯 "Auspitz sign" &amp; "Munro microabscess" = ? · "Rodent ulcer" = ? · "Marjolin ulcer" = ? · "ABCDEs of melanoma" = ?</div>
+      <div class="a">Auspitz + Munro = <strong>psoriasis</strong> · Rodent ulcer = <strong>basal cell carcinoma</strong> · Marjolin ulcer = <strong>SCC in an old burn scar</strong> · ABCDE = <strong>Asymmetry, Border, Colour, Diameter, Evolution</strong>.</div>
+
+      <div class="q">🎯 Stratum lucidum present only where? · Where are melanocytes/Langerhans cells/Merkel cells found? · Which layer is dead &amp; anucleate?</div>
+      <div class="a"><strong>Stratum lucidum only in palms &amp; soles</strong> · Melanocytes, Langerhans cells, Merkel cells all in the <strong>epidermis</strong> (melanocytes &amp; Merkel in basal layer; Langerhans intraepidermal dendritic) · <strong>Stratum corneum</strong> = dead keratinocytes, no nuclei.</div>
+
+      <div class="q">🎯 Radial growth (initially) vs vertical growth (later) of melanoma — which metastasises?</div>
+      <div class="a"><strong>Radial growth: no metastasis</strong> (cure frequent) · <strong>Vertical growth: lymphatic/haematogenous metastasis</strong> (<span class="hot">vertical = visceral spread</span>).</div>
+
+      <div class="q">🎯 Sites of BCC vs SCC vs melanoma?</div>
+      <div class="a"><strong>BCC:</strong> face (90%), above mouth–ear line, sun-exposed · <strong>SCC:</strong> face, pinna, back of hands, mucocutaneous junctions (lips, anal canal, glans penis) · <strong>Melanoma:</strong> men→upper back, women→back &amp; leg; plus soles, palms, nail-beds &amp; mucosal sites.</div>
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="ch13_Endocrine_System.html">← Previous: Endocrine</a></span>
+    <span>Ch 14 · The Skin</span>
+    <span><a href="ch15_Bones_Joints_Soft_Tissues.html">Next: Bones, Joints &amp; Soft Tissues →</a></span>
+  </div>
+</div>
+</body>
+</html>

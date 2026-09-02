@@ -12,6 +12,7 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
+| [Pathology/systemic pathology comprehensive notes/](Pathology/systemic%20pathology%20comprehensive%20notes/) | Comprehensive Systemic + Clinical Pathology flashcards (HTML) from Arif Vol-2 — chapter-by-chapter Q→A, every abbreviation expanded |
 | [community/](community/) | Endeavour Community Medicine — full book text, board question sets & Viva bank |
 | [community/chapters/](community/chapters/) | Chapter-by-chapter full text of the Endeavour guide (26 chapters, 722 pages) |
 | [community/chapters/flashcard from raw endeavour/](community/chapters/flashcard%20from%20raw%20endeavour/) | Collapsible Q&A flashcards — click a question to reveal its answer |

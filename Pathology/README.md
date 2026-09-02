@@ -61,6 +61,22 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 
 ---
 
+## 📗 Comprehensive Systemic Pathology Flashcards (HTML — Arif 2025 Vol-2)
+
+> One self-contained HTML study sheet per chapter, in **flashcard (Q→A)** format, covering BOTH **Systemic Pathology** (Unit-I) and **Clinical Pathology / lab medicine** (Unit-II) of **Arif's Pathology & Haematology 15th ed. (2025) Volume 2** — every question preserved, every abbreviation expanded on first use. Built for fast, boss-level 1-day revision with active recall.
+
+- **Start here:** [`systemic pathology comprehensive notes/00_Index.html`](systemic%20pathology%20comprehensive%20notes/00_Index.html) — master index + study guide
+- **Chapter list + README:** [`systemic pathology comprehensive notes/README.md`](systemic%20pathology%20comprehensive%20notes/README.md)
+
+**What's inside (29 chapters):**
+- **Organ systems (ch01–17):** Blood Vessels · Heart · WBC/Lymph Nodes/Spleen/Thymus · Respiratory · Head/Neck/Oral · GI · Liver & Biliary · Renal · Male Genital · Female Genital · Gestational Trophoblastic Disease · Breast · Endocrine · Skin · Bones/Joints/Soft Tissues · CNS · Eye
+- **Clinical Pathology (ch19–30):** Liver Function Test & Jaundice · Renal Function Test · Blood Glucose & Diabetes Mellitus · Semen Analysis · Body Fluids (CSF/Pleural/Ascitic) · Electrolyte & Acid-Base Balance · Enzymes · Lipid & Cholesterol · Pregnancy Test · Stool Examination · Sputum Examination · Miscellaneous
+- Volume-2 MCQ banks (Systemic ch18 & Clinical ch31) are folded into each chapter's **Rapid-Fire ❓/✅** section.
+
+**File layout per chapter:** 🔴/📌/🎯 priority markers · 🧠 Big-Picture classification first · collapsible flashcards for active recall · Robbins 4-pillar answers (cause → mechanism → morphology → clinical) · tables & normal values · end-of-chapter Rapid-Fire sweep.
+
+---
+
 ## 📚 Table of Contents
 
 ### General Pathology (Ch 1–9)
@@ -106,6 +122,7 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 
 - **[Systemic Pathology item sets — README](systemic%20pathology%20set%20questions/README.md)** — index of **ALL answered items 1–26** (≈330 questions, every answer with Robbins + Arif reference footers).
 - **Highlights:** Item 1 (vessels/lipid) · 2–3 (heart) · 4–5 (lung/TB/COPD/cancer) · 6–8 (kidney/UTI/RFT/tumours/bladder) · 9–11 (oral→GIT) · 12–14 (hepatobiliary/pancreas) · 15 (testis/prostate/semen) · 16–17 (female genital + CIN/Pap + ovary/pregnancy test) · 18–19 (breast/thyroid) · 20 (DM/OGTT/Benedict) · 21 (eye-ENT-CNS/CSF) · 22 (bone/joint/STT) · 23 (skin) · 24–26 (histo-cyto techniques/FNAC).
+- **📗 Comprehensive Systemic Pathology flashcards (HTML):** [`systemic pathology comprehensive notes/00_Index.html`](systemic%20pathology%20comprehensive%20notes/00_Index.html) — full-detail chapter-by-chapter flashcards from **Arif Vol-2 (Systemic + Clinical Pathology)**, every Q preserved + abbreviations expanded (see the section above).
 
 ---
 

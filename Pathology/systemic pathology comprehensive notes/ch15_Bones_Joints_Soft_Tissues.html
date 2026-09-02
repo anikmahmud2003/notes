@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch15 — Bones, Joints and Soft Tissues | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#osteo">Osteomyelitis</a><a href="#sequestrum">Sequestrum &amp; Brodie's</a><a href="#tumours">Bone Tumours</a><a href="#osteo-sarc">Osteosarcoma</a><a href="#chondro-sarc">Chondrosarcoma</a><a href="#ewing">Ewing Sarcoma</a><a href="#giant-cell">Giant Cell Tumour</a><a href="#soft-tissue">Soft Tissue Tumours</a><a href="#arthritis">Arthritis</a><a href="#ra">Rheumatoid Arthritis</a><a href="#fracture">Pathological Fracture</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Ch 15 · Bones, Joints and Soft Tissues · Arif Guide 2025 Vol-2 · Unit-I · pp.348–362</span>
+  <h1>Bones, Joints and Soft Tissues
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Bones, Joints and Soft Tissues (boss-level overview)</h3>
+    <p>This chapter covers <strong>three interlinked domains</strong>:</p>
+    <p><strong>1. Bone infections — Osteomyelitis:</strong> 🔴 Pyogenic (Staphylococcus aureus 80–90%) and tubercular forms; key morphological landmarks = <strong>sequestrum</strong> (dead bone), <strong>involucrum</strong> (reactive new bone), <strong>Brodie's abscess</strong> (intraosseous abscess); <strong>Pott's disease</strong> = TB spine → kyphosis. Chronicity from delayed diagnosis, extensive necrosis, inadequate antibiotics.</p>
+    <p><strong>2. Bone tumours — Benign vs Malignant:</strong> 🔴 Primary tumours classified by matrix: <strong>osteogenic</strong> (osteosarcoma = most common primary malignant; osteoid osteoma, osteoblastoma = benign), <strong>chondrogenic</strong> (chondrosarcoma = 2nd most common malignant; osteochondroma = most frequent benign), <strong>unknown origin</strong> (Ewing sarcoma = childhood round-cell tumour with onion-skin periosteal reaction; giant cell tumour/osteoclastoma = locally aggressive epiphyseal lesion), <strong>notochordal</strong> (chordoma). Secondary metastases: prostate, breast, kidney, lung (adults); neuroblastoma, Wilms (children).</p>
+    <p><strong>3. Joint diseases:</strong> 📌 <strong>Osteoarthritis (OA)</strong> = mechanical/degenerative (weight-bearing joints, cartilage degeneration, osteophytes); <strong>Rheumatoid arthritis (RA)</strong> = autoimmune (CD4⁺ T cells, pannus, symmetric small joints, ACPA/rheumatoid factor); <strong>gout</strong> = crystal arthropathy; infectious arthritis; reactive arthritis (Reiter syndrome = arthritis + urethritis + conjunctivitis).</p>
+    <p><strong>4. Soft tissue tumours:</strong> 🎯 Lipoma (most common soft tissue tumour), liposarcoma, rhabdomyoma/myosarcoma, leiomyoma/myosarcoma, haemangioma, angiosarcoma, schwannoma, neurofibroma, synovial sarcoma, fibrosarcoma, undifferentiated pleomorphic sarcoma.</p>
+    <p><strong>5. Pathological fractures:</strong> fracture through diseased bone — causes: osteomyelitis, benign tumours (osteoclastoma), malignant tumours (osteosarcoma, Ewing, metastatic thyroid/kidney/breast), metabolic (osteoporosis, osteomalacia), cystic (aneurysmal bone cyst).</p>
+    <p class="ref">Robbins 10e Ch 26 (Bones & Joints) pp. 1185–1210 · Arif 15e (2025) Vol-2, pp.348–362</p>
+  </div>
+
+  <div class="toc-box">
+    <a href="#osteo">1 · Osteomyelitis — Definition, Classification &amp; Routes</a>
+    <a href="#osteo-chronic">2 · Chronic Osteomyelitis — Pathogenesis, Predisposing Factors</a>
+    <a href="#sequestrum">3 · Sequestrum, Brodie's Abscess, Involucrum</a>
+    <a href="#osteo-clinical">4 · Clinical Features — Pyogenic vs Tuberculous Osteomyelitis</a>
+    <a href="#pott">5 · Pott's Disease (Tb Spine)</a>
+    <a href="#mineral">6 · Abnormal Mineral Homeostasis</a>
+    <a href="#osteomyelitis-case">7 · Case: Acute Osteomyelitis Diagnosis</a>
+    <a href="#tumours">8 · Bone Tumour Classification</a>
+    <a href="#bone-forming">9 · Bone-Forming Tumours</a>
+    <a href="#cartilage-forming">10 · Cartilage-Forming Tumours</a>
+    <a href="#osteo-sarc">11 · Osteosarcoma — Full Details</a>
+    <a href="#osteo-sarc-case">12 · Case: Osteosarcoma Diagnosis</a>
+    <a href="#chondro-sarc">13 · Chondrosarcoma</a>
+    <a href="#ewing">14 · Ewing Sarcoma</a>
+    <a href="#giant-cell">15 · Giant Cell Tumour (Osteoclastoma)</a>
+    <a href="#giant-ewing-diff">16 · Giant Cell Tumour vs Ewing — Differences</a>
+    <a href="#soft-tissue">17 · Soft Tissue Tumours — Classification &amp; Examples</a>
+    <a href="#arthritis">18 · Arthritis — Causes &amp; Classification</a>
+    <a href="#ra">19 · Rheumatoid Arthritis — Pathogenesis &amp; Morphology</a>
+    <a href="#oa-ra-compare">20 · OA vs RA — Comparative Features</a>
+    <a href="#reiter">21 · Reiter Syndrome</a>
+    <a href="#fracture">22 · Pathological Bone Fracture</a>
+    <a href="#rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep</a>
+  </div>
+
+  <!-- ===== SECTION 1: OSTEOMYELITIS ===== -->
+  <h2 id="osteo">1 · Osteomyelitis — Definition, Classification &amp; Routes</h2>
+
+  <details id="osteo-def">
+    <summary>🔴 Define osteomyelitis and classify it according to clinical course and aetiology.</summary>
+    <div class="ans">
+      <p><strong>Osteomyelitis:</strong> inflammation of <span class="hot">bone and marrow</span>, virtually always secondary to infection. It frequently manifests as a primary solitary focus of disease but can also be a complication of any systemic infection. All types of organisms — including viruses, parasites, fungi, and bacteria — can produce osteomyelitis, but certain pyogenic bacteria and mycobacteria are the most common culprits.</p>
+      <h3>A) Classification by clinical course</h3>
+      <ol>
+        <li><strong>Acute suppurative osteomyelitis</strong></li>
+        <li><strong>Chronic osteomyelitis:</strong>
+          <ul>
+            <li>Chronic suppurative osteomyelitis</li>
+            <li>Tubercular osteomyelitis</li>
+            <li>Syphilitic lesions of bone</li>
+          </ul>
+        </li>
+      </ol>
+      <h3>B) Classification by aetiology</h3>
+      <table>
+        <tr><th>Group</th><th>Types</th></tr>
+        <tr><td><strong>1. Bacterial</strong> (most common)</td><td>Pyogenic osteomyelitis · Tubercular osteomyelitis · Syphilitic osteomyelitis</td></tr>
+        <tr><td><strong>2. Viral</strong></td><td>Viral osteomyelitis</td></tr>
+        <tr><td><strong>3. Fungal</strong></td><td>Fungal osteomyelitis</td></tr>
+        <tr><td><strong>4. Parasitic</strong></td><td>Parasitic osteomyelitis</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1185; Arif 2025 Vol-2 p.348</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Enlist the routes by which bacteria enter the bone.</summary>
+    <div class="ans">
+      <p>Bacteria may reach the bone by:</p>
+      <ol>
+        <li><strong>Haematogenous spread</strong> (most common route, especially in children)</li>
+        <li><strong>Extension from a contiguous site</strong> (e.g. nearby soft tissue infection, open fracture)</li>
+        <li><strong>Direct implantation</strong> (e.g. in traumatic injury, surgical procedures)</li>
+      </ol>
+      <p>In adults, osteomyelitis more often occurs as a complication of <strong>open fractures, surgical procedures, and infections of the feet in the setting of diabetes</strong>.</p>
+      <p class="ref">Robbins 10e p.1185</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 2: CHRONIC OSTEOMYELITIS ===== -->
+  <h2 id="osteo-chronic">2 · Chronic Osteomyelitis — Pathogenesis, Predisposing Factors &amp; Etiologic Agents</h2>
+
+  <details>
+    <summary>🔴 Describe the aetiopathogenesis and predisposing factors of chronic osteomyelitis. What are the etiologic agents?</summary>
+    <div class="ans">
+      <p><strong>Definition:</strong> "A severe, persistent and incapacitating infection of bone and bone marrow."</p>
+      <h3>A) Predisposing factors</h3>
+      <ol>
+        <li>History of <strong>trauma</strong></li>
+        <li><strong>Debilitation</strong></li>
+        <li><strong>Immunodeficiency</strong> state</li>
+        <li><strong>Sickle cell anaemia</strong> (especially Salmonella osteomyelitis)</li>
+      </ol>
+      <h3>B) Etiologic agents</h3>
+      <table>
+        <tr><th>Group</th><th>Organisms</th></tr>
+        <tr><td><strong>1. Pyogenic bacteria</strong></td><td><span class="hot">Staphylococcus aureus</span> (80–90%) · Group B streptococci · <em>E. coli</em> · Pseudomonas · Klebsiella · Salmonella · <em>Haemophilus influenzae</em></td></tr>
+        <tr><td><strong>2. Mycobacteria</strong></td><td>Tubercular osteomyelitis (<em>Mycobacterium tuberculosis</em>)</td></tr>
+      </table>
+      <h3>C) Pathogenesis &amp; morphology — sequential steps</h3>
+      <ol>
+        <li>Localised infection at <strong>metaphyseal endosteum</strong></li>
+        <li>Bacteria proliferate → induce <strong>acute inflammatory reaction</strong> → cell death</li>
+        <li>Entrapped bone undergoes <strong>necrosis within the first 48 hours</strong></li>
+        <li>Bacteria and inflammation spread within the shaft → percolate through the <strong>Haversian system</strong> to reach the periosteum</li>
+        <li><strong>Subperiosteal abscess formation</strong> → lifts the periosteum</li>
+        <li>Impairs blood supply → <strong>ischaemia and suppurative necrosis of bone</strong></li>
+        <li>Segmental bone necrosis → formation of a piece of dead bone = <span class="hot">sequestrum</span></li>
+        <li>Formation of soft tissue abscess → rupture through periosteum → <strong>draining sinus</strong></li>
+        <li>After ~1 week, chronic inflammatory cells cause fibrous growth and formation of <strong>reactive bone</strong> around the devitalised bone = <span class="hot">involucrum</span></li>
+        <li>The interosseous stenotic abscess = <span class="hot">Brodie's abscess</span></li>
+      </ol>
+      <p class="ref">Robbins 10e pp.1185–1186; Arif 2025 Vol-2 pp.349–350</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>When does acute osteomyelitis turn into the chronic form?</summary>
+    <div class="ans">
+      <p>In <strong>5–25% of cases</strong>, acute osteomyelitis fails to resolve and persists as chronic infection. Chronicity may develop in the following situations:</p>
+      <ul>
+        <li><strong>Delay in diagnosis</strong></li>
+        <li><strong>Extensive bone necrosis</strong></li>
+        <li><strong>Inadequate antibiotic therapy</strong></li>
+        <li><strong>Inadequate surgical debridement</strong></li>
+        <li><strong>Weakened host defence</strong></li>
+      </ul>
+      <p class="ref">Robbins Basic Pathology 10e p.807; Arif 2025 Vol-2 p.351</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 3: SEQUESTRUM, BRODIE'S, INVOLUCRUM ===== -->
+  <h2 id="sequestrum">3 · Sequestrum, Brodie's Abscess &amp; Involucrum</h2>
+
+  <details>
+    <summary>🔴 What is a sequestrum? Describe its cause, mechanism, and fate.</summary>
+    <div class="ans">
+      <p><strong>Sequestrum:</strong> a <span class="hot">dead piece of bone within a living bone</span>, produced as a result of avascular necrosis from underlying infection, ultimately separated by osteoclasts.</p>
+      <p><strong>Cause:</strong> Chronic pyogenic osteomyelitis.</p>
+      <p><strong>Mechanism of formation:</strong> bacteria at the metaphyseal endosteum → acute inflammation → bone necrosis within 48 h → spread through Haversian canals → subperiosteal abscess → periosteal lifting → ischaemia → segmental necrosis of bone → dead bone fragment = sequestrum.</p>
+      <p><strong>Fate of sequestrum</strong> (depends on wound size):</p>
+      <ul>
+        <li>If <strong>small</strong> → can be absorbed by osteoclastic activity and replaced by granulation tissue (resolution)</li>
+        <li>If <strong>large</strong> → persists for long with chronic infection inside and discharging sinus</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1186; Arif 2025 Vol-2 p.351</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is Brodie's abscess?</summary>
+    <div class="ans">
+      <p><strong>Brodie's abscess:</strong> a <span class="hot">small intraosseous abscess</span> that frequently involves the cortex, walled off by reactive bone. It is a <strong>sequelae of chronic osteomyelitis</strong>.</p>
+      <p>Alternatively: a <strong>circumscribed, round/oval cavity containing pus and pieces of dead bone (sequestra) surrounded by sclerosis</strong>.</p>
+      <p class="ref">Robbins Basic Pathology 10e p.807; Arif 2025 Vol-2 p.351</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is an involucrum? (VIVA favourite)</summary>
+    <div class="ans">
+      <p><strong>Involucrum:</strong> the <span class="hot">reactive lamellar/woven bone</span> that forms around devitalised (necrotic) bone in chronic osteomyelitis. It is produced by chronic inflammatory cells about one week after the initial infection, and represents the body's attempt to wall off and stabilise the necrotic segment.</p>
+      <p>Together with <strong>sequestrum</strong> (dead bone inside) and a <strong>cloaca</strong> (opening in the involucrum through which sequestra and pus may extrude), the involucrum is a hallmark of chronic osteomyelitis morphology.</p>
+      <p class="ref">Robbins 10e p.1186; SMU-23M exam question</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 4: CLINICAL FEATURES ===== -->
+  <h2 id="osteo-clinical">4 · Clinical Features — Pyogenic vs Tuberculous Osteomyelitis</h2>
+
+  <details>
+    <summary>🔴 Compare the clinical features of pyogenic and tuberculous osteomyelitis.</summary>
+    <div class="ans">
+      <h3>Pyogenic osteomyelitis</h3>
+      <ul>
+        <li>Malaise</li>
+        <li>Fever</li>
+        <li>Chills</li>
+        <li>Leukocytosis</li>
+        <li>Intense throbbing pain over the infected bone</li>
+        <li>Characteristic <strong>X-ray findings</strong>: lytic focus of bone destruction surrounded by a zone of sclerosis</li>
+        <li>Blood cultures can be positive (in untreated cases)</li>
+      </ul>
+      <h3>Tuberculous osteomyelitis</h3>
+      <ul>
+        <li>Localised pain</li>
+        <li>Low-grade fever</li>
+        <li>Chills</li>
+        <li>Weight loss</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1186–1187; Arif 2025 Vol-2 pp.351–352</p>
+    </div>
+  </details>
+
+  <details id="pott">
+    <summary>🔴 What is Pott's disease? Describe its clinical features and complications.</summary>
+    <div class="ans">
+      <p><strong>Pott's disease:</strong> <span class="hot">tuberculous osteomyelitis of the spine</span> (especially thoracic and lumbar vertebrae), which is the <strong>most common site of skeletal TB</strong>.</p>
+      <p>In the spine, infection breaks through <strong>intervertebral discs to involve multiple vertebrae</strong> and extends into the surrounding soft tissues, forming abscesses.</p>
+      <h3>Clinical features</h3>
+      <ul>
+        <li>Localised pain</li>
+        <li>Low-grade fever</li>
+        <li>Chills</li>
+        <li>Weight loss</li>
+      </ul>
+      <h3>Complications</h3>
+      <ul>
+        <li>Permanent compression fracture of discs &amp; vertebrae → severe <span class="hot">scoliosis, kyphosis, and neurologic deficits</span></li>
+        <li>Tuberculous arthritis</li>
+        <li>Sinus tract formation</li>
+        <li>Psoas abscess</li>
+        <li>Amyloidosis (secondary AA amyloid from chronic inflammation)</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1186–1187; Arif 2025 Vol-2 pp.352–353</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 5: MINERAL HOMEOSTASIS ===== -->
+  <h2 id="mineral">5 · Diseases Associated with Abnormal Mineral Homeostasis</h2>
+
+  <details>
+    <summary>What are the diseases associated with abnormal mineral homeostasis of bone?</summary>
+    <div class="ans">
+      <p>Three main disease groups:</p>
+      <ol>
+        <li><strong>Rickets</strong> (children) and <strong>osteomalacia</strong> (adults) — defective mineralisation of osteoid</li>
+        <li><strong>Hyperparathyroidism</strong> — excess parathyroid hormone (PTH) → increased osteoclastic bone resorption</li>
+        <li><strong>Renal osteodystrophy</strong> — bone disease secondary to chronic kidney disease (includes osteitis fibrosa cystica, osteomalacia, osteosclerosis, osteoporosis)</li>
+      </ol>
+      <p class="ref">Arif 2025 Vol-2 p.353</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 6: CASE DIAGNOSIS ===== -->
+  <h2 id="osteomyelitis-case">6 · Case: Acute Osteomyelitis</h2>
+
+  <details>
+    <summary>A 16-year-old male presents with severe pain in the left tibia and high fever for 7 days. TLC 18,000/cumm. X-ray shows periosteal thickening with focal elevation. What is your diagnosis? How would you confirm?</summary>
+    <div class="ans">
+      <p><strong>Clinical diagnosis:</strong> <span class="hot">Acute pyogenic osteomyelitis</span></p>
+      <h3>Confirmation (investigations)</h3>
+      <table>
+        <tr><th>Test</th><th>Findings</th></tr>
+        <tr><td><strong>Blood</strong></td><td>Polymorphonuclear leucocytosis · Elevated ESR &amp; CRP</td></tr>
+        <tr><td><strong>Blood culture</strong></td><td>At the peak of fever — positive in 50% of untreated cases</td></tr>
+        <tr><td><strong>Fluid (pus) aspiration &amp; culture</strong></td><td>Identifies the causative organism</td></tr>
+        <tr><td><strong>X-rays</strong></td><td>Soft tissue swelling, periosteal reaction, bony destruction</td></tr>
+        <tr><td><strong>Bone scan (Tc-99)</strong></td><td>Early detection of focal uptake</td></tr>
+        <tr><td><strong>MRI</strong></td><td>Most sensitive for early detection and extent of disease</td></tr>
+      </table>
+      <p class="ref">Arif 2025 Vol-2 pp.353; DU-18Nv exam question</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 7: BONE TUMOUR CLASSIFICATION ===== -->
+  <h2 id="tumours">7 · Bone Tumour Classification</h2>
+
+  <details>
+    <summary>🔴 Classify bone tumours. Name the most common benign and malignant tumours in each category.</summary>
+    <div class="ans">
+      <p><strong>Primary bone tumours</strong> are rare and vastly outnumbered by metastases and haematopoietic tumours.</p>
+      <h3>Primary bone tumours by histologic type</h3>
+      <table>
+        <tr><th>Histologic type</th><th>Benign</th><th>Malignant</th></tr>
+        <tr><td><strong>Chondrogenic (40%)</strong></td><td>Osteochondroma (most frequent benign bone tumour) · Chondroma · Chondroblastoma · Chondromyxoid fibroma</td><td>Chondrosarcoma (2nd most common primary malignant)</td></tr>
+        <tr><td><strong>Osteogenic (32%)</strong></td><td>Osteoid osteoma · Osteoblastoma</td><td><span class="hot">Osteosarcoma</span> (most common primary malignant)</td></tr>
+        <tr><td><strong>Unknown origin (19%)</strong></td><td>Giant cell tumour · Aneurysmal bone cyst</td><td>Ewing sarcoma · Adamantinoma</td></tr>
+        <tr><td><strong>Notochordal (5%)</strong></td><td>—</td><td>Chordoma</td></tr>
+      </table>
+      <p><strong>After exclusion of haematopoietic neoplasms (multiple myeloma, lymphoma),</strong> the most common primary bone cancers are: <span class="hot">osteosarcoma, chondrosarcoma, and Ewing sarcoma</span>.</p>
+      <p class="ref">Robbins 10e p.1187; Arif 2025 Vol-2 pp.353–354</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Classify secondary bone tumours (metastases). What are the most common primary sources?</summary>
+    <div class="ans">
+      <h3>Secondary (metastatic) bone tumours</h3>
+      <table>
+        <tr><th>Age group</th><th>Common primary cancers</th></tr>
+        <tr><td><strong>In adults</strong></td><td>Prostate · Breast · Kidney · Lung</td></tr>
+        <tr><td><strong>In children</strong></td><td>Neuroblastoma · Wilms tumour · Osteosarcoma · Ewing sarcoma · Rhabdomyosarcoma</td></tr>
+      </table>
+      <p><strong>Radiographic appearance of metastases:</strong> lytic (bone-destroying), blastic (bone-forming), or mixed lytic and blastic.</p>
+      <p class="ref">Robbins 10e pp.1196, 1207; Arif 2025 Vol-2 pp.353–354</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 8: BONE-FORMING TUMOURS ===== -->
+  <h2 id="bone-forming">8 · Bone-Forming Tumours (Osteogenic)</h2>
+
+  <details>
+    <summary>What are the bone-forming tumours? Describe their key features.</summary>
+    <div class="ans">
+      <p><strong>Bone-forming tumours</strong> are characterised by production of bone by neoplastic cells. The tumour bone is usually deposited as <strong>woven trabeculae</strong> (except in osteomas) and is variably mineralised.</p>
+      <p><strong>The bone-forming tumours are:</strong></p>
+      <ul>
+        <li><strong>Osteoid osteoma</strong> (benign)</li>
+        <li><strong>Osteoblastoma</strong> (benign)</li>
+        <li><strong>Osteosarcoma</strong> (malignant — most common primary malignant bone tumour)</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1187; Arif 2025 Vol-2 pp.354</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 9: CARTILAGE-FORMING TUMOURS ===== -->
+  <h2 id="cartilage-forming">9 · Cartilage-Forming Tumours (Chondrogenic)</h2>
+
+  <details>
+    <summary>What are the cartilage-forming tumours of bone?</summary>
+    <div class="ans">
+      <p><strong>Cartilage-forming tumours:</strong></p>
+      <ul>
+        <li><strong>Osteochondroma</strong> (most frequent benign bone tumour overall)</li>
+        <li><strong>Chondroma</strong> (enchondroma)</li>
+        <li><strong>Chondroblastoma</strong></li>
+        <li><strong>Chondromyxoid fibroma</strong></li>
+        <li><strong>Chondrosarcoma</strong> (2nd most common primary malignant bone tumour)</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1187, 1189; Arif 2025 Vol-2 p.354</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 10: OSTEOSARCOMA ===== -->
+  <h2 id="osteo-sarc">10 · Osteosarcoma</h2>
+
+  <details>
+    <summary>🔴 Describe osteosarcoma — definition, age, sites, morphology (gross + microscopic), clinical features, and radiographic findings.</summary>
+    <div class="ans">
+      <p><strong>Osteosarcoma:</strong> the <span class="hot">most common primary malignant tumour of bone</span>, accounting for approximately <strong>20% of bone cancers</strong>.</p>
+      <h3>Age &amp; demographics</h3>
+      <ul>
+        <li><strong>Bimodal age distribution:</strong> 75% occur <strong>before 20 years</strong> of age; smaller peak in older adults (&gt;60 yr) — frequently associated with predisposing conditions: Paget disease of bone, infarcts, and prior radiation (sometimes called <em>secondary osteosarcomas</em>)</li>
+        <li><strong>Males &gt; females</strong> (ratio 1.6 : 1)</li>
+      </ul>
+      <h3>Sites of origin</h3>
+      <p>Tumours usually arise in the <strong>metaphyseal region of long bones</strong>; almost 50% are near the <span class="hot">knee — distal femur or proximal tibia</span>. Although any bone can be involved.</p>
+      <h3>Morphology — Gross</h3>
+      <ul>
+        <li>Bulky, gritty, grey-white tumours often containing <strong>haemorrhage and cystic degeneration</strong></li>
+        <li>Frequently destroy surrounding cortices and produce <strong>soft tissue masses</strong></li>
+        <li>Spread extensively in the medullary canal, replacing haematopoietic marrow</li>
+        <li>Infrequently, they penetrate the <strong>epiphyseal plate</strong>, or enter the joint</li>
+      </ul>
+      <h3>Morphology — Microscopic</h3>
+      <ul>
+        <li>Tumour cells vary in size and shape (<strong>pleomorphism</strong>) with large hyperchromatic nuclei</li>
+        <li><strong>Bizarre tumour giant cells</strong> and abundant mitoses including <span class="hot">abnormal (e.g. tripolar) forms</span> are common</li>
+        <li>Extensive necrosis and intravascular invasion are common</li>
+        <li>If neoplastic cells produce abundant cartilage → classified as <strong>chondroblastic osteosarcoma</strong></li>
+      </ul>
+      <h3>Clinical features</h3>
+      <ul>
+        <li>Painful progressively enlarged mass</li>
+        <li>Pathologic fractures</li>
+      </ul>
+      <p><strong>Metastases:</strong> lungs, bones, brain, and elsewhere.</p>
+      <h3>Radiographic findings</h3>
+      <ul>
+        <li>Destructive, <strong>mixed lytic and blastic mass</strong> with infiltrative margins</li>
+        <li>Frequently breaks through the cortex and lifts the periosteum, inducing reactive periosteal bone formation</li>
+        <li><span class="hot">Codman triangle</span> — triangular shadow between the cortex and raised periosteal ends (indicates aggressive tumour)</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1188; Arif 2025 Vol-2 pp.354–356</p>
+    </div>
+  </details>
+
+  <details id="osteo-sarc-case">
+    <summary>A 17-year-old male presents with pain and progressive swelling around the right knee. X-ray shows mixed osteoblastic and lytic mass at the lower part of the femur. What is your diagnosis?</summary>
+    <div class="ans">
+      <p><strong>Diagnosis:</strong> <span class="hot">Osteosarcoma</span></p>
+      <p>The age group (adolescent/young adult), metaphyseal location around the knee (distal femur), and the mixed lytic/blastic X-ray appearance are all classic features of osteosarcoma.</p>
+      <p class="ref">Arif 2025 Vol-2 p.356</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 11: CHONDROSARCOMA ===== -->
+  <h2 id="chondro-sarc">11 · Chondrosarcoma</h2>
+
+  <details>
+    <summary>🔴 Describe chondrosarcoma — definition, subtypes, age, sites, and morphology.</summary>
+    <div class="ans">
+      <p><strong>Chondrosarcoma:</strong> malignant cartilage-producing tumours. After osteosarcoma, it is the <span class="hot">second most common malignant matrix-producing tumour of bone</span>.</p>
+      <h3>Subtypes</h3>
+      <p>Conventional · Clear cell · Dedifferentiated · Mesenchymal.</p>
+      <h3>Age &amp; demographics</h3>
+      <p>Usually in their <strong>40s or older</strong>; men affected twice as frequently as women.</p>
+      <h3>Sites of origin</h3>
+      <p>Commonly arise in the <strong>axial skeleton</strong> — pelvis, shoulder, and ribs. Unlike benign enchondroma, <strong>distal extremities are rarely involved</strong>.</p>
+      <h3>Morphology — Gross</h3>
+      <ul>
+        <li>Large bulky tumours made up of nodules of <strong>glistening grey-white, translucent cartilage</strong></li>
+        <li>Matrix is often gelatinous or myxoid and can ooze from the cut surface</li>
+        <li>Spotty calcifications typically present; central necrosis may create cystic spaces</li>
+        <li>Tumour spreads through the cortex into surrounding muscle and fat</li>
+      </ul>
+      <h3>Morphology — Microscopic</h3>
+      <ul>
+        <li>Malignant cartilage infiltrates the marrow space &amp; surrounds pre-existing bony trabeculae</li>
+        <li>Tumours vary in degree of cellularity, cytologic atypia &amp; mitotic activity</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1191; Arif 2025 Vol-2 pp.356–357</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 12: EWING SARCOMA ===== -->
+  <h2 id="ewing">12 · Ewing Sarcoma</h2>
+
+  <details>
+    <summary>🔴 Describe Ewing sarcoma — definition, age, sites, morphology (gross + histology), clinical features, and radiographic findings.</summary>
+    <div class="ans">
+      <p><strong>Ewing sarcoma:</strong> a malignant bone tumour characterised by <span class="hot">primitive round cells without obvious differentiation</span>. Accounts for approximately <strong>6–10% of primary malignant bone tumours</strong> and is the <strong>second most common group of bone sarcomas in children</strong>.</p>
+      <h3>Age &amp; demographics</h3>
+      <p>Most affected individuals are <strong>10 to 15 years old</strong>; approximately 80% are younger than 20 years. Boys affected slightly more frequently than girls.</p>
+      <h3>Sites of origin</h3>
+      <p>Usually arises in the <strong>diaphysis of long tubular bones</strong>, especially the <strong>femur</strong> and the <strong>flat bones of the pelvis</strong>. Presents as a painful, enlarging mass.</p>
+      <h3>Morphology — Gross</h3>
+      <ul>
+        <li>Arises in the medullary cavity and invades the cortex, periosteum, and soft tissue</li>
+        <li>Soft, tan-white tumour with areas of haemorrhage and necrosis</li>
+      </ul>
+      <h3>Morphology — Histology</h3>
+      <ul>
+        <li>Sheets of <strong>uniform small, round cells</strong> with scant cytoplasm that may be clear due to abundant glycogen</li>
+        <li><strong>Homer-Wright rosettes</strong> (rounded cell clusters with a central fibrillary core) → indicate neuroectodermal differentiation</li>
+        <li>Fibrous septae may be present; little stroma</li>
+        <li><strong>Geographic necrosis</strong> may be prominent</li>
+      </ul>
+      <h3>Clinical features</h3>
+      <ul>
+        <li>Painful enlarging masses; affected site is tender, warm and swollen</li>
+        <li>Some may have fever, high ESR, anaemia, leukocytosis</li>
+      </ul>
+      <h3>Radiographic findings</h3>
+      <ul>
+        <li>Destructive lytic tumour with <strong>permeative or moth-eaten margins</strong> extending into surrounding soft tissues</li>
+        <li>Characteristic periosteal reaction producing layers of reactive bone in an <span class="hot">"onion-skin" fashion</span></li>
+      </ul>
+      <p class="ref">Robbins 10e p.1192; Arif 2025 Vol-2 pp.357–358</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 13: GIANT CELL TUMOUR ===== -->
+  <h2 id="giant-cell">13 · Giant Cell Tumour (Osteoclastoma)</h2>
+
+  <details>
+    <summary>🔴 Describe the giant cell tumour of bone — definition, age, sites, behaviour, and morphology (gross + microscopic).</summary>
+    <div class="ans">
+      <p><strong>Giant cell tumour:</strong> so named because it is characterised by the presence of numerous <span class="hot">multinucleated osteoclast-type giant cells</span>. Also called <strong>osteoclastoma</strong>. Although classified as benign, it can be <strong>locally aggressive</strong>.</p>
+      <h3>Age &amp; demographics</h3>
+      <p>Uncommon tumour; usually arises in the <strong>third to fifth decades of life</strong> (20–40 years).</p>
+      <h3>Sites of origin</h3>
+      <p>Develop within the <strong>epiphysis</strong> and may extend into the metaphysis. The majority are near the <strong>knee</strong> (distal femur or proximal tibia), but virtually any bone can be involved.</p>
+      <h3>Morphology — Gross (macroscopic)</h3>
+      <ul>
+        <li>Large, <strong>red-brown mass</strong></li>
+        <li>Frequently undergo <strong>cystic degeneration</strong></li>
+      </ul>
+      <h3>Morphology — Microscopic</h3>
+      <ul>
+        <li>Consist of <strong>uniform oval mononuclear tumour cells</strong> and abundant <span class="hot">osteoclast-type giant cells with 100 or more nuclei</span></li>
+        <li>Necrosis and mitotic activity may be prominent</li>
+        <li>Although reactive bone may be present (especially at periphery), tumour cells <strong>do NOT synthesise bone or cartilage</strong></li>
+      </ul>
+      <p class="ref">Robbins 10e p.1193; Arif 2025 Vol-2 pp.358–359</p>
+    </div>
+  </details>
+
+  <details id="giant-ewing-diff">
+    <summary>Enumerate the differences between giant cell tumour and Ewing tumour.</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Feature</th><th>Giant Cell Tumour</th><th>Ewing Sarcoma</th></tr>
+        <tr><td><strong>Age of onset</strong></td><td>20–40 years</td><td>Children &amp; young adults (~80% &lt;20 yr)</td></tr>
+        <tr><td><strong>Behaviour</strong></td><td>Locally malignant</td><td>Primary malignant</td></tr>
+        <tr><td><strong>Location in bone</strong></td><td>Almost always in the <strong>epiphysis</strong> of long bones</td><td>Most often centred in the <strong>diaphysis</strong></td></tr>
+        <tr><td><strong>Histology</strong></td><td>Multinucleated giant cells within a background of mononuclear cells</td><td>Small, round cells with scant clear cytoplasm + <strong>Homer-Wright rosettes</strong></td></tr>
+      </table>
+      <p class="ref">Robbins 10e pp.1192–1193; Arif 2025 Vol-2 p.359</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 14: SOFT TISSUE TUMOURS ===== -->
+  <h2 id="soft-tissue">14 · Soft Tissue Tumours</h2>
+
+  <details>
+    <summary>🔴 Define soft tissue tumour and classify it. Give examples of common benign and malignant soft tissue tumours.</summary>
+    <div class="ans">
+      <p><strong>Soft tissue tumour:</strong> tumours that originate in <strong>fibrous connective tissue, adipose tissue, skeletal muscle, joint tissue, and the peripheral nervous system</strong>.</p>
+      <p><em>N.B.: In terms of clinical and pathologic entities, soft tissue refers to non-epithelial tissue excluding the skeleton, joints, central nervous system, haematopoietic and lymphoid tissues.</em></p>
+      <h3>Examples — Benign</h3>
+      <table>
+        <tr><th>Benign tumour</th><th>Origin</th></tr>
+        <tr><td><strong>Lipoma</strong> (most common soft tissue tumour)</td><td>Mature adipose tissue</td></tr>
+        <tr><td><strong>Rhabdomyoma</strong></td><td>Skeletal muscle</td></tr>
+        <tr><td><strong>Leiomyoma</strong></td><td>Smooth muscle</td></tr>
+        <tr><td><strong>Haemangioma</strong></td><td>Blood vessels</td></tr>
+        <tr><td><strong>Schwannoma</strong></td><td>Peripheral nerve sheath</td></tr>
+        <tr><td><strong>Neurofibroma</strong></td><td>Peripheral nerve sheath</td></tr>
+        <tr><td><strong>Fibrous histiocytoma</strong></td><td>Fibroblasts and histiocytes</td></tr>
+      </table>
+      <h3>Examples — Malignant</h3>
+      <table>
+        <tr><th>Malignant tumour</th><th>Origin</th></tr>
+        <tr><td><strong>Liposarcoma</strong></td><td>Adipose tissue</td></tr>
+        <tr><td><strong>Rhabdomyosarcoma</strong></td><td>Skeletal muscle</td></tr>
+        <tr><td><strong>Leiomyosarcoma</strong></td><td>Smooth muscle</td></tr>
+        <tr><td><strong>Angiosarcoma</strong></td><td>Blood vessels</td></tr>
+        <tr><td><strong>Malignant peripheral nerve sheath tumour</strong></td><td>Peripheral nerve sheath</td></tr>
+        <tr><td><strong>Synovial sarcoma</strong></td><td>Tissue adjacent to a joint</td></tr>
+        <tr><td><strong>Fibrosarcoma</strong></td><td>Fibroblasts</td></tr>
+        <tr><td><strong>Undifferentiated pleomorphic sarcoma</strong> ("malignant fibrous histiocytoma")</td><td>Fibroblasts/histiocytes</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1208; BRS Pathology 5e p.364; Arif 2025 Vol-2 pp.359–360</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 15: ARTHRITIS ===== -->
+  <h2 id="arthritis">15 · Arthritis — Causes &amp; Classification</h2>
+
+  <details>
+    <summary>🔴 Enumerate the causes of arthritis and classify them.</summary>
+    <div class="ans">
+      <p><strong>Arthritis:</strong> inflammation of joints.</p>
+      <table>
+        <tr><th>Category</th><th>Examples</th></tr>
+        <tr><td><strong>1. Seropositive arthritis</strong></td><td>Rheumatoid arthritis (RA)</td></tr>
+        <tr><td><strong>2. Seronegative arthritis</strong></td><td>Ankylosing spondylitis · Psoriatic arthritis · Reactive arthritis (Reiter syndrome) · Juvenile idiopathic arthritis (JIA) · Enteropathic arthritis</td></tr>
+        <tr><td><strong>3. Infectious arthritis</strong></td><td>Suppurative arthritis (gonococcus, <em>Staphylococcus</em>, <em>Streptococcus</em>, <em>H. influenzae</em>, gram-negative bacilli) · Tuberculous arthritis · Lyme arthritis · Viral arthritis (parvovirus, rubella, hepatitis C virus)</td></tr>
+        <tr><td><strong>4. Degenerative &amp; metabolic</strong></td><td>Osteoarthritis (OA) · Gout and gouty arthritis</td></tr>
+      </table>
+      <p><strong>Systemic diseases that affect joints:</strong> rheumatic fever, systemic lupus erythematosus (SLE).</p>
+      <p class="ref">Robbins 10e p.1197; Arif 2025 Vol-2 pp.360–361</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is osteoarthritis (OA)?</summary>
+    <div class="ans">
+      <p><strong>Osteoarthritis (OA)</strong>, also called <strong>degenerative joint disease</strong>, is characterised by <span class="hot">cartilage degeneration that results in structural and functional failure of synovial joints</span>. It is the <strong>most common type of joint disease</strong>.</p>
+      <p>Primary pathogenic abnormality = <strong>mechanical injury to articular cartilage</strong>. Primarily involves <strong>weight-bearing joints</strong> (knees, hips). Pathology includes cartilage degeneration and fragmentation, bone spurs (osteophytes), subchondral cysts, with <strong>minimal inflammation</strong>. No serum antibodies. <strong>No involvement of other organs.</strong></p>
+      <p class="ref">Robbins 10e pp.1197–1198; Arif 2025 Vol-2 p.361</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 16: RHEUMATOID ARTHRITIS ===== -->
+  <h2 id="ra">16 · Rheumatoid Arthritis (RA) — Pathogenesis &amp; Morphology</h2>
+
+  <details>
+    <summary>🔴 Describe rheumatoid arthritis — definition, occurrence, pathogenesis, cytokines, and morphology (joints + extra-articular).</summary>
+    <div class="ans">
+      <p><strong>Rheumatoid arthritis (RA):</strong> a <span class="hot">chronic autoimmune disorder</span> that principally attacks the joints, producing a <strong>non-suppurative proliferative and inflammatory synovitis</strong>. RA often progresses to articular cartilage destruction and, in some cases, joint fusion (<strong>ankylosis</strong>). Extra-articular lesions may involve skin, heart, blood vessels, and lungs.</p>
+      <h3>Occurrence</h3>
+      <p>Three times more common in <strong>women than men</strong>. Most common in those aged <strong>40 to 70</strong>.</p>
+      <h3>Pathogenesis</h3>
+      <p>RA is an autoimmune disease mediated by <strong>antibodies against self-antigens</strong> and inflammation caused by cytokines, predominantly secreted by <strong>CD4⁺ T cells</strong>. CD4⁺ T helper (T<sub>H</sub>) cells initiate the autoimmune response by reacting with an <strong>arthritogen</strong> — perhaps microbial or a chemically modified self-antigen.</p>
+      <p>Continuing autoimmune reaction → Activation of CD4⁺ T helper cells and other lymphocytes → Local release of inflammatory mediators and cytokines → Destruction of bone and cartilage in joints.</p>
+      <h3>Mediators (cytokines) and their role in joint injury</h3>
+      <table>
+        <tr><th>Cytokine / Molecule</th><th>Source</th><th>Role</th></tr>
+        <tr><td><strong>IFN-γ</strong></td><td>T<sub>H</sub> cells</td><td>Activates macrophages and synovial cells</td></tr>
+        <tr><td><strong>IL-17</strong></td><td>T<sub>H</sub>17 cells</td><td>Recruits neutrophils and monocytes</td></tr>
+        <tr><td><strong>RANKL</strong></td><td>Activated T cells</td><td>Stimulates osteoclasts → bone resorption</td></tr>
+        <tr><td><strong>TNF and IL-1β</strong></td><td>Macrophages</td><td>Stimulate synovial cells to secrete proteases → destroy hyaline cartilage</td></tr>
+      </table>
+      <h3>Morphology — Joints</h3>
+      <ul>
+        <li>RA typically affects <strong>small joints of the hands and feet</strong></li>
+        <li>Grossly: synovium is <strong>oedematous, thickened, and hyperplastic</strong></li>
+        <li><strong>Histologic features:</strong>
+          <ul>
+            <li>Synovial cell hyperplasia and proliferation</li>
+            <li>Dense inflammatory infiltrates (often forming <strong>lymphoid follicles</strong>) of CD4⁺ helper T cells, B cells, plasma cells, dendritic cells, and macrophages</li>
+            <li>Increased vascularity due to <strong>angiogenesis</strong></li>
+            <li>Fibrinopurulent exudate on the synovial and joint surfaces</li>
+            <li>Osteoclastic activity in subchondral bone → inflamed synovium penetrates bone → <strong>periarticular erosions and subchondral cysts</strong></li>
+            <li><span class="hot">Pannus formation</span> (exuberant synovium invading and destroying cartilage)</li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Morphology — Extra-articular</h3>
+      <table>
+        <tr><th>Site</th><th>Changes</th></tr>
+        <tr><td><strong>Tendino-muscular</strong></td><td>Focal areas of inflammation in tendons, ligaments and adjacent skeletal muscle</td></tr>
+        <tr><td><strong>Skin</strong></td><td>Subcutaneous <strong>rheumatoid nodules</strong> (elbows, ulnar aspect of forearm, occiput, lumbosacral area)</td></tr>
+        <tr><td><strong>Blood vessels</strong></td><td>Nonspecific acute vasculitis</td></tr>
+        <tr><td><strong>Eye</strong></td><td>Nonspecific conjunctivitis or uveitis</td></tr>
+        <tr><td><strong>Other organs</strong></td><td>Nonspecific inflammatory changes in lungs, pleura, pericardium, myocardium, and peripheral nerves</td></tr>
+      </table>
+      <p class="ref">Robbins 10e pp.1199–1200; Pocket Companion to Robbins 7e pp.648–649; Arif 2025 Vol-2 pp.360–361</p>
+    </div>
+  </details>
+
+  <details id="oa-ra-compare">
+    <summary>📌 Compare osteoarthritis (OA) and rheumatoid arthritis (RA).</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Feature</th><th>Osteoarthritis (OA)</th><th>Rheumatoid Arthritis (RA)</th></tr>
+        <tr><td><strong>Primary pathogenic abnormality</strong></td><td>Mechanical injury to articular cartilage</td><td>Autoimmunity</td></tr>
+        <tr><td><strong>Role of inflammation</strong></td><td>May be secondary; inflammatory mediators exacerbate cartilage damage</td><td>Primary: cartilage destruction is caused by T cells and antibodies reactive with joint antigens</td></tr>
+        <tr><td><strong>Joints involved</strong></td><td>Primarily <strong>weight-bearing</strong> (knees, hips)</td><td>Often begins with <strong>small joints of fingers</strong>; progression leads to multiple joints</td></tr>
+        <tr><td><strong>Pathology</strong></td><td>Cartilage degeneration and fragmentation, bone spurs, subchondral cysts, <strong>minimal inflammation</strong></td><td>Inflammatory <strong>pannus</strong> invading and destroying cartilage; severe chronic inflammation; <strong>joint fusion (ankylosis)</strong></td></tr>
+        <tr><td><strong>Serum antibodies</strong></td><td>None</td><td>Various, including ACPA (anti-citrullinated peptide antibody), rheumatoid factor</td></tr>
+        <tr><td><strong>Involvement of other organs</strong></td><td>No</td><td>Yes (lungs, heart, other organs)</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1197; Arif 2025 Vol-2 p.361</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 17: REITER SYNDROME ===== -->
+  <h2 id="reiter">17 · Reiter Syndrome</h2>
+
+  <details>
+    <summary>What is Reiter syndrome? (VIVA)</summary>
+    <div class="ans">
+      <p><strong>Reiter syndrome:</strong> a form of <strong>reactive arthritis</strong>, defined by the <span class="hot">triad</span>:</p>
+      <ol>
+        <li><strong>Arthritis</strong></li>
+        <li>Non-gonococcal <strong>urethritis</strong> or <strong>cervicitis</strong></li>
+        <li><strong>Conjunctivitis</strong></li>
+      </ol>
+      <p class="mnem">🎯 <strong>"Can't see, can't pee, can't climb a tree"</strong> = conjunctivitis + urethritis + arthritis.</p>
+      <p class="ref">Robbins 9e p.1213; Arif 2025 Vol-2 p.362</p>
+    </div>
+  </details>
+
+  <!-- ===== SECTION 18: PATHOLOGICAL FRACTURE ===== -->
+  <h2 id="fracture">18 · Pathological Bone Fracture</h2>
+
+  <details>
+    <summary>🔴 Define pathological bone fracture and enumerate its causes.</summary>
+    <div class="ans">
+      <p><strong>Pathological bone fracture:</strong> a fracture occurring in a <span class="hot">diseased bone following minor injury</span>.</p>
+      <h3>Causes — classified</h3>
+      <table>
+        <tr><th>Category</th><th>Causes</th></tr>
+        <tr><td><strong>1. Inflammatory</strong></td><td>Chronic osteomyelitis</td></tr>
+        <tr><td><strong>2. Neoplastic</strong></td><td><em>Benign:</em> Osteoclastoma (giant cell tumour)<br><em>Malignant — Primary:</em> Osteosarcoma, Ewing tumour<br><em>Malignant — Secondary (common):</em> Thyroid, kidney, breast metastases</td></tr>
+        <tr><td><strong>3. Metabolic</strong></td><td>Osteoporosis, osteomalacia</td></tr>
+        <tr><td><strong>4. Cystic</strong></td><td>Aneurysmal bone cyst, solitary bone cyst</td></tr>
+      </table>
+      <p class="ref">Arif 2025 Vol-2 p.362; RU-08Ju exam question</p>
+    </div>
+  </details>
+
+  <!-- ===== RAPID-FIRE SECTION ===== -->
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
+
+  <details class="rapid" open>
+    <summary>Bones, Joints &amp; Soft Tissues — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Characteristics of pyogenic osteomyelitis: (a) Always occurs by blood-borne infection? (b) May be induced by viruses? (c) Commonest organism is <em>E. coli</em>? (d) Sequestrum formation? (e) Chronicity is a common consequence?</div>
+      <div class="a"><strong>(a) False</strong> — can also occur by direct implantation or contiguous spread. <strong>(b) True</strong> — viruses can rarely cause it. <strong>(c) False</strong> — <em>S. aureus</em> is the commonest (80–90%). <strong>(d) False</strong> — sequestrum is a feature of <em>chronic</em>, not acute, osteomyelitis (MCQ answer is F). <strong>(e) True</strong> — in 5–25% of cases chronicity develops.</div>
+
+      <div class="q">Ewing sarcoma is characterized by: (a) Involvement of long bone only? (b) Metaphysis commonly affected? (c) Onion skin appearance radiologically? (d) Painful presentation common? (e) Prognosis always favourable?</div>
+      <div class="a"><strong>(a) False</strong> — also flat bones (pelvis, ribs). <strong>(b) False</strong> — diaphysis is commonly affected. <strong>(c) True</strong> — classic onion-skin periosteal reaction. <strong>(d) True</strong> — painful enlarging mass. <strong>(e) False</strong> — aggressive tumour, prognosis variable.</div>
+
+      <div class="q">Malignant tumours of bone are: (a) Paget's disease? (b) Osteoblastoma? (c) Multiple myeloma? (d) Ewing's tumour? (e) Chordoma?</div>
+      <div class="a"><strong>(a) False</strong> — Paget's is a metabolic bone disease. <strong>(b) False</strong> — osteoblastoma is benign. <strong>(c) True</strong>. <strong>(d) True</strong>. <strong>(e) True</strong> — chordoma is malignant (notochordal).</div>
+
+      <div class="q">Osteosarcoma: (a) Is a secondary malignant tumour of bone? (b) Is a malignant tumour that produces cartilage? (c) Majority occurs in younger men? (d) Presents as painful gradually enlarging mass? (e) Majority occurs around the wrist joint?</div>
+      <div class="a"><strong>(a) False</strong> — it is the most common <em>primary</em> malignant tumour. <strong>(b) False</strong> — it produces <em>bone</em> (osteoid). <strong>(c) True</strong> — M:F = 1.6:1, 75% before age 20. <strong>(d) True</strong>. <strong>(e) False</strong> — majority around the <em>knee</em> (distal femur/proximal tibia).</div>
+
+      <div class="q">Osteomyelitis is related to: (a) Pathological fracture? (b) Sequestrum formation? (c) No new bone formation? (d) <em>Salmonella typhi</em> may cause it? (e) Only bone is inflamed?</div>
+      <div class="a"><strong>(a) True</strong>. <strong>(b) True</strong>. <strong>(c) False</strong> — new bone (involucrum) <em>does</em> form. <strong>(d) True</strong> — especially in sickle cell patients. <strong>(e) False</strong> — marrow and soft tissues are also affected.</div>
+
+      <div class="q">Pyogenic osteomyelitis: (a) Occurs by blood-borne infection? (b) Is caused by bacteria? (c) Is caused frequently by <em>Streptococcus</em>? (d) Frequently shows granuloma? (e) Frequently reveals new bone formation?</div>
+      <div class="a"><strong>(a) True</strong> — most common route. <strong>(b) True</strong>. <strong>(c) False</strong> — <em>S. aureus</em> is the most frequent. <strong>(d) False</strong> — pyogenic = neutrophilic, not granulomatous. <strong>(e) True</strong> — involucrum formation.</div>
+
+      <div class="q">Bone-forming tumours include: (a) Giant cell tumour? (b) Osteoid osteoma? (c) Enchondroma? (d) Chondroblastoma? (e) Osteosarcoma?</div>
+      <div class="a"><strong>(a) False</strong> — giant cell tumour is of unknown origin. <strong>(b) True</strong>. <strong>(c) False</strong> — enchondroma is cartilage-forming. <strong>(d) False</strong> — chondroblastoma is cartilage-forming. <strong>(e) True</strong>.</div>
+
+      <div class="q">Ewing's sarcoma: (a) Is a childhood tumour? (b) Occurs in epiphysis of long bone? (c) Associated with p53 gene mutation? (d) Has prominent necrosis? (e) Has characteristic lytic lesion in X-ray?</div>
+      <div class="a"><strong>(a) True</strong> — 80% &lt;20 yr. <strong>(b) False</strong> — occurs in the <em>diaphysis</em>. <strong>(c) False</strong> — associated with <em>EWS-FLI1</em> translocation (t(11;22)). <strong>(d) True</strong> — geographic necrosis. <strong>(e) True</strong> — destructive lytic tumour with permeative margins.</div>
+
+      <div class="q">Osteomalacia: (a) May occur in coeliac disease? (b) Associated with normal serum alkaline phosphatase (ALP)? (c) Characterised by excessive osteoid formation which is poorly mineralised? (d) May be complicated by treatment with phenobarbitone? (e) Associated with atrophy of parathyroid gland?</div>
+      <div class="a"><strong>(a) True</strong> — vitamin D malabsorption. <strong>(b) False</strong> — serum ALP is <em>elevated</em>. <strong>(c) True</strong> — defective mineralisation. <strong>(d) True</strong> — phenobarbitone induces vitamin D metabolism. <strong>(e) False</strong> — parathyroid hormone (PTH) is usually elevated secondary (secondary hyperparathyroidism).</div>
+
+      <div class="q">🎯 One-liner: Most common organism in osteomyelitis? Most common primary malignant bone tumour? Most frequent benign bone tumour? Classic X-ray of Ewing? Codman triangle seen in?</div>
+      <div class="a"><em>S. aureus</em> (80–90%) · Osteosarcoma · Osteochondroma · Onion-skin periosteal reaction · Osteosarcoma.</div>
+
+      <div class="q">🎯 Mnemonic: "Pott's disease" = ? · "Onion skin" periosteal reaction = ? · "Codman triangle" = ? · "Pannus" = ? · "Can't see, can't pee, can't climb a tree" = ?</div>
+      <div class="a">Pott's disease = <strong>TB of spine</strong> · Onion skin = <strong>Ewing sarcoma</strong> · Codman triangle = <strong>Osteosarcoma</strong> · Pannus = <strong>Rheumatoid arthritis</strong> · Can't see/pee/climb = <strong>Reiter syndrome</strong>.</div>
+
+      <div class="q">🎯 Most common site of skeletal TB? Most common primary bone tumour in children (after excluding haematopoietic)? Giant cell tumour location? Most common soft tissue tumour? Most common site of osteosarcoma?</div>
+      <div class="a">Thoracic/lumbar spine (Pott's) · Ewing sarcoma · Epiphysis of long bones (near knee) · Lipoma · Metaphysis of long bones (distal femur/proximal tibia).</div>
+
+      <div class="q">🎯 Rheumatoid arthritis is associated with which serum antibodies? OA has which serum antibodies? RA mainly affects which joints first? OA mainly affects which joints?</div>
+      <div class="a">RA: ACPA (anti-citrullinated peptide antibody) + rheumatoid factor · OA: none · RA: small joints of hands and feet · OA: weight-bearing joints (knees, hips).</div>
+
+      <div class="q">🎯 Name the cytokines in RA joint destruction: which cytokine activates macrophages? which recruits neutrophils? which stimulates osteoclasts? which stimulates protease secretion?</div>
+      <div class="a">IFN-γ (from T<sub>H</sub> cells) activates macrophages · IL-17 (from T<sub>H</sub>17) recruits neutrophils · RANKL (from T cells) stimulates osteoclasts · TNF and IL-1β (from macrophages) stimulate protease secretion.</div>
+
+      <div class="q">🎯 Homer-Wright rosettes are seen in which tumour? Onion-skin periosteal reaction? Codman triangle? Multinucleated giant cells with 100+ nuclei?</div>
+      <div class="a">Homer-Wright rosettes = <strong>Ewing sarcoma</strong> · Onion-skin = <strong>Ewing sarcoma</strong> · Codman triangle = <strong>Osteosarcoma</strong> · Giant cells with 100+ nuclei = <strong>Giant cell tumour (osteoclastoma)</strong>.</div>
+
+      <div class="q">🎯 Secondary bone tumours in adults: most common primary sites? In children? Which tumour causes pathological fracture in sickle cell patients?</div>
+      <div class="a">Adults: prostate, breast, kidney, lung · Children: neuroblastoma, Wilms tumour, osteosarcoma, Ewing, rhabdomyosarcoma · Salmonella osteomyelitis in sickle cell patients → pathological fracture.</div>
+
+      <div class="q">🎯 What is Reiter syndrome? What are its three components? Name the mnemonic.</div>
+      <div class="a">Reiter syndrome = reactive arthritis triad: <strong>arthritis + non-gonococcal urethritis/cervicitis + conjunctivitis</strong>. Mnemonic: "Can't see, can't pee, can't climb a tree."</div>
+
+      <div class="q">🎯 In osteomyelitis pathogenesis: what is a sequestrum? What is an involucrum? What is a Brodie's abscess? What is a cloaca?</div>
+      <div class="a"><strong>Sequestrum</strong> = dead piece of bone separated by osteoclasts · <strong>Involucrum</strong> = reactive new bone formed around sequestrum · <strong>Brodie's abscess</strong> = small intraosseous abscess walled off by reactive bone · <strong>Cloaca</strong> = opening in involucrum through which pus and sequestra extrude.</div>
+
+      <div class="q">🎯 Carcinoma of prostate is associated with: raised acid phosphatase? frequent bony metastasis? raised PSA? osteosclerotic or osteolytic bone metastases?</div>
+      <div class="a">Raised acid phosphatase = <strong>True</strong> · Frequent bony metastasis = <strong>True</strong> · Raised PSA = <strong>True</strong> · <strong>Osteosclerotic</strong> (blastic) bone metastases.</div>
+
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="ch14_Skin.html">← Ch 14 · Skin</a></span>
+    <span>Ch 15 · Bones, Joints &amp; Soft Tissues</span>
+    <span><a href="ch16_Central_Nervous_System.html">Next: Central Nervous System →</a></span>
+  </div>
+</div>
+</body>
+</html>

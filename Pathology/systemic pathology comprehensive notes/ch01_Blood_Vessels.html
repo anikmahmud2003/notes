@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch01 — Blood Vessels | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#struct">Structure</a><a href="#congenital">Congenital</a><a href="#htn">HTN</a><a href="#arterio">Arteriosclerosis</a><a href="#athero">Atherosclerosis</a><a href="#tumours">Vascular tumours</a><a href="#aneurysm">Aneurysm</a><a href="#vasculitis">Vasculitis</a><a href="#raynaud">Raynaud</a><a href="#varicose">Varicose</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Pathology · Arif Guide 2025 Vol-2 · Unit-I · pp.21–44</span>
+  <h1>Ch 01 — Blood Vessels
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Diseases of Blood Vessels (boss-level overview)</h3>
+    <p>Two principal <strong>mechanisms</strong> underlie ALL vascular disease: <strong>(1) narrowing/obstruction</strong> of the lumen (progressive → atherosclerosis; rapid → thrombosis/embolism) and <strong>(2) weakening of vessel walls</strong> → dilation or rupture (aneurysm/dissection).</p>
+    <p>The full classification (VIVA favourite): <strong>1.</strong> Congenital anomalies · <strong>2.</strong> Hypertensive vascular disease (HTN) · <strong>3.</strong> Arteriosclerosis (→ ATHEROSCLEROSIS = the big one) · <strong>4.</strong> Aneurysms &amp; dissection · <strong>5.</strong> Vasculitis (infectious + non-infectious) · <strong>6.</strong> Raynaud phenomenon · <strong>7.</strong> Diseases of veins · <strong>8.</strong> Diseases of lymphatics · <strong>9.</strong> Tumours (benign → intermediate → malignant).</p>
+    <p class="ref">Robbins 10e, Ch 11 (Blood Vessels), pp. 485–526 · Arif 15e (2025) Vol-2, pp.21–44</p>
+  </div>
+
+  <h2>1 · Vascular Structure &amp; Function</h2>
+
+  <details id="struct">
+    <summary>Describe the structure and function of blood vessels. What are the two mechanisms of vascular disease?</summary>
+    <div class="ans">
+      <p><strong>Vessel wall (all vessels except capillaries) — three layers, outside → in:</strong> a supportive <strong>adventitia</strong> (external layer), a <strong>smooth-muscle media</strong>, and an <strong>endothelium-lined intima</strong> separated from the media by the <strong>internal elastic lamina</strong>. The adventitia is separated from the media by the <strong>external elastic lamina</strong> in many arteries.</p>
+      <p><strong>Capillaries:</strong> about the diameter of a red cell (7–8 μm), endothelial lining but <strong>no media</strong>; variable numbers of <strong>pericytes</strong> (cells that resemble smooth muscle) lie just deep to the endothelium.</p>
+      <p><strong>Three types of arteries (by size/structure):</strong></p>
+      <table>
+        <tr><th>Type</th><th>Examples</th></tr>
+        <tr><td><strong>1. Large / elastic</strong></td><td>Aorta + its major branches (innominate, subclavian, common carotid, iliac) and pulmonary arteries</td></tr>
+        <tr><td><strong>2. Medium / muscular</strong></td><td>Smaller aortic branches (e.g., coronary and renal arteries)</td></tr>
+        <tr><td><strong>3. Small arteries</strong> (&lt;2 mm) &amp; <strong>arterioles</strong> (20–100 μm)</td><td>Within tissues and organs</td></tr>
+      </table>
+      <p><strong>Lymphatics:</strong> thin-walled channels lined by specialized endothelium; return interstitial tissue fluid and inflammatory cells to the bloodstream.</p>
+      <p><strong>Two principal mechanisms of vascular disease:</strong> <span class="good">(1) Narrowing (stenosis) or complete obstruction of the lumen</span> — progressive (atherosclerosis) or precipitous (thrombosis/embolism); <span class="good">(2) Weakening of vessel walls → dilation or rupture.</span></p>
+      <p class="ref">Robbins 10e pp.485, 518</p>
+    </div>
+  </details>
+
+  <h2>2 · Congenital Anomalies of Blood Vessels</h2>
+
+  <details id="congenital">
+    <summary>🔴 What are the congenital anomalies of blood vessels? Describe any one of them.</summary>
+    <div class="ans">
+      <p>Four congenital anomalies (<span class="hot">VIVA favourite</span>):</p>
+      <ol>
+        <li><strong>Developmental / berry aneurysms</strong> — occur in cerebral vessels; when ruptured → <strong>fatal intracerebral haemorrhage</strong>.</li>
+        <li><strong>Arteriovenous (AV) fistulas</strong> — direct connections (usually small) between arteries and veins that <strong>bypass capillaries</strong>.</li>
+        <li><strong>Fibromuscular dysplasia</strong> — focal irregular thickening in medium and large muscular arteries (renal, carotid, splanchnic, vertebral) → "string-of-beads" on angiography.</li>
+        <li><strong>Anomalous coronary artery origin</strong> — both coronary arteries arise over the <strong>same coronary cusp</strong> of the aortic valve.</li>
+      </ol>
+      <h3>Arteriovenous fistula — causes (etiology)</h3>
+      <ul>
+        <li>Developmental defects</li>
+        <li>Rupture of an arterial aneurysm into the adjacent vein</li>
+        <li>Penetrating injuries that pierce arteries and veins</li>
+        <li>Inflammatory necrosis of adjacent vessels</li>
+        <li>Surgically generated AV fistulas (for haemodialysis)</li>
+      </ul>
+      <h3>Clinical importance</h3>
+      <ul>
+        <li>Rupture → <strong>intracerebral haemorrhage</strong>.</li>
+        <li>Large/multiple AV fistulas shunt blood from arterial to venous circulation → heart pumps extra volume → <span class="hot">high-output cardiac failure</span>.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.487</p>
+    </div>
+  </details>
+
+  <h2>3 · Hypertension</h2>
+
+  <details id="htn">
+    <summary>🔴 Define hypertension and classify blood pressure. Classify the causes of hypertension.</summary>
+    <div class="ans">
+      <p><strong>Definition (US National Heart, Lung, and Blood Institute):</strong> a <span class="hot">sustained diastolic pressure &gt;89 mmHg, or a sustained systolic pressure &gt;139 mmHg</span> = clinically significant hypertension.</p>
+      <h3>Types of blood pressure in adults</h3>
+      <table>
+        <tr><th>Category</th><th>Systolic (mmHg)</th><th>Diastolic (mmHg)</th></tr>
+        <tr><td>Normal</td><td>&lt;130</td><td>&lt;85</td></tr>
+        <tr><td>High normal</td><td>130–139</td><td>85–89</td></tr>
+        <tr><td>Mild HTN</td><td>140–159</td><td>90–99</td></tr>
+        <tr><td>Moderate HTN</td><td>160–179</td><td>100–109</td></tr>
+        <tr><td>Severe HTN</td><td>180–209</td><td>110–119</td></tr>
+        <tr><td>Very severe HTN</td><td>&gt;210</td><td>&gt;120</td></tr>
+      </table>
+      <h3>Types and causes of hypertension</h3>
+      <p><strong>1. Essential (primary) hypertension:</strong> <span class="hot">90–95% of all cases</span>.</p>
+      <p><strong>2. Secondary hypertension</strong> — organised by cause:</p>
+      <table>
+        <tr><th>Group</th><th>Causes</th></tr>
+        <tr><td><strong>Renal</strong></td><td>Acute glomerulonephritis, chronic renal disease, polycystic disease, renal artery stenosis, renal vasculitis, renin-producing tumours</td></tr>
+        <tr><td><strong>Endocrine</strong></td><td>Adrenocortical hyperfunction (Cushing syndrome, primary aldosteronism, congenital adrenal hyperplasia, liquorice ingestion), exogenous hormones (glucocorticoids, oestrogens incl. pregnancy &amp; oral contraceptives), pheochromocytoma, acromegaly, hypothyroidism (myxoedema), hyperthyroidism (thyrotoxicosis), pregnancy-induced (preeclampsia)</td></tr>
+        <tr><td><strong>Cardiovascular</strong></td><td>Coarctation of the aorta, polyarteritis nodosa, increased intravascular volume, increased cardiac output, rigidity of the aorta</td></tr>
+        <tr><td><strong>Neurogenic</strong></td><td>Psychogenic, increased intracranial pressure, sleep apnoea, acute stress (incl. surgery)</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>Pheochromocytoma</strong> = catecholamine-secreting tumour of the adrenal medulla → excess adrenaline &amp; nor-adrenaline → ↑BP.</div>
+      <p class="ref">Robbins 10e pp.489–490</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Define malignant hypertension. What are the complications of hypertension?</summary>
+    <div class="ans">
+      <p><strong>Malignant (accelerated) hypertension:</strong> a clinical syndrome with <span class="hot">severe pressure elevation (systolic &gt;200 mmHg, diastolic &gt;120 mmHg), renal failure, and retinal haemorrhages and exudates</span>, with or without <strong>papilloedema</strong> (optic-nerve swelling reflecting ↑intracranial pressure). May arise in previously normotensive persons, but more often is superimposed on pre-existing "benign" hypertension.</p>
+      <p><strong>Complications of hypertension:</strong></p>
+      <ul>
+        <li>↑Risk of atherosclerosis</li>
+        <li>Cardiac hypertrophy &amp; heart failure (hypertensive heart disease)</li>
+        <li>Myocardial infarction (heart attack)</li>
+        <li>Multi-infarct dementia</li>
+        <li>Aortic dissection</li>
+        <li>Renal failure</li>
+        <li>Cerebral haemorrhage (stroke)</li>
+        <li>Hypertensive retinopathy</li>
+        <li>Hypertensive encephalopathy</li>
+      </ul>
+      <p class="ref">Robbins 10e p.490</p>
+    </div>
+  </details>
+
+  <h2>4 · Arteriosclerosis (Hardening of the Arteries)</h2>
+
+  <details id="arterio">
+    <summary>🔴 Define and classify arteriosclerosis. Distinguish it from atherosclerosis.</summary>
+    <div class="ans">
+      <p><strong>Arteriosclerosis</strong> (literally <em>"hardening of the arteries"</em>) is a <strong>generic term for arterial wall thickening and loss of elasticity</strong>.</p>
+      <h3>Four patterns (classification)</h3>
+      <table>
+        <tr><th>Type</th><th>Affects</th><th>Key features</th></tr>
+        <tr><td><strong>1. Arteriolosclerosis</strong></td><td>Small arteries &amp; arterioles</td><td>May cause downstream ischaemic injury. Two variants: <strong>Hyaline</strong> (hyaline thickening of arteriolar walls) and <strong>Hyperplastic</strong> (concentric, laminated, <em>"onion-skin"</em> thickening)</td></tr>
+        <tr><td><strong>2. Mönckeberg medial calcific sclerosis</strong></td><td>Muscular arteries (adults &gt;50)</td><td>Calcification of medial walls, starting along the internal elastic membrane. <span class="hot">Does NOT narrow the lumen.</span></td></tr>
+        <tr><td><strong>3. Fibromuscular intimal hyperplasia</strong></td><td>Muscular arteries &gt; arterioles</td><td>A healing response to inflammation (healed arteritis, transplant arteriopathy) or mechanical injury (stents, balloon angioplasty)</td></tr>
+        <tr><td><strong>4. Atherosclerosis</strong></td><td>Intima of large/medium arteries</td><td><span class="hot">Most frequent &amp; clinically important</span> — intimal fibrous plaques (atheromas), esp. coronary, cerebral, lower-extremity, renal &amp; mesenteric arteries</td></tr>
+      </table>
+      <p><strong>Difference (arteriosclerosis vs atherosclerosis):</strong> arteriosclerosis = generic <em>wall thickening + loss of elasticity</em>; atherosclerosis = the most frequent/important <em>variety</em>, with intimal lesions (atheromas) that protrude into and obstruct the lumen and weaken the underlying tunica media.</p>
+      <div class="mnem">🎯 <strong>Arteriosclerosis = "AAA-M":</strong> Arteriolosclerosis · Atherosclerosis · Mönckeberg · (Fibromuscular hyperplasia). <em>Hyaline = Harmless(ish) HTN; Onion-skin = Ominous (malignant HTN).</em></div>
+      <p class="ref">Robbins 10e p.493; Harsh Mohan 7e p.371; BRS Pathology</p>
+    </div>
+  </details>
+
+  <h2 id="athero">5 · ATHEROSCLEROSIS — THE KEY CHAPTER</h2>
+
+  <details>
+    <summary>🔴 Define atherosclerosis and atheroma. Give the common sites.</summary>
+    <div class="ans">
+      <p><strong>Atherosclerosis:</strong> a vascular-disease pattern with intimal lesions called <strong>atheromas</strong> (atheromatous/atherosclerotic plaques) that protrude into and obstruct the vascular lumen and weaken the underlying tunica media. (Also: thickening &amp; hardening of large/medium muscular arteries, primarily involving the intima, characterised by fibrofatty plaques.)</p>
+      <p><strong>Atheroma / atherosclerotic plaque:</strong> a fully developed atherosclerotic lesion — also called <em>fibrous plaque, fibrofatty plaque, or atheroma</em>.</p>
+      <p><strong>Common sites (descending order of involvement):</strong> (1) Lower abdominal aorta &amp; iliac arteries → (2) Coronary arteries → (3) Popliteal arteries → (4) Internal carotid arteries → (5) Vessels of the circle of Willis.</p>
+      <p class="ref">Robbins 10e pp.493, 501; Harsh Mohan 7e pp.373, 378; BRS Pathology</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Give the morphology (gross + microscopic) of an atheromatous plaque.</summary>
+    <div class="ans">
+      <p><strong>Key processes:</strong> intimal thickening + lipid accumulation, which together form plaques.</p>
+      <h3>A) Macroscopic</h3>
+      <ul>
+        <li><strong>Colour:</strong> yellow-tan, raised above the vessel wall; superimposed thrombus over ulcerated plaques → red-brown.</li>
+        <li><strong>Size:</strong> vary; can coalesce into larger masses.</li>
+        <li><strong>Shape:</strong> patchy, rarely circumferential → typically involve only a portion of the wall → <strong>eccentric</strong> on cross-section.</li>
+        <li><strong>Cut section:</strong> central <strong>(necrotic)</strong> core covered by a subendothelial fibrous cap:
+          <ul>
+            <li><strong>Superficial fibrous cap:</strong> smooth muscle cells + relatively dense collagen.</li>
+            <li><strong>Necrotic core:</strong> lipid (cholesterol &amp; cholesterol esters), debris of dead cells, <em>foam cells</em>, fibrin, thrombus, other plasma proteins.</li>
+          </ul>
+        </li>
+        <li><strong>Periphery:</strong> neovascularisation (proliferating small vessels).</li>
+      </ul>
+      <h3>B) Microscopic — four principal components</h3>
+      <ol>
+        <li><strong>Cells:</strong> variable SMC (smooth muscle cells), macrophages, T lymphocytes</li>
+        <li><strong>Extracellular matrix (ECM):</strong> collagen, elastic fibres, proteoglycans</li>
+        <li><strong>Intracellular &amp; extracellular lipids:</strong> mostly cholesterol &amp; cholesterol ester</li>
+        <li><strong>Calcifications</strong> (in later-stage plaques)</li>
+      </ol>
+      <p>Most atheromas have abundant lipid; some ("<strong>fibrous plaques</strong>") are almost exclusively SMC + fibrous tissue and may be heavily calcified.</p>
+      <p><strong>Complications of an atheromatous plaque:</strong> (1) Mechanical obstruction of blood flow; (2) Rupture → catastrophic obstructive vascular thrombosis; (3) Plaques increase the diffusion distance from lumen to media → ischaemic injury and wall weakening → aneurysm formation.</p>
+      <p class="ref">Robbins 10e pp.499–502, 494; BRS Pathology; Harsh Mohan 7e p.378</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Draw and label the components of an atheromatous plaque. Mention the types of plaque.</summary>
+    <div class="ans">
+      <h3>Components (labelled diagram, top→bottom)</h3>
+      <p><strong>FIBROUS CAP</strong> — smooth muscle cells, macrophages, foam cells, lymphocytes, collagen, elastin, proteoglycans, neovascularisation.<br>
+      <strong>NECROTIC CENTRE</strong> — cell debris, cholesterol crystals, foam cells, calcium.<br>
+      <strong>MEDIA</strong> (underlying).</p>
+      <h3>Types of atherosclerotic plaque</h3>
+      <table>
+        <tr><th>Stable plaque</th><th>Vulnerable plaque</th></tr>
+        <tr><td>Thickened, densely collagenous fibrous cap</td><td>Thin fibrous cap</td></tr>
+        <tr><td>Minimal inflammation</td><td>Large lipid core</td></tr>
+        <tr><td>Small underlying atheromatous core</td><td>Increased inflammation → prone to rupture</td></tr>
+      </table>
+      <p class="ref">Robbins 10e pp.494, 503</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is a foam cell? What is a fatty streak and its significance?</summary>
+    <div class="ans">
+      <p><strong>Foam cell:</strong> lipid-laden macrophages and lipid-laden smooth muscle cells (the cell with a foamy cytoplasm full of ingested lipid). <em>Monocyte/macrophage and SMC derived.</em></p>
+      <p><strong>Fatty streak:</strong> lesions lying under the endothelium composed of closely-packed <strong>foam cells</strong> + lipid-containing elongated smooth muscle cells + a few lymphoid cells, with small amounts of extracellular lipid, collagen, proteoglycans. Begin as small flat yellow macules → coalesce into elongated streaks (≥1 cm). Especially prominent in the aorta &amp; major arteries, more on the <strong>posterior</strong> than anterior wall.</p>
+      <p><strong>Significance:</strong> not raised, cause no significant flow disturbance, harmless by themselves — but are <span class="good">precursor lesions of atheromatous plaques</span>.</p>
+      <p class="ref">Robbins 10e pp.499, 501; BRS Pathology; Harsh Mohan 7e pp.377–378</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Mention the risk factors for atherosclerosis (modifiable + non-modifiable).</summary>
+    <div class="ans">
+      <h3>Major risk factors</h3>
+      <table>
+        <tr><th>Non-modifiable (constitutional)</th><th>Modifiable (controllable)</th></tr>
+        <tr><td>1. Genetic abnormalities<br>2. Family history<br>3. Increasing age<br>4. Male gender</td><td>1. Hyperlipidaemia (esp. hypercholesterolaemia)<br>2. Hypertension<br>3. Cigarette smoking<br>4. Diabetes</td></tr>
+      </table>
+      <h3>Additional risk factors</h3>
+      <ul>
+        <li>Inflammation &amp; elevated C-reactive protein (CRP)</li>
+        <li>Hyperhomocystinaemia</li>
+        <li>Metabolic syndrome</li>
+        <li>Lipoprotein(a) — <strong>Lp(a)</strong></li>
+        <li>Factors affecting haemostasis (prothrombotic factors, elevated fibrinogen)</li>
+      </ul>
+      <h3>Other factors</h3>
+      <ul>
+        <li>Obesity <em>(also complicated by HTN, diabetes, hypertriglyceridaemia, ↓HDL)</em></li>
+        <li>Lack of exercise / physical inactivity</li>
+        <li>High carbohydrate intake</li>
+        <li>Competitive, stressful lifestyle (<strong>type A personality</strong>)</li>
+      </ul>
+      <h3>Detail on important risk factors</h3>
+      <ul>
+        <li><strong>Genetics:</strong> family history = <span class="hot">most important independent risk factor</span>. Mendelian disorders (familial hypercholesterolaemia) account for a small %.</li>
+        <li><strong>Age:</strong> age-related; plaques manifest in middle age/later (40–60 yr).</li>
+        <li><strong>Gender:</strong> more common in men all ages, but ↑ in postmenopausal women.</li>
+        <li><strong>Hyperlipidaemia:</strong> hypercholesterolaemia is sufficient alone to initiate lesions; atherosclerosis ∝ ↑LDL ("bad cholesterol") and ↓HDL ("good cholesterol").</li>
+        <li><strong>Hypertension:</strong> prematurely accelerates atherosclerosis; ↑risk of IHD (ischaemic heart disease) by ~60%.</li>
+        <li><strong>Diabetes:</strong> induces hypercholesterolaemia, ↑atherosclerosis markedly; peripheral vascular occlusive disease → gangrene common; MI twice as high in diabetics.</li>
+        <li><strong>Metabolic syndrome:</strong> insulin resistance + HTN + dyslipidaemia (↑LDL, ↓HDL) + hypercoagulability + proinflammatory state.</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.494, 497; BRS Pathology; Harsh Mohan 7e p.373</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 State the etio-pathogenesis of atherosclerosis (how an atheroma forms).</summary>
+    <div class="ans">
+      <h3>Sequence of atherogenesis (Robbins)</h3>
+      <ol>
+        <li><strong>Endothelial injury &amp; dysfunction</strong> → ↑vascular permeability, leukocyte adhesion, thrombosis.</li>
+        <li><strong>Accumulation of lipoproteins</strong> (mainly LDL and its oxidised forms) in the vessel wall.</li>
+        <li><strong>Monocyte adhesion</strong> → migration into intima → transformation into <strong>macrophages and foam cells</strong>.</li>
+        <li><strong>Platelet adhesion.</strong></li>
+        <li><strong>Factor release</strong> from activated platelets, macrophages, and vascular-wall cells → SMC recruitment (from media or circulating precursors).</li>
+        <li><strong>SMC proliferation + ECM production + T-cell recruitment.</strong></li>
+        <li><strong>Lipid accumulation</strong> — extracellular and within cells.</li>
+        <li><strong>Calcification</strong> of ECM &amp; necrotic debris (late).</li>
+      </ol>
+      <p class="ref">Robbins 10e p.497</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Describe the role of lipids in the pathogenesis of atherosclerosis.</summary>
+    <div class="ans">
+      <p><strong>General:</strong> hyperlipidaemia may initiate endothelial injury, promote foam-cell formation, act as a monocyte chemotactic factor, inhibit macrophage motility, or injure SMCs.</p>
+      <h3>Mechanisms</h3>
+      <ul>
+        <li><strong>A. Impaired endothelial-cell function:</strong> chronic hypercholesterolaemia ↑local reactive oxygen species → membrane/mitochondrial damage; free radicals accelerate <strong>nitric oxide (NO)</strong> decay, dampening vasodilation.</li>
+        <li><strong>B. Modified (oxidised) LDL:</strong>
+          <ul>
+            <li>Lipoproteins accumulate in the intima; aggregate or become <strong>oxidised</strong> by free radicals from inflammatory cells.</li>
+            <li>Oxidised LDL is ingested by macrophages/SMCs but cannot be fully degraded → chronic ingestion → <strong>foam cells</strong>; early lesions with lipid-filled macrophages = <strong>fatty streaks</strong>.</li>
+            <li>Oxidised LDL is toxic to endothelial cells, SMCs, macrophages → endothelial dysfunction.</li>
+            <li>Oxidised LDL stimulates release of growth factors, cytokines, chemokines → vicious inflammatory cycle of monocyte recruitment/activation.</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="ref">Robbins 10e p.498; BRS Pathology</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Mention the complications / effects of atherosclerosis in different organs.</summary>
+    <div class="ans">
+      <h3>Clinically important changes (plaque complications)</h3>
+      <ol>
+        <li><strong>Rupture/ulceration/erosion</strong> → exposes thrombogenic substances → thrombosis (partial or complete occlusion).</li>
+        <li><strong>Ischaemia:</strong> occlusion → acute infarction (myocardial or cerebral).</li>
+        <li><strong>Haemorrhage into a plaque.</strong></li>
+        <li><strong>Atheroembolism:</strong> plaque rupture discharges debris → microemboli.</li>
+        <li><strong>Aneurysm formation:</strong> pressure/ischaemic atrophy of media → weakness/rupture.</li>
+        <li><strong>Calcification</strong> of atheromas.</li>
+        <li><strong>Infarction</strong> in organs: Heart → MI; Brain → stroke; Aorta → aortic aneurysm; Small intestine → ischaemic bowel disease/infarction; Peripheral vessels → peripheral vascular disease (gangrene).</li>
+        <li><strong>Consequences of atherosclerotic stenosis (gradual occlusion):</strong> mesenteric occlusion &amp; bowel ischaemia; sudden cardiac death; chronic IHD; ischaemic encephalopathy; intermittent claudication.</li>
+      </ol>
+      <h3>Blood vessels most involved + clinical consequences</h3>
+      <table>
+        <tr><th>Vessel</th><th>Consequence</th></tr>
+        <tr><td>Coronary arteries</td><td>IHD &amp; myocardial infarction</td></tr>
+        <tr><td>Carotid arteries &amp; circle of Willis</td><td>Stroke (cerebral ischaemia &amp; infarction)</td></tr>
+        <tr><td>Lower-extremity large vessels (e.g., popliteal)</td><td>Peripheral vascular occlusive disease → claudication → gangrene</td></tr>
+        <tr><td>Aorta</td><td>Aortic aneurysms</td></tr>
+        <tr><td>Renal arteries</td><td>Renal arterial ischaemia → secondary hypertension</td></tr>
+        <tr><td>Mesenteric arteries</td><td>Ischaemic bowel disease, infarction</td></tr>
+      </table>
+      <h3>Consequences due to acute plaque change</h3>
+      <p>Plaque rupture/fissuring · erosion/ulceration · haemorrhage · thrombus formation · embolisation.</p>
+      <p><strong>Major targets of atherosclerosis:</strong> large elastic arteries (aorta, carotid, iliac) + large/medium muscular arteries (coronary, popliteal).</p>
+      <p class="ref">Robbins 10e pp.502, 494(bottom)</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Write about the prevention of atherosclerosis.</summary>
+    <div class="ans">
+      <h3>1. Primary prevention</h3>
+      <ul>
+        <li>Cessation of cigarette smoking</li>
+        <li>Control of hypertension</li>
+        <li>Weight reduction</li>
+        <li>Increase exercise</li>
+        <li>Moderation of alcohol consumption</li>
+        <li>Lower total &amp; LDL cholesterol while raising HDL</li>
+      </ul>
+      <h3>2. Secondary prevention</h3>
+      <p>Prevent recurrence of events (e.g., MI) in patients with symptomatic disease.</p>
+      <p class="ref">Robbins 10e p.494</p>
+    </div>
+  </details>
+
+  <h2 id="tumours">6 · Vascular Tumours</h2>
+
+  <details>
+    <summary>🔴 Classify vascular tumours. Write short notes on glomus tumour, haemangioma, lymphangioma, angiosarcoma, spider telangiectasia.</summary>
+    <div class="ans">
+      <p><strong>Classification (all endothelial in origin; markers CD31, CD34, von-Willebrand factor/vWF):</strong></p>
+      <table>
+        <tr><th>Category</th><th>Examples</th></tr>
+        <tr><td><strong>Benign</strong></td><td>Haemangioma (capillary, cavernous, pyogenic granuloma, juvenile/"strawberry"), lymphangioma (simple/cavernous=cystic hygroma), glomus tumour, vascular ectasias (naevus flammeus, spider telangiectasia, Osler-Weber-Rendu), reactive proliferations (bacillary angiomatosis)</td></tr>
+        <tr><td><strong>Intermediate-grade</strong></td><td>Kaposi sarcoma, haemangioendothelioma</td></tr>
+        <tr><td><strong>Malignant</strong></td><td>Angiosarcoma, haemangiopericytoma</td></tr>
+      </table>
+
+      <h3>Glomus tumour (glomangioma) — short note</h3>
+      <p><strong>Definition:</strong> benign but <span class="hot">exquisitely painful</span> tumours arising from <strong>modified smooth muscle cells of the glomus body</strong> (a specialised AV structure involved in thermoregulation).</p>
+      <p><strong>Location:</strong> distal digits, especially <strong>under the fingernails</strong>. <strong>Treatment:</strong> excision is curative.</p>
+      <p><strong>Morphology:</strong> Gross: usually &lt;1 cm, round, slightly elevated, red-blue, firm nodules (initially resemble a minute focus of haemorrhage). Microscopy: aggregates/nests/masses of specialised glomus cells with branching vascular channels in connective-tissue stroma; cells small, uniform, round/cuboidal, scant cytoplasm, ultrastructure like SMC.</p>
+
+      <h3>Haemangioma — definition + capillary haemangioma morphology</h3>
+      <p><strong>Haemangioma:</strong> benign neoplasm of blood vessels — very common, composed of blood-filled vessels. <strong>Age:</strong> infancy &amp; childhood (7% of all benign tumours of this age). <strong>Most common site:</strong> skin of face &amp; mucosal surfaces.</p>
+      <p><strong>Types:</strong> capillary haemangioma, cavernous haemangioma, pyogenic granuloma (haemangioma of granulation-tissue type), juvenile/"strawberry" haemangioma.</p>
+      <p><strong>Capillary haemangioma morphology:</strong> Gross — bright red-to-blue, few mm to several cm, at level with or slightly elevated above skin, intact overlying epithelium. Microscopy — <span class="good">unencapsulated lobules of capillary-sized, thin-walled, blood-filled vessels lined by flattened endothelium surrounded by a layer of pericytes</span>; vessels separated by scant connective-tissue stroma; lumens may be thrombosed/organised; haemosiderin pigment from vessel rupture; focal scarring.</p>
+      <p><strong>Cavernous haemangioma histology:</strong> thin-walled cavernous vascular spaces (filled partly/fully with blood) lined by flattened endothelium, separated by scanty stroma.</p>
+      <p><strong>Pyogenic granuloma histology:</strong> proliferating capillaries like capillary haemangioma, but separated by abundant oedema + inflammatory infiltrate → resembles inflammatory granulation tissue.</p>
+
+      <h3>Lymphangioma</h3>
+      <p>The benign <strong>lymphatic</strong> counterpart of haemangioma. Two types: (1) simple (capillary) lymphangioma, (2) cavernous lymphangioma (<strong>cystic hygroma</strong>).</p>
+
+      <h3>Angiosarcoma</h3>
+      <p>The <span class="hot">malignant endothelial</span> neoplasm of the blood vessel.</p>
+
+      <h3>Spider telangiectasia</h3>
+      <p>A non-neoplastic vascular malformation resembling a spider: radial, often pulsatile lesions of dilated subcutaneous arteries/arterioles (spider legs) about a central core (spider body) that blanches with pressure. <strong>Location:</strong> face, neck, upper chest; associated with <span class="good">hyperoestrogenic states</span> (pregnancy, cirrhosis).</p>
+      <p class="ref">Robbins 10e pp.519–522; Harsh Mohan 7e pp.392–393</p>
+    </div>
+  </details>
+
+  <h2 id="aneurysm">7 · Aneurysms &amp; Dissections</h2>
+
+  <details>
+    <summary>🔴 Define and classify aneurysm. Distinguish true vs false aneurysm.</summary>
+    <div class="ans">
+      <p><strong>Aneurysm:</strong> a <span class="hot">localised abnormal dilation of a blood vessel or the heart</span>, congenital or acquired. In the aorta → <strong>aortic aneurysm</strong>.</p>
+      <table>
+        <tr><th>Type</th><th>Definition</th></tr>
+        <tr><td><strong>True aneurysm</strong></td><td>Involves <strong>all layers</strong> (intima, media, adventitia) of an intact-but-attenuated wall. Atherosclerotic, congenital vascular, and ventricular aneurysms after transmural MI are this type.</td></tr>
+        <tr><td><strong>False aneurysm (pseudoaneurysm)</strong></td><td>A defect in the wall → an <strong>extravascular haematoma that freely communicates with the intravascular space</strong> ("pulsating haematoma"). e.g., contained ventricular rupture, leak at a vascular-graft anastomosis.</td></tr>
+        <tr><td><strong>Dissecting aneurysm (dissection)</strong></td><td>Blood enters through an <strong>intimal tear</strong> and splits (dissects) the medial lamellae, creating a blood-filled channel within the wall.</td></tr>
+      </table>
+      <h3>Classification by shape/size</h3>
+      <ul>
+        <li><strong>Saccular:</strong> spherical outpouching involving only a portion of the wall (e.g., berry aneurysm).</li>
+        <li><strong>Fusiform:</strong> diffuse, circumferential dilation of a long vascular segment (typical AAA — abdominal aortic aneurysm).</li>
+      </ul>
+      <h3>Causes of aneurysm</h3>
+      <ol>
+        <li>Atherosclerosis</li>
+        <li>Hypertension</li>
+        <li>Advanced age</li>
+        <li>Smoking</li>
+        <li>Trauma</li>
+        <li>Vasculitis</li>
+        <li>Congenital defects (fibromuscular dysplasia, berry aneurysms of the circle of Willis)</li>
+        <li>Infections (mycotic aneurysms)</li>
+      </ol>
+      <h3>Arterial dissection</h3>
+      <p>Blood enters a defect in the arterial wall and tunnels through medial or medial-adventitial planes. Dissections are often (not always) aneurysmal. All of the above can <strong>rupture</strong>, often catastrophically.</p>
+      <p class="ref">Robbins 10e pp.504–506</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What is aortic dissection? Give its risk factors and clinical features.</summary>
+    <div class="ans">
+      <p><strong>Aortic dissection:</strong> blood separates the laminar planes of the <strong>media</strong> → a blood-filled channel within the aortic wall. Usually associated with aortic dilation; disastrous if it ruptures through the adventitia into adjacent spaces.</p>
+      <h3>Two groups of patients</h3>
+      <ol>
+        <li><strong>Men aged 40–60 with antecedent hypertension</strong> (&gt;90% of cases).</li>
+        <li><strong>Younger patients with syndromic aortic disease</strong> (e.g., Marfan syndrome).</li>
+      </ol>
+      <p><span class="hot">Hypertension is the major risk factor</span> for aortic dissection.</p>
+      <h3>Clinical features</h3>
+      <p>Sudden onset of <span class="hot">excruciating pain</span>, usually starting in the anterior chest, radiating to the back between the scapulae, moving downward as the dissection progresses — can be confused with MI. Most common cause of death = <strong>rupture → bleeding into pericardial, pleural, or peritoneal cavities</strong>.</p>
+      <p class="ref">Robbins 10e p.507</p>
+    </div>
+  </details>
+
+  <h2 id="vasculitis">8 · Vasculitis (Vessel-Wall Inflammation)</h2>
+
+  <details>
+    <summary>🔴 Define vasculitis. Give its pathogenesis and classify non-infectious vasculitis.</summary>
+    <div class="ans">
+      <p><strong>Vasculitis:</strong> a general term for <strong>vessel-wall inflammation</strong>, with protean manifestations depending on the vascular bed affected (CNS vs heart vs small bowel).</p>
+      <p><strong>Clinical manifestations:</strong> constitutional signs of systemic inflammation — fever, myalgias, arthralgias, malaise. <strong>Affected vessels:</strong> any type (large, medium, small); most vasculitides affect <strong>small vessels</strong>.</p>
+      <h3>Pathogenesis — two mechanisms</h3>
+      <ol>
+        <li><strong>Infectious vasculitis:</strong> direct invasion of vascular walls by infectious pathogens.</li>
+        <li><strong>Non-infectious (immune-mediated):</strong>
+          <ul>
+            <li>Immune-complex deposition</li>
+            <li>Antineutrophil cytoplasmic antibodies (<strong>ANCA</strong>)</li>
+            <li>Anti-endothelial-cell (anti-EC) antibodies</li>
+            <li>Autoreactive T cells</li>
+          </ul>
+        </li>
+      </ol>
+      <h3>Types of non-infectious vasculitis with causes &amp; examples</h3>
+      <table>
+        <tr><th>Mechanism</th><th>Examples</th></tr>
+        <tr><td><strong>Immune-complex mediated</strong></td><td>Infection-induced (hepatitis B &amp; C virus), Henoch-Schönlein purpura, SLE &amp; rheumatoid arthritis, drug-induced, cryoglobulinaemia, serum sickness, Arthus phenomenon</td></tr>
+        <tr><td><strong>ANCA-mediated</strong></td><td>Wegener granulomatosis (now granulomatosis with polyangiitis), microscopic polyangiitis, Churg-Strauss syndrome</td></tr>
+        <tr><td><strong>Direct antibody-mediated</strong></td><td>Goodpasture syndrome (anti-glomerular basement membrane / anti-GBM), Kawasaki disease (anti-endothelial-cell)</td></tr>
+        <tr><td><strong>Autoreactive T-cell mediated</strong></td><td>Organ allograft rejection, inflammatory bowel disease, paraneoplastic vasculitis</td></tr>
+        <tr><td><strong>Direct infection</strong></td><td>Bacterial (Neisseria), rickettsial (Rocky Mountain spotted fever), spirochaetal (syphilis), fungal (aspergillosis, mucormycosis), viral (herpes zoster, varicella)</td></tr>
+        <tr><td><strong>Unknown</strong></td><td>Giant cell (temporal) arteritis, Takayasu arteritis, polyarteritis nodosa (PAN)</td></tr>
+      </table>
+      <p class="ref">Robbins 10e pp.508–516</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Short notes on each major vasculitis: Giant cell arteritis, Takayasu, PAN, Kawasaki, GPA (Wegener), Churg-Strauss, Buerger.</summary>
+    <div class="ans">
+      <h3>Giant cell (temporal) arteritis</h3>
+      <p>Chronic, classically <strong>granulomatous</strong> inflammation of large-to-small arteries. <span class="hot">Most common vasculitis among the elderly</span>; rare before 50. Affects arteries of the head; vertebral &amp; ophthalmic arteries and aorta (giant cell aortitis) can be involved. <strong>Ophthalmic artery involvement → sudden, permanent blindness.</strong></p>
+
+      <h3>Takayasu arteritis</h3>
+      <p>A <strong>granulomatous vasculitis of medium &amp; large arteries</strong>, with ocular disturbances and marked weakening of upper-extremity pulses → <em>"pulseless disease"</em>. Classically involves the <strong>aortic arch</strong>; in ⅓ affects the rest of the aorta &amp; branches, pulmonary artery in half; coronary &amp; renal arteries may be affected. Nearly identical to giant cell aortitis — distinguished by <strong>age: &gt;50 = giant cell, &lt;50 = Takayasu</strong>.</p>
+
+      <h3>Polyarteritis nodosa (PAN)</h3>
+      <p>A systemic vasculitis of <strong>small- or medium-sized muscular arteries</strong>, typically affecting renal &amp; visceral vessels but <span class="hot">sparing the pulmonary circulation</span>. Involves kidneys, heart, liver, GI tract (descending order). Unknown cause in most. Mostly young adults. <strong>Clinical:</strong> rapidly accelerating HTN (renal artery involvement), abdominal pain &amp; bloody stools (GI vascular lesions), diffuse myalgias, peripheral neuritis (esp. motor). Renal involvement = major cause of mortality. Untreated → fatal; immunosuppression → remission/cure in 90%.</p>
+
+      <h3>Kawasaki disease</h3>
+      <p>Acute, febrile, usually <strong>self-limited illness of infancy/childhood</strong> with large-to-medium arteritis (80% &lt;4 yr). Triggered in susceptible persons by infections (mostly viral). <span class="hot">Clinical significance = coronary artery involvement</span> → coronary arteritis → aneurysms that rupture or thrombose → myocardial infarction.</p>
+
+      <h3>Granulomatosis with polyangiitis (GPA, formerly Wegener granulomatosis)</h3>
+      <p>A necrotising vasculitis with the <span class="hot">triad</span>:
+      <ol>
+        <li>Acute necrotising granulomas of upper (ear, nose, sinuses, throat) or lower (lung) respiratory tract, or both</li>
+        <li>Necrotising/granulomatous vasculitis of small-to-medium vessels (most prominent in lungs &amp; upper airways)</li>
+        <li>Focal necrotising, often crescentic, glomerulonephritis</li>
+      </ol></p>
+
+      <h3>Churg-Strauss syndrome (allergic granulomatosis and angiitis)</h3>
+      <p>A <strong>small-vessel necrotising vasculitis</strong> classically associated with asthma, allergic rhinitis, lung infiltrates, peripheral eosinophilia, extravascular necrotising granulomas, and striking eosinophilic infiltration of vessels/tissues. Major associations: cutaneous involvement (palpable purpura), GI bleeding, renal disease (focal/segmental glomerulosclerosis). <span class="hot">Cardiac involvement in 60%</span> (eosinophilic cardiomyopathy) — a major cause of morbidity &amp; death.</p>
+
+      <h3>Thromboangiitis obliterans (Buerger disease)</h3>
+      <p>Segmental, thrombosing, acute &amp; chronic inflammation of <strong>medium &amp; small arteries</strong>, esp. tibial and radial → vascular insufficiency of extremities. <span class="hot">Almost exclusively in heavy cigarette smokers, usually before age 35.</span> Clinical features: Raynaud phenomenon, instep foot pain on exercise (instep claudication), superficial nodular phlebitis, severe pain at rest (neural), chronic extremity ulcerations → frank gangrene.</p>
+      <p class="ref">Robbins 10e pp.511–515</p>
+    </div>
+  </details>
+
+  <h2 id="raynaud">9 · Raynaud Phenomenon</h2>
+
+  <details>
+    <summary>What is Raynaud phenomenon? Describe its types.</summary>
+    <div class="ans">
+      <p><strong>Raynaud phenomenon:</strong> exaggerated vasoconstriction of arteries &amp; arterioles in response to <strong>cold or emotion</strong>. Most commonly affects the extremities (fingers, toes) and occasionally nose, earlobes, lips.</p>
+      <p>The involved digits classically show <span class="hot">"red, white, and blue"</span> colour changes from most proximal to most distal, correlating with proximal vasodilation, central vasoconstriction, and distal cyanosis.</p>
+      <h3>Types</h3>
+      <ul>
+        <li><strong>Primary Raynaud phenomenon</strong> (formerly Raynaud disease): caused by cold or emotional stress.</li>
+        <li><strong>Secondary Raynaud phenomenon:</strong> caused by other diseases — SLE, scleroderma, Buerger disease, or atherosclerosis.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.516</p>
+    </div>
+  </details>
+
+  <h2 id="varicose">10 · Varicose Veins</h2>
+
+  <details>
+    <summary>What are varicose veins? Why are the legs, oesophagus and anal canal special sites?</summary>
+    <div class="ans">
+      <p><strong>Varicose veins:</strong> abnormally dilated, tortuous veins produced by prolonged, increased intraluminal pressure with vessel dilation and <strong>incompetence of the venous valves</strong>.</p>
+      <p>The superficial veins of the upper &amp; lower leg are commonly involved because venous pressures can be markedly elevated (up to <strong>10× normal</strong>) by prolonged dependent posture. Two other special sites: <span class="good">oesophageal varices &amp; haemorrhoids</span>.</p>
+      <p class="ref">Robbins 10e p.517</p>
+    </div>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
+
+  <details class="rapid" open>
+    <summary>Blood Vessels — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+      <div class="q">Organ(s) affected by atherosclerosis? Increased LDL (T/F), antioxidant intake (T/F), saturated fatty acids (T/F), sedentary lifestyle (T/F), cigarette smoking (T/F).</div>
+      <div class="a">LDL ↑ = <strong>True</strong> · antioxidant intake = <strong>False</strong> · saturated fat = <strong>True</strong> · sedentary lifestyle = <strong>True</strong> · smoking = <strong>True</strong>.</div>
+
+      <div class="q">Which are risk factors for atherosclerosis: Hypercalcaemia (F), Hyperlipidaemia (T), Hypertension (T), Obesity (T), Increased workload (F)?</div>
+      <div class="a">Hypercalcaemia = <strong>False</strong> · hyperlipidaemia = <strong>True</strong> · HTN = <strong>True</strong> · obesity = <strong>True</strong> · ↑workload = <strong>False</strong>.</div>
+
+      <div class="q">Secondary hypertension may be caused by: Hypothyroidism (T/F), Hyperaldosteronism, Addison's disease, Pheochromocytoma, Renal artery stenosis?</div>
+      <div class="a">Hypothyroidism = <strong>False</strong> · hyperaldosteronism = <strong>True</strong> · Addison's = <strong>False</strong> · pheochromocytoma = <strong>True</strong> · renal artery stenosis = <strong>True</strong>.</div>
+
+      <div class="q">Complications of an atheromatous lesion include: intraplaque haemorrhage (T), thrombus formation (T), cyst formation (F), dystrophic calcification (T), intraplaque granuloma (F)?</div>
+      <div class="a">Intraplaque haemorrhage = <strong>True</strong> · thrombus = <strong>True</strong> · cyst = <strong>False</strong> · dystrophic calcification = <strong>True</strong> · granuloma = <strong>False</strong>.</div>
+
+      <div class="q">Foam cells in atheroma are derived from: endothelial cell (F), monocyte (T), histiocyte (T), smooth muscle (T), neutrophil (F)?</div>
+      <div class="a">Endothelial cell = <strong>False</strong> · monocyte = <strong>True</strong> · histiocyte = <strong>True</strong> · smooth muscle = <strong>True</strong> · neutrophil = <strong>False</strong>.</div>
+
+      <div class="q">Major modifiable risk factors for atherosclerosis (DU): obesity (F), diabetes mellitus (T), alcohol (F), high-carb diet (F), cigarette smoking (T)?</div>
+      <div class="a">Obesity = <strong>False</strong> · diabetes = <strong>True</strong> · alcohol = <strong>False</strong> · high-carb = <strong>False</strong> · smoking = <strong>True</strong>. (Note: in Arif's "major modifiable" list, DM &amp; smoking are the true ones; obesity/high-carb are "other factors".)</div>
+
+      <div class="q">🎯 One-liners: most common male HTN pattern? Anatomic variant in malignant HTN?</div>
+      <div class="a"><strong>Benign HTN → hyaline arteriolosclerosis; malignant HTN → hyperplastic arteriolosclerosis ("onion-skin", fibrinoid necrosis).</strong></div>
+
+      <div class="q">🎯 "Pulseless disease" = ? · "Red, white and blue" digits = ? · Exquisitely painful subungual tumour = ?</div>
+      <div class="a">Pulseless disease = <strong>Takayasu arteritis</strong> · red-white-blue = <strong>Raynaud phenomenon</strong> · painful subungual tumour = <strong>glomus tumour</strong>.</div>
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="00_Index.html">← Index</a></span>
+    <span>Ch 01 · Blood Vessels</span>
+    <span><a href="ch02_The_Heart.html">Next: The Heart →</a></span>
+  </div>
+</div>
+</body>
+</html>

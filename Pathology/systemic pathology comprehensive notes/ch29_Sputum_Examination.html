@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch29 — Sputum Examination | Clinical Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  /* flashcard */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#collection">Collection</a><a href="#macro">Macroscopic</a><a href="#colour">Colour</a><a href="#consistency">Consistency</a><a href="#micro">Microscopy</a><a href="#stains">Stains</a><a href="#culture">Culture</a><a href="#cytology">Cytology</a><a href="#indications">Indications</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Pathology · Arif Guide 2025 Vol-2 · Unit-II · pp.497–498</span>
+  <h1>Ch 29 — Sputum Examination
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Sputum Examination (boss-level overview)</h3>
+    <p><strong>Sputum</strong> = mucus coughed up from the <span class="hot">lower airways</span> (distinguished from saliva which comes from the mouth). Examination is a key step in diagnosing <strong>respiratory infections</strong>, <strong>malignancy</strong>, and <strong>parasitic disease</strong>.</p>
+    <p>The workflow follows a logical path: <strong>1. Collection</strong> (clean/sterile container, morning sample, deep cough) → <strong>2. Macroscopic (naked-eye) examination</strong> — appearance, blood, amount, colour, consistency, odour → <strong>3. Microscopic examination</strong> — Ziehl-Neelsen (ZN) stain for acid-fast bacilli (AFB) / tubercle bacilli, Gram stain for bacteria/fungi, Leishman stain for eosinophils, KOH mount for <em>Aspergillus</em>, unstained wet mount for parasites, Pap smear / H&E for malignant cells → <strong>4. Culture &amp; sensitivity</strong> of the specimen.</p>
+    <p>🔴 <strong>Must-know associations:</strong> Rusty sputum = pneumonia · Pink frothy = pulmonary oedema · Anchovy-sauce = amoebic liver abscess · Putrid/foetid = bronchiectasis / lung abscess · Blood-stained = pulmonary tuberculosis (TB), bronchogenic carcinoma.</p>
+    <p class="ref">Arif Guide 2025 Vol-2, pp.497–498 · Ref: Prof. Khaleque/198 (Modified)</p>
+  </div>
+
+  <div class="toc-box">
+    <a href="#collection">1. Collection of Sputum</a>
+    <a href="#macro">2. Naked-Eye Examination</a>
+    <a href="#amount">3. Amount / Quantity</a>
+    <a href="#colour">4. Colour of Sputum</a>
+    <a href="#consistency">5. Consistency</a>
+    <a href="#odour">6. Odour</a>
+    <a href="#micro">7. Microscopic Examination</a>
+    <a href="#stains">8. Staining Methods &amp; Special Preparations</a>
+    <a href="#culture">9. Culture of the Specimen</a>
+    <a href="#indications">10. Indications of Sputum Examination</a>
+    <a href="#rapid">🔁 Rapid-Fire Sweep</a>
+  </div>
+
+  <!-- ============================================================ -->
+  <h2 id="collection">1 · Collection of Sputum</h2>
+
+  <details id="collection">
+    <summary>❓ How is sputum collected? What precautions must be taken?</summary>
+    <div class="ans">
+      <ul>
+        <li><strong>Container:</strong> Sputum should be collected in a <span class="hot">clean, dry, wide-necked container</span>.</li>
+        <li><strong>For culture:</strong> Should preferably be collected in a <span class="good">sterile container</span> to avoid contamination.</li>
+        <li><strong>Timing:</strong> Sputum is best collected <span class="hot">in the morning</span> before any mouth wash is used — this ensures maximal overnight secretions are present.</li>
+        <li><strong>Technique:</strong> The person should <span class="hot">cough deeply</span> to produce a sputum specimen from the lower airways (not just saliva).</li>
+      </ul>
+      <div class="mnem">🎯 <strong>Mnemonic:</strong> "First thing in the morning, deep cough, clean wide jar" — best specimen!</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="macro">2 · Naked-Eye (Macroscopic) Examination</h2>
+
+  <details id="blood">
+    <summary>❓ What are the causes of blood in sputum (haemoptysis)?</summary>
+    <div class="ans">
+      <p><strong>Haemoptysis</strong> = coughing up blood from the respiratory tract. Causes of <span class="hot">blood-stained sputum</span>:</p>
+      <table>
+        <tr><th>#</th><th>Cause</th><th>Key Point</th></tr>
+        <tr><td>1</td><td><strong>Pulmonary tuberculosis (TB)</strong></td><td>Most classic cause; blood may be streaked or frank haemoptysis</td></tr>
+        <tr><td>2</td><td><strong>Bronchiectasis</strong></td><td>Dilated bronchi prone to recurrent infection &amp; bleeding</td></tr>
+        <tr><td>3</td><td><strong>Mitral stenosis</strong></td><td>↑Pulmonary venous pressure → haemorrhage</td></tr>
+        <tr><td>4</td><td><strong>Pneumonia</strong></td><td>"Rusty" sputum = haemolysed blood mixed with fibrin &amp; pus</td></tr>
+        <tr><td>5</td><td><strong>Lung abscess</strong></td><td>Necrotic lung tissue + blood</td></tr>
+        <tr><td>6</td><td><strong>Bronchogenic carcinoma</strong></td><td>Malignant tumour eroding vessels → blood-stained sputum</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>"PBMPLB"</strong> = Pulmonary TB · Bronchiectasis · Mitral stenosis · Pneumonia · Lung abscess · Bronchogenic carcinoma.</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
+    </div>
+  </details>
+
+  <details id="amount">
+    <summary>❓ Describe the amount of sputum and its clinical significance.</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Amount</th><th>Conditions</th></tr>
+        <tr><td><strong>Scanty</strong></td><td>Bronchitis, bronchial asthma, early stage of pneumonia</td></tr>
+        <tr><td><strong>Copious (profuse)</strong></td><td>Pulmonary oedema, lung abscess, advanced tuberculosis (TB)</td></tr>
+      </table>
+      <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
+    </div>
+  </details>
+
+  <details id="colour">
+    <summary>❓ What is the significance of sputum colour? Enumerate the colours and their associations.</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Colour</th><th>Condition</th><th>Mechanism</th></tr>
+        <tr><td><strong>White &amp; mucoid</strong></td><td>Bronchitis, bronchial asthma</td><td>Pure mucus secretions</td></tr>
+        <tr><td><strong>Rusty</strong></td><td>Pneumonia (lobar)</td><td>Haemolysed blood + fibrin + pus (classic "rusty sputum")</td></tr>
+        <tr><td><strong>Yellow or green</strong></td><td>Purulent conditions (any bacterial infection)</td><td>Neurophil-derived myeloperoxidase (enzyme) in pus</td></tr>
+        <tr><td><strong>Pink frothy</strong></td><td>Pulmonary oedema</td><td>Blood-tinged oedema fluid frothed by air in alveoli</td></tr>
+        <tr><td><strong>Blood-stained</strong></td><td>Haemoptysis (see causes above)</td><td>Active bleeding from respiratory tract</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>Must-remember:</strong> "Rusty = Pneumonia · Pink frothy = Pulmonary oedema · Green = Pus"</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
+    </div>
+  </details>
+
+  <details id="consistency">
+    <summary>❓ Describe the different consistencies of sputum and their clinical associations.</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Consistency</th><th>Condition(s)</th></tr>
+        <tr><td><strong>Mucoid</strong></td><td>Chronic bronchitis, early tuberculosis (TB)</td></tr>
+        <tr><td><strong>Purulent</strong> (thick, opaque, yellow-green)</td><td>Acute &amp; chronic bronchitis, bacterial pneumonia &amp; bronchopneumonia, lung abscess</td></tr>
+        <tr><td><strong>Mucopurulent</strong> (mucus + pus mixed)</td><td>All bacterial infections of the upper respiratory tract</td></tr>
+        <tr><td><strong>Viscid &amp; rusty</strong></td><td>Pneumonia (lobar pneumonia — fibrin-rich, sticky, rust-coloured)</td></tr>
+        <tr><td><strong>Frothy</strong></td><td>Pulmonary oedema (air mixed with oedema fluid)</td></tr>
+        <tr><td><strong>Anchovy-sauce</strong> (brownish-red, thick, characteristic)</td><td><span class="hot">Amoebic liver abscess</span> (ruptured into lung —Entamoeba histolytica)</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>"Anchovy sauce = Amoebic abscess"</strong> — this is a VIVA favourite!</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="odour">
+    <summary>❓ When is sputum offensive or foul-smelling (foetid)?</summary>
+    <div class="ans">
+      <p>Sputum is usually <strong>odourless</strong>. It becomes <span class="hot">offensive / putrid (foul-smelling / foetid)</span> in:</p>
+      <ul>
+        <li><strong>Bronchiectasis</strong> — pooling of secretions → bacterial overgrowth → foul odour</li>
+        <li><strong>Lung abscess</strong> — necrotic tissue + mixed anaerobic infection</li>
+        <li><strong> Gangrene of the lung</strong> — tissue necrosis + anaerobic bacteria</li>
+      </ul>
+      <div class="mnem">🎯 <strong>"FOG" = Foetid odour → Bronchiectasis, lung abscess, Gangrene"</strong></div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="micro">3 · Microscopic Examination</h2>
+
+  <details id="zn">
+    <summary>❓ Describe the Ziehl-Neelsen (ZN) staining method. What is it used for in sputum examination?</summary>
+    <div class="ans">
+      <p><strong>Ziehl-Neelsen (ZN) stain</strong> = an <span class="hot">acid-fast staining</span> technique used for demonstration of <strong>tubercle bacilli</strong> (<em>Mycobacterium tuberculosis</em>) in sputum.</p>
+      <h3>Principle</h3>
+      <ul>
+        <li>Mycobacteria have a <strong>waxy cell wall</strong> (mycolic acid) → resists decolorisation by acid-alcohol → "acid-fast bacilli" (AFB).</li>
+        <li>Carbol fuchsin (primary stain) penetrates the waxy wall with heat; once stained, the bacilli <strong>resist decolorisation</strong> by acid-alcohol → appear <span class="hot">bright red</span> against a blue background (methylene blue counterstain).</li>
+      </ul>
+      <h3>Procedure (simplified)</h3>
+      <ol>
+        <li>Prepare a thin smear of sputum on a glass slide.</li>
+        <li>Flood with carbol fuchsin and heat gently (steam) for 3–5 minutes.</li>
+        <li>Decolorise with 3% acid-alcohol.</li>
+        <li>Counterstain with methylene blue.</li>
+        <li>Examine under oil immersion (×1000).</li>
+      </ol>
+      <p><strong>Finding:</strong> <span class="hot">Bright red, slender, slightly curved bacilli</span> = acid-fast bacilli (AFB) = suspected <em>M. tuberculosis</em>.</p>
+      <p><strong>Use in sputum:</strong> Primary screening for <span class="hot">pulmonary tuberculosis (TB)</span>. At least 3 sputum specimens (early morning) should be examined for best sensitivity.</p>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498 · Robbins 10e, Respiratory infections</p>
+    </div>
+  </details>
+
+  <details id="stains">
+    <summary>❓ Enumerate all staining methods and special preparations used in sputum microscopic examination.</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Stain / Preparation</th><th>Purpose</th><th>Target Organism / Finding</th></tr>
+        <tr><td><strong>Ziehl-Neelsen (ZN) stain</strong></td><td>Demonstration of tubercle bacilli</td><td><em>Mycobacterium tuberculosis</em> — bright red AFB (acid-fast bacilli)</td></tr>
+        <tr><td><strong>Gram stain</strong></td><td>Demonstration of common bacteria</td><td>Gram-positive &amp; Gram-negative bacteria, <em>Actinomyces</em> species, fungi</td></tr>
+        <tr><td><strong>Leishman stain</strong></td><td>Identification of inflammatory cells</td><td>Eosinophils, other leukocytes, pus cells (neutrophils)</td></tr>
+        <tr><td><strong>Unstained cover-slip preparation</strong></td><td>Parasites &amp; cysts</td><td><em>Entamoeba histolytica</em> (trophozoites), hydatid cyst elements, <em>Paragonimus</em> eggs</td></tr>
+        <tr><td><strong>KOH (potassium hydroxide) preparation</strong></td><td>Fungal elements</td><td><em>Aspergillus</em> species — septate hyphae with dichotomous (45°) branching</td></tr>
+        <tr><td><strong>Papanicolaou (Pap) stain</strong></td><td>Malignant cells (cytology)</td><td>Bronchogenic carcinoma cells, squamous-cell carcinoma, adenocarcinoma</td></tr>
+        <tr><td><strong>H&amp;E (haematoxylin and eosin) stain</strong></td><td>Malignant cells (cytology)</td><td>Same as Pap — used for sputum cytology smears</td></tr>
+      </table>
+      <h3>Special points</h3>
+      <ul>
+        <li><strong>Gram stain</strong> is the most rapid &amp; commonly used initial stain for any infected sputum.</li>
+        <li><strong>Leishman stain</strong> — identifies <span class="good">eosinophils</span> → important in bronchial asthma, allergic bronchopulmonary aspergillosis (ABPA), parasitic infections.</li>
+        <li><strong>KOH mount</strong> — essential for suspected <em>Aspergillus</em> (aspergilloma, ABPA).</li>
+        <li><strong>Cytology (Pap / H&E)</strong> — for suspected malignancy, especially bronchogenic carcinoma.</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="gram">
+    <summary>❓ What is the role of Gram staining in sputum examination?</summary>
+    <div class="ans">
+      <p>Gram stain is done for demonstration of:</p>
+      <ul>
+        <li><strong>Common bacteria</strong> — Gram-positive cocci (e.g., <em>Streptococcus pneumoniae</em>, <em>Staphylococcus aureus</em>) and Gram-negative bacilli (e.g., <em>Klebsiella pneumoniae</em>, <em>Haemophilus influenzae</em>).</li>
+        <li><strong><em>Actinomyces</em> species</strong> — Gram-positive, branching, filamentous bacteria (sulfur granules in actinomycosis).</li>
+        <li><strong>Fungi</strong> — although special stains (PAS, GMS) are better, Gram stain can show yeast forms (<em>Candida</em>) and pseudohyphae.</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="leishman">
+    <summary>❓ What is the purpose of Leishman staining in sputum examination?</summary>
+    <div class="ans">
+      <p>Leishman stain (a Romanowsky-type stain similar to Giemsa) is used in sputum to identify:</p>
+      <ul>
+        <li><strong>Eosinophils</strong> — granules stain orange-red → suggest allergic conditions, bronchial asthma, parasitic infections, drug reactions.</li>
+        <li><strong>Other leukocytes</strong> — neutrophils (polymorphonuclear cells) indicate bacterial infection.</li>
+        <li><strong>Pus cells</strong> — confirms purulent sputum.</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="unstained">
+    <summary>❓ What is demonstrated by an unstained cover-slip preparation of sputum?</summary>
+    <div class="ans">
+      <p>An <strong>unstained wet-mount (cover-slip) preparation</strong> is used for demonstration of:</p>
+      <ul>
+        <li><strong><em>Entamoeba histolytica</em></strong> — motile trophozoites with ingested RBCs (if amoebic lung abscess / hepatic abscess has ruptured into bronchus).</li>
+        <li><strong>Hydatid cyst</strong> — characteristic hooklets, scolices, or laminated membrane fragments.</li>
+        <li><strong><em>Paragonimus</em> (lung fluke) eggs</strong> — in parasitic pulmonary infections (endemic areas).</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="koh">
+    <summary>❓ When is KOH preparation used in sputum examination? What does it demonstrate?</summary>
+    <div class="ans">
+      <p><strong>KOH (potassium hydroxide) preparation</strong> is done for demonstration of <strong>fungal elements</strong>, specifically:</p>
+      <ul>
+        <li><strong><em>Aspergillus</em> species</strong> — the most clinically important fungal pathogen detected this way in sputum.</li>
+        <li>KOH <strong>dissolves host cells and debris</strong> but leaves fungal cell walls (chitin) intact → clear visualisation of hyphae.</li>
+        <li><em>Aspergillus</em> appears as <span class="hot">septate hyphae with regular, dichotomous (45° angle) branching</span>.</li>
+      </ul>
+      <p><strong>Clinical settings:</strong> suspected aspergilloma, allergic bronchopulmonary aspergillosis (ABPA), invasive aspergillosis in immunocompromised patients.</p>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <details id="cytology">
+    <summary>❓ How are malignant cells demonstrated in sputum? What stains are used?</summary>
+    <div class="ans">
+      <p>Demonstration of <strong>malignant cells</strong> in sputum is done by <strong>sputum cytology</strong>:</p>
+      <ul>
+        <li><strong>Papanicolaou (Pap) stain</strong> — the standard cytological stain; provides excellent nuclear detail for identifying malignant cells.</li>
+        <li><strong>Haematoxylin and eosin (H&amp;E) stain</strong> — also used for sputum cytology smears; more familiar to histopathologists.</li>
+      </ul>
+      <p><strong>What is looked for:</strong> Cells with <span class="hot">nuclear pleomorphism, high nuclear-to-cytoplasmic (N:C) ratio, hyperchromasia, irregular nuclear membranes, and mitotic figures</span> → suggestive of bronchogenic carcinoma.</p>
+      <p><strong>Clinical use:</strong> Particularly valuable for detecting <span class="good">squamous-cell carcinoma</span> of the bronchus (exophytic endobronchial tumour → cells shed into sputum). Adenocarcinoma and small-cell carcinoma may also be detected but less reliably by sputum cytology alone.</p>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498 · Robbins 10e, Lung tumours</p>
+    </div>
+  </details>
+
+  <details id="culture">
+    <summary>❓ What is the role of culture in sputum examination?</summary>
+    <div class="ans">
+      <p><strong>Culture of the sputum specimen</strong> is essential for:</p>
+      <ul>
+        <li><strong>Identification of the causative organism</strong> in suspected respiratory infections — more sensitive &amp; specific than Gram stain alone.</li>
+        <li><strong>Antibiotic sensitivity testing</strong> — guides targeted antimicrobial therapy (reduces resistance).</li>
+        <li><strong>Culture media used:</strong>
+          <ul>
+            <li>Blood agar &amp; MacConkey agar — for common bacteria</li>
+            <li>Lowenstein-Jensen (LJ) medium — for <em>Mycobacterium tuberculosis</em> (ZN-positive cases)</li>
+            <li>Sabouraud dextrose agar — for fungi</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="indications">4 · Indications of Sputum Examination</h2>
+
+  <details id="indication">
+    <summary>❓ Enumerate the indications of sputum examination.</summary>
+    <div class="ans">
+      <p>Sputum examination is indicated in the following clinical situations:</p>
+      <h3>A. Smear and Culture — identification of causative organism in suspected infection</h3>
+      <table>
+        <tr><th>Infection</th><th>Key Sputum Finding</th></tr>
+        <tr><td><strong>Pneumonia</strong></td><td>Gram stain + culture → identify bacterial pathogen (<em>S. pneumoniae</em>, <em>K. pneumoniae</em>, etc.)</td></tr>
+        <tr><td><strong>Tuberculosis (TB)</strong></td><td>ZN stain for AFB + LJ culture → <em>M. tuberculosis</em></td></tr>
+        <tr><td><strong>Fungal infection</strong></td><td>KOH mount + culture on Sabouraud agar → <em>Aspergillus</em>, <em>Candida</em>, etc.</td></tr>
+        <tr><td><strong><em>Pneumocystis jirovecii</em> (formerly <em>P. carinii</em>) in HIV/AIDS</strong></td><td>Induced sputum + GMS (Gomori methenamine silver) stain → cysts</td></tr>
+        <tr><td><strong>Bronchiectasis</strong></td><td>Culture (often polymicrobial: anaerobes + aerobes) for targeted antibiotic therapy</td></tr>
+      </table>
+      <h3>B. Cytological examination</h3>
+      <table>
+        <tr><th>Indication</th><th>Key Finding</th></tr>
+        <tr><td><strong>Malignant cells</strong></td><td>Pap / H&E stain → bronchogenic carcinoma</td></tr>
+        <tr><td><strong>Viral inclusions</strong></td><td>Intranuclear or intracytoplasmic inclusions (e.g., CMV, herpes in immunocompromised patients)</td></tr>
+        <tr><td><strong>Asbestosis</strong></td><td><strong>Asbestos bodies</strong> (ferruginous bodies) — golden-brown, dumbbell-shaped, beaded structures in sputum → occupational asbestos exposure</td></tr>
+      </table>
+      <div class="mnem">🎯 <strong>"5 Infections + 3 Cytology" = 8 indications:</strong> Pneumonia, TB, Fungal, P. jirovecii/HIV, Bronchiectasis + Malignancy, Viral inclusions, Asbestosis.</div>
+      <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
+    </div>
+  </details>
+
+  <!-- ============================================================ -->
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep</h2>
+
+  <details class="rapid" open>
+    <summary>Sputum Examination — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+
+      <div class="q">Best time to collect sputum for examination is in the evening (T/F)?</div>
+      <div class="a"><strong>False.</strong> Best collected in the <strong>morning</strong> before any mouth wash — overnight secretions are maximal.</div>
+
+      <div class="q">Rusty sputum is characteristic of bronchiectasis (T/F)?</div>
+      <div class="a"><strong>False.</strong> Rusty sputum = <strong>lobar pneumonia</strong>. Bronchiectasis → foul-smelling, copious, blood-tinged or purulent sputum.</div>
+
+      <div class="q">Pink frothy sputum is seen in pulmonary tuberculosis (T/F)?</div>
+      <div class="a"><strong>False.</strong> Pink frothy sputum = <strong>pulmonary oedema</strong>. TB → blood-stained or haemoptysis.</div>
+
+      <div class="q">Anchovy-sauce sputum is seen in amoebic liver abscess (T/F)?</div>
+      <div class="a"><strong>True.</strong> Anchovy-sauce (brownish-red, thick) sputum = <strong>amoebic liver abscess</strong> that has ruptured into the lung/bronchus.</div>
+
+      <div class="q">Ziehl-Neelsen stain is used for demonstration of tubercle bacilli (T/F)?</div>
+      <div class="a"><strong>True.</strong> ZN stain = acid-fast stain → <em>Mycobacterium tuberculosis</em> appears as <strong>bright red acid-fast bacilli (AFB)</strong>.</div>
+
+      <div class="q">KOH preparation is done for demonstration of Aspergillus species (T/F)?</div>
+      <div class="a"><strong>True.</strong> KOH dissolves host cells, leaving fungal chitin walls intact → <em>Aspergillus</em> septate hyphae with 45° dichotomous branching visible.</div>
+
+      <div class="q">Leishman stain is used to demonstrate acid-fast bacilli in sputum (T/F)?</div>
+      <div class="a"><strong>False.</strong> Leishman stain identifies <strong>eosinophils, leukocytes, and pus cells</strong>. ZN stain is for AFB.</div>
+
+      <div class="q">Scanty sputum is seen in lung abscess (T/F)?</div>
+      <div class="a"><strong>False.</strong> Lung abscess → <strong>copious</strong> sputum. Scanty sputum = bronchitis, bronchial asthma, early pneumonia.</div>
+
+      <div class="q">Foul-smelling (foetid/putrid) sputum is seen in bronchiectasis and lung abscess (T/F)?</div>
+      <div class="a"><strong>True.</strong> Bronchiectasis, lung abscess, and gangrene → offensive/putrid sputum due to anaerobic bacterial overgrowth.</div>
+
+      <div class="q">Papanicolaou (Pap) stain in sputum is used for demonstration of malignant cells (T/F)?</div>
+      <div class="a"><strong>True.</strong> Pap stain (and H&amp;E) used for sputum cytology → detection of bronchogenic carcinoma cells.</div>
+
+      <div class="q">Green/yellow sputum is seen in viral pneumonia (T/F)?</div>
+      <div class="a"><strong>False.</strong> Green/yellow sputum = <strong>purulent conditions</strong> (bacterial infections) due to neutrophil-derived myeloperoxidase. Viral sputum is typically mucoid/white.</div>
+
+      <div class="q">🎯 "Anchovy-sauce" sputum = ? · "Rusty" sputum = ? · "Pink frothy" sputum = ?</div>
+      <div class="a">Anchovy-sauce = <strong>Amoebic liver abscess (ruptured into lung)</strong> · Rusty = <strong>Lobar pneumonia</strong> · Pink frothy = <strong>Pulmonary oedema</strong>.</div>
+
+      <div class="q">🎯 The unstained cover-slip preparation in sputum demonstrates which organisms?</div>
+      <div class="a"><strong>Entamoeba histolytica</strong> (motile trophozoites), <strong>hydatid cyst</strong> elements (hooklets, scolices), and <strong>Paragonimus</strong> eggs (lung fluke).</div>
+
+      <div class="q">🎯 Sputum examination for P. jirovecii (P. carinii) is indicated in which patient group?</div>
+      <div class="a"><strong>HIV/AIDS / immunocompromised patients</strong> with suspected <strong>Pneumocystis jirovecii</strong> pneumonia (PCP). Induced sputum + GMS stain → cysts.</div>
+
+      <div class="q">🎯 Asbestos bodies (ferruginous bodies) in sputum indicate which condition?</div>
+      <div class="a"><strong>Asbestosis</strong> — occupational asbestos exposure. Golden-brown, beaded, dumbbell-shaped structures.</div>
+
+      <div class="q">🎯 Gram stain of sputum demonstrates which organisms besides common bacteria?</div>
+      <div class="a"><strong>Actinomyces</strong> species (branching filamentous, Gram-positive) and <strong>fungi</strong> (yeast forms like <em>Candida</em>).</div>
+
+      <div class="q">🎯 How many sputum specimens should be examined for best TB screening?</div>
+      <div class="a"><strong>At least 3 early-morning specimens</strong> should be collected and examined by ZN stain for best sensitivity of AFB detection.</div>
+
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="ch28_Stool_Examination.html">← Ch 28 · Stool Examination</a></span>
+    <span>Ch 29 · Sputum Examination</span>
+    <span><a href="ch30_Miscellaneous.html">Next: Miscellaneous →</a></span>
+  </div>
+</div>
+</body>
+</html>

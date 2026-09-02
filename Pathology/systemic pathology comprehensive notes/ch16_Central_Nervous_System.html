@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch16 — The Central Nervous System | Systemic Pathology Comprehensive Notes</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
+    --txt:#e8edf7; --muted:#9aa7c4; --accent:#4fc3f7; --hot:#ff6d6d;
+    --warn:#ffd166; --good:#4ade80; --flash:#7c5cff; --flashbg:#22172f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
+  .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
+  .topnav a:hover{text-decoration:underline}
+  h1{font-size:1.8rem;margin:0 0 2px}
+  h1 .sub{display:block;font-size:.95rem;color:var(--muted);font-weight:400;margin-top:4px}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);padding:2px 10px;border-radius:20px;font-size:.75rem;color:var(--muted)}
+  h2{color:var(--accent);margin:30px 0 10px;border-bottom:1px solid var(--border);padding-bottom:6px;font-size:1.35rem}
+  h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
+  .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .bigpic p{margin:4px 0}
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
+  details[open] summary::before{content:"✅"}
+  .ans{padding:14px 18px}
+  .ans p{margin:8px 0}
+  .ans ul,.ans ol{margin:6px 0;padding-left:22px}
+  .ans li{margin:3px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  th,td{border:1px solid var(--border);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--accent)}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .hot{color:var(--hot);font-weight:700}
+  .good{color:var(--good);font-weight:600}
+  .warn{color:var(--warn);font-weight:600}
+  .mnem{background:#2a2500;border:1px solid #575011;border-left:4px solid var(--warn);padding:8px 12px;border-radius:8px;margin:8px 0}
+  .ref{color:var(--muted);font-size:.8rem;font-style:italic}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;font-size:.88em}
+  .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
+  .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
+  .toc-box a:hover{text-decoration:underline}
+  .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
+  .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
+  .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
+  .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
+  .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
+  .navfoot a{color:var(--accent);text-decoration:none}
+  @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="00_Index.html">🏠 Index</a>
+  <nav style="display:inline">
+  <a href="#infective">Infective</a><a href="#meningitis">Meningitis</a><a href="#demyelin">Demyelinating</a><a href="#degen">Degenerative</a><a href="#haemorrhage">Haemorrhage</a><a href="#tumours">Tumours</a><a href="#glioma">Glioma</a><a href="#meningioma">Meningioma</a><a href="#pnst">PNS Tumours</a><a href="#rapid">Rapid-Fire</a>
+  </nav>
+</div>
+<div class="wrap">
+  <span class="tag">Pathology · Arif Guide 2025 Vol-2 · Unit-I · pp.363–372</span>
+  <h1>Ch 16 — The Central Nervous System
+    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+  </h1>
+
+  <div class="bigpic">
+    <h3 style="margin:0 0 8px">🧠 Big Picture — Diseases of the Central Nervous System (boss-level overview)</h3>
+    <p>The CNS chapter in Arif covers <strong>six major disease groups</strong>: <strong>(1) Infective conditions</strong> — meningitis (pyogenic, viral, tuberculous), meningoencephalitis (viral, fungal, parasitic), and focal suppurative lesions (brain abscess, subdural empyema, extradural abscess); <strong>(2) Demyelinating diseases</strong> — multiple sclerosis, neuromyelitis optica, acute disseminated encephalomyelitis, central pontine myelinolysis; <strong>(3) Degenerative diseases</strong> — prion diseases (CJD), Alzheimer disease (AD), Parkinson disease (PD), Huntington disease (HD), amyotrophic lateral sclerosis (ALS); <strong>(4) Intracranial haemorrhage</strong> — traumatic and non-traumatic (hypertension, cerebral amyloid angiopathy, vascular malformations, aneurysms); <strong>(5) Tumours of the CNS</strong> — gliomas (astrocytoma, oligodendroglioma, ependymoma), meningioma, peripheral nerve sheath tumours (schwannoma, neurofibroma, MPNST), metastatic tumours; and <strong>(6) Special characteristics of CNS tumours</strong> — infiltrative growth, rare extracranial metastasis, location-dependent lethality.</p>
+    <p class="ref">Robbins 10e pp.1241–1310 · Arif Guide 2025 Vol-2, pp.363–372</p>
+  </div>
+
+  <div class="toc-box">
+    <a href="#infective">1 · Infective Conditions of CNS</a>
+    <a href="#meningitis">2 · Meningitis &amp; Meningoencephalitis</a>
+    <a href="#demyelin">3 · Demyelinating Diseases</a>
+    <a href="#degen">4 · Degenerative Diseases</a>
+    <a href="#haemorrhage">5 · Intracranial Haemorrhage</a>
+    <a href="#tumours">6 · Tumours of the CNS</a>
+    <a href="#glioma">7 · Glioma (Astrocytoma, Oligodendroglioma, Ependymoma)</a>
+    <a href="#meningioma">8 · Meningioma</a>
+    <a href="#pnst">9 · Peripheral Nerve Sheath Tumours</a>
+    <a href="#rapid">10 · Rapid-Fire MCQ &amp; Viva Sweep</a>
+  </div>
+
+  <h2 id="infective">1 · Infective Conditions of the CNS</h2>
+
+  <details>
+    <summary>🔴 What are the infective conditions of the Central Nervous System (CNS)?</summary>
+    <div class="ans">
+      <p><strong>Infective conditions of the CNS (important for VIVA):</strong></p>
+      <h3>A. Acute Meningitis</h3>
+      <ul>
+        <li>Acute pyogenic (bacterial) meningitis</li>
+        <li>Acute aseptic (viral) meningitis</li>
+      </ul>
+      <h3>B. Acute Focal Suppurative Infections</h3>
+      <ul>
+        <li>Brain abscess</li>
+        <li>Subdural empyema</li>
+        <li>Extradural abscess</li>
+      </ul>
+      <h3>C. Chronic Bacterial Meningoencephalitis</h3>
+      <ul>
+        <li>Tuberculosis (TB)</li>
+        <li>Neurosyphilis</li>
+        <li>Neuroborreliosis (Lyme disease)</li>
+      </ul>
+      <h3>D. Viral Meningoencephalitis</h3>
+      <ul>
+        <li>Arthropod-borne viral encephalitis (Arboviruses)</li>
+        <li>Herpes simplex virus (HSV) — Type 1 &amp; Type 2</li>
+        <li>Varicella-Zoster virus (Herpes zoster)</li>
+        <li>Cytomegalovirus (CMV)</li>
+        <li>Polio virus</li>
+        <li>Rabies virus</li>
+        <li>Human Immunodeficiency Virus (HIV)</li>
+        <li>Progressive multifocal leukoencephalopathy (PML)</li>
+        <li>Subacute sclerosing panencephalitis (SSPE)</li>
+      </ul>
+      <h3>E. Fungal Meningoencephalitis</h3>
+      <ul>
+        <li><em>Candida albicans</em></li>
+        <li><em>Aspergillus fumigatus</em></li>
+        <li><em>Cryptococcus neoformans</em></li>
+      </ul>
+      <h3>F. Protozoal Diseases</h3>
+      <ul>
+        <li>Malaria</li>
+        <li>Toxoplasmosis</li>
+        <li>Amebiasis</li>
+        <li>Trypanosomiasis</li>
+      </ul>
+      <h3>G. Rickettsial Infections</h3>
+      <ul>
+        <li>Typhus</li>
+        <li>Rocky Mountain spotted fever</li>
+      </ul>
+      <h3>H. Metazoal Diseases</h3>
+      <ul>
+        <li>Cysticercosis</li>
+        <li>Echinococcosis</li>
+      </ul>
+      <p class="ref">Robbins 10e pp.1241, 1261–1269</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Name some viruses that cause CNS infection. What are the neurotrophic viruses?</summary>
+    <div class="ans">
+      <p><strong>Neurotrophic viruses (target nerve tissue specifically):</strong></p>
+      <ol>
+        <li>Polio virus</li>
+        <li>Rabies virus</li>
+        <li>Herpes simplex virus (HSV — Type 1 &amp; Type 2)</li>
+        <li>Varicella-Zoster virus (VZV)</li>
+        <li>Cytomegalovirus (CMV)</li>
+        <li>Human Immunodeficiency Virus (HIV)</li>
+        <li>Mumps virus</li>
+        <li>Measles virus</li>
+        <li>Arboviruses (arthropod-borne viruses)</li>
+        <li>Coxsackie virus</li>
+        <li>Echo virus</li>
+      </ol>
+      <p class="ref">Robbins 10e p.1264</p>
+    </div>
+  </details>
+
+  <h2 id="meningitis">2 · Meningitis &amp; Meningoencephalitis</h2>
+
+  <details>
+    <summary>🔴 Define meningitis and meningoencephalitis. How are they classified?</summary>
+    <div class="ans">
+      <p><strong>Meningitis:</strong> an inflammatory process of the <strong>leptomeninges</strong> (pia mater + arachnoid mater) and the <strong>cerebrospinal fluid (CSF)</strong> within the subarachnoid space, usually caused by an infection. May also occur in response to a non-bacterial irritant (chemical meningitis).</p>
+      <p><strong>Classification of infectious meningitis (by etiology &amp; clinical evolution):</strong></p>
+      <table>
+        <tr><th>Type</th><th>Common Cause</th></tr>
+        <tr><td><strong>Acute pyogenic</strong> (suppurative)</td><td>Usually bacterial</td></tr>
+        <tr><td><strong>Aseptic</strong> (non-purulent)</td><td>Usually acute or subacute viral</td></tr>
+        <tr><td><strong>Chronic</strong></td><td>Tuberculous, spirochetal, or cryptococcal</td></tr>
+      </table>
+      <p><strong>Non-infectious causes of meningitis:</strong> chemical meningitis (non-bacterial irritant introduced into subarachnoid space), systemic autoimmune disease.</p>
+      <p><strong>Meningoencephalitis:</strong> inflammation of <strong>both the meninges AND the brain parenchyma</strong> (meninges + encephalon = meningoencephalitis).</p>
+      <p class="ref">Robbins 10e p.1261</p>
+    </div>
+  </details>
+
+  <h2 id="demyelin">3 · Demyelinating Diseases of the CNS</h2>
+
+  <details>
+    <summary>🔴 What are the demyelinating diseases of the CNS? (Important for VIVA)</summary>
+    <div class="ans">
+      <p><strong>Demyelinating diseases of the CNS:</strong> acquired conditions characterised by <span class="hot">preferential damage to myelin with relative preservation of axons</span>.</p>
+      <ol>
+        <li><strong>Multiple sclerosis (MS)</strong> — the most common demyelinating disease; chronic-relapsing; plaques in periventricular/cerebellar/spinal cord white matter.</li>
+        <li><strong>Neuromyelitis optica (Devic disease)</strong> — selective demyelination of optic nerves and spinal cord.</li>
+        <li><strong>Acute disseminated encephalomyelitis (ADEM) and acute necrotising haemorrhagic encephalomyelitis</strong> — post-infectious/post-vaccination; widespread perivenous demyelination.</li>
+        <li><strong>Central pontine myelinolysis (osmotic demyelination syndrome)</strong> — rapid correction of hyponatraemia → demyelination of pontine basis.</li>
+      </ol>
+      <p class="ref">Robbins 10e p.1269</p>
+    </div>
+  </details>
+
+  <h2 id="degen">4 · Degenerative Diseases of the CNS</h2>
+
+  <details>
+    <summary>🔴 What are the degenerative (neurodegenerative) diseases of the CNS?</summary>
+    <div class="ans">
+      <p><strong>Neurodegenerative diseases:</strong> disorders characterised by <strong>progressive loss of particular groups of neurons</strong> that often share functions. The common pathological process = accumulation of <strong>protein aggregates</strong> (hence also called "proteinopathies").</p>
+      <h3>Classification</h3>
+      <table>
+        <tr><th>Group</th><th>Specific Diseases</th></tr>
+        <tr><td><strong>Prion diseases</strong></td><td>Creutzfeldt-Jakob disease (CJD), variant CJD</td></tr>
+        <tr><td><strong>Alzheimer disease (AD)</strong></td><td>Most common cause of dementia; amyloid plaques + neurofibrillary tangles</td></tr>
+        <tr><td><strong>Frontotemporal lobar degenerations (FTLDs)</strong></td><td>Behavioural variant FTD, semantic dementia, progressive non-fluent aphasia</td></tr>
+        <tr><td><strong>Parkinson disease (PD)</strong></td><td>Loss of dopaminergic neurons in substantia nigra; Lewy bodies</td></tr>
+        <tr><td><strong>Atypical parkinsonian syndromes</strong></td><td>Progressive supranuclear palsy (PSP), corticobasal degeneration (CBD), multiple system atrophy (MSA)</td></tr>
+        <tr><td><strong>Huntington disease (HD)</strong></td><td>Autosomal dominant; CAG trinucleotide repeat; caudate atrophy</td></tr>
+        <tr><td><strong>Spinocerebellar degenerations</strong></td><td>Spinocerebellar ataxias (SCA), Friedreich ataxia, ataxia-telangiectasia</td></tr>
+        <tr><td><strong>Amyotrophic lateral sclerosis (ALS)</strong></td><td>Upper + lower motor neuron degeneration</td></tr>
+        <tr><td><strong>Other motor neuron diseases</strong></td><td>Spinal and bulbar muscular atrophy (Kennedy disease), spinal muscular atrophy (SMA)</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1273</p>
+    </div>
+  </details>
+
+  <h2 id="haemorrhage">5 · Intracranial Haemorrhage</h2>
+
+  <details>
+    <summary>🔴 What are the causes of intracranial haemorrhage?</summary>
+    <div class="ans">
+      <p><strong>Causes of intracranial haemorrhage:</strong></p>
+      <h3>1. Traumatic lesion</h3>
+      <p>Most common overall cause; extradural, subdural, subarachnoid, intracerebral.</p>
+      <h3>2. Non-traumatic causes</h3>
+      <table>
+        <tr><th>Cause</th><th>Key Details</th></tr>
+        <tr><td><strong>Hypertension</strong></td><td>Most common non-traumatic cause; affects basal ganglia, pons, cerebellum, thalamus</td></tr>
+        <tr><td><strong>Cerebral amyloid angiopathy (CAA)</strong></td><td>Elderly; amyloid deposited in cortical/leptomeningeal vessels → lobar haemorrhage</td></tr>
+        <tr><td><strong>Systemic coagulation disorder</strong></td><td>Anticoagulant therapy, DIC, thrombocytopenia, haemophilia</td></tr>
+        <tr><td><strong>Neoplasms</strong></td><td>Bleeding into primary or metastatic brain tumours</td></tr>
+        <tr><td><strong>Vasculitis</strong></td><td>Inflammation weakens vessel walls</td></tr>
+        <tr><td><strong>Aneurysms</strong></td><td>Rupture of saccular (berry) aneurysms → subarachnoid haemorrhage (SAH)</td></tr>
+        <tr><td><strong>Vascular malformations</strong></td><td>Arteriovenous malformations (AVMs), cavernous malformations, capillary telangiectasias, venous angiomas</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1257</p>
+    </div>
+  </details>
+
+  <h2 id="tumours">6 · Tumours of the CNS — Classification</h2>
+
+  <details>
+    <summary>🔴 Classify tumours of the CNS. (RMU-21/19/17M, CU-10Ja, CMU-24/23M, RMU-24M)</summary>
+    <div class="ans">
+      <p><strong>Primary CNS (intracranial) tumours</strong> may originate in the brain or spinal cord, or spread from another primary site (metastatic). Primary CNS tumours include tumours arising from constituent cells of the brain (with the sole exception of microglial cells) and from supporting tissues.</p>
+      <table>
+        <tr><th>Category</th><th>Examples</th></tr>
+        <tr><td><strong>1. Tumours of neuroglia (Gliomas)</strong></td><td>Astrocytoma, Oligodendroglioma, Ependymoma</td></tr>
+        <tr><td><strong>2. Tumours of neurons (Neuronal tumours)</strong></td><td>Neuroblastoma, Ganglioneuroblastoma, Ganglioneuroma</td></tr>
+        <tr><td><strong>3. Poorly differentiated &amp; embryonal tumours</strong></td><td>Medulloblastoma, Neuroblastoma</td></tr>
+        <tr><td><strong>4. Tumours of meninges</strong></td><td>Meningioma, Meningeal sarcoma</td></tr>
+        <tr><td><strong>5. Peripheral nerve sheath tumours</strong></td><td>Schwannoma (neurilemmoma), Neurofibroma, Malignant peripheral nerve sheath tumour (MPNST)</td></tr>
+        <tr><td><strong>6. Other parenchymal tumours</strong></td><td>Primary CNS lymphoma, Germ cell tumours, Pineal parenchymal tumours</td></tr>
+        <tr><td><strong>7. Miscellaneous tumours</strong></td><td>Malignant melanoma, Craniopharyngioma, Pineal cell tumours, Pituitary tumours</td></tr>
+        <tr><td><strong>8. Familial tumour syndromes</strong></td><td>Neurofibromatosis type 1 (NF1), Neurofibromatosis type 2 (NF2), Tuberous sclerosis</td></tr>
+        <tr><td><strong>9. Metastatic tumours</strong></td><td>More common than primary intracranial neoplasms; from lung, breast, skin (malignant melanoma), kidney, GI tract, choriocarcinoma; infiltration from lymphoma &amp; leukaemias</td></tr>
+      </table>
+      <p class="ref">Robbins 10e pp.1241, 1293; Harsh Mohan 7e pp.878, 883</p>
+    </div>
+  </details>
+
+  <details id="tumours">
+    <summary>Nice to Know: Where are metastatic tumour deposits in the brain commonly located?</summary>
+    <div class="ans">
+      <p>Metastatic tumour deposits in the brain are commonly <strong>multiple</strong>, <strong>well-defined</strong>, and usually located at the <span class="hot">grey-white matter junction</span> (watershed zone where blood supply is most vulnerable to microemboli).</p>
+      <p class="ref">Harsh Mohan 7e p.884</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 What are the special characteristics of CNS tumours / brain tumours? (Very Important for VIVA — CMU-21Nv, 20Nv/M, 19/18/17M, 14Ju, 10Ja, BUP-22M; DU-23Nv, CMU-23Nv, CU-18Nv)</summary>
+    <div class="ans">
+      <p><strong>Differences between tumours of the nervous system and tumours of other parts of the body — four unique characteristics:</strong></p>
+      <ol>
+        <li><strong>Unique clinical course:</strong> some glial tumours with <em>benign histologic features</em> (low mitotic rate, cellular uniformity, slow growth) may still <span class="hot">infiltrate large regions of the brain</span> and lead to serious clinical deficits and poor prognosis.</li>
+        <li><strong>Infiltrative behaviour → incomplete resection:</strong> because of their infiltrative growth, it is often <span class="hot">not feasible to resect glial neoplasms completely</span> without compromising neurologic function.</li>
+        <li><strong>Location-dependent lethality:</strong> any neoplasm — even a <em>benign meningioma</em> — can have <span class="hot">lethal consequences</span> if located in a critical region (e.g., compressing the medulla → cardiorespiratory arrest).</li>
+        <li><strong>Rare extracranial metastasis:</strong> even the most highly malignant gliomas <span class="hot">rarely metastasise outside the CNS</span>.</li>
+      </ol>
+      <p class="ref">Robbins 10e pp.1293, 8th ed. p.1330</p>
+    </div>
+  </details>
+
+  <h2 id="glioma">7 · Glioma — Astrocytoma, Oligodendroglioma, Ependymoma</h2>
+
+  <details id="glioma">
+    <summary>🔴 What is a glioma? Mention the types of astrocytoma. (CU-19Nv, CMU-24M)</summary>
+    <div class="ans">
+      <p><strong>Glioma:</strong> all tumours arising from <strong>neuroglia</strong> (or more precisely, from neuroectodermal epithelial tissue). Gliomas are the <span class="hot">most common primary CNS tumours</span>, collectively accounting for <strong>40% of all intracranial tumours</strong>.</p>
+      <p>They include tumours arising from:</p>
+      <ol type="a">
+        <li><strong>Astrocytes</strong> — astrocytomas and glioblastoma multiforme (GBM)</li>
+        <li><strong>Oligodendrocytes</strong> — oligodendroglioma</li>
+        <li><strong>Ependymal cells</strong> — ependymoma</li>
+        <li><strong>Choroid plexus</strong> — choroid plexus papilloma</li>
+      </ol>
+      <p>Gliomas spread to other parts of the CNS by <strong>CSF dissemination</strong> but rarely ever metastasise beyond the CNS.</p>
+      <h3>Astrocytoma — the most common primary brain tumour</h3>
+      <p>Found predominantly in late middle life (peak in 6th decade); mainly in cerebral hemispheres; in children/young adults → optic nerves, cerebellum, brainstem. Astrocytomas have a <strong>tendency to progress from low grade to higher grades of anaplasia</strong>.</p>
+      <h3>Classification by infiltration pattern</h3>
+      <table>
+        <tr><th>Type</th><th>Subtypes</th></tr>
+        <tr><td><strong>A. Infiltrating astrocytomas</strong></td><td>Diffuse astrocytoma, Anaplastic astrocytoma, Glioblastoma multiforme (GBM)</td></tr>
+        <tr><td><strong>B. Non-infiltrating astrocytomas</strong></td><td>Pilocytic astrocytoma, Pleomorphic xanthoastrocytoma, Brainstem glioma</td></tr>
+      </table>
+      <p class="ref">Robbins 10e p.1293; BRS Pathology 5th ed. p.383; Harsh Mohan 7e p.879</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Describe the WHO grading of astrocytomas — Grades I to IV with morphology.</summary>
+    <div class="ans">
+      <h3>WHO Grade I — Pilocytic Astrocytoma (Juvenile Pilocytic Astrocytoma)</h3>
+      <ul>
+        <li><strong>Gross:</strong> usually cystic or solid and circumscribed.</li>
+        <li><strong>Microscopy:</strong> predominantly composed of <strong>fusiform pilocytic astrocytes</strong> having unusually long, wavy fibrillary processes.</li>
+      </ul>
+      <p>Also: <strong>Pleomorphic xanthoastrocytoma</strong> — histologically pleomorphic and alarming but has favourable prognosis.</p>
+      <h3>WHO Grade II — Well-Differentiated (Fibrillary) Astrocytoma</h3>
+      <ul>
+        <li><strong>Gross:</strong> poorly defined, grey-white tumour of variable size; distorts underlying brain tissue and merges with surrounding tissue.</li>
+        <li><strong>Microscopy:</strong> well-differentiated astrocytes separated by variable amounts of <strong>fibrillary background of astrocytic processes</strong>.</li>
+      </ul>
+      <h3>WHO Grade III — Anaplastic Astrocytoma</h3>
+      <ul>
+        <li><strong>Gross:</strong> may not be distinguishable from low-grade astrocytoma.</li>
+        <li><strong>Microscopy:</strong> features of <strong>anaplasia</strong> — hypercellularity, pleomorphism, nuclear hyperchromatism, mitoses. Another characteristic feature = <strong>proliferation of vascular endothelium</strong>.</li>
+      </ul>
+      <h3>WHO Grade IV — Glioblastoma Multiforme (GBM)</h3>
+      <p><span class="hot">Most aggressive of all astrocytomas.</span></p>
+      <ul>
+        <li><strong>Gross:</strong> variegated appearance — some areas grey-white, others yellow and soft with <strong>foci of haemorrhages and necrosis</strong>. Surrounding normal brain distorted and infiltrated by yellow tumour tissue.</li>
+        <li><strong>Microscopy:</strong>
+          <ul>
+            <li>Highly anaplastic and cellular; cell types show marked variation: fusiform cells, small poorly-differentiated round cells, pleomorphic cells, giant cells.</li>
+            <li>Frequent mitoses; scanty glial fibrils.</li>
+            <li>Areas of <strong>tumour necrosis</strong> around which tumour cells form <strong>pseudopalisading</strong>.</li>
+            <li><strong>Microvascular endothelial proliferation</strong> is marked.</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="ref">Harsh Mohan 7e p.879; Robbins 10e p.1293</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Short note: Oligodendroglioma.</summary>
+    <div class="ans">
+      <p><strong>Oligodendroglioma:</strong> malignant tumour of <strong>oligodendrocytes</strong>; presents as a slow-growing tumour in the <strong>middle-age group</strong>, often involving the <strong>frontal lobe</strong> of the cerebral hemisphere. May present as seizures.</p>
+      <h3>Gross morphology</h3>
+      <ul>
+        <li>Infiltrative tumours that form <strong>gelatinous, grey masses</strong>; may show cysts, focal haemorrhage, and calcification.</li>
+      </ul>
+      <h3>Microscopic morphology</h3>
+      <ul>
+        <li><strong>"Fried egg" appearance:</strong> closely packed cells with large round nuclei surrounded by a clear halo of cytoplasm.</li>
+        <li>Tumour divided into groups of cells by <strong>delicate capillary strands</strong>.</li>
+        <li><strong>Foci of calcification</strong> present in <strong>90% of cases</strong>.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1295; BRS Pathology 5th ed. p.384; Pathoma</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Short note: Ependymoma.</summary>
+    <div class="ans">
+      <p><strong>Ependymoma:</strong> malignant tumour of <strong>ependymal cells</strong>, usually seen in the <strong>4th ventricle</strong>.</p>
+      <h3>Key features</h3>
+      <ul>
+        <li><strong>Perivascular pseudorosette</strong> is characteristic (pseudorosette because the central structure isn't part of the tumour; originally, pseudorosette meant any rosette that didn't have a truly empty lumen).</li>
+        <li>Tumour can result in <strong>hydrocephalus</strong> (obstruction of CSF flow by 4th ventricle mass).</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1293; BRS Pathology 5th ed. p.383; Pathoma</p>
+    </div>
+  </details>
+
+  <h2 id="meningioma">8 · Meningioma</h2>
+
+  <details>
+    <summary>🔴 Short note: Meningioma. (DU-07Ja, SU-12Ju, CU-12Ja)</summary>
+    <div class="ans">
+      <p><strong>Meningioma:</strong> the <strong>second most common primary intracranial neoplasm</strong>. Most cases are <strong>benign and slow-growing</strong>. Originates from <strong>arachnoidal cells</strong> of the meninges; is external to the brain and can often be successfully removed surgically. Can cause seizure by compression.</p>
+      <p>Uncommon in children; most often occurs <strong>after 30 years of age</strong>; shows moderate (<strong>3:2</strong>) <strong>female predominance</strong>.</p>
+      <h3>Molecular genetics</h3>
+      <p>Many show deletion, loss, or mutation in the <strong>NF2 locus</strong> (neurofibromatosis type 2 gene on chromosome 22).</p>
+      <h3>Common sites of involvement</h3>
+      <ul>
+        <li>Convexities of the cerebral hemispheres</li>
+        <li>Dura over the lateral convexity</li>
+        <li>Wing of the sphenoid</li>
+        <li>Olfactory groove</li>
+        <li>Sella turcica</li>
+        <li>Foramen magnum</li>
+      </ul>
+      <h3>Morphology</h3>
+      <p><strong>Gross:</strong> usually rounded masses with well-defined dural bases that compress underlying brain but are <strong>easily separated from it</strong>. Extension into the overlying bone may be present. Usually encapsulated with thin, fibrous tissue.</p>
+      <p><strong>Microscopy:</strong></p>
+      <ul>
+        <li><strong>Whorled pattern</strong> of concentrically arranged spindle cells.</li>
+        <li><strong>Laminated calcified Psammoma bodies</strong> may be present.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1300; BRS Pathology 5th ed. p.384</p>
+    </div>
+  </details>
+
+  <h2 id="pnst">9 · Peripheral Nerve Sheath Tumours (PNSTs)</h2>
+
+  <details>
+    <summary>🔴 Short note: Peripheral nerve sheath tumours. (CU-16Ju)</summary>
+    <div class="ans">
+      <p><strong>Peripheral nerve sheath tumours (PNSTs):</strong> a group of benign and malignant neoplasms — all likely arise from cells of <strong>Schwann cell lineage</strong>.</p>
+      <h3>Three common PNSTs</h3>
+      <ol>
+        <li><strong>Schwannoma:</strong> benign, slowly growing, encapsulated tumour arising from Schwann cells.</li>
+        <li><strong>Neurofibroma:</strong> solitary or multiple tumours of peripheral nerves derived from Schwann cells; subtypes: localised cutaneous, diffuse, or plexiform.</li>
+        <li><strong>Malignant peripheral nerve sheath tumour (MPNST):</strong> most (≈85%) are high-grade; low-grade variants recognised. About half arise in <strong>NF1</strong> patients and are assumed to result from malignant transformation of a plexiform neurofibroma.</li>
+      </ol>
+      <p><strong>Association:</strong> PNSTs have association with relatively common familial tumour syndromes: <strong>NF1, NF2, and schwannomatosis</strong>.</p>
+      <p class="ref">Robbins 10e p.1236; BRS Pathology 5th ed. p.385</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Short note: Schwannoma. (CMU-23M, 13Ju)</summary>
+    <div class="ans">
+      <p><strong>Schwannoma:</strong> a <strong>benign tumour</strong> exhibiting Schwann cell differentiation; often arises directly from peripheral nerves. Component of <strong>neurofibromatosis (NF)</strong>.</p>
+      <h3>Morphology</h3>
+      <ul>
+        <li><strong>Gross:</strong> well-circumscribed, encapsulated masses that abut the associated nerve <em>without invading it</em> — a feature that simplifies surgical excision. Firm, grey masses.</li>
+        <li><strong>Microscopy:</strong> admixture of dense and loose areas — <strong>Antoni-A areas</strong> (dense, organised) and <strong>Antoni-B areas</strong> (loose, myxoid).</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1237</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Write in brief about neurofibroma. (CU-20/13Ju, CMU-21M/20Nv)</summary>
+    <div class="ans">
+      <p><strong>Neurofibroma:</strong> a <strong>benign nerve sheath tumour</strong> in the peripheral nervous system.</p>
+      <p><strong>Origin:</strong> arises from <strong>non-myelinating-type Schwann cells</strong>. The neoplastic Schwann cells are admixed with perineurial-like cells, fibroblasts, mast cells, and CD34+ spindle cells. May be sporadic or NF1-associated.</p>
+      <h3>Subtypes (by growth pattern)</h3>
+      <ol>
+        <li><strong>Superficial cutaneous neurofibromas:</strong> often present as pedunculated nodules; seen isolated (if sporadic) or multiple (if NF1-associated).</li>
+        <li><strong>Diffuse neurofibromas:</strong> present as a large plaque-like elevation of skin; typically NF1-associated.</li>
+        <li><strong>Plexiform neurofibromas:</strong> found in deep or superficial locations in association with nerve roots or large nerves; <span class="hot">uniformly NF1-associated</span>. Risk of malignant transformation to MPNST.</li>
+      </ol>
+      <h3>Aetiology</h3>
+      <ul>
+        <li><strong>NF1 gene</strong> (neurofibromatosis type 1) — tumour suppressor gene.</li>
+        <li><strong>Schwann cells:</strong> non-myelinating Schwann cells are the neoplastic element.</li>
+        <li><strong>Loss of heterozygosity</strong> leads to loss of tumour suppressor function → neurofibroma formation.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1237</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 State the differences between schwannoma and neurofibroma. (CMU-22M, 20M)</summary>
+    <div class="ans">
+      <table>
+        <tr><th>Feature</th><th>Schwannoma</th><th>Neurofibroma</th></tr>
+        <tr><td><strong>Location</strong></td><td>Cerebellopontine angle (vestibular branch of 8th nerve); extradural sites</td><td>Dermis; along the nerve trunk</td></tr>
+        <tr><td><strong>Number</strong></td><td>Generally solitary</td><td>Solitary or multiple (if neurofibromatosis)</td></tr>
+        <tr><td><strong>Genetics</strong></td><td>Bilateral in <strong>NF2</strong> (chromosome 22 disorder, autosomal dominant)</td><td>Multiple in <strong>NF1</strong> (chromosome 17 disorder, autosomal dominant)</td></tr>
+        <tr><td><strong>Gross appearance</strong></td><td>Firm, encapsulated; cut surface tan, translucent</td><td>Soft, well-demarcated but unencapsulated; cut surface mucoid, translucent</td></tr>
+        <tr><td><strong>Microscopy</strong></td><td>Compact <strong>Antoni-A areas</strong> + loose <strong>Antoni-B areas</strong>; palisading tumour cells (<strong>Verocay bodies</strong>)</td><td>Dense collagen fibres + abundant extracellular mucoid material</td></tr>
+        <tr><td><strong>Infiltration</strong></td><td>Encapsulated; abuts edge of nerve <em>without invading it</em></td><td>May infiltrate the peripheral nerve</td></tr>
+        <tr><td><strong>Immunohistochemistry</strong></td><td><strong>S-100 protein</strong></td><td>EMA; sometimes S-100 protein</td></tr>
+        <tr><td><strong>Behaviour</strong></td><td>Invariably benign</td><td>May turn malignant</td></tr>
+      </table>
+      <p class="ref">Harsh Mohan 7e p.887</p>
+    </div>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded CNS MCQs from ch18)</h2>
+
+  <details class="rapid" open>
+    <summary>CNS — True/False &amp; one-liners (test yourself, then reveal)</summary>
+    <div class="ans">
+      <div class="q">Glioma includes: Astrocytoma (T/F), Oligodendroglioma (T/F), Schwannoma (T/F), Neurofibroma (T/F), Ependymoma (T/F)? (DU-23M)</div>
+      <div class="a">Astrocytoma = <strong>True</strong> · Oligodendroglioma = <strong>True</strong> · Schwannoma = <strong>False</strong> (nerve sheath tumour) · Neurofibroma = <strong>False</strong> (nerve sheath tumour) · Ependymoma = <strong>True</strong>.</div>
+
+      <div class="q">Following tumours are glioma: Meningioma (T/F), Medulloblastoma (T/F), Astrocytoma (T/F), Craniopharyngioma (T/F), Oligodendroglioma (T/F)? (DU-11Ju)</div>
+      <div class="a">Meningioma = <strong>False</strong> · Medulloblastoma = <strong>False</strong> · Astrocytoma = <strong>True</strong> · Craniopharyngioma = <strong>False</strong> · Oligodendroglioma = <strong>True</strong>.</div>
+
+      <div class="q">Tumours of glial cells include: Astrocytoma (T/F), Meningioma (T/F), Ependymoma (T/F), Medulloblastoma (T/F), Oligodendroglioma (T/F)? (DU-09Ja)</div>
+      <div class="a">Astrocytoma = <strong>True</strong> · Meningioma = <strong>False</strong> · Ependymoma = <strong>True</strong> · Medulloblastoma = <strong>False</strong> · Oligodendroglioma = <strong>True</strong>.</div>
+
+      <div class="q">Meningioma is the most common primary intracranial tumour (T/F)? Originates from arachnoidal cells (T/F)? Shows female predominance (T/F)?</div>
+      <div class="a">Most common = <strong>False</strong> (gliomas are most common; meningioma is 2nd most common) · Arachnoidal cells = <strong>True</strong> · Female predominance = <strong>True</strong> (3:2).</div>
+
+      <div class="q">Oligodendroglioma shows "fried egg" appearance (T/F)? Calcification in 90% (T/F)? Most common in frontal lobe (T/F)?</div>
+      <div class="a">Fried egg = <strong>True</strong> · Calcification 90% = <strong>True</strong> · Frontal lobe = <strong>True</strong>.</div>
+
+      <div class="q">Ependymoma is usually seen in the 4th ventricle (T/F)? Shows perivascular pseudorosettes (T/F)? Can cause hydrocephalus (T/F)?</div>
+      <div class="a">4th ventricle = <strong>True</strong> · Pseudorosettes = <strong>True</strong> · Hydrocephalus = <strong>True</strong>.</div>
+
+      <div class="q">Glioblastoma multiforme (GBM) shows pseudopalisading necrosis (T/F)? Microvascular endothelial proliferation (T/F)? Rarely metastasises outside CNS (T/F)?</div>
+      <div class="a">Pseudopalisading = <strong>True</strong> · Microvascular proliferation = <strong>True</strong> · Rare CNS metastasis = <strong>True</strong>.</div>
+
+      <div class="q">Schwannoma shows Antoni-A and Antoni-B areas (T/F)? Verocay bodies (T/F)? Encapsulated and non-invasive (T/F)?</div>
+      <div class="a">Antoni A/B = <strong>True</strong> · Verocay bodies = <strong>True</strong> · Encapsulated/non-invasive = <strong>True</strong>.</div>
+
+      <div class="q">Neurofibroma is uniformly associated with NF1 (T/F)? MPNST may arise from plexiform neurofibroma (T/F)? Schwannoma is associated with NF2 (T/F)?</div>
+      <div class="a">NF1 association = <strong>True</strong> (plexiform type) · MPNST from plexiform = <strong>True</strong> · Schwannoma with NF2 = <strong>True</strong>.</div>
+
+      <div class="q">🎯 One-liner: Most common primary CNS tumour? Most common intracranial tumour in elderly? "Fried egg" tumour? "Finger-like projections" tumour?</div>
+      <div class="a">Most common primary CNS = <strong>Glioma</strong> · Most common in elderly = <strong>Glioblastoma multiforme</strong> (or metastatic tumours) · "Fried egg" = <strong>Oligodendroglioma</strong> · "Finger-like projections" = <strong>Brain abscess</strong> (on CT/MRI).</div>
+
+      <div class="q">🎯 "Proteinopathy" is the common pathological process of which diseases? Name 3.</div>
+      <div class="a">Neurodegenerative diseases: <strong>Alzheimer disease</strong> (amyloid + tau), <strong>Parkinson disease</strong> (alpha-synuclein), <strong>Huntington disease</strong> (huntingtin), <strong>CJD</strong> (prion protein).</div>
+
+      <div class="q">🎯 Most common site of hypertensive intracranial haemorrhage? Most common cause of subarachnoid haemorrhage (SAH)?</div>
+      <div class="a">Hypertensive ICH = <strong>Basal ganglia (putamen)</strong> · SAH = <strong>Rupture of berry (saccular) aneurysm</strong>.</div>
+
+      <div class="q">🎯 Meningioma shows whorled pattern and which calcified structure? NF1 gene is on which chromosome? NF2 gene is on which chromosome?</div>
+      <div class="a">Psammoma bodies · NF1 = <strong>chromosome 17</strong> · NF2 = <strong>chromosome 22</strong>.</div>
+    </div>
+  </details>
+
+  <div class="navfoot">
+    <span><a href="00_Index.html">← Index</a></span>
+    <span>Ch 16 · The Central Nervous System</span>
+    <span><a href="ch17_Eye.html">Next: Eye →</a></span>
+  </div>
+</div>
+</body>
+</html>
