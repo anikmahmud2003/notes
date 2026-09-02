@@ -7,7 +7,7 @@
 >
 > 🩺 **How to use:** open the markdown file for your item → each question is fully answered with **tables**, **mnemonic one-liners** (🎯) and **bold key points** (🔴/📌) for viva prep.
 
-> 📗 **Looking for the companion chapter-by-chapter flashcards?** See [`systemic pathology comprehensive notes/`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — full-detail HTML Q→A flashcards for every Arif Vol-2 chapter (organ systems + clinical labs), start with `00_Index.html`.
+> 📗 **Looking for the companion chapter-by-chapter flashcards?** See [`systemic pathology comprehensive notes/`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — HTML Q→A flashcards for every Arif Vol-2 chapter (one short question per card + inline True/False practice), start with `00_Index.html`.
 
 ---
 

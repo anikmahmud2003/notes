@@ -63,7 +63,7 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 
 ## 📗 Comprehensive Systemic Pathology Flashcards (HTML — Arif 2025 Vol-2)
 
-> One self-contained HTML study sheet per chapter, in **flashcard (Q→A)** format, covering BOTH **Systemic Pathology** (Unit-I) and **Clinical Pathology / lab medicine** (Unit-II) of **Arif's Pathology & Haematology 15th ed. (2025) Volume 2** — every question preserved, every abbreviation expanded on first use. Built for fast, boss-level 1-day revision with active recall.
+> One self-contained HTML study sheet per chapter, in **flashcard (Q→A)** format, covering BOTH **Systemic Pathology** (Unit-I) and **Clinical Pathology / lab medicine** (Unit-II) of **Arif's Pathology & Haematology 15th ed. (2025) Volume 2** — every question preserved, every abbreviation expanded on first use. **One short question per card** (multi-part questions split into separate toggles) with bullet/table answers, plus **inline True/False practice** under each topic. Built for fast, boss-level 1-day revision with active recall.
 
 - **Start here:** [`systemic pathology comprehensive notes/00_Index.html`](systemic%20pathology%20comprehensive%20notes/00_Index.html) — master index + study guide
 - **Chapter list + README:** [`systemic pathology comprehensive notes/README.md`](systemic%20pathology%20comprehensive%20notes/README.md)
@@ -71,7 +71,7 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 **What's inside (29 chapters):**
 - **Organ systems (ch01–17):** Blood Vessels · Heart · WBC/Lymph Nodes/Spleen/Thymus · Respiratory · Head/Neck/Oral · GI · Liver & Biliary · Renal · Male Genital · Female Genital · Gestational Trophoblastic Disease · Breast · Endocrine · Skin · Bones/Joints/Soft Tissues · CNS · Eye
 - **Clinical Pathology (ch19–30):** Liver Function Test & Jaundice · Renal Function Test · Blood Glucose & Diabetes Mellitus · Semen Analysis · Body Fluids (CSF/Pleural/Ascitic) · Electrolyte & Acid-Base Balance · Enzymes · Lipid & Cholesterol · Pregnancy Test · Stool Examination · Sputum Examination · Miscellaneous
-- Volume-2 MCQ banks (Systemic ch18 & Clinical ch31) are folded into each chapter's **Rapid-Fire ❓/✅** section.
+- Volume-2 MCQ banks (Systemic ch18 & Clinical ch31) are folded into each chapter as **inline 🎯 True/False quiz blocks** (per topic) plus a **Rapid-Fire ❓/✅** one-liner sweep at the end.
 
 **File layout per chapter:** 🔴/📌/🎯 priority markers · 🧠 Big-Picture classification first · collapsible flashcards for active recall · Robbins 4-pillar answers (cause → mechanism → morphology → clinical) · tables & normal values · end-of-chapter Rapid-Fire sweep.
 

@@ -16,7 +16,7 @@
 
 - **Start here:** [`Arif Guide 2025 Extracted/_INDEX.md`](./Arif%20Guide%202025%20Extracted/_INDEX.md)
 - **Quality flags:** [`_QA_REPORT.md`](./Arif%20Guide%202025%20Extracted/_QA_REPORT.md)
-- **📗 Study-ready flashcards built from this text:** [`../systemic pathology comprehensive notes/00_Index.html`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — chapter-by-chapter HTML Q→A notes for Vol-II (Systemic + Clinical Pathology), every abbreviation expanded
+- **📗 Study-ready flashcards built from this text:** [`../systemic pathology comprehensive notes/00_Index.html`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — chapter-by-chapter HTML Q→A notes for Vol-II (Systemic + Clinical Pathology), one short question per card, inline True/False practice, every abbreviation expanded
 
 ### Vol-I — Unit-I: General Pathology
 

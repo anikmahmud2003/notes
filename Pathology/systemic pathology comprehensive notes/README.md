@@ -2,7 +2,7 @@
 
 > **Source:** Arif's Pathology & Haematology, 15th edition (2025) — Volume 2: Systemic Pathology (Unit-I) & Clinical Pathology (Unit-II), chapters 01–31 (ch18/ch31 MCQs folded into subject chapters).
 
-> **Format:** One self-contained HTML study file per chapter · Every question preserved · All abbreviations expanded on first use · Flashcard (Q→A) format with collapsible answers for active recall.
+> **Format:** One self-contained HTML study file per chapter · Every question preserved · All abbreviations expanded on first use · **One short question per flashcard** with collapsible answers for active recall.
 
 ---
 
@@ -51,7 +51,9 @@
 
 ## 📝 Notes
 
-- **MCQ chapters folded:** Systemic Pathology MCQs (V2 ch18) are distributed as a **Rapid-Fire ❓/✅** section at the end of each relevant organ-system chapter. Clinical Pathology MCQs (V2 ch31) are folded similarly into each clinical chapter.
+- **One short question per flashcard:** Multi-part questions ("define + classify + causes") are split into separate single-question toggles, so each card is short and focused. Answers use bullet points and tables (not dense paragraphs).
+- **Inline True/False practice:** Under each major topic each chapter has a 🎯 quiz block of real board/university True/False MCQs (green **T** / red **F**) — practice topic-by-topic, then reveal.
+- **MCQ chapters folded:** Systemic Pathology MCQs (V2 ch18) and Clinical Pathology MCQs (V2 ch31) are distributed as inline quiz blocks + a Rapid-Fire ❓/✅ one-liner sweep at each chapter's end.
 - **Abbreviation policy:** Every acronym is expanded in full the first time it appears within each chapter.
-- **Emoji legend:** 🔴 = MUST KNOW · 📌 = KEY POINT · 🎯 = ONE-LINER / MNEMONIC · ❓/✅ = FLASHCARD
-- **How to use:** Open any HTML file in a browser (or in Obsidian). Each file is self-contained — no external resources needed. Click any flashcard question to reveal the answer. Print button included.
+- **Emoji legend:** 🔴 = MUST KNOW · 📌 = KEY POINT · 🎯 = ONE-LINER / MNEMONIC / QUIZ · ❓/✅ = FLASHCARD
+- **How to use:** Open any HTML file in a browser (or in Obsidian). Each file is self-contained — no external resources needed. Click any flashcard question to reveal the answer.
