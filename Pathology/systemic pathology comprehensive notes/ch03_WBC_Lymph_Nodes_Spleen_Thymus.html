@@ -48,6 +48,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -104,6 +115,14 @@
       <p><strong>4. Miscellaneous:</strong> Sarcoidosis · Thyrotoxicosis · Drugs (e.g., phenytoin)</p>
       <p class="ref">Ref: Medicine Lecture SSMC; de Gruchy/5ᵉ/280</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Generalized lymphadenopathy</summary>
+    <details>
+      <summary>Causes of generalized lymphadenopathy: Tubercular infection · SLE · Coxsackie viral infection · Aspergillus fungal infection · Lipid storage disease</summary>
+      <div class="ans">Tubercular infection <span class="tf">T</span> · SLE <span class="tf">T</span> · Coxsackie viral infection <span class="ff">F</span> · Aspergillus fungal infection <span class="ff">F</span> · Lipid storage disease <span class="ff">F</span> <span class="ref">(DU-23Nv)</span></div>
+    </details>
   </details>
 
   <h2 id="cervical">2 · Cervical Lymphadenopathy</h2>
@@ -310,8 +329,16 @@
       </table>
       <h3>Investigations</h3>
       <p>See the "Investigations of lymphoma" section below.</p>
-      <p class="ref">Ref: Robbins/10ᵉ/611; Basic Hematology, Dr. Mainuddin/74; de Gruchy/5ᵉ/283; Hoffbrand Haematology/6ᵉ/254</p>
+      <p class="ref">Ref: Robbins/10ᵉ/113; Basic Hematology, Dr. Mainuddin/74; de Gruchy/5ᵉ/283; Hoffbrand Haematology/6ᵉ/254</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Burkitt lymphoma</summary>
+    <details>
+      <summary>Burkitt lymphoma: Is a T-cell lymphoma · Occurs mainly in children and young adults · Can be endemic · Appears as a mass involving the mandible if of sporadic type · Is very aggressive</summary>
+      <div class="ans">Is a T-cell lymphoma <span class="ff">F</span> (it is a B-cell lymphoma) · Occurs mainly in children and young adults <span class="tf">T</span> · Can be endemic <span class="tf">T</span> (endemic African form) · Mass involving mandible if sporadic <span class="ff">F</span> (mandible is typical of the endemic form) · Is very aggressive <span class="tf">T</span> <span class="ref">(DU-13Ju)</span></div>
+    </details>
   </details>
 
   <details>
@@ -359,6 +386,42 @@
       </table>
       <p class="ref">Ref: Robbins/10ᵉ/611; Davidson's/21ᵉ/1039; Basic Hematology, Dr. Mainuddin/76</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Reed-Sternberg cell &amp; Hodgkin lymphoma</summary>
+    <details>
+      <summary>Reed-Sternberg (RS) cells are: Tumour giant cell · Inflammatory giant cells · Found in non-Hodgkin lymphoma · Found in Hodgkin lymphoma · May have multilobed nuclei</summary>
+      <div class="ans">Tumour giant cell <span class="tf">T</span> · Inflammatory giant cells <span class="ff">F</span> · Found in NHL <span class="ff">F</span> · Found in Hodgkin lymphoma <span class="tf">T</span> · May have multilobed nuclei <span class="tf">T</span> <span class="ref">(RMU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Character of RS cell: Large cell about 15–45 μm diameter · Comes from T lymphocyte · Comes from B lymphocyte · Abundant amphophilic cytoplasm · Usually found in Non-Hodgkin's lymphoma</summary>
+      <div class="ans">Large cell 15–45 μm <span class="tf">T</span> · From T lymphocyte <span class="ff">F</span> · From B lymphocyte <span class="tf">T</span> · Abundant amphophilic cytoplasm <span class="ff">F</span> (it is eosinophilic) · Usually found in NHL <span class="ff">F</span> <span class="ref">(RU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Features of Hodgkin's lymphoma include: Presence of monomorphic cell population · Presence of R-S cells · Loss of nodal architecture · Noncontiguous spread · Extra-nodal tissue involvement</summary>
+      <div class="ans">Monomorphic cell population <span class="ff">F</span> · Presence of R-S cells <span class="tf">T</span> · Loss of nodal architecture <span class="ff">F</span> · Noncontiguous spread <span class="ff">F</span> · Extra-nodal tissue involvement <span class="ff">F</span> <span class="ref">(DU-19Nv)</span></div>
+    </details>
+    <details>
+      <summary>Subtypes of Hodgkin's lymphoma: Nodular fasciitis · Lymphocyte-poor · Lymphocyte-depletion · Lymphocyte-rich · Mixed cellularity</summary>
+      <div class="ans">Nodular fasciitis <span class="ff">F</span> · Lymphocyte-poor <span class="ff">F</span> (correct name is "lymphocyte depleted") · Lymphocyte-depletion <span class="tf">T</span> · Lymphocyte-rich <span class="tf">T</span> · Mixed cellularity <span class="tf">T</span> <span class="ref">(CU-19Nv)</span></div>
+    </details>
+    <details>
+      <summary>Hodgkin's lymphoma: R-S cell or variants are always present · Non-contiguous spread · Mesenteric lymph nodes usually involved · Involvement of both sides of diaphragm = higher stage · Extranodal involvement is common</summary>
+      <div class="ans">R-S cell or variants always present <span class="tf">T</span> · Non-contiguous spread <span class="ff">F</span> · Mesenteric nodes usually involved <span class="ff">F</span> · Both sides of diaphragm = higher stage <span class="tf">T</span> · Extranodal involvement common <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Following are features of Hodgkin's lymphoma: Polymorphous cell population · Presence of RS type of giant cell · Contiguous lymph node involvement · Monomorphic cell population · Waldeyer's ring involved</summary>
+      <div class="ans">Polymorphous cell population <span class="tf">T</span> · Presence of RS giant cell <span class="tf">T</span> · Contiguous lymph node involvement <span class="tf">T</span> · Monomorphic cell population <span class="ff">F</span> · Waldeyer's ring involved <span class="ff">F</span> (an NHL site) <span class="ref">(DU-18Ja)</span></div>
+    </details>
+    <details>
+      <summary>Hodgkin lymphoma is characterized by: Non-contiguous spread · Mesenteric nodes usually involved · Extra-nodal presentation is common · Popcorn cells sometimes present · Nodal architecture not preserved</summary>
+      <div class="ans">Non-contiguous spread <span class="ff">F</span> · Mesenteric nodes usually involved <span class="ff">F</span> · Extra-nodal presentation common <span class="ff">F</span> · Popcorn cells sometimes present <span class="tf">T</span> (L&amp;H "popcorn" cells) · Nodal architecture not preserved <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
+    </details>
+    <details>
+      <summary>Non-Hodgkin lymphoma: Usually involves single group of lymph nodes · Usually has non-contiguous spread · Does not involve spleen or mesenteric lymph nodes · Effacement of nodal architecture · Can occur in GIT</summary>
+      <div class="ans">Usually involves single group <span class="ff">F</span> · Non-contiguous spread <span class="tf">T</span> · Does not involve spleen or mesenteric nodes <span class="ff">F</span> (NHL classically involves mesenteric nodes) · Effacement of nodal architecture <span class="tf">T</span> · Can occur in GIT <span class="tf">T</span> <span class="ref">(DU-17M)</span></div>
+    </details>
   </details>
 
   <h2 id="invest">9 · Investigations of Lymphoma</h2>

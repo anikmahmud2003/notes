@@ -13,7 +13,6 @@
   *{box-sizing:border-box}
   body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
   .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
-  /* sticky top bar */
   .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
   .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
   .topnav a:hover{text-decoration:underline}
@@ -24,15 +23,14 @@
   h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
   .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
   .bigpic p{margin:4px 0}
-  /* flashcard */
-  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
-  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:8px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:10px 14px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start;font-size:.97rem}
   details summary::-webkit-details-marker{display:none}
-  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash);flex:none}
   details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
   details[open] summary::before{content:"✅"}
-  .ans{padding:14px 18px}
-  .ans p{margin:8px 0}
+  .ans{padding:12px 16px}
+  .ans p{margin:7px 0}
   .ans ul,.ans ol{margin:6px 0;padding-left:22px}
   .ans li{margin:3px 0}
   table{width:100%;border-collapse:collapse;margin:10px 0}
@@ -48,6 +46,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -69,7 +78,7 @@
 <div class="wrap">
   <span class="tag">Ch 17 · The Eye · Arif Guide 2025 Vol-2 · Unit-I · pp.373–375</span>
   <h1>Ch 17 — The Eye
-    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+    <span class="sub">Full-detail flashcards (Q→A) · one short question per card · Robbins 4-pillar answers</span>
   </h1>
 
   <div class="bigpic">
@@ -87,7 +96,6 @@
   </div>
 
   <div class="toc-box">
-    <h3 style="margin-top:0">📑 Table of Contents</h3>
     <a href="#conjunctiva">1 · Conjunctival &amp; Corneal Diseases</a>
     <a href="#cornea">2 · Corneal Diseases (detail)</a>
     <a href="#orbit">3 · Orbital Neoplasms</a>
@@ -102,250 +110,406 @@
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="conjunctiva">1 · Conjunctival &amp; Corneal Diseases</h2>
 
-  <details id="conj">
-    <summary>🔴 What are the conjunctival diseases? Describe the neoplasms of the conjunctiva.</summary>
+  <details>
+    <summary>What are the conjunctival diseases?</summary>
     <div class="ans">
-      <p><strong>Conjunctival diseases:</strong></p>
       <ol>
         <li><strong>Conjunctival scarring</strong> — due to chronic inflammation (trachoma, Stevens-Johnson syndrome), chemical burns, or surgical trauma.</li>
-        <li><strong>Pinguecula &amp; pterygium</strong> — degenerative conjunctival lesions associated with UV (ultraviolet) light exposure and chronic irritation. Pinguecula = yellowish elevated plaque on the bulbar conjunctiva (nasal side). Pterygium = wing-shaped fibrovascular growth extending from the conjunctiva onto the cornea.</li>
-        <li><strong>Neoplasms</strong> (see below).</li>
+        <li><strong>Pinguecula</strong> — yellowish elevated plaque on the bulbar conjunctiva (nasal side); associated with UV exposure.</li>
+        <li><strong>Pterygium</strong> — wing-shaped fibrovascular growth extending from conjunctiva onto the cornea; associated with UV light and chronic irritation.</li>
+        <li><strong>Neoplasms</strong> — SCC, CIN, mucoepidermoid carcinoma, nevi, melanoma (see next cards).</li>
       </ol>
-
-      <h3>Conjunctival neoplasms</h3>
-      <table>
-        <tr><th>Tumour</th><th>Key Features</th></tr>
-        <tr><td><strong>Conjunctival squamous cell carcinoma (SCC)</strong></td><td>Most common malignant conjunctival tumour. Arises from the conjunctival epithelium. Often at the limbus (corneo-conjunctival junction). Risk factors: UV exposure, HIV (Human Immunodeficiency Virus) / immunosuppression.</td></tr>
-        <tr><td><strong>Conjunctival intra-epithelial neoplasia (CIN)</strong></td><td>Precursor / pre-malignant lesion; graded I–III based on the thickness of epithelium involved. May progress to invasive SCC.</td></tr>
-        <tr><td><strong>Mucoepidermoid carcinoma</strong></td><td>Aggressive variant containing mucus-secreting (goblet) cells interspersed with squamous cells. Higher recurrence rate than pure SCC.</td></tr>
-        <tr><td><strong>Conjunctival nevi</strong></td><td>Benign melanocytic naevi; common in young adults. Usually pigmented, may show cystic changes.</td></tr>
-        <tr><td><strong>Conjunctival melanoma</strong></td><td>Malignant melanoma of the conjunctiva. May arise from a pre-existing nevus, CIN, or de novo. Can metastasise haematogenously and via lymphatics.</td></tr>
-      </table>
-      <p class="ref">Robbins 10e p.1310 · Arif 2025 p.373</p>
+      <p class="ref">Robbins 10e p.1310</p>
     </div>
   </details>
 
-  <details id="cornea">
-    <summary>🔴 What are the diseases of the cornea? Classify corneal degenerations and dystrophies.</summary>
+  <details>
+    <summary>What is the most common malignant conjunctival tumour?</summary>
     <div class="ans">
-      <p><strong>Corneal diseases:</strong></p>
-      <ol>
-        <li><strong>Keratitis and ulcers</strong> — infectious (bacterial, fungal, viral — especially herpes simplex virus (HSV)) or non-infectious. Corneal ulceration can be sight-threatening if it perforates.</li>
-        <li><strong>Corneal degenerations and dystrophies</strong> (see classification below).</li>
-      </ol>
+      <p><strong>Conjunctival squamous cell carcinoma (SCC)</strong> — arises from the conjunctival epithelium, often at the limbus. Risk factors: UV exposure, HIV/immunosuppression.</p>
+      <p class="ref">Robbins 10e p.1310</p>
+    </div>
+  </details>
 
-      <h3>Classification of corneal degenerations &amp; dystrophies</h3>
-      <table>
-        <tr><th>Type</th><th>Description</th></tr>
-        <tr><td><strong>Band keratopathy</strong></td><td>Calcium phosphate deposition in Bowman layer of the cornea, forming a horizontal "band" across the inter-palpebral zone. Associated with chronic eye disease, hypercalcaemia, and renal failure.</td></tr>
-        <tr><td><strong>Keratoconus</strong></td><td>Non-inflammatory, progressive thinning and cone-shaped protrusion of the cornea. Usually bilateral. Often presents in adolescence. Leads to irregular astigmatism.</td></tr>
-        <tr><td><strong>Fuchs endothelial dystrophy</strong></td><td>Progressive loss of corneal endothelial cells → stromal oedema → epithelial bullae ("bullous keratopathy"). Usually bilateral; more common in women. May require corneal transplant (penetrating keratoplasty) in advanced stages.</td></tr>
-        <tr><td><strong>Stromal dystrophies</strong></td><td>Group of inherited corneal opacities affecting the stroma. Includes granular, lattice, and macular dystrophies. Typically bilateral, symmetric, and slowly progressive.</td></tr>
-      </table>
-      <p class="ref">Robbins 10e p.1311 · Arif 2025 p.373</p>
+  <details>
+    <summary>What is conjunctival intra-epithelial neoplasia (CIN)?</summary>
+    <div class="ans">
+      <p>A <strong>precursor / pre-malignant lesion</strong>; graded I–III based on thickness of epithelium involved. May progress to invasive SCC.</p>
+      <p class="ref">Robbins 10e p.1310</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Distinguish mucoepidermoid carcinoma from pure SCC of the conjunctiva.</summary>
+    <div class="ans">
+      <p><strong>Mucoepidermoid carcinoma</strong> contains mucus-secreting (goblet) cells interspersed with squamous cells. It is <span class="hot">more aggressive</span> with a higher recurrence rate than pure SCC.</p>
+      <p class="ref">Robbins 10e p.1310</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are conjunctival nevi and conjunctival melanoma?</summary>
+    <div class="ans">
+      <p><strong>Conjunctival nevi:</strong> benign melanocytic naevi; common in young adults; usually pigmented, may show cystic changes.</p>
+      <p><strong>Conjunctival melanoma:</strong> malignant melanoma that may arise from a pre-existing nevus, CIN, or de novo. Can metastasise haematogenously and via lymphatics.</p>
+      <p class="ref">Robbins 10e p.1310</p>
+    </div>
+  </details>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <h2 id="cornea">2 · Corneal Diseases (detail)</h2>
+
+  <details>
+    <summary>What are the diseases of the cornea?</summary>
+    <div class="ans">
+      <ol>
+        <li><strong>Keratitis and ulcers</strong> — infectious (bacterial, fungal, viral — especially HSV) or non-infectious. Corneal ulceration can be sight-threatening if it perforates.</li>
+        <li><strong>Corneal degenerations and dystrophies</strong> — band keratopathy, keratoconus, Fuchs endothelial dystrophy, stromal dystrophies.</li>
+      </ol>
+      <p class="ref">Robbins 10e p.1311</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is band keratopathy?</summary>
+    <div class="ans">
+      <p><strong>Calcium phosphate deposition</strong> in Bowman layer of the cornea, forming a horizontal "band" across the inter-palpebral zone. Associated with chronic eye disease, hypercalcaemia, and renal failure.</p>
+      <p class="ref">Robbins 10e p.1311</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is keratoconus?</summary>
+    <div class="ans">
+      <p>Non-inflammatory, progressive <strong>thinning and cone-shaped protrusion</strong> of the cornea. Usually bilateral; often presents in adolescence. Leads to irregular astigmatism.</p>
+      <p class="ref">Robbins 10e p.1311</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is Fuchs endothelial dystrophy?</summary>
+    <div class="ans">
+      <p>Progressive loss of corneal <strong>endothelial cells → stromal oedema → epithelial bullae</strong> ("bullous keratopathy"). Usually bilateral; more common in <span class="hot">women</span>. May require corneal transplant (penetrating keratoplasty) in advanced stages.</p>
+      <p class="ref">Robbins 10e p.1311</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are corneal stromal dystrophies?</summary>
+    <div class="ans">
+      <p>Group of <strong>inherited</strong> corneal opacities affecting the stroma. Includes <strong>granular, lattice, and macular</strong> dystrophies. Typically bilateral, symmetric, and slowly progressive.</p>
+      <p class="ref">Robbins 10e p.1311</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="orbit">3 · Orbital Neoplasms</h2>
 
-  <details id="orbital-neo">
-    <summary>🔴 What are the neoplasms of the orbit? (Important for VIVA) Distinguish primary from secondary (metastatic).</summary>
+  <details>
+    <summary>What is the most common orbital tumour of infancy?</summary>
     <div class="ans">
-      <p><strong>Neoplasms of the orbit</strong> — <span class="hot">VIVA favourite</span>. Classified as primary (arising within the orbit) and secondary (metastatic to the orbit).</p>
+      <p><strong>Capillary haemangioma</strong> — benign vascular proliferation of capillary-sized vessels. Usually involutes spontaneously by age 5–7 yr.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
 
-      <h3>1. Primary orbital neoplasms</h3>
-      <table>
-        <tr><th>Tumour</th><th>Age / Key Features</th></tr>
-        <tr><td><strong>Capillary haemangioma</strong></td><td>Most common orbital tumour of <span class="hot">infancy and early childhood</span>. Benign vascular proliferation of capillary-sized vessels. Usually involutes spontaneously by age 5–7 yr.</td></tr>
-        <tr><td><strong>Lymphangioma</strong></td><td>Benign lymphatic-channel tumour. May enlarge and cause proptosis. Can undergo spontaneous haemorrhage (chocolate cyst).</td></tr>
-        <tr><td><strong>Cavernous haemangioma</strong></td><td>Most common orbital tumour in <strong>adults</strong>. Slowly progressive proptosis. Well-encapsulated; surgical excision is curative.</td></tr>
-        <tr><td><strong>Pleomorphic adenoma of the lacrimal gland</strong></td><td>Benign mixed tumour of the lacrimal gland (analogous to salivary-gland pleomorphic adenoma). Slowly growing, painless superolateral proptosis. Risk of malignant transformation if incompletely excised.</td></tr>
-        <tr><td><strong>Dermoid cyst</strong></td><td>Congenital choristoma containing ectodermal derivatives (skin, hair follicles, sebaceous glands). Most common congenital orbital mass in children.</td></tr>
-        <tr><td><strong>Neurilemmoma (Schwannoma)</strong></td><td>Benign nerve-sheath tumour arising from Schwann cells. Well-encapsulated, slow-growing.</td></tr>
-        <tr><td><strong>Orbital lymphoma</strong></td><td>Typically <strong>Non-Hodgkin lymphoma (NHL)</strong>, most commonly MALT (mucosa-associated lymphoid tissue) lymphoma. Painless, gradually progressive proptosis. Bilateral involvement possible.</td></tr>
-      </table>
+  <details>
+    <summary>What is the most common orbital tumour in adults?</summary>
+    <div class="ans">
+      <p><strong>Cavernous haemangioma</strong> — slowly progressive proptosis. Well-encapsulated; surgical excision is curative.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
 
-      <h3>2. Secondary (metastatic) orbital neoplasms</h3>
+  <details>
+    <summary>What is a lymphangioma of the orbit?</summary>
+    <div class="ans">
+      <p>Benign lymphatic-channel tumour. May enlarge and cause proptosis. Can undergo spontaneous haemorrhage → <strong>chocolate cyst</strong>.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is pleomorphic adenoma of the lacrimal gland?</summary>
+    <div class="ans">
+      <p>Benign mixed tumour of the lacrimal gland (analogous to salivary-gland pleomorphic adenoma). Slowly growing, painless superolateral proptosis. Risk of <span class="hot">malignant transformation</span> if incompletely excised.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is the most common congenital orbital mass in children?</summary>
+    <div class="ans">
+      <p><strong>Dermoid cyst</strong> — congenital choristoma containing ectodermal derivatives (skin, hair follicles, sebaceous glands).</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is a neurilemmoma (schwannoma) of the orbit?</summary>
+    <div class="ans">
+      <p>Benign nerve-sheath tumour arising from Schwann cells. Well-encapsulated, slow-growing.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is orbital lymphoma?</summary>
+    <div class="ans">
+      <p>Typically <strong>Non-Hodgkin lymphoma (NHL)</strong>, most commonly MALT lymphoma. Painless, gradually progressive proptosis. Bilateral involvement possible.</p>
+      <p class="ref">Robbins 10e p.1307</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Name the secondary (metastatic) orbital neoplasms.</summary>
+    <div class="ans">
       <ul>
         <li><strong>Metastatic prostatic carcinoma</strong> — in older males; often bilateral.</li>
-        <li><strong>Metastatic neuroblastoma</strong> — in children; may cause "raccoon eyes" (periorbital ecchymosis).</li>
+        <li><strong>Metastatic neuroblastoma</strong> — in children; may cause <span class="hot">"raccoon eyes"</span> (periorbital ecchymosis).</li>
         <li><strong>Metastatic Wilms tumour (nephroblastoma)</strong> — paediatric renal malignancy that can metastasise to the orbit.</li>
       </ul>
-      <p class="ref">Robbins 10e pp.1307, 1310, 1311 · Arif 2025 pp.373–374</p>
+      <p class="ref">Robbins 10e p.1307</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="eyelid">4 · Eyelid Malignancies</h2>
 
-  <details id="lid-mal">
-    <summary>🔴 What are the common malignancies of the eyelid? (Important for VIVA)</summary>
+  <details>
+    <summary>What is the most common eyelid malignancy?</summary>
     <div class="ans">
-      <p>Common malignancies of the eyelid (Ref: Robbins 10e p.1308):</p>
-      <ol>
-        <li><strong>Basal cell carcinoma (BCC)</strong> — <span class="hot">most common eyelid malignancy</span>. Slow-growing, locally invasive but rarely metastasises. Typically occurs on the <strong>lower eyelid</strong>. Pearly, translucent nodule with telangiectasia and central ulceration ("rodent ulcer"). Risk factors: UV exposure, fair skin, chronic sun damage.</li>
-        <li><strong>Sebaceous carcinoma</strong> — <span class="hot">second most common</span> eyelid malignancy. Arises from Meibomian glands (tarsal plate) or sebaceous glands of the eyelid. More aggressive than BCC; may metastasise. Can mimic chalazion or chronic blepharitis → high index of suspicion needed. <strong>Must be differentiated from BCC</strong> because management differs.</li>
-      </ol>
-      <div class="mnem">🎯 <strong>Bottom eyelid = BCC (most common) · Upper eyelid = Sebaceous carcinoma (think Meibomian gland origin).</strong></div>
-      <p class="ref">Robbins 10e p.1308 · Arif 2025 p.374</p>
+      <p><strong>Basal cell carcinoma (BCC)</strong> — slow-growing, locally invasive but rarely metastasises. Typically on the <strong>lower eyelid</strong>. Pearly, translucent nodule with telangiectasia and central ulceration ("rodent ulcer"). Risk factors: UV exposure, fair skin, chronic sun damage.</p>
+      <p class="ref">Robbins 10e p.1308</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is sebaceous carcinoma of the eyelid?</summary>
+    <div class="ans">
+      <p><span class="hot">Second most common</span> eyelid malignancy. Arises from <strong>Meibomian glands</strong> (tarsal plate) or sebaceous glands. More aggressive than BCC; may metastasise. Can mimic chalazion or chronic blepharitis → high index of suspicion needed.</p>
+      <div class="mnem">🎯 Bottom eyelid = BCC (most common) · Upper eyelid = Sebaceous carcinoma (think Meibomian gland origin).</div>
+      <p class="ref">Robbins 10e p.1308</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="retina">5 · Retinal Diseases</h2>
 
-  <details id="retinal-dis">
-    <summary>🔴 What are the common retinal diseases? Classify them systematically.</summary>
+  <details>
+    <summary>What is retinal detachment?</summary>
     <div class="ans">
-      <p><strong>Common retinal diseases</strong> (Ref: Robbins 10e p.1319, Arif p.374):</p>
-      <table>
-        <tr><th>Category</th><th>Conditions</th></tr>
-        <tr><td><strong>Retinal detachment</strong></td><td>Separation of the neurosensory retina from the underlying retinal pigment epithelium (RPE). Two types: <strong>rhegmatogenous</strong> (due to a retinal break allowing vitreous humour to seep under the retina) and <strong>exudative/tractional</strong> (secondary to inflammation, tumour, or proliferative membranes).</td></tr>
-        <tr><td><strong>Retinal vascular disease</strong></td><td>
-          <ul>
-            <li><strong>Hypertensive retinopathy</strong> — arteriolar narrowing, flame-shaped haemorrhages, cotton-wool spots, hard exudates, papilloedema (grade IV).</li>
-            <li><strong>Diabetic retinopathy</strong> — non-proliferative (microaneurysms, dot-and-blot haemorrhages, hard exudates, cotton-wool spots) and proliferative (neovascularisation → vitreous haemorrhage → tractional detachment).</li>
-            <li><strong>Retinopathy of prematurity (ROP)</strong> — vasoproliferative disorder of immature retinal vasculature in premature infants. May lead to retinal detachment and blindness.</li>
-            <li><strong>Radiation retinopathy</strong> — damage to retinal vasculature following ionising radiation therapy.</li>
-            <li><strong>Retinal vasculitis</strong> — inflammation of retinal vessels; may be idiopathic or secondary to systemic disease.</li>
-            <li><strong>Sickle-cell retinopathy</strong> — proliferative retinal neovascularisation in sickle-cell disease (HbS) due to retinal ischaemia from vascular occlusion.</li>
-            <li><strong>Retinal artery and vein occlusion</strong> — central or branch retinal artery occlusion (CRAO/BRAO) → painless sudden vision loss; central retinal vein occlusion (CRVO) → "blood and thunder" fundus.</li>
-          </ul>
-        </td></tr>
-        <tr><td><strong>Age-related macular degeneration (AMD)</strong></td><td>Leading cause of irreversible vision loss in the elderly (&gt;50 yr). Two forms: <strong>dry (atrophic)</strong> — drusen accumulation, RPE atrophy; <strong>wet (neovascular/exudative)</strong> — choroidal neovascularisation (CNV) → subretinal haemorrhage &amp; scarring.</td></tr>
-        <tr><td><strong>Retinitis pigmentosa</strong></td><td>Group of inherited (usually autosomal dominant) retinal dystrophies characterised by progressive night blindness, visual field constriction ("tunnel vision"), and eventual blindness. Photoreceptor (rod &gt; cone) degeneration.</td></tr>
-        <tr><td><strong>Retinitis due to <em>Candida</em> infection</strong></td><td>Endogenous <em>Candida</em> endophthalmitis — white, fluffy chorioretinal lesions. Seen in immunocompromised patients (IV drug users, ICU patients, neutropenic patients).</td></tr>
-        <tr><td><strong>Retinal neoplasms</strong></td><td>
-          <ul>
-            <li><strong>Retinoblastoma (Rb)</strong> — most common primary intraocular malignancy of children (see Section 6).</li>
-            <li><strong>Retinal lymphoma</strong> — primary intraocular lymphoma, usually diffuse large B-cell lymphoma (DLBCL); typically in elderly, immunocompromised patients.</li>
-          </ul>
-        </td></tr>
-      </table>
-      <p class="ref">Robbins 10e p.1319 · Arif 2025 pp.374–375</p>
+      <p>Separation of the <strong>neurosensory retina</strong> from the underlying retinal pigment epithelium (RPE). Two types: <strong>rhegmatogenous</strong> (retinal break → vitreous seeps under retina) and <strong>exudative/tractional</strong> (secondary to inflammation, tumour, or proliferative membranes).</p>
+      <p class="ref">Robbins 10e p.1319</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are the retinal vascular diseases?</summary>
+    <div class="ans">
+      <ul>
+        <li><strong>Hypertensive retinopathy</strong> — arteriolar narrowing, flame-shaped haemorrhages, cotton-wool spots, hard exudates, papilloedema (grade IV).</li>
+        <li><strong>Diabetic retinopathy</strong> — non-proliferative (microaneurysms, dot-and-blot haemorrhages, hard exudates, cotton-wool spots) and proliferative (neovascularisation → vitreous haemorrhage → tractional detachment).</li>
+        <li><strong>Retinopathy of prematurity (ROP)</strong> — vasoproliferative disorder of immature retinal vasculature in premature infants. May lead to retinal detachment and blindness.</li>
+        <li><strong>Radiation retinopathy</strong> — damage to retinal vasculature following ionising radiation.</li>
+        <li><strong>Retinal vasculitis</strong> — inflammation of retinal vessels; idiopathic or secondary to systemic disease.</li>
+        <li><strong>Sickle-cell retinopathy</strong> — proliferative retinal neovascularisation in sickle-cell disease due to retinal ischaemia from vascular occlusion.</li>
+        <li><strong>Retinal artery/vein occlusion</strong> — CRAO/BRAO → painless sudden vision loss; CRVO → "blood and thunder" fundus.</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1319</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is age-related macular degeneration (AMD)?</summary>
+    <div class="ans">
+      <p>Leading cause of irreversible vision loss in the <strong>elderly (&gt;50 yr)</strong>. Two forms: <strong>dry (atrophic)</strong> — drusen accumulation, RPE atrophy; <strong>wet (neovascular/exudative)</strong> — choroidal neovascularisation (CNV) → subretinal haemorrhage &amp; scarring.</p>
+      <p class="ref">Robbins 10e p.1319</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is retinitis pigmentosa?</summary>
+    <div class="ans">
+      <p>Group of <strong>inherited</strong> (usually autosomal dominant) retinal dystrophies characterised by progressive <strong>night blindness</strong>, visual field constriction ("tunnel vision"), and eventual blindness. Photoreceptor (rod &gt; cone) degeneration.</p>
+      <p class="ref">Robbins 10e p.1319</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What causes Candida retinitis?</summary>
+    <div class="ans">
+      <p>Endogenous <em>Candida</em> endophthalmitis — white, fluffy chorioretinal lesions. Seen in <strong>immunocompromised patients</strong> (IV drug users, ICU patients, neutropenic patients).</p>
+      <p class="ref">Robbins 10e p.1319</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What is retinal lymphoma?</summary>
+    <div class="ans">
+      <p>Primary intraocular lymphoma, usually <strong>diffuse large B-cell lymphoma (DLBCL)</strong>; typically in elderly, immunocompromised patients.</p>
+      <p class="ref">Robbins 10e p.1319</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="retinoblastoma">6 · Retinoblastoma (Rb)</h2>
 
-  <details id="rb">
-    <summary>🔴 Short note: Retinoblastoma. (SU-17M) — Cover pathogenesis, morphology, and clinical features.</summary>
+  <details>
+    <summary>What is retinoblastoma? Which chromosome is involved?</summary>
     <div class="ans">
-      <p><strong>Retinoblastoma (Rb):</strong> the <span class="hot">most common primary intraocular malignancy of children</span>.</p>
+      <p>The <span class="hot">most common primary intraocular malignancy of children</span>. Diagnosed usually <strong>prior to 4 years of age</strong>. Bilateral in ~30% (hereditary); unilateral in ~70% (sporadic). Gene: <strong>RB gene on chromosome 13q14</strong>.</p>
+      <div class="mnem">🎯 "13" → unlucky number for Rb patients. Two-hit hypothesis (Knudson).</div>
+      <p class="ref">Robbins 10e p.1324</p>
+    </div>
+  </details>
 
-      <h3>Age</h3>
-      <p>Diagnosed usually <strong>prior to 4 years of age</strong>. Bilateral in ~30% of cases (hereditary form); unilateral in ~70% (sporadic form).</p>
-
-      <h3>Pathogenesis (Important for VIVA)</h3>
-      <p><strong>Two mutations of the RB gene</strong>, located on <strong>chromosome 13q14</strong>, lead to neoplastic proliferation of the retinal cells.</p>
+  <details>
+    <summary>Explain the two-hit hypothesis in retinoblastoma.</summary>
+    <div class="ans">
+      <p><strong>Two mutations of the RB gene</strong> on chromosome 13q14 lead to neoplastic proliferation.</p>
       <ul>
-        <li><strong>Hereditary form:</strong> first mutation inherited (germline); second mutation acquired (somatic). Bilateral, earlier onset, higher risk of second primary tumours (e.g., osteosarcoma).</li>
-        <li><strong>Sporadic form:</strong> both mutations acquired (somatic, "two-hit" in the same cell). Unilateral, later onset.</li>
+        <li><strong>Hereditary form:</strong> first mutation inherited (germline); second acquired (somatic). Bilateral, earlier onset, higher risk of second primary tumours (e.g., osteosarcoma).</li>
+        <li><strong>Sporadic form:</strong> both mutations acquired (somatic, "two-hit" in same cell). Unilateral, later onset.</li>
       </ul>
-      <div class="mnem">🎯 <strong>RB gene = chromosome 13q14 · "13" → unlucky number for Rb patients. Two-hit hypothesis (Knudson).</strong></div>
+      <p class="ref">Robbins 10e p.1324</p>
+    </div>
+  </details>
 
-      <h3>Morphology</h3>
+  <details>
+    <summary>Describe the morphology of retinoblastoma.</summary>
+    <div class="ans">
       <ol>
-        <li>The pathology of retinoblastoma of <strong>both hereditary and sporadic type is identical</strong>.</li>
+        <li>Pathology of <strong>both hereditary and sporadic type is identical</strong>.</li>
         <li>Tumours may contain both <strong>undifferentiated and differentiated elements</strong>.</li>
         <li><strong>Undifferentiated elements:</strong> collections of small round cells with hyperchromatic nuclei ("small blue round cell tumour" of the eye).</li>
-        <li><strong>Viable tumour cells</strong> are found encircling tumour blood vessels, with zones of <strong>necrosis</strong> typically found in relatively <strong>avascular areas</strong>.</li>
-        <li><strong>Focal zones of dystrophic calcification</strong> are characteristic of retinoblastoma — visible on CT (computed tomography) scans.</li>
+        <li><strong>Viable tumour cells</strong> encircle tumour blood vessels; zones of <strong>necrosis</strong> in avascular areas.</li>
+        <li><strong>Focal zones of dystrophic calcification</strong> are characteristic — visible on CT scans.</li>
       </ol>
+      <p class="ref">Robbins 10e p.1324</p>
+    </div>
+  </details>
 
-      <h3>Clinical features</h3>
+  <details>
+    <summary>What are the clinical features of retinoblastoma?</summary>
+    <div class="ans">
       <ul>
-        <li><strong>Leukocoria ("white pupillary reflex")</strong> — most common presenting sign. A white mass reflex seen through the pupil.</li>
-        <li><strong>Strabismus (squint)</strong> — misalignment of the eyes; second most common presentation.</li>
+        <li><strong>Leukocoria ("white pupillary reflex")</strong> — most common presenting sign.</li>
+        <li><strong>Strabismus (squint)</strong> — second most common presentation.</li>
         <li>May present with painful glaucoma, proptosis, or systemic metastases (optic nerve → CNS; bone; liver).</li>
-        <li><strong>Extension:</strong> along the optic nerve into the CNS; haematogenous spread to bone, liver, lungs.</li>
+        <li><strong>Extension:</strong> along the optic nerve into CNS; haematogenous spread to bone, liver, lungs.</li>
       </ul>
-
-      <h3>Robbins reference</h3>
-      <p class="ref">Robbins 10e p.1324 · Arif 2025 pp.374–375 (SU-17M)</p>
+      <p class="ref">Robbins 10e p.1324</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="cataract">7 · Cataract</h2>
 
-  <details id="cat">
-    <summary>🔴 Short note: Cataract. Describe the causes (congenital and acquired).</summary>
+  <details>
+    <summary>Define cataract. What are the congenital causes?</summary>
     <div class="ans">
-      <p><strong>Cataract:</strong> the term describes <strong>lenticular opacities</strong> (opacification of the crystalline lens) that may be <strong>congenital or acquired</strong>. Most common cause of preventable blindness worldwide.</p>
+      <p><strong>Cataract:</strong> opacification of the crystalline lens — may be congenital or acquired. Most common cause of preventable blindness worldwide.</p>
+      <p><strong>Congenital causes:</strong> Genetic syndromes (Down, Turner), intra-uterine infections (rubella, toxoplasmosis, CMV), metabolic disorders (galactosemia), trauma.</p>
+      <p class="ref">Robbins 10e p.1313</p>
+    </div>
+  </details>
 
-      <h3>Causes of cataract</h3>
-      <table>
-        <tr><th>Category</th><th>Specific Causes</th></tr>
-        <tr><td><strong>Congenital</strong></td><td>Genetic syndromes (Down syndrome, Turner syndrome), intra-uterine infections (rubella, toxoplasmosis, CMV (cytomegalovirus)), metabolic disorders (galactosemia), trauma.</td></tr>
-        <tr><td><strong>Acquired</strong></td><td>
-          <ul>
-            <li><strong>Galactosemia</strong> — galactose-1-phosphate uridylyltransferase deficiency → galactitol accumulation in the lens → osmotic swelling → cataract. Classically "oil-droplet" cataract in infants.</li>
-            <li><strong>Diabetes mellitus (DM)</strong> — sorbitol accumulation (via aldose reductase) in the lens. Snowflake cataract.</li>
-            <li><strong>Wilson disease</strong> — copper deposition in the lens → "sunflower cataract" (pathognomonic).</li>
-            <li><strong>Atopic dermatitis</strong> — anterior subcapsular cataract.</li>
-            <li><strong>Drugs</strong> — especially <strong>corticosteroids</strong> (posterior subcapsular cataract). Other drugs: chlorpromazine, amiodarone.</li>
-            <li><strong>Radiation</strong> — ionising radiation or UV exposure.</li>
-            <li><strong>Trauma</strong> — blunt or penetrating injury → traumatic cataract.</li>
-            <li><strong>Age-related nuclear sclerosis</strong> — the most common cause overall. Progressive hardening and yellowing of the lens nucleus.</li>
-          </ul>
-        </td></tr>
-      </table>
+  <details>
+    <summary>What metabolic diseases cause cataracts?</summary>
+    <div class="ans">
+      <ul>
+        <li><strong>Galactosemia</strong> — galactitol accumulation → osmotic swelling → "oil-droplet" cataract in infants.</li>
+        <li><strong>Diabetes mellitus</strong> — sorbitol accumulation (via aldose reductase) → snowflake cataract.</li>
+        <li><strong>Wilson disease</strong> — copper deposition → <strong>"sunflower cataract"</strong> (pathognomonic).</li>
+      </ul>
+      <p class="ref">Robbins 10e p.1313</p>
+    </div>
+  </details>
 
-      <h3>Morphology (gross)</h3>
-      <p>The lens becomes <strong>white and opaque</strong> (mature cataract). Histologically: lens fibres swell, lose their nuclei, and form eosinophilic globules (Morgagnian globules) in the cortex.</p>
-      <p class="ref">Robbins 10e p.1313 · Arif 2025 p.375</p>
+  <details>
+    <summary>What is the most common cause of acquired cataract?</summary>
+    <div class="ans">
+      <p><strong>Age-related nuclear sclerosis</strong> — progressive hardening and yellowing of the lens nucleus. The most common cause overall.</p>
+      <p class="ref">Robbins 10e p.1313</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Which drugs cause cataracts? Describe the morphology.</summary>
+    <div class="ans">
+      <p><strong>Corticosteroids</strong> → posterior subcapsular cataract (most common drug cause). Other drugs: chlorpromazine, amiodarone. Radiation (ionising or UV) and trauma also cause cataracts.</p>
+      <p><strong>Morphology:</strong> lens becomes <strong>white and opaque</strong> (mature cataract). Histologically: lens fibres swell, lose nuclei, form eosinophilic <strong>Morgagnian globules</strong> in the cortex.</p>
+      <p class="ref">Robbins 10e p.1313</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
   <h2 id="glaucoma">8 · Glaucoma</h2>
 
-  <details id="glc">
-    <summary>🔴 Short note: Glaucoma. Classify glaucoma and describe its pathogenesis.</summary>
+  <details>
+    <summary>Define glaucoma. What determines IOP?</summary>
     <div class="ans">
-      <p><strong>Glaucoma:</strong> the term refers to a <strong>collection of diseases</strong> characterised by distinctive changes in the <strong>visual field</strong> and in the <strong>cup of the optic nerve</strong>. Most glaucomas are associated with <span class="hot">elevated intra-ocular pressure (IOP)</span>.</p>
+      <p><strong>Glaucoma:</strong> a collection of diseases characterised by distinctive changes in the <strong>visual field</strong> and in the <strong>cup of the optic nerve</strong>, most associated with <span class="hot">elevated intra-ocular pressure (IOP)</span>.</p>
+      <p>IOP is determined by the balance between <strong>aqueous humour production</strong> (ciliary body) and <strong>drainage</strong> (trabecular meshwork → Schlemm canal).</p>
+      <p class="ref">Robbins 10e p.1314</p>
+    </div>
+  </details>
 
-      <h3>Pathogenesis</h3>
-      <p>↑IOP → compression of retinal ganglion cell axons at the optic disc → ischaemic damage → progressive optic neuropathy → characteristic visual field loss (arcuate scotoma, nasal constriction → eventually "tunnel vision" and blindness).</p>
-      <p>IOP is determined by the balance between <strong>aqueous humour production</strong> (by the ciliary body) and <strong>drainage</strong> (through the trabecular meshwork into Schlemm canal).</p>
+  <details>
+    <summary>Describe the pathogenesis of glaucomatous optic nerve damage.</summary>
+    <div class="ans">
+      <p>↑IOP → <strong>compression of retinal ganglion cell axons</strong> at the optic disc → ischaemic damage → progressive optic neuropathy → visual field loss (arcuate scotoma, nasal constriction → eventually "tunnel vision" and blindness).</p>
+      <p class="ref">Robbins 10e p.1314</p>
+    </div>
+  </details>
 
-      <h3>Classification of glaucoma</h3>
-      <table>
-        <tr><th>Type</th><th>Description</th></tr>
-        <tr><td><strong>1. Primary open-angle glaucoma (POAG)</strong></td><td><span class="hot">Most common type overall</span>. Gradual, painless obstruction of the trabecular meshwork → slow ↑IOP. Peripheral visual field loss first; central vision preserved until late. "Silent thief of sight."</td></tr>
-        <tr><td><strong>2. Primary angle-closure glaucoma (PACG)</strong></td><td>Acute or chronic obstruction of aqueous outflow by the iris physically covering the trabecular meshwork. Predisposed by shallow anterior chamber, hypermetropia. Acute episode: sudden severe eye pain, headache, nausea, blurred vision, halos around lights, ↑↑IOP, fixed dilated pupil, red eye — <span class="hot">ophthalmic emergency</span>.</td></tr>
-        <tr><td><strong>3. Secondary open-angle glaucoma</strong></td><td>Obstruction of the trabecular meshwork by exfoliation material, pigment dispersion, traumatic hyphaema, neovascularisation, or corticosteroid use.</td></tr>
-        <tr><td><strong>4. Secondary angle-closure glaucoma</strong></td><td>Angle closure due to lens swelling (intumescent cataract), iris neovascularisation (rubeosis iridis), synechiae, or tumours pushing the iris forward.</td></tr>
-      </table>
+  <details>
+    <summary>What is primary open-angle glaucoma (POAG)?</summary>
+    <div class="ans">
+      <p><span class="hot">Most common type overall</span>. Gradual, painless obstruction of the trabecular meshwork → slow ↑IOP. Peripheral visual field loss first; central vision preserved until late. <strong>"Silent thief of sight."</strong></p>
+      <p class="ref">Robbins 10e p.1314</p>
+    </div>
+  </details>
 
-      <div class="mnem">🎯 <strong>Open-angle = painless, chronic, "silent". Angle-closure = painful, acute, "emergency". Primary = no identifiable cause; Secondary = identifiable cause.</strong></div>
-      <p class="ref">Robbins 10e p.1314 · Arif 2025 p.375</p>
+  <details>
+    <summary>What is primary angle-closure glaucoma (PACG)?</summary>
+    <div class="ans">
+      <p>Acute or chronic obstruction by the iris physically covering the trabecular meshwork. Predisposed by shallow anterior chamber, hypermetropia. Acute episode: sudden severe eye pain, headache, nausea, blurred vision, halos, ↑↑IOP, fixed dilated pupil, red eye — <span class="hot">ophthalmic emergency</span>.</p>
+      <p class="ref">Robbins 10e p.1314</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>What causes secondary glaucoma?</summary>
+    <div class="ans">
+      <p><strong>Secondary open-angle:</strong> exfoliation material, pigment dispersion, traumatic hyphaema, neovascularisation, corticosteroid use.</p>
+      <p><strong>Secondary angle-closure:</strong> lens swelling (intumescent cataract), iris neovascularisation (rubeosis iridis), synechiae, tumours pushing iris forward.</p>
+      <div class="mnem">🎯 Open-angle = painless, chronic, "silent". Angle-closure = painful, acute, "emergency".</div>
+      <p class="ref">Robbins 10e p.1314</p>
     </div>
   </details>
 
   <!-- ═══════════════════════════════════════════════════════════ -->
-  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
+  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep</h2>
 
   <details class="rapid" open>
     <summary>The Eye — True/False &amp; one-liners (test yourself, then reveal)</summary>
     <div class="ans">
       <div class="q">Retinoblastoma is the most common primary intraocular malignancy of children (T/F).</div>
-      <div class="a"><strong>True.</strong> It is diagnosed usually before the age of 4 years.</div>
+      <div class="a"><strong>True.</strong> Diagnosed usually before age 4 years.</div>
 
       <div class="q">The RB gene is located on chromosome 13q14. Two mutations are required for retinoblastoma to develop (T/F).</div>
-      <div class="a"><strong>True.</strong> Knudson's "two-hit" hypothesis. Hereditary form: one germline + one somatic; sporadic: two somatic.</div>
+      <div class="a"><strong>True.</strong> Knudson's "two-hit" hypothesis.</div>
 
       <div class="q">Leukocoria (white pupillary reflex) is the most common presenting sign of retinoblastoma (T/F).</div>
-      <div class="a"><strong>True.</strong> Strabismus (squint) is the second most common presentation.</div>
+      <div class="a"><strong>True.</strong> Strabismus (squint) is second most common.</div>
 
       <div class="q">Focal zones of dystrophic calcification are NOT characteristic of retinoblastoma (T/F).</div>
       <div class="a"><strong>False.</strong> Focal dystrophic calcification IS characteristic and visible on CT scans.</div>
 
       <div class="q">Capillary haemangioma of the orbit is the most common orbital tumour in adults (T/F).</div>
-      <div class="a"><strong>False.</strong> Capillary haemangioma is the most common in <strong>infancy and early childhood</strong>. Cavernous haemangioma is most common in adults.</div>
+      <div class="a"><strong>False.</strong> Most common in infancy/childhood. Cavernous haemangioma is most common in adults.</div>
 
       <div class="q">Cavernous haemangioma is the most common orbital tumour in adults (T/F).</div>
       <div class="a"><strong>True.</strong> Slowly progressive, well-encapsulated; surgical excision is curative.</div>
@@ -354,51 +518,51 @@
       <div class="a"><strong>True.</strong> Both are benign mixed tumours with risk of malignant transformation if incompletely excised.</div>
 
       <div class="q">Neuroblastoma and Wilms tumour can metastasise to the orbit (T/F).</div>
-      <div class="a"><strong>True.</strong> Both are common paediatric malignancies that can metastasise to the orbit. Neuroblastoma may cause "raccoon eyes."</div>
+      <div class="a"><strong>True.</strong> Neuroblastoma may cause "raccoon eyes."</div>
 
-      <div class="q">Basal cell carcinoma (BCC) is the most common eyelid malignancy, while sebaceous carcinoma is the most common benign eyelid tumour (T/F).</div>
-      <div class="a"><strong>False.</strong> BCC is the most common <strong>malignancy</strong>; sebaceous carcinoma is the <strong>second most common malignancy</strong>, not benign.</div>
+      <div class="q">BCC is the most common eyelid malignancy, while sebaceous carcinoma is the most common benign eyelid tumour (T/F).</div>
+      <div class="a"><strong>False.</strong> BCC is the most common <strong>malignancy</strong>; sebaceous carcinoma is the <strong>second most common malignancy</strong>.</div>
 
       <div class="q">Sebaceous carcinoma of the eyelid arises from Meibomian glands (T/F).</div>
-      <div class="a"><strong>True.</strong> Meibomian glands are modified sebaceous glands within the tarsal plate of the eyelid.</div>
+      <div class="a"><strong>True.</strong> Meibomian glands are modified sebaceous glands within the tarsal plate.</div>
 
-      <div class="q">Retinopathy of prematurity (ROP) affects premature infants and can lead to retinal detachment and blindness (T/F).</div>
-      <div class="a"><strong>True.</strong> Vasoproliferative disorder of immature retinal vasculature in premature infants.</div>
+      <div class="q">ROP affects premature infants and can lead to retinal detachment and blindness (T/F).</div>
+      <div class="a"><strong>True.</strong> Vasoproliferative disorder of immature retinal vasculature.</div>
 
-      <div class="q">Diabetic retinopathy is classified as non-proliferative and proliferative. Neovascularisation characterises the proliferative stage (T/F).</div>
-      <div class="a"><strong>True.</strong> Proliferative diabetic retinopathy → neovascularisation → vitreous haemorrhage → tractional retinal detachment.</div>
+      <div class="q">Diabetic retinopathy: neovascularisation characterises the proliferative stage (T/F).</div>
+      <div class="a"><strong>True.</strong> Proliferative → neovascularisation → vitreous haemorrhage → tractional detachment.</div>
 
-      <div class="q">Cataract is a lenticular opacity that can be congenital or acquired. The most common acquired cause is age-related nuclear sclerosis (T/F).</div>
-      <div class="a"><strong>True.</strong> Age-related nuclear sclerosis is the most common cause of acquired cataract worldwide.</div>
+      <div class="q">Cataract is a lenticular opacity; the most common acquired cause is age-related nuclear sclerosis (T/F).</div>
+      <div class="a"><strong>True.</strong> Most common cause of acquired cataract worldwide.</div>
 
       <div class="q">"Sunflower cataract" is associated with which metabolic disease?</div>
-      <div class="a"><strong>Wilson disease</strong> (hepatolenticular degeneration) — copper deposition in the lens forms a sunflower-shaped opacity.</div>
+      <div class="a"><strong>Wilson disease</strong> — copper deposition in the lens.</div>
 
       <div class="q">"Oil-droplet" cataract is characteristic of which metabolic disorder?</div>
-      <div class="a"><strong>Galactosemia</strong> — galactitol accumulation in the lens → osmotic swelling → characteristic oil-droplet appearance on slit-lamp examination.</div>
+      <div class="a"><strong>Galactosemia</strong> — galactitol accumulation in the lens.</div>
 
       <div class="q">Posterior subcapsular cataract is associated with corticosteroid use (T/F).</div>
-      <div class="a"><strong>True.</strong> Corticosteroids are the most common drug cause of posterior subcapsular cataract.</div>
+      <div class="a"><strong>True.</strong> Most common drug cause of posterior subcapsular cataract.</div>
 
-      <div class="q">Primary open-angle glaucoma (POAG) is the most common type of glaucoma (T/F).</div>
-      <div class="a"><strong>True.</strong> POAG is painless, chronic, and often asymptomatic until advanced — "silent thief of sight."</div>
+      <div class="q">POAG is the most common type of glaucoma (T/F).</div>
+      <div class="a"><strong>True.</strong> Painless, chronic, "silent thief of sight."</div>
 
-      <div class="q">Acute angle-closure glaucoma is an ophthalmic emergency characterised by sudden severe eye pain, a fixed dilated pupil, and markedly elevated intra-ocular pressure (T/F).</div>
-      <div class="a"><strong>True.</strong> Requires urgent treatment to prevent permanent optic nerve damage and blindness.</div>
+      <div class="q">Acute angle-closure glaucoma is an ophthalmic emergency (T/F).</div>
+      <div class="a"><strong>True.</strong> Sudden severe pain, fixed dilated pupil, markedly elevated IOP.</div>
 
       <div class="q">🎯 One-liner: most common primary intraocular malignancy of children? Most common orbital tumour of infancy? Most common orbital tumour in adults? Most common eyelid malignancy?</div>
-      <div class="a"><strong>Retinoblastoma · Capillary haemangioma · Cavernous haemangioma · Basal cell carcinoma (BCC).</strong></div>
+      <div class="a"><strong>Retinoblastoma · Capillary haemangioma · Cavernous haemangioma · BCC.</strong></div>
 
-      <div class="q">🎯 One-liner: what connects "raccoon eyes" to an orbital tumour?</div>
-      <div class="a"><strong>Metastatic neuroblastoma</strong> → periorbital ecchymosis ("raccoon eyes") in children.</div>
+      <div class="q">🎯 One-liner: "raccoon eyes" + orbital tumour =?</div>
+      <div class="a"><strong>Metastatic neuroblastoma</strong> → periorbital ecchymosis.</div>
 
-      <div class="q">🎯 One-liner: which corneal dystrophy classically affects women and may require corneal transplant?</div>
-      <div class="a"><strong>Fuchs endothelial dystrophy</strong> — progressive loss of endothelial cells → stromal oedema → bullous keratopathy.</div>
+      <div class="q">🎯 One-liner: which corneal dystrophy classically affects women and may require transplant?</div>
+      <div class="a"><strong>Fuchs endothelial dystrophy</strong> — progressive loss of endothelial cells → bullous keratopathy.</div>
 
-      <div class="q">🎯 One-liner: what is the mechanism of glaucoma-induced optic nerve damage?</div>
-      <div class="a"><strong>Elevated IOP</strong> → compression of retinal ganglion cell axons at the optic disc → ischaemic damage → progressive optic neuropathy.</div>
+      <div class="q">🎯 One-liner: mechanism of glaucoma-induced optic nerve damage?</div>
+      <div class="a"><strong>Elevated IOP</strong> → compression of retinal ganglion cell axons → ischaemic damage.</div>
 
-      <div class="q">🎯 No eye-specific MCQs were found in the systemic pathology MCQ bank (V2-ch18). All rapid-fire items above are source-derived from Arif pp.373–375.</div>
+      <div class="q">🎯 One-liner: no eye-specific MCQs found in the systemic pathology MCQ bank (V2-ch18). All items above are source-derived from Arif pp.373–375.</div>
       <div class="a"><strong>Confirmed: the MCQ file covers Blood Vessels → Nervous System but has no dedicated Eye section.</strong></div>
     </div>
   </details>

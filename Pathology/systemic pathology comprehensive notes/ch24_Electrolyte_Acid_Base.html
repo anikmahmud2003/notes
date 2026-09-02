@@ -54,6 +54,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"\U0001F3AF ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F \2192 "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -641,81 +651,136 @@
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded clinical MCQs from ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>Electrolytes &amp; Acid-Base — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hypokalaemia</summary>
+    <details>
+      <summary>Causes of hypokalaemia include: (BUP-22Nv) Diabetic ketoacidosis (F), Diarrhoea (T), Haemolysis (F), Purgative abuse (T), Use of diuretics (T)?</summary>
+      <div class="ans">DKA <span class="ff">F</span> (DKA actually causes hyperkalaemia from K⁺ shift) · diarrhoea <span class="tf">T</span> · haemolysis <span class="ff">F</span> (→ hyperkalaemia) · purgative abuse <span class="tf">T</span> · diuretics <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hypokalaemia include: (DU-16Ja) Metabolic alkalosis (T), Respiratory acidosis (F), Acute renal failure (F), Cushing syndrome (T), Secondary aldosteronism (T)?</summary>
+      <div class="ans">Metabolic alkalosis <span class="tf">T</span> · respiratory acidosis <span class="ff">F</span> · acute renal failure <span class="ff">F</span> (ARF → hyperkalaemia) · Cushing syndrome <span class="tf">T</span> · secondary aldosteronism <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Following conditions are associated with hypokalaemia: (DU-12Ju) End-stage of renal failure (F), Adrenal insufficiency (F), Metabolic alkalosis (T), Nasogastric suction (T), Rhabdomyolysis (F)?</summary>
+      <div class="ans">End-stage renal failure <span class="ff">F</span> (→ hyperkalaemia) · adrenal insufficiency <span class="ff">F</span> (Addison's → hyperkalaemia) · metabolic alkalosis <span class="tf">T</span> · nasogastric suction <span class="tf">T</span> · rhabdomyolysis <span class="ff">F</span> (cell breakdown → hyperkalaemia).</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hyperkalaemia</summary>
+    <details>
+      <summary>Causes of hyperkalaemia include: (DU-16Ju) Haemolysis (T), Treatment with thiazide diuretic (F), Acidosis (T), Diarrhoea (F), Hyperaldosteronism (F)?</summary>
+      <div class="ans">Haemolysis <span class="tf">T</span> · thiazide diuretic <span class="ff">F</span> (thiazides → hypokalaemia) · acidosis <span class="tf">T</span> · diarrhoea <span class="ff">F</span> (→ hypokalaemia) · hyperaldosteronism <span class="ff">F</span> (aldosterone → hypokalaemia).</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hyponatraemia</summary>
+    <details>
+      <summary>Causes of hyponatraemia include: (DU-08Ju) Excess ADH secretion (F), Congestive cardiac failure (T), Diuretics (T), Dehydration (F), Excessive ingestion of salt (F)?</summary>
+      <div class="ans">Excess ADH (SIADH) <span class="ff">F</span> (SIADH actually causes hyponatraemia by water retention — flag: Arif lists SIADH under euvolaemic hyponatraemia, so this marked as False is a known MCQ quirk; clinically SIADH IS a cause of hyponatraemia) · CCF <span class="tf">T</span> · diuretics <span class="tf">T</span> · dehydration <span class="ff">F</span> · excess salt <span class="ff">F</span> (→ hypernatraemia).</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Major serum electrolytes</summary>
+    <details>
+      <summary>Major serum electrolytes: (DU-22Nv) Calcium (T), Potassium (T), Phosphate (F), Chloride (T), Magnesium (F)?</summary>
+      <div class="ans">Calcium <span class="tf">T</span> · potassium <span class="tf">T</span> · phosphate <span class="ff">F</span> · chloride <span class="tf">T</span> · magnesium <span class="ff">F</span> . (The "big five" measured are Na, K, Cl, HCO₃, Ca.)</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hypocalcaemia</summary>
+    <details>
+      <summary>Causes of hypocalcaemia include: (DU-09Ja) Hypoparathyroidism (T), Renal failure (T), Sarcoidosis (F), Hypervitaminosis D (F), Malabsorption (T)?</summary>
+      <div class="ans">Hypoparathyroidism <span class="tf">T</span> · renal failure <span class="tf">T</span> · sarcoidosis <span class="ff">F</span> (→ hypercalcaemia) · hypervitaminosis D <span class="ff">F</span> (→ hypercalcaemia) · malabsorption <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hypercalcaemia</summary>
+    <details>
+      <summary>Causes of hypercalcaemia include: (DU-21Ja,20Nv/M) Hyperthyroidism (T), Sarcoidosis (T), Vit-D intoxication (T), Metastatic tumour of bone (F), Non-Hodgkin's lymphoma (T)?</summary>
+      <div class="ans">Hyperthyroidism <span class="tf">T</span> (thyrotoxicosis) · sarcoidosis <span class="tf">T</span> · Vit-D intoxication <span class="tf">T</span> · metastatic tumour of bone <span class="ff">F</span> · non-Hodgkin's lymphoma <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hypercalcaemia include: (DU-15Ju) Hyperparathyroidism (T), Sarcoidosis (T), Vitamin A deficiency (F), Malabsorption (F), Menopause (F)?</summary>
+      <div class="ans">Hyperparathyroidism <span class="tf">T</span> · sarcoidosis <span class="tf">T</span> · vit-A deficiency <span class="ff">F</span> · malabsorption <span class="ff">F</span> (→ hypocalcaemia) · menopause <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hypercalcaemia include: (DU-14Ju) Hyperparathyroidism (T), Multiple myeloma (T), Malabsorption syndrome (F), Sarcoidosis (T), Gout (F)?</summary>
+      <div class="ans">Hyperparathyroidism <span class="tf">T</span> · multiple myeloma <span class="tf">T</span> (malignancy) · malabsorption <span class="ff">F</span> · sarcoidosis <span class="tf">T</span> · gout <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Metabolic acidosis</summary>
+    <details>
+      <summary>Metabolic acidosis may be due to: (DU-23M) Excessive vomiting (F), Hyperventilation (F), Uncontrolled diabetes mellitus (T), Acute renal failure (T), Hepatic failure (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="ff">F</span> (→ metabolic ALKALOSIS) · hyperventilation <span class="ff">F</span> (→ respiratory alkalosis) · uncontrolled DM <span class="tf">T</span> (DKA) · acute renal failure <span class="tf">T</span> · hepatic failure <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis include: (DU-21Oct/M) Diarrhoea (T), Diabetic ketoacidosis (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</summary>
+      <div class="ans">Diarrhoea <span class="tf">T</span> · DKA <span class="tf">T</span> · primary hyperaldosteronism <span class="ff">F</span> (→ metabolic alkalosis) · severe vomiting <span class="tf">T</span> (as listed in source; vomiting of intestinal content/fistula = HCO₃⁻ loss) · shock <span class="ff">F</span> (source marks it False).</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis are: (DU-19Nv) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), Excessive severe diabetes mellitus (T), Head injury (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="tf">T</span> · increased alkali intake <span class="ff">F</span> (→ alkalosis) · excessive diarrhoea <span class="tf">T</span> · severe DM <span class="tf">T</span> · head injury <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis include: (DU-18M) Uncontrolled diabetes mellitus (T), Diarrhoea (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</summary>
+      <div class="ans">Uncontrolled DM <span class="tf">T</span> · diarrhoea <span class="tf">T</span> · primary hyperaldosteronism <span class="ff">F</span> · severe vomiting <span class="tf">T</span> · shock <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis are (DU-18M): Excessive vomiting (T), Increase alkali intake (F), Excessive diarrhoea (T), Uncontrolled diabetes mellitus (T), Prolonged starvation (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="tf">T</span> · increased alkali intake <span class="ff">F</span> · excessive diarrhoea <span class="tf">T</span> · uncontrolled DM <span class="tf">T</span> · prolonged starvation <span class="ff">F</span> (starvation actually causes metabolic acidosis via ketoacidosis — source marks this MCQ as False; note the textbook physiology affirms starvation ketosis).</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis are: (DU-17Ja) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), DIC (F), Head injury (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="tf">T</span> · increased alkali intake <span class="ff">F</span> · excessive diarrhoea <span class="tf">T</span> · DIC <span class="ff">F</span> · head injury <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Metabolic acidosis may be due to: (DU-14Ja) Overdose of insulin (F), Uncontrolled diabetes mellitus (T), Ketoacidosis (T), Hyperventilation (T), Excessive vomiting (T)?</summary>
+      <div class="ans">Overdose of insulin <span class="ff">F</span> (→ hypoglycaemia) · uncontrolled DM <span class="tf">T</span> · ketoacidosis <span class="tf">T</span> · hyperventilation <span class="tf">T</span> (source marks as True here) · excessive vomiting <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic acidosis are: (DU-13/12J,11/10/08Ju) Ketoacidosis (T), Chronic renal failure (T), Vomiting (F), Cushing syndrome (F), Acute renal failure (T)?</summary>
+      <div class="ans">Ketoacidosis <span class="tf">T</span> · chronic renal failure <span class="tf">T</span> · vomiting <span class="ff">F</span> · Cushing <span class="ff">F</span> (→ alkalosis) · acute renal failure <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Metabolic alkalosis</summary>
+    <details>
+      <summary>Metabolic alkalosis may be due to: (DU-19M) Excessive vomiting (T), Thiazide diuretics (T), Hyperventilation (F), Conn's syndrome (F), Milk-alkali syndrome (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="tf">T</span> · thiazide diuretics <span class="tf">T</span> · hyperventilation <span class="ff">F</span> (→ respiratory alkalosis) · Conn's syndrome <span class="ff">F</span> (per this MCQ; though aldosterone excess is a classic cause of metabolic alkalosis — answer key marks it False) · milk-alkali syndrome <span class="ff">F</span> (per this key; milk-alkali is classically a cause of metabolic alkalosis + hypercalcaemia).</div>
+    </details>
+    <details>
+      <summary>Causes of metabolic alkalosis are: (DU-15Ja) Potassium depletion (F), Cushing syndrome (T), Severe diarrhoea (T), Shock (F), Conn's syndrome (T)?</summary>
+      <div class="ans">Potassium depletion <span class="ff">F</span> · Cushing syndrome <span class="tf">T</span> · severe diarrhoea <span class="tf">T</span> · shock <span class="ff">F</span> · Conn's syndrome <span class="tf">T</span> (primary hyperaldosteronism → metabolic alkalosis).</div>
+    </details>
+    <details>
+      <summary>Metabolic alkalosis can be due to: (DU-13Ju) Excessive vomiting (T), Intake of alkali (T), Acute renal failure (F), Complication of uncontrolled diabetes mellitus (F), Hyperventilation (F)?</summary>
+      <div class="ans">Excessive vomiting <span class="tf">T</span> · intake of alkali <span class="tf">T</span> · acute renal failure <span class="ff">F</span> (→ metabolic acidosis) · uncontrolled DM complication <span class="ff">F</span> (→ acidosis) · hyperventilation <span class="ff">F</span> (→ respiratory alkalosis).</div>
+    </details>
+  </details>
+
+
+    <details class="rapid" open>
+    <summary>Electrolyte & Acid-Base Balance — One-Liners & Mnemonics (test yourself, then reveal)</summary>
     <div class="ans">
 
       <div class="q">Normal values: blood pH, arterial/venous; urine pH; serum Na⁺; serum K⁺; serum Cl⁻; serum HCO₃⁻; serum Ca²⁺.</div>
       <div class="a">Blood pH 7.35–7.45 (arterial 7.45, venous 7.35) · urine ~6.0 (4.5–6.8) · Na⁺ 135–145 mmol/L · K⁺ 3.6–5.1 · Cl⁻ 95–107 · HCO₃⁻ 21–29 · Ca²⁺ 2.1–2.6 (9–11 mg/dl).</div>
-
-      <div class="q">Causes of hypokalaemia include: (BUP-22Nv) Diabetic ketoacidosis (F), Diarrhoea (T), Haemolysis (F), Purgative abuse (T), Use of diuretics (T)?</div>
-      <div class="a">DKA = <strong>False</strong> (DKA actually causes hyperkalaemia from K⁺ shift) · diarrhoea = <strong>True</strong> · haemolysis = <strong>False</strong> (→ hyperkalaemia) · purgative abuse = <strong>True</strong> · diuretics = <strong>True</strong>.</div>
-
-      <div class="q">Causes of hyperkalaemia include: (DU-16Ju) Haemolysis (T), Treatment with thiazide diuretic (F), Acidosis (T), Diarrhoea (F), Hyperaldosteronism (F)?</div>
-      <div class="a">Haemolysis = <strong>True</strong> · thiazide diuretic = <strong>False</strong> (thiazides → hypokalaemia) · acidosis = <strong>True</strong> · diarrhoea = <strong>False</strong> (→ hypokalaemia) · hyperaldosteronism = <strong>False</strong> (aldosterone → hypokalaemia).</div>
-
-      <div class="q">Causes of hypokalaemia include: (DU-16Ja) Metabolic alkalosis (T), Respiratory acidosis (F), Acute renal failure (F), Cushing syndrome (T), Secondary aldosteronism (T)?</div>
-      <div class="a">Metabolic alkalosis = <strong>True</strong> · respiratory acidosis = <strong>False</strong> · acute renal failure = <strong>False</strong> (ARF → hyperkalaemia) · Cushing syndrome = <strong>True</strong> · secondary aldosteronism = <strong>True</strong>.</div>
-
-      <div class="q">Following conditions are associated with hypokalaemia: (DU-12Ju) End-stage of renal failure (F), Adrenal insufficiency (F), Metabolic alkalosis (T), Nasogastric suction (T), Rhabdomyolysis (F)?</div>
-      <div class="a">End-stage renal failure = <strong>False</strong> (→ hyperkalaemia) · adrenal insufficiency = <strong>False</strong> (Addison's → hyperkalaemia) · metabolic alkalosis = <strong>True</strong> · nasogastric suction = <strong>True</strong> · rhabdomyolysis = <strong>False</strong> (cell breakdown → hyperkalaemia).</div>
-
-      <div class="q">Causes of hyponatraemia include: (DU-08Ju) Excess ADH secretion (F), Congestive cardiac failure (T), Diuretics (T), Dehydration (F), Excessive ingestion of salt (F)?</div>
-      <div class="a">Excess ADH (SIADH) = <strong>False</strong> (SIADH actually causes hyponatraemia by water retention — flag: Arif lists SIADH under euvolaemic hyponatraemia, so this marked as False is a known MCQ quirk; clinically SIADH IS a cause of hyponatraemia) · CCF = <strong>True</strong> · diuretics = <strong>True</strong> · dehydration = <strong>False</strong> · excess salt = <strong>False</strong> (→ hypernatraemia).</div>
-
-      <div class="q">Major serum electrolytes: (DU-22Nv) Calcium (T), Potassium (T), Phosphate (F), Chloride (T), Magnesium (F)?</div>
-      <div class="a">Calcium = <strong>True</strong> · potassium = <strong>True</strong> · phosphate = <strong>False</strong> · chloride = <strong>True</strong> · magnesium = <strong>False</strong>. (The "big five" measured are Na, K, Cl, HCO₃, Ca.)</div>
-
-      <div class="q">Causes of hypocalcaemia include: (DU-09Ja) Hypoparathyroidism (T), Renal failure (T), Sarcoidosis (F), Hypervitaminosis D (F), Malabsorption (T)?</div>
-      <div class="a">Hypoparathyroidism = <strong>True</strong> · renal failure = <strong>True</strong> · sarcoidosis = <strong>False</strong> (→ hypercalcaemia) · hypervitaminosis D = <strong>False</strong> (→ hypercalcaemia) · malabsorption = <strong>True</strong>.</div>
-
-      <div class="q">Causes of hypercalcaemia include: (DU-21Ja,20Nv/M) Hyperthyroidism (T), Sarcoidosis (T), Vit-D intoxication (T), Metastatic tumour of bone (F), Non-Hodgkin's lymphoma (T)?</div>
-      <div class="a">Hyperthyroidism = <strong>True</strong> (thyrotoxicosis) · sarcoidosis = <strong>True</strong> · Vit-D intoxication = <strong>True</strong> · metastatic tumour of bone = <strong>False</strong> · non-Hodgkin's lymphoma = <strong>True</strong>.</div>
-
-      <div class="q">Causes of hypercalcaemia include: (DU-15Ju) Hyperparathyroidism (T), Sarcoidosis (T), Vitamin A deficiency (F), Malabsorption (F), Menopause (F)?</div>
-      <div class="a">Hyperparathyroidism = <strong>True</strong> · sarcoidosis = <strong>True</strong> · vit-A deficiency = <strong>False</strong> · malabsorption = <strong>False</strong> (→ hypocalcaemia) · menopause = <strong>False</strong>.</div>
-
-      <div class="q">Causes of hypercalcaemia include: (DU-14Ju) Hyperparathyroidism (T), Multiple myeloma (T), Malabsorption syndrome (F), Sarcoidosis (T), Gout (F)?</div>
-      <div class="a">Hyperparathyroidism = <strong>True</strong> · multiple myeloma = <strong>True</strong> (malignancy) · malabsorption = <strong>False</strong> · sarcoidosis = <strong>True</strong> · gout = <strong>False</strong>.</div>
-
-      <div class="q">Metabolic acidosis may be due to: (DU-23M) Excessive vomiting (F), Hyperventilation (F), Uncontrolled diabetes mellitus (T), Acute renal failure (T), Hepatic failure (F)?</div>
-      <div class="a">Excessive vomiting = <strong>False</strong> (→ metabolic ALKALOSIS) · hyperventilation = <strong>False</strong> (→ respiratory alkalosis) · uncontrolled DM = <strong>True</strong> (DKA) · acute renal failure = <strong>True</strong> · hepatic failure = <strong>False</strong>.</div>
-
-      <div class="q">Causes of metabolic acidosis include: (DU-21Oct/M) Diarrhoea (T), Diabetic ketoacidosis (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</div>
-      <div class="a">Diarrhoea = <strong>True</strong> · DKA = <strong>True</strong> · primary hyperaldosteronism = <strong>False</strong> (→ metabolic alkalosis) · severe vomiting = <strong>True</strong> (as listed in source; vomiting of intestinal content/fistula = HCO₃⁻ loss) · shock = <strong>False</strong> (source marks it False).</div>
-
-      <div class="q">Causes of metabolic acidosis are: (DU-19Nv) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), Excessive severe diabetes mellitus (T), Head injury (F)?</div>
-      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> (→ alkalosis) · excessive diarrhoea = <strong>True</strong> · severe DM = <strong>True</strong> · head injury = <strong>False</strong>.</div>
-
-      <div class="q">Causes of metabolic acidosis include: (DU-18M) Uncontrolled diabetes mellitus (T), Diarrhoea (T), Primary hyperaldosteronism (F), Severe vomiting (T), Shock (F)?</div>
-      <div class="a">Uncontrolled DM = <strong>True</strong> · diarrhoea = <strong>True</strong> · primary hyperaldosteronism = <strong>False</strong> · severe vomiting = <strong>True</strong> · shock = <strong>False</strong>.</div>
-
-      <div class="q">Causes of metabolic acidosis are (DU-18M): Excessive vomiting (T), Increase alkali intake (F), Excessive diarrhoea (T), Uncontrolled diabetes mellitus (T), Prolonged starvation (F)?</div>
-      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> · excessive diarrhoea = <strong>True</strong> · uncontrolled DM = <strong>True</strong> · prolonged starvation = <strong>False</strong> (starvation actually causes metabolic acidosis via ketoacidosis — source marks this MCQ as False; note the textbook physiology affirms starvation ketosis).</div>
-
-      <div class="q">Causes of metabolic acidosis are: (DU-17Ja) Excessive vomiting (T), Increased alkali intake (F), Excessive diarrhoea (T), DIC (F), Head injury (F)?</div>
-      <div class="a">Excessive vomiting = <strong>True</strong> · increased alkali intake = <strong>False</strong> · excessive diarrhoea = <strong>True</strong> · DIC = <strong>False</strong> · head injury = <strong>False</strong>.</div>
-
-      <div class="q">Metabolic acidosis may be due to: (DU-14Ja) Overdose of insulin (F), Uncontrolled diabetes mellitus (T), Ketoacidosis (T), Hyperventilation (T), Excessive vomiting (T)?</div>
-      <div class="a">Overdose of insulin = <strong>False</strong> (→ hypoglycaemia) · uncontrolled DM = <strong>True</strong> · ketoacidosis = <strong>True</strong> · hyperventilation = <strong>True</strong> (source marks as True here) · excessive vomiting = <strong>True</strong>.</div>
-
-      <div class="q">Causes of metabolic acidosis are: (DU-13/12J,11/10/08Ju) Ketoacidosis (T), Chronic renal failure (T), Vomiting (F), Cushing syndrome (F), Acute renal failure (T)?</div>
-      <div class="a">Ketoacidosis = <strong>True</strong> · chronic renal failure = <strong>True</strong> · vomiting = <strong>False</strong> · Cushing = <strong>False</strong> (→ alkalosis) · acute renal failure = <strong>True</strong>.</div>
-
-      <div class="q">Metabolic alkalosis may be due to: (DU-19M) Excessive vomiting (T), Thiazide diuretics (T), Hyperventilation (F), Conn's syndrome (F), Milk-alkali syndrome (F)?</div>
-      <div class="a">Excessive vomiting = <strong>True</strong> · thiazide diuretics = <strong>True</strong> · hyperventilation = <strong>False</strong> (→ respiratory alkalosis) · Conn's syndrome = <strong>False</strong> (per this MCQ; though aldosterone excess is a classic cause of metabolic alkalosis — answer key marks it False) · milk-alkali syndrome = <strong>False</strong> (per this key; milk-alkali is classically a cause of metabolic alkalosis + hypercalcaemia).</div>
-
-      <div class="q">Causes of metabolic alkalosis are: (DU-15Ja) Potassium depletion (F), Cushing syndrome (T), Severe diarrhoea (T), Shock (F), Conn's syndrome (T)?</div>
-      <div class="a">Potassium depletion = <strong>False</strong> · Cushing syndrome = <strong>True</strong> · severe diarrhoea = <strong>True</strong> · shock = <strong>False</strong> · Conn's syndrome = <strong>True</strong> (primary hyperaldosteronism → metabolic alkalosis).</div>
-
-      <div class="q">Metabolic alkalosis can be due to: (DU-13Ju) Excessive vomiting (T), Intake of alkali (T), Acute renal failure (F), Complication of uncontrolled diabetes mellitus (F), Hyperventilation (F)?</div>
-      <div class="a">Excessive vomiting = <strong>True</strong> · intake of alkali = <strong>True</strong> · acute renal failure = <strong>False</strong> (→ metabolic acidosis) · uncontrolled DM complication = <strong>False</strong> (→ acidosis) · hyperventilation = <strong>False</strong> (→ respiratory alkalosis).</div>
 
       <div class="q">🎯 One-liners: What does hypokalaemic metabolic alkalosis suggest? What causes metabolic acidosis in DKA? What is the ECG hallmark of hypokalaemia? What is the early ECG sign of hyperkalaemia?</div>
       <div class="a"><strong>Hypokalaemic (hypochloraemic) metabolic alkalosis = vomiting / gastric aspiration / pyloric stenosis</strong> · DKA acidosis = ketoacids (acetoacetic &amp; β-hydroxybutyric) · hypokalaemia = T-wave changes (flattened/inverted, U waves) · hyperkalaemia = <strong>peaked T wave</strong> (then wide QRS → diastolic cardiac arrest).</div>
 
       <div class="q">🎯 One-liner mnemonics: respiratory vs metabolic? Compensation direction? Anion-gap acidosis examples?</div>
       <div class="a"><strong>ROME</strong> = Respiratory Opposite, Metabolic Equal (pH vs pCO₂ opposite in respiratory; pH vs HCO₃⁻ same in metabolic) · lungs compensate metabolic disorders (↓pCO₂ in acidosis, ↑pCO₂ in alkalosis), kidneys compensate respiratory disorders · <strong>Anion-gap acidosis: MUDPILES</strong> = Methanol, Uraemia, DKA, Paraldehyde, Isoniazid/Iron, Lactic acidosis, Ethylene glycol, Salicylates.</div>
+
     </div>
   </details>
 

@@ -1,0 +1,108 @@
+==============================================================
+ BOOK → HTML FLASHCARD CONVERTER — PROMPT (reusable for any book)
+==============================================================
+Use this prompt to convert ANY textbook/source into the study
+HTML-flashcard format used throughout this repo. Give it to an
+agent along with (a) the book/source file and (b) the exact
+target file name. Do NOT skip any step below.
+
+--------------------------------------------------------------
+1) OUTPUT FILE & FOLDER
+--------------------------------------------------------------
+- Put the result in the appropriate folder:
+    Pathology/systemic pathology comprehensive notes/
+  (for any new subject, create a folder and register it in
+  README.md + index.html FALLBACK_PATHS as well).
+- Name: one HTML file per chapter, e.g. `chNN_Short_Topic.html`.
+- Copy the EXACT <style> block and page skeleton from the
+  already-converted sample `ch01_Blood_Vessels.html` (CSS vars,
+  sticky topnav, bigpic box, table styles, quiz styles, etc.).
+
+--------------------------------------------------------------
+2) PAGE STRUCTURE (every chapter)
+--------------------------------------------------------------
+<DOCTYPE html><html><head>style...</head><body>
+  - .topnav  : sticky bar, link to 00_Index.html + anchor links
+               to each <h2> topic.
+  - header   : .tag (subject · arif guide vol · pages) + <h1>
+               chapter title + .sub tag line.
+  - .bigpic  : one 🧠 "Big Picture / boss-level overview" box
+               summarizing the whole chapter with the master
+               classification/lists.
+  - <h2> topic headings, in strict chapter order.
+  - flashcards (see 3).
+  - .quiz    : inline True/False practice per topic (see 4).
+  - .navfoot : prev/next chapter links.
+</body></html>
+
+--------------------------------------------------------------
+3) FLASHCARDS — ONE SMALL QUESTION PER <details>
+   (CRITICAL RULE)
+--------------------------------------------------------------
+- EVERY <details> card = EXACTLY ONE short, focused question.
+- SPLIT any multi-part question into separate cards. NEVER put
+  "Define + classify + causes + complications" inside one toggle.
+  Each sub-part is its own toggle, e.g.:
+      ❓ Define arteriosclerosis
+      ❓ Classify arteriosclerosis (4 patterns)
+      ❓ Distinguish arteriosclerosis vs atherosclerosis
+- <summary> = the question (bold, `❓` prefix via CSS).
+- <div class="ans"> = the answer, formatted as POINTS/TABLES,
+  NOT long running paragraphs.
+
+--------------------------------------------------------------
+4) ANSWER VISUAL FORMAT (the user's #1 requirement)
+--------------------------------------------------------------
+Answers MUST be visually broken up so lines are short and scannable.
+RULES:
+  - Prefer <ul>/<ol> bullet POINTS over prose paragraphs.
+  - Use <table> whenever comparing 2+ things (types, causes,
+    differences, normal values, mechanisms vs examples).
+  - One row per concept; keep cell text short.
+  - Use <div class="mnem"> for one-line mnemonics (🎯).
+  - Use <span class="hot"> for the single must-say point,
+    <span class="good"> for a key fact.
+  - Every answer ends with <p class="ref"> source citation.
+  - NO giant unbroken <p> paragraphs. Break everything into
+    points, lists, or tables.
+
+--------------------------------------------------------------
+5) TRUE/FALSE PRACITCE — inline per topic (.quiz)
+--------------------------------------------------------------
+- Under each major topic's flashcards, add:
+      <details class="quiz"><summary>🎯 True/False practice — Topic</summary>
+         <details><summary>The T/F question stem</summary>
+         <div class="ans">Item <span class="tf">T</span> /
+              Item2 <span class="ff">F</span> ...</div></details>
+         ... one <details> per T/F question ...
+      </details>
+- Use the REAL True/False MCQs from the textbook's MCQ chapter
+  (e.g. Arif V2-ch18, V2-ch31), labelled with board/university
+  tag like (DU-15Ju) when available.
+- Green span.tf = True, red span.ff = False.
+- This lets the student test themselves question-by-question.
+
+--------------------------------------------------------------
+6) ABBREVIATIONS & ACCURACY
+--------------------------------------------------------------
+- Expand EVERY abbreviation in full on its FIRST use per chapter
+  (e.g. IHD = ischaemic heart disease).
+- Preserve the source's facts exactly; Robbins 10e cross-check.
+- Keep the 🔴/📌/🎯 priority markers of the original source.
+
+--------------------------------------------------------------
+7) RAPID-FIRE (end of chapter)
+--------------------------------------------------------------
+- End with <details class="rapid"> "🔁 Rapid-Fire One-liners"
+  containing short ❓ one-liner Qs and ✅ answers (mnemonics,
+  "pulseless disease = Takayasu", etc.).
+
+--------------------------------------------------------------
+8) VERIFY BEFORE FINISHING
+--------------------------------------------------------------
+- Validate the HTML: balanced details/summary/div tags, no stray
+  closing tags (run an HTMLParser check).
+- Confirm every <h2> has an anchor link in .topnav.
+- Confirm every flashcard follows rule 3 (one question each).
+- Register file: README folder table + index.html FALLBACK_PATHS.
+- No empty/misnamed files left behind.

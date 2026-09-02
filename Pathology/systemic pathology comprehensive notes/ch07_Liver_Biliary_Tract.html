@@ -48,6 +48,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -241,7 +252,18 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Liver Failure</summary>
+    <details>
+      <summary>Causes of chronic liver disease include: Hepatitis A virus · Hepatitis B virus · Hepatitis C virus · Human papilloma virus · Hepatitis E virus</summary>
+      <div class="ans">Hepatitis A virus <span class="ff">F</span> · Hepatitis B virus <span class="tf">T</span> · Hepatitis C virus <span class="tf">T</span> · Human papilloma virus <span class="ff">F</span> · Hepatitis E virus <span class="ff">F</span> <span class="ref">(DU-23M)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="hepatitis">3 · Viral Hepatitis</h2>
 
   <details>
@@ -413,7 +435,26 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Viral Hepatitis</summary>
+    <details>
+      <summary>Hepatitis A virus can produce: Haemolytic jaundice · Acute hepatitis · Chronic hepatitis · Fulminant hepatitis · Carrier state</summary>
+      <div class="ans">Haemolytic jaundice <span class="ff">F</span> · Acute hepatitis <span class="tf">T</span> · Chronic hepatitis <span class="ff">F</span> · Fulminant hepatitis <span class="tf">T</span> · Carrier state <span class="ff">F</span> <span class="ref">(DU-15Ju)</span></div>
+    </details>
+    <details>
+      <summary>Hepatitis C virus is associated with: Chronic hepatitis · Ground glass hepatocyte · Fatty change in hepatocytes · Neutrophils in portal triad · Faecal-oral transmission</summary>
+      <div class="ans">Chronic hepatitis <span class="tf">T</span> · Ground glass hepatocyte <span class="ff">F</span> · Fatty change in hepatocytes <span class="tf">T</span> · Neutrophils in portal triad <span class="ff">F</span> · Faecal-oral transmission <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Morphology of acute hepatitis includes: Ballooning degeneration · Bile duct proliferation · Bridging necrosis · Portal tract infiltration · Fibrosis</summary>
+      <div class="ans">Ballooning degeneration <span class="tf">T</span> · Bile duct proliferation <span class="ff">F</span> · Bridging necrosis <span class="tf">T</span> · Portal tract infiltration <span class="tf">T</span> · Fibrosis <span class="tf">T</span> <span class="ref">(DU-14Ju)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="cirrhosis">4 · Cirrhosis of Liver</h2>
 
   <details>
@@ -565,7 +606,30 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Cirrhosis of Liver</summary>
+    <details>
+      <summary>Liver cirrhosis is associated with: Splenomegaly · Haemorrhoids · Normal PT · Spider angioma · Proteinuria</summary>
+      <div class="ans">Splenomegaly <span class="tf">T</span> · Haemorrhoids <span class="tf">T</span> · Normal PT <span class="ff">F</span> · Spider angioma <span class="tf">T</span> · Proteinuria <span class="tf">T</span> <span class="ref">(DU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Followings are associated with cirrhosis of liver: Disorganisation of hepatic architecture · Localised oedema · Iron overload · Portal hypotension · Enlarged liver</summary>
+      <div class="ans">Disorganisation of hepatic architecture <span class="tf">T</span> · Localised oedema <span class="ff">F</span> · Iron overload <span class="ff">F</span> · Portal hypotension <span class="ff">F</span> · Enlarged liver <span class="tf">T</span> <span class="ref">(RU-18M)</span></div>
+    </details>
+    <details>
+      <summary>In chronic liver disease: Prothrombin time is prolonged · Serum bilirubin is always raised · Serum ALP is raised · A:G ratio is altered · Serum albumin is decreased</summary>
+      <div class="ans">PT prolonged <span class="tf">T</span> · Bilirubin always raised <span class="ff">F</span> · ALP raised <span class="ff">F</span> · A:G ratio altered <span class="tf">T</span> · Albumin decreased <span class="tf">T</span> <span class="ref">(DU-13Ju)</span></div>
+    </details>
+    <details>
+      <summary>Complication of cirrhosis of liver include: Hepatocellular carcinoma · Ascites · Haematemesis and melena · Testicular atrophy · Hyperlipidaemia</summary>
+      <div class="ans">HCC <span class="tf">T</span> · Ascites <span class="tf">T</span> · Haematemesis/melena <span class="tf">T</span> · Testicular atrophy <span class="ff">F</span> · Hyperlipidaemia <span class="ff">F</span> <span class="ref">(DU-21Ja)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="pht">5 · Portal Hypertension</h2>
 
   <details>
@@ -612,7 +676,26 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Portal Hypertension</summary>
+    <details>
+      <summary>Consequences of portal hypertension include: Oesophageal varices · Ascites · Increased bilirubin · Congestive splenomegaly</summary>
+      <div class="ans">Oesophageal varices <span class="tf">T</span> · Ascites <span class="tf">T</span> · Increased bilirubin <span class="ff">F</span> · Congestive splenomegaly <span class="tf">T</span> <span class="ref">(DU-19M)</span></div>
+    </details>
+    <details>
+      <summary>Major consequences of portal hypertension include: Hepatic encephalopathy · Ascites · Formation of porto-systemic venous shunt · Congestive splenomegaly</summary>
+      <div class="ans">Hepatic encephalopathy <span class="tf">T</span> · Ascites <span class="tf">T</span> · Portosystemic shunt <span class="tf">T</span> · Congestive splenomegaly <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
+    </details>
+    <details>
+      <summary>Features of portal hypertension include: Ascites · Oesophageal varices · Splenomegaly · Haemorrhoids · Caput medusa in anterior abdominal wall</summary>
+      <div class="ans">Ascites <span class="tf">T</span> · Oesophageal varices <span class="tf">T</span> · Splenomegaly <span class="tf">T</span> · Haemorrhoids <span class="tf">T</span> · Caput medusa <span class="tf">T</span> <span class="ref">(RU-14Ja)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="ascites">6 · Ascites in Cirrhosis</h2>
 
   <details>
@@ -840,7 +923,22 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hepatocellular Carcinoma</summary>
+    <details>
+      <summary>Etiological factors relevant to HCC include: Viral infection · Tobacco smoking · Chronic alcoholism · Helicobacter pylori infection · Exposure to aflatoxin</summary>
+      <div class="ans">Viral infection <span class="tf">T</span> · Tobacco smoking <span class="ff">F</span> · Chronic alcoholism <span class="tf">T</span> · H. pylori infection <span class="ff">F</span> · Aflatoxin <span class="tf">T</span> <span class="ref">(DU-16Ja)</span></div>
+    </details>
+    <details>
+      <summary>Causes of hepatocellular carcinoma include: Viral hepatitis · Aflatoxin · Hereditary haemochromatosis · α₁-antitrypsin deficiency</summary>
+      <div class="ans">Viral hepatitis <span class="tf">T</span> · Aflatoxin <span class="tf">T</span> · Haemochromatosis <span class="tf">T</span> · α₁-antitrypsin deficiency <span class="tf">T</span> <span class="ref">(RU-14Ja)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="abscess">12 · Liver Abscess</h2>
 
   <details>
@@ -970,7 +1068,30 @@
     </div>
   </details>
 
-  <!-- ============================================================ -->
+  
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Gallstones</summary>
+    <details>
+      <summary>Complications of gallstone include: Empyema of the gall bladder · Carcinoma of the gall bladder · Liver failure · Renal failure · Cirrhosis of liver</summary>
+      <div class="ans">Empyema <span class="tf">T</span> · Carcinoma <span class="tf">T</span> · Liver failure <span class="ff">F</span> · Renal failure <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> <span class="ref">(RMU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Conditions predisposing to gall stone formation include: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Raised serum triglycerides</summary>
+      <div class="ans">Viral hepatitis <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> · Hereditary spherocytosis <span class="tf">T</span> · Obesity <span class="tf">T</span> · Raised triglycerides <span class="ff">F</span> <span class="ref">(DU-21Ja)</span></div>
+    </details>
+    <details>
+      <summary>Gallstones are associated with: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Sickle cell anaemia</summary>
+      <div class="ans">Viral hepatitis <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> · Hereditary spherocytosis <span class="tf">T</span> · Obesity <span class="tf">T</span> · Sickle cell anaemia <span class="tf">T</span> <span class="ref">(DU-13Ju)</span></div>
+    </details>
+    <details>
+      <summary>Obstruction of common bile duct is associated with: Great increase in ALP · Increase in serum unconjugated bilirubin · Decrease in faecal stercobilinogen · Increase in faecal fat · Increase in urinary urobilinogen</summary>
+      <div class="ans">ALP increase <span class="tf">T</span> · Unconjugated bilirubin increase <span class="ff">F</span> · Faecal stercobilinogen decrease <span class="tf">T</span> · Faecal fat increase <span class="tf">T</span> · Urinary urobilinogen increase <span class="ff">F</span> <span class="ref">(DU-13Ju)</span></div>
+    </details>
+  </details>
+
+
+<!-- ============================================================ -->
   <h2 id="cholecystitis">15 · Acute &amp; Chronic Cholecystitis</h2>
 
   <details>

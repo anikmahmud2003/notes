@@ -46,6 +46,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -175,6 +185,14 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Testicular tumours &amp; markers</summary>
+    <div class="ans">
+      <details><summary>Following are testicular tumours: seminoma, choriocarcinoma, hamartoma, dysgerminoma, teratoma. (DU-24Nv)</summary><div class="ans">Item <span class="tf">Seminoma = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Hamartoma = False</span> · <span class="ff">Dysgerminoma = False</span> (ovarian GCT; testicular counterpart is seminoma) · <span class="tf">Teratoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Biomarkers for diagnosis of testicular tumours: AFP, HCG, LDH, CEA, CA-125. (CMU-22M)</summary><div class="ans">Item <span class="tf">AFP = True</span> · <span class="tf">HCG = True</span> · <span class="ff">LDH = False</span> · <span class="ff">CEA = False</span> · <span class="ff">CA-125 = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Germ cell tumours of testis: seminoma, NHL, choriocarcinoma, teratoma, yolk sac tumour. (DU-19M)</summary><div class="ans">Item <span class="tf">Seminoma = True</span> · <span class="ff">NHL = False</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="tf">Teratoma = True</span> · <span class="tf">Yolk sac tumour = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <h2>4 · Cryptorchidism</h2>
 
   <details id="cryptorchidism">
@@ -211,8 +229,7 @@
 
   <h2>5 · Seminoma</h2>
 
-  <details id="seminoma">
-    <summary>🔴 Give the morphology (gross + microscopic) and prognosis of seminoma.</summary>
+  <details id="seminoma">    <summary>🔴 Give the morphology (gross + microscopic) and prognosis of seminoma.</summary>
     <div class="ans">
       <p><strong>Definition:</strong> A malignant germ cell tumour of the testis — the <span class="hot">most common testicular GCT (50%)</span>.</p>
       <h3>Characteristics</h3>
@@ -250,10 +267,16 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Seminoma</summary>
+    <div class="ans">
+      <details><summary>Seminoma is (RU-17M): most common testicular tumour in young; large cells with distinct membrane; produces AFP &amp; HCG; sex cord-stromal tumour; poor prognosis?</summary><div class="ans">Item <span class="tf">Most common in young = True</span> · <span class="tf">Large cells with distinct membrane = True</span> · <span class="ff">Produces AFP &amp; HCG = False</span> (low hCG possible, but no AFP) · <span class="ff">Sex cord-stromal = False</span> (it is a GCT) · <span class="ff">Poor prognosis = False</span> (good, radiosensitive) <span class="ref">(RU-17M)</span></div></details>
+      <details><summary>Seminoma (DU-13Ju): tumour of infant; advanced clinical stage; better prognosis than other GCTs; radio-resistant; uniform population of large cells?</summary><div class="ans">Item <span class="ff">Infant tumour = False</span> (4th decade) · <span class="ff">Advanced stage = False</span> · <span class="tf">Better prognosis than other GCTs = True</span> · <span class="ff">Radio-resistant = False</span> · <span class="tf">Uniform large cells = True</span> <span class="ref">(DU-13Ju)</span></div></details>
+    </div>
+  </details>
+
   <h2>6 · Choriocarcinoma</h2>
 
-  <details id="chorio">
-    <summary>🔴 Short note: Choriocarcinoma of the testis.</summary>
+  <details id="chorio">    <summary>🔴 Short note: Choriocarcinoma of the testis.</summary>
     <div class="ans">
       <p><strong>Definition:</strong> A highly malignant type of germ cell tumour (GCT) that can occur as an element of other GCTs.</p>
       <h3>Characteristics</h3>
@@ -481,6 +504,19 @@
       </table>
       <div class="mnem">🎯 <strong>BPH vs CaP = "No Basal in Cancer":</strong> Benign glands have basal cells; cancer glands lack them. Benign = periurethral; Cancer = peripheral.</div>
       <p class="ref">Arif 15e Vol-2 pp.260–261; Robbins 10e pp.976–982</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Nodular hyperplasia (BPH) &amp; Prostatic carcinoma</summary>
+    <div class="ans">
+      <details><summary>Nodular hyperplasia of prostate (CMU-22M): DHT stimulation; peripheral zone involved; hyperplasia of glandular + stromal component; TURP is gold standard; frequent malignant transformation?</summary><div class="ans">Item <span class="tf">DHT stimulation = True</span> · <span class="ff">Peripheral zone = False</span> (transition/periurethral) · <span class="tf">Glandular + stromal hyperplasia = True</span> · <span class="tf">TURP gold standard = True</span> · <span class="ff">Frequent malignant transformation = False</span> <span class="ref">(CMU-22M)</span></div></details>
+      <details><summary>Nodular hyperplasia of prostate (RU-19M): common &gt;50 yr; premalignant; urinary obstruction; peripheral zone; proliferation stromal + epithelial?</summary><div class="ans">Item <span class="tf">Common &gt;50 yr = True</span> · <span class="ff">Premalignant = False</span> · <span class="tf">Urinary obstruction = True</span> · <span class="ff">Peripheral zone = False</span> · <span class="tf">Stromal + epithelial proliferation = True</span> <span class="ref">(RU-19M)</span></div></details>
+      <details><summary>Nodular hyperplasia of prostate (DU-14Ju): DHT stimulation; elderly male; peripheral region; glands + stroma; risk factor for carcinoma?</summary><div class="ans">Item <span class="tf">DHT = True</span> · <span class="tf">Elderly male = True</span> · <span class="ff">Peripheral region = False</span> · <span class="tf">Glands + stroma = True</span> · <span class="ff">Risk factor for carcinoma = False</span> <span class="ref">(DU-14Ju)</span></div></details>
+      <details><summary>Nodular hyperplasia of prostate (DU-10Ju): DHT; ~90% males &gt;70; peripheral; gland + stroma; risk factor for adenocarcinoma?</summary><div class="ans">Item <span class="tf">DHT = True</span> · <span class="ff">90% over 70 = False</span> · <span class="ff">Peripheral = False</span> · <span class="tf">Gland + stroma = True</span> · <span class="tf">Risk factor for adenocarcinoma = True</span> <span class="ref">(DU-10Ju)</span></div></details>
+      <details><summary>Carcinoma prostate (DU-18Ja): production of hormone; raised acid phosphatase; hypercalcaemia; frequent bony metastasis; raised PSA?</summary><div class="ans">Item <span class="ff">Production of hormone = False</span> · <span class="tf">Raised acid phosphatase = True</span> · <span class="ff">Hypercalcaemia = False</span> · <span class="tf">Frequent bony metastasis = True</span> · <span class="tf">Raised PSA = True</span> <span class="ref">(DU-18Ja)</span></div></details>
+      <details><summary>Carcinoma of prostate (DU-16Ja): hormone-dependent; soft on PR; raised acid phosphatase; hypercalcaemia; osteoblastic metastasis?</summary><div class="ans">Item <span class="tf">Hormone-dependent = True</span> · <span class="ff">Soft on PR = False</span> (hard) · <span class="tf">Raised acid phosphatase = True</span> · <span class="ff">Hypercalcaemia = False</span> · <span class="tf">Osteoblastic mets = True</span> <span class="ref">(DU-16Ja)</span></div></details>
+      <details><summary>Prostatic carcinoma (DU-12/09Ja): usually SCC; mets to lumbosacral spine; osteolytic; regresses with oestrogen; secretes alkaline phosphatase?</summary><div class="ans">Item <span class="ff">Usually SCC = False</span> (adenocarcinoma) · <span class="tf">Lumbosacral spine mets = True</span> · <span class="ff">Osteolytic = False</span> · <span class="tf">Regresses with oestrogen = True</span> · <span class="ff">Alkaline phosphatase = False</span> (acid) <span class="ref">(DU-12/09Ja)</span></div></details>
+      <details><summary>Serum PSA raised in (DU-15Ja): acute prostatitis; nodular hyperplasia; testicular neoplasm; carcinoma of seminal vesicle; adenocarcinoma prostate?</summary><div class="ans">Item <span class="tf">Acute prostatitis = True</span> · <span class="ff">Nodular hyperplasia = False</span> (Arif key) · <span class="ff">Testicular neoplasm = False</span> · <span class="ff">Carcinoma seminal vesicle = False</span> · <span class="tf">Adenocarcinoma prostate = True</span> <span class="ref">(DU-15Ja)</span></div></details>
     </div>
   </details>
 

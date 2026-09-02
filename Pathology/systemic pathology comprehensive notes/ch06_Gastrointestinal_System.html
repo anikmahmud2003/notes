@@ -49,6 +49,17 @@
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
@@ -652,6 +663,38 @@
     </div>
   </details>
 
+  <details class="quiz">
+    <summary>🎯 True/False practice — Peptic ulcer, complications &amp; gastric carcinoma</summary>
+    <details>
+      <summary>Complications of peptic ulcer disease: Haematemesis · Adenocarcinoma · Perforation · Profuse vomiting · Diarrhoea</summary>
+      <div class="ans">Haematemesis <span class="tf">T</span> · Adenocarcinoma <span class="tf">T</span> (gastric ulcer &lt;1%) · Perforation <span class="tf">T</span> · Profuse vomiting <span class="ff">F</span> · Diarrhoea <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Complications of peptic ulcer disease: Perforation · Reflux oesophagitis · Pyloric stenosis · Diarrhoea · Haematemesis</summary>
+      <div class="ans">Perforation <span class="tf">T</span> · Reflux oesophagitis <span class="tf">T</span> · Pyloric stenosis <span class="tf">T</span> (obstruction) · Diarrhoea <span class="ff">F</span> · Haematemesis <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
+    </details>
+    <details>
+      <summary>Peptic ulcer: Fungating ulcer morphology · Clean ulcer bed · Premalignant condition · Can complicate with melaena · Usually multiple when due to H. pylori</summary>
+      <div class="ans">Fungating <span class="ff">F</span> (punched-out) · Clean bed <span class="tf">T</span> · Premalignant <span class="tf">T</span> (gastric) · Melaena <span class="tf">T</span> · Multiple <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
+    </details>
+    <details>
+      <summary>Factors associated with gastric carcinoma: H. pylori infection · Higher socio-economic status · Barrett's oesophagus · Partial gastrectomy · Blood group B</summary>
+      <div class="ans">H. pylori <span class="tf">T</span> · Higher SES <span class="ff">F</span> · Barrett's <span class="ff">F</span> (oesophageal) · Partial gastrectomy <span class="tf">T</span> (stump) · Blood group B <span class="ff">F</span> (group A) <span class="ref">(DU-22Nv)</span></div>
+    </details>
+    <details>
+      <summary>Gastric carcinoma is associated with: Persistent H. pylori infection · Prolonged aspirin intake · Alcoholism · Chronic atrophic gastritis · Crohn's disease</summary>
+      <div class="ans">H. pylori <span class="tf">T</span> · Aspirin <span class="ff">F</span> · Alcoholism <span class="ff">F</span> · Chronic atrophic gastritis <span class="tf">T</span> · Crohn's <span class="ff">F</span> <span class="ref">(DU-21Ja,20Nv/M,17M)</span></div>
+    </details>
+    <details>
+      <summary>Gastric carcinoma: Partial gastrectomy · Barrett's oesophagus · Refined carbohydrate intake · High fatty diet · Positive occult blood test</summary>
+      <div class="ans">Partial gastrectomy <span class="tf">T</span> (stump) · Barrett's <span class="tf">T</span> · Refined carbohydrate <span class="ff">F</span> (CRC) · High fat <span class="ff">F</span> (CRC) · Occult blood <span class="tf">T</span> <span class="ref">(RU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Duodenal ulcer: Less common than gastric ulcer · Hypersecretion of gastric acid · Usually multiple (H. pylori) · 2nd/3rd part of duodenum · Requires surgery</summary>
+      <div class="ans">Less common <span class="ff">F</span> (4× more common) · Hypersecretion <span class="tf">T</span> · Multiple <span class="tf">T</span> · 2nd/3rd part <span class="ff">F</span> (1st part) · Surgery <span class="ff">F</span> (usually medical) <span class="ref">(RU-14Ja)</span></div>
+    </details>
+  </details>
+
   <h2 id="gist">2c · Gastrointestinal Stromal Tumour (GIST)</h2>
 
   <details>
@@ -1077,6 +1120,38 @@
     </div>
   </details>
 
+  <details class="quiz">
+    <summary>🎯 True/False practice — Crohn's disease &amp; ulcerative colitis</summary>
+    <details>
+      <summary>Crohn's disease includes: Transmural inflammation · Pseudopolyp formation · Crypt abscess · Caseating granuloma · Occurs in colon and rectum</summary>
+      <div class="ans">Transmural <span class="tf">T</span> · Pseudopolyp <span class="ff">F</span> (UC) · Crypt abscess <span class="ff">F</span> (UC) · Caseating granuloma <span class="ff">F</span> (non-caseating) · Colon &amp; rectum <span class="tf">T</span> <span class="ref">(DU-24Nv)</span></div>
+    </details>
+    <details>
+      <summary>Characteristics of Crohn's disease: Transmural · Caseating granuloma · Continuous lesion · Toxic megacolon · Fistula formation</summary>
+      <div class="ans">Transmural <span class="tf">T</span> · Caseating granuloma <span class="ff">F</span> (non-caseating) · Continuous <span class="ff">F</span> (skip) · Toxic megacolon <span class="ff">F</span> (UC) · Fistula <span class="tf">T</span> <span class="ref">(DU-23Nv)</span></div>
+    </details>
+    <details>
+      <summary>Features of Crohn's disease: Shallow ulcer · Skip lesion · Transmural involvement · Non-caseating granuloma · Frequent dysplastic changes</summary>
+      <div class="ans">Shallow <span class="ff">F</span> (deep) · Skip <span class="tf">T</span> · Transmural <span class="tf">T</span> · Non-caseating <span class="tf">T</span> · Dysplasia <span class="ff">F</span> (more in UC) <span class="ref">(DU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Ulcers of small intestine: Duodenal ulcer · Typhoid ulcer · Crohn's disease · Ulcerative colitis · Amoebic dysentery</summary>
+      <div class="ans">Duodenal <span class="tf">T</span> · Typhoid <span class="tf">T</span> · Crohn's <span class="tf">T</span> · UC <span class="ff">F</span> (colon) · Amoebic <span class="ff">F</span> (colon) <span class="ref">(CMU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Characteristics of ulcerative colitis: Involves small intestine · Inflammation in mucosa and submucosa · Skin lesion · Malignant transformation is rare</summary>
+      <div class="ans">Small intestine <span class="ff">F</span> (colon) · Mucosa &amp; submucosa <span class="tf">T</span> · Skin lesion <span class="tf">T</span> (pyoderma gangrenosum) · Malignant change rare <span class="ff">F</span> (frequent &gt;10 yr) <span class="ref">(RU-17M)</span></div>
+    </details>
+    <details>
+      <summary>Ulcerative colitis leads to: Malignancy · Bloody diarrhoea · Toxic megacolon · "Hose pipe" rigidity · Skip lesion</summary>
+      <div class="ans">Malignancy <span class="tf">T</span> · Bloody diarrhoea <span class="tf">T</span> · Toxic megacolon <span class="tf">T</span> · Hose pipe rigidity <span class="tf">T</span> · Skip lesion <span class="ff">F</span> (Crohn's) <span class="ref">(DU-09Ju)</span></div>
+    </details>
+    <details>
+      <summary>Stress-induced ulcer of stomach: Peptic ulcer disease · NSAID-induced · Septicaemic shock</summary>
+      <div class="ans">PUD <span class="ff">F</span> · NSAID <span class="ff">F</span> · Septicaemic shock <span class="tf">T</span> (stress ulcer) <span class="ref">(DU-15Ja)</span></div>
+    </details>
+  </details>
+
   <h2 id="crc">3i · Colorectal Carcinoma</h2>
 
   <details>
@@ -1156,6 +1231,26 @@
       <div class="mnem">🎯 <strong>Familial adenomatous polyposis (FAP):</strong> autosomal dominant; numerous colorectal adenomas (≥100 needed for diagnosis) in teenagers; caused by somatic mutations of APC gene. <strong>HNPCC (Lynch syndrome):</strong> inherited mutations in mismatch repair genes; most common syndromic form of colon cancer; right colon predilection.</div>
       <p class="ref">Robbins 10e pp.807, 810, 812–813</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Colorectal cancer risk, congenital anomalies &amp; carcinoid</summary>
+    <details>
+      <summary>Conditions predisposing to colonic cancer: Villous adenoma · Juvenile polyp · Crohn's colitis · Chronic ischaemic bowel disease · Familial polyposis</summary>
+      <div class="ans">Villous adenoma <span class="tf">T</span> · Juvenile polyp <span class="ff">F</span> (hamartomatous) · Crohn's colitis <span class="tf">T</span> · Chronic ischaemic bowel <span class="ff">F</span> · Familial polyposis <span class="tf">T</span> <span class="ref">(DU-12Ja)</span></div>
+    </details>
+    <details>
+      <summary>Congenital anomalies of GIT: Hirschsprung's disease · Hypertrophic pyloric stenosis · Crohn's disease · Familial adenomatous polyposis · Imperforate anus</summary>
+      <div class="ans">Hirschsprung's <span class="tf">T</span> · Pyloric stenosis <span class="tf">T</span> · Crohn's <span class="ff">F</span> (acquired) · FAP <span class="tf">T</span> · Imperforate anus <span class="tf">T</span> <span class="ref">(DU-14Ju)</span></div>
+    </details>
+    <details>
+      <summary>Common sites of gut carcinoid tumour: Appendix · Duodenum · Margins of gastrojejunostomy · Rectum · With Meckel's diverticulum</summary>
+      <div class="ans">Appendix <span class="tf">T</span> (most common) · Duodenum <span class="tf">T</span> · Gastrojejunostomy margin <span class="ff">F</span> · Rectum <span class="tf">T</span> · Meckel's <span class="tf">T</span> <span class="ref">(DU-10Ja,09Ju/Ja)</span></div>
+    </details>
+    <details>
+      <summary>Fate of acute appendicitis: Lymphoma · Appendicular lump · Appendicular abscess</summary>
+      <div class="ans">Lymphoma <span class="ff">F</span> · Appendicular lump <span class="tf">T</span> · Appendicular abscess <span class="tf">T</span> <span class="ref">(RMU-22M)</span></div>
+    </details>
   </details>
 
   <h2 id="appendix">4 · Appendix</h2>

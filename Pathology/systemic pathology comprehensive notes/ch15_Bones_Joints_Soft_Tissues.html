@@ -46,6 +46,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -200,6 +210,14 @@
         <li><strong>Weakened host defence</strong></li>
       </ul>
       <p class="ref">Robbins Basic Pathology 10e p.807; Arif 2025 Vol-2 p.351</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Osteomyelitis</summary>
+    <div class="ans">
+      <details><summary>Characteristics of pyogenic osteomyelitis (DU-23Nv): always blood-borne, may be induced by viruses, commonest organism E. coli, sequestrum formation, chronicity common consequence.</summary><div class="ans">Item <span class="ff">Always blood-borne = False</span> · <span class="ff">May be induced by viruses = False</span> (bacteria) · <span class="ff">Commonest organism E. coli = False</span> (<em>S. aureus</em>) · <span class="tf">Sequestrum formation = True</span> · <span class="tf">Chronicity is common consequence = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Pyogenic osteomyelitis (DU-17M): blood-borne infection; caused by bacteria; frequently caused by streptococcus; frequently shows granuloma; reveals new bone formation.</summary><div class="ans">Item <span class="tf">Blood-borne infection = True</span> · <span class="tf">Caused by bacteria = True</span> · <span class="ff">Frequently caused by streptococcus = False</span> (staphylococcus) · <span class="ff">Frequently shows granuloma = False</span> · <span class="tf">Reveals new bone formation = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Osteomyelitis relates to: pathological fracture, sequestrum formation, no new bone formation, Salmonella typhi may cause it, only bone is inflamed. (RU-18M)</summary><div class="ans">Item <span class="tf">Pathological fracture = True</span> · <span class="tf">Sequestrum formation = True</span> · <span class="ff">No new bone formation = False</span> · <span class="tf">Salmonella typhi may cause it = True</span> · <span class="ff">Only bone inflamed = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 
@@ -396,6 +414,14 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Bone-forming tumours &amp; osteosarcoma</summary>
+    <div class="ans">
+      <details><summary>Bone-forming tumours include: giant cell tumour, osteoid osteoma, enchondroma, chondroblastoma, osteosarcoma. (DU-16Ju)</summary><div class="ans">Item <span class="ff">Giant cell = False</span> · <span class="tf">Osteoid osteoma = True</span> · <span class="ff">Enchondroma = False</span> (cartilage) · <span class="ff">Chondroblastoma = False</span> (cartilage) · <span class="tf">Osteosarcoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Malignant tumours of bone: Paget's disease, osteoblastoma, multiple myeloma, Ewing's tumour, chordoma. (DU-21Oct/M/19M)</summary><div class="ans">Item <span class="ff">Paget's disease = False</span> · <span class="ff">Osteoblastoma = False</span> (benign) · <span class="tf">Multiple myeloma = True</span> · <span class="tf">Ewing's tumour = True</span> · <span class="tf">Chordoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Osteosarcoma (CU-19Nv): secondary malignant tumour; produces cartilage; majority in younger men; painful enlarging mass; majority around wrist event?</summary><div class="ans">Item <span class="ff">Secondary malignant tumour = False</span> (primary) · <span class="ff">Produces cartilage = False</span> (<em>osteoid</em>/bone) · <span class="tf">Majority in younger men = True</span> · <span class="tf">Painful gradually enlarging mass = True</span> · <span class="ff">Majority around wrist = False</span> (distal femur/proximal tibia) <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <!-- ===== SECTION 10: OSTEOSARCOMA ===== -->
   <h2 id="osteo-sarc">10 · Osteosarcoma</h2>
 
@@ -512,6 +538,14 @@
         <li>Characteristic periosteal reaction producing layers of reactive bone in an <span class="hot">"onion-skin" fashion</span></li>
       </ul>
       <p class="ref">Robbins 10e p.1192; Arif 2025 Vol-2 pp.357–358</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Ewing sarcoma &amp; osteomalacia</summary>
+    <div class="ans">
+      <details><summary>Ewing sarcoma (DU-22M): long bone only; metaphysis commonly affected; onion-skin appearance; painful presentation; prognosis always favourable?</summary><div class="ans">Item <span class="ff">Long bone only = False</span> · <span class="ff">Metaphysis commonly affected = False</span> (diaphysis) · <span class="tf">Onion-skin appearance = True</span> · <span class="tf">Painful presentation = True</span> · <span class="ff">Prognosis always favourable = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Ewing's sarcoma (DU-11Ju): childhood tumour; epiphysis of long bone; p53 gene mutation; prominent necrosis; characteristic lytic lesion in X-ray?</summary><div class="ans">Item <span class="tf">Childhood tumour = True</span> · <span class="ff">Epiphysis = False</span> (diaphysis) · <span class="ff">p53 gene mutation = False</span> · <span class="tf">Prominent necrosis = True</span> · <span class="tf">Characteristic lytic lesion in X-ray = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Osteomalacia (DU-09Ja): occurs in coeliac disease; normal serum alkaline phosphatase; excessive poorly-mineralised osteoid; may complicate phenobarbitone therapy; parathyroid atrophy?</summary><div class="ans">Item <span class="tf">May occur in coeliac disease = True</span> · <span class="ff">Normal serum alkaline phosphatase = False</span> (raised) · <span class="tf">Excessive poorly-mineralised osteoid = True</span> · <span class="tf">May complicate phenobarbitone therapy = True</span> · <span class="ff">Parathyroid atrophy = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 

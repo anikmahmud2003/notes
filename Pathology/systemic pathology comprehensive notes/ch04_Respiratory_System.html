@@ -46,6 +46,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -328,6 +339,22 @@
       <p>Advanced cases show <strong>subpleural bullae</strong> — air-filled cyst-like structures &gt;1 cm diameter, formed by rupture of adjacent air spaces. They are a common cause of <strong>spontaneous pneumothorax</strong>.</p>
       <p class="ref">Ref: Robbins 10e p.682; Harsh Mohan 7e p.461; Arif pp. 96–97</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — COPD &amp; Emphysema</summary>
+    <details>
+      <summary>Regarding COPD: Decreased FEV₁ in 1 second · Causes reduced expansion of lung · Cigarette smoking is not associated · Causes copious sputum in emphysema · Mucous gland hyperplasia in chronic bronchitis</summary>
+      <div class="ans">Decreased FEV₁ <span class="tf">T</span> · Reduced expansion <span class="ff">F</span> (emphysema is hyperinflated) · Smoking not associated <span class="ff">F</span> · Copious sputum in emphysema <span class="ff">F</span> (that's chronic bronchitis — emphysema has scanty sputum) · Mucous gland hyperplasia in chronic bronchitis <span class="ff">F</span> (per Arif key) <span class="ref">(DU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Emphysema: Is a component of COPD · Is related to cigarette smoking · Is characterised by copious purulent sputum · Complicated by infection is common · Is common in α₁-antitrypsin deficiency</summary>
+      <div class="ans">Component of COPD <span class="tf">T</span> · Smoking <span class="tf">T</span> · Copious purulent sputum <span class="ff">F</span> · Infection common <span class="tf">T</span> · α₁-antitrypsin deficiency <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
+    </details>
+    <details>
+      <summary>Chronic obstructive pulmonary diseases include: Asthma · Pulmonary neoplasms · Emphysema · Pneumonia · Bronchiectasis</summary>
+      <div class="ans">Asthma <span class="tf">T</span> · Pulmonary neoplasms <span class="ff">F</span> · Emphysema <span class="tf">T</span> · Pneumonia <span class="ff">F</span> · Bronchiectasis <span class="tf">T</span> <span class="ref">(RU-19M)</span></div>
+    </details>
   </details>
 
   <!-- ===================== SECTION 7: CHRONIC BRONCHITIS ===================== -->
@@ -780,6 +807,30 @@
     </div>
   </details>
 
+  <details class="quiz">
+    <summary>🎯 True/False practice — Pneumonia</summary>
+    <details>
+      <summary>Complications of acute lobar pneumonia include: Lung abscess · Septicaemia · Interstitial fibrosis · Bronchogenic carcinoma · Emphysema</summary>
+      <div class="ans">Lung abscess <span class="tf">T</span> · Septicaemia <span class="tf">T</span> · Interstitial fibrosis <span class="ff">F</span> · Bronchogenic carcinoma <span class="ff">F</span> · Emphysema <span class="ff">F</span> <span class="ref">(DU-23M)</span></div>
+    </details>
+    <details>
+      <summary>Regarding pneumonia: Consolidation · Evening rise of temperature · Mycoplasma pneumonia · Sputum rusty in colour · Septicaemia</summary>
+      <div class="ans">Consolidation <span class="tf">T</span> · Evening rise of temperature <span class="ff">F</span> (typical of TB) · Mycoplasma pneumonia <span class="tf">T</span> · Sputum rusty in colour <span class="tf">T</span> · Septicaemia <span class="tf">T</span> <span class="ref">(DU-22Nv)</span></div>
+    </details>
+    <details>
+      <summary>Pathological changes of lobar pneumonia: Stage of congestion · Stage of brown hepatization · Stage of grey hepatization · Stage of consolidation · Stage of resolution</summary>
+      <div class="ans">Congestion <span class="tf">T</span> · Brown hepatization <span class="ff">F</span> (no such stage) · Grey hepatization <span class="tf">T</span> · Consolidation as a stage <span class="ff">F</span> (it is a process) · Resolution <span class="tf">T</span> <span class="ref">(CU-19Nv)</span></div>
+    </details>
+    <details>
+      <summary>Regarding pneumonia: Consolidation occurs in lung · Transplant recipients are vulnerable · Mycoplasma may cause it · Lung abscess is an important complication · Sputum is rusty in colour</summary>
+      <div class="ans">Consolidation <span class="tf">T</span> · Transplant recipients vulnerable <span class="ff">F</span> (per Arif key) · Mycoplasma <span class="tf">T</span> · Lung abscess <span class="tf">T</span> · Rusty sputum <span class="ff">F</span> (per Arif key) <span class="ref">(DU-14Ja)</span></div>
+    </details>
+    <details>
+      <summary>Associated with pneumonia: Streptococcal pneumonia · Lung abscess · E. coli · Septicaemia · Bronchial asthma</summary>
+      <div class="ans">Streptococcal pneumonia <span class="tf">T</span> · Lung abscess <span class="tf">T</span> · E. coli <span class="ff">F</span> · Septicaemia <span class="tf">T</span> · Bronchial asthma <span class="ff">F</span> <span class="ref">(RU-13Ja)</span></div>
+    </details>
+  </details>
+
   <!-- ===================== SECTION 14: LUNG ABSCESS ===================== -->
   <h2 id="lungabscess">14 · Lung Abscess</h2>
 
@@ -1027,6 +1078,18 @@
     </div>
   </details>
 
+  <details class="quiz">
+    <summary>🎯 True/False practice — Tuberculosis</summary>
+    <details>
+      <summary>Features of tuberculosis: Granuloma formation · Caseation necrosis · Immune mediated inflammation · Type II hypersensitivity reaction · Dystrophic calcification</summary>
+      <div class="ans">Granuloma formation <span class="tf">T</span> · Caseation necrosis <span class="tf">T</span> · Immune mediated inflammation <span class="tf">T</span> · Type II hypersensitivity reaction <span class="ff">F</span> (TB is Type IV/DTH) · Dystrophic calcification <span class="ff">F</span> <span class="ref">(DU-19Nv)</span></div>
+    </details>
+    <details>
+      <summary>Common sites of tuberculous bacilli infection: Lymph node · Epididymis · Cardiac muscle · Thyroid gland · Pulmonary tissue</summary>
+      <div class="ans">Lymph node <span class="tf">T</span> · Epididymis <span class="ff">F</span> (per Arif key; genitourinary TB exists but marked F) · Cardiac muscle <span class="ff">F</span> · Thyroid gland <span class="ff">F</span> · Pulmonary tissue <span class="tf">T</span> <span class="ref">(RU-17M)</span></div>
+    </details>
+  </details>
+
   <!-- ===================== SECTION 16: LUNG TUMOURS ===================== -->
   <h2 id="tumours">16 · Lung Tumours</h2>
 
@@ -1248,6 +1311,26 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 540, 721; Arif p. 133</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Bronchogenic carcinoma &amp; Lung tumours</summary>
+    <details>
+      <summary>Bronchogenic carcinoma can secrete: ADH · Aldosterone · Beta-hCG · Calcitonin · ACTH</summary>
+      <div class="ans">ADH <span class="tf">T</span> (SIADH) · Aldosterone <span class="ff">F</span> · Beta-hCG <span class="ff">F</span> · Calcitonin <span class="tf">T</span> (small cell) · ACTH <span class="tf">T</span> (Cushing) <span class="ref">(BUP-22Nv)</span></div>
+    </details>
+    <details>
+      <summary>Types of bronchogenic carcinoma: Squamous cell carcinoma · Transitional cell carcinoma · Adenocarcinoma · Small cell carcinoma · Large cell carcinoma</summary>
+      <div class="ans">Squamous cell carcinoma <span class="tf">T</span> · Transitional cell carcinoma <span class="ff">F</span> · Adenocarcinoma <span class="tf">T</span> · Small cell carcinoma <span class="tf">T</span> · Large cell carcinoma <span class="tf">T</span> <span class="ref">(CMU-22M)</span></div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Interstitial lung disease</summary>
+    <details>
+      <summary>Interstitial lung disease includes: Bronchiectasis · Sarcoidosis · Emphysema · Aspergillosis · Silicosis</summary>
+      <div class="ans">Bronchiectasis <span class="ff">F</span> (it's obstructive) · Sarcoidosis <span class="tf">T</span> · Emphysema <span class="ff">F</span> (obstructive) · Aspergillosis <span class="tf">T</span> · Silicosis <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
+    </details>
   </details>
 
   <!-- ===================== SECTION 17: PLEURAL DISEASES ===================== -->

@@ -24,15 +24,15 @@
   h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
   .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
   .bigpic p{margin:4px 0}
-  /* flashcard */
-  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
-  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  /* flashcard - one small question per toggle */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:8px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:10px 14px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start;font-size:.97rem}
   details summary::-webkit-details-marker{display:none}
-  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash);flex:none}
   details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
   details[open] summary::before{content:"✅"}
-  .ans{padding:14px 18px}
-  .ans p{margin:8px 0}
+  .ans{padding:12px 16px}
+  .ans p{margin:7px 0}
   .ans ul,.ans ol{margin:6px 0;padding-left:22px}
   .ans li{margin:3px 0}
   table{width:100%;border-collapse:collapse;margin:10px 0}
@@ -48,6 +48,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -69,7 +80,7 @@
 <div class="wrap">
   <span class="tag">Ch 26 · Lipid and Cholesterol · Arif Guide 2025 Vol-2 · Unit-II · pp.487–492</span>
   <h1>Ch 26 — Lipid and Cholesterol
-    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+    <span class="sub">Full-detail flashcards (Q→A) · one short question per card · inline True/False practice · Robbins 4-pillar answers</span>
   </h1>
 
   <div class="bigpic">
@@ -105,11 +116,10 @@
   <!-- ============ SECTION 1 ============ -->
   <h2 id="definition">1 · What Is a Lipid Profile?</h2>
 
-  <details id="def1">
+  <details>
     <summary>❓ What is a lipid profile? Give its definition and objectives.</summary>
     <div class="ans">
-      <p><strong>Lipid profile</strong> means the pattern or status of lipids in plasma.</p>
-      <p><strong>More precisely:</strong> a group of laboratory tests done to assess the lipid status of an individual and to evaluate risk factors for <strong>atherosclerosis</strong> and <strong>coronary artery disease (CAD)</strong>.</p>
+      <p><strong>Lipid profile</strong> means the pattern or status of lipids in plasma — a group of laboratory tests that assess lipid status and evaluate risk factors for <strong>atherosclerosis</strong> and <strong>coronary artery disease (CAD)</strong>.</p>
       <p><span class="hot">Frequently examined:</span> DU-13/07Ja, BUP-22Nv, CMU-21/18M, DU-17M, RU-10Ju, CU-19Nv, DU-23Nv/21Oct/18Nv/17/14/11/07Ja/06S, SMU-23M/21Nv, RU-17Jw/Ja/16Ja/13Ju, CU-15Ju/Ja/10/09Ju/08Ja.</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.487</p>
     </div>
@@ -118,7 +128,7 @@
   <!-- ============ SECTION 2 ============ -->
   <h2 id="components">2 · Components of Lipid Profile &amp; Normal Values</h2>
 
-  <details id="comp1">
+  <details>
     <summary>❓ What are the components of a lipid profile with their normal values?</summary>
     <div class="ans">
       <p>Lipid profile is commonly determined by the following four parameters:</p>
@@ -129,7 +139,7 @@
         <tr><td><strong>LDL-Cholesterol (LDL-C)</strong></td><td>&lt; 130</td><td>&lt; 3.38</td></tr>
         <tr><td><strong>HDL-Cholesterol (HDL-C)</strong></td><td>&gt; 40</td><td>&gt; 1.0</td></tr>
       </table>
-      <div class="mnem">🎯 <strong>Conversion tip:</strong> To convert mg/dL → mmol/L, multiply by <code>0.026</code>.</div>
+      <div class="mnem">🎯 <strong>Conversion tip:</strong> mg/dL → mmol/L, multiply by <code>0.026</code>.</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.487</p>
     </div>
   </details>
@@ -137,7 +147,7 @@
   <!-- ============ SECTION 3 ============ -->
   <h2 id="bloodlipids">3 · Blood (Plasma) Lipids &amp; Normal Values</h2>
 
-  <details id="bl1">
+  <details>
     <summary>❓ Name the blood (plasma) lipids with their normal values and percentage composition.</summary>
     <div class="ans">
       <table>
@@ -155,8 +165,8 @@
   <!-- ============ SECTION 4 ============ -->
   <h2 id="preparation">4 · Patient Preparation &amp; Procedure</h2>
 
-  <details id="prep1">
-    <summary>❓ How do you prepare a patient for lipid profile testing? Describe the procedure.</summary>
+  <details>
+    <summary>❓ How do you prepare a patient for lipid profile testing? (Preparation rules)</summary>
     <div class="ans">
       <h3>Preparation (4 rules)</h3>
       <ol>
@@ -165,7 +175,13 @@
         <li><strong>Usual activities</strong> in the previous 3 days.</li>
         <li>Individual must be <strong>free from</strong> trauma, surgery, acute infection, and pregnancy.</li>
       </ol>
-      <h3>Procedure</h3>
+      <p class="ref">Arif Guide 2025 Vol-2 p.488</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ Describe the procedure for lipid profile testing.</summary>
+    <div class="ans">
       <ol>
         <li>Collect a <strong>fasting morning blood sample</strong>.</li>
         <li>Blood is taken in a <strong>plain (red-top) test tube</strong> and allowed to clot.</li>
@@ -178,7 +194,7 @@
   <!-- ============ SECTION 5 ============ -->
   <h2 id="better">5 · Which Fraction Is "Better"? — TG</h2>
 
-  <details id="better1">
+  <details>
     <summary>❓ Which fraction of the lipid profile is better and why?</summary>
     <div class="ans">
       <p><strong>Triacylglycerol (TG)</strong> is the better fraction of the lipid profile because it is one of the <span class="hot">major treatable risk factors for cardiovascular disease</span>, whilst severe hypertriglyceridaemia also predisposes to <strong>acute pancreatitis</strong>.</p>
@@ -189,7 +205,7 @@
   <!-- ============ SECTION 6 ============ -->
   <h2 id="indications">6 · Indications of Lipid Profile</h2>
 
-  <details id="ind1">
+  <details>
     <summary>❓ Enumerate the indications/objectives of lipid profile.</summary>
     <div class="ans">
       <ol>
@@ -204,7 +220,7 @@
   <!-- ============ SECTION 7 ============ -->
   <h2 id="clinical">7 · Clinical Importance &amp; Screening</h2>
 
-  <details id="clin1">
+  <details>
     <summary>❓ What is the clinical importance of lipid profile in cardiovascular disease screening?</summary>
     <div class="ans">
       <p><strong>Screening for cardiovascular disease (CVD):</strong></p>
@@ -219,7 +235,7 @@
   <!-- ============ SECTION 8 ============ -->
   <h2 id="dyslipidaemia">8 · Dyslipidaemia &amp; Hyperlipidaemia</h2>
 
-  <details id="dys1">
+  <details>
     <summary>❓ Define dyslipidaemia, hyperlipidaemia, and hypercholesterolaemia.</summary>
     <div class="ans">
       <p><strong>Dyslipidaemia:</strong> abnormalities in the lipid profile (any or all of TC, TG, LDL-C, HDL-C abnormal).</p>
@@ -232,10 +248,9 @@
   <!-- ============ SECTION 9 ============ -->
   <h2 id="causes">9 · Causes of Hyperlipidaemia</h2>
 
-  <details id="causes1">
-    <summary>❓ What are the causes of hyperlipidaemia? Classify as primary and secondary, for both hypercholesterolaemia and hypertriglyceridaemia.</summary>
+  <details>
+    <summary>❓ Classify the causes of hypercholesterolaemia (primary &amp; secondary).</summary>
     <div class="ans">
-      <h3>A. Hypercholesterolaemia (↑ Cholesterol)</h3>
       <p><strong>1. Primary:</strong> Familial hypercholesterolaemia.</p>
       <p><strong>2. Secondary causes:</strong></p>
       <ul>
@@ -248,7 +263,13 @@
         <li>Porphyria</li>
         <li>Hyperparathyroidism</li>
       </ul>
-      <h3>B. Hypertriglyceridaemia (↑ TG)</h3>
+      <p class="ref">Arif Guide 2025 Vol-2 pp.488–489</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ Classify the causes of hypertriglyceridaemia (primary &amp; secondary).</summary>
+    <div class="ans">
       <p><strong>1. Primary:</strong> Familial hypertriglyceridaemia.</p>
       <p><strong>2. Secondary causes:</strong></p>
       <ul>
@@ -259,29 +280,56 @@
         <li>Hepatocellular disease</li>
         <li>Drugs — β-blockers, retinoids, corticosteroids</li>
       </ul>
-      <div class="mnem">🎯 <strong>VIVA favourite:</strong> "Nephrotic syndrome, DM type 2, hypothyroidism, obesity, alcohol" — top 5 causes to remember.</div>
+      <div class="mnem">🎯 <strong>VIVA favourite:</strong> Nephrotic syndrome, DM type 2, hypothyroidism, obesity, alcohol — top 5 causes.</div>
       <p class="ref">Arif Guide 2025 Vol-2 pp.488–489</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Causes of hyperlipidaemia</summary>
+    <details>
+      <summary>Hyperlipidaemia mostly occurs in: Nephrotic syndrome · Long-term starvation · Diabetes mellitus · Pulmonary hypertension · Obesity</summary>
+      <div class="ans">Nephrotic syndrome <span class="tf">T</span> · Starvation <span class="ff">F</span> · DM <span class="tf">T</span> · Pulmonary HTN <span class="ff">F</span> · Obesity <span class="tf">T</span> <span class="ref">(DU-23Nv)</span></div>
+    </details>
+    <details>
+      <summary>Secondary causes of dyslipidaemia include: Hyperthyroidism · Nephrotic syndrome · Intra-hepatic cholestasis · Diabetes mellitus · Prolonged corticosteroids</summary>
+      <div class="ans">Hyperthyroidism <span class="ff">F</span> · Nephrotic <span class="tf">T</span> · Intra-hepatic cholestasis <span class="tf">T</span> · DM <span class="tf">T</span> · Corticosteroids <span class="tf">T</span> <span class="ref">(DU-21Oct/M)</span></div>
+    </details>
+    <details>
+      <summary>Hyperlipidaemia commonly occurs in: Nephrotic syndrome · Diabetes mellitus · Hyperthyroidism · Adrenal insufficiency · Nephritic syndrome</summary>
+      <div class="ans">Nephrotic <span class="tf">T</span> · DM <span class="tf">T</span> · Hyperthyroidism <span class="ff">F</span> · Adrenal insufficiency <span class="ff">F</span> · Nephritic <span class="ff">F</span> <span class="ref">(DU-19M)</span></div>
+    </details>
+    <details>
+      <summary>Hyperlipidaemia occurs in: Familial hypercholesterolaemia · Diabetes mellitus · Nephrotic syndrome · Nephritic syndrome · Peptic ulcer disease</summary>
+      <div class="ans">Familial HC <span class="tf">T</span> · DM <span class="tf">T</span> · Nephrotic <span class="tf">T</span> · Nephritic <span class="ff">F</span> · PUD <span class="ff">F</span> <span class="ref">(DU-17Ja)</span></div>
+    </details>
+    <details>
+      <summary>Hyperlipidaemia occurs in: Diabetes mellitus · Nephrotic syndrome · Hyperthyroidism · Cushing syndrome · Hyperparathyroidism</summary>
+      <div class="ans">DM <span class="tf">T</span> · Nephrotic <span class="tf">T</span> · Hyperthyroidism <span class="ff">F</span> · Cushing <span class="tf">T</span> · Hyperparathyroidism <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
+    </details>
+    <details>
+      <summary>Hypercholesterolaemia occurs in: Hyperthyroidism · Chronic anaemia · Diabetes mellitus · Nephrotic syndrome · Cushing syndrome</summary>
+      <div class="ans">Hyperthyroidism <span class="ff">F</span> · Anaemia <span class="ff">F</span> · DM <span class="tf">T</span> · Nephrotic <span class="tf">T</span> · Cushing <span class="ff">F</span> <span class="ref">(DU-21Ja/20Nv/M/17M)</span></div>
+    </details>
+    <details>
+      <summary>A normal lipid profile includes: Low serum cholesterol · Increased HDL-cholesterol · Increased triglycerides · Decreased VLDL · Low apolipoproteins</summary>
+      <div class="ans">Low cholesterol <span class="tf">T</span> · High HDL <span class="tf">T</span> · High TG <span class="ff">F</span> · Decreased VLDL <span class="tf">T</span> · Low apolipoproteins <span class="ff">F</span> <span class="ref">(DU-10Ju)</span></div>
+    </details>
   </details>
 
   <!-- ============ SECTION 10 ============ -->
   <h2 id="approach">10 · Diagnostic Approach to Dyslipidaemia</h2>
 
-  <details id="app1">
-    <summary>❓ How will you diagnose a case of dyslipidaemia?</summary>
+  <details>
+    <summary>❓ How will you diagnose a case of dyslipidaemia? (History &amp; physical)</summary>
     <div class="ans">
       <h3>A. History</h3>
       <ul>
-        <li>Obesity</li>
-        <li>Diabetes</li>
-        <li>Hypertension</li>
+        <li>Obesity, Diabetes, Hypertension</li>
         <li>Nephrotic syndrome</li>
         <li>Occasional severe abdominal pain (history of pancreatitis — suggests severe hypertriglyceridaemia)</li>
-        <li>Family history of dyslipidaemia</li>
-        <li>Hypothyroidism</li>
-        <li>Drugs — OCP (oral contraceptive pill), steroid, thiazide, β-blocker, etc.</li>
-        <li>Alcohol intake</li>
-        <li>Dietary habits</li>
+        <li>Family history of dyslipidaemia, Hypothyroidism</li>
+        <li>Drugs — OCP, steroid, thiazide, β-blocker; Alcohol intake; Dietary habits</li>
       </ul>
       <h3>B. Physical Examination</h3>
       <ul>
@@ -290,7 +338,13 @@
         <li><strong>Eruptive xanthoma</strong> — small yellow papules on skin (↑TG)</li>
         <li><strong>Tendon xanthoma</strong> — firm nodules over tendons (familial hypercholesterolaemia)</li>
       </ul>
-      <h3>C. Laboratory Investigation</h3>
+      <p class="ref">Ref: Davidson's 21st/451–456</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ What laboratory investigation is used to diagnose dyslipidaemia?</summary>
+    <div class="ans">
       <p>Estimation of <strong>serum lipid profile</strong> (fasting sample).</p>
       <p class="ref">Ref: Davidson's 21st/451–456</p>
     </div>
@@ -299,24 +353,24 @@
   <!-- ============ SECTION 11 ============ -->
   <h2 id="lipoprotein">11 · Lipoprotein — Structure &amp; Classification</h2>
 
-  <details id="lp1">
-    <summary>❓ What is a lipoprotein? Describe its structure and classification.</summary>
+  <details>
+    <summary>❓ What is a lipoprotein? Describe its structure.</summary>
     <div class="ans">
       <p><strong>Lipoprotein:</strong> a complex lipid made up of <strong>lipid + protein</strong> (called <strong>apolipoproteins</strong> or <strong>apoproteins</strong>) — the transport vehicle for lipids in blood.</p>
-      <h3>Structure of a lipoprotein</h3>
+      <h3>Structure</h3>
       <ol>
-        <li><strong>Lipid core:</strong> contains non-polar triglyceride (TAG) and cholesteryl ester.</li>
-        <li><strong>Single surface layer:</strong> phospholipid, free cholesterol, and apoproteins. Phospholipid and cholesterol are oriented so their <strong>polar groups face outward</strong> to the aqueous medium, making the particle <strong>water-soluble</strong>.</li>
+        <li><strong>Lipid core:</strong> non-polar triglyceride (TAG) and cholesteryl ester.</li>
+        <li><strong>Single surface layer:</strong> phospholipid, free cholesterol, and apoproteins. Phospholipid/cholesterol polar groups face <strong>outward</strong> → particle is <strong>water-soluble</strong>.</li>
       </ol>
-      <h3>Constituents of a lipoprotein</h3>
-      <ol>
-        <li>Triacylglycerol (TAG)</li>
-        <li>Phospholipid</li>
-        <li>Free cholesterol</li>
-        <li>Cholesteryl ester</li>
-        <li>Apoprotein</li>
-      </ol>
-      <h3>Classification — Four major groups</h3>
+      <h3>Constituents</h3>
+      <p>TAG · Phospholipid · Free cholesterol · Cholesteryl ester · Apoprotein.</p>
+      <p class="ref">Ref: Lecture AFIP; Lippincott's 5th/227; Arif Guide 2025 Vol-2 pp.489–490</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ Classify lipoproteins (four major groups) with synonyms.</summary>
+    <div class="ans">
       <table>
         <tr><th>Lipoprotein</th><th>Other Name</th></tr>
         <tr><td><strong>1. Chylomicrons</strong></td><td>—</td></tr>
@@ -324,38 +378,44 @@
         <tr><td><strong>3. Low-density lipoproteins (LDL)</strong></td><td>β-lipoproteins</td></tr>
         <tr><td><strong>4. High-density lipoproteins (HDL)</strong></td><td>α-lipoproteins</td></tr>
       </table>
-      <p class="ref">Ref: Lecture AFIP; Lippincott's 5th/227; Arif Guide 2025 Vol-2 pp.489–490</p>
+      <p class="ref">Ref: Lecture AFIP; Lippincott's 5th/227</p>
     </div>
   </details>
 
   <!-- ============ SECTION 12 ============ -->
   <h2 id="functions">12 · Functions of Lipoproteins</h2>
 
-  <details id="func1">
+  <details>
     <summary>❓ What are the functions of each class of lipoprotein?</summary>
     <div class="ans">
-      <p>Since lipids are <strong>insoluble in water</strong>, they cannot travel alone in blood plasma. Lipoproteins are <strong>water-soluble</strong> and act as transport vehicles for lipids.</p>
+      <p>Since lipids are <strong>insoluble in water</strong>, lipoproteins act as water-soluble transport vehicles.</p>
       <table>
         <tr><th>Lipoprotein</th><th>Origin</th><th>Main Lipid</th><th>Function</th></tr>
         <tr><td><strong>Chylomicrons</strong></td><td>Intestine</td><td>TAG</td><td>Transport <strong>exogenous</strong> (dietary) TAG from intestine to liver &amp; peripheral tissue</td></tr>
-        <tr><td><strong>VLDL</strong></td><td>Liver</td><td>TAG</td><td>Transport <strong>endogenous</strong> (liver-synthesised) TAG to peripheral tissue; <strong>precursor of LDL</strong></td></tr>
+        <tr><td><strong>VLDL</strong></td><td>Liver</td><td>TAG</td><td>Transport <strong>endogenous</strong> TAG to peripheral tissue; <strong>precursor of LDL</strong></td></tr>
         <tr><td><strong>LDL</strong></td><td>From VLDL in blood</td><td>Cholesterol</td><td>Transport cholesterol from <strong>liver → peripheral tissues</strong></td></tr>
-        <tr><td><strong>HDL</strong></td><td>Liver &amp; intestine</td><td>Phospholipids</td><td>Transport cholesterol from <strong>peripheral tissues → liver</strong> (reverse cholesterol transport) for degradation &amp; excretion</td></tr>
+        <tr><td><strong>HDL</strong></td><td>Liver &amp; intestine</td><td>Phospholipids</td><td>Transport cholesterol from <strong>peripheral tissues → liver</strong> (reverse cholesterol transport)</td></tr>
       </table>
-      <h3>Clinical importance of lipoprotein function</h3>
+      <p class="ref">Ref: Harper's 28th/213–215; Lippincott's 5th/227–228</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ What is the clinical importance of lipoprotein function?</summary>
+    <div class="ans">
       <ul>
         <li><strong>High LDL</strong> → increased cholesterol deposition in arterial wall → <span class="hot">atherosclerosis</span>.</li>
         <li><strong>High HDL</strong> → removes cholesterol from peripheral tissues → <span class="good">prevents atherosclerosis</span>.</li>
         <li><strong>Imbalance</strong> in rate of TG formation in liver vs VLDL secretion → <strong>fatty liver</strong>.</li>
       </ul>
-      <p class="ref">Ref: Harper's 28th/213–215; Lippincott's 5th/227–228</p>
+      <p class="ref">Ref: Harper's 28th/213–215</p>
     </div>
   </details>
 
   <!-- ============ SECTION 13 ============ -->
   <h2 id="bloodlevels">13 · Blood Levels of Lipoproteins</h2>
 
-  <details id="blp1">
+  <details>
     <summary>❓ Give the blood levels of each lipoprotein with origin and main lipid content.</summary>
     <div class="ans">
       <table>
@@ -372,10 +432,10 @@
   <!-- ============ SECTION 14 ============ -->
   <h2 id="atherogenic">14 · Atherogenic vs Anti-Atherogenic Lipoproteins</h2>
 
-  <details id="ath1">
-    <summary>❓ Name the atherogenic and anti-atherogenic lipoproteins.</summary>
+  <details>
+    <summary>❓ Name the atherogenic lipoproteins.</summary>
     <div class="ans">
-      <h3>Atherogenic lipoproteins (promote atherosclerosis)</h3>
+      <p><strong>Atherogenic lipoproteins (promote atherosclerosis):</strong></p>
       <ul>
         <li><strong>VLDL</strong> (Very-Low-Density Lipoprotein)</li>
         <li><strong>LDL</strong> (Low-Density Lipoprotein)</li>
@@ -383,10 +443,14 @@
         <li><strong>Chylomicron remnant</strong></li>
         <li><strong>Lp(a)</strong> — Lipoprotein(a)</li>
       </ul>
-      <h3>Anti-atherogenic lipoprotein (protects against atherosclerosis)</h3>
-      <ul>
-        <li><strong>HDL</strong> (High-Density Lipoprotein)</li>
-      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2 pp.490–491</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ Name the anti-atherogenic lipoprotein.</summary>
+    <div class="ans">
+      <p><strong>Anti-atherogenic lipoprotein (protects against atherosclerosis):</strong> <span class="good">HDL (High-Density Lipoprotein)</span> — the sole anti-atherogenic lipoprotein.</p>
       <p class="ref">Arif Guide 2025 Vol-2 pp.490–491</p>
     </div>
   </details>
@@ -394,8 +458,8 @@
   <!-- ============ SECTION 15 ============ -->
   <h2 id="ldl">15 · LDL — Low-Density Lipoprotein</h2>
 
-  <details id="ldl1">
-    <summary>❓ Write a short note on LDL. What is its significance?</summary>
+  <details>
+    <summary>❓ Write a short note on LDL — what is it and its properties?</summary>
     <div class="ans">
       <p><strong>LDL</strong> is one of the four major groups of lipoproteins, representing a <strong>final stage in the catabolism of VLDL</strong>.</p>
       <table>
@@ -406,28 +470,28 @@
         <tr><td><strong>Density</strong></td><td>1.019–1.063 g/mL</td></tr>
         <tr><td><strong>Composition</strong></td><td>Protein 21%, Lipid 79%</td></tr>
       </table>
-      <p><strong>Lipid components:</strong> high concentration of cholesterol, phospholipid &amp; cholesteryl ester; low concentration of triacylglycerol (TAG).</p>
-      <h3>Function &amp; Clinical Significance</h3>
+      <p><strong>Lipid components:</strong> high cholesterol, phospholipid &amp; cholesteryl ester; low triacylglycerol (TAG).</p>
+      <p class="ref">Ref: Lippincott's 3rd/229–232; Harper's 28th/212–219</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ What is the function and clinical significance of LDL?</summary>
+    <div class="ans">
       <ul>
         <li>LDL transports <strong>cholesterol from liver → peripheral tissues</strong>.</li>
-        <li>It may be responsible for <strong>atherosclerosis</strong>, which may lead to:
-          <ul>
-            <li><strong>Myocardial infarction (MI)</strong></li>
-            <li><strong>Stroke</strong> (cerebral infarction)</li>
-            <li><strong>Peripheral arterial thrombosis</strong> → gangrene</li>
-          </ul>
-        </li>
+        <li>It may be responsible for <strong>atherosclerosis</strong>, which may lead to <strong>MI, stroke, peripheral arterial thrombosis → gangrene</strong>.</li>
         <li><span class="hot">So, increased LDL is harmful to our body.</span></li>
       </ul>
-      <p class="ref">Ref: Lippincott's 3rd/229–232; Harper's 28th/212–219</p>
+      <p class="ref">Ref: Lippincott's 3rd/229–232</p>
     </div>
   </details>
 
   <!-- ============ SECTION 16 ============ -->
   <h2 id="hdl">16 · HDL — High-Density Lipoprotein</h2>
 
-  <details id="hdl1">
-    <summary>❓ Write a short note on HDL. Why is it called "good cholesterol"?</summary>
+  <details>
+    <summary>❓ Write a short note on HDL — properties &amp; subfractions.</summary>
     <div class="ans">
       <p><strong>HDL</strong> is a lipoprotein having the <strong>highest density</strong>.</p>
       <table>
@@ -444,34 +508,40 @@
         <li><strong>HDL₃</strong> — Cholesteryl ester</li>
         <li><strong>Pre-β-HDL</strong> — TAG</li>
       </ul>
-      <h3>Role of HDL-Cholesterol</h3>
+      <p class="ref">Ref: Harper's 29th/242; Lippincott's 5th/234–237</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>❓ Why is HDL called "good cholesterol"?</summary>
+    <div class="ans">
       <ul>
         <li>HDL transports cholesterol from <strong>peripheral tissues → liver</strong> (<span class="good">Reverse Cholesterol Transporter</span>).</li>
-        <li>In the liver, this cholesterol can be:
-          <ul>
-            <li>Repackaged into lipoproteins</li>
-            <li>Converted into <strong>bile acids</strong></li>
-            <li>Secreted into the <strong>bile</strong> in unchanged form for removal from the body</li>
-          </ul>
-        </li>
-        <li>More HDL-C = less cholesterol deposition in peripheral tissue = less chance of atherosclerosis.</li>
-        <li>HDL is therefore known as <span class="good">anti-atherogenic</span> or <strong>"good cholesterol"</strong>.</li>
-      </ul>
-      <h3>Clinical Significance</h3>
-      <ul>
-        <li>A <strong>high level of HDL-C</strong> seems to protect against cardiovascular diseases.</li>
-        <li><strong>Low HDL-C</strong> (&lt; 40 mg/dL) increases the risk for heart disease.</li>
-        <li>HDL particle is considered as protection to the body's cardiovascular health.</li>
+        <li>In the liver, cholesterol is repackaged into lipoproteins, converted into <strong>bile acids</strong>, or secreted into <strong>bile</strong> for removal.</li>
+        <li>More HDL-C = less cholesterol deposition in peripheral tissue = less atherosclerosis.</li>
+        <li>HDL is therefore <span class="good">anti-atherogenic</span> = <strong>"good cholesterol"</strong>.</li>
       </ul>
       <p class="ref">Ref: Harper's 29th/242; Lippincott's 5th/234–237</p>
     </div>
   </details>
 
-  <details id="goodbad1">
+  <details>
+    <summary>❓ What is the clinical significance of HDL levels?</summary>
+    <div class="ans">
+      <ul>
+        <li>A <strong>high level of HDL-C</strong> seems to protect against cardiovascular diseases.</li>
+        <li><strong>Low HDL-C</strong> (&lt; 40 mg/dL) increases the risk for heart disease.</li>
+        <li>HDL is considered a protection to cardiovascular health.</li>
+      </ul>
+      <p class="ref">Ref: Harper's 29th/242</p>
+    </div>
+  </details>
+
+  <details>
     <summary>❓ What is good and bad cholesterol? Why are they called so?</summary>
     <div class="ans">
-      <p><strong>HDL is "good cholesterol"</strong> because HDL removes cholesterol from peripheral tissues to the liver, where it is metabolised and excreted in bile — thus it <span class="good">reduces tissue atherogenicity</span>.</p>
-      <p><strong>LDL is "bad cholesterol"</strong> because LDL carries cholesterol from the liver to the peripheral tissues — thus it <span class="hot">increases tissue atherogenicity</span>.</p>
+      <p><strong>HDL is "good cholesterol"</strong> because it removes cholesterol from peripheral tissues to the liver for metabolism/excretion → <span class="good">reduces tissue atherogenicity</span>.</p>
+      <p><strong>LDL is "bad cholesterol"</strong> because it carries cholesterol from the liver to peripheral tissues → <span class="hot">increases tissue atherogenicity</span>.</p>
       <p class="ref">Ref: Davidson's 21st/451</p>
     </div>
   </details>
@@ -479,7 +549,7 @@
   <!-- ============ SECTION 17 ============ -->
   <h2 id="ldlvs">17 · Differences Between LDL and HDL</h2>
 
-  <details id="diff1">
+  <details>
     <summary>❓ State the differences between LDL and HDL.</summary>
     <div class="ans">
       <table>
@@ -488,7 +558,7 @@
         <tr><td><strong>Origin</strong></td><td>From VLDL (in blood)</td><td>Liver and intestine</td></tr>
         <tr><td><strong>Main lipid content</strong></td><td>Cholesterol</td><td>Phospholipid</td></tr>
         <tr><td><strong>Blood level (mg/dL)</strong></td><td>&lt; 130</td><td>&gt; 40</td></tr>
-        <tr><td><strong>Function</strong></td><td>Carries cholesterol from liver → peripheral tissues</td><td>Carries cholesterol from peripheral tissues → liver (reverse cholesterol transporter)</td></tr>
+        <tr><td><strong>Function</strong></td><td>Carries cholesterol from liver → peripheral tissues</td><td>Carries cholesterol from peripheral tissues → liver (reverse cholesterol transport)</td></tr>
         <tr><td><strong>Role on atherogenicity</strong></td><td><span class="hot">Increases</span> tissue atherogenicity</td><td><span class="good">Reduces</span> tissue atherogenicity</td></tr>
         <tr><td><strong>Functional name</strong></td><td>Atherogenic / <span class="hot">"bad cholesterol"</span></td><td>Anti-atherogenic / <span class="good">"good cholesterol"</span></td></tr>
       </table>
@@ -497,95 +567,27 @@
   </details>
 
   <!-- ============ RAPID-FIRE ============ -->
-  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs from Ch31)</h2>
+  <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
 
   <details class="rapid" open>
-    <summary>Lipid &amp; Cholesterol — True/False + One-Liners + Clinical MCQs (test yourself, then reveal)</summary>
+    <summary>Lipid &amp; Cholesterol — one-liners &amp; mnemonics</summary>
     <div class="ans">
-
-      <!-- TRUE/FALSE from source -->
-      <div class="q">Increased LDL is directly related to cardiovascular disease. (T/F)</div>
-      <div class="a"><strong>True.</strong> LDL is "bad cholesterol" — carries cholesterol from liver to peripheral tissues, promoting atherosclerosis.</div>
-
-      <div class="q">Increased HDL is directly related to cardiovascular disease. (T/F)</div>
-      <div class="a"><strong>False.</strong> HDL is inversely related — it removes cholesterol from periphery to liver (reverse cholesterol transport), thus protecting against CVD.</div>
-
-      <div class="q">TG is a better fraction of the lipid profile for predicting cardiovascular disease. (T/F)</div>
-      <div class="a"><strong>True.</strong> TG is one of the major treatable risk factors for CVD; severe hypertriglyceridaemia also predisposes to acute pancreatitis.</div>
-
-      <div class="q">Normal fasting total cholesterol is 150–220 mg/dL. (T/F)</div>
-      <div class="a"><strong>True.</strong></div>
-
-      <div class="q">LDL is also called α-lipoprotein. (T/F)</div>
-      <div class="a"><strong>False.</strong> LDL = β-lipoprotein; HDL = α-lipoprotein.</div>
-
-      <div class="q">HDL is synthesised only in the liver. (T/F)</div>
-      <div class="a"><strong>False.</strong> HDL is produced by both the <strong>liver and intestine</strong>.</div>
-
-      <div class="q">Chylomicrons transport endogenous TAG from the liver. (T/F)</div>
-      <div class="a"><strong>False.</strong> Chylomicrons transport <strong>exogenous</strong> (dietary) TAG from the <strong>intestine</strong>. VLDL transports endogenous TAG from the liver.</div>
-
-      <div class="q">VLDL is a precursor of LDL. (T/F)</div>
-      <div class="a"><strong>True.</strong> VLDL → IDL → LDL in the circulation.</div>
-
-      <div class="q">Normal HDL-C is &gt; 40 mg/dL; levels below this increase heart disease risk. (T/F)</div>
-      <div class="a"><strong>True.</strong></div>
-
-      <div class="q">Normal LDL-C is &lt; 130 mg/dL. (T/F)</div>
-      <div class="a"><strong>True.</strong></div>
-
-      <div class="q">Conversion factor: mg/dL to mmol/L is multiply by 0.026. (T/F)</div>
-      <div class="a"><strong>True.</strong></div>
-
-      <div class="q">🎯 One-liner: Name the atherogenic lipoproteins.</div>
-      <div class="a"><strong>VLDL, LDL, VLDL remnant, chylomicron remnant, Lp(a).</strong></div>
-
-      <div class="q">🎯 One-liner: Name the anti-atherogenic lipoprotein.</div>
-      <div class="a"><strong>HDL</strong> — the sole anti-atherogenic lipoprotein.</div>
-
-      <div class="q">🎯 One-liner: What percentage of total plasma lipid is triacylglycerol?</div>
-      <div class="a"><strong>45%</strong> — the largest fraction.</div>
-
-      <div class="q">🎯 One-liner: What are the clinical signs of hyperlipidaemia on examination?</div>
+      <div class="q">🎯 Increased LDL vs HDL relation to CVD?</div>
+      <div class="a"><strong>LDL = directly related;</strong> HDL = <strong>inversely related</strong> to CVD.</div>
+      <div class="q">🎯 Synonyms: LDL · HDL?</div>
+      <div class="a">LDL = <strong>β-lipoprotein</strong> · HDL = <strong>α-lipoprotein</strong>.</div>
+      <div class="q">🎯 HDL synthesised where?</div>
+      <div class="a"><strong>Liver and intestine</strong> (not liver alone).</div>
+      <div class="q">🎯 Chylomicrons transport which TAG? VLDL?</div>
+      <div class="a">Chylomicrons = <strong>exogenous (intestinal)</strong> TAG · VLDL = <strong>endogenous (liver)</strong> TAG.</div>
+      <div class="q">🎯 Is VLDL a precursor of LDL?</div>
+      <div class="a"><strong>Yes</strong> — VLDL → IDL → LDL.</div>
+      <div class="q">🎯 % of total plasma lipid that is triacylglycerol? Phospholipid?</div>
+      <div class="a">TAG <strong>45%</strong> (largest) · Phospholipid <strong>35%</strong>.</div>
+      <div class="q">🎯 Clinical signs of hyperlipidaemia?</div>
       <div class="a"><strong>Corneal arcus, xanthelasma, eruptive xanthoma, tendon xanthoma.</strong></div>
-
-      <div class="q">🎯 One-liner: Phospholipids constitute what percentage of total plasma lipids?</div>
-      <div class="a"><strong>35%</strong> — second largest fraction.</div>
-
-      <div class="q">🎯 One-liner: What is the total lipid normal range?</div>
+      <div class="q">🎯 Total lipid normal range?</div>
       <div class="a"><strong>450–1000 mg/dL.</strong></div>
-
-      <!-- FOLDED CLINICAL MCQs from Ch31 (Blood Lipids section, pp.509-510) -->
-      <div class="q">Hyperlipidaemia mostly occurs in: Nephrotic syndrome (T/F), Long-term starvation (T/F), Diabetes mellitus (T/F), Pulmonary hypertension (T/F), Obesity (T/F)?</div>
-      <div class="a">Nephrotic syndrome = <strong>True</strong> · long-term starvation = <strong>False</strong> · diabetes mellitus = <strong>True</strong> · pulmonary hypertension = <strong>False</strong> · obesity = <strong>True</strong>.</div>
-
-      <div class="q">Secondary causes of dyslipidaemia include: hyperthyroidism (T/F), nephrotic syndrome (T/F), intra-hepatic cholestasis (T/F), diabetes mellitus (T/F), prolonged use of corticosteroids (T/F)?</div>
-      <div class="a">Hyperthyroidism = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · intra-hepatic cholestasis = <strong>True</strong> · diabetes mellitus = <strong>True</strong> · prolonged corticosteroids = <strong>True</strong>.</div>
-
-      <div class="q">Hypercholesterolaemia occurs in: hyperthyroidism (T/F), chronic anaemia (T/F), diabetes mellitus (T/F), nephrotic syndrome (T/F), Cushing syndrome (T/F)?</div>
-      <div class="a">Hyperthyroidism = <strong>False</strong> · chronic anaemia = <strong>False</strong> · diabetes mellitus = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · Cushing syndrome = <strong>False</strong>.</div>
-
-      <div class="q">Hyperlipidaemia commonly occurs in: nephrotic syndrome (T/F), diabetes mellitus (T/F), hyperthyroidism (T/F), adrenal insufficiency (T/F), nephritic syndrome (T/F)?</div>
-      <div class="a">Nephrotic syndrome = <strong>True</strong> · diabetes mellitus = <strong>True</strong> · hyperthyroidism = <strong>False</strong> · adrenal insufficiency = <strong>False</strong> · nephritic syndrome = <strong>False</strong>.</div>
-
-      <div class="q">Hyperlipidaemia occurs in: familial hypercholesterolaemia (T/F), diabetes mellitus (T/F), nephrotic syndrome (T/F), nephritic syndrome (T/F), peptic ulcer disease (T/F)?</div>
-      <div class="a">Familial hypercholesterolaemia = <strong>True</strong> · diabetes mellitus = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · nephritic syndrome = <strong>False</strong> · peptic ulcer disease = <strong>False</strong>.</div>
-
-      <div class="q">Hyperlipidaemia occurs in: diabetes mellitus (T/F), nephrotic syndrome (T/F), hyperthyroidism (T/F), Cushing syndrome (T/F), hyperparathyroidism (T/F)?</div>
-      <div class="a">Diabetes mellitus = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · hyperthyroidism = <strong>False</strong> · Cushing syndrome = <strong>True</strong> · hyperparathyroidism = <strong>True</strong>.</div>
-
-      <div class="q">Hypercholesterolaemia occurs in: hyperthyroidism (T/F), anaemia (T/F), diabetes mellitus (T/F), nephrotic syndrome (T/F), liver disease (T/F)?</div>
-      <div class="a">Hyperthyroidism = <strong>False</strong> · anaemia = <strong>False</strong> · diabetes mellitus = <strong>True</strong> · nephrotic syndrome = <strong>False</strong> (nephrotic causes hypercholesterolaemia but this MCQ set says F for nephrotic in this instance) · liver disease = <strong>True</strong>.</div>
-
-      <div class="q">A normal lipid profile includes: low serum cholesterol (T/F), increased HDL-cholesterol (T/F), increased triglycerides (T/F), decreased VLDL (T/F), low apolipoproteins (T/F)?</div>
-      <div class="a">Low serum cholesterol = <strong>True</strong> (within normal range) · increased HDL-C = <strong>True</strong> (high HDL is normal/good) · increased triglycerides = <strong>False</strong> · decreased VLDL = <strong>True</strong> · low apolipoproteins = <strong>False</strong>.</div>
-
-      <div class="q">🎯 One-liner from clinical MCQs: Which conditions cause hyperlipidaemia? (top answers across all MCQs)</div>
-      <div class="a"><strong>Nephrotic syndrome, diabetes mellitus, obesity, familial hypercholesterolaemia, Cushing syndrome, corticosteroid use, hyperparathyroidism.</strong></div>
-
-      <div class="q">🎯 One-liner: Which conditions do NOT cause hyperlipidaemia?</div>
-      <div class="a"><strong>Hyperthyroidism, peptic ulcer disease, pulmonary hypertension, nephritic syndrome (not nephrotic), adrenal insufficiency, anaemia.</strong></div>
-
     </div>
   </details>
 

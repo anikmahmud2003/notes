@@ -54,6 +54,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"\U0001F3AF ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F \2192 "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -718,48 +728,86 @@
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs from ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>Body Fluids — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Pyogenic meningitis CSF</summary>
+    <details>
+      <summary>Features of CSF in pyogenic meningitis include: cobweb formation (F), decreased protein (F), cloudy appearance (T), presence of neutrophils (T), decreased sugar (T).</summary>
+      <div class="ans">Cobweb <span class="ff">F</span> (cobweb = tubercular) · decreased protein <span class="ff">F</span> · cloudy <span class="tf">T</span> · neutrophils <span class="tf">T</span> · decreased sugar <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Macroscopic changes of CSF in pyogenic meningitis: cobweb formation (F), coarse coagulation formation (T), crystal clear (F), xanthochromic (F), turbid (T).</summary>
+      <div class="ans">Cobweb <span class="ff">F</span> · coarse coagulation <span class="tf">T</span> · crystal clear <span class="ff">F</span> · xanthochromic <span class="ff">F</span> · turbid <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>CSF findings of pyogenic meningitis: opening pressure increased (T), coagulum present (T), crystal clear (F), reduced sugar (T), rich in lymphocytes (F).</summary>
+      <div class="ans">Pressure ↑ <span class="tf">T</span> · coagulum <span class="tf">T</span> · crystal clear <span class="ff">F</span> · reduced sugar <span class="tf">T</span> · lymphocytes <span class="ff">F</span> (neutrophils dominate).</div>
+    </details>
+    <details>
+      <summary>Features of pyogenic meningitis: lymphocytic pleocytosis (F), increased sugar (F), decreased protein (F), hazy appearance (T), cobweb formation (F).</summary>
+      <div class="ans">Lymphocytic pleocytosis <span class="ff">F</span> · ↑sugar <span class="ff">F</span> · ↓protein <span class="ff">F</span> · hazy <span class="tf">T</span> · cobweb <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>In pyogenic meningitis: pressure increased in CSF (T), leukocytosis (T), no role of culture &amp; sensitivity (F), CSF is hazy (T), sugar content raised (F).</summary>
+      <div class="ans">Pressure ↑ <span class="tf">T</span> · leukocytosis <span class="tf">T</span> · no C&amp;S role <span class="ff">F</span> · hazy <span class="tf">T</span> · sugar ↑ <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>In pyogenic meningitis: usual causative agent is <em>E. coli</em> in adults (F), sugar raised (F), predominant cells are polymorphs (T), protein raised (T), cob-web seen (F).</summary>
+      <div class="ans">E. coli adult <span class="ff">F</span> (N. meningitidis) · sugar ↑ <span class="ff">F</span> · polymorphs <span class="tf">T</span> · protein ↑ <span class="tf">T</span> · cob-web <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Features of pyogenic meningitis: cloudy or purulent CSF (T), neutrophils 1 lakh/cumm (F), decreased protein (F), markedly reduced glucose (T), increased pressure (T).</summary>
+      <div class="ans">Cloudy/purulent <span class="tf">T</span> · 1 lakh neutrophils <span class="ff">F</span> (1000–5000 range) · ↓protein <span class="ff">F</span> · ↓glucose <span class="tf">T</span> · ↑pressure <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Tubercular meningitis CSF</summary>
+    <details>
+      <summary>Changes of CSF findings in tubercular meningitis: neutrophil pleocytosis (F), decreased protein (F), cob-web formation (T), decreased chloride (T), decreased sugar (T).</summary>
+      <div class="ans">Neutrophil pleocytosis <span class="ff">F</span> (lymphocytes) · ↓protein <span class="ff">F</span> (↑protein) · cob-web <span class="tf">T</span> · ↓chloride <span class="tf">T</span> · ↓sugar <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>CSF findings in tubercular meningitis: increased pressure (T), decreased glucose (T), decreased protein (F), polymorphonuclear pleocytosis (F), cob-web formation (T).</summary>
+      <div class="ans">↑Pressure <span class="tf">T</span> · ↓glucose <span class="tf">T</span> · ↓protein <span class="ff">F</span> (↑protein) · PMN pleocytosis <span class="ff">F</span> · cob-web <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>CCF findings of tubercular meningitis: increased CSF protein (T), increased CSF glucose (F), increased CSF neutrophils (F), increased CSF chloride (F), increased CSF pressure (T).</summary>
+      <div class="ans">↑Protein <span class="tf">T</span> · ↑glucose <span class="ff">F</span> · ↑neutrophils <span class="ff">F</span> · ↑chloride <span class="ff">F</span> · ↑pressure <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Viral meningitis & lymphocytosis</summary>
+    <details>
+      <summary>Followings are associated with viral meningitis: clear CSF (T), lymphocytes (T), neutrophils (F), clot formation (F), blood in CSF (F).</summary>
+      <div class="ans">Clear CSF <span class="tf">T</span> · lymphocytes <span class="tf">T</span> · neutrophils <span class="ff">F</span> · clot <span class="ff">F</span> · blood <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of lymphocytosis in CSF: viral meningitis (T), bacterial meningitis (F), tubercular meningitis (T), fungal meningitis (F), meningeal carcinomatosis (F).</summary>
+      <div class="ans">Viral <span class="tf">T</span> · bacterial <span class="ff">F</span> (neutrophils) · tubercular <span class="tf">T</span> · fungal <span class="ff">F</span> · carcinomatosis <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Pleural & ascitic effusions</summary>
+    <details>
+      <summary>Exudative pleural effusion occurs in: pulmonary TB (T), nephrotic syndrome (F), bronchogenic carcinoma (T), pneumonia (T), cardiac failure (F).</summary>
+      <div class="ans">TB <span class="tf">T</span> · nephrotic <span class="ff">F</span> (transudate) · carcinoma <span class="tf">T</span> · pneumonia <span class="tf">T</span> · cardiac failure <span class="ff">F</span> (transudate).</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — CSF collection & microbiology</summary>
+    <details>
+      <summary>✅ True or False: CSF must be examined within 60 minutes after collection. Koch's Koch's bacilli in CSF seen on Ziehl-Neelsen stain. Chocolate agar used for <em>N. meningitidis</em>. Meigs' syndrome = exudative pleural effusion. ADA test is specific for viral meningitis.</summary>
+      <div class="ans">Within 60 min <span class="tf">T</span> · ZN stain for AFB <span class="tf">T</span> · Chocolate agar <span class="tf">T</span> (for H. influenzae and N. meningitidis) · Meigs' <span class="tf">T</span> (exudative; ovarian fibroma + ascites + hydrothorax) · ADA for viral <span class="ff">F</span> (ADA is for tubercular meningitis).</div>
+    </details>
+  </details>
+
+
+    <details class="rapid" open>
+    <summary>Body Fluids, CSF & Serous Fluids — One-Liners & Mnemonics (test yourself, then reveal)</summary>
     <div class="ans">
-      <!-- Folded clinical MCQs from ch31 — Body Fluids section (pp.506–507) -->
-      <div class="q">Features of CSF in pyogenic meningitis include: cobweb formation (F), decreased protein (F), cloudy appearance (T), presence of neutrophils (T), decreased sugar (T). <span class="ref">(DU-22Nv)</span></div>
-      <div class="a">Cobweb = <strong>False</strong> (cobweb = tubercular) · decreased protein = <strong>False</strong> · cloudy = <strong>True</strong> · neutrophils = <strong>True</strong> · decreased sugar = <strong>True</strong>.</div>
-
-      <div class="q">Macroscopic changes of CSF in pyogenic meningitis: cobweb formation (F), coarse coagulation formation (T), crystal clear (F), xanthochromic (F), turbid (T). <span class="ref">(DU-23Nv)</span></div>
-      <div class="a">Cobweb = <strong>False</strong> · coarse coagulation = <strong>True</strong> · crystal clear = <strong>False</strong> · xanthochromic = <strong>False</strong> · turbid = <strong>True</strong>.</div>
-
-      <div class="q">CSF findings of pyogenic meningitis: opening pressure increased (T), coagulum present (T), crystal clear (F), reduced sugar (T), rich in lymphocytes (F). <span class="ref">(DU-22Nv)</span></div>
-      <div class="a">Pressure ↑ = <strong>True</strong> · coagulum = <strong>True</strong> · crystal clear = <strong>False</strong> · reduced sugar = <strong>True</strong> · lymphocytes = <strong>False</strong> (neutrophils dominate).</div>
-
-      <div class="q">Features of pyogenic meningitis: lymphocytic pleocytosis (F), increased sugar (F), decreased protein (F), hazy appearance (T), cobweb formation (F). <span class="ref">(DU-22M)</span></div>
-      <div class="a">Lymphocytic pleocytosis = <strong>False</strong> · ↑sugar = <strong>False</strong> · ↓protein = <strong>False</strong> · hazy = <strong>True</strong> · cobweb = <strong>False</strong>.</div>
-
-      <div class="q">Changes of CSF findings in tubercular meningitis: neutrophil pleocytosis (F), decreased protein (F), cob-web formation (T), decreased chloride (T), decreased sugar (T). <span class="ref">(DU-19M)</span></div>
-      <div class="a">Neutrophil pleocytosis = <strong>False</strong> (lymphocytes) · ↓protein = <strong>False</strong> (↑protein) · cob-web = <strong>True</strong> · ↓chloride = <strong>True</strong> · ↓sugar = <strong>True</strong>.</div>
-
-      <div class="q">Followings are associated with viral meningitis: clear CSF (T), lymphocytes (T), neutrophils (F), clot formation (F), blood in CSF (F). <span class="ref">(RU-18M, RU-14Ja)</span></div>
-      <div class="a">Clear CSF = <strong>True</strong> · lymphocytes = <strong>True</strong> · neutrophils = <strong>False</strong> · clot = <strong>False</strong> · blood = <strong>False</strong>.</div>
-
-      <div class="q">CSF findings in tubercular meningitis: increased pressure (T), decreased glucose (T), decreased protein (F), polymorphonuclear pleocytosis (F), cob-web formation (T). <span class="ref">(DU-16Ju)</span></div>
-      <div class="a">↑Pressure = <strong>True</strong> · ↓glucose = <strong>True</strong> · ↓protein = <strong>False</strong> (↑protein) · PMN pleocytosis = <strong>False</strong> · cob-web = <strong>True</strong>.</div>
-
-      <div class="q">Causes of lymphocytosis in CSF: viral meningitis (T), bacterial meningitis (F), tubercular meningitis (T), fungal meningitis (F), meningeal carcinomatosis (F). <span class="ref">(DU-16Ja)</span></div>
-      <div class="a">Viral = <strong>True</strong> · bacterial = <strong>False</strong> (neutrophils) · tubercular = <strong>True</strong> · fungal = <strong>False</strong> · carcinomatosis = <strong>False</strong>.</div>
-
-      <div class="q">In pyogenic meningitis: pressure increased in CSF (T), leukocytosis (T), no role of culture &amp; sensitivity (F), CSF is hazy (T), sugar content raised (F). <span class="ref">(DU-14Ja)</span></div>
-      <div class="a">Pressure ↑ = <strong>True</strong> · leukocytosis = <strong>True</strong> · no C&amp;S role = <strong>False</strong> · hazy = <strong>True</strong> · sugar ↑ = <strong>False</strong>.</div>
-
-      <div class="q">In pyogenic meningitis: usual causative agent is <em>E. coli</em> in adults (F), sugar raised (F), predominant cells are polymorphs (T), protein raised (T), cob-web seen (F). <span class="ref">(DU-13Ja)</span></div>
-      <div class="a"><em>E. coli</em> adult = <strong>False</strong> (<em>N. meningitidis</em>) · sugar ↑ = <strong>False</strong> · polymorphs = <strong>True</strong> · protein ↑ = <strong>True</strong> · cob-web = <strong>False</strong>.</div>
-
-      <div class="q">Features of pyogenic meningitis: cloudy or purulent CSF (T), neutrophils 1 lakh/cumm (F), decreased protein (F), markedly reduced glucose (T), increased pressure (T). <span class="ref">(DU-09Ju)</span></div>
-      <div class="a">Cloudy/purulent = <strong>True</strong> · 1 lakh neutrophils = <strong>False</strong> (1000–5000 range) · ↓protein = <strong>False</strong> · ↓glucose = <strong>True</strong> · ↑pressure = <strong>True</strong>.</div>
-
-      <div class="q">CCF findings of tubercular meningitis: increased CSF protein (T), increased CSF glucose (F), increased CSF neutrophils (F), increased CSF chloride (F), increased CSF pressure (T). <span class="ref">(RU-13Ju)</span></div>
-      <div class="a">↑Protein = <strong>True</strong> · ↑glucose = <strong>False</strong> · ↑neutrophils = <strong>False</strong> · ↑chloride = <strong>False</strong> · ↑pressure = <strong>True</strong>.</div>
-
-      <div class="q">Exudative pleural effusion occurs in: pulmonary TB (T), nephrotic syndrome (F), bronchogenic carcinoma (T), pneumonia (T), cardiac failure (F). <span class="ref">(DU-16Ju, DU-11Ja, RU-14Ja)</span></div>
-      <div class="a">TB = <strong>True</strong> · nephrotic = <strong>False</strong> (transudate) · carcinoma = <strong>True</strong> · pneumonia = <strong>True</strong> · cardiac failure = <strong>False</strong> (transudate).</div>
 
       <div class="q">🎯 One-liners: CSF glucose ≈ ___% of blood glucose? Cob-web clot = ? Neurosyphilis diagnosis = ? SAAG ≥1.1 = ? Most common cause of pyogenic meningitis = ?</div>
       <div class="a">CSF glucose ≈ <strong>60%</strong> of blood glucose · Cob-web = <strong>tubercular meningitis</strong> · Neurosyphilis → <strong>VDRL in CSF</strong> · SAAG ≥1.1 = <strong>portal hypertension (cirrhosis)</strong> · Most common cause = <strong><em>N. meningitidis</em></strong>.</div>
@@ -773,8 +821,6 @@
       <div class="q">🎯 Exudative ascitic fluid: protein &gt;___ g/L? Transudative ascites: most common cause = ? Malignant pleural effusion: appearance = ?</div>
       <div class="a">Exudative protein <strong>&gt;25 g/L</strong> · Most common transudative cause = <strong>congestive cardiac failure / cirrhosis</strong> · Malignant pleural effusion = <strong>haemorrhagic</strong>.</div>
 
-      <div class="q">✅ True or False: CSF must be examined within 60 minutes after collection. Koch's Koch's bacilli in CSF seen on Ziehl-Neelsen stain. Chocolate agar used for <em>N. meningitidis</em>. Meigs' syndrome = exudative pleural effusion. ADA test is specific for viral meningitis.</div>
-      <div class="a">Within 60 min = <strong>True</strong> · ZN stain for AFB = <strong>True</strong> · Chocolate agar = <strong>True</strong> (for <em>H. influenzae</em> and <em>N. meningitidis</em>) · Meigs' = <strong>True</strong> (exudative; ovarian fibroma + ascites + hydrothorax) · ADA for viral = <strong>False</strong> (ADA is for <strong>tubercular</strong> meningitis).</div>
     </div>
   </details>
 

@@ -52,6 +52,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -117,10 +127,24 @@
   <h2 id="lft">2 · What Are Liver Function Tests (LFTs)?</h2>
 
   <details>
-    <summary>🔴 What do you mean by Liver Function Tests (LFTs)? Enumerate the different liver function tests with their normal values.</summary>
+    <summary>What do you mean by Liver Function Tests (LFTs)? Give their indications.</summary>
     <div class="ans">
-      <p><strong>Definition:</strong> Liver Function Tests (LFTs) are biochemical investigations to assess the capacity of the liver to carry out any of its functions. They are grouped into the following categories:</p>
+      <p><strong>Definition:</strong> Liver Function Tests (LFTs) are biochemical investigations to assess the capacity of the liver to carry out any of its functions.</p>
+      <h3>Indications / significance of LFTs</h3>
+      <ol>
+        <li>Differential diagnosis and progress of jaundice</li>
+        <li>To assess the extent of liver damage</li>
+        <li>To follow the progress of liver damage</li>
+        <li>To identify the specific cause of liver damage</li>
+        <li>To investigate possible complications</li>
+      </ol>
+      <p class="ref">Prof. Khaleque/196; Davidson's 20e/940</p>
+    </div>
+  </details>
 
+  <details>
+    <summary>Enumerate the different liver function tests grouped by function, with normal values.</summary>
+    <div class="ans">
       <h3>1. Tests for excretory function</h3>
       <ul>
         <li><strong>In blood — Serum bilirubin:</strong> Normal = 0.3–1.0 mg/dL (5–17 μmol/L). In serum, bilirubin is normally almost all unconjugated. Subdivided into:
@@ -186,16 +210,6 @@
         <li>Antinuclear antibody (ANA) — autoimmune hepatitis (AIH)</li>
         <li>Anti-smooth muscle antibody (ASMA) — autoimmune hepatitis</li>
       </ul>
-
-      <h3>Indications / significance of LFTs</h3>
-      <ol>
-        <li>Differential diagnosis and progress of jaundice</li>
-        <li>To assess the extent of liver damage</li>
-        <li>To follow the progress of liver damage</li>
-        <li>To identify the specific cause of liver damage</li>
-        <li>To investigate possible complications</li>
-      </ol>
-      <p class="ref">Prof. Khaleque/196; Davidson's 20e/940</p>
     </div>
   </details>
 
@@ -277,16 +291,20 @@
   </details>
 
   <details>
-    <summary>Mention the sites where ALP is found. When may ALP be increased?</summary>
+    <summary>Mention the sites where ALP is found.</summary>
     <div class="ans">
-      <h3>Sites where ALP (alkaline phosphatase) is found</h3>
       <ol>
         <li>Liver (bile duct epithelium)</li>
         <li>Bone (osteoblasts)</li>
         <li>Intestine</li>
         <li>Placenta</li>
       </ol>
-      <h3>Situations where ALP may be increased</h3>
+    </div>
+  </details>
+
+  <details>
+    <summary>When may ALP be increased? How to differentiate cholestasis from bone disease?</summary>
+    <div class="ans">
       <ol>
         <li><strong>Cholestatic jaundice</strong> — 4–6× normal limit</li>
         <li><strong>Bone disease</strong> (e.g. Paget disease, osteomalacia, fractures, rickets, bone tumours)</li>
@@ -312,17 +330,22 @@
   <h2 id="synthetic">4 · Synthetic Function Tests — Albumin, PT, Total Protein</h2>
 
   <details>
-    <summary>🔴 Write the importance of prothrombin time (PT). What are the causes of raised PT?</summary>
+    <summary>Why is prothrombin time (PT) important?</summary>
     <div class="ans">
-      <p><strong>Importance of PT:</strong> Prothrombin time (PT) is a coagulation screening test that measures how long it takes blood to clot. It is <span class="hot">the most sensitive and most specific indicator of both acute and chronic liver disease</span>.</p>
-      <p><strong>Causes of raised (prolonged) prothrombin time:</strong></p>
+      <p>Prothrombin time (PT) is a coagulation screening test that measures how long it takes blood to clot. It is <span class="hot">the most sensitive and most specific indicator of both acute and chronic liver disease</span>.</p>
+      <div class="mnem">🎯 PT test may also be called an <strong>INR (International Normalized Ratio)</strong> test — a way of standardizing PT results across laboratories.</div>
+    </div>
+  </details>
+
+  <details>
+    <summary>What are the causes of raised (prolonged) PT?</summary>
+    <div class="ans">
       <ol>
         <li><strong>Liver disease</strong> — deficiency of factors I, II, V, VII, X (factors II, VII, IX, X are vitamin-K-dependent)</li>
         <li><strong>Vitamin K deficiency</strong> — impaired lipid absorption (bile duct obstruction)</li>
         <li><strong>Warfarin therapy</strong> (anticoagulant that blocks vitamin-K-dependent factor synthesis)</li>
         <li><strong>DIC</strong> (disseminated intravascular coagulation) — consumption of clotting factors</li>
       </ol>
-      <div class="mnem">🎯 PT test may also be called an <strong>INR (International Normalized Ratio)</strong> test — a way of standardizing PT results across laboratories.</div>
     </div>
   </details>
 
@@ -401,14 +424,20 @@
   <h2 id="bilirubin">5 · Bilirubin Metabolism &amp; Hyperbilirubinaemia</h2>
 
   <details>
-    <summary>🔴 What is hyperbilirubinaemia? Define direct and indirect bilirubin.</summary>
+    <summary>What is hyperbilirubinaemia? When does clinical jaundice appear?</summary>
     <div class="ans">
       <p><strong>Hyperbilirubinaemia:</strong> serum bilirubin &gt;1 mg/dL (1 mg%). Normal total bilirubin = 0.3–1.0 mg/dL (5–17 μmol/L). Clinical jaundice appears when bilirubin exceeds <strong>3 mg/dL (50 μmol/L)</strong>. The sub-clinical range (1–3 mg/dL) is detectable by lab but no visible jaundice.</p>
+      <p class="ref">Lippincott's 3e/283; Prof. Khaleque/194</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Define direct and indirect bilirubin.</summary>
+    <div class="ans">
       <h3>Direct (conjugated) bilirubin</h3>
       <p>Conjugated bilirubin is called <strong>direct bilirubin</strong>. In aqueous solution, it is <span class="good">water-soluble</span> and reacts rapidly (within 1 minute) with the reagent <strong>diazotized sulfanilic acid</strong> in the van den Bergh reaction — that is why it is called "direct reacting" or direct bilirubin. Present in urine (bilirubinuria) when raised.</p>
       <h3>Indirect (unconjugated) bilirubin</h3>
       <p>Unconjugated bilirubin is called <strong>indirect bilirubin</strong>. It is <span class="hot">not soluble in water</span>; in plasma it is bound to albumin. It is obtained by subtracting the direct-reacting bilirubin from the total bilirubin. Cannot pass through urine (bound to albumin, too large for glomerular filtration). <strong>Lipid-soluble → can cross the blood-brain barrier (BBB) → toxic to brain (kernicterus).</strong></p>
-      <p class="ref">Lippincott's 3e/283; Prof. Khaleque/194</p>
     </div>
   </details>
 
@@ -477,7 +506,7 @@
   <h2 id="jaundice">6 · Jaundice — Definition &amp; Classification</h2>
 
   <details>
-    <summary>🔴 Define and classify jaundice. Give its pathophysiological and clinico-pathological classification with causes.</summary>
+    <summary>Define jaundice. At what bilirubin level does it become visible?</summary>
     <div class="ans">
       <p><strong>Definition:</strong> Jaundice (icterus) is a clinical condition characterised by <span class="hot">yellow discolouration of the skin, sclera, and mucous membranes</span> due to increased bilirubin concentration in body fluids above normal.</p>
       <ul>
@@ -485,8 +514,12 @@
         <li><strong>Clinical jaundice</strong> appears when bilirubin &gt; <strong>3 mg/dL (50 μmol/L)</strong></li>
         <li>Sub-clinical jaundice: bilirubin &gt;1 mg/dL but &lt;3 mg/dL (no visible jaundice)</li>
       </ul>
+    </div>
+  </details>
 
-      <h3>A. Pathophysiological classification</h3>
+  <details>
+    <summary>Give the pathophysiological classification of jaundice.</summary>
+    <div class="ans">
       <ol>
         <li><strong>Predominantly unconjugated hyperbilirubinaemia:</strong>
           <ul>
@@ -497,8 +530,12 @@
         </li>
         <li><strong>Predominantly conjugated hyperbilirubinaemia:</strong> intrahepatic &amp; extrahepatic cholestasis</li>
       </ol>
+    </div>
+  </details>
 
-      <h3>B. Clinico-pathological classification</h3>
+  <details>
+    <summary>Give the clinico-pathological classification of jaundice with causes.</summary>
+    <div class="ans">
       <p><strong>1. Haemolytic / Pre-hepatic jaundice:</strong> results from excessive breakdown of RBCs → excessive production of unconjugated bilirubin.</p>
       <ul>
         <li>Congenital RBC defects: sickle cell anaemia, thalassaemia, haemoglobinopathies, hereditary spherocytosis</li>
@@ -622,7 +659,7 @@
   <h2 id="obstructive">8 · Obstructive (Post-hepatic) Jaundice</h2>
 
   <details>
-    <summary>🔴 Give the etiology and pathogenesis of obstructive jaundice. Write its LFT findings and complications.</summary>
+    <summary>Give the pathogenesis and etiology of obstructive jaundice.</summary>
     <div class="ans">
       <h3>Pathogenesis</h3>
       <p>Intrahepatic &amp; extrahepatic bile flow obstruction → bile cannot drain into intestine → absorption of conjugated bilirubin into blood → <span class="hot">conjugated hyperbilirubinaemia</span> → obstructive jaundice.</p>
@@ -632,8 +669,13 @@
         <li><strong>Intrahepatic cholestasis:</strong> viral hepatitis, drugs (methyltestosterone, oestrogen, oral contraceptives), primary biliary cirrhosis, alcoholic hepatitis, pregnancy, post-operative</li>
         <li><strong>Extrahepatic cholestasis:</strong> CBD stone, carcinoma of head of pancreas, carcinoma of ampulla of Vater, metastatic carcinoma of CBD, stricture of CBD, cysts in CBD, Ascaris impaction, pressure from enlarged coeliac lymph nodes, traumatic biliary stricture</li>
       </ul>
+      <p class="ref">Prof. Khaleque/195</p>
+    </div>
+  </details>
 
-      <h3>LFT in obstructive jaundice</h3>
+  <details>
+    <summary>Write the LFT findings in obstructive jaundice.</summary>
+    <div class="ans">
       <ol>
         <li>Serum bilirubin: <span class="hot">conjugated hyperbilirubinaemia</span></li>
         <li>Serum ALP: <span class="hot">markedly raised (4–6× normal)</span></li>
@@ -641,7 +683,12 @@
         <li>Urine urobilinogen: reduced or absent</li>
         <li>Stool stercobilinogen: reduced or absent</li>
       </ol>
+    </div>
+  </details>
 
+  <details>
+    <summary>What are the complications and 3 cardinal features of obstructive jaundice?</summary>
+    <div class="ans">
       <h3>Complications of obstructive jaundice (VIVA important)</h3>
       <ol>
         <li><strong>Pruritus</strong> — deposition of bile salts in skin → degranulation of mast cells → histamine release → itching</li>
@@ -656,7 +703,6 @@
         <li>Generalised itching (pruritus)</li>
         <li>Pale stool + urinary bilirubin present</li>
       </ol>
-      <p class="ref">Prof. Khaleque/195</p>
     </div>
   </details>
 
@@ -706,15 +752,22 @@
   </details>
 
   <details>
-    <summary>Why is there generalised itching (pruritus) in obstructive jaundice? Why is there pale stool? Why is bilirubin present in urine?</summary>
+    <summary>Why is there generalised itching (pruritus) in obstructive jaundice?</summary>
     <div class="ans">
-      <h3>Pruritus in obstructive jaundice</h3>
       <p>Due to cholestasis, bile salts cannot be excreted → accumulation occurs in skin → degranulation of mast cells → increased histamine release → <span class="hot">generalised itching</span>.</p>
+    </div>
+  </details>
 
-      <h3>Pale stool in obstructive jaundice</h3>
+  <details>
+    <summary>Why is there pale stool in obstructive jaundice?</summary>
+    <div class="ans">
       <p>No bile in intestine → no digestion of fat → steatorrhoea → <span class="hot">pale, bulky, frothy stool</span>. Also, no stercobilinogen (which normally gives stool its brown colour).</p>
+    </div>
+  </details>
 
-      <h3>Bilirubin present in urine (obstructive vs haemolytic)</h3>
+  <details>
+    <summary>Why is bilirubin present in urine in obstructive but not haemolytic jaundice?</summary>
+    <div class="ans">
       <ul>
         <li><strong>Obstructive jaundice:</strong> conjugated bilirubin is water-soluble → excreted through urine (bilirubinuria)</li>
         <li><strong>Haemolytic jaundice:</strong> unconjugated bilirubin is water-insoluble and tightly albumin-bound → NOT excreted through urine</li>
@@ -726,17 +779,26 @@
   <h2 id="physiological">9 · Physiological Jaundice of Newborn</h2>
 
   <details>
-    <summary>🔴 What is physiological jaundice? Give its mechanism, treatment, and complications.</summary>
+    <summary>What is physiological jaundice?</summary>
     <div class="ans">
       <p><strong>Definition:</strong> Most infants develop visible jaundice due to elevation of unconjugated bilirubin during the <strong>first week of life</strong>. This condition is called <strong>physiological jaundice</strong>. It generally appears at <strong>2–4 days of age</strong> and disappears by 1–2 weeks. It is harmless and doesn't usually cause a problem.</p>
+    </div>
+  </details>
 
-      <h3>Mechanism / reasons</h3>
+  <details>
+    <summary>What is the mechanism of physiological jaundice?</summary>
+    <div class="ans">
       <ol>
         <li><strong>Newborns make more bilirubin</strong> than adults — more RBC turnover</li>
         <li>A newborn's <strong>still-developing liver may not yet be able to remove adequate bilirubin</strong> from the blood (immature glucuronyl transferase)</li>
         <li><strong>Increased enterohepatic recirculation</strong> — too much bilirubin reabsorbed from intestines before the baby eliminates it in stool</li>
       </ol>
+    </div>
+  </details>
 
+  <details>
+    <summary>What is the treatment and complications of physiological jaundice?</summary>
+    <div class="ans">
       <h3>Treatment</h3>
       <p>Usually not needed. Jaundice usually resolves within 1–2 weeks. Sometimes <strong>phototherapy</strong> is needed for very high bilirubin levels.</p>
 
@@ -765,11 +827,16 @@
   <h2 id="kernicterus">10 · Kernicterus</h2>
 
   <details>
-    <summary>🔴 Short note: Kernicterus. Give its causes and treatment.</summary>
+    <summary>What is kernicterus?</summary>
     <div class="ans">
       <p><strong>Definition:</strong> Kernicterus is a neurological syndrome resulting from <span class="hot">bilirubin toxicity within the brain</span> — staining and necrosis of neurons in the <strong>basal ganglia, hippocampal cortex, subthalamic nuclei, and cerebellum</strong>, followed by gliosis of those areas. The cerebral cortex is usually spared.</p>
+      <p class="ref">M R Khan 3e/69–70</p>
+    </div>
+  </details>
 
-      <h3>Causes</h3>
+  <details>
+    <summary>What are the causes of kernicterus?</summary>
+    <div class="ans">
       <ol>
         <li>Prematurity</li>
         <li>Haemolytic disease of the newborn (HDN)</li>
@@ -777,76 +844,114 @@
         <li>Neonatal hepatitis</li>
         <li>Congenital spherocytosis</li>
       </ol>
+    </div>
+  </details>
 
-      <h3>Treatment</h3>
+  <details>
+    <summary>What is the treatment of kernicterus?</summary>
+    <div class="ans">
       <ol>
         <li>Appearance of clinical signs suggesting bilirubin toxicity or encephalopathy is an indication for <strong>exchange transfusion at any level of serum bilirubin</strong></li>
         <li>Once established, kernicterus is <span class="hot">irreversible</span> — management is only symptomatic</li>
       </ol>
-      <p class="ref">M R Khan 3e/69–70</p>
     </div>
   </details>
 
   <!-- ========== RAPID-FIRE ========== -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; One-Liner Sweep (incl. folded Clinical Pathology MCQs from ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>Liver Function Test &amp; Jaundice — True/False, One-Liners &amp; Folded Clinical MCQs</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Obstructive jaundice</summary>
+    <details>
+      <summary>Following enzymes are raised in obstructive jaundice: ALP (T), Creatinine phosphokinase (F), GGT (T), Acid phosphatase (F), Alkaline aminotransferase (F).</summary>
+      <div class="ans">ALP <span class="tf">T</span> · CPK <span class="ff">F</span> · GGT <span class="tf">T</span> · Acid phosphatase <span class="ff">F</span> · Alkaline aminotransferase <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Obstructive jaundice is associated with (DU-19Nv): Raised serum ALP (T), Passage of dark coloured stool (F), Conjugated hyperbilirubinaemia (T), Pruritus (T), Increased serum AFP (F).</summary>
+      <div class="ans">ALP raised <span class="tf">T</span> · dark stool <span class="ff">F</span> (pale) · conjugated raised <span class="tf">T</span> · pruritus <span class="tf">T</span> · AFP raised <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Features of obstructive jaundice include (DU-18M): Unconjugated hyperbilirubinaemia (F), Pale bulky frothy stool (T), Increased PT (T), Increased ALP (T), Increased urinary urobilinogen (F).</summary>
+      <div class="ans">Unconjugated raised <span class="ff">F</span> · pale stool <span class="tf">T</span> · PT increased <span class="tf">T</span> · ALP increased <span class="tf">T</span> · urobilinogen increased <span class="ff">F</span> (decreased).</div>
+    </details>
+    <details>
+      <summary>Obstructive jaundice is associated with (DU-18Ja): Raised ALP (T), Dark coloured stool (F), Conjugated hyperbilirubinaemia (T), Calcular disease of gall bladder (T), Haemolytic anaemia (F).</summary>
+      <div class="ans">ALP raised <span class="tf">T</span> · dark stool <span class="ff">F</span> · conjugated raised <span class="tf">T</span> · calculous disease <span class="tf">T</span> · haemolytic anaemia <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>In obstructive jaundice (DU-16Ja): PT prolonged (T), Unconjugated bilirubin elevated (F), ALT markedly increased (F), ALP markedly raised (T), Dark coloured stool (F).</summary>
+      <div class="ans">PT prolonged <span class="tf">T</span> · unconjugated elevated <span class="ff">F</span> · ALT markedly increased <span class="ff">F</span> · ALP markedly raised <span class="tf">T</span> · dark stool <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Obstruction of common bile duct is associated with (DU-13Ju): Great increase in ALP (T), Increase in unconjugated bilirubin (F), Decrease in stool stercobilinogen (T), Increase in fecal fat (T), Increase in urinary urobilinogen (F).</summary>
+      <div class="ans">ALP great increase <span class="tf">T</span> · unconjugated increased <span class="ff">F</span> · stercobilinogen decreased <span class="tf">T</span> · fecal fat increased <span class="tf">T</span> · urobilinogen increased <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Bilirubin & hyperbilirubinaemia</summary>
+    <details>
+      <summary>Characteristics of conjugated bilirubin: Lipid soluble (F), Can cross BBB (F), Can pass through urine (T), Raised in obstructive jaundice (T), Presents in healthy individuals (F).</summary>
+      <div class="ans">Lipid soluble <span class="ff">F</span> · cross BBB <span class="ff">F</span> · pass urine <span class="tf">T</span> · raised obstructive <span class="tf">T</span> · healthy <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Unconjugated bilirubin shows: Non-toxic to children (F), Excreted through urine (F), Raised in haemolytic disorder — note: source says (F) likely a typo; key feature is it CAN cross BBB (T), Water soluble (F).</summary>
+      <div class="ans">Non-toxic <span class="ff">F</span> · excreted urine <span class="ff">F</span> · raised haemolytic <span class="tf">T</span> (classic finding) · cross BBB <span class="tf">T</span> · water soluble <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Features of unconjugated bilirubin (DU-21Oct/M): Water soluble (F), Non-toxic (F), Passes through urine (F), Can cross BBB (T), Raised in obstructive jaundice (F).</summary>
+      <div class="ans">Water soluble <span class="ff">F</span> · non-toxic <span class="ff">F</span> · passes urine <span class="ff">F</span> · cross BBB <span class="tf">T</span> · raised obstructive <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Alpha-fetoprotein (AFP) raises in (DU-15Ju): Prostate cancer (F), Colon cancer (F), Liver cancer (T), Ovarian teratoma (F), Germ cell tumour of testes (T).</summary>
+      <div class="ans">Prostate <span class="ff">F</span> · colon <span class="ff">F</span> · liver cancer <span class="tf">T</span> · ovarian teratoma <span class="ff">F</span> · germ cell tumour testes <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of conjugated hyperbilirubinaemia (DU-12Ja): Acute pancreatitis (F), Cirrhosis of liver (T), Hereditary spherocytosis (F), Crigler-Najjar syndrome (T), Dubin-Johnson syndrome (T).</summary>
+      <div class="ans">Acute pancreatitis <span class="ff">F</span> · cirrhosis <span class="tf">T</span> · hereditary spherocytosis <span class="ff">F</span> (unconjugated) · Crigler-Najjar <span class="tf">T</span> · Dubin-Johnson <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hyperbilirubinaemia (DU-08Ju): Acute pancreatitis (F), Cirrhosis of liver (T), Hereditary spherocytosis (T), Crigler-Najjar syndrome (T), Dubin-Johnson syndrome (T).</summary>
+      <div class="ans">Acute pancreatitis <span class="ff">F</span> · cirrhosis <span class="tf">T</span> · hereditary spherocytosis <span class="tf">T</span> · Crigler-Najjar <span class="tf">T</span> · Dubin-Johnson <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Jaundice differentiation (ALT patterns)</summary>
+    <details>
+      <summary>Regarding the statements (CMU-22M / CU-19Nv): ALT increased in haemolytic jaundice (F), ALT may be normal in obstructive jaundice (T), ALT markedly raised in hepatocellular jaundice (T), Conjugated bilirubin normal in obstructive jaundice (F), Conjugated bilirubin normal in haemolytic jaundice (T).</summary>
+      <div class="ans">ALT haemolytic <span class="ff">F</span> · ALT obstructive may be normal <span class="tf">T</span> · ALT hepatocellular markedly raised <span class="tf">T</span> · conjugated normal in obstructive <span class="ff">F</span> (it is raised) · conjugated normal in haemolytic <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Haemolytic jaundice is associated with (DU-13Ju): Presence of bilirubin in urine (F), Increase in serum ALP (F), Decrease in conjugated bilirubin in serum (F), Increase urobilinogen in urine (T), Increase bile salt in urine (F).</summary>
+      <div class="ans">Bilirubin in urine <span class="ff">F</span> · ALP increased <span class="ff">F</span> · conjugated decreased <span class="ff">F</span> (it is relatively unchanged) · urobilinogen increased <span class="tf">T</span> · bile salts in urine <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Synthetic function & chronic liver disease</summary>
+    <details>
+      <summary>Tests reflecting synthetic function of liver (DU-15Ju): Serum bilirubin (F), ALP (F), ALT (F), PT (T), Serum albumin (T).</summary>
+      <div class="ans">Bilirubin <span class="ff">F</span> · ALP <span class="ff">F</span> · ALT <span class="ff">F</span> · PT <span class="tf">T</span> · albumin <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>In chronic liver disease (DU-13Ju): PT prolonged (T), Serum bilirubin always raised (F), ALP raised (T), A:G ratio altered (T), Clotting time can be increased (T).</summary>
+      <div class="ans">PT prolonged <span class="tf">T</span> · bilirubin always raised <span class="ff">F</span> · ALP raised <span class="tf">T</span> · A:G altered <span class="tf">T</span> · clotting time increased <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>In chronic liver disease (DU-13Ja): Always raised serum albumin above 5 mg/100mL (F), Decreased serum albumin (T), Increased bile acid (F), High rise of ALT (T), Prolonged PT (T).</summary>
+      <div class="ans">Albumin always above 5 <span class="ff">F</span> (it is low) · decreased albumin <span class="tf">T</span> · increased bile acid <span class="ff">F</span> (in source's context) · high ALT <span class="tf">T</span> · prolonged PT <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Always raised in chronic liver disease (DU-11Ja): Serum bilirubin (T), PT (T), Serum albumin (F), Clotting time (T), Bleeding time (F).</summary>
+      <div class="ans">Bilirubin <span class="tf">T</span> · PT <span class="tf">T</span> · albumin <span class="ff">F</span> (it is decreased) · clotting time <span class="tf">T</span> · bleeding time <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+
+    <details class="rapid" open>
+    <summary>Liver Function Test & Jaundice — One-Liners & Mnemonics (test yourself, then reveal)</summary>
     <div class="ans">
-
-      <div class="q">Following enzymes are raised in obstructive jaundice: ALP (T), Creatinine phosphokinase (F), GGT (T), Acid phosphatase (F), Alkaline aminotransferase (F).</div>
-      <div class="a">ALP = <strong>True</strong> · CPK = <strong>False</strong> · GGT = <strong>True</strong> · Acid phosphatase = <strong>False</strong> · Alkaline aminotransferase = <strong>False</strong>.</div>
-
-      <div class="q">Characteristics of conjugated bilirubin: Lipid soluble (F), Can cross BBB (F), Can pass through urine (T), Raised in obstructive jaundice (T), Presents in healthy individuals (F).</div>
-      <div class="a">Lipid soluble = <strong>False</strong> · cross BBB = <strong>False</strong> · pass urine = <strong>True</strong> · raised obstructive = <strong>True</strong> · healthy = <strong>False</strong>.</div>
-
-      <div class="q">Unconjugated bilirubin shows: Non-toxic to children (F), Excreted through urine (F), Raised in haemolytic disorder — note: source says (F) likely a typo; key feature is it CAN cross BBB (T), Water soluble (F).</div>
-      <div class="a">Non-toxic = <strong>False</strong> · excreted urine = <strong>False</strong> · raised haemolytic = <strong>True</strong> (classic finding) · cross BBB = <strong>True</strong> · water soluble = <strong>False</strong>.</div>
-
-      <div class="q">Regarding the statements (CMU-22M / CU-19Nv): ALT increased in haemolytic jaundice (F), ALT may be normal in obstructive jaundice (T), ALT markedly raised in hepatocellular jaundice (T), Conjugated bilirubin normal in obstructive jaundice (F), Conjugated bilirubin normal in haemolytic jaundice (T).</div>
-      <div class="a">ALT haemolytic = <strong>False</strong> · ALT obstructive may be normal = <strong>True</strong> · ALT hepatocellular markedly raised = <strong>True</strong> · conjugated normal in obstructive = <strong>False</strong> (it is raised) · conjugated normal in haemolytic = <strong>True</strong>.</div>
-
-      <div class="q">Features of unconjugated bilirubin (DU-21Oct/M): Water soluble (F), Non-toxic (F), Passes through urine (F), Can cross BBB (T), Raised in obstructive jaundice (F).</div>
-      <div class="a">Water soluble = <strong>False</strong> · non-toxic = <strong>False</strong> · passes urine = <strong>False</strong> · cross BBB = <strong>True</strong> · raised obstructive = <strong>False</strong>.</div>
-
-      <div class="q">Obstructive jaundice is associated with (DU-19Nv): Raised serum ALP (T), Passage of dark coloured stool (F), Conjugated hyperbilirubinaemia (T), Pruritus (T), Increased serum AFP (F).</div>
-      <div class="a">ALP raised = <strong>True</strong> · dark stool = <strong>False</strong> (pale) · conjugated raised = <strong>True</strong> · pruritus = <strong>True</strong> · AFP raised = <strong>False</strong>.</div>
-
-      <div class="q">Features of obstructive jaundice include (DU-18M): Unconjugated hyperbilirubinaemia (F), Pale bulky frothy stool (T), Increased PT (T), Increased ALP (T), Increased urinary urobilinogen (F).</div>
-      <div class="a">Unconjugated raised = <strong>False</strong> · pale stool = <strong>True</strong> · PT increased = <strong>True</strong> · ALP increased = <strong>True</strong> · urobilinogen increased = <strong>False</strong> (decreased).</div>
-
-      <div class="q">Obstructive jaundice is associated with (DU-18Ja): Raised ALP (T), Dark coloured stool (F), Conjugated hyperbilirubinaemia (T), Calcular disease of gall bladder (T), Haemolytic anaemia (F).</div>
-      <div class="a">ALP raised = <strong>True</strong> · dark stool = <strong>False</strong> · conjugated raised = <strong>True</strong> · calculous disease = <strong>True</strong> · haemolytic anaemia = <strong>False</strong>.</div>
-
-      <div class="q">In obstructive jaundice (DU-16Ja): PT prolonged (T), Unconjugated bilirubin elevated (F), ALT markedly increased (F), ALP markedly raised (T), Dark coloured stool (F).</div>
-      <div class="a">PT prolonged = <strong>True</strong> · unconjugated elevated = <strong>False</strong> · ALT markedly increased = <strong>False</strong> · ALP markedly raised = <strong>True</strong> · dark stool = <strong>False</strong>.</div>
-
-      <div class="q">Tests reflecting synthetic function of liver (DU-15Ju): Serum bilirubin (F), ALP (F), ALT (F), PT (T), Serum albumin (T).</div>
-      <div class="a">Bilirubin = <strong>False</strong> · ALP = <strong>False</strong> · ALT = <strong>False</strong> · PT = <strong>True</strong> · albumin = <strong>True</strong>.</div>
-
-      <div class="q">Alpha-fetoprotein (AFP) raises in (DU-15Ju): Prostate cancer (F), Colon cancer (F), Liver cancer (T), Ovarian teratoma (F), Germ cell tumour of testes (T).</div>
-      <div class="a">Prostate = <strong>False</strong> · colon = <strong>False</strong> · liver cancer = <strong>True</strong> · ovarian teratoma = <strong>False</strong> · germ cell tumour testes = <strong>True</strong>.</div>
-
-      <div class="q">In chronic liver disease (DU-13Ju): PT prolonged (T), Serum bilirubin always raised (F), ALP raised (T), A:G ratio altered (T), Clotting time can be increased (T).</div>
-      <div class="a">PT prolonged = <strong>True</strong> · bilirubin always raised = <strong>False</strong> · ALP raised = <strong>True</strong> · A:G altered = <strong>True</strong> · clotting time increased = <strong>True</strong>.</div>
-
-      <div class="q">Obstruction of common bile duct is associated with (DU-13Ju): Great increase in ALP (T), Increase in unconjugated bilirubin (F), Decrease in stool stercobilinogen (T), Increase in fecal fat (T), Increase in urinary urobilinogen (F).</div>
-      <div class="a">ALP great increase = <strong>True</strong> · unconjugated increased = <strong>False</strong> · stercobilinogen decreased = <strong>True</strong> · fecal fat increased = <strong>True</strong> · urobilinogen increased = <strong>False</strong>.</div>
-
-      <div class="q">Haemolytic jaundice is associated with (DU-13Ju): Presence of bilirubin in urine (F), Increase in serum ALP (F), Decrease in conjugated bilirubin in serum (F), Increase urobilinogen in urine (T), Increase bile salt in urine (F).</div>
-      <div class="a">Bilirubin in urine = <strong>False</strong> · ALP increased = <strong>False</strong> · conjugated decreased = <strong>False</strong> (it is relatively unchanged) · urobilinogen increased = <strong>True</strong> · bile salts in urine = <strong>False</strong>.</div>
-
-      <div class="q">In chronic liver disease (DU-13Ja): Always raised serum albumin above 5 mg/100mL (F), Decreased serum albumin (T), Increased bile acid (F), High rise of ALT (T), Prolonged PT (T).</div>
-      <div class="a">Albumin always above 5 = <strong>False</strong> (it is low) · decreased albumin = <strong>True</strong> · increased bile acid = <strong>False</strong> (in source's context) · high ALT = <strong>True</strong> · prolonged PT = <strong>True</strong>.</div>
-
-      <div class="q">Causes of conjugated hyperbilirubinaemia (DU-12Ja): Acute pancreatitis (F), Cirrhosis of liver (T), Hereditary spherocytosis (F), Crigler-Najjar syndrome (T), Dubin-Johnson syndrome (T).</div>
-      <div class="a">Acute pancreatitis = <strong>False</strong> · cirrhosis = <strong>True</strong> · hereditary spherocytosis = <strong>False</strong> (unconjugated) · Crigler-Najjar = <strong>True</strong> · Dubin-Johnson = <strong>True</strong>.</div>
-
-      <div class="q">Always raised in chronic liver disease (DU-11Ja): Serum bilirubin (T), PT (T), Serum albumin (F), Clotting time (T), Bleeding time (F).</div>
-      <div class="a">Bilirubin = <strong>True</strong> · PT = <strong>True</strong> · albumin = <strong>False</strong> (it is decreased) · clotting time = <strong>True</strong> · bleeding time = <strong>False</strong>.</div>
-
-      <div class="q">Causes of hyperbilirubinaemia (DU-08Ju): Acute pancreatitis (F), Cirrhosis of liver (T), Hereditary spherocytosis (T), Crigler-Najjar syndrome (T), Dubin-Johnson syndrome (T).</div>
-      <div class="a">Acute pancreatitis = <strong>False</strong> · cirrhosis = <strong>True</strong> · hereditary spherocytosis = <strong>True</strong> · Crigler-Najjar = <strong>True</strong> · Dubin-Johnson = <strong>True</strong>.</div>
 
       <div class="q">🎯 One-liner: Which enzymes are markers of hepatocellular damage? Which of biliary obstruction?</div>
       <div class="a">Hepatocellular damage = <strong>ALT &amp; AST</strong>; Biliary obstruction = <strong>ALP &amp; GGT</strong>.</div>

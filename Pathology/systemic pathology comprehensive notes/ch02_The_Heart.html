@@ -46,6 +46,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -169,6 +180,14 @@
       <p><strong>Treatment:</strong> complete surgical repair is possible for classic TOF but more complicated for persons with pulmonary atresia and dilated bronchial arteries.</p>
       <p class="ref">Robbins 10e p.538; Arif p.49</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Tetralogy of Fallot</summary>
+    <details>
+      <summary>Components of tetralogy of Fallot: Left ventricular hypertrophy · Right ventricular hypertrophy · Ventricular septal defect · Atrial septal defect · Aortic stenosis</summary>
+      <div class="ans">Left ventricular hypertrophy <span class="ff">F</span> · Right ventricular hypertrophy <span class="tf">T</span> · Ventricular septal defect <span class="tf">T</span> · Atrial septal defect <span class="ff">F</span> · Aortic stenosis <span class="ff">F</span> (the obstruction is subpulmonary, not aortic) <span class="ref">(RMU-22M)</span></div>
+    </details>
   </details>
 
   <h2 id="hf">4 · Heart Failure</h2>
@@ -535,6 +554,46 @@
     </div>
   </details>
 
+  <details class="quiz">
+    <summary>🎯 True/False practice — Ischaemic heart disease &amp; Myocardial infarction</summary>
+    <details>
+      <summary>Examples of IHD: Angina pectoris · Chronic ischaemic heart disease · Infective endocarditis · Hypertrophic cardiomyopathy · Sudden cardiac death</summary>
+      <div class="ans">Angina pectoris <span class="tf">T</span> · Chronic IHD <span class="tf">T</span> · Infective endocarditis <span class="ff">F</span> · Hypertrophic cardiomyopathy <span class="ff">F</span> · Sudden cardiac death <span class="tf">T</span> <span class="ref">(CMU-22M)</span></div>
+    </details>
+    <details>
+      <summary>Changes observed in acute MI: Raised troponin-I · Raised serum creatinine · Leukopenia · Blood cholesterol &gt;200 mg/dl · Lactate dehydrogenase</summary>
+      <div class="ans">Raised troponin-I <span class="tf">T</span> · Raised serum creatinine <span class="ff">F</span> · Leukopenia <span class="ff">F</span> (leukocytosis occurs) · Cholesterol &gt;200 mg/dl <span class="ff">F</span> · Lactate dehydrogenase <span class="tf">T</span> <span class="ref">(DU-21Ja)</span></div>
+    </details>
+    <details>
+      <summary>Markers for IHD: CK-MB · LDH · ALT · AST · Troponin-I</summary>
+      <div class="ans">CK-MB <span class="tf">T</span> · LDH <span class="tf">T</span> · ALT <span class="ff">F</span> (liver marker) · AST <span class="tf">T</span> · Troponin-I <span class="tf">T</span> <span class="ref">(CU-19Nv)</span></div>
+    </details>
+    <details>
+      <summary>Diagnostic markers of MI: CPK · ALT · AST · Troponin-I · Acid phosphatase</summary>
+      <div class="ans">CPK <span class="tf">T</span> · ALT <span class="ff">F</span> · AST <span class="tf">T</span> · Troponin-I <span class="tf">T</span> · Acid phosphatase <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
+    </details>
+    <details>
+      <summary>Enzymes of clinical importance in MI: Serum amylase · CPK · Pyruvate kinase · Lactate dehydrogenase · Aspartate aminotransferase</summary>
+      <div class="ans">Serum amylase <span class="ff">F</span> (pancreatic) · CPK <span class="tf">T</span> · Pyruvate kinase <span class="ff">F</span> · LDH <span class="tf">T</span> · AST <span class="tf">T</span> <span class="ref">(DU-17Nv)</span></div>
+    </details>
+    <details>
+      <summary>Changes in acute MI: Raised troponin-I · Creatine kinase-MM · Neutrophilic leukocytosis · Blood cholesterol &gt;200 mg/dl · Raised CRP</summary>
+      <div class="ans">Troponin-I <span class="tf">T</span> · CK-MM <span class="ff">F</span> (CK-MB is cardiac; CK-MM is skeletal) · Neutrophilic leukocytosis <span class="tf">T</span> · Cholesterol &gt;200 mg/dl <span class="ff">F</span> · Raised CRP <span class="tf">T</span> <span class="ref">(DU-17M)</span></div>
+    </details>
+    <details>
+      <summary>Morphological features of acute MI depend on: Age of patient · Rate of development of coronary obstruction · Sex · Extent of collateral circulation · Duration of occlusion</summary>
+      <div class="ans">Age <span class="tf">T</span> · Rate of obstruction <span class="tf">T</span> · Sex <span class="ff">F</span> · Extent of collateral circulation <span class="ff">F</span> · Duration of occlusion <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
+    </details>
+    <details>
+      <summary>Myocardial infarction is associated with: Fibrinoid necrosis of myocardium · Raised LDH · Ventricular aneurysm · Leukocytosis · Myocarditis</summary>
+      <div class="ans">Fibrinoid necrosis <span class="ff">F</span> (coagulative necrosis) · Raised LDH <span class="tf">T</span> · Ventricular aneurysm <span class="tf">T</span> · Leukocytosis <span class="tf">T</span> · Myocarditis <span class="ff">F</span> <span class="ref">(DU-12Ju)</span></div>
+    </details>
+    <details>
+      <summary>Complications of MI include: Rheumatic heart disease · Contractile dysfunction · Myxoma · Myocardial rupture · Pericarditis</summary>
+      <div class="ans">RHD <span class="ff">F</span> · Contractile dysfunction <span class="tf">T</span> · Myxoma <span class="ff">F</span> · Myocardial rupture <span class="tf">T</span> · Pericarditis <span class="ff">F</span> <span class="ref">(DU-11Ju)</span></div>
+    </details>
+  </details>
+
   <h2 id="scd">8 · Sudden Cardiac Death (SCD)</h2>
 
   <details>
@@ -715,6 +774,38 @@
       <p><strong>Most common cause of death in acute rheumatic fever:</strong> <span class="hot">acute rheumatic myocarditis</span>.</p>
       <p class="ref">Robbins 10e p.562; Pathoma Lecture Notes; Arif pp.69–70</p>
     </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Rheumatic fever &amp; rheumatic heart disease</summary>
+    <details>
+      <summary>Major criteria of rheumatic fever: Pancarditis · Raised ASO titer · Erythema marginatum · Arthralgia · Subcutaneous nodules</summary>
+      <div class="ans">Pancarditis <span class="tf">T</span> · Raised ASO titer <span class="ff">F</span> (supporting evidence, not a major criterion) · Erythema marginatum <span class="tf">T</span> · Arthralgia <span class="ff">F</span> (minor criterion) · Subcutaneous nodules <span class="tf">T</span> <span class="ref">(DU-23Nv)</span></div>
+    </details>
+    <details>
+      <summary>Jones criteria include: Polyarthritis · Carditis · Subcutaneous nodule · Arthralgia · Fever</summary>
+      <div class="ans">Polyarthritis <span class="ff">F</span> (major) · Carditis <span class="ff">F</span> (major) · Subcutaneous nodule <span class="tf">T</span> (major) · Arthralgia <span class="tf">T</span> (minor) · Fever <span class="tf">T</span> (minor) <span class="ref">(BUP-22Nv)</span></div>
+    </details>
+    <details>
+      <summary>Regarding rheumatic fever: Usually has a history of sore throat by group A β-hemolytic strep · Associated with rheumatoid arthritis · Late complication of congenital heart disease · More common in children · Most frequent cause of mitral stenosis</summary>
+      <div class="ans">Sore throat history <span class="tf">T</span> · RA association <span class="ff">F</span> · Late complication of CHD <span class="ff">F</span> · More common in children <span class="tf">T</span> · Most frequent cause of mitral stenosis <span class="tf">T</span> <span class="ref">(DU-17M)</span></div>
+    </details>
+    <details>
+      <summary>Major criteria of rheumatic heart disease: Raised ASO titer · Sydenham chorea · Raised ESR · Leukocytosis · Subcutaneous nodule</summary>
+      <div class="ans">ASO titer <span class="tf">T</span> (supporting evidence of strep) · Sydenham chorea <span class="tf">T</span> · Raised ESR <span class="ff">F</span> (minor) · Leukocytosis <span class="ff">F</span> (minor) · Subcutaneous nodule <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
+    </details>
+    <details>
+      <summary>Associated with rheumatic fever: High ESR · Aschoff body giant cells · Genetic predisposition · Leukopenia · Carditis due to bacterial invasion</summary>
+      <div class="ans">High ESR <span class="tf">T</span> (minor) · Aschoff giant cells <span class="tf">T</span> · Genetic predisposition <span class="ff">F</span> · Leukopenia <span class="ff">F</span> · Carditis due to bacterial invasion <span class="tf">T</span> (immunologically mediated post-infection) <span class="ref">(RU-13Ja)</span></div>
+    </details>
+    <details>
+      <summary>Complications of rheumatic heart disease: Systemic hypertension · Pulmonary valve deformity · Ventricular tachycardia · Pancarditis · Mural thrombus</summary>
+      <div class="ans">Systemic HTN <span class="ff">F</span> · Pulmonary valve deformity <span class="tf">T</span> · Ventricular tachycardia <span class="ff">F</span> · Pancarditis <span class="tf">T</span> · Mural thrombus <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
+    </details>
+    <details>
+      <summary>Hypertensive heart disease includes: Left ventricular hypertrophy · Right ventricular hypertrophy · Cor pulmonale · Acute myocardial infarction · Ventricular tachycardia</summary>
+      <div class="ans">LVH <span class="tf">T</span> · RVH <span class="tf">T</span> (late, secondary to pulmonary HTN) · Cor pulmonale <span class="ff">F</span> · Acute MI <span class="ff">F</span> · Ventricular tachycardia <span class="tf">T</span> <span class="ref">(DU-10Ja)</span></div>
+    </details>
   </details>
 
   <details>

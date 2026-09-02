@@ -48,6 +48,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -193,6 +203,12 @@
       <h3>3. Adenosis</h3>
       <p><strong>Increase in the number of acini per lobule.</strong> It is a <strong>normal feature of pregnancy</strong>. In nonpregnant women, adenosis can occur as a focal change. The acini are lined by <strong>columnar epithelial cells</strong>, and calcifications are occasionally present within the lumens.</p>
       <p class="ref">Robbins 10e p.1042</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Fibrocystic changes</summary>
+    <div class="ans">
+      <details><summary>Fibrocystic changes of breast include: adenosis, dysplasia of ductal epithelial cells, epithelial hypoplasia, apocrine metaplasia, Hürthle cell changes. (RU-19M)</summary><div class="ans">Item <span class="tf">Adenosis = True</span> · <span class="ff">Dysplasia of ductal epithelial cells = False</span> · <span class="ff">Epithelial hypoplasia = False</span> · <span class="ff">Apocrine metaplasia = False</span> (present but marked F in Arif key) · <span class="ff">Hürthle cell changes = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 
@@ -509,6 +525,17 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Risk factors for breast cancer</summary>
+    <div class="ans">
+      <details><summary>Good prognosis in breast carcinoma: positive BRCA-1/2, positive ER/PR, well differentiation, distant metastasis, high proliferation rate. (DU-24Nv)</summary><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="ff">Distant metastasis = False</span> · <span class="ff">High proliferation rate = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Risk factors for breast cancer: early menarche, early menopause, HRT, family history, increased progesterone. (DU-22Nv)</summary><div class="ans">Item <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="tf">HRT = True</span> · <span class="tf">Family history = True</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Risk factors: increasing age, infertility, oestrogen therapy, breastfeeding, obesity. (BUP-22Nv)</summary><div class="ans">Item <span class="tf">Increasing age = True</span> · <span class="tf">Infertility = True</span> · <span class="tf">Oestrogen therapy = True</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Obesity = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Risk factors: increased mammographic density, early age at 1st live birth, young obese women, breastfeeding, postmenopausal HRT. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Increased mammographic density = True</span> · <span class="tf">Early age at 1st live birth = True</span> · <span class="ff">Young obese women = False</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Postmenopausal HRT = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Risk factors: close relative, early menarche, early menopause, endometrial carcinoma, increased progesterone. (DU-13Ja)</summary><div class="ans">Item <span class="tf">Close relative = True</span> · <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="ff">Endometrial carcinoma = False</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Risk factors for carcinoma breast: germline mutations, 1st-degree relatives with breast cancer, obesity, breastfeeding, severe exercise. (CU-19Nv)</summary><div class="ans">Item <span class="tf">Germline mutations = True</span> · <span class="tf">1st-degree relatives = True</span> · <span class="tf">Obesity = True</span> · <span class="ff">Breastfeeding = False</span> · <span class="ff">Severe exercise = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <h2 id="prognosis">11 · Prognostic Factors of Breast Carcinoma</h2>
 
   <details>
@@ -542,6 +569,15 @@
       </ol>
       <div class="mnem">🎯 <strong>Most important = axillary LN status; second = tumour size. Poor-prognosis flags = distant metastasis, inflammatory carcinoma, lymphovascular invasion, HER2+.</strong></div>
       <p class="ref">Robbins 10e p.1058 · Harsh Mohan 7e p.755</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Prognostic factors in breast carcinoma</summary>
+    <div class="ans">
+      <details><summary>Prognostic factors of breast carcinoma: invasion, metastasis, ER/PR, atypical hyperplasia, inflammatory carcinoma. (CMU-22M)</summary><div class="ans">Item <span class="ff">Invasion = False</span> (per CMU-22M marking) · <span class="tf">Metastasis = True</span> · <span class="tf">ER/PR = True</span> · <span class="ff">Atypical hyperplasia = False</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Breast lumps are associated with: pain, nipple discharge, fibrocystic change, peau d'orange, Krukenberg tumours. (RMU-22M)</summary><div class="ans">Item <span class="tf">Pain = True</span> · <span class="tf">Nipple discharge = True</span> · <span class="tf">Fibrocystic change = True</span> · <span class="tf">Peau d'orange = True</span> · <span class="tf">Krukenberg tumours = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Good prognosis breast cancer: positive BRCA-1/2, positive ER/PR, well differentiation, in situ comedocarcinoma, high proliferative rate. (DU-15Ja)</summary><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="tf">In situ comedocarcinoma = True</span> · <span class="ff">High proliferative rate = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Major prognostic factors: invasion, metastasis, oestrogen receptors, histologic subtypes, inflammatory carcinoma. (DU-11/10Ju)</summary><div class="ans">Item <span class="tf">Invasion = True</span> · <span class="tf">Metastasis = True</span> · <span class="ff">Oestrogen receptors = False</span> (minor factor) · <span class="tf">Histologic subtypes = True</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 

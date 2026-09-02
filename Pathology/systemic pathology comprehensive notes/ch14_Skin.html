@@ -48,6 +48,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -404,6 +414,15 @@
       </ul>
       <div class="mnem">🎯 Nevus = <strong>NEVer malignant</strong> (unless it becomes <em>dysplastic</em> → melanoma). Small (&lt;6 mm), symmetric, uniform nuclei, no mitosis.</div>
       <p class="ref">Robbins 10e p.1136; BRS Pathology 5e p.344</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Skin pigmentary &amp; tumour lesions</summary>
+    <div class="ans">
+      <details><summary>Disorders of skin due to melanocyte defect: vitiligo, melasma, nevus, psoriasis, acne vulgaris. (CMU-22M)</summary><div class="ans">Item <span class="tf">Vitiligo = True</span> · <span class="tf">Melasma = True</span> · <span class="tf">Nevus = True</span> · <span class="ff">Psoriasis = False</span> · <span class="ff">Acne vulgaris = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Benign adnexal tumours of skin: keratoacanthoma, trichoepithelioma, benign fibrous histiocytoma, cylindroma, sebaceous adenoma. (CU-19Nv)</summary><div class="ans">Item <span class="tf">Keratoacanthoma = True</span> · <span class="ff">Trichoepithelioma = False</span> · <span class="ff">Benign fibrous histiocytoma = False</span> · <span class="tf">Cylindroma = True</span> · <span class="tf">Sebaceous adenoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Pre-malignant lesions of skin include: Paget's disease, psoriasis, keratoacanthoma, basal cell carcinoma, leukoplakia. (RU-17M)</summary><div class="ans">Item <span class="ff">Paget's disease = False</span> · <span class="ff">Psoriasis = False</span> · <span class="ff">Keratoacanthoma = False</span> · <span class="ff">Basal cell carcinoma = False</span> · <span class="tf">Leukoplakia = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Pre-malignant lesions of skin are: seborrhoeic keratosis, actinic keratosis, leukoplakia, nevus, Marjolin's ulcer. (RU-17M)</summary><div class="ans">Item <span class="ff">Seborrhoeic keratosis = False</span> · <span class="tf">Actinic keratosis = True</span> · <span class="tf">Leukoplakia = True</span> · <span class="ff">Nevus = False</span> · <span class="ff">Marjolin's ulcer = False</span> (already cancer / from chronic scar) <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 

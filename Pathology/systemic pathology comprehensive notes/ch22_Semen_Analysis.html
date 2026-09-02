@@ -52,6 +52,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"\U0001F3AF ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F \2192 "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -559,45 +569,70 @@
   <!-- ============================== RAPID-FIRE ============================== -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs)</h2>
 
-  <details class="rapid" open>
-    <summary>Semen Analysis — True/False, one-liners &amp; folded MCQs from Ch31 (test yourself, then reveal)</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Normal values & liquefaction</summary>
+    <details>
+      <summary>Normal semen is characterised by — 2 to 5 ml per ejaculation (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — Normal ejaculated volume is 2–5 ml.</div>
+    </details>
+    <details>
+      <summary>Sperm count 20 million per ml is normal (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — Normal sperm concentration is 20–110 million/ml.</div>
+    </details>
+    <details>
+      <summary>&gt;70% motile in first hour is normal (T/F)</summary>
+      <div class="ans"><span class="ff">False</span> — Normal is 60–65% actively motile within 1 hour; most WHO labs use ≥50% as the lower limit.</div>
+    </details>
+    <details>
+      <summary>50% normal in morphology is accepted by WHO (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — &gt;50% morphologically normal (normal head, body &amp; tail) is the traditional criterion; WHO also accepts &gt;30%.</div>
+    </details>
+    <details>
+      <summary>Normal liquefaction is completed within half an hour (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — Complete liquefaction should occur within 30 minutes.</div>
+    </details>
+    <details>
+      <summary>Normal liquefaction time is 20–30 minutes (T/F) — from Semen analysis MCQ</summary>
+      <div class="ans"><span class="ff">False</span> — Normal liquefaction time is within 30 minutes, not "20–30 minutes" — the statement is considered False in the MCQ key (likely because the accepted window is simply "≤30 min").</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Sperm terminology</summary>
+    <details>
+      <summary>Sperm &lt;20 million/ml is oligospermia (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — Oligospermia = sperm count &lt;20 million/ml.</div>
+    </details>
+    <details>
+      <summary>Prolonged liquefaction time indicates sterility (T/F)</summary>
+      <div class="ans"><span class="tf">True</span> — Significantly prolonged liquefaction may indicate pathology and is associated with reduced fertility.</div>
+    </details>
+    <details>
+      <summary>40 million/ml sperm count is hyperzoospermia (T/F)</summary>
+      <div class="ans"><span class="ff">False</span> — 40 million/ml is within normal range (20–110 million/ml). Hyperzoospermia (polyzoospermia) = &gt;350 million/ml.</div>
+    </details>
+    <details>
+      <summary>No spermatozoa either living or dead is called asthenozoospermia (T/F)</summary>
+      <div class="ans"><span class="ff">False</span> — Absence of all spermatozoa = azoospermia. Asthenozoospermia = reduced motility.</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Indications of semen analysis</summary>
+    <details>
+      <summary>Indications of semen analysis include: undescended testis (F), following vasectomy (T), hypogonadism (F), testicular neoplasm (F), following chemotherapy (F)?</summary>
+      <div class="ans">Undescended testis <span class="ff">F</span> · following vasectomy <span class="tf">T</span> · hypogonadism <span class="ff">F</span> · testicular neoplasm <span class="ff">F</span> · following chemotherapy <span class="ff">F</span> . Indications are: infertility evaluation, post-vasectomy follow-up, artificial insemination, paternity test, suspected rape case.</div>
+    </details>
+    <details>
+      <summary>Indications of semen analysis are: infertility (T), paternity test (T), after vagotomy (F), rape (T), after vasectomy (T)?</summary>
+      <div class="ans">Infertility <span class="tf">T</span> · paternity test <span class="tf">T</span> · after vagotomy <span class="ff">F</span> (vagotomy is a gastric surgery, irrelevant) · rape <span class="tf">T</span> · after vasectomy <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+
+    <details class="rapid" open>
+    <summary>Semen Analysis — One-Liners & Mnemonics (test yourself, then reveal)</summary>
     <div class="ans">
-
-      <div class="q">Normal semen is characterised by — 2 to 5 ml per ejaculation (T/F)</div>
-      <div class="a"><strong>True.</strong> Normal ejaculated volume is 2–5 ml.</div>
-
-      <div class="q">Sperm count 20 million per ml is normal (T/F)</div>
-      <div class="a"><strong>True.</strong> Normal sperm concentration is 20–110 million/ml.</div>
-
-      <div class="q">&gt;70% motile in first hour is normal (T/F)</div>
-      <div class="a"><strong>False.</strong> Normal is 60–65% actively motile within 1 hour; most WHO labs use ≥50% as the lower limit.</div>
-
-      <div class="q">50% normal in morphology is accepted by WHO (T/F)</div>
-      <div class="a"><strong>True.</strong> &gt;50% morphologically normal (normal head, body &amp; tail) is the traditional criterion; WHO also accepts &gt;30%.</div>
-
-      <div class="q">Normal liquefaction is completed within half an hour (T/F)</div>
-      <div class="a"><strong>True.</strong> Complete liquefaction should occur within 30 minutes.</div>
-
-      <div class="q">Normal liquefaction time is 20–30 minutes (T/F) — from Semen analysis MCQ</div>
-      <div class="a"><strong>False.</strong> Normal liquefaction time is <strong>within 30 minutes</strong>, not "20–30 minutes" — the statement is considered False in the MCQ key (likely because the accepted window is simply "≤30 min").</div>
-
-      <div class="q">Sperm &lt;20 million/ml is oligospermia (T/F)</div>
-      <div class="a"><strong>True.</strong> Oligospermia = sperm count &lt;20 million/ml.</div>
-
-      <div class="q">Prolonged liquefaction time indicates sterility (T/F)</div>
-      <div class="a"><strong>True.</strong> Significantly prolonged liquefaction may indicate pathology and is associated with reduced fertility.</div>
-
-      <div class="q">40 million/ml sperm count is hyperzoospermia (T/F)</div>
-      <div class="a"><strong>False.</strong> 40 million/ml is within normal range (20–110 million/ml). Hyperzoospermia (polyzoospermia) = &gt;350 million/ml.</div>
-
-      <div class="q">No spermatozoa either living or dead is called asthenozoospermia (T/F)</div>
-      <div class="a"><strong>False.</strong> Absence of all spermatozoa = <strong>azoospermia</strong>. Asthenozoospermia = reduced motility.</div>
-
-      <div class="q">Indications of semen analysis include: undescended testis (F), following vasectomy (T), hypogonadism (F), testicular neoplasm (F), following chemotherapy (F)?</div>
-      <div class="a">Undescended testis = <strong>False</strong> · following vasectomy = <strong>True</strong> · hypogonadism = <strong>False</strong> · testicular neoplasm = <strong>False</strong> · following chemotherapy = <strong>False</strong>. Indications are: infertility evaluation, post-vasectomy follow-up, artificial insemination, paternity test, suspected rape case.</div>
-
-      <div class="q">Indications of semen analysis are: infertility (T), paternity test (T), after vagotomy (F), rape (T), after vasectomy (T)?</div>
-      <div class="a">Infertility = <strong>True</strong> · paternity test = <strong>True</strong> · after vagotomy = <strong>False</strong> (vagotomy is a gastric surgery, irrelevant) · rape = <strong>True</strong> · after vasectomy = <strong>True</strong>.</div>
 
       <div class="q">🎯 One-liner: Low semen volume indicates?</div>
       <div class="a"><strong>Retrograde ejaculation</strong> (semen enters bladder instead of being expelled externally).</div>

@@ -46,6 +46,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -188,6 +198,14 @@
       <p><strong>Non-infectious causes of meningitis:</strong> chemical meningitis (non-bacterial irritant introduced into subarachnoid space), systemic autoimmune disease.</p>
       <p><strong>Meningoencephalitis:</strong> inflammation of <strong>both the meninges AND the brain parenchyma</strong> (meninges + encephalon = meningoencephalitis).</p>
       <p class="ref">Robbins 10e p.1261</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Meningitis (CSF findings)</summary>
+    <div class="ans">
+      <details><summary>Features of CSF in pyogenic meningitis: cobweb formation, decreased protein, cloudy appearance, presence of neutrophils, decreased sugar. (DU-22Nv)</summary><div class="ans">Item <span class="ff">Cobweb formation = False</span> (tubercular) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cloudy appearance = True</span> · <span class="tf">Neutrophils = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
+      <details><summary>CSF findings in tubercular meningitis: neutrophil pleocytosis, decreased protein, cob-web formation, decreased chloride, decreased sugar. (DU-19M)</summary><div class="ans">Item <span class="ff">Neutrophil pleocytosis = False</span> (lymphocytes) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cob-web formation = True</span> · <span class="tf">Decreased chloride = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
+      <details><summary>Viral meningitis: clear CSF, lymphocytes in CSF, polymorphs in CSF, clot formation, blood in CSF. (RU-14Ja)</summary><div class="ans">Item <span class="tf">Clear CSF = True</span> · <span class="tf">Lymphocytes in CSF = True</span> · <span class="ff">Polymorphs in CSF = False</span> · <span class="ff">Clot formation = False</span> · <span class="ff">Blood in CSF = False</span> <span class="ref">(ch31 MCQ)</span></div></details>
     </div>
   </details>
 
@@ -387,6 +405,14 @@
         <li>Tumour can result in <strong>hydrocephalus</strong> (obstruction of CSF flow by 4th ventricle mass).</li>
       </ul>
       <p class="ref">Robbins 10e p.1293; BRS Pathology 5th ed. p.383; Pathoma</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Glioma (glial tumours)</summary>
+    <div class="ans">
+      <details><summary>Glioma includes: astrocytoma, oligodendroglioma, schwannoma, neurofibroma, ependymoma. (DU-23M)</summary><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="tf">Oligodendroglioma = True</span> · <span class="ff">Schwannoma = False</span> (nerve sheath) · <span class="ff">Neurofibroma = False</span> (nerve sheath) · <span class="tf">Ependymoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Following tumours are glioma: meningioma, medulloblastoma, astrocytoma, craniopharyngioma, oligodendroglioma. (DU-11Ju)</summary><div class="ans">Item <span class="ff">Meningioma = False</span> · <span class="ff">Medulloblastoma = False</span> (PNET) · <span class="tf">Astrocytoma = True</span> · <span class="ff">Craniopharyngioma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Tumours of glial cells include: astrocytoma, meningioma, ependymoma, medulloblastoma, oligodendroglioma. (DU-09Ja)</summary><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="ff">Meningioma = False</span> · <span class="tf">Ependymoma = True</span> · <span class="ff">Medulloblastoma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 

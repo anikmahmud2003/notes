@@ -54,6 +54,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"\U0001F3AF ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F \2192 "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -1041,155 +1051,247 @@
 
   <h2 id="rapid">🔁 Rapid-Fire — True/False + One-Liner + Clinical MCQs (ch20 + folded ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>🔁 Rapid-Fire Revision — True/False, one-liners &amp; folded clinical MCQs</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Renal clearance & function tests</summary>
+    <details>
+      <summary>Blood urea elevated in: severe dehydration (T), pregnancy (T), acute kidney injury (T), cirrhosis (F), diarrhoea (F)? (BUP-22Nv)</summary>
+      <div class="ans">Severe dehydration <span class="tf">T</span> · pregnancy <span class="tf">T</span> · acute kidney injury <span class="tf">T</span> · cirrhosis <span class="ff">F</span> · diarrhoea <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Renal function tests include: blood urea nitrogen (T), serum creatinine (T), serum lipase (F), renal clearance test (T), serum iron (F)? (BUP-22Nv)</summary>
+      <div class="ans">BUN <span class="tf">T</span> · serum creatinine <span class="tf">T</span> · serum lipase <span class="ff">F</span> · renal clearance test <span class="tf">T</span> · serum iron <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Renal function tests include: renal clearance test (T), BUN (T), serum uric acid (T), urea clearance to assess renal blood flow (F), inulin clearance to assess GFR (T)? (DU-09Ja)</summary>
+      <div class="ans">Renal clearance test <span class="tf">T</span> · BUN <span class="tf">T</span> · serum uric acid <span class="tf">T</span> · urea clearance for renal blood flow <span class="ff">F</span> · inulin clearance for GFR <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">What are the 3 normal clearance values? (inulin, creatinine, urea)</div>
-    <div class="a">Inulin 125 ml/min · Creatinine 70–140 ml/min · Urea 60–70 ml/min.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Haematuria & painless haematuria</summary>
+    <details>
+      <summary>Causes of haematuria include: cardiac failure (F), renal stone (T), neuroblastoma (F), renal cell carcinoma (T), nephrotic syndrome (F)? (DU-24Nv)</summary>
+      <div class="ans">Cardiac failure <span class="ff">F</span> · renal stone <span class="tf">T</span> · neuroblastoma <span class="ff">F</span> · renal cell carcinoma <span class="tf">T</span> · nephrotic syndrome <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of haematuria include: cardiac failure (F), kidney stone (T), nephrotic syndrome (F), renal tuberculosis (T), pregnancy (F)? (DU-21Ja,20Nv/M,17Nv)</summary>
+      <div class="ans">Cardiac failure <span class="ff">F</span> · kidney stone <span class="tf">T</span> · nephrotic syndrome <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · pregnancy <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Painless haematuria is associated with: chronic pyelonephritis (F), nephrotic syndrome (T), renal cell carcinoma (T), renal calculi (F), renal tuberculosis (T)? (DU-23Nv)</summary>
+      <div class="ans">Chronic pyelonephritis <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · renal calculi <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of painless haematuria: renal calculi (F), renal TB (T), renal cell carcinoma (T), hydronephrosis (F), nephrotic syndrome (T)? (DU-22Nv)</summary>
+      <div class="ans">Renal calculi <span class="ff">F</span> · renal TB <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · hydronephrosis <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Painless haematuria associated with: vesical calculi (F), nephrotic syndrome (F), renal tuberculosis (T), renal calculi (F), renal cell carcinoma (T)? (DU-21Oct/M)</summary>
+      <div class="ans">Vesical calculi <span class="ff">F</span> · nephrotic syndrome <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · renal calculi <span class="ff">F</span> · renal cell carcinoma <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Painless haematuria occurs in: papilloma urinary bladder (T), renal stone (F), renal tuberculosis (T), renal cell carcinoma (T), cystitis (F)? (DU-18Ja)</summary>
+      <div class="ans">Papilloma urinary bladder <span class="tf">T</span> · renal stone <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · cystitis <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Normal blood urea? Normal serum creatinine? Normal BUN?</div>
-    <div class="a">Urea 15–40 mg/dl (2.5–6.6 mmol/L) · Creatinine 0.7–1.4 mg/dl (60–120 μmol/L) · BUN 7–21 mg/dl.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Massive proteinuria</summary>
+    <details>
+      <summary>Massive proteinuria is a feature of: acute glomerulonephritis (F), diabetic nephropathy (T), partial gastrectomy (F), hypertension (F), toxaemia of pregnancy (T)? (DU-23M)</summary>
+      <div class="ans">AGN <span class="ff">F</span> · diabetic nephropathy <span class="tf">T</span> · partial gastrectomy <span class="ff">F</span> · hypertension <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of massive proteinuria: nephrotic syndrome (T), severe CCF (F), diabetic nephropathy (F), toxaemia of pregnancy (T), multiple myeloma (T)? (CMU-22M)</summary>
+      <div class="ans">Nephrotic syndrome <span class="tf">T</span> · severe CCF <span class="ff">F</span> · diabetic nephropathy <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · multiple myeloma <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of massive proteinuria include: nephritic syndrome (F), nephrotic syndrome (T), uncontrolled DM (F), toxaemia of pregnancy (T), renal stone (F)? (DU-19Nv)</summary>
+      <div class="ans">Nephritic syndrome <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · uncontrolled DM <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · renal stone <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria occurs in: AGN (F), hypertension (F), nephrotic syndrome (T), IgA nephropathy (F)? (DU-17M) Also: nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</summary>
+      <div class="ans">AGN <span class="ff">F</span> · hypertension <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · IgA nephropathy <span class="ff">F</span> ; and nephrotic syndrome = True · SLE <span class="tf">T</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria occurs in: amyloidosis (T), CCF (F), nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</summary>
+      <div class="ans">Amyloidosis <span class="tf">T</span> · CCF <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · SLE <span class="tf">T</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria observed in: pre-eclamptic toxaemia (T), multiple myeloma (T), cardiac failure (F), haemolytic anaemia (F)? (DU-13Ja)</summary>
+      <div class="ans">Pre-eclamptic toxaemia <span class="tf">T</span> · multiple myeloma <span class="tf">T</span> · cardiac failure <span class="ff">F</span> · haemolytic anaemia <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria occurs in: pregnancy (F), CCF (T), nephrotic syndrome (T), SLE (T), Milne's syndrome (F)? (RU-13Ja)</summary>
+      <div class="ans">Pregnancy <span class="ff">F</span> · CCF <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · SLE <span class="tf">T</span> · Milne's syndrome <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria occurs in: chronic renal failure (F), hepatic failure (F), nephrotic syndrome (T), minimal change disease (T), SLE (T)? (DU-10Ja)</summary>
+      <div class="ans">Chronic renal failure <span class="ff">F</span> · hepatic failure <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · minimal change disease <span class="tf">T</span> · SLE <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Massive proteinuria occurs in: pyelonephritis (F), toxaemia of pregnancy (T), nephrotic syndrome (T), AGN (F), renal cell carcinoma (F)? (DU-11Ja)</summary>
+      <div class="ans">Pyelonephritis <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · AGN <span class="ff">F</span> · renal cell carcinoma <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Normal uric acid? Normal urine volume per day? Normal specific gravity?</div>
-    <div class="a">Uric acid 2–7 mg/dl (0.12–0.42 mmol/L) · Urine 800–2500 ml/day (min 650) · S.G. 1.010–1.020.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Proteinuria & urine protein tests</summary>
+    <details>
+      <summary>Proteinuria is a constant feature of: acute glomerulonephritis (T), nephrotic syndrome (T), renal stone (F), hypertension (T), haematuria (T)? (DU-14Ja)</summary>
+      <div class="ans">Acute glomerulonephritis <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · renal stone <span class="ff">F</span> · hypertension <span class="tf">T</span> · haematuria <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Urinary protein can be detected by: heat coagulation test (T), Rothera's test (F), reagent strip test (T), Benedict test (F), sulphosalicylic test (T)? (DU-22Nv / DU-10Ju)</summary>
+      <div class="ans">Heat coagulation <span class="tf">T</span> · Rothera's <span class="ff">F</span> · reagent strip <span class="tf">T</span> · Benedict <span class="ff">F</span> · sulphosalicylic acid <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">🎯 No. 1 single test in kidney function? No. 1 for GFR? Gold-standard clearance?</div>
-    <div class="a">Serum creatinine = No.1 single test · Creatinine clearance = No.1 for GFR · Inulin = gold standard (filtered but neither reabsorbed nor secreted).</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Non-sugar reducing substances</summary>
+    <details>
+      <summary>Non-sugar reducing substances: ascorbic acid (T), uric acid (T), alpha-methyl dopa (F), penicillin (F), sucrose (F)? (DU-23Nv)</summary>
+      <div class="ans">Ascorbic acid <span class="tf">T</span> · uric acid <span class="tf">T</span> · alpha-methyl dopa <span class="ff">F</span> · penicillin <span class="ff">F</span> · sucrose <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Why is serum creatinine more specific than blood urea?</div>
-    <div class="a">Because creatinine is produced at a constant rate from muscle and almost completely filtered at the glomerulus, so its changes reflect GFR; urea varies with protein intake, liver function and renal perfusion.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Urinary casts & UTI microscopy</summary>
+    <details>
+      <summary>Regarding casts present in urine: RBC cast in acute pyelonephritis (F), hyaline cast in nephrotic syndrome (F), WBC cast in nephritic syndrome (T), cellular cast in chronic (F), colloid cast with massive proteinuria (F)? (DU-22M)</summary>
+      <div class="ans">RBC cast in acute pyelonephritis <span class="ff">F</span> · hyaline cast in nephrotic <span class="ff">F</span> · WBC cast in nephritic <span class="tf">T</span> · cellular cast in chronic <span class="ff">F</span> · colloid cast with massive proteinuria <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Urinary microscopic findings in upper UTI: pus cell (T), dysmorphic RBC (T), RBC cast (T), WBC cast (F), crystals (F)? (BUP-22Nv)</summary>
+      <div class="ans">Pus cell <span class="tf">T</span> · dysmorphic RBC <span class="tf">T</span> · RBC cast <span class="tf">T</span> · WBC cast <span class="ff">F</span> · crystals <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">RBC cast → ? WBC cast → ? Epithelial cast → ? Granular cast → ? Hyaline cast → ?</div>
-    <div class="a">RBC cast → AGN (hallmark) · WBC cast → pyelonephritis · Epithelial cast → renal tubular necrosis · Granular cast → glomerulonephritis · Hyaline cast → normal.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Specific gravity, Bence-Jones & urine chemistry</summary>
+    <details>
+      <summary>Specific gravity of urine is increased in: chronic renal failure (F), diabetes mellitus (T), diabetes insipidus (F), acute glomerulonephritis (T), nephrotic syndrome (T)? (DU-10Nv,18Ja)</summary>
+      <div class="ans">Chronic renal failure <span class="ff">F</span> · DM <span class="tf">T</span> · DI <span class="ff">F</span> · AGN <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Characteristic features of Bence-Jones protein: free monoclonal kappa or lambda chain (T), originally described for behaviour on heating (T), flocculates when heated to 300 °C (F), also found occasionally in lymphoma (F), electrophoresis of urine is non-reliable (F)? (DU-09Ja)</summary>
+      <div class="ans">Free monoclonal κ/λ chain <span class="tf">T</span> · behaviour on heating <span class="tf">T</span> · flocculates at 300 °C <span class="ff">F</span> · occasionally in lymphoma <span class="ff">F</span> · urine electrophoresis non-reliable <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Following are associated with high-coloured urine: diabetes insipidus (F), AGN (T), starvation (F), cirrhosis of liver (F), cystitis (F)? (RU-13Ja)</summary>
+      <div class="ans">DI <span class="ff">F</span> · AGN <span class="tf">T</span> · starvation <span class="ff">F</span> · cirrhosis <span class="ff">F</span> · cystitis <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Colour of urine tests: Heat coagulation → ? Benedict → ? Hay's → ? Fouchet's → ? Rothera → ? Orthotolidin → ?</div>
-    <div class="a">Heat = albumin · Benedict = sugar · Hay's = bile salts · Fouchet's = bilirubin · Rothera = ketones · Orthotolidin = blood (haematuria/haemoglobinuria).</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hyperuricaemia</summary>
+    <details>
+      <summary>Causes of hyperuricaemia: gout (T), allopurinol therapy (F), polycythaemia (T), low protein diet (F), CGL (chronic granulocytic leukaemia) (T)? (DU-19M); also psoriasis (T), alcoholism (F)? (DU-10Ju/J,09Ju)</summary>
+      <div class="ans">Gout <span class="tf">T</span> · allopurinol <span class="ff">F</span> · polycythaemia <span class="tf">T</span> · low protein diet <span class="ff">F</span> · CGL <span class="tf">T</span> . Plus psoriasis = True · alcoholism <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hyperuricaemia include: gout (T), alcoholism (F), liver damage (F), large dose of vitamin-C (F), leukaemia (T)? (DU-08Ju)</summary>
+      <div class="ans">Gout <span class="tf">T</span> · alcoholism <span class="ff">F</span> · liver damage <span class="ff">F</span> · large dose of vitamin-C <span class="ff">F</span> · leukaemia <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Ketone bodies are? Their normal blood/urine?</div>
-    <div class="a">Acetoacetate, β-hydroxybutyrate, acetone. Blood &lt; 3 mg/dl (0.2 mmol/L); urine &lt; 1 mg/day.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Ketonuria</summary>
+    <details>
+      <summary>Causes of ketonuria include: untreated diabetes mellitus (T), starvation (T), severe dehydration (T), diet low in fat (F), obesity (F)? (DU-11Ja) Also glycogen storage disease (T), diet high in carbohydrate (F), decreased fat metabolism (F)? (DU-10Ja)</summary>
+      <div class="ans">Untreated DM <span class="tf">T</span> · starvation <span class="tf">T</span> · severe dehydration <span class="tf">T</span> · diet low in fat <span class="ff">F</span> · obesity <span class="ff">F</span> . Plus glycogen storage disease = True · high-CHO diet <span class="ff">F</span> · decreased fat metabolism <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Ketonuria may occur in: severe diabetes mellitus (T), diabetes insipidus (F), prolonged starvation (T), uremia (F), cachectic person (T)? (DU-14Ju)</summary>
+      <div class="ans">Severe DM <span class="tf">T</span> · DI <span class="ff">F</span> · prolonged starvation <span class="tf">T</span> · uremia <span class="ff">F</span> · cachectic person <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Causes of ketonuria (physiological vs pathological)?</div>
-    <div class="a">Physiological: starvation, low-CHO diet, high-fat diet. Pathological: uncontrolled DM, severe dehydration after vomiting/diarrhoea, glycogen storage disease.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Haemoglobinuria</summary>
+    <details>
+      <summary>Haemoglobinuria is associated with: incompatible blood transfusion (T), cerebral malaria (T), acute glomerulonephritis (F), hypersplenism (T), septicaemia (F)? (DU-10Nv)</summary>
+      <div class="ans">Incompatible blood transfusion <span class="tf">T</span> · cerebral malaria <span class="tf">T</span> · AGN <span class="ff">F</span> · hypersplenism <span class="tf">T</span> · septicaemia <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Bence-Jones protein is? Its heat behaviour?</div>
-    <div class="a">Immunoglobulin light chain (κ or λ). Flocculates at 50–60 °C on slow heating, dissolves on boiling, reappears on cooling below 60 °C.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Nephrotic syndrome</summary>
+    <details>
+      <summary>The nephrotic syndrome is accompanied by: decreased glomerular capillary permeability (F), oedema (T), loss of 4 gm or more of plasma protein daily (T), hypolipidaemia (F), abundant cortical deposits of neutral fat (T)? (DU-09Ju)</summary>
+      <div class="ans">Decreased capillary permeability <span class="ff">F</span> · oedema <span class="tf">T</span> · loss ≥4 gm protein/day <span class="tf">T</span> · hypolipidaemia <span class="ff">F</span> · abundant neutral fat <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Blood urea elevated in: severe dehydration (T), pregnancy (T), acute kidney injury (T), cirrhosis (F), diarrhoea (F)? (BUP-22Nv)</div>
-    <div class="a">Severe dehydration = <strong>True</strong> · pregnancy = <strong>True</strong> · acute kidney injury = <strong>True</strong> · cirrhosis = <strong>False</strong> · diarrhoea = <strong>False</strong>.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hyperlipidaemia</summary>
+    <details>
+      <summary>Hyperlipidaemia mostly occurs in: nephrotic syndrome (T), long-term starvation (F), diabetes mellitus (T), pulmonary hypertension (F), obesity (T)? (DU-23Nv)</summary>
+      <div class="ans">Nephrotic syndrome <span class="tf">T</span> · long-term starvation <span class="ff">F</span> · DM <span class="tf">T</span> · pulmonary hypertension <span class="ff">F</span> · obesity <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Hyperlipidaemia occurs in: familial hypercholesterolaemia (T), diabetes mellitus (T), nephrotic syndrome (T), nephritic syndrome (F), peptic ulcer disease (F)? (DU-17Ja)</summary>
+      <div class="ans">Familial hypercholesterolaemia <span class="tf">T</span> · DM <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · nephritic syndrome <span class="ff">F</span> · PUD <span class="ff">F</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Renal function tests include: blood urea nitrogen (T), serum creatinine (T), serum lipase (F), renal clearance test (T), serum iron (F)? (BUP-22Nv)</div>
-    <div class="a">BUN = <strong>True</strong> · serum creatinine = <strong>True</strong> · serum lipase = <strong>False</strong> · renal clearance test = <strong>True</strong> · serum iron = <strong>False</strong>.</div>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Miscellaneous matched pairs & normal values</summary>
+    <details>
+      <summary>Correctly matched: ketonuria — old diabetes mellitus (T), increased lymphocytes — pyogenic meningitis (F), increased PT — overdose of anticoagulant (T), pseudocyesis — positive pregnancy test (T), low albumin/globulin ratio — Crohn's disease (F)? (RU-18M)</summary>
+      <div class="ans">Ketonuria–old DM <span class="tf">T</span> · increased lymphocytes–pyogenic meningitis <span class="ff">F</span> · increased PT–anticoagulant overdose <span class="tf">T</span> · pseudocyesis–positive pregnancy test <span class="tf">T</span> · low A/G ratio–Crohn's <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>The following values are within normal limit: FBS 5.5 mmol/L (T), S. creatinine 3.4 mg/dl (F), blood urea 120 mg/dl (F), triglyceride 180 mg/dl (F), serum PSA 0.4 U/L (T)? (DU-13Ja)</summary>
+      <div class="ans">FBS 5.5 <span class="tf">T</span> · S. creatinine 3.4 mg/dl <span class="ff">F</span> (normal 0.7–1.4) · blood urea 120 <span class="ff">F</span> (normal 15–40) · triglyceride 180 <span class="ff">F</span> · serum PSA 0.4 U/L <span class="tf">T</span> .</div>
+    </details>
+  </details>
 
-    <div class="q">Renal function tests include: renal clearance test (T), BUN (T), serum uric acid (T), urea clearance to assess renal blood flow (F), inulin clearance to assess GFR (T)? (DU-09Ja)</div>
-    <div class="a">Renal clearance test = <strong>True</strong> · BUN = <strong>True</strong> · serum uric acid = <strong>True</strong> · urea clearance for renal blood flow = <strong>False</strong> · inulin clearance for GFR = <strong>True</strong>.</div>
 
-    <div class="q">Causes of haematuria include: cardiac failure (F), renal stone (T), neuroblastoma (F), renal cell carcinoma (T), nephrotic syndrome (F)? (DU-24Nv)</div>
-    <div class="a">Cardiac failure = <strong>False</strong> · renal stone = <strong>True</strong> · neuroblastoma = <strong>False</strong> · renal cell carcinoma = <strong>True</strong> · nephrotic syndrome = <strong>False</strong>.</div>
+    <details class="rapid" open>
+    <summary>Renal Function Test — One-Liners & Mnemonics (test yourself, then reveal)</summary>
+    <div class="ans">
 
-    <div class="q">Causes of haematuria include: cardiac failure (F), kidney stone (T), nephrotic syndrome (F), renal tuberculosis (T), pregnancy (F)? (DU-21Ja,20Nv/M,17Nv)</div>
-    <div class="a">Cardiac failure = <strong>False</strong> · kidney stone = <strong>True</strong> · nephrotic syndrome = <strong>False</strong> · renal tuberculosis = <strong>True</strong> · pregnancy = <strong>False</strong>.</div>
+      <div class="q">What are the 3 normal clearance values? (inulin, creatinine, urea)</div>
+      <div class="a">Inulin 125 ml/min · Creatinine 70–140 ml/min · Urea 60–70 ml/min.</div>
 
-    <div class="q">Painless haematuria is associated with: chronic pyelonephritis (F), nephrotic syndrome (T), renal cell carcinoma (T), renal calculi (F), renal tuberculosis (T)? (DU-23Nv)</div>
-    <div class="a">Chronic pyelonephritis = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · renal cell carcinoma = <strong>True</strong> · renal calculi = <strong>False</strong> · renal tuberculosis = <strong>True</strong>.</div>
+      <div class="q">Normal blood urea? Normal serum creatinine? Normal BUN?</div>
+      <div class="a">Urea 15–40 mg/dl (2.5–6.6 mmol/L) · Creatinine 0.7–1.4 mg/dl (60–120 μmol/L) · BUN 7–21 mg/dl.</div>
 
-    <div class="q">Causes of painless haematuria: renal calculi (F), renal TB (T), renal cell carcinoma (T), hydronephrosis (F), nephrotic syndrome (T)? (DU-22Nv)</div>
-    <div class="a">Renal calculi = <strong>False</strong> · renal TB = <strong>True</strong> · renal cell carcinoma = <strong>True</strong> · hydronephrosis = <strong>False</strong> · nephrotic syndrome = <strong>True</strong>.</div>
+      <div class="q">Normal uric acid? Normal urine volume per day? Normal specific gravity?</div>
+      <div class="a">Uric acid 2–7 mg/dl (0.12–0.42 mmol/L) · Urine 800–2500 ml/day (min 650) · S.G. 1.010–1.020.</div>
 
-    <div class="q">Painless haematuria associated with: vesical calculi (F), nephrotic syndrome (F), renal tuberculosis (T), renal calculi (F), renal cell carcinoma (T)? (DU-21Oct/M)</div>
-    <div class="a">Vesical calculi = <strong>False</strong> · nephrotic syndrome = <strong>False</strong> · renal tuberculosis = <strong>True</strong> · renal calculi = <strong>False</strong> · renal cell carcinoma = <strong>True</strong>.</div>
+      <div class="q">🎯 No. 1 single test in kidney function? No. 1 for GFR? Gold-standard clearance?</div>
+      <div class="a">Serum creatinine = No.1 single test · Creatinine clearance = No.1 for GFR · Inulin = gold standard (filtered but neither reabsorbed nor secreted).</div>
 
-    <div class="q">Painless haematuria occurs in: papilloma urinary bladder (T), renal stone (F), renal tuberculosis (T), renal cell carcinoma (T), cystitis (F)? (DU-18Ja)</div>
-    <div class="a">Papilloma urinary bladder = <strong>True</strong> · renal stone = <strong>False</strong> · renal tuberculosis = <strong>True</strong> · renal cell carcinoma = <strong>True</strong> · cystitis = <strong>False</strong>.</div>
+      <div class="q">Why is serum creatinine more specific than blood urea?</div>
+      <div class="a">Because creatinine is produced at a constant rate from muscle and almost completely filtered at the glomerulus, so its changes reflect GFR; urea varies with protein intake, liver function and renal perfusion.</div>
 
-    <div class="q">Massive proteinuria is a feature of: acute glomerulonephritis (F), diabetic nephropathy (T), partial gastrectomy (F), hypertension (F), toxaemia of pregnancy (T)? (DU-23M)</div>
-    <div class="a">AGN = <strong>False</strong> · diabetic nephropathy = <strong>True</strong> · partial gastrectomy = <strong>False</strong> · hypertension = <strong>False</strong> · toxaemia of pregnancy = <strong>True</strong>.</div>
+      <div class="q">RBC cast → ? WBC cast → ? Epithelial cast → ? Granular cast → ? Hyaline cast → ?</div>
+      <div class="a">RBC cast → AGN (hallmark) · WBC cast → pyelonephritis · Epithelial cast → renal tubular necrosis · Granular cast → glomerulonephritis · Hyaline cast → normal.</div>
 
-    <div class="q">Causes of massive proteinuria: nephrotic syndrome (T), severe CCF (F), diabetic nephropathy (F), toxaemia of pregnancy (T), multiple myeloma (T)? (CMU-22M)</div>
-    <div class="a">Nephrotic syndrome = <strong>True</strong> · severe CCF = <strong>False</strong> · diabetic nephropathy = <strong>False</strong> · toxaemia of pregnancy = <strong>True</strong> · multiple myeloma = <strong>True</strong>.</div>
+      <div class="q">Colour of urine tests: Heat coagulation → ? Benedict → ? Hay's → ? Fouchet's → ? Rothera → ? Orthotolidin → ?</div>
+      <div class="a">Heat = albumin · Benedict = sugar · Hay's = bile salts · Fouchet's = bilirubin · Rothera = ketones · Orthotolidin = blood (haematuria/haemoglobinuria).</div>
 
-    <div class="q">Causes of massive proteinuria include: nephritic syndrome (F), nephrotic syndrome (T), uncontrolled DM (F), toxaemia of pregnancy (T), renal stone (F)? (DU-19Nv)</div>
-    <div class="a">Nephritic syndrome = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · uncontrolled DM = <strong>False</strong> · toxaemia of pregnancy = <strong>True</strong> · renal stone = <strong>False</strong>.</div>
+      <div class="q">Ketone bodies are? Their normal blood/urine?</div>
+      <div class="a">Acetoacetate, β-hydroxybutyrate, acetone. Blood &lt; 3 mg/dl (0.2 mmol/L); urine &lt; 1 mg/day.</div>
 
-    <div class="q">Massive proteinuria occurs in: AGN (F), hypertension (F), nephrotic syndrome (T), IgA nephropathy (F)? (DU-17M) Also: nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</div>
-    <div class="a">AGN = <strong>False</strong> · hypertension = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · IgA nephropathy = <strong>False</strong>; and nephrotic syndrome = <strong>True</strong> · SLE = <strong>True</strong> · toxaemia of pregnancy = <strong>True</strong>.</div>
+      <div class="q">Causes of ketonuria (physiological vs pathological)?</div>
+      <div class="a">Physiological: starvation, low-CHO diet, high-fat diet. Pathological: uncontrolled DM, severe dehydration after vomiting/diarrhoea, glycogen storage disease.</div>
 
-    <div class="q">Massive proteinuria occurs in: amyloidosis (T), CCF (F), nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</div>
-    <div class="a">Amyloidosis = <strong>True</strong> · CCF = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · SLE = <strong>True</strong> · toxaemia of pregnancy = <strong>True</strong>.</div>
+      <div class="q">Bence-Jones protein is? Its heat behaviour?</div>
+      <div class="a">Immunoglobulin light chain (κ or λ). Flocculates at 50–60 °C on slow heating, dissolves on boiling, reappears on cooling below 60 °C.</div>
 
-    <div class="q">Massive proteinuria observed in: pre-eclamptic toxaemia (T), multiple myeloma (T), cardiac failure (F), haemolytic anaemia (F)? (DU-13Ja)</div>
-    <div class="a">Pre-eclamptic toxaemia = <strong>True</strong> · multiple myeloma = <strong>True</strong> · cardiac failure = <strong>False</strong> · haemolytic anaemia = <strong>False</strong>.</div>
+      <div class="q">🎯 One-liners: Most common organism of UTI? Most common primary cause of nephrotic syndrome in children? In adults? Hallmark cast of AGN? Best method to detect Bence-Jones protein?</div>
+      <div class="a">E. coli (~70% of UTI) · Minimal-change disease (children) · Membranous glomerulonephritis (adults) · RBC cast · Electrophoresis of concentrated urine.</div>
 
-    <div class="q">Massive proteinuria occurs in: pregnancy (F), CCF (T), nephrotic syndrome (T), SLE (T), Milne's syndrome (F)? (RU-13Ja)</div>
-    <div class="a">Pregnancy = <strong>False</strong> · CCF = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · SLE = <strong>True</strong> · Milne's syndrome = <strong>False</strong>.</div>
+      <div class="q">🎯 Define massive proteinuria? Microalbuminuria range? Narrow band on urine electrophoresis = ? Purple ring in Rothera's = ?</div>
+      <div class="a">Massive proteinuria = &gt;3.5 gm albumin/24 hr · Microalbuminuria = 30–300 mg/day · Narrow band = Bence-Jones protein (monoclonal light chain) · Purple ring = ketone bodies present.</div>
 
-    <div class="q">Massive proteinuria occurs in: chronic renal failure (F), hepatic failure (F), nephrotic syndrome (T), minimal change disease (T), SLE (T)? (DU-10Ja)</div>
-    <div class="a">Chronic renal failure = <strong>False</strong> · hepatic failure = <strong>False</strong> · nephrotic syndrome = <strong>True</strong> · minimal change disease = <strong>True</strong> · SLE = <strong>True</strong>.</div>
+      <div class="q">🎯 Painless vs painful haematuria — pick the classic causes?</div>
+      <div class="a">Painless: IgA nephropathy, renal TB, renal cell carcinoma, bladder papilloma. Painful: renal stone, infection, trauma, polycystic kidney (clot colic), loin-pain-haematuria syndrome.</div>
 
-    <div class="q">Massive proteinuria occurs in: pyelonephritis (F), toxaemia of pregnancy (T), nephrotic syndrome (T), AGN (F), renal cell carcinoma (F)? (DU-11Ja)</div>
-    <div class="a">Pyelonephritis = <strong>False</strong> · toxaemia of pregnancy = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · AGN = <strong>False</strong> · renal cell carcinoma = <strong>False</strong>.</div>
-
-    <div class="q">Proteinuria is a constant feature of: acute glomerulonephritis (T), nephrotic syndrome (T), renal stone (F), hypertension (T), haematuria (T)? (DU-14Ja)</div>
-    <div class="a">Acute glomerulonephritis = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · renal stone = <strong>False</strong> · hypertension = <strong>True</strong> · haematuria = <strong>True</strong>.</div>
-
-    <div class="q">Urinary protein can be detected by: heat coagulation test (T), Rothera's test (F), reagent strip test (T), Benedict test (F), sulphosalicylic test (T)? (DU-22Nv / DU-10Ju)</div>
-    <div class="a">Heat coagulation = <strong>True</strong> · Rothera's = <strong>False</strong> · reagent strip = <strong>True</strong> · Benedict = <strong>False</strong> · sulphosalicylic acid = <strong>True</strong>.</div>
-
-    <div class="q">Non-sugar reducing substances: ascorbic acid (T), uric acid (T), alpha-methyl dopa (F), penicillin (F), sucrose (F)? (DU-23Nv)</div>
-    <div class="a">Ascorbic acid = <strong>True</strong> · uric acid = <strong>True</strong> · alpha-methyl dopa = <strong>False</strong> · penicillin = <strong>False</strong> · sucrose = <strong>False</strong>.</div>
-
-    <div class="q">Regarding casts present in urine: RBC cast in acute pyelonephritis (F), hyaline cast in nephrotic syndrome (F), WBC cast in nephritic syndrome (T), cellular cast in chronic (F), colloid cast with massive proteinuria (F)? (DU-22M)</div>
-    <div class="a">RBC cast in acute pyelonephritis = <strong>False</strong> · hyaline cast in nephrotic = <strong>False</strong> · WBC cast in nephritic = <strong>True</strong> · cellular cast in chronic = <strong>False</strong> · colloid cast with massive proteinuria = <strong>False</strong>.</div>
-
-    <div class="q">Urinary microscopic findings in upper UTI: pus cell (T), dysmorphic RBC (T), RBC cast (T), WBC cast (F), crystals (F)? (BUP-22Nv)</div>
-    <div class="a">Pus cell = <strong>True</strong> · dysmorphic RBC = <strong>True</strong> · RBC cast = <strong>True</strong> · WBC cast = <strong>False</strong> · crystals = <strong>False</strong>.</div>
-
-    <div class="q">Specific gravity of urine is increased in: chronic renal failure (F), diabetes mellitus (T), diabetes insipidus (F), acute glomerulonephritis (T), nephrotic syndrome (T)? (DU-10Nv,18Ja)</div>
-    <div class="a">Chronic renal failure = <strong>False</strong> · DM = <strong>True</strong> · DI = <strong>False</strong> · AGN = <strong>True</strong> · nephrotic syndrome = <strong>True</strong>.</div>
-
-    <div class="q">Causes of hyperuricaemia: gout (T), allopurinol therapy (F), polycythaemia (T), low protein diet (F), CGL (chronic granulocytic leukaemia) (T)? (DU-19M); also psoriasis (T), alcoholism (F)? (DU-10Ju/J,09Ju)</div>
-    <div class="a">Gout = <strong>True</strong> · allopurinol = <strong>False</strong> · polycythaemia = <strong>True</strong> · low protein diet = <strong>False</strong> · CGL = <strong>True</strong>. Plus psoriasis = <strong>True</strong> · alcoholism = <strong>False</strong>.</div>
-
-    <div class="q">Causes of hyperuricaemia include: gout (T), alcoholism (F), liver damage (F), large dose of vitamin-C (F), leukaemia (T)? (DU-08Ju)</div>
-    <div class="a">Gout = <strong>True</strong> · alcoholism = <strong>False</strong> · liver damage = <strong>False</strong> · large dose of vitamin-C = <strong>False</strong> · leukaemia = <strong>True</strong>.</div>
-
-    <div class="q">Causes of ketonuria include: untreated diabetes mellitus (T), starvation (T), severe dehydration (T), diet low in fat (F), obesity (F)? (DU-11Ja) Also glycogen storage disease (T), diet high in carbohydrate (F), decreased fat metabolism (F)? (DU-10Ja)</div>
-    <div class="a">Untreated DM = <strong>True</strong> · starvation = <strong>True</strong> · severe dehydration = <strong>True</strong> · diet low in fat = <strong>False</strong> · obesity = <strong>False</strong>. Plus glycogen storage disease = <strong>True</strong> · high-CHO diet = <strong>False</strong> · decreased fat metabolism = <strong>False</strong>.</div>
-
-    <div class="q">Ketonuria may occur in: severe diabetes mellitus (T), diabetes insipidus (F), prolonged starvation (T), uremia (F), cachectic person (T)? (DU-14Ju)</div>
-    <div class="a">Severe DM = <strong>True</strong> · DI = <strong>False</strong> · prolonged starvation = <strong>True</strong> · uremia = <strong>False</strong> · cachectic person = <strong>True</strong>.</div>
-
-    <div class="q">Haemoglobinuria is associated with: incompatible blood transfusion (T), cerebral malaria (T), acute glomerulonephritis (F), hypersplenism (T), septicaemia (F)? (DU-10Nv)</div>
-    <div class="a">Incompatible blood transfusion = <strong>True</strong> · cerebral malaria = <strong>True</strong> · AGN = <strong>False</strong> · hypersplenism = <strong>True</strong> · septicaemia = <strong>False</strong>.</div>
-
-    <div class="q">The nephrotic syndrome is accompanied by: decreased glomerular capillary permeability (F), oedema (T), loss of 4 gm or more of plasma protein daily (T), hypolipidaemia (F), abundant cortical deposits of neutral fat (T)? (DU-09Ju)</div>
-    <div class="a">Decreased capillary permeability = <strong>False</strong> · oedema = <strong>True</strong> · loss ≥4 gm protein/day = <strong>True</strong> · hypolipidaemia = <strong>False</strong> · abundant neutral fat = <strong>True</strong>.</div>
-
-    <div class="q">Characteristic features of Bence-Jones protein: free monoclonal kappa or lambda chain (T), originally described for behaviour on heating (T), flocculates when heated to 300 °C (F), also found occasionally in lymphoma (F), electrophoresis of urine is non-reliable (F)? (DU-09Ja)</div>
-    <div class="a">Free monoclonal κ/λ chain = <strong>True</strong> · behaviour on heating = <strong>True</strong> · flocculates at 300 °C = <strong>False</strong> · occasionally in lymphoma = <strong>False</strong> · urine electrophoresis non-reliable = <strong>False</strong>.</div>
-
-    <div class="q">Following are associated with high-coloured urine: diabetes insipidus (F), AGN (T), starvation (F), cirrhosis of liver (F), cystitis (F)? (RU-13Ja)</div>
-    <div class="a">DI = <strong>False</strong> · AGN = <strong>True</strong> · starvation = <strong>False</strong> · cirrhosis = <strong>False</strong> · cystitis = <strong>False</strong>.</div>
-
-    <div class="q">Hyperlipidaemia mostly occurs in: nephrotic syndrome (T), long-term starvation (F), diabetes mellitus (T), pulmonary hypertension (F), obesity (T)? (DU-23Nv)</div>
-    <div class="a">Nephrotic syndrome = <strong>True</strong> · long-term starvation = <strong>False</strong> · DM = <strong>True</strong> · pulmonary hypertension = <strong>False</strong> · obesity = <strong>True</strong>.</div>
-
-    <div class="q">Hyperlipidaemia occurs in: familial hypercholesterolaemia (T), diabetes mellitus (T), nephrotic syndrome (T), nephritic syndrome (F), peptic ulcer disease (F)? (DU-17Ja)</div>
-    <div class="a">Familial hypercholesterolaemia = <strong>True</strong> · DM = <strong>True</strong> · nephrotic syndrome = <strong>True</strong> · nephritic syndrome = <strong>False</strong> · PUD = <strong>False</strong>.</div>
-
-    <div class="q">Correctly matched: ketonuria — old diabetes mellitus (T), increased lymphocytes — pyogenic meningitis (F), increased PT — overdose of anticoagulant (T), pseudocyesis — positive pregnancy test (T), low albumin/globulin ratio — Crohn's disease (F)? (RU-18M)</div>
-    <div class="a">Ketonuria–old DM = <strong>True</strong> · increased lymphocytes–pyogenic meningitis = <strong>False</strong> · increased PT–anticoagulant overdose = <strong>True</strong> · pseudocyesis–positive pregnancy test = <strong>True</strong> · low A/G ratio–Crohn's = <strong>False</strong>.</div>
-
-    <div class="q">The following values are within normal limit: FBS 5.5 mmol/L (T), S. creatinine 3.4 mg/dl (F), blood urea 120 mg/dl (F), triglyceride 180 mg/dl (F), serum PSA 0.4 U/L (T)? (DU-13Ja)</div>
-    <div class="a">FBS 5.5 = <strong>True</strong> · S. creatinine 3.4 mg/dl = <strong>False</strong> (normal 0.7–1.4) · blood urea 120 = <strong>False</strong> (normal 15–40) · triglyceride 180 = <strong>False</strong> · serum PSA 0.4 U/L = <strong>True</strong>.</div>
-
-    <div class="q">🎯 One-liners: Most common organism of UTI? Most common primary cause of nephrotic syndrome in children? In adults? Hallmark cast of AGN? Best method to detect Bence-Jones protein?</div>
-    <div class="a">E. coli (~70% of UTI) · Minimal-change disease (children) · Membranous glomerulonephritis (adults) · RBC cast · Electrophoresis of concentrated urine.</div>
-
-    <div class="q">🎯 Define massive proteinuria? Microalbuminuria range? Narrow band on urine electrophoresis = ? Purple ring in Rothera's = ?</div>
-    <div class="a">Massive proteinuria = &gt;3.5 gm albumin/24 hr · Microalbuminuria = 30–300 mg/day · Narrow band = Bence-Jones protein (monoclonal light chain) · Purple ring = ketone bodies present.</div>
-
-    <div class="q">🎯 Painless vs painful haematuria — pick the classic causes?</div>
-    <div class="a">Painless: IgA nephropathy, renal TB, renal cell carcinoma, bladder papilloma. Painful: renal stone, infection, trauma, polycystic kidney (clot colic), loin-pain-haematuria syndrome.</div>
+    </div>
   </details>
 
   <div class="navfoot">

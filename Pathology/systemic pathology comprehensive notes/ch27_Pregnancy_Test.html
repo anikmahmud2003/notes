@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ch27 — Pregnancy Test | Clinical Pathology Comprehensive Notes</title>
+<title>Ch27 — Pregnancy Test | Systemic Pathology Comprehensive Notes</title>
 <style>
   :root{
     --bg:#0f1420; --panel:#171e30; --panel2:#1d2640; --border:#2a3554;
@@ -13,6 +13,7 @@
   *{box-sizing:border-box}
   body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
   .wrap{max-width:1000px;margin:0 auto;padding:20px 20px 80px}
+  /* sticky top bar */
   .topnav{position:sticky;top:0;z-index:50;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:8px 4px;font-size:.82rem}
   .topnav a{color:var(--accent);text-decoration:none;margin-right:12px;white-space:nowrap}
   .topnav a:hover{text-decoration:underline}
@@ -23,14 +24,15 @@
   h3{color:var(--warn);margin:22px 0 6px;font-size:1.08rem}
   .bigpic{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin:16px 0}
   .bigpic p{margin:4px 0}
-  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:10px 0;overflow:hidden}
-  details summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start}
+  /* flashcard - one small question per toggle */
+  details{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--flash);border-radius:10px;margin:8px 0;overflow:hidden}
+  details summary{cursor:pointer;padding:10px 14px;font-weight:700;color:var(--txt);list-style:none;display:flex;align-items:flex-start;font-size:.97rem}
   details summary::-webkit-details-marker{display:none}
-  details summary::before{content:"❓";margin-right:10px;color:var(--flash)}
+  details summary::before{content:"❓";margin-right:10px;color:var(--flash);flex:none}
   details[open] summary{border-bottom:1px solid var(--border);background:var(--flashbg);color:#d8c8ff}
   details[open] summary::before{content:"✅"}
-  .ans{padding:14px 18px}
-  .ans p{margin:8px 0}
+  .ans{padding:12px 16px}
+  .ans p{margin:7px 0}
   .ans ul,.ans ol{margin:6px 0;padding-left:22px}
   .ans li{margin:3px 0}
   table{width:100%;border-collapse:collapse;margin:10px 0}
@@ -46,6 +48,17 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  /* inline True/False practice block per topic */
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -67,22 +80,14 @@
 <div class="wrap">
   <span class="tag">Ch 27 · Pregnancy Test · Arif Guide 2025 Vol-2 · Unit-II · pp.493.</span>
   <h1>Ch 27 — Pregnancy Test
-    <span class="sub">Full-detail flashcards (Q→A) · All abbreviations expanded · Robbins 4-pillar answers</span>
+    <span class="sub">Full-detail flashcards (Q→A) · one short question per card · inline True/False practice · Robbins 4-pillar answers</span>
   </h1>
 
   <div class="bigpic">
     <h3 style="margin:0 0 8px">🧠 Big Picture — Pregnancy Test (boss-level overview)</h3>
     <p>All pregnancy tests detect <strong>human chorionic gonadotropin (hCG)</strong>, a glycoprotein hormone produced by the <strong>syncytiotrophoblast</strong> of the placenta. hCG appears in <strong>blood as early as 6 days</strong> after conception and in <strong>urine as early as 14 days</strong> after conception.</p>
     <p>🔴 <strong>Indications:</strong> (1) Early diagnosis of pregnancy · (2) Confirmation when foetal death is suspected · (3) Diagnosis of <strong>hydatidiform mole</strong> and <strong>choriocarcinoma</strong> · (4) Diagnosis of <strong>pseudocyst</strong> (false pregnancy with positive test).</p>
-    <p>📌 <strong>Methods (broad classification):</strong></p>
-    <ul>
-      <li><strong>Modern / Immunological tests</strong> — cheap, reliable, accurate, quick (direct &amp; indirect agglutination)</li>
-      <li><strong>Biological tests</strong> — historically 99% accurate but costly &amp; time-consuming (Friedman, Aschim-Zondek, <em>Xenopus laevis</em>, Galli-Mainini)</li>
-      <li><strong>Radioimmunoassay (RIA)</strong> — high sensitivity</li>
-      <li><strong>Enzyme-Linked Immunosorbent Assay (ELISA)</strong> — most widely used today</li>
-      <li><strong>Ultrasonography</strong> — confirms intrauterine pregnancy</li>
-      <li><strong>Radiological tests</strong> — plain X-ray (rarely used now)</li>
-    </ul>
+    <p>📌 <strong>Methods (broad classification):</strong> Modern / Immunological tests (direct &amp; indirect agglutination) · Biological tests (Friedman, Aschim-Zondek, <em>Xenopus laevis</em>, Galli-Mainini) · Radioimmunoassay (RIA) · Enzyme-Linked Immunosorbent Assay (ELISA) · Ultrasonography · Radiological tests.</p>
     <p>🎯 <strong>Key principle:</strong> The presence of hCG in urine/blood is the basis of ALL pregnancy tests. Immunological tests use <strong>antigen–antibody reactions</strong> to detect hCG.</p>
     <p class="ref">Ref: Samson Wright's 13e/581 · Lecture SSMC · Arif Guide 2025 Vol-2, p.493</p>
   </div>
@@ -101,15 +106,15 @@
 
   <h2 id="indications">1 · Indications of Pregnancy Test</h2>
 
-  <details id="ind">
-    <summary>🔴 Enumerate the indications of pregnancy test. (CMU-23M; 15/12Ja; RMU-21Nv; 14Ja; 12/11/10/09Ju; 07Ja)</summary>
+  <details>
+    <summary>🔴 Enumerate the indications of pregnancy test.</summary>
     <div class="ans">
       <p>Four main indications:</p>
       <ol>
-        <li><strong>Diagnosis of pregnancy in an early stage</strong> — detection of human chorionic gonadotropin (hCG) confirms pregnancy before clinical signs appear.</li>
+        <li><strong>Diagnosis of pregnancy in an early stage</strong> — detection of hCG confirms pregnancy before clinical signs appear.</li>
         <li><strong>Confirmation when the foetus is suspected to be dead</strong> — a falling or absent hCG level suggests foetal demise.</li>
-        <li><strong>Diagnosis of hydatidiform mole and choriocarcinoma</strong> — these gestational trophoblastic diseases produce <span class="hot">markedly elevated hCG</span> levels.</li>
-        <li><strong>Diagnosis of pseudocyst</strong> — also called <em>pseudocyesis</em> (false pregnancy): a condition where the patient believes she is pregnant but no foetus is present; however, some cases may still show a positive test due to hormonal factors.</li>
+        <li><strong>Diagnosis of hydatidiform mole and choriocarcinoma</strong> — these produce <span class="hot">markedly elevated hCG</span> levels.</li>
+        <li><strong>Diagnosis of pseudocyst</strong> (pseudocyesis / false pregnancy) — patient believes she is pregnant but no foetus is present; some cases may show a positive test due to hormonal factors.</li>
       </ol>
       <div class="mnem">🎯 <strong>Mnemonic — "4 D's":</strong> <strong>D</strong>iagnose early pregnancy · <strong>D</strong>eath of foetus confirmed · <strong>D</strong>etect mole/choriocarcinoma · <strong>D</strong>ifferentiate pseudocyst.</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Exam frequencies: CMU-23M, RMU-21Nv, DU-12Ja</p>
@@ -119,31 +124,38 @@
   <h2 id="principle">2 · Principle of Pregnancy Test</h2>
 
   <details>
-    <summary>📌 What is the principle behind all pregnancy tests? (RU-14Ja; 10Ju)</summary>
+    <summary>📌 What is the principle behind all pregnancy tests? (Immunological basis)</summary>
     <div class="ans">
       <p><strong>Principle:</strong> The presence of <strong>human chorionic gonadotropin (hCG)</strong> in the urine of a pregnant woman forms the basis of <em>all</em> pregnancy tests.</p>
-      <p><strong>Immunological basis:</strong> Pregnancy can be diagnosed by tests involving the principle of <strong>antigen–antibody reaction</strong>. In these tests:</p>
+      <p><strong>Immunological basis:</strong> involves the principle of <strong>antigen–antibody reaction</strong>:</p>
       <ul>
         <li><strong>hCG</strong> acts as the <strong>antigen</strong>.</li>
         <li>Specific <strong>anti-hCG antibodies</strong> are used to detect it.</li>
         <li>The reaction produces a visible change (agglutination, colour change on a strip, etc.).</li>
       </ul>
-      <p><strong>Biological basis:</strong> hCG is a glycoprotein that mimics luteinising hormone (LH) and stimulates the corpus luteum to produce progesterone. Biological tests exploit this hormonal action in animals.</p>
       <p class="ref">Ref: Samson Wright's 13e/581 · Lecture SSMC · Arif Guide 2025 Vol-2, p.493</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 What is the biological basis of pregnancy tests?</summary>
+    <div class="ans">
+      <p>hCG is a glycoprotein that mimics <strong>luteinising hormone (LH)</strong> and stimulates the corpus luteum to produce progesterone. Biological tests exploit this hormonal action in animals.</p>
+      <p class="ref">Ref: Samson Wright's 13e/581 · Arif Guide 2025 Vol-2, p.493</p>
     </div>
   </details>
 
   <h2 id="methods">3 · Classification of Methods</h2>
 
   <details>
-    <summary>🔴 Mention the methods employed in pregnancy test. (RU-14Ja; 10Ju)</summary>
+    <summary>🔴 Mention the methods employed in pregnancy test.</summary>
     <div class="ans">
       <table>
         <tr><th>Category</th><th>Methods</th><th>Advantages / Disadvantages</th></tr>
-        <tr><td><strong>1. Modern / Immunological tests</strong></td><td>• Direct agglutination test<br>• Indirect agglutination test</td><td><span class="good">Cheap, reliable, accurate, quick result</span></td></tr>
-        <tr><td><strong>2. Biological tests</strong></td><td>• Friedman test<br>• Aschim-Zondek test<br>• <em>Xenopus laevis</em> (female) test<br>• Galli-Mainini test</td><td><span class="good">99% accurate</span> but <span class="hot">costly &amp; time-consuming</span></td></tr>
+        <tr><td><strong>1. Modern / Immunological tests</strong></td><td>Direct agglutination · Indirect agglutination</td><td><span class="good">Cheap, reliable, accurate, quick result</span></td></tr>
+        <tr><td><strong>2. Biological tests</strong></td><td>Friedman · Aschim-Zondek · <em>Xenopus laevis</em> (female) · Galli-Mainini</td><td><span class="good">99% accurate</span> but <span class="hot">costly &amp; time-consuming</span></td></tr>
         <tr><td><strong>3. Radioimmunoassay (RIA)</strong></td><td>Detects hCG using radiolabelled antibodies</td><td>Very high sensitivity; requires special equipment</td></tr>
-        <tr><td><strong>4. ELISA</strong> (Enzyme-Linked Immunosorbent Assay)</td><td>Uses enzyme-labelled anti-hCG antibodies</td><td><span class="good">Most commonly used modern test</span>; sensitive, specific, rapid</td></tr>
+        <tr><td><strong>4. ELISA</strong></td><td>Enzyme-labelled anti-hCG antibodies</td><td><span class="good">Most commonly used modern test</span>; sensitive, specific, rapid</td></tr>
         <tr><td><strong>5. Ultrasonography</strong></td><td>Transvaginal / transabdominal USG</td><td>Confirms intrauterine pregnancy; detects gestational sac from ~5 weeks</td></tr>
         <tr><td><strong>6. Radiological test</strong></td><td>Plain X-ray</td><td>Rarely used now; historical significance</td></tr>
       </table>
@@ -154,27 +166,36 @@
   <h2 id="immunological">4 · Immunological (Modern) Tests</h2>
 
   <details>
-    <summary>📌 Describe the immunological tests for pregnancy. What is the advantage of immunological methods?</summary>
+    <summary>📌 Describe the direct agglutination test.</summary>
     <div class="ans">
-      <p><strong>Immunological tests</strong> are the <span class="good">modern, preferred methods</span> — cheap, reliable, accurate, and provide quick results.</p>
-      <h3>Two sub-types:</h3>
-      <ol>
-        <li><strong>Direct agglutination test (HCG agglutination test):</strong>
-          <ul>
-            <li>Uses latex particles coated with <strong>anti-hCG antibodies</strong>.</li>
-            <li>Patient's urine is mixed with the coated latex; if hCG is present → <strong>visible clumping (agglutination)</strong> occurs.</li>
-            <li>Positive result = pregnancy confirmed.</li>
-          </ul>
-        </li>
-        <li><strong>Indirect agglutination test (Passive haemagglutination inhibition test):</strong>
-          <ul>
-            <li>Uses red blood cells (RBCs) coated with hCG antigen.</li>
-            <li>Anti-hCG antibody is added; if patient's urine contains hCG → it <strong>neutralises</strong> the antibody → <em>no agglutination</em> (inhibition = positive test).</li>
-            <li>If urine lacks hCG → antibody attacks RBC-coated antigen → agglutination occurs (negative test).</li>
-          </ul>
-        </li>
-      </ol>
-      <p><strong>ELISA (Enzyme-Linked Immunosorbent Assay):</strong> the most widely used pregnancy test today. Uses enzyme-labelled anti-hCG antibodies bound to a solid phase; addition of substrate produces a colour change if hCG is present. Available as rapid strip-test kits for home use.</p>
+      <p><strong>Direct agglutination test (HCG agglutination test):</strong></p>
+      <ul>
+        <li>Uses latex particles coated with <strong>anti-hCG antibodies</strong>.</li>
+        <li>Patient's urine is mixed with the coated latex; if hCG is present → <strong>visible clumping (agglutination)</strong> occurs.</li>
+        <li>Positive result = pregnancy confirmed.</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 Describe the indirect agglutination (passive haemagglutination inhibition) test.</summary>
+    <div class="ans">
+      <p><strong>Indirect agglutination test (Passive haemagglutination inhibition test):</strong></p>
+      <ul>
+        <li>Uses red blood cells (RBCs) coated with hCG antigen.</li>
+        <li>Anti-hCG antibody is added; if urine contains hCG → it <strong>neutralises</strong> the antibody → <em>no agglutination</em> (inhibition = positive test).</li>
+        <li>If urine lacks hCG → antibody attacks RBC-coated antigen → agglutination occurs (negative test).</li>
+      </ul>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 What is the advantage of immunological methods?</summary>
+    <div class="ans">
+      <p>Immunological tests are the <span class="good">modern, preferred methods</span> — <strong>cheap, reliable, accurate, and provide quick results</strong>.</p>
+      <p><strong>ELISA</strong> is the most widely used today, available as rapid strip-test kits for home use.</p>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
   </details>
@@ -182,34 +203,61 @@
   <h2 id="biological">5 · Biological Tests</h2>
 
   <details>
-    <summary>🔴 Describe the biological tests for pregnancy — Friedman, Aschim-Zondek, Xenopus laevis, Galli-Mainini. Why are they largely obsolete?</summary>
+    <summary>🔴 Describe the Friedman test.</summary>
     <div class="ans">
-      <p><strong>Biological tests</strong> rely on the <strong>gonadotrophic action of hCG</strong> in laboratory animals. They are <span class="hot">99% accurate</span> but <span class="hot">costly and time-consuming</span>, and have been replaced by immunological methods.</p>
-      <h3>1. Friedman Test</h3>
+      <p><strong>1. Friedman Test</strong></p>
       <ul>
         <li><strong>Animal used:</strong> immature female rabbit.</li>
-        <li><strong>Principle:</strong> hCG in the patient's urine stimulates the rabbit's ovary → formation of <strong>corpora haemorrhagica</strong> (haemorrhagic follicles) on the ovarian surface within 24–48 hours.</li>
+        <li><strong>Principle:</strong> hCG stimulates the rabbit's ovary → formation of <strong>corpora haemorrhagica</strong> (haemorrhagic follicles) within 24–48 hours.</li>
         <li><strong>Positive result:</strong> red spots on ovaries at laparotomy.</li>
       </ul>
-      <h3>2. Aschim-Zondek (A-Z) Test</h3>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Describe the Aschim-Zondek (A-Z) test.</summary>
+    <div class="ans">
+      <p><strong>2. Aschim-Zondek (A-Z) Test</strong></p>
       <ul>
         <li><strong>Animal used:</strong> immature female rat or mouse.</li>
-        <li><strong>Principle:</strong> hCG stimulates the ovary → <strong>ovulation + corpora lutea formation</strong>. The animals are killed and ovaries examined macroscopically.</li>
-        <li><strong>Positive result:</strong> presence of large, bright red corpora haemorrhagica or corpora lutea on both ovaries.</li>
+        <li><strong>Principle:</strong> hCG stimulates the ovary → <strong>ovulation + corpora lutea formation</strong>. Animals killed and ovaries examined macroscopically.</li>
+        <li><strong>Positive result:</strong> large, bright red corpora haemorrhagica or corpora lutea on both ovaries.</li>
       </ul>
-      <h3>3. Female <em>Xenopus laevis</em> (African Clawed Toad) Test</h3>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Describe the Xenopus laevis test.</summary>
+    <div class="ans">
+      <p><strong>3. Female <em>Xenopus laevis</em> (African Clawed Toad) Test</strong></p>
       <ul>
         <li><strong>Animal used:</strong> female <em>Xenopus laevis</em> (clawed toad).</li>
         <li><strong>Principle:</strong> hCG induces <strong>ovulation</strong> in the toad. Eggs appear in the water or cloaca within 12–24 hours.</li>
         <li><strong>Advantage:</strong> faster than mammalian tests.</li>
       </ul>
-      <h3>4. Galli-Mainini Test</h3>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Describe the Galli-Mainini test.</summary>
+    <div class="ans">
+      <p><strong>4. Galli-Mainini Test</strong></p>
       <ul>
         <li><strong>Animal used:</strong> male frog (e.g., <em>Rana pipiens</em>).</li>
         <li><strong>Principle:</strong> hCG mimics LH → stimulates the <strong>testes</strong> → <strong>spermatozoa appear in the urine</strong> of the frog within a few hours.</li>
         <li><strong>Advantage:</strong> very rapid (results in 2–4 hours); uses male animals (no need for oestrous cycle timing).</li>
       </ul>
-      <div class="mnem">🎯 <strong>Why biological tests are obsolete:</strong> need live animals, 24–48 hr wait (except Galli-Mainini), expensive, ethical concerns, not suitable for large-scale screening. Immunological/ELISA tests are faster, cheaper, and equally reliable.</div>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>🔴 Why are the biological tests largely obsolete?</summary>
+    <div class="ans">
+      <div class="mnem">🎯 <strong>Why obsolete:</strong> need live animals · 24–48 hr wait (except Galli-Mainini) · expensive · ethical concerns · not suitable for large-scale screening. Immunological/ELISA tests are faster, cheaper, and equally reliable.</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
   </details>
@@ -217,23 +265,35 @@
   <h2 id="modern">6 · RIA &amp; ELISA</h2>
 
   <details>
-    <summary>📌 Write a short note on Radioimmunoassay (RIA) and ELISA for pregnancy detection.</summary>
+    <summary>📌 Write a short note on Radioimmunoassay (RIA) for pregnancy.</summary>
     <div class="ans">
-      <h3>Radioimmunoassay (RIA)</h3>
       <ul>
         <li>A highly sensitive <strong>in-vitro</strong> technique for measuring hCG in blood or urine.</li>
         <li><strong>Principle:</strong> competition between radiolabelled hCG and patient's hCG for binding sites on specific anti-hCG antibodies.</li>
-        <li>Measures even very low levels of hCG — useful for <strong>early pregnancy detection</strong> and monitoring <strong>gestational trophoblastic disease</strong>.</li>
-        <li><strong>Limitation:</strong> requires specialised equipment, radioactive materials, trained personnel → not suitable for routine bedside or home testing.</li>
+        <li>Measures even very low levels — useful for <strong>early pregnancy</strong> and monitoring <strong>gestational trophoblastic disease</strong>.</li>
+        <li><strong>Limitation:</strong> requires specialised equipment, radioactive materials, trained personnel → not for routine bedside/home testing.</li>
       </ul>
-      <h3>ELISA (Enzyme-Linked Immunosorbent Assay)</h3>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 Write a short note on ELISA for pregnancy.</summary>
+    <div class="ans">
       <ul>
         <li>The <span class="good">most widely used pregnancy test</span> worldwide today.</li>
-        <li><strong>Principle:</strong> anti-hCG antibodies are coated onto a solid phase (plate or strip). Patient's urine is added; if hCG is present → it binds to the antibody. A second enzyme-linked anti-hCG antibody is added → forms a "sandwich". Addition of substrate produces a <strong>visible colour change</strong> (positive result).</li>
-        <li><strong>Sensitivity:</strong> can detect hCG levels as low as 20–25 mIU/mL.</li>
-        <li><strong>Advantages:</strong> rapid (5–10 minutes), inexpensive, no special equipment, can be done at home (urine dip-stick kits).</li>
-        <li><strong>Serum ELISA</strong> is more sensitive than urine ELISA and can detect pregnancy earlier.</li>
+        <li><strong>Principle:</strong> anti-hCG antibodies coated on a solid phase; patient's urine added; a second enzyme-linked anti-hCG antibody forms a "sandwich"; substrate produces a <strong>visible colour change</strong> (positive).</li>
+        <li><strong>Sensitivity:</strong> detects hCG as low as 20–25 mIU/mL.</li>
+        <li><strong>Advantages:</strong> rapid (5–10 minutes), inexpensive, no special equipment, home dip-stick kits.</li>
+        <li><strong>Serum ELISA</strong> is more sensitive than urine ELISA and detects pregnancy earlier.</li>
       </ul>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 Compare RIA vs ELISA.</summary>
+    <div class="ans">
       <table>
         <tr><th>Feature</th><th>RIA</th><th>ELISA</th></tr>
         <tr><td>Sensitivity</td><td>Very high</td><td>High (20–25 mIU/mL)</td></tr>
@@ -249,19 +309,26 @@
   <h2 id="imaging">7 · Imaging &amp; Radiological Tests</h2>
 
   <details>
-    <summary>📌 What is the role of ultrasonography and radiology in pregnancy testing?</summary>
+    <summary>📌 What is the role of ultrasonography in pregnancy testing?</summary>
     <div class="ans">
       <h3>Ultrasonography (USG)</h3>
       <ul>
-        <li><strong>Not a "pregnancy test" per se</strong> — it confirms the <strong>location and viability</strong> of a pregnancy once hCG test is positive.</li>
-        <li><strong>Transvaginal USG:</strong> can detect a <strong>gestational sac</strong> from approximately <strong>5 weeks</strong> (when hCG reaches ~1,500–2,000 mIU/mL).</li>
-        <li><strong>Transabdominal USG:</strong> detects pregnancy from approximately <strong>6–7 weeks</strong>.</li>
+        <li><strong>Not a "pregnancy test" per se</strong> — confirms the <strong>location and viability</strong> of a pregnancy once hCG test is positive.</li>
+        <li><strong>Transvaginal USG:</strong> detects a <strong>gestational sac</strong> from ~<strong>5 weeks</strong> (hCG ~1,500–2,000 mIU/mL).</li>
+        <li><strong>Transabdominal USG:</strong> detects pregnancy from ~<strong>6–7 weeks</strong>.</li>
         <li>Useful for: confirming intrauterine pregnancy, ruling out ectopic pregnancy, diagnosing hydatidiform mole (snowstorm pattern), assessing foetal viability.</li>
       </ul>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>📌 What is the role of radiological (X-ray) tests?</summary>
+    <div class="ans">
       <h3>Radiological Tests</h3>
       <ul>
         <li><strong>Plain X-ray:</strong> historical role; can detect foetal skeleton after ~16–20 weeks. Rarely used today due to radiation risk.</li>
-        <li>Now replaced by USG for all obstetric imaging needs.</li>
+        <li>Now replaced by USG for all obstetric imaging.</li>
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
@@ -270,82 +337,57 @@
   <h2 id="timing">8 · Timing — When is hCG Detectable?</h2>
 
   <details>
-    <summary>📌 When does hCG appear in blood and urine after conception? How does timing affect test selection?</summary>
+    <summary>📌 When does hCG appear in blood and urine after conception?</summary>
     <div class="ans">
       <table>
         <tr><th>Specimen</th><th>Earliest detection after conception</th><th>Notes</th></tr>
-        <tr><td><strong>Blood (serum)</strong></td><td><span class="hot">As early as 6 days</span></td><td>Serum hCG is detectable before urine hCG; serum ELISA/RIA is the earliest method</td></tr>
-        <tr><td><strong>Urine</strong></td><td><span class="warn">As early as 14 days</span></td><td>Urine dip-stick tests (ELISA-based) become positive ~2 weeks after conception; corresponds to ~1 day after missed period</td></tr>
+        <tr><td><strong>Blood (serum)</strong></td><td><span class="hot">As early as 6 days</span></td><td>Detectable before urine; serum ELISA/RIA is the earliest method</td></tr>
+        <tr><td><strong>Urine</strong></td><td><span class="warn">As early as 14 days</span></td><td>Dip-stick (ELISA) positive ~2 weeks after conception ~1 day after missed period</td></tr>
       </table>
-      <p><strong>Practical note:</strong> Most home pregnancy test kits detect urine hCG at a threshold of 20–25 mIU/mL. The most reliable results are obtained when testing is done <strong>after a missed period</strong>. Testing too early may yield a false negative.</p>
       <div class="mnem">🎯 <strong>Rule of 6 and 14:</strong> Blood = 6 days; Urine = 14 days. "6 for serum, 14 for pee."</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
   </details>
 
-  <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical &amp; Systemic Pathology MCQs)</h2>
+  <details>
+    <summary>📌 How does timing affect test selection?</summary>
+    <div class="ans">
+      <p>Most home kits detect urine hCG at a threshold of <strong>20–25 mIU/mL</strong>. Most reliable results are obtained <strong>after a missed period</strong>. Testing too early may yield a false negative.</p>
+      <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
+    </div>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Pregnancy test</summary>
+    <details>
+      <summary>Positive pregnancy test is observed in: Amenorrhoea · Hydatidiform mole · Choriocarcinoma · Endometrial hyperplasia · Dysgerminoma</summary>
+      <div class="ans">Amenorrhoea <span class="ff">F</span> · Hydatidiform mole <span class="tf">T</span> · Choriocarcinoma <span class="tf">T</span> · Endometrial hyperplasia <span class="ff">F</span> · Dysgerminoma <span class="ff">F</span> <span class="ref">(DU-12Ja)</span></div>
+    </details>
+  </details>
+
+  <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
 
   <details class="rapid" open>
     <summary>Pregnancy Test — True/False &amp; one-liners (test yourself, then reveal)</summary>
     <div class="ans">
-
-      <div class="q">hCG is detectable in blood as early as 6 days and in urine as early as 14 days after conception. (T/F)</div>
-      <div class="a"><strong>True.</strong> Blood (serum) hCG is detectable from 6 days post-conception; urine hCG from 14 days. (Arif p.493)</div>
-
-      <div class="q">The basis of all pregnancy tests is the presence of hCG in urine. (T/F)</div>
-      <div class="a"><strong>True.</strong> The presence of human chorionic gonadotropin (hCG) in the urine of a pregnant woman is the basis of all pregnancy tests. (Arif p.493)</div>
-
-      <div class="q">Immunological pregnancy tests are cheap, reliable, accurate, and give quick results. (T/F)</div>
-      <div class="a"><strong>True.</strong> Immunological tests are described as cheap, reliable, accurate, and provide quick results. (Arif p.493)</div>
-
-      <div class="q">Biological pregnancy tests (Friedman, Aschim-Zondek) are 99% accurate but costly and time-consuming. (T/F)</div>
-      <div class="a"><strong>True.</strong> Biological methods are 99% accurate but are costly and time-consuming, which is why they have been largely replaced. (Arif p.493)</div>
-
-      <div class="q">The Friedman test uses an immature female rabbit; the Aschim-Zondek test uses a male frog. (T/F)</div>
-      <div class="a"><strong>False.</strong> Friedman test = immature female rabbit. Aschim-Zondek test = immature female rat or mouse. It is the <strong>Galli-Mainini test</strong> that uses a male frog. (Arif p.493)</div>
-
-      <div class="q">The Xenopus laevis test for pregnancy uses a female African clawed toad and detects ovulation within 12–24 hours. (T/F)</div>
-      <div class="a"><strong>True.</strong> The Xenopus laevis test uses a female clawed toad; hCG induces ovulation visible within 12–24 hours. (Arif p.493)</div>
-
-      <div class="q">The Galli-Mainini test uses a male frog and detects spermatozoa in the frog's urine within 2–4 hours. (T/F)</div>
-      <div class="a"><strong>True.</strong> Galli-Mainini test = male frog (Rana pipiens); hCG acts like LH → stimulates testes → sperm appear in frog urine in 2–4 hours. (Arif p.493)</div>
-
-      <div class="q">ELISA is the most widely used pregnancy test today. (T/F)</div>
-      <div class="a"><strong>True.</strong> ELISA (Enzyme-Linked Immunosorbent Assay) is the most commonly used modern pregnancy test, available as rapid dip-stick kits. (Arif p.493)</div>
-
-      <div class="q">Radioimmunoassay (RIA) for pregnancy requires specialised equipment and is not suitable for routine home testing. (T/F)</div>
-      <div class="a"><strong>True.</strong> RIA requires a gamma counter and radioactive materials → used in research/specialised labs, not for routine or home testing. (Arif p.493)</div>
-
-      <div class="q">🎯 What are the 4 indications of pregnancy test? (List them.)</div>
-      <div class="a">(1) Diagnosis of pregnancy in an early stage · (2) Confirmation when foetus is suspected dead · (3) Diagnosis of hydatidiform mole and choriocarcinoma · (4) Diagnosis of pseudocyst (pseudocyesis). (Arif p.493)</div>
-
-      <div class="q">🎯 In the Friedman test, a positive result is indicated by red spots (corpora haemorrhagica) on the ovaries of the rabbit. (T/F)</div>
-      <div class="a"><strong>True.</strong> hCG stimulates the rabbit ovary → corpora haemorrhagica appear as red spots on ovarian surface at laparotomy.</div>
-
-      <div class="q">🎯 Ultrasonography can detect a gestational sac from approximately 5 weeks (transvaginal) and 6–7 weeks (transabdominal). (T/F)</div>
-      <div class="a"><strong>True.</strong> Transvaginal USG detects a gestational sac from ~5 weeks (~1,500–2,000 mIU/mL hCG); transabdominal from ~6–7 weeks.</div>
-
-      <div class="q">🎯 What type of immunological test uses latex particles coated with anti-hCG antibodies?</div>
-      <div class="a"><strong>Direct agglutination test.</strong> Latex particles + anti-hCG antibody → if hCG is present in urine → visible clumping (agglutination) = positive result.</div>
-
-      <div class="q">🎯 In the indirect agglutination (passive haemagglutination inhibition) test, agglutination = negative pregnancy. (T/F)</div>
-      <div class="a"><strong>True.</strong> If urine has no hCG → antibody attacks RBC-coated antigen → agglutination = negative. If urine has hCG → antibody is neutralised → no agglutination = positive.</div>
-
-      <div class="q">🎯 "Pseudocyesis" is a condition with a positive pregnancy test but no actual foetus. (T/F)</div>
-      <div class="a"><strong>True.</strong> Pseudocyesis (false pregnancy) can give a positive pregnancy test. (MCQ from ch31 Miscellaneous: "Pseudocyasis — positive pregnancy test" = True, RU-18M)</div>
-
-      <div class="q">📌 Positive pregnancy test is observed in: amenorrhoea (F), hydatidiform mole (T), choriocarcinoma (T), endometrial hyperplasia (F), dysgerminoma (F). (DU-12Ja)</div>
-      <div class="a">Amenorrhoea = <strong>False</strong> (amenorrhoea alone does not cause positive test) · hydatidiform mole = <strong>True</strong> · choriocarcinoma = <strong>True</strong> · endometrial hyperplasia = <strong>False</strong> · dysgerminoma = <strong>False</strong>. (MCQ folded from ch18 Systemic Pathology MCQs, DU-12Ja)</div>
-
-      <div class="q">🎯 hCG is produced by which part of the placenta?</div>
-      <div class="a"><strong>Syncytiotrophoblast</strong> of the placenta produces hCG. It is a glycoprotein hormone that mimics luteinising hormone (LH) action.</div>
-
-      <div class="q">🎯 What is the minimum hCG level detectable by standard urine ELISA pregnancy kits?</div>
-      <div class="a"><strong>20–25 mIU/mL.</strong> Most home pregnancy test strips have this threshold. Serum tests can detect even lower levels.</div>
-
-      <div class="q">🎯 Name the 4 biological tests for pregnancy and their respective animals.</div>
-      <div class="a">(1) Friedman → immature female rabbit · (2) Aschim-Zondek → immature female rat/mouse · (3) Xenopus laevis → female African clawed toad · (4) Galli-Mainini → male frog (Rana pipiens). (Arif p.493)</div>
-
+      <div class="q">🎯 hCG detectable in blood vs urine after conception?</div>
+      <div class="a"><strong>Blood = 6 days; Urine = 14 days.</strong></div>
+      <div class="q">🎯 Basis of ALL pregnancy tests?</div>
+      <div class="a"><strong>Presence of hCG in urine</strong> of a pregnant woman.</div>
+      <div class="q">🎯 Friedman test animal? Positive result?</div>
+      <div class="a"><strong>Immature female rabbit</strong>; corpora haemorrhagica (red spots on ovaries).</div>
+      <div class="q">🎯 Aschim-Zondek test animal? · Galli-Mainini animal?</div>
+      <div class="a">A-Z = <strong>immature female rat/mouse</strong> · Galli-Mainini = <strong>male frog (Rana pipiens)</strong>.</div>
+      <div class="q">🎯 Which is the most widely used pregnancy test today?</div>
+      <div class="a"><strong>ELISA</strong> (rapid dip-stick home kits).</div>
+      <div class="q">🎯 Pseudocyesis (false pregnancy) can give a positive pregnancy test?</div>
+      <div class="a"><strong>True</strong> — urinary hCG can be positive in pseudocyesis.</div>
+      <div class="q">🎯 hCG produced by which part of the placenta?</div>
+      <div class="a"><strong>Syncytiotrophoblast</strong> of the placenta.</div>
+      <div class="q">🎯 Minimum hCG level detectable by standard urine ELISA kits?</div>
+      <div class="a"><strong>20–25 mIU/mL.</strong></div>
+      <div class="q">🎯 Name the 4 biological tests and their animals.</div>
+      <div class="a">Friedman → female rabbit · A-Z → female rat/mouse · Xenopus laevis → female toad · Galli-Mainini → male frog.</div>
     </div>
   </details>
 

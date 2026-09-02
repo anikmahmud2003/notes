@@ -48,6 +48,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -406,6 +416,12 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Carcinoma cervix (risk factors)</summary>
+    <div class="ans">
+      <details><summary>Risk factors for carcinoma cervix: HPV infection, late menarche, E. coli genital infection, early age of first intercourse, oral contraceptives. (RU-19M)</summary><div class="ans">Item <span class="tf">HPV infection = True</span> · <span class="ff">Late menarche = False</span> · <span class="ff">E. coli infection = False</span> · <span class="tf">Early age first intercourse = True</span> · <span class="tf">Oral contraceptives = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <!-- ============================================================ -->
   <!-- 8. PAP TEST -->
   <!-- ============================================================ -->
@@ -575,6 +591,13 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Endometriosis</summary>
+    <div class="ans">
+      <details><summary>Endometriosis occurs in: ovary, fallopian tube, myometrium, rectum, umbilicus. (DU-24Nv)</summary><div class="ans">Item <span class="tf">Ovary = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Myometrium = False</span> (that is adenomyosis) · <span class="tf">Rectum = True</span> · <span class="ff">Umbilicus = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Most common sites of endometriosis: ovaries, fallopian tube, urinary bladder, vaginal fornices. (DU-14Ja)</summary><div class="ans">Item <span class="tf">Ovaries = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Urinary bladder = False</span> · <span class="tf">Vaginal fornices = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <!-- ============================================================ -->
   <!-- 12. ADENOMYOSIS -->
   <!-- ============================================================ -->
@@ -657,6 +680,14 @@
         <li>Tumour marker: <strong>Serum CA-125</strong> (elevated in 60% of cases)</li>
       </ul>
       <p class="ref">Robbins 9e p.1020; Robbins 10e pp.1014, 1018</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Endometrial carcinoma, leiomyoma &amp; pregnancy test</summary>
+    <div class="ans">
+      <details><summary>Endometrial carcinoma is associated with: HPV infection, OCP, nulliparity, diabetes mellitus. (DU-15Ja)</summary><div class="ans">Item <span class="tf">HPV = True</span> · <span class="tf">OCP = True</span> · <span class="ff">Nulliparity = False</span> · <span class="tf">Diabetes mellitus = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Uterine leiomyoma: most common gynaecological tumour; menorrhagia if submucous; require progesterone for growth; regress in pregnancy; precursor of leiomyosarcoma. (DU-13Ja/12Ju)</summary><div class="ans">Item <span class="tf">Most common gynae tumour = True</span> · <span class="tf">Menorrhagia if submucous = True</span> · <span class="ff">Require progesterone = False</span> (oestrogen-driven) · <span class="ff">Regresses in pregnancy = False</span> · <span class="tf">Precursor of leiomyosarcoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Positive pregnancy test is observed in: amenorrhoea, hydatidiform mole, choriocarcinoma, endometrial hyperplasia, dysgerminoma. (DU-12Ja)</summary><div class="ans">Item <span class="ff">Amenorrhoea = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Endometrial hyperplasia = False</span> · <span class="ff">Dysgerminoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 
@@ -763,6 +794,18 @@
       <p>A complex endocrine disorder characterised by <strong>hyperandrogenism, menstrual abnormalities, polycystic ovaries, chronic anovulation, and decreased fertility</strong>. Associated with obesity, type 2 diabetes, and premature atherosclerosis.</p>
       <p><strong>Pathophysiology:</strong> excessive androgen production and low FSH levels. Testosterone inhibits FSH, but LH levels are sufficient to cause luteinisation of theca and granulosa cells → androgen secretion → anovulation. Hereditary basis suggested in some cases.</p>
       <p class="ref">Robbins 10e p.1016; Harsh Mohan 7e p.730</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Ovarian tumours, sex cord &amp; germ cell</summary>
+    <div class="ans">
+      <details><summary>Germ cell tumours of ovary: granulosa cell tumour, choriocarcinoma, clear cell carcinoma, Brenner tumour, yolk sac tumour. (DU-23Nv)</summary><div class="ans">Item <span class="ff">Granulosa cell = False</span> (sex-cord) · <span class="ff">Choriocarcinoma = False</span> (not in key) · <span class="ff">Clear cell = False</span> (epithelial) · <span class="ff">Brenner = False</span> (epithelial) · <span class="tf">Yolk sac tumour = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Hormone-producing tumours of ovary: clear cell carcinoma, granulosa cell tumour, dysgerminoma, fibroma, Brenner tumour. (DU-22M)</summary><div class="ans">Item <span class="ff">Clear cell = False</span> · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Dysgerminoma = False</span> · <span class="ff">Fibroma = False</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Hormone-producing tumours of ovary (extended): dysgerminoma, Leydig cell tumour, granulosa cell tumour, teratoma, serous cystadenoma. (DU-21Ja/20Nv/M/17M)</summary><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Leydig cell = True</span> (androgen) · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Teratoma = False</span> · <span class="ff">Serous cystadenoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Sex cord-stromal tumours of ovary: dysgerminoma, granulosa cell tumour, arrhenoblastoma, choriocarcinoma, yolk sac tumour. (DU-17Ja)</summary><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Granulosa cell = True</span> · <span class="tf">Arrhenoblastoma = True</span> · <span class="ff">Choriocarcinoma = False</span> · <span class="ff">Yolk sac tumour = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Germ cell tumours of ovary include: teratoma, androblastoma, yolk sac tumour, dysgerminoma, Brenner tumour. (DU-10Ja)</summary><div class="ans">Item <span class="tf">Teratoma = True</span> · <span class="ff">Androblastoma = False</span> (sex-cord) · <span class="tf">Yolk sac = True</span> · <span class="tf">Dysgerminoma = True</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Ovarian tumour may be associated with: pleural effusion, raised CA-125, hyponatraemia, raised α-fetoprotein, raised CA-15-3. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Pleural effusion = True</span> (Meigs) · <span class="tf">CA-125 = True</span> · <span class="ff">Hyponatraemia = False</span> · <span class="tf">AFP = True</span> · <span class="ff">CA-15-3 = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Precancerous lesions of female genital tract: CIN-II, endometrial polyp, condyloma acuminatum of vulva, endometriosis, atypical hyperplasia of endometrium. (DU-12Ja)</summary><div class="ans">Item <span class="tf">CIN-II = True</span> · <span class="ff">Endometrial polyp = False</span> · <span class="tf">Condyloma acuminatum = True</span> · <span class="ff">Endometriosis = False</span> · <span class="tf">Atypical hyperplasia = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 

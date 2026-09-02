@@ -54,6 +54,16 @@
   .rapid .q::before{content:"❓";margin-right:8px;color:var(--flash)}
   .rapid .a{color:var(--muted);margin:2px 0 10px 26px}
   .rapid .a::before{content:"✅";margin-right:8px;color:var(--good)}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"\U0001F3AF ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F \2192 "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
@@ -877,81 +887,138 @@
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs from ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>Blood Glucose &amp; Diabetes Mellitus — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <details class="quiz">
+    <summary>🎯 True/False practice — Type 1 DM characteristics</summary>
+    <details>
+      <summary>Characteristics of type 1 DM include: (DU-24Nv)</summary>
+      <div class="ans">Markedly reduced blood insulin <span class="tf">T</span> · insulin resistance <span class="ff">F</span> · older age <span class="ff">F</span> · β-cell destruction <span class="tf">T</span> · linkage to HLA (human leukocyte antigen) gene <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Characteristics of type 1 diabetes mellitus include: (DU-23M)</summary>
+      <div class="ans">Increased age <span class="ff">F</span> · obesity <span class="ff">F</span> · linkage with HLA-DR <span class="tf">T</span> · beta cell destruction <span class="tf">T</span> · frequent ketoacidosis <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Characteristics of type-1 DM: (DU-22Nv)</summary>
+      <div class="ans">Markedly reduced blood insulin <span class="ff">F</span> · insulin resistance <span class="tf">T</span> · younger age <span class="ff">F</span> · beta cell destruction <span class="ff">F</span> · linkage to HLA gene <span class="ff">F</span> . (Note: answer key as printed — contradictory wording; the correct physiology is type 1 = ↓insulin, β-cell destruction, HLA-linked.)</div>
+    </details>
+    <details>
+      <summary>Type-1 DM is characterized by: (DU-22M,20Nv/M)</summary>
+      <div class="ans">Early onset <span class="tf">T</span> · patients commonly obese <span class="ff">F</span> · associated with significant genetic factor <span class="ff">F</span> · autoimmune destruction of islet cells <span class="tf">T</span> · hypoglycaemic coma is frequent <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Causes of hypoglycaemia</summary>
+    <details>
+      <summary>Causes of hypoglycaemia are: (RMU-22M)</summary>
+      <div class="ans">Diabetes mellitus <span class="ff">F</span> · insulinoma <span class="tf">T</span> · Addison's disease <span class="ff">F</span> · acromegaly <span class="ff">F</span> · pregnancy <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Hypoglycaemia occurs in: (DU-18M)</summary>
+      <div class="ans">Insulinoma <span class="tf">T</span> · Cushing syndrome <span class="ff">F</span> · septic shock <span class="ff">F</span> · missed meal of diabetics <span class="tf">T</span> · burn <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hypoglycaemia: (RU-13Ju)</summary>
+      <div class="ans">Overdose of insulin <span class="tf">T</span> · diabetes mellitus <span class="ff">F</span> · Addison's disease <span class="tf">T</span> · insulinoma <span class="tf">T</span> · acromegaly <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hypoglycaemia are: (DU-09Ja)</summary>
+      <div class="ans">Excess insulin <span class="tf">T</span> · liver disease <span class="tf">T</span> · alcoholism <span class="tf">T</span> · Cushing syndrome <span class="ff">F</span> · steroid administration <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Hyperglycaemia & glycosuria</summary>
+    <details>
+      <summary>Following features are associated with hyperglycaemia sine glycosuria: (DU-21Oct/M)</summary>
+      <div class="ans">Presence of sugar in urine <span class="ff">F</span> · low renal threshold for glucose <span class="ff">F</span> · found in uncontrolled DM <span class="tf">T</span> · metabolic acidosis <span class="tf">T</span> · hyperkalaemia <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hyperglycaemia include: (DU-21Ja,20Nv/M,18Ja)</summary>
+      <div class="ans">Diabetes mellitus <span class="tf">T</span> · hyperadrenalism <span class="tf">T</span> · insulin overdose <span class="ff">F</span> · septic shock <span class="ff">F</span> · heavy exercise <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Glycosuria may occur in: (CU-19Nv)</summary>
+      <div class="ans">Diabetes mellitus <span class="tf">T</span> · Cushing syndrome <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Following are causes of glycosuria: (RU-17M)</summary>
+      <div class="ans">Partial gastrectomy <span class="tf">T</span> · intestinal obstruction <span class="ff">F</span> · insulinoma <span class="ff">F</span> · increased renal threshold for glucose <span class="ff">F</span> · pregnancy <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of hyperglycaemia include: (DU-17Ja)</summary>
+      <div class="ans">Grave's disease <span class="tf">T</span> · Hashimoto thyroiditis <span class="ff">F</span> · myxoedema <span class="ff">F</span> · insulinoma <span class="ff">F</span> · diabetes insipidus <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — GTT & OGTT indications</summary>
+    <details>
+      <summary>Oral glucose tolerance test is done in: (RU-19M)</summary>
+      <div class="ans">Gestational diabetes <span class="tf">T</span> · hyperthyroidism <span class="ff">F</span> · liver disease <span class="ff">F</span> · impaired glucose tolerance <span class="tf">T</span> · hypoglycaemia <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Indications of GTT are: (DU-14Ju)</summary>
+      <div class="ans">Pregnancy-related diabetes <span class="ff">F</span> · IGT <span class="tf">T</span> · alimentary glycosuria <span class="ff">F</span> · longstanding hypertension <span class="ff">F</span> · hyperthyroidism <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>The indications of GTT are: (DU-14Ja)</summary>
+      <div class="ans">To detect hyperglycaemia <span class="tf">T</span> · to diagnose endocrine disorder <span class="ff">F</span> · alimentary glycosuria <span class="ff">F</span> · to diagnose diabetes insipidus <span class="ff">F</span> · to find out the cause of coma or convulsion <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Ketonuria & ketosis</summary>
+    <details>
+      <summary>Ketonuria may occur in: (DU-14Ju)</summary>
+      <div class="ans">Severe diabetes mellitus <span class="tf">T</span> · diabetes insipidus <span class="ff">F</span> · prolonged starvation <span class="tf">T</span> · uraemia <span class="ff">F</span> · cachectic person <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>Causes of ketosis: (RU-13Ju)</summary>
+      <div class="ans">Severe diabetes mellitus <span class="tf">T</span> · persistent vomiting <span class="tf">T</span> · nephritic syndrome <span class="ff">F</span> · ischaemic heart disease <span class="ff">F</span> · CCF (congestive cardiac failure) <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Ketonuria may occur in: (DU-17Ja) &amp; causes of ketonuria: (DU-11Ja,10Ja)</summary>
+      <div class="ans">Complicated diabetes mellitus <span class="tf">T</span> · starvation <span class="tf">T</span> · Untreated diabetes mellitus <span class="tf">T</span> · starvation <span class="tf">T</span> · severe dehydration <span class="tf">T</span> · diet low in fat <span class="ff">F</span> · obesity <span class="ff">F</span> (DU-11Ja) · Untreated diabetes <span class="tf">T</span> · severe dehydration <span class="tf">T</span> · glycogen storage disease <span class="tf">T</span> · diet high in carbohydrate <span class="ff">F</span> · decreased fat metabolism <span class="ff">F</span> (DU-10Ja). <span class="ref">(DU-17Ja)</span></div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Endocrinopathies causing diabetes</summary>
+    <details>
+      <summary>Endocrinopathies leading to diabetes mellitus include: (DU-12Ja)</summary>
+      <div class="ans">Cushing syndrome <span class="tf">T</span> · hypothyroidism <span class="ff">F</span> · glucagonoma <span class="tf">T</span> · pituitary adenoma <span class="tf">T</span> · acute renal failure <span class="ff">F</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Urine specific gravity & normal limits</summary>
+    <details>
+      <summary>Specific gravity of urine is increased in: (DU-10Nv,18Ja)</summary>
+      <div class="ans">Chronic renal failure <span class="ff">F</span> · diabetes mellitus <span class="tf">T</span> · diabetes insipidus <span class="ff">F</span> · acute glomerulonephritis <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> .</div>
+    </details>
+    <details>
+      <summary>The following values are within normal limit: (DU-13Ja)</summary>
+      <div class="ans">FBS (fasting blood sugar): 5.5 mmol/L <span class="tf">T</span> · serum creatinine: 3.4 mg/dl <span class="ff">F</span> · blood urea 120 mg/dl <span class="ff">F</span> · triglyceride 180 mg/dl <span class="ff">F</span> · serum PSA (prostate-specific antigen): 0.4 U/L <span class="tf">T</span> .</div>
+    </details>
+  </details>
+
+  <details class="quiz">
+    <summary>🎯 True/False practice — Metabolic acidosis in diabetes</summary>
+    <details>
+      <summary>Metabolic acidosis may be due to: (DU-23M) — cross-linked with DM</summary>
+      <div class="ans">Excessive vomiting <span class="ff">F</span> · hyperventilation <span class="ff">F</span> · uncontrolled diabetes mellitus <span class="tf">T</span> · acute renal failure <span class="tf">T</span> · hepatic failure <span class="ff">F</span> .</div>
+    </details>
+    <details>
+      <summary>Uncontrolled diabetes mellitus is a cause of metabolic acidosis — True/False?</summary>
+      <div class="ans"><span class="tf">True</span> — DKA produces metabolic acidosis (hyperketonaemia + excess ketoacids overwhelm buffering capacity).</div>
+    </details>
+  </details>
+
+
+    <details class="rapid" open>
+    <summary>Blood Glucose & Diabetes — One-Liners & Mnemonics (test yourself, then reveal)</summary>
     <div class="ans">
-
-      <div class="q">Characteristics of type 1 DM include: (DU-24Nv)</div>
-      <div class="a">Markedly reduced blood insulin = <strong>True</strong> · insulin resistance = <strong>False</strong> · older age = <strong>False</strong> · β-cell destruction = <strong>True</strong> · linkage to HLA (human leukocyte antigen) gene = <strong>True</strong>.</div>
-
-      <div class="q">Characteristics of type 1 diabetes mellitus include: (DU-23M)</div>
-      <div class="a">Increased age = <strong>False</strong> · obesity = <strong>False</strong> · linkage with HLA-DR = <strong>True</strong> · beta cell destruction = <strong>True</strong> · frequent ketoacidosis = <strong>True</strong>.</div>
-
-      <div class="q">Characteristics of type-1 DM: (DU-22Nv)</div>
-      <div class="a">Markedly reduced blood insulin = <strong>False</strong> · insulin resistance = <strong>True</strong> · younger age = <strong>False</strong> · beta cell destruction = <strong>False</strong> · linkage to HLA gene = <strong>False</strong>. (Note: answer key as printed — contradictory wording; the correct physiology is type 1 = ↓insulin, β-cell destruction, HLA-linked.)</div>
-
-      <div class="q">Type-1 DM is characterized by: (DU-22M,20Nv/M)</div>
-      <div class="a">Early onset = <strong>True</strong> · patients commonly obese = <strong>False</strong> · associated with significant genetic factor = <strong>False</strong> · autoimmune destruction of islet cells = <strong>True</strong> · hypoglycaemic coma is frequent = <strong>False</strong>.</div>
-
-      <div class="q">Causes of hypoglycaemia are: (RMU-22M)</div>
-      <div class="a">Diabetes mellitus = <strong>False</strong> · insulinoma = <strong>True</strong> · Addison's disease = <strong>False</strong> · acromegaly = <strong>False</strong> · pregnancy = <strong>False</strong>.</div>
-
-      <div class="q">Following features are associated with hyperglycaemia sine glycosuria: (DU-21Oct/M)</div>
-      <div class="a">Presence of sugar in urine = <strong>False</strong> · low renal threshold for glucose = <strong>False</strong> · found in uncontrolled DM = <strong>True</strong> · metabolic acidosis = <strong>True</strong> · hyperkalaemia = <strong>True</strong>.</div>
-
-      <div class="q">Causes of hyperglycaemia include: (DU-21Ja,20Nv/M,18Ja)</div>
-      <div class="a">Diabetes mellitus = <strong>True</strong> · hyperadrenalism = <strong>True</strong> · insulin overdose = <strong>False</strong> · septic shock = <strong>False</strong> · heavy exercise = <strong>False</strong>.</div>
-
-      <div class="q">Glycosuria may occur in: (CU-19Nv)</div>
-      <div class="a">Diabetes mellitus = <strong>True</strong> · Cushing syndrome = <strong>True</strong>.</div>
-
-      <div class="q">Oral glucose tolerance test is done in: (RU-19M)</div>
-      <div class="a">Gestational diabetes = <strong>True</strong> · hyperthyroidism = <strong>False</strong> · liver disease = <strong>False</strong> · impaired glucose tolerance = <strong>True</strong> · hypoglycaemia = <strong>False</strong>.</div>
-
-      <div class="q">Hypoglycaemia occurs in: (DU-18M)</div>
-      <div class="a">Insulinoma = <strong>True</strong> · Cushing syndrome = <strong>False</strong> · septic shock = <strong>False</strong> · missed meal of diabetics = <strong>True</strong> · burn = <strong>False</strong>.</div>
-
-      <div class="q">Following are causes of glycosuria: (RU-17M)</div>
-      <div class="a">Partial gastrectomy = <strong>True</strong> · intestinal obstruction = <strong>False</strong> · insulinoma = <strong>False</strong> · increased renal threshold for glucose = <strong>False</strong> · pregnancy = <strong>True</strong>.</div>
-
-      <div class="q">Causes of hyperglycaemia include: (DU-17Ja)</div>
-      <div class="a">Grave's disease = <strong>True</strong> · Hashimoto thyroiditis = <strong>False</strong> · myxoedema = <strong>False</strong> · insulinoma = <strong>False</strong> · diabetes insipidus = <strong>False</strong>.</div>
-
-      <div class="q">Indications of GTT are: (DU-14Ju)</div>
-      <div class="a">Pregnancy-related diabetes = <strong>False</strong> · IGT = <strong>True</strong> · alimentary glycosuria = <strong>False</strong> · longstanding hypertension = <strong>False</strong> · hyperthyroidism = <strong>False</strong>.</div>
-
-      <div class="q">Ketonuria may occur in: (DU-14Ju)</div>
-      <div class="a">Severe diabetes mellitus = <strong>True</strong> · diabetes insipidus = <strong>False</strong> · prolonged starvation = <strong>True</strong> · uraemia = <strong>False</strong> · cachectic person = <strong>True</strong>.</div>
-
-      <div class="q">The indications of GTT are: (DU-14Ja)</div>
-      <div class="a">To detect hyperglycaemia = <strong>True</strong> · to diagnose endocrine disorder = <strong>False</strong> · alimentary glycosuria = <strong>False</strong> · to diagnose diabetes insipidus = <strong>False</strong> · to find out the cause of coma or convulsion = <strong>False</strong>.</div>
-
-      <div class="q">Causes of hypoglycaemia: (RU-13Ju)</div>
-      <div class="a">Overdose of insulin = <strong>True</strong> · diabetes mellitus = <strong>False</strong> · Addison's disease = <strong>True</strong> · insulinoma = <strong>True</strong> · acromegaly = <strong>False</strong>.</div>
-
-      <div class="q">Causes of ketosis: (RU-13Ju)</div>
-      <div class="a">Severe diabetes mellitus = <strong>True</strong> · persistent vomiting = <strong>True</strong> · nephritic syndrome = <strong>False</strong> · ischaemic heart disease = <strong>False</strong> · CCF (congestive cardiac failure) = <strong>False</strong>.</div>
-
-      <div class="q">Endocrinopathies leading to diabetes mellitus include: (DU-12Ja)</div>
-      <div class="a">Cushing syndrome = <strong>True</strong> · hypothyroidism = <strong>False</strong> · glucagonoma = <strong>True</strong> · pituitary adenoma = <strong>True</strong> · acute renal failure = <strong>False</strong>.</div>
-
-      <div class="q">Causes of hypoglycaemia are: (DU-09Ja)</div>
-      <div class="a">Excess insulin = <strong>True</strong> · liver disease = <strong>True</strong> · alcoholism = <strong>True</strong> · Cushing syndrome = <strong>False</strong> · steroid administration = <strong>False</strong>.</div>
-
-      <div class="q">Specific gravity of urine is increased in: (DU-10Nv,18Ja)</div>
-      <div class="a">Chronic renal failure = <strong>False</strong> · diabetes mellitus = <strong>True</strong> · diabetes insipidus = <strong>False</strong> · acute glomerulonephritis = <strong>True</strong> · nephrotic syndrome = <strong>True</strong>.</div>
-
-      <div class="q">Ketonuria may occur in: (DU-17Ja) &amp; causes of ketonuria: (DU-11Ja,10Ja)</div>
-      <div class="a">Complicated diabetes mellitus = <strong>True</strong> · starvation = <strong>True</strong> (DU-17Ja) · Untreated diabetes mellitus = <strong>True</strong> · starvation = <strong>True</strong> · severe dehydration = <strong>True</strong> · diet low in fat = <strong>False</strong> · obesity = <strong>False</strong> (DU-11Ja) · Untreated diabetes = <strong>True</strong> · severe dehydration = <strong>True</strong> · glycogen storage disease = <strong>True</strong> · diet high in carbohydrate = <strong>False</strong> · decreased fat metabolism = <strong>False</strong> (DU-10Ja).</div>
-
-      <div class="q">The following values are within normal limit: (DU-13Ja)</div>
-      <div class="a">FBS (fasting blood sugar): 5.5 mmol/L = <strong>True</strong> · serum creatinine: 3.4 mg/dl = <strong>False</strong> · blood urea 120 mg/dl = <strong>False</strong> · triglyceride 180 mg/dl = <strong>False</strong> · serum PSA (prostate-specific antigen): 0.4 U/L = <strong>True</strong>.</div>
-
-      <div class="q">Metabolic acidosis may be due to: (DU-23M) — cross-linked with DM</div>
-      <div class="a">Excessive vomiting = <strong>False</strong> · hyperventilation = <strong>False</strong> · uncontrolled diabetes mellitus = <strong>True</strong> · acute renal failure = <strong>True</strong> · hepatic failure = <strong>False</strong>.</div>
-
-      <div class="q">Uncontrolled diabetes mellitus is a cause of metabolic acidosis — True/False?</div>
-      <div class="a"><strong>True.</strong> DKA produces metabolic acidosis (hyperketonaemia + excess ketoacids overwhelm buffering capacity).</div>
 
       <div class="q">🎯 One-liners: What is the renal threshold for glucose? What is the normal HbA1c?</div>
       <div class="a"><strong>Renal threshold for glucose ≈ 180 mg/dl (10 mmol/L).</strong> <strong>Normal HbA1c = 4–6%</strong> of total haemoglobin; DM diagnosed at HbA1c ≥48 mmol/mol (&gt;6.5%); target &lt;7% in management.</div>

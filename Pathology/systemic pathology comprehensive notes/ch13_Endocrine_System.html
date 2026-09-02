@@ -48,6 +48,16 @@
   .toc-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:16px 0;columns:2;column-gap:30px;font-size:.9rem}
   .toc-box a{color:var(--accent);text-decoration:none;display:block;margin:3px 0}
   .toc-box a:hover{text-decoration:underline}
+  .quiz{background:linear-gradient(135deg,#14203a,#101a2e);border:1px solid #2f4a78;border-left:5px solid var(--good);border-radius:12px;padding:14px 16px;margin:14px 0 18px}
+  .quiz summary{cursor:pointer;font-weight:800;color:var(--good);list-style:none;font-size:.98rem;padding:4px 0}
+  .quiz summary::-webkit-details-marker{display:none}
+  .quiz summary::before{content:"🎯 ";color:var(--warn)}
+  .quiz details{background:var(--panel2)}
+  .quiz details summary{color:var(--txt);font-weight:600;font-size:.9rem;padding:9px 12px}
+  .quiz details summary::before{content:"T/F → "}
+  .quiz .ans{font-size:.9rem}
+  .quiz .ans .tf{color:var(--good);font-weight:800}
+  .quiz .ans .ff{color:var(--hot);font-weight:800}
   .rapid{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:10px 0}
   .rapid summary{cursor:pointer;font-weight:700;color:var(--accent)}
   .rapid .q{font-weight:600;margin:8px 0 2px;color:var(--txt)}
@@ -287,6 +297,12 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Hypothyroidism</summary>
+    <div class="ans">
+      <details><summary>Primary causes of hypothyroidism: thyroid dysgenesis, pituitary failure, iodine deficiency, Hashimoto's thyroiditis, hypothalamic failure. (DU-08Ju)</summary><div class="ans">Item <span class="tf">Thyroid dysgenesis = True</span> · <span class="ff">Pituitary failure = False</span> (secondary) · <span class="tf">Iodine deficiency = True</span> · <span class="tf">Hashimoto's thyroiditis = True</span> · <span class="ff">Hypothalamic failure = False</span> (tertiary) <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <!-- ======================== SECTION 6 ======================== -->
   <h2 id="hashi">6 · Hashimoto Thyroiditis</h2>
 
@@ -403,6 +419,14 @@
         <li>Plasma FT4 (Free Thyroxine): <span class="good">↑ High</span></li>
       </ul>
       <p><strong>Immunological mechanism:</strong> Circulating antibodies against the TSH receptor activate the receptor, making the thyroid gland hyperactive.</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Hyperthyroidism &amp; Graves' disease</summary>
+    <div class="ans">
+      <details><summary>Hyperthyroidism occurs in: Hashimoto's thyroiditis, lymphocytic thyroiditis, iodine deficiency, toxic adenoma, Graves' disease. (DU-24Nv)</summary><div class="ans">Item <span class="ff">Hashimoto's = False</span> · <span class="ff">Lymphocytic thyroiditis = False</span> · <span class="ff">Iodine deficiency = False</span> · <span class="tf">Toxic adenoma = True</span> · <span class="tf">Graves' disease = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Graves' disease is associated with: high T3/T4, high TSH, hyperplasia of thyroid, dermopathy, bradycardia. (DU-21Oct/M)</summary><div class="ans">Item <span class="tf">High T3/T4 = True</span> · <span class="ff">High TSH = False</span> · <span class="tf">Hyperplasia of thyroid = True</span> · <span class="tf">Dermopathy = True</span> (pretibial myxoedema) · <span class="ff">Bradycardia = False</span> (tachycardia) <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Graves' disease is characterized by: pretibial myxoedema, hyperplasia of thyroid acini, decreased T3/T4, raised TSH, presence of thyroid autoantibody. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Pretibial myxoedema = True</span> · <span class="tf">Hyperplasia of acini = True</span> · <span class="ff">Decreased T3/T4 = False</span> · <span class="ff">Raised TSH = False</span> · <span class="tf">Thyroid autoantibody = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
     </div>
   </details>
 
@@ -665,6 +689,14 @@
     </div>
   </details>
 
+  <details class="quiz"><summary>🎯 True/False practice — Thyroid carcinoma &amp; goiter</summary>
+    <div class="ans">
+      <details><summary>Papillary carcinoma of thyroid is associated with: worse prognosis, common among thyroid malignancy, rapid metastasis, psammoma body, characteristic nuclear feature. (DU-19Nv)</summary><div class="ans">Item <span class="ff">Worse prognosis = False</span> · <span class="tf">Common among thyroid malignancy = True</span> · <span class="ff">Rapid metastasis = False</span> · <span class="tf">Psammoma body = True</span> · <span class="tf">Characteristic nuclear feature = True</span> (ground-glass nuclei) <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Features of papillary thyroid carcinoma: psammoma body, ground-glass nuclei, arises from parafollicular cells, worse prognosis, increased serum calcitonin. (DU-19M)</summary><div class="ans">Item <span class="tf">Psammoma body = True</span> · <span class="tf">Ground-glass nuclei = True</span> · <span class="ff">Arises from parafollicular cells = False</span> (medullary does) · <span class="ff">Worse prognosis = False</span> · <span class="ff">Increased serum calcitonin = False</span> (medullary) <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Neoplasms of thyroid: medullary carcinoma, papillary carcinoma, squamous cell carcinoma, Hürthle cell adenoma, anaplastic carcinoma. (DU-12Ju)</summary><div class="ans">Item <span class="tf">Medullary = True</span> · <span class="tf">Papillary = True</span> · <span class="ff">Squamous cell = False</span> · <span class="ff">Hürthle cell adenoma = False</span> · <span class="tf">Anaplastic = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+    </div>
+  </details>
+
   <!-- ======================== SECTION 10 ======================== -->
   <h2 id="endopanc">10 · Endocrine Pancreas</h2>
 
@@ -912,6 +944,14 @@
         <li><strong>Pyelonephritis</strong>, including necrotising papillitis</li>
       </ol>
       <p class="ref">Robbins 10e pp.1109–1110</p>
+    </div>
+  </details>
+
+  <details class="quiz"><summary>🎯 True/False practice — Diabetes mellitus (Type-1)</summary>
+    <div class="ans">
+      <details><summary>Insulin-dependent (Type-1) DM is characterized by: early onset, patients commonly obese, significant genetic factor, autoimmune destruction of islet cells, frequent hypoglycaemic coma. (DU-21Ja/20Nv/M/18Ja)</summary><div class="ans">Item <span class="tf">Early onset = True</span> · <span class="ff">Commonly obese = False</span> · <span class="ff">Significant genetic factor = False</span> · <span class="tf">Autoimmune destruction of islet cells = True</span> · <span class="tf">Frequent hypoglycaemic coma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Characteristics of Type-1 DM: markedly reduced blood insulin, link to MHC class-II HLA genes, late insulitis, no anti-islet cell antibodies. (DU-08Ju)</summary><div class="ans">Item <span class="tf">Markedly reduced blood insulin = True</span> · <span class="tf">Linkage to MHC class-II HLA genes = True</span> · <span class="ff">Late insulitis = False</span> · <span class="ff">No anti-islet cell antibodies = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <details><summary>Characteristics of Type-1 DM: increased age, obesity, linkage with HLA, beta-cell destruction, frequent ketoacidosis. (DU-23M)</summary><div class="ans">Item <span class="ff">Increased age = False</span> · <span class="ff">Obesity = False</span> · <span class="tf">Linkage with HLA = True</span> · <span class="tf">Beta-cell destruction = True</span> · <span class="tf">Frequent ketoacidosis = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
     </div>
   </details>
 
