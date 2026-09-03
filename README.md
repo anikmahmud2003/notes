@@ -12,7 +12,9 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
+| [Pathology/systemic pathology set questions/set question short form/](Pathology/systemic%20pathology%20set%20questions/set%20question%20short%20form/) | Short-form split flashcards of the item sets (≈1,200 one-point-per-card Q→A toggles) |
 | [Pathology/systemic pathology comprehensive notes/](Pathology/systemic%20pathology%20comprehensive%20notes/) | Comprehensive Systemic + Clinical Pathology flashcards (HTML) from Arif Vol-2 — one short Q per card, every abbreviation expanded, inline True/False practice per topic |
+| [Pathology/Arif Pathology/](Pathology/Arif%20Pathology/) | Arif's Pathology & Haematology 15e (2025) — extracted Vol-1 & Vol-2 chapter notes (MD) |
 | [BOOK_TO_FLASHCARDS_PROMPT.txt](BOOK_TO_FLASHCARDS_PROMPT.txt) | Reusable prompt to convert any book into the HTML flashcard format |
 | [community/](community/) | Endeavour Community Medicine — full book text, board question sets & Viva bank |
 | [community/chapters/](community/chapters/) | Chapter-by-chapter full text of the Endeavour guide (26 chapters, 722 pages) |
@@ -20,6 +22,11 @@ Everything study-related, in one repo, readable from any browser.
 | [community/set questions/](community/set%20questions/) | Board-1 & Board-2 question sets + topic-wise Viva answer bank (Viva-01…32) |
 | [Medicine/davidson/davidson_immunology_bangla.html](Medicine/davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
 | [GK/bd-constitution.html](GK/bd-constitution.html) | Bangladesh Constitution notes |
+| [Islamic/](Islamic/) | Islamic notes — incl. Quran practice pages ([ar-rahman-practice.html](Islamic/quran/ar-rahman-practice.html)) |
+| [Microbiology/](Microbiology/) | Microbiology PDFs (bacteriology/mycology/virology) — see the hub index for pages |
+| [Random.md](Random.md) | Miscellaneous random notes |
+
+> 🔗 The **[Study Notes Hub](index.html)** lists **every** folder & file in the repo automatically (`.md` + `.html`), with search + folder-tree navigation.
 
 ## Local-only (not in this repo)
 

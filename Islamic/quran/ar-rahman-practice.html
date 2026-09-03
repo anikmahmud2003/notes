@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সূরা আর-রহমান — সিকোয়েন্স প্র্যাকটিস</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Bengali:wght@400;600&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0f0f0f;
+    --card-bg: #1a1a2e;
+    --accent: #e6b800;
+    --accent2: #00c9a7;
+    --text: #e0e0e0;
+    --dim: #777;
+    --danger: #ff4757;
+    --success: #2ed573;
+  }
+
+  body {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+  }
+
+  .top-bar {
+    width: 100%;
+    max-width: 700px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    background: rgba(15,15,15,0.95);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    border-bottom: 1px solid #222;
+  }
+
+  .top-bar h1 {
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .top-bar .ayat-counter {
+    font-size: 13px;
+    color: var(--dim);
+    white-space: nowrap;
+  }
+
+  .controls {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 16px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .controls button {
+    background: #222;
+    color: var(--text);
+    border: 1px solid #333;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: all 0.2s;
+  }
+
+  .controls button:hover { background: #333; }
+  .controls button.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 600; }
+  .controls button.mode-btn.active { background: var(--accent2); color: #000; border-color: var(--accent2); }
+
+  .mode-selector {
+    width: 100%;
+    max-width: 700px;
+    padding: 4px 16px 8px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .mode-selector button {
+    background: transparent;
+    color: var(--dim);
+    border: 1px solid #333;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: all 0.2s;
+  }
+
+  .mode-selector button.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+
+  .card-container {
+    width: 100%;
+    max-width: 700px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 16px 100px;
+    gap: 0;
+  }
+
+  .ayah-card {
+    width: 100%;
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px 20px;
+    margin-bottom: 12px;
+    border: 1px solid #2a2a4a;
+    position: relative;
+    transition: all 0.3s;
+  }
+
+  .ayah-card.current {
+    border-color: var(--accent);
+    box-shadow: 0 0 20px rgba(230,184,0,0.15);
+  }
+
+  .ayah-card .ayat-num {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 11px;
+    color: var(--accent);
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  .ayah-card .arabic {
+    font-family: 'Amiri', serif;
+    font-size: 28px;
+    line-height: 1.8;
+    text-align: right;
+    direction: rtl;
+    color: #fff;
+    margin-bottom: 10px;
+    word-spacing: 4px;
+  }
+
+  .ayah-card .bangla {
+    font-size: 15px;
+    color: var(--accent2);
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  .ayah-card .ayah-divider {
+    text-align: center;
+    color: var(--accent);
+    font-size: 20px;
+    margin: 6px 0;
+    opacity: 0.4;
+  }
+
+  /* Next ayah hidden state */
+  .ayah-card.next-hidden .next-ayah-content {
+    filter: blur(12px);
+    transition: filter 0.4s;
+    pointer-events: none;
+  }
+
+  .ayah-card.next-hidden.revealed .next-ayah-content {
+    filter: blur(0);
+  }
+
+  .ayah-card.next-hidden .reveal-hint {
+    display: block;
+  }
+
+  .ayah-card.next-hidden.revealed .reveal-hint {
+    display: none;
+  }
+
+  .reveal-hint {
+    display: none;
+    text-align: center;
+    color: var(--dim);
+    font-size: 13px;
+    padding: 20px 0;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+  }
+
+  .reveal-btn {
+    display: none;
+    width: 100%;
+    padding: 16px;
+    background: transparent;
+    border: 2px dashed #333;
+    border-radius: 12px;
+    color: var(--dim);
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: all 0.3s;
+    margin-top: 8px;
+  }
+
+  .reveal-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .ayah-card.next-hidden:not(.revealed) .reveal-btn { display: block; }
+  .ayah-card.next-hidden.revealed .reveal-btn { display: none; }
+
+  .ayah-card.next-hidden.revealed .next-ayah-content {
+    filter: blur(0) !important;
+  }
+
+  /* Nav bar */
+  .nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(15,15,15,0.97);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid #222;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    z-index: 100;
+  }
+
+  .nav-bar button {
+    background: #222;
+    color: var(--text);
+    border: 1px solid #333;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: all 0.2s;
+    min-width: 80px;
+  }
+
+  .nav-bar button:active { transform: scale(0.95); }
+  .nav-bar button.nav-prev { background: #1a2a1a; border-color: var(--success); color: var(--success); }
+  .nav-bar button.nav-next { background: #2a1a1a; border-color: var(--danger); color: var(--danger); }
+  .nav-bar button.nav-jump { background: #1a1a2a; border-color: #555; color: #aaa; font-size: 13px; padding: 12px 16px; }
+
+  /* Jump modal */
+  .jump-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jump-modal.show { display: flex; }
+
+  .jump-modal-inner {
+    background: #1a1a2e;
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .jump-modal h3 {
+    color: var(--accent);
+    margin-bottom: 16px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .jump-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+  }
+
+  .jump-grid button {
+    background: #222;
+    color: var(--text);
+    border: 1px solid #333;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    transition: all 0.2s;
+  }
+
+  .jump-grid button:hover { background: #333; }
+  .jump-grid button.current-jump { background: var(--accent); color: #000; font-weight: 600; }
+  .jump-grid button.fab-highlight { background: #2a1a1a; border-color: var(--danger); }
+
+  .jump-close {
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    background: #333;
+    color: var(--text);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+  }
+
+  /* Speed / auto */
+  .auto-bar {
+    display: none;
+    width: 100%;
+    max-width: 700px;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .auto-bar.show { display: flex; }
+
+  .auto-bar label { font-size: 12px; color: var(--dim); }
+  .auto-bar input[type=range] { width: 120px; accent-color: var(--accent); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+
+  /* FAB fab ayah (the repeated one) highlight */
+  .ayah-card.fab-card {
+    border-color: rgba(255,71,87,0.3);
+  }
+
+  .ayah-card.fab-card .arabic {
+    color: #ff9999;
+  }
+
+  /* Section markers */
+  .section-marker {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0 4px;
+    font-size: 12px;
+    color: var(--dim);
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>سورة الرحمن — প্র্যাকটিস</h1>
+  <div class="ayat-counter" id="ayatCounter">আয়াত ১ / ৭৮</div>
+</div>
+
+<div class="mode-selector">
+  <button class="active" onclick="setMode('sequential')" id="modeSeq">সিকোয়েন্স</button>
+  <button onclick="setMode('single')" id="modeSingle">একটি একটি</button>
+  <button onclick="setMode('auto')" id="modeAuto">অটো</button>
+</div>
+
+<div class="auto-bar" id="autoBar">
+  <label>গতি:</label>
+  <input type="range" min="2" max="15" value="6" id="autoSpeed" oninput="autoInterval=this.value*1000">
+  <label id="autoSpeedLabel">৬ সেকেন্ড</label>
+  <button onclick="toggleAuto()" id="autoPlayBtn" style="background:#222;color:var(--text);border:1px solid #333;padding:4px 12px;border-radius:6px;cursor:pointer;font-size:12px;">▶ চালাও</button>
+</div>
+
+<div class="card-container" id="cardContainer"></div>
+
+<div class="nav-bar">
+  <button class="nav-prev" onclick="prevAyat()">← আগে</button>
+  <button class="nav-jump" onclick="showJump()">আয়াত নং</button>
+  <button class="nav-next" onclick="nextAyat()">পরে →</button>
+</div>
+
+<div class="jump-modal" id="jumpModal">
+  <div class="jump-modal-inner">
+    <h3>আয়াতে যান</h3>
+    <div class="jump-grid" id="jumpGrid"></div>
+    <button class="jump-close" onclick="hideJump()">বন্ধ করুন</button>
+  </div>
+</div>
+
+<script>
+const ayat = [
+  {a:"ٱلرَّحۡمَٰنُ",b:"করুনাময় আল্লাহ।"},
+  {a:"عَلَّمَ ٱلۡقُرۡءَانَ",b:"শিক্ষা দিয়েছেন কোরআন,"},
+  {a:"خَلَقَ ٱلۡإِنسَٰنَ",b:"সৃষ্টি করেছেন মানুষ,"},
+  {a:"عَلَّمَهُ ٱلۡبَيَانَ",b:"তাকে শিখিয়েছেন বর্ণনা।"},
+  {a:"ٱلشَّمۡسُ وَٱلۡقَمَرُ بِحُسۡبَانٖ",b:"সূর্য ও চন্দ্র হিসাবমত চলে।"},
+  {a:"وَٱلنَّجۡمُ وَٱلشَّجَرُ يَسۡجُدَانِ",b:"এবং তৃণলতা ও বৃক্ষাদি সেজদারত আছে।"},
+  {a:"وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلۡمِيزَانَ",b:"তিনি আকাশকে করেছেন সমুন্নত এবং স্থাপন করেছেন তুলাদন্ড।"},
+  {a:"أَلَّا تَطۡغَوۡاْ فِي ٱلۡمِيزَانِ",b:"যাতে তোমরা সীমালংঘন না কর তুলাদন্ডে।"},
+  {a:"وَأَقِيمُواْ ٱلۡوَزۡنَ بِٱلۡقِسۡطِ وَلَا تُخۡسِرُواْ ٱلۡمِيزَانَ",b:"তোমরা ন্যায্য ওজন কায়েম কর এবং ওজনে কম দিয়ো না।"},
+  {a:"وَٱلۡأَرۡضَ وَضَعَهَا لِلۡأَنَامِ",b:"তিনি পৃথিবীকে স্থাপন করেছেন সৃষ্টজীবের জন্যে।"},
+  {a:"فِيهَا فَٰكِهَةٞ وَٱلنَّخۡلُ ذَاتُ ٱلۡأَكۡمَامِ",b:"এতে আছে ফলমূল এবং বহিরাবরণবিশিষ্ট খর্জুর বৃক্ষ।"},
+  {a:"وَٱلۡحَبُّ ذُو ٱلۡعَصۡفِ وَٱلرَّيۡحَانُ",b:"আর আছে খোসাবিশিষ্ট শস্য ও সুগন্ধি ফুল।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"},
+  {a:"خَلَقَ ٱلۡإِنسَٰنَ مِن صَلۡصَٰلٖ كَٱلۡفَخَّارِ",b:"তিনি মানুষকে সৃষ্টি করেছেন পোড়া মাটির ন্যায় শুষ্ক মৃত্তিকা থেকে।"},
+  {a:"وَخَلَقَ ٱلۡجَآنَّ مِن مَّارِجٖ مِّن نَّارٖ",b:"এবং জিনকে সৃষ্টি করেছেন অগ্নিশিখা থেকে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহ অস্বীকার করবে?"},
+  {a:"رَبُّ ٱلۡمَشۡرِقَيۡنِ وَرَبُّ ٱلۡمَغۡرِبَيۡنِ",b:"তিনি দুই উদয়াচল ও দুই অস্তাচলের মালিক।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"مَرَجَ ٱلۡبَحۡرَيۡنِ يَلۡتَقِيَانِ",b:"তিনি পাশাপাশি দুই দরিয়া প্রবাহিত করেছেন।"},
+  {a:"بَيۡنَهُمَا بَرۡزَخٞ لَّا يَبۡغِيَانِ",b:"উভয়ের মাঝখানে রয়েছে এক অন্তরাল, যা তারা অতিক্রম করে না।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"يَخۡرُجُ مِنۡهُمَا ٱللُّؤۡلُؤُ وَٱلۡمَرۡجَانُ",b:"উভয় দরিয়া থেকে উৎপন্ন হয় মোতি ও প্রবাল।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"وَلَهُ ٱلۡجَوَارِ ٱلۡمُنشَـَٔاتُ فِي ٱلۡبَحۡرِ كَٱلۡأَعۡلَٰمِ",b:"দরিয়ায় বিচরণশীল পর্বতদৃশ্য জাহাজসমূহ তাঁরই (নিয়ন্ত্রনাধীন)"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"كُلُّ مَنۡ عَلَيۡهَا فَانٖ",b:"ভূপৃষ্টের সবকিছুই ধ্বংসশীল।"},
+  {a:"وَيَبۡقَىٰ وَجۡهُ رَبِّكَ ذُو ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",b:"একমাত্র আপনার মহিমায় ও মহানুভব পালনকর্তার সত্তা ছাড়া।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"يَسۡـَٔلُهُۥ مَن فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ كُلَّ يَوۡمٍ هُوَ فِي شَأۡنٖ",b:"নভোমন্ডল ও ভূমন্ডলের সবাই তাঁর কাছে প্রার্থী। তিনি সর্বদাই কোন না কোন কাজে রত আছেন।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"سَنَفۡرُغُ لَكُمۡ أَيُّهَ ٱلثَّقَلَانِ",b:"হে জিন ও মানব! আমি শীঘ্রই তোমাদের জন্যে কর্মমুক্ত হয়ে যাব।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"يَٰمَعۡشَرَ ٱلۡجِنِّ وَٱلۡإِنسِ إِنِ ٱسۡتَطَعۡتُمۡ أَن تَنفُذُواْ مِنۡ أَقۡطَارِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ فَٱنفُذُواْۚ لَا تَنفُذُونَ إِلَّا بِسُلۡطَٰنٖ",b:"হে জিন ও মানবকূল, নভোমন্ডল ও ভূমন্ডলের প্রান্ত অতিক্রম করা যদি তোমাদের সাধ্যে কুলায়, তবে অতিক্রম কর। কিন্তু ছাড়পত্র ব্যতীত তোমরা তা অতিক্রম করতে পারবে না।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"يُرۡسَلُ عَلَيۡكُمَا شُوَاظٞ مِّن نَّارٖ وَنُحَاسٞ فَلَا تَنتَصِرَانِ",b:"ছাড়া হবে তোমাদের প্রতি অগ্নিস্ফুলিঙ্গ ও ধুম্রকুঞ্জ তখন তোমরা সেসব প্রতিহত করতে পারবে না।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتۡ وَرۡدَةٗ كَٱلدِّهَانِ",b:"যেদিন আকাশ বিদীর্ণ হবে তখন সেটি রক্তবর্ণে রঞ্জিত চামড়ার মত হয়ে যাবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فَيَوۡمَئِذٖ لَّا يُسۡـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٞ وَلَا جَآنّٞ",b:"সেদিন মানুষ না তার অপরাধ সম্পর্কে জিজ্ঞাসিত হবে, না জিন।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"يُعۡرَفُ ٱلۡمُجۡرِمُونَ بِسِيمَٰهُمۡ فَيُؤۡخَذُ بِٱلنَّوَٰصِي وَٱلۡأَقۡدَامِ",b:"অপরাধীদের পরিচয় পাওয়া যাবে তাদের চেহারা থেকে; অতঃপর তাদের কপালের চুল ও পা ধরে টেনে নেয়া হবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"هَٰذِهِۦ جَهَنَّمُ ٱلَّتِي يُكَذِّبُ بِهَا ٱلۡمُجۡرِمُونَ",b:"এটাই জাহান্নাম, যাকে অপরাধীরা মিথ্যা বলত।"},
+  {a:"يَطُوفُونَ بَيۡنَهَا وَبَيۡنَ حَمِيمٍ ءَانٖ",b:"তারা জাহান্নামের অগ্নি ও ফুটন্ত পানির মাঝখানে প্রদক্ষিণ করবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",b:"যে ব্যক্তি তার পালনকর্তার সামনে পেশ হওয়ার ভয় রাখে, তার জন্যে রয়েছে দু'টি উদ্যান।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"ذَوَاتَآ أَفۡنَانٖ",b:"উভয় উদ্যানই ঘন শাখা-পল্লববিশিষ্ট।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِمَا عَيۡنَانِ تَجۡرِيَانِ",b:"উভয় উদ্যানে আছে বহমান দুই প্রস্রবন।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِمَا مِن كُلِّ فَٰكِهَةٖ زَوۡجَانِ",b:"উভয়ের মধ্যে প্রত্যেক ফল বিভিন্ন রকমের হবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"مُتَّكِـِٔينَ عَلَىٰ فُرُشِۭ بَطَآئِنُهَا مِنۡ إِسۡتَبۡرَقٖۚ وَجَنَى ٱلۡجَنَّتَيۡنِ دَانٖ",b:"স্বর্ণ ও রূপার বিছানায় তারা হেলান দিয়ে বসে থাকবে; এবং উভয় উদ্যানের ফল সুলভ হবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرۡفِ لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",b:"সেখানে আছে এমন সুন্দরীরা, যাদের দৃষ্টি নত থাকে। তাদের আগে মানুষ কিংবা জিন তাদের স্পর্শ করেনি।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"كَأَنَّهُنَّ ٱلۡيَاقُوتُ وَٱلۡمَرۡجَانُ",b:"তারা যেন মূল্যবান পাথর ও প্রবাল।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"هَلۡ جَزَآءُ ٱلۡإِحۡسَٰنِ إِلَّا ٱلۡإِحۡسَٰنُ",b:"বিনিময় কি সুকৃতের চেয়ে অন্য কিছু হতে পারে?"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"وَمِن دُونِهِمَا جَنَّتَانِ",b:"এবং এ দু'টির পাশাপাশি আরও দু'টি উদ্যান।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"مُدۡهَآمَّتَانِ",b:"দু'টি গাঢ় সবুজ রঙের উদ্যান।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِمَا عَيۡنَانِ نَضَّاخَتَانِ",b:"উভয় উদ্যানেই আছে ধারাবাহিক দুইটি প্রস্রবণ।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِمَا فَٰكِهَةٞ وَنَخۡلٞ وَرُمَّانٞ",b:"উভয়েই আছে ফলমূল, খর্জুর ও ডিম্বাকার ফল।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"فِيهِنَّ خَيۡرَٰتٌ حِسَانٞ",b:"সেখানে আছে সুন্দরী ও সুশীলা নারীরা।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"حُورٞ مَّقۡصُورَٰتٞ فِي ٱلۡخِيَامِ",b:"ঘরের ভেতরে করা কুটিরে বসবাসকারী হুর।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",b:"তাদের আগে মানুষ কিংবা জিন তাদের স্পর্শ করেনি।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"مُتَّكِـِٔينَ عَলَىٰ رَفۡرَفٍ خُضۡرٖ وَعَبۡقَرِيٍّ حِسَانٖ",b:"সবুজ আসন ও সুন্দর গামুছের উপর তারা হেলান দিয়ে বসে থাকবে।"},
+  {a:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",b:"অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অবদানকে অস্বীকার করবে?"},
+  {a:"تَبَٰرَكَ ٱسۡمُ رَبِّكَ ذِي ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",b:"মহিমা ও মহানুভবতার অধিকারী আপনার পালনকর্তার নাম কতই না বরকতময়!"}
+];
+
+// Fab (repeated) ayah indices (0-indexed)
+const fabIndices = new Set([12,15,17,20,22,24,27,29,31,33,35,37,39,41,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76]);
+
+let currentIndex = 0;
+let mode = 'sequential'; // sequential, single, auto
+let autoRunning = false;
+let autoInterval = 6000;
+let autoTimer = null;
+
+function isFab(i) { return fabIndices.has(i); }
+
+function setMode(m) {
+  mode = m;
+  document.querySelectorAll('.mode-selector button').forEach(b => b.classList.remove('active'));
+  if (m === 'sequential') document.getElementById('modeSeq').classList.add('active');
+  if (m === 'single') document.getElementById('modeSingle').classList.add('active');
+  if (m === 'auto') {
+    document.getElementById('modeAuto').classList.add('active');
+    document.getElementById('autoBar').classList.add('show');
+  } else {
+    document.getElementById('autoBar').classList.remove('show');
+    stopAuto();
+  }
+  render();
+}
+
+function toggleAuto() {
+  if (autoRunning) { stopAuto(); }
+  else { startAuto(); }
+}
+
+function startAuto() {
+  autoRunning = true;
+  document.getElementById('autoPlayBtn').textContent = '⏸ থামাও';
+  autoTimer = setInterval(() => {
+    if (currentIndex < ayat.length - 1) {
+      currentIndex++;
+      render();
+      // Auto-reveal next hidden
+      setTimeout(() => {
+        const nextCard = document.querySelector('.ayah-card.next-hidden');
+        if (nextCard) nextCard.classList.add('revealed');
+      }, autoInterval * 0.3);
+    } else {
+      stopAuto();
+    }
+  }, autoInterval);
+}
+
+function stopAuto() {
+  autoRunning = false;
+  document.getElementById('autoPlayBtn').textContent = '▶ চালাও';
+  if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+}
+
+document.getElementById('autoSpeed').addEventListener('input', function() {
+  autoInterval = this.value * 1000;
+  document.getElementById('autoSpeedLabel').textContent = bnNum(this.value) + ' সেকেন্ড';
+  if (autoRunning) { stopAuto(); startAuto(); }
+});
+
+function bnNum(n) {
+  const bn = {'0':'০','1':'১','2':'২','3':'৩','4':'৪','5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'};
+  return String(n).split('').map(c => bn[c] || c).join('');
+}
+
+function render() {
+  const container = document.getElementById('cardContainer');
+  container.innerHTML = '';
+
+  document.getElementById('ayatCounter').textContent = 'আয়াত ' + bnNum(currentIndex + 1) + ' / ' + bnNum(78);
+
+  if (mode === 'sequential') {
+    // Show current ayah + next ayah (hidden)
+    // Show prev ayah too for context
+    const startIdx = Math.max(0, currentIndex - 1);
+
+    for (let i = startIdx; i <= Math.min(ayat.length - 1, currentIndex + 1); i++) {
+      const card = createCard(i, i === currentIndex);
+      if (i === currentIndex + 1) {
+        card.classList.add('next-hidden');
+        card.addEventListener('click', function() {
+          this.classList.add('revealed');
+        });
+      }
+      container.appendChild(card);
+    }
+
+    // Scroll current into view
+    setTimeout(() => {
+      const curr = container.querySelector('.ayah-card.current');
+      if (curr) curr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 100);
+
+  } else if (mode === 'single') {
+    // Show only current ayah, with "next ayah" hidden below
+    const card = createCard(currentIndex, true);
+    container.appendChild(card);
+
+    if (currentIndex < ayat.length - 1) {
+      const nextCard = createCard(currentIndex + 1, false);
+      nextCard.classList.add('next-hidden');
+      nextCard.addEventListener('click', function() {
+        this.classList.add('revealed');
+      });
+      container.appendChild(nextCard);
+    }
+
+    setTimeout(() => {
+      const curr = container.querySelector('.ayah-card.current');
+      if (curr) curr.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+
+  } else {
+    // auto mode — same as sequential
+    const card = createCard(currentIndex, true);
+    container.appendChild(card);
+
+    if (currentIndex < ayat.length - 1) {
+      const nextCard = createCard(currentIndex + 1, false);
+      nextCard.classList.add('next-hidden');
+      nextCard.addEventListener('click', function() {
+        this.classList.add('revealed');
+      });
+      container.appendChild(nextCard);
+    }
+  }
+
+  updateJumpHighlight();
+}
+
+function createCard(idx, isCurrent) {
+  const ay = ayat[idx];
+  const card = document.createElement('div');
+  card.className = 'ayah-card' + (isCurrent ? ' current' : '') + (isFab(idx) ? ' fab-card' : '');
+  card.dataset.index = idx;
+
+  const fabLabel = isFab(idx) ? ' <span style="color:#ff4757;font-size:11px;">◆ ফাব</span>' : '';
+
+  if (!isCurrent) {
+    // Next ayah — wrap content in next-ayah-content for blur
+    card.innerHTML = `
+      <div class="ayat-num">${bnNum(idx + 1)} ◂ ${bnNum(ayat.length)}${fabLabel}</div>
+      <div class="next-ayah-content">
+        <div class="arabic">${ay.a}</div>
+        <div class="ayah-divider">﴾ ${bnNum(idx + 1)} ﴿</div>
+        <div class="bangla">${ay.b}</div>
+      </div>
+      <div class="reveal-hint">.tap করে পরবর্তী আয়াত দেখুন</div>
+      <button class="reveal-btn" onclick="event.stopPropagation(); this.parentElement.classList.add('revealed');">পরবর্তী আয়াত দেখুন ▼</button>
+    `;
+  } else {
+    // Current ayah — no blur
+    card.innerHTML = `
+      <div class="ayat-num">${bnNum(idx + 1)} ◂ ${bnNum(ayat.length)}${fabLabel}</div>
+      <div class="arabic">${ay.a}</div>
+      <div class="ayah-divider">﴾ ${bnNum(idx + 1)} ﴿</div>
+      <div class="bangla">${ay.b}</div>
+    `;
+  }
+
+  return card;
+}
+
+function nextAyat() {
+  if (currentIndex < ayat.length - 1) {
+    currentIndex++;
+    render();
+  }
+}
+
+function prevAyat() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    render();
+  }
+}
+
+function showJump() {
+  const grid = document.getElementById('jumpGrid');
+  grid.innerHTML = '';
+  for (let i = 0; i < ayat.length; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = bnNum(i + 1);
+    if (i === currentIndex) btn.className = 'current-jump';
+    if (isFab(i)) btn.style.borderColor = 'rgba(255,71,87,0.5)';
+    btn.onclick = () => { currentIndex = i; hideJump(); render(); };
+    grid.appendChild(btn);
+  }
+  document.getElementById('jumpModal').classList.add('show');
+}
+
+function hideJump() {
+  document.getElementById('jumpModal').classList.remove('show');
+}
+
+function updateJumpHighlight() {
+  const grid = document.getElementById('jumpGrid');
+  if (!grid) return;
+  grid.querySelectorAll('button').forEach((btn, i) => {
+    btn.className = i === currentIndex ? 'current-jump' : '';
+  });
+}
+
+// Keyboard nav
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowUp') prevAyat();
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') nextAyat();
+  else if (e.key === ' ') {
+    e.preventDefault();
+    const hidden = document.querySelector('.ayah-card.next-hidden:not(.revealed)');
+    if (hidden) hidden.classList.add('revealed');
+    else nextAyat();
+  }
+});
+
+// Touch swipe
+let touchStartX = 0;
+document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', (e) => {
+  const diff = e.changedTouches[0].clientX - touchStartX;
+  if (Math.abs(diff) > 60) {
+    if (diff > 0) prevAyat();
+    else nextAyat();
+  }
+});
+
+// Initial render
+render();
+</script>
+</body>
+</html>

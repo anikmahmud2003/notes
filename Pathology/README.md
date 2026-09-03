@@ -121,6 +121,7 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 ## 🎤 Question Banks (answered)
 
 - **[Systemic Pathology item sets — README](systemic%20pathology%20set%20questions/README.md)** — index of **ALL answered items 1–26** (≈330 questions, every answer with Robbins + Arif reference footers).
+- 🎯 **Short-form split flashcards:** [`systemic pathology set questions/set question short form/README.md`](systemic%20pathology%20set%20questions/set%20question%20short%20form/README.md) — every big item question split into ≈1,200 one-point-per-card short toggles (e.g. Berry aneurysm → *Definition / Most common site / Associations / Clinical importance*).
 - **Highlights:** Item 1 (vessels/lipid) · 2–3 (heart) · 4–5 (lung/TB/COPD/cancer) · 6–8 (kidney/UTI/RFT/tumours/bladder) · 9–11 (oral→GIT) · 12–14 (hepatobiliary/pancreas) · 15 (testis/prostate/semen) · 16–17 (female genital + CIN/Pap + ovary/pregnancy test) · 18–19 (breast/thyroid) · 20 (DM/OGTT/Benedict) · 21 (eye-ENT-CNS/CSF) · 22 (bone/joint/STT) · 23 (skin) · 24–26 (histo-cyto techniques/FNAC).
 - **📗 Comprehensive Systemic Pathology flashcards (HTML):** [`systemic pathology comprehensive notes/00_Index.html`](systemic%20pathology%20comprehensive%20notes/00_Index.html) — full-detail chapter-by-chapter flashcards from **Arif Vol-2 (Systemic + Clinical Pathology)**, every Q preserved + abbreviations expanded (see the section above).
 

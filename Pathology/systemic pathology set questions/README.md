@@ -9,6 +9,8 @@
 
 > 📗 **Looking for the companion chapter-by-chapter flashcards?** See [`systemic pathology comprehensive notes/`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — HTML Q→A flashcards for every Arif Vol-2 chapter (one short question per card + inline True/False practice), start with `00_Index.html`.
 
+> 🎯 **Want each big question split into small short-answer toggles?** See [`set question short form/`](set%20question%20short%20form/README.md) — the same Items 1–26 with every long question broken into one-point-per-card short flashcards (≈1,200 cards), e.g. Berry aneurysm → *Definition / Most common site / Associations / Clinical importance*.
+
 ---
 
 ## 📚 Item Index
