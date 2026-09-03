@@ -12,7 +12,6 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
-| [Pathology/systemic pathology set questions/set question short form/](Pathology/systemic%20pathology%20set%20questions/set%20question%20short%20form/) | Short-form split flashcards of the item sets (≈1,200 one-point-per-card Q→A toggles) |
 | [Pathology/systemic pathology comprehensive notes/](Pathology/systemic%20pathology%20comprehensive%20notes/) | Comprehensive Systemic + Clinical Pathology flashcards (HTML) from Arif Vol-2 — one short Q per card, every abbreviation expanded, inline True/False practice per topic |
 | [Pathology/Arif Pathology/](Pathology/Arif%20Pathology/) | Arif's Pathology & Haematology 15e (2025) — extracted Vol-1 & Vol-2 chapter notes (MD) |
 | [BOOK_TO_FLASHCARDS_PROMPT.txt](BOOK_TO_FLASHCARDS_PROMPT.txt) | Reusable prompt to convert any book into the HTML flashcard format |
