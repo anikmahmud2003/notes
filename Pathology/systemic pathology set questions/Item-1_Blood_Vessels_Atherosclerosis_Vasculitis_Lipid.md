@@ -19,7 +19,7 @@
 | **7. Vascular tumours** | Benign (**hemangioma**, lymphangioma, glomus tumour), intermediate (**Kaposi sarcoma**, hemangioendothelioma), malignant (**angiosarcoma**) |
 | **8. Pathology of vascular intervention** | Stent restenosis, vein-graft atherosclerosis |
 
-### 🔴 Berry aneurysm
+### 🔴 Berry aneurysm :
 
 - **Definition:** 🔴 **a small (up to 1.5 cm), saccular, thin-walled congenital aneurysm occurring at branching points of the cerebral arteries of the Circle of Willis**, due to a developmental (congenital) defect/focal absence of the **tunica media (smooth muscle)** at the bifurcation.
 - 📌 **Most common site: anterior communicating artery** (also middle cerebral and internal carotid bifurcation); **multiple in ~20–30%**.
