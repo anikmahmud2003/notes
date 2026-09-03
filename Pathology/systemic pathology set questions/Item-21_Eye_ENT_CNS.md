@@ -1,12 +1,12 @@
 # Item 21 — Eye, ENT & CNS: Retinoblastoma, Sinusitis, Otitis Media, Brain Tumours, Meningitis, CSF Examination, CVD (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 16 (Head & Neck), Ch 28 (CNS), Ch 29 (Eye) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2
 
 ---
 
 # Part A — Eye: Retinoblastoma (Q1)
 
-## Q1. Short note: Retinoblastoma.
+<details>
+<summary><b>Q1. Short note: Retinoblastoma.</b></summary>
 
 ### Definition
 
@@ -45,9 +45,12 @@
 
 ---
 
+</details>
+
 # Part B — ENT: Sinusitis & Otitis Media (Q2–6)
 
-## Q2. Describe the pathogenesis of acute sinusitis.
+<details>
+<summary><b>Q2. Describe the pathogenesis of acute sinusitis.</b></summary>
 
 ### Definition
 
@@ -94,7 +97,10 @@ purulent discharge, fever
 
 ---
 
-## Q3. Describe the pathogenesis of chronic sinusitis.
+</details>
+
+<details>
+<summary><b>Q3. Describe the pathogenesis of chronic sinusitis.</b></summary>
 
 ### Definition
 
@@ -136,7 +142,10 @@ Irreversible changes: polyps, osteitic new bone, mucocele/pyocele
 
 ---
 
-## Q4. Define otitis media. Mention its types.
+</details>
+
+<details>
+<summary><b>Q4. Define otitis media. Mention its types.</b></summary>
 
 ### Definition
 
@@ -162,7 +171,10 @@ Irreversible changes: polyps, osteitic new bone, mucocele/pyocele
 
 ---
 
-## Q5. Describe the pathogenesis of otitis media.
+</details>
+
+<details>
+<summary><b>Q5. Describe the pathogenesis of otitis media.</b></summary>
 
 ### A. Acute suppurative otitis media (arrow-chain)
 
@@ -219,7 +231,10 @@ Keratin debris + inflammation erode ossicles/bone
 
 ---
 
-## Q6. Short note: Chronic suppurative otitis media.
+</details>
+
+<details>
+<summary><b>Q6. Short note: Chronic suppurative otitis media.</b></summary>
 
 ### Definition
 
@@ -256,9 +271,12 @@ Unsafe type: **mastoidectomy (modified radical/radical) to exteriorize/remove ch
 
 ---
 
+</details>
+
 # Part C — CNS Tumours & Degenerative Diseases (Q7–13)
 
-## Q7. Classify brain tumours
+<details>
+<summary><b>Q7. Classify brain tumours</b></summary>
 
 ### Classification (WHO-based)
 
@@ -290,7 +308,10 @@ Unsafe type: **mastoidectomy (modified radical/radical) to exteriorize/remove ch
 
 ---
 
-## Q8. Discuss the special characteristics of the CNS tumours.
+</details>
+
+<details>
+<summary><b>Q8. Discuss the special characteristics of the CNS tumours.</b></summary>
 
 1. 🔴 **No TNM staging** — behaviour is governed by anatomical LOCATION and grade, not by stage; even histologically **BENIGN tumours can kill** by compressing vital medullary centres in the confined, non-expandable skull (a benign posterior-fossa meningioma can be fatal).
 2. 🔴 **Location matters more than histology** — a "benign" tumour in an eloquent/inaccessible site (brainstem, motor cortex) may be untreatable, while a malignant one in resectable frontal pole may do well.
@@ -307,7 +328,10 @@ Unsafe type: **mastoidectomy (modified radical/radical) to exteriorize/remove ch
 
 ---
 
-## Q9. Short note: Glioma.
+</details>
+
+<details>
+<summary><b>Q9. Short note: Glioma.</b></summary>
 
 ### Definition
 
@@ -332,7 +356,10 @@ Unsafe type: **mastoidectomy (modified radical/radical) to exteriorize/remove ch
 
 ---
 
-## Q10. Short note: Schwannoma.
+</details>
+
+<details>
+<summary><b>Q10. Short note: Schwannoma.</b></summary>
 
 ### Definition
 
@@ -364,7 +391,10 @@ Benign; recurs rarely after complete excision; 🔴 **malignant transformation e
 
 ---
 
-## Q11. Short note: Neurofibroma.
+</details>
+
+<details>
+<summary><b>Q11. Short note: Neurofibroma.</b></summary>
 
 ### Definition
 
@@ -394,7 +424,10 @@ Benign; recurs rarely after complete excision; 🔴 **malignant transformation e
 
 ---
 
-## Q12. Difference between Schwannoma and Neurofibroma.
+</details>
+
+<details>
+<summary><b>Q12. Difference between Schwannoma and Neurofibroma.</b></summary>
 
 | Feature | **Schwannoma** | **Neurofibroma** |
 |---|---|---|
@@ -414,7 +447,10 @@ Benign; recurs rarely after complete excision; 🔴 **malignant transformation e
 
 ---
 
-## Q13. What are the degenerative diseases of CNS?
+</details>
+
+<details>
+<summary><b>Q13. What are the degenerative diseases of CNS?</b></summary>
 
 ### Concept
 
@@ -439,9 +475,12 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
+</details>
+
 # Part D — Meningitis & CSF Examination (Q14–23)
 
-## Q14. Mention the indications of CSF examination.
+<details>
+<summary><b>Q14. Mention the indications of CSF examination.</b></summary>
 
 ### Diagnostic indications
 
@@ -468,7 +507,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q15. What is meningitis? What are the types?
+</details>
+
+<details>
+<summary><b>Q15. What is meningitis? What are the types?</b></summary>
 
 ### Definition
 
@@ -491,7 +533,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q16. What are the causes of meningitis?
+</details>
+
+<details>
+<summary><b>Q16. What are the causes of meningitis?</b></summary>
 
 ### Bacterial — by age (Robbins Table, EXAM FAVORITE)
 
@@ -519,7 +564,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q17. What are the normal findings of CSF? When spider clot web is formed in CSF?
+</details>
+
+<details>
+<summary><b>Q17. What are the normal findings of CSF? When spider clot web is formed in CSF?</b></summary>
 
 ### Normal CSF findings (lumbar, adult)
 
@@ -546,7 +594,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q18. State the CSF findings of different types of meningitis.
+</details>
+
+<details>
+<summary><b>Q18. State the CSF findings of different types of meningitis.</b></summary>
 
 ### Comparison table (EXAM MUST-KNOW)
 
@@ -568,7 +619,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q19. Give the laboratory diagnosis of tubercular meningitis.
+</details>
+
+<details>
+<summary><b>Q19. Give the laboratory diagnosis of tubercular meningitis.</b></summary>
 
 ### Step 1 — CSF analysis (3 consecutive tubes collected at LP)
 
@@ -603,7 +657,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q20. Give the laboratory diagnosis of pyogenic meningitis.
+</details>
+
+<details>
+<summary><b>Q20. Give the laboratory diagnosis of pyogenic meningitis.</b></summary>
 
 ### Blood investigations
 
@@ -640,7 +697,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q21. Write the indications, contraindications and complications of lumbar puncture.
+</details>
+
+<details>
+<summary><b>Q21. Write the indications, contraindications and complications of lumbar puncture.</b></summary>
 
 ### Indications
 
@@ -674,7 +734,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q22. Tell the sites of CSF fluid aspiration.
+</details>
+
+<details>
+<summary><b>Q22. Tell the sites of CSF fluid aspiration.</b></summary>
 
 ### Principal site — lumbar cistern
 
@@ -697,7 +760,10 @@ Progressive, age-related loss of **specific neuronal populations** with **accumu
 
 ---
 
-## Q23. A male of 27 years presented to you with high fever and unconsciousness. His neck rigidity and Kernig's sign are positive. The spinal tap yielded turbid CSF with increased pressure. What is the likely diagnosis? How to confirm it?
+</details>
+
+<details>
+<summary><b>Q23. A male of 27 years presented to you with high fever and unconsciousness. His neck rigidity and Kernig's sign are positive. The spinal tap yielded turbid CSF with increased pressure. What is the likely diagnosis? How to confirm it?</b></summary>
 
 ### Likely diagnosis
 
@@ -729,9 +795,12 @@ Likely organisms at this age: **Neisseria meningitidis** (look for petechial ras
 
 ---
 
+</details>
+
 # Part E — Cerebrovascular Disease (Q24)
 
-## Q24. Define CVD. Mention the types with short pathogenesis.
+<details>
+<summary><b>Q24. Define CVD. Mention the types with short pathogenesis.</b></summary>
 
 ### Definition
 
@@ -755,9 +824,10 @@ Likely organisms at this age: **Neisseria meningitidis** (look for petechial ras
 > 🎯 "CVD = brain trouble from vessels — **BLOCKED (thrombus on plaque, embolus from AF heart, shock watershed, HTN lacunes) or BURST (Charcot-Bouchard hypertensive bleed into basal ganglia; berry aneurysm SAH — worst headache ever).**"
 
 > 📖 Robbins 10e, Ch 28 (Central Nervous System), pp. 1241–1304 · 📗 Arif 15e (2025), Vol-2, Unit-I Central Nervous System, pp. 363–372 · Unit-II Body Fluids (CSF), pp. 456–469
-
----
-
 ### 🔗 Source files
 - [Pathology/ch16_Head_and_Neck.md](../robbins/ch16_Head_and_Neck.md) · [Pathology/ch28_CNS.md](../robbins/ch28_CNS.md) · [Pathology/ch29_Eye.md](../robbins/ch29_Eye.md)
 - [README.md](README.md) · [← Item-20](Item-20_Diabetes_OGTT_BenedictTest.md)
+
+---
+
+</details>

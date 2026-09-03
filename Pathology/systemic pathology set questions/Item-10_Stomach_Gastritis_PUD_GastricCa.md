@@ -1,10 +1,10 @@
 # Item 10 — Stomach: Gastritis, Peptic Ulcer & Gastric Carcinoma (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
 
 ---
 
-## Q1. Name some congenital or acquired anomalies of GIT.
+<details>
+<summary><b>Q1. Name some congenital or acquired anomalies of GIT.</b></summary>
 
 ### Congenital anomalies
 
@@ -32,7 +32,10 @@
 
 ---
 
-## Q2. Classify neoplasms of stomach / GIT.
+</details>
+
+<details>
+<summary><b>Q2. Classify neoplasms of stomach / GIT.</b></summary>
 
 ### Neoplasms of the GIT by region
 
@@ -61,7 +64,10 @@
 
 ---
 
-## Q3. Define gastritis and mention its types and causes.
+</details>
+
+<details>
+<summary><b>Q3. Define gastritis and mention its types and causes.</b></summary>
 
 ### Definition
 **Gastritis = inflammation of the gastric mucosa, diagnosed histologically by the presence of inflammatory cells (neutrophils and/or mononuclear cells) within the mucosa.**
@@ -88,7 +94,10 @@
 
 ---
 
-## Q4. Define peptic ulcer and mention its sites of formation.
+</details>
+
+<details>
+<summary><b>Q4. Define peptic ulcer and mention its sites of formation.</b></summary>
 
 ### Definition
 **Peptic ulcer = a chronic, usually solitary, breach of the gastrointestinal mucosa ≥5 mm in diameter that extends through the muscularis mucosae into the submucosa (deeper layers may be involved), caused by the action of acid-peptic juice.**
@@ -112,7 +121,10 @@
 
 ---
 
-## Q5. Mention the defence mechanism of gastric mucosa.
+</details>
+
+<details>
+<summary><b>Q5. Mention the defence mechanism of gastric mucosa.</b></summary>
 
 The stomach balances **aggressive factors (acid + pepsin)** against **defensive (mucosal protective) mechanisms**:
 
@@ -137,7 +149,10 @@ NSAID ↓PG · H. pylori ↓mucus/↑acid · smoking ↓bicarbonate/flow
 
 ---
 
-## Q6. Describe the pathogenesis of peptic ulcer disease.
+</details>
+
+<details>
+<summary><b>Q6. Describe the pathogenesis of peptic ulcer disease.</b></summary>
 
 ### Concept
 PUD results when 🔴 **aggressive factors (acid–pepsin, H. pylori toxins, NSAIDs, bile)** overwhelm 🔴 **mucosal defence (mucus-bicarbonate, PGs, blood flow, restitution)**. Two dominant pathways account for almost all cases:
@@ -176,7 +191,10 @@ NSAID inhibits COX-1
 
 ---
 
-## Q7. Mention causes, risk factors, and predisposing factors of peptic ulcer disease.
+</details>
+
+<details>
+<summary><b>Q7. Mention causes, risk factors, and predisposing factors of peptic ulcer disease.</b></summary>
 
 | Category | Factors |
 |---|---|
@@ -194,7 +212,10 @@ NSAID inhibits COX-1
 
 ---
 
-## Q8. List the diseases of stomach caused by H. pylori.
+</details>
+
+<details>
+<summary><b>Q8. List the diseases of stomach caused by H. pylori.</b></summary>
 
 🔴 *H. pylori* (WHO class I carcinogen) produces a spectrum in the stomach:
 
@@ -223,7 +244,10 @@ Acute H. pylori gastritis
 
 ---
 
-## Q9. Explain the role of H. pylori in the pathogenesis of peptic ulcer.
+</details>
+
+<details>
+<summary><b>Q9. Explain the role of H. pylori in the pathogenesis of peptic ulcer.</b></summary>
 
 ### Step-by-step virulence → ulcer
 
@@ -253,7 +277,10 @@ D-cell destruction        → ↑ gastrin → ↑ ACID
 
 ---
 
-## Q10. Write down the morphology and histological features of peptic ulcer disease.
+</details>
+
+<details>
+<summary><b>Q10. Write down the morphology and histological features of peptic ulcer disease.</b></summary>
 
 ### Gross morphology
 - Usually **solitary**; round-to-oval, sharply demarcated ("punched-out"), **≤2 cm (DU often smaller than GU)**.
@@ -281,7 +308,10 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-## Q11. Mention the complications of peptic ulcer disease.
+</details>
+
+<details>
+<summary><b>Q11. Mention the complications of peptic ulcer disease.</b></summary>
 
 | Complication | Frequency | Features |
 |---|---|---|
@@ -298,7 +328,10 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-## Q12. How will you differentiate a peptic (benign) ulcer from a malignant ulcer?
+</details>
+
+<details>
+<summary><b>Q12. How will you differentiate a peptic (benign) ulcer from a malignant ulcer?</b></summary>
 
 | Feature | **Benign peptic ulcer** | **Malignant ulcer (ulcerated carcinoma)** |
 |---|---|---|
@@ -326,7 +359,10 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-## Q13. Classify gastric carcinoma.
+</details>
+
+<details>
+<summary><b>Q13. Classify gastric carcinoma.</b></summary>
 
 ### 1. Lauren classification (most used)
 
@@ -355,7 +391,10 @@ I Polypoid/exophytic · II Fungating · III Ulcerated (heaped margins) · IV Dif
 
 ---
 
-## Q14. Write down the risk factors of gastric carcinoma.
+</details>
+
+<details>
+<summary><b>Q14. Write down the risk factors of gastric carcinoma.</b></summary>
 
 | Category | Risk factors |
 |---|---|
@@ -374,7 +413,10 @@ I Polypoid/exophytic · II Fungating · III Ulcerated (heaped margins) · IV Dif
 
 ---
 
-## Q15. Discuss the morphology of gastric carcinoma.
+</details>
+
+<details>
+<summary><b>Q15. Discuss the morphology of gastric carcinoma.</b></summary>
 
 ### Gross morphology (advanced)
 | Pattern | Description |
@@ -399,7 +441,10 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 
 ---
 
-## Q16. Differentiate between gastric ulcer and duodenal ulcer.
+</details>
+
+<details>
+<summary><b>Q16. Differentiate between gastric ulcer and duodenal ulcer.</b></summary>
 
 | Feature | **Gastric ulcer (GU)** | **Duodenal ulcer (DU)** |
 |---|---|---|
@@ -422,7 +467,10 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 
 ---
 
-## Q17. Mention the sites of gastric carcinoma. How does gastric carcinoma spread?
+</details>
+
+<details>
+<summary><b>Q17. Mention the sites of gastric carcinoma. How does gastric carcinoma spread?</b></summary>
 
 ### Sites
 | Location | Frequency |
@@ -453,3 +501,7 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 > 🎯 "**Antrum #1, cardia rising** · spread: Virchow (supraclavicular), Krukenberg (ovary), Sister Mary Joseph (umbilicus), liver via portal vein."
 
 > 📖 Robbins 10e, Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
+
+---
+
+</details>

@@ -1,5 +1,4 @@
 # Item 20 — Endocrine: Diabetes Mellitus, OGTT, Benedict Test (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 24 (The Endocrine System, pp. 1065–1132) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2, Unit-II Blood Glucose and Diabetes Mellitus (pp. 433–448)
 > **Topics:** DM definition & classification · Type I vs Type II · lab diagnosis · WHO criteria · IFG & IGT · GDM · HbA1c · OGTT · complications · renal glycosuria · hyperglycemia sine glycosuria · hypoglycemia · DKA · Benedict test · PBQ (hypoglycemic coma)
 
@@ -7,7 +6,8 @@
 
 # Part A — Diabetes Mellitus: Definition & Diagnosis (Q1–7)
 
-## Q1. Define DM. Classify it.
+<details>
+<summary><b>Q1. Define DM. Classify it.</b></summary>
 
 ### Definition
 
@@ -40,7 +40,10 @@
 
 ---
 
-## Q2. What are the differences between Type-I & Type-II diabetes mellitus?
+</details>
+
+<details>
+<summary><b>Q2. What are the differences between Type-I & Type-II diabetes mellitus?</b></summary>
 
 ### Type I vs Type II DM — comparison table
 
@@ -67,7 +70,10 @@
 
 ---
 
-## Q3. Give the lab diagnosis of DM.
+</details>
+
+<details>
+<summary><b>Q3. Give the lab diagnosis of DM.</b></summary>
 
 ### Diagnostic criteria (any ONE establishes DM)
 
@@ -105,7 +111,10 @@
 
 ---
 
-## Q4. What is IFG and IGT? Tell their significance.
+</details>
+
+<details>
+<summary><b>Q4. What is IFG and IGT? Tell their significance.</b></summary>
 
 ### Definitions
 
@@ -137,7 +146,10 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-## Q5. Tell WHO diagnostic criteria of DM.
+</details>
+
+<details>
+<summary><b>Q5. Tell WHO diagnostic criteria of DM.</b></summary>
 
 ### WHO criteria for diagnosis of DM (non-pregnant adults)
 
@@ -168,7 +180,10 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-## Q6. What is GDM & IGT? Discuss about HbA1c.
+</details>
+
+<details>
+<summary><b>Q6. What is GDM & IGT? Discuss about HbA1c.</b></summary>
 
 ### Gestational diabetes mellitus (GDM)
 
@@ -216,7 +231,10 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-## Q7. What is OGTT? Tell its procedure and interpretation.
+</details>
+
+<details>
+<summary><b>Q7. What is OGTT? Tell its procedure and interpretation.</b></summary>
 
 ### Definition
 
@@ -256,9 +274,12 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
+</details>
+
 # Part B — Complications & Hypoglycemia (Q8–13)
 
-## Q8. What are the complications of DM?
+<details>
+<summary><b>Q8. What are the complications of DM?</b></summary>
 
 ### Overview table
 
@@ -294,7 +315,10 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-## Q9. Short note: Renal glycosuria.
+</details>
+
+<details>
+<summary><b>Q9. Short note: Renal glycosuria.</b></summary>
 
 ### Definition
 
@@ -341,7 +365,10 @@ Glucosuria appears at LOW plasma glucose (normal FPG, normal OGTT)
 
 ---
 
-## Q10. What do you mean by hyperglycemia sine glycosuria? Tell the importance of HbA1c.
+</details>
+
+<details>
+<summary><b>Q10. What do you mean by hyperglycemia sine glycosuria? Tell the importance of HbA1c.</b></summary>
 
 ### Hyperglycemia sine glycosuria
 
@@ -379,7 +406,10 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-## Q11. Define hypoglycemia. What are the causes of hypoglycemia?
+</details>
+
+<details>
+<summary><b>Q11. Define hypoglycemia. What are the causes of hypoglycemia?</b></summary>
 
 ### Definition
 
@@ -408,7 +438,10 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-## Q12. How does hypoglycemia occur in diabetic patients?
+</details>
+
+<details>
+<summary><b>Q12. How does hypoglycemia occur in diabetic patients?</b></summary>
 
 ### Why diabetics develop hypoglycemia (the commonest acute complication of treatment)
 
@@ -447,7 +480,10 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-## Q13. Discuss in short about the pathogenesis of diabetic ketoacidosis.
+</details>
+
+<details>
+<summary><b>Q13. Discuss in short about the pathogenesis of diabetic ketoacidosis.</b></summary>
 
 ### Setting
 
@@ -511,9 +547,12 @@ normal/high — falls abruptly with insulin therapy → replace early.
 
 ---
 
+</details>
+
 # Part C — Benedict Test & Case (Q14–15)
 
-## Q14. Tell the procedure and interpretations of Benedict's test.
+<details>
+<summary><b>Q14. Tell the procedure and interpretations of Benedict's test.</b></summary>
 
 ### What it is
 
@@ -565,7 +604,10 @@ normal/high — falls abruptly with insulin therapy → replace early.
 
 ---
 
-## Q15. A 25 year old type I diabetic patient was taking insulin regularly as treatment. He suddenly became unconscious and was brought to you. You examined and got the patient sweating with increased heart rate. His relatives gave a history of missed meal this morning after taking insulin. What is your diagnosis? How will you treat the patient?
+</details>
+
+<details>
+<summary><b>Q15. A 25 year old type I diabetic patient was taking insulin regularly as treatment. He suddenly became unconscious and was brought to you. You examined and got the patient sweating with increased heart rate. His relatives gave a history of missed meal this morning after taking insulin. What is your diagnosis? How will you treat the patient?</b></summary>
 
 ### What is your diagnosis?
 
@@ -607,9 +649,10 @@ normal/high — falls abruptly with insulin therapy → replace early.
 > 🎯 "**Insulin + no meal + sweat/tachycardia + sudden coma = HYPOGLYCEMIC COMA** → glucometer <70 confirms → **IV 50% dextrose 50 mL** (or IM glucagon if no vein) → 10% drip → eat when awake → educate: 'needle goes in, food must go in.'"
 
 > 📖 Robbins 10e, Ch 24 (Endocrine System), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-II Blood Glucose and Diabetes Mellitus, pp. 433–448
-
----
-
 ### 🔗 Source files
 - [Pathology/ch24_Endocrine.md](../robbins/ch24_Endocrine.md)
 - [README.md](README.md) · [← Item-19](Item-19_Endocrine_Thyroid.md) · [Item-21 →](Item-21_Eye_ENT_CNS.md)
+
+---
+
+</details>

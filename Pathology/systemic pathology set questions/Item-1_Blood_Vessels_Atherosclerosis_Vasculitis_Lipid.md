@@ -1,10 +1,10 @@
 # Item 1 — Blood Vessels, Atherosclerosis, Vasculitis & Lipid Profile (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 11 (Blood Vessels) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2, Unit-I "Blood Vessels" & Unit-II "Lipid and Cholesterol"
 
 ---
 
-## Q1. Classify the diseases of Blood Vessels. What is Berry aneurysm?
+<details>
+<summary><b>Q1. Classify the diseases of Blood Vessels. What is Berry aneurysm?</b></summary>
 
 ### Classification of diseases of blood vessels
 
@@ -37,7 +37,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q2. Define and classify arteriosclerosis. Name of Congenital anomalies of Blood Vessel.
+</details>
+
+<details>
+<summary><b>Q2. Define and classify arteriosclerosis. Name of Congenital anomalies of Blood Vessel.</b></summary>
 
 ### Definition
 
@@ -69,7 +72,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q3. Classify vascular tumours. Give the definition and classification of aneurysm.
+</details>
+
+<details>
+<summary><b>Q3. Classify vascular tumours. Give the definition and classification of aneurysm.</b></summary>
 
 ### Classification of vascular tumours (all endothelial in origin; markers **CD31, CD34, von Willebrand factor**)
 
@@ -104,7 +110,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q4. Definition of Atherosclerosis, Atheroma/Atheromatous plaque. What is acute plaque change?
+</details>
+
+<details>
+<summary><b>Q4. Definition of Atherosclerosis, Atheroma/Atheromatous plaque. What is acute plaque change?</b></summary>
 
 ### Definitions
 
@@ -138,7 +147,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q5. What are the common sites of atheroma. Describe the morphology of an atheromatous plaque.
+</details>
+
+<details>
+<summary><b>Q5. What are the common sites of atheroma. Describe the morphology of an atheromatous plaque.</b></summary>
 
 ### 🔴 Common sites of atheroma (in descending order of severity)
 
@@ -174,7 +186,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q6. Mention the risk factors of atherosclerosis. Short note on lipid profile
+</details>
+
+<details>
+<summary><b>Q6. Mention the risk factors of atherosclerosis. Short note on lipid profile</b></summary>
 
 ### 🔴 Risk factors of atherosclerosis
 
@@ -211,7 +226,10 @@ Congenital medial defect at arterial fork + HTN/shear stress → gradual outpouc
 
 ---
 
-## Q7. Describe the pathogenesis of atherosclerosis.
+</details>
+
+<details>
+<summary><b>Q7. Describe the pathogenesis of atherosclerosis.</b></summary>
 
 🔴 **Response-to-Injury Hypothesis (Ross):** atherosclerosis is a **chronic inflammatory and healing (fibroproliferative) response of the arterial wall to endothelial injury**, driven by lipids.
 
@@ -259,7 +277,10 @@ MATURE FIBROFATTY ATHEROMA → complicated plaque (see Q8)
 
 ---
 
-## Q8. Fates and complications of atherosclerosis.
+</details>
+
+<details>
+<summary><b>Q8. Fates and complications of atherosclerosis.</b></summary>
 
 ### Fate
 
@@ -286,7 +307,10 @@ Plaque grows slowly by lipid accumulation + repeated organized mural thrombi →
 
 ---
 
-## Q9. Classify the types of vasculitis. What is aortic dissection?
+</details>
+
+<details>
+<summary><b>Q9. Classify the types of vasculitis. What is aortic dissection?</b></summary>
 
 ### 🔴 Classification of vasculitis
 
@@ -316,7 +340,10 @@ Plaque grows slowly by lipid accumulation + repeated organized mural thrombi →
 
 ---
 
-## Q10. Cause of Hyperlipidemia. Mention the constituents/components of Lipid profile with their normal values?
+</details>
+
+<details>
+<summary><b>Q10. Cause of Hyperlipidemia. Mention the constituents/components of Lipid profile with their normal values?</b></summary>
 
 ### 🔴 Causes of hyperlipidemia
 
@@ -364,7 +391,10 @@ Plaque grows slowly by lipid accumulation + repeated organized mural thrombi →
 
 ---
 
-## Q11. What is Lipoprotein? Classify lipoproteins. What is good cholesterol and bad cholesterol?
+</details>
+
+<details>
+<summary><b>Q11. What is Lipoprotein? Classify lipoproteins. What is good cholesterol and bad cholesterol?</b></summary>
 
 ### Definition
 
@@ -398,7 +428,10 @@ Plaque grows slowly by lipid accumulation + repeated organized mural thrombi →
 
 ---
 
-## Q12. Why HDL is good cholesterol & Why LDL is bad cholesterol?
+</details>
+
+<details>
+<summary><b>Q12. Why HDL is good cholesterol & Why LDL is bad cholesterol?</b></summary>
 
 ### 🔴 Why HDL is GOOD cholesterol
 
@@ -436,7 +469,10 @@ Peripheral tissue/foam-cell free cholesterol
 
 ---
 
-## Q13. Difference between LDL & HDL.
+</details>
+
+<details>
+<summary><b>Q13. Difference between LDL & HDL.</b></summary>
 
 | Feature | **LDL** | **HDL** |
 |---|---|---|
@@ -459,3 +495,7 @@ Peripheral tissue/foam-cell free cholesterol
 > 🎯 **"LDL = Lousy Delivery to Lumen; HDL = Healthy Drain back Home" — one floods the pipe, one cleans it.**
 
 > 📖 Robbins 10e, Ch 11 (Blood Vessels), pp. 491–526 · 📗 Arif 15e (2025), Vol-2, Unit-II "Lipid and Cholesterol", pp. 487–492
+
+---
+
+</details>

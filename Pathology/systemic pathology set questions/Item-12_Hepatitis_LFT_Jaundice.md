@@ -1,10 +1,10 @@
 # Item 12 — Hepatitis, LFT & Jaundice (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 18 (Liver and Gallbladder), pp. 823–880 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224 · Unit-II Liver Function Test and Jaundice, pp. 392–405
 
 ---
 
-## Q1. List the causes of acute hepatitis. Give the positive findings in liver function tests in acute hepatitis.
+<details>
+<summary><b>Q1. List the causes of acute hepatitis. Give the positive findings in liver function tests in acute hepatitis.</b></summary>
 
 ### Causes of acute hepatitis
 
@@ -34,7 +34,10 @@
 
 ---
 
-## Q2. Mention the viral markers of hepatitis with their diagnostic significance.
+</details>
+
+<details>
+<summary><b>Q2. Mention the viral markers of hepatitis with their diagnostic significance.</b></summary>
 
 ### Hepatitis A–E markers
 
@@ -62,7 +65,10 @@
 
 ---
 
-## Q3. Name the viruses commonly causing acute liver failure. Give the clinical features of liver failure.
+</details>
+
+<details>
+<summary><b>Q3. Name the viruses commonly causing acute liver failure. Give the clinical features of liver failure.</b></summary>
 
 ### Viruses causing acute liver failure (fulminant viral hepatitis)
 
@@ -94,7 +100,10 @@ Pathology: **massive/submassive hepatic necrosis** with collapse of reticulin fr
 
 ---
 
-## Q4. Name the viruses commonly causing chronic hepatitis. How chronic hepatitis can be confirmed in laboratory?
+</details>
+
+<details>
+<summary><b>Q4. Name the viruses commonly causing chronic hepatitis. How chronic hepatitis can be confirmed in laboratory?</b></summary>
 
 ### Viruses causing chronic hepatitis
 
@@ -121,7 +130,10 @@ Pathology: **massive/submassive hepatic necrosis** with collapse of reticulin fr
 
 ---
 
-## Q5. List the causes of chronic hepatitis. Mention the fates/outcomes of chronic hepatitis.
+</details>
+
+<details>
+<summary><b>Q5. List the causes of chronic hepatitis. Mention the fates/outcomes of chronic hepatitis.</b></summary>
 
 ### Causes of chronic hepatitis
 
@@ -160,7 +172,10 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-## Q6. List the liver function tests. What are changes in liver function test occurring in obstructive jaundice?
+</details>
+
+<details>
+<summary><b>Q6. List the liver function tests. What are changes in liver function test occurring in obstructive jaundice?</b></summary>
 
 ### List of liver function tests (Arif classification)
 
@@ -194,7 +209,10 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-## Q7. Give the pathological definition and classification of jaundice.
+</details>
+
+<details>
+<summary><b>Q7. Give the pathological definition and classification of jaundice.</b></summary>
 
 ### Pathological definition
 
@@ -216,7 +234,10 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-## Q8. Mention the causes of neonatal jaundice with the pathogenesis.
+</details>
+
+<details>
+<summary><b>Q8. Mention the causes of neonatal jaundice with the pathogenesis.</b></summary>
 
 ### Causes of neonatal jaundice
 
@@ -259,7 +280,10 @@ Newborn liver
 
 ---
 
-## Q9. How the types of jaundice can be differentiated without blood test?
+</details>
+
+<details>
+<summary><b>Q9. How the types of jaundice can be differentiated without blood test?</b></summary>
 
 ### Clinical differentiation (history, examination, urine/stool inspection)
 
@@ -283,7 +307,10 @@ Newborn liver
 
 ---
 
-## Q10. Mention the causes of prehepatic jaundice. How prehepatic jaundice can be diagnosed by liver function test?
+</details>
+
+<details>
+<summary><b>Q10. Mention the causes of prehepatic jaundice. How prehepatic jaundice can be diagnosed by liver function test?</b></summary>
 
 ### Causes of prehepatic (hemolytic) jaundice
 
@@ -312,7 +339,10 @@ Newborn liver
 
 ---
 
-## Q11. What are the desired changes in liver function test in a case of hepatocellular jaundice?
+</details>
+
+<details>
+<summary><b>Q11. What are the desired changes in liver function test in a case of hepatocellular jaundice?</b></summary>
 
 ### LFT changes in hepatocellular (hepatic) jaundice
 
@@ -347,7 +377,10 @@ Newborn liver
 
 ---
 
-## Q12. Give pathogenesis and outcome of hepatitis B viral infection.
+</details>
+
+<details>
+<summary><b>Q12. Give pathogenesis and outcome of hepatitis B viral infection.</b></summary>
 
 ### Pathogenesis of HBV infection
 
@@ -396,7 +429,10 @@ Clearance: HBsAg↓ → anti-HBs↑    CHRONIC hepatitis (5–10% adults; ~90% i
 
 ---
 
-## Q13. Give the lab diagnosis of viral hepatitis.
+</details>
+
+<details>
+<summary><b>Q13. Give the lab diagnosis of viral hepatitis.</b></summary>
 
 ### A. Non-specific laboratory tests
 
@@ -425,3 +461,7 @@ Clearance: HBsAg↓ → anti-HBs↑    CHRONIC hepatitis (5–10% adults; ~90% i
 > 🎯 "**Lab dx recipe: enzymes say WHERE, serology says WHO — IgM = now, IgG = gone; HBsAg = infected, anti-HBs = immune, RNA/DNA PCR = replicating. 'IgM-now, IgG-past, PCR-active.'**"
 
 > 📖 Robbins 10e, Ch 18 (Liver and Gallbladder), pp. 823–880 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224 · Unit-II Liver Function Test and Jaundice, pp. 392–405
+
+---
+
+</details>

@@ -1,10 +1,10 @@
 # Item 24 — Histo-Cytopathological Sample Collection, Preservation, Transport & Processing
-
 > **Source:** Bancroft & Gamble, *Theory and Practice of Histological Techniques* · Culling's Handbook of Histopathological Techniques · Robbins (Methods in Pathology)
 
 ---
 
-## Q1. What is tissue accessioning? Why clinical data is important for proper histopathological diagnosis?
+<details>
+<summary><b>Q1. What is tissue accessioning? Why clinical data is important for proper histopathological diagnosis?</b></summary>
 
 ### Definition
 **Tissue accessioning = the formal process of RECEIVING, REGISTERING and TRACKING a specimen when it arrives at the pathology laboratory.** Each specimen is given a **unique accession number**, its details (patient identity, specimen type, site, clinical history, requesting clinician) are entered into the laboratory record, and it is then routed for grossing, processing and reporting. It is the **first and essential step of laboratory governance** — every subsequent slide and report is linked to the accession number, which also enables retrieval of blocks/slides and audit.
@@ -30,7 +30,10 @@ Specimen arrives → cross-check container label vs requisition → assign UNIQU
 
 ---
 
-## Q2. Name the fixatives used in histopathology. Which one is most commonly used and how it works?
+</details>
+
+<details>
+<summary><b>Q2. Name the fixatives used in histopathology. Which one is most commonly used and how it works?</b></summary>
 
 ### Fixatives used in histopathology
 | Fixative | Use |
@@ -60,7 +63,10 @@ Specimen arrives → cross-check container label vs requisition → assign UNIQU
 
 ---
 
-## Q3. What entities should be included within a requisition along with a biopsy specimen?
+</details>
+
+<details>
+<summary><b>Q3. What entities should be included within a requisition along with a biopsy specimen?</b></summary>
 
 A properly completed **requisition (request form) must accompany every biopsy specimen** and should include:
 
@@ -81,7 +87,10 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 
 ---
 
-## Q4. Mention the different types of fixatives. What are the aims of fixatives?
+</details>
+
+<details>
+<summary><b>Q4. Mention the different types of fixatives. What are the aims of fixatives?</b></summary>
 
 ### Types (classification) of fixatives
 **By composition:**
@@ -112,7 +121,10 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 
 ---
 
-## Q5. Mention the steps of tissue processing. What are the methods of sectioning of tissue?
+</details>
+
+<details>
+<summary><b>Q5. Mention the steps of tissue processing. What are the methods of sectioning of tissue?</b></summary>
 
 ### Steps of tissue processing (in order)
 ```
@@ -142,7 +154,10 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-## Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?
+</details>
+
+<details>
+<summary><b>Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?</b></summary>
 
 ### Principles
 Transport must keep the tissue **adequately fixed** (to stop autolysis), **correctly identified**, **physically protected**, and **traceable** — from a site where specimens are collected (OPD, operation theatre, peripheral hospital) to the histopathology laboratory.
@@ -163,9 +178,10 @@ Transport must keep the tissue **adequately fixed** (to stop autolysis), **corre
 > ⚠️ "Fresh/frozen, culture and EM specimens must NEVER be placed in formalin."
 
 > 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — Fixation (Ch 2) / Tissue processing (Ch 3) · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
-
----
-
 ### 🔗 Source files
 - [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-17](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · [Item-25 →](Item-25_Autopsy_Histopathology_Techniques.md)
+
+---
+
+</details>

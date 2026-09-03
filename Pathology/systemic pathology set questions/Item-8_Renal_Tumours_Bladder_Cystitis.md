@@ -1,10 +1,10 @@
 # Item 8 — Renal Tumours & Urinary Bladder Disease (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 20 (Kidney) & Ch 21 (Lower Urinary Tract) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2, Unit-I Renal System
 
 ---
 
-## Q1. Classify kidney tumours.
+<details>
+<summary><b>Q1. Classify kidney tumours.</b></summary>
 
 ### Definition
 
@@ -64,7 +64,10 @@ Accumulating losses of many chromosomes (extreme hypodiploidy)
 
 ---
 
-## Q2. Short Note: Wilms tumour.
+</details>
+
+<details>
+<summary><b>Q2. Short Note: Wilms tumour.</b></summary>
 
 ### Definition
 
@@ -118,7 +121,10 @@ TP53 mutation drives ANAPLASIA (chemoresistance).
 
 ---
 
-## Q3. Renal cell carcinoma: Risk factors, Classification, Morphology / Pathology, C/F, Lab Diagnosis.
+</details>
+
+<details>
+<summary><b>Q3. Renal cell carcinoma: Risk factors, Classification, Morphology / Pathology, C/F, Lab Diagnosis.</b></summary>
 
 ### Definition
 
@@ -206,7 +212,10 @@ Renal vein thrombosis with IVC extension · haemorrhage · metastatic disease (l
 
 ---
 
-## Q4. A male of 55 years presented with hematuria, loin pain, palpable mass in the lumbar region. What is the likely diagnosis? What are the histological types of the lesion?
+</details>
+
+<details>
+<summary><b>Q4. A male of 55 years presented with hematuria, loin pain, palpable mass in the lumbar region. What is the likely diagnosis? What are the histological types of the lesion?</b></summary>
 
 ### Likely diagnosis
 
@@ -243,7 +252,10 @@ Renal vein thrombosis with IVC extension · haemorrhage · metastatic disease (l
 
 ---
 
-## Q5. Cystitis: Cause, Predisposing Factor.
+</details>
+
+<details>
+<summary><b>Q5. Cystitis: Cause, Predisposing Factor.</b></summary>
 
 ### Definition
 
@@ -310,7 +322,10 @@ Ascending infection → **acute pyelonephritis** · chronic cystitis with fibros
 
 ---
 
-## Q6. Urinary Bladder Tumour: Types, risk factors.
+</details>
+
+<details>
+<summary><b>Q6. Urinary Bladder Tumour: Types, risk factors.</b></summary>
 
 ### Definition
 
@@ -391,7 +406,10 @@ Aromatic amines absorbed → hepatic N-hydroxylation (CYP1A2) → circulating el
 
 ---
 
-## Q7. Mention the types of Urinary stone with the pathogenesis. Mention the complications of urinary stones.
+</details>
+
+<details>
+<summary><b>Q7. Mention the types of Urinary stone with the pathogenesis. Mention the complications of urinary stones.</b></summary>
 
 ### Definition
 
@@ -472,7 +490,10 @@ Often asymptomatic; 🔴 **renal colic** — excruciating loin-to-groin pain whe
 
 ---
 
-## Q8. What are the common causes of urinary tract obstruction?
+</details>
+
+<details>
+<summary><b>Q8. What are the common causes of urinary tract obstruction?</b></summary>
 
 ### Definition
 
@@ -516,3 +537,7 @@ Acute: renal colic ± anuria. Chronic partial: nocturia/polyuria, recurrent UTI/
 > 🎯 **Remember:** "Causes = **STONES-VIT-P**: **S**tones, **T**umours, **O**utflow (BPH), **N**eurogenic bladder, **E**mbryonic (valves/UPJ), **S**tricture-fibrosis, **V**essels/pregnancy compress, **I**nflammation (TB/schisto), **T**raffic-clots-papillae, **P**ressure from outside. Bottom line: **BPH in old men, valves in baby boys, stones everywhere else**; obstruction invites **infection + stones + hydronephrosis**."
 
 > 📖 Robbins 10e, Ch 21 (Lower Urinary Tract), pp. 953–984 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249
+
+---
+
+</details>

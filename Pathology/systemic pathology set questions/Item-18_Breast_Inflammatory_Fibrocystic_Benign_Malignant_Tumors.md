@@ -1,5 +1,4 @@
 # Item 18 — Breast: Inflammatory & Fibrocystic Diseases, Benign & Malignant Tumors
-
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 23 (The Breast)
 > **Topics:** Morphological classification of carcinoma breast, stromal tumors, risk factors, inflammatory disorders, breast abscess, causes of breast lump, triple assessment, fibroadenoma, molecular subtypes of invasive breast cancer, prognostic factors, gynecomastia, clinical cases
 
@@ -7,7 +6,8 @@
 
 # Part A — Morphological Classification & Risk Factors (Q1–2)
 
-## Q1. Classify carcinoma breast according to morphology. Name the stromal tumors of the breast.
+<details>
+<summary><b>Q1. Classify carcinoma breast according to morphology. Name the stromal tumors of the breast.</b></summary>
 
 ### Morphological Classification of Carcinoma of the Breast
 
@@ -60,7 +60,10 @@
 
 ---
 
-## Q2. Mention risk factors of carcinoma breast. How will you diagnose a case of carcinoma cervix?
+</details>
+
+<details>
+<summary><b>Q2. Mention risk factors of carcinoma breast. How will you diagnose a case of carcinoma cervix?</b></summary>
 
 ### Risk Factors of Carcinoma Breast
 
@@ -130,9 +133,12 @@
 
 ---
 
+</details>
+
 # Part B — Inflammatory Disorders & Breast Lump (Q3–4)
 
-## Q3. Name inflammatory disorders of the breast. Discuss breast abscess.
+<details>
+<summary><b>Q3. Name inflammatory disorders of the breast. Discuss breast abscess.</b></summary>
 
 ### Inflammatory Disorders of the Breast
 
@@ -199,7 +205,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-## Q4. Mention the causes of breast lump in females. What is triple assessment?
+</details>
+
+<details>
+<summary><b>Q4. Mention the causes of breast lump in females. What is triple assessment?</b></summary>
 
 ### Causes of Breast Lump in Females
 
@@ -244,9 +253,12 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
+</details>
+
 # Part C — Fibroadenoma & Molecular Subtypes (Q5–6)
 
-## Q5. Mention the morphological features of fibroadenoma of breast.
+<details>
+<summary><b>Q5. Mention the morphological features of fibroadenoma of breast.</b></summary>
 
 ### Definition
 🔴 **Fibroadenoma = the most common benign tumor of the female breast**, a biphasic neoplasm composed of **proliferating intralobular stroma** and **epithelium**. Driven by **somatic MED12 mutations** (~2/3 of cases).
@@ -295,7 +307,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-## Q6. Mention the molecular subtypes of invasive breast cancer.
+</details>
+
+<details>
+<summary><b>Q6. Mention the molecular subtypes of invasive breast cancer.</b></summary>
 
 ### Overview
 🔴 **Invasive breast cancer is classified into 3 major molecular subtypes** based on gene expression profiling, each with distinct genetics, biology, metastatic pattern, and therapy. All arise from the TDLU.
@@ -342,9 +357,12 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
+</details>
+
 # Part D — Prognostic Factors & Gynecomastia (Q7–8)
 
-## Q7. What are the prognostic factors of breast cancer?
+<details>
+<summary><b>Q7. What are the prognostic factors of breast cancer?</b></summary>
 
 ### Overview
 🔴 **Prognostic factors** tell the likely outcome; **predictive factors** tell the likely response to therapy. The AJCC 8th edition combines anatomic staging with prognostic factors (grade, ER, PR, HER2) to create a **prognostic stage**.
@@ -387,7 +405,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-## Q8. Short note: Gynecomastia.
+</details>
+
+<details>
+<summary><b>Q8. Short note: Gynecomastia.</b></summary>
 
 ### Definition
 🔴 **Gynecomastia = benign proliferation of male breast glandular tissue**, producing a palpable subareolar mass. It is **NOT** the same as pseudogynecomastia (fat deposition in obese men).
@@ -445,9 +466,12 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
+</details>
+
 # Part E — Clinical Cases (Q9–10)
 
-## Q9. A 25 yr old woman is presented with a firm, mobile nodule in the outer quadrant of the right breast. Write down your D/D. How will you proceed to investigate the case?
+<details>
+<summary><b>Q9. A 25 yr old woman is presented with a firm, mobile nodule in the outer quadrant of the right breast. Write down your D/D. How will you proceed to investigate the case?</b></summary>
 
 ### Differential Diagnosis
 
@@ -497,7 +521,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-## Q10. A 65 yr old woman is found to have a 1.5 cm firm, fixed, irregular mass in the upper outer quadrant of the left breast. Write down your D/D.
+</details>
+
+<details>
+<summary><b>Q10. A 65 yr old woman is found to have a 1.5 cm firm, fixed, irregular mass in the upper outer quadrant of the left breast. Write down your D/D.</b></summary>
 
 ### Differential Diagnosis
 
@@ -551,9 +578,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 > 🎯 "65 yr + firm/fixed/irregular mass = invasive carcinoma until proven otherwise. Triple assessment → core biopsy + IHC → staging → MDT."
 
 > 📖 Robbins 10e, Ch 23 (The Breast), pp. 1037–1064 · 📗 Arif 15e (2025), Vol-2, Unit-I The Breast, pp. 296–309
-
----
-
 ### 🔗 Source files
 - [Pathology/ch23_Breast.md](../robbins/ch23_Breast.md)
 - [README.md](README.md) · [← Item-17](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · [Item-19 →](Item-19_Endocrine_Thyroid.md)
+
+---
+
+</details>

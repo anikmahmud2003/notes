@@ -1,12 +1,12 @@
 # Item 23 — Skin: Common Terms, Inflammation, Blistering Diseases, Pigmented Skin Lesions, Premalignant & Malignant Conditions
-
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 25 (The Skin), pp. 1133–1170
 > **Author of chapter:** Alexander J. Lazar
 > 🩺 **Every answer is fully Robbins-sourced · 🔴/📌 bold = must-say viva points · 🎯 = one-liner mnemonic**
 
 ---
 
-## Q1. Classify skin tumours.
+<details>
+<summary><b>Q1. Classify skin tumours.</b></summary>
 
 ### Overview
 
@@ -63,7 +63,10 @@ Skin tumours are classified by **cell of origin** and **biological behaviour**. 
 
 ---
 
-## Q2. Mention the premalignant and malignant lesions of the skin.
+</details>
+
+<details>
+<summary><b>Q2. Mention the premalignant and malignant lesions of the skin.</b></summary>
 
 ### Premalignant (Pre-cancerous) Lesions
 
@@ -102,7 +105,10 @@ Invasive SCC (keratin pearls, <5% mets)
 
 ---
 
-## Q3. What are the locally malignant tumours of skin?
+</details>
+
+<details>
+<summary><b>Q3. What are the locally malignant tumours of skin?</b></summary>
 
 ### Definition
 
@@ -143,7 +149,10 @@ BCC invasion:
 
 ---
 
-## Q4. Short note: Squamous cell carcinoma (SCC).
+</details>
+
+<details>
+<summary><b>Q4. Short note: Squamous cell carcinoma (SCC).</b></summary>
 
 ### Definition
 
@@ -217,7 +226,10 @@ Actinic keratosis (TP53 mutation) → SCC in situ (Bowen disease) → Invasive S
 
 ---
 
-## Q5. Short note: Basal cell carcinoma (BCC) / Rodent ulcer.
+</details>
+
+<details>
+<summary><b>Q5. Short note: Basal cell carcinoma (BCC) / Rodent ulcer.</b></summary>
 
 ### Definition
 
@@ -313,7 +325,10 @@ Other histologic features:
 
 ---
 
-## Q6. Short note: Malignant melanoma.
+</details>
+
+<details>
+<summary><b>Q6. Short note: Malignant melanoma.</b></summary>
 
 ### Definition
 
@@ -424,7 +439,10 @@ epidermis + superficial dermis         into deep dermis
 
 ---
 
-## Q7. Mention the inflammatory dermatoses of skin.
+</details>
+
+<details>
+<summary><b>Q7. Mention the inflammatory dermatoses of skin.</b></summary>
 
 ### Classification
 
@@ -496,7 +514,10 @@ Spongiosis: oedema seeps into intercellular spaces of stratum spinosum
 
 ---
 
-## Q8. Classify blistering diseases of skin.
+</details>
+
+<details>
+<summary><b>Q8. Classify blistering diseases of skin.</b></summary>
 
 ### The Key Question
 
@@ -612,7 +633,10 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 
 ---
 
-## 📋 Quick Reference — High-Yield Comparison
+</details>
+
+<details>
+<summary><b>📋 Quick Reference — High-Yield Comparison</b></summary>
 
 ### Skin Cancer at a Glance
 
@@ -635,7 +659,14 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 
 ---
 
-## 🔗 Links
+</details>
+
+<details>
+<summary><b>🔗 Links</b></summary>
 
 - **Previous:** [Item 22](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · **Next:** [Item 24](Item-24_Sample_Collection_Preservation_Processing.md)
 - **Robbins Ch 25 source:** [Pathology/ch25_Skin.md](../robbins/ch25_Skin.md)
+
+---
+
+</details>

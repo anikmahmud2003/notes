@@ -1,12 +1,13 @@
 # Item 7 — Pyelonephritis, UTI, Renal Function Test & Calculi (Question Bank with Answers)
-
 > **Sources:** 📖 Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 20 (The Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 & Unit-II Renal Function Test, pp. 406–432
 > **Topics:** Acute/chronic pyelonephritis · UTI · Renal & urinary calculi · Azotemia/uremia · Complete renal function tests · Urine analysis — proteinuria, glycosuria, ketonuria, casts, crystals, hematuria
 
 ---
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q1. Define Acute pyelonephritis. Mention the etiology of Acute pyelonephritis. Discuss about Predisposing factors of Acute pyelonephritis.
+
+<details>
+<summary><b>Q1. Define Acute pyelonephritis. Mention the etiology of Acute pyelonephritis. Discuss about Predisposing factors of Acute pyelonephritis.</b></summary>
 
 ### Definition
 
@@ -41,7 +42,13 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 > 🎯 **Remember:** "Pyelonephritis = **pus in the kidney** — E. coli climbs up through obstruction/reflux; diabetes and catheters open the door."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q2. What are Complications of Acute Pyelonephritis?
+
+---
+
+</details>
+
+<details>
+<summary><b>Q2. What are Complications of Acute Pyelonephritis?</b></summary>
 
 | Complication | Description / who gets it |
 |---|---|
@@ -56,7 +63,13 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 > 🎯 **Remember:** "**3 P's**: **P**apillary necrosis, **P**yonephrosis, **P**erinephric abscess (+ Pus in blood = urosepsis)."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q3. Define UTI. Discuss the types of UTI. Tell The Urinary Findings of UTI. What is pyuria? Tell the cause of sterile pyuria.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q3. Define UTI. Discuss the types of UTI. Tell The Urinary Findings of UTI. What is pyuria? Tell the cause of sterile pyuria.</b></summary>
 
 ### Definition
 
@@ -98,7 +111,13 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 > 🎯 **Remember:** "UTI = bugs + pus cells + positive nitrite; **Sterile pyuria = TB until proven otherwise** (or half-treated)."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q4. List the name of Causative organisms of UTI. mention the complications of UTI.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q4. List the name of Causative organisms of UTI. mention the complications of UTI.</b></summary>
 
 ### Causative organisms of UTI
 
@@ -123,7 +142,13 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 > 🎯 **Remember:** "E. coli first, Saprophyticus second; upward it travels — **papilla dies, pelvis fills with pus, abscess leaks out**."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q5. Why is UTI more common in females?
+
+---
+
+</details>
+
+<details>
+<summary><b>Q5. Why is UTI more common in females?</b></summary>
 
 1. 🔴 **Short, wide and straight female urethra (~4 cm vs 20 cm in males)** — easy ascending route for perineal/enteric organisms to reach the bladder.
 2. 🔴 **Urethral opening close to the vaginal vestibule and anus** — constant contamination by faecal flora (E. coli colonises the introitus).
@@ -136,7 +161,13 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 > 🎯 **Remember:** "Short tube + near the anus + no prostate juice + honeymoon + pregnancy = female UTI."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q6. Classify Renal stone. What are the common causes of renal stone?
+
+---
+
+</details>
+
+<details>
+<summary><b>Q6. Classify Renal stone. What are the common causes of renal stone?</b></summary>
 
 ### Classification of renal stones
 
@@ -172,7 +203,13 @@ Retention on urothelium (fixed particle) → STONE FORMATION → colic/infection
 > 🎯 **Remember:** "**Calcium 70%, Infection struvite-staghorn, Uric acid invisible (radiolucent), Cystine hexagons**; all need supersaturated urine."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q7. Define azotemia and uraemia. Discuss about causes of uremia/azotemia.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q7. Define azotemia and uraemia. Discuss about causes of uremia/azotemia.</b></summary>
 
 ### Definitions
 
@@ -194,7 +231,13 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Azotemia = **urea up**; uremia = **patient down**. Pre-renal = dry pump, Renal = dead filter, Post-renal = blocked pipe."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q8. Mention the components of Renal function test with their normal values.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q8. Mention the components of Renal function test with their normal values.</b></summary>
 
 ### Components of renal function tests
 
@@ -220,11 +263,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Glomerulus = **Urea-Creatinine-eGFR-Protein**; Tubule = **Specific gravity-Osmolality-PSP-pH**."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q9. Why S. Creatinine is considered as an ideal marker of renal function? Tell the normal value of blood urea & S.Creatinine.
+</details>
+
+<details>
+<summary><b>Q9. Why S. Creatinine is considered as an ideal marker of renal function? Tell the normal value of blood urea & S.Creatinine.</b></summary>
 
 ### Why serum creatinine is an ideal marker
 
@@ -247,11 +293,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Creatinine = **made steadily by muscle, filtered freely, never reabsorbed** — the honest mirror of GFR. Urea 15–45, Creatinine 0.6–1.4."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q10. Mention the components of routine Examination of urine.
+</details>
+
+<details>
+<summary><b>Q10. Mention the components of routine Examination of urine.</b></summary>
 
 | Component | Details |
 |---|---|
@@ -262,11 +311,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Routine urine = **Physical → Chemical → Microscopic** (PCM): look, dip, spin."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q11. Describe briefly the importance of renal function tests.
+</details>
+
+<details>
+<summary><b>Q11. Describe briefly the importance of renal function tests.</b></summary>
 
 1. 🔴 **Detection of renal impairment early** — even before symptoms (raised creatinine/microalbuminuria in diabetes & hypertension).
 2. 🔴 **Differentiation of type of renal failure** — pre-renal (high urea:creatinine ratio, concentrated urine, low urine sodium) vs renal vs post-renal.
@@ -280,11 +332,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "RFT answers five questions — **Is the kidney hurt? Which part? How bad? Getting worse? Can I give this drug?**"
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q12. Enumerate the types of Urine samples.
+</details>
+
+<details>
+<summary><b>Q12. Enumerate the types of Urine samples.</b></summary>
 
 | Type of sample | Use/importance |
 |---|---|
@@ -302,11 +357,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Morning = strongest; Midstream = cleanest; 24-hour = quantitative; Suprapubic = purest."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q13. Indication of 24 hours urinary total protein (UTP).
+</details>
+
+<details>
+<summary><b>Q13. Indication of 24 hours urinary total protein (UTP).</b></summary>
 
 1. 🔴 **Diagnosis of nephrotic syndrome** — confirm proteinuria **≥3.5 g/day/1.73 m²** when dipstick persistently ≥2+ or ++/++++.
 2. **Quantification of proteinuria** when spot urine protein:creatinine ratio is equivocal.
@@ -320,11 +378,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "24-hour UTP = the **gold standard ruler** for protein — nephrotic 3.5, pregnancy 0.3 g."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q14. Enumerate the casts in urine with their interpretation/importance.
+</details>
+
+<details>
+<summary><b>Q14. Enumerate the casts in urine with their interpretation/importance.</b></summary>
 
 🔴 **Casts are cylindrical moulds of Tamm-Horsfall mucoprotein precipitated in the distal convoluted tubule/collecting duct, trapping cells/debris — they localise the lesion to the KIDNEY (upper urinary tract).**
 
@@ -343,11 +404,14 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 > 🎯 **Remember:** "Hyaline harmless · RBC = glomeruli bleed · WBC = pyelonephritis · Fatty = frothy nephrotic · Broad/waxy = failing kidney."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q15. Enumerate Reducing substance of Urine.
+</details>
+
+<details>
+<summary><b>Q15. Enumerate Reducing substance of Urine.</b></summary>
 
 Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
@@ -365,11 +429,14 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** "G-F-G-L-P: **Glucose-Fructose-Galactose-Lactose-Pentose** + Vitamin C fakes it."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q16. Short Note: Urinary crystal.
+</details>
+
+<details>
+<summary><b>Q16. Short Note: Urinary crystal.</b></summary>
 
 📌 **Urinary crystals are inorganic/organic crystalline precipitates found in urine sediment; their type depends chiefly on urine pH and concentration.** Occasional crystals are normal; abundant/persistent crystals suggest stone disease or metabolic disorder.
 
@@ -387,11 +454,14 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** "**Envelope = Oxalate, Coffin-lid = triple Phosphate, Rhombic amber = Uric acid, Hexagon = Cystine.**"
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q17. Define Proteinuria. Mention its cause.
+</details>
+
+<details>
+<summary><b>Q17. Define Proteinuria. Mention its cause.</b></summary>
 
 ### Definition
 
@@ -410,7 +480,13 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** ">150 mg/day is abnormal — think **Leaky glomerulus, Lazy tubule, Overflow flood, Downstream drip, Temporary surge**."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q18. Define massive proteinuria. Mention its cause. What is microalbuminuria and its importance?
+
+---
+
+</details>
+
+<details>
+<summary><b>Q18. Define massive proteinuria. Mention its cause. What is microalbuminuria and its importance?</b></summary>
 
 ### Massive proteinuria
 
@@ -435,7 +511,13 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** "Massive ≥3.5 g/day opens the nephrotic door; Microalbuminuria **30–300 mg/day = diabetes knocking early** (dipstick-blind zone)."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q19. Enumerate the methods of detection of protein in urine.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q19. Enumerate the methods of detection of protein in urine.</b></summary>
 
 1. 🔴 **Dipstick method (tetrabromophenol blue)** — colour change yellow→green/blue graded as trace to ++++; detects mainly **albumin** (negative for Bence-Jones protein & tubular proteins); false positives with very alkaline urine/quaternary ammonium antiseptics; false negatives with dilute urine/vitamin C.
 2. 🔴 **Heat coagulation test** — classic bedside qualitative test (see Q20).
@@ -450,11 +532,14 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** "Dip → Heat → SSA → quantify (24-hr/PCR); **SSA catches Bence-Jones, dipstick misses it**."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q20. Heat coagulation test: Principle, procedure, interpretation.
+</details>
+
+<details>
+<summary><b>Q20. Heat coagulation test: Principle, procedure, interpretation.</b></summary>
 
 ### Principle
 
@@ -480,11 +565,14 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 > 🎯 **Remember:** "**Boil the top third; acid tells the truth** — stays = protein, goes = phosphates, melts on boil = Bence-Jones."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q21. Write in short about Bence-Jones Protein.
+</details>
+
+<details>
+<summary><b>Q21. Write in short about Bence-Jones Protein.</b></summary>
 
 🔴 **Definition: Bence-Jones protein consists of free monoclonal immunoglobulin LIGHT CHAINS (κ or λ, molecular weight ~22 kDa) synthesized excessively by malignant plasma cells; being small they are freely filtered by the glomerulus and appear in urine.**
 
@@ -509,11 +597,14 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "**Cools it comes, boils it goes** — light chains from plasma cells; think MYELOMA and protect the kidney."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q22. Glycosuria: definition, types, causes, method of detection in urine.
+</details>
+
+<details>
+<summary><b>Q22. Glycosuria: definition, types, causes, method of detection in urine.</b></summary>
 
 ### Definition
 
@@ -535,11 +626,14 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "Sugar spills over at **180 mg/dL** — DM tops the list; **Dipstick = only glucose, Benedict's = every reducing sugar**."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q23. Write in short about Benedict's test.
+</details>
+
+<details>
+<summary><b>Q23. Write in short about Benedict's test.</b></summary>
 
 ### Benedict's qualitative test — for reducing sugar in urine
 
@@ -568,11 +662,14 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "**Blue → Green → Yellow → Orange → Brick red** as sugar rises; 5 mL reagent + 8 drops urine + 2 min boil."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q24. Clinical significance of raised S. Uric Acid. what is the normal value of S. Uric acid.
+</details>
+
+<details>
+<summary><b>Q24. Clinical significance of raised S. Uric Acid. what is the normal value of S. Uric acid.</b></summary>
 
 ### Normal value
 
@@ -591,7 +688,13 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "High uric acid = **Joints (gout) + Jewels (stones) + Junked kidney**; watch it during tumor-lysis chemo."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q25. Write in short about S.creatinine with normal value.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q25. Write in short about S.creatinine with normal value.</b></summary>
 
 🔴 **Definition: Serum creatinine is the concentration of creatinine — the cyclic anhydride derivative of creatine phosphate generated constantly from skeletal muscle metabolism — in blood; it is excreted almost entirely by glomerular filtration and therefore serves as the standard clinical index of glomerular filtration rate (GFR).**
 
@@ -604,11 +707,14 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "Creatinine 0.6–1.4 — **muscle-made, kidney-cleared**; doubles when GFR halves."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q26. Name the ketone bodies. Define & mention the cause of ketonuria.
+</details>
+
+<details>
+<summary><b>Q26. Name the ketone bodies. Define & mention the cause of ketonuria.</b></summary>
 
 ### Ketone bodies
 
@@ -632,11 +738,14 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 > 🎯 **Remember:** "Ketones = **Acet-Ace-Beta** (2%–20%–78%); DKA first, starvation second, pregnancy vomit third."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q27. How will you detect Ketone bodies in urine with procedure?
+</details>
+
+<details>
+<summary><b>Q27. How will you detect Ketone bodies in urine with procedure?</b></summary>
 
 ### 1. Rothera's test (classic tube test)
 
@@ -663,11 +772,14 @@ Add 10% ferric chloride dropwise to urine → **burgundy/red-brown (boodo green)
 > 🎯 **Remember:** "**Rothera = Nitroprusside + ammonia → PURPLE ring**; sees acetone + acetoacetate, blind to beta-hydroxybutyrate."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q28. Mention the steps of urine analysis. How urine is prepared for microscopic examination.
+</details>
+
+<details>
+<summary><b>Q28. Mention the steps of urine analysis. How urine is prepared for microscopic examination.</b></summary>
 
 ### Steps of urine analysis
 
@@ -700,11 +812,14 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "**Physical → Chemical → Microscopic**; microscopy prep = **10 mL → 5 min spin → 1 mL left → 1 drop examined**."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q29. Hematuria: Causes, Lab Diagnosis, Causes of painful & Painless Hematuria.
+</details>
+
+<details>
+<summary><b>Q29. Hematuria: Causes, Lab Diagnosis, Causes of painful & Painless Hematuria.</b></summary>
 
 ### Definition
 
@@ -743,7 +858,13 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "**Bloody + painful = stone or infection; bloody + silent = CANCER until proven otherwise**; dysmorphic RBCs + casts = glomerulus."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q30. What do you mean by renal glycosuria?
+
+---
+
+</details>
+
+<details>
+<summary><b>Q30. What do you mean by renal glycosuria?</b></summary>
 
 🔴 **Renal glycosuria is the excretion of glucose in urine despite NORMAL blood glucose level (fasting & postprandial) and normal glucose tolerance, due to a defect in proximal tubular glucose reabsorption (lowered renal threshold) — typically a genetic defect of the sodium-glucose cotransporter SGLT2.**
 
@@ -755,11 +876,14 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "Sugar in urine with **sugar-normal blood** = renal glycosuria — a **leaky tubule tap**, not a diabetic tap."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q31. Difference between Azotemia & Uremia.
+</details>
+
+<details>
+<summary><b>Q31. Difference between Azotemia & Uremia.</b></summary>
 
 | Feature | **Azotemia** | **Uremia** |
 |---|---|---|
@@ -774,7 +898,13 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "Azotemia = **numbers rise**; Uremia = **patient sinks** — same poison, different depth."
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q32. Enumerate the Colors of urine in different conditions.
+
+---
+
+</details>
+
+<details>
+<summary><b>Q32. Enumerate the Colors of urine in different conditions.</b></summary>
 
 | Colour | Condition/cause |
 |---|---|
@@ -793,11 +923,14 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "Foam-yellow = bile; smoky = GN; milky = chyle/pus; black = alkaptonuria/melanin; red without RBCs = Hb/myoglobin/beet."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
-## Q33. How to detect bile salt, ketone body, chyle in urine?
+</details>
+
+<details>
+<summary><b>Q33. How to detect bile salt, ketone body, chyle in urine?</b></summary>
 
 ### 1. Bile salt — Hay's surface tension test
 
@@ -824,7 +957,8 @@ report average count per HPF/LPF
 > 🎯 **Remember:** "**Sulfur sinks = bile salt; green Fouchet = pigment; purple Rothera = ketone; ether clears milk = chyle**."
 
 > 📗 Arif 15e (2025), Vol-2, Unit-II Renal Function Test, pp. 406–432
+> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
 ---
 
-> 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
+</details>

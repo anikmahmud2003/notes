@@ -1,12 +1,12 @@
 # 🩺 VIVA SET — Item 5 · Respiratory System
-
 > **Topic:** COPD · Bronchial Asthma · Bronchiectasis · Bronchogenic Carcinoma · Sputum Examination
 > **Source:** Robbins & Cotran *Pathologic Basis of Disease*, 10th ed. — ch15 (The Lung)
 > **Style:** Every question fully answered · 🔴/📌 **bold = main points to say in viva** · 🎯 = one-liner memorise
 
 ---
 
-## Q1. Classify diseases of the respiratory system. Name the Obstructive Lung Diseases.
+<details>
+<summary><b>Q1. Classify diseases of the respiratory system. Name the Obstructive Lung Diseases.</b></summary>
 
 ### Classification of respiratory diseases
 | System | Diseases |
@@ -31,7 +31,10 @@
 
 ---
 
-## Q2. Define COPD. Mention the causes/etiology of COPD. Enumerate the diseases of COPD with their clinical features.
+</details>
+
+<details>
+<summary><b>Q2. Define COPD. Mention the causes/etiology of COPD. Enumerate the diseases of COPD with their clinical features.</b></summary>
 
 ### Definition (WHO)
 **COPD = persistent respiratory symptoms + airflow limitation caused by abnormalities of the airways and/or alveoli due to significant exposure to noxious particles or gases** (i.e., tobacco smoke). It is a progressive but **treatable** disease. Currently the **4th leading cause of death** (projected 3rd).
@@ -60,7 +63,10 @@
 
 ---
 
-## Q3. Define & Classify Emphysema. Discuss the pathogenesis of Emphysema.
+</details>
+
+<details>
+<summary><b>Q3. Define & Classify Emphysema. Discuss the pathogenesis of Emphysema.</b></summary>
 
 ### Definition
 **Emphysema = irreversible enlargement of the airspaces distal to the terminal bronchiole WITH destruction of their walls** (with functionally important small-airway fibrosis). No visible scarring (unlike fibrosis).
@@ -88,7 +94,10 @@ Loss of **elastic recoil** → ↓ **radial traction** on small airways → resp
 
 ---
 
-## Q4. Define Chronic Bronchitis. Give its pathogenesis.
+</details>
+
+<details>
+<summary><b>Q4. Define Chronic Bronchitis. Give its pathogenesis.</b></summary>
 
 ### Definition (clinical)
 **Persistent cough with sputum production for ≥3 months in ≥2 consecutive years** (other causes excluded). **90% of patients are smokers.**
@@ -113,7 +122,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q5. Difference between Chronic Bronchitis & Emphysema
+</details>
+
+<details>
+<summary><b>Q5. Difference between Chronic Bronchitis & Emphysema</b></summary>
 
 | Feature | **Chronic Bronchitis** | **Emphysema** |
 |---|---|---|
@@ -135,7 +147,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q6. What is Pink Puffer & Blue Bloater? What are the restrictive lung diseases?
+</details>
+
+<details>
+<summary><b>Q6. What is Pink Puffer & Blue Bloater? What are the restrictive lung diseases?</b></summary>
 
 ### Pink Puffer = Emphysema
 - **Barrel chest**, hunched-over posture, **pursed-lip breathing**, severe early dyspnea.
@@ -168,7 +183,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q7. Define Bronchial Asthma. Give its Clinical Features.
+</details>
+
+<details>
+<summary><b>Q7. Define Bronchial Asthma. Give its Clinical Features.</b></summary>
 
 ### Definition
 **Asthma = heterogeneous chronic airway inflammation with variable (reversible) expiratory airflow obstruction** — characterized by **wheezing, shortness of breath, chest tightness, and cough**, occurring typically at **night or early morning**. Bronchoconstriction is **at least partly reversible** (key difference from COPD).
@@ -187,7 +205,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q8. Classification/Etiology of Bronchial Asthma. Difference between Asthma & COPD.
+</details>
+
+<details>
+<summary><b>Q8. Classification/Etiology of Bronchial Asthma. Difference between Asthma & COPD.</b></summary>
 
 ### Classification of asthma (by trigger)
 | Type | Mechanism / trigger |
@@ -214,7 +235,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q9. Discuss the Pathogenesis of Bronchial Asthma. What is status asthmaticus?
+</details>
+
+<details>
+<summary><b>Q9. Discuss the Pathogenesis of Bronchial Asthma. What is status asthmaticus?</b></summary>
 
 ### Pathogenesis (atopic asthma = Th2/IgE axis — Fig 15.10)
 1. **Sensitization** — allergen presented to CD4+ T cells → **Th2 cells**.
@@ -248,7 +272,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q10. Define & Enumerate the Causes of Bronchiectasis. Pathogenesis of Bronchiectasis.
+</details>
+
+<details>
+<summary><b>Q10. Define & Enumerate the Causes of Bronchiectasis. Pathogenesis of Bronchiectasis.</b></summary>
 
 ### Definition
 **Bronchiectasis = permanent (irreversible) dilation of bronchi and bronchioles** due to destruction of smooth muscle and elastic tissue by chronic/necrotizing inflammation. Now uncommon (better infection control).
@@ -282,7 +309,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q11. Difference between Obstructive & Restrictive Lung Disease. Name the restrictive lung diseases.
+</details>
+
+<details>
+<summary><b>Q11. Difference between Obstructive & Restrictive Lung Disease. Name the restrictive lung diseases.</b></summary>
 
 ### Difference
 | Feature | **Obstructive** | **Restrictive** |
@@ -312,7 +342,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q12. Classify Lung Tumour. Give Histological Classification of Lung Tumour by WHO.
+</details>
+
+<details>
+<summary><b>Q12. Classify Lung Tumour. Give Histological Classification of Lung Tumour by WHO.</b></summary>
 
 ### General classification of lung tumors
 | Category | Examples |
@@ -351,7 +384,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q13. Outline the etiopathogenesis of Lung Cancer. How will you diagnose a case of bronchogenic carcinoma?
+</details>
+
+<details>
+<summary><b>Q13. Outline the etiopathogenesis of Lung Cancer. How will you diagnose a case of bronchogenic carcinoma?</b></summary>
 
 ### Etiopathogenesis
 **Risk factors:**
@@ -385,7 +421,10 @@ Progressive lung dysfunction → hypoxemia → **pulmonary hypertension → cor 
 
 ---
 
-## Q14. Write down the morphology of bronchogenic carcinoma.
+</details>
+
+<details>
+<summary><b>Q14. Write down the morphology of bronchogenic carcinoma.</b></summary>
 
 ### 1. Adenocarcinoma (50%)
 - **Site:** **Peripheral**, usually smaller.
@@ -420,7 +459,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## Q15. Write down the morphology of small cell carcinoma of the Lung.
+</details>
+
+<details>
+<summary><b>Q15. Write down the morphology of small cell carcinoma of the Lung.</b></summary>
 
 ### Gross
 - Central (major bronchi) or peripheral mass; bulky, soft, gray-white with **extensive necrosis**.
@@ -450,8 +492,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## Q16. Discuss the paraneoplastic syndromes / extrapulmonary manifestations related to bronchogenic carcinoma.
+</details>
 
+<details>
+<summary><b>Q16. Discuss the paraneoplastic syndromes / extrapulmonary manifestations related to bronchogenic carcinoma.</b></summary>
 
 ### Hormonal (endocrine) syndromes
 | Hormone | Syndrome | Predominant tumor type |
@@ -477,7 +521,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## 🩸 BONUS — SPUTUM EXAMINATION (topic in the title)
+</details>
+
+<details>
+<summary><b>🩸 BONUS — SPUTUM EXAMINATION (topic in the title)</b></summary>
 
 **What to examine in sputum:**
 1. **Macroscopic:** amount, color (yellow-green = pus, rusty = pneumococcus, mucoid blood-tinged = **Klebsiella**), odor (**foul = anaerobic abscess/bronchiectasis**), consistency.
@@ -485,9 +532,6 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 3. **Microbiology:** Gram stain (lancet-shaped **pneumococcus**, Klebsiella), **AFB (acid-fast bacilli — TB)**, culture + sensitivity, Ziehl-Neelsen, KOH for fungi.
 4. **Molecular/PCR** — TB, Legionella; urine antigen for Legionella/pneumococcus.
 5. **Elastic fibers** (lung tissue destruction — abscess, TB).
-
----
-
 ### 📌 Memory anchors
 - **"Obstructive can't blow out, restrictive can't fill up."**
 - **"Pink puffer blows out, blue bloater drowns in his own mucus."**
@@ -498,7 +542,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## Q17. What are causes of pleural effusion? Name the pleural tumors.
+</details>
+
+<details>
+<summary><b>Q17. What are causes of pleural effusion? Name the pleural tumors.</b></summary>
 
 ### Definition
 **Pleural effusion = abnormal accumulation of fluid in the pleural cavity** (normally ≤15 mL of serous fluid). Mechanisms: **↑hydrostatic pressure (CHF)** · **↑vascular permeability (pneumonia)** · **↓osmotic pressure (nephrotic syndrome)** · ↑intrapleural negative pressure (**atelectasis**) · **↓lymphatic drainage (mediastinal carcinomatosis)**.
@@ -528,7 +575,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## Q18. What are the indications of sputum examination? How sputum is tested in laboratory?
+</details>
+
+<details>
+<summary><b>Q18. What are the indications of sputum examination? How sputum is tested in laboratory?</b></summary>
 
 ### 🔴 Indications of sputum examination
 1. 🔴 **Persistent/productive cough ≥2–3 weeks — TB screening** (national guideline indication).
@@ -568,7 +618,10 @@ Focal emphysema, atelectasis, suppurative bronchitis, **SVC syndrome**, pericard
 
 ---
 
-## Q19. Short Note: Pancoast tumour, Pneumoconiosis, Pleural fluid analysis, Pneumothorax, Pulmonary embolism.
+</details>
+
+<details>
+<summary><b>Q19. Short Note: Pancoast tumour, Pneumoconiosis, Pleural fluid analysis, Pneumothorax, Pulmonary embolism.</b></summary>
 
 ### (a) Pancoast Tumour
 🔴 **Bronchogenic carcinoma arising in the apex/superior sulcus of the lung (superior sulcus tumour)** that invades surrounding structures.
@@ -612,7 +665,10 @@ Laboratory work-up of pleural aspirate to classify & diagnose:
 
 ---
 
-## Q20 (PBQ). A 56 years old smoker male presented with firm, fixed lymph nodes at right supraclavicular region. FNAC of the Lymphnodes reveal anaplastic squamous cell carcinoma. Chest X-Ray revealed circumscribed coin like lesion near hilar region of right lung with hilar lymphadenopathy. What is your diagnosis? How will you confirm the diagnosis?
+</details>
+
+<details>
+<summary><b>Q20 (PBQ). A 56 years old smoker male presented with firm, fixed lymph nodes at right supraclavicular region. FNAC of the Lymphnodes reveal anaplastic squamous cell carcinoma. Chest X-Ray revealed circumscribed coin like lesion near hilar region of right lung with hilar lymphadenopathy. What is your diagnosis? How will you confirm the diagnosis?</b></summary>
 
 ### 🔴 Diagnosis
 **BRONCHOGENIC CARCINOMA (SQUAMOUS CELL CARCINOMA) OF THE RIGHT LUNG WITH IPSILATERAL SUPRACLAVICULAR LYMPH NODE METASTASIS (N3 disease).**
@@ -637,8 +693,9 @@ Laboratory work-up of pleural aspirate to classify & diagnose:
 > 🎯 **Smoker + central/hilar coin lesion + squamous cells in node = squamous cell bronchogenic carcinoma with supraclavicular (N3) metastasis; confirm by bronchoscopic biopsy + p40+/TTF-1− IHC + PET-CT staging.**
 
 > 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
+*End of Item 5 viva answers — Respiratory System.*
+> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
 
 ---
 
-*End of Item 5 viva answers — Respiratory System.*
-> 📖 Robbins 10e, Ch 15 (Lung), pp. 673–728 · 📗 Arif 15e (2025), Vol-2, Unit-I Respiratory System, pp. 88–135
+</details>

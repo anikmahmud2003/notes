@@ -1,5 +1,4 @@
 # Item 19 — Endocrine: Thyroid — Hypo- & Hyperthyroidism; Thyroiditis; Tumors; Papillary Carcinoma; Investigation Protocols
-
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 24 (The Endocrine System, pp. 1076–1102)
 > **Topics:** Thyroid neoplasms, hyperthyroidism, thyrotoxicosis, Hashimoto thyroiditis, Graves disease, goiter, papillary carcinoma, thyroid function tests, thyroglossal duct cyst
 
@@ -7,7 +6,8 @@
 
 # Part A — Thyroid Neoplasms & Hyperthyroidism (Q1–4)
 
-## Q1. Name the thyroid neoplasms.
+<details>
+<summary><b>Q1. Name the thyroid neoplasms.</b></summary>
 
 ### Classification of Thyroid Neoplasms
 
@@ -40,7 +40,10 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-## Q2. Define hyperthyroidism and thyrotoxicosis.
+</details>
+
+<details>
+<summary><b>Q2. Define hyperthyroidism and thyrotoxicosis.</b></summary>
 
 ### Definitions
 
@@ -68,7 +71,10 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-## Q3. Mention the causes of thyrotoxicosis.
+</details>
+
+<details>
+<summary><b>Q3. Mention the causes of thyrotoxicosis.</b></summary>
 
 ### Causes of Thyrotoxicosis
 
@@ -101,7 +107,10 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-## Q4. Enumerate the causes of hyperthyroidism.
+</details>
+
+<details>
+<summary><b>Q4. Enumerate the causes of hyperthyroidism.</b></summary>
 
 ### Causes of Hyperthyroidism
 
@@ -134,9 +143,12 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
+</details>
+
 # Part B — Thyroiditis & Goiter (Q5–7)
 
-## Q5. Short note: Hashimoto thyroiditis.
+<details>
+<summary><b>Q5. Short note: Hashimoto thyroiditis.</b></summary>
 
 ### Definition
 🔴 **Hashimoto thyroiditis (chronic lymphocytic thyroiditis) = the most common cause of hypothyroidism in iodine-sufficient areas** and the most common nonendemic goiter in children. An autoimmune disorder characterized by thyroid destruction by autoreactive lymphocytes.
@@ -186,7 +198,10 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-## Q6. What do you mean by goiter? Tell its pathogenesis/ Give the pathogenesis of goiter in iodine deficiency.
+</details>
+
+<details>
+<summary><b>Q6. What do you mean by goiter? Tell its pathogenesis/ Give the pathogenesis of goiter in iodine deficiency.</b></summary>
 
 ### Definition
 🔴 **Goiter = abnormal enlargement of the thyroid gland.** It is a descriptive term, not a specific diagnosis. Can be diffuse or nodular, toxic or nontoxic.
@@ -264,7 +279,10 @@ Compensatory increase in iodide trapping efficiency
 
 ---
 
-## Q7. What is Grave's disease? Give the pathogenesis of Grave's disease.
+</details>
+
+<details>
+<summary><b>Q7. What is Grave's disease? Give the pathogenesis of Grave's disease.</b></summary>
 
 ### Definition
 🔴 **Graves disease = the most common cause of endogenous hyperthyroidism** (~85% of thyrotoxicosis cases). An autoimmune disorder characterized by stimulatory autoantibodies against the TSH receptor, causing diffuse thyroid hyperplasia, hyperthyroidism, and characteristic extrathyroidal manifestations.
@@ -363,9 +381,12 @@ TSH RECEPTOR ANTIBODIES:
 
 ---
 
+</details>
+
 # Part C — Papillary Carcinoma & Investigation (Q8–9)
 
-## Q8. Short note: Papillary carcinoma of thyroid.
+<details>
+<summary><b>Q8. Short note: Papillary carcinoma of thyroid.</b></summary>
 
 ### Definition
 🔴 **Papillary thyroid carcinoma (PTC) = the most common thyroid malignancy (~80–85% of thyroid cancers)** and the most common endocrine malignancy overall. Arises from follicular epithelial cells.
@@ -447,7 +468,10 @@ TSH RECEPTOR ANTIBODIES:
 
 ---
 
-## Q9. What are the thyroid function tests? How hypo and hyperthyroidism and its types can be diagnosed by these tests?
+</details>
+
+<details>
+<summary><b>Q9. What are the thyroid function tests? How hypo and hyperthyroidism and its types can be diagnosed by these tests?</b></summary>
 
 ### Thyroid Function Tests
 
@@ -531,9 +555,12 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 ---
 
+</details>
+
 # Part D — Clinical Case & Thyroglossal Duct Cyst (Q10–11)
 
-## Q10. A female of 24 years presenting with neck swelling and leg edema. Her TSH is done and found high. What is your provisional diagnosis? What investigations do you have to do further?
+<details>
+<summary><b>Q10. A female of 24 years presenting with neck swelling and leg edema. Her TSH is done and found high. What is your provisional diagnosis? What investigations do you have to do further?</b></summary>
 
 ### Analysis of the Case
 - **Age/Sex:** 24-year-old female
@@ -598,7 +625,10 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 ---
 
-## Q11. Notes on Thyroglossal duct cyst.
+</details>
+
+<details>
+<summary><b>Q11. Notes on Thyroglossal duct cyst.</b></summary>
 
 ### Definition
 🔴 **Thyroglossal duct cyst = the most common clinically significant congenital anomaly of the thyroid gland.** A remnant of the thyroglossal duct — the tract along which the thyroid descends from the foramen cecum of the tongue to its final position in the anterior neck during embryological development.
@@ -670,9 +700,10 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 > 🎯 "Thyroglossal duct cyst = most common congenital neck midline mass; moves with swallowing + tongue protrusion; Sistrunk procedure; rule out ectopic thyroid."
 
 > 📖 Robbins 10e, Ch 24 (Endocrine System — Thyroid), pp. 1065–1132 · 📗 Arif 15e (2025), Vol-2, Unit-I Endocrine System, pp. 310–335
-
----
-
 ### 🔗 Source files
 - [Pathology/ch24_Endocrine.md](../robbins/ch24_Endocrine.md)
 - [README.md](README.md) · [← Item-18](Item-18_Breast_Inflammatory_Fibrocystic_Benign_Malignant_Tumors.md) · [Item-21 →](Item-21_Eye_ENT_CNS.md)
+
+---
+
+</details>

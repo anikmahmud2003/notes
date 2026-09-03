@@ -1,10 +1,10 @@
 # Item 26 — Cytopathology Techniques: FNAC, Pap Smear, Cytological Staining & Fixatives
-
 > **Source:** Orell & Sterrett, *Fine Needle Aspiration Cytology* · Koss, *Diagnostic Cytology* · Culling's Handbook · WHO cytology references
 
 ---
 
-## Q1. What are the types of cytopathology? Mention with examples.
+<details>
+<summary><b>Q1. What are the types of cytopathology? Mention with examples.</b></summary>
 
 ### Definition
 🔴 **Cytopathology (exfoliative + aspiration cytology) = the study of DISEASE at the level of individual CELLS.** Unlike histopathology (which studies intact tissue architecture), cytopathology examines **cells** that have been **exfoliated (shed), scraped, or aspirated** from the body — it answers "what cells are present and are they benign or malignant?" but loses the tissue architecture.
@@ -24,7 +24,10 @@
 
 ---
 
-## Q2. Short note: Exfoliative cytology, Abrasive cytology.
+</details>
+
+<details>
+<summary><b>Q2. Short note: Exfoliative cytology, Abrasive cytology.</b></summary>
 
 ### Exfoliative cytology
 - Study of cells that **shed spontaneously** (exfoliate) from a surface into a lumen or cavity.
@@ -47,7 +50,10 @@
 
 ---
 
-## Q3. What is FNAC. Mention the advantages of FNAC.
+</details>
+
+<details>
+<summary><b>Q3. What is FNAC. Mention the advantages of FNAC.</b></summary>
 
 ### Definition
 🔴 **FNAC = Fine Needle Aspiration Cytology — a technique in which cells are aspirated from a palpable or image-detected lesion using a THIN needle (22–25 G), smeared onto slides, stained and examined microscopically.** It is a cytological (not histological) method — cells only, no tissue architecture.
@@ -75,7 +81,10 @@
 
 ---
 
-## Q4. Describe shortly the procedure of FNAC.
+</details>
+
+<details>
+<summary><b>Q4. Describe shortly the procedure of FNAC.</b></summary>
 
 ### Equipment
 - 10–20 ml syringe (or **syringe holder/pistol** for one-handed control) with **22–25 G needle** (🔴 thin needle).
@@ -101,7 +110,10 @@
 
 ---
 
-## Q5. What types of needle is used in FNAC? Mention the complications of FNAC.
+</details>
+
+<details>
+<summary><b>Q5. What types of needle is used in FNAC? Mention the complications of FNAC.</b></summary>
 
 ### Needles
 | Needle gauge (G) | Use |
@@ -130,7 +142,10 @@
 
 ---
 
-## Q6. How the tumors in deep seated organs (Liver, lung) can be sampled for cytopathology?
+</details>
+
+<details>
+<summary><b>Q6. How the tumors in deep seated organs (Liver, lung) can be sampled for cytopathology?</b></summary>
 
 Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroperitoneum) cannot be palpated — they are sampled under **IMAGE GUIDANCE**:
 
@@ -150,7 +165,10 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q7. Mention the names cytological staining methods. Which one is used commonly?
+</details>
+
+<details>
+<summary><b>Q7. Mention the names cytological staining methods. Which one is used commonly?</b></summary>
 
 | Stain | Type / cells shown | Best for |
 |---|---|---|
@@ -175,7 +193,10 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q8. Name the fixatives used in cytopathology. Which one is most commonly used? What is coating fixative?
+</details>
+
+<details>
+<summary><b>Q8. Name the fixatives used in cytopathology. Which one is most commonly used? What is coating fixative?</b></summary>
 
 | Fixative | Use |
 |---|---|
@@ -201,7 +222,10 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 
 ---
 
-## Q9. Between Biopsy & FNAC; Which in one is better for diagnosis & Why?
+</details>
+
+<details>
+<summary><b>Q9. Between Biopsy & FNAC; Which in one is better for diagnosis & Why?</b></summary>
 
 | Feature | **FNAC (cytology)** | **Biopsy (histology)** |
 |---|---|---|
@@ -223,9 +247,10 @@ Deep-seated organs (lung, liver, pancreas, kidney, thyroid mediastinum, retroper
 > 🎯 "FNAC screens (fast, cheap, cells); biopsy confirms (architecture, grade, invasion, IHC) — FNAC asks the question, biopsy gives the final answer."
 
 > 📖 Orell & Sterrett, Fine Needle Aspiration Cytology, 5th ed.; Koss' Diagnostic Cytology — FNAC & exfoliative cytology chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
-
----
-
 ### 🔗 Source files
 - [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-25](Item-25_Autopsy_Histopathology_Techniques.md) · [Item-15 →](Item-15_Testis_Prostate_Semen.md)
+
+---
+
+</details>

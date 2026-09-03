@@ -1,10 +1,10 @@
 # Item 11 — Intestine: IBD, Appendicitis & Colorectal Carcinoma (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
 
 ---
 
-## Q1. Name some congenital anomalies of GIT.
+<details>
+<summary><b>Q1. Name some congenital anomalies of GIT.</b></summary>
 
 | Anomaly | Key features |
 |---|---|
@@ -24,7 +24,10 @@
 
 ---
 
-## Q2. Mention some causes of intestinal obstruction.
+</details>
+
+<details>
+<summary><b>Q2. Mention some causes of intestinal obstruction.</b></summary>
 
 ### Mechanical obstruction
 
@@ -45,7 +48,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q3. Define polyp. Classify polyps of intestine.
+</details>
+
+<details>
+<summary><b>Q3. Define polyp. Classify polyps of intestine.</b></summary>
 
 ### Definition
 **Polyp = any mass of tissue that projects/protrudes above the level of the mucosal surface into the intestinal lumen** — a gross descriptive term, not a histologic diagnosis.
@@ -73,7 +79,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q4. Name the inflammatory bowel diseases.
+</details>
+
+<details>
+<summary><b>Q4. Name the inflammatory bowel diseases.</b></summary>
 
 🔴 **The two classic IBDs:**
 1. **Crohn disease (CD)** — segmental transmural inflammation anywhere from mouth to anus.
@@ -88,7 +97,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q5. Differentiate between inflammatory bowel disease (IBD) and IBS.
+</details>
+
+<details>
+<summary><b>Q5. Differentiate between inflammatory bowel disease (IBD) and IBS.</b></summary>
 
 | Feature | **IBD (organic inflammation)** | **IBS (functional disorder)** |
 |---|---|---|
@@ -106,7 +118,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q6. Mention important features of Crohn's disease.
+</details>
+
+<details>
+<summary><b>Q6. Mention important features of Crohn's disease.</b></summary>
 
 ### Definition
 **Crohn disease = a chronic relapsing-remitting, TRANSMURAL, segmental (skip-lesion) granulomatous inflammatory bowel disease that may affect ANY part of the GIT from mouth to anus, most often the terminal ileum.**
@@ -129,7 +144,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q7. Differentiate between Crohn's disease and ulcerative colitis.
+</details>
+
+<details>
+<summary><b>Q7. Differentiate between Crohn's disease and ulcerative colitis.</b></summary>
 
 | Feature | **Crohn disease** | **Ulcerative colitis** |
 |---|---|---|
@@ -154,7 +172,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q8. Name some ulcers of GIT / stomach / intestine.
+</details>
+
+<details>
+<summary><b>Q8. Name some ulcers of GIT / stomach / intestine.</b></summary>
 
 | Ulcer | Characteristic feature |
 |---|---|
@@ -180,7 +201,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q9. Classify tumours of intestine.
+</details>
+
+<details>
+<summary><b>Q9. Classify tumours of intestine.</b></summary>
 
 | Category | Small intestine | Large intestine (colon/rectum) |
 |---|---|---|
@@ -198,7 +222,10 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 
 ---
 
-## Q10. Short note on: GIST, Hirschsprung disease, Pseudomyxoma peritonei.
+</details>
+
+<details>
+<summary><b>Q10. Short note on: GIST, Hirschsprung disease, Pseudomyxoma peritonei.</b></summary>
 
 ### (a) GIST — Gastrointestinal Stromal Tumour
 **Definition: the most common MESENCHYMAL (stromal) neoplasm of the GI tract, arising from interstitial cells of Cajal (pacemaker cells), showing KIT (CD117) or DOG1 expression.**
@@ -212,9 +239,6 @@ Colicky pain, distension, bilious vomiting, **obstipation**; X-ray: dilated loop
 > 🎯 "**GIST = Cajal cell tumour, KIT/DOG1+, imatinib-responsive; behaviour = size + mitoses.**"
 
 > 📖 Robbins 10e, Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
-
----
-
 ### (b) Hirschsprung disease
 **Definition: congenital aganglionic megacolon — absence of ganglion cells of BOTH the Meissner (submucosal) and Auerbach (myenteric) plexuses in a segment of colon due to arrest of neural-crest cell migration, causing functional obstruction.**
 - **Genetics:** 🔴 loss-of-function **RET mutations** (majority familial cases); EDNRB/EDN3 ligand-receptor pair; **~10% associated with Down syndrome**.
@@ -233,9 +257,6 @@ Neural crest cells fail to migrate/die prematurely (craniocaudal)
 > 🎯 "**No ganglion cells (Meissner+Auerbach) in RECTUM → no meconium; RET gene; AChE stain confirms.**"
 
 > 📖 Robbins 10e, Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
-
----
-
 ### (c) Pseudomyxoma peritonei
 **Definition: accumulation of copious gelatinous/mucinous ascites with implants of mucinous epithelium on the peritoneal surfaces, producing progressive 'jelly belly' distension.**
 - 🔴 **Source: rupture (or transmural spread) of a low-grade appendiceal mucinous neoplasm (LAMN)** in most cases; occasionally ovarian mucinous tumours (GI-type should raise suspicion of occult appendiceal primary).
@@ -249,7 +270,10 @@ Neural crest cells fail to migrate/die prematurely (craniocaudal)
 
 ---
 
-## Q11. Etiopathogenesis of acute appendicitis.
+</details>
+
+<details>
+<summary><b>Q11. Etiopathogenesis of acute appendicitis.</b></summary>
 
 ### Definition
 **Acute appendicitis = acute transmural inflammation of the appendix, almost always initiated by luminal OBSTRUCTION, culminating in bacterial invasion, ischemic necrosis and possible perforation — the most common cause of the acute abdomen requiring surgery.**
@@ -284,7 +308,10 @@ Localized periappendicular abscess OR generalized PERITONITIS
 
 ---
 
-## Q12. Complications of acute appendicitis.
+</details>
+
+<details>
+<summary><b>Q12. Complications of acute appendicitis.</b></summary>
 
 | Complication | Mechanism/features |
 |---|---|
@@ -305,7 +332,10 @@ Localized periappendicular abscess OR generalized PERITONITIS
 
 ---
 
-## Q13. Name some tumours of appendix.
+</details>
+
+<details>
+<summary><b>Q13. Name some tumours of appendix.</b></summary>
 
 | Tumour | Key facts |
 |---|---|
@@ -324,7 +354,10 @@ Localized periappendicular abscess OR generalized PERITONITIS
 
 ---
 
-## Q14. What do you mean by IBS & IBD? Give the difference between IBS & IBD.
+</details>
+
+<details>
+<summary><b>Q14. What do you mean by IBS & IBD? Give the difference between IBS & IBD.</b></summary>
 
 ### Definitions
 - 🔴 **IBS (irritable bowel syndrome)** = a **chronic FUNCTIONAL disorder of gut-brain interaction** characterized by recurrent abdominal pain related to defecation with altered bowel frequency/form (**Rome criteria**, ≥3 months) **without any demonstrable structural, inflammatory or biochemical abnormality**.
@@ -350,7 +383,10 @@ Localized periappendicular abscess OR generalized PERITONITIS
 
 ---
 
-## Q15. What are risk factor /predisposing factor for Colorectal carcinoma? Give the pathogenesis of colorectal carcinoma.
+</details>
+
+<details>
+<summary><b>Q15. What are risk factor /predisposing factor for Colorectal carcinoma? Give the pathogenesis of colorectal carcinoma.</b></summary>
 
 ### Risk factors
 
@@ -394,7 +430,10 @@ Right colon — fungating/bulky exophytic masses (wide lumen, liquid stool → l
 
 ---
 
-## Q16. Problem-based question: A man presented with acute abdominal pain, vomiting, and fever. On examination, tenderness was observed in the right iliac fossa. Blood picture shows neutrophilic leukocytosis. (a) What is your diagnosis? (b) What are the possible etiologies and complications? (c) After operation, what do you expect in the histopathology?
+</details>
+
+<details>
+<summary><b>Q16. Problem-based question: A man presented with acute abdominal pain, vomiting, and fever. On examination, tenderness was observed in the right iliac fossa. Blood picture shows neutrophilic leukocytosis. (a) What is your diagnosis? (b) What are the possible etiologies and complications? (c) After operation, what do you expect in the histopathology?</b></summary>
 
 ### (a) Diagnosis
 🔴 **Acute appendicitis** (acute suppurative appendicitis).
@@ -436,3 +475,7 @@ Supporting points:
 > 🎯 "PBQ triad: **RLQ tenderness + fever + neutrophilia = acute appendicitis** → histo says *neutrophils through ALL layers ± fecolith ± gangrene*."
 
 > 📖 Robbins 10e, Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Gastrointestinal System, pp. 144–191
+
+---
+
+</details>

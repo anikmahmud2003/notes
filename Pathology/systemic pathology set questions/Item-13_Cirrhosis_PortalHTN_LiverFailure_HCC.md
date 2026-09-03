@@ -1,10 +1,10 @@
 # Item 13 — Cirrhosis, Portal HTN, Liver Failure & HCC (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 18 (Liver and Gallbladder), pp. 823–880 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224 · Unit-II Liver Function Test and Jaundice, pp. 392–405
 
 ---
 
-## Q1. Definition of cirrhosis of liver. What is chronic liver disease?
+<details>
+<summary><b>Q1. Definition of cirrhosis of liver. What is chronic liver disease?</b></summary>
 
 ### Definition of cirrhosis
 
@@ -25,7 +25,10 @@
 
 ---
 
-## Q2. List the causes of cirrhosis. Mention the causes common in Bangladesh.
+</details>
+
+<details>
+<summary><b>Q2. List the causes of cirrhosis. Mention the causes common in Bangladesh.</b></summary>
 
 ### Causes of cirrhosis
 
@@ -57,7 +60,10 @@
 
 ---
 
-## Q3. Classify cirrhosis of liver according to etiology / What are the causes (etiology) of cirrhosis of liver.
+</details>
+
+<details>
+<summary><b>Q3. Classify cirrhosis of liver according to etiology / What are the causes (etiology) of cirrhosis of liver.</b></summary>
 
 ### Etiologic classification of cirrhosis
 
@@ -80,7 +86,10 @@
 
 ---
 
-## Q4. Classify cirrhosis morphologically. How cirrhosis is graded histologically/clinically?
+</details>
+
+<details>
+<summary><b>Q4. Classify cirrhosis morphologically. How cirrhosis is graded histologically/clinically?</b></summary>
 
 ### Morphological classification
 
@@ -115,7 +124,10 @@
 
 ---
 
-## Q5. Describe the pathogenesis of cirrhosis of liver in chronic viral hepatitis.
+</details>
+
+<details>
+<summary><b>Q5. Describe the pathogenesis of cirrhosis of liver in chronic viral hepatitis.</b></summary>
 
 ### Pathogenesis (chronic HBV/HCV → cirrhosis)
 
@@ -151,7 +163,10 @@ Septa distort vasculature → intrahepatic shunts + increased sinusoidal resista
 
 ---
 
-## Q6. What is NASH? How Non alcoholic fatty liver disease may give rise to cirrhosis?
+</details>
+
+<details>
+<summary><b>Q6. What is NASH? How Non alcoholic fatty liver disease may give rise to cirrhosis?</b></summary>
 
 ### NASH — definition
 
@@ -192,7 +207,10 @@ Risk continues: HCC even in NAFLD-related cirrhosis (<1%/yr)
 
 ---
 
-## Q7. Give the pathogenesis of ascites in cirrhosis.
+</details>
+
+<details>
+<summary><b>Q7. Give the pathogenesis of ascites in cirrhosis.</b></summary>
 
 ### Pathogenesis of ascites in cirrhosis
 
@@ -235,7 +253,10 @@ Contributing factors to enumerate:
 
 ---
 
-## Q8. Discuss the pathology / morphology of cirrhosis of liver.
+</details>
+
+<details>
+<summary><b>Q8. Discuss the pathology / morphology of cirrhosis of liver.</b></summary>
 
 ### Gross morphology
 
@@ -263,7 +284,10 @@ Contributing factors to enumerate:
 
 ---
 
-## Q9. Enumerate the clinical features of cirrhosis of liver.
+</details>
+
+<details>
+<summary><b>Q9. Enumerate the clinical features of cirrhosis of liver.</b></summary>
 
 ### Clinical features grouped by mechanism
 
@@ -281,7 +305,10 @@ Contributing factors to enumerate:
 
 ---
 
-## Q10. Enumerate the complications of cirrhosis of liver.
+</details>
+
+<details>
+<summary><b>Q10. Enumerate the complications of cirrhosis of liver.</b></summary>
 
 | Complication | Key points |
 |---|---|
@@ -303,7 +330,10 @@ Contributing factors to enumerate:
 
 ---
 
-## Q11. Pathogenesis of edema in cirrhosis of liver.
+</details>
+
+<details>
+<summary><b>Q11. Pathogenesis of edema in cirrhosis of liver.</b></summary>
 
 ### Pathogenesis of peripheral edema in cirrhosis
 
@@ -339,7 +369,10 @@ Contributing factors:
 
 ---
 
-## Q12. What do you mean by acute liver failure? What are the causes of acute liver failure?
+</details>
+
+<details>
+<summary><b>Q12. What do you mean by acute liver failure? What are the causes of acute liver failure?</b></summary>
 
 ### Definition
 
@@ -362,7 +395,10 @@ Contributing factors:
 
 ---
 
-## Q13. List the neoplasms of liver. Give the morphology of hepatocellular carcinoma.
+</details>
+
+<details>
+<summary><b>Q13. List the neoplasms of liver. Give the morphology of hepatocellular carcinoma.</b></summary>
 
 ### Neoplasms of the liver
 
@@ -396,7 +432,10 @@ Contributing factors:
 
 ---
 
-## Q14. What is hepatorenal syndrome? What is hepatopulmonary syndrome?
+</details>
+
+<details>
+<summary><b>Q14. What is hepatorenal syndrome? What is hepatopulmonary syndrome?</b></summary>
 
 ### Hepatorenal syndrome (HRS)
 
@@ -427,7 +466,10 @@ Contributing factors:
 
 ---
 
-## Q15. What are features of liver failure? How liver failure can be diagnosed in laboratory?
+</details>
+
+<details>
+<summary><b>Q15. What are features of liver failure? How liver failure can be diagnosed in laboratory?</b></summary>
 
 ### Clinical features of liver failure
 
@@ -463,7 +505,10 @@ Contributing factors:
 
 ---
 
-## Q16. Give the pathogenesis of hepatic encephalopathy and coagulopathy in liver failure.
+</details>
+
+<details>
+<summary><b>Q16. Give the pathogenesis of hepatic encephalopathy and coagulopathy in liver failure.</b></summary>
 
 ### Pathogenesis of hepatic encephalopathy
 
@@ -516,7 +561,10 @@ Cholestasis → bile salt lack → vitamin K malabsorption
 
 ---
 
-## Q17. Problem-based question: A male of 50 years has presented with weakness, tiredness and hepatomegaly for few months. He has got history of hepatitis B infection few years back. USG revealed Cirrhosis with a SOL in the right lobe of liver. (a) What is your diagnosis? (b) How will you proceed to confirm the diagnosis?
+</details>
+
+<details>
+<summary><b>Q17. Problem-based question: A male of 50 years has presented with weakness, tiredness and hepatomegaly for few months. He has got history of hepatitis B infection few years back. USG revealed Cirrhosis with a SOL in the right lobe of liver. (a) What is your diagnosis? (b) How will you proceed to confirm the diagnosis?</b></summary>
 
 ### (a) Diagnosis
 
@@ -545,3 +593,7 @@ Supporting points:
 > 🎯 "**PBQ recipe: HBV + cirrhosis + SOL = HCC until proven otherwise; confirm with AFP + triple-phase CT (washout!) + biopsy only if atypical — 'marker, scanner, needler'.**"
 
 > 📖 Robbins 10e, Ch 18 (Liver and Gallbladder), pp. 823–880 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224 · Unit-II Liver Function Test and Jaundice, pp. 392–405
+
+---
+
+</details>

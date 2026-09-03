@@ -1,10 +1,10 @@
 # Item 14 — Gallbladder & Pancreas (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 18 (Liver and Gallbladder), pp. 823–880 · Ch 19 (Pancreas), pp. 881–894 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224
 
 ---
 
-## Q1. Define cholelithiasis. Give the classification of gallstones.
+<details>
+<summary><b>Q1. Define cholelithiasis. Give the classification of gallstones.</b></summary>
 
 ### Definition
 
@@ -25,7 +25,10 @@
 
 ---
 
-## Q2. Mention the etiology / risk factors of Cholesterol gall stone.
+</details>
+
+<details>
+<summary><b>Q2. Mention the etiology / risk factors of Cholesterol gall stone.</b></summary>
 
 ### Risk factors for cholesterol gallstones
 
@@ -46,7 +49,10 @@
 
 ---
 
-## Q3. Mention the pathogenesis of Cholesterol gallstone formation.
+</details>
+
+<details>
+<summary><b>Q3. Mention the pathogenesis of Cholesterol gallstone formation.</b></summary>
 
 ### Pathogenesis of cholesterol gallstone formation
 
@@ -82,7 +88,10 @@ Crystals trapped by stagnant bile → grow + aggregate
 
 ---
 
-## Q4. Mention the complications of gallstones.
+</details>
+
+<details>
+<summary><b>Q4. Mention the complications of gallstones.</b></summary>
 
 ### Complications of gallstones
 
@@ -107,7 +116,10 @@ Crystals trapped by stagnant bile → grow + aggregate
 
 ---
 
-## Q5. Mention the pathogenesis of pigment gallstones.
+</details>
+
+<details>
+<summary><b>Q5. Mention the pathogenesis of pigment gallstones.</b></summary>
 
 ### Pathogenesis of pigment stone formation
 
@@ -154,7 +166,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q6. Short note: Acute cholecystitis.
+</details>
+
+<details>
+<summary><b>Q6. Short note: Acute cholecystitis.</b></summary>
 
 ### Acute cholecystitis
 
@@ -176,7 +191,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q7. What are the morphological changes in chronic cholecystitis?
+</details>
+
+<details>
+<summary><b>Q7. What are the morphological changes in chronic cholecystitis?</b></summary>
 
 ### Morphology of chronic cholecystitis
 
@@ -205,7 +223,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q8. What type of carcinoma occurs in the gall bladder?
+</details>
+
+<details>
+<summary><b>Q8. What type of carcinoma occurs in the gall bladder?</b></summary>
 
 ### Carcinoma of the gallbladder
 
@@ -225,7 +246,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q9. What are the common causes of acute pancreatitis?
+</details>
+
+<details>
+<summary><b>Q9. What are the common causes of acute pancreatitis?</b></summary>
 
 ### Common causes of acute pancreatitis
 
@@ -251,7 +275,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q10. What are the clinical presentations of acute pancreatitis? How it is diagnosed in laboratory?
+</details>
+
+<details>
+<summary><b>Q10. What are the clinical presentations of acute pancreatitis? How it is diagnosed in laboratory?</b></summary>
 
 ### Clinical presentations
 
@@ -283,7 +310,10 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-## Q11. Problem-based question: A woman presents with right upper quadrant abdominal pain for the past 6 hours. The pain suddenly starts after a heavy fatty meal and radiates to her right shoulder and back. She has associated nausea and vomiting. On examination, Murphy's sign is positive. Blood picture shows leucocytosis. Questions: (a) What is your clinical diagnosis? (b) Mention the pathogenesis. (c) Mention the complications.
+</details>
+
+<details>
+<summary><b>Q11. Problem-based question: A woman presents with right upper quadrant abdominal pain for the past 6 hours. The pain suddenly starts after a heavy fatty meal and radiates to her right shoulder and back. She has associated nausea and vomiting. On examination, Murphy's sign is positive. Blood picture shows leucocytosis. Questions: (a) What is your clinical diagnosis? (b) Mention the pathogenesis. (c) Mention the complications.</b></summary>
 
 ### (a) Clinical diagnosis
 
@@ -337,3 +367,7 @@ neutrophilic infiltrate ± necrosis (gangrenous) — leukocytosis
 > 🎯 "**PBQ formula: fatty meal + RUQ pain to right shoulder + Murphy+ + leukocytosis = ACUTE CALCULOUS CHOLECYSTITIS; chain = CCK squeeze → stone stuck → chemical burn → ischemia → germs; watch out for gangrene-perforation-gallstone ileus.**"
 
 > 📖 Robbins 10e, Ch 18 (Liver and Gallbladder), pp. 823–880 · 📗 Arif 15e (2025), Vol-2, Unit-I Liver and Biliary Tract, pp. 192–224
+
+---
+
+</details>

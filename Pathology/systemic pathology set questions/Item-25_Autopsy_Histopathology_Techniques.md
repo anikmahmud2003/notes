@@ -1,10 +1,10 @@
 # Item 25 — Autopsy, Techniques in Histopathology, Gross Examination & Tissue Processing
-
 > **Source:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. · Bancroft & Gamble, *Theory and Practice of Histological Techniques* · Culling's Handbook
 
 ---
 
-## Q1. What is biopsy and autopsy? How histopathology helps the autopsy procedure?
+<details>
+<summary><b>Q1. What is biopsy and autopsy? How histopathology helps the autopsy procedure?</b></summary>
 
 ### Definitions
 - 🔴 **Biopsy = removal of a small piece of tissue from a LIVING patient for diagnostic examination** (e.g., tumour typing/grading, confirming inflammation, transplant surveillance).
@@ -30,7 +30,10 @@
 
 ---
 
-## Q2. Define & classify biopsy. Write shortly on core biopsy.
+</details>
+
+<details>
+<summary><b>Q2. Define & classify biopsy. Write shortly on core biopsy.</b></summary>
 
 ### Definition
 **Biopsy = removal of tissue from a living patient for diagnostic (microscopic) examination.** The technique is chosen by the **site, size and nature** of the lesion and by how much tissue is needed.
@@ -60,7 +63,10 @@
 
 ---
 
-## Q3. State the steps in histopathology.
+</details>
+
+<details>
+<summary><b>Q3. State the steps in histopathology.</b></summary>
 
 ```
 Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sectioning → Staining → Mounting → Microscopy & report
@@ -82,7 +88,10 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-## Q4. What is Frozen Section? Write its indication, use, limitation.
+</details>
+
+<details>
+<summary><b>Q4. What is Frozen Section? Write its indication, use, limitation.</b></summary>
 
 ### Definition
 🔴 **A frozen section is a rapid tissue diagnosis made WHILE THE PATIENT IS STILL ON THE OPERATING TABLE** by freezing the fresh tissue instead of the multi-day paraffin process.
@@ -112,7 +121,10 @@ Guides the surgical decision **in the same sitting** and avoids a second operati
 
 ---
 
-## Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.
+</details>
+
+<details>
+<summary><b>Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.</b></summary>
 
 ### Definition
 **Tissue preservatives = agents that keep tissue from deteriorating after removal**, preventing **autolysis** (self-digestion by the tissue's own enzymes) and **putrefaction** (decay by bacteria), so the sample remains fit for study.
@@ -142,7 +154,10 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-## Q6. What is fixatives? Mention aim of fixation. Classification of fixatives.
+</details>
+
+<details>
+<summary><b>Q6. What is fixatives? Mention aim of fixation. Classification of fixatives.</b></summary>
 
 ### Definition
 **Fixative = a chemical (or physical) agent used to FIX (preserve) tissue** so that morphology is retained close to the living state and the tissue is **hardened** for sectioning. **Fixation is the FIRST and MOST IMPORTANT step of tissue handling.**
@@ -174,7 +189,10 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-## Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?
+</details>
+
+<details>
+<summary><b>Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?</b></summary>
 
 ### Steps (in order)
 ```
@@ -200,7 +218,10 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-## Q8. What are the staining methods used in histopathology? What is the purpose of staining?
+</details>
+
+<details>
+<summary><b>Q8. What are the staining methods used in histopathology? What is the purpose of staining?</b></summary>
 
 ### Purpose of staining
 - Fixed tissue sections are **colourless** and show no contrast — **stains make components visible under the microscope**.
@@ -231,9 +252,10 @@ Antibody-based staining for **specific proteins/antigens** (e.g., CK, CD markers
 > 🎯 "H&E first; special stains confirm what H&E suggests (e.g., amyloid = Congo red, iron = Perls, AFB = Ziehl-Neelsen)."
 
 > 📖 Bancroft & Gamble, Theory and Practice of Histological Techniques, 8th ed. — fixation, processing, staining chapters · 📗 Arif 15e (2025), Vol-2, Unit-II Miscellaneous, p. 499
-
----
-
 ### 🔗 Source files
 - [Pathology/README.md](../README.md) · [README.md](README.md)
 - [← Item-24](Item-24_Sample_Collection_Preservation_Processing.md) · [Item-26 →](Item-26_Cytopathology_Techniques.md)
+
+---
+
+</details>

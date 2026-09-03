@@ -1,10 +1,10 @@
 # Item 9 — Oral Cavity, Salivary Glands & Esophagus (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 16 (Head and Neck), pp. 731–751 · Ch 17 (Gastrointestinal Tract), pp. 753–822 · 📗 Arif 15e (2025), Vol-2, Unit-I Head, Neck and Oral Cavity, pp. 136–143 · Unit-I Gastrointestinal System, pp. 144–191
 
 ---
 
-## Q1. What are the diseases of oral cavity?
+<details>
+<summary><b>Q1. What are the diseases of oral cavity?</b></summary>
 
 ### Overview
 📌 The oral cavity extends from the lips to the palatoglossal arch; its diseases fall into **6 major groups** — developmental/tooth-related, inflammatory/reactive, infections, premalignant, malignant, and odontogenic lesions.
@@ -24,7 +24,10 @@
 
 ---
 
-## Q2. What are common infections of oral cavity?
+</details>
+
+<details>
+<summary><b>Q2. What are common infections of oral cavity?</b></summary>
 
 ### Common infections
 
@@ -45,7 +48,10 @@
 
 ---
 
-## Q3. What are tumours and pre-cancerous lesions of oral cavity?
+</details>
+
+<details>
+<summary><b>Q3. What are tumours and pre-cancerous lesions of oral cavity?</b></summary>
 
 ### Pre-cancerous (potentially malignant) lesions
 
@@ -83,7 +89,10 @@
 
 ---
 
-## Q4. Classify tumours of salivary gland / What are the malignant neoplasms of salivary gland?
+</details>
+
+<details>
+<summary><b>Q4. Classify tumours of salivary gland / What are the malignant neoplasms of salivary gland?</b></summary>
 
 ### General rules (say these first)
 - Salivary tumours = **<2% of all human tumours**; **65–80% arise in the PAROTID**; only ~5% occur before age 16.
@@ -112,7 +121,10 @@
 
 ---
 
-## Q5. Give the morphology of pleomorphic adenoma / Give the histological features of pleomorphic adenoma / Short note on pleomorphic adenoma.
+</details>
+
+<details>
+<summary><b>Q5. Give the morphology of pleomorphic adenoma / Give the histological features of pleomorphic adenoma / Short note on pleomorphic adenoma.</b></summary>
 
 ### Definition
 **Pleomorphic adenoma (mixed tumour) = the most common benign salivary gland neoplasm**, composed of a **mixture of ductal (epithelial), myoepithelial and mesenchymal-like (chondromyxoid) elements** — hence "mixed tumour." Accounts for ~60% of parotid tumours; also submandibular/minor glands (palate). Molecular driver: **PLAG1 overexpression** (chromosomal rearrangement); **HMGA2** in PLAG1-negative cases.
@@ -144,7 +156,10 @@
 
 ---
 
-## Q6. Why is it called pleomorphic adenoma?
+</details>
+
+<details>
+<summary><b>Q6. Why is it called pleomorphic adenoma?</b></summary>
 
 - 🔴 The term **"pleomorphic" describes the ARCHITECTURAL diversity, not cellular pleomorphism (anaplasia)** — individual cells are actually bland and benign-looking.
 - One tumour shows **multiple patterns simultaneously**: ducts, tubules, acini, solid sheets, cords, islands and cysts formed by epithelial + myoepithelial cells.
@@ -166,7 +181,10 @@ Modified myoepithelial cell
 
 ---
 
-## Q7. Name the pathological conditions / diseases of esophagus.
+</details>
+
+<details>
+<summary><b>Q7. Name the pathological conditions / diseases of esophagus.</b></summary>
 
 | Category | Conditions |
 |---|---|
@@ -185,7 +203,10 @@ Modified myoepithelial cell
 
 ---
 
-## Q8. What is achalasia? What are the causes?
+</details>
+
+<details>
+<summary><b>Q8. What is achalasia? What are the causes?</b></summary>
 
 ### Definition
 **Achalasia = a disorder of esophageal motility characterized by the triad of (1) incomplete relaxation of the lower esophageal sphincter (LES), (2) increased LES resting tone, and (3) aperistalsis of the esophageal body.**
@@ -218,7 +239,10 @@ of the myenteric (Auerbach) plexus
 
 ---
 
-## Q9. What is Barrett's esophagus?
+</details>
+
+<details>
+<summary><b>Q9. What is Barrett's esophagus?</b></summary>
 
 ### Definition
 **Barrett esophagus = intestinal metaplasia of the distal esophageal squamous mucosa caused by chronic gastroesophageal reflux (GERD), in which the normal stratified squamous epithelium is replaced by columnar epithelium containing goblet cells.**
@@ -241,7 +265,10 @@ of the myenteric (Auerbach) plexus
 
 ---
 
-## Q10. What are esophageal varices?
+</details>
+
+<details>
+<summary><b>Q10. What are esophageal varices?</b></summary>
 
 ### Definition
 **Esophageal varices = abnormally dilated, tortuous subepithelial veins of the distal esophagus (and proximal stomach) that develop as portosystemic collateral channels when portal hypertension forces blood to shunt from the portal system into the systemic circulation.**
@@ -270,7 +297,10 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-## Q11. Mention the sites of esophageal cancer.
+</details>
+
+<details>
+<summary><b>Q11. Mention the sites of esophageal cancer.</b></summary>
 
 ### Anatomic sites
 
@@ -291,7 +321,10 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-## Q12. Mention the risk factors of esophageal carcinoma.
+</details>
+
+<details>
+<summary><b>Q12. Mention the risk factors of esophageal carcinoma.</b></summary>
 
 | Risk factor | **Adenocarcinoma** | **Squamous cell carcinoma** |
 |---|---|---|
@@ -311,7 +344,10 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-## Q13. Barrett's esophagus is a premalignant condition - explain.
+</details>
+
+<details>
+<summary><b>Q13. Barrett's esophagus is a premalignant condition - explain.</b></summary>
 
 ### Explanation (step-wise)
 Barrett esophagus is premalignant because the metaplastic goblet-cell epithelium **accumulates sequential genetic alterations and passes through recognizable histologic stages ending in adenocarcinoma**:
@@ -347,7 +383,10 @@ Chronic GERD (acid + bile reflux)
 
 ---
 
-## Q14. What are the malignancies of esophagus?
+</details>
+
+<details>
+<summary><b>Q14. What are the malignancies of esophagus?</b></summary>
 
 ### Malignant tumours
 1. 🔴 **Squamous cell carcinoma** — most common worldwide; middle third; keratinizing/nonkeratinizing nests recapitulating squamous epithelium; variants: verrucous, basaloid, spindle-cell.
@@ -376,7 +415,10 @@ Progressive **dysphagia (solids → liquids) → odynophagia → obstruction**, 
 
 ---
 
-## Q15. Short note: Aphthous Ulceration, Leukoplakia.
+</details>
+
+<details>
+<summary><b>Q15. Short note: Aphthous Ulceration, Leukoplakia.</b></summary>
 
 ### (a) Aphthous ulceration (canker sore)
 **Definition: a recurrent, painful, shallow round-to-oval ulceration of the nonkeratinized oral mucosa with an erythematous halo, occurring singly or in crops.**
@@ -397,3 +439,7 @@ Progressive **dysphagia (solids → liquids) → odynophagia → obstruction**, 
 > 🎯 "**Aphthous = painful recurrent shallow ulcer + celiac/IBD/Behçet** · **Leukoplakia = non-scrapable white patch, 5–25% precancer, always biopsy.**"
 
 > 📖 Robbins 10e, Ch 16 (Head and Neck), pp. 731–751 · 📗 Arif 15e (2025), Vol-2, Unit-I Head, Neck and Oral Cavity, pp. 136–143
+
+---
+
+</details>

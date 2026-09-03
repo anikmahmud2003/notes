@@ -1,10 +1,10 @@
 # Item 2 — Ischemic Heart Disease, Hypertensive Heart Disease & Cardiac Enzymes (Question Bank with Answers)
-
 > **Sources:** Robbins & Cotran, *Pathologic Basis of Disease*, 10th ed. — Ch 12 (The Heart) · Arif's Pathology & Haematology, 15th ed. (2025) — Vol-2, Unit-I "The Heart" & Unit-II "Enzymes"
 
 ---
 
-## Q1. Define and classify Ischemic Heart Disease (IHD)/Coronary artery disease.
+<details>
+<summary><b>Q1. Define and classify Ischemic Heart Disease (IHD)/Coronary artery disease.</b></summary>
 
 ### Definition
 
@@ -28,7 +28,10 @@
 
 ---
 
-## Q2. Risk Factors of Ischemic Heart Disease. [Same as atherosclerosis]
+</details>
+
+<details>
+<summary><b>Q2. Risk Factors of Ischemic Heart Disease. [Same as atherosclerosis]</b></summary>
 
 🔴 The risk factors of IHD are **the same as those of atherosclerosis** because atherosclerotic coronary narrowing is its principal cause.
 
@@ -60,7 +63,10 @@ Obesity & metabolic syndrome, physical inactivity, stress/type-A personality, **
 
 ---
 
-## Q3. Give the pathogenesis of IHD.
+</details>
+
+<details>
+<summary><b>Q3. Give the pathogenesis of IHD.</b></summary>
 
 🔴 **Central mechanism: fixed or dynamic coronary obstruction creates a supply–demand mismatch → myocardial ischemia → reversible then irreversible injury.**
 
@@ -102,7 +108,10 @@ Healing: neutrophils (1–3 d) → macrophages (3–7 d) → granulation tissue
 
 ---
 
-## Q4. List the Causes of precordial Chest Pain. Describe the clinical features of MI.
+</details>
+
+<details>
+<summary><b>Q4. List the Causes of precordial Chest Pain. Describe the clinical features of MI.</b></summary>
 
 ### Causes of precordial chest pain
 
@@ -137,7 +146,10 @@ Healing: neutrophils (1–3 d) → macrophages (3–7 d) → granulation tissue
 
 ---
 
-## Q5. Define and classify angina pectoris. How angina can be differentiated from MI?
+</details>
+
+<details>
+<summary><b>Q5. Define and classify angina pectoris. How angina can be differentiated from MI?</b></summary>
 
 ### Definition
 
@@ -173,7 +185,10 @@ Healing: neutrophils (1–3 d) → macrophages (3–7 d) → granulation tissue
 
 ---
 
-## Q6. What is Myocardial Infarction (MI)? Give the clinical features of MI.
+</details>
+
+<details>
+<summary><b>Q6. What is Myocardial Infarction (MI)? Give the clinical features of MI.</b></summary>
 
 ### Definition
 
@@ -197,7 +212,10 @@ Healing: neutrophils (1–3 d) → macrophages (3–7 d) → granulation tissue
 
 ---
 
-## Q7. Give the pathogenesis of MI.
+</details>
+
+<details>
+<summary><b>Q7. Give the pathogenesis of MI.</b></summary>
 
 ```text
 Vulnerable atherosclerotic plaque (thin fibrous cap <65 µm, lipid core >40%,
@@ -246,7 +264,10 @@ REPERFUSION (thrombolysis/PCI): <20–30 min salvages; delayed reperfusion
 
 ---
 
-## Q8. Morphologic Changes of heart muscle in MI. Fates of MI.
+</details>
+
+<details>
+<summary><b>Q8. Morphologic Changes of heart muscle in MI. Fates of MI.</b></summary>
 
 ### 🔴 Temporal morphology of MI (gross + microscopic)
 
@@ -277,7 +298,10 @@ REPERFUSION (thrombolysis/PCI): <20–30 min salvages; delayed reperfusion
 
 ---
 
-## Q9. What is chronic IHD? How it develops?
+</details>
+
+<details>
+<summary><b>Q9. What is chronic IHD? How it develops?</b></summary>
 
 ### Definition
 
@@ -316,7 +340,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q10. How will you Diagnose MI in Laboratory? / Lab Diagnosis of MI.
+</details>
+
+<details>
+<summary><b>Q10. How will you Diagnose MI in Laboratory? / Lab Diagnosis of MI.</b></summary>
 
 ### A. Cardiac biochemical markers (the cornerstone)
 
@@ -355,7 +382,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q11. Cardiac Enzymes and proteins: Name with interpretation.
+</details>
+
+<details>
+<summary><b>Q11. Cardiac Enzymes and proteins: Name with interpretation.</b></summary>
 
 ### Names with time-course and interpretation
 
@@ -385,7 +415,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q12. Complications of MI.
+</details>
+
+<details>
+<summary><b>Q12. Complications of MI.</b></summary>
 
 | # | Complication | Time | Consequence |
 |---|---|---|---|
@@ -405,7 +438,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q13. Hypertension : Definition , types, Cause.
+</details>
+
+<details>
+<summary><b>Q13. Hypertension : Definition , types, Cause.</b></summary>
 
 ### Definition
 
@@ -441,7 +477,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q14. A male of 50 years of age presented with sudden severe central chest pain & sweating for 1 hour. He is Hypertensive & Diabetic. What is your likely diagnosis? What are the immediate investigations you would suggest to confirm the diagnosis? (Answer: ECG, cardiac biochemical markers — most common Cardiac Troponin-I.)
+</details>
+
+<details>
+<summary><b>Q14. A male of 50 years of age presented with sudden severe central chest pain & sweating for 1 hour. He is Hypertensive & Diabetic. What is your likely diagnosis? What are the immediate investigations you would suggest to confirm the diagnosis? (Answer: ECG, cardiac biochemical markers — most common Cardiac Troponin-I.)</b></summary>
 
 ### 🔴 Likely diagnosis: **Acute Myocardial Infarction (STEMI)**
 
@@ -469,7 +508,10 @@ Stable angina + exertional dyspnea, orthopnea, fatigue, arrhythmias, murmurs; en
 
 ---
 
-## Q15. A 35 years old smoker man presented with severe chest pain. His ECG shows ischemic change. What will be the pathologic change/effect/morphologic changes/types of necrosis occurred in myocardium? State the complication of MI.
+</details>
+
+<details>
+<summary><b>Q15. A 35 years old smoker man presented with severe chest pain. His ECG shows ischemic change. What will be the pathologic change/effect/morphologic changes/types of necrosis occurred in myocardium? State the complication of MI.</b></summary>
 
 ### 🔴 Diagnosis: Acute Myocardial Infarction (premature CAD in a young smoker)
 
@@ -512,3 +554,7 @@ Pattern: usually **transmural** (total occlusion) starting subendocardially, spr
 > 🎯 **Young smoker + blocked coronary = coagulative necrosis of myocardium; remember the danger window day 3–7 (soft heart = rupture).**
 
 > 📖 Robbins 10e, Ch 12 (The Heart), pp. 497–548 · 📗 Arif 15e (2025), Vol-2, Unit-I "The Heart", pp. 45–75
+
+---
+
+</details>
