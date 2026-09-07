@@ -9,6 +9,8 @@
 
 > 📗 **Looking for the companion chapter-by-chapter flashcards?** See [`systemic pathology comprehensive notes/`](../systemic%20pathology%20comprehensive%20notes/00_Index.html) — HTML Q→A flashcards for every Arif Vol-2 chapter (one short question per card + inline True/False practice), start with `00_Index.html`.
 
+> 🚨 **Exam tonight? Start here:** [`../EMERGENCY_REVISION_GUIDE.md`](../EMERGENCY_REVISION_GUIDE.md) — ultra-compressed one-file cram sheet built **from these 26 items** (exam-group order A/B/C/D, comparison tables, arrow-chain pathogenesis, 🎯 mnemonics, 56 MCQ/True-False rapid-fire, "Who's #1?" matrix + final 60-min strategy). These item files give the expanded versions.
+
 ---
 
 ## 📚 Item Index

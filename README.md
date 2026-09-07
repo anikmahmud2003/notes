@@ -9,6 +9,7 @@ Everything study-related, in one repo, readable from any browser.
 | Path | What it is |
 |---|---|
 | [index.html](index.html) | Hub page — links to all HTML notes (also the GitHub Pages front door) |
+| 🚨 [Pathology/EMERGENCY_REVISION_GUIDE.md](Pathology/EMERGENCY_REVISION_GUIDE.md) | Last-night cram sheet for the Systemic Pathology written exam — one file, exam-group order (A/B/C/D), comparison tables, 🎯 mnemonics, MCQ/True-False rapid-fire, "Who's #1?" matrix + final 60-min strategy |
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |

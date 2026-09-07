@@ -4,6 +4,8 @@
 
 > **Format:** One self-contained HTML study file per chapter · Every question preserved · All abbreviations expanded on first use · **One short question per flashcard** with collapsible answers for active recall.
 
+> 🚨 **Written exam last night?** [`../EMERGENCY_REVISION_GUIDE.md`](../EMERGENCY_REVISION_GUIDE.md) — one-file cram sheet (comparison tables, 🎯 mnemonics, MCQ/True-False rapid-fire, "Who's #1?" matrix + final 60-min strategy). This folder's HTML flashcards are the full expanded version of the same material.
+
 ---
 
 ## 🗂️ Master Index
