@@ -4,7 +4,8 @@ Markdown versions of the HTML notes — content identical to `2nd_Term_Comprehen
 
 Edit these files freely. Content stays on your device.
 
-- [Mycology](mycology.md)
-- [Parasitology](parasitology.md)
-- [Virology](virology.md)
-- [Molecular Biology](molecular_biology.md)
+
+- [⚗ Mycology](mycology.md)
+- [🦠 Parasitology](parasitology.md)
+- [🧫 Virology](virology.md)
+- [🧬 Molecular Biology & Biosafety](molecular_biology.md)
