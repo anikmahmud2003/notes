@@ -11,6 +11,7 @@ All extractions live in [**second term/**](second term/):
 | [Mycology.md](second term/Mycology.md) | 40 | Mycology.pdf | OCR extraction (eng+ben, PDF/A-2B) |
 | [Virology.md](second term/Virology.md) | 125 | Virology.pdf | OCR extraction (eng+ben, 250 DPI) |
 | [2nd Term Comprehensive Notes](second term/2nd_Term_Comprehensive_Notes.html) | – | Questions raw.md + all 4 MDs | Interactive HTML: 350 Q&A cards, search + nav; each card = English answer → Bangla cross-questions → বাংলা ভাইভা ব্যাখ্যা |
+| [second_term_md/](second%20term/second_term_md/) | – | Same as HTML above | MD versions for easy offline editing (4 files + README index) |
 
 ## Unlocked PDFs (`_unlocked.pdf`)
 
