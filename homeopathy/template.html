@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>অর্গানন অফ মেডিসিন — Organon of Medicine (বাংলা ব্যাখ্যাসহ)</title>
+<style>
+:root{
+  --bg:#f4f7f6; --card:#ffffff; --ink:#1f2d2a; --muted:#5b6b67;
+  --teal:#0f6b5c; --teal-dark:#0a4a40; --accent:#e8823a;
+  --bakkha-bg:#eaf5f0; --key-bg:#fdf3e3; --ex-bg:#f3f0e6;
+  --border:#d9e4e0; --shadow:0 6px 24px rgba(15,107,92,.10);
+  --sidebar-w:264px;
+}
+[data-theme="dark"]{
+  --bg:#0e1513; --card:#16211e; --ink:#e8efec; --muted:#9db0aa;
+  --teal:#2fbfa0; --teal-dark:#1f8a73; --accent:#f0a463;
+  --bakkha-bg:#14241f; --key-bg:#2a2116; --ex-bg:#211f17;
+  --border:#24compress2f; --border:#243430; --shadow:0 6px 24px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+.bn,.part-title{font-family:'Noto Sans Bengali','Hind Siliguri','Vrinda','Nirmala UI','Segoe UI',sans-serif}
+
+/* ===== Top bar ===== */
+.topbar{position:fixed;top:0;left:0;right:0;z-index:50;height:60px;display:flex;align-items:center;gap:14px;
+  padding:0 18px;background:linear-gradient(90deg,var(--teal-dark),var(--teal));color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.topbar .tb-title{font-weight:700;font-size:1.05rem;white-space:nowrap}
+.searchwrap{flex:1;position:relative;max-width:460px}
+.searchwrap input{width:100%;padding:9px 34px 9px 14px;border-radius:24px;border:none;outline:none;font-size:.95rem;color:#123}
+.searchwrap .sicon{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#4a6}
+.toggle-btn{margin-left:auto;background:rgba(255,255,255,.18);border:none;color:#fff;border-radius:20px;padding:8px 16px;cursor:pointer;font-weight:600;font-size:.85rem}
+.toggle-btn:hover{background:rgba(255,255,255,.3)}
+
+/* ===== Layout ===== */
+.layout{display:flex;margin-top:60px}
+.sidebar{position:fixed;top:60px;bottom:0;width:var(--sidebar-w);overflow-y:auto;background:var(--card);
+  border-right:1px solid var(--border);padding:14px;z-index:40}
+.sidebar h3{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.tocgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.tocgrid a{display:flex;align-items:center;justify-content:center;height:26px;border-radius:6px;
+  text-decoration:none;font-size:.72rem;color:var(--teal);background:var(--bakkha-bg);transition:.15s}
+.tocgrid a:hover{background:var(--teal);color:#fff;transform:scale(1.08)}
+.tocgrid a.cur{background:var(--accent);color:#fff}
+
+.main{margin-left:var(--sidebar-w);flex:1;padding:26px 30px 60px;max-width:900px}
+
+/* ===== Hero ===== */
+.hero{text-align:center;padding:44px 20px 30px;background:radial-gradient(circle at top,var(--teal),var(--teal-dark));
+  color:#fff;border-radius:18px;margin-bottom:34px;box-shadow:var(--shadow)}
+.hero .title{font-family:'Noto Sans Bengali',sans-serif;font-size:2.5rem;font-weight:800;text-shadow:0 2px 8px rgba(0,0,0,.25)}
+.hero .subtitle{font-size:1.25rem;letter-spacing:.12em;font-weight:600;opacity:.95;margin-top:4px}
+.hero .author{margin-top:14px;font-size:.95rem;opacity:.9;line-height:1.5}
+.hero .trans{opacity:.75;font-size:.85rem}
+
+/* ===== Part dividers ===== */
+.part{display:flex;align-items:center;gap:16px;margin:40px 0 20px;padding:18px 20px;background:var(--card);
+  border-left:6px solid var(--accent);border-radius:12px;box-shadow:var(--shadow)}
+.part-num{font-size:1.7rem;font-weight:800;color:var(--accent);min-width:64px}
+.part-title{font-size:1.35rem;font-weight:700;color:var(--teal)}
+.part-sub{font-size:.85rem;color:var(--muted);letter-spacing:.02em}
+
+/* ===== Aphorism card ===== */
+.aph{display:flex;gap:18px;background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:20px 22px;margin-bottom:20px;box-shadow:var(--shadow);transition:.18s;scroll-margin-top:80px}
+.aph:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(15,107,92,.16)}
+.aph-num{flex:0 0 58px;height:58px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;font-size:1.3rem;font-weight:800;box-shadow:0 4px 10px rgba(15,107,92,.4)}
+.aph-body{flex:1;min-width:0}
+.english{font-size:1.02rem;color:var(--ink);line-height:1.7;position:relative;
+  padding:.15rem 0;margin-left:2px}
+.english:before{content:"English";position:absolute;left:0;top:-2px;transform:translateY(-100%);
+  font-size:.62rem;font-weight:800;letter-spacing:.14em;color:var(--teal);opacity:.75}
+.en-points{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.en-points li{display:flex;gap:11px;align-items:flex-start;line-height:1.65;
+  padding:7px 12px;background:var(--card);border:1px solid var(--border);border-radius:9px}
+.en-points li:nth-child(odd){background:var(--bakkha-bg)}
+.en-points .pt-n{flex:0 0 26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;font-size:.72rem;font-weight:800;
+  box-shadow:0 2px 6px rgba(15,107,92,.35);margin-top:1px}
+.en-points .pt-tx{flex:1;min-width:0}
+.english.prose p.ep{margin:0 0 .8em;text-align:justify;hyphens:auto}
+.english.prose p.ep:last-child{margin-bottom:0}
+
+/* ===== Keyword highlighting ===== */
+mark.kw{padding:.05em .22em;border-radius:4px;font-weight:600;background:transparent}
+mark.kw.dis{background:#ffe9e9;color:#b4312b}
+mark.kw.cu{background:#e6f7e6;color:#2e7d32}
+mark.kw.hl{background:#e3f2fd;color:#1565c0}
+mark.kw.md{background:#fff3e0;color:#e65100}
+mark.kw.doc{background:#f3e5f5;color:#7b1fa2}
+mark.kw.force{background:#e0f7fa;color:#00695c}
+mark.kw.miasm{background:#fce4ec;color:#ad1457}
+mark.kw.hp{background:#e8f5e9;color:#1b5e20}
+mark.kw.sym{background:#fff8e1;color:#f57f17}
+mark.kw.pote{background:#ede7f6;color:#4527a0}
+mark.kw.vital{background:#e0f2f1;color:#004d40}
+[data-theme="dark"] mark.kw,
+[data-theme="dark"] .kw{color:#ffd54f}
+[data-theme="dark"] .aph mark.kw{filter:brightness(1.15);background:rgba(255,255,255,.06)}
+
+/* ===== Footnotes (collapsible) ===== */
+.footnotes{margin-top:14px;border-top:1px dashed var(--border);padding-top:8px}
+.footnotes summary{cursor:pointer;font-size:.82rem;font-weight:700;color:var(--teal);user-select:none;display:inline-block;padding:2px 6px;border-radius:6px;transition:.15s}
+.footnotes summary:hover{background:rgba(15,107,92,.08)}
+.footnotes[open] summary{margin-bottom:8px}
+.fn-item{display:flex;gap:8px;margin:0 0 8px;align-items:flex-start;animation:fnin .25s ease}
+@keyframes fnin{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+.fn-letter{font-family:'Noto Sans Bengali',sans-serif;font-weight:800;color:var(--accent);font-size:.78rem;line-height:1.5;min-width:16px;text-align:center;background:var(--ex-bg);border-radius:5px;padding:1px 5px;margin-top:1px}
+.fn-body{font-size:.84rem;color:var(--muted);line-height:1.65;padding-left:4px}
+.fn-line{display:block;margin-bottom:.2em}
+.fn-item .fn-line:last-child{margin-bottom:0}
+.note{margin-top:10px;font-size:.82rem;color:var(--accent);background:var(--key-bg);border-radius:8px;padding:8px 12px}
+.note-tag{font-weight:700}
+
+/* ===== Bangla bakkha ===== */
+.bakkha{margin-top:16px;background:var(--bakkha-bg);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.bakkha-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.bn-label{background:var(--teal);color:#fff;font-family:'Noto Sans Bengali',sans-serif;font-weight:700;
+  font-size:.8rem;padding:3px 12px;border-radius:20px;letter-spacing:.02em}
+.cat{font-family:'Noto Sans Bengali',sans-serif;font-size:.78rem;color:var(--teal);background:rgba(15,107,92,.1);padding:2px 10px;border-radius:6px}
+.bakkha p.bn{font-size:.98rem;color:var(--ink);line-height:1.85}
+.example{margin-top:12px;background:var(--ex-bg);border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px}
+.example .ex-label,.key .key-label{font-family:'Noto Sans Bengali',sans-serif;font-weight:700;font-size:.74rem;color:var(--accent);text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:4px}
+.example .ex-label::before{content:"💡 "}
+.key{margin-top:12px;background:var(--key-bg);border-left:4px solid var(--teal);border-radius:8px;padding:10px 14px}
+.key .key-label{color:var(--teal-dark)}
+.key .key-label::before{content:"⭐ "}
+.key .bn{font-weight:600}
+.bakkha p.bn.bn-b{font-size:1rem}
+
+.front-box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px 26px;box-shadow:var(--shadow);margin-bottom:10px}
+
+/* ===== Back to top ===== */
+#toTop{position:fixed;bottom:26px;right:26px;z-index:60;background:var(--accent);color:#fff;border:none;border-radius:50%;
+  width:48px;height:48px;font-size:1.2rem;cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.3);display:none}
+#toTop:hover{transform:scale(1.06)}
+
+@media (max-width:860px){
+  .sidebar{display:none}
+  .main{margin-left:0;padding:18px}
+  .hero .title{font-size:1.7rem}
+  .aph{flex-direction:column}
+  .aph-num{width:58px}
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="tb-title">📖 অর্গানন</div>
+  <div class="searchwrap"><input id="q" type="text" placeholder="খুঁজুন: aphorism / বাংলা / English keyword…"><span class="sicon">🔍</span></div>
+  <button class="toggle-btn" id="themeBtn">🌙 Dark</button>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <h3>সকল অনুচ্ছেদ (Aphorisms)</h3>
+    <div class="tocgrid" id="toc">{{TOC}}</div>
+  </nav>
+
+  <main class="main" id="main">
+    {{BODY}}
+  </main>
+</div>
+
+<button id="toTop" title="উপরে">↑</button>
+
+<script>
+const q=document.getElementById('q');
+q.addEventListener('input',function(){
+  const val=this.value.toLowerCase().trim();
+  document.querySelectorAll('.aph').forEach(c=>{
+    const txt=c.textContent.toLowerCase();
+    if(!val) c.style.display='';
+    else c.style.display=txt.includes(val)?'':'none';
+  });
+  document.querySelectorAll('.part').forEach(p=>{
+    const start=p.id.replace('part-','');
+    let after=nextPart(start);
+    let show=false;
+    document.querySelectorAll('.aph').forEach(c=>{
+      const n=parseInt(c.id.replace('para-',''));
+      if(n>=parseInt(start)&&(!after||n<after)) if(c.style.display!=='none') show=true;
+    });
+    p.style.display=show?'':'none';
+  });
+});
+function nextPart(id){
+  let ids=[];document.querySelectorAll('.part').forEach(p=>{const v=p.id.replace('part-','');if(!isNaN(v))ids.push(parseInt(v))});
+  ids.sort((a,b)=>a-b);
+  for(const v of ids) if(v>parseInt(id)) return v;
+  return null;
+}
+document.getElementById('themeBtn').addEventListener('click',function(){
+  const b=document.body.dataset.theme==='dark';
+  document.body.dataset.theme=b?'':'dark';
+  this.textContent=b?'🌙 Dark':'☀️ Light';
+});
+const toTop=document.getElementById('toTop');
+window.addEventListener('scroll',()=>{toTop.style.display=window.scrollY>600?'block':'none'});
+toTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+window.addEventListener('scroll',(e)=>{
+  let cur='';
+  document.querySelectorAll('.aph').forEach(c=>{
+    if(c.getBoundingClientRect().top<=120) cur=c.id.replace('para-','');
+  });
+  document.querySelectorAll('.tocgrid a').forEach(a=>a.classList.toggle('cur',a.querySelector('.toc-num').textContent===cur));
+});
+</script>
+</body>
+</html>

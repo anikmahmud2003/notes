@@ -13,3 +13,7 @@ workspace.json
 # Python build artifacts
 __pycache__/
 *.pyc
+homeopathy/
+!homeopathy/Organon_of_Medicine_6th_Edition.md
+!homeopathy/Organon_Medicine_Full_Bangla.html
+!homeopathy/template.html

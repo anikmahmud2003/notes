@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>হামদার্দ সম্পূর্ণ ওষুধের তালিকা - বিস্তারিত বিবরণ</title>
+<style>
+  :root {
+    --primary: #1a6b3c;
+    --primary-light: #e8f5e9;
+    --accent: #ff6f00;
+    --highlight: #fff3e0;
+    --joint-bg: #fce4ec;
+    --joint-border: #e91e63;
+    --card-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans Bengali', 'SolaimanLipi', 'Kalpurush', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.7;
+  }
+  .hero {
+    background: linear-gradient(135deg, #1a6b3c, #2e7d52);
+    color: white;
+    text-align: center;
+    padding: 50px 20px 40px;
+  }
+  .hero h1 { font-size: 2.2em; margin-bottom: 10px; }
+  .hero p { font-size: 1.1em; opacity: 0.9; max-width: 700px; margin: 0 auto; }
+  .legend {
+    max-width: 1100px; margin: 20px auto; padding: 15px 20px;
+    background: #fff3e0; border-left: 5px solid var(--accent);
+    border-radius: 8px; font-size: 0.95em;
+  }
+  .legend strong { color: var(--accent); }
+  .legend .joint-legend { color: var(--joint-border); }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 15px 40px; }
+  .category-section {
+    margin: 30px 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+  }
+  .category-header {
+    background: var(--primary);
+    color: white;
+    padding: 18px 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .category-header.joint-header {
+    background: linear-gradient(135deg, #c2185b, #e91e63);
+    animation: pulse-glow 2s infinite;
+  }
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(233,30,99,0.3); }
+    50% { box-shadow: 0 0 20px rgba(233,30,99,0.6); }
+  }
+  .category-header.anti-header {
+    background: linear-gradient(135deg, #e65100, #ff6f00);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead th {
+    background: #f0f0f0;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    font-size: 0.95em;
+  }
+  tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+    font-size: 0.93em;
+  }
+  tbody tr:hover { background: #f9f9f9; }
+  tr.highlight-joint {
+    background: var(--joint-bg) !important;
+    border-left: 4px solid var(--joint-border);
+  }
+  tr.highlight-joint:hover { background: #f8bbd0 !important; }
+  tr.highlight-anti {
+    background: var(--highlight) !important;
+    border-left: 4px solid var(--accent);
+  }
+  tr.highlight-anti:hover { background: #ffe0b2 !important; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    margin: 1px;
+  }
+  .badge-joint { background: var(--joint-border); }
+  .badge-anti { background: var(--accent); }
+  .badge-gout { background: #7b1fa2; }
+  .badge-rheum { background: #1565c0; }
+  .badge-osteo { background: #c62828; }
+  .price-tag {
+    font-weight: bold;
+    color: var(--primary);
+    white-space: nowrap;
+  }
+  .search-box {
+    max-width: 500px; margin: 25px auto;
+    text-align: center;
+  }
+  .search-box input {
+    width: 100%; padding: 12px 18px;
+    border: 2px solid #ccc; border-radius: 25px;
+    font-size: 1em; outline: none;
+    font-family: inherit;
+  }
+  .search-box input:focus { border-color: var(--primary); }
+  .toc {
+    max-width: 1100px; margin: 20px auto;
+    background: white; border-radius: 12px;
+    box-shadow: var(--card-shadow); padding: 25px;
+  }
+  .toc h2 { margin-bottom: 15px; color: var(--primary); }
+  .toc ul { list-style: none; columns: 2; }
+  .toc li { padding: 5px 0; }
+  .toc a {
+    color: #1565c0; text-decoration: none;
+    font-size: 0.95em;
+  }
+  .toc a:hover { text-decoration: underline; }
+  .toc .toc-joint { color: var(--joint-border); font-weight: bold; }
+  footer {
+    background: #333; color: #aaa;
+    text-align: center; padding: 20px;
+    font-size: 0.85em; margin-top: 30px;
+  }
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 1.5em; }
+    .toc ul { columns: 1; }
+    table { font-size: 0.85em; }
+    thead th, tbody td { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>হামদার্দ ওষুধের সম্পূর্ণ তালিকা</h1>
+  <p>হামদার্দ ল্যাবরেটরিজ (ওয়াকফ) বাংলাদেশ ও ভারতের সকল ওষুধের বিস্তারিত বিবরণ বাংলায়।<br>
+  <strong>শীর্ষক: পীলা রঙে হাইলাইট = অ্যান্টিইনফ্লেমেটরি | গোলাপি রঙে হাইলাইট = অস্টিওআর্থারাইটিস / জয়েন্ট কেয়ার</strong></p>
+</div>
+
+<div class="legend">
+  <strong>রঙের চিহ্ন:</strong>
+  <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> = বাত প্রদাহনাশক ওষুধ &nbsp;&nbsp;
+  <span class="badge badge-joint">জয়েন্ট কেয়ার</span> = গাঁটের ব্যথা/গাউট/অস্টিওআর্থারাইটিসের ওষুধ &nbsp;&nbsp;
+  <span class="badge badge-osteo">অস্টিওআর্থারাইটিস</span> = হাড়ের ঘষা নষ্টি রোগের ওষুধ &nbsp;&nbsp;
+  <span class="badge badge-gout">গাউট</span> = ইউরিক এসিড বৃদ্ধির ওষুধ
+</div>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="🔍 ওষুধের নাম লিখে খুঁজুন..." onkeyup="searchTable()">
+</div>
+
+<div class="container">
+<div class="category-section" id="joint-section">
+  <div class="category-header joint-header">
+    🦴 জয়েন্ট কেয়ার / অস্টিওআর্থারাইটিস / বাত রোগের ওষুধ (অ্যান্টিইনফ্লেমেটরি ও অ্যান্টি-আর্থ্রাইটিক)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>ওষুধের নাম (বাংলা)</th><th>ওষুধের নাম (ইংরেজি)</th><th>ফর্ম / পরিমাণ</th><th>দাম (৳)</th><th>মূল উপাদান / প্রধান কাজ</th><th>রোগের ধরন</th></tr>
+    </thead>
+    <tbody>
+      <tr class="highlight-joint"><td>1</td><td>Aloe vera 83.33mg, Terminalia chebula 83.33mg, Colchicum luteum 83.33mg, Solanum nigrum</td><td><strong>হাববে সুরাঞ্জান</strong></td><td>Habbe Suranjan</td><td>১০০ ট্যাবলেট</td><td class="price-tag">৳২৫০</td><td><strong>সুরাঞ্জান শিরিন (Colchicum luteum)</strong> — গাউট, রিউমাটয়েড আর্থ্রাইটিস, অস্টিওআর্থারাইটিস ও বাত রোগের প্রধান ওষুধ। <em>ব্যথা ও প্রদাহ হ্রাস করে। ইউরিক এসিড কমায়।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> <span class="badge badge-osteo">অস্টিওআর্থারাইটিস</span> <span class="badge badge-gout">গাউট</span> <span class="badge badge-rheum">রিউমাটয়েড</span></td></tr>
+      <tr class="highlight-joint"><td>2</td><td>Colchicum luteum, Cassia angustifolia, Zingiber officinale, Carum carvi, Piper longum, Valeriana wallichii, Lawsonia inermis, Foeniculum vulgare, Ipomoea turpethum, Apium graveolens, Plumbago zeylanica, Convolvulus scammonia, Cuttlefish bone, Coriandrum sativum, Rosa damascena, Ricinus communis, Sugar syrup</td><td><strong>মাজুন সুরাঞ্জান</strong></td><td>Majun Suranjan</td><td>১২৫ গ্রাম ও ১ কেজি</td><td class="price-tag">৳২০০ - ৳১৫০০</td><td><strong>সুরাঞ্জান, গুল বনফশা, আদু</strong> — সুগারেড হারবাল পেস্ট। বাত-প্রদাহ নাশক, ব্যথা দূর করে, গাঁটের শক্তি বাড়ায়। <em>অস্টিওআর্থারাইটিস ও গাউটে আদর্শ।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> <span class="badge badge-osteo">অস্টিওআর্থারাইটিস</span></td></tr>
+      <tr class="highlight-joint"><td>3</td><td>Smilax china, Zingiber officinale, Piper longum, Anacyclus pyrethrum, Delphinium denudatum, Cinnamomum zeylanicum, Elettaria cardamom, Piper nigrum, Pistacia lentiscus, Colchicum luteum, Cassia angustifolia, Wrightia tinctoria, Eugenia caryophyllata, Myristica fragrans, Crocus sativus, Cyperus rotundus, Curcuma zedoaria, Alpinia galanga, Rosa damascena, Orchis latifolia, Honey, Sodium Benzoate</td><td><strong>মাজুন চোবচিনি</strong></td><td>Majun Chobchini</td><td>১২৫ গ্রাম ও ১ কেজি</td><td class="price-tag">৳২০০ - ৳১২০০</td><td><strong>চোবচিনি (Smilax china)</strong> — রক্ত পরিশুদ্ধিকারক, বাত ও গাউট নাশক। <em>ত্বকের রোগ, বাত, গাউট ও সাধারণ প্রদাহে কার্যকর।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> <span class="badge badge-gout">গাউট</span></td></tr>
+      <tr class="highlight-joint"><td>4</td><td>Suranjan Shirin, Guggulu (Commiphora mukul), Turbud Safed (Ipomoea turpethum), Chitrak (Plumbago zeylanica), Dalchini (Cinnamomum), Ajwain (Trachyspermum ammi), Soonth (Zingiber officinale)</td><td><strong>আউজাই ক্যাপসুল</strong></td><td>Aujai Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳৩০০</td><td><strong>বহু-উপাদানের হারবাল ফর্মুলেশন</strong> — বাত, গাউট, আর্থ্রাইটিস, সায়াটিকা, মাংসপেশির ব্যথা ও জয়েন্টের প্রদাহে কার্যকর। <em>ইউরিক এসিড কমায়।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> <span class="badge badge-gout">গাউট</span> <span class="badge badge-osteo">অস্টিওআর্থারাইটিস</span></td></tr>
+      <tr class="highlight-joint"><td>5</td><td>Withania somnifera 108.72mg, Zingiber officinale 54.34mg, Asparagus racemosus 54.34mg, Chlorophytum arundinaceum 43.47mg, Saccharum officinarum 108.72mg</td><td><strong>হাববে আসগন্দ</strong></td><td>Habbe Asgand</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td><strong>আসগন্দ (Withania somnifera / Ashwagandha)</strong> — বাত প্রদাহনাশক, হাড় ও মাংসপেশি শক্তিশালীকারক। <em>গাঁটের ব্যথা ও দুর্বলতায় কার্যকর।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-joint"><td>6</td><td>Suranjan Shirin, Asaroon, Zanjabeel, Sana Maki, Turbud Safed, Filfil Safaid, multi-herb paste with sugar base</td><td><strong>মাজুন আউজা</strong></td><td>Majun Auja</td><td>১২৫ গ্রাম ও ১ কেজি</td><td class="price-tag">৳২০০ - ৳১২০০</td><td><strong>বহু-হারবাল ফর্মুলেশন</strong> — সায়াটিকা, জয়েন্ট ব্যথা, বাত রোগ, মাংসপেশির ব্যথা ও গাউটে ব্যবহৃত। <em>প্রদাহ কমায়, গাঁটের চলাফেরা উন্নত করে।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-joint"><td>7</td><td>Colchicum luteum oil extract (Suranjan oil)</td><td><strong>রোগহান সুরাঞ্জান</strong></td><td>Roghan Suranjan</td><td>২৫ মিলি</td><td class="price-tag">৳১৫০</td><td><strong>সুরাঞ্জান তেল</strong> — বাহ্যিক মালিশের তেল। জয়েন্ট ব্যথা, গাউট, সায়াটিকা ও বাতে ব্যবহৃত। <em>চামড়ার মাধ্যমে প্রদাহনাশক উপাদান শোষিত হয়।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-joint"><td>8</td><td>Red oil base with herbal extracts</td><td><strong>রোগহান সুরখ</strong></td><td>Roghan Surkh</td><td>২৫ মিলি</td><td class="price-tag">৳১২০</td><td><strong>লাল তেল</strong> — বাহ্যিক মালিশের তেল। বাত, বোনের ব্যথা, গাঁটের স্টিফনেস ও মাংসপেশির প্রদাহে ব্যবহৃত।</td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-joint"><td>9</td><td>Aloe vera 83.33mg, Terminalia chebula 83.33mg, Colchicum luteum 83.33mg, Solanum nigrum</td><td><strong>হাববে সুরাঞ্জান (১০০ পিল)</strong></td><td>Habbe Suranjan</td><td>১০০ পিল</td><td class="price-tag">৳২৫০</td><td><strong>সুরাঞ্জান শিরিন</strong> — অ্যানালজেসিক ও অ্যান্টিইনফ্লেমেটরি। রিউমাটয়েড আর্থ্রাইটিস, অস্টিওআর্থারাইটিস ও গাউটের চিকিৎসায় প্রমাণিত।</td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span> <span class="badge badge-osteo">অস্টিওআর্থারাইটিস</span></td></tr>
+      <tr class="highlight-anti"><td>10</td><td>Delphinium denudatum (Jadwar) and other traditional Unani herbs</td><td><strong>মারহাম জাদোয়ার</strong></td><td>Marham Jadwar</td><td>৫০ গ্রাম মালহাম</td><td class="price-tag">৳১০০</td><td><strong>জাদোয়ার (Delphinium denudatum)</strong> — বাহ্যিক মালহাম (অয়েন্টমেন্ট)। জয়েন্ট ব্যথা, মাংসপেশির ব্যথা, বাত ও প্রদাহে লেপ দেওয়া হয়। <em>রক্ত সঞ্চালন বাড়ায়, পেশি শিথিল করে।</em></td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-anti"><td>11</td><td>Menthol, Camphor, Eucalyptus oil, Methyl salicylate</td><td><strong>হামদার্ড বলম</strong></td><td>Hamdard Balm</td><td>২০ গ্রাম</td><td class="price-tag">৳১৩০</td><td><strong>মেনথল, ক্যামফর</strong> — বাহ্যিক বলম। মাথাব্যথা, জয়েন্ট ব্যথা, ঠান্ডা লাগায়, মাংসপেশির ব্যথা ও সামান্য প্রদাহে ব্যবহৃত।</td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-anti"><td>12</td><td>Herbal pain relief cream with anti-inflammatory herbs</td><td><strong>লিকুইড রাব (Liquirub)</strong></td><td>Liquirub for Pain Relief</td><td>ক্রিম/জেল</td><td class="price-tag">৳১০০-৳২০০</td><td><strong>হারবাল পেইন রিলিফ</strong> — মালিশের ক্রিম/জেল। জয়েন্ট ব্যথা, মাংসপেশির ব্যথা, সামান্য আঘাতে ব্যবহৃত।</td><td><span class="badge badge-joint">জয়েন্ট</span> <span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-anti"><td>13</td><td>Aloe barbadensis (Aloe vera) gel</td><td><strong>এলোফ্রেশ জেল</strong></td><td>Alofresh Gel</td><td>২০ গ্রাম</td><td class="price-tag">৳২০০</td><td><strong>আলোভেরা</strong> — জেল। ত্বকের পোড়া, মামাচ্চার, সামান্য প্রদাহ ও ত্বকের জ্বালনায় ব্যবহৃত।</td><td><span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+      <tr class="highlight-anti"><td>14</td><td>Anti-inflammatory and anti-itch herbal formulation (Marham Kharish)</td><td><strong>ডারমেইড মালহাম</strong></td><td>Dermaid Ointment</td><td>২০ গ্রাম</td><td class="price-tag">৳১০০</td><td><strong>খারিশ/একজিমা ওষুধ</strong> — ত্বকের খারিশ, একজিমা, ডার্মাটাইটিসে ব্যবহৃত। প্রদাহ কমায়।</td><td><span class="badge badge-anti">অ্যান্টিইনফ্লেমেটরি</span></td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="unani">
+  <div class="category-header">
+    📋 ইউনানি ওষুধ (Unani Medicines)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম (বাংলা)</th><th>নাম (ইংরেজি)</th><th>ফর্ম / পরিমাণ</th><th>দাম (৳)</th><th>মূল কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ইউনানি হারবাল উপাদান, ক্যালসিয়াম সমৃদ্ধ</td><td>আগের্দ ক্যাপসুল</td><td>Agerd Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳২৫০</td><td>ক্যালসিয়াম সমৃদ্ধ, হাড় ও দাঁত শক্তিশালীকারক</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>আলিসা ট্যাবলেট</td><td>Alisa Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>লিভার টনিক, হজম শক্তি বৃদ্ধি, পিত্ত নিয়ন্ত্রণ</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>আলকুলি সিরাপ</td><td>Alkuli Syrup</td><td>১০০/২২৫/৪৫০ মিলি</td><td class="price-tag">৳৭৫-৳১৮৫</td><td>ইউরিনারি ট্র্যাক্ট ইনফেকশন ও পাথর দূরীকরণ</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>আলভাসিন সিরাপ</td><td>Alvasin Syrup</td><td>১০০/২২৫ মিলি</td><td class="price-tag">৳৭৫-৳১৫০</td><td>হাড়ের ব্যথা ও গাঁটের সমস্যায় ব্যবহৃত</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল উপাদান</td><td>অ্যান্টিলিগো ক্যাপসুল</td><td>Antiligo Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳২৫০</td><td>লাইকোডার্মা/বেলুন ঘা চিকিৎসায়</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>অ্যাপেলিন সিরাপ</td><td>Apelin Syrup</td><td>১০০/৪৫০ মিলি</td><td class="price-tag">৳৯০-৳৩০০</td><td>বাত প্রদাহনাশক, জ্বর ও সাধারণ ব্যথায় কার্যকর</td></tr>
+      <tr><td>7</td><td>Trachyspermum ammi (Ajwain) distillate</td><td>আরক আজওয়াইন</td><td>Arq Ajwain</td><td>৪৫০ মিলি</td><td class="price-tag">৳১৭০</td><td>পেটের গ্যাস, বদহজম, পেটে বাত ও পায়ের ব্যথায়</td></tr>
+      <tr><td>8</td><td>Foeniculum vulgare (Badiyan) distillate</td><td>আরক বাদিয়ান</td><td>Arq Badiyan</td><td>৪৫০ মিলি</td><td class="price-tag">৳১৮০</td><td>পেটের গ্যাস, পায়খানায়, বমি বমি ভাব দূর করে</td></tr>
+      <tr><td>9</td><td>Borago officinalis (Gaozaban) distillate</td><td>আরক গাওজাবান</td><td>Arq Gaozaban</td><td>৪৫০ মিলি</td><td class="price-tag">৳২৩০</td><td>মস্তিষ্ক ও হৃদযন্ত্র শক্তিশালীকারক, স্নায়ু টনিক</td></tr>
+      <tr><td>10</td><td>Solanum nigrum (Mako) distillate</td><td>আরক মাকো</td><td>Arq Mako</td><td>৪৫০ মিলি</td><td class="price-tag">৳২০০</td><td>লিভার সুরক্ষা, পিত্ত নিয়ন্ত্রণ, হজম উন্নতি</td></tr>
+      <tr><td>11</td><td>ইউনানি হারবাল উপাদান</td><td>আরক মাওয়ে হায়াত</td><td>Arq Maul Hayat</td><td>৪৫০ মিলি</td><td class="price-tag">৳২৮০</td><td>সাধারণ শক্তিবৃদ্ধিকারক, জীবনশক্তি বৃদ্ধি</td></tr>
+      <tr><td>12</td><td>ইউনানি হারবাল উপাদান</td><td>আরক মাওয়ে লাহম</td><td>Arq Maul Lahm</td><td>২২৫ মিলি</td><td class="price-tag">৳১৮০</td><td>শরীরের মাংস বৃদ্ধিকারক, দুর্বলতায় কার্যকর</td></tr>
+      <tr><td>13</td><td>Mentha arvensis (Pudina) distillate</td><td>আরক পুদিনা</td><td>Arq Poodina</td><td>৪৫০ মিলি</td><td class="price-tag">৳১৮০</td><td>পেটের জ্বালা, বদহজম, গ্যাস ও পাকের সমস্যায়</td></tr>
+      <tr><td>14</td><td>ইউনানি হারবাল উপাদান</td><td>আরক ফলিন</td><td>Arq Faulin</td><td>৪৫০ মিলি</td><td class="price-tag">৳২১০</td><td>নারীদের ঋতুস্রাব নিয়ন্ত্রণ, প্রস্রাবের সমস্যা</td></tr>
+      <tr><td>15</td><td>ইউনানি হারবাল উপাদান</td><td>কারমিনা সিরাপ</td><td>Carmina Syrup</td><td>১০০/২২৫/৪৫০ মিলি</td><td class="price-tag">৳৭০-৳২০০</td><td>হজম শক্তি বৃদ্ধি, পেট ফাঁপা, গ্যাস ও বদহজম দূর</td></tr>
+      <tr><td>16</td><td>Lake salt 100mg, Piper longum 15mg, Black salt 60mg, Piper nigrum 15mg, Citrus limonium 50mg, Ammonium chloride 5mg, Tamarindus indica 40mg+30mg, Zingiber officinale 20mg, Cuminum cyminum 30mg, Oil zingiber 3.5μl, Oil caraway 1μl, Trachyspermum ammi 20mg, Acacia arabica 12mg, Mangifera indica 176mg, Terminalia belerica 18mg</td><td>কারমিনা ট্যাবলেট</td><td>Carmina Tablet</td><td>৬০ ট্যাবলেট</td><td class="price-tag">৳১৩০</td><td>হাজমোলার মতো ডাইজেস্টিভ ট্যাবলেট</td></tr>
+      <tr><td>17</td><td>ইউনানি হারবাল উপাদান</td><td>সেঞ্চুরিন ক্যাপসুল</td><td>Centurin Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳৩০০</td><td>পেনিসিলিন ট্যাবলেট, যৌন রোগ চিকিৎসায়</td></tr>
+      <tr><td>18</td><td>ভিটামিন ও খনিজ সমৃদ্ধ উপাদান</td><td>কিনকারা সিরাপ</td><td>Cinkara Syrup</td><td>১০০/২২৫/৪৫০ মিলি</td><td class="price-tag">৳৭৫-৳২৫০</td><td>ভিটামিন ও খনিজ সমৃদ্ধ টনিক, দুর্বলতা দূর করে</td></tr>
+      <tr><td>19</td><td>ইউনানি হারবাল উপাদান</td><td>ডোলাবি ট্যাবলেট</td><td>Dolabi Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳২৫০</td><td>লিভার সুরক্ষা, পিত্ত বিকার ও হজমের সমস্যা</td></tr>
+      <tr><td>20</td><td>ইউনানি হারবাল উপাদান</td><td>ডিসনি ট্যাবলেট</td><td>Dysni Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳২০০</td><td>মাসিকের ব্যথা ও ডিসমেনোরিয়া চিকিৎসায়</td></tr>
+      <tr><td>21</td><td>Foeniculum vulgare (Badiyan) based multi-herb formulation</td><td>ইত্রিফাল বাদিয়ান</td><td>Etrifal Badian</td><td>১০০ গ্রাম</td><td class="price-tag">৳১২০</td><td>হজম শক্তি বৃদ্ধি, পেট ফাঁপা দূর করে</td></tr>
+      <tr><td>22</td><td>ইউনানি হারবাল উপাদান</td><td>ইত্রিফাল কাশনিজি</td><td>Etrifal Kashnizi</td><td>১০০ গ্রাম</td><td class="price-tag">৳১২০</td><td>প্রস্রাবের সমস্যা, পাথর ও মূত্রাশয়ের রোগে</td></tr>
+      <tr><td>23</td><td>ইউনানি হারবাল উপাদান</td><td>ইত্রিফাল শাহতারা</td><td>Etrifal Shahtara</td><td>১০০ গ্রাম</td><td class="price-tag">৳১৬০</td><td>রক্ত পরিশুদ্ধিকারক, রক্তের বিকার দূর করে</td></tr>
+      <tr><td>24</td><td>Lavandula stoechas (Ustkhuddus) based multi-herb formulation</td><td>ইত্রিফাল উস্তুখুদ্দুস</td><td>Etrifal Ustukhudus</td><td>১০০ গ্রাম</td><td class="price-tag">৳৫৫০</td><td>মস্তিষ্ক শক্তিশালীকারক, স্মৃতিশক্তি বৃদ্ধি</td></tr>
+      <tr><td>25</td><td>ইউনানি হারবাল উপাদান</td><td>ইত্রিফাল জামানি</td><td>Etrifal Zamani</td><td>১০০ গ্রাম</td><td class="price-tag">৳১৮০</td><td>বার্ধক্যজনিত মানসিক সমস্যা, স্মৃতি হ্রাস</td></tr>
+      <tr><td>26</td><td>Commiphora mukul (Mukil) based multi-herb formulation</td><td>ইত্রিফাল মুকুল</td><td>Etrifal Muqil</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>বদহজম, কোষ্ঠকাঠিন্য ও হাজম শক্তি বৃদ্ধি</td></tr>
+      <tr><td>27</td><td>ইউনানি হারবাল উপাদান</td><td>ফেমিস্তা সিরাপ</td><td>Femista Syrup</td><td>৪৫০ মিলি</td><td class="price-tag">৳২০০</td><td>নারীদের রক্তস্রাব ও মাসিক জনিত সমস্যায়</td></tr>
+      <tr><td>28</td><td>ইউনানি হারবাল উপাদান</td><td>ফেভনিল সিরাপ</td><td>Fevnil Syrup</td><td>১০০ মিলি</td><td class="price-tag">৳১০০</td><td>জ্বরের সিরাপ, সাধারণ জ্বর ও শরীর ব্যথায়</td></tr>
+      <tr><td>29</td><td>ইউনানি হারবাল উপাদান</td><td>হানপি ট্যাবলেট</td><td>Hanpy Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>দুশ্চিন্তা ও অনিদ্রা দূর করে, মানসিক শান্তি</td></tr>
+      <tr><td>30</td><td>ইউনানি হারবাল উপাদান</td><td>হানরয়েড ট্যাবলেট</td><td>Hanrhoid Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳২০০</td><td>বাস্তিশুল্ক (পাইলস) চিকিৎসায়</td></tr>
+      <tr><td>31</td><td>ইউনানি হারবাল উপাদান</td><td>হানরয়েড-বি ট্যাবলেট</td><td>Hanrhoid-B Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳২০০</td><td>বাস্তিশুল্ক (পাইলস) চিকিৎসায় (ব্লাডি পাইলস)</td></tr>
+      <tr><td>32</td><td>ইউনানি হারবাল উপাদান</td><td>হান্তার ট্যাবলেট</td><td>Hantar Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>প্রোস্টেট গ্রন্থির সমস্যা ও প্রস্রাবের কষ্ট</td></tr>
+      <tr><td>33</td><td>ইউনানি হারবাল উপাদান</td><td>হেলাক্স ট্যাবলেট</td><td>Helax Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৬০</td><td>হেমোরয়েড/পাইলস চিকিৎসায়</td></tr>
+      <tr><td>34</td><td>ক্যালসিয়াম সমৃদ্ধ উপাদান</td><td>ক্যালরিপ ট্যাবলেট</td><td>Calrip Tablet</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০০</td><td>ক্যালসিয়াম সমৃদ্ধ, হাড় ও দাঁত শক্তিশালীকারক</td></tr>
+      <tr><td>35</td><td>ইউনানি হারবাল উপাদান</td><td>বারানুলা সিরাপ</td><td>Branula Syrup</td><td>২২৫ মিলি</td><td class="price-tag">৳১৮০</td><td>বাত প্রদাহনাশক, গাঁটের ব্যথা ও বাত রোগে</td></tr>
+      <tr class="highlight-anti"><td>36</td><td>ইউনানি হারবাল উপাদান</td><td>ইন্ডেমালি স্যাচেট</td><td>Endemali Sachet</td><td>২০ স্যাচেট</td><td class="price-tag">৳৫৪০</td><td><strong>অ্যান্টিইনফ্লেমেটরি</strong>, গাঁটের ব্যথা, বাত প্রদাহ</td></tr>
+      <tr class="highlight-anti"><td>37</td><td>ইউনানি হারবাল উপাদান</td><td>এন্ডিউরেক্স ক্যাপসুল</td><td>Endurex Capsule</td><td>২০ ক্যাপসুল</td><td class="price-tag">৳১৭০০</td><td><strong>সেক্সুয়াল পারফরম্যান্স</strong>, শক্তি বৃদ্ধি</td></tr>
+      <tr><td>38</td><td>ভিটামিন ও আয়রন সমৃদ্ধ উপাদান</td><td>ফ্রোডেক্স ট্যাবলেট</td><td>Frodex Tablet</td><td>২০ ট্যাবলেট</td><td class="price-tag">৳১২০০</td><td>ভিটামিন ও আয়রন সমৃদ্ধ, রক্তশূন্যতায়</td></tr>
+      <tr><td>39</td><td>ইউনানি হারবাল উপাদান</td><td>ঘিতিকা সিরাপ</td><td>Ghitika Syrup</td><td>৪৫০ মিলি</td><td class="price-tag">৳২৩০</td><td>রক্ত পরিশুদ্ধিকারক, ত্বকের বিকার দূর করে</td></tr>
+      <tr><td>40</td><td>Sesame (Til) based Kushta formulation</td><td>কুস কালান</td><td>Kushta Tila Kalan</td><td>১ গ্রাম কুস্তা</td><td class="price-tag">৳৫০</td><td>তিল থেকে তৈরি, শরীরের তাপমাত্রা নিয়ন্ত্রণ</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="digestive">
+  <div class="category-header">
+    🫁 হজম ও পেটের যত্ন (Digestive & Stomach Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম (বাংলা)</th><th>নাম (ইংরেজি)</th><th>ফর্ম</th><th>দাম (৳)</th><th>মূল কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ইউনানি হারবাল উপাদান (ডাইজেস্টিভ ফর্মুলেশন)</td><td>পাচনোল</td><td>Pachnol</td><td>১০০/৪০০ ট্যাবলেট</td><td class="price-tag">৳৫০-৳১৫০</td><td>হাজমোলা — পাক শক্তি বৃদ্ধি, হজম, গ্যাস দূর</td></tr>
+      <tr><td>2</td><td>Soda Khurdni, Paste Ararote, Sange Jarhahat, Magnesia Fehmi, Roghan Pudina, Shamaeen</td><td>ক্যুর্স আলকালি</td><td>Qurs Alkali</td><td>২০০ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>অ্যাসিডিটি, পেটের জ্বালা, গ্যাস্ট্রিক</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>জাওরিশ জালিনুস</td><td>Jawarish Jalinoos</td><td>১৫০ গ্রাম</td><td class="price-tag">৳১৫০</td><td>পাক শক্তিশালীকারক, হজম, কোষ্ঠকাঠিন্য ও পাইলসে</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>মাজুন দাবিদুল ওয়ার্দ</td><td>Majun Dabidul Ward</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>পাক শক্তিশালীকারক, হাজমা, দুর্বল পাকে</td></tr>
+      <tr><td>5</td><td>Cuminum cyminum (Zeera) based multi-herb formulation</td><td>জাওরিশ কামুনি</td><td>Jawarish Kamuni</td><td>১২৫/২৫০ গ্রাম</td><td class="price-tag">৳১৫০-৳৩০০</td><td>হজম শক্তি বৃদ্ধি, পেটের গ্যাস ও বদহজম</td></tr>
+      <tr><td>6</td><td>Punica granatum (Anar) based formulation</td><td>জাওরিশ আনারাইন</td><td>Jawarish Anarain</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>ডায়রিয়া ও পাকের বিকারে কার্যকর</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>মাজুন ফালাসফা</td><td>Majun Falasfa</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>হজম, পেটের সমস্যা ও সাধারণ শক্তি</td></tr>
+      <tr><td>8</td><td>Foeniculum vulgare (Badiyan) distillate</td><td>আরক বাদিয়ান</td><td>Arq Badiyan</td><td>৪৫০ মিলি</td><td class="price-tag">৳১৮০</td><td>পাচনের সিরাপ, গ্যাস, বদহজম দূর করে</td></tr>
+      <tr><td>9</td><td>Pistacia lentiscus (Mastagi) based multi-herb formulation</td><td>জাওরিশ মাস্তাগি</td><td>Jawarish Mastagi</td><td>১২৫ গ্রাম</td><td class="price-tag">৳২০০</td><td>দুর্বল পাক, বদহজম ও পাকের বিকার</td></tr>
+      <tr><td>10</td><td>ইউনানি হারবাল উপাদান</td><td>ইত্রিফাল মুলাইয়ান</td><td>Itrifal Mulayyan</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>কোষ্ঠকাঠিন্য দূর করে, মলদ্বারের ব্যথা</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="hemorrhoid">
+  <div class="category-header">
+    🩸 পাচন ও মলদ্বার যত্ন (Digestive & Piles)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Commiphora mukul (Mukil) based formulation</td><td>হাববে মুকিল</td><td>Habbe Muqil</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>বদহজম, কোষ্ঠকাঠিন্য দূর করে</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে বাওসির বড়ি</td><td>Habbe Bawaseer Badi</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>পাইলস চিকিৎসায়</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে বাওসির খুনি</td><td>Habbe Bawaseer Khooni</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳২০০</td><td>ব্লাডি পাইলস চিকিৎসায়</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>হামদরয়েড ক্যাপসুল</td><td>Hamdoroid Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳২০০</td><td>পাইলস চিকিৎসায় ক্যাপসুল</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল মালহাম ফর্মুলেশন</td><td>হামদরয়েড মালহাম</td><td>Hamdoroid Ointment</td><td>৫০ গ্রাম</td><td class="price-tag">৳১৫০</td><td>পাইলসের বাহ্যিক মালহাম</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>পেছ</td><td>Pech</td><td>২৫ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>দস্ত বন্ধের ট্যাবলেট</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>কুর্স টিনকার</td><td>Qurs Tinkar</td><td>১০০ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>পাইলস ও মলদ্বারের ব্যথায়</td></tr>
+      <tr><td>8</td><td>ইউনানি হারবাল উপাদান</td><td>কুর্স মুলাইয়ান</td><td>Qurs Mulayyan</td><td>২০০ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>কোষ্ঠকাঠিন্য দূর করে</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="liver">
+  <div class="category-header">
+    🫀 লিভার যত্ন (Liver Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Revand Chini, Biranjasif (Chrysanthemum), Sarphoka (Swertia chirata), Bhangra (Andrographis paniculata), Kalmegh Naushadhar</td><td>জিগরিন</td><td>Jigreen</td><td>৪৫০ মিলি</td><td class="price-tag">৳২৫০</td><td>লিভার টনিক, হপাটাইটিস, পিত্ত বিকার দূর করে</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>জিগরিনা ক্যাপসুল</td><td>Jigreena Capsule</td><td>৬০ ক্যাপসুল</td><td class="price-tag">৳২৫০</td><td>লিভার সুরক্ষার ক্যাপসুল</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত বাজুরি মুতাদ্দিল</td><td>Sharbat Bazoori Motadil</td><td>২০০/৫০০ মিলি</td><td class="price-tag">৳১০০-৳২৫০</td><td>লিভার ও পিত্ত রক্ষাকারক</td></tr>
+      <tr><td>4</td><td>Cichorium intybus (Kasni) distillate</td><td>আরক কাসনি</td><td>Arq Kasni</td><td>৪৫০ মিলি</td><td class="price-tag">৳২০০</td><td>লিভার টনিক, পিত্ত নিয়ন্ত্রণ</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে কাবীব নৌশাদরী</td><td>Habbe Kabib Naushadri</td><td>১০০/৪০০ ট্যাবলেট</td><td class="price-tag">৳১৫০-৳৫০০</td><td>লিভার শক্তিশালীকারক</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>লিপোট্যাব</td><td>Lipotab</td><td>৬০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>লিভার ফ্যাটি লিভার প্রতিরোধ</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="brain">
+  <div class="category-header">
+    🧠 মস্তিষ্ক ও স্নায়ু যত্ন (Brain & Nerve Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Ambra grasea 3mg, Argentum 9mg, Aurum 9mg, Borago officinalis 18mg, Salvia haematodes 18mg, Centaurea behen 18mg, Nepeta cataria 18mg, Santalum album 18mg, Lepidium iberis 18mg, Lavandula stoechas 18mg, Abresham 18mg, Honey 360mg, Sugar 1.44g</td><td>খামিরা গাওজাবান আমবারি</td><td>Khamira Gaozaban Ambari</td><td>৬০/১২৫/১০০০ গ্রাম</td><td class="price-tag">৳১০০-৳৮০০</td><td>মস্তিষ্ক ও হৃদযন্ত্র শক্তিশালীকারক</td></tr>
+      <tr><td>2</td><td>Amla khushk, Post Bahera, Post Halela Zard, Tukhm Khashkhash Safaid, Gule Khatmi, Gule Surkh, Kishneez Khushk, Maghz Badam Shirin, Ghee, Shakar Safaid, Warq-e-Nuqra</td><td>ইত্রিফাল মুকাওয়ি দিমাগ</td><td>Itrifal Muqawwi Dimagh</td><td>১২৫ গ্রাম</td><td class="price-tag">৳২০০</td><td>স্মৃতিশক্তি বৃদ্ধি, মস্তিষ্ক শক্তিশালীকারক</td></tr>
+      <tr><td>3</td><td>Peganum harmala (Harmal) based formulation</td><td>হাববে আজারাকী</td><td>Habbe Azaraqi</td><td>১০০ পিল</td><td class="price-tag">৳২০০</td><td>মৃগীরোগ (ইপিলেপসি) চিকিৎসায়</td></tr>
+      <tr><td>4</td><td>Papaver somniferum (Khashkhash) oil</td><td>রোগহান খাশখাশ</td><td>Roghan Khashkhash</td><td>২৫ মিলি</td><td class="price-tag">৳১০০</td><td>মাথায় মালিশের তেল, শান্তি ও ঘুম</td></tr>
+      <tr><td>5</td><td>Cucurbita pepo (Kadu) oil</td><td>রোগহান কাদু</td><td>Roghan Kadu</td><td>৫০ মিলি</td><td class="price-tag">৳১০০</td><td>মাথায় মালিশ, চুলের যত্ন</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>ইকসির শিফা</td><td>Iksir Shifa</td><td>—</td><td class="price-tag">—</td><td>মস্তিষ্ক ও স্নায়ু শক্তিশালীকারক</td></tr>
+      <tr><td>7</td><td>Coriandrum sativum (Kishneez) based formulation</td><td>ইত্রিফাল কিশনিজি</td><td>Itrifal Kishneezi</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>স্মৃতিশক্তি ও মস্তিষ্ক শক্তি</td></tr>
+      <tr><td>8</td><td>Peganum harmala (Harmal) based formulation</td><td>মাজুন আজারাকী</td><td>Majun Azaraqi</td><td>৬০ গ্রাম</td><td class="price-tag">৳১৫০</td><td>মৃগীরোগ চিকিৎসায়</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="cold">
+  <div class="category-header">
+    🤧 সর্দি-কাশি ও গলা যত্ন (Cough, Cold & Throat)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Glycyrrhiza glabra 43.24mg, Adhatoda vasica 37.4mg, Ocimum basilicum 32.4mg, Menthol 2.33mg, Anise oil 1.5μl, Cinnamon oil 0.3μl, Eucalyptus oil 0.6μl, Pine oil 0.88μl, Kushta Abrak Safaid 12.96mg</td><td>সুয়ালিন</td><td>Sualin</td><td>৫০/৪০০ ট্যাবলেট</td><td class="price-tag">৳৫০-৳২০০</td><td>কাশি, সর্দি, গলাব্যথা, বুকে কফ জমাট বাঁধা</td></tr>
+      <tr><td>2</td><td>Glycyrrhiza glabra 1.34g, Cordia dichotoma 1.34g, Malva sylvestris 0.71g, Althaea officinalis 0.54g, Viola odorata 0.45g, Borago officinalis 0.36g, Zizyphus jujuba 0.27g (per sachet)</td><td>জোশীনা</td><td>Joshina</td><td>১০০/২০০/৫০০ মিলি</td><td class="price-tag">৳৫০-৳২৫০</td><td>কাশি, সর্দি, গলা পরিষ্কার, বুক খোলা</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান (স্যাচেট)</td><td>জোশান্দা</td><td>Joshanda</td><td>৩৩ গ্রাম স্যাচেট</td><td class="price-tag">৳১০</td><td>গরম পানীয়, সর্দি-কাশি-জ্বরে কার্যকর</td></tr>
+      <tr><td>4</td><td>Viola odorata (Banafsha) based formulation</td><td>শারবাত বনফশা</td><td>Sharbat Banafsha</td><td>২০০/৫০০ মিলি</td><td class="price-tag">৳১০০-৳২৫০</td><td>গলাব্যথা, কাশি, বুকের কফ</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত খাকসি</td><td>Sharbat Khaksi</td><td>১০০/৫০০ মিলি</td><td class="price-tag">৳৫০-৳২০০</td><td>কাশি, ব্রঙ্কাইটিস, গলা শুষ্কতা</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>সাদুরি</td><td>Saduri</td><td>১০০ মিলি</td><td class="price-tag">৳৭০</td><td>কাশি ও সর্দির সিরাপ</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>নাজলি</td><td>Nazli</td><td>৬০ গ্রাম</td><td class="price-tag">৳১০০</td><td>নাক দিয়ে পানি পড়া ও নাকের সমস্যা</td></tr>
+      <tr><td>8</td><td>ইউনানি হারবাল মালাম ফর্মুলেশন</td><td>বারশাশা</td><td>Barshasha</td><td>১৫/৬০ গ্রাম</td><td class="price-tag">৳৫০-৳১৫০</td><td>কাশির মালাম ও লোশন</td></tr>
+      <tr><td>9</td><td>Citrullus colocynthis (Lauq) based formulation</td><td>লাউক সাপিস্তান</td><td>Lauq Sapistan</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১০০</td><td>কাশি, হাঁপানি, বুকে কফ</td></tr>
+      <tr><td>10</td><td>Lavandula stoechas (Ustkhuddus) based formulation</td><td>ইত্রিফাল উস্তুখুদ্দুস</td><td>Etrifal Ustukhudus</td><td>১২৫ গ্রাম</td><td class="price-tag">৳৫৫০</td><td>নাক-কান-গলার সমস্যা, সর্দি</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="chest">
+  <div class="category-header">
+    💨 বুকের যত্ন (Chest Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে জিকুননাফস</td><td>Habbe Zeequnnafs</td><td>৬০ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>হাঁপানি, শ্বাসকষ্ট, বুকে জমাট বাঁধা</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত রাববি</td><td>Sharbat Rabvi</td><td>১০০/৫০০ মিলি</td><td class="price-tag">৳১০০-৳৩০০</td><td>হাঁপানি, বুকে কফ, শ্বাসকষ্ট</td></tr>
+      <tr><td>3</td><td>Citrullus colocynthis (Lauq) based formulation</td><td>লাউক রাববি</td><td>Lauq Rabvi</td><td>৬০ গ্রাম</td><td class="price-tag">৳১৫০</td><td>হাঁপানি ও বুকের সমস্যায়</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত সাদার</td><td>Sharbat Sadar</td><td>২০০/৫০০ মিলি</td><td class="price-tag">৳১০০-৳২৫০</td><td>কাশি, বুকে কফ, শ্বাসকষ্ট</td></tr>
+      <tr><td>5</td><td>Morus nigra (Toot Siyah) based formulation</td><td>শারবাত তুত সিয়াহ</td><td>Sharbat Toot Siyah</td><td>৫০০ মিলি</td><td class="price-tag">৳২০০</td><td>কাশি, ডায়রিয়া, বুকে কফ</td></tr>
+      <tr><td>6</td><td>Stachys officinalis (Zoofa) based formulation</td><td>শারবাত জুফা মুরাক্কাব</td><td>Sharbat Zoofa Murakkab</td><td>৫০০ মিলি</td><td class="price-tag">৳২০০</td><td>কাশি, সর্দি, বুকে জমাট বাঁধা</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>ইকসির-ই-সোয়াল</td><td>Iksir-e-Sual</td><td>—</td><td class="price-tag">—</td><td>কাশি চিকিৎসায়</td></tr>
+      <tr><td>8</td><td>Citrullus colocynthis (Lauq) based formulation</td><td>লাউক কাতাব</td><td>Lauq Katab</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>কাশি ও বুকের সমস্যা</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="general">
+  <div class="category-header">
+    💊 সাধারণ স্বাস্থ্য (General Health)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ভিটামিন ও খনিজ সমৃদ্ধ উপাদান</td><td>কিনকারা</td><td>Cinkara</td><td>৫০০ মিলি</td><td class="price-tag">৳২৫০</td><td>ভিটামিন সমৃদ্ধ টনিক, দুর্বলতা দূর করে</td></tr>
+      <tr><td>2</td><td>Emblica officinalis (Amla) based multi-herb formulation</td><td>চ্যাবানপ্রাশ</td><td>Chyabanprash</td><td>২৫০/৫০০ গ্রাম</td><td class="price-tag">৳৩০০-৳৫৫০</td><td>রোগ প্রতিরোধ শক্তি বৃদ্ধি, ভিটামিন C</td></tr>
+      <tr><td>3</td><td>দুধ-ভিত্তিক হারবাল ফর্মুলেশন</td><td>লাহমিনা</td><td>Lahmina</td><td>৫০০ মিলি</td><td class="price-tag">৳২০০</td><td>দুধ-ভিত্তিক টনিক, শিশু ও যুবকদের পুষ্টি</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>মাওল্লাহাম দো আতিশা</td><td>Maul Haam Do Atisha</td><td>৫০০ মিলি</td><td class="price-tag">৳২৫০</td><td>সাধারণ শক্তি ও রোগ প্রতিরোধ</td></tr>
+      <tr><td>5</td><td>Iron-based formulation</td><td>শারবাত ফাওলাদ</td><td>Sharbat Faulad</td><td>—</td><td class="price-tag">—</td><td>লোহা সমৃদ্ধ টনিক, রক্তশূন্যতায়</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত মোল হায়াত</td><td>Maul Hayat</td><td>৫০০ মিলি</td><td class="price-tag">৳৩০০</td><td>সাধারণ শক্তি ও জীবনশক্তি বৃদ্ধি</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>গামোনে</td><td>Gamone</td><td>২০০ মিলি</td><td class="price-tag">৳১৫০</td><td>সাধারণ শক্তি টনিক</td></tr>
+      <tr><td>8</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত ইকসির খাস</td><td>Sharbat Iksir Khas</td><td>২০০ মিলি</td><td class="price-tag">৳১৫০</td><td>সাধারণ শক্তি ও পুষ্টি</td></tr>
+      <tr><td>9</td><td>Rosa damascena, Coicus sativus, Eclipta alba, ও অন্যান্য হারবাল উপাদান</td><td>রুহ আফজা</td><td>Rooh Afza</td><td>৭৫০ মিলি</td><td class="price-tag">৳৫৫০</td><td>পানীয় সিরাপ, শীতলকারক, শক্তিদানকারক</td></tr>
+      <tr><td>10</td><td>ইউনানি হারবাল উপাদান</td><td>জাম-ই-শিরিন</td><td>Jam-e-Shirin</td><td>৫০০ মিলি</td><td class="price-tag">৳২০০</td><td>পানীয় সিরাপ, শীতলকারক</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="women">
+  <div class="category-header">
+    👩‍⚕️ নারী যত্ন (Women's Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Abroma augusta 62.5mg/5ml, Saraca indica 250mg/5ml, Withania somnifera 125mg/5ml, Smilax china 62.5mg/5ml, Rauwolfia serpentina 50mg/5ml, Iron 10mg/5ml</td><td>মাস্তুরিন</td><td>Masturin</td><td>১০০/২০০ মিলি</td><td class="price-tag">৳১০০-৳২০০</td><td>মাসিক নিয়ন্ত্রণ, মাসিক ব্যথা দূর, নারী যৌন স্বাস্থ্য</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>জামাদ শাবাব</td><td>Zamad Shabab</td><td>৫০ গ্রাম</td><td class="price-tag">৳১০০</td><td>নারীদের যৌন স্বাস্থ্য ও সুন্দরতা</td></tr>
+      <tr><td>3</td><td>Areca catechu (Supari) based multi-herb formulation</td><td>সুপারি পাক</td><td>Supari Pak</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>নারীদের সুন্দরতা ও যৌন স্বাস্থ্য</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল উপাদান</td><td>আরুসাক</td><td>Arusak</td><td>৫০ গ্রাম</td><td class="price-tag">৳১০০</td><td>মাসিক সংক্রান্ত সমস্যায়</td></tr>
+      <tr><td>5</td><td>Mimusops elengi (Mahwari) based formulation</td><td>মাহোয়ারি</td><td>Mahwari</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳১৫০</td><td>মাসিক অনিয়মিততা চিকিৎসায়</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>মাজুন মোছরাস</td><td>Majun Mochras</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>সাদা পানি (লিউকোরিয়া) চিকিৎসায়</td></tr>
+      <tr><td>7</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে হামাল</td><td>Habbe Hamal</td><td>২০ পিল</td><td class="price-tag">৳১০০</td><td>গর্ভাবস্থায় সুরক্ষা</td></tr>
+      <tr><td>8</td><td>ইউনানি হারবাল উপাদান</td><td>সেলানোল</td><td>Selanole</td><td>২৫ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>মাসিক সংক্রান্ত সমস্যা</td></tr>
+      <tr><td>9</td><td>ইউনানি হারবাল উপাদান</td><td>শারবাত মুদির</td><td>Sharbat Mudir</td><td>১০০/২০০ মিলি</td><td class="price-tag">৳১০০-৳২০০</td><td>মূত্রবর্ধক ও মাসিক নিয়ন্ত্রণকারী</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="male">
+  <div class="category-header">
+    👨‍⚕️ পুরুষ যত্ন (Male Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Aurum 0.44mg, Argentum 3.11mg, Ambra grasea 8mg, Nutmeg 13.35mg, Mace 13.35mg, Parmelia perlata 13.35mg, Piper longum 13.35mg, Nardostachys jatamansi 20mg, Cyperus rotundus 20mg, Wrightia tinctoria 20mg, Zingiber zerumbet 20mg, Colchicum luteum 26.69mg, Crocus sativus 26.69mg, Pistacia lentiscus 26.69mg, various nuts 33.37mg each, Khusyatus Salab 66.73mg, Narjeel Taza 66.73mg, Khashkhash Safed 66.73mg, Sugar 3.67g</td><td>লাবুব কাবির</td><td>Labub Kabir</td><td>৬০/১২৫/১০০০ গ্রাম</td><td class="price-tag">৳১৫০-৳৮০০</td><td>পুরুষ যৌন শক্তি বৃদ্ধি, শুক্রাণু গুণগত মান</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>লাবুব সাগীর</td><td>Labub Sagheer</td><td>—</td><td class="price-tag">—</td><td>পুরুষ যৌন শক্তি</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>হাববে নিশাত</td><td>Habbe Nishat</td><td>১৬ পিল</td><td class="price-tag">৳১০০</td><td>পুরুষ যৌন শক্তি ও স্ট্যামিনা</td></tr>
+      <tr><td>4</td><td>Ambergris-based multi-herb formulation</td><td>হাববে আমবার মুমিয়ায়ী</td><td>Habbe Ambar Momiyaee</td><td>১৬ ট্যাবলেট</td><td class="price-tag">৳২০০</td><td>যৌন শক্তি ও স্ট্যামিনা</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল উপাদান</td><td>মাজুন মুগাল্লিজ জাওয়াহার ওয়ালী</td><td>Majun Mughalliz Jawahar Wali</td><td>১২৫ গ্রাম</td><td class="price-tag">৳২০০</td><td>যৌন শক্তি ও শুক্রাণু বৃদ্ধি</td></tr>
+      <tr><td>6</td><td>Quercus infectoria (Baloot) based formulation</td><td>বালুতি</td><td>Balooti</td><td>১২৫ গ্রাম</td><td class="price-tag">৳১৫০</td><td>যৌন শক্তি বৃদ্ধি</td></tr>
+      <tr><td>7</td><td>Cuminum cyminum (Zeera) based formulation</td><td>কুর্স জিরিয়ান</td><td>Qurs Jiryan</td><td>৫০ ট্যাবলেট</td><td class="price-tag">৳১০০</td><td>শুক্রপাত নিয়ন্ত্রণ</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="oral">
+  <div class="category-header">
+    🦷 মুখ ও দাঁত যত্ন (Oral & Dental Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Chlorhexidine, herbal antiseptic compounds</td><td>ক্লোভগার্ড মাউথওয়াশ</td><td>Clovgard Mouthwash</td><td>২০০ মিলি</td><td class="price-tag">৳১৫০</td><td>দাঁতের যত্ন, মুখের জীবাণু ধ্বংস, গলাব্যথা</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল উপাদান</td><td>দন্ত রক্ষা</td><td>Danta Rakkha</td><td>৫০ গ্রাম</td><td class="price-tag">৳১০০</td><td>দাঁতের টুথপেস্ট, দাঁত ও মাড়ি সুরক্ষা</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>ইকসির পাইরিয়া</td><td>Iksir Pyorrhoea</td><td>—</td><td class="price-tag">—</td><td>পাইরিয়া ও মাড়ির রক্তপাত চিকিৎসায়</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল মালাম ফর্মুলেশন</td><td>জামাদ রাহাত</td><td>Zamad Rahat</td><td>৫০ গ্রাম</td><td class="price-tag">৳৫০</td><td>দাঁতের ব্যথা ও মাড়ির সমস্যায়</td></tr>
+      <tr><td>5</td><td>ইউনানি হারবাল উপাদান</td><td>দাওয়া-ই-লুকনাত</td><td>Dawa-e-Luknat</td><td>২৫ গ্রাম</td><td class="price-tag">৳৫০</td><td>জিহ্বা ও মুখের রোগে</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="vd">
+  <div class="category-header">
+    🔬 যৌন রোগ ও চর্মরোগ (Venereal & Skin Diseases)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Psoralea corylifolia (Babchi) oil</td><td>রোগহান বাবচি</td><td>Roghan Babchi</td><td>১০ মিলি</td><td class="price-tag">৳৫০</td><td>বেলুন ঘা (ভাইটিলিগো) চিকিৎসায়</td></tr>
+      <tr><td>2</td><td>ইউনানি হারবাল পাউডার ফর্মুলেশন</td><td>সাফুফ বারস</td><td>Safoof Bars</td><td>৫/১২৫ গ্রাম</td><td class="price-tag">৳৫০-৳২০০</td><td>যৌন রোগ চিকিৎসায়</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>বারসিনা</td><td>Barsina</td><td>৬০/১০০০ গ্রাম</td><td class="price-tag">৳১০০-৳৮০০</td><td>যৌন রোগ চিকিৎসায়</td></tr>
+      <tr><td>4</td><td>ইউনানি হারবাল ফর্মুলেশন</td><td>কুর্স সোযাক</td><td>Qurs Sozak</td><td>৪০ পিল</td><td class="price-tag">৳১৫০</td><td>গোনোরিয়া ও সোজাক চিকিৎসায়</td></tr>
+      <tr><td>5</td><td>Kushta Qalai (calcined tin compound) based formulation</td><td>সাফুফ কুস্তা কালাই</td><td>Safoof Kushta Qalai</td><td>৫০ গ্রাম</td><td class="price-tag">৳১০০</td><td>যৌন রোগ ও চর্মরোগ</td></tr>
+      <tr><td>6</td><td>ইউনানি হারবাল উপাদান</td><td>সাফি</td><td>Safi</td><td>৪৫০ মিলি</td><td class="price-tag">৳২০০</td><td>রক্ত পরিশুদ্ধিকারক, ত্বকের উজ্জ্বলতা, মুহাসা</td></tr>
+      <tr><td>7</td><td>Anti-inflammatory and anti-itch herbal formulation (Marham Kharish)</td><td>ডারমেইড মালহাম</td><td>Dermaid Ointment</td><td>২০ গ্রাম</td><td class="price-tag">৳১০০</td><td>খারিশ, একজিমা, ত্বকের প্রদাহ</td></tr>
+      <tr><td>8</td><td>ইউনানি হারবাল উপাদান</td><td>অ্যান্টিলিগো ক্যাপসুল</td><td>Antiligo Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳২৫০</td><td>লাইকোডার্মা/বেলুন ঘা চিকিৎসায়</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="diabetes">
+  <div class="category-header">
+    🩸 ডায়াবেটিস যত্ন (Diabetes Care)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>ইউনানি হারবাল উপাদান</td><td>ডায়াবিট ক্যাপসুল</td><td>Diabeat Capsule</td><td>৩০/৬০ ক্যাপসুল</td><td class="price-tag">৳২১০</td><td>ডায়াবেটিস নিয়ন্ত্রণ, রক্তে চিনি কমায়</td></tr>
+      <tr><td>2</td><td>Pterocarpus marsupium (Ziabetus) based formulation</td><td>কুর্স জিয়াবেতুস খাস</td><td>Qurs Ziabetus Khas</td><td>৩০ ট্যাবলেট</td><td class="price-tag">৳১৫০</td><td>ডায়াবেটিস চিকিৎসায়</td></tr>
+      <tr><td>3</td><td>ইউনানি হারবাল উপাদান</td><td>ইমিটন</td><td>Imyoton</td><td>—</td><td class="price-tag">—</td><td>ডায়াবেটিস নিয়ন্ত্রণ</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="category-section" id="herbal">
+  <div class="category-header">
+    🌿 হারবাল ও অন্যান্য (Herbal & Others)
+  </div>
+  <table>
+    <thead>
+      <tr><th>ক্রমিক</th><th>কাঁচামাল / উপাদান</th><th>নাম</th><th>ইংরেজি</th><th>ফর্ম</th><th>দাম (৳)</th><th>কাজ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Bacopa monnieri (Brahmi), Convolvulus pluricaulis (Shankhpushpi), Centella asiatica (Mandukaparni) based multi-herb formulation</td><td>মেমোপ্রাশ</td><td>Memoprash</td><td>৩০০ গ্রাম</td><td class="price-tag">৳৩০০</td><td>স্মৃতিশক্তি বৃদ্ধি, মস্তিষ্ক টনিক</td></tr>
+      <tr><td>2</td><td>Panax ginseng based multi-herb formulation</td><td>গিন্টন ক্যাপসুল</td><td>Ginton Capsule</td><td>৩০ ক্যাপসুল</td><td class="price-tag">৳৪৮০</td><td>সাধারণ শক্তি ও রোগ প্রতিরোধ</td></tr>
+      <tr><td>3</td><td>Moringa oleifera leaf extract</td><td>এইচ-মরিংগা ৫০০ ক্যাপসুল</td><td>H-Moringa 500 Capsule</td><td>৩০ ক্যাপসুল</td><td class="price-tag">৳৩০০</td><td>পুষ্টি সমৃদ্ধ, রোগ প্রতিরোধ শক্তি</td></tr>
+      <tr><td>4</td><td>প্রাকৃতিক মধু (Apis mellifera honey)</td><td>হামদার্ড মধু</td><td>Hamdard Honey</td><td>১০০/২৫০/৫০০ গ্রাম</td><td class="price-tag">৳১৩০-৳৪৫০</td><td>প্রাকৃতিক মধু, শক্তি ও পুষ্টি</td></tr>
+      <tr><td>5</td><td>Phyllanthus emblica (Amla) oil</td><td>হামদার্ড আমলা তেল</td><td>Hamdard Amla Oil</td><td>১৩০ মিলি</td><td class="price-tag">৳২৫০</td><td>চুলের যত্ন, চুল পড়া বন্ধ, চুল ঘনীভবন</td></tr>
+      <tr><td>6</td><td>Eclipta alba (Bhringaraj) oil</td><td>বৃংহরাজ হেয়ার অয়েল</td><td>Bhringaraj Hair Oil</td><td>১৩০ মিলি</td><td class="price-tag">৳২০০</td><td>চুলের যত্ন, চুল পড়া বন্ধ</td></tr>
+      <tr><td>7</td><td>Sodium chloride, Potassium chloride, Sodium citrate, Dextrose</td><td>হামদার্ড ওআরএস</td><td>Hamdard ORS</td><td>১০.২৫ গ্রাম পাউডার</td><td class="price-tag">৳১০</td><td>ডায়ারিয়ায় পানি ও লবণ পূরণ</td></tr>
+      <tr><td>8</td><td>Plantago ovata (Ispaghol husk)</td><td>ইস্পাগহোল</td><td>Ispaghol</td><td>৩.৫ গ্রাম/স্যাচেট</td><td class="price-tag">৳২০</td><td>কোষ্ঠকাঠিন্য দূর করে, পাচনে সহায়ক</td></tr>
+      <tr><td>9</td><td>Ethanol, Aloe vera, Glycerin</td><td>হামদার্ড হ্যান্ড স্যানিটাইজার</td><td>Hamdard Hand Sanitizer</td><td>২০০ মিলি</td><td class="price-tag">৳২৫০</td><td>জীবাণুনাশক, হাত পরিষ্কারক</td></tr>
+      <tr><td>10</td><td>ইউনানি হারবাল উপাদান (চিউয়েবল)</td><td>হাজমিট্যাব</td><td>Hazmitab</td><td>৬০/১০০ চিউয়েবল ট্যাবলেট</td><td class="price-tag">৳৬০-৳১৫০</td><td>হাজম শক্তি বৃদ্ধি (চিউয়েবল)</td></tr>
+      <tr><td>11</td><td>Aloe barbadensis (Aloe vera) gel</td><td>আলোভেরা জেল</td><td>Alofresh Gel</td><td>২০ গ্রাম</td><td class="price-tag">৳২০০</td><td>ত্বকের সুরক্ষা, পোড়া, ঘা</td></tr>
+      <tr><td>12</td><td>ইউনানি হারবাল উপাদান</td><td>হামদার্ড হাইপারটেনশন ক্যাপসুল</td><td>Centurin Capsule</td><td>৫০ ক্যাপসুল</td><td class="price-tag">৳৩০০</td><td>রক্তচাপ নিয়ন্ত্রণ</td></tr>
+      <tr><td>13</td><td>ইউনানি হারবাল উপাদান</td><td>অ্যান্টিফিভ সিরাপ</td><td>Antifev Syrup</td><td>৪৫০ মিলি</td><td class="price-tag">৳২৪০</td><td>জ্বরের সিরাপ, শিশুদের জন্য</td></tr>
+      <tr><td>14</td><td>Adhatoda vasica (Basak) based formulation</td><td>বাসাক সিরাপ</td><td>Hamdard Basak Syrup</td><td>১০০/২২৫ মিলি</td><td class="price-tag">৳৭৫-৳১৮০</td><td>কাশি ও সর্দির সিরাপ</td></tr>
+      <tr><td>15</td><td>ইউনানি হারবাল উপাদান</td><td>আমলাসিয়া সিরাপ</td><td>Amlasia Syrup</td><td>৪৫০ মিলি</td><td class="price-tag">৳১৫০</td><td>অ্যাসিডিটি ও পাকের সমস্যা</td></tr>
+      <tr><td>16</td><td>Terminalia arjuna (Arjuna) based formulation</td><td>আর্জুনারিস্টা এইচ</td><td>Arjunarista H</td><td>৪৫০ মিলি</td><td class="price-tag">৳২০০</td><td>হৃদরোগে সহায়ক, রক্তচাপ নিয়ন্ত্রণ</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</div><!-- container -->
+
+<footer>
+  <p>সতর্কতা: এই তালিকাটি শুধুমাত্র তথ্যের উদ্দেশ্যে প্রস্তুত। যেকোনো ওষুধ সেবনের আগে অবশ্যই চিকিৎসকের পরামর্শ নিন।</p>
+  <p>তথ্য সূত্র: Hamdard Laboratories (Waqf) Bangladesh, Hamdard India, Hamdard UK, পাবলিক ডাটাবেস | শেষ হালনাগাদ: সেপ্টেম্বর ২০২৬</p>
+</footer>
+
+<script>
+function searchTable() {
+  var input = document.getElementById("searchInput").value.toLowerCase();
+  var tables = document.querySelectorAll("table tbody tr");
+  tables.forEach(function(row) {
+    var text = row.textContent.toLowerCase();
+    if (text.includes(input)) {
+      row.style.display = "";
+    } else {
+      row.style.display = "none";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

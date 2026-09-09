@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temporomandibular Joint (TMJ) — The Complete Reference</title>
+<style>
+  :root {
+    --bg: #f6f8fb;
+    --card: #ffffff;
+    --ink: #1c2733;
+    --muted: #5b6b7b;
+    --line: #e2e8f0;
+    --accent: #0e7490;
+    --accent2: #be123c;
+    --accent3: #15803d;
+    --accent4: #7c3aed;
+    --warn: #92400e;
+    --well: #f1f5f9;
+    --sect: #16324d;
+    --toc-w: 300px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.65;
+    font-size: 15.5px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header.hero {
+    background: linear-gradient(135deg, #0f2a43 0%, #164e63 55%, #155e75 100%);
+    color: #fff;
+    padding: 42px 24px 38px;
+    text-align: center;
+    border-bottom: 5px solid var(--accent);
+  }
+  header.hero h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: .3px; }
+  header.hero p { margin: 4px 0 0; opacity: .92; font-size: .98rem; }
+  header.hero .tags { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  header.hero .tag {
+    background: rgba(255,255,255,.14);
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 20px;
+    padding: 3px 14px;
+    font-size: .78rem;
+    letter-spacing: .4px;
+  }
+
+  .layout { display: flex; max-width: 1280px; margin: 0 auto; gap: 0; }
+
+  nav.toc {
+    width: var(--toc-w);
+    flex: 0 0 var(--toc-w);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: #fff;
+    border-right: 1px solid var(--line);
+    padding: 18px 14px 40px;
+    font-size: .85rem;
+  }
+  nav.toc .toc-title {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--sect);
+    padding: 6px 8px 12px;
+    font-size: .8rem;
+    border-bottom: 2px solid var(--line);
+    margin-bottom: 8px;
+  }
+  nav.toc details { margin-bottom: 6px; }
+  nav.toc summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--sect);
+    padding: 5px 8px;
+    border-radius: 6px;
+  }
+  nav.toc summary:hover { background: var(--well); }
+  nav.toc a {
+    display: block;
+    color: var(--muted);
+    padding: 3px 8px 3px 20px;
+    border-left: 2px solid var(--line);
+    margin-left: 10px;
+    line-height: 1.45;
+  }
+  nav.toc a:hover { color: var(--accent); border-left-color: var(--accent); }
+
+  main.content {
+    flex: 1;
+    min-width: 0;
+    padding: 28px 32px 80px;
+  }
+
+  section.seat { scroll-margin-top: 16px; margin-bottom: 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 26px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(15,23,42,.05);
+  }
+  .card h2 {
+    margin: 0 0 14px;
+    color: var(--sect);
+    font-size: 1.5rem;
+    border-left: 5px solid var(--accent);
+    padding-left: 12px;
+    line-height: 1.25;
+  }
+  .card h3 {
+    margin: 26px 0 10px;
+    color: var(--sect);
+    font-size: 1.15rem;
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 5px;
+  }
+  .card h4 { margin: 18px 0 6px; color: var(--sect); font-size: 1rem; }
+  .card p { margin: 8px 0; }
+  .card ul, .card ol { margin: 8px 0 8px 0; padding-left: 22px; }
+  .card li { margin: 4px 0; }
+  strong { color: var(--sect); }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  @media (max-width: 1000px){ .grid2, .grid3 { grid-template-columns: 1fr; } }
+
+  .well {
+    background: var(--well);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 12px 0;
+  }
+  .note {
+    background: #ecfeff;
+    border: 1px solid #a5f3fc;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+  .warn {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+  .key {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+  .success {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: .88rem;
+    background: #fff;
+  }
+  th {
+    background: var(--sect);
+    color: #fff;
+    text-align: left;
+    padding: 9px 11px;
+    font-weight: 600;
+  }
+  td {
+    border: 1px solid var(--line);
+    padding: 8px 11px;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f8fafc; }
+  .twrap { overflow-x: auto; }
+
+  .badge {
+    display: inline-block;
+    border-radius: 12px;
+    padding: 1px 10px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+  .b-anat { background:#e0f2fe; color:#075985; }
+  .b-phys { background:#dcfce7; color:#166534; }
+  .b-path { background:#fee2e2; color:#991b1b; }
+  .b-med  { background:#fef3c7; color:#92400e; }
+  .b-surg { background:#ede9fe; color:#5b21b6; }
+  .b-imag { background:#fce7f3; color:#9d174d; }
+
+  code {
+    background: #eef2f7;
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: .85em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .pill { font-size:.78rem; }
+  .kbd {
+    display: inline-block;
+    background:#eef2f7;
+    border:1px solid #cbd5e1;
+    border-bottom-width:2px;
+    border-radius:5px;
+    padding:0 7px;
+    font-size:.8em;
+    font-family: ui-monospace, monospace;
+    color:#0f172a;
+  }
+
+  footer.rib {
+    text-align: center;
+    color: var(--muted);
+    font-size: .8rem;
+    padding: 20px 0 40px;
+  }
+
+  .search-box {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: .85rem;
+    margin-bottom: 12px;
+  }
+
+  details.spec { margin: 10px 0; background:#fff; border:1px solid var(--line); border-radius:10px; }
+  details.spec summary { cursor:pointer; padding: 10px 14px; font-weight:700; color: var(--sect); }
+  details.spec .body { padding: 4px 16px 16px; }
+
+  .qa p { margin: 5px 0; }
+  .qa p b { color: var(--accent2); }
+
+  /* ---------- Mobile / responsive ---------- */
+  .menu-btn {
+    display: none;
+    position: fixed;
+    right: 16px;
+    bottom: 18px;
+    z-index: 1002;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    box-shadow: 0 4px 14px rgba(14,116,144,.45);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-btn:active { transform: scale(.94); }
+  .toc-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(10,20,30,.5);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .toc-backdrop.show { opacity: 1; }
+  body.drawer-open { overflow: hidden; }
+
+  @media (max-width: 900px) {
+    .menu-btn { display: flex; }
+    .layout { display: block; }
+    nav.toc {
+      position: fixed;
+      top: 0;
+      left: -320px;
+      height: 100vh;
+      width: 290px;
+      max-width: 85vw;
+      z-index: 1001;
+      border-right: 1px solid var(--line);
+      border-radius: 0 14px 14px 0;
+      box-shadow: 4px 0 24px rgba(10,20,30,.25);
+      transition: left .28s ease;
+      padding-top: 22px;
+    }
+    nav.toc.open { left: 0; }
+    .toc-backdrop.show { display: block; }
+    main.content { padding: 18px 12px 70px; }
+    .card { padding: 18px 16px; }
+    .card h2 { font-size: 1.3rem; }
+    header.hero { padding: 32px 16px 28px; }
+    header.hero h1 { font-size: 1.55rem; }
+    header.hero p { font-size: .86rem; }
+    header.hero .tags { gap: 6px; }
+    header.hero .tag { font-size: .68rem; padding: 2px 10px; }
+    .grid2, .grid3 { grid-template-columns: 1fr; gap: 12px; }
+    table { min-width: 520px; font-size: .82rem; }
+    th, td { padding: 7px 9px; }
+    td { word-break: break-word; }
+    .twrap { -webkit-overflow-scrolling: touch; }
+    .search-box { font-size: .8rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Temporomandibular Joint (TMJ)</h1>
+  <p>The Complete Medical Reference — Anatomy &middot; Physiology &middot; Pathology &middot; Medicine &middot; Surgery &middot; All Diseases</p>
+  <div class="tags">
+    <span class="tag">TMD</span>
+    <span class="tag">Maxillofacial Surgery</span>
+    <span class="tag">Dentistry</span>
+    <span class="tag">Rheumatology</span>
+    <span class="tag">OMFS</span>
+    <span class="tag">Biomechanics</span>
+    <span class="tag">Arthroscopy</span>
+    <span class="tag">Joint Replacement</span>
+  </div>
+</header>
+
+<button class="menu-btn" id="menuBtn" aria-label="Open table of contents">&#9776;</button>
+<div class="toc-backdrop" id="tocBackdrop"></div>
+
+<div class="layout">
+<nav class="toc" id="navToc">
+  <div class="toc-title">Table of Contents</div>
+  <input class="search-box" id="tocSearch" type="text" placeholder="Filter sections...">
+  <details open>
+    <summary>01 · Basis</summary>
+    <a href="#overview">Overview</a>
+    <a href="#embryology">Embryology &amp; Growth</a>
+    <a href="#anatomy">Anatomy</a>
+    <a href="#physiology">Physiology &amp; Biomechanics</a>
+    <a href="#exam">Clinical Examination</a>
+    <a href="#imaging">Imaging</a>
+  </details>
+  <details open>
+    <summary>02 · Diseases &amp; Pathology</summary>
+    <a href="#tmd-overview">TMD Overview</a>
+    <a href="#myofascial">Myofascial Pain / Myalgia</a>
+    <a href="#disc-displacement">Disc Displacement</a>
+    <a href="#closed-lock">Closed Lock / No Reduction</a>
+    <a href="#osteoarthritis">Osteoarthritis / DJD</a>
+    <a href="#inflammatory-arthritis">Inflammatory Arthritis</a>
+    <a href="#septic-arthritis">Septic Arthritis</a>
+    <a href="#dislocation">Dislocation</a>
+    <a href="#ankylosis">Ankylosis</a>
+    <a href="#condylar-fracture">Condylar Fractures</a>
+    <a href="#hyperplasia">Condylar Hyper/Hypoplasia</a>
+    <a href="#icr">Idiopathic Condylar Resorption</a>
+    <a href="#coronoid">Coronoid Hyperplasia</a>
+    <a href="#tumors">Tumors &amp; Tumour-like Lesions</a>
+    <a href="#misc-path">Other Joint Pathology</a>
+    <a href="#bruxism">Bruxism &amp; Parafunction</a>
+  </details>
+  <details open>
+    <summary>03 · Treatment</summary>
+    <a href="#medical-mgmt">Medical (Conservative) Management</a>
+    <a href="#pharmacology">Pharmacology</a>
+    <a href="#intra-articular">Intra-articular Therapy</a>
+    <a href="#surgical-mgmt">Surgical Management</a>
+    <a href="#dislocation-surg">Surgery for Dislocation</a>
+    <a href="#ankylosis-surg">Surgery for Ankylosis</a>
+    <a href="#tjr">Total Joint Replacement</a>
+    <a href="#complications">Complications of Surgery</a>
+  </details>
+  <details open>
+    <summary>04 · Classification &amp; Reference</summary>
+    <a href="#classifications">Classification Systems</a>
+    <a href="#ddx">Differential Diagnosis</a>
+    <a href="#prognosis">Prognosis &amp; Evidence</a>
+    <a href="#faq">FAQ</a>
+    <a href="#references">References</a>
+  </details>
+</nav>
+
+<main class="content">
+
+<!-- ============================== 01 ============================== -->
+
+<section id="overview" class="seat">
+  <div class="card">
+    <h2>1. Overview</h2>
+    <p>The <strong>temporomandibular joint (TMJ)</strong> is the articulation between the mandible and the temporal bone. There are two TMJs, one on each side, functioning as a <strong>single bilateral unit</strong> — the two joints normally move together simultaneously. It is regarded as one of the most frequently used joints in the human body, used in chewing, speaking, swallowing, yawning and facial expression.</p>
+    <div class="grid3">
+      <div class="well">
+        <strong>Ginglymoarthrodial</strong><br>A combined hinge (ginglymoid) and sliding (arthrodial) joint.
+      </div>
+      <div class="well">
+        <strong>Dual synovial</strong><br>Two synovial cavities separated by the articular disc.
+      </div>
+      <div class="well">
+        <strong>Freely movable</strong><br>Unique joint because left and right act together as one unit.
+      </div>
+    </div>
+    <p><strong>Key functional facts:</strong></p>
+    <ul>
+      <li>Normal maximum incisal opening (interincisal distance): <strong>35–50 mm</strong> (average ~40–45 mm); women usually slightly less than men.</li>
+      <li>Normal lateral (excursive) movements: <strong>8–12 mm</strong> each side.</li>
+      <li>Normal protrusion: <strong>8–11 mm</strong>.</li>
+      <li>The working load across the joint can exceed <strong>400 N</strong> during molar chewing and up to 700+ N in clenching.</li>
+      <li>TMJ receives constant load throughout life and shows age-related adaptative change.</li>
+    </ul>
+    <div class="note"><strong>Clinical significance:</strong> TMJ disorders (TMD) are the most common cause of oro-facial pain of non-dental origin, affecting roughly 5–12% of the adult population; up to 40% of people have at least one sign of TMD at some point, and women aged 20–40 are most commonly affected.</div>
+  </div>
+</section>
+
+<section id="embryology" class="seat">
+  <div class="card">
+    <h2>2. Embryology &amp; Development</h2>
+    <p>The TMJ develops <strong>later than most other joints</strong> and is of a secondary or ".... obtainable" variety — i.e., it is not derived from the primary cartilaginous jaw articulation (which is the sphenomandibular joint region of the developing Meckel's cartilage).</p>
+    <h3>Stages of development (from ~10th–12th week in utero)</h3>
+    <ul>
+      <li><strong>Blastema stage (7th–10th week):</strong> condensation of mesenchyme beneath the developing temporal bone; two blastemas appear — one for condylar cartilage, one for the glenoid fossa/temporal component.</li>
+      <li><strong>Prenatal cavitation (10th–12th week):</strong> appearance of the lower joint cavity first, then the upper cavity; the intra-articular disc develops from the mesenchyme between these cavities and is fused with the lateral pterygoid muscle.</li>
+      <li><strong>Maturation (12th–20th week):</strong> the disc attaches to the condyle and temporal fossa; capsular and synovial lining form; articular eminence becomes more defined later.</li>
+      <li><strong>Postnatal development:</strong> continued remodelling of condyle/fossa; articular eminence gradually becomes steeper and resorption changes under condylar load; primary and secondary dentition affects functional remodelling.</li>
+    </ul>
+    <h3>Factors that influence growth</h3>
+    <ul>
+      <li><strong>Condylar cartilage</strong> is a secondary (fibrocartilaginous-growth) cartilage; it is a major growth site for the mandible (endochondral ossification at its deep layer).</li>
+      <li>Growth is influenced by genetic factors, hormones (GH, thyroid hormone, sex steroids), mechanical loading, and muscle function.</li>
+      <li>The <strong>articular eminence</strong> height develops in response to tooth eruption and occlusal function.</li>
+      <li>Disturbances produce congenital deformities: <strong>hemifacial microsomia (first and second branchial arch syndrome), Treacher-Collins syndrome, Pierre Robin sequence, condylar aplasia/hypoplasia</strong>.</li>
+    </ul>
+    <h3>Clinically relevant growth notes</h3>
+    <ul>
+      <li>Trauma to the condyle before growth completion (juvenile) may lead to <strong>hypoplasia and facial asymmetry</strong>.</li>
+      <li>Mastoid/ear infections and juvenile arthritis can destroy the growth cartilage -> micrognathia (as in <strong>Costen's classic description of TMJ pain and otologic symptoms</strong>).</li>
+      <li>Continued growth beyond normal period is seen in <strong>condylar hyperplasia</strong>.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="anatomy" class="seat">
+  <div class="card">
+    <h2>3. Anatomy <span class="badge b-anat">Anatomy</span></h2>
+
+    <h3>3.1 Bony components</h3>
+    <p>The TMJ is formed by two bones:</p>
+    <div class="twrap">
+      <table>
+        <tr><th>Component</th><th>Location</th><th>Features</th><th>Articular surface</th></tr>
+        <tr>
+          <td><strong>Upper component</strong><br>Temporal bone</td>
+          <td>Squamous part — base of skull, lateral</td>
+          <td>Contains the <strong>mandibular (glenoid) fossa</strong> and the <strong>articular eminence (articular tubercle)</strong> anterior to the fossa.</td>
+          <td>Concave fossa + convex eminence; covered by <strong>fibrocartilage</strong>, not hyaline.</td>
+        </tr>
+        <tr>
+          <td><strong>Lower component</strong><br>Condyle of mandible</td>
+          <td>Upper end of mandibular ramus</td>
+          <td>Ellipsoid condyle; 15–20 mm mediolaterally, 8–10 mm anteroposteriorly; <strong>long axis faces posteromedially</strong> (each condyle makes ~15–25° with the frontal plane).</td>
+          <td>Covered by fibrocartilage.</td>
+        </tr>
+      </table>
+    </div>
+    <ul>
+      <li>The <strong>glenoid (mandibular) fossa</strong> is thin (about 1 mm) in its roof; the <strong>petrotympanic fissure</strong> separates its medially deep part from the middle ear, which is why severe superior trauma can involve the ear.</li>
+      <li>&quot;Glenoid&quot; is a misnomer (the true glenoid is in the scapula); the term <strong>mandibular fossa</strong> is preferred.</li>
+      <li>Behind the fossa is the <strong>postglenoid tubercle</strong>; the external auditory canal lies posterior; the <strong>zygomatic process</strong> lies lateral/superior; lateral pterygoid plate and sphenoid lie medial.</li>
+      <li>The <strong>squamo-tympanic and petro-tympanic fissures</strong> pierce the posterior wall; the chorda tympani nerve passes through the petrotympanic fissure.</li>
+    </ul>
+
+    <h3>3.2 Articular disc (meniscus)</h3>
+    <p>A dense, biconcave, <strong>fibrocartilaginous disc</strong> between the condyle and the temporal fossa. In cross-section it is <strong>anterior band – intermediate thin zone – posterior band</strong> (like a bow-tie).</p>
+    <div class="twrap">
+      <table>
+        <tr><th>Zone</th><th>Thickness</th><th>Composition/notes</th></tr>
+        <tr><td>Anterior band</td><td>~2 mm</td><td>Attached to joint capsule anteriorly and blends with superior part of lateral pterygoid.</td></tr>
+        <tr><td>Intermediate zone (pars gracilis)</td><td>~1 mm</td><td>Thinnest; biconcave; most commonly perforated site laterally in DJD.</td></tr>
+        <tr><td>Posterior band (pars posterior)</td><td>~3 mm</td><td>Thick; continuous behind with the <strong>bilaminar (retrodiscal) zone</strong>.</td></tr>
+        <tr><td>Bilaminar zone / retrodiscal tissue</td><td>—</td><td>Loose vascular connective tissue; contains the <strong>superior retrodiscal lamina</strong> (elastic, attaches to posterior fossa) and <strong>inferior retrodiscal lamina</strong> (collagenous, attaches to condyle).
+
+ The loose tissue permits displacement during condylar movement; rich in nerves &amp; vessels (a major pain source).</td></tr>
+      </table>
+    </div>
+    <p><strong>Functions of the disc:</strong> load distribution, shock absorption, stabilisation of the joint, facilitation of smooth translation, nutrition (as a route for synovial fluid movement). The disc itself is largely <strong>aneural and avascular</strong> in its working zones (only the peripheral attachment and retrodiscal tissue are vascularised/innervated), hence disc tears may be painless while retrodiscal inflammation is painful.</p>
+    <p>The disc divides the joint into <strong>two synovial compartments</strong>:</p>
+    <ul>
+      <li><strong>Superior (upper) joint space:</strong> between eminence/fossa and disc — allows gliding (translatory) movements.</li>
+      <li><strong>Inferior (lower) joint space:</strong> between disc and condyle — allows rotatory/hinge movements.</li>
+    </ul>
+
+    <h3>3.3 Joint capsule and the three main ligaments</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Ligament</th><th>Course &amp; attachments</th><th>Function / significance</th></tr>
+        <tr>
+          <td><strong>Capsular ligament</strong></td>
+          <td>Thin sleeve attaching to glenoid fossa/eminence above and neck of condyle below; surrounds the joint.</td>
+          <td>Seals the joint; contains synovium; limits extremes of movement; richly innervated (pain fibres).</td>
+        </tr>
+        <tr>
+          <td><strong>Temporomandibular ligament (lateral ligament)</strong> — the true ligament of the TMJ</td>
+          <td>From zygomatic arch/tubercle to the lateral side of the condylar neck; oblique and horizontal components.</td>
+          <td>Limits excessive opening, posterior displacement of disc/condyle and protects lateral capsule (main restraining ligament).</td>
+        </tr>
+        <tr>
+          <td><strong>Sphenomandibular ligament</strong></td>
+          <td>From sphenoid spine to lingula of mandible.</td>
+          <td><em>Passive</em> remnant of Meckel's cartilage; suspends the mandible; relation to auriculotemporal &amp; chorda tympani nerves.</td>
+        </tr>
+        <tr>
+          <td><strong>Stylomandibular ligament</strong></td>
+          <td>From styloid process to angle of mandible.</td>
+          <td>Limits excessive protrusion. Not part of joint capsule itself; <em>hyoid-opener</em>'s check.</td>
+        </tr>
+      </table>
+    </div>
+    <p>The <strong>lateral (temporomandibular) ligament</strong> has an <em>oblique outer</em> portion that tightens on opening and a <em>horizontal inner</em> portion that tightens when the condyle retrudes — this horizontal part is what prevents posterior displacement of the disc and condyle through the thin fossa roof.</p>
+
+    <h3>3.4 Joint cavities, synovium and lubrication</h3>
+    <ul>
+      <li><strong>Upper cavity</strong> — large, permits wide translatory movements.</li>
+      <li><strong>Lower cavity</strong> — smaller, permits rotational hinge movement.</li>
+      <li>Both lined by <strong>synovial membrane</strong> (only in non-load-bearing areas — the articular surface itself has no synovium).</li>
+      <li><strong>Synovial fluid</strong>: ultra-filtrate of plasma plus hyaluronic acid (high MW) and glycoproteins; lubricates, nourishes and acts as a shock absorber; its itself contains lubricin and thrombospondin that reduce friction.</li>
+    </ul>
+
+    <h3>3.5 Muscles of mastication</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Muscle</th><th>Origin</th><th>Insertion</th><th>Innervation</th><th>Action</th></tr>
+        <tr>
+          <td><strong>Masseter</strong></td>
+          <td>Zygomatic arch (deep &amp; superficial layers)</td>
+          <td>Lateral surface of ramus &amp; angle of mandible</td>
+          <td>Masseteric nerve (V<sub>3</sub>)</td>
+          <td>Elevates mandible; superficial fibres slightly protrude</td>
+        </tr>
+        <tr>
+          <td><strong>Temporalis</strong></td>
+          <td>Temporal fossa; temporal fascia</td>
+          <td>Coronoid process &amp; anterior ramus</td>
+          <td>Deep temporal nerves (V<sub>3</sub>); anterior &amp; posterior fibres</td>
+          <td>Anterior fibres elevate; posterior fibres retrude; stabilises jaw</td>
+        </tr>
+        <tr>
+          <td><strong>Medial pterygoid</strong></td>
+          <td>Medial surface lateral pterygoid plate, pyramidal process of palatine, maxillary tuberosity</td>
+          <td>Inferomedial surface of ramus &amp; angle (opposite masseter)</td>
+          <td>Medial pterygoid nerve (V<sub>3</sub>)</td>
+          <td>Elevation; protrusion (bilateral); contralateral excursion (unilateral)</td>
+        </tr>
+        <tr>
+          <td><strong>Lateral pterygoid</strong></td>
+          <td><em>Superior head:</em> infratemporal surface/crest of sphenoid; <em>Inferior head:</em> lateral pterygoid plate</td>
+          <td>Superior head → capsule &amp; disc; Inferior head → pterygoid fovea on condylar neck</td>
+          <td>Lateral pterygoid nerve (V<sub>3</sub>)</td>
+          <td>Protrusion (bilateral); contralateral excursion (unilateral); depression (opens) jaw; superior head steadies disc during closing</td>
+        </tr>
+      </table>
+    </div>
+    <p><strong>Accessory muscles relevant to jaw posture &amp; pontaneous pain:</strong> suprahyoids (digastric, mylohyoid, geniohyoid, stylohyoid) depress and open jaw; infrahyoids stabilise hyoid; platysma, sternocleidomastoid, trapezius, occipital/frontalis muscles also implicated in referred TMD pain.</p>
+
+    <h3>3.6 Nerve supply</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Nerve</th><th>Branch of</th><th>Supplies</th></tr>
+        <tr><td><strong>Auriculotemporal nerve</strong></td><td>Posterior division V<sub>3</sub></td><td>Posterolateral capsule, retro-discal tissue, retromolar/disc, parotid area, external ear, TMJ pain sensation.</td></tr>
+        <tr><td><strong>Masseteric nerve</strong></td><td>Anterior division V<sub>3</sub></td><td>Anterolateral capsule &amp; lateral aspect of joint.</td></tr>
+        <tr><td><strong>Deep temporal nerves</strong></td><td>Anterior division V<sub>3</sub></td><td>Superior capsule; proprioception.</td></tr>
+        <tr><td><strong>Medial &amp; lateral pterygoid nerves</strong></td><td>V<sub>3</sub></td><td>Medial capsule; diameter of musculature.</td></tr>
+        <tr><td><strong>Proprioception</strong></td><td>—</td><td>Hershey nerve endings in ligaments &amp; deep periosteum — normal go up via V<sub>3</sub>.</td></tr>
+      </table>
+    </div>
+    <p>The trigeminal (V) nerve therefore conducts nearly all TMJ sensation and proprioception; ear pain referral from the TMJ travels through the auriculotemporal nerve connecting with the facial (VII) and glossopharyngeal (IX) distributions, explaining ear symptoms in TMD.</p>
+
+    <h3>3.7 Blood supply, lymphatic drainage</h3>
+    <ul>
+      <li><strong>Arteries:</strong> branches of the <em>superficial temporal artery</em> (transverse facial branch, middle temporal) and <em>maxillary artery</em> (deep auricular, anterior tympanic, masseteric, pterygoid, deep temporal).</li>
+      <li><strong>Veins:</strong> pterygoid venous plexus, superficial temporal vein, maxillary veins → retromandibular vein → EJV/IJV.</li>
+      <li><strong>Lymphatics:</strong> to parotid (pre-auricular) and jugulodigastric (deep cervical) nodes.</li>
+      <li><strong>Arterial ischemia</strong> of retrodiscal tissue is one theory for disc displacement — vascular congestion leads to tissue laxity.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="physiology" class="seat">
+  <div class="card">
+    <h2>4. Physiology &amp; Biomechanics <span class="badge b-phys">Physiology</span></h2>
+
+    <h3>4.1 Movements of the joint</h3>
+    <p>The TMJ produces two basic motion types which almost always combine:</p>
+    <ul>
+      <li><strong>Rotation (hinge movement):</strong> movement around a horizontal/anatomic axis, occurring in the <em>lower joint space</em>. Pure rotation gives the first ~20–25 mm of mouth opening; further opening requires translation.</li>
+      <li><strong>Translation (gliding):</strong> movement of the whole condyle-disc complex along the articular eminence in the <em>upper joint space</em>.</li>
+    </ul>
+    <h4>Mandibular movements (border &amp; functional):</h4>
+    <div class="twrap">
+      <table>
+        <tr><th>Movement</th><th>Description</th><th>Normal range</th></tr>
+        <tr><td>Depression (opening)</td><td>Rotation (first 20–25 mm) then rotation+translation; condyle moves down &amp; forward onto articular eminence.</td><td>35–50 mm interincisal</td></tr>
+        <tr><td>Elevation (closing)</td><td>Reverse of opening; powerful masticatory movement.</td><td>—</td></tr>
+        <tr><td>Protrusion</td><td>Bilateral lateral pterygoid action; teeth end-to-end.</td><td>8–11 mm</td></tr>
+        <tr><td>Retrusion</td><td>Posterior temporalis &amp; deep masseter/digastric.</td><td>1–3 mm beyond centric</td></tr>
+        <tr><td>Lateral excursion</td><td>Medial (working) side rotates, balancing side translates medially; influenced by occlusal guidance (canine protection / group function).</td><td>8–12 mm each side</td></tr>
+      </table>
+    </div>
+    <ul>
+      <li><strong>Bennett movement:</strong> sideward shift of the mandible (usually the balancing condyle) during lateral excursion.</li>
+      <li><strong>Condylar path:</strong> the path the condyle follows on the eminence; its steepness and curvature reflect morphology and functional loading.</li>
+      <li><strong>Fischer angle:</strong> angle between sagittal and horizontal condylar guidance on the balancing side.</li>
+      <li><strong>Posselt's envelope of motion:</strong> 3-D border/edge-to-edge diagram of all mandibular border positions in the sagittal plane.</li>
+    </ul>
+
+    <h3>4.2 Rest position and freeway space</h3>
+    <ul>
+      <li>The mandible at postural rest (throat at rest, lips lightly together, breathing) shows the <strong>interocclusal (freeway) space</strong> of ~2–4 mm between the teeth.</li>
+      <li>Muscle tone (chiefly superior lateral pterygoid, posterior temporalis, suprahyoids and masseter) maintains rest position against gravity.</li>
+      <li>Loss of posterior tooth support or severe occlusal attrition can reduce the rest dimension and increase loading.</li>
+    </ul>
+
+    <h3>4.3 Biomechanics of the disc</h3>
+    <ul>
+      <li>The disc is <strong>positioned by the superior head of lateral pterygoid</strong> on closing and by the <strong>retro-discal superior lamina</strong> on opening — a balanced couple keeps the thin zone between condyle and eminence.</li>
+      <li>During opening: condyle translates forward; disc translates with it; disc posterior band remains on top of the condyle.</li>
+      <li>During clenching: the disc may be squeezed posteriorly; the retrodiscal tissues become functionally loaded — this is a mechanism for retrodiscal pain and clicking in the dentate patient with bruxism.</li>
+      <li><strong>Load tolerance:</strong> the joint load per molar requires ~436N in normal bites; the load resistance of the disc is high but repetitive trauma + disc displacement >> shearing forces cause tissue failure (perforation, DJD).</li>
+      <li>The normal resting intra-articular pressure varies from negative (opening) to positive (closing/clenching).</li>
+    </ul>
+
+    <h3>4.4 Occlusion &amp; joint integration</h3>
+    <ul>
+      <li>Centric relation (CR) — condyles in the most superior-anterior position in fossa against the articular eminence (disc correctly interposed); centric occlusion (CO) — full intercuspation of teeth.</li>
+      <li>A CO–CR slide &gt;1–2 mm on retruded contact is common, but <em>excessive</em> slide with skeletal/open-bite relationships is a risk factor for disc displacement.</li>
+      <li>Unilateral posterior crossbite, deep bite, Angle Class II division 2 malocclusion, and missing posterior teeth (loss of support) are the classic occlusal risk factors studied.</li>
+      <li><strong>Occlusal stability</strong>: molar/canine guidance, stable posterior stops and stable CR/CO help limit loads on the retrodiscal and discal complex.</li>
+    </ul>
+
+    <h3>4.5 Synovial fluid, lubrication &amp; nutrition</h3>
+    <ul>
+      <li>Synovial fluid contains <strong>hyaluronic acid (HA)</strong> and <strong>lubricin</strong>, which give boundary and film lubrication.</li>
+      <li>It also carries nutrients to the avascular disc/cartilage (movement pumps fluid — so normal daily function is essential for disc nutrition).</li>
+      <li>Breakdown of HA (by free radicals/reactive oxygen in inflammation) reduces lubrication and contributes to intra-articular adhesions, clicking and osteoarthritic changes.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="exam" class="seat">
+  <div class="card">
+    <h2>5. Clinical Examination <span class="badge b-anat">Anatomy</span><span class="badge b-path">Exam</span></h2>
+
+    <h3>5.1 History (essential questions)</h3>
+    <ul>
+      <li><strong>Pain location:</strong> pre-auricular, ear, temple, cheek, neck; is it referred?</li>
+      <li><strong>Character:</strong> dull ache (muscle/DJD), clicking, sharp catching (disc), burning (retrodiscal/neuropathic).</li>
+      <li><strong>Timing:</strong> morning stiffness (inflammatory arthritis), end-of-day worsening (fatigue/muscle), provoked by chewing/yawning.</li>
+      <li><strong>Joint sounds:</strong> clicking — opening or closing; reciprocal click (open+close); crepitus (grating — DJD); locking episodes.</li>
+      <li>Parafunctions: <strong>bruxism/clenching, nail biting, gum chewing</strong>, occupational/triggering.</li>
+      <li>Trauma history (blow, whiplash, intubation, dental/extraction prolonged opening, yawning).</li>
+      <li>Psychosocial: anxiety, depression, stress, catastrophising (important prognostic).</li>
+      <li>Systemic: rheumatoid/psoriatic/JIA, Sjögren, lupus history; jaw swelling, fever (infection).</li>
+      <li>Ear symptoms, sinusitis, dental pain (neuroscience of referred pain).</li>
+    </ul>
+
+    <h3>5.2 Inspection &amp; range of motion</h3>
+    <ul>
+      <li><strong>Maximum incisal opening (MIO):</strong> measure with rule between upper and lower incisal edges; + overbite. Locking < 30 mm path = restricted; > 50 mm is excessive (subluxation risk).</li>
+      <li><strong>Deviation on opening:</strong> mid-line deviates to one side at full opening → muscle asymmetry or unilateral disc displacement / limitation; a straight-line "zigzag" deviation suggests disc without reduction vs muscular.</li>
+      <li><strong>Lateral excursions</strong> (both sides), <strong>protrusion</strong> measured in mm.</li>
+      <li>Facial asymmetry, pre-auricular swelling, bite change (acute malocclusion — impaired fossa trauma, effusion or fracture).</li>
+      <li>Orthodontic/biological: overjet, overbite, open bite, posterior crossbite, missing/locked teeth.</li>
+    </ul>
+
+    <h3>5.3 Palpation</h3>
+    <ul>
+      <li>TMJ lateral pole: fingertip just anterior to tragus (lightly) — pain, creptitus.</li>
+      <li>Posterior joint space: finger in external auditory meatus pushed anteriorly.</li>
+      <li>Muscles: masseter (superficial &amp; deep), temporalis (anterior/middle/posterior), medial &amp; lateral pterygoids (intra-oral palpation), digastric, SCM, trapezius — looking for tenderness, trigger points.</li>
+      <li>Ear, parotid and neck nodes.</li>
+    </ul>
+
+    <h3>5.4 Joint sounds &amp; differential tests</h3>
+    <ul>
+      <li><strong>Clicking:</strong> reciprocal click on open &amp; close → classic disc displacement with reduction.</li>
+      <li><strong>Crepitus (grating/bib-like):</strong> DJD.</li>
+      <li>Ausculsation rarely needed; kor sound son <em>click</em> is high-pitched, quick; <em>crepitus</em> is low, sandy/grating continuous.</li>
+    </ul>
+
+    <h3>5.5 Provocation &amp; functional tests</h3>
+    <ul>
+      <li><strong>Timing of symptoms with mastication</strong>, clenching reproduces pain.</li>
+      <li>Press the mandible inferiorly (against resistance) — reproduce pain (intra-articular).</li>
+      <li>Check <strong>occlusal stability</strong> (fremitus) and load across posterior teeth.</li>
+      <li>Cranial nerves, fundoscopy for raised ICP if red flags (persistent unilateral, neurological sx).</li>
+    </ul>
+
+    <div class="warn"><strong>Red flags requiring urgent imaging/referral:</strong> fever + joint swelling (septic arthritis), sudden malocclusion, pathological fracture risk (neoplasm, metastasis), progressive facial swelling, neurological deficit, visual/vestibular symptoms, weight loss, night pain.</div>
+  </div>
+</section>
+
+<section id="imaging" class="seat">
+  <div class="card">
+    <h2>6. Imaging of the TMJ <span class="badge b-imag">Imaging</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>Modality</th><th>Best for</th><th>Limitations</th></tr>
+        <tr><td><strong>Panoramic radiograph (OPG/DPR)</strong></td><td>Gross condyle morphology, condylar head shape, trauma survey, asymmetry, comparing sides.</td><td>Overlaps; cannot see disc; poor soft-tissue detail.</td></tr>
+        <tr><td><strong>Transcranial / lateral oblique radiograph</strong></td><td>Fossa-condyle relationship, erosion, flattening.</td><td>Limited; outmoded for diagnosis.</td></tr>
+        <tr><td><strong>CT / CBCT</strong></td><td>Osseous detail: erosion, osteophytes, subchondral changes, ankylosis, condylar fracture displacement, coronoid disease, tumour.</td><td>No disc/soft tissue detail; radiation (avoid in low-risk).</td></tr>
+        <tr><td><strong>MRI (with/without contrast)</strong></td><td>The gold standard for the disc: position, reduction, perforation; effusion; synovitis; marrow oedema; loose bodies; PVNS.</td><td>Expensive; static images; claustrophobia; metal contraindications.</td></tr>
+        <tr><td><strong>Arthrography (arthrotomography)</strong></td><td>Historical: disc perforation with contrast.</td><td>Invasive; MRI has replaced it.</td></tr>
+        <tr><td><strong>Ultrasound</strong></td><td>Disc position screening, superficial pathology; inexpensive.</td><td>Operator-dependent; lateral part only.</td></tr>
+        <tr><td><strong>Bone scan (SPECT)</strong></td><td>Active condylar growth (hyperplasia vs inactive), condylar remodelling activity.</td><td>Poor spatial detail alone.</td></tr>
+        <tr><td><strong>PET/CT, FDG</strong></td><td>Malignancy staging (sarcoma, metastasis).</td><td>Cost, availability.</td></tr>
+      </table>
+    </div>
+    <p><strong>MRI findings to note:</strong> disc anterior displacement is most common (intermediate zone no longer between eminence and condyle); with reduction = on opening the disc returns between the bones (clicking); without reduction = disc remains anterior (closed lock). Effusion = high T2 signal — indicates inflammation. Perforation usually only inferred from MRI; arthroscopy now gold standard for confirming perforation/adhesions.</p>
+    <p><strong>Cone-beam CT dosimetry note:</strong> very low dose (a few µSv) is safe for routine TMJ bony study; standard CT ~0.1–0.6 mSv.</p>
+  </div>
+</section>
+
+<!-- ============================== 02 ============================== -->
+
+<section id="tmd-overview" class="seat">
+  <div class="card">
+    <h2>7. Temporomandibular Disorders (TMD) — Overview <span class="badge b-path">Pathology</span></h2>
+    <p><strong>TMD</strong> is a collective term covering disorders of the masticatory muscles, the TMJs themselves, and the associated structures. The modern classification (DC/TMD) separates:</p>
+    <ul>
+      <li><strong>Pain-related disorders:</strong> myalgia (local, myofascial with/without referral), arthralgia, headache attributed to TMD.</li>
+      <li><strong>Joint/intra-articular disorders:</strong> disc displacement (with reduction; with reduction with intermittent locking; without reduction with limited opening; without reduction without limited opening), degenerative joint disease (DJD/osteoarthritis), subluxation.</li>
+      <li><strong>Muscle-related:</strong> myofascial pain with referral, myalgia, contracture.</li>
+    </ul>
+    <p><strong>Epidemiology &amp; risk factors:</strong> 5–12% prevalence; F:M ≈ 2:1–4:1; peak 20–40 years. Risk factors include trauma, parafunction/bruxism, deep bites/overbite&overjet patterns, orthodontic treatment is <em>not</em> proven to cause TMD; stress/anxiety, estrogen influence, joint hypermobility, systemic arthritis.</p>
+    <p><strong>General principles of the disorder's origin:</strong> modern understanding is <em>multifactorial</em> — biomechanical loading, disc displacement, inflammation, neuroplastic pain sensitisation, psychosocial factors — never purely "occlusal" as older theory (Costen 1934) claimed.</p>
+  </div>
+</section>
+
+<section id="myofascial" class="seat">
+  <div class="card">
+    <h2>8. Myofascial Pain / Myalgia of Masticatory Muscles <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> pain originating from the muscles of mastication (or accessory muscles), often with <strong>tender localized trigger points</strong> that refer pain in a predictable pattern.</p>
+    <ul>
+      <li><strong>Myalgia:</strong> pain on function + reproducible tenderness on palpation of the same muscle; no referral.</li>
+      <li><strong>Myofascial pain with referral:</strong> trigger points; pressure reproduces pain remote from the muscle (e.g., temporalis → temporal/eye region; masseter → ear/tooth discomfort; SCM → face/parietal; trapezius → neck).</li>
+      <li><strong>Centrally mediated (fibromyalgia-like) myalgia:</strong> widespread tenderness, fatigue, sleep disturbance.</li>
+    </ul>
+    <h4>Etiology / perpetuating factors</h4>
+    <ul>
+      <li>Parafunction: clenching, bruxism, gum chewing, nail biting.</li>
+      <li>Stress, anxiety, depression; catastrophising.</li>
+      <li>Postural habits (forward head posture stresses upper traps/SCM); prolonged jaw opening (dental work, singing).</li>
+      <li>Sleep disturbances / apnea.</li>
+      <li>Trauma/whiplash; occupational (telephone cradle, computer).</li>
+    </ul>
+    <h4>Clinical features</h4>
+    <ul>
+      <li>Dull, aching, often bilateral ache; worse with function/clenching; morning or evening peak.</li>
+      <li>Tenderness of masseter, temporalis, lateral/medial pterygoid; firm taut bands.</li>
+      <li>Limited painful opening; normal opening may still be near-normal.</li>
+      <li>Headache affecting temples; ear fullness.</li>
+    </ul>
+    <h4>Diagnosis</h4>
+    <p>DC/TMD: pain in a muscle + reproducible pain on function/palpation; imaging recommended only if pain doesn't respond or signs of organic disease.</p>
+    <h4>Treatment</h4>
+    <ul>
+      <li><strong>Self-care first line:</strong> soft diet, jaw rest, heat, gentle exercise, stress management, sleep hygiene.</li>
+      <li><strong>Behavioural:</strong> cognitive-behavioural therapy (CBT), biofeedback, habit reversal, relaxation.</li>
+      <li><strong>Physical:</strong> passive stretching, postural exercise, trigger point massage/dry needling, ultrasound, TENS.</li>
+      <li><strong>Pharmacology:</strong> NSAIDs, muscle relaxants, tricyclic/SNRI low-dose (amitriptyline 10–25 mg nocte), topical capsaicin.</li>
+      <li><strong>Occlusal splint:</strong> flat-plane stabilization splint protects and reduces load (evidence modest but commonly effective in muscle-dominant TMD).</li>
+      <li><strong>Injections:</strong> trigger point injections with local anaesthetic, botulinum toxin A for refractory bruxism (variable evidence).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="disc-displacement" class="seat">
+  <div class="card">
+    <h2>9. Disc Displacement (Internal Derangement) <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> abnormal position of the articular disc relative to the condyle and fossa. <strong>Anterior displacement</strong> is by far the most common; the disc may also displace medially, laterally or antero-medially. Displacement is usually <strong>chronic and gradual</strong>.</p>
+
+    <h4>9.1 Disc displacement with reduction (DDwR) — the "clicking joint"</h4>
+    <ul>
+      <li>Disc sits anterior to condyle at rest; on opening, the condyle passes over the posterior band ("recaptures" the disc) producing the <strong>opening click</strong>; on closing the disc re-dislocates → <strong>closing (reciprocal) click</strong>.</li>
+      <li>Often <em>painless</em>; may be painful if retrodiscal tissue inflamed.</li>
+      <li>Clicking is common (up to ~30% of population clicks) — isolated clicking without pain/limitation is usually not treated.</li>
+      <li><strong>Intermittent locking:</strong> disc occasionally fails to reduce and the jaw momentarily "catches" at a small opening.</li>
+      <li>Treated conservatively if asymptomatic; splint/biteguard, exercises, counselling for bruxism if symptomatic.</li>
+    </ul>
+
+    <h4>9.2 Disc displacement without reduction (DDwoR) — acute &amp; chronic</h4>
+    <ul>
+      <li><strong>Acute (closed lock):</strong> sudden onset lock — mouth opens only 20–30 mm; deviation to ipsilateral side past the lock; opening click disappears; pain usually moderate for days–weeks. See next section.</li>
+      <li><strong>Chronic:</strong> after >4 weeks, pain resolves progressively; opening slowly improves to ~30–35 mm but often remains restricted; adaptation (posterior ligament stretch/condylar remodelling) allows improvement.</li>
+    </ul>
+
+    <h4>9.3 Why does displacement happen?</h4>
+    <ul>
+      <li>Trauma (blow, whiplash, prolonged opening, intubation).</li>
+      <li>Parafunction/clenching — posterior-directed forces shear the disc back over the posterior band of the retro-discal tissue; degeneration of the retro-discal elastic lamina; loss of superior lateral pterygoid coordination.</li>
+      <li>Spontaneous in deep-bite / class II division 2 patients.</li>
+      <li>Generalized joint hypermobility.</li>
+    </ul>
+
+    <h4>9.4 Diagnosis</h4>
+    <ul>
+      <li>History + click/lock + MRI (disc position, reduction, morphology).</li>
+      <li>Wilkes staging (see classification section) describes progression from asymptomatic click → click with pain → intermittent lock → persistent lock/DJD.</li>
+    </ul>
+
+    <h4>9.5 Treatment</h4>
+    <ul>
+      <li>Conservative (first-line for all stages): education, soft diet, analgesics, exercises (e.g., joint unloading, progressive jaw range-of-motion), splints (flat plane), physiotherapy.</li>
+      <li><strong>Arthrocentesis</strong> for acute closed lock, or <strong>arthroscopy with lysis &amp; lavage</strong>.</li>
+      <li>Open surgery (discoplasty, discectomy) reserved for persistent painful derangement failing conservative measures (evidence weak; MRI is not alone an operative indication).</li>
+      <li>Disc repositioning ops (e.g., Mitek anchor / discopexy) are controversial, held for very select skilful surgeons.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="closed-lock" class="seat">
+  <div class="card">
+    <h2>10. Closed Lock — Acute Disc Displacement without Reduction <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> the disc is displaced (usually anterior) and does <em>not</em> reduce on opening; the condyle is trapped against the posterior band, markedly blocking translation.</p>
+    <h4>Clinical presentation</h4>
+    <ul>
+      <li>Sudden inability to open fully (often after yawning, a big bite, or in the morning).</li>
+      <li><strong>MIO usually &lt; 30 mm</strong>; past the blocked point the jaw deviates to the affected side.</li>
+      <li>Pain localised to the joint; worse on attempted opening.</li>
+      <li>A previous history of clicking (which suddenly stops) is classic.</li>
+      <li>Imaging (MRI) shows disc anterior &amp; the condyle unable to translate beneath it.</li>
+    </ul>
+    <h4>Management pathway</h4>
+    <ol>
+      <li>Reassure; soft diet; heat; NSAIDs; muscle relaxants — spontaneous resolution occurs in a good number within weeks as the posterior attachment stretches.</li>
+      <li><strong>Manual manipulation</strong> (condylar manipulation under local anaesthetic +/- light sedation) to recapture the disc.</li>
+      <li><strong>Arthrocentesis (lavage)</strong> under LA — the most effective first-line intervention for persistent acute closed lock; success ~70–90%.</li>
+      <li>Arthroscopic lysis &amp; lavage if arthrocentesis fails.</li>
+      <li>Open arthrotomy rarely needed for closed lock that fails all of the above.</li>
+    </ol>
+    <div class="note"><strong>Note:</strong> chronic adaptation often means the disc remains anterior yet the jaw slowly opens to near-normal — many patients adapt without surgery.</div>
+  </div>
+</section>
+
+<section id="osteoarthritis" class="seat">
+  <div class="card">
+    <h2>11. Osteoarthritis / Degenerative Joint Disease (DJD) <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> a progressive, non-inflammatory (<em>mainly</em>) degeneration of the articular cartilage and subchondral bone of the TMJ; it is the most common organic joint disease of the jaw in older patients but also follows acute trauma, disc displacement, or overload.</p>
+    <h4>Radiographic / pathohistological features</h4>
+    <ul>
+      <li>Late: <strong>flattening, erosion of the condyle, osteophytes (marginal lipping), subchondral cysts, sclerosis</strong>; in frontal views may progress to <strong>avascular necrosis</strong> of the condyle in severe/steroid cases.</li>
+      <li>The <strong>subchondral remodelling</strong> gives the classic "adaptive remodeling" in heavy wearers.</li>
+      <li>Disc perforation often coexists — <strong>the disc perforation/DJD</strong> is common in the intermediate zone.</li>
+    </ul>
+    <h4>Clinical features</h4>
+    <ul>
+      <li>Dull pre-auricular pain with function; early-morning stiffness that eases.</li>
+      <li><strong>Crepitus</strong> (grating sensation) on movement.</li>
+      <li>Restricted, but not blocked, opening; pain on loading.</li>
+      <li>Can be completely asymptomatic (incidental finding) — treat symptoms not x-rays.</li>
+    </ul>
+    <h4>Treatment</h4>
+    <ul>
+      <li>Conservative: rest, soft diet, NSAIDs (role: blunt pain; less evidence of disease modification), heat, physiotherapy.</li>
+      <li><strong>Intra-articular hyaluronic acid injections</strong> (viscosupplementation) — moderate evidence benefit for pain/function in TMJ DJD.</li>
+      <li>Arthrocentesis for symptomatic effusion/locking; arthroscopy for lavage/lysis.</li>
+      <li>Discectomy with or without interpositional (e.g., temporalis fascia, dermis) grafts or alloplastic materials in advanced painful disease.</li>
+      <li>Total joint replacement in end-stage DJD with severe pain/asymmetry.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="inflammatory-arthritis" class="seat">
+  <div class="card">
+    <h2>12. Inflammatory (Rheumatological) Arthritis <span class="badge b-path">Pathology</span></h2>
+    <p>A group of immune/systemic diseases that cause <strong>synovitis and pannus</strong> formation in the TMJ, leading to cartilage and bone destruction. <em>Bilateral involvement is the rule.</em> Key entities:</p>
+
+    <div class="twrap">
+      <table>
+        <tr><th>Disease</th><th>Key points</th><th>TMJ features</th><th>Treatment</th></tr>
+        <tr>
+          <td><strong>Rheumatoid arthritis (RA)</strong></td>
+          <td>Autoimmune, symmetric polyarthritis; +ve RF/anti-CCP; F&gt;M; 20–40s.</td>
+          <td>Early morning pain/stiffness; limited opening; erosive changes (condylar flattening/erosions, "pointed" condyle, open-bite tendency in severe); crepitus late; may progress to ankylosis in childhood onset.</td>
+          <td>DMARDs (methotrexate first), biologics (anti-TNF, rituximab, tocilizumab); joint-specific: splints, IA steroid, arthrocentesis; TJR if destroyed.</td>
+        </tr>
+        <tr>
+          <td><strong>Juvenile idiopathic arthritis (JIA)</strong></td>
+          <td><strong>Most important cause of TMJ growth disturbance in children.</strong> Often silent — damages the growth zone.</td>
+          <td>Painless limitation in many; micrognathia, retruded chin, anterior open-bite progression, condylar destruction; may be unilateral → asymmetry. Needs early MRI + specialist care.</td>
+          <td>Pediatric rheumatologist-led; systemic immunosuppression; jaw-specific: growth-adaptive splints, surgically: distraction osteogenesis / joint reconstruction in later growth.</td>
+        </tr>
+        <tr>
+          <td><strong>Psoriatic arthritis</strong></td>
+          <td>Psoriasis + arthritis; HLA-B27 related in some.</td>
+          <td>Asymmetric; TMJ erosions similar to RA; may cause ankylosis.</td>
+          <td>Same DMARD/TNFi strategy.</td>
+        </tr>
+        <tr>
+          <td><strong>Ankylosing spondylitis (AS)</strong></td>
+          <td>Axial skeleton inflammatory disease; HLA-B27; men.</td>
+          <td>TMJ involvement less frequent; painful limitation, occasional ankylosis (uncommon but reported).</td>
+          <td>Anti-TNF / NSAID-exercise program; surgical only if ankylotic.</td>
+        </tr>
+        <tr>
+          <td><strong>Gout (urate crystal)</strong></td>
+          <td>Monosodium urate crystals in joint; rarely TMJ.</td>
+          <td>Acute severe painful swelling; raised uric acid; diagnostic: joint fluid crystal analysis.</td>
+          <td>Colchicine / NSAIDs / allopurinol.</td>
+        </tr>
+        <tr>
+          <td><strong>Pseudogout / calcium pyrophosphate disease (CPPD)</strong></td>
+          <td>Calcium pyrophosphate crystals; older patients.</td>
+          <td>Can mimic DJD; joint swelling; rule out with aspirate.</td>
+          <td>NSAIDs, steroids, joint aspiration.</td>
+        </tr>
+        <tr>
+          <td><strong>Lupus (SLE)</strong></td>
+          <td>Systemic autoimmune; ANA.</td>
+          <td>Arthralgia, occasional erosive change, may predispose to JIA-like deformities in childhood.</td>
+          <td>Hydroxychloroquine, steroids, immunosuppression.</td>
+        </tr>
+        <tr>
+          <td><strong>Sjögren's syndrome</strong></td>
+          <td>Dry mouth/eyes; associated RA/SLE.</td>
+          <td>Secondary arthritis pattern.</td>
+          <td>As per underlying.</td>
+        </tr>
+      </table>
+    </div>
+    <div class="note"><strong>Practical rule:</strong> UA/bilateral or symmetrical TMJ pain+swelling+known rheumatological history → coordinate with rheumatology; treat the disease; the jaw usually follows the systemic disease course.</div>
+  </div>
+</section>
+
+<section id="septic-arthritis" class="seat">
+  <div class="card">
+    <h2>13. Septic (Infective) Arthritis of the TMJ <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> actual infection of the joint cavity with pus — a surgical emergency. Rare but destructive.</p>
+    <h4>Causes</h4>
+    <ul>
+      <li>Direct penetrating trauma (e.g., from foreign body, surgery, dental injection).</li>
+      <li>Contiguous spread from otitis media, mastoiditis, parotitis, dental/osteomyelitis of jaw.</li>
+      <li>Hematogenous seeding (vulnerable: immunocompromised, IV drug abusers, diabetes).</li>
+      <li>Organisms: <em>Staphylococcus aureus</em> (most common), <em>Streptococcus</em>, anaerobes, <em>Neisseria gonorrhoeae</em>, <em>Brucella</em>, mycobacteria.</li>
+    </ul>
+    <h4>Clinical features</h4>
+    <ul>
+      <li>Fever, rigors, malaise.</li>
+      <li>Acute painful pre-auricular swelling, redness, limited painful opening, trismus.</li>
+      <li>Bloods: leukocytosis, raised CRP/ESR/procalcitonin.</li>
+      <li>Imaging: MRI with contrast shows effusion, capsule enhancement, bone oedema; CT shows bony destruction; aspiration/gram stain/culture confirms.</li>
+    </ul>
+    <h4>Management</h4>
+    <ul>
+      <li><strong>Immediate:</strong> IV broad-spectrum antibiotics (e.g., flucloxacillin + metronidazole or according to culture; cover MRSA).</li>
+      <li><strong>Surgical drainage</strong> — arthrocentesis or open arthrotomy with lavage (must aim to washout the pus).</li>
+      <li>Monitor for complications: <strong>ankylosis, condylar destruction, growth arrest in children, septic arthritis → osteomyelitis</strong>.</li>
+      <li>Long-term: sequelae management (surgery for ankylosis/osteomyelitis).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="dislocation" class="seat">
+  <div class="card">
+    <h2>14. Dislocation of the TMJ <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> condyle completely leaves the articular fossa (usually slips over the anterior articular eminence) and is <strong>unable to spontaneously return</strong>.</p>
+    <ul>
+      <li><strong>Acute:</strong> jaw locked open — classic "open lock"; often bilateral (both condyles displaced); history of yawning, laughing, prolonged dental/surgical opening, epileptic seizure.</li>
+      <li><strong>Recurrent/chronic (habitual):</strong> repeated dislocations; joint laxity, bite relationship changes or prior trauma.</li>
+      <li><strong>Posterior/superior dislocation:</strong> force drives condyle up through the thin fossa roof — rare, dangerous (may enter middle cranial fossa/ear); requires CT and urgent reduction.</li>
+    </ul>
+    <h4>Clinical picture of anterior dislocation</h4>
+    <ul>
+      <li>Jaw fixed in open position; cannot close.</li>
+      <li>Pre-auricular hollowing; spasmodic masticatory muscles; salivation; speech difficulty.</li>
+      <li>X-rays (panoral/CT) confirm condyle anterior to eminence.</li>
+    </ul>
+    <h4>Reduction technique (classic)</h4>
+    <ol>
+      <li>Patient seated; clinician stands in front/behind; thumbs wrapped (or bite-blocks/gauze) placed on occlusal surfaces of lower molars, fingers under chin.</li>
+      <li>Apply <strong>downward then backward</strong> (inferior and posterior) force with simultaneous chin elevation — the condyle slides back over the eminence into the fossa <em>(Hippocrates-like maneuver for the jaw).</em></li>
+      <li>Trend bypass: sometimes give IV midazolam/diazepam or local anaesthetic to the lateral pterygoid before attempting; muscle fatigue is key.</li>
+      <li>After reduction: <strong>support the jaw with a Barton-type bandage / chin strap for 1–2 weeks</strong> to prevent re-dislocation; soft diet.</li>
+    </ol>
+    <h4>Management of recurrent dislocation</h4>
+    <div class="twrap">
+      <table>
+        <tr><th>Non-surgical</th><th>Surgical (when frequent)</th></tr>
+        <tr>
+          <td>Botulinum toxin injection into lateral pterygoid (reduces protrusion force) — first-line for recurrent.</td>
+          <td>Eminoplasty/eminectomy (deepen the eminence) — the popular surgical option.</td>
+        </tr>
+        <tr>
+          <td>Soft diet, jaw rest, physiotherapy, occlusal splints.</td>
+          <td>Ligament tightening (capsular/pterygoid sling), Dautrey's procedure (eminence down-fracture to create bumper).</td>
+        </tr>
+        <tr>
+          <td>Gunning-type splints with elastic for acute recapture.</td>
+          <td>Condylotomy (intra-oral oblique osteotomy) reducing pull; Mitek anchor discopexy; myotomy.</td>
+        </tr>
+      </table>
+    </div>
+    <div class="warn"><strong>Posterior dislocation warning:</strong> suspected when pt presents with ear bleed, facial nerve palsy or intracranial injury — urgent CT + neurosurgery/Otorhinolaryngology.</div>
+  </div>
+</section>
+
+<section id="ankylosis" class="seat">
+  <div class="card">
+    <h2>15. Ankylosis of the TMJ <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Definition:</strong> fixation of the jaw due to fusion of the joint components — inability to open the mouth. Three types by tissue:</p>
+    <ul>
+      <li><strong>True (intra-capsular) ankylosis:</strong> within the joint — <em>bony ankylosis</em> (condyle fused to temporal bone by bone) or <em>fibrous ankylosis</em> (dense scar).</li>
+      <li><strong>False (extra-capsular) ankylosis:</strong> due to coronoid-malar fusion, zygomatic scar, myositis ossificans or extra-articular soft-tissue contracture — joint itself normal.</li>
+      <li><strong>Complete vs incomplete:</strong> complete = no opening at all.</li>
+    </ul>
+    <h4>Etiology</h4>
+    <ul>
+      <li><strong>Trauma</strong> (most common cause world-wide) — condylar fracture with hemarthrosis → organisation → fibrosis/ossification, especially when mobilised early is not possible.</li>
+      <li><strong>Infection</strong> (otitis media, mastoiditis, osteomyelitis, septic arthritis — now less common with antibiotics).</li>
+      <li><strong>Systemic arthritis</strong> (JIA most important in children; also RA, AS).</li>
+      <li>After TMJ surgery; after radiotherapy.</li>
+    </ul>
+    <h4>Clinical features</h4>
+    <ul>
+      <li>Progressive inability to open; trismus; "old-age" type — <strong>in childhood, severe facial growth disturbance</strong>: micrognathia, retrognathia, bird-face (shallow ridge), deviation of chin, crossbite, anterior open bite — the classic picture.</li>
+      <li>Complete closure = no incisal opening; difficulty eating/hygiene/speech.</li>
+      <li>Often unilateral with deviation to affected side; bilateral = symmetrical micrognathia + open bite.</li>
+      <li>Obligatory dental hygiene &amp; caries; airway problems in severe cases.</li>
+    </ul>
+    <h4>Investigations</h4>
+    <ul><li>CT/CBCT (bony vs fibrous, size of fusion); MRI for soft tissue/surrounding structures; assess for obstructive sleep apnoea.</li></ul>
+    <h4>Treatment (surgical — the only definitive)</h4>
+    <ol>
+      <li><strong>Gap arthroplasty:</strong> removal of fused mass creating a gap → immediate mouth opening; but high re-ankylosis risk if not interposed.</li>
+      <li><strong>Interpositional arthroplasty:</strong> after gap excision, place an interpositional material — <em>temporalis fascia/muscle flap</em> (most common autogenous), temporal galea flap, fat (for reankylosis prevention), preauricular fascia, fascia lata — or <em>alloplastic</em> (silastic historically, titanium prostheses).</li>
+      <li><strong>Costochondral/autogenous rib graft reconstruction</strong> for the young growing patient (growth potential) or in severe cases; sternoclavicular joint graft as alternative.</li>
+      <li><strong>Total joint replacement</strong> in adult severe unilateral/bilateral disease or failed previous surgery (best longevity; avoids donor site).</li>
+      <li><strong>Coronoidectomy</strong> + TMJ release often needed simultaneously (contracture of temporalis from prolonged closure).</li>
+      <li><strong>Post-operative intensive physiotherapy is critical</strong> — early mobilization (within days) using tongue-depressor exercises/wedges/elastics; without it, re-ankylosis is very likely.</li>
+    </ol>
+    <div class="note"><strong>Key principle:</strong> the younger the child at onset and longer the duration, the more predictable the growth deformity; comprehensive reconstruction (arthroplasty + orthognathic + genioplasty) is often deferred until near growth completion.</div>
+  </div>
+</section>
+
+<section id="condylar-fracture" class="seat">
+  <div class="card">
+    <h2>16. Condylar Fractures <span class="badge b-path">Trauma</span></h2>
+    <p><strong>Definition:</strong> fracture of the mandibular condyle/condylar head or neck — one of the most common mandible fractures (25–50% of mandibular fractures in some series), mostly from road traffic accidents, falls, assault, or sports.</p>
+    <h4>Classification (simplified)</h4>
+    <ul>
+      <li>By level: <strong>condylar head (intracapsular), condylar neck, subcondylar</strong>.</li>
+      <li>By displacement: undisplaced, displaced, <strong>medially displaced/dislocated</strong> (most common — lateral pterygoid pulls the head medially/anteriorly).</li>
+      <li>Unilateral (85%) vs bilateral.</li>
+      <li>Pediatric subtypes: greenstick &amp; non-displaced common.</li>
+    </ul>
+    <h4>Clinical features</h4>
+    <ul>
+      <li>Post-traumatic pre-auricular pain/swelling, tenderness; ear bleed possible (ruptured external auditory meatus wall).</li>
+      <li>Crucial: <strong>occlusion derangement</strong> — ipsilateral open bite on the fractured side, midline deviation toward the fracture; bilateral → anterior open bite with retrognathic posture.</li>
+      <li>Restricted but not always painful opening; trismus; possible facial nerve (temporal branch) or auditory canal injuries.</li>
+      <li>Always exclude concomitant facial skeleton fractures (naso-orbital-ethmoid, Le Fort), basilar skull fracture, cervical spine injury in high-energy mechanisms.</li>
+    </ul>
+    <h4>Imaging</h4>
+    <ul><li>Panoramic radiograph screening + <strong>CT/CBCT</strong> for detailed displacement/location; MRI if disc/intracapsular detail needed.</li></ul>
+    <h4>Management principles</h4>
+    <ul>
+      <li><strong>Conservative/closed treatment:</strong> most adult unilateral subcondylar fractures (especially if occlusion can be restored) — soft diet, analgesia, early mobilisation with guiding elastics, physiotherapy. Excellent adaptation.</li>
+      <li><strong>Open reduction internal fixation (ORIF):</strong> indicated for — bilateral fractures with displaced occlusion, displaced fracture with open bite, fracture reducing posterior vertical height (with ramus shortening &gt;4 mm), displaced intracapsular/condylar head when operating surgeon experienced, polytrauma needing early mobilisation, paediatric low condylar neck fractures with functional position failure.</li>
+      <li>Approaches: preauricular (for head/neck), retromandibular, submandibular or transoral (endoscope-assisted) for subcondylar; plating along anatomic neck.</li>
+      <li><strong>Pediatric:</strong> emphasise functional therapy (elastic guiding) + you-men; growth usually compensates; surgery reserved.</li>
+    </ul>
+    <h4>Complications &amp; sequelae</h4>
+    <ul>
+      <li>Malocclusion, open bite, deviation.</li>
+      <li><strong>Ankylosis</strong> in untreated intracapsular/bilateral fractures — especially if the joint was not mobilised.</li>
+      <li>Growth disturbance (children) → facial asymmetry/micrognathia.</li>
+      <li>Facial nerve palsy (especially temporal/temporozygomatic) — mostly temporary from traction/retraction.</li>
+      <li>TMJ disc displacement / DJD later.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="hyperplasia" class="seat">
+  <div class="card">
+    <h2>17. Condylar Hyperplasia &amp; Hypoplasia <span class="badge b-path">Pathology</span></h2>
+    <h3>Condylar hyperplasia (CH)</h3>
+    <ul>
+      <li><strong>Definition:</strong> continued and disproportionate growth of the condyle after the normal growth period (usually 18–25 yrs for boys).</li>
+      <li><strong>Types:</strong> <em>hemimandibular hyperplasia</em> (3-D elongation of half the mandible — bowing of lower border, marginal lip) vs <em>hemimandibular elongation</em> (purely horizontal growth — chin shifts, occlusal cant); mixed forms.</li>
+      <li><strong>Clinical:</strong> progressive facial asymmetry over months–years, chin deviation to opposite side, ipsilateral open bite (because the longer condyle rotates the occlusal plane), usually <em>painless</em>.</li>
+      <li><strong>Diagnosis:</strong> serial photographs/records, SPECT/PET bone scan (active vs inactive growth; activity uptake ratio &gt;55% suggests active), CT volume analysis.</li>
+      <li><strong>Treatment:</strong> if actively growing — <strong>high condylar shave + simultaneous orthognathic surgery</strong>; if inactive, only orthognathic/orthodontics; assess disc position (may dislocate after shave → consider discopexy).</li>
+    </ul>
+    <h3>Condylar hypoplasia (CH-)</h3>
+    <ul>
+      <li><strong>Definition:</strong> deficient condylar growth → smaller condyle and shortened ramus on the affected side.</li>
+      <li><strong>Causes:</strong> congenital (hemifacial microsomia, first/second arch syndromes, Treacher-Collins), acquired (childhood trauma — condylar fracture, birth injury, infection, JIA, radiation), endocrine.</li>
+      <li><strong>Clinical:</strong> affected side shorter → ipsilateral facial flattening, chin deviated to the affected side, ipsilateral open bite (opposite of hyperplasia), ear anomalies in syndromic forms.</li>
+      <li><strong>Treatment:</strong> reconstruct deficient ramus — <strong>costochondral graft</strong> (growth potential), distraction osteogenesis, ramus osteotomy, or free vascularised fibula (large defects); genioplasty; orthognathic as needed. Treat the underlying disease (e.g., rheumatology for JIA).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="icr" class="seat">
+  <div class="card">
+    <h2>18. Idiopathic Condylar Resorption (ICR) / Progressive Condylar Resorption <span class="badge b-path">Pathology</span></h2>
+    <ul>
+      <li><strong>Definition:</strong> progressive loss of condylar bone mass of unknown cause (exclusion of RA, trauma etc.), predominantly in <strong>young women</strong> (F:M ~9:1) — association with estrogen, hormone changes, and high condylar stress.</li>
+      <li><strong>Clinical:</strong> <strong>painless or minimally painful</strong> progressive anterior open bite, retrognathia (class II open-bite), shortening of ramus; clicking/crepitus variably; often after orthognathic surgery or orthodontics (load-induced), joint overloading, or pregnancy/postpartum.</li>
+      <li><strong>Imaging:</strong> condylar erosion, flattening with reduced height; MRI shows sclerosis, subchondral change, potential disc displacement; SPECT may show enhanced or negative uptake depending phase.</li>
+      <li><strong>Pathogenesis theories:</strong> estrogen-related reduced bone remodelling; joint compression → avascular necrosis → resorption; genetics (lateral pterygoid imbalance).</li>
+      <li><strong>Management:</strong> stop active progression (medically: bisphosphonate therapy in some centres — off-label; stabilise occlusion; avoid further orthognathic until stable); when inactive (<6–12 months stable, SPECT quiet): orthognathic surgery to correct the open bite, sometimes with <strong>total joint replacement</strong> as definitive reconstruction in the severe/jaw-deformity-type (recommended by many when condyle height loss &gt;6mm).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="coronoid" class="seat">
+  <div class="card">
+    <h2>19. Coronoid Hyperplasia (Bony Locked Jaw) <span class="badge b-path">Pathology</span></h2>
+    <ul>
+      <li><strong>Definition:</strong> new bone growth at the coronoid process, which typically fuses with/impinges on the zygomatic arch — jaw "locks" progressively without joint disease.</li>
+      <li>Usually bilateral in young males; may be post-traumatic (myositis ossificans of temporalis leading to coronoid-zygomatic fusion).</li>
+      <li><strong>Clinical:</strong> progressive limitation of opening, <strong>no lateral excursion limitation</strong> at rest; condyle still translocates (so MRI normal); diagnosis by CT/CBCT.</li>
+      <li><strong>Treatment:</strong> coronoidectomy (intraoral approach preferred) + aggressive post-op physiotherapy.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="tumors" class="seat">
+  <div class="card">
+    <h2>20. Tumours &amp; Tumour-like Lesions of the TMJ <span class="badge b-path">Pathology</span></h2>
+    <p>Largely in the differential of a young adult with swelling/pain/limitation + suspicious imaging. Important examples:</p>
+
+    <div class="twrap">
+      <table>
+        <tr><th>Category</th><th>Lesions</th><th>Key features</th></tr>
+        <tr>
+          <td><strong>Benign osseous</strong></td>
+          <td>Osteoma, osteochondroma (most common benign bone tumor of condyle — bowing, painless growth with occlusion change), giant cell tumour, central giant cell granuloma, fibrous dysplasia of adjacent bone.</td>
+          <td>Slow growth, malocclusion; CT shows mass; biopsy + reconstruction.</td>
+        </tr>
+        <tr>
+          <td><strong>Synovial/cartilage</strong></td>
+          <td><strong>Synovial chondromatosis</strong> — metaplastic intrasynovial cartilage bodies ("joint mice"); <strong>Pigmented villonodular synovitis (PVNS)</strong> — brown-ish nodular mass with hemosiderin (dark on MRI); osteochondromatosis.</td>
+          <td>Swelling, crepitus, locking; treatment surgical excision/arthroscopy; PVNS recurrence if incomplete excision.</td>
+        </tr>
+        <tr>
+          <td><strong>Benign soft-tissue</strong></td>
+          <td>Synovial cyst (ganglion), lipoma, schwannoma/neurofibroma of auriculotemporal nerve.</td>
+          <td>Rare; imaging; excision.</td>
+        </tr>
+        <tr>
+          <td><strong>Malignant</strong></td>
+          <td><strong>Chondrosarcoma</strong> (most common primary malignancy of TMJ region), osteosarcoma, synovial sarcoma, fibrosarcoma, Ewing's, rhabdomyosarcoma, squamous cell carcinoma invading from parotid/ear, lymphoma, metastases (breast, lung, prostate).</td>
+          <td>Rapid growth, bone destruction, pain, trismus, neuro deficit (VII); MRI+bone scan+biopsy; treatment multi-modal (surgical resection ± chemo/RT).</td>
+        </tr>
+        <tr>
+          <td><strong>Cyst-like (odontogenic-related)</strong></td>
+          <td>Dentigerous/inflammatory cysts adjacent; central giant cell lesions; aneurysmal bone cyst.</td>
+          <td>Image-guided; surgical enucleation.</td>
+        </tr>
+      </table>
+    </div>
+    <h3>Synovial chondromatosis — profile</h3>
+    <ul>
+      <li>Uncommon; metaplastic transformation of synovium → multiple cartilage nodules that may calcify/ossify → intra-articular <strong>loose bodies</strong>.</li>
+      <li>Pain, swelling, clicking/crepitus, occasional locking; F&gt;M, 30–50s.</li>
+      <li>Imaging: ring-and-arc calcification on CT; MRI loose bodies; <strong>arthroscopic removal</strong> selective; open synovectomy for extensive disease.</li>
+    </ul>
+    <h3>PVNS — profile</h3>
+    <ul>
+      <li>Locally aggressive pigmented villonodular synovitis; hemosiderin-laden macrophages (brownish joint fluid).</li>
+      <li>Swelling, pain, limited opening; MRI low signal on T2 (hemosiderin).</li>
+      <li>Excision (arthroscopic/arthrotomy) — recurrence is significant; follow-up needed.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="misc-path" class="seat">
+  <div class="card">
+    <h2>21. Other Joint Pathology <span class="badge b-path">Pathology</span></h2>
+    <h3>Disc perforation</h3>
+    <ul>
+      <li>Usually late-stage ID/DJD in the intermediate zone; fibrous degeneration.</li>
+      <li>Referred grating pain &amp; crepitus; MRI/arthroscopy diagnosis; arthroscopy or discectomy for persistent symptoms.</li>
+    </ul>
+    <h3>Intra-articular adhesions / synovial plica</h3>
+    <ul>
+      <li>Fibrinous adhesions after trauma/immobilisation or chronic disc instability; cause painful locking; arthroscopy lysis &amp; lavage.</li>
+    </ul>
+    <h3>Avascular necrosis (AVN) of the condyle</h3>
+    <ul>
+      <li>Predisposing: prolonged steroid use, SLE, trauma, radiotherapy, embolic. Collapse → DJD, pain; MRI marrow changes; treat underlying + conservative/joint surgery.</li>
+    </ul>
+    <h3>Hemifacial microsomia (oculo-auriculo-vertebral spectrum)</h3>
+    <ul>
+      <li>Congenital hypoplasia of first/second arch structures: mandible (condyle/ramus/body), ear, face. Asymmetry, possible ankylosis-type restriction; reconstruction with grafts/OA if needed.</li>
+    </ul>
+    <h3>Eagle syndrome (elongated styloid/stylohyoid) — not TMJ but mimics</h3>
+    <ul>
+      <li>Pain in ear/jaw on swallowing; D/D from TMD; treatment surgical styloidectomy.</li>
+    </ul>
+    <h3>Myositis ossificans / post-radiation trismus</h3>
+    <ul>
+      <li>Extra-articular ankylosis; treatment: mobilisation, surgery (coronoidectomy etc.), physiotherapy.</li>
+    </ul>
+    <h3>Foreign bodies / bullet fragments in joint</h3>
+    <ul><li>Rare P&S trauma; remove if symptomatic.</li></ul>
+  </div>
+</section>
+
+<section id="bruxism" class="seat">
+  <div class="card">
+    <h2>22. Bruxism &amp; Parafunctional Habits <span class="badge b-path">Pathology</span></h2>
+    <p><strong>Bruxism:</strong> repetitive masticatory muscle activity with clenching (tonic) or grinding (phasic) of teeth.</p>
+    <ul>
+      <li><strong>Sleep bruxism</strong> — mandible activity during sleep (RWA index); 8–30% prevalence; strong genetic/neurological (autonomic arousal) basis — NOT purely "stress-tension" though stress modulates.</li>
+      <li><strong>Awake bruxism</strong> — day-time clenching especially during concentration; both can coexist.</li>
+      <li><strong>Clinical consequences:</strong> tooth attrition/wear, fractures/restoration failure, hypersensitivity, tongue/cheek ridging, <strong>masseter/temporalis hypertrophy</strong>, masticatory myalgia, migraine-like headaches, TMJ overload → disc displacement/DJD risk (greater in sleep bruxers with deep bites).</li>
+      <li><strong>Comorbidities:</strong> obstructive sleep apnoea (often coexist), GERD, anxiety, ADHD meds.</li>
+    </ul>
+    <h4>Management</h4>
+    <ul>
+      <li>Education + sleep hygiene; treatment of OSA (CPAP) if present.</li>
+      <li><strong>Hard flat-plane occlusal splint</strong> worn at night — reduces tooth wear &amp; muscle symptoms; does NOT cure bruxism (levels often unchanged).</li>
+      <li>Pharmacology: low-dose clonazepam short course (careful), muscle relaxants, topical... but evidence limited; <strong>botulinum toxin A</strong> into masseter/temporalis for severe refractory bruxism — reduces activity and hypertrophy (good evidence for hypertrophy; variable for pain).</li>
+      <li>Psychological/behavioural for awake clenching; cognitive-behavioural interventions.</li>
+      <li>Avoid excessive caffeine/alcohol/drugs at bedtime.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================== 03 ============================== -->
+
+<section id="medical-mgmt" class="seat">
+  <div class="card">
+    <h2>23. Medical (Conservative) Management of TMD <span class="badge b-med">Medicine</span></h2>
+    <p>Over 80–90% of TMD patients respond fully to <strong>conservative, reversible</strong> treatment. The treatment principle: <em>"begin with the least invasive, most reversible, evidence-based care; escalate only if unable"</em>.</p>
+
+    <h3>23.1 Patient education &amp; self-management</h3>
+    <ul>
+      <li>Explanation of the joint; reassurance that TMD is not progressive/cancerous and mostly self-limited.</li>
+      <li>Diet modification (soft foods), avoidance of wide opening (yawn blocking, careful with dental/airway procedures), avoid gum/nail biting, chew bilaterally.</li>
+      <li>Rest positions, relaxation techniques, jaw-stretching only when inflammation settles.</li>
+      <li>Manage sleep and stress (cognitive behavioural therapy, mindfulness, breathing).</li>
+    </ul>
+
+    <h3>23.2 Occlusal appliances (splints) — the cornerstone physical treatment in many practices</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Type</th><th>Design</th><th>Indication / role</th><th>Evidence note</th></tr>
+        <tr><td><strong>Stabilization (flat-plane) splint</strong></td><td>Acrylic coverage of upper or lower arch; even contacts; anterior guidance; no change to occlusal height.</td>
+          <td>General pain TMD; protects teeth; reduces clench load; gives "occlusal awareness" break.</td>
+          <td>Moderate; better than no treatment for pain; no better than good sham/education trials in some.</td></tr>
+        <tr><td><strong>Anterior repositioning (truism/union) splint</strong></td><td>Holds mandible forward, recaptures disc.</td><td>Disc displacement with reduction causing frequent locking.</td><td>May cause irreversible bite change with long use — <strong>reserved and withdrawn early if functioning</strong>.</td></tr>
+        <tr><td><strong>Pivotal / soft splints</strong></td><td>Soft vinyl, posterior support.</td><td>Acute pain relief, bruxism wear guard.</td><td>Softer, less precise; fine for bruxism prevention of wear.</td></tr>
+        <tr><td><strong>Jaw-covering (sleep) guards for bruxism</strong></td><td>—</td><td>Teeth protection; not cure bruxism.</td><td>Should not be worn 24h in DJD (may overload).</td></tr>
+      </table>
+    </div>
+    <p><strong>Practical splint use:</strong> flat-plane splint to upper arch most common; adjusted to flat even occlusion in CR/CO; worn at night and during high-stress periods; review every 4–6 weeks; discontinue after 6–12 months when pain resolved. <strong>Splints do not move the disc back into position</strong> — they relieve symptoms/load.</p>
+
+    <h3>23.3 Physical therapy &amp; physiotherapy techniques</h3>
+    <ul>
+      <li><strong>Range-of-motion exercises:</strong> progressive opening against resistance, lateral and protrusive excursion routines.</li>
+      <li><strong>Postural therapy:</strong> forward-head correction, scapular setting, smooth tongue-to-palate rest posture.</li>
+      <li>Heat/cold packs; ultrasound; low-level laser (TENS) — weak evidence but symptom relief in myalgia.</li>
+      <li>Trigger point massage, stretching, spray-and-stretch; dry needling (uses LA injectable or acupuncture needle).</li>
+      <li><strong>Biofeedback:</strong> EMG-assisted relaxation.</li>
+    </ul>
+
+    <h3>23.4 Psychological &amp; behavioural interventions</h3>
+    <ul>
+      <li>CBT — reduces catastrophising and distress; effective in chronic TMD.</li>
+      <li>Relaxation training; sleep hygiene; referral to pain/psychology team for chronic pain &gt;6 months.</li>
+    </ul>
+
+    <div class="note"><strong>Treating the "stages":</strong> Stage I: education + self-care + occlusal splint + parafunction control. Stage II: add physiotherapy/pharmacology. Stage III: intra-articular intervention (arthrocentesis/IA injection). Stage IV: surgery.</div>
+  </div>
+</section>
+
+<section id="pharmacology" class="seat">
+  <div class="card">
+    <h2>24. Pharmacology for TMD <span class="badge b-med">Medicine</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>Class / Drug</th><th>Dose (adult)</th><th>Indication</th><th>Notes / cautions</th></tr>
+        <tr><td>NSAIDs (ibuprofen, diclofenac, naproxen)</td><td>Ibuprofen 400–800 mg TDS; Diclofenac 50 mg TDS; naproxen 250–500 mg BD</td>
+          <td>Acute flares, arthralgia, myalgia, post-arthrocentesis</td>
+          <td>GI protection in risk; avoid with renal disease/CKD, asthma, pregnancy (esp. 3rd trimester); short courses.</td></tr>
+        <tr><td>Paracetamol/acetaminophen</td><td>500–1000 mg QDS</td><td>Mild pain; adjunct</td><td>Hepatotoxicity &gt;4g/day.</td></tr>
+        <tr><td>Muscle relaxants — benzodiazepines (diazepam, clonazepam, temazepam), or methocarbamol/tizanidine/baclofen</td><td>Diazepam 2–5 mg nocte; clonazepam 0.25–1 mg nocte (short); methocarbamol 1500 mg QDS</td>
+          <td>Muscle-dominant TMD / bruxism / sleep bruxism (short-term)</td>
+          <td>Addiction, daytime sedation, falls — use 1–4 weeks only.</td></tr>
+        <tr><td>Tricyclic antidepressants (amitriptyline, nortriptyline)</td><td>Amitriptyline 10–25 mg nocte (low dose)</td>
+          <td>Chronic pain, sleep disturbance, neuropathic component</td>
+          <td>Anti-cholinergic, sedation, cardiac risks; start low; TCA overdose dangerous.</td></tr>
+        <tr><td>SNRIs (duloxetine 30–60 mg)</td><td>—</td><td>Chronic pain / neuropathic pain overlap</td><td>Nausea, HTN.</td></tr>
+        <tr><td>Topical capsaicin / lidocaine patch</td><td>—</td><td>Myofascial trigger point skin referral</td><td>Local.</td></tr>
+        <tr><td>Local anaesthetics (lidocaine, bupivacaine)</td><td>Trigger point or joint injection</td><td>Myofascial trigger points; arthrocentesis anesthesia; diagnostic block</td><td>Short effect; use in conjunction with physical therapy.</td></tr>
+        <tr><td><strong>Botulinum toxin A</strong></td><td>25–75 U per masseter/ temporalis side (dilution-dependent), or 30–50 U into lateral pterygoid for dislocation</td>
+          <td>Bruxism with hypertrophy; refractory myalgia; recurrent dislocation; (off-label)</td>
+          <td>Transient weakness of smile/eye (temporal branch spillover), dysphagia, chewing difficulty; repeat 3–6 monthly; not first-line.</td></tr>
+        <tr><td>Corticosteroids — IA or systemic short</td><td>IA methylprednisolone 20–40 mg or triamcinolone</td>
+          <td>Inflammatory arthritis flares, effusion</td>
+          <td>Chondrotoxic debate; limit injections; joint infection excluded before injecting.</td></tr>
+        <tr><td>Hyaluronic acid (viscosupplementation)</td><td>1–2 mL IA, 1–3 sessions</td>
+          <td>DJD/osteoarthritis of TMJ, osteoarthritis after lavage</td>
+          <td>Mild-moderate benefit pain/function in DJD; cost; not in acute infection.</td></tr>
+        <tr><td>Platelet-rich plasma (PRP)</td><td>1–2 mL IA after centrifugation</td>
+          <td>Disc displacement/DJD (experimental/selected)</td>
+          <td>Paucity of robust large evidence; variable protocols.</td></tr>
+        <tr><td>Corticosteroid/systemic immunosuppressants (methotrexate, TNFi) — rheumatology-driven</td>
+          <td>Per protocol</td>
+          <td>Systemic inflammatory arthritis involving TMJ (RA, JIA, PsA)</td>
+          <td>Do not manage alone — rheumatology team.</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="intra-articular" class="seat">
+  <div class="card">
+    <h2>25. Intra-articular Therapy &amp; Arthrocentesis <span class="badge b-med">Medicine</span><span class="badge b-surg">Surgical</span></h2>
+    <h3>Arthrocentesis (joint lavage) — the most important "bridge" procedure</h3>
+    <ul>
+      <li><strong>Indication:</strong> acute closed lock (DDwoR), effusion, symptomatic joint with failed conservative care, along-side IA medication injection.</li>
+      <li><strong>Technique (points of reference):</strong> under local anaesthetic (auriculotemporal block + skin), two needles into the <em>upper joint space</em> — one flows saline/Ringer, the second drains; flushes inflammatory mediators (cytokines), debris, clots; creates hydraulic pressure that may dislodge the disc and break adhesions.</li>
+      <li>Volume: ~100–300 mL of sterile saline per side.</li>
+      <li><strong>Efficacy:</strong> ~70–90% success in acute closed lock; treat as day-case; can repeat once or two times.</li>
+      <li>Combined with an IA corticosteroid or HA in the same session if inflammatory.</li>
+    </ul>
+    <h3>Intra-articular injections (routes)</h3>
+    <ul>
+      <li><strong>Corticosteroid:</strong> for inflammatory flare (RA/JIA etc.); limit repeated injection (chondrotoxicity).</li>
+      <li><strong>Hyaluronic acid:</strong> 2–3 cycles for DJD; viscosupplementation.</li>
+      <li><strong>PRP:</strong> often after arthrocentesis; regenerative intent (weak-to-moderate emerging evidence).</li>
+      <li>Local anaesthetic ± steroid for diagnostic block.</li>
+      <li>Use ultrasound or fluoroscopy guidance if available for accuracy.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="surgical-mgmt" class="seat">
+  <div class="card">
+    <h2>26. Surgical Management of TMJ Disorders <span class="badge b-surg">Surgery</span></h2>
+    <p><strong>General indications for surgery:</strong> persistent pain/limitation/functional impairment failing &gt;3–6 months of well-delivered conservative therapy, with a demonstrable intra-articular cause (disc derangement, adhesions, perforation, DJD, tumour, ankylosis, infection, dislocation) — <em>Never operate purely on x-ray/MRI findings without symptoms, and never operate without trying conservative care first (except emergencies like septic arthritis, tumours, or fracture).</em></p>
+
+    <h3>The surgical ladder (least to most invasive)</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Level</th><th>Procedure</th><th>What it does</th><th>Typical use</th></tr>
+        <tr><td>1</td><td><strong>Arthrocentesis (lavage)</strong></td><td>Flushes joint, breaks fibrinous adhesions, hydraulically repositions disc.</td><td>Acute closed lock; effusion.</td></tr>
+        <tr><td>2</td><td><strong>Diagnostic/thereapeutic arthroscopy</strong> (with lysis &amp; lavage, disc mobility procedures, synovial biopsy)</td><td>Direct vision: lysis of adhesions, lavage, remove loose bodies, biopsy, shave osteochondral defects (advanced: disc repositioning via arthroscopy).</td><td>Persistent ID/DJD, synovitis, adhesions, loose bodies.</td></tr>
+        <tr><td>3</td><td><strong>Arthrotomy (open joint surgery)</strong> — preauricular/retromandibular/end-aural approaches</td><td>Full exposure for definitive intra-articular procedures.</td><td>Complex disc disease, tumours, foreign bodies.</td></tr>
+        <tr><td>4</td><td><strong>Open-specific procedures</strong>:</td><td></td><td></td></tr>
+        <tr><td>&nbsp;</td><td>• Disc repair / <strong>discoplasty</strong> (suture plication of loose disc)</td><td>Reduces laxity.</td><td>Disc with intact fibrocartilage.</td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Disc repositioning/discopexy</strong> (Mitek anchor, or repositioning to fossa)</td><td>Anchors disc posteriorly.</td><td>Displacement with pain where disc salvageable (controversial).</td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Discectomy (diskectomy) ± interpositional graft</strong></td><td>Removes worn/irreparably damaged disc; avoidance of direct bone-bone contact by temporalis fascia flap/dermis/fat autograft (some discard the autograft and rely on granulation).</td><td>Severe DJD, disc perforation, failed disc surgery.</td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Condylar shave / high condylar shave</strong> (arthroplasty of condyle)</td><td>Removes osteophytes/excess condylar bone.</td><td>Condylar hyperplasia (active), osteophyte-vexation.</td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Eminoplasty/eminectomy</strong> — reshape (augment) or remove the articular eminence</td><td>Deepens fossa; prevents re-dislocation.</td><td>Recurrent dislocation.</td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Condylotomy</strong> (intra-oral subcondylar osteotomy/ oblique osteotomy)</td><td>Relieves load, provides joint space, discourages protrusion.</td><td>Some disc displacement, recurrent dislocation (alternatives).</td></tr>
+        <tr><td>5</td><td><strong>Open reconstruction</strong>:</td><td></td><td></td></tr>
+        <tr><td>&nbsp;</td><td>• <strong>Costochondral graft</strong>, sternoclavicular joint graft, free fibula flap</td><td>Recreates condyle/ramus with growth potential or non-vascular autografi.</td><td>Ankylosis reconstruction; paediatric condylar loss; tumour resection.</td></tr>
+        <tr><td>&nbsp;</td><td><strong>Total joint replacement (TJR)</strong> — custom or stock prostheses (e.g., TMJ Concepts, Biomet-Zimmer/Lorenz)</td><td>Alloplastic custom fossa + condyle.</td><td>End-stage DJD, ankylosis (adult), failed autograft, connective-tissue-disease jaw joint, severe ICR.</td></tr>
+        <tr><td>6</td><td><strong>Adjunct/orthognathic</strong> — Le Fort I, BSSO, genioplasty; coronoidectomy; soft-tissue contouring</td><td>Corrects residual deformity/asymmetry, airway, occlusion.</td><td>Growth disturbances, post-resorptive open bite, concomitant facial asymmetry.</td></tr>
+      </table>
+    </div>
+
+    <h3>Key open-surgery principles</h3>
+    <ul>
+      <li>Protect the <strong>facial (VII) nerve</strong> — temporal/zygomatic branches above the joint (avoid >3 cm anterior cuts in preauricular approaches, blunt dissection with retractors, intermittent reflection).</li>
+      <li>Protect the <strong>auriculotemporal nerve's</strong> ear distribution and avoid parotid injury.</li>
+      <li>Preserve condylar blood supply; keep the disc if salvageable; <strong>examine both joint spaces</strong> (disc can be displaced medially — inspect thoroughly).</li>
+      <li>Immediate post-op early mobilisation (unless contraindicated) — crucial to prevent adhesions/ankylosis.</li>
+      <li>Total joint replacement: achieves the most predictable outcomes for advanced disease in adults.</li>
+    </ul>
+
+    <h3>Surgical outcomes expectation</h3>
+    <ul>
+      <li>Arthrocentesis/arthroscopic lysis-lavage: 70–90% good-excellent for closed lock.</li>
+      <li>Diskectomy with or without interposition: good long-term symptom relief (&gt;75% satisfaction) but crepitus/adaptation occurs; TMD recurrence low; growth restriction if done before growth complete (avoid in children).</li>
+      <li>TJR: excellent pain relief/opening at 10-year for end-stage; complications low in expert centres (infection, loose body, heterotopic ossification, nerve injury).</li>
+      <li>Any surgery: proportion of patients without total improvement — realistic counselling important.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="dislocation-surg" class="seat">
+  <div class="card">
+    <h2>27. Surgery for Recurrent Dislocation <span class="badge b-surg">Surgery</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>Procedure</th><th>Mechanism</th><th>Comments</th></tr>
+        <tr><td><strong>Eminoplasty / eminectomy</strong></td><td>Removes/reslopes the eminence so the condyle doesn't "catch" anteriorly; deepens fossa.</td><td>Most popular successful open technique; intraoral &amp; preauricular variants; prevents locking.</td></tr>
+        <tr><td><strong>Dautrey's (Fracture-down) procedure</strong></td><td>Down-fractures the zygomatic arch to create a bony stop anterior to condyle.</td><td>Anterior ship canal — preserves eminence height. Good for recurrent.</td></tr>
+        <tr><td><strong>Ligament tightening / capsular imbrication</strong></td><td>Tightens temporomandibular ligament to limit excessive translation.</td><td>Risk of re-generative loosening.</td></tr>
+        <tr><td><strong>Lateral pterygoid myotomy / botulinum toxin ablation</strong></td><td>Reduces the protrusive force pulling condyle over eminence.</td><td>Botulinum toxin first-line (non-surgical); myotomy more invasive.</td></tr>
+        <tr><td><strong>Condylotomy / subcondylar osteotomy</strong></td><td>Posterior-superior repositioning of condyle.</td><td>Occasionally used.</td></tr>
+        <tr><td><strong>Mitek/MINJ anchor discopexy</strong>, sartorius/simple sling</td><td>Anchors disc/limits translation.</td><td>Advanced microsurgery.</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="ankylosis-surg" class="seat">
+  <div class="card">
+    <h2>28. Surgery for Ankylosis <span class="badge b-surg">Surgery</span></h2>
+    <ol>
+      <li><strong>Type I – Gap arthroplasty:</strong> excise the ankylotic mass to create a gap between condylar remnant (if present) and fossa; allows jaw opening. Use a bur/drill, osteotome; preserve/reshape the remaining ramus–condyle.</li>
+      <li><strong>Type II – Interpositional arthroplasty:</strong> gap + insertion of interpositional material to decrease direct bone-to-bone contact:
+        <ul>
+          <li><em>Autogenous:</em> temporalis muscle/fascia flap (most common), temporoparietal fascia, fascia lata, fat (dermal-fat for re-ankylosis resistance per Wolford), costochondral graft.</li>
+          <li><em>Alloplastic:</em> historically silastic, Teflon (discouraged due to wear/failure), modern titanium/wrought total joint.</li>
+        </ul>
+      </li>
+      <li><strong>Type III – Total replacement:</strong> for adult severe unilateral/bilateral ankylosis or recurrent — custom TMJ prosthesis (fossa + condyle) gives greatest opening and stability.</li>
+      <li><strong>Autogenous reconstruction</strong> by costochondral graft/sternoclavicular graft where growth/young patient or large defect.</li>
+      <li><strong>Adjuncts:</strong> coronoidectomy (usually bilaterally at the same time to address extra-capsular temporalis contracture), aggressive physiotherapy (within first day–week), bite blocks/tongue depressors, sometimes post-op elastics; re-ankylosis prevention is the goal.</li>
+    </ol>
+    <div class="note"><strong>Post-op protocol:</strong> oral expansion training (e.g., stacking tongue depressors / using a calibrated jaw exerciser) multiple times a day for months; follow with MR/CT to detect early recurrence.</div>
+  </div>
+</section>
+
+<section id="tjr" class="seat">
+  <div class="card">
+    <h2>29. Total Joint Replacement (TJR) <span class="badge b-surg">Surgery</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>System</th><th>Type</th><th>Features</th></tr>
+        <tr><td>TMJ Concepts (custom)</td><td>Custom CAD/CAM patient-matched: titanium fossa + ultra-high-molecular-weight polyethylene + titanium condyle.</td><td>Best anatomy match; used in complex cases; high cost; requires imaging-planning.</td></tr>
+        <tr><td>Zimmer-Biomet (Lorenz) stock</td><td>Stock components (different sizes) placed with cements/screws; chrome-cobalt/metal + UHMWPE fossa.</td><td>Good results; cheaper; some need trimming.</td></tr>
+      </table>
+    </div>
+    <h4>Indications</h4>
+    <ul>
+      <li>End-stage osteoarthritis / DJD with pain &amp; marked functional loss.</li>
+      <li>Ankylosis in adult (especially recurrent, bilateral, or where autograft has failed).</li>
+      <li>Severe connective-tissue disease destruction (RA, JIA after growth).</li>
+      <li>Failed previous TMJ surgery/disc replacement with silicone (wear particles).</li>
+      <li>Severe ICR with retrognathia/open-bite desire for stable jaw position.</li>
+      <li>Tumour resection requiring reconstruction.</li>
+    </ul>
+    <h4>Outcomes &amp; complications</h4>
+    <ul>
+      <li>Excellent short/mid-term results in expert hands: improved opening, pain relief in &gt;85%, stable occlusion, low loosening at 5–10 yr.</li>
+      <li>Complications: infection (1–3%), heterotopic ossification (reduction target), facial nerve palsy (temporary), malposition/loosening, fracture at seating, TMJ Concepts food particle impingement, contra-lateral joint strain.</li>
+      <li>Bilateral joint replacement must be carefully planned (maxillofacial + anaesthesia airway team).</li>
+    </ul>
+  </div>
+</section>
+
+<section id="complications" class="seat">
+  <div class="card">
+    <h2>30. Complications of TMJ Surgery <span class="badge b-surg">Surgery</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>Complication</th><th>How to prevent / manage</th></tr>
+        <tr><td>Facial nerve injury (esp. temporal-VII)</td><td>Preauricular end-aural approach; plane of dissection; lateral traction reflex monitoring; short-term palsy common, permanent rare.</td></tr>
+        <tr><td>Auriculotemporal nerve injury → Frey syndrome / gustatory sweating; numbness of ear/temple</td><td>Careful dissection; mention pre/post-op; usually transient.</td></tr>
+        <tr><td>Infection</td><td>Periop antibiotics; drain wound; treat early; in TJR likely needs explant if infected.</td></tr>
+        <tr><td>Bleeding / hematoma</td><td>Control maxillary/superficial temporal vessels; drain; pressure.</td></tr>
+        <tr><td>Heterotopic ossification / re-ankylosis</td><td>Aggressive early mobilisation; physiotherapy; consider radiotherapy/Bisphosphonates in high-risk post-surgical (relative evidence); good technique leaving no raw bone.</td></tr>
+        <tr><td>Adhesions (post-op fibrous ankylosis)</td><td>Early motion; NSAIDs may help; exercises.</td></tr>
+        <tr><td>Disc displacement recurrence</td><td>Selection of appropriate technique (discopexy reliable in expert hands); counselling.</td></tr>
+        <tr><td>Chorda tympani damage (if approached posterior-superiorly)</td><td>Avoid retracting through the petrotympanic fissure; taste loss usually recovers.</td></tr>
+        <tr><td>Middle ear / cranial fossa injury</td><td>Pre-op imaging for thin fossa; intra-operative care in superior displacement; immediate neurosurgery consult if dural breach.</td></tr>
+        <tr><td>Malocclusion / open bite post-op</td><td>Pre-op planning, MMF or elastics; orthodontic collaboration; orthognathic correction if persistent.</td></tr>
+        <tr><td>Seroma/loose bodies</td><td>Meticulous lavage; aspiration.</td></tr>
+        <tr><td>Implant wear/foreign body reaction (from old silicone/Teflon)</td><td>Avoid those materials in primary surgery; remove on failure; replace with TIJ foam.</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 04 ============================== -->
+
+<section id="classifications" class="seat">
+  <div class="card">
+    <h2>31. Classification Systems <span class="badge b-path">Classification</span></h2>
+
+    <h3>Wilkes classification of internal derangement (MRI/stage based)</h3>
+    <div class="twrap">
+      <table>
+        <tr><th>Stage</th><th>Clinical</th><th>Imaging/Pathology</th></tr>
+        <tr><td>I</td><td>Silent; no pain/click; slight limitation.</td><td>Disc reducing; normal anatomy.</td></tr>
+        <tr><td>II</td><td>Click with reciprocal click; occasional pain; mild limitation.</td><td>Disc reducing; some deformity.</td></tr>
+        <tr><td>III</td><td>Pain, frequent clicks, intermittent locking, restriction &lt;35mm.</td><td>Disc displaced anteriorly, not reducing in part; thickened posterior band.</td></tr>
+        <tr><td>IV</td><td>Chronic (late) pain, closed lock, no click; opening &lt;30mm; crepitus.</td><td>Disc displaced; no reduction; disc deforms; mild DJD changes.</td></tr>
+        <tr><td>V</td><td>Frequent pain, grating/crepitus, open lock episodes; functional disability.</td><td>Disc torn/degenerated; moderate-severe DJD.</td></tr>
+      </table>
+    </div>
+
+    <h3>DC/TMD (Diagnostic Criteria for TMD — current international standard)</h3>
+    <ul>
+      <li><strong>Axis I (physical):</strong>
+        <ul>
+          <li>Painful: myalgia (local myalgia, myofascial pain, myofascial pain with referral); arthralgia; headache attributed to TMD.</li>
+          <li>Intra-articular: disc displacement with reduction; disc displacement with reduction with intermittent locking; disc displacement without reduction with limited opening; disc displacement without reduction without limited opening; degenerative joint disease; subluxation.</li>
+        </ul>
+      </li>
+      <li><strong>Axis II (biopsychosocial):</strong> pain intensity, disability, depression, anxiety, functional limitation (via questionnaires GCPS, PHQ-9, GAD-7).</li>
+    </ul>
+
+    <h3>RDC/TMD (older research system)</h3>
+    <ul>
+      <li>Group I: myofascial pain (Ia, Ib), Group II: disc displacement (IIa reducing, IIb non-reducing no limitation, IIc non-reducing with limitation), Group III: arthralgia, osteoarthritis, osteoarthrosis.</li>
+    </ul>
+
+    <h3>Clinical staging used in the clinic</h3>
+    <ul>
+      <li>Class I: myogenous TMD only.</li>
+      <li>Class II: disc displacement without reduction (closed lock).</li>
+      <li>Class III: disc displacement with reduction (click).</li>
+      <li>Class IV: DJD/osteoarthritis.</li>
+      <li>Class V: ankylosis.</li>
+    </ul>
+
+    <h3>Gutteridge / others for ankylosis severity</h3>
+    <ul><li>Complete ankylosis (no movement), Incomplete (some), Bony vs fibrous by imaging; Unilateral vs bilateral.</li></ul>
+  </div>
+</section>
+
+<section id="ddx" class="seat">
+  <div class="card">
+    <h2>32. Differential Diagnosis of Pre-auricular / Jaw Pain <span class="badge b-path">DDx</span></h2>
+    <div class="twrap">
+      <table>
+        <tr><th>Category</th><th>Conditions to consider</th><th>How to differentiate</th></tr>
+        <tr><td>Dental</td><td>Cracked tooth, pulpitis, pericoronitis, periapical abscess, odontogenic sinusitis</td><td>Point tenderness to a tooth, cold sensitivity, percussion test, dental radiographs.</td></tr>
+        <tr><td>Ear</td><td>Otitis externa/media, Eustachian dysfunction, mastoiditis, perichondritis</td><td>Otoscopy; hearing test; ear discharge; tenderness over mastoid.</td></tr>
+        <tr><td>Salivary</td><td>Parotitis, sialadenitis, sialolith, parotid tumour</td><td>Swelling with meals; pus from duct; U/S/MRI; bimanual palpation of duct.</td></tr>
+        <tr><td>Neuralgic/neuropathic</td><td>Trigeminal neuralgia, glossopharyngeal neuralgia, post-herpetic neuralgia, deafferent pain, atypical facial pain</td><td>Paroxysmal electric-shock trigger (V1–V3), refractory response to carbamazepine; neurological exam; normal imaging.</td></tr>
+        <tr><td>Temporal region</td><td>Temporal arteritis (giant cell arteritis) in elderly — ESR/CRP elevated, jaw claudication, vision symptoms — urgent</td><td>Age &gt;50, tenderness on temporal artery, ESR; urgent steroid if suspected.</td></tr>
+        <tr><td>Headache syndromes</td><td>Tension-type headache, migraine, cluster headache, "TMJ-associated headache"</td><td>Triggers, character, laterality, associated nausea/photophobia; response to prophylactic therapy.</td></tr>
+        <tr><td>Musculoskeletal referral</td><td>Cervical facet/spondylosis, trapezius/SCM trigger point referral</td><td>Neck exam, posture, range-of-motion cervical; manual therapy response.</td></tr>
+        <tr><td>Trigeminal autonomic cephalalgia</td><td>Cluster — severe orbital pain with lacrimation</td><td>Episodic severe; autonomic signs.</td></tr>
+        <tr><td>Systemic rheum</td><td>RA, JIA, PsA, AS, SLE, gout, pseudogout, polymyalgia</td><td>Systemic pattern, serology, imaging of other joints.</td></tr>
+        <tr><td>Trauma / fracture</td><td>Condylar fracture, zygomatic fracture, subcondylar displacement</td><td>History+CT; malocclusion; step deformity; head injury signs.</td></tr>
+        <tr><td>Infection</td><td>Parotid abscess, deep space abscess, osteomyelitis of jaw, septic arthritis</td><td>Fever, toxicity, swelling, imaging, aspiration culture.</td></tr>
+        <tr><td>Neoplasm</td><td>Parotid tumour, sarcoma of jaw joint, metastasis, skull base lesion, nasopharyngeal (V3 symptoms in young)</td><td>Progression, imaging (MRI+CT), biopsy, ENT review (esp. young, V3 anaesthesia or conductive hearing loss).</td></tr>
+        <tr><td>Eagle syndrome</td><td>Elongated styloid → pharyngeal/jaw pain on swallowing, turning head</td><td>Palpation digital, CT; response to injection.</td></tr>
+        <tr><td>Referred cardiac</td><td>Unilateral jaw pain can be anginal in rare description (esp. left side + risk factors)</td><td>Cardiac history, ECG, troponin in suspicion.</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="prognosis" class="seat">
+  <div class="card">
+    <h2>33. Prognosis &amp; Evidence-Based Summary <span class="badge b-med">Evidence</span></h2>
+    <ul>
+      <li>Most TMD (myofascial &amp; disc-with-click) resolves within 6–24 months with/without treatment; <strong>reassurance + self-care is as effective as many splints</strong> in controlled trials.</li>
+      <li>Flat-plane stabilization splint > no treatment for pain; benefit vs good placebo less clear — use as adjunct, not faith-based therapy.</li>
+      <li>Arthrocentesis/arthroscopy: strong evidence for acute closed lock; for chronic disc displacement without reduction, spontaneous improvement is common so intervention applies to the symptomatic subgroup.</li>
+      <li>IA corticosteroid/HA: IA HA reduces pain &amp; improves function in DJD (Cochrane supported); IA steroids with caution.</li>
+      <li>Bite adjustment / occlusal equilibration: <strong>not supported</strong> as routine treatment for TMD; irreversible — avoid unless clear occlusal interference pain link.</li>
+      <li>Orthodontic treatment does not effectively "cure" TMD; may sometimes provoke symptoms transiently.</li>
+      <li>Surgery (discectomy etc.) helps only carefully selected patients; persistent surgery for purely psychosocial pain is harmful.</li>
+      <li>Chronic pain &gt;3 months requires biopsychosocial approach (pain clinic, psychology).</li>
+      <li>TJR excellent outcomes where indicated; patient counselling realistic.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="seat">
+  <div class="card">
+    <h2>34. FAQ (Quick answers) <span class="badge b-anat">Quick</span></h2>
+    <div class="qa">
+      <p><b>Q:</b> Do I need an MRI before treatment? <b>A:</b> For most myofascial/disc-click cases — no. MRI for suspected disc displacement without reduction, effusion/synovitis, tumour, or treatment failures.</p>
+      <p><b>Q:</b> Is clicking dangerous? <b>A:</b> Isolated clicking without pain rarely needs treatment; it may progress to locking in some — address load/bruxism.</p>
+      <p><b>Q:</b> Can I prevent TMD? <b>A:</b> Avoid parafunction (awareness), maintain posterior teeth, treat bruxism with a splint, avoid trauma, stress-manage, seek physiotherapy early.</p>
+      <p><b>Q:</b> What is the fastest relief for an acute locked jaw? <b>A:</b> NSAID + muscle relaxant + soft diet; if persists days, arthrocentesis (effective).</p>
+      <p><b>Q:</b> Will orthodontics fix TMD? <b>A:</b> No — not a treatment for TMD. It can help if malocclusion is part of overall plan.</p>
+      <p><b>Q:</b> Is surgery first-line? <b>A:</b> No. Conservative first; surgery after failed appropriate conservative care (with the exceptions of infection/tumour/ankylosis/fracture).</p>
+      <p><b>Q:</b> What is the most common cause of TMJ pain in a young woman? <b>A:</b> Myofascial/muscle pain (with stress, bruxism) — joint proper disease (ICR, RA) far less common.</p>
+      <p><b>Q:</b> Can TMD cause tooth pain or ear pain? <b>A:</b> Yes — referred pain along the trigeminal/auriculotemporal distribution is common.</p>
+      <p><b>Q:</b> What is the risky sign? Fever + swollen joint + malocclusion = <span class="badge b-path">RUSH</span> exclude septic arthritis/abscess.</p>
+      <p><b>Q:</b> Does chewing gum cause TMD? <b>A:</b> Prolonged chewing is a parafunctional risk factor — avoid if symptomatic.</p>
+    </div>
+  </div>
+</section>
+
+<section id="references" class="seat">
+  <div class="card">
+    <h2>35. Selected References &amp; Further Reading</h2>
+    <ul>
+      <li>Gray's Anatomy (TMJ section) — classic anatomy reference.</li>
+      <li>Okeson JP. <em>Management of Temporomandibular Disorders and Occlusion.</em> Elsevier (key clinical textbook).</li>
+      <li>Schiffman E, Ohrbach R, et al. Diagnostic Criteria for TMD (DC/TMD) Axis I &amp; II, <em>J Oral Facial Pain Headache</em>, 2014.</li>
+      <li>Wilkes CH. Arthrography of the TMJ in patients with TMJ pain/dysfunction: Arthrography as a staging technique. <em>J Oral Surg</em>, 1978.</li>
+      <li>Nitzan DW, Dolwick MF, Martinez A. TMJ arthrocentesis: a simplified technique for treatment of severe, limited mouth opening. <em>J Oral Maxillofac Surg</em>, 1991.</li>
+      <li>Cochrane reviews: Splints for TMD, IA hyaluronic acid, arthroscopy/arthrocentesis for TMD.</li>
+      <li>Wolford LM et al. MJSD classification; interpositional arthroplasty (dermal fat), TJR reconstruction papers, <em>J Oral Maxillofac Surg</em>.</li>
+      <li>Zins JE &amp; others — condylar fracture management &amp; pediatric TMJ protocols.</li>
+      <li>Khoury / Mercuri LG. alloplastic TMJ replacement: indications &amp; outcomes. <em>J Oral Maxillofac Surg</em>.</li>
+      <li>Terry BC / Oral and Maxillofacial Surgery texts (Peterson's, Fonseca's) for surgical technique chapters.</li>
+      <li>NICE/AAOMS guidance on TMJ surgery &amp; criteria for joint replacement (Mercuri guideline).</li>
+    </ul>
+    <div class="well"><em>Educational compilation — always verify against current local guidelines, specialist literature and imaging/PACS before clinical decisions.</em></div>
+  </div>
+</section>
+
+<footer class="rib">
+  TMJ — The Complete Reference &middot; Educational resource compiled for study purposes
+</footer>
+
+</main>
+</div>
+
+<script>
+(function(){
+  var box = document.getElementById('tocSearch');
+  if (box) {
+    box.addEventListener('input', function(){
+      var q = box.value.trim().toLowerCase();
+      var links = document.querySelectorAll('#navToc a');
+      links.forEach(function(a){
+        var txt = a.textContent.toLowerCase();
+        a.style.display = (!q || txt.indexOf(q) > -1) ? '' : 'none';
+      });
+    });
+  }
+
+  var nav = document.getElementById('navToc');
+  var back = document.getElementById('tocBackdrop');
+  var btn = document.getElementById('menuBtn');
+  function setDrawer(open){
+    if (nav && back) {
+      nav.classList.toggle('open', open);
+      back.classList.toggle('show', open);
+      document.body.classList.toggle('drawer-open', open);
+    }
+  }
+  if (btn) btn.addEventListener('click', function(){
+    setDrawer(!(nav && nav.classList.contains('open')));
+  });
+  if (back) back.addEventListener('click', function(){ setDrawer(false); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') setDrawer(false); });
+  if (nav) {
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ setDrawer(false); });
+    });
+  }
+})();
+</script>
+</body>
+</html>
