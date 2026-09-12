@@ -26,7 +26,7 @@ Everything study-related, in one repo, readable from any browser.
 | [Ayurvedic/](Ayurvedic/) | Ayurvedic notes — incl. complete Hamdard medicines list in Bangla ([hamdard_medicines_bangla.html](Ayurvedic/hamdard_medicines_bangla.html)) |
 | [homeopathy/](homeopathy/) | Homeopathy notes — Organon of Medicine 6th ed. (full text) + Bangla explained page ([Organon_Medicine_Full_Bangla.html](homeopathy/Organon_Medicine_Full_Bangla.html)) |
 | [tibbe-nababi/](tibbe-nababi/) | Tibbe Nababi (Prophetic Medicine) complete guide in Bangla ([tibbe-nabawi.html](tibbe-nababi/tibbe-nabawi.html)) |
-| [Microbiology/](Microbiology/) | Microbiology — unlocked question-bank PDF text extractions + [2nd Term Comprehensive Notes](Microbiology/second%20term/2nd_Term_Comprehensive_Notes.html) (complete `.md` text + **Questions raw** suggestion bank) |
+| [Microbiology/](Microbiology/) | Microbiology — unlocked question-bank PDF text extractions + [2nd Term Comprehensive Notes](Microbiology/second%20term/2nd_Term_Comprehensive_Notes.html) (complete `.md` text + **Questions raw** suggestion bank), plus a [topic-wise split index](Microbiology/second%20term/split/index.html) (35 topic pages, 350 Q&A cards) |
 | [Random.md](Random.md) | Miscellaneous random notes |
 
 > 🔗 The **[Study Notes Hub](index.html)** lists **every** folder & file in the repo automatically (`.md` + `.html`), with search + folder-tree navigation.
