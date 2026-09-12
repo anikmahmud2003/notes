@@ -65,7 +65,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -108,8 +118,8 @@
   <!-- ============================== SECTION 1 ============================== -->
   <h2 id="indications">1 · Indications of Semen Analysis</h2>
 
-  <details>
-    <summary>🔴 What are the indications of semen analysis? Enumerate the medicolegal importance.</summary>
+  <div class="qcard">
+    </div>🔴 What are the indications of semen analysis? Enumerate the medicolegal importance.</div>
     <div class="ans">
       <p><strong>Indications of semen analysis</strong> (<span class="hot">Very Important for VIVA — asked repeatedly DU, RMU, CMU, BUP, SU</span>):</p>
       <ol>
@@ -122,13 +132,13 @@
       <p><strong>Medicolegal importance:</strong> semen analysis is crucial in (a) paternity disputes — linking biological fatherhood, (b) sexual assault cases — identifying the perpetrator through spermatozoa or seminal markers, and (c) post-vasectomy confirmation — legal proof of sterility.</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 2 ============================== -->
   <h2 id="collection">2 · Semen Collection Procedure</h2>
 
-  <details>
-    <summary>How is semen collected for analysis? Describe the collection and transport procedure.</summary>
+  <div class="qcard">
+    </div>How is semen collected for analysis? Describe the collection and transport procedure.</div>
     <div class="ans">
       <h3>A. Preparation of the Patient</h3>
       <ul>
@@ -147,13 +157,13 @@
       </ul>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 3 ============================== -->
   <h2 id="advices">3 · Advices / Prerequisites Before Semen Analysis</h2>
 
-  <details>
-    <summary>What advices/prerequisites should be given before doing semen analysis?</summary>
+  <div class="qcard">
+    </div>What advices/prerequisites should be given before doing semen analysis?</div>
     <div class="ans">
       <p><strong>Advices before semen analysis</strong> (asked as DU-20Ju, 16Ja, SU-13Ju, CU-15Ja):</p>
       <ol>
@@ -167,13 +177,13 @@
       <div class="mnem">🎯 <strong>Key point:</strong> The "3–5 days abstinence" rule ensures optimal sperm concentration and quality for accurate analysis.</div>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 4 ============================== -->
   <h2 id="normal">4 · Normal Findings of Semen Analysis (Reference Values)</h2>
 
-  <details>
-    <summary>🔴 Mention the normal findings of semen analysis. Write a normal semen analysis report.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the normal findings of semen analysis. Write a normal semen analysis report.</div>
     <div class="ans">
       <p><strong>Normal findings of semen analysis</strong> (<span class="hot">"Please read this at least 10 times for VIVA"</span> — Arif):</p>
 
@@ -215,10 +225,10 @@
       <p><strong>Low semen volume</strong> may indicate <strong>retrograde ejaculation</strong> (semen enters the bladder instead of being expelled externally).</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What information can we get from semen analysis? Mention the features examined and important messages in reporting.</summary>
+  <div class="qcard">
+    </div>What information can we get from semen analysis? Mention the features examined and important messages in reporting.</div>
     <div class="ans">
       <p><strong>Basic semen analysis measures (4 parameters):</strong></p>
       <ol>
@@ -236,21 +246,21 @@
       <p><strong>Important messages in semen analysis reporting:</strong> Always comment on (1) volume, (2) sperm count, (3) motility percentage, (4) morphology, (5) liquefaction status, (6) presence/absence of agglutination, (7) WBC count, (8) fructose (if requested).</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Define normozoospermia.</summary>
+  <div class="qcard">
+    </div>Define normozoospermia.</div>
     <div class="ans">
       <p><strong>Normozoospermia:</strong> a condition where <span class="good">all semen parameters are within normal reference ranges</span> — normal volume, normal sperm count (&gt;20 million/ml), normal motility (&gt;50% forward motile), and normal morphology (&gt;30% normal forms). The male is considered <strong>fertile</strong>.</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 5 ============================== -->
   <h2 id="terminology">5 · Sperm Analysis Terminology (Classification)</h2>
 
-  <details>
-    <summary>🔴 Define oligospermia and necrospermia. Enumerate all sperm analysis terminologies.</summary>
+  <div class="qcard">
+    </div>🔴 Define oligospermia and necrospermia. Enumerate all sperm analysis terminologies.</div>
     <div class="ans">
       <p><strong>Complete sperm analysis terminology (must-know for VIVA):</strong></p>
       <table>
@@ -269,13 +279,13 @@
       <div class="mnem">🎯 <strong>Mnemonic:</strong> <em>"Normo → all OK; Oligo → few; Astheno → slow; Terato → ugly; Azo → none; Necro → dead; Poly → too many."</em></div>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 6 ============================== -->
   <h2 id="fertility">6 · Male Fertility Status by Examining Semen</h2>
 
-  <details>
-    <summary>How can you know male fertility status by examining semen?</summary>
+  <div class="qcard">
+    </div>How can you know male fertility status by examining semen?</div>
     <div class="ans">
       <p><strong>Three parameters determine fertility status:</strong></p>
 
@@ -296,13 +306,13 @@
       <p>For normal fertility, <span class="hot">&gt;30% of sperms must be morphologically normal</span> (normal head, body &amp; tail). WHO accepts &gt;30%; newer WHO 2010 criteria use &gt;4% strict normal forms.</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 7 ============================== -->
   <h2 id="oligospermia">7 · Oligospermia — Short Note</h2>
 
-  <details>
-    <summary>🔴 What is oligospermia? Give its causes.</summary>
+  <div class="qcard">
+    </div>🔴 What is oligospermia? Give its causes.</div>
     <div class="ans">
       <p><strong>Oligospermia:</strong> less than <span class="hot">20 million sperm/ml of semen</span>. Classified as mild–moderate (5–20 million/ml) or severe (&lt;5 million/ml).</p>
 
@@ -344,13 +354,13 @@
       </ul>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 8 ============================== -->
   <h2 id="azoospermia">8 · Azoospermia — Short Note</h2>
 
-  <details>
-    <summary>🔴 What is azoospermia? What are the causes of azoospermia?</summary>
+  <div class="qcard">
+    </div>🔴 What is azoospermia? What are the causes of azoospermia?</div>
     <div class="ans">
       <p><strong>Azoospermia:</strong> <span class="hot">no sperm in semen — complete lack of spermatozoa in the ejaculate</span>. It occurs in approximately <strong>5% of infertile men</strong>.</p>
 
@@ -392,10 +402,10 @@
       </ul>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A 36-year-old male presented with infertility. Semen analysis showed absent sperm. Comment on the semen analysis and give possible causes.</summary>
+  <div class="qcard">
+    </div>A 36-year-old male presented with infertility. Semen analysis showed absent sperm. Comment on the semen analysis and give possible causes.</div>
     <div class="ans">
       <p><strong>Comment:</strong> <span class="hot">Azoospermia</span> — complete absence of spermatozoa in the ejaculate.</p>
       <p><strong>Possible causes:</strong> (organise as pre-testicular, testicular, post-testicular)</p>
@@ -407,13 +417,13 @@
       </ul>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 9 ============================== -->
   <h2 id="oligoastheno">9 · Oligoasthenozoospermia</h2>
 
-  <details>
-    <summary>Short note: Oligoasthenozoospermia.</summary>
+  <div class="qcard">
+    </div>Short note: Oligoasthenozoospermia.</div>
     <div class="ans">
       <p><strong>Oligoasthenozoospermia:</strong> a sperm disorder involving <span class="warn">two abnormalities simultaneously</span>:</p>
       <ol>
@@ -431,13 +441,13 @@
       <p>Treatment of <strong>reversible causes</strong>, if any (e.g., infection → antibiotics; varicocele → surgery; hormonal → correction).</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 10 ============================== -->
   <h2 id="causes">10 · Etiological Factors of Male Infertility</h2>
 
-  <details>
-    <summary>🔴 Mention the etiological factors of male infertility.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the etiological factors of male infertility.</div>
     <div class="ans">
       <p><strong>Etiological factors of male infertility</strong> (<span class="hot">Very Important for VIVA</span> — asked DU-10Ja):</p>
 
@@ -479,24 +489,24 @@
       <p>Low volume, physicochemical abnormality of semen — including azoospermia, oligospermia, teratospermia, hypospermia, etc.</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 11 ============================== -->
   <h2 id="pseudocyesis">11 · Pseudocyesis (False Pregnancy)</h2>
 
-  <details>
-    <summary>Define pseudocyesis.</summary>
+  <div class="qcard">
+    </div>Define pseudocyesis.</div>
     <div class="ans">
       <p><strong>Pseudocyesis (false pregnancy):</strong> a syndrome in which a woman shows <span class="warn">all the symptoms and signs of being pregnant except for the presence of a fetus</span>. Her belly grows like a pregnant woman, and she can even go into false labour. It is a psychosomatic condition.</p>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 12 ============================== -->
   <h2 id="infertility-test">12 · Infertility Test (Male &amp; Female)</h2>
 
-  <details>
-    <summary>🔴 How will you proceed to diagnose a case of male and female infertility? Write a short note on infertility test.</summary>
+  <div class="qcard">
+    </div>🔴 How will you proceed to diagnose a case of male and female infertility? Write a short note on infertility test.</div>
     <div class="ans">
       <p><strong>Infertility test:</strong> tests meant to establish the reason why a couple is not able to conceive naturally. Overall, <span class="hot">20–30% of infertility cases are due to a problem with the male partner</span>.</p>
 
@@ -537,13 +547,13 @@
       </ol>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== SECTION 13 ============================== -->
   <h2 id="hormones">13 · Hormones for Infertility Evaluation</h2>
 
-  <details>
-    <summary>What are the common hormones done in male and female to evaluate infertility?</summary>
+  <div class="qcard">
+    </div>What are the common hormones done in male and female to evaluate infertility?</div>
     <div class="ans">
       <h3>A. Common Hormones in Male Infertility Evaluation</h3>
       <ol>
@@ -564,74 +574,74 @@
       </ol>
       <p class="ref">Ref: Lecture SSMC, BSMMU Lab. Medicine &amp; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================== RAPID-FIRE ============================== -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs)</h2>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Normal values & liquefaction</summary>
-    <details>
-      <summary>Normal semen is characterised by — 2 to 5 ml per ejaculation (T/F)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Normal values & liquefaction</div>
+    <div class="qcard">
+      </div>Normal semen is characterised by — 2 to 5 ml per ejaculation (T/F)</div>
       <div class="ans"><span class="tf">True</span> — Normal ejaculated volume is 2–5 ml.</div>
-    </details>
-    <details>
-      <summary>Sperm count 20 million per ml is normal (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>Sperm count 20 million per ml is normal (T/F)</div>
       <div class="ans"><span class="tf">True</span> — Normal sperm concentration is 20–110 million/ml.</div>
-    </details>
-    <details>
-      <summary>&gt;70% motile in first hour is normal (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>&gt;70% motile in first hour is normal (T/F)</div>
       <div class="ans"><span class="ff">False</span> — Normal is 60–65% actively motile within 1 hour; most WHO labs use ≥50% as the lower limit.</div>
-    </details>
-    <details>
-      <summary>50% normal in morphology is accepted by WHO (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>50% normal in morphology is accepted by WHO (T/F)</div>
       <div class="ans"><span class="tf">True</span> — &gt;50% morphologically normal (normal head, body &amp; tail) is the traditional criterion; WHO also accepts &gt;30%.</div>
-    </details>
-    <details>
-      <summary>Normal liquefaction is completed within half an hour (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>Normal liquefaction is completed within half an hour (T/F)</div>
       <div class="ans"><span class="tf">True</span> — Complete liquefaction should occur within 30 minutes.</div>
-    </details>
-    <details>
-      <summary>Normal liquefaction time is 20–30 minutes (T/F) — from Semen analysis MCQ</summary>
+    </div>
+    <div class="qcard">
+      </div>Normal liquefaction time is 20–30 minutes (T/F) — from Semen analysis MCQ</div>
       <div class="ans"><span class="ff">False</span> — Normal liquefaction time is within 30 minutes, not "20–30 minutes" — the statement is considered False in the MCQ key (likely because the accepted window is simply "≤30 min").</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Sperm terminology</summary>
-    <details>
-      <summary>Sperm &lt;20 million/ml is oligospermia (T/F)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Sperm terminology</div>
+    <div class="qcard">
+      </div>Sperm &lt;20 million/ml is oligospermia (T/F)</div>
       <div class="ans"><span class="tf">True</span> — Oligospermia = sperm count &lt;20 million/ml.</div>
-    </details>
-    <details>
-      <summary>Prolonged liquefaction time indicates sterility (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>Prolonged liquefaction time indicates sterility (T/F)</div>
       <div class="ans"><span class="tf">True</span> — Significantly prolonged liquefaction may indicate pathology and is associated with reduced fertility.</div>
-    </details>
-    <details>
-      <summary>40 million/ml sperm count is hyperzoospermia (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>40 million/ml sperm count is hyperzoospermia (T/F)</div>
       <div class="ans"><span class="ff">False</span> — 40 million/ml is within normal range (20–110 million/ml). Hyperzoospermia (polyzoospermia) = &gt;350 million/ml.</div>
-    </details>
-    <details>
-      <summary>No spermatozoa either living or dead is called asthenozoospermia (T/F)</summary>
+    </div>
+    <div class="qcard">
+      </div>No spermatozoa either living or dead is called asthenozoospermia (T/F)</div>
       <div class="ans"><span class="ff">False</span> — Absence of all spermatozoa = azoospermia. Asthenozoospermia = reduced motility.</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Indications of semen analysis</summary>
-    <details>
-      <summary>Indications of semen analysis include: undescended testis (F), following vasectomy (T), hypogonadism (F), testicular neoplasm (F), following chemotherapy (F)?</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Indications of semen analysis</div>
+    <div class="qcard">
+      </div>Indications of semen analysis include: undescended testis (F), following vasectomy (T), hypogonadism (F), testicular neoplasm (F), following chemotherapy (F)?</div>
       <div class="ans">Undescended testis <span class="ff">F</span> · following vasectomy <span class="tf">T</span> · hypogonadism <span class="ff">F</span> · testicular neoplasm <span class="ff">F</span> · following chemotherapy <span class="ff">F</span> . Indications are: infertility evaluation, post-vasectomy follow-up, artificial insemination, paternity test, suspected rape case.</div>
-    </details>
-    <details>
-      <summary>Indications of semen analysis are: infertility (T), paternity test (T), after vagotomy (F), rape (T), after vasectomy (T)?</summary>
+    </div>
+    <div class="qcard">
+      </div>Indications of semen analysis are: infertility (T), paternity test (T), after vagotomy (F), rape (T), after vasectomy (T)?</div>
       <div class="ans">Infertility <span class="tf">T</span> · paternity test <span class="tf">T</span> · after vagotomy <span class="ff">F</span> (vagotomy is a gastric surgery, irrelevant) · rape <span class="tf">T</span> · after vasectomy <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
-    <details class="rapid" open>
-    <summary>Semen Analysis — One-Liners & Mnemonics (test yourself, then reveal)</summary>
+    <div class="qcard rapid">
+    </div>Semen Analysis — One-Liners & Mnemonics (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">🎯 One-liner: Low semen volume indicates?</div>
@@ -659,7 +669,7 @@
       <div class="a"><strong>Condoms contain spermicidal agents</strong> that kill sperm and give false results.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

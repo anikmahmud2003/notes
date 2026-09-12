@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -108,8 +118,8 @@
   <!-- ============================================================ -->
   <h2 id="lab-exam">1 · Laboratory Examinations Done with Stool</h2>
 
-  <details>
-    <summary>What are the laboratory examinations done with stool (overview)?</summary>
+  <div class="qcard">
+    </div>What are the laboratory examinations done with stool (overview)?</div>
     <div class="ans">
       <p>Laboratory examinations done with stool are divided into <strong>five categories</strong>:</p>
       <ol>
@@ -121,10 +131,10 @@
       </ol>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495 · Prof. Khaleque/378</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the physical examination of stool.</summary>
+  <div class="qcard">
+    </div>Describe the physical examination of stool.</div>
     <div class="ans">
       <ul>
         <li><strong>Amount</strong> — estimated grossly.</li>
@@ -136,10 +146,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the chemical examination of stool.</summary>
+  <div class="qcard">
+    </div>Describe the chemical examination of stool.</div>
     <div class="ans">
       <ul>
         <li><strong>Occult blood test (OBT)</strong> — detects trace/altered blood not visible to the naked eye.</li>
@@ -149,10 +159,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the microscopic examination of stool (parasites).</summary>
+  <div class="qcard">
+    </div>Describe the microscopic examination of stool (parasites).</div>
     <div class="ans">
       <ul>
         <li><strong>Trophozoite of protozoa</strong> — e.g., <em>Entamoeba histolytica</em> (motile, invasive form).</li>
@@ -162,10 +172,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the cellular elements seen on microscopy of stool.</summary>
+  <div class="qcard">
+    </div>Describe the cellular elements seen on microscopy of stool.</div>
     <div class="ans">
       <table>
         <tr><th>Element</th><th>Significance</th></tr>
@@ -180,10 +190,10 @@
       <div class="mnem">🎯 <strong>Microscopy mnemonic "POMM":</strong> Pus cells (inflammation) · Ova (worms) · Macrophages (bacillary dysentery) · Muscle fibres (malabsorption).</div>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is the role of culture and culture sensitivity in stool examination?</summary>
+  <div class="qcard">
+    </div>What is the role of culture and culture sensitivity in stool examination?</div>
     <div class="ans">
       <h3>4. Culture of the Specimen</h3>
       <p>Grows pathogenic bacteria (e.g., <em>Salmonella</em>, <em>Shigella</em>, <em>Vibrio cholerae</em>) to identify the causative organism.</p>
@@ -191,13 +201,13 @@
       <p>Determines which antibiotics the identified pathogen is susceptible to → guides targeted therapy and helps prevent antimicrobial resistance.</p>
       <p class="ref">Arif Guide 2025 Vol-2 pp.494–495</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="indications">2 · Indications of Routine Stool Examination</h2>
 
-  <details>
-    <summary>What are the indications of routine examination of stool?</summary>
+  <div class="qcard">
+    </div>What are the indications of routine examination of stool?</div>
     <div class="ans">
       <p>Routine stool examination is indicated in the following clinical scenarios:</p>
       <ol>
@@ -210,21 +220,21 @@
       <div class="mnem">🎯 <strong>5 Indications mnemonic "P-D-J-F-O":</strong> Parasites · Dysentery · Jaundice · Fat · Occult blood.</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.495</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="obt">3 · Occult Blood Test (OBT)</h2>
 
-  <details>
-    <summary>🔴 What is the occult blood test (OBT)? Define it.</summary>
+  <div class="qcard">
+    </div>🔴 What is the occult blood test (OBT)? Define it.</div>
     <div class="ans">
       <p>The occult blood test (OBT) detects <span class="hot">altered blood or trace amounts of blood in stool that are not visible to the naked eye</span>. It is one of the most frequently examined investigations in clinical pathology.</p>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496 (DU-06S, BUP-22Nv, RU-19/18/17Nv, 16/14Ju, 13/12Ja, SU-17M, 11Ja, 09Ju, CU-16Ju, 07Ja)</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Name the methods used for occult blood test.</summary>
+  <div class="qcard">
+    </div>🔴 Name the methods used for occult blood test.</div>
     <div class="ans">
       <p>Two commonly used methods:</p>
       <ol>
@@ -233,10 +243,10 @@
       </ol>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the procedure of the orthotoluidine test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the procedure of the orthotoluidine test.</div>
     <div class="ans">
       <h3>A. Orthotoluidine Test — Detailed Procedure</h3>
       <ol>
@@ -247,19 +257,19 @@
       </ol>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 How is the orthotoluidine test interpreted?</summary>
+  <div class="qcard">
+    </div>🔴 How is the orthotoluidine test interpreted?</div>
     <div class="ans">
       <p><span class="hot">A green colour developing within 1 minute = positive result</span> → indicates occult (hidden) blood in the stool.</p>
       <p>The reaction is based on the <strong>peroxidase-like activity of haemoglobin</strong>, which catalyses the oxidation of orthotoluidine by H₂O₂ to produce a green colour.</p>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the precautions / sources of error in the orthotoluidine test?</summary>
+  <div class="qcard">
+    </div>🔴 What are the precautions / sources of error in the orthotoluidine test?</div>
     <div class="ans">
       <ul>
         <li><span class="hot">False positive</span> may occur due to <strong>meat (red meat) or green vegetable products</strong> in the stool (both contain haemoglobin or plant peroxidases).</li>
@@ -268,18 +278,18 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the Hema-Check slide test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the Hema-Check slide test.</div>
     <div class="ans">
       <p><strong>B. Hema-Check Slide Test:</strong> a rapid, <strong>immunochromatographic test paper (slide)</strong>. It detects human haemoglobin specifically (more specific than orthotoluidine). The slide is dipped in stool suspension and results read within minutes.</p>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the conditions where the occult blood test may be positive.</summary>
+  <div class="qcard">
+    </div>🔴 Give the conditions where the occult blood test may be positive.</div>
     <div class="ans">
       <table>
         <tr><th>#</th><th>Condition</th></tr>
@@ -292,10 +302,10 @@
       <div class="mnem">🎯 <strong>OBT Positive mnemonic "PUC-C":</strong> Peptic ulcer · Ulcerative colitis · Ca. stomach · Ca. colon.</div>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is the clinical significance of the occult blood test?</summary>
+  <div class="qcard">
+    </div>🔴 What is the clinical significance of the occult blood test?</div>
     <div class="ans">
       <ul>
         <li>Used as a <span class="good">screening test for colorectal cancer</span> (especially in individuals &gt;50 years).</li>
@@ -304,21 +314,21 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 pp.495–496</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Occult blood test</summary>
-    <details>
-      <summary>Occult bleed test is positive in: Obstructive jaundice · Bleeding PUD · Ca. stomach · Ca. gall bladder · Ulcerative colitis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Occult blood test</div>
+    <div class="qcard">
+      </div>Occult bleed test is positive in: Obstructive jaundice · Bleeding PUD · Ca. stomach · Ca. gall bladder · Ulcerative colitis</div>
       <div class="ans">Obstructive jaundice <span class="ff">F</span> · Bleeding PUD <span class="tf">T</span> · Ca. stomach <span class="tf">T</span> · Ca. gall bladder <span class="ff">F</span> · Ulcerative colitis <span class="tf">T</span> <span class="ref">(DU-18Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="ova">4 · Common Ova Found in Stool</h2>
 
-  <details>
-    <summary>What are the common ova found in stool?</summary>
+  <div class="qcard">
+    </div>What are the common ova found in stool?</div>
     <div class="ans">
       <p>The four <span class="hot">most common ova (eggs) of helminths</span> found in human stool:</p>
       <table>
@@ -331,22 +341,22 @@
       <div class="mnem">🎯 <strong>Ova mnemonic "ATEE":</strong> <strong>A</strong>scaris · <strong>T</strong>richuris · <strong>E</strong>nterobius · <strong>E</strong>ncylostoma (hookworm).</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.496</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="melaena">5 · Melaena — Definition &amp; Causes</h2>
 
-  <details>
-    <summary>🔴 What is melaena? Define it.</summary>
+  <div class="qcard">
+    </div>🔴 What is melaena? Define it.</div>
     <div class="ans">
       <p><span class="hot">Melaena is the passage of black, tarry, foul-smelling stools containing altered (digested) blood</span>, usually caused by <strong>bleeding from the upper gastrointestinal tract (GIT)</strong> — typically proximal to the ligament of Treitz (oesophagus, stomach, duodenum).</p>
       <p><strong>Why black and tarry?</strong> Haemoglobin is degraded by gastric acid and bacterial action → converted to <strong>acid haematin</strong> (a black pigment) → characteristic tarry appearance and smell.</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.496 · Davidson's 23rd/781</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the causes of melaena (upper GIT bleeding)?</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes of melaena (upper GIT bleeding)?</div>
     <div class="ans">
       <table>
         <tr><th>#</th><th>Cause</th><th>Key Details</th></tr>
@@ -360,21 +370,21 @@
       </table>
       <p class="ref">Arif Guide 2025 Vol-2 p.496 · Davidson's 23rd/781</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="haematochezia">6 · Fresh Blood in Stool (Haematochezia)</h2>
 
-  <details>
-    <summary>🔴 What is haematochezia? Define it.</summary>
+  <div class="qcard">
+    </div>🔴 What is haematochezia? Define it.</div>
     <div class="ans">
       <p><span class="hot">Haematochezia</span> = the passage of <strong>fresh (bright red) blood per rectum</strong>, typically indicating <strong>bleeding from the lower gastrointestinal tract (GIT)</strong> (distal to the ligament of Treitz — small intestine distal portion, colon, rectum, anal canal).</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.496 · Davidson's 23rd/782</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the causes of fresh blood in stool (haematochezia).</summary>
+  <div class="qcard">
+    </div>🔴 Give the causes of fresh blood in stool (haematochezia).</div>
     <div class="ans">
       <table>
         <tr><th>#</th><th>Cause</th><th>Key Details</th></tr>
@@ -389,10 +399,10 @@
       <div class="mnem">🎯 <strong>Haematochezia mnemonic:</strong> Dysentery · Diverticula (Meckel's) · Malignancy · Ulcerative colitis · Crohn's · Fissure/Haemorrhoids.</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.496 · Davidson's 23rd/782 · Lecture SSMC &amp; DMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Distinguish melaena vs haematochezia.</summary>
+  <div class="qcard">
+    </div>🔴 Distinguish melaena vs haematochezia.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Melaena</th><th>Haematochezia</th></tr>
@@ -402,13 +412,13 @@
       </table>
       <p class="ref">Arif Guide 2025 Vol-2 p.496 · Davidson's 23rd/782</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
 
-  <details class="rapid" open>
-    <summary>Stool Examination — One-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Stool Examination — One-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">🎯 Colour of normal stool? Pale/clay-coloured stool in which jaundice?</div>
       <div class="a">Normal = <strong>brown</strong> (stercobilinogen) · Pale = <strong>obstructive jaundice</strong>.</div>
@@ -431,7 +441,7 @@
       <div class="q">🎯 Steatorrhoea in obstructive jaundice is due to what?</div>
       <div class="a"><strong>Bile salt deficiency</strong> → fat malabsorption.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

@@ -6,8 +6,7 @@
 
 ---
 
-<details>
-<summary><b>Q. Define research. [CU-17M,14J]<br>Q. Define and classify research, [CU-13Ju, 12Ju]<br>Q. Write down the different types of research.</b></summary>
+### Q. Define research. [CU-17M,14J]<br>Q. Define and classify research, [CU-13Ju, 12Ju]<br>Q. Write down the different types of research.
 
 a, oo,
 Research: Research may be defined as a careful systematic, scientific and patient investigation in some field of
@@ -31,18 +30,14 @@ III. Cohort research
 IV. Experimental research.
 ry to identify problems, to design and evaluate policies &
 I use of available resources.
-</details>
 
-<details>
-<summary><b>Q. What are the pufposes of research?</b></summary>
+### Q. What are the pufposes of research?
 
 **Purposes of research:**
 1. Fill in gaps in information.
 2. Find answer of unexplained question.
-</details>
 
-<details>
-<summary><b>Q. What are objectives of research?</b></summary>
+### Q. What are objectives of research?
 
 **Objectives of research:**
 1.General objective: It is a short statement that tells in summary forms what will be done during the
@@ -51,17 +46,13 @@ studies.
 that will be (was) undertaker during the research works are turned as specific objectives.
 3.Ultimate objectives: It is short statement that tells about the benefits or indication application of
 utilization of study finding.
-</details>
 
-<details>
-<summary><b>Q. What is research methodology?</b></summary>
+### Q. What is research methodology?
 
 **Research methodology:** Research methodology is the internationally acceptable rules and regulations to
 conduct a research so that the findings can be disseminated throughout the world.
-</details>
 
-<details>
-<summary><b>Q. Mention the components that should be specified in writing the research method. [CU-10J]</b></summary>
+### Q. Mention the components that should be specified in writing the research method. [CU-10J]
 
 Components that should be specified in writing the research method:
 1) Relevance:
@@ -75,22 +66,16 @@ Components that should be specified in writing the research method:
 6) Urgency of data needed.
 7) Ethical acceptability,
 [Ref- Rashid, Khabir, Hyder / 5" / 586]
-</details>
 
-<details>
-<summary><b>Q. Mention the steps of research. [CU-15J]<br>Q. Write the steps of research which you have performed in your RFST period. [CU-14)]<br>Q. For community health survey, you have to perform a research on prevalence of skin disease</b></summary>
+### Q. Mention the steps of research. [CU-15J]<br>Q. Write the steps of research which you have performed in your RFST period. [CU-14)]<br>Q. For community health survey, you have to perform a research on prevalence of skin disease
 
 in a rural community of Chittagong. Illustrate the sequences of work stepwise. [CU-18N]
-</details>
 
-<details>
-<summary><b>Q. For community health survey, you have to perform a research on the slum dwellers. Illustrate</b></summary>
+### Q. For community health survey, you have to perform a research on the slum dwellers. Illustrate
 
 the sequence of this work stepwise. [CU-14Ju] i
-</details>
 
-<details>
-<summary><b>Q. For community health survey, you have to perform a research on prevalence of hy Perteasien</b></summary>
+### Q. For community health survey, you have to perform a research on prevalence of hy Perteasien
 
 [CU-17M,16N,15Ju] / peptic ulcer [CU-17N, 16M/J] / different skin diseases [CU-18M] ina
 P rural community of Chittagong. Illustrate the sequence of this work stepwise.
@@ -120,10 +105,8 @@ Data collection
 Data processing
 Data analysis —> Drawing inference —> Dissemination of finding
 Figure: Sequence of steps in research work.
-</details>
 
-<details>
-<summary><b>Q. Define & classify research instruments. [DU-17N]<br>Q. What do you mean by research instruments? Name different types of research instruments?</b></summary>
+### Q. Define & classify research instruments. [DU-17N]<br>Q. What do you mean by research instruments? Name different types of research instruments?
 
 **Research instrument:** The paper document in which data are collected is known as research instrument.
 Different types of research instruments are —
@@ -137,10 +120,8 @@ points for recording particular information are printed. Example — Admission f
 2)
 3)
 4)
-</details>
 
-<details>
-<summary><b>Q. Mention the steps of protocol writing.</b></summary>
+### Q. Mention the steps of protocol writing.
 
 **Check list:** Here observer puts tick marks against points.
 Questionnaire: It is an instrument in which all required information is collected whom the data is
@@ -181,5 +162,4 @@ National Health Programmes
 Topics with page numbers
 National health programmes
 Health management & planning
-</details>
 

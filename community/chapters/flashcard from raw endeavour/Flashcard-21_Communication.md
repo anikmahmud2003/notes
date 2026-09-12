@@ -9,23 +9,18 @@
 
 ## Communication
 
-<details>
-<summary><b>Q. Write short note on: Communication [RU-18M] / Health communication. [RU-13J]</b></summary>
+### Q. Write short note on: Communication [RU-18M] / Health communication. [RU-13J]
 
 Please write from below discussion.
-</details>
 
-<details>
-<summary><b>Q. Define communication. [RU-12Ju, 113]<br>Q. we communication. [SUST-1 1Ju, RU-10Ju]</b></summary>
+### Q. Define communication. [RU-12Ju, 113]<br>Q. we communication. [SUST-1 1Ju, RU-10Ju]
 
 **Com munication:**
 Nw (Communication can be regarded as a two-way process of exchanging or shaping ideas, feelings and
 information) Broadly it refers to ‘the countless ways that humans have of keeping in touch with one another’,
 . [Ref- Park / 24/891]
-</details>
 
-<details>
-<summary><b>Q. Classify communication. [RU-12Ju,11J]<br>Q. Enumerate the types of communication. [RU-14J,10Ju]<br>Q. Mention the types of communication. [SUST-1 lJu]<br>Q. ‘Lecture is a one way communication’-explain, [DU-17M]<br>Q. Write short note on: Types of communication. [SUST-14Ju, 13Ju]</b></summary>
+### Q. Classify communication. [RU-12Ju,11J]<br>Q. Enumerate the types of communication. [RU-14J,10Ju]<br>Q. Mention the types of communication. [SUST-1 lJu]<br>Q. ‘Lecture is a one way communication’-explain, [DU-17M]<br>Q. Write short note on: Types of communication. [SUST-14Ju, 13Ju]
 
 **Types of communication:**
 1) One way communication (Didactic method).
@@ -52,10 +47,8 @@ questions, and add their own information, ideas and opinions to the subject. The
 active and ‘democratic’. It is more likely to influence behaviour than one-way communication.
 Examples: Interviews, discussions, demonstrations, and contrived situations.
 [Ref- Park / 24" / 892]
-</details>
 
-<details>
-<summary><b>Viva Q. Why Socratic method of communication is better than Didactic method? Explain.</b></summary>
+### Viva Q. Why Socratic method of communication is better than Didactic method? Explain.
 
 **Socratic method is better than didactic method:** ‘
 P The Socratic method is a two-way method of communication in which both the communicator and the
@@ -68,10 +61,8 @@ So, Socratic method is better than Didactic method.
 ’ from the communicator to the
 participation, no feedback,
 [Ref- Park / 24" / 892]
-</details>
 
-<details>
-<summary><b>Viva Q. Sometimes silence is louder than words, why? Explain.</b></summary>
+### Viva Q. Sometimes silence is louder than words, why? Explain.
 
 **Sometimes silence is louder than words:**
 Communication can occur even without words. It
@@ -80,10 +71,8 @@ verbal communication. It can speak louder than words.
 [Ref- Park / 24" / 893]
 includes a whole range of bodily movements,
 ing etc.). Silence is non-
-</details>
 
-<details>
-<summary><b>Q. Briefly discuss the functions of health communication. [RU-17M, #5J,13Ju,12J]<br>Q. State the importance of good health communication.<br>Q. Why counseling is preferred to advising health communication? [RU-<br>Q. Write va Persuation. [RU-18N] 15J]</b></summary>
+### Q. Briefly discuss the functions of health communication. [RU-17M, #5J,13Ju,12J]<br>Q. State the importance of good health communication.<br>Q. Why counseling is preferred to advising health communication? [RU-<br>Q. Write va Persuation. [RU-18N] 15J]
 
 **Functions ofhealth communication:** Health communication has to cater to the following needs —
 \\_1y Information: The primary function of health communication is to provide scientific knowledge or
@@ -106,10 +95,8 @@ diffuse knowledge in respect of the goals of development and preparing the peopl
 expected of them.
 8) Organization: Communication is the life and blood of an organization.
 [Ref- Park /24"/893]
-</details>
 
-<details>
-<summary><b>Q. Why communication skills are essential in providing health education? ,</b></summary>
+### Q. Why communication skills are essential in providing health education? ,
 
 Importance of communication skills in providing health education:
 Communication is part of our normal relationship with other people. Our ability to influence others
@@ -121,16 +108,12 @@ help people to achieve health by their own actions and efforts.
 It is said that, without communication an individual could never become a human being, and without
 mass communication he could never become a part of modern society.
 [Ref- Park / 24 / 891)
-</details>
 
-<details>
-<summary><b>Q. State the components [DU-11J, RU-10Ju] / elements [DU-18N, 16J,12Ju, SUST-18M,12Ju,1 1Ju]</b></summary>
+### Q. State the components [DU-11J, RU-10Ju] / elements [DU-18N, 16J,12Ju, SUST-18M,12Ju,1 1Ju]
 
 of communication process.
-</details>
 
-<details>
-<summary><b>Q. Draw and explain the communication cycle. [CU-13Ju,10Ju}<br>Q. Illustrate communication process. [SUST-14J]<br>Q. Draw and explain communication process in health education. [SUST-15Ju]<br>Q. Enumerate the components of communication with flow chart. [RU-14J]<br>Q. Write the communication chain. [CU-14J]</b></summary>
+### Q. Draw and explain the communication cycle. [CU-13Ju,10Ju}<br>Q. Illustrate communication process. [SUST-14J]<br>Q. Draw and explain communication process in health education. [SUST-15Ju]<br>Q. Enumerate the components of communication with flow chart. [RU-14J]<br>Q. Write the communication chain. [CU-14J]
 
 Communication process / key elements of communication process: 5 key elements.
 a
@@ -181,10 +164,8 @@ Adoption
 Feedback
 Figure: Communication process.
 Foe the criteria of an ideal message. [CU-14]]
-</details>
 
-<details>
-<summary><b>Q. State the criteria of a good message. [SUST-12Ju, | IJ]<br>Q. Mention the criteria of a sender having good communication skill. [DU-14Ju]</b></summary>
+### Q. State the criteria of a good message. [SUST-12Ju, | IJ]<br>Q. Mention the criteria of a sender having good communication skill. [DU-14Ju]
 
 Please write from above discussion.
 For more curiosity
@@ -211,10 +192,8 @@ Decoding: It is the process of converting the message from its coded stage to th
 the communication's purpose.
 Receiver: It is the person or persons to whom the communication transfers his purpose.
 [Ref- Rashid, Khabir, Hyder / 5" /541]
-</details>
 
-<details>
-<summary><b>Q. State the methods of health communication.<br>Q. Discuss the various effective methods of communication used in health education. [CU-13Ju]<br>Q. Discuss how effective communication can be achieved in medical education & research.</b></summary>
+### Q. State the methods of health communication.<br>Q. Discuss the various effective methods of communication used in health education. [CU-13Ju]<br>Q. Discuss how effective communication can be achieved in medical education & research.
 
 **Methods of health communication:** Medical education and research can be effectively achieved by the
 implementation of the following process of communications:
@@ -243,10 +222,8 @@ vi. Direct mailing, posters, billboards
 vii. Health museums and exhibitions and lat of all
 viii. Folk medias
 [Ref- Park / 24/900]
-</details>
 
-<details>
-<summary><b>Q. Discuss the channel of communication.</b></summary>
+### Q. Discuss the channel of communication.
 
 **Channel of communication:** Message can be communicated through some channels. Channels are implied as
 physical bridges" or the media of communication between the sender and the receiver.
@@ -264,10 +241,8 @@ transmitting messages.
 @ barriers of communication. [DU-17M, SUST-18M]
 fate the barriers of communication with example. [DU-15J,14J,13J, RU-17M,12Ju, 10Ju,
 T-18N, 1 Su, 14J,12J]
-</details>
 
-<details>
-<summary><b>Q. What are the barriers of communication in health education? [DU-11Ju, SUST-13J,11J,10Ju]<br>Q. Write short note on: Barriers of communication in health education. [SUST-15J]<br>Q. Write short note on: Communication barrier in a class session. [CU-18N,17M, 16M/J,15J,14Ju]</b></summary>
+### Q. What are the barriers of communication in health education? [DU-11Ju, SUST-13J,11J,10Ju]<br>Q. Write short note on: Barriers of communication in health education. [SUST-15J]<br>Q. Write short note on: Communication barrier in a class session. [CU-18N,17M, 16M/J,15J,14Ju]
 
 **Barriers of communication:** The barriers should be identified and removed for achieving effective
 communication. These can be-
@@ -279,10 +254,8 @@ difficulties.
 economic & social class differences, language variations, cultural difficulties between foreigners
 and nationals, between urban education & the rural population.
 [Ref- Park /24" / 893]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **+ Levels of communication:** Ruesch and Bateson (1968) presented a classical model of levels of
 communication. This model consists of:
@@ -294,17 +267,13 @@ Level IV- Cultural or mass communication.
 Health communication (HC): The term ‘Health communication’ is often used synonymously with
 health education, which itself suggests- ‘outward and downward’ communication of knowledge.
 [Ref- Park / 24" / 893]
-</details>
 
-<details>
-<summary><b>Q. Suppose, you have been posted in a rural health center as a medical officer. What barriers of</b></summary>
+### Q. Suppose, you have been posted in a rural health center as a medical officer. What barriers of
 
 -communication you may face these? [RU-18M]
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. “Face book” is a good way of social communication - Comment about it. [RU-10Ju]</b></summary>
+### Q. “Face book” is a good way of social communication - Comment about it. [RU-10Ju]
 
 **Face book is a good way of social communication:**
 ication method among people. By this face
@@ -321,32 +290,24 @@ Communications done through face book:
 6) Sharing of audio.
 7) Creation of social groups.
 8) Advertisements.
-</details>
 
-<details>
-<summary><b>Q. To teach a group of illiterate village woman about vitamin enriched food which type of</b></summary>
+### Q. To teach a group of illiterate village woman about vitamin enriched food which type of
 
 communication method and materials you suggest?
 Seminar.
-</details>
 
-<details>
-<summary><b>Q. You want to improve the proficiency, ability or understanding of your junior teacher. What</b></summary>
+### Q. You want to improve the proficiency, ability or understanding of your junior teacher. What
 
 communication method would you want to arrange? ’
 Workshop.
-</details>
 
-<details>
-<summary><b>Q. A group of doctors together for the purpose of studying a subject under the leadership of an</b></summary>
+### Q. A group of doctors together for the purpose of studying a subject under the leadership of an
 
 expert. Which type of communication method is it?
 Workshop.
 — SERENA 1 =
-</details>
 
-<details>
-<summary><b>Viva Q. Mention the communication skills.</b></summary>
+### Viva Q. Mention the communication skills.
 
 **Communication skills:**
 1) Speaking.
@@ -356,10 +317,8 @@ Workshop.
 5) Reasoning.
 [Ref- Park /24"/ 891)
 Health Education
-</details>
 
-<details>
-<summary><b>Q. Define health education? [RU-17N, SUST-18N/M,17N,16N, 13J,10Ju]</b></summary>
+### Q. Define health education? [RU-17N, SUST-18N/M,17N,16N, 13J,10Ju]
 
 **Health education:**
 The definition adapted by the national conference on preventive medicine in USA, is ‘health education
@@ -371,10 +330,8 @@ The dynamic definition of health education by Alma- Ata Declaration is as follow
 a process aimed at encouraging people to want to be healthy, to know how to stay healthy, to do what they can
 individually and collectively to maintain health and to seek help when needed".
 [Ref- Park / 24" / 894]
-</details>
 
-<details>
-<summary><b>Q. Write down the changing concept of health education.</b></summary>
+### Q. Write down the changing concept of health education.
 
 **Changing concept of health education:** Historically health education has been committed to disseminating
 information and changing human behaviour. Following Alma -At declaration the changing concepts are —
@@ -384,10 +341,8 @@ individual lives.
 - Community participation and community involvement.
 - Promotion of individual and community "self-reliance".
 [Ref- Park /24"/895]
-</details>
 
-<details>
-<summary><b>Q. What are the aims and objectives of health education? [CU-10Ju]<br>Q. Highlight the objectives of health education. [SUST-18N,17N]</b></summary>
+### Q. What are the aims and objectives of health education? [CU-10Ju]<br>Q. Highlight the objectives of health education. [SUST-18N,17N]
 
 **Aims and objectives of health education:**
 1) To encourage people to adopt and sustain health promoting life style and practice.
@@ -419,10 +374,8 @@ which can be solved only through health education.”
 involvement in the planning and delivery of health services based on principal of primary health
 care.
 [Ref- Park / 24" / 895]
-</details>
 
-<details>
-<summary><b>Q. What are the stages of health education?<br>Q. Write down the stages of adoption of new idea or practice. [DU-18M, 16J,12Ju]<br>Q. Discuss stages of health education to adopt a new ideas.</b></summary>
+### Q. What are the stages of health education?<br>Q. Write down the stages of adoption of new idea or practice. [DU-18M, 16J,12Ju]<br>Q. Discuss stages of health education to adopt a new ideas.
 
 **Stages in health education:**
 1) Awareness: At this stage, the person comes to know about the new idea or practice.
@@ -432,10 +385,8 @@ usefulness to him or to his family by mental exercise and reach a decision.
 4) Trial: At this stage, the positive decision is put into practice.
 5) Adoption: At this stage, the person decides that new practice is good and adopts it.
 [Ref- Park / 24" / 896]
-</details>
 
-<details>
-<summary><b>Q. sale eae ducation can promote public health? [DU-16N]<br>Q. Mefitionshe components of health education. [RU-17N]</b></summary>
+### Q. sale eae ducation can promote public health? [DU-16N]<br>Q. Mefitionshe components of health education. [RU-17N]
 
 oan re the contents of health education? [SUST-16M]
 nsw.
@@ -471,10 +422,8 @@ Use of health services: To inform the public about the health services that are 
 community and how to use them.
 2
 [Ref- Park / 24" / 897)
-</details>
 
-<details>
-<summary><b>Q. Differentiate health education and propaganda. [RU-15Ju]</b></summary>
+### Q. Differentiate health education and propaganda. [RU-15Ju]
 
 Differences between health education & propaganda;
 f pe Fes Health education :
@@ -493,10 +442,8 @@ expression. behaviours according to the mould used.
 8) The process is behaviour centred aims at developing | 8) The process is information centred - no change of
 favourable attitudes and habits & skills. attitude or behaviour designed.
 [Ref- Park / 24" /896]
-</details>
 
-<details>
-<summary><b>Q. Plan a health education session for primary school students on “personal hygiene”. [SUST-</b></summary>
+### Q. Plan a health education session for primary school students on “personal hygiene”. [SUST-
 
 13J}
 A health education session for primary school students on ‘personal hygiene’:
@@ -524,10 +471,8 @@ Scuss the principles [DU-11J] / 10 principles [DU-16M] /5 principles [SUST-18M] 
 education.
 ist the principles of health education. [DU-15Ju, SUST-16N, CU-13J]
 articipation is a key word in health education”- explain it. [RU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Discuss any two of them. [SUST-16N]</b></summary>
+### Q. Discuss any two of them. [SUST-16N]
 
 **Erinciples of health education:** It is possible to abstract certain principles of learning & use them in health
 education.
@@ -561,16 +506,12 @@ local leaders - the village headman, the school- teacher or the political worker
 3
 4
 S
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Health education. [CU-15J]</b></summary>
+### Q. Write short note on: Health education. [CU-15J]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. In health education, we must proceed “from known to unknown”, justify it in line with the</b></summary>
+### Q. In health education, we must proceed “from known to unknown”, justify it in line with the
 
 principles of health education. [RU-13Ju]
 In health education, we must proceed “from known to unknown”:
@@ -584,10 +525,8 @@ understanding which can give rise to an insight into the problem.
 The way in which medicine has developed from religion to modern medicine serves us as an
 illustration, the growth of knowledge from the unknown to the known.
 [Ref- Park /24" / 899
-</details>
 
-<details>
-<summary><b>Q. How leadership helps in community health education?</b></summary>
+### Q. How leadership helps in community health education?
 
 Leadership helps in community health education by the following ways —
 1. A good leader is technically competent. So, lie knows best what to do in community health education,
@@ -597,10 +536,8 @@ best.
 health education.
 4. He gives credit to his workers. So, they are encouraged enough to participate in community health
 education.
-</details>
 
-<details>
-<summary><b>Q. Define motivation. [DU-16J, CU-16N/J, RU-17M, 16J]<br>Q. Classify motivation with example. [RU-17M,16J]<br>Q. ‘Motivation is important in health profession’-justify. [CU-16N]<br>Q. Write short note on: Motivation [RU-15Ju]</b></summary>
+### Q. Define motivation. [DU-16J, CU-16N/J, RU-17M, 16J]<br>Q. Classify motivation with example. [RU-17M,16J]<br>Q. ‘Motivation is important in health profession’-justify. [CU-16N]<br>Q. Write short note on: Motivation [RU-15Ju]
 
 **Motivation:**
 Motivation is an intra-psychic instinct, desire or force of attitude or behavioural change. In every
@@ -625,10 +562,8 @@ Example:
 Cvs disease or it might reduce her life span, may have little effect, but to tell her that by reducing her weight
 she might look more charming and beautiful, she might accept health advice.
 [Ref- Park / 24" / 899 + Rashid, Khabir, Hyder / 4/511]
-</details>
 
-<details>
-<summary><b>Q. Illustrate with example-“Soil, seed and shower.”<br>Q. Write short note on: Soil, seed & shower. [CU-17N, 16N]</b></summary>
+### Q. Illustrate with example-“Soil, seed and shower.”<br>Q. Write short note on: Soil, seed & shower. [CU-17N, 16N]
 
 **Soil, seed and shower:**
 » The people are the soil, the health facts are the seed and the transmitting media the shower.
@@ -636,16 +571,12 @@ she might look more charming and beautiful, she might accept health advice.
 successful health education. The seed or the health facts must be truthful and based on scientific
 knowledge. The transmitting media must be attractive, palatable and acceptable. Unless these 3
 elements are carefully & satisfactorily interrelated the message will not have the desired effect.
-</details>
 
-<details>
-<summary><b>Q. Discuss the different methods [DU-15J, RU-18M,16J, SUST-16J,14J] & media [RU-18M,</b></summary>
+### Q. Discuss the different methods [DU-15J, RU-18M,16J, SUST-16J,14J] & media [RU-18M,
 
 SUST-16J] of health communication.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the media used in health education. [DU-16N]<br>Q. Classify educational materials (media) with examples. (RU-15Ju]<br>Q. Write short note on: Health communication. [RU-17M]</b></summary>
+### Q. Enumerate the media used in health education. [DU-16N]<br>Q. Classify educational materials (media) with examples. (RU-15Ju]<br>Q. Write short note on: Health communication. [RU-17M]
 
 **Health communication:**
 Health Communication
@@ -693,10 +624,8 @@ Note:
 - Flayer, folder, leaflets, booklets, magazines, newspapers are also visual media but they are used mainly
 as mass media.
 [Ref- Rashid, Khabir, Hyder / 5 / 539]
-</details>
 
-<details>
-<summary><b>Q. Classify audio-visual aids (media) used in health education. [DU-14J, RU-11Ju]<br>Q. What are the advantages / importance [DU-14J] of audio-visual aids?<br>Q. Write short note on: Audio-visual aids. [RU-17N]</b></summary>
+### Q. Classify audio-visual aids (media) used in health education. [DU-14J, RU-11Ju]<br>Q. What are the advantages / importance [DU-14J] of audio-visual aids?<br>Q. Write short note on: Audio-visual aids. [RU-17N]
 
 Classification of audio-visual aids (media) used in health education:
 (1) Auditory aids: Radio, Tape recorders, Microphones, Amplifiers, Earphones.
@@ -716,10 +645,8 @@ of students. ,
 6) They contribute to growth of meaning and hence vocabulary development.
 7) They provide experiences not easily obtained through other materials and contribute to the
 efficiency, depth & variety of learning.
-</details>
 
-<details>
-<summary><b>Q. What is mass media?<br>Q. What are the advantages mass media?<br>Q. Write short note on: Mass media. [SUST-13J]</b></summary>
+### Q. What is mass media?<br>Q. What are the advantages mass media?<br>Q. Write short note on: Mass media. [SUST-13J]
 
 **Mass media:**
 The media which are used to cover huge population are known as mass media,
@@ -736,10 +663,8 @@ To help to create a political will in favour of health by appealing to the polic
 dialogue between the community and health care providers and by conveying the feed -back to
 decision makers.
 [Ref- Rashid, Khabir, Hyder / 5" / 539]
-</details>
 
-<details>
-<summary><b>Q. State the advantages and disadvantages of mass media.</b></summary>
+### Q. State the advantages and disadvantages of mass media.
 
 **Advantages of mass media:**
 1) Mass media have the advantages of reaching a relatively larger population in a shorter time than is
@@ -755,20 +680,16 @@ periphery; feedback mechanisms are poorly organized.
 g established modes of behavior.
 2) Being impersonal media, they are usually not effective in changin,
 [Ref- Park /24" /903 + Rashid, Khabir, Hyder /5"/ 539]
-</details>
 
-<details>
-<summary><b>Viva Q. Why TV is not an effective communication media?</b></summary>
+### Viva Q. Why TV is not an effective communication media?
 
 TV is not an effective communication media, because-
 hing, It cannot cover all areas of learning.
 1) TV isa one-way channel. It can only be an aid to teac
 2) Moreover, TV is not available to all.
 [Ref- Park / 24" / 903 + Rashid, Khabir, Hyder /5"/539]
-</details>
 
-<details>
-<summary><b>📌 Viva — @ A rundown of assets of mass media and personal communication</b></summary>
+### 📌 Viva — @ A rundown of assets of mass media and personal communication
 
 @ A rundown of assets of mass media and personal communication:
 Mass media (TV, radio, newspaper) Personal communication (interpersonal & group methods,
@@ -782,10 +703,8 @@ month. for these changes.
 4. More effective among those with above 4. More influential with average and below average
 average educational level. educational level.
 [Ref- Park /24"/901]
-</details>
 
-<details>
-<summary><b>Q. Write about ‘health education planning’.</b></summary>
+### Q. Write about ‘health education planning’.
 
 **Health education planning:**
 - the community.
@@ -803,27 +722,21 @@ average educational level. educational level.
 9) Monitoring and evaluating the degree to which stated objectives have been achieved.
 10) Reassessment of the process of planning.
 [Ref- Park / 24" / 904)
-</details>
 
-<details>
-<summary><b>Q. A lady health worker was counselling a group of illiterate people about contraceptive</b></summary>
+### Q. A lady health worker was counselling a group of illiterate people about contraceptive
 
 methods in a rural setting. What communication media she may use to make the program
 successful? [RU-18N]
-</details>
 
-<details>
-<summary><b>Q. Illustrate how you can conduct a health education session on drug abuse in a slum area of</b></summary>
+### Q. Illustrate how you can conduct a health education session on drug abuse in a slum area of
 
 Chittagong. [CU-18M]
 Please write from above discussion.
 MEQ
 e) Devoid of feedback.
 Ans, a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Principles of health education: [DU-17M, 13J]</b></summary>
+### Q. Principles of health education: [DU-17M, 13J]
 
 a) Education.
 b) Information.
@@ -831,10 +744,8 @@ c) Credibility.
 d) Comprehension.
 e) Persuation.
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Mass approach of health communication</b></summary>
+### Q. Mass approach of health communication
 
 **includes:** [DU-14Ju]
 a) Poster.
@@ -843,10 +754,8 @@ c) Panel discussion.
 d) Journal.
 e) Museum & exhibition.
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Secondary motives are: [DU-16J]</b></summary>
+### Q. Secondary motives are: [DU-16J]
 
 a) Sleep desire.
 b) Punishment.
@@ -859,10 +768,8 @@ d) folk media
 e) radio
 Ans. a) T, b) T, c) F, d) F, e) T.
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. The stages in the process of change in</b></summary>
+### Q. The stages in the process of change in
 
 **behaviour are:** [DU-15J]
 a) Awareness
@@ -871,10 +778,8 @@ c) Motivation Q. Features of health education: [DU-13Ju]
 d) Action
 e) Feedback
 Ans, a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Mass media: [DU-15J]</b></summary>
+### Q. Mass media: [DU-15J]
 
 a) Are one way communication.
 b) Influence behaviour effectively.
@@ -887,10 +792,8 @@ d) develop personality
 e) the process is behaviour centered
 Ans. a) T, b) T, c) F, d) F, e) T.
 ommunication for health educathgn SI
-</details>
 
-<details>
-<summary><b>Q. Mass approach i .</b></summary>
+### Q. Mass approach i .
 
 adades [DU- communication
 a) poster
@@ -899,10 +802,8 @@ c) lecture
 d) conference
 e) role play
 Ans. a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. one of health education include: [DU-</b></summary>
+### Q. one of health education include: [DU-
 
 a) lecture (T)
 b) demonstration (T)
@@ -910,10 +811,8 @@ c) radio (T)
 d) poster (T)
 e) television (T)
 Ans. a) T, b) T, c) T, d) T, e)T.
-</details>
 
-<details>
-<summary><b>Q. wo of communication are:</b></summary>
+### Q. wo of communication are:
 
 a) religion
 b) attitude
@@ -921,10 +820,8 @@ c) neurosis
 d) level of intelligence
 e) class difference
 Ans. a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. The functions of health education are: [DU-12J]</b></summary>
+### Q. The functions of health education are: [DU-12J]
 
 a) awareness
 b) interest
@@ -932,10 +829,8 @@ c) evaluation
 d) education
 e) motivation
 Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Environmental barriers of communication</b></summary>
+### Q. Environmental barriers of communication
 
 **are:** [DU-12J]
 a) expression
@@ -944,10 +839,8 @@ c) congestion
 d) invisibility
 e) language difficulties
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Communication barriers are: [DU-11J]</b></summary>
+### Q. Communication barriers are: [DU-11J]
 
 a) Difficulty in hearing.
 b) Invisibility.
@@ -955,10 +848,8 @@ c) Social mobility.
 d) Emotion.
 e) Population movement.
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Functions of health communication: [DU- 11J]</b></summary>
+### Q. Functions of health communication: [DU- 11J]
 
 a) Organization
 b) Reinforcement
@@ -966,10 +857,8 @@ c) Comprehension
 d) Learning by doing
 e) Raising moral
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. A counselor should be able to: [DU-10Ju]</b></summary>
+### Q. A counselor should be able to: [DU-10Ju]
 
 a. Communicate information
 b. Listen sympathetically to all people
@@ -986,10 +875,8 @@ Intelligence, Mental age & IQ
 Defense mechanism...
 Leadership...
 Medical sociology & behaviour
-</details>
 
-<details>
-<summary><b>Q. Define medical sociology. Mention the components.</b></summary>
+### Q. Define medical sociology. Mention the components.
 
 **Medical sociology:** —
 It is defined as professional endeavor devoted to social epidemiology, the study of cultural factors and
@@ -1001,10 +888,8 @@ Components of medical sociology:
 3) Studies of the social factors in the aetiology, prevalence,
 [Ref- Rashid, Khabir, Hyder / 5" / 468 + Park / 24" / 707]
 incidence and interpretation of disease.
-</details>
 
-<details>
-<summary><b>Q. What is social science and behavioural science?<br>Q. What are the components of behavioural science?</b></summary>
+### Q. What is social science and behavioural science?<br>Q. What are the components of behavioural science?
 
 **Social science:** =
 The term ‘social science’ is applied to those disciplines which are committed to the scientific
@@ -1016,10 +901,8 @@ Behavioural science:
 It is the scientific study of psychology, anthropology and sociology which is concerned with and deals
 with human behaviour. It is the part of the social science.
 [Ref- Park /24"/707]
-</details>
 
-<details>
-<summary><b>Q. What is psychology?</b></summary>
+### Q. What is psychology?
 
 **Psychology:** Psychology is defined as "the study of human behaviour of how people behave and why they have
 in just the way they do”.
@@ -1028,20 +911,16 @@ Importance:
 1. To know others better.
 2. To differentiate between the normal and abnormal
 3. To help promote mental health in individuals and families.
-</details>
 
-<details>
-<summary><b>Q. What is social psychology?</b></summary>
+### Q. What is social psychology?
 
 **Social psychology:**
 ; Social psychology is concerned with the psychology of the individuals living in human society. So
 social psychology deals with how the people behave and why the behave so and how they will behave under
 altered circumstances,
 [Ref- Park /24"/707]
-</details>
 
-<details>
-<summary><b>Q. Define behaviour. [SUST-16N, CU-15,12J]<br>Q. Classify behaviour, [DU-15J, SUST-16N]<br>Q. What are the types of behavior with illustration? [DU-16M]<br>Q. What are compliance behaviour and avoidance behaviour?</b></summary>
+### Q. Define behaviour. [SUST-16N, CU-15,12J]<br>Q. Classify behaviour, [DU-15J, SUST-16N]<br>Q. What are the types of behavior with illustration? [DU-16M]<br>Q. What are compliance behaviour and avoidance behaviour?
 
 **Behaviour:**
 Human behaviour is the result of physical and mental factors (body & mind) interacting in complicated
@@ -1064,10 +943,8 @@ see whether the symptoms persist or worsen after detecting a symptom and if the 
 affected person will seek help before seeking medical help.
 3. Treatment behavior: It refers to those activities used to cure diseases and restore health.
 [Ref- Park /24"/711 + Rashid, Khabir, Hyder / 5"/ 471]
-</details>
 
-<details>
-<summary><b>Q. How behaviour can be considered as a cause of disease?<br>Q. How behaviour influences on human health?</b></summary>
+### Q. How behaviour can be considered as a cause of disease?<br>Q. How behaviour influences on human health?
 
 **Behavior as cause of disease:**
 The main causes of death in developed countries are no longer infectious diseases caused by specific
@@ -1080,10 +957,8 @@ Another behavior factor in disease prevalence is the psychological make-up of th
 practice there is an interplay between internal conflicts and external stresses which affect the coping and
 defensive adaptations of individuals and so after their vulnerability to organic disease.
 [Ref- Rashid, Khabir, Hyder / 5" / 470]
-</details>
 
-<details>
-<summary><b>Q. What are the determinants of behavior? [SUST-16N]<br>Q. What are the causes of behaviour?</b></summary>
+### Q. What are the determinants of behavior? [SUST-16N]<br>Q. What are the causes of behaviour?
 
 **Causes / determinants of behaviour:**
 1) Environmental stimuli.
@@ -1092,5 +967,4 @@ defensive adaptations of individuals and so after their vulnerability to organic
 4) Motivation.
 5) Intellectual perception.
 [Ref- Park /24"/711]
-</details>
 

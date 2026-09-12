@@ -4,8 +4,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify the diseases of Kidney. Name the cystic kidney diseases.</b></summary>
+### Q1. Classify the diseases of Kidney. Name the cystic kidney diseases.
 
 ### Classification of diseases of kidney
 
@@ -37,10 +36,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Mention the developmental anomalies of kidney. Classify Glomerular diseases.</b></summary>
+### Q2. Mention the developmental anomalies of kidney. Classify Glomerular diseases.
 
 ### Developmental anomalies of kidney
 
@@ -71,10 +68,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are the clinical manifestations of renal disease? Why anaemia occurs in CKD patient?</b></summary>
+### Q3. What are the clinical manifestations of renal disease? Why anaemia occurs in CKD patient?
 
 ### Clinical manifestations of renal disease
 
@@ -105,10 +100,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What is azotemia and uremia?</b></summary>
+### Q4. What is azotemia and uremia?
 
 ### Definitions
 
@@ -137,10 +130,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. What are the different mechanisms involved in glomerular injury?</b></summary>
+### Q5. What are the different mechanisms involved in glomerular injury?
 
 ### Immunologic mechanisms (principal)
 
@@ -180,10 +171,8 @@ PDGF/TGF-β → ECM accumulation → glomerulosclerosis + tubulointerstitial fib
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Name the primary glomerular diseases. What is the role of immunofluorescence microscopy in diagnosis of glomerular diseases?</b></summary>
+### Q6. Name the primary glomerular diseases. What is the role of immunofluorescence microscopy in diagnosis of glomerular diseases?
 
 ### Primary (idiopathic) glomerular diseases
 
@@ -221,10 +210,8 @@ PDGF/TGF-β → ECM accumulation → glomerulosclerosis + tubulointerstitial fib
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Name the Glomerular syndromes with their manifestations.</b></summary>
+### Q7. Name the Glomerular syndromes with their manifestations.
 
 | Syndrome | Manifestations |
 |---|---|
@@ -240,10 +227,8 @@ PDGF/TGF-β → ECM accumulation → glomerulosclerosis + tubulointerstitial fib
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Define nephritic syndrome. Mention the common causes of nephritic syndrome.</b></summary>
+### Q8. Define nephritic syndrome. Mention the common causes of nephritic syndrome.
 
 ### Definition
 
@@ -266,10 +251,8 @@ PDGF/TGF-β → ECM accumulation → glomerulosclerosis + tubulointerstitial fib
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Clinical Presentation of AGN & Nephrotic syndrome.</b></summary>
+### Q9. Clinical Presentation of AGN & Nephrotic syndrome.
 
 | Feature | **Acute glomerulonephritis (AGN)** | **Nephrotic syndrome (NS)** |
 |---|---|---|
@@ -288,10 +271,8 @@ PDGF/TGF-β → ECM accumulation → glomerulosclerosis + tubulointerstitial fib
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Mention the pathogenesis of acute glomerulonephritis / Post Streptococcal GN.</b></summary>
+### Q10. Mention the pathogenesis of acute glomerulonephritis / Post Streptococcal GN.
 
 ### Pathogenesis of post-streptococcal (post-infectious) GN
 
@@ -329,10 +310,8 @@ Salt & water retention → periorbital edema + hypertension
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Give the urinary findings of Nephritic & Nephrotic syndrome.</b></summary>
+### Q11. Give the urinary findings of Nephritic & Nephrotic syndrome.
 
 | Urinary finding | **Nephritic syndrome** | **Nephrotic syndrome** |
 |---|---|---|
@@ -350,10 +329,8 @@ Salt & water retention → periorbital edema + hypertension
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Give the morphology of AGN. Mention the fates and complications of AGN.</b></summary>
+### Q12. Give the morphology of AGN. Mention the fates and complications of AGN.
 
 ### Morphology of acute (post-streptococcal) GN
 
@@ -385,10 +362,8 @@ Salt & water retention → periorbital edema + hypertension
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Define Nephrotic Syndrome. List the Causes of Nephrotic Syndrome.</b></summary>
+### Q13. Define Nephrotic Syndrome. List the Causes of Nephrotic Syndrome.
 
 ### Definition
 
@@ -439,10 +414,8 @@ loss of Ig → infections; loss of antithrombin III → thromboembolism
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Short Note: Minimal Change disease, RPGN (crescentic glomerulonephritis), IgA nephropathy, Lupus nephritis, Diabetic nephropathy. (separate mini-sections)</b></summary>
+### Q14. Short Note: Minimal Change disease, RPGN (crescentic glomerulonephritis), IgA nephropathy, Lupus nephritis, Diabetic nephropathy. (separate mini-sections)
 
 ### (a) Minimal change disease (MCD — lipoid nephrosis)
 
@@ -496,10 +469,8 @@ loss of Ig → infections; loss of antithrombin III → thromboembolism
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Define AKI. List the Causes of AKI. Give the short pathogenesis of AKI in renal ischemia.</b></summary>
+### Q15. Define AKI. List the Causes of AKI. Give the short pathogenesis of AKI in renal ischemia.
 
 ### Definition
 
@@ -541,10 +512,8 @@ OLIGURIA + AZOTEMIA  →  (repair: tubular regeneration by surviving cells → r
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Define Oliguria, anuria, glycosuria, proteinuria and hematuria.</b></summary>
+### Q16. Define Oliguria, anuria, glycosuria, proteinuria and hematuria.
 
 | Term | Definition |
 |---|---|
@@ -560,10 +529,8 @@ OLIGURIA + AZOTEMIA  →  (repair: tubular regeneration by surviving cells → r
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Define CKD. Enumerate the cause of CKD. What are the stages of CKD?</b></summary>
+### Q17. Define CKD. Enumerate the cause of CKD. What are the stages of CKD?
 
 ### Definition
 
@@ -599,10 +566,8 @@ OLIGURIA + AZOTEMIA  →  (repair: tubular regeneration by surviving cells → r
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What are the common causes of chronic glomerulonephritis. How diabetes causes chronic kidney disease?</b></summary>
+### Q18. What are the common causes of chronic glomerulonephritis. How diabetes causes chronic kidney disease?
 
 ### Common causes of chronic glomerulonephritis
 
@@ -638,10 +603,8 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. What is proteinuria? Mention its cause.</b></summary>
+### Q19. What is proteinuria? Mention its cause.
 
 ### Definition
 
@@ -663,10 +626,8 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. Name some cystic disease of Kidney.</b></summary>
+### Q20. Name some cystic disease of Kidney.
 
 1. **Autosomal dominant polycystic kidney disease (ADPKD)** — PKD1/PKD2; adults; liver cysts + berry aneurysms
 2. **Autosomal recessive polycystic kidney disease (ARPKD)** — PKHD1/fibrocystin; children; congenital hepatic fibrosis
@@ -682,10 +643,8 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. What do you mean by non selective, selective, highly selective, orthostatic proteinuria? Enumerate urinary findings of Nephrotic Syndrome.</b></summary>
+### Q21. What do you mean by non selective, selective, highly selective, orthostatic proteinuria? Enumerate urinary findings of Nephrotic Syndrome.
 
 ### Selectivity of proteinuria
 
@@ -711,10 +670,8 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. What do you mean by massive proteinuria? Tell some cause of massive proteinuria.</b></summary>
+### Q22. What do you mean by massive proteinuria? Tell some cause of massive proteinuria.
 
 ### Definition
 
@@ -736,10 +693,8 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. A 4 year old boy presents with severe proteinuria, hypoalbuminemia, generalized edema & Hyperlipidemia. The patient improves on an empiric trial of corticosteroids with complete resolution of proteinuria. Which is most likely Diagnosis? Mention the diagnostic modalities of primary glomerular disease.</b></summary>
+### Q23. A 4 year old boy presents with severe proteinuria, hypoalbuminemia, generalized edema & Hyperlipidemia. The patient improves on an empiric trial of corticosteroids with complete resolution of proteinuria. Which is most likely Diagnosis? Mention the diagnostic modalities of primary glomerular disease.
 
 ### Most likely diagnosis
 
@@ -768,4 +723,3 @@ Progressive glomerulosclerosis + tubulointerstitial fibrosis → CHRONIC KIDNEY 
 
 ---
 
-</details>

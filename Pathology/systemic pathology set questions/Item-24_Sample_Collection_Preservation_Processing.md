@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What is tissue accessioning? Why clinical data is important for proper histopathological diagnosis?</b></summary>
+### Q1. What is tissue accessioning? Why clinical data is important for proper histopathological diagnosis?
 
 ### Definition
 **Tissue accessioning = the formal process of RECEIVING, REGISTERING and TRACKING a specimen when it arrives at the pathology laboratory.** Each specimen is given a **unique accession number**, its details (patient identity, specimen type, site, clinical history, requesting clinician) are entered into the laboratory record, and it is then routed for grossing, processing and reporting. It is the **first and essential step of laboratory governance** — every subsequent slide and report is linked to the accession number, which also enables retrieval of blocks/slides and audit.
@@ -30,10 +29,8 @@ Specimen arrives → cross-check container label vs requisition → assign UNIQU
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Name the fixatives used in histopathology. Which one is most commonly used and how it works?</b></summary>
+### Q2. Name the fixatives used in histopathology. Which one is most commonly used and how it works?
 
 ### Fixatives used in histopathology
 | Fixative | Use |
@@ -63,10 +60,8 @@ Specimen arrives → cross-check container label vs requisition → assign UNIQU
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What entities should be included within a requisition along with a biopsy specimen?</b></summary>
+### Q3. What entities should be included within a requisition along with a biopsy specimen?
 
 A properly completed **requisition (request form) must accompany every biopsy specimen** and should include:
 
@@ -87,10 +82,8 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the different types of fixatives. What are the aims of fixatives?</b></summary>
+### Q4. Mention the different types of fixatives. What are the aims of fixatives?
 
 ### Types (classification) of fixatives
 **By composition:**
@@ -121,10 +114,8 @@ A properly completed **requisition (request form) must accompany every biopsy sp
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Mention the steps of tissue processing. What are the methods of sectioning of tissue?</b></summary>
+### Q5. Mention the steps of tissue processing. What are the methods of sectioning of tissue?
 
 ### Steps of tissue processing (in order)
 ```
@@ -154,10 +145,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?</b></summary>
+### Q6. How biopsy specimens can be transported from peripheral centers to histopathology lab?
 
 ### Principles
 Transport must keep the tissue **adequately fixed** (to stop autolysis), **correctly identified**, **physically protected**, and **traceable** — from a site where specimens are collected (OPD, operation theatre, peripheral hospital) to the histopathology laboratory.
@@ -184,4 +173,3 @@ Transport must keep the tissue **adequately fixed** (to stop autolysis), **corre
 
 ---
 
-</details>

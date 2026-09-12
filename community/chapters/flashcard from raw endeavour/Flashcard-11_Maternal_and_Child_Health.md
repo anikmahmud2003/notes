@@ -20,8 +20,7 @@ Promotion of reproductive health. oe .
 PY Promotion of the physical and psychological development.of the child within the family.
 [Ref- Park / 24/599]
 
-<details>
-<summary><b>Q. What is MCH package care?</b></summary>
+### Q. What is MCH package care?
 
 **MCH - package care:** . ;
 It is package programme for delivering health care to special group i.e. woman in the reproduction age
@@ -40,10 +39,8 @@ A. Child health
 a goes children
 Care of the children in special setting such as day care centres.
 [Ref- Park / 24" /590]
-</details>
 
-<details>
-<summary><b>Q. Mention the new concepts of MCH care. a</b></summary>
+### Q. Mention the new concepts of MCH care. a
 
 \a
 New concepts / recent trends in MCH care:
@@ -64,10 +61,8 @@ dy Prins heat ry workers: Members of women’s organizations.
 Primary health care: MCH care, family planning, control of infections, education about health
 problems and how to prevent them, and measures to ensure nutritious food etc.
 [Ref- Park /24"/591]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: MCH based family planning.</b></summary>
+### Q. Write short note on: MCH based family planning.
 
 he How Bangladesh can achieve MCH based family planning?
 nswer
@@ -90,10 +85,8 @@ background came o. the concept of MCH based family planning.
   - Now most of the family planning services are being delivered from MCH centers where the same
 groups staff are looking after the health of the mother, children and also family planning affairs.
 This is definitely beneficial for the government as well as consumers.
-</details>
 
-<details>
-<summary><b>📌 Viva — } “&gt; Importance MCH service</b></summary>
+### 📌 Viva — } “&gt; Importance MCH service
 
 **} “> Importance MCH service:**
 1) The child bearing mother 22.3% and under five children 15-20% constitute more than 40% of
@@ -103,10 +96,8 @@ total population.
 In Bangladesh MMI 3.0/1000 live birth and IMR = 57/1000 (both sex) live birth.
 4) By improving the health of mothers and children, we can contribute to the health of total
 population or nation.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the indicators of MCH. [RU-18N, 14J]</b></summary>
+### Q. Enumerate the indicators of MCH. [RU-18N, 14J]
 
 **Indicators of MCH care:**
 1) Maternal mortality rate.
@@ -121,10 +112,8 @@ Child survival rate.
 [Ref- Park /24" / 593]
 350 — ENDEAVOL
 /R COMMUNIT
-</details>
 
-<details>
-<summary><b>Q. What should be the criteria for MCH service of a country?</b></summary>
+### Q. What should be the criteria for MCH service of a country?
 
 **Criteria of MCH service of a country:**
 curmive and rehabilitative health care f
@@ -175,10 +164,8 @@ Ay Prenatal period:
   - Birth, full term: Average 2
 80 days.
 [Ref- Park / 24° / 537]
-</details>
 
-<details>
-<summary><b>Q. What are the MCH care services prevailing in Bangladesh?</b></summary>
+### Q. What are the MCH care services prevailing in Bangladesh?
 
 **MCH care services in Bangladesh:**
 1) Antenatal care (ANC),
@@ -196,10 +183,8 @@ nutrition of newborn & pregnant women & family planning practices.
 int women,
 11) MR and post abortion care. _
 12) RTI and STI services.
-</details>
 
-<details>
-<summary><b>Q. Name the MCH problems in Bangladesh. [SUST-16N]<br>Q. How will you prevent MCH problems? [SUST-16N]</b></summary>
+### Q. Name the MCH problems in Bangladesh. [SUST-16N]<br>Q. How will you prevent MCH problems? [SUST-16N]
 
 **MCH problems in Bangladesh (In developing countries):**
 - Malnutrition
@@ -252,10 +237,8 @@ Measures to prevent:
   - Intranatal care
   - atal ce
 Postnatal care [Ref- Park /24" / 557, 558]
-</details>
 
-<details>
-<summary><b>📌 Viva — MCH problems in developed country</b></summary>
+### 📌 Viva — MCH problems in developed country
 
 - MCH problems in developed country:
 [Ref- Park /24"/ 557]
@@ -268,10 +251,8 @@ Accidents & poisoning.
 & Betavioural eoblams;
 Antenatal care (ANG), |
 ee
-</details>
 
-<details>
-<summary><b>Q. Define antenatal period. [CU-1 1 Ju]<br>Q. Define antenatal care. [CU-12Ju, SUST-18M,12Ju, 1 [Ju]</b></summary>
+### Q. Define antenatal period. [CU-1 1 Ju]<br>Q. Define antenatal care. [CU-12Ju, SUST-18M,12Ju, 1 [Ju]
 
 **+ Antenatal period:** Antenatal period is the period from fertilization of ovum to the delivery of the fetus.
 natal care: Antenatal care is the care of the woman during pregnancy.
@@ -293,10 +274,8 @@ termination of pregnancy.
 ly planning including advice to cases seeking medical
 [Ref- Park / 24" / 558]
 TTT @_
-</details>
 
-<details>
-<summary><b>Q. What are the importance of antenatal care? [SUST-18M,12Ju, RU-11J]<br>Q. Antenatal care is the key strategy to reduce maternal death — justify it in context of rural</b></summary>
+### Q. What are the importance of antenatal care? [SUST-18M,12Ju, RU-11J]<br>Q. Antenatal care is the key strategy to reduce maternal death — justify it in context of rural
 
 Bangladesh. [RU-14J]
 Importance of antenatal care:
@@ -323,10 +302,8 @@ baby are prevented.
 6) High risk foetus can be identified — fetal malformation, disproportion, pre-term & growth
 retardation, malpresentation, twins, Rh immunization.
 7) Safety of foetus is enhanced, perinatal mortality & morbidity is reduced to minimum.
-</details>
 
-<details>
-<summary><b>Q. Discuss the component / elements of antenatal care.<br>Q. Give the outline of prenatal services of a multi</b></summary>
+### Q. Discuss the component / elements of antenatal care.<br>Q. Give the outline of prenatal services of a multi
 
 para woman aged 40 years. [DU-10Ju]
 Components / elements of antenatal clinic: Six (6) components.
@@ -355,10 +332,8 @@ at other times. Educational and motivational efforts must be initiated during th
 6) Pediatric component: It is suggest that a pediatrician should be in attendance at all antenatal
 clinics to pay attention to the under-fives accompanying the mothers. ,
 : [Ref- Park /24' 1558-564]
-</details>
 
-<details>
-<summary><b>Q. Write ideal number & time for antenatal visits. [DU-17M]<br>Q. Menfi6n the number of antenatal visits with weeks in case of minimum and moderate ANC,</b></summary>
+### Q. Write ideal number & time for antenatal visits. [DU-17M]<br>Q. Menfi6n the number of antenatal visits with weeks in case of minimum and moderate ANC,
 
 (CU-12Ju]
 Give the schedule of minimum antenatal visit. [RU-17N, SUST-17N]
@@ -379,10 +354,8 @@ weeks (1) > 3" visit: 28 - 32 weeks.
 weeks. UN) > 5" visit: 38 weeks to full term.
 Total: 14 visits. Total: 5 visits. Total: 3 visits.
 [Ref- Rashid, Khabir, Hyder / 5" / 166]
-</details>
 
-<details>
-<summary><b>📌 Viva — Schedule of tetanus prophylaxis during antenatal period</b></summary>
+### 📌 Viva — Schedule of tetanus prophylaxis during antenatal period
 
 **Schedule of tetanus prophylaxis during antenatal period:**
   - During the visits all the mothers should be given tetanus toxoid it is given in 2 doses.
@@ -390,20 +363,16 @@ Total: 14 visits. Total: 5 visits. Total: 3 visits.
 abortion. So it is given after 3 months,
   - Sometimes only one dose is given when the woman had taken tetanus within | year previously due
 to any trauma or due to previous pregnancy.
-</details>
 
-<details>
-<summary><b>Q. What are the cardinal features of toxaemia of pregnancy? How can you minimize the risk of</b></summary>
+### Q. What are the cardinal features of toxaemia of pregnancy? How can you minimize the risk of
 
 toxaemia of pregnancy?
 Toxaemia of pregnancy:
 ay to minimize the risk: Efficient antenatal care.
 [Ref- Park / 24" / 562]
 . Define home visit. [DU-16N]
-</details>
 
-<details>
-<summary><b>Q. Home visiting is the backbone of all MCH services — explain. [RU-1|Ju]<br>Q. Why home visit is called the backbone of all MCH services? [CU-10J]</b></summary>
+### Q. Home visiting is the backbone of all MCH services — explain. [RU-1|Ju]<br>Q. Why home visit is called the backbone of all MCH services? [CU-10J]
 
 **Home visit:**
 Home visiting is the backbone of all MCH services. Most visits are required if the delivery is planned at
@@ -412,10 +381,8 @@ provide an opportunity to observe the environmental and social conditions at hom
 give prenatal advice.
 [Ref- Park /24" / 561]
 eee
-</details>
 
-<details>
-<summary><b>Q. Discuss preventive services for mothers.</b></summary>
+### Q. Discuss preventive services for mothers.
 
 **Prevention services for mothers / antenatal checkup:**
 oo meer of the first antenatal visit: Irrespective of when it occurs, the components are-
@@ -448,16 +415,12 @@ Home visiting by a female health worker / trained dai.
 Referral services where necessary.
 [Ref- Park / 24" / 559-561]
 Alth protection measures to be taken during pregnancy? [DU-13Ju]
-</details>
 
-<details>
-<summary><b>Q. What specific</b></summary>
+### Q. What specific
 
 reventive measures of common health problems of pregnant women. [RU-12Ju]
-</details>
 
-<details>
-<summary><b>Q. Mention th</b></summary>
+### Q. Mention th
 
 **regnancy:**
 alth protection measures to be taken durin
@@ -489,10 +452,8 @@ urthe components of first antenatal checkup. [DU-15Ju]
 i in short the activities carried out during 1" antenatal visit. [SUST-17N, CU-13Ju]
 the responsibilities of a doctor on first antenatal visit. [SUST-1I I Ju]
 Vhat are the information to be recorded in the 1" antenatal visit? [CU-17N,10J]
-</details>
 
-<details>
-<summary><b>Q. What are the advices to pregnant mother during first visit? [SUST-| 8M, $3J,11J)<br>Q. What are the prenatal advices to pregnant mother? [RU-1 5Ju, 14Ju,13J,12J,1 Ju]<br>Q. What inVestigations you will advices to a primigravida during her 1“ antenatal visit? [DU-</b></summary>
+### Q. What are the advices to pregnant mother during first visit? [SUST-| 8M, $3J,11J)<br>Q. What are the prenatal advices to pregnant mother? [RU-1 5Ju, 14Ju,13J,12J,1 Ju]<br>Q. What inVestigations you will advices to a primigravida during her 1“ antenatal visit? [DU-
 
 **1*' antenatal visits:**
 - Registration of the pregnant woman
@@ -564,22 +525,16 @@ develops:
 - Bleeding or discharge per vagina and any other unusual symptoms.
 Childcare: The art of childcare has to be learnt.
 [Ref- Rashid, Khabir, Hyder / 4" + Park / 24" / 559-561]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Antenatal care. [SUST-16N, 13Ju]<br>Q. Write short note on: ANC. [CU-17N]</b></summary>
+### Q. Write short note on: Antenatal care. [SUST-16N, 13Ju]<br>Q. Write short note on: ANC. [CU-17N]
 
 Please write from above.
-</details>
 
-<details>
-<summary><b>Q. Nasima, 20 years lady, 3 months pregnant has come to you for check-up. This is her first</b></summary>
+### Q. Nasima, 20 years lady, 3 months pregnant has come to you for check-up. This is her first
 
 pregnancy & first visit. What will you do? [SUST-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Writedown the danger signs [SUST-15J] / warning signs [DU-16M,15J,14J,12Ju, RU-17M,</b></summary>
+### Q. Writedown the danger signs [SUST-15J] / warning signs [DU-16M,15J,14J,12Ju, RU-17M,
 
 16M SUST-14J,13Ju, CU-13Ju] of the pregnancy.
 at are the measures to be taken to alleviate these problems? [RU-17M]
@@ -614,10 +569,8 @@ Serum uric acid level (in selective cases).
 ist the high risk pregnancies. [DU-18N/M]
 numerate the conditions for high risk mothers. [CU-13Ju]
 - How can you identify the high risk mothers? [CU-11J]
-</details>
 
-<details>
-<summary><b>Q. Narrate the role of ANC in high risk mothers. [CU-18N]</b></summary>
+### Q. Narrate the role of ANC in high risk mothers. [CU-18N]
 
 **High-risk pregnancy (high risk mother):**
 High-risk mother is defined as one which is complicated by factor or factors that adversely affect the
@@ -663,10 +616,8 @@ Criteria of high risk babies:
 7) Children with PEM, diarrhoea.
 8) Working mother / one parent.
 [Ref- Park / 24" / 570]
-</details>
 
-<details>
-<summary><b>Viva Q. A 25 years old lady has come to you with history of amenorrhoea for 3 months. She</b></summary>
+### Viva Q. A 25 years old lady has come to you with history of amenorrhoea for 3 months. She
 
 gives history of MR twice in the past. Provide her suggestion for antenatal checkup to ensure
 safe delivery.
@@ -674,10 +625,8 @@ She is a ‘high-risk mother’, so regular antenatal checkup and institutional 
 O.. Define intranatal period & intranatal care,
 + Intranatal period: It is the period from onset of true labour-pain-upto expulsion of placenta
 - Intranatal care: Care of mother and foetus during delivery is called intranatal care (INC).
-</details>
 
-<details>
-<summary><b>Q. Write down the aims of intranatal care. [CU-11Ju]<br>Q. What are the aims of good intranatal care?</b></summary>
+### Q. Write down the aims of intranatal care. [CU-11Ju]<br>Q. What are the aims of good intranatal care?
 
 **Aims of good intranatal care:**
 1) Thorough asepsis.
@@ -686,10 +635,8 @@ O.. Define intranatal period & intranatal care,
 convulsions, malpresentations, prolapse of the cord ete.
 4) Care of the baby at delivery — resuscitation, care of the cord, care of the eyes, etc.
 [Ref- Park / 24" / 564]
-</details>
 
-<details>
-<summary><b>Q. State the principles of intranatal care.</b></summary>
+### Q. State the principles of intranatal care.
 
 **Principles of intranatal care:**
 1) Prevention of infection.
@@ -698,10 +645,8 @@ convulsions, malpresentations, prolapse of the cord ete.
 4) Prevention of trauma.
 5) Prevention of post-partum haemorrhage (PPH).
 a
-</details>
 
-<details>
-<summary><b>Q. State the procedures of intranatal care.<br>Q. Write down the criteria for clean and safe delivery practice. [SUST-14J]</b></summary>
+### Q. State the procedures of intranatal care.<br>Q. Write down the criteria for clean and safe delivery practice. [SUST-14J]
 
 **Procedures of intranatal care:**
 !)
@@ -711,10 +656,8 @@ Clean equipment.
 Skilled birth attendant.
 Readiness to deal complication.
 Specific care for newborn.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Domiciliary midwifery service. .<br>Q. Illustrate the advantages and disadvantages of domiciliary midwifery services. [RU-13Ju]</b></summary>
+### Q. Write short note on: Domiciliary midwifery service. .<br>Q. Illustrate the advantages and disadvantages of domiciliary midwifery services. [RU-13Ju]
 
 **Domiciliary midwifery service:**
 Mothers with normal obstetric history may be advised to have their confinement in their own homes,
@@ -732,10 +675,8 @@ Disadvantages of domiciliary midwifery service:
 2) The mother may have less rest.
 3) She may resume her domestic duties too soon.
 4) Her diet may be neglected.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 - SBA: Skilled birth attendant.
 **A:** Trained birth attendant.
@@ -751,19 +692,15 @@ Post-partum hemorrhage or collapse.
 A temperature of 38°C or over during labour.
 [Ref- Park / 24" /564]
 a
-</details>
 
-<details>
-<summary><b>Q. Who are the target group for institutional delivery?</b></summary>
+### Q. Who are the target group for institutional delivery?
 
 **Target group for institutional delivery:**
 7 Institutional care is recommended for all “high risk” cases (mentioned above), and where home
 conditions are unsuitable.
 [Ref- Park / 24" / 564]
-</details>
 
-<details>
-<summary><b>Q. Why institutional delivery is not preferred in the families till now in Bangladesh? [CU-1 8M]<br>Q. Why people in Bangladesh prefer home-delivery, [CU-15J]</b></summary>
+### Q. Why institutional delivery is not preferred in the families till now in Bangladesh? [CU-1 8M]<br>Q. Why people in Bangladesh prefer home-delivery, [CU-15J]
 
 ; Still now, most of the rural and lower & lower middle class urban Bangladeshi people prefers home
 delivery due to following reasons-
@@ -773,10 +710,8 @@ delivery due to following reasons-
 4) Negligence regarding the health of pregnant woman.
 5) Religious misconception.
 6) Bad road communication from the hospital.
-</details>
 
-<details>
-<summary><b>Q. A pregnant woman visits you with complaints of leg swelling & headache. How will make a</b></summary>
+### Q. A pregnant woman visits you with complaints of leg swelling & headache. How will make a
 
 diagnosis of this case? [SUST-16M]
 Provisional diagnosis: This may be a case of ‘pre-eclampsia’.
@@ -846,10 +781,8 @@ pr Secondary haemorrhage: Bleeding trom vagina any time from 6 hour after delive
 the puerperium (6weeks)is-ealled-secondary_haemorrhage. —
 6 Ohh: Urinary tract infection, mastitis, _
 [Ref- Park / 24" / 565]
-</details>
 
-<details>
-<summary><b>Q. How to prevent common complications in the postpartum period?</b></summary>
+### Q. How to prevent common complications in the postpartum period?
 
 Prevention of common complications in the post-partum eriod: To prevent complications, a scheme of
 thorough & frequent check-up of the mother is necessary, .
@@ -867,18 +800,14 @@ ee iat up a bimanual vaginal examination is done on all mothers to judge the sta
   - Ferment & the state of healing of any vaginal or perineal wound,
 uerperal sepsis can be prevented by attention to asespsis before & after delivery.
 [Ref- Rashid, Khabir, Hyder / 5" / 168]
-</details>
 
-<details>
-<summary><b>Q. How can you educate a mother to prevent puerperal sepsis?</b></summary>
+### Q. How can you educate a mother to prevent puerperal sepsis?
 
 **Education of a mother to prevent puerperal sepsis:**
 Puerperal sepsis can be prevented by attention to asepsis before and after delivery.
 . [Ref- Park /24" / 565]
-</details>
 
-<details>
-<summary><b>Q. What are the advices will you give to mother in postnatal period?</b></summary>
+### Q. What are the advices will you give to mother in postnatal period?
 
 **Advices during post-natal care:**
 1. Rapid restoration of mother to optimum health:
@@ -891,10 +820,8 @@ Family planning service
 health checkup and birth registration
 [es
 [Ref- Park / 24" / 565]
-</details>
 
-<details>
-<summary><b>Q. Discuss the areas for the restoration of mother to optimum health.<br>Q. Illustrate the measures for restoration of mother to optimum health after delivery. [RU-14Ju]</b></summary>
+### Q. Discuss the areas for the restoration of mother to optimum health.<br>Q. Illustrate the measures for restoration of mother to optimum health after delivery. [RU-14Ju]
 
 **Restoration of mother to optimum health:**
 > Physical:
@@ -930,10 +857,8 @@ Social:
 2) Raise the child wholesome family atmosphere.
 3) She, with her husband develop her own methods.
 [Ref- Park / 24" / 565)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Post-natal care. [SUST-16J]</b></summary>
+### Q. Write short note on: Post-natal care. [SUST-16J]
 
 Please write from above.
 : Care of Newborn
@@ -943,17 +868,13 @@ Please write from above.
 2) Pre-school age: | — 4 years.
 3) School age: 5 —14 years.
 [Ref- Park / 24" / 565]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by neonatal period? [SUST-1 IJu]</b></summary>
+### Q. What do you mean by neonatal period? [SUST-1 IJu]
 
 **Neonatal period:** Neonatal period is the 1" 28 days of a newborn after birth.
 El ae
-</details>
 
-<details>
-<summary><b>Q. Ifa Rh-negative mother (husband is Rh-positive) gave birth of a Rh-positive baby. What</b></summary>
+### Q. Ifa Rh-negative mother (husband is Rh-positive) gave birth of a Rh-positive baby. What
 
 measure you should take?
 Measure should be taken:
@@ -962,10 +883,8 @@ Measure should be taken:
 infused over a period of 1.5 or more hours while the
 Approximately 400 ml of Rh (-ve) blood is
 baby’s own Rh (+ve) blood is being removed after a regular interval during first few weeks of life.
-</details>
 
-<details>
-<summary><b>Q. What are the objectives of neonatal care?</b></summary>
+### Q. What are the objectives of neonatal care?
 
 **Objectives of neonatal care:**
 1) Establishment and maintenance of cardiorespiratory functions,
@@ -974,10 +893,8 @@ baby’s own Rh (+ve) blood is being removed after a regular interval during fir
 4) Establishment of satisfactory feeding regimen.
 Early detection and treatment of congenital and acquired disorders, especially infections.
 [Ref- Park /24"/ 567]
-</details>
 
-<details>
-<summary><b>Q. Write in details the components of immediate & late care for a newborn.<br>Q. What are the immediate cares of the newborn? [RU-18M,16M,15J,11Ju]</b></summary>
+### Q. Write in details the components of immediate & late care for a newborn.<br>Q. What are the immediate cares of the newborn? [RU-18M,16M,15J,11Ju]
 
 **Care of the new born:**
 <> Immediate care (just after birth):
@@ -999,10 +916,8 @@ Vz) Regular monitoring of the weight.
 4) Bay should be kept in well - ventilated and warm room.
 Dy Early detection of any complication and treatment if any.
 [Ref- Park / 24" / 567]
-</details>
 
-<details>
-<summary><b>Q. Name some genital tract infections that can be harmful for fetus?<br>Q. How would you manage a baby born of mother having genital tract infection?</b></summary>
+### Q. Name some genital tract infections that can be harmful for fetus?<br>Q. How would you manage a baby born of mother having genital tract infection?
 
 Genital tract infection & management of the infected baby:
 1) Neonatal tetanus: It can be prevented by sero-vaccination of newborns.
@@ -1023,10 +938,8 @@ Activities & muscle tone Flaccid Some flexion of Active movements
 |Respiration |Absent Slow irregular Good crying _
 {Total score = 10 _ __ [Severe depression: 0-3 [Mild depression: 4-7 No depression: 7-10
 [Ref- Rashid, Khabir, Hyder /5"/ 169]
-</details>
 
-<details>
-<summary><b>Q. How APGAR score helps in identification of high risk infant?<br>Q. How will you assess the newborn status within one hour of delivery to immediate referral toa</b></summary>
+### Q. How APGAR score helps in identification of high risk infant?<br>Q. How will you assess the newborn status within one hour of delivery to immediate referral toa
 
 hospital?
 APGAR score: ; ;
@@ -1041,10 +954,8 @@ needs prompt action.
 » Infants with low APGAR scores at 5 minutes of age are subject to a high risk of complications and
 death during the neonatal period.
 [Ref- Park / 24", 567|
-</details>
 
-<details>
-<summary><b>📌 Viva — Congenital infections of neonates</b></summary>
+### 📌 Viva — Congenital infections of neonates
 
 - Congenital infections of neonates:
 1) Toxoplasmosis,
@@ -1055,10 +966,8 @@ death during the neonatal period.
 ) Syphilis.
 efine and classify low birth weight. [RU-15J,14J,13J]
 R What are the public health importances of low birth weight baby? [SUST-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Low birth weight (LBW) babies. [SUST-18N,17N, 13J]</b></summary>
+### Q. Write short note on: Low birth weight (LBW) babies. [SUST-18N,17N, 13J]
 
 ZL
 Low birth weight (LBW) baby: A birth weight of less than 2.5 kg (up to and including 2499 gm).
@@ -1078,10 +987,8 @@ A high percentage of LBW points to deficient health status of pregnant woman ina
 care & the need for improved care of the newborn.
 SEAS BIS)
 [Ref- Park /24" /570]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 - Apart from birth weight, babies can also be classified into 3 groups according to gestational age.
 **1) Pre-term babies:** Babies born before the end of 37 weeks gestation (less than 259 days)
@@ -1134,10 +1041,8 @@ Smoking.
 _Low socio-economic condition.
 Repeated birth.
 JA7 Shorter inter-pregnancy intervals.
-</details>
 
-<details>
-<summary><b>Q. How you can<br>Q. How can you</b></summary>
+### Q. How you can<br>Q. How can you
 
 prevent LBW baby? [SUST-14Ju,12J]
 prevent low birth weight in rural Bangladesh? [RU-14J]
@@ -1173,10 +1078,8 @@ Improvement in the socio-economic and environmental conditions.
 4) Intracranial bleeding, secondary to anoxia or birth trauma.
 5) Pneumonia or other infections.
 [Ref- Park /24"/573)
-</details>
 
-<details>
-<summary><b>📌 Viva — Key elements in child survival programme</b></summary>
+### 📌 Viva — Key elements in child survival programme
 
 - Key elements in child survival programme:
 The UNICEF has put forward a set of 7 strategies for child health ‘revolution’ popularly known
@@ -1214,10 +1117,8 @@ infants.
 breast feeding.
 [Ref- Park /24"/ 575]
 OD DUaeneweeee .
-</details>
 
-<details>
-<summary><b>Q. Define growth & development.<br>Q. Write short note on: Growth & development. [CU-13Ju]</b></summary>
+### Q. Define growth & development.<br>Q. Write short note on: Growth & development. [CU-13Ju]
 
 **Growth & development:**
 . A phenomenon peculiar to the pediatric age group is growth and development. The term ‘growth’ refers
@@ -1235,16 +1136,12 @@ Growth: It implies increase in the size or mass of tissue (quantity).
 Development: It is defined as maturation of function (Quality). It depends on maturation &
 myelination of the nervous system and denotes acquisition of variety of competence for optimal
 functioning of the individual.
-</details>
 
-<details>
-<summary><b>&</b></summary>
+### &
 
 [Ref- Park /24" / 576]
-</details>
 
-<details>
-<summary><b>Q. State the factors influencing growth & development. [DU-16M]</b></summary>
+### Q. State the factors influencing growth & development. [DU-16M]
 
 anoy down the factors influencing growth and development.
 e
@@ -1276,10 +1173,8 @@ living of the people.
 lighting and ventilation have their effects on growth
 parent relationship do affect the social,
 [Ref- Park / 24" / 576]
-</details>
 
-<details>
-<summary><b>Q. Discuss the concepts and objectives of under-S clinic.</b></summary>
+### Q. Discuss the concepts and objectives of under-S clinic.
 
 **Under 5 clinic:**
 Under-fives clinic combines the concepts of prevention, treatment,
@@ -1303,16 +1198,12 @@ d) Oral rehydration
 e) Family planning
 f) Health education
 3. Growth monitoring.
-</details>
 
-<details>
-<summary><b>Q. What are the components and reference curves of growth chart? [CU-10J]<br>Q. What does indicate the growth chart of a child? [DU-11J]<br>Q. Describe in brief how weight of under 5 children is monitored by road to health chart. [RU- 13J]</b></summary>
+### Q. What are the components and reference curves of growth chart? [CU-10J]<br>Q. What does indicate the growth chart of a child? [DU-11J]<br>Q. Describe in brief how weight of under 5 children is monitored by road to health chart. [RU- 13J]
 
 _Q. What are the components and reference curves of growth chart? [CU-10J]_
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Growth chart. [SUST-18N/M,17N/M, 16N/J,15Ju, 14Ju,12Ju, | IJu]</b></summary>
+### Q. Write short note on: Growth chart. [SUST-18N/M,17N/M, 16N/J,15Ju, 14Ju,12Ju, | IJu]
 
 **Growth chart:**
 Serial recording of growth parameter data on graph at different position corresponding to the deviation
@@ -1346,10 +1237,8 @@ Degree of malnutrition:
 First degree —> Just above & below the middle line > 75-89%
 Second degree —> Between middle & lower line — 60-74%
 Third degree > Below the lower line > < 60%
-</details>
 
-<details>
-<summary><b>Q. What is ‘road to health’?<br>Q. What is road to health chart? [RU-16J]</b></summary>
+### Q. What is ‘road to health’?<br>Q. What is road to health chart? [RU-16J]
 
 **Road to health:**
   - The growth chart is a visible display of the child's physical growth and development.
@@ -1358,10 +1247,8 @@ growth carves (weight channel) has been called the ‘road to health’. .
   - This will include the zone of normality for most population, i.e. the weights of 95% of normal
 ity children-used as a reference fal! within this area.
 he;
-</details>
 
-<details>
-<summary><b>Q. Wh Eats growth chart? [DU-16N, RU-16J]</b></summary>
+### Q. Wh Eats growth chart? [DU-16N, RU-16J]
 
 Tite dow the information one can obtain from a growth chart. [CU-1 Ju]
 List theinformation what may be achieved from a growth chart. [RU-! | Ju]
@@ -1377,10 +1264,8 @@ child. .
 7) Tool for teaching: It can be used for teaching for example, the importance of adequate feeding, the
 deleterious effect of diarrhoea.
 [Ref- Park / 24" / 593]
-</details>
 
-<details>
-<summary><b>Q. What are the alternative methods of growth monitoring other than growth chart?<br>Q. Write short note on: Growth monitoring. [SUST-10J]</b></summary>
+### Q. What are the alternative methods of growth monitoring other than growth chart?<br>Q. Write short note on: Growth monitoring. [SUST-10J]
 
 **Alternative methods of growth monitoring:** Other than growth chart, there are following methods of growth
 monitoring — a
@@ -1408,20 +1293,16 @@ food, the baby becomes Habby and edematous due. deficiency of protein & anaemic 
 a een
 This is called milk injury.
 [Ref- Rashid, Khabir, Hyder / 5 / 173]
-</details>
 
-<details>
-<summary><b>📌 Viva — ¢ Characteristics of milk born epidemics</b></summary>
+### 📌 Viva — ¢ Characteristics of milk born epidemics
 
 - Characteristics of milk born epidemics:
 I. The onset is sudden with an explosive outburst.
 2. The cases occur only in those houses receiving milk from a common source.
 3. All the cases occur simultaneously,
 4. Children fed on cow's milk, are more frequently attacked than adults.
-</details>
 
-<details>
-<summary><b>Q. at is rooming-in? [DU-12Ju]</b></summary>
+### Q. at is rooming-in? [DU-12Ju]
 
 **\_ 2 Write short note on:** Rooming in.
 a beet — a ee
@@ -1431,10 +1312,8 @@ J¢ It gives an opportunity for the mother to know her baby.
 ii, Breast feeding becomes easier. |
 iii. It removes anxiety and fear of the mother about misplacement of baby.
 S —__—_———__eeKX«® a ——
-</details>
 
-<details>
-<summary><b>Q. What is colostrum? Write down the composition of colostrums.<br>Q. Explain the importance of colostrums.</b></summary>
+### Q. What is colostrum? Write down the composition of colostrums.<br>Q. Explain the importance of colostrums.
 
 **Colostrum:**
 Colostrum is the secretion of breast following childbirth for the first 2 - 3 days, which contains a great
@@ -1477,10 +1356,8 @@ A) Promotes family planning.
 3y_Decreases need for hospitalization.
 Contributes to child survival.
 [Ref- A. H. Mollah /1"/11]
-</details>
 
-<details>
-<summary><b>Q. What are the protective roles of human breast milk for babies?<br>Q. What are the anti-infective agents in the breast feeding?</b></summary>
+### Q. What are the protective roles of human breast milk for babies?<br>Q. What are the anti-infective agents in the breast feeding?
 
 Protective role of human breast milk for babies / anti-infective agents in human milk:
 1) Immunoglobulins: Secretory IgA, IgG, IgM.
@@ -1510,10 +1387,8 @@ B. In the child:
 l. If the child has galactosemia. (absolute contraindication)
 2. If infant has phenylketonuria.
 3. Gross prematurity of the baby or other conditions in which the newborn can not suck.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
   - Artificial feeding: The term “artificial feeding” is implied to the condition when a baby is completely
 deprived of mother's milk due to some maternal or other causes and the entire dietary demand of the
@@ -1521,10 +1396,8 @@ baby is met from sources of food except other than mother's milk.
 - Breast milk substitutes:
 Y_ Dried whole milk powder.
 - Fresh milk from a cow or other animal or commercial formulae.
-</details>
 
-<details>
-<summary><b>Q. How will you assess adequate breast feeding of neonate?</b></summary>
+### Q. How will you assess adequate breast feeding of neonate?
 
 **Assessment of adequate feeding of neonate:** |
 1) General condition: The baby is happy, sleeps between feeds & at night, does not vomit & passes 1]
@@ -1533,16 +1406,12 @@ urine at least six times in 24 hours. i
 3) Infant has stopped losing weight. 1}
 4) Have yellow seedy stools & no more meconium stools. |
 5) Expected level of weight curve.
-</details>
 
-<details>
-<summary><b>Q. Discuss different aspects of breast feeding. [SUST-16J] i}<br>Q. Write short note on: Breast feeding. i</b></summary>
+### Q. Discuss different aspects of breast feeding. [SUST-16J] i}<br>Q. Write short note on: Breast feeding. i
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. What are the indications of artificial feeding?</b></summary>
+### Q. What are the indications of artificial feeding?
 
 i
 Indications of artificial feeding: }
@@ -1559,10 +1428,8 @@ Ne onatal tetany.
 <3} Hiyperosmolality & hypernatraemia.
 Obesity, malnutrition.
 Cow's milk allergy, infantile eczema.
-</details>
 
-<details>
-<summary><b>Q. Why breast milk is superior over cow’s milk?<br>Q. Breast milk is superior to cow’s milk — Justify.</b></summary>
+### Q. Why breast milk is superior over cow’s milk?<br>Q. Breast milk is superior to cow’s milk — Justify.
 
 Mother's milk is superior to cow’s milk because of following reasons:
 1) Proteins in breast milk are easily digested as they form a very fine flocculent curd in the stomach, The
@@ -1578,10 +1445,8 @@ Vitamin C of breast milk is related to vit C content of mother's diet, in genera
 loses its vitamin C due to boiling, dilution & exposure to air.
 [Ref- Rashid, Khabir, Hyder /5* / 172)
 5
-</details>
 
-<details>
-<summary><b>Q. Write down difference between breast milk and cow’s milk.</b></summary>
+### Q. Write down difference between breast milk and cow’s milk.
 
 Difference between breast (Mother’s) milk and cow’s milk:
 Composition Breast milk oo ee Cow's milk
@@ -1596,10 +1461,8 @@ Protein 11 gm/litre 33gm/ litre
 640-720 kcal
 [Ref- Park /24"/575]
 O/Define weaning. [DU-12J, CU-12J, SUST-1 IJu]
-</details>
 
-<details>
-<summary><b>Q. Write some common weaning foods of Bangladesh. [CU-12J]</b></summary>
+### Q. Write some common weaning foods of Bangladesh. [CU-12J]
 
 **° ‘aning:** Weaning is a gradual process of withdrawing of a baby from breast feeding starting around
 the age of 4-5 months and adding supplementary foods rich in protein & other nutrients.)
@@ -1607,10 +1470,8 @@ the age of 4-5 months and adding supplementary foods rich in protein & other nut
 (smashed potato and vegetables). Commercially available weaning foods e.g. cerelac are good but
 expensive. a
 [Ref- Rashid, Khabir, Hyder / 4" / 154]
-</details>
 
-<details>
-<summary><b>Q. Mention the way of proper weaning. [SUST-1 IJu]<br>Q. Why, how and when weaning food to be started supplementing with breast milk?</b></summary>
+### Q. Mention the way of proper weaning. [SUST-1 IJu]<br>Q. Why, how and when weaning food to be started supplementing with breast milk?
 
 **Good weaning practice:**
   - As a general principle a single wearing food is added at a time in small quantities. The quantity is
@@ -1623,26 +1484,20 @@ a egg, meat etc, should be introduced one after another later. In case of egg yo
   - The whole process of weaning should be
 gradually completed by 9 months to | year of age when
 the child should be taking almost the adult diet. : , ,
-</details>
 
-<details>
-<summary><b>Q. Mention the importance of proper weaning. [SUST-1 Ju]<br>Q. What problem arises if proper weaning is not done? [CU-12J]</b></summary>
+### Q. Mention the importance of proper weaning. [SUST-1 Ju]<br>Q. What problem arises if proper weaning is not done? [CU-12J]
 
 **Importance of weaning:**
 Weaning period is crucial in child development, and if adequate importance is not given the child may
 suffer from malnutrition and infection.
 [Ref- Rashid, Khabir, Hyder 14/154]
 Infant & Maternal Mortality
-</details>
 
-<details>
-<summary><b>Q. What are the indicators of MCH care?</b></summary>
+### Q. What are the indicators of MCH care?
 
 Please see above.
-</details>
 
-<details>
-<summary><b>Q. What are the common child health problems?</b></summary>
+### Q. What are the common child health problems?
 
 **Child health problems:**
 1) Low birth weight.
@@ -1652,10 +1507,8 @@ Please see above.
 5) Behavioural problems.
 [Ref- Park /24" / 584]
 Neonatal mortality
-</details>
 
-<details>
-<summary><b>Q. Define neonatal mortality. [DU-14J]</b></summary>
+### Q. Define neonatal mortality. [DU-14J]
 
 nisfer the major causes of neonatal death in Bangladesh.
 ‘ ‘onatal mortality (death): Neonatal deaths are death occurring during the neonatal period commencing at
@@ -1669,10 +1522,8 @@ Causes:
 6) Congenital anomalies.
 7) Hemolytic diseases of newborn.
 8) Conditions of placenta and cord.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Neonatal mortality rate (NMR).</b></summary>
+### Q. Write short note on: Neonatal mortality rate (NMR).
 
 **Neonatal mortality rate (NMR):** It is t
 he number of neonatal deaths in a given year per 1000 live births in that
@@ -1684,20 +1535,16 @@ x 1000
 NMR =
 Total live births in the same year
 Infant mortality
-</details>
 
-<details>
-<summary><b>Q. Define infant mortality / infant death, [SUST-</b></summary>
+### Q. Define infant mortality / infant death, [SUST-
 
 The mortality of live born children who die before reaching their first birthday
 Infant mortality / infant death;
 [Ref- Rashid, Khabir, Hyder / 5" 175)
 (i.e. before 1 year of age).
 I1Ju]
-</details>
 
-<details>
-<summary><b>Q. Define infant mortality rate (IMR). [SUST-12J]<br>Q. Mention current IMR. [SUST-17M]</b></summary>
+### Q. Define infant mortality rate (IMR). [SUST-12J]<br>Q. Mention current IMR. [SUST-17M]
 
 the ratio of infant deaths registered ina
 Infant mortality rate (IMR): Infant mortality rate (IMR) is defined as
@@ -1714,10 +1561,8 @@ Infant mortality rate (IMR) per 1000 live birth (2015):
   - Pakistan  : 66/1000 live birth.
   - India : 38/1000 live birth
 [Ref- Park /24™ / 603, 604]
-</details>
 
-<details>
-<summary><b>Q. Mention causes of high IMR in Bangladesh. [DU-16N, 13Ju, SUST-17M, 15Ju, 13J,1 IJ, CU-13J]</b></summary>
+### Q. Mention causes of high IMR in Bangladesh. [DU-16N, 13Ju, SUST-17M, 15Ju, 13J,1 IJ, CU-13J]
 
 . What are the main reasons of high IMR in our country? [CU-18M]
 Important causes of high IMR in Bangladesh:
@@ -1748,10 +1593,8 @@ Post-neonatal mortality (1-12 months
 5) Congenital anomalies.
 6) Accidents.
 [Ref- Park / 24" / 605]
-</details>
 
-<details>
-<summary><b>Q. Why infant mortality is high in developing countries like Bangladesh? [DU-15J]<br>Q. What are the factors that affect infant mortality? [RU-13Ju]</b></summary>
+### Q. Why infant mortality is high in developing countries like Bangladesh? [DU-15J]<br>Q. What are the factors that affect infant mortality? [RU-13Ju]
 
 **Factors affecting infant mortality:**
 A) Biological factors:
@@ -1777,10 +1620,8 @@ C) Cultural & social factors:
 11) Bad environmental sanitation.
 12) Religion & caste.
 [Ref- Park / 24" / 605]
-</details>
 
-<details>
-<summary><b>Q. List the causes of high 1-4 years mortality rate.</b></summary>
+### Q. List the causes of high 1-4 years mortality rate.
 
 Leading causes of high 1-4 Years (pre-school age) children mortality rate:
 - In developing countries:
@@ -1797,10 +1638,8 @@ Leading causes of high 1-4 Years (pre-school age) children mortality rate:
 4) Influenza.
 5) Pneumonia.
 [Ref- Park / 24" / 608]
-</details>
 
-<details>
-<summary><b>Qa. Discuss bow infant mortality can be reduced in Bangladesh. [RU-13Ju, SUST-13J,10Ju]<br>Q. How infant mortality can be prevented? [SUST-1 1J]<br>Q. What interventions will you take to reduce IMR? [DU-16M]</b></summary>
+### Qa. Discuss bow infant mortality can be reduced in Bangladesh. [RU-13Ju, SUST-13J,10Ju]<br>Q. How infant mortality can be prevented? [SUST-1 1J]<br>Q. What interventions will you take to reduce IMR? [DU-16M]
 
 reventive & social measures to reduce IMR;
 1)’ Prenatal nutrition:
@@ -1833,16 +1672,12 @@ ys Education: Education woman generally do not have early pregnancies, are able 
 pregnancies, have better access +o information related to personal hygiene and care of their
 children and make better use of health care services.
 [Ref- Park / 24" / 607]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Infant mortality rate (IMR). [CU-16N/J]</b></summary>
+### Q. Write short note on: Infant mortality rate (IMR). [CU-16N/J]
 
 Please write from above.
-</details>
 
-<details>
-<summary><b>Q. Ina rural community a total of 680 births occurred, out of which 40 were still births in the</b></summary>
+### Q. Ina rural community a total of 680 births occurred, out of which 40 were still births in the
 
 year 2014. During that period the total number of women of reproductive age was 2050 &
 the number of death of babies aged from birth to 1 year was 80. Calculate IMR & interpret
@@ -1866,10 +1701,8 @@ IMR = a year
 Number of live births in the same year
 50
 x 1000 = 33.33 per 1000 live births.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **’:** :
 *~ Post-neonatal mortality rate: The ratio of post-neonatal deaths in a given year to the total number of
@@ -1886,10 +1719,8 @@ voluntary muscles, whether or not the umbilical cord has been cut or the placent
 product of such a birth is considered live-born.
 - Still-birth: It is defined as synonymous with late foetal death occurring after 28 completed weeks of
 gestation or over. In still-birth, there is no evidence of life at or after birth.
-</details>
 
-<details>
-<summary><b>Q. High IMR impedes the family planning programme - explain.</b></summary>
+### Q. High IMR impedes the family planning programme - explain.
 
 **High IMR impedes the family planning programme:**
 Family limitation and spacing of births contribute substantially to lowering of infant mortality rate. The
@@ -1898,10 +1729,8 @@ four or more children. Small number of children and longer spacing between pregn
 societies with improved infant and child survival. But high IMR encourages the spouses to take more children
 and thus it impedes the family planning programme.
 [Ref- Park / 24" / 607]
-</details>
 
-<details>
-<summary><b>Q. Write down the importance of 1 — 4 years mortality rate.</b></summary>
+### Q. Write down the importance of 1 — 4 years mortality rate.
 
 **Importance of 1 —4 years mortality rate:**
 1 — 4 year mortality rate is a more refined indicator of the social situation in a country than infant
@@ -1911,10 +1740,8 @@ group no longer depends on perinatal hazards and other endogenous factors, which
 during the first year of life.
 [Ref- Park / 24" / 608|
 DANE NNSA
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Universal children’s day.</b></summary>
+### Q. Write short note on: Universal children’s day.
 
 **Universal children’s day:**
 November 14 is observed as Universal Children's Day. It was started by the international Union for
@@ -1925,10 +1752,8 @@ A non-governmental organization (Defense for Children International, Geneva), wa
 directed towards promoting and protecting the rights of the child.
 [Ref- Park / 24" sg
 Perinatal mortality
-</details>
 
-<details>
-<summary><b>Q. What do you mean by perinatal period? [SUST-1 1Ju]</b></summary>
+### Q. What do you mean by perinatal period? [SUST-1 1Ju]
 
 **Perinatal period:**
 The word “perinatal” is a hybrid of the Greek “peri” meaning ‘around or about’ and “natal” from the
@@ -1936,10 +1761,8 @@ Latin “natus” meaning ‘birth’. .
 International Classification of Disease (ICD) defined the “perinatal period” as lasting from the 28%
 week of gestation to the seventh day after birth.
 [Ref- Park / 24" / 599]
-</details>
 
-<details>
-<summary><b>Q. Mention the causes of perinatal mortality.</b></summary>
+### Q. Mention the causes of perinatal mortality.
 
 **Causes of perinatal mortality:**
 A) Antenatal causes:
@@ -1970,10 +1793,8 @@ According to WHO, a maternal death is defined as" the death of woman while pregn
 days of termination of pregnancy, irrespective of the duration & site of pregnancy, from any cause related to or
 aggravated by the pregnancy or its management but not from accidental or incidental causes".
 [Ref- Park / 24" / 593]
-</details>
 
-<details>
-<summary><b>Q. Define maternal mortality rate (MMR). [DU-11J, SUST-16J,15Ju, RU-16J]<br>Q. Mention current MMR. [SUST-17M]</b></summary>
+### Q. Define maternal mortality rate (MMR). [DU-11J, SUST-16J,15Ju, RU-16J]<br>Q. Mention current MMR. [SUST-17M]
 
 for calculation of MMR. [RU-16J]
 on: Maternal mortality rate (MMR). [CU-18N, 17N, 16M, 12Ju]
@@ -1993,18 +1814,14 @@ Total number of live births in the same area in that year.
 were 3000 live births & 60 maternal deaths due to
 It was also found that mid-year population of that
 f women of reproductive age was 12000. Calculate
-</details>
 
-<details>
-<summary><b>Q. Ina rural community 2016, there</b></summary>
+### Q. Ina rural community 2016, there
 
 pregnancy related complications.
 community was 120000 & number o'
 maternal mortality rate & mortality ratio. [RU-17M]
-</details>
 
-<details>
-<summary><b>Q. A defined rural community had 5000 women of reproductive age 2500 live birth in 2012.</b></summary>
+### Q. A defined rural community had 5000 women of reproductive age 2500 live birth in 2012.
 
 During that year 30 women of reproductive age died by poisoning due to quarreling with
 their spouse, 25 women due to pregnancy related complication & 10 due to PPH. Calculate
@@ -2022,10 +1839,8 @@ Total number of live births in the same area in that year
 = ——_——— x 1000
 = 10/1000 live births
   - ,
-</details>
 
-<details>
-<summary><b>Q. In a district during the calendar year of 2013, among 200 pregnant mothers, 05 died from</b></summary>
+### Q. In a district during the calendar year of 2013, among 200 pregnant mothers, 05 died from
 
 APH, 10 from PPH, 5 from RTA and rest gave live births. Calculate the MMR of that
 district. [RU-14J]
@@ -2040,10 +1855,8 @@ Total number of live births in the same area in that year.
 1S
 =———— x 1000
 = 83.33 / 1000 live births
-</details>
 
-<details>
-<summary><b>Q. In a given year in a defined population, the following statistics were found. Calculate</b></summary>
+### Q. In a given year in a defined population, the following statistics were found. Calculate
 
 maternal mortality rate (MMR) and maternal mortality ratio from the data. [RU-18N]
 a) Mid-year population 16000.
@@ -2054,10 +1867,8 @@ Please calculate from above discussion.
 causes [DU-13J,1 1J, CU-16J,14J] / important causes [SUST-18N] / common
 ST-18M,17N,16N] / main causes [SUST-13Ju] / leading causes [SUST-17M, 1 5Ju] of
 matersfal mortality in Bangladesh?
-</details>
 
-<details>
-<summary><b>Q. Menfion the causes of high MMR in Bangladesh. [CU-17M, 12J,11Ju/J]<br>Q. What are the factors related to high MMR in Bangladesh? [DU-16M]</b></summary>
+### Q. Menfion the causes of high MMR in Bangladesh. [CU-17M, 12J,11Ju/J]<br>Q. What are the factors related to high MMR in Bangladesh? [DU-16M]
 
 uses of maternal mortality / maternal death in Bangladesh:
 1) Haemorrhage: Ante-partum haemorrhage (APH) & post-partum haemorrhage (PPH).
@@ -2077,10 +1888,8 @@ uses of maternal mortality / maternal death in Bangladesh:
 4) Itreflects the state of public health & hygiene & environmental sanitation.
 5) Italso reflects the position of the woman in society.
 __ ati
-</details>
 
-<details>
-<summary><b>Q. List fa rs responsible for high maternal mortality in developing countries.<br>Q.M ation the reasons for high maternal mortality in Bangladesh. [SUST-10J] rite down social factors causing high maternal mortality in Bangladesh, [DU-14J]</b></summary>
+### Q. List fa rs responsible for high maternal mortality in developing countries.<br>Q.M ation the reasons for high maternal mortality in Bangladesh. [SUST-10J] rite down social factors causing high maternal mortality in Bangladesh, [DU-14J]
 
 nswer
 Factors / determinants of maternal mortality:
@@ -2100,16 +1909,12 @@ Poor environmental sanitation.
 _-*-Poor communications & transport facilities.
 - Social customs, etc.
 [Ref- Park / 24" /597]
-</details>
 
-<details>
-<summary><b>Q. What measures can be taken to reduce [SUST-16M, 13Ju] / prevent [CU-14Ju/J] maternal</b></summary>
+### Q. What measures can be taken to reduce [SUST-16M, 13Ju] / prevent [CU-14Ju/J] maternal
 
 mortality in Bangladesh?
-</details>
 
-<details>
-<summary><b>Q. ‘Proper ANC can help to reduce maternal death’-explain. [CU-16J]<br>Q. Enumerate the different steps and activities in case of high risk mothers in order to reduce</b></summary>
+### Q. ‘Proper ANC can help to reduce maternal death’-explain. [CU-16J]<br>Q. Enumerate the different steps and activities in case of high risk mothers in order to reduce
 
 the MMR in our country. [CU-10Ju]
 Measures for reducing maternal mortality & morbidity:
@@ -2127,20 +1932,16 @@ Measures for reducing maternal mortality & morbidity:
 12) Identification of every maternal deaths and searching for its cause.
 13) Safe abortion services.
 [Ref- Park / 24" / 598]
-</details>
 
-<details>
-<summary><b>📌 Viva — Measurement of MMR: MMR can be measured by two ways —</b></summary>
+### 📌 Viva — Measurement of MMR: MMR can be measured by two ways —
 
 **Measurement of MMR:** MMR can be measured by two ways —
 1) Indicator of impact: By measuring the changes in the level of maternal mortality.
 2) Indicator of process: By measuring the changes in those situation / factors known to contribute to
 maternal death e.g. case fatality rate of EOC.
 Reproductive health
-</details>
 
-<details>
-<summary><b>Q. Define reproductive health. [RU-12J, 10Ju]<br>Q. What is meant by reproductive health?</b></summary>
+### Q. Define reproductive health. [RU-12J, 10Ju]<br>Q. What is meant by reproductive health?
 
 **Reproductive health:** ‘
 WHO defines ‘reproductive health’ as “a state of complete physical, mental and social well-being ang
@@ -2160,10 +1961,8 @@ Elements / components of reproductive health:
 [Ref- Rashid, Khabir, Hyder /5"/ 178 — 180]
 iit lithe
 ne Emergency obstetric care (EOC)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: EOC. [CU-12Ju]</b></summary>
+### Q. Write short note on: EOC. [CU-12Ju]
 
 **Emergency obstetric care / EOC:** EOC is important life-saving intervention in obstetric complication.
 OGSB (Obstetrical & Gynaecological Society of Bangladesh) in collaboration of DGHS (Director
@@ -2197,10 +1996,8 @@ ayed decision to seek EOC services can be overcome by increasing community aware
 5. Delay receiving facility can be overcome by decentralization of EOC services & community
 mobilization.
 6. Delay receiving EOC at facility level can be improve by upgrading EOC services.
-</details>
 
-<details>
-<summary><b>Q. Leading obstetric causes of maternal</b></summary>
+### Q. Leading obstetric causes of maternal
 
 **deaths are:** [DU-17N]
 a) PPH.
@@ -2209,10 +2006,8 @@ c) Puerperal sepsis.
 d) Severe undernutrition.
 e) PET.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. At risk infants include: [DU-16N]</b></summary>
+### Q. At risk infants include: [DU-16N]
 
 a) Birth order 3 or more.
 b) Weight below 75% of the expected
@@ -2222,10 +2017,8 @@ months.
 d) Children with PEM.
 e) Artificial feeding.
 Ans. a) F, b) T, c) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. APGAR score requires: [DU-16N]</b></summary>
+### Q. APGAR score requires: [DU-16N]
 
 : a) Birth weight.
 b) Reflex response.
@@ -2233,10 +2026,8 @@ c) Temperature.
 d) Muscle tone.
 e) Heart rate.
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Maternity cycle includes: [DU-16N]</b></summary>
+### Q. Maternity cycle includes: [DU-16N]
 
 a) Perinatal period.
 b) Intranatal period.
@@ -2244,10 +2035,8 @@ c) Postnatal period.
 d) Prenatal period.
 e) First trimester of pregnancy.
 Ans. a) F, b) T, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Maternity cycle includes: [DU-16J]</b></summary>
+### Q. Maternity cycle includes: [DU-16J]
 
 a) Antenatal period.
 b) Postnatal period.
@@ -2255,10 +2044,8 @@ c) Period of labour.
 d) Perinatal period.
 e) Last menstrual cycle.
 Ans. a) T, b) T, ¢) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Flow of breast milk rely on: [DU-16J]</b></summary>
+### Q. Flow of breast milk rely on: [DU-16J]
 
 a) Feeling of mother.
 b) Family support.
@@ -2266,10 +2053,8 @@ c) Health condition.
 d) Height of the mother.
 e) Fluid intake by the mother.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Cardinal signs of APGAR score: [DU-</b></summary>
+### Q. Cardinal signs of APGAR score: [DU-
 
 15Juj
 a) Heart rate.
@@ -2278,10 +2063,8 @@ c) Birth weight.
 d) Cyanosis.
 e) Muscle tone.
 Ans. a) T, b) T, ¢) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. High risk babies include: [DU-15J]</b></summary>
+### Q. High risk babies include: [DU-15J]
 
 a) Birth order 3 or more.
 b) LBW less than 2.5 kg.
@@ -2289,10 +2072,8 @@ c) Malnutrition of 1 degree.
 d) Working mother.
 e) One parent.
 Ans. a) F, b) T, ¢) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Adverse effects of maternal malnutrition</b></summary>
+### Q. Adverse effects of maternal malnutrition
 
 **includes:** [DU-15J,11Ju]
 a) Low birth weight.
@@ -2301,10 +2082,8 @@ c) Teratogenic effect.
 d) Neonatal mortality.
 e) Post-partum haemorrhage.
 Ans. a) T, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Danger signal during labour: [DU-14Ju]</b></summary>
+### Q. Danger signal during labour: [DU-14Ju]
 
 a) Rupture of membrane.
 b) Prolapse of hand.
@@ -2313,10 +2092,8 @@ d) Fetal heart rate 120 /minute.
 e) Temperature less than 36 °C.
 Ans. a) F, b) T, c) T, d) F, e) F.
 os
-</details>
 
-<details>
-<summary><b>Q. The high risk pregnancies are: [DU-13Ju]</b></summary>
+### Q. The high risk pregnancies are: [DU-13Ju]
 
 a) elderly primi with > 35 years
 b) short statured primi (< 130 cm)
@@ -2324,10 +2101,8 @@ c) elderly grand multiparas
 d) prolonged pregnancy (10 days after EDD)
 e) toxaemia of pregnancy
 Ans. a) T, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. MCH care provides: [DU-13Ju]</b></summary>
+### Q. MCH care provides: [DU-13Ju]
 
 a) maternal care
 b) school health care
@@ -2335,10 +2110,8 @@ c) mental health care
 d) family planning services
 e) care of the senior citizens
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. At risk infant includes: [DU-13J]</b></summary>
+### Q. At risk infant includes: [DU-13J]
 
 a) low birth weight
 b) birth order three or more
@@ -2346,10 +2119,8 @@ c) PEM
 d) infant of diabetic mother
 e) twins
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Leading causes of death in LBW babies</b></summary>
+### Q. Leading causes of death in LBW babies
 
 **are:** [DU-12Ju]
 a) atelectasis
@@ -2358,10 +2129,8 @@ c) pneumonia
 d) pulmonary haemorrhage
 e) neonatal jaundice
 Ans. a) T, b) F, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Maternal infection may cause: [DU-12J]</b></summary>
+### Q. Maternal infection may cause: [DU-12J]
 
 a) foetal growth retardation
 b) LBW
@@ -2371,10 +2140,8 @@ e) embryopathy
 Ans. a) T, b) T, c) F, d) F, e) T.
 I
 eee i. |
-</details>
 
-<details>
-<summary><b>Q. Warning signs are: [DU-11J]</b></summary>
+### Q. Warning signs are: [DU-11J]
 
 a) Swelling of face & feet
 b) Nausea & vomiting
@@ -2382,10 +2149,8 @@ c) Blurring of vision
 d) Discharge per vagina
 e) Lower abdominal pain
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Diseases that transmitted through placenta</b></summary>
+### Q. Diseases that transmitted through placenta
 
 **are:** [DU-11J]
 a) Toxoplasma gondi
@@ -2394,10 +2159,8 @@ c) Endemic typhus
 d) Hepatitis E
 e) Leprosy
 Ans. a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Causes of neonatal mortality are: [DU-11J]</b></summary>
+### Q. Causes of neonatal mortality are: [DU-11J]
 
 a) LBW
 b) Accident
@@ -2405,10 +2168,8 @@ c) Birth injury
 d) Malnutrition
 e) Hemolytic disease
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Leading cause of death in LBW babies are: [DU-10Ju]</b></summary>
+### Q. Leading cause of death in LBW babies are: [DU-10Ju]
 
 a. Atelactasia
 b. Pulmonary haemorrhage
@@ -2423,5 +2184,4 @@ Immunization & vaccination
 EPI & NID
 Cold chain system .
 reece Eee
-</details>
 

@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -122,19 +132,19 @@
   <!-- ============================================================ -->
   <h2 id="infections">1 · Infections of the Female Genital Tract</h2>
 
-  <details id="infections-general">
-    <summary>What are the major infections of the female genital tract? Mention their clinical significance.</summary>
+  <div class="qcard" id="infections-general">
+    </div>What are the major infections of the female genital tract? Mention their clinical significance.</div>
     <div class="ans">
       <p><strong>Bacteria</strong> — <em>Neisseria gonorrhoeae</em> and <em>Chlamydia trachomatis</em> are the major causes of female infertility. <em>Streptococcus</em> infections are implicated in preterm deliveries, stillbirths, and neonatal sepsis.</p>
       <p><strong>Viruses</strong> — especially <strong>herpes simplex virus (HSV)</strong> and <strong>human papillomavirus (HPV)</strong>, account for considerable morbidity; HSVs cause painful genital ulcerations, whereas HPVs are involved in the pathogenesis of cervical, vaginal, and vulvar cancers. <strong>Molluscum contagiosum</strong> is a cutaneous or mucosal lesion caused by poxvirus.</p>
       <p class="ref">Robbins 10e pp.986–988</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="pid">2 · Pelvic Inflammatory Disease (PID)</h2>
 
-  <details>
-    <summary>🔴 Define PID. Write down its etiology, pathogenesis, and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Define PID. Write down its etiology, pathogenesis, and complications.</div>
     <div class="ans">
       <p><strong>Definition:</strong> PID is an infection that begins in the vulva or vagina and spreads upward to involve most of the structures in the female genital system, resulting in <span class="hot">pelvic pain, adnexal tenderness, fever, and vaginal discharge</span>.</p>
       <h3>Etiology</h3>
@@ -158,15 +168,15 @@
       </ul>
       <p class="ref">Robbins 10e pp.988–989</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 3. VULVA -->
   <!-- ============================================================ -->
   <h2 id="vulva">3 · Vulvar Disorders</h2>
 
-  <details>
-    <summary>Classify the diseases of the vulva. Mention benign and malignant vulvar neoplasms.</summary>
+  <div class="qcard">
+    </div>Classify the diseases of the vulva. Mention benign and malignant vulvar neoplasms.</div>
     <div class="ans">
       <h3>Diseases of the vulva (classification)</h3>
       <ol>
@@ -178,15 +188,15 @@
       </ol>
       <p class="ref">Arif Guide 2025 Vol-2 p.264; Robbins 10e</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 4. VAGINA -->
   <!-- ============================================================ -->
   <h2 id="vagina">4 · Vaginal Lesions</h2>
 
-  <details>
-    <summary>Classify the lesions of the vagina (congenital, benign, pre-malignant, malignant).</summary>
+  <div class="qcard">
+    </div>Classify the lesions of the vagina (congenital, benign, pre-malignant, malignant).</div>
     <div class="ans">
       <h3>Lesions of the vagina</h3>
       <ol>
@@ -198,15 +208,15 @@
       </ol>
       <p class="ref">Arif Guide 2025 Vol-2 pp.264–265</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 5. CERVIX -->
   <!-- ============================================================ -->
   <h2 id="cervix">5 · Diseases of the Cervix</h2>
 
-  <details>
-    <summary>🔴 Mention the diseases of the cervix (non-neoplastic and neoplastic).</summary>
+  <div class="qcard">
+    </div>🔴 Mention the diseases of the cervix (non-neoplastic and neoplastic).</div>
     <div class="ans">
       <h3>A. Non-neoplastic disorders</h3>
       <ul>
@@ -235,15 +245,15 @@
       </ol>
       <p class="ref">Robbins 10e pp.995–1000; Arif Guide 2025 Vol-2 pp.266–267</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 6. CIN -->
   <!-- ============================================================ -->
   <h2 id="cin">6 · Cervical Intraepithelial Neoplasia (CIN)</h2>
 
-  <details>
-    <summary>🔴 What is CIN? Describe its characteristics, classifications, and morphology.</summary>
+  <div class="qcard">
+    </div>🔴 What is CIN? Describe its characteristics, classifications, and morphology.</div>
     <div class="ans">
       <p><strong>Cervical intraepithelial neoplasia (CIN):</strong> a spectrum of precancerous changes in cervical epithelium, graded on progressively severe degree of changes. It includes dysplasia and carcinoma in situ (CIS).</p>
       <h3>Characteristics</h3>
@@ -285,10 +295,10 @@
       </table>
       <p class="ref">Robbins 10e pp.997; BRS Pathology 5e p.301; DeVita 11e p.2094</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Compare low-grade SIL (LSIL) and high-grade SIL (HSIL) of the cervix.</summary>
+  <div class="qcard">
+    </div>Compare low-grade SIL (LSIL) and high-grade SIL (HSIL) of the cervix.</div>
     <div class="ans">
       <table>
         <tr><th>Trait</th><th>Low-grade SIL (CIN-I)</th><th>High-grade SIL (CIN-II, CIN-III)</th></tr>
@@ -301,15 +311,15 @@
       </table>
       <p class="ref">Robbins 10e p.997; DeVita 11e p.2094</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 7. CARCINOMA CERVIX -->
   <!-- ============================================================ -->
   <h2 id="cervix-ca">7 · Carcinoma of the Cervix</h2>
 
-  <details>
-    <summary>🔴 Describe the etiology/risk factors and pathogenesis of carcinoma of the cervix.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the etiology/risk factors and pathogenesis of carcinoma of the cervix.</div>
     <div class="ans">
       <h3>Risk factors / etiologic factors</h3>
       <ol>
@@ -336,10 +346,10 @@
       <p>Persistent infection increases the risk of cervical precancer and subsequent invasive carcinoma. Duration: high-oncogenic-risk HPVs persist longer (average 13 months) vs low-risk HPVs (8 months). High-risk HPVs are also detected in vaginal SCC and in a subset of vulvar, penile, anal, tonsillar, and other oropharyngeal cancers.</p>
       <p class="ref">Robbins 10e pp.996, 998; Pathoma 2014 p.139</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Transformation zone of the cervix.</summary>
+  <div class="qcard">
+    </div>Short note: Transformation zone of the cervix.</div>
     <div class="ans">
       <p>Anatomically, the cervix is divided into the <strong>exocervix</strong> (visible on vaginal exam, lined by squamous epithelium) and the <strong>endocervix</strong> (lined by columnar mucus-secreting epithelium).</p>
       <p>The point where the squamous and columnar epithelium meets is the <strong>squamocolumnar junction (SCJ)</strong>.</p>
@@ -347,10 +357,10 @@
       <p><strong>Importance:</strong> Most tumours of the cervix are of epithelial origin and are caused by oncogenic strains of HPV. Immature squamous metaplastic epithelial cells in the transformation zone are most susceptible to HPV infection — this is where cervical precursor lesions and cancers develop.</p>
       <p class="ref">Robbins 10e p.995; Pathoma 2011</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the morphology and spread of cervical carcinoma. What are its complications?</summary>
+  <div class="qcard">
+    </div>🔴 Give the morphology and spread of cervical carcinoma. What are its complications?</div>
     <div class="ans">
       <p><strong>General:</strong> one of the most common neoplasms in women; average age 45–50 years. Widespread screening (Pap test) has reduced mortality sharply.</p>
       <h3>Morphology</h3>
@@ -382,10 +392,10 @@
       </table>
       <p class="ref">Robbins 10e pp.998–1000; Manual of Clinical Oncology 7e pp.322–323</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 How is carcinoma cervix diagnosed? How can it be prevented?</summary>
+  <div class="qcard">
+    </div>🔴 How is carcinoma cervix diagnosed? How can it be prevented?</div>
     <div class="ans">
       <h3>Diagnosis</h3>
       <p><strong>1. History:</strong> unexplained vaginal bleeding (especially post-coital), foul-smelling vaginal discharge, painful coitus (dyspareunia), pelvic pain, weight loss, obstructive uropathy.</p>
@@ -414,21 +424,21 @@
       <p><strong>3. Treatment</strong> of the pre-malignant lesions.</p>
       <p class="ref">Robbins 10e p.1000; DeVita 11e p.2090</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Carcinoma cervix (risk factors)</summary>
+  <div class="quiz"></div>🎯 True/False practice — Carcinoma cervix (risk factors)</div>
     <div class="ans">
-      <details><summary>Risk factors for carcinoma cervix: HPV infection, late menarche, E. coli genital infection, early age of first intercourse, oral contraceptives. (RU-19M)</summary><div class="ans">Item <span class="tf">HPV infection = True</span> · <span class="ff">Late menarche = False</span> · <span class="ff">E. coli infection = False</span> · <span class="tf">Early age first intercourse = True</span> · <span class="tf">Oral contraceptives = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Risk factors for carcinoma cervix: HPV infection, late menarche, E. coli genital infection, early age of first intercourse, oral contraceptives. (RU-19M)</div><div class="ans">Item <span class="tf">HPV infection = True</span> · <span class="ff">Late menarche = False</span> · <span class="ff">E. coli infection = False</span> · <span class="tf">Early age first intercourse = True</span> · <span class="tf">Oral contraceptives = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 8. PAP TEST -->
   <!-- ============================================================ -->
   <h2 id="pap">8 · Pap Test</h2>
 
-  <details>
-    <summary>🔴 Short note: Pap test / Pap smear — procedure, schedule, Papanicolaou grading, and importance.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Pap test / Pap smear — procedure, schedule, Papanicolaou grading, and importance.</div>
     <div class="ans">
       <p><strong>Definition:</strong> cytologic preparations of exfoliated cells from the cervical transformation zone stained with the Papanicolaou method. It is a screening procedure for cervical cancer that tests for pre-cancerous or cancerous cells on the cervix.</p>
       <h3>Procedure</h3>
@@ -456,15 +466,15 @@
       <p><strong>Importance:</strong> main screening tool for cervical diseases, especially carcinoma cervix. False-negative error rate ~10–20%.</p>
       <p class="ref">Robbins 10e pp.1000–1001; DeVita 11e p.2094; Manual of Clinical Oncology 7e pp.323–324</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 9. ENDOMETRIUM BASICS -->
   <!-- ============================================================ -->
   <h2 id="endometrium">9 · Endometrium — Basics &amp; Hormone Cycle</h2>
 
-  <details>
-    <summary>What are the layers of the uterus and the hormone cycle of the endometrium?</summary>
+  <div class="qcard">
+    </div>What are the layers of the uterus and the hormone cycle of the endometrium?</div>
     <div class="ans">
       <p><strong>Endometrium</strong> = mucosal lining of the uterus. <strong>Myometrium</strong> = smooth muscle underlying the endometrium.</p>
       <table>
@@ -475,10 +485,10 @@
       </table>
       <p class="ref">Pathoma Lecture Notes; Arif Guide 2025 Vol-2 p.275</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify the diseases/tumours of the uterus.</summary>
+  <div class="qcard">
+    </div>Classify the diseases/tumours of the uterus.</div>
     <div class="ans">
       <h3>Diseases of uterus</h3>
       <ol>
@@ -502,15 +512,15 @@
       </ol>
       <p class="ref">Robbins 10e pp.1001–1015; Pathoma Lecture Notes</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 10. AUB / DUB -->
   <!-- ============================================================ -->
   <h2 id="aub">10 · Abnormal Uterine Bleeding (AUB) / DUB</h2>
 
-  <details>
-    <summary>🔴 What are the causes of abnormal uterine bleeding? Organise by age group.</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes of abnormal uterine bleeding? Organise by age group.</div>
     <div class="ans">
       <table>
         <tr><th>Age group</th><th>Causes</th></tr>
@@ -522,10 +532,10 @@
       </table>
       <p class="ref">Robbins 10e p.1003; Harsh Mohan 7e p.721</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is DUB? What is an anovulatory cycle and its causes?</summary>
+  <div class="qcard">
+    </div>What is DUB? What is an anovulatory cycle and its causes?</div>
     <div class="ans">
       <p><strong>Dysfunctional uterine bleeding (DUB):</strong> uterine bleeding that lacks an underlying structural abnormality — excessive bleeding during or between menstrual periods without a causative uterine lesion (tumour, polyp, infection, hyperplasia, trauma, blood dyscrasia, or pregnancy).</p>
       <p><strong>Common causes of DUB:</strong> (1) Anovulatory cycle, (2) Ovulatory dysfunctional bleeding (inadequate luteal phase), (3) Hormonal contraceptives, (4) Irregular shedding.</p>
@@ -538,15 +548,15 @@
       </ul>
       <p class="ref">Robbins 10e p.1003; Harsh Mohan 7e p.721</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 11. ENDOMETRIOSIS -->
   <!-- ============================================================ -->
   <h2 id="endometriosis">11 · Endometriosis &amp; Chocolate Cyst</h2>
 
-  <details>
-    <summary>🔴 Define endometriosis. Give its common sites, pathogenesis, clinical features, and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Define endometriosis. Give its common sites, pathogenesis, clinical features, and complications.</div>
     <div class="ans">
       <p><strong>Definition:</strong> presence of <strong>"ectopic" endometrial tissue</strong> (both glands and stroma, or stroma alone) at a site outside of the uterus. Affects approx. 6–10% of women, principally in the <strong>3rd and 4th decades</strong>.</p>
       <h3>Common sites (descending order)</h3>
@@ -580,31 +590,31 @@
       </ul>
       <p class="ref">Robbins 10e pp.1004–1006; Harsh Mohan 7e p.722</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is a chocolate cyst? What is pseudocyesis?</summary>
+  <div class="qcard">
+    </div>🔴 What is a chocolate cyst? What is pseudocyesis?</div>
     <div class="ans">
       <p><strong>Chocolate cyst of the ovary (endometrioma):</strong> endometriotic lesions bleed periodically in response to cyclic ovarian hormonal stimulation → nodules with red-blue to yellow-brown appearance. Ovaries may become markedly distorted by large cystic masses (3–5 cm) filled with brown fluid from previous haemorrhage → called <strong>chocolate cysts</strong> or endometriomas. Organising haemorrhage causes extensive fibrous adhesions between tubes, ovaries, and other structures, obliterating the pouch of Douglas.</p>
       <p><strong>Pseudocyesis (false pregnancy):</strong> the appearance of clinical or subclinical signs and symptoms associated with pregnancy although the individual is not physically carrying a baby.</p>
       <p class="ref">Robbins 10e p.1006</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Endometriosis</summary>
+  <div class="quiz"></div>🎯 True/False practice — Endometriosis</div>
     <div class="ans">
-      <details><summary>Endometriosis occurs in: ovary, fallopian tube, myometrium, rectum, umbilicus. (DU-24Nv)</summary><div class="ans">Item <span class="tf">Ovary = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Myometrium = False</span> (that is adenomyosis) · <span class="tf">Rectum = True</span> · <span class="ff">Umbilicus = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Most common sites of endometriosis: ovaries, fallopian tube, urinary bladder, vaginal fornices. (DU-14Ja)</summary><div class="ans">Item <span class="tf">Ovaries = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Urinary bladder = False</span> · <span class="tf">Vaginal fornices = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Endometriosis occurs in: ovary, fallopian tube, myometrium, rectum, umbilicus. (DU-24Nv)</div><div class="ans">Item <span class="tf">Ovary = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Myometrium = False</span> (that is adenomyosis) · <span class="tf">Rectum = True</span> · <span class="ff">Umbilicus = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Most common sites of endometriosis: ovaries, fallopian tube, urinary bladder, vaginal fornices. (DU-14Ja)</div><div class="ans">Item <span class="tf">Ovaries = True</span> · <span class="tf">Fallopian tube = True</span> · <span class="ff">Urinary bladder = False</span> · <span class="tf">Vaginal fornices = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 12. ADENOMYOSIS -->
   <!-- ============================================================ -->
   <h2 id="adenomyosis">12 · Adenomyosis</h2>
 
-  <details>
-    <summary>🔴 Define adenomyosis. Give its diagnosis, clinical features, and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Define adenomyosis. Give its diagnosis, clinical features, and complications.</div>
     <div class="ans">
       <p><strong>Definition:</strong> presence of <strong>endometrial tissue within the uterine wall (myometrium)</strong>. Occurs in up to 20% of uteri.</p>
       <p><strong>Diagnosis (microscopic):</strong> irregular nests of endometrial stroma, with or without glands, within the myometrium, separated from the basalis by at least 2–3 mm.</p>
@@ -618,15 +628,15 @@
       <p><strong>Note:</strong> adenomyosis can coexist with endometriosis.</p>
       <p class="ref">Robbins 10e p.1006</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 13. ENDOMETRIAL HYPERPLASIA -->
   <!-- ============================================================ -->
   <h2 id="hyperplasia">13 · Endometrial Hyperplasia</h2>
 
-  <details>
-    <summary>🔴 Write the pathology of endometrial hyperplasia. Differentiate non-atypical from atypical hyperplasia.</summary>
+  <div class="qcard">
+    </div>🔴 Write the pathology of endometrial hyperplasia. Differentiate non-atypical from atypical hyperplasia.</div>
     <div class="ans">
       <p><strong>Definition:</strong> abnormal proliferation of endometrial glands relative to the stroma, resulting in an increased gland-to-stroma ratio compared with normal proliferative endometrium.</p>
       <h3>Cause — prolonged oestrogenic stimulation due to:</h3>
@@ -649,15 +659,15 @@
       <p><strong>Major complication:</strong> frequent precursor to the most common type of endometrial carcinoma.</p>
       <p class="ref">Robbins 10e p.1006; Harsh Mohan 7e p.723; BRS Pathology 5e p.302</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 14. ENDOMETRIAL CARCINOMA -->
   <!-- ============================================================ -->
   <h2 id="endometrial-ca">14 · Carcinoma of the Endometrium</h2>
 
-  <details>
-    <summary>🔴 What are the risk factors for endometrial carcinoma? How is it diagnosed?</summary>
+  <div class="qcard">
+    </div>🔴 What are the risk factors for endometrial carcinoma? How is it diagnosed?</div>
     <div class="ans">
       <p><strong>Nice to Know:</strong> endometrial carcinoma is the <span class="hot">most common invasive cancer of the female genital tract</span>. Peak incidence in <strong>55–65 years</strong>. Usually produces irregular or postmenopausal vaginal bleeding with excessive leukorrhoea.</p>
       <h3>Risk factors</h3>
@@ -681,23 +691,23 @@
       </ul>
       <p class="ref">Robbins 9e p.1020; Robbins 10e pp.1014, 1018</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Endometrial carcinoma, leiomyoma &amp; pregnancy test</summary>
+  <div class="quiz"></div>🎯 True/False practice — Endometrial carcinoma, leiomyoma &amp; pregnancy test</div>
     <div class="ans">
-      <details><summary>Endometrial carcinoma is associated with: HPV infection, OCP, nulliparity, diabetes mellitus. (DU-15Ja)</summary><div class="ans">Item <span class="tf">HPV = True</span> · <span class="tf">OCP = True</span> · <span class="ff">Nulliparity = False</span> · <span class="tf">Diabetes mellitus = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Uterine leiomyoma: most common gynaecological tumour; menorrhagia if submucous; require progesterone for growth; regress in pregnancy; precursor of leiomyosarcoma. (DU-13Ja/12Ju)</summary><div class="ans">Item <span class="tf">Most common gynae tumour = True</span> · <span class="tf">Menorrhagia if submucous = True</span> · <span class="ff">Require progesterone = False</span> (oestrogen-driven) · <span class="ff">Regresses in pregnancy = False</span> · <span class="tf">Precursor of leiomyosarcoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Positive pregnancy test is observed in: amenorrhoea, hydatidiform mole, choriocarcinoma, endometrial hyperplasia, dysgerminoma. (DU-12Ja)</summary><div class="ans">Item <span class="ff">Amenorrhoea = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Endometrial hyperplasia = False</span> · <span class="ff">Dysgerminoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Endometrial carcinoma is associated with: HPV infection, OCP, nulliparity, diabetes mellitus. (DU-15Ja)</div><div class="ans">Item <span class="tf">HPV = True</span> · <span class="tf">OCP = True</span> · <span class="ff">Nulliparity = False</span> · <span class="tf">Diabetes mellitus = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Uterine leiomyoma: most common gynaecological tumour; menorrhagia if submucous; require progesterone for growth; regress in pregnancy; precursor of leiomyosarcoma. (DU-13Ja/12Ju)</div><div class="ans">Item <span class="tf">Most common gynae tumour = True</span> · <span class="tf">Menorrhagia if submucous = True</span> · <span class="ff">Require progesterone = False</span> (oestrogen-driven) · <span class="ff">Regresses in pregnancy = False</span> · <span class="tf">Precursor of leiomyosarcoma = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Positive pregnancy test is observed in: amenorrhoea, hydatidiform mole, choriocarcinoma, endometrial hyperplasia, dysgerminoma. (DU-12Ja)</div><div class="ans">Item <span class="ff">Amenorrhoea = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Endometrial hyperplasia = False</span> · <span class="ff">Dysgerminoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 15. LEIOMYOMA -->
   <!-- ============================================================ -->
   <h2 id="leiomyoma">15 · Leiomyoma (Fibroid Uterus)</h2>
 
-  <details>
-    <summary>🔴 Describe the pathology/morphology and complications of leiomyoma of the uterus.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the pathology/morphology and complications of leiomyoma of the uterus.</div>
     <div class="ans">
       <p><strong>Definition:</strong> benign smooth-muscle neoplasms of the uterus — perhaps the <span class="hot">most common tumours in women</span>. Present in about <strong>75% of females</strong> of reproductive age. May occur singly or more often are <strong>multiple</strong>.</p>
       <h3>Morphology — Gross</h3>
@@ -726,15 +736,15 @@
       <p><strong>Other sites of leiomyoma:</strong> arrector pili (pilar leiomyoma — very painful), nipples, scrotum, labia, and less frequently deep soft tissue and gut wall.</p>
       <p class="ref">Robbins 10e p.1014</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 16. OVARIAN TUMOURS -->
   <!-- ============================================================ -->
   <h2 id="ovarian">16 · Ovarian Tumours — WHO Classification</h2>
 
-  <details>
-    <summary>🔴 Classify ovarian tumours (WHO classification).</summary>
+  <div class="qcard">
+    </div>🔴 Classify ovarian tumours (WHO classification).</div>
     <div class="ans">
       <h3>A. Surface epithelial tumours (~<sup>3</sup>/<sub>4</sub> of ovarian tumours)</h3>
       <p><em>Each sub-type has benign, borderline, and malignant variants:</em></p>
@@ -773,10 +783,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1017; BRS Pathology 5e pp.304–307; Harsh Mohan 7e p.731</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Classify ovarian cysts (non-neoplastic and neoplastic).</summary>
+  <div class="qcard">
+    </div>🔴 Classify ovarian cysts (non-neoplastic and neoplastic).</div>
     <div class="ans">
       <h3>1. Non-neoplastic and functional cysts</h3>
       <ul>
@@ -795,27 +805,27 @@
       <p><strong>Pathophysiology:</strong> excessive androgen production and low FSH levels. Testosterone inhibits FSH, but LH levels are sufficient to cause luteinisation of theca and granulosa cells → androgen secretion → anovulation. Hereditary basis suggested in some cases.</p>
       <p class="ref">Robbins 10e p.1016; Harsh Mohan 7e p.730</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Ovarian tumours, sex cord &amp; germ cell</summary>
+  <div class="quiz"></div>🎯 True/False practice — Ovarian tumours, sex cord &amp; germ cell</div>
     <div class="ans">
-      <details><summary>Germ cell tumours of ovary: granulosa cell tumour, choriocarcinoma, clear cell carcinoma, Brenner tumour, yolk sac tumour. (DU-23Nv)</summary><div class="ans">Item <span class="ff">Granulosa cell = False</span> (sex-cord) · <span class="ff">Choriocarcinoma = False</span> (not in key) · <span class="ff">Clear cell = False</span> (epithelial) · <span class="ff">Brenner = False</span> (epithelial) · <span class="tf">Yolk sac tumour = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Hormone-producing tumours of ovary: clear cell carcinoma, granulosa cell tumour, dysgerminoma, fibroma, Brenner tumour. (DU-22M)</summary><div class="ans">Item <span class="ff">Clear cell = False</span> · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Dysgerminoma = False</span> · <span class="ff">Fibroma = False</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Hormone-producing tumours of ovary (extended): dysgerminoma, Leydig cell tumour, granulosa cell tumour, teratoma, serous cystadenoma. (DU-21Ja/20Nv/M/17M)</summary><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Leydig cell = True</span> (androgen) · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Teratoma = False</span> · <span class="ff">Serous cystadenoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Sex cord-stromal tumours of ovary: dysgerminoma, granulosa cell tumour, arrhenoblastoma, choriocarcinoma, yolk sac tumour. (DU-17Ja)</summary><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Granulosa cell = True</span> · <span class="tf">Arrhenoblastoma = True</span> · <span class="ff">Choriocarcinoma = False</span> · <span class="ff">Yolk sac tumour = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Germ cell tumours of ovary include: teratoma, androblastoma, yolk sac tumour, dysgerminoma, Brenner tumour. (DU-10Ja)</summary><div class="ans">Item <span class="tf">Teratoma = True</span> · <span class="ff">Androblastoma = False</span> (sex-cord) · <span class="tf">Yolk sac = True</span> · <span class="tf">Dysgerminoma = True</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Ovarian tumour may be associated with: pleural effusion, raised CA-125, hyponatraemia, raised α-fetoprotein, raised CA-15-3. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Pleural effusion = True</span> (Meigs) · <span class="tf">CA-125 = True</span> · <span class="ff">Hyponatraemia = False</span> · <span class="tf">AFP = True</span> · <span class="ff">CA-15-3 = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Precancerous lesions of female genital tract: CIN-II, endometrial polyp, condyloma acuminatum of vulva, endometriosis, atypical hyperplasia of endometrium. (DU-12Ja)</summary><div class="ans">Item <span class="tf">CIN-II = True</span> · <span class="ff">Endometrial polyp = False</span> · <span class="tf">Condyloma acuminatum = True</span> · <span class="ff">Endometriosis = False</span> · <span class="tf">Atypical hyperplasia = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Germ cell tumours of ovary: granulosa cell tumour, choriocarcinoma, clear cell carcinoma, Brenner tumour, yolk sac tumour. (DU-23Nv)</div><div class="ans">Item <span class="ff">Granulosa cell = False</span> (sex-cord) · <span class="ff">Choriocarcinoma = False</span> (not in key) · <span class="ff">Clear cell = False</span> (epithelial) · <span class="ff">Brenner = False</span> (epithelial) · <span class="tf">Yolk sac tumour = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Hormone-producing tumours of ovary: clear cell carcinoma, granulosa cell tumour, dysgerminoma, fibroma, Brenner tumour. (DU-22M)</div><div class="ans">Item <span class="ff">Clear cell = False</span> · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Dysgerminoma = False</span> · <span class="ff">Fibroma = False</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Hormone-producing tumours of ovary (extended): dysgerminoma, Leydig cell tumour, granulosa cell tumour, teratoma, serous cystadenoma. (DU-21Ja/20Nv/M/17M)</div><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Leydig cell = True</span> (androgen) · <span class="tf">Granulosa cell = True</span> (oestrogen) · <span class="ff">Teratoma = False</span> · <span class="ff">Serous cystadenoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Sex cord-stromal tumours of ovary: dysgerminoma, granulosa cell tumour, arrhenoblastoma, choriocarcinoma, yolk sac tumour. (DU-17Ja)</div><div class="ans">Item <span class="ff">Dysgerminoma = False</span> · <span class="tf">Granulosa cell = True</span> · <span class="tf">Arrhenoblastoma = True</span> · <span class="ff">Choriocarcinoma = False</span> · <span class="ff">Yolk sac tumour = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Germ cell tumours of ovary include: teratoma, androblastoma, yolk sac tumour, dysgerminoma, Brenner tumour. (DU-10Ja)</div><div class="ans">Item <span class="tf">Teratoma = True</span> · <span class="ff">Androblastoma = False</span> (sex-cord) · <span class="tf">Yolk sac = True</span> · <span class="tf">Dysgerminoma = True</span> · <span class="ff">Brenner = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Ovarian tumour may be associated with: pleural effusion, raised CA-125, hyponatraemia, raised α-fetoprotein, raised CA-15-3. (DU-16Ju)</div><div class="ans">Item <span class="tf">Pleural effusion = True</span> (Meigs) · <span class="tf">CA-125 = True</span> · <span class="ff">Hyponatraemia = False</span> · <span class="tf">AFP = True</span> · <span class="ff">CA-15-3 = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Precancerous lesions of female genital tract: CIN-II, endometrial polyp, condyloma acuminatum of vulva, endometriosis, atypical hyperplasia of endometrium. (DU-12Ja)</div><div class="ans">Item <span class="tf">CIN-II = True</span> · <span class="ff">Endometrial polyp = False</span> · <span class="tf">Condyloma acuminatum = True</span> · <span class="ff">Endometriosis = False</span> · <span class="tf">Atypical hyperplasia = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 18. DERMOID CYST -->
   <!-- ============================================================ -->
   <h2 id="dermoid">18 · Dermoid Cyst (Benign Cystic Teratoma)</h2>
 
-  <details>
-    <summary>🔴 Short note: Dermoid cyst of the ovary — classification, morphology, and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Dermoid cyst of the ovary — classification, morphology, and complications.</div>
     <div class="ans">
       <p><strong>Ovarian teratoma:</strong> tumours composed of tissues derived from all three germ cell layers — ectoderm, mesoderm, and endoderm — in varying combinations.</p>
       <h3>Types of teratoma</h3>
@@ -853,15 +863,15 @@
       <p>A rare monodermal teratoma containing mostly thyroid tissue (&gt;50% of overall tissue). ~5% of all ovarian teratomas. May cause hyperthyroidism. Most are benign; malignant in a small percentage.</p>
       <p class="ref">Robbins 10e pp.1023–1024; BRS Pathology 5e p.306; Harsh Mohan 7e pp.736–737</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 19. DYSGERMINOMA -->
   <!-- ============================================================ -->
   <h2 id="dysgerminoma">19 · Dysgerminoma</h2>
 
-  <details>
-    <summary>🔴 Give the morphology of dysgerminoma of the ovary.</summary>
+  <div class="qcard">
+    </div>🔴 Give the morphology of dysgerminoma of the ovary.</div>
     <div class="ans">
       <p><strong>Definition:</strong> germ cell tumour of the ovary — the ovarian counterpart of testicular seminoma. ~2% of all ovarian cancers; ~half of malignant germ cell tumours. About 10% have elevated <strong>β-hCG</strong> in plasma. <span class="hot">All dysgerminomas are malignant and are extremely radiosensitive.</span></p>
       <p><strong>Age:</strong> 75% occur in the 2nd &amp; 3rd decades.</p>
@@ -880,10 +890,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1024; Harsh Mohan 7e p.737</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the hormone-producing tumours of the ovary?</summary>
+  <div class="qcard">
+    </div>What are the hormone-producing tumours of the ovary?</div>
     <div class="ans">
       <ol>
         <li><strong>Granulosa-theca cell tumours:</strong> secrete <strong>oestrogen</strong></li>
@@ -893,15 +903,15 @@
       </ol>
       <p class="ref">Robbins 10e pp.1016–1028; BRS Pathology 5e p.307</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 20. KRUKENBERG -->
   <!-- ============================================================ -->
   <h2 id="krukenberg">20 · Krukenberg Tumour</h2>
 
-  <details>
-    <summary>🔴 Short note: Krukenberg tumour.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Krukenberg tumour.</div>
     <div class="ans">
       <p><strong>Definition:</strong> a classic metastatic gastrointestinal carcinoma involving the ovaries. Characterised by <strong>bilateral metastases</strong> composed of <strong>mucin-producing cancer cells with a "signet-ring" appearance</strong>, most often of <strong>gastric origin</strong>. May also arise from breast, lung, etc.</p>
       <h3>Origins of metastatic ovarian tumours</h3>
@@ -911,29 +921,29 @@
       </ul>
       <p class="ref">Robbins 10e p.1028; BRS Pathology 5e p.307; Harsh Mohan 7e p.1034</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 21. MEIGS -->
   <!-- ============================================================ -->
   <h2 id="meigs">21 · Meigs Syndrome</h2>
 
-  <details>
-    <summary>🔴 Short note: Meigs syndrome.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Meigs syndrome.</div>
     <div class="ans">
       <p><strong>Definition:</strong> the triad of <strong>ovarian fibroma + ascites + hydrothorax</strong> (usually only right side). Genesis is unknown.</p>
       <p><strong>Key feature:</strong> ascites and pleural effusion <strong>resolve spontaneously</strong> when the ovarian tumour is removed.</p>
       <p class="ref">Robbins 10e p.1027; BRS Pathology 5e p.306</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- 22. TUMOUR MARKERS -->
   <!-- ============================================================ -->
   <h2 id="markers">22 · Tumour Markers &amp; Lab Diagnosis</h2>
 
-  <details>
-    <summary>List the tumour markers associated with ovarian tumours. How is an ovarian tumour worked up in the lab?</summary>
+  <div class="qcard">
+    </div>List the tumour markers associated with ovarian tumours. How is an ovarian tumour worked up in the lab?</div>
     <div class="ans">
       <h3>Tumour markers</h3>
       <table>
@@ -949,15 +959,15 @@
       </ul>
       <p class="ref">Robbins 10e; BRS Pathology 5e p.307</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!-- RAPID-FIRE -->
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
 
-  <details class="rapid" open>
-    <summary>Female Genital System — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Female Genital System — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Endometriosis occurs in: ovary (T/F), fallopian tube (T/F), myometrium (T/F), rectum (T/F), umbilicus (T/F). <span class="ref">— DU-24Nv MCQ</span></div>
@@ -1045,7 +1055,7 @@
       <div class="a"><strong>Aromatase pathway</strong> in peripheral adipose tissue converts androstenedione → oestrone → oestradiol, providing unopposed oestrogenic stimulation of the endometrium, especially in postmenopausal obese women.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

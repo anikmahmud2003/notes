@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -93,8 +103,8 @@
 
   <h2>1 · Body Fluid Compartments &amp; Commonly Examined Fluids</h2>
 
-  <details id="body-fluids">
-    <summary>What are body fluids? Name the important body fluids commonly sent to the laboratory for examination.</summary>
+  <div class="qcard" id="body-fluids">
+    </div>What are body fluids? Name the important body fluids commonly sent to the laboratory for examination.</div>
     <div class="ans">
       <p><strong>Body fluid:</strong> The fluid present in different compartments of the body is called body fluid.</p>
       <h3>Fluid compartments of the body</h3>
@@ -121,12 +131,12 @@
       </ol>
       <p class="ref">Ref: Guyton 11th/292; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="csf-indications">2 · CSF Examination &amp; Indications</h2>
 
-  <details>
-    <summary>🔴 What are the indications of CSF examination? Name 5 important indications.</summary>
+  <div class="qcard">
+    </div>🔴 What are the indications of CSF examination? Name 5 important indications.</div>
     <div class="ans">
       <p><span class="hot">Very Important for VIVA</span> — Indications of CSF examination:</p>
       <ol>
@@ -139,10 +149,10 @@
       </ol>
       <p class="ref">Ref: Davidson's 23rd/1077; Lecture SSMC; BSMMU Lab Medicine; AFIP Clinical Pathology</p>
     </div>
-  </details>
+  </div>
 
-  <details id="lumbar-punct">
-    <summary>What is lumbar puncture? Give its indications (diagnostic + therapeutic) and contraindications.</summary>
+  <div class="qcard" id="lumbar-punct">
+    </div>What is lumbar puncture? Give its indications (diagnostic + therapeutic) and contraindications.</div>
     <div class="ans">
       <p><strong>Lumbar puncture (LP):</strong> A technique used to obtain both a CSF sample and an indirect measure of intracranial pressure.</p>
       <h3>A. Diagnostic indications</h3>
@@ -185,10 +195,10 @@
       </ul>
       <p class="ref">Ref: Davidson's 23rd/1077; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>How is CSF collected? Describe the steps of CSF collection.</summary>
+  <div class="qcard">
+    </div>How is CSF collected? Describe the steps of CSF collection.</div>
     <div class="ans">
       <h3>Collection sites</h3>
       <ol>
@@ -217,10 +227,10 @@
       <p><span class="hot">NB:</span> CSF examination must be done within <strong>30–60 minutes</strong> after collection.</p>
       <p class="ref">Ref: Prof. Khaleque/285; Lecture SSMC; DMC; BSMMU Lab Medicine</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the tests done in CSF examination? Describe each briefly.</summary>
+  <div class="qcard">
+    </div>What are the tests done in CSF examination? Describe each briefly.</div>
     <div class="ans">
       <h3>1. Physical examination</h3>
       <ul>
@@ -253,12 +263,12 @@
       <p>To detect malignant cells.</p>
       <p class="ref">Ref: Prof. Khaleque/199; Davidson's 21st/1147</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="csf-normal">3 · Normal CSF Values</h2>
 
-  <details>
-    <summary>🔴 Write down the physical, cytological and biochemical findings of normal CSF.</summary>
+  <div class="qcard">
+    </div>🔴 Write down the physical, cytological and biochemical findings of normal CSF.</div>
     <div class="ans">
       <p><span class="hot">Must be asked in VIVA</span></p>
       <table>
@@ -276,12 +286,12 @@
       <div class="mnem">🎯 <strong>Key formula:</strong> CSF glucose ≈ 60% of blood glucose. If blood glucose = 100 mg/dL → normal CSF glucose = ~60 mg/dL.</div>
       <p class="ref">Ref: Davidson's 23rd/1078; Prof. Khaleque/199</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="csf-significance">4 · Clinical Significance of CSF Findings</h2>
 
-  <details>
-    <summary>State the clinical significance of low CSF sugar. What are the causes of high protein in CSF?</summary>
+  <div class="qcard">
+    </div>State the clinical significance of low CSF sugar. What are the causes of high protein in CSF?</div>
     <div class="ans">
       <h3>Clinical significance of low CSF sugar</h3>
       <ol>
@@ -298,10 +308,10 @@
       </ol>
       <p class="ref">Ref: Davidson's 23rd; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>How will you differentiate subarachnoid haemorrhage (SAH) from traumatic haemorrhage in CSF?</summary>
+  <div class="qcard">
+    </div>How will you differentiate subarachnoid haemorrhage (SAH) from traumatic haemorrhage in CSF?</div>
     <div class="ans">
       <p><span class="hot">Very Important for VIVA</span></p>
       <table>
@@ -312,12 +322,12 @@
       <p><strong>Xanthochromia</strong> (yellow supernatant) = due to bilirubin from RBC breakdown in the subarachnoid space — confirms true SAH rather than a traumatic tap.</p>
       <p class="ref">Ref: Davidson's; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="meningitis">5 · Meningitis — Definition, Causes, Classification</h2>
 
-  <details>
-    <summary>🔴 What is meningitis? Classify meningitis. Give causes of meningitis (bacterial, viral, fungal, protozoal, non-infective).</summary>
+  <div class="qcard">
+    </div>🔴 What is meningitis? Classify meningitis. Give causes of meningitis (bacterial, viral, fungal, protozoal, non-infective).</div>
     <div class="ans">
       <p><strong>Meningitis:</strong> Inflammation of the meninges.</p>
       <h3>A. Infective causes</h3>
@@ -359,26 +369,26 @@
       </ul>
       <p class="ref">Ref: Davidson's 23rd/1118; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is aseptic meningitis?</summary>
+  <div class="qcard">
+    </div>What is aseptic meningitis?</div>
     <div class="ans">
       <p><strong>Aseptic meningitis:</strong> Usually refers to <strong>viral meningitis</strong> — CSF cultures are negative (sterile) but there is meningeal inflammation.</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What do you mean by pleocytosis?</summary>
+  <div class="qcard">
+    </div>What do you mean by pleocytosis?</div>
     <div class="ans">
       <p><strong>Pleocytosis:</strong> A term used to describe an <span class="hot">increased cell count</span> (Gk. <em>pleion</em> = more), usually referring to an increase in white blood cell (WBC) count in cerebrospinal fluid (CSF). It is indicative of an inflammatory, infectious, or malignant condition.</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="csf-table">6 · CSF Changes in Meningitis — The Master Table</h2>
 
-  <details>
-    <summary>🔴 Tabulate the laboratory findings of bacterial, viral, tubercular and fungal meningitis. Compare CSF findings in all types.</summary>
+  <div class="qcard">
+    </div>🔴 Tabulate the laboratory findings of bacterial, viral, tubercular and fungal meningitis. Compare CSF findings in all types.</div>
     <div class="ans">
       <p><span class="hot">Please read this at least 10 times for VIVA</span></p>
       <table>
@@ -459,41 +469,41 @@
       <div class="mnem">🎯 <strong>Mnemonic — Cobweb = Tubercular:</strong> The classic "cob-web/spider-web clot" is the hallmark of tubercular meningitis CSF. Pyogenic = cloudy with neutrophils; Viral = clear with lymphocytes.</div>
       <p class="ref">Ref: Davidson's 23rd/1078, 1118; Lecture DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="viva-csf">7 · VIVA Corner on CSF Examination &amp; Meningitis</h2>
 
-  <details>
-    <summary>Why does CSF look cloudy or turbid?</summary>
+  <div class="qcard">
+    </div>Why does CSF look cloudy or turbid?</div>
     <div class="ans">
       <p><strong>Cloudy/turbid CSF:</strong> Due to excess amount of protein and/or the presence of cells (neutrophils in pyogenic, lymphocytes in tubercular/viral).</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why is protein increased in all types of meningitis?</summary>
+  <div class="qcard">
+    </div>Why is protein increased in all types of meningitis?</div>
     <div class="ans">
       <p><strong>Why protein is increased in ALL types of meningitis:</strong> Because meningitis is an inflammation and in every inflammation there is <strong>exudate formation</strong>, which contains much more protein than normal CSF.</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why is CSF sugar markedly reduced in pyogenic meningitis?</summary>
+  <div class="qcard">
+    </div>Why is CSF sugar markedly reduced in pyogenic meningitis?</div>
     <div class="ans">
       <p><strong>Low glucose in pyogenic meningitis:</strong> Because pyogenic bacteria <strong>consume glucose as their food and energy source</strong>.</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why is glucose normal in viral meningitis?</summary>
+  <div class="qcard">
+    </div>Why is glucose normal in viral meningitis?</div>
     <div class="ans">
       <p><strong>Normal glucose in viral meningitis:</strong> Because <strong>viruses do not consume glucose</strong>.</p>
       <div class="mnem">🎯 <strong>Key VIVA point:</strong> CSF glucose = 60% of blood glucose. If blood glucose is very high (e.g. uncontrolled diabetes mellitus with blood glucose &gt;200 mg/dL), CSF glucose can still be "high" (&gt;120 mg/dL) even in pyogenic meningitis — because the baseline is elevated.</div>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the hallmark of meningitis caused by Neisseria. Name two important physical signs in meningitis.</summary>
+  <div class="qcard">
+    </div>Mention the hallmark of meningitis caused by Neisseria. Name two important physical signs in meningitis.</div>
     <div class="ans">
       <p><strong>Hallmark of meningococcal (<em>N. meningitidis</em>) meningitis:</strong> <span class="hot">Meningococcal skin rash (purpuric rash)</span>.</p>
       <h3>Important physical signs in meningitis</h3>
@@ -504,35 +514,35 @@
       </ol>
       <p class="ref">Ref: Davidson's 23rd/1019</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the commonest cause of pyogenic meningitis. Mention the commonest cause of viral meningitis. Name one special test for tubercular meningitis.</summary>
+  <div class="qcard">
+    </div>Mention the commonest cause of pyogenic meningitis. Mention the commonest cause of viral meningitis. Name one special test for tubercular meningitis.</div>
     <div class="ans">
       <p><strong>Commonest cause of pyogenic meningitis:</strong> <em>Neisseria meningitidis</em>.</p>
       <p><strong>Commonest cause of viral meningitis:</strong> <em>Echovirus</em> and <em>Coxsackie virus</em>.</p>
       <p><strong>Special test for tubercular meningitis:</strong> <span class="hot">Adenosine deaminase (ADA) test</span> — elevated (&gt;40 U/L) in tubercular meningitis.</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📋 Clinical case: A 5-year-old boy with high fever, vomiting, neck rigidity. What is your diagnosis?</summary>
+  <div class="qcard">
+    </div>📋 Clinical case: A 5-year-old boy with high fever, vomiting, neck rigidity. What is your diagnosis?</div>
     <div class="ans">
       <p><strong>Clinical diagnosis: Meningitis (probably pyogenic).</strong></p>
       <p class="ref">Robbins 10e – CNS: Meningitis</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>In that meningitis case: what laboratory tests should be done?</summary>
+  <div class="qcard">
+    </div>In that meningitis case: what laboratory tests should be done?</div>
     <div class="ans">
       <p><strong>Confirmatory investigation:</strong> CSF analysis — lumbar puncture followed by physical, cytological, biochemical, and bacteriological examination.</p>
       <p class="ref">Robbins 10e – CNS: Meningitis</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📋 Clinical case: A child with sudden high-grade intermittent fever, neck rigidity, and purpuric rash. What is your diagnosis? Give expected CSF findings.</summary>
+  <div class="qcard">
+    </div>📋 Clinical case: A child with sudden high-grade intermittent fever, neck rigidity, and purpuric rash. What is your diagnosis? Give expected CSF findings.</div>
     <div class="ans">
       <p><strong>Diagnosis:</strong> <span class="hot">Meningococcal meningitis</span> — the purpuric rash is the hallmark of <em>N. meningitidis</em> infection.</p>
       <h3>Expected CSF findings</h3>
@@ -544,10 +554,10 @@
         <li><strong>Culture on blood agar:</strong> Growth found</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📋 Clinical case: A child with recurrent otitis media, headache, fever, drowsiness, neck stiffness. What is the likely diagnosis? Give positive laboratory findings.</summary>
+  <div class="qcard">
+    </div>📋 Clinical case: A child with recurrent otitis media, headache, fever, drowsiness, neck stiffness. What is the likely diagnosis? Give positive laboratory findings.</div>
     <div class="ans">
       <p><strong>Diagnosis:</strong> Meningitis — most probably due to <em>H. influenzae</em> or <em>S. pneumoniae</em> (otitis media is a common predisposing factor).</p>
       <h3>Laboratory findings</h3>
@@ -559,18 +569,18 @@
         <li><strong>Culture:</strong> Blood agar media for <em>S. pneumoniae</em>; Chocolate agar media for <em>H. influenzae</em></li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📋 Clinical case: A 6-year-old malnourished child with low-grade fever for 15 days, loss of consciousness, neck rigidity. What is the diagnosis?</summary>
+  <div class="qcard">
+    </div>📋 Clinical case: A 6-year-old malnourished child with low-grade fever for 15 days, loss of consciousness, neck rigidity. What is the diagnosis?</div>
     <div class="ans">
       <p><strong>Probable diagnosis: Meningitis, probably tubercular</strong> — low-grade fever for 15 days + malnourished child favours tuberculosis (TB).</p>
       <p class="ref">Robbins 10e – TB meningitis</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>In that TB-meningitis case: what lab tests are needed?</summary>
+  <div class="qcard">
+    </div>In that TB-meningitis case: what lab tests are needed?</div>
     <div class="ans">
       <h3>Lumbar puncture &amp; CSF study</h3>
       <ul>
@@ -591,10 +601,10 @@
       </ul>
       <p class="ref">Robbins 10e – TB meningitis</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📋 Clinical case: A patient with pyogenic meningitis has HIGH CSF glucose. How is this possible?</summary>
+  <div class="qcard">
+    </div>📋 Clinical case: A patient with pyogenic meningitis has HIGH CSF glucose. How is this possible?</div>
     <div class="ans">
       <p>The patient has <span class="hot">uncontrolled diabetes mellitus (DM)</span>.</p>
       <p><strong>Explanation:</strong></p>
@@ -605,12 +615,12 @@
       </ul>
       <p>Therefore, although the patient has pyogenic meningitis, the CSF glucose will be higher than normal because the blood glucose baseline is elevated.</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="pleural">8 · Pleural Fluid Study</h2>
 
-  <details>
-    <summary>What is pleural fluid? Mention the significance of pleural fluid study. Differentiate transudate from exudate.</summary>
+  <div class="qcard">
+    </div>What is pleural fluid? Mention the significance of pleural fluid study. Differentiate transudate from exudate.</div>
     <div class="ans">
       <p><strong>Pleural fluid:</strong> The fluid present in the pleural cavity. Normal amount: 1–10 mL. Abnormal accumulation of fluid beyond this level = <strong>pleural effusion</strong>.</p>
       <h3>Significance of pleural fluid study</h3>
@@ -637,10 +647,10 @@
       <div class="mnem">🎯 <strong>Transudate = systemic causes (low protein):</strong> Heart, Liver, Kidney failure. <strong>Exudate = local causes (high protein):</strong> TB, Pneumonia, Cancer.</div>
       <p class="ref">Ref: Davidson's 23rd/563</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 State the findings of pleural fluid study in tubercular pleural effusion.</summary>
+  <div class="qcard">
+    </div>🔴 State the findings of pleural fluid study in tubercular pleural effusion.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Finding</th></tr>
@@ -659,10 +669,10 @@
       </ul>
       <p class="ref">Ref: Davidson's 21st/659</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>State the findings of pleural fluid study in malignant pleural effusion.</summary>
+  <div class="qcard">
+    </div>State the findings of pleural fluid study in malignant pleural effusion.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Finding</th></tr>
@@ -680,10 +690,10 @@
         <li><span class="hot">Malignant cells found on Papanicolaou (Pap) stain</span></li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Differentiate tubercular pleural effusion from malignant pleural effusion.</summary>
+  <div class="qcard">
+    </div>Differentiate tubercular pleural effusion from malignant pleural effusion.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Tubercular Effusion</th><th>Malignant Effusion</th></tr>
@@ -698,12 +708,12 @@
       </table>
       <div class="mnem">🎯 <strong>ADA &gt;40 = TB!</strong> — If ADA is elevated, think tubercular; if normal with haemorrhagic fluid, think malignancy.</div>
     </div>
-  </details>
+  </div>
 
   <h2 id="ascitic">9 · Ascitic Fluid Study</h2>
 
-  <details>
-    <summary>Short note: Ascitic fluid study. Describe inspection, cell count, albumin assay, and culture findings.</summary>
+  <div class="qcard">
+    </div>Short note: Ascitic fluid study. Describe inspection, cell count, albumin assay, and culture findings.</div>
     <div class="ans">
       <p><strong>Ascitic fluid study:</strong> Ascitic fluid should undergo gross inspection as well as laboratory analysis. Routine laboratory tests include: differential cell count, albumin assay, and cultures.</p>
       <h3>Inspection — fluid appearance by disease</h3>
@@ -730,10 +740,10 @@
       <p><strong>Miscellaneous (optional):</strong> Total protein, glucose, lactate dehydrogenase (LDH), and amylase — beneficial in selected circumstances, not routine.</p>
       <p class="ref">Ref: School of Medicine, Queen's University; CMU-22M, 13Ja, 12Ju</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write down the positive findings of exudative ascitic fluid.</summary>
+  <div class="qcard">
+    </div>Write down the positive findings of exudative ascitic fluid.</div>
     <div class="ans">
       <h3>Positive findings of exudative ascitic fluid</h3>
       <ol>
@@ -744,10 +754,10 @@
         <li><strong>Alkaline phosphatase (ALP):</strong> Increased</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is SAAG? How does it help differentiate causes of ascites?</summary>
+  <div class="qcard">
+    </div>What is SAAG? How does it help differentiate causes of ascites?</div>
     <div class="ans">
       <p><strong>SAAG (Serum–Ascites Albumin Gradient):</strong> Calculated by subtracting the ascitic fluid albumin from the serum albumin value obtained at the same time.</p>
       <table>
@@ -757,89 +767,89 @@
       </table>
       <div class="mnem">🎯 <strong>SAAG ≥ 1.1 = portal hypertension (cirrhosis is #1 cause).</strong></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Clinical Pathology MCQs from ch31)</h2>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Pyogenic meningitis CSF</summary>
-    <details>
-      <summary>Features of CSF in pyogenic meningitis include: cobweb formation (F), decreased protein (F), cloudy appearance (T), presence of neutrophils (T), decreased sugar (T).</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Pyogenic meningitis CSF</div>
+    <div class="qcard">
+      </div>Features of CSF in pyogenic meningitis include: cobweb formation (F), decreased protein (F), cloudy appearance (T), presence of neutrophils (T), decreased sugar (T).</div>
       <div class="ans">Cobweb <span class="ff">F</span> (cobweb = tubercular) · decreased protein <span class="ff">F</span> · cloudy <span class="tf">T</span> · neutrophils <span class="tf">T</span> · decreased sugar <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Macroscopic changes of CSF in pyogenic meningitis: cobweb formation (F), coarse coagulation formation (T), crystal clear (F), xanthochromic (F), turbid (T).</summary>
+    </div>
+    <div class="qcard">
+      </div>Macroscopic changes of CSF in pyogenic meningitis: cobweb formation (F), coarse coagulation formation (T), crystal clear (F), xanthochromic (F), turbid (T).</div>
       <div class="ans">Cobweb <span class="ff">F</span> · coarse coagulation <span class="tf">T</span> · crystal clear <span class="ff">F</span> · xanthochromic <span class="ff">F</span> · turbid <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>CSF findings of pyogenic meningitis: opening pressure increased (T), coagulum present (T), crystal clear (F), reduced sugar (T), rich in lymphocytes (F).</summary>
+    </div>
+    <div class="qcard">
+      </div>CSF findings of pyogenic meningitis: opening pressure increased (T), coagulum present (T), crystal clear (F), reduced sugar (T), rich in lymphocytes (F).</div>
       <div class="ans">Pressure ↑ <span class="tf">T</span> · coagulum <span class="tf">T</span> · crystal clear <span class="ff">F</span> · reduced sugar <span class="tf">T</span> · lymphocytes <span class="ff">F</span> (neutrophils dominate).</div>
-    </details>
-    <details>
-      <summary>Features of pyogenic meningitis: lymphocytic pleocytosis (F), increased sugar (F), decreased protein (F), hazy appearance (T), cobweb formation (F).</summary>
+    </div>
+    <div class="qcard">
+      </div>Features of pyogenic meningitis: lymphocytic pleocytosis (F), increased sugar (F), decreased protein (F), hazy appearance (T), cobweb formation (F).</div>
       <div class="ans">Lymphocytic pleocytosis <span class="ff">F</span> · ↑sugar <span class="ff">F</span> · ↓protein <span class="ff">F</span> · hazy <span class="tf">T</span> · cobweb <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>In pyogenic meningitis: pressure increased in CSF (T), leukocytosis (T), no role of culture &amp; sensitivity (F), CSF is hazy (T), sugar content raised (F).</summary>
+    </div>
+    <div class="qcard">
+      </div>In pyogenic meningitis: pressure increased in CSF (T), leukocytosis (T), no role of culture &amp; sensitivity (F), CSF is hazy (T), sugar content raised (F).</div>
       <div class="ans">Pressure ↑ <span class="tf">T</span> · leukocytosis <span class="tf">T</span> · no C&amp;S role <span class="ff">F</span> · hazy <span class="tf">T</span> · sugar ↑ <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>In pyogenic meningitis: usual causative agent is <em>E. coli</em> in adults (F), sugar raised (F), predominant cells are polymorphs (T), protein raised (T), cob-web seen (F).</summary>
+    </div>
+    <div class="qcard">
+      </div>In pyogenic meningitis: usual causative agent is <em>E. coli</em> in adults (F), sugar raised (F), predominant cells are polymorphs (T), protein raised (T), cob-web seen (F).</div>
       <div class="ans">E. coli adult <span class="ff">F</span> (N. meningitidis) · sugar ↑ <span class="ff">F</span> · polymorphs <span class="tf">T</span> · protein ↑ <span class="tf">T</span> · cob-web <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Features of pyogenic meningitis: cloudy or purulent CSF (T), neutrophils 1 lakh/cumm (F), decreased protein (F), markedly reduced glucose (T), increased pressure (T).</summary>
+    </div>
+    <div class="qcard">
+      </div>Features of pyogenic meningitis: cloudy or purulent CSF (T), neutrophils 1 lakh/cumm (F), decreased protein (F), markedly reduced glucose (T), increased pressure (T).</div>
       <div class="ans">Cloudy/purulent <span class="tf">T</span> · 1 lakh neutrophils <span class="ff">F</span> (1000–5000 range) · ↓protein <span class="ff">F</span> · ↓glucose <span class="tf">T</span> · ↑pressure <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Tubercular meningitis CSF</summary>
-    <details>
-      <summary>Changes of CSF findings in tubercular meningitis: neutrophil pleocytosis (F), decreased protein (F), cob-web formation (T), decreased chloride (T), decreased sugar (T).</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Tubercular meningitis CSF</div>
+    <div class="qcard">
+      </div>Changes of CSF findings in tubercular meningitis: neutrophil pleocytosis (F), decreased protein (F), cob-web formation (T), decreased chloride (T), decreased sugar (T).</div>
       <div class="ans">Neutrophil pleocytosis <span class="ff">F</span> (lymphocytes) · ↓protein <span class="ff">F</span> (↑protein) · cob-web <span class="tf">T</span> · ↓chloride <span class="tf">T</span> · ↓sugar <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>CSF findings in tubercular meningitis: increased pressure (T), decreased glucose (T), decreased protein (F), polymorphonuclear pleocytosis (F), cob-web formation (T).</summary>
+    </div>
+    <div class="qcard">
+      </div>CSF findings in tubercular meningitis: increased pressure (T), decreased glucose (T), decreased protein (F), polymorphonuclear pleocytosis (F), cob-web formation (T).</div>
       <div class="ans">↑Pressure <span class="tf">T</span> · ↓glucose <span class="tf">T</span> · ↓protein <span class="ff">F</span> (↑protein) · PMN pleocytosis <span class="ff">F</span> · cob-web <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>CCF findings of tubercular meningitis: increased CSF protein (T), increased CSF glucose (F), increased CSF neutrophils (F), increased CSF chloride (F), increased CSF pressure (T).</summary>
+    </div>
+    <div class="qcard">
+      </div>CCF findings of tubercular meningitis: increased CSF protein (T), increased CSF glucose (F), increased CSF neutrophils (F), increased CSF chloride (F), increased CSF pressure (T).</div>
       <div class="ans">↑Protein <span class="tf">T</span> · ↑glucose <span class="ff">F</span> · ↑neutrophils <span class="ff">F</span> · ↑chloride <span class="ff">F</span> · ↑pressure <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Viral meningitis & lymphocytosis</summary>
-    <details>
-      <summary>Followings are associated with viral meningitis: clear CSF (T), lymphocytes (T), neutrophils (F), clot formation (F), blood in CSF (F).</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Viral meningitis & lymphocytosis</div>
+    <div class="qcard">
+      </div>Followings are associated with viral meningitis: clear CSF (T), lymphocytes (T), neutrophils (F), clot formation (F), blood in CSF (F).</div>
       <div class="ans">Clear CSF <span class="tf">T</span> · lymphocytes <span class="tf">T</span> · neutrophils <span class="ff">F</span> · clot <span class="ff">F</span> · blood <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of lymphocytosis in CSF: viral meningitis (T), bacterial meningitis (F), tubercular meningitis (T), fungal meningitis (F), meningeal carcinomatosis (F).</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of lymphocytosis in CSF: viral meningitis (T), bacterial meningitis (F), tubercular meningitis (T), fungal meningitis (F), meningeal carcinomatosis (F).</div>
       <div class="ans">Viral <span class="tf">T</span> · bacterial <span class="ff">F</span> (neutrophils) · tubercular <span class="tf">T</span> · fungal <span class="ff">F</span> · carcinomatosis <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Pleural & ascitic effusions</summary>
-    <details>
-      <summary>Exudative pleural effusion occurs in: pulmonary TB (T), nephrotic syndrome (F), bronchogenic carcinoma (T), pneumonia (T), cardiac failure (F).</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Pleural & ascitic effusions</div>
+    <div class="qcard">
+      </div>Exudative pleural effusion occurs in: pulmonary TB (T), nephrotic syndrome (F), bronchogenic carcinoma (T), pneumonia (T), cardiac failure (F).</div>
       <div class="ans">TB <span class="tf">T</span> · nephrotic <span class="ff">F</span> (transudate) · carcinoma <span class="tf">T</span> · pneumonia <span class="tf">T</span> · cardiac failure <span class="ff">F</span> (transudate).</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — CSF collection & microbiology</summary>
-    <details>
-      <summary>✅ True or False: CSF must be examined within 60 minutes after collection. Koch's Koch's bacilli in CSF seen on Ziehl-Neelsen stain. Chocolate agar used for <em>N. meningitidis</em>. Meigs' syndrome = exudative pleural effusion. ADA test is specific for viral meningitis.</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — CSF collection & microbiology</div>
+    <div class="qcard">
+      </div>✅ True or False: CSF must be examined within 60 minutes after collection. Koch's Koch's bacilli in CSF seen on Ziehl-Neelsen stain. Chocolate agar used for <em>N. meningitidis</em>. Meigs' syndrome = exudative pleural effusion. ADA test is specific for viral meningitis.</div>
       <div class="ans">Within 60 min <span class="tf">T</span> · ZN stain for AFB <span class="tf">T</span> · Chocolate agar <span class="tf">T</span> (for H. influenzae and N. meningitidis) · Meigs' <span class="tf">T</span> (exudative; ovarian fibroma + ascites + hydrothorax) · ADA for viral <span class="ff">F</span> (ADA is for tubercular meningitis).</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
-    <details class="rapid" open>
-    <summary>Body Fluids, CSF & Serous Fluids — One-Liners & Mnemonics (test yourself, then reveal)</summary>
+    <div class="qcard rapid">
+    </div>Body Fluids, CSF & Serous Fluids — One-Liners & Mnemonics (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">🎯 One-liners: CSF glucose ≈ ___% of blood glucose? Cob-web clot = ? Neurosyphilis diagnosis = ? SAAG ≥1.1 = ? Most common cause of pyogenic meningitis = ?</div>
@@ -855,7 +865,7 @@
       <div class="a">Exudative protein <strong>&gt;25 g/L</strong> · Most common transudative cause = <strong>congestive cardiac failure / cirrhosis</strong> · Malignant pleural effusion = <strong>haemorrhagic</strong>.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

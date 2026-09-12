@@ -11,8 +11,7 @@
 i]
 j
 
-<details>
-<summary><b>Q. Mention the procedure for conducting high risk screening for diabetes mellitus in an Upazila, [DU-18M]</b></summary>
+### Q. Mention the procedure for conducting high risk screening for diabetes mellitus in an Upazila, [DU-18M]
 
 The purpose of screening is to identify asymptomatic individuals who are likely to have diabetes. Sep;
 diagnostic tests using standard criteria are required after positive screening tests to establish a definitive diagnosis
@@ -29,10 +28,8 @@ expenditures as a whole, and facilities and resources are available to treat new
 Tests for screening:
 - Random blood sugar (RBS) or
 - Fasting blood sugar (FBS).
-</details>
 
-<details>
-<summary><b>Q. Give the difference between screening and diagnostic test.</b></summary>
+### Q. Give the difference between screening and diagnostic test.
 
 **Differences between screening and diagnostic tests:**
 : _*. Screening test: 5
@@ -53,10 +50,8 @@ Diagnostic test ~~~
 3) Test results are arbitrary and final.
 4) Based on one criterion or cut off point.
 [Ref- Park /24"/ 145]
-</details>
 
-<details>
-<summary><b>Q. Give example of some screening tests.</b></summary>
+### Q. Give example of some screening tests.
 
 **Some screening tests:** a ; _ R
 Pregnancy: Infancy: : Se |
@@ -80,10 +75,8 @@ esity > Glaucoma
   - Cataract
 |Ref- Park /24"/ 152]
 Criteria for Screening
-</details>
 
-<details>
-<summary><b>Q. What should be the criteria of a disease selected for screening? [SUST-15Ju,14J]</b></summary>
+### Q. What should be the criteria of a disease selected for screening? [SUST-15Ju,14J]
 
 **Criteria for screening:** The criteria for screening are based on two considerations —
 - Disease to be screened,
@@ -120,10 +113,8 @@ Rapidity.
 Ease of administration.
 i [Ref Park /24" / 147, 148]
 Sensitivity & Specificity
-</details>
 
-<details>
-<summary><b>Q. Define sensitivity & specificity.</b></summary>
+### Q. Define sensitivity & specificity.
 
 **Sensitivity:**
 Sensitivity is defined as
@@ -142,10 +133,8 @@ result and the remaining 10% of non-diseased people screened by the test will be
 diseased’ when they are not. %
 [Ref- Park / 24% N
 False Negative & False Positive
-</details>
 
-<details>
-<summary><b>Q. Define false negative & false positive.</b></summary>
+### Q. Define false negative & false positive.
 
 **False negative:** The term ‘false-negative’ means that patients who actually have the disease are told thatthe,
 do not have the disease. It amounts to giving them a ‘false reassurance’.
@@ -164,10 +153,8 @@ screening programmes.
 Conclusion: No screening test is perfect, i.e. 100% sensitive & 100% specific.
 [Ref- Park /24*/ 15]
 MCQ
-</details>
 
-<details>
-<summary><b>Q. Screening test: [DU-14J]</b></summary>
+### Q. Screening test: [DU-14J]
 
 a) Done on sick persons
 b) Applied to group
@@ -216,5 +203,4 @@ Acute respiratory infection (ARI) ...
 Severe acute respiratory syndrome (SARS)...
 Acute Diarrhoeal Disease.
 Food poisoning...
-</details>
 

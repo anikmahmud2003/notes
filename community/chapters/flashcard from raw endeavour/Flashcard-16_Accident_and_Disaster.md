@@ -17,8 +17,7 @@ Sports accidents
 
 ## Mass casualties..
 
-<details>
-<summary><b>Q. Define accident. [RU-17M, 13J]<br>Q. Ssify accident. [RU-17M, 13J]</b></summary>
+### Q. Define accident. [RU-17M, 13J]<br>Q. Ssify accident. [RU-17M, 13J]
 
 nswer
 Accidents:
@@ -35,10 +34,8 @@ S.
 Sports accidents.
 Accidents in public places, :
 [Ref- Rashid, Khabir, Hyder / 5" / 384]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the common agents for causation of accidents.</b></summary>
+### Q. Enumerate the common agents for causation of accidents.
 
 **Common agents for causation of accidents:**
 1) Mechanical or kinetic energy (automobile crash, fall, sports injuries etc.).
@@ -49,10 +46,8 @@ Chemical energy (acute brain injury caused by the CO interfering with oxygen car
 blood).
 6) Drowning caused by inhaled water interfering with pulmonary function.
 ; . [Ref- Rashid, Khabir, Hyder / 5* /383]
-</details>
 
-<details>
-<summary><b>Q. &lt;tion the measures for prevention of accidents.</b></summary>
+### Q. &lt;tion the measures for prevention of accidents.
 
 fiswer
 Measures for prevention of accidents:
@@ -69,10 +64,8 @@ fitness to drive, speed limit regulations, compulsory wearing of seat belts and 
 helmets, road-side breath testing for alcohol, etc.
 » Education interventions. a
 [Ref- Rashid, Khabir, Hyder / 5" / 385]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
   - ARC: Accident research centre (in BUET).
   - BHIS: Bangladesh health & injury survey. °
@@ -82,10 +75,8 @@ Road traffic accidents (RTA)
 ° _ are the risk factors for road traffic accidents?
 . What are the factors related to increased road tr: i i
 : affic accident in our country? [RU-12J]
-</details>
 
-<details>
-<summary><b>Q. Road traffic accident (RTA) is increasingly increasing — why? [CU-11J]<br>Q. Explain reasons of RTA in highways. [CU-18M]</b></summary>
+### Q. Road traffic accident (RTA) is increasingly increasing — why? [CU-11J]<br>Q. Explain reasons of RTA in highways. [CU-18M]
 
 **Factors responsible for the causation of RTA:**
 1 A risky mix of vehicles in the traffic stream.
@@ -97,10 +88,8 @@ Poor maintenance of vehicles.
 7 Low driving standards with widespread disregards of traffic rules and road signs.
 38. Unpredictable behaviour of pedestrians.
 [Ref- Rashid, Khabir, Hyder /5"™ /384]
-</details>
 
-<details>
-<summary><b>Q. Briefly discuss the epidemiology of road traffic accident. [CU-1 1Ju]<br>Q. Write down the epidemiology of road traffic accidents (RTA). [CU-10J]<br>Q. What are the important causes of road traffic accidents? [RU-17N]<br>Q. Discuss epidemiological triad regarding accident with example. [DU-13Ju]<br>Q. Enlist the primary factors in accidents. [DU-18M]</b></summary>
+### Q. Briefly discuss the epidemiology of road traffic accident. [CU-1 1Ju]<br>Q. Write down the epidemiology of road traffic accidents (RTA). [CU-10J]<br>Q. What are the important causes of road traffic accidents? [RU-17N]<br>Q. Discuss epidemiological triad regarding accident with example. [DU-13Ju]<br>Q. Enlist the primary factors in accidents. [DU-18M]
 
 **Epidemiology of R.T.A:**
 + Host factors:
@@ -123,10 +112,8 @@ Vectors: Carriers of energy (automobiles). ,
 U
 SURE ues
 4
-</details>
 
-<details>
-<summary><b>Q. “Road traffic accidents cause social disaster”-justify the statement. [RU-13J]</b></summary>
+### Q. “Road traffic accidents cause social disaster”-justify the statement. [RU-13J]
 
 **Road traffic accidents cause social disaster:** acts,
 Of all the types of accidents, road traffic accidents are foremost to cause fatal injuries to occupants of
@@ -137,16 +124,12 @@ road accidents and the number of persons sustaining non-fatal injuries and requi
 nursing care are at least 40 times of this figure.
 In this way road traffic accidents cause social disaster. ;
 [Ref- Rashid, Khabir, Hyder / 5" /384]
-</details>
 
-<details>
-<summary><b>Q. Mention the measures for reducing road traffic accidents. [DU-18N]<br>Q. What are the measures can be taken to prevent road traffic accident? [DU-16J]<br>Q. How RTA can be prevented? [DU-12Ju, CU-15J,11J, RU-17N,14J,12J]<br>Q. How mortality & morbidity of RTA can be reduced? [CU-14Ju]<br>Q. State the role of a pedestrian preventing RTA in a crowded city like Dhaka city. [DU-14Ju]<br>Q. After a devastating RTA, some patients with lacerated wound admitted in a hospital. Now</b></summary>
+### Q. Mention the measures for reducing road traffic accidents. [DU-18N]<br>Q. What are the measures can be taken to prevent road traffic accident? [DU-16J]<br>Q. How RTA can be prevented? [DU-12Ju, CU-15J,11J, RU-17N,14J,12J]<br>Q. How mortality & morbidity of RTA can be reduced? [CU-14Ju]<br>Q. State the role of a pedestrian preventing RTA in a crowded city like Dhaka city. [DU-14Ju]<br>Q. After a devastating RTA, some patients with lacerated wound admitted in a hospital. Now
 
 you make a plan for preventive measures to reduce RTA in Bangladesh. [RU-16J]
-</details>
 
-<details>
-<summary><b>Q. What efforts can be taken to tackle the situation? [CU-18M]<br>Q. Write down the measures for prevention of domestic accidents. [DU-18M]</b></summary>
+### Q. What efforts can be taken to tackle the situation? [CU-18M]<br>Q. Write down the measures for prevention of domestic accidents. [DU-18M]
 
 **Prevention of RTA:**
 Dr Pata collection: Data collection: There should be basic reporting system. Without adequate data collection, analysis
@@ -194,10 +177,8 @@ Causes of accidents in water transport:
 4) Poor maintenance of vehicle.
 5) Low driving skill (unskilled driver).
 6) Lack of knowledge about current weather.
-</details>
 
-<details>
-<summary><b>Viva Q. Write down the preventive measures of accidents in water transport.</b></summary>
+### Viva Q. Write down the preventive measures of accidents in water transport.
 
 nswer
 Preventive measures of accidents in water transport:
@@ -211,19 +192,15 @@ Preventive measures of accidents in water transport:
 8) Legislation.
 9) Maintenance of traffic rule.
 Domestic accidents
-</details>
 
-<details>
-<summary><b>Q. What do you mean by domestic accident?</b></summary>
+### Q. What do you mean by domestic accident?
 
 **Domestic accident:** ; oo, ; ; -
 ( Domestic accident means an accident which takes place in the home or in its immediate surroundings, _)
 and more generally, all accidents not connected with traffic, vehicles or sport... ____—
 [Ref- Park / 24" / 427]
-</details>
 
-<details>
-<summary><b>Q. Mention the common domestic accidents. [DU-13J, RU-14J]<br>Q. What are the causes of domestic accidents?<br>Q. Classify domestic accidents. [DU-I1Ju]</b></summary>
+### Q. Mention the common domestic accidents. [DU-13J, RU-14J]<br>Q. What are the causes of domestic accidents?<br>Q. Classify domestic accidents. [DU-I1Ju]
 
 Causes of domestic accidents /common household accidents:
 Ay, Bruise, cuts or punctured wounds.
@@ -238,10 +215,8 @@ insecticides, rat poison, kerosene etc).
 9) Drowning.
 10) Bites and other injuries from animals,
 [Ref- Rashid, Khabir, Hyder / 5 / 384 + Park / 24" 1427)
-</details>
 
-<details>
-<summary><b>Q. How can you prevent domestic accidents? [DU-1 IJu, RU-17M]</b></summary>
+### Q. How can you prevent domestic accidents? [DU-1 IJu, RU-17M]
 
 **Prevention of domestic / household accidents:** The measures include —
 1). Adult members of the house should be acquainted with the principles and practice of first-aid which
@@ -255,10 +230,8 @@ Telephone numbers of hospitals, ambulance, etc. should be known and so also the 
 Dd
 nearest doctor.
 [Ref- Rashid, Khabir, Hyder / 5 / 386]
-</details>
 
-<details>
-<summary><b>Q. Define drowning. Write down the prevention about drowning.</b></summary>
+### Q. Define drowning. Write down the prevention about drowning.
 
 **Drowning:**
 Drowning is the process of experiencing respiratory impairment from submersion / immersion in liquid.
@@ -280,10 +253,8 @@ Prevention of drowning:
 0.Rescue team.
 COMI DA
 Industrial accidents
-</details>
 
-<details>
-<summary><b>Q. Name the common industrial accidents.<br>Q. What are the accidents commonly seen to occur in factories?</b></summary>
+### Q. Name the common industrial accidents.<br>Q. What are the accidents commonly seen to occur in factories?
 
 **Common industrial accidents:**
 Injuries like abrasion, contusion, laceration, penetrating wound.
@@ -317,17 +288,13 @@ My Supervision and training of the worker.
 Easy access to fire extinguishers and prohibition of cigarette smoking.
 eaten of safety laws.
 [Ref- Rashid, Khabir, Hyder 15* /385]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Industrial accident.<br>Q. Discuss ‘industrial accident’ in context of Bangladesh. [DU14Ju]</b></summary>
+### Q. Write short note on: Industrial accident.<br>Q. Discuss ‘industrial accident’ in context of Bangladesh. [DU14Ju]
 
 Please write from above discussion.
 Sports accidents
-</details>
 
-<details>
-<summary><b>Q. What are the different types of sports accidents?<br>Q. What measures should we take to prevent sports accidents?</b></summary>
+### Q. What are the different types of sports accidents?<br>Q. What measures should we take to prevent sports accidents?
 
 **Sports accidents:**
 Accidents resulting from sports and games are-
@@ -336,38 +303,28 @@ Accidents resulting from sports and games are-
 Prevention of sports accidents: ;
 Preventive information and proper training should limit serious accident from sports and games.
 [Ref- Rashid, Khabir, Hyder / 5" / 384, 386]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Disaster. [CU-12Ju]</b></summary>
+### Q. Write short note on: Disaster. [CU-12Ju]
 
 Please write from below discussion.
-</details>
 
-<details>
-<summary><b>Q. Define disaster. [SUST-18N/M,17N/M, IGN, 15J,13Ju/J, RU-18M, 16N, 15J,13J,12J,10Ju, CU-18N, 17N]</b></summary>
+### Q. Define disaster. [SUST-18N/M,17N/M, IGN, 15J,13Ju/J, RU-18M, 16N, 15J,13J,12J,10Ju, CU-18N, 17N]
 
 _Q. Define disaster. [SUST-18N/M,17N/M, IGN, 15J,13Ju/J, RU-18M, 16N, 15J,13J,12J,10Ju, CU-18N, 17N]_
-</details>
 
-<details>
-<summary><b>Q. Give the WHO definition of disaster.</b></summary>
+### Q. Give the WHO definition of disaster.
 
 Disaster; WHO definition of a disaster is —
 Any occurrence that causes damage, economic disruption, loss of human life or deterioration of health
 and health services on a scale sufficient to warrant an extraordinary response from outside the affected
 community or area.
 [Ref- Park / 24" / 832)
-</details>
 
-<details>
-<summary><b>Q. Classify disaster with example. [DU-18N, 1 5Ju,12Ju/J, CU-13Ju, SUST-I6N, 13J, RU- 18M, 16N,15J,13J,12J,10Ju]</b></summary>
+### Q. Classify disaster with example. [DU-18N, 1 5Ju,12Ju/J, CU-13Ju, SUST-I6N, 13J, RU- 18M, 16N,15J,13J,12J,10Ju]
 
 _Q. Classify disaster with example. [DU-18N, 1 5Ju,12Ju/J, CU-13Ju, SUST-I6N, 13J, RU- 18M, 16N,15J,13J,12J,10Ju]_
-</details>
 
-<details>
-<summary><b>Q. Name four common disasters occur in Bangladesh. [SUST-16J]<br>Q. List commonly occurring disasters in Bangladesh. [CU-13Ju]</b></summary>
+### Q. Name four common disasters occur in Bangladesh. [SUST-16J]<br>Q. List commonly occurring disasters in Bangladesh. [CU-13Ju]
 
 **Types of disaster:**
 A) Natural disasters: Commonly occurring disasters in
@@ -399,10 +356,8 @@ B) Man-made disasters:
 12) Fire.
 [Ref- Rashid, Khabir, Hyder / 5" / 388 + Lecture]
 45
-</details>
 
-<details>
-<summary><b>Q. Mention some recent di i</b></summary>
+### Q. Mention some recent di i
 
 ae ent disasters in the world. (SUST-15Ju,1 IJu]
 Some recent disaster in the world:
@@ -410,10 +365,8 @@ Some recent disaster in the world:
 Santa Catarina floods and mudslides
 Cyclone Sidr in Bangladesh
 Indian Ocean Tsunami
-</details>
 
-<details>
-<summary><b>Q. Name the common natural disasters of Bangladesh.</b></summary>
+### Q. Name the common natural disasters of Bangladesh.
 
 **Types of disasters generally seen in Bangladesh:**
 1) Cyclone
@@ -423,10 +376,8 @@ Indian Ocean Tsunami
 5) Landslide
 6) Drought
 7) Earthquake
-</details>
 
-<details>
-<summary><b>Viva Q. Name the man made disasters in Bangladesh.</b></summary>
+### Viva Q. Name the man made disasters in Bangladesh.
 
 **Man made disasters in Bangladesh:**
 1) Fire.
@@ -436,16 +387,12 @@ Indian Ocean Tsunami
 5) Armed conflicts (e.g. war), political conflicts.
 6) Riot.
 7) Environmental pollution.
-</details>
 
-<details>
-<summary><b>Q. Mention the effects / health effects [SUST-17N, 16J,15J,13J,12J,1 1Ju] / health impacts [SUST-</b></summary>
+### Q. Mention the effects / health effects [SUST-17N, 16J,15J,13J,12J,1 1Ju] / health impacts [SUST-
 
 18N] of disaster.
-</details>
 
-<details>
-<summary><b>Q. Write down the effects of a natural disaster. [DU-11J]<br>Q. What are the health hazards [DU-16J] / immediate health hazards [DU-12Ju] of flood?<br>Q. Mention the impacts of flood on public health, [DU-14Ju]<br>Q. Discuss the socio-economic impacts of disaster in a community. [RU-16N]<br>Q. Mention the short term effects of earth quakes and tidal waves disaster. [RU-10Ju]<br>Q. Mention the main points of aftermath management of flood. [RU-18M]<br>Q. How disasters increase the transmission of communicable disease? [CU-18N]</b></summary>
+### Q. Write down the effects of a natural disaster. [DU-11J]<br>Q. What are the health hazards [DU-16J] / immediate health hazards [DU-12Ju] of flood?<br>Q. Mention the impacts of flood on public health, [DU-14Ju]<br>Q. Discuss the socio-economic impacts of disaster in a community. [RU-16N]<br>Q. Mention the short term effects of earth quakes and tidal waves disaster. [RU-10Ju]<br>Q. Mention the main points of aftermath management of flood. [RU-18M]<br>Q. How disasters increase the transmission of communicable disease? [CU-18N]
 
 **Effects of disaster on health:** _—
 1) Deaths: Many people perish in an earthquake and many deaths are caused by a tidal wave. Number
@@ -470,31 +417,23 @@ Water pollution due to over flooding of ponds, tanks, and river.
 Animal bite - Tiger, Snake, Jackal etc.
 Nuisance by dead man and animal and human excreta.
 [Ref- Rashid, Khabir, Hyder / 5™ / 389]
-</details>
 
-<details>
-<summary><b>Q. Mention the fundamental aspects of disaster management.</b></summary>
+### Q. Mention the fundamental aspects of disaster management.
 
 **Fundamental aspects of disaster management:**
 1) Disaster response,
 2) Disaster preparedness,
 3) Disaster mitigation.
-</details>
 
-<details>
-<summary><b>Q. What do you mean by disaster preparedness? [SUST-16N]<br>Q. Enumerate the steps of disaster preparedness. [SUST-17M]<br>Q. Write down the principles of disaster management [SUST-15Ju] / disaster preparedness [DU-</b></summary>
+### Q. What do you mean by disaster preparedness? [SUST-16N]<br>Q. Enumerate the steps of disaster preparedness. [SUST-17M]<br>Q. Write down the principles of disaster management [SUST-15Ju] / disaster preparedness [DU-
 
 13Ju, SUST-15J,13Ju,10J}
-</details>
 
-<details>
-<summary><b>Q. How can we best prepare for mass casualty in a tertiary setting? [CU-11J]<br>Q. How can you mitigate the health impact of disaster? [SUST-18M,15J,11Ju]<br>Q. Describe in brief pre-disaster management of Tsunami. [RU-13J]<br>Q. Draw a pen picture of post disaster management of a cyclone affected area in Bangladesh. [CU-13Ju]</b></summary>
+### Q. How can we best prepare for mass casualty in a tertiary setting? [CU-11J]<br>Q. How can you mitigate the health impact of disaster? [SUST-18M,15J,11Ju]<br>Q. Describe in brief pre-disaster management of Tsunami. [RU-13J]<br>Q. Draw a pen picture of post disaster management of a cyclone affected area in Bangladesh. [CU-13Ju]
 
 _Q. How can we best prepare for mass casualty in a tertiary setting? [CU-11J]_
-</details>
 
-<details>
-<summary><b>Q. Discuss disaster preparedness for a cyclone situation in Bangladesh. [CU-17N]<br>Q. Discuss the preparedness plan for earthquake in Bangladesh. [DU-15Ju]<br>Q. Discuss disaster management. [SUST-16M]<br>Q. Write short note on: Disaster preparedness. [SUST-14Ju, 12Ju]</b></summary>
+### Q. Discuss disaster preparedness for a cyclone situation in Bangladesh. [CU-17N]<br>Q. Discuss the preparedness plan for earthquake in Bangladesh. [DU-15Ju]<br>Q. Discuss disaster management. [SUST-16M]<br>Q. Write short note on: Disaster preparedness. [SUST-14Ju, 12Ju]
 
 **Disaster preparedness and response:**
 A) Prevention and alleviation of consequences:
@@ -538,10 +477,8 @@ reconstruction-
 public buildings, execute programmes for replacing destroyed housing: exercise economic and
 technical control of labour and material.
 [Ref- Rashid, Khabir, Hyder / 5/390]
-</details>
 
-<details>
-<summary><b>Q. Chalk out a plan for prevention of communicable diseases in a natural disaster like SIDR.</b></summary>
+### Q. Chalk out a plan for prevention of communicable diseases in a natural disaster like SIDR.
 
 Prevention & control of communicable diseases after a disaster like SIDR:
 i duce the risk of disease transmission.
@@ -550,10 +487,8 @@ i duce the risk of disease transmission.
 measures.
 3) Investigate all reports of disease outbreaks rapidly.
 : [Ref- Park / 24" / 834]
-</details>
 
-<details>
-<summary><b>Q. How can you mitigate the health effects of disaster? [SUST-13Ju]</b></summary>
+### Q. How can you mitigate the health effects of disaster? [SUST-13Ju]
 
 Mitigation / reduction of the health effects of disaster: Emergency prevention and mitigation involves
 measures designed either to prevent hazards from causing emergency or to lessen the likely effects of
@@ -563,17 +498,13 @@ emergencies. These measures include —
   - Improved building codes.
   - Reduction or protection of vulnerable population and structures.
 [Ref- Park / 24" / 835]
-</details>
 
-<details>
-<summary><b>Q. Discuss the epidemiology of disaster and effects of different types of disaster on health. [DU- 16M]</b></summary>
+### Q. Discuss the epidemiology of disaster and effects of different types of disaster on health. [DU- 16M]
 
 Please write from below from individual discussion of disaster.
 Mass casualties
-</details>
 
-<details>
-<summary><b>Q. Mention the efforts for management of mass casualties.</b></summary>
+### Q. Mention the efforts for management of mass casualties.
 
 **Management of mass casualties:**
 1) Search and rescue
@@ -581,10 +512,8 @@ Mass casualties
 3) Triage
 4) Treatment
 5) Reference
-</details>
 
-<details>
-<summary><b>Q. Define triage. [CU-17N]<br>Q. Write short note on: Triage.</b></summary>
+### Q. Define triage. [CU-17N]<br>Q. Write short note on: Triage.
 
 **Triage:**
 It consists of rapidly classifying the injured on the basis of the severity of the injuries and livelihood of
@@ -595,10 +524,8 @@ Four color code system for triage:
 2) Yellow: Medium priority.
 3) Green: Ambulatory patients.
 4) Black: Dead / morbid patients.
-</details>
 
-<details>
-<summary><b>Q. Natural disasters include: [DU-18M,17N, Q. Psychological human factors of accidents</b></summary>
+### Q. Natural disasters include: [DU-18M,17N, Q. Psychological human factors of accidents
 
 **13J] are:** [DU-11Ju]
 a) Landslide. a) sudden illness
@@ -607,10 +534,8 @@ c) Leak of toxic gases. c) education
 d) Famine. d) lack of experience
 e) War. e) family disruption
 Ans. a) T, b) T, c) F, d) T, e) F. Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Factors causing road traffic accidents: [DU-15Ju]</b></summary>
+### Q. Factors causing road traffic accidents: [DU-15Ju]
 
 a) Mixed fast & slow traffic.
 b) Bad employee-employer relation.
@@ -643,5 +568,4 @@ Slaughter house..
 Badge of the trade..
 Factory legislation..
 MCQ
-</details>
 

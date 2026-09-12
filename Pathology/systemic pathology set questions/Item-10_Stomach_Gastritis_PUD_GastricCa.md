@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Name some congenital or acquired anomalies of GIT.</b></summary>
+### Q1. Name some congenital or acquired anomalies of GIT.
 
 ### Congenital anomalies
 
@@ -32,10 +31,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Classify neoplasms of stomach / GIT.</b></summary>
+### Q2. Classify neoplasms of stomach / GIT.
 
 ### Neoplasms of the GIT by region
 
@@ -64,10 +61,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Define gastritis and mention its types and causes.</b></summary>
+### Q3. Define gastritis and mention its types and causes.
 
 ### Definition
 **Gastritis = inflammation of the gastric mucosa, diagnosed histologically by the presence of inflammatory cells (neutrophils and/or mononuclear cells) within the mucosa.**
@@ -94,10 +89,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Define peptic ulcer and mention its sites of formation.</b></summary>
+### Q4. Define peptic ulcer and mention its sites of formation.
 
 ### Definition
 **Peptic ulcer = a chronic, usually solitary, breach of the gastrointestinal mucosa ≥5 mm in diameter that extends through the muscularis mucosae into the submucosa (deeper layers may be involved), caused by the action of acid-peptic juice.**
@@ -121,10 +114,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Mention the defence mechanism of gastric mucosa.</b></summary>
+### Q5. Mention the defence mechanism of gastric mucosa.
 
 The stomach balances **aggressive factors (acid + pepsin)** against **defensive (mucosal protective) mechanisms**:
 
@@ -149,10 +140,8 @@ NSAID ↓PG · H. pylori ↓mucus/↑acid · smoking ↓bicarbonate/flow
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Describe the pathogenesis of peptic ulcer disease.</b></summary>
+### Q6. Describe the pathogenesis of peptic ulcer disease.
 
 ### Concept
 PUD results when 🔴 **aggressive factors (acid–pepsin, H. pylori toxins, NSAIDs, bile)** overwhelm 🔴 **mucosal defence (mucus-bicarbonate, PGs, blood flow, restitution)**. Two dominant pathways account for almost all cases:
@@ -191,10 +180,8 @@ NSAID inhibits COX-1
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention causes, risk factors, and predisposing factors of peptic ulcer disease.</b></summary>
+### Q7. Mention causes, risk factors, and predisposing factors of peptic ulcer disease.
 
 | Category | Factors |
 |---|---|
@@ -212,10 +199,8 @@ NSAID inhibits COX-1
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. List the diseases of stomach caused by H. pylori.</b></summary>
+### Q8. List the diseases of stomach caused by H. pylori.
 
 🔴 *H. pylori* (WHO class I carcinogen) produces a spectrum in the stomach:
 
@@ -244,10 +229,8 @@ Acute H. pylori gastritis
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Explain the role of H. pylori in the pathogenesis of peptic ulcer.</b></summary>
+### Q9. Explain the role of H. pylori in the pathogenesis of peptic ulcer.
 
 ### Step-by-step virulence → ulcer
 
@@ -277,10 +260,8 @@ D-cell destruction        → ↑ gastrin → ↑ ACID
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Write down the morphology and histological features of peptic ulcer disease.</b></summary>
+### Q10. Write down the morphology and histological features of peptic ulcer disease.
 
 ### Gross morphology
 - Usually **solitary**; round-to-oval, sharply demarcated ("punched-out"), **≤2 cm (DU often smaller than GU)**.
@@ -308,10 +289,8 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Mention the complications of peptic ulcer disease.</b></summary>
+### Q11. Mention the complications of peptic ulcer disease.
 
 | Complication | Frequency | Features |
 |---|---|---|
@@ -328,10 +307,8 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. How will you differentiate a peptic (benign) ulcer from a malignant ulcer?</b></summary>
+### Q12. How will you differentiate a peptic (benign) ulcer from a malignant ulcer?
 
 | Feature | **Benign peptic ulcer** | **Malignant ulcer (ulcerated carcinoma)** |
 |---|---|---|
@@ -359,10 +336,8 @@ Base     ④ FIBROUS (COLLAGENOUS) SCAR — replaces muscularis propria; thick-w
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Classify gastric carcinoma.</b></summary>
+### Q13. Classify gastric carcinoma.
 
 ### 1. Lauren classification (most used)
 
@@ -391,10 +366,8 @@ I Polypoid/exophytic · II Fungating · III Ulcerated (heaped margins) · IV Dif
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Write down the risk factors of gastric carcinoma.</b></summary>
+### Q14. Write down the risk factors of gastric carcinoma.
 
 | Category | Risk factors |
 |---|---|
@@ -413,10 +386,8 @@ I Polypoid/exophytic · II Fungating · III Ulcerated (heaped margins) · IV Dif
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Discuss the morphology of gastric carcinoma.</b></summary>
+### Q15. Discuss the morphology of gastric carcinoma.
 
 ### Gross morphology (advanced)
 | Pattern | Description |
@@ -441,10 +412,8 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Differentiate between gastric ulcer and duodenal ulcer.</b></summary>
+### Q16. Differentiate between gastric ulcer and duodenal ulcer.
 
 | Feature | **Gastric ulcer (GU)** | **Duodenal ulcer (DU)** |
 |---|---|---|
@@ -467,10 +436,8 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Mention the sites of gastric carcinoma. How does gastric carcinoma spread?</b></summary>
+### Q17. Mention the sites of gastric carcinoma. How does gastric carcinoma spread?
 
 ### Sites
 | Location | Frequency |
@@ -504,4 +471,3 @@ Overall 5-yr survival <25%; early lesions >90%; nodal involvement markedly worse
 
 ---
 
-</details>

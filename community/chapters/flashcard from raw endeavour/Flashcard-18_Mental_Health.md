@@ -9,8 +9,7 @@
 
 ## Mental Health
 
-<details>
-<summary><b>Q. Define mental health.<br>Q. What are the warning signals of poor mental health? [RU-18M]</b></summary>
+### Q. Define mental health.<br>Q. What are the warning signals of poor mental health? [RU-18M]
 
 **Mental health:**
 More recently, mental health has been defined as “a state of balance between the individual and the
@@ -30,10 +29,8 @@ Warning signals of poor mental health:
 10) Fear and panic without real cause.
 11) Feeling own decisions always right and other's wrong.
 [Ref- Rashid, Khabir, Hyder 15" / 425 + Park /24™ / 868]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the criteria of a mentally healthy person. [RU-18M]</b></summary>
+### Q. Enumerate the criteria of a mentally healthy person. [RU-18M]
 
 **Criteria of a mentally healthy person:**
 1
@@ -47,5 +44,4 @@ Warning signals of poor mental health:
 [Ref- Park / 24" / 868]
 ,
 ee
-</details>
 

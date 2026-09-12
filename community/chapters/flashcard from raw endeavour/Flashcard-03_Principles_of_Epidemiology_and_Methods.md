@@ -11,8 +11,7 @@ Principles of Epidemiology
 Basic Principles of Epidemiology
 [DU-16N, 15J,13J, CU-18N, 16M, 15Ju, SUST-18N/M,17N, 16M/J, 145]
 
-<details>
-<summary><b>Q. Define epidemiology.<br>Q. What is modern epidemiology?</b></summary>
+### Q. Define epidemiology.<br>Q. What is modern epidemiology?
 
 **Stites meaning:** The word ‘epidemiology derived from three Greek roots
   - ‘Epi’ means among
@@ -23,10 +22,8 @@ US Definition by“ e application of this study to the control of health
 States or events in specified populations, ind th
 lems, is called e| idemiology. )
 prewsen ° [Ref- Park / 24" /57]
-</details>
 
-<details>
-<summary><b>📌 Viva — Health related events</b></summary>
+### 📌 Viva — Health related events
 
 Health related events
 Health related states
@@ -34,10 +31,8 @@ Health related states
   - Nutrition. > Death.
   - Smoking. > Marriage.
   - Life style. > Migration.
-</details>
 
-<details>
-<summary><b>Q. Me tion the uses [DU-15J, CU-15J,12J] / two uses [DU-14J] of epidemiology.</b></summary>
+### Q. Me tion the uses [DU-15J, CU-15J,12J] / two uses [DU-14J] of epidemiology.
 
 _ penton the scopes of modern epidemiology. [CU-18N, 16M, 15Ju]
 swer
@@ -50,10 +45,8 @@ as yndrome identification.
 ompleting the natural history of disease.
 Searching for causes and risk factors.
 Basic components of epidemiolo
-</details>
 
-<details>
-<summary><b>Q. Disgus the basic components of epidemiology?<br>Q. How disease can be distributed? [SUST-14Ju]</b></summary>
+### Q. Disgus the basic components of epidemiology?<br>Q. How disease can be distributed? [SUST-14Ju]
 
 : riefly discuss the distribution of diseases. [SUST-16J]
 . H
@@ -113,10 +106,8 @@ The ultimate aim of epidemiology: To lead effective action.
   - To promote the health and well-being of society as a whole.
 [Ref- Park /24™/ 58]
 idemiolo inic dici
-</details>
 
-<details>
-<summary><b>Q. State the differences between epidemiology and clinical medicine.</b></summary>
+### Q. State the differences between epidemiology and clinical medicine.
 
 Ariswer ,
 Difference between epidemiology and clinical medicine:
@@ -139,10 +130,8 @@ care; €.g. preventive, primitive, curative, | -
 rehabilitative.
 [Ref- Park / 24" /58}
 Epidemiological approach
-</details>
 
-<details>
-<summary><b>Q. What are the epidemiological approaches to problem of health? [RU-16M]<br>Q. Write the appropriate epidemiological approaches. [RU-13J]</b></summary>
+### Q. What are the epidemiological approaches to problem of health? [RU-16M]<br>Q. Write the appropriate epidemiological approaches. [RU-13J]
 
 **‘ Epidemiological approach:** The epidemiological approach of health and disease two major foundations —
 \ - Asking questions.
@@ -176,10 +165,8 @@ Thus, epidemiological study can find out the aetiology of form such comparison.
 [Ref- Park /24" /58, 59 + Rashid, Khabir, Hyder /5*]
 Basic Measurements of Epidemiology
 Measurements in epidemiology
-</details>
 
-<details>
-<summary><b>Q. Enumerate the measurements of epidemiology.</b></summary>
+### Q. Enumerate the measurements of epidemiology.
 
 an the basic measurements in epidemiology? [CU-14Ju]
 \U An wer
@@ -197,16 +184,12 @@ suspected of causing the disease.
 8) Measurement of demographic variables.
 [Ref- Park / 24/59]
 Tools of measurément in epidemiology
-</details>
 
-<details>
-<summary><b>Q. Whafare the basic tools of measurement in epidemiology? [DU-16N,12Ju, RU-18M,16M,14Ju,</b></summary>
+### Q. Whafare the basic tools of measurement in epidemiology? [DU-16N,12Ju, RU-18M,16M,14Ju,
 
 _—~ CU-15J, 133]
-</details>
 
-<details>
-<summary><b>Q. What are the measurements used in epidemiology? State the ratio and proportion.</b></summary>
+### Q. What are the measurements used in epidemiology? State the ratio and proportion.
 
 **Basic tools of measurement in epidemiology:**
 7 > Rates,
@@ -247,19 +230,15 @@ Proportion = —————————_—_ * 100
 Total number of children
 The numerator is always included in the denominator.
 [Ref- Park / 24" /60]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **Numerator:** Number of time an event (e.g. sickness, birth, death) has occurred in a population during a
 given time period.
 4 Denominator: The population to which the events are related.
 SS [Ref- Park / 24" / 60]
-</details>
 
-<details>
-<summary><b>Q. In an urban community, a total of 250 children aged 3 years have been suffering from</b></summary>
+### Q. In an urban community, a total of 250 children aged 3 years have been suffering from
 
 measles. 35 children died of the disease among them. What rate should be calculated about
 the disease? Calculate the rate. [RU-14J}
@@ -273,10 +252,8 @@ Denominator (Y)
 = 140 per 1000 affected children
 —-==088
 63
-</details>
 
-<details>
-<summary><b>Q. In a slum there are 50 children with PEM out of 500 children. Total 2000 people live in that</b></summary>
+### Q. In a slum there are 50 children with PEM out of 500 children. Total 2000 people live in that
 
 slum. Calculate proportion of PEM among the children. [DU-12Ju]
 Calculation of proportion:
@@ -297,10 +274,8 @@ Total number of population
 x 100
 =25%
 Measurement of Mortality and Mortality Rates and Ratios
-</details>
 
-<details>
-<summary><b>Q. Ww t are the commonly used mortality rates & ratio measures?</b></summary>
+### Q. Ww t are the commonly used mortality rates & ratio measures?
 
 **_/ Commonly used mortality rates & ratio measures:**
 ~1) Crude death rate.
@@ -309,10 +284,8 @@ _ 3) Case fatality rate (ratio).
 ) 4) Proportional mortality rate (ratio).
 5) Survival rate.
 6) Adjusted or standardized rates.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Crude death rate.</b></summary>
+### Q. Write short note on: Crude death rate.
 
 **Crude death rate (CDR):**
 [Ref- Park / 24" / 62]
@@ -325,10 +298,8 @@ Crude death rate =
 Mid-year population
 [Ref- Park /24" / 62]
 VIVA & OSPE
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Case fatality rate (CFR). [CU-15J]</b></summary>
+### Q. Write short note on: Case fatality rate (CFR). [CU-15J]
 
 **Case fatality rate (CFR):**
 Case fatality rate =
@@ -348,10 +319,8 @@ Total number of cases due to the same disease
 20
 = x 1000
 = 100
-</details>
 
-<details>
-<summary><b>Q. Define proportional mortality rate.<br>Q. Write short note on: PMR. [CU-18M,17M]</b></summary>
+### Q. Define proportional mortality rate.<br>Q. Write short note on: PMR. [CU-18M,17M]
 
 **Proportional mortality rate (Ratio) / PMR:**
 Proportional mortality rate (PMR) expresses the “number of deaths due to a particular cause (or ina
@@ -370,10 +339,8 @@ Total number of deaths from the specific disease in a year
 Specific death rate = x 1000
 Mid-year population in the same year
 Problem based question
-</details>
 
-<details>
-<summary><b>Q. Ina given year ina defined population, the following statistics were found: (i) Mid-year</b></summary>
+### Q. Ina given year ina defined population, the following statistics were found: (i) Mid-year
 
 population 6000; (ii) No. of people suffering from TB 600; (iii) No. of deaths due to TB 150; (iv)
 Total no. of deaths 450. Now calculate the following measurements. [RU-18M]
@@ -389,10 +356,8 @@ Total number of deaths from all causes in that year
 = 150/450 x 100 = 33.33%
 Measurement of Morbidity
 Incidence and Prevalence
-</details>
 
-<details>
-<summary><b>Q. Define incidence and prevalence. [SUST-13Ju]<br>Q. Define incidence rate & prevalence rate with their uses. [RU-18M,16J]</b></summary>
+### Q. Define incidence and prevalence. [SUST-13Ju]<br>Q. Define incidence rate & prevalence rate with their uses. [RU-18M,16J]
 
 **r _Q< Write short note on:** Prevalence. [CU-15J]
 —~ Answer
@@ -441,10 +406,8 @@ Incidence = 10 cases per 1000 per year
 Mean duration of disease= 5 years
 Prevalence = 10 x 5 = 50 per 100 population.
 [Ref- Park / 24" / 66]
-</details>
 
-<details>
-<summary><b>Q. Define point prevalence & period prevalence.</b></summary>
+### Q. Define point prevalence & period prevalence.
 
 **_Aoint prevalence:**
 Point prevalence of a disease is defined as the number of all current cases (old or new) of a disease at
@@ -461,20 +424,16 @@ x 100
 Point prevalence =
 Estimated population at the same interval of time at risk
 [Ref- Park / 24" / 66]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **+ Special incidence rates:** e.g.
 1) Attack rate (case rate).
 2) Secondary attack rate.
 3) Hospital admission rate.
 [Ref- Park /24"/ 66]
-</details>
 
-<details>
-<summary><b>Q. Differentiate between incidence rate & prevalence rate. [DU-18N,17N]<br>Q, What are the differences between prevalence & incidence?</b></summary>
+### Q. Differentiate between incidence rate & prevalence rate. [DU-18N,17N]<br>Q, What are the differences between prevalence & incidence?
 
 Answer
 Differences be! ev ¢ H
@@ -484,10 +443,8 @@ seriod time in a given population. interval divided by estimated population at r
 2. It is an instantancous record. 2. It is a continuous record.
 3. Not ideal measure for studying disease etiology | 3. Suitable in the formulation and testing of aetiological
 or causation. : hypothesis. _
-</details>
 
-<details>
-<summary><b>Q. In an urban community in 2016, the numbers of women of reproductive age were 15000 and</b></summary>
+### Q. In an urban community in 2016, the numbers of women of reproductive age were 15000 and
 
 among them 450 were detected as obese. In the same community in 2017, a total of 850 were
 detected as obese when that population becomes 16000. Calculate the prevalence of obese for
@@ -511,26 +468,20 @@ Population at risk during that period
 =—___— x 1,000
 = x 1,000
 = 25 persons per 1000 per year
-</details>
 
-<details>
-<summary><b>Q. There was an outbreak of cholera in a village where 5000 people were living. Ten percent (10%)</b></summary>
+### Q. There was an outbreak of cholera in a village where 5000 people were living. Ten percent (10%)
 
 of those populations were affected by cholera and among them 30 people died due to that
 disease. Mention the severity of the disease by calculating relevant rate. [RU-17N]
 Please write from above.
 VIVA & OSPE
 Epidemiologic Methods
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiological methods. [DU-13J] zl<br>Q. Classify epidemiological methods. [DU-18N,17N,15J,14J,12J, SUST-18M,17N/M, 16N/M, RU 18N,17M,14J,12J,10Ju, CU-14J,12Ju, 1 Ju, 10Ju]</b></summary>
+### Q. Write down the epidemiological methods. [DU-13J] zl<br>Q. Classify epidemiological methods. [DU-18N,17N,15J,14J,12J, SUST-18M,17N/M, 16N/M, RU 18N,17M,14J,12J,10Ju, CU-14J,12Ju, 1 Ju, 10Ju]
 
 _Q. Write down the epidemiological methods. [DU-13J] zl_
-</details>
 
-<details>
-<summary><b>Q. Mention different types of epidemiological studies [DU-11J, CU-16N/J,</b></summary>
+### Q. Mention different types of epidemiological studies [DU-11J, CU-16N/J,
 
 CZ epidemiological methods [SUST-14J/J,1 Ju].
 Types of epidemiological methods / studies:
@@ -548,17 +499,13 @@ B) Experimental studies Intervention studies: 7 . . 4
 3) Community trials with communities as unit of study
 [Ref- Park / 24" /67]
 Descriptive Epidemiology
-</details>
 
-<details>
-<summary><b>Q. Discuss the steps to conduct a descriptive study. [DU-17M, SUST-17M]<br>Q. Discuss descriptive epidemiological method. [SUST-1 1Ju]</b></summary>
+### Q. Discuss the steps to conduct a descriptive study. [DU-17M, SUST-17M]<br>Q. Discuss descriptive epidemiological method. [SUST-1 1Ju]
 
 ~ You want to observe the distribution of a disease among a population — write down the steps
 of study design. [DU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Measurement of disease. [SUST-16M]</b></summary>
+### Q. Write short note on: Measurement of disease. [SUST-16M]
 
 **Description of epidemiological methods / studies:**
 * Descriptive epidemiology / descriptive study: Descriptive studies are concerned with observing the
@@ -624,10 +571,8 @@ subgroups it is postbag to arrive at clues to disease aetiology.
 6) Formulation of a hypothesis.
 [Ref- Park /24" / 68]
 Cross sectional study
-</details>
 
-<details>
-<summary><b>Q. Define cross sectional study.<br>Q. Write down the advantages of cross sectional study. [DU-11J]<br>Q. Write short note on: Cross-sectional study.</b></summary>
+### Q. Define cross sectional study.<br>Q. Write down the advantages of cross sectional study. [DU-11J]<br>Q. Write short note on: Cross-sectional study.
 
 fswer
 Cross sectional study / lence study:
@@ -652,10 +597,8 @@ J
 — study
 \
 ; Q. Define longitudinal study.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Longitudinal study.</b></summary>
+### Q. Write short note on: Longitudinal study.
 
 **Longitudinal studies:**
 In longitudinal study, observations are repeated in the same population over a prolonged period of time
@@ -675,10 +618,8 @@ Disadvantages of longitudinal studies:
 [Ref- Park / 24" / 74]
 [Ref- Park / 24" /75]
 RALLYE A AAAVARALRANARAAAN Aaneneees~-—__ Sesunediwith CamSesnner
-</details>
 
-<details>
-<summary><b>Q. State the differences between cross sectional & longitudinal studies. [DU-16N, RU-17M]<br>Q. Write down the differences between descriptive cross sectional & longitudinal studies. [DU- 8M]</b></summary>
+### Q. State the differences between cross sectional & longitudinal studies. [DU-16N, RU-17M]<br>Q. Write down the differences between descriptive cross sectional & longitudinal studies. [DU- 8M]
 
 swer
 Differences between cross sectional and longitudinal studies:
@@ -708,17 +649,13 @@ examination.
 \
 Fl
 [Ref- Rashid, Khabir, Hyder /5" /94]
-</details>
 
-<details>
-<summary><b>Q. To estimate prevalence rate of a disease which study you prefer and why?<br>Q. Why you choose cross sectional study to estimate the prevalence of scabies among under two</b></summary>
+### Q. To estimate prevalence rate of a disease which study you prefer and why?<br>Q. Why you choose cross sectional study to estimate the prevalence of scabies among under two
 
 ?
 years old child in a village?
-</details>
 
-<details>
-<summary><b>Q. To find out the incidence of lung cancer among the workers of a garments factory which type</b></summary>
+### Q. To find out the incidence of lung cancer among the workers of a garments factory which type
 
 of study you suggest and why?
 Cross-sectional study, because, it is the —
@@ -729,10 +666,8 @@ Cross-sectional study, because, it is the —
 5) Free of selection bias because t
 control group.
 Analytical Epidemiology
-</details>
 
-<details>
-<summary><b>Q. Wass the analytical studies? [RU-16N]<br>Q. Classify analytical studies. [CU-10J]</b></summary>
+### Q. Wass the analytical studies? [RU-16N]<br>Q. Classify analytical studies. [CU-10J]
 
 _ Apswer
 \ : In analytical studies the subject of interest is the individual within
@@ -745,10 +680,8 @@ Pr oonon study (prospective): Please sce above.
 he investigator has no control to select study group and
 CO), VIVA &
 Case control study
-</details>
 
-<details>
-<summary><b>Q. Who are the cases, non-cases & controls?</b></summary>
+### Q. Who are the cases, non-cases & controls?
 
 nswer ; .
 al Cases: Persons in the population or study group having a i
@@ -758,26 +691,20 @@ senate
 under investigation (condition may
   - Non-cases: ; "
 - Controls; Non-cases but similar in every other respect to the cases in the stu ly.
-</details>
 
-<details>
-<summary><b>Q. Define exposure & outcome.</b></summary>
+### Q. Define exposure & outcome.
 
 ri
 <*” Exposure: The substances, characteristics, or events those are (or that is) determinants of the outcome
 of interest.
 *” Outcome: The possible result stem from an exposure.
 A
-</details>
 
-<details>
-<summary><b>Q. Write down the steps [CU-12Ju, RU-10J] / basic steps [DU-11Ju, CU-10Ju/J, RU-16J] of case</b></summary>
+### Q. Write down the steps [CU-12Ju, RU-10J] / basic steps [DU-11Ju, CU-10Ju/J, RU-16J] of case
 
 control study.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Case control study. [CU-14J]</b></summary>
+### Q. Write short note on: Case control study. [CU-14J]
 
 a hose
 Case control study: . a . .
@@ -819,10 +746,8 @@ of cases such as hospital record employment records etc,
   - Exposure rate among cases and controls to suspected factor.
   - Estimation of disease risk associated with exposure.
 [Ref- Park / 24" / 76-79]
-</details>
 
-<details>
-<summary><b>Q. Write down the merits and demerits of case-control study.</b></summary>
+### Q. Write down the merits and demerits of case-control study.
 
 Q< Enlist the advantages & disadvantages of case-control study. [CU-1 1Ju,10Ju, RU-16J,10J]
 Answer
@@ -848,10 +773,8 @@ We cannot measure incidence-and can only estimate the relative risk.
 8) Finally, in a cohort study practical considerations dictate that we must concentrate on a limited
 number of factors possible related to disease outcome.
 [Ref- Park / 24/79]
-</details>
 
-<details>
-<summary><b>Q. Discuss about the biasness in case control study.</b></summary>
+### Q. Discuss about the biasness in case control study.
 
 **Biasness of case control study:** Many varieties of bias may arise in case control study; e.g.
 1) Bias due to confounding: A confounding factor is defined as one which is associated both with the
@@ -864,10 +787,8 @@ with different cases.
 5) Interviewer’s bias: Bias may also occur when the interviewer knows the hypothesis and also
 knows who the cases are.
 [Ref- Park / 24" / 78]
-</details>
 
-<details>
-<summary><b>Q. Name some diseases that are studied in case-control study.</b></summary>
+### Q. Name some diseases that are studied in case-control study.
 
 nswer
 Diseases that are studied in case-control study:
@@ -877,10 +798,8 @@ SSS SSS
 3) Hepatocellular carcinoma.
 4) Carcinoma prostate.
 5) Carcinoma cervix.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Odds ratio.</b></summary>
+### Q. Write short note on: Odds ratio.
 
 ds ratio’/ Cross-product ratio;
 7» \tis derived from case control study.
@@ -911,10 +830,8 @@ marriage cohort.
   - Persons exposed to a common drug, vaccine or infection within a defined period constitutes an
 exposure cohort.
 [Ref- Park / 24/80]
-</details>
 
-<details>
-<summary><b>Q. Mention the distinguishing [SUST-15J] / salient [SUST-10J] features of cohort study.<br>Q. List the basic steps of cohort study. [DU-1 lJu]<br>Q. What are the characteristic features of cohort study? [RU-17N]<br>Q. What are the elements of a cohort study? [RU-12Ju, 1 1Ju]</b></summary>
+### Q. Mention the distinguishing [SUST-15J] / salient [SUST-10J] features of cohort study.<br>Q. List the basic steps of cohort study. [DU-1 lJu]<br>Q. What are the characteristic features of cohort study? [RU-17N]<br>Q. What are the elements of a cohort study? [RU-12Ju, 1 1Ju]
 
 **_Bewite short note on:** Cohort study.
 Cohort study: This study proceeds from “cause to effect”. Cohort study has following synonyms-
@@ -960,10 +877,8 @@ Routine surveillance of death records.
   - Incidence rate of outcome among exposed & non-exposed.
   - Estimation of risk.
 [Ref- Park / 24" / 80-83]
-</details>
 
-<details>
-<summary><b>Q. Mention the advantages and disadvantages of cohort studies. [DU-12J, CU-11Ju, RU-11Ju]<br>Q. Why cohort study is more valid and reliable than case-control study? [DU-10J] :</b></summary>
+### Q. Mention the advantages and disadvantages of cohort studies. [DU-12J, CU-11Ju, RU-11Ju]<br>Q. Why cohort study is more valid and reliable than case-control study? [DU-10J] :
 
 Heat wer
 Merits / advantages of cohort studies:
@@ -994,19 +909,15 @@ the disease under study
 the frequency of the disease ‘
 4) The diagnostic and eligibility criteria of the disease must be defined beforehand
 [Ref- Park / 24" 180)
-</details>
 
-<details>
-<summary><b>Q. What are general considerations in assembling cohorts?<br>Q. Give the flowchart of a study design to find out the outcomes of tobacco consumption. [DU- 13Ju]</b></summary>
+### Q. What are general considerations in assembling cohorts?<br>Q. Give the flowchart of a study design to find out the outcomes of tobacco consumption. [DU- 13Ju]
 
 Acohorts design to find out the outco of tobacco consumption:
 to smoking
 lung cancer
 to smoking
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Relative risk or risk ratio.<br>Q. What is relative risk or risk ratio? Interpret relative risk of 6.2 of particular phenomenon.</b></summary>
+### Q. Write short note on: Relative risk or risk ratio.<br>Q. What is relative risk or risk ratio? Interpret relative risk of 6.2 of particular phenomenon.
 
 {SUST-10J]
 Answer
@@ -1030,10 +941,8 @@ A typical case-control study does not provide incidence rates fro 4
 rt study:
 calculated directly. In general, the relative risk can be exactly determined only from a coho
 [Ref- Park /24°/83]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Attributable risk.</b></summary>
+### Q. Write short note on: Attributable risk.
 
 **Attributable risk (AR):**
 It is the difference in incidence rates of disease between an exposed e
@@ -1044,20 +953,16 @@ AR= :
 Incidence rate among exposed
 Attributable risk indicates to what extent the disease under study can be attributed to the exposure.
 [Ref- Park / 24" /83]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Population-attributable risk.</b></summary>
+### Q. Write short note on: Population-attributable risk.
 
 **Population-attributable risk:** It is the incidence of the disease (or death) in the total population minus the
 incidence of disease (or death) among those who were not exposed to the suspected causal factor.
 The concept of population attributable risk is helpful in that it provides an estimate of the amount by
 which the disease should be reduced in that population if the suspected factors were eliminated or modified.
 [Ref- Park / 24" / 83]
-</details>
 
-<details>
-<summary><b>Q. Compare case control study, cohort study & cross sectional study.</b></summary>
+### Q. Compare case control study, cohort study & cross sectional study.
 
 Differences between case control study, cohort study & cross sectional stud
 Case control stud’ Cohort stud:
@@ -1078,18 +983,14 @@ _ without exposure. or exposure. _
 10) Function Compare prevalence of | Compare incidence rates | Describe association
 exposure between cases & | of outcome in exposed & |between exposure &
 control. unexposed. outcome simultaneously.
-</details>
 
-<details>
-<summary><b>Q. Differentiate between case control & cohort study. [DU-17M,16J, SUST-18N,1 6N,14J,12Ju,</b></summary>
+### Q. Differentiate between case control & cohort study. [DU-17M,16J, SUST-18N,1 6N,14J,12Ju,
 
 aaa ee CU-16N/J,13J]
 — Q Stat 6 important [CU-14Ju, SUST-11J]/3 important [DU-13J] differences between case
 \—~ “control & cohort study.
-</details>
 
-<details>
-<summary><b>Q. Compare the different aspects of case control and cohort study. [CU-13Ju]</b></summary>
+### Q. Compare the different aspects of case control and cohort study. [CU-13Ju]
 
 Anybody in a definite
 population
@@ -1118,16 +1019,12 @@ p Relatively inexpensive. [Expensive SS
 Result _
 Study of rare diseas:
 8) Yielding rate
-</details>
 
-<details>
-<summary><b>q<br>q</b></summary>
+### q<br>q
 
 Experimental Epidemiology
-</details>
 
-<details>
-<summary><b>Q. Discuss experimental epidemiology.</b></summary>
+### Q. Discuss experimental epidemiology.
 
 **Experimental epidemiology / experimental study:**
   - Meant the study of epidemics among colonies of experimental animals such as rat & mice.
@@ -1154,10 +1051,8 @@ Note: \n modern usage, experimental epidemiology is often equated with ‘random
 [Ref- Park /24"/85]
 epict the design [RU-12J] / basic steps [RU-1 5Ju,13Ju] of RCT with flow chart.
 . Write short note on: Randomized controlled trial. [SUST-16N]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: RCT. [CU-18N,17N,16N/M/J,15Ju/J,14Ju]</b></summary>
+### Q. Write short note on: RCT. [CU-18N,17N,16N/M/J,15Ju/J,14Ju]
 
 Randomized controlled tria
 It is a clinical trial comparing the effects of intervention(s) in an interventional (experimental) group
@@ -1193,10 +1088,8 @@ Manipulation & follow-up
 Assessment
 Figure: Design of a randomized control trial.
 [Ref- Park / 24" /87|
-</details>
 
-<details>
-<summary><b>Q. Define randomization.<br>Q. Why randomization is called the heart of a control trial?</b></summary>
+### Q. Define randomization.<br>Q. Why randomization is called the heart of a control trial?
 
 **Randomization:** :
 Randomization is a statistical procedure by which the participants are allocated into groups usually
@@ -1215,10 +1108,8 @@ words, by random allocation, every individual gets an equal chance of being allo
 of the trial groups. lied Patkioaty ni
 Non-randomized controlled tria
 aon-rangomized controlled trial
-</details>
 
-<details>
-<summary><b>Q. What is non-randomized trial?</b></summary>
+### Q. What is non-randomized trial?
 
 **Non-randomized trial or non-experimental trials:** .
 In non-randomized trial there is no strict randomization for practical purposes, but in such a manner that
@@ -1229,10 +1120,8 @@ Examples of non-randomized trial:
   - Before & after comparison studies,
 [Ref- Park / 24" / 86, 90, 91]
 Infectious Disease Epidemiology
-</details>
 
-<details>
-<summary><b>Q. Define endemic [SUST-16M], sporadic & pandemic [SUST-16M].</b></summary>
+### Q. Define endemic [SUST-16M], sporadic & pandemic [SUST-16M].
 
 **Endemic:** (En = in; demos = People)
 It refers to the constant presence of a disease or infectious agent within a given geographic area or the
@@ -1250,10 +1139,8 @@ area such a section of nation, the entire nation, a continent or the world,
 Example: Influenza pandemics of 1918 & 1957, cholera Eltor in 1962 (still continuing) and acute
 haemorrhagic conjunctivitis in 1971 & 1981,
 [Ref- Park/ 24" / 98]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
   - Hyperendemic: The term “hyperendemic” expresses that the disease is constantly present at a high
 incidence and / or prevalence rate and affects all the age groups equally.
@@ -1262,10 +1149,8 @@ affecting most of the child population leading to a state of equilibrium such th
 f the disease much less commonly than do the children, as in the case of malaria.
 shows evidence 0!
 [Ref- Park / 24" / 98]
-</details>
 
-<details>
-<summary><b>Q. Define epidemic. [DU-17M, RU-17N, 14Ju,13Ju,11J , SUST-18M, 16M, 15Ju,12J, CU-18M]<br>Q. Classify epidemic with example. [DU-18M,16J,15Ju,1 1Ju,10J, RU-17N, 14Ju,13Ju,11J, CU-10J]<br>Q. Write short note on: Epidemic. [CU-16N/J, SUST-13J]<br>Q. Write short note on: Types of epidemic. [SUST-13Ju]</b></summary>
+### Q. Define epidemic. [DU-17M, RU-17N, 14Ju,13Ju,11J , SUST-18M, 16M, 15Ju,12J, CU-18M]<br>Q. Classify epidemic with example. [DU-18M,16J,15Ju,1 1Ju,10J, RU-17N, 14Ju,13Ju,11J, CU-10J]<br>Q. Write short note on: Epidemic. [CU-16N/J, SUST-13J]<br>Q. Write short note on: Types of epidemic. [SUST-13Ju]
 
 **Epidemic:** (Epi = Upon, demos = people)
 Epidemic means the unusual occurrence in a community or region of disease, specific health-related
@@ -1287,10 +1172,8 @@ Types / classification of epidemics: Three major types of epidemic are distingui
   - Animal reservoir.
 3) Slow (modern) epidemics: e.g. cancer.
 [Ref- Park / 24" / 69, 98]
-</details>
 
-<details>
-<summary><b>Q. Draw and explain different epidemic curves.<br>Q. Draw and explain the diagram of a course of typical propagated epidemic.</b></summary>
+### Q. Draw and explain different epidemic curves.<br>Q. Draw and explain the diagram of a course of typical propagated epidemic.
 
 **Epidemic curve:**
 A graph of the time distribution of epidemic cases is called the “epidemic curve”.
@@ -1348,10 +1231,8 @@ over time rather than all at once. These epidemics pr
 ; ; ogress through a group over a period of time
 that is considerably longer than the typical incubation period. It indicates common source, multiple
 exposure (or continuous exposure).
-</details>
 
-<details>
-<summary><b>Q. Outline the difference between sporadic, endemic,</b></summary>
+### Q. Outline the difference between sporadic, endemic,
 
 cal propagated epidemic;
 A propagated epidemic is most often of j i ipin g
@@ -1387,17 +1268,13 @@ communicable disease).
 Spread from country
 to another country in
 a short time
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Epidemic. [CU-14Ju]<br>Q. Write short note on: Pandemic. [CU-17N,15J]</b></summary>
+### Q. Write short note on: Epidemic. [CU-14Ju]<br>Q. Write short note on: Pandemic. [CU-17N,15J]
 
 Please see above.
 Some important topics for viva:
-</details>
 
-<details>
-<summary><b>%</b></summary>
+### %
 
 **Contamination:** The presence of an infectious agent on a body surface; also on or in clothes, bedding,
 toys, surgical instruments, or other inanimate articles or substances including water, milk and food.
@@ -1450,10 +1327,8 @@ Example: Today smallpox is the only disease that has been eradicated.
 ut by roots. Eradication of disease implies termination
 f the infectious agent through surveillance and
 [Ref- Park / 24" / 97-99
-</details>
 
-<details>
-<summary><b>Q. Define infection.<br>Q. What are the levels of infection?</b></summary>
+### Q. Define infection.<br>Q. What are the levels of infection?
 
 **Infection:**
 Infection means the entry and development or multiplication of an infectious agent in the body of man,
@@ -1465,10 +1340,8 @@ Types / levels of infections:
 3) Latent infection: c.g. virus of herpes simplex.
 4) Manifest or clinical infection: Clinical sign & symptoms present.
 [Ref- Park /24"/97]
-</details>
 
-<details>
-<summary><b>Q. Define epizootic with examples. [RU-14J]</b></summary>
+### Q. Define epizootic with examples. [RU-14J]
 
 **Epizootic:**
 An outbreak (epidemic) of disease in an animal population (often with the implication that it may also
@@ -1477,10 +1350,8 @@ agents of anthrax, brucellosis, rabies, influenza, Rift valley fever, Q fever, J
 encephalitis.
 [Ref- Park /24"/99]
 _--—ad
-</details>
 
-<details>
-<summary><b>Q. What is nosocomial infection? [DU-14J]<br>Q. Write short note on: Nosocomial infection. [SUST-14Ju]</b></summary>
+### Q. What is nosocomial infection? [DU-14J]<br>Q. Write short note on: Nosocomial infection. [SUST-14Ju]
 
 Nosocomial infection / Hospital acquired infection;
 Nosocomial (hospital acquired) infection is an infection originating in a patient while in a hospital or
@@ -1490,10 +1361,8 @@ infection acquired during a previous admission. It includes infections acquired 
 after discharge and also such infections among the staff of the facility.
 Examples: Infection of surgical wounds, hepatitis B and UTI.
 [Ref- Park /24" /99|
-</details>
 
-<details>
-<summary><b>Q. Define opportunistic infection. [DU-14Ju]</b></summary>
+### Q. Define opportunistic infection. [DU-14Ju]
 
 **Opportunistic infection:** ,
 Infection by an organism that is not normally pathogenic but can cause disease if resistance is lowered
@@ -1502,10 +1371,8 @@ in host defense to infect the host and hence cause disease.
 Common organism: Including Herpes simplex (HSV), Cytomegalovirus (CMV), Toxoplasma etc.
 Example: Opportunistic infections are very common in AIDS.
 [Ref- Park /24"/99]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Iatrogenic disease.</b></summary>
+### Q. Write short note on: Iatrogenic disease.
 
 **Iatrogenic (physician induced) disease:**
 Any untoward or adverse consequence of a preventive, diagnostic or therapeutic regimen or procedure
@@ -1520,10 +1387,8 @@ Example:
 [Ref- Park /24"/99]
 Dynamics of Disease Transmission
 Source and Reservoir
-</details>
 
-<details>
-<summary><b>Q. Define source and reservoir with example.<br>Q. Discuss the types of reservoir. [SUST-13J]</b></summary>
+### Q. Define source and reservoir with example.<br>Q. Discuss the types of reservoir. [SUST-13J]
 
 **Source:**
 The source of infection is defined as “the person, animal, object or substance from which an infectious
@@ -1553,10 +1418,8 @@ phoid fever <<
 Reservoir — Case or carrier
 2)
 [Ref- Park /24"/99, 100]
-</details>
 
-<details>
-<summary><b>Q. How can we control the reservoir?</b></summary>
+### Q. How can we control the reservoir?
 
 **Controlling the reservoir:**
 1) Early diagnosis
@@ -1568,10 +1431,8 @@ Reservoir — Case or carrier
 7) Surveillance
 8) Disinfection
 [Ref- Park /24"/ 128]
-</details>
 
-<details>
-<summary><b>Q. What is infection chain?</b></summary>
+### Q. What is infection chain?
 
 **Infection chain:** Communicable diseases are transmitted from the reservoir or source of infection to susceptible
 host which may be designed as follows.
@@ -1590,10 +1451,8 @@ This is infection chain. Basically there are three links in the chain of transmi
 [Ref- Park /24"/ 100]
 (@)
 ase
-</details>
 
-<details>
-<summary><b>Q. Define case.<br>Q. Classify case.<br>Q. Write short note on: Primary case. [CU-17N,16N]</b></summary>
+### Q. Define case.<br>Q. Classify case.<br>Q. Write short note on: Primary case. [CU-17N,16N]
 
 **Case:**
 A case is defined as a person in the population or study group identified as having the particular
@@ -1618,10 +1477,8 @@ unit being studied.
 [Ref- Park /24"7/ 100]
 f a communicable disease introduced in to the population
 Carrier
-</details>
 
-<details>
-<summary><b>Q. Define carrier. [RU-18N, SUST-14J,12Ju,1 1Ju,10Ju)<br>Q. Classify carriers with examples. [RU-18N, SUST-14J,12Ju, | Ju, CU-1 Ju]<br>Q. Explain different types of carrier. [CU-10J]<br>Q. State the epidemiological importance of carrier. [SUST-14J]<br>Q. Discuss the epidemiological importance of different types of carrier. [SUST-10Ju]<br>Q. Write about carriers and its importance. [CU-14J]<br>Q. Write short note on: Carrier. [SUST-16J,15J,13Ju]</b></summary>
+### Q. Define carrier. [RU-18N, SUST-14J,12Ju,1 1Ju,10Ju)<br>Q. Classify carriers with examples. [RU-18N, SUST-14J,12Ju, | Ju, CU-1 Ju]<br>Q. Explain different types of carrier. [CU-10J]<br>Q. State the epidemiological importance of carrier. [SUST-14J]<br>Q. Discuss the epidemiological importance of different types of carrier. [SUST-10Ju]<br>Q. Write about carriers and its importance. [CU-14J]<br>Q. Write short note on: Carrier. [SUST-16J,15J,13Ju]
 
 **Carrier:** © ; ; a. ; ,
 It is defined as “an infected person or animal that harbours a specific infectious agent in the absence of
@@ -1670,10 +1527,8 @@ or community, they readily infect the susceptible individ
 favourable condition.
 [Ref- Park / 24" / 100, 101|
 Modes of Disease Transmission
-</details>
 
-<details>
-<summary><b>Q. Mention the routes of diseases transmission. [SUST-1 Iu, 10Ju]</b></summary>
+### Q. Mention the routes of diseases transmission. [SUST-1 Iu, 10Ju]
 
 **Modes / routes / methods of disease transmission:** Please see in the “Chapter-05" Sor details,
 Sn cthods of disease transmission:
@@ -1702,10 +1557,8 @@ poisoning.
 4) Fomite borne: e.g. diphtheria, typhoid fever, bacillary dysentery etc.
 5) Unclean hands and fingers: e.g. Typhoid fever, dysentery, hepatitis A and intestinal parasites.
 [Ref- Park /24™/ 101-104]
-</details>
 
-<details>
-<summary><b>Q. Name the blood borne diseases.<br>Q. List the diseases transmitted through blood. [SUST-10Ju]</b></summary>
+### Q. Name the blood borne diseases.<br>Q. List the diseases transmitted through blood. [SUST-10Ju]
 
 **Blood borne diseases:**
 1)
@@ -1724,10 +1577,8 @@ Brucellosis
 Trypanosomiasis (Chaga’s disease)
 Infectious mononucleosis
 Cytomegalovirus infection
-</details>
 
-<details>
-<summary><b>Q. Give the epidemiological features of vehicle transmission. [RU-14Ju]</b></summary>
+### Q. Give the epidemiological features of vehicle transmission. [RU-14Ju]
 
 The epidemiological features of vehicle transmission are:
 !)
@@ -1742,10 +1593,8 @@ When the vehicle is controlled or withdrawn, the epidemic subsides.
 The common source of infection is often traceable.
 [Ref- Park /24™/ 102]
 Vector
-</details>
 
-<details>
-<summary><b>Q. Define vector. [SUST-17M, CU-10J]<br>Q. Classify vectors of medical importance. [CU-12J]<br>Q. Write short note on: Vector. [CU-#8M, 14J,12J]</b></summary>
+### Q. Define vector. [SUST-17M, CU-10J]<br>Q. Classify vectors of medical importance. [CU-12J]<br>Q. Write short note on: Vector. [CU-#8M, 14J,12J]
 
 ‘ rt an infecti
 Vector: Vector may be defined as an arthropod or any living carrier (e.g. snail) that transport an infectious
@@ -1761,10 +1610,8 @@ A) Invertebrate type: Arthropod vectors fall into seven orders largely.
 7) Copepoda: Cyclops.
 B) Vertebrate type: Mice, rodents, bats.
 [Ref- Park /24"/ 103]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the factors which influence the ability of vectors to transmit disease.</b></summary>
+### Q. Enumerate the factors which influence the ability of vectors to transmit disease.
 
 The factors which influence the ability of vectors to transmit disease are:
 1) Host feeding preferences.
@@ -1776,10 +1623,8 @@ The factors which influence the ability of vectors to transmit disease are:
 [Ref- Park /24"/ 103]
 Susceptible Host
 Successful parasitism
-</details>
 
-<details>
-<summary><b>Q. What do you mean by successful parasitism?</b></summary>
+### Q. What do you mean by successful parasitism?
 
 **Successful parasitism:** There are four stages in successful parasitism —
 » First, the infectious agent must find a Portal of Entry by which it may enter into the host. There are
@@ -1794,10 +1639,8 @@ period till a new host is found.
 [Ref- Park /24" / 104]
 ENN WAAR |
 Incubation period
-</details>
 
-<details>
-<summary><b>Q. Define incubation period.<br>Q. State the importance of incubation period. [SUST-10Ju]<br>Q. Write short note on: Incubation period.</b></summary>
+### Q. Define incubation period.<br>Q. State the importance of incubation period. [SUST-10Ju]<br>Q. Write short note on: Incubation period.
 
 **Incubation period:** a
 It is defined as “the time interval between invasion by an infectious agent and appearance of the first
@@ -1823,19 +1666,15 @@ nical illness by human Ig & antisera
 the disease.
 [Ref- Park / 24" / 104]
 osis of
-</details>
 
-<details>
-<summary><b>Q. What are the different types of incubation period?</b></summary>
+### Q. What are the different types of incubation period?
 
 **Types of incubation period:**
 1) Minimum incubation period.
 2) Median incubation period.
 3) Estimate of average incubation period.
-</details>
 
-<details>
-<summary><b>Q. What is extrinsic & intrinsic incubation period?<br>Q. What do you mean by extrinsic incubation perio</b></summary>
+### Q. What is extrinsic & intrinsic incubation period?<br>Q. What do you mean by extrinsic incubation perio
 
 **Extrinsic incubation period:**
 The period of time necessary for development of disease agent in the arthropod host is called extrinsic
@@ -1847,10 +1686,8 @@ The time interval between the entry 0
 disease is called intrinsic incubation period. E, g. The intrinsic incubation period of chicken pox is usually from
 7-21 days.
 d? [RU-13Ju]
-</details>
 
-<details>
-<summary><b>Q. What is latent period?<br>Q. What is the difference between incubation period and latent period?</b></summary>
+### Q. What is latent period?<br>Q. What is the difference between incubation period and latent period?
 
 **Latent period:** Latent period has been defined as “the period from disease i
 The term “latent period” is used in non-infectious diseases (such as ¢
@@ -1859,10 +1696,8 @@ nitiation to disease detection”.
 ancer, ischaemic heart disease and
 [Ref- Park /24"/ 104]
 Generation time
-</details>
 
-<details>
-<summary><b>Q. Define generation time. What is the difference between generation time & incubation period?<br>Q. Write short note on: Generation time. [CU-18M,17M]</b></summary>
+### Q. Define generation time. What is the difference between generation time & incubation period?<br>Q. Write short note on: Generation time. [CU-18M,17M]
 
 **Generation time:** oa. ..
 It is defined as “the time interval of time between receipt of infection by a host and maximal infectivity
@@ -1875,10 +1710,8 @@ salivary gland.
 to the transmission of infection, whether clinical or sub clinical. hs
 [Ref- Park / 24" / 105]
 Communicable period
-</details>
 
-<details>
-<summary><b>Q. Define communicable period.</b></summary>
+### Q. Define communicable period.
 
 **Communicable period:**
 The communicable period is defined as “the time during which an infectious agent may be transferred
@@ -1886,10 +1719,8 @@ directly or indirectly from an infected person to another person, from an infect
 infected person to an animal including arthropods”.
 [Ref- Park / 24" / 105]
 Secondary attack rate
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Secondary attack rate.</b></summary>
+### Q. Write short note on: Secondary attack rate.
 
 **Secondary attack rate (SAR):**
 It is defined as, "the number of exposed persons developing the disease within the range of the
@@ -1911,10 +1742,8 @@ immunization.
 3)
 [Ref- Park / 24" / 105]
 Investigation of an Epidemic
-</details>
 
-<details>
-<summary><b>Q. Write down the steps for investigations of an epidemic. [DU-15Ju, CU-18M,12J, SUST-12J]<br>Q. Enumerate the steps in investigating an outbreak (epidemic) of unknown disease. [CU-11J]<br>Q. How you investigate a case of epidemic? [SUST-18M]<br>Q. What are the steps involved in epidemiological investigation of bird flu? [SUST-10Ju]<br>Q. How can you investigate an outbreak of epidemic? [SUST-15Ju, RU-10Ju]<br>Q. Discuss the steps of investigating a disease outbreak. [SUST-17N]<br>Q. A medical team is sent to investigate an epidemiological outbreak in a defined population.</b></summary>
+### Q. Write down the steps for investigations of an epidemic. [DU-15Ju, CU-18M,12J, SUST-12J]<br>Q. Enumerate the steps in investigating an outbreak (epidemic) of unknown disease. [CU-11J]<br>Q. How you investigate a case of epidemic? [SUST-18M]<br>Q. What are the steps involved in epidemiological investigation of bird flu? [SUST-10Ju]<br>Q. How can you investigate an outbreak of epidemic? [SUST-15Ju, RU-10Ju]<br>Q. Discuss the steps of investigating a disease outbreak. [SUST-17N]<br>Q. A medical team is sent to investigate an epidemiological outbreak in a defined population.
 
 Mention important steps of investigations of that outbreak to formulate a hypothesis or test
 the hypothesis. [RU-15J]
@@ -1958,10 +1787,8 @@ Methodology of investigations
 Analysis of data
 Control measures.
 [Ref- Park / 24" / 140-142|
-</details>
 
-<details>
-<summary><b>Q. Give the objectives of an epidemic investigation.</b></summary>
+### Q. Give the objectives of an epidemic investigation.
 
 **The objectives of an epidemic investigation are:**
 1) To define the magnitude of the epidemic outbreak or involvement in terms of time, place and
@@ -1971,10 +1798,8 @@ person
 necessary to control the epidemic; and
 4) To make recommendation to prevent recurrence,
 [Ref- Park /24" / 140)
-</details>
 
-<details>
-<summary><b>Q. Outline the investigation and control of an epidemic.</b></summary>
+### Q. Outline the investigation and control of an epidemic.
 
 **Outline of investigation and control of an epidemic:**
 Review routine information,
@@ -2002,10 +1827,8 @@ to prevent recurrence
 ={ Continue surveillance
 Figure: Outline of investigation and control of epidemic.
 [Ref- Rashid, Khabir, Hyder / 5" / 103]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Hypothesis.</b></summary>
+### Q. Write short note on: Hypothesis.
 
 **Hypothesis:** A hypothesis is a supposition, arrived at from or reflection. It can be accepted or rejected, using
 the techniques of analytical epidemiology.
@@ -2019,10 +1842,8 @@ effect
 observation of the effect.
 [Ref- Park / 24" /75, 142]
 MCQ
-</details>
 
-<details>
-<summary><b>Q. Basic tools of measurement in epidemiology</b></summary>
+### Q. Basic tools of measurement in epidemiology
 
 **are:** [DU-18N]
 a) Ratio.
@@ -2031,10 +1852,8 @@ c) Proportion.
 d) Place.
 e) Rate.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Components of a rate are: [DU-18M]</b></summary>
+### Q. Components of a rate are: [DU-18M]
 
 a) Numerator.
 b) Place.
@@ -2042,10 +1861,8 @@ c) Time specification.
 d) Person.
 e) Denominator.
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Chronic carrier state develops in: [DU-18M]</b></summary>
+### Q. Chronic carrier state develops in: [DU-18M]
 
 a) Influenza.
 b) Hepatitis B.
@@ -2053,10 +1870,8 @@ c) Typhoid.
 d) Mumps.
 e) Malaria.
 Ans. a) F, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Basic measurement in epidemiology: [DU- 17N]</b></summary>
+### Q. Basic measurement in epidemiology: [DU- 17N]
 
 a) Ratio.
 b) IMR.
@@ -2064,10 +1879,8 @@ c) Proportion.
 d) MMR.
 e) Rate.
 Ans. a) T, b) T, c) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Components of epidemiology: [DU-17M]</b></summary>
+### Q. Components of epidemiology: [DU-17M]
 
 a) Distribution of disease.
 b) Determinant of disease.
@@ -2075,10 +1888,8 @@ c) Frequency of disease.
 d) Disease pattern.
 e) Accuracy.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Cohort study yields: [DU-17M]</b></summary>
+### Q. Cohort study yields: [DU-17M]
 
 a) Incidence rate.
 b) Prevalence rate.
@@ -2086,10 +1897,8 @@ c) Relative risk.
 d) Odds ratio.
 e) Attributable risk.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Synonym of cohort study: [DU-16N]</b></summary>
+### Q. Synonym of cohort study: [DU-16N]
 
 a) Incidence study.
 b) Prospective study.
@@ -2097,10 +1906,8 @@ c) Prevalence study.
 d) Retrospective study.
 e) Comparison study.
 Ans, a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Prevalence depends upon: [DU-16N]</b></summary>
+### Q. Prevalence depends upon: [DU-16N]
 
 a) Incidence of disease.
 b) Mode of transmission.
@@ -2108,10 +1915,8 @@ c) Presence of reservoir other than man.
 d) Mean duration of disease.
 e) Spell of illness.
 Ans, a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Incidence rate is: [DU-16J]</b></summary>
+### Q. Incidence rate is: [DU-16J]
 
 a) A health indicator.
 b) Useful for research.
@@ -2119,10 +1924,8 @@ c) Helpful for planning purpose.
 d) Influence by duration of disease.
 e) Really a ratio.
 Ans. a) F, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Vector can transmit agent by: [DU-16J]</b></summary>
+### Q. Vector can transmit agent by: [DU-16J]
 
 a) Biting.
 .b) Regurgitation.
@@ -2130,10 +1933,8 @@ c) Parenterally.
 d) Droplet nuclei.
 e) Deposit of infective material on the skin.
 Ans. a) T, b) T, c) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Incubatory carrier state found: [DU-15Ju]</b></summary>
+### Q. Incubatory carrier state found: [DU-15Ju]
 
 a) Mumps.
 b) Cholera.
@@ -2141,10 +1942,8 @@ c) Amoebiasis.
 d) Measles.
 e) Whooping cough.
 Ans. a) T, b) F, ¢) F, d) T, ¢) T.
-</details>
 
-<details>
-<summary><b>Q. The clements of cohort study: [DU-15Ju]</b></summary>
+### Q. The clements of cohort study: [DU-15Ju]
 
 a) Defining the disease under study.
 b) Obtaining data on exposure.
@@ -2153,10 +1952,8 @@ d) Selection of comparison groups.
 e) Comparing with known indices.
 Ans. a) F, b) T, c) F, d) T, e) T.
 i... |
-</details>
 
-<details>
-<summary><b>Q. In point source epidemic: [DU-15Ju]</b></summary>
+### Q. In point source epidemic: [DU-15Ju]
 
 a) The epidemic curve rises & falls rapidly.
 b) All cases are developed within one
@@ -2165,10 +1962,8 @@ c) The origin of disease often infectious.
 d) The epidemic tends to be explosive.
 e) The curve has more than one peak.
 Ans. a) T, b) F, ¢) T, d) T, ¢) F.
-</details>
 
-<details>
-<summary><b>Q. Cross sectional study is: [DU-15Ju]</b></summary>
+### Q. Cross sectional study is: [DU-15Ju]
 
 a) Related to the aetiology of diseases.
 b) The simplest form of an observational
@@ -2178,10 +1973,8 @@ d) Designed to estimate the magnitude of
 health problems.
 e) Done to test the hypothesis.
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Cross sectional study: [DU-15J]</b></summary>
+### Q. Cross sectional study: [DU-15J]
 
 a) Is an incidence study.
 b) Is used for chronic disease.
@@ -2189,10 +1982,8 @@ c) Made single observation on the subjects. ¢
 d) Identify the risk factors of disease.
 e) More time consuming.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. The healthy carriers occur in the following</b></summary>
+### Q. The healthy carriers occur in the following
 
 **diseases:** [DU-15J,12Ju]
 a) Salmonellosis
@@ -2202,10 +1993,8 @@ d) Measles
 e) Influenza
 Ans. a) T, b) T, c) F, d) F, e) F.
 NN NNSNNNNNANAANNN AX \ Rn ete ene...
-</details>
 
-<details>
-<summary><b>Q. Criteria of point source epidemic: [DU. »</b></summary>
+### Q. Criteria of point source epidemic: [DU. »
 
 15J] ;
 a) Curve rises & falls rapidly.
@@ -2214,10 +2003,8 @@ c) Epidemic tends to be explosive.
 d) Presence of secondary wave on the curve
 e) Curve has one peak. M
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Features of point source epidemic are;</b></summary>
+### Q. Features of point source epidemic are;
 
 [DU-14Ju] .
 a) The epidemic curve shows plateau,
@@ -2229,10 +2016,8 @@ incubation period.
 e) Results from environmental
 contamination.
 Ans. a) F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Tools of measurement in epidemiology are: [DU-14J,12J]</b></summary>
+### Q. Tools of measurement in epidemiology are: [DU-14J,12J]
 
 a) rate
 b) percentile
@@ -2240,10 +2025,8 @@ c) ratio
 d) quartile
 e) proportion
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Chronic carrier develops in: [DU-14J]</b></summary>
+### Q. Chronic carrier develops in: [DU-14J]
 
 a) Hepatitis-A.
 b) Malaria.
@@ -2253,10 +2036,8 @@ e) Mumps.
 Ans. a) F, b) T, c) F, d) F, e) F.
 _-wanetl
 Screening for Diseases
-</details>
 
-<details>
-<summary><b>Q. Define screening. [SUST-15Ju,14J]<br>Q. Classify screening. [SUST-14J]<br>Q. Write short note on: Screening. [SUST-18N, 17N,16N, 1 1Ju, CU-18N/M,16M,15J,14J,13Ju/J]</b></summary>
+### Q. Define screening. [SUST-15Ju,14J]<br>Q. Classify screening. [SUST-14J]<br>Q. Write short note on: Screening. [SUST-18N, 17N,16N, 1 1Ju, CU-18N/M,16M,15J,14J,13Ju/J]
 
 **Screening:** ;
 Disease screening refers to the “identification of hidden or unknown diseases or defects in a large group
@@ -2292,5 +2073,4 @@ group and diabetes, hypertension, breast cancer in higher social group.
 3) Multiphase screening: Application of two or more screening tests.
 [Ref- Park /24" / 146, 147 + Rashid, Khabir, Hyder / 5" /23]
 97
-</details>
 

@@ -12,8 +12,7 @@
 
 ## Dimension of health
 
-<details>
-<summary><b>Q. Mention various dimensions of health. [CU-13Ju, 10, SUST-10Ju]<br>Q. What are the signs of physical health? [SUST-1@Ju] h<br>Q. Explain mental [DU-14)] / spiritual dimension of health.<br>Q. Write short note on: Vocational dimension of health.</b></summary>
+### Q. Mention various dimensions of health. [CU-13Ju, 10, SUST-10Ju]<br>Q. What are the signs of physical health? [SUST-1@Ju] h<br>Q. Explain mental [DU-14)] / spiritual dimension of health.<br>Q. Write short note on: Vocational dimension of health.
 
 **Dimension of health:**
 Major dimensions:
@@ -73,10 +72,8 @@ relates to “feeling”, :
 —- 8oals, capacities & limitations, work often plays a role in promoting both physical & mental
 ealth,
 [Ref- Park / 24" / 14, 15]
-</details>
 
-<details>
-<summary><b>Q. Mention the signs of a physically healthy person. [SUST-17N]</b></summary>
+### Q. Mention the signs of a physically healthy person. [SUST-17N]
 
 Please write from above discussion (signs of physical health).
 ention the tools and techniques for the evaluation of physical health.
@@ -94,10 +91,8 @@ AY Nutrition and dietary assessment.
 10) Bio-chemical and laboratory investigations.
 a [Ref- Park / 24" / 14]
 Positive Health
-</details>
 
-<details>
-<summary><b>Q. Discuss positive health. [SUST-10Ju]<br>Q. What do you mean by positive health?</b></summary>
+### Q. Discuss positive health. [SUST-10Ju]<br>Q. What do you mean by positive health?
 
 Answ ,
 Positive health:
@@ -110,10 +105,8 @@ For more curiosity:
 The concept of perfect positive health can’t become a reality because man will never be so perfectly
 adapted to his environment that his life will not involve struggles, failures & sufferings.
 Concept of Wellbeing
-</details>
 
-<details>
-<summary><b>Q. Digs the concept of wellbeing.<br>Q. fustrate subjective components of well-being. [DU-10Ju]</b></summary>
+### Q. Digs the concept of wellbeing.<br>Q. fustrate subjective components of well-being. [DU-10Ju]
 
 iswer
 ellbeing: . on
@@ -148,10 +141,8 @@ and a satisfying occupation), education, social & intellectual attainments, free
 and freedom of expression.
 [Ref- Park / 24" / 16]
 Physical quality of life index / POLI
-</details>
 
-<details>
-<summary><b>Q. Define PQLI.<br>Q. Explain PQLI as one of the important health indicators of Bangladesh?<br>Q. Write short note on: Physical quality of life index (PQLI). [CU-18N,16M/J,15Ju,14Ju, SUST-</b></summary>
+### Q. Define PQLI.<br>Q. Explain PQLI as one of the important health indicators of Bangladesh?<br>Q. Write short note on: Physical quality of life index (PQLI). [CU-18N,16M/J,15Ju,14Ju, SUST-
 
 12Ju)
 Physical quality of life index / POLI:
@@ -173,10 +164,8 @@ a) “> Infant mortality : 57/ 1000/ year
 So, PQLI of Bangladesh is = (57 + 60 + 43) /3 = 53.3
 a
 Human development index / HDI
-</details>
 
-<details>
-<summary><b>Q. What is human development index (HDI)?</b></summary>
+### Q. What is human development index (HDI)?
 
 **Human development index (HDI):**
 HDI is defined as “a composite index combining indicators representing three dimensions — longevity
@@ -185,16 +174,12 @@ per capita in purchasing power parity in US dollars).”
 HDI value ranges from 0 to 1.
 [Ref- Park / 24" /17]
 Spectrum of Health
-</details>
 
-<details>
-<summary><b>Q. Explain he ih-sickness spectrum. [RU&lt;11J]<br>Q. What is meant by health disease-spectrum? [SUST-10Ju]<br>Q. ‘Heaifh of an individual is not static’- explain it in the line with concept of spectrum of health. U-16M,15J]</b></summary>
+### Q. Explain he ih-sickness spectrum. [RU&lt;11J]<br>Q. What is meant by health disease-spectrum? [SUST-10Ju]<br>Q. ‘Heaifh of an individual is not static’- explain it in the line with concept of spectrum of health. U-16M,15J]
 
 Health is not static. It is a dynamic phenomenon — explain. [RU-14J]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Health and disease spectrum. [RU-10Ju]</b></summary>
+### Q. Write short note on: Health and disease spectrum. [RU-10Ju]
 
 ’ Answer
 Spectrum of health / health-sickness spectrum:
@@ -219,28 +204,20 @@ Figure: The health-sickness spectrum.
 definition of positive health.
 a
 Determinants of Health
-</details>
 
-<details>
-<summary><b>Q. What are the determinants of health? [DU-18N,17N, CU-12Ju, RU-17M, 16M, 14J,13J, SUST-</b></summary>
+### Q. What are the determinants of health? [DU-18N,17N, CU-12Ju, RU-17M, 16M, 14J,13J, SUST-
 
 16)]
-</details>
 
-<details>
-<summary><b>Q. List important determinants of health. [SUST-18N]<br>Q. What are the factors that influence on health? [CU-15J]<br>Q. ‘Health is multi-factorial’-discuss. [SUST-10J]<br>Q. Describe in brief how environmental factors determine the health of the people of an</b></summary>
+### Q. List important determinants of health. [SUST-18N]<br>Q. What are the factors that influence on health? [CU-15J]<br>Q. ‘Health is multi-factorial’-discuss. [SUST-10J]<br>Q. Describe in brief how environmental factors determine the health of the people of an
 
 individual or a community. [RU-17M,13J]
-</details>
 
-<details>
-<summary><b>Q. Name six important determinants of health. How behavioural factors influence health of an</b></summary>
+### Q. Name six important determinants of health. How behavioural factors influence health of an
 
 individual? [SUST-1 1Ju]
-</details>
 
-<details>
-<summary><b>Q. Discuss ee eames of environment on health. [SUST-17M]<br>Q. Write shoft note on: Determinants of health. (SUST-12Ju]</b></summary>
+### Q. Discuss ee eames of environment on health. [SUST-17M]<br>Q. Write shoft note on: Determinants of health. (SUST-12Ju]
 
 **Deter:**
 inants of health:
@@ -269,10 +246,8 @@ Life style:
 » Healthy life style, e.g. adequate nutrition, enough sleep sufficient physical activities.
 - Internal: Tissue, organ and organ system.
 v_ External: The things to which man is exposed after conception.
-</details>
 
-<details>
-<summary><b>QS SS</b></summary>
+### QS SS
 
 3
 Physical environment: Biological: Psychosocial;
@@ -313,10 +288,8 @@ Food & agriculture
 [Ref- Park /24" / 18 - 20]
 Ecology of Health
 a
-</details>
 
-<details>
-<summary><b>Q. Define ecology. [RU-16N, CU-12J]</b></summary>
+### Q. Define ecology. [RU-16N, CU-12J]
 
 **Ecology:**
 Ecology is defined as “‘the science of mutual relationship between living organisms and their
@@ -328,10 +301,8 @@ physical, chemical, biological, psychological: in short, our culture and all its
 the ecosystem of man. Health according to ecological concepts is visualized as a state of dynamic equilibrium
 between man and his environment.
 [Ref- Park / 24/21]
-</details>
 
-<details>
-<summary><b>Q. What is the main distinction between epidemiology and ecology?</b></summary>
+### Q. What is the main distinction between epidemiology and ecology?
 
 **The main distinction between epidemiology and ecology:**
 Epidemiology is the study of the relationship between variations in man’s environment and his state of
@@ -341,10 +312,8 @@ human health.
 [Ref- Park /24"/21]
 a
 Right to Health
-</details>
 
-<details>
-<summary><b>Viva Q. What is “right to health”?</b></summary>
+### Viva Q. What is “right to health”?
 
 Right to health;
 = Everyone has the Tight to a standard of living adequate for the health and wellbeing of himself and his
@@ -355,10 +324,8 @@ responsibility for health, right to a healthy environment, right to food, right 
 hunger Strike) etc.
 [Ref- Park / 24" /21]
 Responsibility for Health
-</details>
 
-<details>
-<summary><b>Q. Discuss the role of community participation for achieving the goal of HFA.</b></summary>
+### Q. Discuss the role of community participation for achieving the goal of HFA.
 
 . Who are responsible to protect and promote health? Explain it in brief. [RU-14J]
 nswer
@@ -382,10 +349,8 @@ Protect & promote health.
   - UNICEF - another co-ordinating agency.
 [Ref- Park /24" /21, 22]
 Indicators of Health
-</details>
 
-<details>
-<summary><b>Q. De ine health indicator, [CU-18N,16M/J]</b></summary>
+### Q. De ine health indicator, [CU-18N,16M/J]
 
 we the characteristics / criteria of health indicators.
 \ nswer
@@ -400,10 +365,8 @@ in similar circumstances,
 5) Should be feasible, i.e. they should have the ability to obtain data needed and ,
 6) Should be relevant, i.e. they should contribute to the understanding of the phenomenon of interest.
 [Ref- Park / 24" /24]
-</details>
 
-<details>
-<summary><b>Q. Mention uses [SUST-16M,14J] / importance / purposes [SUST-15J,13J,11J] of health</b></summary>
+### Q. Mention uses [SUST-16M,14J] / importance / purposes [SUST-15J,13J,11J] of health
 
 indicators.
 Gees importance of health ndiator
@@ -414,16 +377,12 @@ _5)- To monitor & evaluate of health services, activities & programmes.
 6) To provide feedbacks for reprogramming for better use of resources & accelerating progress in
 health development.
 [Ref- Park / 24" /24]
-</details>
 
-<details>
-<summary><b>Q. Mention different types [CU-1 8N,16M/J,14J] / 5 (five) important [CU-10Ju, SUST-15J] of</b></summary>
+### Q. Mention different types [CU-1 8N,16M/J,14J] / 5 (five) important [CU-10Ju, SUST-15J] of
 
 heath indicators with example.
-</details>
 
-<details>
-<summary><b>Q. Write down important [SUST-16M] /5 (five) examples of [SUST-14J,13J] mortality</b></summary>
+### Q. Write down important [SUST-16M] /5 (five) examples of [SUST-14J,13J] mortality
 
 Sete th
 ae f the socioeconomic indicators of health. [RU-12J]
@@ -510,28 +469,22 @@ life expectancy etc,
   - Health for all indicators, is a
 [Ref- Park / 24" / 24-27
 a ee
-</details>
 
-<details>
-<summary><b>Q. How socio-economic indicators reflect healthcare of a community?<br>Q. How socio-economic indicators are related to positive health of a country? |</b></summary>
+### Q. How socio-economic indicators reflect healthcare of a community?<br>Q. How socio-economic indicators are related to positive health of a country? |
 
 Role of socio-economic indicators in health of a community:
 These indicators do not directly measure health. Nevertheless, they are of great importance in the
 interpretation of the indicators of health care.
 Mortality & Morbidity indicators
-</details>
 
-<details>
-<summary><b>Q. Define morbidity [RU-15J] & mortality.</b></summary>
+### Q. Define morbidity [RU-15J] & mortality.
 
 **Morbidity:** (from Latin morbidus, meaning “sick, unhealthy”)
 Morbidity is a diseased state, disability, or poor health due to any cause,
 Mortality: (the opposite of immortality)
 Mortality is the state of being mortal, or susceptible to death.
-</details>
 
-<details>
-<summary><b>Q. Describe mortality and morbidity indicators.</b></summary>
+### Q. Describe mortality and morbidity indicators.
 
 es Write down 5 (five) examples of mortality [SUST-13J] / morbidity [SUST-11J] indicators.
 nswer
@@ -558,10 +511,8 @@ Morbidity /aiestoes: To asses ill health of a community the following morbidity 
 5) Duration of stay in hospital and
 6) Spells of sickness or absence from work or school.
 [Ref- Park / 24" / 24, 25]
-</details>
 
-<details>
-<summary><b>Q. Justify mortality indicators are fair & good indicators of health. ’</b></summary>
+### Q. Justify mortality indicators are fair & good indicators of health. ’
 
 Mortality indicators are fair & good indicators of health, because —
 1) Crude death rate is very important to determine health status of the people. A decrease in death
@@ -582,10 +533,8 @@ reventable mortality.
 e bd [Ref- Park / 24" /24)
 S
 Disability rate
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Disability rate.<br>Q. Write short note on: Sullivan’s index. [CU-15Ju]</b></summary>
+### Q. Write short note on: Disability rate.<br>Q. Write short note on: Sullivan’s index. [CU-15Ju]
 
 **Disability rate:** The disability rate falls into two groups.
 A) Event type indicators:
@@ -606,10 +555,8 @@ Sullivan’s index = life expectancy — (Duration of bed disability + duration 
 activities)
 [Ref- Park / 24" / 26]
 Utilization rates
-</details>
 
-<details>
-<summary><b>Q. How the utilization rate influence the health status of a community.<br>Q. ‘Utilization of healthcare sender reflects people’s health status’-justify it in context of</b></summary>
+### Q. How the utilization rate influence the health status of a community.<br>Q. ‘Utilization of healthcare sender reflects people’s health status’-justify it in context of
 
 Bangladesh.
 Utilization of healthcare sender reflects people’s health status:
@@ -635,10 +582,8 @@ _neant
 8) Patient turnover ratio.
 [Ref- Park /24" /26 + Rashid, Khabir, Hyder /5*/ 13]
 Health for All and Its Indicators
-</details>
 
-<details>
-<summary><b>Q. What is health for all (HFA)? [DU-16N]<br>Q. List the global indicators of HFA.<br>Q. Mention the indicators for monitoring and evaluating HFA.</b></summary>
+### Q. What is health for all (HFA)? [DU-16N]<br>Q. List the global indicators of HFA.<br>Q. Mention the indicators for monitoring and evaluating HFA.
 
 **HFA by 2000 AD:**
 World health assembly resolved in the year 1977, defined health for all as “attainment of a level of
@@ -661,10 +606,8 @@ and childbirth.
 9) Atleast 90% of newborn have birth weight of at least 2500 gm.
 [Ref- Park /24" /27, 929 + Rashid, Khabir, Hyder /5"/20]
 els or walk. d) Antenatal care
-</details>
 
-<details>
-<summary><b>Q. Mention 5 indicators selected to monitor the progress of health for all.</b></summary>
+### Q. Mention 5 indicators selected to monitor the progress of health for all.
 
 Indicators selected to monitor the progress of health for all:
 1) Health policy indicators:
@@ -697,22 +640,16 @@ Incidence and prevalence of morbidity
 Prevalence of disability
 [Ref- Park /24"/27]
 Millennium Development Goals (MDGs)
-</details>
 
-<details>
-<summary><b>Q. What is meant by MDG? [SUST-15J]<br>Q. Mention two mortality & morbidity indicators in MDG with their present status in</b></summary>
+### Q. What is meant by MDG? [SUST-15J]<br>Q. Mention two mortality & morbidity indicators in MDG with their present status in
 
 Bangladesh. [CU-15Ju]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the health-related millennium development goals. [DU-16M, 13Ju,12Ju,10Ju, CU- 12Ju, 11Ju, RU-11Ju, SUST-12Ju]</b></summary>
+### Q. Enumerate the health-related millennium development goals. [DU-16M, 13Ju,12Ju,10Ju, CU- 12Ju, 11Ju, RU-11Ju, SUST-12Ju]
 
 _Q. Enumerate the health-related millennium development goals. [DU-16M, 13Ju,12Ju,10Ju, CU- 12Ju, 11Ju, RU-11Ju, SUST-12Ju]_
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Millennium development goals (MDG). [CU-13Ju, SUST-15u,14J,12J,10J]</b></summary>
+### Q. Write short note on: Millennium development goals (MDG). [CU-13Ju, SUST-15u,14J,12J,10J]
 
 **Health-related millennium development gals (MDG):** .
 The goals in the area of development and Poverty eradication are now widely referred to as millennium
@@ -756,10 +693,8 @@ Goal no | Goal | Indicators
 Goal-8 |Develop a global partnership > Proportion of population with access to affordable essential
 for development. drugs on a sustainable basis.
 [Ref- Park / 24” / 28]
-</details>
 
-<details>
-<summary><b>Q. Why MDG was proposed? [SUST-15J]</b></summary>
+### Q. Why MDG was proposed? [SUST-15J]
 
 **The Millennium Development Goals / MDGs:** ; ; 7
 In September 2000, representatives from 189 countries met at the Millennium summit in New York to
@@ -772,10 +707,8 @@ adopt the United Nations Millennium Declaration. The leaders made specific commi
 6) And strengthening the United Nations.
 [Ref- Park /24"/ 11]
 Sustainable Development Goals (SDGs)
-</details>
 
-<details>
-<summary><b>Q. What is meant by SDG?<br>Q. Write short note on: Sustainable development goals (SDGs). [SUST-1 8M,17M]</b></summary>
+### Q. What is meant by SDG?<br>Q. Write short note on: Sustainable development goals (SDGs). [SUST-1 8M,17M]
 
 **Sustainable development goals / SDGs:** .
 It is officially known as “Transforming our world: the 2030 Agenda for Sustainable Development”. It is
@@ -818,10 +751,8 @@ Ng institutions access to justice for all and build effective, accountable and i
 institutions at all levels, :
 Strengthen the means of implementation and revitalize the global partnership for’
 Sustainable development. ]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the health-related sustainable development goals.</b></summary>
+### Q. Enumerate the health-related sustainable development goals.
 
 Health related sustainable development goals and its indicators:
 Goal |
@@ -839,10 +770,8 @@ through prevention and treatment and promote mental health and well-being.
 By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals
 and air, water and soil pollution and contamination.
 Health Care of the Community
-</details>
 
-<details>
-<summary><b>Q. Define health care.<br>Q. Mention the characteristics of ideal health care. [DU-15Ju,12Ju, RU-15J]</b></summary>
+### Q. Define health care.<br>Q. Mention the characteristics of ideal health care. [DU-15Ju,12Ju, RU-15J]
 
 **Health care:** It may be defined as-
 A multitude of services rendered to individuals, families or communities by the agents of the health
@@ -865,10 +794,8 @@ material resources.
 SS
 NN NN
 ip yncept of healt ise 31
-</details>
 
-<details>
-<summary><b>Q. What are the types of health care services / health services?<br>Q. Discuss the use of health services. [SUST-16M]</b></summary>
+### Q. What are the types of health care services / health services?<br>Q. Discuss the use of health services. [SUST-16M]
 
 **T of health heal:**
 1) Promotive health services; e.g.
@@ -888,10 +815,8 @@ ip yncept of healt ise 31
   - Social rehabilitation.
   - Psychological rehabilitation.
 Levels of health care
-</details>
 
-<details>
-<summary><b>Q. Write in brief the levels of health care delivery system of Bangladesh. [CU-12Ju/J, RU-13Ju]<br>Q. Enumerate health care delivery level of Bangladesh. [SUST-11J]<br>Q. Describe the health care delivery system in Bangladesh. [DU-11Ju, SUST-17M]<br>Q. Write a brief account on ‘Health care delivery system of Govt. of Bangladesh with special</b></summary>
+### Q. Write in brief the levels of health care delivery system of Bangladesh. [CU-12Ju/J, RU-13Ju]<br>Q. Enumerate health care delivery level of Bangladesh. [SUST-11J]<br>Q. Describe the health care delivery system in Bangladesh. [DU-11Ju, SUST-17M]<br>Q. Write a brief account on ‘Health care delivery system of Govt. of Bangladesh with special
 
 emphasis on levels of health care’. [SUST-15Ju]
 Different levels of health care delivery system in Bangladesh: Health services are usually organized at three
@@ -923,10 +848,8 @@ institute of kidney diseases & urology (NIKDU) etc.
 [Ref- Rashid, Khabir, Hyder / 5" / 36 + Park /24" /34]
 3
 i
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Referral system.</b></summary>
+### Q. Write short note on: Referral system.
 
 **Referral system:**
 A fundamental and necessary function of health care system is to provide a sound referral system. It
@@ -943,17 +866,13 @@ Importance of referral system;
 1) It is a fundamental and necessary function of health care system.
 2) It will ensure continuity of care and inspire confidence of the consumer in this system.
 [Ref- Rashid, Khabir, Hyder / 5" / 36]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Health care. [CU-16N]</b></summary>
+### Q. Write short note on: Health care. [CU-16N]
 
 Please write from above.
 Domiciliary health care
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Domiciliary health care.</b></summary>
+### Q. Write short note on: Domiciliary health care.
 
 **Domiciliary health care:** This is primary health care ina package which includes activities, such as —
   - Health education,
@@ -966,10 +885,8 @@ At present an auxiliary (Health assistant) and a female family planning worker (
 assistant) have been working for an average of 4,000 population.
 [Ref- Rashid, Khabir, Hyder / 5" /37]
 Comprehensive health care
-</details>
 
-<details>
-<summary><b>Q. Define comprehensive health care. [DU-16M,14Ju, CU-13J,12J, SUST-16J, 1 5Ju/J,12Ju,11J]<br>Q. Discuss comprehensive health care. [SUST-16N]<br>Q. Explain characteristics [SUST-15Ju] / components [SUST-12Ju] of comprehensive health care.<br>Q. Explain comprehensive health care with characteristics & examples [SUST-17M]<br>Q. Write short note on: Comprehensive health care, [SUST-13Ju]</b></summary>
+### Q. Define comprehensive health care. [DU-16M,14Ju, CU-13J,12J, SUST-16J, 1 5Ju/J,12Ju,11J]<br>Q. Discuss comprehensive health care. [SUST-16N]<br>Q. Explain characteristics [SUST-15Ju] / components [SUST-12Ju] of comprehensive health care.<br>Q. Explain comprehensive health care with characteristics & examples [SUST-17M]<br>Q. Write short note on: Comprehensive health care, [SUST-13Ju]
 
 **Comprehensive health care:**
 The term “comprehensive health care” was first used by the Bhore Committee in 1946. shes
@@ -1014,10 +931,8 @@ tuberculosis.
 tS
 & OS
 Primary health care (PHC)
-</details>
 
-<details>
-<summary><b>Q. Define primary health care (PHC). [RU-18N,13J,10Ju, SUST-17M, 12J,11J, CU-10J]<br>Q. Elaborate Alma-Ata declaration.</b></summary>
+### Q. Define primary health care (PHC). [RU-18N,13J,10Ju, SUST-17M, 12J,11J, CU-10J]<br>Q. Elaborate Alma-Ata declaration.
 
 **Primary health care (PHC):** 8 following an international conference in
 The concept of primary health care came into limelight in 197:
@@ -1026,16 +941,12 @@ Essential health care based on practical, scientifically sound and socially acce
 technology made universally accessibte to individuals and families in the community through their ie ;
 Participation and at a cost that the community and the country can afford to maintain at every stage of their
 development in the spirit of self-determination”. [Ref- Park /24" /34]
-</details>
 
-<details>
-<summary><b>Q. State the components / elements of primary health care (PHC). [DU-17M,16M, 15Ju,11J,10J,</b></summary>
+### Q. State the components / elements of primary health care (PHC). [DU-17M,16M, 15Ju,11J,10J,
 
 CU-10J, SUST-15Ju, 14Ju/J,13Ju, 12Ju,1 [Ju]
-</details>
 
-<details>
-<summary><b>Q. Enumerate five elements of PHC, [DU-14J]</b></summary>
+### Q. Enumerate five elements of PHC, [DU-14J]
 
 **Components / elements of PHC:** The declaration of Alma-Ata stated that PHC includes at least:
 1) Education about prevailing health problems and methods of preventing & controlling them.
@@ -1056,10 +967,8 @@ E = Essential drugs provision.
 N = Promotion of food supply and proper nutrition.
 T = Treatment of common diseases and injuries.
 S = An adequate supply of safe water and basic sanitation.
-</details>
 
-<details>
-<summary><b>Viva Q. Mention the background of primary health care.</b></summary>
+### Viva Q. Mention the background of primary health care.
 
 **Background of primary health care:**
 The concept of primary health care came into limelight in 1978 following an intentional conference in
@@ -1072,40 +981,28 @@ achieving the goal of HFA by 2000 AD through the key approach of primary health 
 [Ref- Park /24" /34 + Rashid, Khabir, Hyder / 5" / 16]
 _++<28l
 ANNAN NNN A ARR ee
-</details>
 
-<details>
-<summary><b>Q. State the principles of primary health care (PHC). [DU-I6N, CU-18M,17N,16J,15J, RU- 13J,11J,10Ju, SUST-17M, 16M, 12J,1 1J,10Ju]</b></summary>
+### Q. State the principles of primary health care (PHC). [DU-I6N, CU-18M,17N,16J,15J, RU- 13J,11J,10Ju, SUST-17M, 16M, 12J,1 1J,10Ju]
 
 _Q. State the principles of primary health care (PHC). [DU-I6N, CU-18M,17N,16J,15J, RU- 13J,11J,10Ju, SUST-17M, 16M, 12J,1 1J,10Ju]_
-</details>
 
-<details>
-<summary><b>Q. Explain any two principles of PHC. [CU-16J]<br>Q. ‘PHC is also termed as essential health care’-justify. Which principle of PHC is more</b></summary>
+### Q. Explain any two principles of PHC. [CU-16J]<br>Q. ‘PHC is also termed as essential health care’-justify. Which principle of PHC is more
 
 applicable & appropriate for population control in Bangladesh? [CU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. ‘PHC is also termed as essential health care’- justify. Which principle of PHC is more</b></summary>
+### Q. ‘PHC is also termed as essential health care’- justify. Which principle of PHC is more
 
 applicable & appropriate for community clinic setup & its activity in Bangladesh? [CU-16M]
-</details>
 
-<details>
-<summary><b>Q. ‘PHC is also termed as essential health care’- justify. [CU-I8N, 15Ju]<br>Q. ‘PHC plays an important role for health infrastructure & development of Bangladesh’-</b></summary>
+### Q. ‘PHC is also termed as essential health care’- justify. [CU-I8N, 15Ju]<br>Q. ‘PHC plays an important role for health infrastructure & development of Bangladesh’-
 
 **Justify. [CU-17M]:**
-</details>
 
-<details>
-<summary><b>Q. Discuss in brief the strategies of PHC. [CU-10J]<br>Q. ‘Homemade ORS is an example of appropriate technology’- justify it. [RU-14Ju]<br>Q. Discuss the role of PHC in prevention, control & treatment of diarrhoeal diseases in</b></summary>
+### Q. Discuss in brief the strategies of PHC. [CU-10J]<br>Q. ‘Homemade ORS is an example of appropriate technology’- justify it. [RU-14Ju]<br>Q. Discuss the role of PHC in prevention, control & treatment of diarrhoeal diseases in
 
 Bangladesh. [DU-16N]
-</details>
 
-<details>
-<summary><b>Q. Discuss about the concept of primary health care. [CU-10Ju]<br>Q. Write short note on: Primary health care. [SUST-16N]<br>Q. Write short note on: Principles of primary health care. [SUST-13J]</b></summary>
+### Q. Discuss about the concept of primary health care. [CU-10Ju]<br>Q. Write short note on: Primary health care. [SUST-16N]<br>Q. Write short note on: Principles of primary health care. [SUST-13J]
 
 **Principles of primary health care:** Primary health care is based on 4 principles —
 1) Equitable distribution of health services.
@@ -1156,47 +1053,35 @@ department and information department are needed,
   - Itcan be maintained with the community resources.
 Example: Hand-made ORS for diarrhoeal diseases, bifurcated needle for vaccination.
 [Ref- Park / 24" / 928, 929]
-</details>
 
-<details>
-<summary><b>Q. Which principl of PHC is more applicable and appropriate for community clinic setup and</b></summary>
+### Q. Which principl of PHC is more applicable and appropriate for community clinic setup and
 
 its activities in Bangladesh? [CU-18N]
-</details>
 
-<details>
-<summary><b>Q. Explain Social equity [DU-13Ju] / equitable distribution [DU-10Ju] as a principle of PHC.<br>Q. Why ‘equitable distribution’ is an essential part of PHC? [DU-16M]<br>Q. rt anand participation at all level as a principle of PHC. [DU-14Ju, RU-18N,14J,<br>Q. How community can participate in health development? [DU-12Ju]<br>Q. Explain the multisectoral approach [SUST-17M, 14Ju,11Ju] / intersectoral co-ordination</b></summary>
+### Q. Explain Social equity [DU-13Ju] / equitable distribution [DU-10Ju] as a principle of PHC.<br>Q. Why ‘equitable distribution’ is an essential part of PHC? [DU-16M]<br>Q. rt anand participation at all level as a principle of PHC. [DU-14Ju, RU-18N,14J,<br>Q. How community can participate in health development? [DU-12Ju]<br>Q. Explain the multisectoral approach [SUST-17M, 14Ju,11Ju] / intersectoral co-ordination
 
 [SUST-10Ju] as a principle of PHC.
-</details>
 
-<details>
-<summary><b>Q. ‘Health is multisectoral approach’-Justify. [CU-1 Ju, 10J]</b></summary>
+### Q. ‘Health is multisectoral approach’-Justify. [CU-1 Ju, 10J]
 
 bs Describe appropriate technology with few examples. [DU-16J,12J, CU-15J]
 nswer ‘
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. Suppose an outreach immunization center is to be established in a rural community. Explain</b></summary>
+### Q. Suppose an outreach immunization center is to be established in a rural community. Explain
 
 how community participation can ensure appropriate place selection of the immunization
 center in that community. [RU-17M,15Ju]
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. Differentiate between equitable distribution and equal distribution. [DU-16N]</b></summary>
+### Q. Differentiate between equitable distribution and equal distribution. [DU-16N]
 
 **Equitable distribution:**
 Health services must be shared equally by all people irrespective of their ability to pay and all (rich, poor,
 urban or rural) must have access to health services.
 Equal distribution: Health service must be shared in equal amount by all people.
-</details>
 
-<details>
-<summary><b>Q. State the constrains of health care delivery at primary level.</b></summary>
+### Q. State the constrains of health care delivery at primary level.
 
 **Constrains of healthcare delivery at primary level:**
 1) Persistent bias towards curative aspect shown by the people as well as health personnel.
@@ -1205,10 +1090,8 @@ Equal distribution: Health service must be shared in equal amount by all people.
 4) Difficulty in involving the people.
 - enepeee |Ref- Rashid, Khabir, Hyder /5"/ 22]
 __aantt?
-</details>
 
-<details>
-<summary><b>Q. What are the primary health care institutions? [SUST-16N]<br>Q. Discuss the primary health care delivery system in Bangladesh. [DU-13J]</b></summary>
+### Q. What are the primary health care institutions? [SUST-16N]<br>Q. Discuss the primary health care delivery system in Bangladesh. [DU-13J]
 
 Primary health care (PHC) delivery system in Bangladesh; This is the first level of contact between an
 individual and the health system.
@@ -1223,10 +1106,8 @@ Obstacles to the successful implementation of primary health care (PHC) in Bangl
 4) Difficulty in involving the people.
 [Ref- Rashid, Khabir, Hyder / 5/22]
 Bhore committee
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Bhore Committee.</b></summary>
+### Q. Write short note on: Bhore Committee.
 
 **Bhore Committee:**
 It was the “Health survey and Development Committee” appointed by the Government of the India in
@@ -1248,10 +1129,8 @@ regionalized around district hospitals with 2500 beds.
 physicians’.
 [Ref- Park / 24/910]
 Major Health Problems of Bangladesh
-</details>
 
-<details>
-<summary><b>Q. Mention the health problems of Bangladesh. [SUST-13Ju]<br>Q. List health problem related with socioeconomic situation of Bangladesh. [CU-05M]</b></summary>
+### Q. Mention the health problems of Bangladesh. [SUST-13Ju]<br>Q. List health problem related with socioeconomic situation of Bangladesh. [CU-05M]
 
 **Major health problems of Bangladesh:**
 1) Population problems: Bangladesh has a large population with highest density in the third world as
@@ -1276,10 +1155,8 @@ referral system, PHC services could not be provided to the desired extent.
   - Lack of safe drinking water in many areas of the country.
   - Primitive methods of excreta disposal.
 Concept of Disease
-</details>
 
-<details>
-<summary><b>Q. Define disease. [CU-17N, 14Ju]</b></summary>
+### Q. Define disease. [CU-17N, 14Ju]
 
 **Disease:**
 The Oxford Dictionary English Dictionary defines disease as “a condition of the body or some part
@@ -1287,10 +1164,8 @@ or organ of the body in which its functions are disrupted or deranged”.
 From an ecological point of view, disease is defined as ‘maladjustment of the human organism to
 the environment’.
 [Ref- Park / 24" /37|
-</details>
 
-<details>
-<summary><b>Q. Define illness & sickness. [RU-18N]</b></summary>
+### Q. Define illness & sickness. [RU-18N]
 
 **Illness:**
 It refers not only to the presence of a specific disease, but also to the individual's perceptions &
@@ -1333,10 +1208,8 @@ ming organs and certain disorders involving the immune
 21) Factors influencing health status and contact with health services.
 [Ref- Park /24" / 54
 Concept of Causation
-</details>
 
-<details>
-<summary><b>Q. Mention the theories of disease causation. [SUST-16M/J]<br>Q. Outline various concepts of disease causation.</b></summary>
+### Q. Mention the theories of disease causation. [SUST-16M/J]<br>Q. Outline various concepts of disease causation.
 
 **Theories of disease causation:**
 Theories of disease causation:
@@ -1353,10 +1226,8 @@ Theories of disease causation:
 - Multifactorial causation.
 - The epidemiological wheel concept.
 [Ref- Park / 24/37, 38]
-</details>
 
-<details>
-<summary><b>Viva Q. What do you mean by supernatural theory of disease?</b></summary>
+### Viva Q. What do you mean by supernatural theory of disease?
 
 **Supernatural theory of disease:**
 nas “the supernatural theory of
@@ -1364,20 +1235,16 @@ The concept of disease in which the ancient man believed is know!
 disease” which has tried to soothe bewildered man by stating that morbidity and mortality are God's wrath on
 evil doers, or diseases occur due to the trickery of demons.
 [Ref- Park / 24"/ 1]
-</details>
 
-<details>
-<summary><b>Q. Define miasmatic theory of disease.</b></summary>
+### Q. Define miasmatic theory of disease.
 
 **Miasmatic theory of disease:**
 e to noxious (bad) air and vapours.
 The miasmatic theory is an old theory which attributed diseas
 [Ref- Park / 24" /5 + Rashid, Khabir, Hyder 15" /6]
 EET SERRA TANNA
-</details>
 
-<details>
-<summary><b>Q. Describe modern concepts of disease causation.<br>Q. State multifactorial causation of disease. [DU-13Ju]<br>Q. Describe in brief ‘web of causation’, [RU-12Ju] — .<br>Q. ‘Disease is the outcome of interaction of multiple factors’- explain it in line with web of</b></summary>
+### Q. Describe modern concepts of disease causation.<br>Q. State multifactorial causation of disease. [DU-13Ju]<br>Q. Describe in brief ‘web of causation’, [RU-12Ju] — .<br>Q. ‘Disease is the outcome of interaction of multiple factors’- explain it in line with web of
 
 causation. [RU-14Ju]
 Modern theories of disease causation: ‘
@@ -1397,10 +1264,8 @@ removed,
 surrounded by environment .The size of the different component of wheel depends upon specific
 disease entities. The genetic disease the core will be very large.
 [Ref- Park / 24" /37, 38]
-</details>
 
-<details>
-<summary><b>Q. What is self-care? [DU-13Ju]</b></summary>
+### Q. What is self-care? [DU-13Ju]
 
 **Self-care:**
 Self-care refers to actions and attitudes which contribute to the maintenance of well-being and
@@ -1409,10 +1274,8 @@ In terms of health maintenance, self-care is any activity of an individual, fami
 intention of improving or restoring health, or treating or preventing disease. A holistic health approach is
 common in self-care.
 Epidemiological triad / Ecological triad
-</details>
 
-<details>
-<summary><b>Q. Define epidemiological triad. [DU-I6N, RU-16N,12Ju]<br>Q. Explain epidemiological triad. [SUST-16J]<br>Q. Briefly describe epidemiological triad in disease causation. [DU-13J]<br>Q. Describe ecological triad in context of disease prevention. [CU-11J] Environment)<br>Q. Write short note on: Epidemiological triad / Ecological triad.</b></summary>
+### Q. Define epidemiological triad. [DU-I6N, RU-16N,12Ju]<br>Q. Explain epidemiological triad. [SUST-16J]<br>Q. Briefly describe epidemiological triad in disease causation. [DU-13J]<br>Q. Describe ecological triad in context of disease prevention. [CU-11J] Environment)<br>Q. Write short note on: Epidemiological triad / Ecological triad.
 
 [SUST-18N/M,17N/M, 16J, 14J,12J,11J, CU-12Ju]
 Ecological triad / epidemiological triad:
@@ -1425,10 +1288,8 @@ The occurrence of a disease can be blocked
 u by intersecting the triangle at any of its three sides as in the
 figure or at any linkage between the relevant factors.
 [Ref- Park /24" / 37]
-</details>
 
-<details>
-<summary><b>Q. Define agent [DU-15J] / disease agent [DU-17N,16J].<br>Q. Classify agents [DU-16J,15J] / disease agent [DU-17N] with example.<br>Q. Name the agents responsible for disease causation. [DU-12J]<br>Q. Write short note on: Agent. [CU-16N]<br>Q. Write short note on: Disease agent. [SUST-18N]</b></summary>
+### Q. Define agent [DU-15J] / disease agent [DU-17N,16J].<br>Q. Classify agents [DU-16J,15J] / disease agent [DU-17N] with example.<br>Q. Name the agents responsible for disease causation. [DU-12J]<br>Q. Write short note on: Agent. [CU-16N]<br>Q. Write short note on: Disease agent. [SUST-18N]
 
 Agent / disease agent; _ ;
 Agent is defined as a substance, living or non-living, or a force, tangible or intangible, the excessive
@@ -1486,10 +1347,8 @@ Poverty — deficiency disorder
 VIVA & OSP,
   - Social isolation
   - Maternal deprivation etc, [Ref- Park / 24" / 41
-</details>
 
-<details>
-<summary><b>Q. Define host. [SUST-17M]<br>Q. Classify host. [SUST-17M]<br>Q. Classify host factors with example. [DU-18M]<br>Q. Mention the host factors which influence the disease. [SUST-17M]<br>Q. Write short note on: Host.</b></summary>
+### Q. Define host. [SUST-17M]<br>Q. Classify host. [SUST-17M]<br>Q. Classify host factors with example. [DU-18M]<br>Q. Mention the host factors which influence the disease. [SUST-17M]<br>Q. Write short note on: Host.
 
 **Host:**
 . A person or other animal including birds and arthropods that afford subsistence or lodgment to an
@@ -1510,10 +1369,8 @@ housing etc,
   - Life style factors: living habits, food habit + colon cancer, exercise —> hypertension, heart
 disease. Smoking > lung cancer, alcohol use etc. ‘;
 [Ref- Park / 24" /38]
-</details>
 
-<details>
-<summary><b>Q. Name environmental factors of disease causation. Discuss any one of them.<br>Q. Mention the role of biological environment in disease causation. [DU-17M]</b></summary>
+### Q. Name environmental factors of disease causation. Discuss any one of them.<br>Q. Mention the role of biological environment in disease causation. [DU-17M]
 
 **Environmental factors of disease causation:**
 1) Physical environment: The term physical environment" is applied to non-living things and
@@ -1531,18 +1388,14 @@ Example: Cultural value, customs, habits, beliefs, attitudes, religion, educatio
 [Ref- Park / 24" / 41, 42]
 4
 Natural History of Disease
-</details>
 
-<details>
-<summary><b>Q. What do</b></summary>
+### Q. What do
 
 6u mean by natural history of disease? [DU-16M,10J]
 es natural history of disease imply? [DU-14Ju]
 ibe natural history of disease. [DU-13Ju]
-</details>
 
-<details>
-<summary><b>Q. Define natural history of disease. Mention the events that take place in the natural history of</b></summary>
+### Q. Define natural history of disease. Mention the events that take place in the natural history of
 
 N an infectious disease. [RU-10Ju]
 . Write short note on: Natural history of disease. [DU-11J]
@@ -1557,16 +1410,12 @@ may be incubation petiod between the entry of disease agent and
 nical signs and
 [Ref- Park / 24" /39, 40]
 Risk factors of disease
-</details>
 
-<details>
-<summary><b>Q. Define risk [CU-17M] / risk factor [RU-18M, SUST-18M, 12J] / risk factors of disease [SUST-</b></summary>
+### Q. Define risk [CU-17M] / risk factor [RU-18M, SUST-18M, 12J] / risk factors of disease [SUST-
 
 113).
-</details>
 
-<details>
-<summary><b>Q. Classify risk factors. [SUST-18M]<br>Q. Name 5 important risk factors.</b></summary>
+### Q. Classify risk factors. [SUST-18M]<br>Q. Name 5 important risk factors.
 
 **Risk / Risk factor:** The term ‘risk factor’ is used by different authors with at least 2 meanings-
   - An attribute or exposure that is significantly associated with development of a disease.
@@ -1589,10 +1438,8 @@ Family history
 Genetic factors
 [Ref- Park /24" / 42]
 40, MCQ), VIVA &OSPE
-</details>
 
-<details>
-<summary><b>📌 Viva — Prominent risk factors</b></summary>
+### 📌 Viva — Prominent risk factors
 
   - Prominent risk factors:
 **i:** Risk factors
@@ -1607,10 +1454,8 @@ Cirrhosis of liver
 Alcohol, non-use of seat belts, speed, automobile Cesign.
 Motor vehicle accidents
 Risk groups / Risk approach of disease
-</details>
 
-<details>
-<summary><b>Q. Define risk approach. [DU-14Ju,11Ju, RU-18M]<br>Q. Mention the role of risk on disease causation with example. [CU-17M]<br>Q. Mention WHO guidelines for defining ‘at-risk’ group. [RU-18M]</b></summary>
+### Q. Define risk approach. [DU-14Ju,11Ju, RU-18M]<br>Q. Mention the role of risk on disease causation with example. [CU-17M]<br>Q. Mention WHO guidelines for defining ‘at-risk’ group. [RU-18M]
 
 **Risk approach / risk groups:** . 1 ap
 The approach developed and promoted by WHO is to identify precisely the “risk groups” or “target
@@ -1641,10 +1486,8 @@ Access to health services.
 Lifestyles and attitudes,
 [Ref- Park / 24" / 43]
 Disease cycle
-</details>
 
-<details>
-<summary><b>Q. Define disease cycle. [SUST-13Ju]<br>Q. Discuss different stages of disease cycle. [DU-17N,15Ju, CU-14Ju, SUST-15Ju,1 IJ]<br>Q. Draw & label disease cycle with brief description. [DU-16N/J] ,<br>Q. Draw, label & explain different stages of disease cycle. [SUST-13Ju/J 10Ju]<br>Q. Write short note on: Disease cycle. [CU-17N, SUST-18M,17M 14Ju/J in IJu]<br>Q. Write short note on: Stages of disease cycle. [SUST-12Ju] , ,</b></summary>
+### Q. Define disease cycle. [SUST-13Ju]<br>Q. Discuss different stages of disease cycle. [DU-17N,15Ju, CU-14Ju, SUST-15Ju,1 IJ]<br>Q. Draw & label disease cycle with brief description. [DU-16N/J] ,<br>Q. Draw, label & explain different stages of disease cycle. [SUST-13Ju/J 10Ju]<br>Q. Write short note on: Disease cycle. [CU-17N, SUST-18M,17M 14Ju/J in IJu]<br>Q. Write short note on: Stages of disease cycle. [SUST-12Ju] , ,
 
 ~ —<$ rn AAA ANNAN NNN, WANNA Re
 Disease cycle: fses of most communicable diseases are going on certain stages, which all together
@@ -1685,10 +1528,8 @@ convalescent period a patient is infective to others.
 disease.
 3) Specific measures can be taken at different stages of a disease process.
 Spectrum of disease
-</details>
 
-<details>
-<summary><b>Q. What is disease spectrum?<br>Q. Explain infectious disease spectrum.</b></summary>
+### Q. What is disease spectrum?<br>Q. Explain infectious disease spectrum.
 
 **Disease spectrum:** It is a graphic representation of variation in the manifestation of disease. It is as follows —
 - The different manifestations are simply reflections of individual different states of immunity and
@@ -1712,10 +1553,8 @@ Importance: The concept of spectrum of disease provides for inclusion of all cas
 clinical in the study of disease. th
 [Ref- Park / 24” / 43]
 Iceberg phenomenon of disease }
-</details>
 
-<details>
-<summary><b>Q. Discuss the ‘iceberg phenomena’ of disease with importance. [SUST-13J]<br>Q. Enumerate the ‘iceberg phenomena’ of disease. [CU-16N]</b></summary>
+### Q. Discuss the ‘iceberg phenomena’ of disease with importance. [SUST-13J]<br>Q. Enumerate the ‘iceberg phenomena’ of disease. [CU-16N]
 
 **Q- Write short note on:** Iceberg of disease. [DU-12Ju, CU-13J, SUST-17N, 16N, 12J]
 Iceberg phenomenon of disease: It is the representation of a disease process on human being _in a community
@@ -1752,20 +1591,16 @@ infection or disease in the community and its detection and control is a challen
 Ves Celection and control is a chatlenge to modem techniqu'
 in preventive medicing.
 [Ref- Park / 24" / 44]
-</details>
 
-<details>
-<summary><b>Q. Poliomyelitis is a disease of “Iceberg” phenomenon — justify the comment. [RU-13Ju]</b></summary>
+### Q. Poliomyelitis is a disease of “Iceberg” phenomenon — justify the comment. [RU-13Ju]
 
 **Poliomyelitis is a disease of “iceberg” phenomenon:**
   - Subclinical infection occurs in about 95% of cases, which indicates the submerged portion of
 iceberg.
   - niieer seed occurs in about 4-8% of cases, which indicates the water-line of iceberg.
   - Paralytic polio occurs in less than 1% cases, which indicates the floating tip of iceberg.
-</details>
 
-<details>
-<summary><b>Q. Compare the pulmonary tuberculosis problem of Bangladesh with ‘iceberg’. [RU-10Ju]</b></summary>
+### Q. Compare the pulmonary tuberculosis problem of Bangladesh with ‘iceberg’. [RU-10Ju]
 
 Comparison of pulmonary tuberculosis problem of Bangladesh with ‘iceberg’:
 Iceberg phenomenon of disease is the representation of a disease process on human being ina
@@ -1779,16 +1614,12 @@ techniques in preventive medicine.
 Concept of Control
 Disease control, Disease elimination & Disease eradication
 eee
-</details>
 
-<details>
-<summary><b>Q. Define disease control [DU-12J, SUST-14Ju,13J] / disease eradication [SUST-15J,1 IJu,10Ju/J] /</b></summary>
+### Q. Define disease control [DU-12J, SUST-14Ju,13J] / disease eradication [SUST-15J,1 IJu,10Ju/J] /
 
 disease elimination [SUST-12Ju, 1 1Ju]?
-</details>
 
-<details>
-<summary><b>Q. Discuss disease control, elimination & eradication. [SUST-17M, 16J]<br>Q. Explain the term disease control & disease eradication. [SUST-18M]</b></summary>
+### Q. Discuss disease control, elimination & eradication. [SUST-17M, 16J]<br>Q. Explain the term disease control & disease eradication. [SUST-18M]
 
 **Disease control:** The term “disease control” describes operations aimed at reducing:
 - The incidence of disease.
@@ -1804,20 +1635,16 @@ transmission of infection by extermination of the infectious agent through surve
 Example: Today smallpox is the only disease that has been eradicated.
 [Ref- Park /24" / 44]
 MCO), VIVA & sp
-</details>
 
-<details>
-<summary><b>Q. Mention the objectives of disease control.</b></summary>
+### Q. Mention the objectives of disease control.
 
 **Objectives of disease control:**
 1) To reduce the incidence of disease _ ‘
 2 To reduce the duration and the risk, of transmission i Sneed Pespancasteul ecnit licen
 3) To reduce the effects of infection, including both the physical and psy
 4) To reduce the financial burden to the community. [Ref- Park /24"/ 44
-</details>
 
-<details>
-<summary><b>Q. Differentiate between disease control and disease eradication.</b></summary>
+### Q. Differentiate between disease control and disease eradication.
 
 Differences between disease control & disease eradication:
 It is the termination of all
@@ -1840,10 +1667,8 @@ Not so. Yes.
 Malaria control, Small pox eradication.
 Operational standard
 6) Disease agent
-</details>
 
-<details>
-<summary><b>Q. What are the factors in favour of eradication of disease? [SUST-18M, 15J]<br>Q. What are the common criteria to eradicate a disease?</b></summary>
+### Q. What are the factors in favour of eradication of disease? [SUST-18M, 15J]<br>Q. What are the common criteria to eradicate a disease?
 
 **Factors responsible for eradicating a disease:**
 1) Infection & disease limited to human host.
@@ -1858,10 +1683,8 @@ Operational standard
 10) Disease has seasonal variation.
 11) Absence or interference by maternal antibodies in infants.
 Monitoring, Surveillance & Evaluation of control
-</details>
 
-<details>
-<summary><b>Q. Define monitoring [RU-15Ju] & evaluation.</b></summary>
+### Q. Define monitoring [RU-15Ju] & evaluation.
 
 - Monitoring: In management, monitoring refers to ‘the continuous oversight of activities to ensure that
 they are proceeding according to plan’,
@@ -1869,10 +1692,8 @@ they are proceeding according to plan’,
 simply the assessment of how well a programme is performing. ,
 [Ref- Park / 24" / 44, 45]
 8 a a a rl
-</details>
 
-<details>
-<summary><b>Q. Define surveillance. [RU-15Ju]<br>Q. Write short note on: Surveillance. [CU-17M,16J,14Ju/J]</b></summary>
+### Q. Define surveillance. [RU-15Ju]<br>Q. Write short note on: Surveillance. [CU-17M,16J,14Ju/J]
 
 **Surveillance:** It is defined as ‘the continuous scrutiny of the factors that determine the occurrence and
 distribution of disease and other conditions of ill health’.
@@ -1888,10 +1709,8 @@ practices and other factors that may affect health.
 redefinition of objectives, and
 3) Provide timely warning of public health disasters, so that interventions can be mobilized.
 [Ref- Park / 24" / 44]
-</details>
 
-<details>
-<summary><b>Q. List the diseases under surveillance.</b></summary>
+### Q. List the diseases under surveillance.
 
 **Diseases under surveillance by WHO:**
 1) Louse-borne typhus fever.
@@ -1903,44 +1722,32 @@ redefinition of objectives, and
 7) Small pox.
 [Ref- Park /24™ / 128]
 Concept of Prevention
-</details>
 
-<details>
-<summary><b>Q. Define prevention. [SUST-12J,10J]</b></summary>
+### Q. Define prevention. [SUST-12J,10J]
 
 **Prevention:**
 Prevention implies to intercept or oppose the “cause” and thereby the disease process.
 [Ref- Park / 24" / 45]
 Levels of prevention
-</details>
 
-<details>
-<summary><b>Q. Discuss the differe {levels of disease prevention with example. [DU-12J,11Ju, CU-13Jw/J,1 1Ju,</b></summary>
+### Q. Discuss the differe {levels of disease prevention with example. [DU-12J,11Ju, CU-13Jw/J,1 1Ju,
 
 SUST-18N, 1716), 14Ju,)340612J, 1 0Ju]
-</details>
 
-<details>
-<summary><b>Q. Briefly dis s of prevention. [DU-17M]<br>Q. What intérventiofis are given in each levels of disease prevention? [SUST-17N]<br>Q. Wha t</b></summary>
+### Q. Briefly dis s of prevention. [DU-17M]<br>Q. What intérventiofis are given in each levels of disease prevention? [SUST-17N]<br>Q. Wha t
 
 {nterventions at different levels of prevention? [CU-11Ju, RU-11J]
-</details>
 
-<details>
-<summary><b>Q. Why preyéntion is better than cure? [CU-15Ju]</b></summary>
+### Q. Why preyéntion is better than cure? [CU-15Ju]
 
 **QWriteshort note on:** Primary prevention. [SUST-18N]
 . Write short note on: Primordial prevention. [CU-14Ju, SUST-16J,15J,13J,10Ju]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Secondary prevention. [CU-17N/M, 16N/J]<br>Q. Write short note on: Tertiary prevention. [CU-18N/M,16M, 1 SJu/J]</b></summary>
+### Q. Write short note on: Secondary prevention. [CU-17N/M, 16N/J]<br>Q. Write short note on: Tertiary prevention. [CU-18N/M,16M, 1 SJu/J]
 
 = i
-</details>
 
-<details>
-<summary><b>Q. Define intervention. What are the different modes of in<br>Q. How health promotion can be done? (SUST-16J]</b></summary>
+### Q. Define intervention. What are the different modes of in<br>Q. How health promotion can be done? (SUST-16J]
 
 **LS Seconda revention:** It may be defined as "action,
 i +a]. primarys
@@ -1996,17 +1803,13 @@ Sd) Rehabilitation.
 [Ref- Park /24" / 45,46]
 Modes of Intervention
 tervention?
-</details>
 
-<details>
-<summary><b>Q. Name the modes of intervention at different level of i<br>Q. Explain different specific interventions to hee ation: PEGI IN, 13Ju]<br>Q. Illustrate different approaches of health p</b></summary>
+### Q. Name the modes of intervention at different level of i<br>Q. Explain different specific interventions to hee ation: PEGI IN, 13Ju]<br>Q. Illustrate different approaches of health p
 
 achieve health Promo
 romotion tion, [RU-17N]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Intervention. 48 a mode of intervention, [RU-15Ju, 130d)</b></summary>
+### Q. Write short note on: Intervention. 48 a mode of intervention, [RU-15Ju, 130d)
 
 ____ een AER
 SSMAOMON wa “s
@@ -2038,10 +1841,8 @@ disability.
 4) Disability limitations: Disease -> Impairment — Disability -> Handicap.
 5) Rehabilitation: Please see below.
 [Ref- Park / 24" / 47-49]
-</details>
 
-<details>
-<summary><b>Q. Explain the term impairment, disability & handicap. [RU-16M] _-</b></summary>
+### Q. Explain the term impairment, disability & handicap. [RU-16M] _-
 
 **> Impairment:** Any loss or abnormality of psychological, physiological, or anatomical structure or
 function. Example — loss of foot. .
@@ -2050,10 +1851,8 @@ any activity. Example: Inability of work.
 > Handicap: As a result of disability, if the person experiences some disadvantages in the life. Example:
 Unemployment.
 [Ref- Park / 24" / 48]
-</details>
 
-<details>
-<summary><b>Q. Write the importance of early diagnosis and treatment of a disease.<br>Q. Early diagnosis and treatment is a part of prevention — explain.</b></summary>
+### Q. Write the importance of early diagnosis and treatment of a disease.<br>Q. Early diagnosis and treatment is a part of prevention — explain.
 
 **Importance of early diagnosis and treatment:**
 1) Treatment of the case is prevention for susceptible hosts: Treatment reduces the communicability of
@@ -2069,10 +1868,8 @@ prevention.
 [Ref- Park / 24" / 48]
 ;
 52_—— ENDEA VOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
-</details>
 
-<details>
-<summary><b>Q. Define rehabilitation. [RU-16M, 14], SUST-16N, I 5u,13Ju, 113]<br>Q. Classify rehabilitation, [RU-16M,14J, SUST-I6N,13Ju,11J]<br>Q. Mention different types of rehabilitation with example. [SUST-16N]<br>Q. For the street beggars with disability which type of health care is suitable? [CU-17N,16N]<br>Q. Write short note on: Rehabilitation. [SUST-18N,17N,1 Ju, 10J]</b></summary>
+### Q. Define rehabilitation. [RU-16M, 14], SUST-16N, I 5u,13Ju, 113]<br>Q. Classify rehabilitation, [RU-16M,14J, SUST-I6N,13Ju,11J]<br>Q. Mention different types of rehabilitation with example. [SUST-16N]<br>Q. For the street beggars with disability which type of health care is suitable? [CU-17N,16N]<br>Q. Write short note on: Rehabilitation. [SUST-18N,17N,1 Ju, 10J]
 
 **Rehabilitation:** Rehabilitation is the combined and coordinated use of medical, social, educational and
 vocational measures for training and retraining the individual to the highest possible level of functional ability.
@@ -2088,10 +1885,8 @@ Examples of rehabilitation:
 Hospitals and Community
 [Ref- Park / 24" / 49]
 Community diagnosis
-</details>
 
-<details>
-<summary><b>Q. Define community diagnosis. [CU-11J,10J]<br>Q. Explain community diagnosis. [DU-18M,16M]<br>Q. Discuss community diagnosis with example. [SUST-10Ju/J, RU-16J,11Ju]<br>Q. Write the importance of community diagnosis in the prevention of diseases. [CU-12J]</b></summary>
+### Q. Define community diagnosis. [CU-11J,10J]<br>Q. Explain community diagnosis. [DU-18M,16M]<br>Q. Discuss community diagnosis with example. [SUST-10Ju/J, RU-16J,11Ju]<br>Q. Write the importance of community diagnosis in the prevention of diseases. [CU-12J]
 
 **Community diagnosis:**
 It may be defined as the pattern of disease in a community described in terms of the important factors
@@ -2118,22 +1913,16 @@ SSS ESSA
 53
 Community treatmen
 ty treatment. [RU-1 Ju]
-</details>
 
-<details>
-<summary><b>Q. Define communi</b></summary>
+### Q. Define communi
 
 nt. [DU-#8M]
-</details>
 
-<details>
-<summary><b>Q. Explain community treatme<br>Q. Discuss community treatment with example. [SUST-10Ju/J, RU-16J]<br>Q. How health of a community can be improved? [RU-16N]</b></summary>
+### Q. Explain community treatme<br>Q. Discuss community treatment with example. [SUST-10Ju/J, RU-16J]<br>Q. How health of a community can be improved? [RU-16N]
 
 **te on:** Community treatment. [CU-$3J]
-</details>
 
-<details>
-<summary><b>Q. Write short no</b></summary>
+### Q. Write short no
 
 oo, .
 Community treatment: Community treatment or community health action is the sum of steps decided upon to
@@ -2155,19 +1944,15 @@ Levels of action in community treatment: There are 3 levels of action —
 2) At the level of family.
 3) Atthe level of community.
 [Ref- Park / 24" /54]
-</details>
 
-<details>
-<summary><b>Q. Health care should be: [DU-18N]</b></summary>
+### Q. Health care should be: [DU-18N]
 
 a) Inadequate.
 b) Comprehensive.
 c) Expensive.
 d) Priority-based.
-</details>
 
-<details>
-<summary><b>Q. Morbidity indicators include: [DU-18N]</b></summary>
+### Q. Morbidity indicators include: [DU-18N]
 
 a) Incidence rate. .
 b) Disability rate.
@@ -2175,10 +1960,8 @@ c) Infant mortality rate.
 d) Prevalence rate.
 e) Matemal mortality rate. e) Feasible.
 Ans. a) T, b) F, c) F, d) T, e) F. Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Biological characteristic of host: [DU-18N, Q. Social agents of diseases are: [DU-18M]</b></summary>
+### Q. Biological characteristic of host: [DU-18N, Q. Social agents of diseases are: [DU-18M]
 
 17N] a) Vitamin A.
 a) Sex. b) Smoking.
@@ -2188,10 +1971,8 @@ d) Age. e) Dust.
 e) Blood cholesterol level.
 Ans, a) F, b) T, c) F, d) T, e) F.
 Ans. a) F, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. PQLI includes: [DU-18M,17M,13J] Q. The Bhore Committee included: [DU-16N]</b></summary>
+### Q. PQLI includes: [DU-18M,17M,13J] Q. The Bhore Committee included: [DU-16N]
 
 a) Infant mortality rate a) Doctors.
 b) Life expectancy at age one b) Lawyers.
@@ -2200,10 +1981,8 @@ d) Unemployment rate d) Engineers.
 e) Teachers.
 e) Dependency ratio
 Ans. a) T, b) T, ¢) T, d) F, e) F. Ans. a) T, b) F, c) F, d) F, €) F.
-</details>
 
-<details>
-<summary><b>Q. Principles of PHC include: [DU-15Ju]<br>Q. Specific dimensions in WHO definition of</b></summary>
+### Q. Principles of PHC include: [DU-15Ju]<br>Q. Specific dimensions in WHO definition of
 
 **health:** [DU-17N] a) Equal distribution of health services.
 a) Social dimension. b) Community participation.
@@ -2212,10 +1991,8 @@ c) Spiritual dimension. d) Provision of essential drugs.
 d) Physical dimension. e) Multi-sectoral approach.
 e) Emotional dimention. Ans. a) F, b) T, ¢) T, d) F, €) T.
 Ans. a) T, b) T, ¢) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Indicators consolidate at PQLI are: [DU-<br>Q. Interventions at pre-pathogenesis phase of 15J]</b></summary>
+### Q. Indicators consolidate at PQLI are: [DU-<br>Q. Interventions at pre-pathogenesis phase of 15J]
 
 **disease are:** [DU-17N] a) Literacy rate.
 a) Health promotion. b) MMR.
@@ -2224,10 +2001,8 @@ c) Treatment. d) Life expectancy at birth.
 d) Specific protection. . e) Under 5 mortality rate.
 o) any cingees, Ans. a) T, b) F, ¢) F, d) T, e) F.
 Ans. a) T, b) F, ¢) F, d) T, e) T. .
-</details>
 
-<details>
-<summary><b>Q. Example of primary prevention: [DU-<br>Q. An ideal indicator should be: [DU-17M, 15J]</b></summary>
+### Q. Example of primary prevention: [DU-<br>Q. An ideal indicator should be: [DU-17M, 15J]
 
 14Ju] a) Provision of water seal latrines.
 b) Diagnosis & treatment of Ca-cervix.
@@ -2238,10 +2013,8 @@ c) Adequate.
 d) Valid. e) Chemoprophylaxis.
 @) Seustive, Ans. a) T, b) F, ) T, d) F, €) T.
 Ans. a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. As a health indicator PQLI involves:<br>Q. Health is considered as: [DU-17M, | lJu] [DU-14Ju]</b></summary>
+### Q. As a health indicator PQLI involves:<br>Q. Health is considered as: [DU-17M, | lJu] [DU-14Ju]
 
 a) Perfect functioning of the body a) IMR.
 b) MMR.
@@ -2255,10 +2028,8 @@ d) Expectancy of life at birth
 e) Level of living.
 Ans, a) T, b) F, c) T, d) T, e) F.
 aa aa ne ee ee eee
-</details>
 
-<details>
-<summary><b>Q. Domiciliary health care includes: [DU-</b></summary>
+### Q. Domiciliary health care includes: [DU-
 
 15J,14Ju,13Ju)
 a) Maternal & child health.
@@ -2267,10 +2038,8 @@ c) Family planning.
 d) Dental health.
 e) Nutrition.
 Ans. a) T, b) F, ¢) T. d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Submerged portion of an ice-berg of</b></summary>
+### Q. Submerged portion of an ice-berg of
 
 **disease comprises of:** [DU-14J]
 a) carriers
@@ -2279,10 +2048,8 @@ c) undiagnosed cases
 d) symptomatic cases
 e) latent cases
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Biological characteristics of a host: [DU- 14J]</b></summary>
+### Q. Biological characteristics of a host: [DU- 14J]
 
 a) Age
 b) Sex
@@ -2290,10 +2057,8 @@ c) Serum cholesterol level
 d) Blood group
 e) Marital status
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Morbidity indicators are: [DU-13Ju,1 1J]</b></summary>
+### Q. Morbidity indicators are: [DU-13Ju,1 1J]
 
 a) Incidence rate
 b) MMR
@@ -2301,10 +2066,8 @@ c) IMR
 d) PQLI
 e) Prevalence rate
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. An ideal health care service should be: [DU-13J]</b></summary>
+### Q. An ideal health care service should be: [DU-13J]
 
 a) Relevant to felt need of the community
 b) Comprehensive
@@ -2312,10 +2075,8 @@ c) Not be feasible
 d) Of any cost
 e) Meet population demand
 Ans. a) T, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Following are the health care levels in</b></summary>
+### Q. Following are the health care levels in
 
 **Bangladesh:** [DU-13J]
 a) domiciliary HC
@@ -2324,10 +2085,8 @@ c) secondary HC
 d) super-specialized HC
 e) primordial HC
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. The submerged portion of the iceberg of</b></summary>
+### Q. The submerged portion of the iceberg of
 
 **disease represents:** [DU-12Ju]
 a) subclinical cases
@@ -2336,10 +2095,8 @@ c) symptomatic cases
 d) undiagnosed cases
 e) carriers
 Ans. a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. The criteria of ideal health indicator are:</b></summary>
+### Q. The criteria of ideal health indicator are:
 
 (DU-12Ju, 1 1Ju,10Ju]
 a) Relevant
@@ -2348,10 +2105,8 @@ c) Affordable
 d) Comprehensive
 e) Accessible
 Ans. a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. The criteria of health care are: [DU-11Ju]</b></summary>
+### Q. The criteria of health care are: [DU-11Ju]
 
 a) reliability
 b) specificity
@@ -2359,10 +2114,8 @@ c) adequacy
 d) affordability
 e) relevance
 Ans, a) F, b) F, ¢) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. The demographic characteristics of host</b></summary>
+### Q. The demographic characteristics of host
 
 **are:** [DU-I lJu]
 a) cholesterol
@@ -2373,10 +2126,8 @@ e) blood group
 Ans. a) F, b) F, c) T, d) T, e) F.
 a \
 tions in different levels
-</details>
 
-<details>
-<summary><b>Q. Morbidity rates used for assessing ill Q. Mode of interven</b></summary>
+### Q. Morbidity rates used for assessing ill Q. Mode of interven
 
 **health in the community are:** [DU-1 Ju] of disease prevention: [DU-11J]
 a) spells of sickness a) Health education
@@ -2388,10 +2139,8 @@ c) bed-occupancy rate
 d) population increase rate
 e) hospital admission rate
 Ans. a) T, b) T, ¢) F, d) F, e) T. Ans. a) T, b) F, c) T, d) T, €) F.
-</details>
 
-<details>
-<summary><b>Q. Health status indicators: [DU-1 Ju]</b></summary>
+### Q. Health status indicators: [DU-1 Ju]
 
 a) low birth weight
 b) life expectancy at birth
@@ -2433,5 +2182,4 @@ Incubation period.
 Generation time...
 Investigation of an Epidemic...
 MCQ......
-</details>
 

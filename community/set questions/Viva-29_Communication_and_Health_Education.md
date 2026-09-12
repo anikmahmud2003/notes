@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What do you mean by health education? Mention the components of health education. (S1,Q5)</b></summary>
+### Q1. What do you mean by health education? Mention the components of health education. (S1,Q5)
 
 ### Health education (definition)
 > 🔴 **Definition (National Conference on Preventive Medicine, USA):** *"Health education is a **process that informs, motivates and helps people to adopt and maintain health practices and life styles**, advocates environmental changes as needed to facilitate this goal, and conducts professional training and research to the same end."*
@@ -29,10 +28,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Define health education. Mention the principles of health education. (S2,Q5)</b></summary>
+### Q2. Define health education. Mention the principles of health education. (S2,Q5)
 
 ### Definition
 *"Health education is a process that informs, motivates and helps people to adopt and maintain health practices and life styles…"* (National Conference on Preventive Medicine, USA).
@@ -57,10 +54,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Define health education. What are the aims and objectives of health education? (S3,Q5)</b></summary>
+### Q3. Define health education. What are the aims and objectives of health education? (S3,Q5)
 
 ### Definition
 *"Health education is a process that informs, motivates and helps people to adopt and maintain health practices and life styles…"*
@@ -77,10 +72,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Enumerate the approaches to health education? What are the common barriers of health communications? (S4,Q5)</b></summary>
+### Q4. Enumerate the approaches to health education? What are the common barriers of health communications? (S4,Q5)
 
 ### Approaches to health education (4)
 1. **Regulatory approach (managed prevention)** — any governmental intervention, direct or indirect, designed to alter human behaviour; may seem the simplest & quickest way to bring about desired changes.
@@ -100,10 +93,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Define communication. What are the components of effective communication? (S5,Q5)</b></summary>
+### Q5. Define communication. What are the components of effective communication? (S5,Q5)
 
 ### Communication (definition)
 > 🔴 Communication is *"a **two-way process of exchanging or shaping ideas, feelings and information**"*; broadly it refers to *"the countless ways that humans have of keeping in touch with one another."*
@@ -121,10 +112,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What are the models of health education? Give example of each. Mention the functions of communication in health education. (S6,Q5)</b></summary>
+### Q6. What are the models of health education? Give example of each. Mention the functions of communication in health education. (S6,Q5)
 
 ### Models of health education (3) — standard text (Park)
 1. **Medical model** — activities to promote medical measures of preventing disease, diagnosis & treatment. *Example: immunization, screening, MCH services* (doctor tells patient what to do).
@@ -147,10 +136,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What are the stages of behavior change in health education? Mention the criteria of a good message. (S7,Q5)</b></summary>
+### Q7. What are the stages of behavior change in health education? Mention the criteria of a good message. (S7,Q5)
 
 ### Stages of behavior change in health education (5)
 1. **Awareness** — the person comes to know about the new idea or practice.
@@ -168,10 +155,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. List the components of health communication. What are the characteristics of a good message? (S8,Q5)</b></summary>
+### Q8. List the components of health communication. What are the characteristics of a good message? (S8,Q5)
 
 ### Components of health communication — 6 basic elements
 1. **A source** — the message giver (communicator).
@@ -193,10 +178,8 @@ In line with the objective(s) · meaningful · based on felt needs · clear & un
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Define health communication. What are the type of communication in health education? (S9,Q5)</b></summary>
+### Q9. Define health communication. What are the type of communication in health education? (S9,Q5)
 
 ### Health communication (definition)
 > 🔴 **Health communication** is often used **synonymously with health education**, which itself suggests — *"outward and downward" communication of knowledge* — the transfer of knowledge/ideas from the communicator to the community.
@@ -216,10 +199,8 @@ In line with the objective(s) · meaningful · based on felt needs · clear & un
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. What do you mean by health communication? What are the barriers of communication? (S10,Q5)</b></summary>
+### Q10. What do you mean by health communication? What are the barriers of communication? (S10,Q5)
 
 ### Health communication
 Health communication is often used **synonymously with health education** — *"outward and downward communication of knowledge"* from the communicator to the people.
@@ -236,10 +217,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Mention the functions of communication in health education? Enumerate the media used in health communication. (S11,Q5)</b></summary>
+### Q11. Mention the functions of communication in health education? Enumerate the media used in health communication. (S11,Q5)
 
 ### Functions of communication in health education (8)
 1. **Information** — provide scientific knowledge about health problems & promotion.
@@ -269,10 +248,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What are the methods used in communication? (S12,Q4)</b></summary>
+### Q12. What are the methods used in communication? (S12,Q4)
 
 ### Methods used in health communication (15)
 1. **Lecture**
@@ -299,10 +276,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Enumerate the differences between propaganda and health education. (S13,Q5)</b></summary>
+### Q13. Enumerate the differences between propaganda and health education. (S13,Q5)
 
 | Health education | Propaganda |
 |---|---|
@@ -321,10 +296,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. What do you know about seminar and symposium? (S14,Q4)</b></summary>
+### Q14. What do you know about seminar and symposium? (S14,Q4)
 
 *(Occupational-health part of this Q → see Viva-28 Q14)*
 
@@ -344,10 +317,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Define health education. What are the components of health education? (S15,Q4)</b></summary>
+### Q15. Define health education. What are the components of health education? (S15,Q4)
 
 ### Definition
 *"Health education is a process that informs, motivates and helps people to adopt and maintain health practices and life styles, advocates environmental changes as needed…"* — see Q1.
@@ -368,10 +339,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Define health education. What are the principles of health education? (S16,Q5)</b></summary>
+### Q16. Define health education. What are the principles of health education? (S16,Q5)
 
 ### Definition — see Q1.
 
@@ -395,10 +364,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Define health education. What are the objectives and components of health education? (S17,Q5)</b></summary>
+### Q17. Define health education. What are the objectives and components of health education? (S17,Q5)
 
 ### Definition — see Q1.
 
@@ -417,10 +384,8 @@ Health communication is often used **synonymously with health education** — *"
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What are the aims and objectives of health education? Mention the criteria of a good health message. (S18,Q5)</b></summary>
+### Q18. What are the aims and objectives of health education? Mention the criteria of a good health message. (S18,Q5)
 
 ### Aims & objectives of health education (4)
 1. Encouraging people to **adopt and sustain health-promoting life style and practice**.
@@ -437,10 +402,8 @@ In line with objective(s) · meaningful · based on felt needs · clear & unders
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. What do you mean by communication in health? List the approaches to health education? (S19,Q5)</b></summary>
+### Q19. What do you mean by communication in health? List the approaches to health education? (S19,Q5)
 
 ### Communication in health (health communication)
 Used **synonymously with health education** — the *"outward and downward" communication of knowledge* from the communicator to the community; a **two-way process of exchanging or shaping ideas, feelings and information** for health.
@@ -457,10 +420,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. List the disadvantages of one way communication. What are the components of effective communication? (S20,Q5)</b></summary>
+### Q20. List the disadvantages of one way communication. What are the components of effective communication? (S20,Q5)
 
 ### Disadvantages of one-way (didactic) communication
 1. **Knowledge is imposed.**
@@ -480,10 +441,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. What are the principles and contents of health education? (S21,Q5)</b></summary>
+### Q21. What are the principles and contents of health education? (S21,Q5)
 
 ### Principles of health education (12)
 **Credibility · Interest · Participation · Motivation · Comprehension · Reinforcement · Learning by doing · Known to unknown · Setting an example · Good human relations · Feedback · Leaders.**
@@ -504,10 +463,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. Mention the criteria of a good health message. How the psychosocial barriers impede communication? (S22,Q4)</b></summary>
+### Q22. Mention the criteria of a good health message. How the psychosocial barriers impede communication? (S22,Q4)
 
 ### Criteria of a good health message (9)
 **In line with objective(s) · meaningful · based on felt needs · clear & understandable · specific & accurate · timely & adequate · fitting the audience · interesting · culturally & socially appropriate.**
@@ -530,10 +487,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. What are the aims and objectives of health education? Mention the criteria of a good health message. (S23,Q5)</b></summary>
+### Q23. What are the aims and objectives of health education? Mention the criteria of a good health message. (S23,Q5)
 
 *(Same as Q18 — repeated question in the PDF.)*
 
@@ -552,10 +507,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q24. Describe the approaches to health education? (S24,Q5)</b></summary>
+### Q24. Describe the approaches to health education? (S24,Q5)
 
 ### Approaches to health education (4)
 1. **Regulatory approach (managed prevention)** — any governmental intervention, direct or indirect, designed to alter human behaviour; simplest & quickest way to improve health/change society.
@@ -569,10 +522,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q25. Define communication. What are the components of effective communication? (S25,Q5)</b></summary>
+### Q25. Define communication. What are the components of effective communication? (S25,Q5)
 
 *(Same as Q5 — repeated question in the PDF.)*
 
@@ -588,10 +539,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q26. What are the barriers of communication? List the methods and media in health communication. (S26,Q5)</b></summary>
+### Q26. What are the barriers of communication? List the methods and media in health communication. (S26,Q5)
 
 ### Barriers of communication (4)
 1. **Physiological** — difficulties in hearing, expression.
@@ -612,10 +561,8 @@ Lecture · Demonstration · Panel discussion · Group discussion · Programmed i
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q27. Define communication. What are the components of effective communication? Explain the psychosocial barriers in health communication. (S27,Q5)</b></summary>
+### Q27. Define communication. What are the components of effective communication? Explain the psychosocial barriers in health communication. (S27,Q5)
 
 ### Communication (definition)
 *"A two-way process of exchanging or shaping ideas, feelings and information."*
@@ -635,10 +582,8 @@ The **psychological** and **cultural/social** barriers work together to impede e
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q28. List the contents of health education. What are the characteristics of a good health message? (S28,Q5)</b></summary>
+### Q28. List the contents of health education. What are the characteristics of a good health message? (S28,Q5)
 
 ### Contents of health education (8)
 1. **Human biology** — exercise, rest, sleep; effects of alcohol & smoking; resuscitation; first aid.
@@ -659,10 +604,8 @@ In line with the objective(s) · meaningful · based on felt needs · clear & un
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q29. What do you mean by health communication? List the barriers of communication. (S29,Q5)</b></summary>
+### Q29. What do you mean by health communication? List the barriers of communication. (S29,Q5)
 
 ### Health communication
 Used **synonymously with health education** — the *"outward and downward" communication of knowledge* to the people for health promotion.
@@ -679,10 +622,8 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q30. Mention the functions of communication in health education? State the stages of adopting a new idea. Differentiate between health education and propaganda. (S30,Q5)</b></summary>
+### Q30. Mention the functions of communication in health education? State the stages of adopting a new idea. Differentiate between health education and propaganda. (S30,Q5)
 
 ### Functions of communication in health education (8)
 **Information · Education · Motivation · Persuasion · Counseling · Raising morals · Health development · Organization** (details in Q11).
@@ -710,4 +651,3 @@ Used **synonymously with health education** — the *"outward and downward" comm
 
 > 📖 Ch-21, Endeavour PDF pp. 616–617, 622–623
 
-</details>

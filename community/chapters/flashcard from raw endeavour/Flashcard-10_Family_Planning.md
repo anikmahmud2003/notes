@@ -9,8 +9,7 @@
 
 ## Family planning
 
-<details>
-<summary><b>Q. Define f, wily planning. [RU-15J]</b></summary>
+### Q. Define f, wily planning. [RU-15J]
 
 **F planning:** P “ inki ivi
 An Expert Committee (1971) of the WHO defined family planning as “a way of thinking and living that
@@ -21,10 +20,8 @@ social development of a country.”
 Concept of family planning:
   - Earlier concept — birth control.
   - Modem concept > family welfare.
-</details>
 
-<details>
-<summary><b>Q. Write down the objectives of family planning. [CU-10Ju, RU-12Ju, SUST-17N,12J,11J]</b></summary>
+### Q. Write down the objectives of family planning. [CU-10Ju, RU-12Ju, SUST-17N,12J,11J]
 
 **Objectives of family planning:**
 1) To avoid unwanted births
@@ -33,10 +30,8 @@ Concept of family planning:
 4) To control the time at which births occur in relation to the ages of the parent.
 5) To determine the number of children in the family.
 r. [Ref- Park / 24" /525]
-</details>
 
-<details>
-<summary><b>Q. State the scope of family planning services. [DU-15Ju, RU-15J]<br>Q. Write down the scope of family planning (FP). [CU-11J]</b></summary>
+### Q. State the scope of family planning services. [DU-15Ju, RU-15J]<br>Q. Write down the scope of family planning (FP). [CU-11J]
 
 : A WHO Expert Committee (1970)
 as stated that family planning includes in its purview:
@@ -56,10 +51,8 @@ as stated that family planning includes in its purview:
 —_ hd activities vary from country to country according to national objectives and policies with regard
 mily planning. This is the modern concept of family planning,
 [Ref- Park /24" /525]
-</details>
 
-<details>
-<summary><b>Q. Discuss the health aspects of family planning. [RU-18M,12Ju,1 1Ju]</b></summary>
+### Q. Discuss the health aspects of family planning. [RU-18M,12Ju,1 1Ju]
 
 **Health aspects of family planning:**
 “ Women’s health:
@@ -75,10 +68,8 @@ mily planning. This is the modern concept of family planning,
   - Health of the infant at birth (birth weight).
   - Vulnerability to diseases.
 [Ref- Park / 24" /525]
-</details>
 
-<details>
-<summary><b>Q. Mention the health outcomes of family planning. [RU-10Ju]<br>Q. How family planning can improve health of women and children?</b></summary>
+### Q. Mention the health outcomes of family planning. [RU-10Ju]<br>Q. How family planning can improve health of women and children?
 
 **Health outcomes of family planning:**
 Women’s health:
@@ -100,10 +91,8 @@ planning, in other words, is effective prevention against malnutrition.
 infectious gastroenteritis, respiratory and skin infections.
 4. Intelligence: Studies have shown a lower IQ scores among children in larger families.
 [Ref- Park / 24" / 525]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by “Eligible couple” and “Target couple”? [DU-17M,16N/J,1 Ju, CU-10y, RU-11u]</b></summary>
+### Q. What do you mean by “Eligible couple” and “Target couple”? [DU-17M,16N/J,1 Ju, CU-10y, RU-11u]
 
 Pas
 igible couple: ; oo, ;
@@ -118,10 +107,8 @@ planning is largely directed to such gong)
 Now-a-days, the term ‘target couple is applied to couples with 1 child or even newly married couples
 with a view to develop acceptance of idea of family planning from earliest possible stage.
 [Ref- Park /24"/526, 527]
-</details>
 
-<details>
-<summary><b>Q. Define family spacing.</b></summary>
+### Q. Define family spacing.
 
 **Family spacing:** ¥
 Adequate interval between consecutive two childbirth is defined as family spacing. Normal family _
@@ -135,10 +122,8 @@ approved methods of family planning, viz sterilization, UCD, condom, or oral pil
 In Bangladesh, CPR = 45%.
 [Ref- Park / 24" /527]
 Discuss the unmet need of family planning. [DU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Why family planning is important in our country?</b></summary>
+### Q. Why family planning is important in our country?
 
 Necessity of family planning / unmet need of family planning: By family planning, a couple can:
 ;; Avoid unwanted birth.
@@ -147,10 +132,8 @@ To regulate the interval between pregnancy.
 To control the time at which birth occurs.in relation to the age of the patients.
 es And to determine the number of children in the family.
 That’s why family planning is important in our country.
-</details>
 
-<details>
-<summary><b>Q. Briefly discuss achievement of family planning program in Bangladesh?</b></summary>
+### Q. Briefly discuss achievement of family planning program in Bangladesh?
 
 **Achievement of family planning program in Bangladesh:** Progress has been made in several crucial areas
 like -
@@ -165,10 +148,8 @@ level.
 7) Recruitment, training and
 8) A significant headway wit
 9)
-</details>
 
-<details>
-<summary><b>Q. Discuss strategies of famil</b></summary>
+### Q. Discuss strategies of famil
 
 umber of service infrastructure with about 3500 union Health and Family
 untry side.
@@ -203,16 +184,12 @@ community leaders, religious leaders and various social aaa _—
 Capacity building for in-country production of contraceptives and equipment.
 Ensuring evaluative and operations research. [Ref- Rashid, Khabir, Hyder /$* /205
 Contraceptive methods
-</details>
 
-<details>
-<summary><b>Q. What are the criteria of a good family planning method?</b></summary>
+### Q. What are the criteria of a good family planning method?
 
 contraceptive method? [SUST-17N]
-</details>
 
-<details>
-<summary><b>Q. What are the criteria of an ideal<br>Q. Mention the criteria of an ideal contraceptive suitable for a newly married couple. [CU-10Ju]</b></summary>
+### Q. What are the criteria of an ideal<br>Q. Mention the criteria of an ideal contraceptive suitable for a newly married couple. [CU-10Ju]
 
 **Contraception:** Prevention of conception is called contraception.
 Features of ideal contraceptive: It should be —
@@ -226,10 +203,8 @@ Features of ideal contraceptive: It should be —
 8) Long lasting.
 9) Requiring little or no medical supervision.
 [Ref- Park / 24" / 528]
-</details>
 
-<details>
-<summary><b>📌 Viva — 0 offer all methods from which an individual can chose</b></summary>
+### 📌 Viva — 0 offer all methods from which an individual can chose
 
 0 offer all methods from which an individual can chose
 “ Cafeteria choice: Cafetoria choice is t
@@ -243,23 +218,17 @@ sify the contraceptive [DU-17M] / family planning [CU-14J] methods.
 thods for female. [DU-16N, SUST-15Ju]
 U-125, RU-12J,11J, SUST-16J,14J,12Ju] / contraceptive methods
 tives [RU-17M, I 5Ju,14J,1 3Ju, SUST-
-</details>
 
-<details>
-<summary><b>Q.C¢</b></summary>
+### Q.C¢
 
 Elassify contraceptive me
-</details>
 
-<details>
-<summary><b>Q. Classify contraceptives [DU-C</b></summary>
+### Q. Classify contraceptives [DU-C
 
 [DU-1] 8N,17N, 165] / hormonal contracep
 18M,17M,15J,13J, 12J] with example.
-</details>
 
-<details>
-<summary><b>Q. What are the different methods of contraception used by female? [SUST-18N]<br>Q. Classify the temporary contraceptive methods. [CU-1 0J]<br>Q. List the name of depot contraceptive preparation. [SUST-| 8N]<br>Q. Write down the terminal methods of contraception. [RU-17M]</b></summary>
+### Q. What are the different methods of contraception used by female? [SUST-18N]<br>Q. Classify the temporary contraceptive methods. [CU-1 0J]<br>Q. List the name of depot contraceptive preparation. [SUST-| 8N]<br>Q. Write down the terminal methods of contraception. [RU-17M]
 
 Classification of contraceptive methods / fertility regulating methods:
 » Spacing / temporary method:
@@ -313,10 +282,8 @@ QVNNNRASN
 6) Norplant.
 7) Emergency contraceptive pill.
 X
-</details>
 
-<details>
-<summary><b>Q. Classify hormonal pills.</b></summary>
+### Q. Classify hormonal pills.
 
 **Hormonal pills:**
 1) Combined pill: Oestrogen & progesterone.
@@ -326,10 +293,8 @@ X
 5) Male pill: Gossypo! (cotton seed oil).
 6) Triphasic pill.
 7) Emergency contraceptive pill.
-</details>
 
-<details>
-<summary><b>Q. Mention the common contraceptives used by females in our country. [SUST-11Ju]</b></summary>
+### Q. Mention the common contraceptives used by females in our country. [SUST-11Ju]
 
 **Common contraceptives used by females in our country:**
 1) ocP ;
@@ -338,50 +303,40 @@ X
 4) 1UCD
 5) Condom
 6) Emergency contraceptive pill
-</details>
 
-<details>
-<summary><b>📌 Viva — Methods of contraception suitable for Bangladesh</b></summary>
+### 📌 Viva — Methods of contraception suitable for Bangladesh
 
 **> Methods of contraception suitable for Bangladesh:**
   - Newly married couple: Oral pill, condom.
   - Woman with one child: IUD.
   - Woman with at least 2 children (more than 20 years, not above 45 years): Permanent
 sterilization.
-</details>
 
-<details>
-<summary><b>Q. What are the contraceptive methods for lactating mothers?<br>Q. A lactating mother comes to you for family planning advice. What method will you suggest &</b></summary>
+### Q. What are the contraceptive methods for lactating mothers?<br>Q. A lactating mother comes to you for family planning advice. What method will you suggest &
 
 why? [SUST-16M]
 Contraceptives methods for lactating mother:
 1) Progesterone only pill (POP) / mini pill, micro pill.
 2) Subdermal implant.
 3) DMPA.
-</details>
 
-<details>
-<summary><b>Q. A newly married couple came to you for seeking family planning advice. What are the</b></summary>
+### Q. A newly married couple came to you for seeking family planning advice. What are the
 
 methods you can advice? Briefly narrate merits and demerits of these methods.
 Methods for newly married couple:
 - Oral contraceptive pill (OCP)
 - Condom
 Merits & demerits: Please see below.
-</details>
 
-<details>
-<summary><b>Q. A30 years woman having 2 children came to you for seeking family planning advice. What</b></summary>
+### Q. A30 years woman having 2 children came to you for seeking family planning advice. What
 
 are the methods you can advice? Briefly narrate merits & demerits of these methods.
 Methods for a 30 years woman having 2 child: Permanent sterilization, that is —
 - Tubectomy / tubal ligation
 - Vasectomy of her husband
 Merits & demerits: Please see below.
-</details>
 
-<details>
-<summary><b>Q. A couple having 2 children came to you for seeking family planning advice. What are the</b></summary>
+### Q. A couple having 2 children came to you for seeking family planning advice. What are the
 
 methods you can suggest and why? [SUST-10J]
 Methods for a couple having 2 child: Permanent sterilization, that is —
@@ -389,10 +344,8 @@ Methods for a couple having 2 child: Permanent sterilization, that is —
 - Vasectomy of her husband
 Merits & demerits: Please see below.
 ere RENEE Re ee _
-</details>
 
-<details>
-<summary><b>Q. Write the contraindications, c i</b></summary>
+### Q. Write the contraindications, c i
 
 . » complications and non-contraceptive benefits of
 A mechanical barrier method by males, r —
@@ -432,30 +385,24 @@ Causes of failure:
 Types of condom:
 1) Male condom
 2) Female condom
-</details>
 
-<details>
-<summary><b>Q. Mention the non-contraceptive uses of condom.</b></summary>
+### Q. Mention the non-contraceptive uses of condom.
 
 **Non-contraceptive uses of condom:**
 1) Protection from STDs / AIDS.
 2) Collection of semen.
 3) Treatment of premature ejaculation.
 4) Condom catheter (in the treatment of PPH).
-</details>
 
-<details>
-<summary><b>Q. What are the types of condom?</b></summary>
+### Q. What are the types of condom?
 
 **Types of condom:**
 1) Male condom,
 2) Female condom.
 3) Oral condom.
 Hormonal oral pills
-</details>
 
-<details>
-<summary><b>Q. Write in short about combined oral pill.</b></summary>
+### Q. Write in short about combined oral pill.
 
 **Combined oral pill:** .
 The major spacing method of contraception contains both estrogen and progesterone called combined
@@ -479,10 +426,8 @@ Gesogestrel 0.15 mg. Ethinylestradiol 30 ygm.
 Levonorgestrel 0.15 mg. Ethinylestradiol 30 pgm.
 Norethindrone 0.5 mg. Ethinylestradiol 35
 [Ref- Rashid, Khabir, Hyder / 5" / 203]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Triphasic pill.</b></summary>
+### Q. Write short note on: Triphasic pill.
 
 **Triphasic pills:**
 These consist of three different pills administered in one cycle in three consecutive phases.
@@ -512,10 +457,8 @@ No ovulation
 prevents implantation.
 3. Alteration of the character of the cervical mucus (Thick viscid, scanty).
 4. Probably interferes with motility and secretion of the fallopian tube.
-</details>
 
-<details>
-<summary><b>Q. Write down the mode of action of mini pill.<br>Q. Mention the mechanism of action of progesterone only pill (POP).</b></summary>
+### Q. Write down the mode of action of mini pill.<br>Q. Mention the mechanism of action of progesterone only pill (POP).
 
 Mode of action of mini pill / progesterone onl ill (POP):
 i) Progesterone increases the thickness of cervical mucus an
@@ -526,10 +469,8 @@ d thereby prevents sperm from entering the
 s of endometrial mucosa and thereby prevents implantation.
 lity and delay the transport of the sperm and of the ovum to the uterine cavity.
 [Ref- Park / 24" / 535]
-</details>
 
-<details>
-<summary><b>Q. Mention the indications of ocP. [CU-13J]<br>Q. What are the non-contraceptive benefits of oral contraceptive pills? [RU-16M]</b></summary>
+### Q. Mention the indications of ocP. [CU-13J]<br>Q. What are the non-contraceptive benefits of oral contraceptive pills? [RU-16M]
 
 **Uses / indications of oral pills:**
 “ Contraceptive use.
@@ -544,10 +485,8 @@ lity and delay the transport of the sperm and of the ovum to the uterine cavity.
 7) Sterility
 8) Endometriosis
 9) Menopause
-</details>
 
-<details>
-<summary><b>📌 Viva — % Ideal candidate of pill</b></summary>
+### 📌 Viva — % Ideal candidate of pill
 
 **% Ideal candidate of pill:**
 1) Sexually active young and adolescent woman
@@ -602,10 +541,8 @@ lannin, 331
 10) History of infrequent bleeding,
 11) Amenorrhoea etc.
 [Ref- Park / 24" / 537]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Progesterone only pill (POP) / mini pill / micro pill.<br>Q. Write down mechanism of action of progesterone only pill.</b></summary>
+### Q. Write short note on: Progesterone only pill (POP) / mini pill / micro pill.<br>Q. Write down mechanism of action of progesterone only pill.
 
 **Progesterone only pill (POP) / mini pill / micro pill:**
   - It contains only progesterone in small dose throughout the cycle.
@@ -627,25 +564,19 @@ dometrial mucosa and thereby prevents implantation.
 d delay the transport of the sperm and of the ovum to the uterine
 Side effect: Ectopic pregnancy.
 [Ref- Park /24™ / 535]
-</details>
 
-<details>
-<summary><b>Q. Which type of oral pill would you prescribe for a lady aged 40 years and why?<br>Q. 30 years old woman with history of hypertension having one child. Suggest her a</b></summary>
+### Q. Which type of oral pill would you prescribe for a lady aged 40 years and why?<br>Q. 30 years old woman with history of hypertension having one child. Suggest her a
 
 planning method and justify your suggestion.
 Progesterone only p
 bout family
 ill — to reduce risk of cardiovascular disease and neoplasia.
-</details>
 
-<details>
-<summary><b>Q. Define emergency contraceptive pill. [DU-16M]</b></summary>
+### Q. Define emergency contraceptive pill. [DU-16M]
 
 **rite short note on:** Post coital contraception.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Emergency contraceptive pill.</b></summary>
+### Q. Write short note on: Emergency contraceptive pill.
 
 ‘
 Post coital contraception: _
@@ -669,46 +600,34 @@ Indications of eme ency contraceptive pill / post-coital pill:
 2) Rape.
 3) Contraceptive failure.
 [Ref- Park / 24" / 535]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Once-a-month pill (long acting).</b></summary>
+### Q. Write short note on: Once-a-month pill (long acting).
 
 **Qnce-a-month pill:**
 Contains quinestrol, long acting estrogen is given in combination with short acting progesterone. The
 Pregnancy rate is too high to be acceptable. In addition, bleeding tends to be irregular.
 [Ref- Park / 24" / 535]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Male pill.</b></summary>
+### Q. Write short note on: Male pill.
 
 **Male pill:** A male pill made of gossypol, a derivative of cotton —seed oil.
 Mode of action: It produces azoospermia or severe oligospermia.
 Disadvantage: 10% of man may be produced permanently azoospermia after taking it for 6 months.
 [Ref- Park / 24" / 535]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Hormonal contraception. [SUST-14Ju]</b></summary>
+### Q. Write short note on: Hormonal contraception. [SUST-14Ju]
 
 Please see above.
-</details>
 
-<details>
-<summary><b>Viva Q. A 30 years old woman with history of hypertension should not take OCP. Why?</b></summary>
+### Viva Q. A 30 years old woman with history of hypertension should not take OCP. Why?
 
 Because, estrogen increases the risk of cardiovascular complications,
-</details>
 
-<details>
-<summary><b>Viva Q. Which type of oral pill you prescribe for a 38 years old lady and why?</b></summary>
+### Viva Q. Which type of oral pill you prescribe for a 38 years old lady and why?
 
 Progesterone only pill (POP). Because, to reduce the risk of cardiovascular disease and neoplasia.
-</details>
 
-<details>
-<summary><b>Viva Q. A 35 years old woman having hypertension, liver disease and diabetes mellitus has come</b></summary>
+### Viva Q. A 35 years old woman having hypertension, liver disease and diabetes mellitus has come
 
 to you with her husband and wants to use contraceptive. Which method you advice for them
 and why?
@@ -716,16 +635,12 @@ Progesterone only pill (POP). Because, combined oral pill is contraindicated in 
 disease and diabetes mellitus, as estrogen content of combined pill ca deteriorate these conditions,
 Se FB
 Injectable contraceptives
-</details>
 
-<details>
-<summary><b>Q. Write down the sid r</b></summary>
+### Q. Write down the sid r
 
 contraceptives, Ic * ity contraindications and mechanism of action of injectable
-</details>
 
-<details>
-<summary><b>Q. Name the preparation and mention</b></summary>
+### Q. Name the preparation and mention
 
 contraceptives.
 Injectable contraceptives: There are two types of injectable contraceptives:
@@ -772,10 +687,8 @@ Diabetes with vascular complications.
 Women who are fully breast feeding until 6 months post-partum.
 ecoeoeeeee
 [Ref- Park / 24" /537, 538]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: DMPA.</b></summary>
+### Q. Write short note on: DMPA.
 
 **DMPA:**
 - DMPA means depot medroxy progesterone acetate.
@@ -788,10 +701,8 @@ Side effects:
 3) Prolonged infertility after discontinuation.
 i linia [Ref- Park / 24" / 537)
 Norplant / Subdermal implant
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Norplant / subdermal implant. [SUST-12J]</b></summary>
+### Q. Write short note on: Norplant / subdermal implant. [SUST-12J]
 
 **Norplant / subdermal implant:** .
 It is subdermal long term temporary hormonal contraceptive.
@@ -813,10 +724,8 @@ Disadvantage:
   - Surgical procedure is required to insert and remove implants.
 [Ref- Park /24"/539
 Intra-uterine contraceptive devices (IUCD)
-</details>
 
-<details>
-<summary><b>Q. Classify IUCDs. [RU-16M, CU-1 lJu]<br>Q. Write short note on: IUCD. [CU-13Ju, RU-1 Ju]</b></summary>
+### Q. Classify IUCDs. [RU-16M, CU-1 lJu]<br>Q. Write short note on: IUCD. [CU-13Ju, RU-1 Ju]
 
 **Types of IUCD/1UD:** There are two basic types of IUDs.
 1) Non-medicated (inert device):
@@ -831,10 +740,8 @@ ee eee —
   - Newer devices: T-Cu-220C, T-Cu-380A or Ag, nova-T, multiload devices.
   - Progestasert, levonorgestrol IUD.
 [Ref- Park /24" /529|
-</details>
 
-<details>
-<summary><b>Q. Give the mechanism / mode of action of IUCDs.</b></summary>
+### Q. Give the mechanism / mode of action of IUCDs.
 
 2. Discuss mechanism of action of 3 generation IUCDs. [CU-10J]
 nswer
@@ -850,17 +757,13 @@ i) Progesterone of 3™ generation I|UCDs increases the thickness of cervical mu
 ___ Prevents sperm from entering the cervix.
 ii) It decreases the thickness of endometrial mucosa and thereby prevents implantation.
 [Ref- Park / 24" / 530]
-</details>
 
-<details>
-<summary><b>Q. Who are ideal users of IUCD? [SUST-18M, 13J]</b></summary>
+### Q. Who are ideal users of IUCD? [SUST-18M, 13J]
 
 , Q o are the ideal candidates for UCD? [RU-I8N, 14Ju, 13J,12J, SUST-17M, 15J,14J]
 Mention criteria of ideal candidate of UCD. [DU-14Ju, RU-18M, SUST-12J]
-</details>
 
-<details>
-<summary><b>Q. A lady with her husband came to a MCH clinic for Cu-T insertion. What factors would you</b></summary>
+### Q. A lady with her husband came to a MCH clinic for Cu-T insertion. What factors would you
 
 consider about the said method? [RU-10Ju]
 The ideal IUCD candidates: The Planned Parenthood Federation of America (PPFA) has described the ideal
@@ -898,10 +801,8 @@ Unmotivated person.
 [Ref- Park /24"/531)
 tal malformations, fibroids.
 Aube —
-</details>
 
-<details>
-<summary><b>Q. Discuss about the timing of IUCD insertion.</b></summary>
+### Q. Discuss about the timing of IUCD insertion.
 
 Apswer
 iming of insertion of UCD:
@@ -911,28 +812,22 @@ on is 6 to 8 weeks after delivery (post-puerperal insertion).
 3) Acconvenient time for loop inserti
 4) Any time during a woman’s reproductive age (except during pregnancy).
 [Ref- Park / 24" /531]
-</details>
 
-<details>
-<summary><b>Q. A 22 years illiterate rural wife has menstruated 15 days back and wants to use IUCD.</b></summary>
+### Q. A 22 years illiterate rural wife has menstruated 15 days back and wants to use IUCD.
 
 Whether is can be given to her?
 n 10 days of the
 No. Because the ideal time of insertion of IUCD is during menstruation or withi
 beginning of a menstrual period.
-</details>
 
-<details>
-<summary><b>Q. Why these times are chosen?</b></summary>
+### Q. Why these times are chosen?
 
 **Reason to choose these times:**
 1) Cervical diameter is more.
 - Uterine muscle is relax, so less contraction.
 . List the complications of IUCDs. [DU-16J, 1 1Ju, RU-13J, SUST-12Ju]
-</details>
 
-<details>
-<summary><b>Q. Mention the complications of copper-T.</b></summary>
+### Q. Mention the complications of copper-T.
 
 **Side effects & complications of IUCD:**
 A) Bleeding.
@@ -946,10 +841,8 @@ A Fertility after removal.
 9) Aancer and teratogenesis.
 ortality.
 [Ref- Park /24" / 532]
-</details>
 
-<details>
-<summary><b>Q. Mention the disadvantages of Cu-T.<br>Q. Write down the advantages and disadvantages of copper-T.</b></summary>
+### Q. Mention the disadvantages of Cu-T.<br>Q. Write down the advantages and disadvantages of copper-T.
 
 pe Simplicity, that is no complex procedure are involved in insertion.
 P) Insertion takes only a few minutes.
@@ -972,16 +865,12 @@ Disadvantages of Copper-T (UCD):
 8) Cramp like pain
 9) Expulsion with risk or pregnancy.
 10) Infertility.
-</details>
 
-<details>
-<summary><b>Q. A 30years old lady having 2 children came to you for insertion of copper-T. How will you</b></summary>
+### Q. A 30years old lady having 2 children came to you for insertion of copper-T. How will you
 
 manage her?
-</details>
 
-<details>
-<summary><b>Q. Write down the follow-up instructions for IUCD clients. [SUST-15J,14J,12Ju,10Ju]</b></summary>
+### Q. Write down the follow-up instructions for IUCD clients. [SUST-15J,14J,12Ju,10Ju]
 
 **Management of this candidate for insertion of copper-T:**
 1. Insertion of copper-T in proper time: The most propitious time for loop insertion is during
@@ -999,10 +888,8 @@ fails to locate the threads, she must consult the doctor.
 and bleeding.
 - Ifshe misses a period, she must consult the doctor.
 [Ref- Park /24"/531]
-</details>
 
-<details>
-<summary><b>Viva Q. A 25 years old woman conceived in spite of having [UCD. Explain the reason.</b></summary>
+### Viva Q. A 25 years old woman conceived in spite of having [UCD. Explain the reason.
 
 **Explanation:** The failure rate of use of IUCD is 3%. A 25 years woman, in spite of having 1UCD has
 conceived, the possible causes may be —
@@ -1012,18 +899,14 @@ likely to occur.
 2) Accidental pregnancy: Approximately 1/3 of IUCD related pregnancies are attributed to undiagnosed
 pregnancy during insertion.
 [Ref- Rashid, Khabir, Hyder /5™ /201]
-</details>
 
-<details>
-<summary><b>Q. Rahima, a mother of two children had been using Cu-T for last one year. She visited you and</b></summary>
+### Q. Rahima, a mother of two children had been using Cu-T for last one year. She visited you and
 
 informed that the tail of the Cu-T is missing from this morning. What could have happened
 and how will you manage the case? [SUST-16N]
 he could not trace out her Cu-T for a few
-</details>
 
-<details>
-<summary><b>Q. A lady came to a doctor with a complaint that s ; for</b></summary>
+### Q. A lady came to a doctor with a complaint that s ; for
 
 days. She inserted Cu-T two years back. What are the possible ways of Cu-T missing? How
 the doctor would investigate the problem? [RU-12J]
@@ -1053,10 +936,8 @@ Il and lying in the peritoneal cavity.
 1. X-Ray of pelvis.
 2. USG of uterus and adnexa.
 Post-conceptional contraceptive methods
-</details>
 
-<details>
-<summary><b>Q. Discuss the indications and complications of post-conceptional methods of contr</b></summary>
+### Q. Discuss the indications and complications of post-conceptional methods of contr
 
 **Indications of post-conceptional contraceptive methods:**
 1) Unusual conception due to adultery, sexual assault.
@@ -1075,10 +956,8 @@ B. Late:
 1. Infertility
 2. Ectopic pregnancy
 3. Increased risk of spontaneous abortion.
-</details>
 
-<details>
-<summary><b>Q. Define menstrual regulation. [DU-16N]<br>Q. Enumerate the complications of MR.</b></summary>
+### Q. Define menstrual regulation. [DU-16N]<br>Q. Enumerate the complications of MR.
 
 **MR Menstrual Regulation):** A relatively simple method of birth control is MR which consists of aspiration of
 the uterine contents 6 to 14 days of missed period but before most pregnancy tests can accurately determine
@@ -1099,10 +978,8 @@ I. Tendency to abortion.
 4. Ectopic pregnancy.
 5. Rh incompatibility. [Ref- Park /24"/539]
 ef- Par
-</details>
 
-<details>
-<summary><b>Q. Name the instruments which are required during M.R. procedure.</b></summary>
+### Q. Name the instruments which are required during M.R. procedure.
 
 **Instruments required for MR:**
 1. Swab holding forceps.
@@ -1112,10 +989,8 @@ ef- Par
 5.
 Karman’s cannula (to employ suction)
 Karman’s 50 CC syringe (to employ suction).
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Menstrual induction.</b></summary>
+### Q. Write short note on: Menstrual induction.
 
 **Menstruation induction (MI):**
 This is based on disturbing the normal progesterone-prostaglandin balance by intrauterine application
@@ -1126,10 +1001,8 @@ Within a few minutes of prostaglandin impact, performed under sedation the uteru
 contraction lasting about 7 minutes, followed by cyclic contractions continuing for 3 to 4 hours.
 The bleeding starts and continues for 7 to 8 days.
 [Ref- Park / 24" / 539]
-</details>
 
-<details>
-<summary><b>Q. What is abortion? Give the complications of abortion.</b></summary>
+### Q. What is abortion? Give the complications of abortion.
 
 **Abortion:**
 Termination of pregnancy before fetus become viable (capable of living independently). Viable age is
@@ -1149,10 +1022,8 @@ B. Late:
 3. Increase risk of spontaneous abortion.
 4. Reduce birth rate.
 [Ref- Park / 24" / 539)
-</details>
 
-<details>
-<summary><b>📌 Viva — Legal condition of termination of pregnancy: _ /</b></summary>
+### 📌 Viva — Legal condition of termination of pregnancy: _ /
 
 - Legal condition of termination of pregnancy: _ /
   - Medical: Pregnancy endangers mother's life or cause grave Injury to her physical and mental
@@ -1166,10 +1037,8 @@ Abortion is considered as a crime except when perform to save the life of
 + Legalization of abortion:
 [Ref- Park /24"™/540]
 pregnant woman.
-</details>
 
-<details>
-<summary><b>Q. What are the differences between MR and abortion?</b></summary>
+### Q. What are the differences between MR and abortion?
 
 **Differences between MR and abortion:**
 Traits
@@ -1184,10 +1053,8 @@ No legal restriction. There is certain legal restriction.
 4. Pregnancy present or | Lack of certainty of pregnancy is being
 __not terminated. being terminated.
 It is less safer. _
-</details>
 
-<details>
-<summary><b>Q. Discuss medical termination of pregnancy.</b></summary>
+### Q. Discuss medical termination of pregnancy.
 
 Conditions under which medical termination of pregnancy is conducted:
 1) Medical: Where continuation of pregnancy might endanger the mother’s life or cause grave injury
@@ -1207,10 +1074,8 @@ Hospital, established or maintain b
 eerie intain by government or a place approved for the purpose of this act by
 {Ref- Park /24" / 540] |
 Miscellaneous contraceptive methods
-</details>
 
-<details>
-<summary><b>Q. State the natural methods of family planning (FP), [SUST-14Ju/J]</b></summary>
+### Q. State the natural methods of family planning (FP), [SUST-14Ju/J]
 
 **Natural family planning methods:** |
 1) Basal body temperature (BBT) method: Basal body temperature is the lowest body temperature
@@ -1224,17 +1089,13 @@ woman to determine her period in the cycle. . i
 3) Sympto-thermic method: This method combines 3 fertility awareness methods such as calendar
 method, BBT method and the mucus method to identify the fertile period.
 [Ref- Park /24" / 542]
-</details>
 
-<details>
-<summary><b>Q. What is safe period? How will you calculate it?<br>Q. Calcul: e safe period of a woman having menstrual cycle of 28 days. [DU-17N]</b></summary>
+### Q. What is safe period? How will you calculate it?<br>Q. Calcul: e safe period of a woman having menstrual cycle of 28 days. [DU-17N]
 
 ulate the safe period of a woman having shortest menstrual cycle of 22 days & longest
 menstrual cycle of 35 days. [DU-16M]
-</details>
 
-<details>
-<summary><b>Q. Write down the merits & demerits of safe period. [DU-16M]</b></summary>
+### Q. Write down the merits & demerits of safe period. [DU-16M]
 
 **Safe period / Rhythm method / Calendar method:**
 It aims at finding out the time during which a viable ovum is available for fertilization by sperm.
@@ -1264,10 +1125,8 @@ Disadvantages of safe period:
 4) Chances of transmitting STDs,
 5) Its reliability is poor.
 [Ref- Rashid, Khabir, Hyder /5" /200 + Park /24" / 541)
-</details>
 
-<details>
-<summary><b>Q. Why safe period is not suitable family planning method for Bangladeshi women?<br>Q. Among safe period users why failure rate is high?</b></summary>
+### Q. Why safe period is not suitable family planning method for Bangladeshi women?<br>Q. Among safe period users why failure rate is high?
 
 Safe period is not a suitable family planning method for Bangladeshi women: Because of —
 1) Irregularity of menstrual cycle,
@@ -1276,10 +1135,8 @@ Safe period is not a suitable family planning method for Bangladeshi women: Beca
 4) Wrong calculation,
 5) Inability to follow calculation,
 6) Taking chances.
-</details>
 
-<details>
-<summary><b>Q. Discuss the traditional family planning methods.<br>Q. How breast feeding acts as a contraceptive measure?</b></summary>
+### Q. Discuss the traditional family planning methods.<br>Q. How breast feeding acts as a contraceptive measure?
 
 **Traditional family planning methods:** . . .
 1. Coitus interruptus: This is the oldest method of fertility control. It continues to be a widely practiced
@@ -1297,10 +1154,8 @@ practiced. In Bangladesh mean duration of breast feeding is about 24 months.
 kissing, massage, mutual masturbation, petting, oral-genital sex and use of stimulation device such as
 vibrators etc.
 [Ref- Rashid, Khabir, Hyder / 5" / 200]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Birth control vaccine.</b></summary>
+### Q. Write short note on: Birth control vaccine.
 
 **Birth control vaccine:**
 The vaccine is prepared from beta- subunit of human chorionic gonadotropin, a hormone produced in
@@ -1326,10 +1181,8 @@ Advantages:
 5. Most cost effective.
 [Ref- Park / 24" / 542]
 Male sterilization / Vasectomy
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Vasectomy / male sterilization.</b></summary>
+### Q. Write short note on: Vasectomy / male sterilization.
 
 **Vasectomy / male sterilization:**
 j Male sterilization or vasectomy being a comparatively simple operation can be performed eve
@@ -1346,10 +1199,8 @@ against sperm.
 Beye
 f sexual vigour, impotency, headache, fatigue etc.
 [Ref- Park /24"/ 543]
-</details>
 
-<details>
-<summary><b>Q. Give the post-operative advice after vasectomy. [RU-18M]</b></summary>
+### Q. Give the post-operative advice after vasectomy. [RU-18M]
 
 **Post-operative advice after vasectomy:**
 1) The patient should be told that he is not sterile immediately after operation; at least 30 ejaculations
@@ -1362,10 +1213,8 @@ Test.
 5" day after the operation.
 6) To have the stitches removed on the
 [Ref- Park / 24" / 543]
-</details>
 
-<details>
-<summary><b>Q. Give the prerequisites for permanent sterilization.<br>Q. Give the guidelines for sterilization.</b></summary>
+### Q. Give the prerequisites for permanent sterilization.<br>Q. Give the guidelines for sterilization.
 
 **Prerequisites / guidelines for sterilization:**
 1) In case of vasectomy — the age of husband should not less than 25 years and not above 50 years.
@@ -1380,10 +1229,8 @@ AAA
 discretion of the Operation surgeon.
 5) Consent from the spouse (husband or wife living).
 [Ref- Park / 24" /543)
-</details>
 
-<details>
-<summary><b>Q. Discuss causes of failure of vasectomy,</b></summary>
+### Q. Discuss causes of failure of vasectomy,
 
 **Causes of failure of vasectomy:**
 1) The most common cause of failure is due to the mistaken identification of the vas. That is, instead of
@@ -1405,18 +1252,14 @@ Procedure:
 2. Laparoscopy: Done by a specialized instrument called laparoscope.
 [Ref- Park /24" /544]
 iJ
-</details>
 
-<details>
-<summary><b>Q. Discuss causes of failure of tubectomy.</b></summary>
+### Q. Discuss causes of failure of tubectomy.
 
 **Causes of failure of tubectomy:** ‘
 1) Inappropriate ligation of the tubes.
 2) Spontaneous recanalisation.
-</details>
 
-<details>
-<summary><b>Q. What is ‘pearl index’?</b></summary>
+### Q. What is ‘pearl index’?
 
 **Pearl index:** It is a method of assessment of contraceptive efficacy.
 Pearl index’ is defined as the number of “failure per 100 women-years of exposure (HWY).” This rate
@@ -1453,16 +1296,12 @@ d) Breast feeding. e) teaching nutrition
 e) Symptothermic method.
 Ans. a) A, b) F, ) F, d) T, e) T-
 Ans. a) T, b) T, ¢) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Ideal IUD candidates are: [DU-13J]</b></summary>
+### Q. Ideal IUD candidates are: [DU-13J]
 
 a) who has borne at least two children
-</details>
 
-<details>
-<summary><b>Q. Contraceptives with hormone are: [DU-</b></summary>
+### Q. Contraceptives with hormone are: [DU-
 
 b) is ina polygamous relationship
 18M]
@@ -1473,10 +1312,8 @@ d) Lippes loop. Ans, a) F, b) F, e) T, d) F, ¢) T-
 e) Pgesterone.
 Ans. a) T, b) F, c) F, d) F; e) T: Q. Ideal candidate of IUCD is a woman who:
 [DU-12J]
-</details>
 
-<details>
-<summary><b>Q. Contraceptives act by preventing a) is nullipara</b></summary>
+### Q. Contraceptives act by preventing a) is nullipara
 
 **ovulation:** [DU-17M] b) has no history of PID
 a) Copper-T. c) has regular menstrual period
@@ -1487,10 +1324,8 @@ e) OCP.
 Ans. a) F, b) F, ¢) T, d) F, e) T- Q. Absolute contraindications of oral
 yee yEye contraceptive pills are: [DU-! lJ]
 a) Congenital hyperlipidaemia +
-</details>
 
-<details>
-<summary><b>Q. Absolute contraindications of OCP: [DU- : |</b></summary>
+### Q. Absolute contraindications of OCP: [DU- : |
 
 **15Ju]:** a al |
 : c) Migraine
@@ -1513,5 +1348,4 @@ Care of Newborn
 Infant & Maternal Mortality..
 Reproductive health
 Emergency obstetric care (EOC
-</details>
 

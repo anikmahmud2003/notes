@@ -10,8 +10,7 @@
 ANA iawn nee weenie TT AA Sa aw
 ttle
 
-<details>
-<summary><b>Q. Define community. [CU-12Ju,11J]<br>Q. What are the characteristics of a community?</b></summary>
+### Q. Define community. [CU-12Ju,11J]<br>Q. What are the characteristics of a community?
 
 **Community:** The following definition of ‘community’ is accepted by ‘WHO Expert Committee’.
 CA community is a social group determined by geographical boundaries and/or common values and
@@ -33,10 +32,8 @@ racteristics of community:
 [Ref- Park / 24" /725 + Rashid, Khabir, Hyder / 5" / 468]
 Community Medicine
 Define community medicine. [DU-13Ju, CU-18M,16M,15J, SUST-17M, 16N, 15J,14J]
-</details>
 
-<details>
-<summary><b>3 Q. What do you understand by community medicine? [RU-12J]</b></summary>
+### 3 Q. What do you understand by community medicine? [RU-12J]
 
 97 Answer
 Community medicine:
@@ -46,10 +43,8 @@ comprehensive health care to the peopl@by% health team in order to improve the h
 Comprehensive health care means {Provision of preventive, promotive, curative & rehabilitative
 care to the people from womb to the tomb.
 [Ref- Rashid, Khabir, Hyder / 5" /25]
-</details>
 
-<details>
-<summary><b>Q. Define preventive medicine, social medicine, family medicine & population medicine.<br>Q. Define community health. [DU-05M]</b></summary>
+### Q. Define preventive medicine, social medicine, family medicine & population medicine.<br>Q. Define community health. [DU-05M]
 
 - Preventive medicine: Modem preventive medicine has been defined as ‘the art and science of health
 promotion, disease prevention, disability limitation and rehabilitation’,
@@ -83,10 +78,8 @@ AY To conduct health education programs among the people.
 To participate the national health program; e.g. NID, FDCP, MBDCP etc.
 6) The final objective is to extend the scope of health disciplines involved indirectly in health care,
 such as economists, social scientists.
-</details>
 
-<details>
-<summary><b>Q. State salient components of community medicine.</b></summary>
+### Q. State salient components of community medicine.
 
 **Salient components of community medicine:**
 1) Community:
@@ -102,10 +95,8 @@ such as economists, social scientists.
   - Auxiliaries.
   - Team leader.
 [Ref- Rashid, Khabir, Hyder /5"/25]
-</details>
 
-<details>
-<summary><b>Q. Explain importance of community medicine.<br>Q. ‘Community medicine always around you’-Justify the statement. [RU-10J]<br>Q. ‘Community medicine builds leader of the profession’-Justify. [CU-15Ju]</b></summary>
+### Q. Explain importance of community medicine.<br>Q. ‘Community medicine always around you’-Justify the statement. [RU-10J]<br>Q. ‘Community medicine builds leader of the profession’-Justify. [CU-15Ju]
 
 **Importance of community medicine:**
 d attitude regarding the delivery of comprehensive health care
@@ -123,10 +114,8 @@ VIVA & OSPE
 erentiate between community medicine & clinical medicine. es ae | Sewers
 Enlist the differences between community medicine & clinical medicine. [ , F
 14))
-</details>
 
-<details>
-<summary><b>Q. Why prevention is better than cure? [CU-15Ju]</b></summary>
+### Q. Why prevention is better than cure? [CU-15Ju]
 
 Differences between community medicine and clinical medicine:
 Z It deals with removal of disease from the patient
@@ -225,10 +214,8 @@ ee SSR SR
 Eeeaeaeaeaea—_""—S—
 (SAQ, MCQ), VIVA & OSPE
 Public Health
-</details>
 
-<details>
-<summary><b>Q. De’ fvivus health. [CU-13J, RU-12J]</b></summary>
+### Q. De’ fvivus health. [CU-13J, RU-12J]
 
 Ansyér
 Public health:
@@ -241,10 +228,8 @@ for early diagnosis and preventive treatment of disease, and the development of 
 every individual a standard of living adequate for the maintenance of health, so organizing these benefits as to
 enable every citizen to realize his birthright of health and longevity.”
 [Ref- Park / 24" /51 + Rashid, Khabir, Hyder /5™ /24]
-</details>
 
-<details>
-<summary><b>📌 Viva — Aims of public health</b></summary>
+### 📌 Viva — Aims of public health
 
 - Aims of public health:
 1) Promotion of health.
@@ -257,10 +242,8 @@ enable every citizen to realize his birthright of health and longevity.”
 3) Prevention, treatment and rehabilitation of chronic-diseases and behavioral disorder.
 4) To improve the efficacy and health care delivery system.
 5) To make maximum utilization of available resources to ensure health for all, by 2005AD.
-</details>
 
-<details>
-<summary><b>Q. Why cholera is called the father of public health?</b></summary>
+### Q. Why cholera is called the father of public health?
 
 Cholera is called the father of public health. Because -
 An English epidemiologist John Snow studied the epidemiology of cholera in. London from 1848-
@@ -329,10 +312,8 @@ Note:
 Changing concept of health’ is discussed in ‘Chapter-02: Concept of health & disease’.
 “ There is another phase of public health mentioned in the text book ‘Rashid, Khabir, Hyder- 5”
 edition’. That phase is “Miasma Phase (1850-1880 AD)”.
-</details>
 
-<details>
-<summary><b>📌 Viva — Basic difference between public health and community medicine</b></summary>
+### 📌 Viva — Basic difference between public health and community medicine
 
 - Basic difference between public health and community medicine:
 Community medicine
@@ -371,19 +352,15 @@ To control physical environment and
 objective communicable diseases. the people.
 5) Community | Not needed. Essential.
 participation
-</details>
 
-<details>
-<summary><b>Q. Défine hygiene.</b></summary>
+### Q. Défine hygiene.
 
 \ Swer
 ie The word ‘hygiene’ is derived from Hygeia (The goddess of health in Greek mythology).
 It is defined as j epaeenes of health and embraces all factors which contribute to healthful living”)
 [Ref- Park /24" / 50]
-</details>
 
-<details>
-<summary><b>Q. “Great sanitary awakening is a historic milestone in the evolution of medicine”- discuss.</b></summary>
+### Q. “Great sanitary awakening is a historic milestone in the evolution of medicine”- discuss.
 
 Great sanitary awakening is a historic milestone in the evolution of medicine" which took place in
 England in the mid-nineteenth century and gradually spread to other countries. It had a tremendous impact in
@@ -409,10 +386,8 @@ conditions. His report focused the attention of the people and government on the
 health. Filth was recognized as man's great enemy and this began an anti-filth crusade, “great sanitary
 awakening” which led to the enactment of the Public health.
 [Ref- Park /24"/5]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Public health emergency.</b></summary>
+### Q. Write short note on: Public health emergency.
 
 **Public health emergency:**
 Any incidence which causes break down of public health by any means is called public health
@@ -448,10 +423,8 @@ D-Ancillary staff:
 SAO, MCQ), VIVA & OSPE
 Basic Human Needs
 ‘ i itable distribution of
-</details>
 
-<details>
-<summary><b>Q. What are the basic human needs? Highlight the implementation orequitaore</b></summary>
+### Q. What are the basic human needs? Highlight the implementation orequitaore
 
 health resources/ services in Bangladesh.
 The basic human needs are:
@@ -470,10 +443,8 @@ the health care system from cities to the rural areas (where three quarter of th
 services as near people’s homes as possible. . -_ _
 In Bangladesh, Thana health complex and union health centers and satellite clinics do their jobs
 successfully to deliver health services equitably.
-</details>
 
-<details>
-<summary><b>Q. Draw and explain Abraham Maslow’s need hierarchy. [CU-16J,12J]</b></summary>
+### Q. Draw and explain Abraham Maslow’s need hierarchy. [CU-16J,12J]
 
 **Abraham Maslow’s need hierarchy:** ae
 Maslow's hierarchy of needs is a theory in psychology, proposed by Abraham Maslow in his 1943
@@ -498,10 +469,8 @@ Love / Belonging
 Physiological
 Figure: Abraham Maslow’s need hierarchy,
 1
-</details>
 
-<details>
-<summary><b>Q. Basic human needs include: [DU-18N]</b></summary>
+### Q. Basic human needs include: [DU-18N]
 
 a) Food.
 b) Furniture.
@@ -509,10 +478,8 @@ c) Residence.
 d) Medical support.
 e) Recreation.
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Community medicine is the successor of: [DU-17M,10Ju]</b></summary>
+### Q. Community medicine is the successor of: [DU-17M,10Ju]
 
 a) Public health
 b) Family medicine
@@ -520,10 +487,8 @@ c) Curative medicine
 d) Community health
 e) Social medicine
 Ans. a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Synonym of community medicine: [DU- 16J]</b></summary>
+### Q. Synonym of community medicine: [DU- 16J]
 
 a) Social medicine.
 b) Family medicine.
@@ -531,10 +496,8 @@ c) Preventive medicine.
 d) State medicine.
 e) Public health.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Health may be promoted by: [DU-16J,</b></summary>
+### Q. Health may be promoted by: [DU-16J,
 
 a) Immunization
 b) Chemoprophylaxis
@@ -542,10 +505,8 @@ c) Nutritional intervention
 d) Life style and behavioural change
 e) Protection from carcinogens
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. In health promotion phase of public health</b></summary>
+### Q. In health promotion phase of public health
 
 **attention paid to:** [DU-13Ju,12Ju]
 a) Geriatric health
@@ -579,20 +540,16 @@ VIVA & OSPE
 Concept of Health
 Health
 -18N, 17, 165]
-</details>
 
-<details>
-<summary><b>Q. Define health, [DU-16N,14J, CU-17N/M, 16N,13J, SUST 18N,<br>Q. Define health (by WHO). [CU-13Ju]</b></summary>
+### Q. Define health, [DU-16N,14J, CU-17N/M, 16N,13J, SUST 18N,<br>Q. Define health (by WHO). [CU-13Ju]
 
 **\ Answer . . ich is as follows:**
 Health: The WHO has given the widely accepted definition of Rea MF ia a merely amabsenonol
 CHealth is a state of complete physical, mental & social we alg productive life.”
 disease or infirmifYyso that each citizen can lead a socially and econ
 Now spiritiaal wellbeing has been added in this definition. [Ref- Park /24" / 14]
-</details>
 
-<details>
-<summary><b>📌 Viva — Criticism of the definition of health by WHO</b></summary>
+### 📌 Viva — Criticism of the definition of health by WHO
 
 **Criticism of the definition of health by WHO:**
 1) Too broad. ‘
@@ -603,22 +560,16 @@ adjustment to thee changing demands of living and of the changing meanings we gi
 5) The WHO definition of health is therefore considered by many as an idealistic goal than a
 realistic proposition. [Ref- Park /24"/ 14]
 Changing concept of health
-</details>
 
-<details>
-<summary><b>Q. What are the changing concepts of health? [DU- CU-15Ju]<br>Q. Enumerate the changing concepts of health. [DU-18N,17N,16N,13J,11Ju, RU-16J,14Ju, CU- 17M, 15Ju]</b></summary>
+### Q. What are the changing concepts of health? [DU- CU-15Ju]<br>Q. Enumerate the changing concepts of health. [DU-18N,17N,16N,13J,11Ju, RU-16J,14Ju, CU- 17M, 15Ju]
 
 _Q. What are the changing concepts of health? [DU- CU-15Ju]_
-</details>
 
-<details>
-<summary><b>Q.Narrate the changing concept of health. [CU-15J]</b></summary>
+### Q.Narrate the changing concept of health. [CU-15J]
 
 fe Explain changing concept of health. [RU-18N]
-</details>
 
-<details>
-<summary><b>Q. Give a brief account of changing concepts of health and disease, [CU-10Ju]<br>Q. Explain biomedical concept of health. [DU-16M,15Ju,12J]</b></summary>
+### Q. Give a brief account of changing concepts of health and disease, [CU-10Ju]<br>Q. Explain biomedical concept of health. [DU-16M,15Ju,12J]
 
 **Changing concepts of health:** A brief account of the changing concepts of health is given below —
 1) Biomedical concept: A person was considered as healthy if he was free from disease or absence of
@@ -646,19 +597,15 @@ Psychological factors:
 implies that all sectors of society have an effect on health (in particular agriculture, animal
 husbandry, food, industry, education, housing, public works, communication and other sectors).
 [Ref- Park / Park / 24/13, 14]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by holistic model approach of changing concept of health? [CU-1 1 Ju]<br>Q. What does holistic approach imply? [DU-10J]</b></summary>
+### Q. What do you mean by holistic model approach of changing concept of health? [CU-1 1 Ju]<br>Q. What does holistic approach imply? [DU-10J]
 
 The holistic approach implies that all sectors of society have an effect on health (in particular
 agriculture, animal husbandry, food, industry, education, housing, public works, communication and other
 sectors).
 [Ref- Park /24"/ 14]
-</details>
 
-<details>
-<summary><b>Q. Discuss the most acceptable concept of health with justification. [SUST-13J]</b></summary>
+### Q. Discuss the most acceptable concept of health with justification. [SUST-13J]
 
 **Most acceptable concept of health:** Holistic concept is the most acceptable concept of health.
 > Justification:
@@ -670,10 +617,8 @@ The holistic approach implies that all sectors of society have an effect on heal
 agriculture, animal husbandry, food, industry, education, housing, public works, communication and
 other sectors). The emphasis is on the promotion and protection of health.
 (Ref- Park /24™/ 14]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by new philosophy of health? [CU-11Ju]</b></summary>
+### Q. What do you mean by new philosophy of health? [CU-11Ju]
 
 **Are:** According to WHO write down the new philosophy of health?
 nswer
@@ -690,5 +635,4 @@ MS Health involves individuals, state and international responsibility.
 ~8Y Health is world-wide social goal.
 [Ref- Park /24"/ 14]
 a OO
-</details>
 

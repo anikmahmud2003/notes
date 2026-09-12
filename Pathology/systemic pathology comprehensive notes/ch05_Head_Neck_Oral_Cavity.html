@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -95,8 +105,8 @@
 
   <h2 id="neck">1 · Diseases of Head &amp; Neck — Neck Swellings</h2>
 
-  <details id="neckcauses">
-    <summary>🔴 What are the causes of midline neck swelling?</summary>
+  <div class="qcard" id="neckcauses">
+    </div>🔴 What are the causes of midline neck swelling?</div>
     <div class="ans">
       <p><strong>Causes of midline neck swelling:</strong></p>
       <ol>
@@ -113,10 +123,10 @@
       </ol>
       <div class="mnem">🎯 <strong>Midline neck swelling</strong> = "This area runs down the middle" → <em>Thyroglossal, Sublingual dermoid, Ranula, Thyroid/goitre, Subhyoid bursa, Ca larynx/trachea/oesophagus, Sebaceous cyst/SCC/BCC skin</em>.</div>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention 5 causes of unilateral neck swelling.</summary>
+  <div class="qcard">
+    </div>🔴 Mention 5 causes of unilateral neck swelling.</div>
     <div class="ans">
       <p><strong>5 (actually up to 7) causes of unilateral neck swelling:</strong></p>
       <ol>
@@ -130,10 +140,10 @@
       </ol>
       <p class="ref">Arif 15e (2025) pp.136–137</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Name some cystic swellings in the neck.</summary>
+  <div class="qcard">
+    </div>Name some cystic swellings in the neck.</div>
     <div class="ans">
       <p><strong>Cystic swellings in the neck (8):</strong></p>
       <ol>
@@ -149,10 +159,10 @@
       <div class="mnem">🎯 <strong>Cystic neck swellings</strong> = "<em>T-R-S-S-B-L-C-P</em>": <em>Thyroglossal, Ranula, Sublingual dermoid, Subhyoid bursa, Branchial cyst, Laryngocele, Cystic hygroma, Pharyngeal pouch</em>.</div>
       <p class="ref">Arif 15e (2025) p.137</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A 12-year-old child has a localized swelling in the cervical region of the neck. Give the possible causes and how you will investigate for diagnosis. (CU-16Ja,13Ju)</summary>
+  <div class="qcard">
+    </div>A 12-year-old child has a localized swelling in the cervical region of the neck. Give the possible causes and how you will investigate for diagnosis. (CU-16Ja,13Ju)</div>
     <div class="ans">
       <h3>Possible causes of neck swelling (in a child)</h3>
       <ul>
@@ -174,10 +184,10 @@
       <div class="mnem">🎯 <strong>Lymph node → FNAC + biopsy; Thyroid → TFT + USG + FNAC; Salivary → FNAC + biopsy; Branchial cyst → USG; Carotid aneurysm → colour Doppler.</strong></div>
       <p class="ref">Arif 15e (2025) p.137</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A female aged 20 years came to you with neck swelling that moves with deglutition (swallowing). What are the causes and how will you investigate the case? (RMU-21Nv,13Ju)</summary>
+  <div class="qcard">
+    </div>A female aged 20 years came to you with neck swelling that moves with deglutition (swallowing). What are the causes and how will you investigate the case? (RMU-21Nv,13Ju)</div>
     <div class="ans">
       <h3>Causes of neck swelling that moves with deglutition</h3>
       <ul>
@@ -196,12 +206,12 @@
       </ul>
       <p class="ref">Arif 15e (2025) pp.137–138</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="oral">2 · Diseases of the Oral Cavity</h2>
 
-  <details id="oraldiseases">
-    <summary>🔴 What are the diseases of oral cavity? What are the common infections of oral cavity?</summary>
+  <div class="qcard" id="oraldiseases">
+    </div>🔴 What are the diseases of oral cavity? What are the common infections of oral cavity?</div>
     <div class="ans">
       <h3>Diseases of the oral cavity (full classification)</h3>
       <ol>
@@ -246,12 +256,12 @@
       <div class="mnem">🎯 <strong>6 categories</strong> = "Teeth · Reactive · Infection · Systemic · Precancer/Cancer · Odontogenic." Favourite short-list = <strong>Leukoplakia, Erythroplakia, SCC</strong>.</div>
       <p class="ref">Robbins 10e pp.731–737</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="glossitis">3 · Glossitis</h2>
 
-  <details id="glossitisq">
-    <summary>What is glossitis? Where does it occur?</summary>
+  <div class="qcard" id="glossitisq">
+    </div>What is glossitis? Where does it occur?</div>
     <div class="ans">
       <p><strong>Glossitis</strong> implies <strong>inflammation of the tongue</strong>. It is sometimes applied to the <strong>beefy-red tongue</strong> encountered in certain <strong>deficiency states</strong>.</p>
       <h3>Causes (deficiency states that produce the beefy-red tongue)</h3>
@@ -263,12 +273,12 @@
       <div class="mnem">🎯 <strong>Glossitis triad</strong> = vitamin B₁₂ / B-complex (riboflavin·niacin·pyridoxine) / iron deficiency → "beefy-red tongue."</div>
       <p class="ref">Robbins 8e p.742</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="aphthous">4 · Aphthous Ulcer</h2>
 
-  <details id="aphthousq">
-    <summary>🔴 What is aphthous ulcer? Describe its characteristics. (Important for VIVA)</summary>
+  <div class="qcard" id="aphthousq">
+    </div>🔴 What is aphthous ulcer? Describe its characteristics. (Important for VIVA)</div>
     <div class="ans">
       <p><strong>Aphthous ulcer</strong> (canker sores): common, often <span class="hot">recurrent &amp; painful</span>, <strong>superficial oral mucosal ulcerations of unknown aetiology</strong>.</p>
       <h3>Characteristics</h3>
@@ -282,12 +292,12 @@
       <div class="mnem">🎯 <strong>Aphthous = "patch-che"</strong>: painful + recurrent + shallow ulcer with erythematous rim + 40% population + healed 7–10 days. Associates: Celiac · IBD · Behçet.</div>
       <p class="ref">Robbins 10e p.732</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="precancer">5 · Tumours &amp; Precancerous Lesions of the Oral Cavity</h2>
 
-  <details id="precancerq">
-    <summary>🔴 What are the tumours and precancerous lesions of oral cavity? (For VIVA)</summary>
+  <div class="qcard" id="precancerq">
+    </div>🔴 What are the tumours and precancerous lesions of oral cavity? (For VIVA)</div>
     <div class="ans">
       <p><strong>Tumours and precancerous lesions of the oral cavity:</strong></p>
       <ol>
@@ -298,12 +308,12 @@
       <div class="mnem">🎯 Precancerous trio = "<strong>L-E-S</strong>": Leukoplakia · Erythroplakia · SCC.</div>
       <p class="ref">Robbins 10e pp.731, 734</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="leukoplakia">6 · Leukoplakia</h2>
 
-  <details id="leukoplakiaq">
-    <summary>🔴 What is leukoplakia? State its common sites, pathology and clinical importance. Short note. (CU-19/18Nv, DU-03M, For VIVA)</summary>
+  <div class="qcard" id="leukoplakiaq">
+    </div>🔴 What is leukoplakia? State its common sites, pathology and clinical importance. Short note. (CU-19/18Nv, DU-03M, For VIVA)</div>
     <div class="ans">
       <p><strong>Leukoplakia</strong> — defined by the <strong>WHO</strong> (World Health Organization) as <em>"a white patch or plaque that <span class="hot">cannot be scraped off</span> and cannot be characterized clinically or pathologically as any other disease."</em></p>
       <p>📌 <strong>Until proven otherwise by means of histologic evaluation, all leukoplakias must be considered precancerous.</strong></p>
@@ -335,12 +345,12 @@
       <div class="mnem">🎯 <strong>Leukoplakia</strong> = "Laal na, shada patch" (a WHITE patch, unscrapable, tobacco-related, 40–70 yrs, 2:1 M, buccal mucosa/floor of mouth/ventral tongue — all precancerous).</div>
       <p class="ref">Robbins 10e p.734</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="erythroplakia">7 · Erythroplakia</h2>
 
-  <details id="erythroplakiaq">
-    <summary>🔴 What is erythroplakia? What is its histology, cause and clinical importance? Short note. (CU-18Nv, For VIVA)</summary>
+  <div class="qcard" id="erythroplakiaq">
+    </div>🔴 What is erythroplakia? What is its histology, cause and clinical importance? Short note. (CU-18Nv, For VIVA)</div>
     <div class="ans">
       <p><strong>Erythroplakia</strong> is a <span class="hot">red, velvety, possibly eroded area</span> within the oral cavity that usually remains <strong>level with or may be slightly depressed</strong> in relation to the surrounding mucosa.</p>
       <p>The <strong>epithelium</strong> in such lesions tends to be <span class="hot">markedly atypical</span>, incurring a <strong>much higher risk of malignant transformation</strong> (pre-malignant).</p>
@@ -360,12 +370,12 @@
       <div class="mnem">🎯 <strong>Erythroplakia</strong> = "<em>Erythro = red; danger = higher!</em>" Red/velvety, 90% show severe dysplasia/CIS/invasive SCC → MORE dangerous than leukoplakia.</div>
       <p class="ref">Robbins 10e pp.734–735</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="salivary">8 · Salivary Gland — Xerostomia, Sialadenitis &amp; Sjögren Syndrome</h2>
 
-  <details id="xerostomiaq">
-    <summary>Define xerostomia and sialadenitis. (For VIVA)</summary>
+  <div class="qcard" id="xerostomiaq">
+    </div>Define xerostomia and sialadenitis. (For VIVA)</div>
     <div class="ans">
       <p><strong>Xerostomia</strong> is defined as a <span class="hot">dry mouth resulting from a decrease in the production of saliva</span>.</p>
       <p><strong>Sialadenitis</strong> refers to the <span class="hot">inflammation of the salivary gland</span>, which may be of <strong>traumatic, viral, bacterial, or autoimmune origin</strong>.</p>
@@ -374,10 +384,10 @@
       <div class="mnem">🎯 <strong>Xerostomia = dry mouth</strong> (↓ saliva production); <strong>Sialadenitis = inflamed salivary gland</strong>; mumps (paramyxovirus) → parotid + pancreas + testes.</div>
       <p class="ref">Robbins 10e pp.747, 751</p>
     </div>
-  </details>
+  </div>
 
-  <details id="sjogrenq">
-    <summary>What is Sjögren syndrome? Describe primary and secondary forms and associated disorders.</summary>
+  <div class="qcard" id="sjogrenq">
+    </div>What is Sjögren syndrome? Describe primary and secondary forms and associated disorders.</div>
     <div class="ans">
       <p><strong>Sjögren syndrome</strong> is a <span class="hot">chronic disease characterized by dry eyes (keratoconjunctivitis sicca) and dry mouth (xerostomia)</span> resulting from <strong>immunologically mediated destruction of the lacrimal and salivary glands</strong>.</p>
       <h3>Nice to Know (NB)</h3>
@@ -389,12 +399,12 @@
       <div class="mnem">🎯 <strong>Sjögren = "dry-eyed + dry-mouth"</strong> autoimmune destruction of lacrimal + salivary glands; secondary form → RA most common.</div>
       <p class="ref">Robbins 10e p.229</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="tumourclass">9 · Tumours of the Salivary Glands — Classification</h2>
 
-  <details id="salivarytumourq">
-    <summary>🔴 Classify salivary gland tumours/neoplasms. Enumerate the malignant neoplasms. Short note. (RMU-24/23/22M, CMU-23Nv, RU-19/18M, CU-19M/18Nv, For VIVA)</summary>
+  <div class="qcard" id="salivarytumourq">
+    </div>🔴 Classify salivary gland tumours/neoplasms. Enumerate the malignant neoplasms. Short note. (RMU-24/23/22M, CMU-23Nv, RU-19/18M, CU-19M/18Nv, For VIVA)</div>
     <div class="ans">
       <p><strong>The majority of salivary gland tumours occur in the parotid gland (65%–80%).</strong> The majority of parotid tumours are benign, but <span class="hot">40% of submandibular, 50% of minor salivary gland, and 70%–90% of sublingual tumours are malignant</span>.</p>
       <table>
@@ -424,28 +434,28 @@
       <div class="mnem">🎯 <strong>Distribution rule</strong>: 65–80% in parotid (mostly BENIGN); as gland gets smaller, malignancy ↑ — submandibular 40%, minor 50%, sublingual 70–90%.</div>
       <p class="ref">Robbins 10e p.748; BRS Pathology 5e p.226</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Salivary gland tumours</summary>
-    <details>
-      <summary>Malignant salivary gland tumours are: Pleomorphic adenoma · Warthin tumour · Adenoid cystic carcinoma · Acinic cell carcinoma · Malignant melanoma</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Salivary gland tumours</div>
+    <div class="qcard">
+      </div>Malignant salivary gland tumours are: Pleomorphic adenoma · Warthin tumour · Adenoid cystic carcinoma · Acinic cell carcinoma · Malignant melanoma</div>
       <div class="ans">Pleomorphic adenoma <span class="ff">F</span> (benign) · Warthin tumour <span class="ff">F</span> (benign) · Adenoid cystic carcinoma <span class="tf">T</span> · Acinic cell carcinoma <span class="tf">T</span> · Malignant melanoma <span class="ff">F</span> <span class="ref">(DU-24Nv)</span></div>
-    </details>
-    <details>
-      <summary>Benign tumours of the salivary gland are: Acinic cell carcinoma · Basal cell adenoma · Pleomorphic adenoma · Squamous cell carcinoma · Warthin's tumour</summary>
+    </div>
+    <div class="qcard">
+      </div>Benign tumours of the salivary gland are: Acinic cell carcinoma · Basal cell adenoma · Pleomorphic adenoma · Squamous cell carcinoma · Warthin's tumour</div>
       <div class="ans">Acinic cell carcinoma <span class="ff">F</span> (malignant) · Basal cell adenoma <span class="tf">T</span> · Pleomorphic adenoma <span class="tf">T</span> · Squamous cell carcinoma <span class="ff">F</span> (malignant) · Warthin's tumour <span class="tf">T</span> <span class="ref">(RU-17M)</span></div>
-    </details>
-    <details>
-      <summary>Malignant tumours of the salivary gland include: Mucoepidermoid tumour · Warthin tumour · Acinic cell tumour · Adenoid cystic carcinoma · Oncocytoma</summary>
+    </div>
+    <div class="qcard">
+      </div>Malignant tumours of the salivary gland include: Mucoepidermoid tumour · Warthin tumour · Acinic cell tumour · Adenoid cystic carcinoma · Oncocytoma</div>
       <div class="ans">Mucoepidermoid tumour <span class="tf">T</span> · Warthin tumour <span class="ff">F</span> (benign) · Acinic cell tumour <span class="tf">T</span> · Adenoid cystic carcinoma <span class="tf">T</span> · Oncocytoma <span class="ff">F</span> (benign) <span class="ref">(DU-09Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="pleo">10 · Pleomorphic Adenoma (Mixed Tumour)</h2>
 
-  <details id="pleoq1">
-    <summary>🔴 What is pleomorphic adenoma? Give its characteristics, clinical features and morphology (gross + histologic). Short note. (RMU-23/22/21M, CMU-23M/19Nv, RU-18/13/10, CU-09, DU-04Ja)</summary>
+  <div class="qcard" id="pleoq1">
+    </div>🔴 What is pleomorphic adenoma? Give its characteristics, clinical features and morphology (gross + histologic). Short note. (RMU-23/22/21M, CMU-23M/19Nv, RU-18/13/10, CU-09, DU-04Ja)</div>
     <div class="ans">
       <p><strong>Pleomorphic adenoma (mixed tumour):</strong> a <span class="hot">benign, slow-growing neoplasm composed of a heterogenous mixture of epithelial and mesenchymal cells</span>.</p>
       <p>Pleomorphic adenomas are the <strong>most common salivary gland neoplasms</strong>. They represent about <strong>60% of tumours in the parotid</strong>, are less common in the <strong>submandibular glands</strong>, and are relatively rare in the <strong>minor salivary glands</strong>.</p>
@@ -478,22 +488,22 @@
       <div class="mnem">🎯 <strong>Pleomorphic adenoma</strong> = benign, most common salivary tumour, parotid 60%, painless mobile mass near facial nerve, 4% recurrence after parotidectomy; gross 6 cm grey-white with myxoid/chondroid areas; histo = ductal + myoepithelial + mesenchymal (cartilage/bone islands).</div>
       <p class="ref">Robbins 10e pp.748, 751; BRS Pathology 5e p.226</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Why is it called pleomorphic adenoma? (RU-18M)</summary>
+  <div class="qcard">
+    </div>🔴 Why is it called pleomorphic adenoma? (RU-18M)</div>
     <div class="ans">
       <p><strong>Pleomorphism</strong> is a term used in histology and cytopathology to describe <strong>variability in the size, shape and staining of cells and/or their nuclei</strong>. An <strong>adenoma</strong> is a benign tumour originating in <strong>glandular tissue</strong>.</p>
       <p><strong>Pleomorphic adenoma</strong> consists of a mixture of <strong>ductal (epithelial), myoepithelial and mesenchymal cells</strong>, and therefore it shows <strong>both epithelial and mesenchymal (myxoid &amp; chondroid/cartilage-like elements) differentiation</strong>. Because of this remarkable <strong>histologic diversity</strong>, this adenoma is called <span class="good">"Pleomorphic adenoma"</span>.</p>
       <div class="mnem">🎯 <strong>Pleomorphic</strong> = variable size/shape/staining of cells &amp; nuclei; <strong>adenoma</strong> = benign glandular tumour. Mixed epithelial + myoepithelial + mesenchymal differentiation → hence "pleomorphic".</div>
       <p class="ref">Robbins 10e p.748; BRS Pathology 5e p.226; Lecture DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="adenoid">11 · Adenoid Cystic Carcinoma</h2>
 
-  <details id="adenoidq">
-    <summary>🔴 Give the morphologic features of adenoid cystic carcinoma. (RU-03Ja)</summary>
+  <div class="qcard" id="adenoidq">
+    </div>🔴 Give the morphologic features of adenoid cystic carcinoma. (RU-03Ja)</div>
     <div class="ans">
       <p><strong>Adenoid cystic carcinoma:</strong> a relatively uncommon tumour, which in <span class="hot">approximately 50% of cases is found in the minor salivary glands (in particular the palatine glands)</span>. Among the major salivary glands, the <strong>parotid and submandibular glands</strong> are the most common locations.</p>
       <h3>Gross appearance</h3>
@@ -510,12 +520,12 @@
       <div class="mnem">🎯 <strong>Adenoid cystic carcinoma</strong> = minor salivary (50%, palatine) > parotid/submandibular; small dark cells; <strong>"Swiss-cheese" cribriform</strong> pattern; hyaline = excess basement membrane; patterns: cribriform, tubular, solid.</div>
       <p class="ref">Robbins 10e p.751</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="naso">12 · Tumours of the Nose, Sinuses &amp; Nasopharynx</h2>
 
-  <details id="nasoq">
-    <summary>Name the tumours of nose, sinuses &amp; nasopharynx.</summary>
+  <div class="qcard" id="nasoq">
+    </div>Name the tumours of nose, sinuses &amp; nasopharynx.</div>
     <div class="ans">
       <p><strong>Tumours of the nose, sinuses &amp; nasopharynx:</strong></p>
       <ol>
@@ -528,12 +538,12 @@
       <div class="mnem">🎯 <strong>Naso-tumour list</strong> = Angiofibroma · Schneiderian papilloma · Olfactory (esthesio) neuroblastoma · NUT midline carcinoma · Nasopharyngeal carcinoma (EBV+).</div>
       <p class="ref">Robbins 10e p.741</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
 
-  <details class="rapid" open>
-    <summary>Head, Neck &amp; Oral Cavity — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Head, Neck &amp; Oral Cavity — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">Malignant salivary gland tumours are: (a) pleomorphic adenoma, (b) Warthin tumour, (c) adenoid cystic carcinoma, (d) acinic cell carcinoma, (e) malignant melanoma. (DU-24Nv)</div>
       <div class="a">Pleomorphic adenoma = <strong>False</strong> (benign) · Warthin tumour = <strong>False</strong> (benign) · adenoid cystic carcinoma = <strong>True</strong> · acinic cell carcinoma = <strong>True</strong> · malignant melanoma = <strong>False</strong>.</div>
@@ -571,7 +581,7 @@
       <div class="q">🎯 Nasopharyngeal carcinoma is strongly associated with which virus? · Name the 5 naso/nasopharyngeal tumours.</div>
       <div class="a"><strong>EBV (Epstein–Barr virus).</strong> Tumours: nasopharyngeal angiofibroma, sinonasal (Schneiderian) papilloma, olfactory neuroblastoma (esthesioneuroblastoma), NUT midline carcinoma, nasopharyngeal carcinoma.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch04_Respiratory_System.html">← Prev: Respiratory System</a></span>

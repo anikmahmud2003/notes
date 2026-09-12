@@ -37,7 +37,17 @@
   .note{color:var(--muted);font-size:.9rem}
   details{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:6px 14px;margin:8px 0}
   summary{cursor:pointer;font-weight:600;color:var(--accent)}
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="wrap">
@@ -104,10 +114,10 @@
     </ol>
   </div>
 
-  <details>
-    <summary>💡 Abbreviation policy (read once)</summary>
+  <div class="qcard">
+    </div>💡 Abbreviation policy (read once)</div>
     <p class="note">Every abbreviation in these notes is expanded in full the <strong>first time it appears</strong> in each chapter (e.g., <strong>AAA</strong> = abdominal aortic aneurysm, <strong>PAN</strong> = polyarteritis nodosa, <strong>ADPKD</strong> = autosomal dominant polycystic kidney disease, <strong>SLE</strong> = systemic lupus erythematosus, <strong>TNM</strong> = tumour–node–metastasis staging). If you ever meet an acronym without its expansion, it is a prior-chapter expansion carried forward.</p>
-  </details>
+  </div>
 </div>
 </body>
 </html>

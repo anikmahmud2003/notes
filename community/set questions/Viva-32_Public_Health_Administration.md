@@ -6,8 +6,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Mention the major functions of UH&amp;FPO. (S5,Q7)</b></summary>
+### Q1. Mention the major functions of UH&amp;FPO. (S5,Q7)
 
 *(Principles-of-learning part of this Q → Viva-31 Q5)*
 
@@ -31,10 +30,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. List the functions of Health Assistant. (S8,Q7)</b></summary>
+### Q2. List the functions of Health Assistant. (S8,Q7)
 
 *(Social-norms-and-values part of this Q → Viva-31 Q8)*
 
@@ -56,10 +53,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. List the functions of grass root level health workers. (S15,Q6)</b></summary>
+### Q3. List the functions of grass root level health workers. (S15,Q6)
 
 *(Behavior part of this Q → Viva-31 Q14)*
 
@@ -85,10 +80,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the services provided at Upazila Health Complex. (S17,Q7)</b></summary>
+### Q4. Mention the services provided at Upazila Health Complex. (S17,Q7)
 
 *(Mentally-healthy-person part of this Q → Viva-16 Q7)*
 
@@ -112,10 +105,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. List the functions of Family Welfare Visitor (FWV). (S18,Q7)</b></summary>
+### Q5. List the functions of Family Welfare Visitor (FWV). (S18,Q7)
 
 *(Warning-signals part of this Q → Viva-16 Q9)*
 
@@ -135,10 +126,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. List the functions of UH&amp;FPO. (S19,Q7)</b></summary>
+### Q6. List the functions of UH&amp;FPO. (S19,Q7)
 
 *(Mental-illness-causes part of this Q → Viva-16 Q10)*
 
@@ -162,10 +151,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Tell the administrative organogram of Upazilla Health Complex. (S20,Q7)</b></summary>
+### Q7. Tell the administrative organogram of Upazilla Health Complex. (S20,Q7)
 
 ### Organogram of Upazila (Thana) Health Complex
 **Chief of the complex: Upazila Health & Family Planning Officer (UH&FPO)** — responsible for technical & administrative supervision of all health activities at the Thana level & below.
@@ -184,4 +171,3 @@ The UHC is a **31-bedded hospital** at the Thana/Upazila level, called a *"compl
 
 > 📖 Ch-25, Endeavour PDF p. 674
 
-</details>

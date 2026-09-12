@@ -57,7 +57,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -97,8 +107,8 @@
   <!-- ============================================================ -->
   <h2 id="collection">1 · Collection of Sputum</h2>
 
-  <details id="collection">
-    <summary>❓ How is sputum collected? What precautions must be taken?</summary>
+  <div class="qcard" id="collection">
+    </div>❓ How is sputum collected? What precautions must be taken?</div>
     <div class="ans">
       <ul>
         <li><strong>Container:</strong> Sputum should be collected in a <span class="hot">clean, dry, wide-necked container</span>.</li>
@@ -109,13 +119,13 @@
       <div class="mnem">🎯 <strong>Mnemonic:</strong> "First thing in the morning, deep cough, clean wide jar" — best specimen!</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="macro">2 · Naked-Eye (Macroscopic) Examination</h2>
 
-  <details id="blood">
-    <summary>❓ What are the causes of blood in sputum (haemoptysis)?</summary>
+  <div class="qcard" id="blood">
+    </div>❓ What are the causes of blood in sputum (haemoptysis)?</div>
     <div class="ans">
       <p><strong>Haemoptysis</strong> = coughing up blood from the respiratory tract. Causes of <span class="hot">blood-stained sputum</span>:</p>
       <table>
@@ -130,10 +140,10 @@
       <div class="mnem">🎯 <strong>"PBMPLB"</strong> = Pulmonary TB · Bronchiectasis · Mitral stenosis · Pneumonia · Lung abscess · Bronchogenic carcinoma.</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
     </div>
-  </details>
+  </div>
 
-  <details id="amount">
-    <summary>❓ Describe the amount of sputum and its clinical significance.</summary>
+  <div class="qcard" id="amount">
+    </div>❓ Describe the amount of sputum and its clinical significance.</div>
     <div class="ans">
       <table>
         <tr><th>Amount</th><th>Conditions</th></tr>
@@ -142,10 +152,10 @@
       </table>
       <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
     </div>
-  </details>
+  </div>
 
-  <details id="colour">
-    <summary>❓ What is the significance of sputum colour? Enumerate the colours and their associations.</summary>
+  <div class="qcard" id="colour">
+    </div>❓ What is the significance of sputum colour? Enumerate the colours and their associations.</div>
     <div class="ans">
       <table>
         <tr><th>Colour</th><th>Condition</th><th>Mechanism</th></tr>
@@ -158,10 +168,10 @@
       <div class="mnem">🎯 <strong>Must-remember:</strong> "Rusty = Pneumonia · Pink frothy = Pulmonary oedema · Green = Pus"</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.497</p>
     </div>
-  </details>
+  </div>
 
-  <details id="consistency">
-    <summary>❓ Describe the different consistencies of sputum and their clinical associations.</summary>
+  <div class="qcard" id="consistency">
+    </div>❓ Describe the different consistencies of sputum and their clinical associations.</div>
     <div class="ans">
       <table>
         <tr><th>Consistency</th><th>Condition(s)</th></tr>
@@ -175,10 +185,10 @@
       <div class="mnem">🎯 <strong>"Anchovy sauce = Amoebic abscess"</strong> — this is a VIVA favourite!</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="odour">
-    <summary>❓ When is sputum offensive or foul-smelling (foetid)?</summary>
+  <div class="qcard" id="odour">
+    </div>❓ When is sputum offensive or foul-smelling (foetid)?</div>
     <div class="ans">
       <p>Sputum is usually <strong>odourless</strong>. It becomes <span class="hot">offensive / putrid (foul-smelling / foetid)</span> in:</p>
       <ul>
@@ -189,13 +199,13 @@
       <div class="mnem">🎯 <strong>"FOG" = Foetid odour → Bronchiectasis, lung abscess, Gangrene"</strong></div>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="micro">3 · Microscopic Examination</h2>
 
-  <details id="zn">
-    <summary>❓ Describe the Ziehl-Neelsen (ZN) staining method. What is it used for in sputum examination?</summary>
+  <div class="qcard" id="zn">
+    </div>❓ Describe the Ziehl-Neelsen (ZN) staining method. What is it used for in sputum examination?</div>
     <div class="ans">
       <p><strong>Ziehl-Neelsen (ZN) stain</strong> = an <span class="hot">acid-fast staining</span> technique used for demonstration of <strong>tubercle bacilli</strong> (<em>Mycobacterium tuberculosis</em>) in sputum.</p>
       <h3>Principle</h3>
@@ -215,10 +225,10 @@
       <p><strong>Use in sputum:</strong> Primary screening for <span class="hot">pulmonary tuberculosis (TB)</span>. At least 3 sputum specimens (early morning) should be examined for best sensitivity.</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.498 · Robbins 10e, Respiratory infections</p>
     </div>
-  </details>
+  </div>
 
-  <details id="stains">
-    <summary>❓ Enumerate all staining methods and special preparations used in sputum microscopic examination.</summary>
+  <div class="qcard" id="stains">
+    </div>❓ Enumerate all staining methods and special preparations used in sputum microscopic examination.</div>
     <div class="ans">
       <table>
         <tr><th>Stain / Preparation</th><th>Purpose</th><th>Target Organism / Finding</th></tr>
@@ -239,10 +249,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="gram">
-    <summary>❓ What is the role of Gram staining in sputum examination?</summary>
+  <div class="qcard" id="gram">
+    </div>❓ What is the role of Gram staining in sputum examination?</div>
     <div class="ans">
       <p>Gram stain is done for demonstration of:</p>
       <ul>
@@ -252,10 +262,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="leishman">
-    <summary>❓ What is the purpose of Leishman staining in sputum examination?</summary>
+  <div class="qcard" id="leishman">
+    </div>❓ What is the purpose of Leishman staining in sputum examination?</div>
     <div class="ans">
       <p>Leishman stain (a Romanowsky-type stain similar to Giemsa) is used in sputum to identify:</p>
       <ul>
@@ -265,10 +275,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="unstained">
-    <summary>❓ What is demonstrated by an unstained cover-slip preparation of sputum?</summary>
+  <div class="qcard" id="unstained">
+    </div>❓ What is demonstrated by an unstained cover-slip preparation of sputum?</div>
     <div class="ans">
       <p>An <strong>unstained wet-mount (cover-slip) preparation</strong> is used for demonstration of:</p>
       <ul>
@@ -278,10 +288,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="koh">
-    <summary>❓ When is KOH preparation used in sputum examination? What does it demonstrate?</summary>
+  <div class="qcard" id="koh">
+    </div>❓ When is KOH preparation used in sputum examination? What does it demonstrate?</div>
     <div class="ans">
       <p><strong>KOH (potassium hydroxide) preparation</strong> is done for demonstration of <strong>fungal elements</strong>, specifically:</p>
       <ul>
@@ -292,10 +302,10 @@
       <p><strong>Clinical settings:</strong> suspected aspergilloma, allergic bronchopulmonary aspergillosis (ABPA), invasive aspergillosis in immunocompromised patients.</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details id="cytology">
-    <summary>❓ How are malignant cells demonstrated in sputum? What stains are used?</summary>
+  <div class="qcard" id="cytology">
+    </div>❓ How are malignant cells demonstrated in sputum? What stains are used?</div>
     <div class="ans">
       <p>Demonstration of <strong>malignant cells</strong> in sputum is done by <strong>sputum cytology</strong>:</p>
       <ul>
@@ -306,10 +316,10 @@
       <p><strong>Clinical use:</strong> Particularly valuable for detecting <span class="good">squamous-cell carcinoma</span> of the bronchus (exophytic endobronchial tumour → cells shed into sputum). Adenocarcinoma and small-cell carcinoma may also be detected but less reliably by sputum cytology alone.</p>
       <p class="ref">Arif Guide 2025 Vol-2 p.498 · Robbins 10e, Lung tumours</p>
     </div>
-  </details>
+  </div>
 
-  <details id="culture">
-    <summary>❓ What is the role of culture in sputum examination?</summary>
+  <div class="qcard" id="culture">
+    </div>❓ What is the role of culture in sputum examination?</div>
     <div class="ans">
       <p><strong>Culture of the sputum specimen</strong> is essential for:</p>
       <ul>
@@ -325,13 +335,13 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="indications">4 · Indications of Sputum Examination</h2>
 
-  <details id="indication">
-    <summary>❓ Enumerate the indications of sputum examination.</summary>
+  <div class="qcard" id="indication">
+    </div>❓ Enumerate the indications of sputum examination.</div>
     <div class="ans">
       <p>Sputum examination is indicated in the following clinical situations:</p>
       <h3>A. Smear and Culture — identification of causative organism in suspected infection</h3>
@@ -353,53 +363,53 @@
       <div class="mnem">🎯 <strong>"5 Infections + 3 Cytology" = 8 indications:</strong> Pneumonia, TB, Fungal, P. jirovecii/HIV, Bronchiectasis + Malignancy, Viral inclusions, Asbestosis.</div>
       <p class="ref">Arif Guide 2025 Vol-2 p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Pneumonia &amp; rusty sputum</summary>
-    <details>
-      <summary>Regarding pneumonia: Consolidation · Evening rise of temperature · Mycoplasma pneumoniae · Sputum rusty in colour · Septicaemia</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Pneumonia &amp; rusty sputum</div>
+    <div class="qcard">
+      </div>Regarding pneumonia: Consolidation · Evening rise of temperature · Mycoplasma pneumoniae · Sputum rusty in colour · Septicaemia</div>
       <div class="ans">Consolidation <span class="tf">T</span> · Evening rise of temperature <span class="ff">F</span> · Mycoplasma pneumoniae <span class="tf">T</span> · Sputum rusty in colour <span class="tf">T</span> · Septicaemia <span class="tf">T</span> <span class="ref">(DU-22Nv)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — COPD &amp; sputum</summary>
-    <details>
-      <summary>Regarding COPD: Decreased FEV1 · Reduced expansion · Smoking not associated · Copious sputum in emphysema · Mucous gland hyperplasia in chronic bronchitis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — COPD &amp; sputum</div>
+    <div class="qcard">
+      </div>Regarding COPD: Decreased FEV1 · Reduced expansion · Smoking not associated · Copious sputum in emphysema · Mucous gland hyperplasia in chronic bronchitis</div>
       <div class="ans">Decreased FEV1 <span class="tf">T</span> · Reduced expansion <span class="ff">F</span> · Smoking not associated <span class="ff">F</span> · Copious sputum in emphysema <span class="ff">F</span> · Mucous gland hyperplasia in chronic bronchitis <span class="ff">F</span> <span class="ref">(DU-22M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Emphysema &amp; sputum</summary>
-    <details>
-      <summary>Emphysema: Component of COPD · Related to smoking · Copious purulent sputum · Infection common · α1-antitrypsin deficiency</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Emphysema &amp; sputum</div>
+    <div class="qcard">
+      </div>Emphysema: Component of COPD · Related to smoking · Copious purulent sputum · Infection common · α1-antitrypsin deficiency</div>
       <div class="ans">Component of COPD <span class="tf">T</span> · Related to smoking <span class="tf">T</span> · Copious purulent sputum <span class="ff">F</span> · Infection common <span class="tf">T</span> · α1-antitrypsin deficiency <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Bronchogenic carcinoma &amp; sputum</summary>
-    <details>
-      <summary>Bronchogenic carcinoma can secrete: ADH · Aldosterone · β-hCG · Calcitonin · ACTH</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Bronchogenic carcinoma &amp; sputum</div>
+    <div class="qcard">
+      </div>Bronchogenic carcinoma can secrete: ADH · Aldosterone · β-hCG · Calcitonin · ACTH</div>
       <div class="ans">ADH <span class="tf">T</span> · Aldosterone <span class="ff">F</span> · β-hCG <span class="ff">F</span> · Calcitonin <span class="tf">T</span> · ACTH <span class="tf">T</span> <span class="ref">(BUP-22Nv)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Bronchiectasis &amp; sputum</summary>
-    <details>
-      <summary>Bronchiectasis: Characterized by copious purulent sputum · Copious in emphysema · Foul-smelling sputum · Associated with recurrent infections</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Bronchiectasis &amp; sputum</div>
+    <div class="qcard">
+      </div>Bronchiectasis: Characterized by copious purulent sputum · Copious in emphysema · Foul-smelling sputum · Associated with recurrent infections</div>
       <div class="ans">Copious purulent sputum <span class="tf">T</span> · Copious in emphysema <span class="ff">F</span> · Foul-smelling sputum <span class="tf">T</span> · Associated with recurrent infections <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep</h2>
 
-  <details class="rapid" open>
-    <summary>Sputum Examination — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Sputum Examination — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Best time to collect sputum for examination is in the evening (T/F)?</div>
@@ -454,7 +464,7 @@
       <div class="a"><strong>At least 3 early-morning specimens</strong> should be collected and examined by ZN stain for best sensitivity of AFB detection.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch28_Stool_Examination.html">← Ch 28 · Stool Examination</a></span>

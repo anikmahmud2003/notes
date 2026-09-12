@@ -66,7 +66,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -126,8 +136,8 @@
   <!-- ===================== SECTION 1: HAEMOPTYSIS ===================== -->
   <h2 id="haemoptysis">1 · Causes of Haemoptysis</h2>
 
-  <details>
-    <summary>Mention the causes of haemoptysis.</summary>
+  <div class="qcard">
+    </div>Mention the causes of haemoptysis.</div>
     <div class="ans">
       <p>🔴 <strong>Haemoptysis = coughing up blood from the respiratory tract.</strong> Causes are grouped into three categories (VIVA favourite):</p>
       <h3>A. Inflammatory</h3>
@@ -155,13 +165,13 @@
       </ul>
       <p class="ref">Ref: Harsh Mohan 7e p.480; Arif pp. 90</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 2: ATELECTASIS ===================== -->
   <h2 id="atelectasis">2 · Atelectasis (Collapse)</h2>
 
-  <details>
-    <summary>Define and describe atelectasis (collapse). What are its types?</summary>
+  <div class="qcard">
+    </div>Define and describe atelectasis (collapse). What are its types?</div>
     <div class="ans">
       <p><strong>Atelectasis (collapse)</strong> refers either to incomplete expansion of the lungs (neonatal atelectasis) or to the collapse of previously inflated lung, producing areas of relatively airless pulmonary parenchyma.</p>
       <h3>Types:</h3>
@@ -173,13 +183,13 @@
       <p>⚠️ Significant atelectasis reduces oxygenation and predisposes to infection.</p>
       <p class="ref">Ref: Robbins 10e p.675; Arif p. 90–91</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 3: PULMONARY OEDEMA ===================== -->
   <h2 id="edema">3 · Pulmonary Oedema</h2>
 
-  <details>
-    <summary>Define and classify pulmonary oedema. What are the causes?</summary>
+  <div class="qcard">
+    </div>Define and classify pulmonary oedema. What are the causes?</div>
     <div class="ans">
       <p><strong>Pulmonary oedema</strong> is the accumulation of excessive interstitial fluid in the alveoli, resulting from either haemodynamic disturbances (cardiogenic) or increased capillary permeability due to microvascular injury (non-cardiogenic).</p>
       <h3>Classification and causes:</h3>
@@ -220,13 +230,13 @@
       </ul>
       <p class="ref">Ref: Robbins 10e p.675; Arif pp. 91–92</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 4: ALI / ARDS ===================== -->
   <h2 id="ards">4 · Acute Lung Injury (ALI) &amp; Acute Respiratory Distress Syndrome (ARDS)</h2>
 
-  <details>
-    <summary>🔴 Define ALI and ARDS. What conditions are associated? What are the clinical features?</summary>
+  <div class="qcard">
+    </div>🔴 Define ALI and ARDS. What conditions are associated? What are the clinical features?</div>
     <div class="ans">
       <p><strong>Acute lung injury (ALI)</strong> = abrupt onset of hypoxaemia and bilateral pulmonary oedema in the absence of cardiac failure (non-cardiogenic pulmonary oedema).</p>
       <p><strong>ARDS</strong> = a manifestation of <span class="hot">severe ALI</span>; a clinical syndrome of progressive respiratory insufficiency caused by diffuse alveolar damage (DAD) in the setting of sepsis, severe trauma, or diffuse pulmonary infection.</p>
@@ -250,13 +260,13 @@
       </ul>
       <p class="ref">Ref: Robbins 10e pp. 676–678; Arif pp. 92–93</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 5: COPD ===================== -->
   <h2 id="copd">5 · Chronic Obstructive Pulmonary Disease (COPD)</h2>
 
-  <details>
-    <summary>🔴 Define obstructive lung disease. List the obstructive lung diseases. Define COPD and its manifestations.</summary>
+  <div class="qcard">
+    </div>🔴 Define obstructive lung disease. List the obstructive lung diseases. Define COPD and its manifestations.</div>
     <div class="ans">
       <p><strong>Obstructive lung diseases</strong> are characterised by an increase in resistance to airflow due to diffuse airway disease affecting any level of the respiratory tract. An <span class="hot">FEV₁/FVC ratio &lt;0.7</span> generally indicates obstructive disease.</p>
       <h3>Common obstructive lung diseases:</h3>
@@ -278,13 +288,13 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 675, 678; BRS Pathology 5e p.202; Arif pp. 93–94</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 6: EMPHYSEMA ===================== -->
   <h2 id="emphysema">6 · Emphysema</h2>
 
-  <details>
-    <summary>🔴 Define and classify emphysema. Describe the types.</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify emphysema. Describe the types.</div>
     <div class="ans">
       <p><strong>Emphysema:</strong> A chronic obstructive airway disease characterised by <span class="hot">irreversible enlargement of airspaces distal to the terminal bronchiole</span>, accompanied by destruction of their walls without obvious fibrosis. Also: dilation of air spaces with destruction of alveolar walls and lack of elastic recoil.</p>
       <h3>Necessary lung anatomy (pulmonary acinus):</h3>
@@ -299,10 +309,10 @@
       </table>
       <p class="ref">Ref: Robbins 10e pp. 675, 679; Arif pp. 94–95</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the etiopathogenesis of pulmonary emphysema.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the etiopathogenesis of pulmonary emphysema.</div>
     <div class="ans">
       <p>Clinically significant emphysema is largely confined to <strong>smokers</strong> and patients with <strong>α₁-antitrypsin deficiency</strong>. Four mechanisms:</p>
       <ol>
@@ -313,10 +323,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e p.680; Arif pp. 95–96</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the clinical features and causes of death of emphysema. What is pulmonary bullae?</summary>
+  <div class="qcard">
+    </div>Mention the clinical features and causes of death of emphysema. What is pulmonary bullae?</div>
     <div class="ans">
       <h3>Clinical features of emphysema:</h3>
       <ol>
@@ -339,29 +349,29 @@
       <p>Advanced cases show <strong>subpleural bullae</strong> — air-filled cyst-like structures &gt;1 cm diameter, formed by rupture of adjacent air spaces. They are a common cause of <strong>spontaneous pneumothorax</strong>.</p>
       <p class="ref">Ref: Robbins 10e p.682; Harsh Mohan 7e p.461; Arif pp. 96–97</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — COPD &amp; Emphysema</summary>
-    <details>
-      <summary>Regarding COPD: Decreased FEV₁ in 1 second · Causes reduced expansion of lung · Cigarette smoking is not associated · Causes copious sputum in emphysema · Mucous gland hyperplasia in chronic bronchitis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — COPD &amp; Emphysema</div>
+    <div class="qcard">
+      </div>Regarding COPD: Decreased FEV₁ in 1 second · Causes reduced expansion of lung · Cigarette smoking is not associated · Causes copious sputum in emphysema · Mucous gland hyperplasia in chronic bronchitis</div>
       <div class="ans">Decreased FEV₁ <span class="tf">T</span> · Reduced expansion <span class="ff">F</span> (emphysema is hyperinflated) · Smoking not associated <span class="ff">F</span> · Copious sputum in emphysema <span class="ff">F</span> (that's chronic bronchitis — emphysema has scanty sputum) · Mucous gland hyperplasia in chronic bronchitis <span class="ff">F</span> (per Arif key) <span class="ref">(DU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Emphysema: Is a component of COPD · Is related to cigarette smoking · Is characterised by copious purulent sputum · Complicated by infection is common · Is common in α₁-antitrypsin deficiency</summary>
+    </div>
+    <div class="qcard">
+      </div>Emphysema: Is a component of COPD · Is related to cigarette smoking · Is characterised by copious purulent sputum · Complicated by infection is common · Is common in α₁-antitrypsin deficiency</div>
       <div class="ans">Component of COPD <span class="tf">T</span> · Smoking <span class="tf">T</span> · Copious purulent sputum <span class="ff">F</span> · Infection common <span class="tf">T</span> · α₁-antitrypsin deficiency <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
-    </details>
-    <details>
-      <summary>Chronic obstructive pulmonary diseases include: Asthma · Pulmonary neoplasms · Emphysema · Pneumonia · Bronchiectasis</summary>
+    </div>
+    <div class="qcard">
+      </div>Chronic obstructive pulmonary diseases include: Asthma · Pulmonary neoplasms · Emphysema · Pneumonia · Bronchiectasis</div>
       <div class="ans">Asthma <span class="tf">T</span> · Pulmonary neoplasms <span class="ff">F</span> · Emphysema <span class="tf">T</span> · Pneumonia <span class="ff">F</span> · Bronchiectasis <span class="tf">T</span> <span class="ref">(RU-19M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ===================== SECTION 7: CHRONIC BRONCHITIS ===================== -->
   <h2 id="bronchitis">7 · Chronic Bronchitis</h2>
 
-  <details>
-    <summary>🔴 Define chronic bronchitis. Describe its pathogenesis and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Define chronic bronchitis. Describe its pathogenesis and clinical features.</div>
     <div class="ans">
       <p><strong>Chronic bronchitis:</strong> Defined clinically as <span class="hot">persistent cough with sputum production for at least 3 months in at least 2 consecutive years</span> in the absence of any other identifiable cause.</p>
       <h3>Pathogenesis:</h3>
@@ -389,10 +399,10 @@
       <p>⚠️ Long-standing chronic bronchitis commonly leads to pulmonary hypertension, cor pulmonale, and <strong>death due to heart failure</strong>.</p>
       <p class="ref">Ref: Robbins 10e pp. 680, 682; Arif pp. 97–99</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Compare and contrast chronic bronchitis and emphysema.</summary>
+  <div class="qcard">
+    </div>🔴 Compare and contrast chronic bronchitis and emphysema.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Chronic Bronchitis</th><th>Emphysema</th></tr>
@@ -413,10 +423,10 @@
       </table>
       <p class="ref">Ref: Robbins 10e p.682; Arif pp. 98–99</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the treatment options of COPD.</summary>
+  <div class="qcard">
+    </div>Mention the treatment options of COPD.</div>
     <div class="ans">
       <h3>Treatment of COPD:</h3>
       <ol>
@@ -431,13 +441,13 @@
       <p>⚠️ Even with intervention, COPD often progresses and frequently proves fatal.</p>
       <p class="ref">Ref: Robbins 10e p.682; Arif p. 99</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 8: ASTHMA ===================== -->
   <h2 id="asthma">8 · Bronchial Asthma</h2>
 
-  <details>
-    <summary>🔴 Define and classify asthma. What are the clinical features?</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify asthma. What are the clinical features?</div>
     <div class="ans">
       <p><strong>Asthma:</strong> A heterogeneous disease, usually characterised by chronic airway inflammation and <span class="hot">variable expiratory airflow obstruction</span> producing symptoms such as wheezing, shortness of breath, chest tightness, and cough, which vary over time and in intensity. Characterised by reversible bronchoconstriction caused by airway hyper-responsiveness.</p>
       <h3>Clinical features:</h3>
@@ -463,10 +473,10 @@
       </table>
       <p class="ref">Ref: Robbins 10e pp. 683–684; Harsh Mohan 7e p.464; Arif pp. 99–100</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the pathogenesis of atopic (extrinsic) asthma. What are the mediators?</summary>
+  <div class="qcard">
+    </div>🔴 Describe the pathogenesis of atopic (extrinsic) asthma. What are the mediators?</div>
     <div class="ans">
       <p>Atopic asthma is caused by <strong>IgE-mediated (Type I) hypersensitivity</strong> reaction to environmental allergens in genetically predisposed individuals. Includes an <strong>early-phase</strong> (immediate hypersensitivity) reaction and a <strong>late-phase</strong> reaction.</p>
       <h3>Pathogenesis sequence:</h3>
@@ -489,10 +499,10 @@
       <p><strong>C. Others:</strong> IL-4, IL-13, TNF, eotaxin (CCL11), neuropeptides, nitric oxide, bradykinin, endothelins.</p>
       <p class="ref">Ref: Robbins 10e pp. 684; Arif pp. 100–102</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the histologic findings of asthma. What is airway remodelling?</summary>
+  <div class="qcard">
+    </div>🔴 Mention the histologic findings of asthma. What is airway remodelling?</div>
     <div class="ans">
       <h3>Histologic findings of asthma:</h3>
       <ol>
@@ -510,13 +520,13 @@
       </ul>
       <p class="ref">Ref: Robbins 10e p.686; Arif pp. 102</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 9: BRONCHIECTASIS ===================== -->
   <h2 id="bronchiectasis">9 · Bronchiectasis</h2>
 
-  <details>
-    <summary>🔴 Define bronchiectasis. Enumerate its causes and describe the pathogenesis.</summary>
+  <div class="qcard">
+    </div>🔴 Define bronchiectasis. Enumerate its causes and describe the pathogenesis.</div>
     <div class="ans">
       <p><strong>Bronchiectasis:</strong> A disorder in which destruction of smooth muscle and elastic tissue by inflammation stemming from persistent or severe infections leads to <span class="hot">permanent dilation of bronchi and bronchioles</span>. Defined as abnormal, irreversible dilatation of the bronchi and bronchioles caused by chronic infection with inflammation and necrosis of the bronchial wall.</p>
       <h3>Causes / aetiology:</h3>
@@ -538,10 +548,10 @@
       <p>Bronchial obstruction (mucus impaction, tumours, foreign bodies) → impaired clearing mechanisms → pooling of secretions → infections → inflammation with necrosis &amp; fibrosis → eventual permanent dilatation of airways.</p>
       <p class="ref">Ref: Robbins 10e p.687; Davidson's 23e p.578; Arif pp. 102–103</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is Kartagener syndrome? Describe its presentation and complications of bronchiectasis.</summary>
+  <div class="qcard">
+    </div>What is Kartagener syndrome? Describe its presentation and complications of bronchiectasis.</div>
     <div class="ans">
       <h3>Kartagener syndrome</h3>
       <p>A ciliary dysfunction syndrome manifested by <span class="hot">sinusitis + bronchiectasis + situs inversus</span> (sometimes with hearing loss and male sterility). Caused by a defect in dynein arms of cilia — an autosomal recessive syndrome (primary ciliary dyskinesia). Impaired ciliary activity → infection in sinuses and bronchi + disturbed embryogenesis → situs inversus. Male infertility is an important manifestation.</p>
@@ -565,13 +575,13 @@
       <p>Usually affects lower lobes bilaterally. Airways dilated up to 4× normal size. Types: cylindrical (most common — tube-like), fusiform (spindle-shaped), saccular (rounded sac-like), varicose (irregular). Cut surface shows characteristic <strong>honey-combed appearance</strong>.</p>
       <p class="ref">Ref: Robbins 10e pp. 687–688; Harsh Mohan 7e p.465; Arif pp. 103–104</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 10: RESTRICTIVE / ILD ===================== -->
   <h2 id="ild">10 · Restrictive Lung Diseases &amp; Interstitial Lung Diseases (ILDs)</h2>
 
-  <details>
-    <summary>What is restrictive lung disease? Give examples. What are interstitial lung diseases?</summary>
+  <div class="qcard">
+    </div>What is restrictive lung disease? Give examples. What are interstitial lung diseases?</div>
     <div class="ans">
       <p><strong>Restrictive lung diseases:</strong> A group of disorders characterised by <span class="hot">reduced expansion of lung parenchyma and decreased total lung capacity (TLC)</span>. Both TLC and FEV₁ decrease proportionately → <strong>normal FEV₁/FVC ratio</strong>.</p>
       <h3>Two broad kinds:</h3>
@@ -590,13 +600,13 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 678, 688; Arif pp. 104–105</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 11: PNEUMOCONIOSIS ===================== -->
   <h2 id="pneumoconiosis">11 · Pneumoconiosis</h2>
 
-  <details>
-    <summary>Define pneumoconiosis. Classify lung diseases caused by air pollutants.</summary>
+  <div class="qcard">
+    </div>Define pneumoconiosis. Classify lung diseases caused by air pollutants.</div>
     <div class="ans">
       <p><strong>Pneumoconiosis:</strong> The non-neoplastic lung reaction to inhalation of mineral dusts encountered in the workplace, including disease induced by chemical fumes and vapours. Encompasses chronic fibrosing diseases of the lung resulting from exposure to organic and inorganic particulates.</p>
       <h3>Lung diseases caused by air pollutants:</h3>
@@ -615,13 +625,13 @@
       </table>
       <p class="ref">Ref: Robbins 10e pp. 691–692; Arif p. 106</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 12: PULMONARY EMBOLISM ===================== -->
   <h2 id="pe">12 · Pulmonary Embolism &amp; Infarction</h2>
 
-  <details>
-    <summary>Describe pulmonary embolism and infarction — morphology, clinical features, and diagnosis.</summary>
+  <div class="qcard">
+    </div>Describe pulmonary embolism and infarction — morphology, clinical features, and diagnosis.</div>
     <div class="ans">
       <p>Pulmonary embolism (PE) is the <span class="hot">major cause of sudden death in hospitalised (bedridden) patients</span>. Occlusion of the pulmonary artery is nearly always embolic; main source = <strong>deep vein thrombi of the leg</strong> (e.g. popliteal vein) in &gt;95% of cases.</p>
       <h3>Morphology:</h3>
@@ -647,13 +657,13 @@
       </ul>
       <p class="ref">Ref: Robbins 10e pp. 702; Arif pp. 106–107</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 13: PNEUMONIA ===================== -->
   <h2 id="pneumonia">13 · Pneumonia</h2>
 
-  <details>
-    <summary>🔴 Define and classify pneumonia. What are the aetiologic agents?</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify pneumonia. What are the aetiologic agents?</div>
     <div class="ans">
       <p><strong>Pneumonia:</strong> Any infection of the lung parenchyma. An inflammatory process of infectious origin affecting the pulmonary parenchyma. Defined as acute inflammation of the lung parenchyma distal to the terminal bronchioles. "Consolidation" = the term for the gross and radiologic appearance of lungs in pneumonia.</p>
       <h3>Classification:</h3>
@@ -671,10 +681,10 @@
       <p><strong>C) Host reaction:</strong> fibrinous, suppurative, serofibrinous.</p>
       <p class="ref">Ref: Robbins 10e p.705; Arif pp. 107–108</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Classify pneumonia syndrome (CAP, nosocomial, aspiration, chronic, immunocompromised).</summary>
+  <div class="qcard">
+    </div>🔴 Classify pneumonia syndrome (CAP, nosocomial, aspiration, chronic, immunocompromised).</div>
     <div class="ans">
       <h3>Community-acquired acute pneumonia (CAP):</h3>
       <p><strong>Streptococcus pneumoniae</strong> (most common cause of CAP — V.V.I.), H. influenzae, S. aureus, Mycoplasma pneumoniae, C. pneumoniae, Legionella pneumophila, Moraxella catarrhalis, Enterobacteriaceae, Pseudomonas spp., C. psittaci, Coxiella burnetii (Q-fever), viruses (RSV, influenza A/B, parainfluenza, measles, adenovirus, coronavirus).</p>
@@ -694,10 +704,10 @@
       <p><em>Routes of entry: (1) inhalation, (2) aspiration from naso/oropharynx, (3) haematogenous spread, (4) direct spread from adjacent infection.</em></p>
       <p class="ref">Ref: Robbins 10e pp. 705–706; Arif pp. 108–110</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Define lobar pneumonia and bronchopneumonia. Discuss their pathogenesis.</summary>
+  <div class="qcard">
+    </div>🔴 Define lobar pneumonia and bronchopneumonia. Discuss their pathogenesis.</div>
     <div class="ans">
       <p><strong>Lobar pneumonia:</strong> Acute bacterial infection resulting in <span class="hot">fibrino-suppurative consolidation of a large portion of a lobe or an entire lobe</span>. Lower lobes most commonly affected.</p>
       <p><strong>Bronchopneumonia:</strong> Acute bacterial infection characterised by <span class="hot">patchy consolidation of the lung</span> (3–4 cm diameter), more often multilobar, often bilateral &amp; basal.</p>
@@ -714,10 +724,10 @@
       <p><strong>B) Factors lowering host resistance:</strong> chronic diseases, immunologic deficiency, immunosuppressive agents, leukopenia.</p>
       <p class="ref">Ref: Robbins 10e pp. 704–705; Arif pp. 110</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the morphology (stages) of lobar pneumonia. (V.V.I.)</summary>
+  <div class="qcard">
+    </div>🔴 Describe the morphology (stages) of lobar pneumonia. (V.V.I.)</div>
     <div class="ans">
       <table>
         <tr><th>Stage</th><th>Timing</th><th>Gross appearance</th><th>Microscopic features</th></tr>
@@ -729,10 +739,10 @@
       <p><em>"Hepatization" = liver-like consistency of the affected lobe on cut section.</em></p>
       <p class="ref">Ref: Robbins 10e p.708; Arif pp. 111</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Enumerate the clinical features and complications of lobar pneumonia.</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the clinical features and complications of lobar pneumonia.</div>
     <div class="ans">
       <h3>Clinical features:</h3>
       <ol>
@@ -768,10 +778,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e p.708; Arif pp. 111–112</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the differences between lobar and bronchopneumonia.</summary>
+  <div class="qcard">
+    </div>Mention the differences between lobar and bronchopneumonia.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Lobar Pneumonia</th><th>Bronchopneumonia</th></tr>
@@ -789,10 +799,10 @@
       </table>
       <p class="ref">Ref: Robbins 10e p.707; Arif pp. 112–113</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Name the investigations done to diagnose pneumonia.</summary>
+  <div class="qcard">
+    </div>Name the investigations done to diagnose pneumonia.</div>
     <div class="ans">
       <h3>Investigations for diagnosis of pneumonia:</h3>
       <ol>
@@ -805,37 +815,37 @@
       </ol>
       <p class="ref">Ref: Arif p. 112</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Pneumonia</summary>
-    <details>
-      <summary>Complications of acute lobar pneumonia include: Lung abscess · Septicaemia · Interstitial fibrosis · Bronchogenic carcinoma · Emphysema</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Pneumonia</div>
+    <div class="qcard">
+      </div>Complications of acute lobar pneumonia include: Lung abscess · Septicaemia · Interstitial fibrosis · Bronchogenic carcinoma · Emphysema</div>
       <div class="ans">Lung abscess <span class="tf">T</span> · Septicaemia <span class="tf">T</span> · Interstitial fibrosis <span class="ff">F</span> · Bronchogenic carcinoma <span class="ff">F</span> · Emphysema <span class="ff">F</span> <span class="ref">(DU-23M)</span></div>
-    </details>
-    <details>
-      <summary>Regarding pneumonia: Consolidation · Evening rise of temperature · Mycoplasma pneumonia · Sputum rusty in colour · Septicaemia</summary>
+    </div>
+    <div class="qcard">
+      </div>Regarding pneumonia: Consolidation · Evening rise of temperature · Mycoplasma pneumonia · Sputum rusty in colour · Septicaemia</div>
       <div class="ans">Consolidation <span class="tf">T</span> · Evening rise of temperature <span class="ff">F</span> (typical of TB) · Mycoplasma pneumonia <span class="tf">T</span> · Sputum rusty in colour <span class="tf">T</span> · Septicaemia <span class="tf">T</span> <span class="ref">(DU-22Nv)</span></div>
-    </details>
-    <details>
-      <summary>Pathological changes of lobar pneumonia: Stage of congestion · Stage of brown hepatization · Stage of grey hepatization · Stage of consolidation · Stage of resolution</summary>
+    </div>
+    <div class="qcard">
+      </div>Pathological changes of lobar pneumonia: Stage of congestion · Stage of brown hepatization · Stage of grey hepatization · Stage of consolidation · Stage of resolution</div>
       <div class="ans">Congestion <span class="tf">T</span> · Brown hepatization <span class="ff">F</span> (no such stage) · Grey hepatization <span class="tf">T</span> · Consolidation as a stage <span class="ff">F</span> (it is a process) · Resolution <span class="tf">T</span> <span class="ref">(CU-19Nv)</span></div>
-    </details>
-    <details>
-      <summary>Regarding pneumonia: Consolidation occurs in lung · Transplant recipients are vulnerable · Mycoplasma may cause it · Lung abscess is an important complication · Sputum is rusty in colour</summary>
+    </div>
+    <div class="qcard">
+      </div>Regarding pneumonia: Consolidation occurs in lung · Transplant recipients are vulnerable · Mycoplasma may cause it · Lung abscess is an important complication · Sputum is rusty in colour</div>
       <div class="ans">Consolidation <span class="tf">T</span> · Transplant recipients vulnerable <span class="ff">F</span> (per Arif key) · Mycoplasma <span class="tf">T</span> · Lung abscess <span class="tf">T</span> · Rusty sputum <span class="ff">F</span> (per Arif key) <span class="ref">(DU-14Ja)</span></div>
-    </details>
-    <details>
-      <summary>Associated with pneumonia: Streptococcal pneumonia · Lung abscess · E. coli · Septicaemia · Bronchial asthma</summary>
+    </div>
+    <div class="qcard">
+      </div>Associated with pneumonia: Streptococcal pneumonia · Lung abscess · E. coli · Septicaemia · Bronchial asthma</div>
       <div class="ans">Streptococcal pneumonia <span class="tf">T</span> · Lung abscess <span class="tf">T</span> · E. coli <span class="ff">F</span> · Septicaemia <span class="tf">T</span> · Bronchial asthma <span class="ff">F</span> <span class="ref">(RU-13Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ===================== SECTION 14: LUNG ABSCESS ===================== -->
   <h2 id="lungabscess">14 · Lung Abscess</h2>
 
-  <details>
-    <summary>🔴 Short note: Lung abscess — causes, organisms, morphology, clinical features, complications.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Lung abscess — causes, organisms, morphology, clinical features, complications.</div>
     <div class="ans">
       <p><strong>Lung abscess:</strong> A localised area of suppuration within the lung parenchyma that leads to parenchymal destruction, manifested radiologically as a <span class="hot">cavity with air-fluid level</span>. A local suppurative process that produces necrosis of lung tissue.</p>
       <h3>Causes:</h3>
@@ -869,13 +879,13 @@
       </ul>
       <p class="ref">Ref: Robbins 10e p.711; Harsh Mohan 7e p.457; Arif pp. 114–115</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== SECTION 15: PULMONARY TB ===================== -->
   <h2 id="tb">15 · Pulmonary Tuberculosis (TB)</h2>
 
-  <details>
-    <summary>🔴 What are the types of pulmonary TB? Describe the pathogenesis of primary and secondary TB.</summary>
+  <div class="qcard">
+    </div>🔴 What are the types of pulmonary TB? Describe the pathogenesis of primary and secondary TB.</div>
     <div class="ans">
       <p>🫁 Pulmonary TB is caused by <strong>Mycobacterium tuberculosis</strong>. It is a leading cause of infectious death worldwide.</p>
       <h3>Types:</h3>
@@ -905,10 +915,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 368–370; Arif pp. 116–117</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is primary tuberculosis? What is Ghon's focus and Ghon's complex? What are the fates of primary TB?</summary>
+  <div class="qcard">
+    </div>🔴 What is primary tuberculosis? What is Ghon's focus and Ghon's complex? What are the fates of primary TB?</div>
     <div class="ans">
       <p><strong>Primary tuberculosis:</strong> The form of disease that develops in a <span class="hot">previously unexposed and therefore unsensitised person</span>. About 5% develop clinically significant disease; 90–95% remain asymptomatic. Source of organism is exogenous.</p>
       <p><strong>Primary sites of TB:</strong> (1) Lungs (mainly), (2) Intestine, (3) Skin, (4) Oropharyngeal, (5) Lymphoidal.</p>
@@ -929,10 +939,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 369–371; Arif pp. 117–118</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is secondary TB? Mention the sites and differences between primary and secondary TB.</summary>
+  <div class="qcard">
+    </div>🔴 What is secondary TB? Mention the sites and differences between primary and secondary TB.</div>
     <div class="ans">
       <p><strong>Secondary tuberculosis:</strong> Develops in a <span class="hot">previously sensitised host</span>. May follow shortly after primary TB but more commonly arises from <strong>reactivation of dormant primary lesion</strong> months to years later (when host resistance is weakened). May also result from exogenous reinfection.</p>
       <p><strong>Sites of primary TB:</strong> sub-pleural region (lower part of upper lobe or upper part of lower lobe).</p>
@@ -950,10 +960,10 @@
       <p><strong>Sites where TB does NOT occur:</strong> skeletal muscle, cardiac muscle, thyroid gland.</p>
       <p class="ref">Ref: Robbins 10e pp. 370–371; Arif pp. 118–119</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Define miliary tuberculosis. Describe the pathology/morphology of pulmonary TB.</summary>
+  <div class="qcard">
+    </div>Define miliary tuberculosis. Describe the pathology/morphology of pulmonary TB.</div>
     <div class="ans">
       <p><strong>Miliary TB:</strong> Bacilli within macrophages spread to regional hilar lymph nodes → blood stream → distributes organisms to almost all parts of the body. Most prominent in liver, bone marrow, spleen, adrenals, meninges, kidneys, fallopian tubes &amp; epididymis — but can involve any organ. Occurs when body immunity fails to control primary infection.</p>
       <h3>Pathology / morphology of pulmonary TB:</h3>
@@ -981,10 +991,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 371, 373; Arif pp. 119–120</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the formation of TB granuloma (soft tubercle) — immunopathogenesis.</summary>
+  <div class="qcard">
+    </div>Describe the formation of TB granuloma (soft tubercle) — immunopathogenesis.</div>
     <div class="ans">
       <h3>Formation of tubercle / immunopathogenesis of TB granuloma:</h3>
       <ol>
@@ -1000,10 +1010,10 @@
       <p><strong>Morphology of tubercle (microscopic):</strong> Organised aggregation of activated macrophages = epithelioid cells (pale, pink, granular cytoplasm) → fuse to form giant cells (40–50 μm; Langhans-type or foreign-body type) → peripheral collar of fibroblasts, lymphocytes, macrophages → central caseous necrosis = soft tubercle.</p>
       <p class="ref">Ref: Robbins 10e pp. 100, 371; Arif pp. 120–121</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the clinical features of pulmonary TB and how to diagnose it.</summary>
+  <div class="qcard">
+    </div>Mention the clinical features of pulmonary TB and how to diagnose it.</div>
     <div class="ans">
       <h3>Clinical features of pulmonary TB:</h3>
       <ul>
@@ -1029,10 +1039,10 @@
       <p><strong>Staining:</strong> Ziehl-Neelsen (Z-N) stain. <strong>Culture:</strong> Lowenstein-Jensen (LJ) medium. <strong>Why early morning sample:</strong> secretions build up overnight → more bacilli.</p>
       <p class="ref">Ref: Robbins 10e p.371; Arif pp. 121–122</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Mantoux / tuberculin test.</summary>
+  <div class="qcard">
+    </div>Short note: Mantoux / tuberculin test.</div>
     <div class="ans">
       <p><strong>Mantoux (tuberculin) test:</strong> Detects <strong>delayed-type hypersensitivity (DTH)</strong> to M. tuberculosis antigens. No diagnostic value alone — indicates past or recent infection when positive. Becomes positive 2–4 weeks after infection.</p>
       <ul>
@@ -1060,10 +1070,10 @@
       </ul>
       <p class="ref">Ref: Robbins 10e p.371; Park 25e p.197; Arif pp. 122</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the chest X-ray findings of pulmonary TB.</summary>
+  <div class="qcard">
+    </div>Mention the chest X-ray findings of pulmonary TB.</div>
     <div class="ans">
       <h3>Chest X-ray findings of pulmonary TB:</h3>
       <ul>
@@ -1076,25 +1086,25 @@
       </ul>
       <p class="ref">Ref: Arif p. 122</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Tuberculosis</summary>
-    <details>
-      <summary>Features of tuberculosis: Granuloma formation · Caseation necrosis · Immune mediated inflammation · Type II hypersensitivity reaction · Dystrophic calcification</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Tuberculosis</div>
+    <div class="qcard">
+      </div>Features of tuberculosis: Granuloma formation · Caseation necrosis · Immune mediated inflammation · Type II hypersensitivity reaction · Dystrophic calcification</div>
       <div class="ans">Granuloma formation <span class="tf">T</span> · Caseation necrosis <span class="tf">T</span> · Immune mediated inflammation <span class="tf">T</span> · Type II hypersensitivity reaction <span class="ff">F</span> (TB is Type IV/DTH) · Dystrophic calcification <span class="ff">F</span> <span class="ref">(DU-19Nv)</span></div>
-    </details>
-    <details>
-      <summary>Common sites of tuberculous bacilli infection: Lymph node · Epididymis · Cardiac muscle · Thyroid gland · Pulmonary tissue</summary>
+    </div>
+    <div class="qcard">
+      </div>Common sites of tuberculous bacilli infection: Lymph node · Epididymis · Cardiac muscle · Thyroid gland · Pulmonary tissue</div>
       <div class="ans">Lymph node <span class="tf">T</span> · Epididymis <span class="ff">F</span> (per Arif key; genitourinary TB exists but marked F) · Cardiac muscle <span class="ff">F</span> · Thyroid gland <span class="ff">F</span> · Pulmonary tissue <span class="tf">T</span> <span class="ref">(RU-17M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ===================== SECTION 16: LUNG TUMOURS ===================== -->
   <h2 id="tumours">16 · Lung Tumours</h2>
 
-  <details>
-    <summary>🔴 Classify lung tumours (benign, malignant, tumour-like lesions).</summary>
+  <div class="qcard">
+    </div>🔴 Classify lung tumours (benign, malignant, tumour-like lesions).</div>
     <div class="ans">
       <h3>A. Benign:</h3>
       <ul>
@@ -1122,10 +1132,10 @@
       </ul>
       <p class="ref">Ref: Robbins 10e pp. 673, 715; Arif p. 124</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the WHO classification of bronchogenic carcinoma (histologic types).</summary>
+  <div class="qcard">
+    </div>🔴 Give the WHO classification of bronchogenic carcinoma (histologic types).</div>
     <div class="ans">
       <h3>WHO histologic classification of malignant epithelial lung tumours (bronchogenic carcinoma):</h3>
       <ol>
@@ -1143,10 +1153,10 @@
       </ul>
       <p class="ref">Ref: Robbins Basic Pathology 10e p.538; Arif pp. 124–125</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the characteristics of each histologic type of bronchogenic carcinoma (adenocarcinoma, squamous cell, small cell, large cell, carcinoid).</summary>
+  <div class="qcard">
+    </div>🔴 Describe the characteristics of each histologic type of bronchogenic carcinoma (adenocarcinoma, squamous cell, small cell, large cell, carcinoid).</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Location</th><th>Key characteristics</th></tr>
@@ -1159,10 +1169,10 @@
       </table>
       <p class="ref">Ref: Robbins 10e pp. 716–718; Arif pp. 125–126</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the risk factors / aetiopathogenesis of bronchogenic carcinoma?</summary>
+  <div class="qcard">
+    </div>🔴 What are the risk factors / aetiopathogenesis of bronchogenic carcinoma?</div>
     <div class="ans">
       <ol>
         <li><strong>Tobacco smoking (most important):</strong> 85–90% of lung cancers arise in smokers; risk proportional to duration and amount (pack years). Small cell and squamous cell are most common in smokers. Heavy smokers (2 packs/day × 20 years) = 60-fold greater risk. Cessation for 10 years reduces risk but never returns to non-smoker level.</li>
@@ -1175,10 +1185,10 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 716; BRS Pathology 5e p.216; Arif pp. 126–127</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the morphology of bronchogenic squamous cell carcinoma. Describe its pathogenesis.</summary>
+  <div class="qcard">
+    </div>🔴 Write down the morphology of bronchogenic squamous cell carcinoma. Describe its pathogenesis.</div>
     <div class="ans">
       <p><strong>Pathogenesis:</strong> Chronic smoking → chronic irritation of columnar ciliated epithelium → <strong>squamous metaplasia</strong> (columnar cells replaced by stratified squamous epithelium) → dysplasia → carcinoma in situ → invasive squamous cell carcinoma.</p>
       <h3>Morphology — Macroscopic:</h3>
@@ -1197,10 +1207,10 @@
       </ul>
       <p class="ref">Ref: Robbins 10e pp. 539, 718; Arif pp. 127–128</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the morphology of small cell carcinoma of lung. Why is it most dangerous?</summary>
+  <div class="qcard">
+    </div>🔴 Write down the morphology of small cell carcinoma of lung. Why is it most dangerous?</div>
     <div class="ans">
       <p><strong>Small cell carcinoma</strong> (formerly "oat cell" carcinoma): ~15% of all bronchogenic carcinoma.</p>
       <h3>Characteristics:</h3>
@@ -1234,10 +1244,10 @@
       <p><strong>Why most dangerous:</strong> (1) Most aggressive; (2) early wide-spread metastasis (mostly at diagnosis); (3) poor prognosis; (4) virtually incurable by surgery; (5) almost invariably fatal.</p>
       <p class="ref">Ref: Robbins 10e pp. 539–540, 718; Arif pp. 128–129</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Name 5 paraneoplastic syndromes related to bronchogenic carcinoma.</summary>
+  <div class="qcard">
+    </div>🔴 Name 5 paraneoplastic syndromes related to bronchogenic carcinoma.</div>
     <div class="ans">
       <h3>Non-metastatic extrapulmonary manifestations (paraneoplastic syndromes):</h3>
       <p><strong>1. Endocrine:</strong></p>
@@ -1268,10 +1278,10 @@
       </ul>
       <p class="ref">Ref: Robbins 10e pp. 543, 722; Davidson's 23e p.601; Arif pp. 129</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the clinical features and investigations for diagnosis of bronchogenic carcinoma?</summary>
+  <div class="qcard">
+    </div>🔴 What are the clinical features and investigations for diagnosis of bronchogenic carcinoma?</div>
     <div class="ans">
       <h3>Clinical features:</h3>
       <p><strong>Local symptoms:</strong> cough (most common early symptom), chest pain, dyspnoea, haemoptysis.</p>
@@ -1297,10 +1307,10 @@
       <p><strong>Prognosis:</strong> poor overall; 5-year survival 15%. Small cell = worst prognosis (surgical treatment ineffective though sensitive to chemo/radiotherapy).</p>
       <p class="ref">Ref: Davidson's 23e p.601; Robbins 10e pp. 721–722; Arif pp. 129–132</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Pancoast tumour.</summary>
+  <div class="qcard">
+    </div>Short note: Pancoast tumour.</div>
     <div class="ans">
       <p><strong>Pancoast tumour</strong> (pulmonary sulcus tumour / superior sulcus tumour): A tumour of the <span class="hot">pulmonary apex</span>. Most are non-small cell cancers. Typically spreads to nearby ribs and vertebrae.</p>
       <h3>Symptoms:</h3>
@@ -1311,33 +1321,33 @@
       </ol>
       <p class="ref">Ref: Robbins 10e pp. 540, 721; Arif p. 133</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Bronchogenic carcinoma &amp; Lung tumours</summary>
-    <details>
-      <summary>Bronchogenic carcinoma can secrete: ADH · Aldosterone · Beta-hCG · Calcitonin · ACTH</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Bronchogenic carcinoma &amp; Lung tumours</div>
+    <div class="qcard">
+      </div>Bronchogenic carcinoma can secrete: ADH · Aldosterone · Beta-hCG · Calcitonin · ACTH</div>
       <div class="ans">ADH <span class="tf">T</span> (SIADH) · Aldosterone <span class="ff">F</span> · Beta-hCG <span class="ff">F</span> · Calcitonin <span class="tf">T</span> (small cell) · ACTH <span class="tf">T</span> (Cushing) <span class="ref">(BUP-22Nv)</span></div>
-    </details>
-    <details>
-      <summary>Types of bronchogenic carcinoma: Squamous cell carcinoma · Transitional cell carcinoma · Adenocarcinoma · Small cell carcinoma · Large cell carcinoma</summary>
+    </div>
+    <div class="qcard">
+      </div>Types of bronchogenic carcinoma: Squamous cell carcinoma · Transitional cell carcinoma · Adenocarcinoma · Small cell carcinoma · Large cell carcinoma</div>
       <div class="ans">Squamous cell carcinoma <span class="tf">T</span> · Transitional cell carcinoma <span class="ff">F</span> · Adenocarcinoma <span class="tf">T</span> · Small cell carcinoma <span class="tf">T</span> · Large cell carcinoma <span class="tf">T</span> <span class="ref">(CMU-22M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Interstitial lung disease</summary>
-    <details>
-      <summary>Interstitial lung disease includes: Bronchiectasis · Sarcoidosis · Emphysema · Aspergillosis · Silicosis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Interstitial lung disease</div>
+    <div class="qcard">
+      </div>Interstitial lung disease includes: Bronchiectasis · Sarcoidosis · Emphysema · Aspergillosis · Silicosis</div>
       <div class="ans">Bronchiectasis <span class="ff">F</span> (it's obstructive) · Sarcoidosis <span class="tf">T</span> · Emphysema <span class="ff">F</span> (obstructive) · Aspergillosis <span class="tf">T</span> · Silicosis <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ===================== SECTION 17: PLEURAL DISEASES ===================== -->
   <h2 id="pleura">17 · Pleural Diseases</h2>
 
-  <details>
-    <summary>Define pleural effusion. Mention its types and causes. What is the most common cause?</summary>
+  <div class="qcard">
+    </div>Define pleural effusion. Mention its types and causes. What is the most common cause?</div>
     <div class="ans">
       <p><strong>Pleural effusion:</strong> Abnormal accumulation of fluid within the pleural space. Normal pleural fluid: 5–15 mL (serous, relatively acellular, clear fluid). Common manifestation of both primary and secondary pleural diseases — inflammatory or non-inflammatory.</p>
       <h3>Types and causes:</h3>
@@ -1359,10 +1369,10 @@
       <p><strong>Hydrothorax:</strong> non-inflammatory serous fluid collection. <strong>Haemothorax:</strong> blood in pleural cavity. <strong>Chylothorax:</strong> milky lymphatic fluid in pleural cavity. <strong>Empyema:</strong> pus in pleural space.</p>
       <p class="ref">Ref: Robbins 10e p.725; Arif pp. 133–135</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Pneumothorax. What are pleural tumours?</summary>
+  <div class="qcard">
+    </div>Short note: Pneumothorax. What are pleural tumours?</div>
     <div class="ans">
       <h3>Pneumothorax</h3>
       <p>Pneumothorax = air or gas in the pleural cavities. May be spontaneous, traumatic, or therapeutic.</p>
@@ -1385,13 +1395,13 @@
       <p><strong>(b) Secondary / metastatic:</strong> most frequently from lung and breast.</p>
       <p class="ref">Ref: Robbins 10e pp. 725–726; Arif pp. 135</p>
     </div>
-  </details>
+  </div>
 
   <!-- ===================== RAPID-FIRE ===================== -->
   <h2 id="rapid">🔁 Rapid-Fire True/False &amp; One-Liners (incl. folded Respiratory System MCQs from Ch 18)</h2>
 
-  <details class="rapid" open>
-    <summary>Respiratory System — True/False sweep + one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Respiratory System — True/False sweep + one-liners (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Complications of acute lobar pneumonia include: lung abscess (T), septicaemia (T), interstitial fibrosis (F), bronchogenic carcinoma (F), emphysema (F).</div>
@@ -1446,7 +1456,7 @@
       <div class="a">Hepatisation = <strong>liver-like consistency of the affected lobe on cut section</strong> · spontaneous pneumothorax in young adults = <strong>paraseptal (distal acinar) emphysema</strong> · Kartagener syndrome = <strong>bronchiectasis + situs inversus + sinusitis</strong> (primary ciliary dyskinesia — defect in dynein arms).</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

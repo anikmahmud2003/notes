@@ -9,8 +9,7 @@
 
 ## Personal Hygiene
 
-<details>
-<summary><b>Q. State personal hygiene. [RU-10J]<br>Q. Define hygiene. Enumerate the factors responsible for personal hygiene.</b></summary>
+### Q. State personal hygiene. [RU-10J]<br>Q. Define hygiene. Enumerate the factors responsible for personal hygiene.
 
 wer
 Hygiene:
@@ -36,10 +35,8 @@ viii) Clothing
 3. Dental care.
 4, Marriage and sex education.
 [Ref- Rashid, Khabir, Hyder 15" / 526-528]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by health habit?</b></summary>
+### Q. What do you mean by health habit?
 
 One importan'
 and healthy with regard to eating and drinking, rest and sleep, exercise, recreation,
@@ -47,10 +44,8 @@ evacuation of bowels etc.
 t factor in healthful living is the promotion of good health habit. Habits should be regular
 cleanliness, clothing,
 [Ref- Rashid, Khabir, Hyder 15" /526]
-</details>
 
-<details>
-<summary><b>Q. You are visiting a girls’ school attending students of class-VII. What factors you will consider</b></summary>
+### Q. You are visiting a girls’ school attending students of class-VII. What factors you will consider
 
 for their personal hygiene?
 Factors to be considered for their personal hygiene;
@@ -72,10 +67,8 @@ Clothing.
 12) Recreation.
 13) Marriage and sex education.
 [Ref- Park /24" / 824 + Rashid, Khabir, Hyder / 5" /526— 528]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Oro-dental care.</b></summary>
+### Q. Write short note on: Oro-dental care.
 
 **Oro-dental care:**
 1)
@@ -109,10 +102,8 @@ Sample & Sampling... a |
 Central tendency... 7 | |
 a oo 2 eee siadlioenioteeaamnans
 Health information
-</details>
 
-<details>
-<summary><b>Q. State health information system. [RU-08Ju]<br>Q. What are the components of health information system?<br>Q. Enumerate the sources of health information in Bangladesh. [RU-08Ju]</b></summary>
+### Q. State health information system. [RU-08Ju]<br>Q. What are the components of health information system?<br>Q. Enumerate the sources of health information in Bangladesh. [RU-08Ju]
 
 **Health information system:**
 Health information system is defined as “a mechanism for the collection, processing, analysis and
@@ -138,10 +129,8 @@ and efficacy.
 [Ref- Park / 24" / 876]
 stics
 Statistics & Biostati
-</details>
 
-<details>
-<summary><b>Q. Define statistics. Describe in brief the function and use of statistics.</b></summary>
+### Q. Define statistics. Describe in brief the function and use of statistics.
 
 **Statistics:**
 According to Croxton and Cowden, statistics may be defined as “the science of collection, presentation,
@@ -159,10 +148,8 @@ Providing information support to planning, management, monitoring and evaluation
 service programmes.
 [Ref- Higher secondary statistics book / A.K. Azad + Rashid, Khabir, Hyder / 5" / 110]
 CREA DAWAwH
-</details>
 
-<details>
-<summary><b>Q. Define bio-statistics.<br>Q. State the uses of bio-statistics. [DU-16N]</b></summary>
+### Q. Define bio-statistics.<br>Q. State the uses of bio-statistics. [DU-16N]
 
 **Bio-statistics:**
 Bio-statistics is that branch of statistics concerned with mathematical facts and data relating to
@@ -178,10 +165,8 @@ chance occurrence,
 community.
 6) To evaluate the achievements of public health programs.
 7) To fix priorities in public health programs.
-</details>
 
-<details>
-<summary><b>Q. State the major events of vital statistics. [DU-13J]<br>Q. Write short note on: Vital statistics.</b></summary>
+### Q. State the major events of vital statistics. [DU-13J]<br>Q. Write short note on: Vital statistics.
 
 **Vital statistics:**
 [Ref- Gupta /3™ /371]
@@ -205,10 +190,8 @@ Uses of vital statistics:
 3) To determine priorities, planning and evaluation of health programmes.
 4) To promote health legislation.
 5) For research purposes.
-</details>
 
-<details>
-<summary><b>Q. Mention the sources of demographic data. [RU-18N]<br>Q. What are the sources of vital statistics?</b></summary>
+### Q. Mention the sources of demographic data. [RU-18N]<br>Q. What are the sources of vital statistics?
 
 **Sources of demographic / vital statistics:**
 1) The census.
@@ -217,5 +200,4 @@ Uses of vital statistics:
 4) Notification of infectious diseases.
 5) Hospital records.
 6) Diseases register.
-</details>
 

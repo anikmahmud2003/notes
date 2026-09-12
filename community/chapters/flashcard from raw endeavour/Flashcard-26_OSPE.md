@@ -9,8 +9,7 @@
 
 ## Models & specimens
 
-<details>
-<summary><b>1. Identify the supplied specimen / model.</b></summary>
+### 1. Identify the supplied specimen / model.
 
 2. Give its identifying features.
 3. Write down its public health importance.
@@ -86,10 +85,8 @@ Public health importance:
 a vector for filarial parasites and for virus causing encephalitis.
 7 4
 House fly
-</details>
 
-<details>
-<summary><b>Q. Identify the model. Mention the points in favour of its identification. What are the diseases</b></summary>
+### Q. Identify the model. Mention the points in favour of its identification. What are the diseases
 
 transmitted by it?
 Identification:
@@ -126,10 +123,8 @@ e
 eggs will develop into larva which suck blood (haematophagus).
 Diseases like pediculosis, typhus, relapsing fever etc. are transmitted by louse.
 Itch mite
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention the different stages of life cycle of it. Mention the sites of</b></summary>
+### Q. Identify the specimen. Mention the different stages of life cycle of it. Mention the sites of
 
 lesion caused by it.
 Identification:
@@ -209,10 +204,8 @@ ig methods of contraception.
 - Used for women who have at least one living child.
 - Itis effective for 3—5 years.
 - Repeated or continuous motivation is not required,
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention the points in favour of its identification. Who are the ideal</b></summary>
+### Q. Identify the specimen. Mention the points in favour of its identification. Who are the ideal
 
 candidates fro its insertion? What are its complications?
 Identification: ‘
@@ -260,10 +253,8 @@ endemically in a community.
 - It must be kept under control by early diagnosis and treatment.
 Isolation of the patient with chicken pox for 2-3 weeks prevents spread to others in the
 community.
-</details>
 
-<details>
-<summary><b>Q. Identify the model. Mention it’s complications.</b></summary>
+### Q. Identify the model. Mention it’s complications.
 
 **Identification:**
 This is a model of human trunk and face showing the rashes of chicken pox.
@@ -304,10 +295,8 @@ endemic in nature.
 - Further spread can be prevented by early diagnosis and treatment of cases.
 - Measles vaccine is included in EPI schedule, which is given at completion of 9 months of age.
 It protects the child from measles.
-</details>
 
-<details>
-<summary><b>Q. Identify the model. Mention it’s complications.</b></summary>
+### Q. Identify the model. Mention it’s complications.
 
 **Identification:**
 This is a model of human trunk and face showing the rashes of measles.
@@ -332,10 +321,8 @@ e = Itis used in no sign and some sign of dehydration.
 - The aim of fluid replacement is to maintain the circulation by giving water and electrolytes.
 © Considerable number of lives can be saved by using the ORS in Bangladesh when the people
 suffer from diarrhoeal disease.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Write down its contents with amounts.</b></summary>
+### Q. Identify the specimen. Write down its contents with amounts.
 
 **Identification:**
 This is a packet containing ORS (oral rehydration salt).
@@ -351,10 +338,8 @@ Public health importance:
 - It is cheap and available everywhere.
 - Non-contraceptive benefits are — prevention of STDs, AIDS & PID, can be used as glove for
 per-rectal examination, used as urinary drainage in incontinence etc.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention its advantages, disadvantages, complications and contraindications.</b></summary>
+### Q. Identify the specimen. Mention its advantages, disadvantages, complications and contraindications.
 
 **Identification:** Condom.
 Advantages:
@@ -390,10 +375,8 @@ Public health importance:
 - Non-contraceptive benefits are — it is used in menstrual irregularity, fibroadenoma of breast,
 dysmenorthoea etc.
 - It is cheap and available.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Write down its mechanism of action. Mention its complications.</b></summary>
+### Q. Identify the specimen. Write down its mechanism of action. Mention its complications.
 
 **Identification:**
 Oral contraceptive pill (OCP).
@@ -438,10 +421,8 @@ ii) Weight gain.
 iii) Headache & migraine.
 iv) Bleeding disturbance.
 Slow sand filter
-</details>
 
-<details>
-<summary><b>Q. Identify the model. What are the components of slow sand filter? Write down the function of</b></summary>
+### Q. Identify the model. What are the components of slow sand filter? Write down the function of
 
 vital layer.
 Identification:
@@ -457,10 +438,8 @@ Functions of vital layer:
 (iii) It oxidizes ammoniacal nitrogen into nitrates.
 (iv) It helps in yielding a bacteria free water.
 MR syringe
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. What are its complications?</b></summary>
+### Q. Identify the specimen. What are its complications?
 
 **Identification:**
 MR syringe.
@@ -475,10 +454,8 @@ e = Infertility
 - Menstrual disorder
 - Increased incidence of ectopic pregnancy
 e = Rh-immunization
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Write down the differences between MR and abortion,</b></summary>
+### Q. Identify the specimen. Write down the differences between MR and abortion,
 
 **Identification:**
 MR syringe.
@@ -489,10 +466,8 @@ Traits |. Raia per Ona
 2) Legal restrictions Lack of legal restrictions. There is certain legal restrictions.
 It is safer than abortion. It is less safer.
 Growth chart
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. What information can you get about a child?</b></summary>
+### Q. Identify the specimen. What information can you get about a child?
 
 **Identification:**
 Growth chart.
@@ -506,10 +481,8 @@ Information about a child:
 7) Episodes of sickness.
 8) Reasons for special care.
 Vitamin-A capsule
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention its doses to treat a case of night blindness.</b></summary>
+### Q. Identify the specimen. Mention its doses to treat a case of night blindness.
 
 **Identification:**
 Vitamin A capsule.
@@ -520,10 +493,8 @@ Dose to treat a case of night blindness:
 2,00,000 IU
 = ANNA imma
 Vaccines
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Name the diseases that can be prevented by it along with dose</b></summary>
+### Q. Identify the specimen. Name the diseases that can be prevented by it along with dose
 
 schedule.
 Oral polio vaccine (OPV)
@@ -560,10 +531,8 @@ Dose schedule: 3 doses: at 6th week, 10th week, 14th week,
 Amount: 0.5ml.
 Site: Upper & outer part of thigh.
 Vaccine related other questions
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. How can you tell whether the vaccine is potent or not? Write down its</b></summary>
+### Q. Identify the specimen. How can you tell whether the vaccine is potent or not? Write down its
 
 dose schedule.
 Specimen: Any vaccine.
@@ -572,10 +541,8 @@ Potency of a vaccine is understood by:
 2. Expiry date.
 Dose schedule:
 Please see above.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. At what temperature it is stored? Write down it’s dose schedule in case</b></summary>
+### Q. Identify the specimen. At what temperature it is stored? Write down it’s dose schedule in case
 
 of a female of reproductive age.
 Specimen:
@@ -584,20 +551,16 @@ Stores at the temperature: +2 to +8 degree Celsius.
 TT vaccination schedule for women of reproductive age:
 Minimum interval between doses.
 1 year after TT-4
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Write down it’s dose schedule. Which other vaccine should be given</b></summary>
+### Q. Identify the specimen. Write down it’s dose schedule. Which other vaccine should be given
 
 with the vaccine?
 This is a vial containing measles vaccine.
 Dose schedule:
 Just after completion of 9 months of age.
 Other vaccines and vitamins given with it: OPV, Vitamin-A.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention its uses.</b></summary>
+### Q. Identify the specimen. Mention its uses.
 
 **Specimen:**
 Disposable syringe.
@@ -605,18 +568,14 @@ Uses:
 © Used for giving injection.
 © Prevent transmission of blood bome diseases.
 Ensures one time use of the syringe.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention its uses.</b></summary>
+### Q. Identify the specimen. Mention its uses.
 
 **Specimen:**
 Test tube.
 Use: Used for blood collection and performing various biochemical changes.
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Mention its uses.</b></summary>
+### Q. Identify the specimen. Mention its uses.
 
 **Specimen:**
 Vaccine carrier.
@@ -624,10 +583,8 @@ Uses: “ 2
 © Carry vaccine to vaccination site.
 - Temperature is maintained.
 Epidemiology, statistics & demography
-</details>
 
-<details>
-<summary><b>Q. Define epidemic. What are the types of epidemic? Draw and label a point source epidemic</b></summary>
+### Q. Define epidemic. What are the types of epidemic? Draw and label a point source epidemic
 
 curve of food poisoning. What are its features?
 Epidemic: .
@@ -644,10 +601,8 @@ Sharp rise and sharp fall.
 Explore in nature.
 Same incubation period.
 Has a common point of exposure,
-</details>
 
-<details>
-<summary><b>Q. What is sample? Name the different sampling techniques.</b></summary>
+### Q. What is sample? Name the different sampling techniques.
 
 **Sample:**
 It is the representative part of population selected for the study of whole population.
@@ -662,10 +617,8 @@ Sampling techniques:
 1) Purposive / convenience
 2) Quota
 3) Accidental
-</details>
 
-<details>
-<summary><b>Q. What are the measures of dispersion? Calculate the range from the following data —</b></summary>
+### Q. What are the measures of dispersion? Calculate the range from the following data —
 
 68, 80, 60, 90, 80, 72.
 Measures of dispersion:
@@ -676,10 +629,8 @@ Calculation of range:
 Range = Highest value — Lowest value
 =90-60
 = 30
-</details>
 
-<details>
-<summary><b>Q. What are the measures of central tendency? Find out the mean, median, mode of the</b></summary>
+### Q. What are the measures of central tendency? Find out the mean, median, mode of the
 
 observation — 3, 2, 8, 4, 3, 5, 3.
 Measures of central tendency:
@@ -696,10 +647,8 @@ In case of odd number (because here total number is 7) median = (n + 1)/2th valu
 =3
 Mode: Most frequent value = 3.
 AAAAAARRANTRAUAN : “o“U NNNNANAAAN EEE REN
-</details>
 
-<details>
-<summary><b>Q. Define MMR. Mention the important causes of maternal mortality. Calculate MMR from the</b></summary>
+### Q. Define MMR. Mention the important causes of maternal mortality. Calculate MMR from the
 
 **following data of an Upazilla in a given year:**
 - =Total population — 2,00,000
@@ -719,10 +668,8 @@ Total number of live births
 =—_—_——— x 1000
 10,000
 = 3 per 1,000 live births.
-</details>
 
-<details>
-<summary><b>Q. Give the stages of demographic cycle.<br>Q. Draw and label a population (age-sex) pyramid of developing country. Give its important</b></summary>
+### Q. Give the stages of demographic cycle.<br>Q. Draw and label a population (age-sex) pyramid of developing country. Give its important
 
 characteristic points.
 Stages of demographic cycle:
@@ -744,10 +691,8 @@ Characteristics of age-sex pyramid of developing countries:
 ees a Aa Aa eee eee eee ee bee Pee eee tl TR
 sittin
 3 SS ee
-</details>
 
-<details>
-<summary><b>Q. What are the methods of presenting data?<br>Q. Draw a simple bar diagram showing the signs of dehydration among the patients attending</b></summary>
+### Q. What are the methods of presenting data?<br>Q. Draw a simple bar diagram showing the signs of dehydration among the patients attending
 
 the ORT corner of SK hospital.
 - No sign of dehydration ----- 120
@@ -768,10 +713,8 @@ b) Diagrams:
   - Pictogram
 No sign Some sign Severe sign
 Figure: Simple bar chart showing the number of patients with dehydration.
-</details>
 
-<details>
-<summary><b>Q. According to BBS/2003, CBR of Bangladesh was 25/1000 population, CDR was 5/1000</b></summary>
+### Q. According to BBS/2003, CBR of Bangladesh was 25/1000 population, CDR was 5/1000
 
 population and total population was 125 million. Calculate the —
 a) Growth rate of population & what are its rating?
@@ -786,10 +729,8 @@ Rating: Very rapid growth.
 Doubling time:
 = 70/Growth rate = 70/2 = 35 years.
 ARAVA - saeaaaeainaenccnais ,
-</details>
 
-<details>
-<summary><b>Q. Name the demographic processes.<br>Q. Draw and label the population (age-sex) pyramid of developed country. Give its important</b></summary>
+### Q. Name the demographic processes.<br>Q. Draw and label the population (age-sex) pyramid of developed country. Give its important
 
 characteristics. 5
 Demographic processes:
@@ -813,10 +754,8 @@ Percentage
 Characteristics of age-sex pyramid of developing countries:
 - Narrow base and apex
 - Bulged in the middle
-</details>
 
-<details>
-<summary><b>Q. What are the measurements of morbidity?<br>Q. What is incidence rate? Calculate the incidence rate from the following data of a village ina</b></summary>
+### Q. What are the measurements of morbidity?<br>Q. What is incidence rate? Calculate the incidence rate from the following data of a village ina
 
 **given year:**
 Mid-year population — 5000
@@ -838,10 +777,8 @@ Population at risk during that period
 =————— x 1,000
 = 10/ thousand / year.
 r. Calculate the
-</details>
 
-<details>
-<summary><b>Q. There are 500 new cases of a disease in a population of 30,000 in a yea</b></summary>
+### Q. There are 500 new cases of a disease in a population of 30,000 in a yea
 
 incidence rate.
 Number of new cases of specific disease during a given time period
@@ -851,17 +788,13 @@ Population at risk during that period
 =—____—_ x 1,000
 30,000
 = 16,67 / thousand / year.
-</details>
 
-<details>
-<summary><b>Q. What is prevalence rate?<br>Q. Calculate the prevalence rate from the following data of a village in a given year:</b></summary>
+### Q. What is prevalence rate?<br>Q. Calculate the prevalence rate from the following data of a village in a given year:
 
 Total number of the population — 50,000
 Total number of the leprosy cases (old + new) — 50
-</details>
 
-<details>
-<summary><b>Q. What is the relationship between incidence rate and prevalence rate?</b></summary>
+### Q. What is the relationship between incidence rate and prevalence rate?
 
 **Prevalence rate:**
 Total number of current cases (old & new) of a disease in an area in defined population at a point of or
@@ -877,10 +810,8 @@ Population at risk during that period
 = 0.1%
 Relation between IR and PR:
 P=Ixd
-</details>
 
-<details>
-<summary><b>Q. What do you mean by disease cycle? Draw and label the stages of a disease cycle.<br>Q. Give the importance of incubation period.</b></summary>
+### Q. What do you mean by disease cycle? Draw and label the stages of a disease cycle.<br>Q. Give the importance of incubation period.
 
 **Disease cycle:** These are stages through which most of the communicable diseases pass.
 Stages of diseases cycle:
@@ -903,10 +834,8 @@ Tracing the source of infection
 Period of surveillance
 Immunization
 Prognosis of a disease
-</details>
 
-<details>
-<summary><b>Q. Draw and label the iceberg phenomenon of disease. Give its importance.</b></summary>
+### Q. Draw and label the iceberg phenomenon of disease. Give its importance.
 
 Symptomatic
 disease
@@ -921,10 +850,8 @@ Importance of iceberg phenomenon of disease:
 diagnosed cases in the
 - Hidden portion of the iceberg represents subclinical or inapparent or un
 community and is the continuous source of spread of a disease.
-</details>
 
-<details>
-<summary><b>Q. Write down the differences between street virus & fixed virus.<br>Q. Name five zoonotic diseases.</b></summary>
+### Q. Write down the differences between street virus & fixed virus.<br>Q. Name five zoonotic diseases.
 
 **Differences between street virus and fixed virus:**
 Serial brain-to-brain passage of
@@ -945,10 +872,8 @@ rabies vaccine. vaccine.
 4) Leishmaniasis
 5) Hydatid cyst
 EE LS Sy ere ee ee a a ee eee
-</details>
 
-<details>
-<summary><b>Q. Define data. Classify data, What are the methods of data collection?</b></summary>
+### Q. Define data. Classify data, What are the methods of data collection?
 
 **ata:** ; <i F
 A set of values obtained through observations (measurement of careful collected information) is called
@@ -971,10 +896,8 @@ Methods of data collection:
 - Asking question / interviewing
 - Documented review
 © Questionnaire
-</details>
 
-<details>
-<summary><b>Q. Define IMR. Mention the important causes of IMR.<br>Q. Calculate the IMR from the following information — number of infant death in a year is 28,</b></summary>
+### Q. Define IMR. Mention the important causes of IMR.<br>Q. Calculate the IMR from the following information — number of infant death in a year is 28,
 
 total number of live birth in that year is 500 and total population is 20,000.
 IMR:
@@ -1019,10 +942,8 @@ Mid-year female population of reproductive age group
 x 1000
 3,00,000
 = 15 per thousand live birth.
-</details>
 
-<details>
-<summary><b>Q. What is relative risk (RR)? What do you mean by RR=2?</b></summary>
+### Q. What is relative risk (RR)? What do you mean by RR=2?
 
 **Relative risk (RR) / Risk ratio:**
 This is the ration between the incidence of a disea:
@@ -1039,10 +960,8 @@ NG
 696 —- ENDEAVOUR C. OMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
 Nutritive values x
 Potato
-</details>
 
-<details>
-<summary><b>Q. Give the nutritive value of potato (100 gm).<br>Q. Give the energy value of 1 gm carbohydrate.</b></summary>
+### Q. Give the nutritive value of potato (100 gm).<br>Q. Give the energy value of 1 gm carbohydrate.
 
 **Nutritive value of potato (100 gm):**
 Protein = 1.6 gm
@@ -1053,10 +972,8 @@ Energy = 97 Kcal
 Energy value of 1 gm CHO:
 4 Keal.
 Egg
-</details>
 
-<details>
-<summary><b>Q. Give the nutritive value of an egg (60 gm)<br>Q. Give the energy value of 1 gm fat.<br>Q. Which nutrients are absent in egg?</b></summary>
+### Q. Give the nutritive value of an egg (60 gm)<br>Q. Give the energy value of 1 gm fat.<br>Q. Which nutrients are absent in egg?
 
 **Nutritive value of an egg (60 gm):**
 Protein = 6 gm
@@ -1069,10 +986,8 @@ Energy value of 1 gm CHO:
 Nutrient absent in egg:
 Carbohydrate and vitamin-C.
 Pulse
-</details>
 
-<details>
-<summary><b>Q. Give the nutritive value of pulse (100 gm).<br>Q. Give the energy value of 1 gm protein.<br>Q. Give RDA of protein.</b></summary>
+### Q. Give the nutritive value of pulse (100 gm).<br>Q. Give the energy value of 1 gm protein.<br>Q. Give RDA of protein.
 
 **Nutritive value of pulse (100 gm):**
 Thiamin
@@ -1086,10 +1001,8 @@ Energy value of rotein (1 gm):
 Daily requirement:
 1 gm/kg/day.
 Rice
-</details>
 
-<details>
-<summary><b>Q. Give the nutritive value of rice (100 gm).<br>Q. Give the energy value of 1 gm carbohydrate (CHO),</b></summary>
+### Q. Give the nutritive value of rice (100 gm).<br>Q. Give the energy value of 1 gm carbohydrate (CHO),
 
 **Nutritive value of rice (100 gm):**
 Carbohydrate
@@ -1106,10 +1019,8 @@ Energ
 Energy value of CHO (1 gm):
 4 Kcal.
 Lemon / orange
-</details>
 
-<details>
-<summary><b>Q. What does the specimen contains? What are the functions of this vitamin? What are its</b></summary>
+### Q. What does the specimen contains? What are the functions of this vitamin? What are its
 
 deficiency disorders?
 Content:
@@ -1121,10 +1032,8 @@ Functions of vitamin-C:
 Deficiency disorder:
 Scurvy.
 Carrot
-</details>
 
-<details>
-<summary><b>Q. What does the specimen contains? What are the functions of this vitamin? What are its</b></summary>
+### Q. What does the specimen contains? What are the functions of this vitamin? What are its
 
 deficiency disorders?
 Content:
@@ -1140,10 +1049,8 @@ Deficiency disorder:
 - Xerophthalmia
 - Keratomalacia
 Oil
-</details>
 
-<details>
-<summary><b>Q. Identify the specimen. Write down its fatty acid content. Write down some fat related</b></summary>
+### Q. Identify the specimen. Write down its fatty acid content. Write down some fat related
 
 diseases.
 Identification:
@@ -2411,5 +2318,4 @@ Endeavour" The most popular & timely medical series in Bangladesh
 | Sole distributor New Bengal Library, Dhaka.
 Ph
 one; 01741134012, 01552340493
-</details>
 

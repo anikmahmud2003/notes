@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What do mean by reproductive health. Mention the component of reproductive health. (S1,Q6)</b></summary>
+### Q1. What do mean by reproductive health. Mention the component of reproductive health. (S1,Q6)
 
 ### Reproductive health
 > 🔴 **Reproductive health** means that people are able to have a **responsible, satisfying and safe sex life** and that they have the capability to reproduce and the freedom to decide **if, when and how often** to do so; and that men and women have the right to be informed of and have access to **safe, effective, affordable and acceptable** methods of family planning of their choice.
@@ -26,10 +25,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Why mother and child are considered as single unit? (S2,Q6)</b></summary>
+### Q2. Why mother and child are considered as single unit? (S2,Q6)
 
 ### Mother and child — one unit (reasons)
 1. During the **antenatal period the fetus is a part of the mother**.
@@ -46,10 +43,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are the stages of maternity cycle. Define MMR and mention the common causes of maternal death in Bangladesh? (S3,Q6)</b></summary>
+### Q3. What are the stages of maternity cycle. Define MMR and mention the common causes of maternal death in Bangladesh? (S3,Q6)
 
 ### Maternity cycle — definition
 > 🔴 **Maternity cycle** = the period extending from **fertilization of the ovum to the end of the postnatal period.**
@@ -88,10 +83,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are the common MCH problems in Bangladesh. Mention the common risk factors among the pregnant women in Bangladesh? (S4,Q6)</b></summary>
+### Q4. What are the common MCH problems in Bangladesh. Mention the common risk factors among the pregnant women in Bangladesh? (S4,Q6)
 
 ### Common MCH problems in Bangladesh (developing countries)
 1. **Malnutrition** — maternal depletion, anaemia of mother, toxaemias of pregnancy, postpartum haemorrhage, **LBW of the child.**
@@ -115,10 +108,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. What is antenatal care. List its objective. (S5,Q4)</b></summary>
+### Q5. What is antenatal care. List its objective. (S5,Q4)
 
 ### Antenatal period & antenatal care
 > 🔴 **Antenatal period** = the period from **fertilization of the ovum to the delivery of the fetus.**
@@ -140,10 +131,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is the standard and minimum number of ANC visits required during pregnancy. (S6,Q5)</b></summary>
+### Q6. What is the standard and minimum number of ANC visits required during pregnancy. (S6,Q5)
 
 ### Antenatal visits (contacts between patient & doctor, after registration of the mother)
 > 🔴 **Minimum visits — 3:**
@@ -162,10 +151,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What aspect of pregnant woman are recorded in first ANC visit? (S7,Q6)</b></summary>
+### Q7. What aspect of pregnant woman are recorded in first ANC visit? (S7,Q6)
 
 ### First antenatal visit — what is recorded / done
 **1) Registration** of the pregnant woman.
@@ -191,10 +178,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Tell us the antenatal advices to the pregnant mother? (S9,Q4)</b></summary>
+### Q8. Tell us the antenatal advices to the pregnant mother? (S9,Q4)
 
 ### Prenatal (antenatal) advice to the pregnant mother
 1. **Diet:** nutritious balanced diet with extra protein, iron, folic acid, calcium & vitamins; low salt; proper fetal nutrition.
@@ -214,10 +199,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Tell the warning signs/symptoms during pregnancy. (S10,Q4)</b></summary>
+### Q9. Tell the warning signs/symptoms during pregnancy. (S10,Q4)
 
 ### Warning signs during pregnancy (mother must report immediately)
 1. **Swelling of the feet.**
@@ -235,10 +218,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Who are the high risk pregnant mothers? (S11,Q5)</b></summary>
+### Q10. Who are the high risk pregnant mothers? (S11,Q5)
 
 ### High-risk pregnancy (high-risk mother)
 > 🔴 A pregnancy that is **complicated by a factor or factors that adversely affect the pregnancy outcome** (maternal or perinatal or both) is a **high-risk pregnancy.**
@@ -265,10 +246,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Who are high risk babies. (S12,Q5)</b></summary>
+### Q11. Who are high risk babies. (S12,Q5)
 
 ### Criteria of high-risk ("at-risk") babies
 1. **Birth weight less than 2.5 kg (LBW).**
@@ -286,10 +265,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What are the aims and importance of intranatal care. (S13,Q5)</b></summary>
+### Q12. What are the aims and importance of intranatal care. (S13,Q5)
 
 ### Intranatal period & intranatal care
 > 🔴 **Intranatal period** = the period from **onset of true labour pains up to the expulsion of the placenta.**
@@ -310,10 +287,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. What are the advantages and disadvantages of (domiciliary) home delivery? (S14,Q5)</b></summary>
+### Q13. What are the advantages and disadvantages of (domiciliary) home delivery? (S14,Q5)
 
 ### Domiciliary midwifery service (home delivery)
 > Mothers with a **normal obstetric history** may be advised to have confinement at home if the **home conditions are satisfactory**; delivery conducted by a **Health Worker-Female / trained dai** — this is "domiciliary midwifery service".
@@ -337,10 +312,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Mention the post natal complications and their prevention. (S15,Q6)</b></summary>
+### Q14. Mention the post natal complications and their prevention. (S15,Q6)
 
 ### Postnatal period
 > 🔴 **Postnatal (puerperal) period** = the period after expulsion of the placenta up to **6 weeks (42 days).**
@@ -364,10 +337,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. What are the advantages of breast feeding. Mention the difficult situations of a mother for breast feeding. (S16,Q5)</b></summary>
+### Q15. What are the advantages of breast feeding. Mention the difficult situations of a mother for breast feeding. (S16,Q5)
 
 ### Advantages of breast feeding
 **To the baby:**
@@ -396,10 +367,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Define and classify low birth weight babies. How low birth weight can be prevented in a community? (S17,Q5)</b></summary>
+### Q16. Define and classify low birth weight babies. How low birth weight can be prevented in a community? (S17,Q5)
 
 ### Low birth weight (LBW)
 > 🔴 **LBW baby** = birth weight of **less than 2.5 kg (up to and including 2499 gm)**, measured preferably within the 1st hour of life before significant postnatal weight loss.
@@ -434,10 +403,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. What do you mean by baby friendly hospital/ward? (S17,Q6)</b></summary>
+### Q17. What do you mean by baby friendly hospital/ward? (S17,Q6)
 
 ### Baby-friendly hospital initiative
 > 🔴 In 1993 **UNICEF & WHO launched the Baby-Friendly Hospital Initiative** to promote, protect and support **breast feeding** in hospitals & maternity centres. A hospital that fulfills the WHO/UNICEF **"10 steps"** and protects breast feeding becomes **baby-friendly.**
@@ -460,10 +427,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. Give the duration of antenatal, intranatal and post natal period. (S18,Q6)</b></summary>
+### Q18. Give the duration of antenatal, intranatal and post natal period. (S18,Q6)
 
 | Period | Duration |
 |---|---|
@@ -477,10 +442,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. Enumerate the objectives of post natal care? (S19,Q3)</b></summary>
+### Q19. Enumerate the objectives of post natal care? (S19,Q3)
 
 ### Objectives of postnatal care
 1. To **prevent complications** of the postnatal period.
@@ -495,10 +458,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. Tell us the common complications of post natal period? (S20,Q5)</b></summary>
+### Q20. Tell us the common complications of post natal period? (S20,Q5)
 
 *(Same as Q14 — puerperal sepsis, thrombophlebitis, secondary haemorrhage, UTI, mastitis + prevention.)*
 
@@ -506,10 +467,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. What is milk injury? Define exclusive breast feeding and weaning. (S21,Q5)</b></summary>
+### Q21. What is milk injury? Define exclusive breast feeding and weaning. (S21,Q5)
 
 ### Milk injury
 > 🔴 If a baby is fed **only with milk over a long period** (e.g., up to 2 years) without giving any supplementary food, the baby becomes **flabby and oedematous due to protein deficiency** and **anaemic due to iron deficiency** — this is called **milk injury.**
@@ -526,10 +485,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. Define growth and development. What information we gather from growth chart. (S22,Q6)</b></summary>
+### Q22. Define growth and development. What information we gather from growth chart. (S22,Q6)
 
 ### Growth & development
 > 🔴 **Growth** = increase in the **size or mass of tissue** — an increase in the physical size of the body (quantity).
@@ -551,10 +508,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. What are indicators of MCH care. (S23,Q5)</b></summary>
+### Q23. What are indicators of MCH care. (S23,Q5)
 
 ### Indicators of MCH care
 1. **Maternal mortality rate (MMR).**
@@ -574,10 +529,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q24. What do you mean by maternal mortality rate. List the common causes of maternal death in Bangladesh. Give the difficult situation in mother for breast feesing. (S24,Q5)</b></summary>
+### Q24. What do you mean by maternal mortality rate. List the common causes of maternal death in Bangladesh. Give the difficult situation in mother for breast feesing. (S24,Q5)
 
 *(See Q3 for MMR + causes; Q15 for difficult situations of breast feeding.)*
 
@@ -585,10 +538,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q25. What do you mean by exclusive breast feeding and weaning. Mention some weaning food. (S25,Q5)</b></summary>
+### Q25. What do you mean by exclusive breast feeding and weaning. Mention some weaning food. (S25,Q5)
 
 ### Exclusive breast feeding & weaning
 *(See Q21.)*
@@ -609,10 +560,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q26. What do you mean by LBW. Mention the types &amp; causes of LBW? (S26,Q6)</b></summary>
+### Q26. What do you mean by LBW. Mention the types &amp; causes of LBW? (S26,Q6)
 
 *(See Q16.)*
 
@@ -620,10 +569,8 @@ MMR =                                                                    × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q27. Define IMR. Enumerate the causes of infant death in Bangladesh. How LBW can be prevented in a community. (S27,Q6)</b></summary>
+### Q27. Define IMR. Enumerate the causes of infant death in Bangladesh. How LBW can be prevented in a community. (S27,Q6)
 
 ### Infant mortality & IMR
 > 🔴 **Infant mortality** = the mortality of live-born children who die **before reaching their first birthday** (before 1 year of age).
@@ -655,10 +602,8 @@ IMR =                                                         × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q28. Why breast milk is superior to cow's milk for human baby. Why mewborn babies are cared immediately? (S28,Q6)</b></summary>
+### Q28. Why breast milk is superior to cow's milk for human baby. Why mewborn babies are cared immediately? (S28,Q6)
 
 ### Why breast milk is superior to cow's milk
 1. **Proteins:** breast-milk proteins form a **fine flocculent curd** — easily digested; cow's milk curd is **thick & hard to digest** due to large proportion of **caseinogen.**
@@ -687,10 +632,8 @@ IMR =                                                         × 1000
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q29. Define growth and development. How can you assess physical growth in a child. What are the anthropometric aspects in this case? (S29,Q6)</b></summary>
+### Q29. Define growth and development. How can you assess physical growth in a child. What are the anthropometric aspects in this case? (S29,Q6)
 
 ### Growth & development
 *(See Q22.)*
@@ -715,4 +658,3 @@ IMR =                                                         × 1000
 
 > 📖 Ch-11, Endeavour PDF pp. 382–385
 
-</details>

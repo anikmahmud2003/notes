@@ -6,18 +6,15 @@
 
 ---
 
-<details>
-<summary><b>Q. Mention the types of responses,</b></summary>
+### Q. Mention the types of responses,
 
 **Types of responses:** All forms of behaviour are responses to stimuli. They are classified as follows —
 1) Physical responses; habits, skills.
 2) Organic responses: emotions, feelings, tension
 3) Intellectual responses: perceptions, thinking, reasoning.
 [Ref- Park /24"/744)
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 - Emotion: An emotion is a strong feeling of the whole organism. Emotions motive the human
 behaviour. An emotional experience is characterized by both external and internal changes in the
@@ -37,10 +34,8 @@ world.
 body), e.g. essential hypertension, peptic ulcer, asthma, ulcerative colitis which are attributed to
 disturbed emotional states.
 [Ref- Park / 24/712]
-</details>
 
-<details>
-<summary><b>Q. Mention the measures for control of emotion.</b></summary>
+### Q. Mention the measures for control of emotion.
 
 **Measures for control of emotion:** The following tips may be useful in controlling one’s emotion —
 1) Cultivate hobbies, good hobbies of reading and recreation.
@@ -48,10 +43,8 @@ disturbed emotional states.
 3) Try to understand your own limitations.
 4) Develop a sense of humor.
 [Ref- Park / 24" /712]
-</details>
 
-<details>
-<summary><b>Q. What are the human needs?<br>Q. Mention the kinds of human needs.</b></summary>
+### Q. What are the human needs?<br>Q. Mention the kinds of human needs.
 
 **Kinds of human needs:**
 1) Biologic needs: These are ‘survival’ needs, A hungry man needs food, thirsty man water & sick
@@ -63,10 +56,8 @@ needs. Some of these needs are met by the family, and some by the community.
 =conomic needs:
 4) Ego-integrative needs: The desire for Prestige, power and self-respect come in this category.
 [Ref- Park /24"/712]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **° Attitudes:** An attitude has been defined as a relatively enduring organization of beliefs around an
 object, subject or concept which predisposes one to respond in some preferential manner. Attitudes are
@@ -88,10 +79,8 @@ So easily.
 °
 iscrimination. Perception takes
 auditory perception, olfactory
-</details>
 
-<details>
-<summary><b>: Perception: The word perception implies observation, recognition and di</b></summary>
+### : Perception: The word perception implies observation, recognition and di
 
 place with the help of sensory organs. Thus we have visual perception,
 perception and muscular perception.
@@ -106,10 +95,8 @@ room are called hallucinations. Hallucinations occur in mental disorders. ,
 [Ref- Park /24"/713]
 + Cognition: Cognition means thinking skills that include language use, calculation, perception, memory,
 awareness, reasoning, judgment, learning, intellect, social skills, and imagination.
-</details>
 
-<details>
-<summary><b>Q. Define learning.<br>Q. Classify learning. [DU-11Ju]<br>Q. Briefly discuss the factors influencing learning. [DU-1 Ju]<br>Q. Explain the conditions affecting learning. [DU-13Ju]<br>Q. Mention Benjamin Bloom’s domain of learning. [DU-14Ju]</b></summary>
+### Q. Define learning.<br>Q. Classify learning. [DU-11Ju]<br>Q. Briefly discuss the factors influencing learning. [DU-1 Ju]<br>Q. Explain the conditions affecting learning. [DU-13Ju]<br>Q. Mention Benjamin Bloom’s domain of learning. [DU-14Ju]
 
 **Learning:**
 Learning is any relative permanent change in behaviour that occurs as a result of practice or experience.
@@ -135,10 +122,8 @@ are encouragement. praise, reward and success. These stimulate learning.
 5) Physical health; A physically handicapped person. e.g. deaf, dumb, chronically sick cannot leam.
 6) Mental health: Worries, anxieties, and fears interfere with learning.
 [Ref- Park /24"/ 713}
-</details>
 
-<details>
-<summary><b>Q. Discuss the theories of learning.</b></summary>
+### Q. Discuss the theories of learning.
 
 **The theories of learning:**
 1) Learning by conditioned reflex: It is well known that when dogs see food, they begin to salivate;
@@ -166,10 +151,8 @@ solve them and implementing and evaluating these programmes. It provides opportu
 acquire with number of skills.
 9) Problem solving.
 [Ref- Park /24"/714]
-</details>
 
-<details>
-<summary><b>Q. Mention the principles of learning. [RU-14Ju]<br>Q. List the principles of learning.</b></summary>
+### Q. Mention the principles of learning. [RU-14Ju]<br>Q. List the principles of learning.
 
 **Principles of learning:**
 1) Learning is continuous, dynamic and ongoing process and has no required end.
@@ -182,10 +165,8 @@ feedback is important. -
 6) In the learning process there should not be any authority-dependency relationship between the teacher
 and the student; it is cooperative and collaborative. 7.
 [Ref- Rashid, Khabir, Hyder /5"/ 531]
-</details>
 
-<details>
-<summary><b>Q. State domains of learning. [DU-13J]</b></summary>
+### Q. State domains of learning. [DU-13J]
 
 **Domains of learning:** Conventionally learning is discussed under three domains —
 1) Cognitive domain: It involves —
@@ -225,10 +206,8 @@ to make a correct decision. It is essential for a person's mental health that co
 as quickly as possible, within a reasonable period of time, before emotional disturbances occur.
 [Ref- Park /24™/714]
 Personality
-</details>
 
-<details>
-<summary><b>Q. Define personality. [RU-15Ju,12Ju,1 Wu, 10Ju]<br>Q. Define & classify personality. [RU-13Ju,10J]<br>Q. Classify personality with their characteristics. [DU-12J, RU-17M,12Ju/J,1 Ju, 10Ju]<br>Q. Give the characteristics of type-A & type-B personality, [RU-15Ju]<br>Q. Enumerate the characteristics of different types of personality. [RU-13Ju]<br>Q. Enumerate the component of personality. [SUST-16M]<br>Q. Write short note on: Personality.</b></summary>
+### Q. Define personality. [RU-15Ju,12Ju,1 Wu, 10Ju]<br>Q. Define & classify personality. [RU-13Ju,10J]<br>Q. Classify personality with their characteristics. [DU-12J, RU-17M,12Ju/J,1 Ju, 10Ju]<br>Q. Give the characteristics of type-A & type-B personality, [RU-15Ju]<br>Q. Enumerate the characteristics of different types of personality. [RU-13Ju]<br>Q. Enumerate the component of personality. [SUST-16M]<br>Q. Write short note on: Personality.
 
 **Personality:**
 The term personality is a key word in psychology. It implies certain physical and mental traits, which
@@ -245,10 +224,8 @@ and easily mixes with people.
 2) Introvert (Type-B): It is a person who is reserved, shy & generally keeps to himself.
 3) Mixture of both.
 j [Ref- Park /24"/715]
-</details>
 
-<details>
-<summary><b>Q. How personality of an individual is developed? [DU-10J]<br>Q. Illustrate the influencing factors to develop personality. [RU-10J]</b></summary>
+### Q. How personality of an individual is developed? [DU-10J]<br>Q. Illustrate the influencing factors to develop personality. [RU-10J]
 
 **Stages of personality development:**
 1) Infancy: The first | year of life is called infancy. The infant is hardly a social creature . There is
@@ -275,10 +252,8 @@ physical powers and acuity of sense organs. Old age is marked by certain psychol
 such as impaired memory, rigidity of outlook, irritability, bitterness. Inner withdrawal and social
 maladjustment. '
 [Ref- Park /24"/ 715]
-</details>
 
-<details>
-<summary><b>Q. Define personality trait. [RU-15Ju]<br>Q. Discuss about personality traits.</b></summary>
+### Q. Define personality trait. [RU-15Ju]<br>Q. Discuss about personality traits.
 
 **Personality traits:**
 A trait is described as tendency to behave in a consistent manner in variable situations.
@@ -288,10 +263,8 @@ tactfulness, willing to help others etc. are some of the personality traits.
 It is possible to cultivate these traits.
 [Ref- Park /24"/715]
 Intelligence, Mental age &1Q
-</details>
 
-<details>
-<summary><b>Q. What is intelligence and mental age?</b></summary>
+### Q. What is intelligence and mental age?
 
   - Intelligence: Intelligence is an important aspect of personality. It has not been satisfactorily defined as
 yet. The widely accepted definition is that it is the ability to see meaningful relationships between
@@ -299,10 +272,8 @@ things. It includes perceiving, knowing, reasoning and remembering.
 “ Mental age: It is the concept which gives the indication of dullness or brightness he or she should have
 with actual age.
 [Ref- Park /24" / 716]
-</details>
 
-<details>
-<summary><b>Q. Discuss adult intelligence.</b></summary>
+### Q. Discuss adult intelligence.
 
 **Adult intelligence:** The components of adult intelligence are —
 1) Space: The ability to perceive objects.
@@ -314,10 +285,8 @@ with actual age.
 7) Deduction: The ability to use those principles to solve concrete problems.
 8) Flexibility and quickness of thought.
 [Ref- Park /24"/716]
-</details>
 
-<details>
-<summary><b>Q. What is IQ? Narrate briefly. [DU-16J]<br>Q. Write short note on: IQ. [CU-17N]</b></summary>
+### Q. What is IQ? Narrate briefly. [DU-16J]<br>Q. Write short note on: IQ. [CU-17N]
 
 **Intelligence Quotient (1Q):** This is an improvement over the concept of mental age. It is obtained by dividing
 the mental age by chronological age, and multiplying by 100.
@@ -339,10 +308,8 @@ Near Genius
 ; The current interpretation is that the IQ is the measurement of the quality and potential of intelligence,
 The higher the IQ the more "brilliant" the child is and the more capable of higher performance at school age.
 [Ref- Park /24"/716)
-</details>
 
-<details>
-<summary><b>Q. Calculate IQ of a girl of 10 years with mental age of 2 and interpret. [DU-13J,12J]</b></summary>
+### Q. Calculate IQ of a girl of 10 years with mental age of 2 and interpret. [DU-13J,12J]
 
 **Calculation vf IQ of this patient:**
 Mental age
@@ -353,10 +320,8 @@ Chronological age
 10
 Interpretation: The patient is an idiot. [IQ of an idiot = 0 — 24]
 Defense mechanism
-</details>
 
-<details>
-<summary><b>Q. State defense mechanism. [DU-13Ju]<br>Q. What is defense mechanism? What are the types of defense mechanism?</b></summary>
+### Q. State defense mechanism. [DU-13Ju]<br>Q. What is defense mechanism? What are the types of defense mechanism?
 
 **Defense mechanism:**
 When an individual is faced with problems, difficulties or failures, he employs certain ways or devices
@@ -375,10 +340,8 @@ as a mode of adjustment.
 [Ref- Park /24"/ 715]
 . ea et [DU-16J, RU-I7N,16N,11J, SSUST-17M, CU-10Ju]
 ; rie y family with example. [DU-16N/J, SUST-17M, RU-17N, 16N]
-</details>
 
-<details>
-<summary><b>Q. Discuss the role of family in health & disease. [DU-I8N, 16N/J]<br>Q. Enumerate the functions of a family. [RU-17N]<br>Q.W hat are the disadvantages of nuclear family? [SUST-17M]<br>Q. Write short note on: Family,</b></summary>
+### Q. Discuss the role of family in health & disease. [DU-I8N, 16N/J]<br>Q. Enumerate the functions of a family. [RU-17N]<br>Q.W hat are the disadvantages of nuclear family? [SUST-17M]<br>Q. Write short note on: Family,
 
 **Family:** The family isa primary unit in all societies.
 Itis a group of biologically related individuals living together and eating from a common kitchen.
@@ -419,17 +382,13 @@ d) Regulating to a certain extent political, religious and general social activi
 e) Regulating sex relations through incest-taboos.
 [Ref- Park /24"/ 719-721]
 Away
-</details>
 
-<details>
-<summary><b>Q. Mr. Karim is living with his 3 wives and 7 children in Mohammadpur. One of his nephews js</b></summary>
+### Q. Mr. Karim is living with his 3 wives and 7 children in Mohammadpur. One of his nephews js
 
 also residing with them. Mention the type of family.
 Type of family: Extended family.
-</details>
 
-<details>
-<summary><b>Q. Mention the functions of family relevant to health behavior and health.<br>Q. Discuss the role of family in health and disease [DU-14J,12J] / in social life [RU-16N].<br>Q. Write down role of family members in maintaining good health and keep the</b></summary>
+### Q. Mention the functions of family relevant to health behavior and health.<br>Q. Discuss the role of family in health and disease [DU-14J,12J] / in social life [RU-16N].<br>Q. Write down role of family members in maintaining good health and keep the
 
 members of the family free from disease. [CU-10Ju]
 Functions of family relevant to health behavior and health:
@@ -461,10 +420,8 @@ Children from these families may drift away to prostitution, crime and vagrancy.
 who are reared in such an environment are victims of prostitution, crime, and vagrancy.
 [Ref- Park /24"/721]
 Leadership
-</details>
 
-<details>
-<summary><b>Q. Define leader.<br>Q. State criteria of a good leader. [DU-15Ju,12Ju]<br>Q. Mention the characteristics / qualities of a good / ideal leader? [CU-10Ju]<br>Q. What are the types of leadership? [DU-13J]</b></summary>
+### Q. Define leader.<br>Q. State criteria of a good leader. [DU-15Ju,12Ju]<br>Q. Mention the characteristics / qualities of a good / ideal leader? [CU-10Ju]<br>Q. What are the types of leadership? [DU-13J]
 
 **Leader:** Leader is any person who can influence a group of people and guide them to action.
 Qualities of good leadership: A leader —
@@ -488,10 +445,8 @@ decisions: ip: Here the leader holds consultation with the group while implement
 dynamics and leaves the group entirely to itself ES EES
 2:
 [Ref- Rashid, Khabir, Hyder / 5” / 73]
-</details>
 
-<details>
-<summary><b>Q. What are the leadership functions?</b></summary>
+### Q. What are the leadership functions?
 
 **Leadership functions:** A leader —
 Me ae the members of an organization towards set goal.
@@ -502,10 +457,8 @@ reates and maintains a congenital working environment.
 6) Represents group to his superiors.
 7) Gets regular feedback.
 [Ref- Rashid, Khabir, Hyder / 5" / 73]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by culture?</b></summary>
+### Q. What do you mean by culture?
 
 **Culture:**
 Culture is defined as “learned behaviour which has been socially acquired”. Culture is that complex
@@ -523,10 +476,8 @@ a [Ref- Park / 24/709]
 Doctor-patient relationship
 played by a doctor in the society? [CU-18N, 16M, 15Ju, 14Ju]
 . What roles can be
-</details>
 
-<details>
-<summary><b>Q der-justify. [CU-18M]<br>Q. Doctors act as a lea</b></summary>
+### Q der-justify. [CU-18M]<br>Q. Doctors act as a lea
 
 **i society:** 5 ‘
 Role of a doctor in the he center point of the team who are involved to cue a patient.
@@ -539,10 +490,8 @@ Doctors can play important role in policy making for the health care service of 
 5)
 Doctors can play very important role in disaster, like earthquake, flood, cyclone etc.
 6)
-</details>
 
-<details>
-<summary><b>Q. Discuss the doctor-patient relationship. [SUST-18M,16M]</b></summary>
+### Q. Discuss the doctor-patient relationship. [SUST-18M,16M]
 
 **Doctor-patient relationship:**
 The doctor-patient relationship is central to the practice of healthcare and is essential for the delivery
@@ -566,10 +515,8 @@ diseases and the facts & circumstances of his illness.
 3) He should strictly follow the instructions of the doctor as regards diet, medicine, mode of life etc.
 4) He should pay a reasonable fee to the doctor.
 2)
-</details>
 
-<details>
-<summary><b>Q. Why doctor-patient relationship is not satisfactory in our country?</b></summary>
+### Q. Why doctor-patient relationship is not satisfactory in our country?
 
 The doctor-patient relationship is not satisfactory in our country due to:
 1) Uncooperative attitude of the patient.
@@ -577,16 +524,12 @@ The doctor-patient relationship is not satisfactory in our country due to:
 3) Lack of a sympathetic and friendly attitude of the doctor.
 4) The doctor’s greed for money.
 [Ref- Park /24"/729]
-</details>
 
-<details>
-<summary><b>Q. Mention the factors influencing doctor-patient relationship. [DU-15J]<br>Q. Discuss how doctor-patient relationship can be improved in Bangladesh. [DU-13Ju, CU-18N, 16M; 15Ju,14Ju]</b></summary>
+### Q. Mention the factors influencing doctor-patient relationship. [DU-15J]<br>Q. Discuss how doctor-patient relationship can be improved in Bangladesh. [DU-13Ju, CU-18N, 16M; 15Ju,14Ju]
 
 _Q. Mention the factors influencing doctor-patient relationship. [DU-15J]_
-</details>
 
-<details>
-<summary><b>Q. How present unhealthy relationship between doctors & patients can be made healthy? Give</b></summary>
+### Q. How present unhealthy relationship between doctors & patients can be made healthy? Give
 
 your opinion. [SUST-18M]
 Doctor-patient relationship:
@@ -604,16 +547,12 @@ other words, there is an enormous "sociad distance" between the two groups.
 one who reduces this distance and is able to communicate with his patient freely and wins his
 confidence. A most important component of doctor- patient communication is
 icebreaker for the patient frozen by fear and anxicty.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Doctor-patient relationship. [SUST-17N, | 6J]</b></summary>
+### Q. Write short note on: Doctor-patient relationship. [SUST-17N, | 6J]
 
 Please write from above.
-</details>
 
-<details>
-<summary><b>Q. Discuss the sick role.</b></summary>
+### Q. Discuss the sick role.
 
 **The sick role:** Four aspects of the sick role have been described — . .
 1) The sick person is exempted from his normal social responsibilities depending up
@@ -624,10 +563,8 @@ his illness.
 process of getting well.
 A typical sick role is temporary, but some pi
 escape everyday responsibilities.
-</details>
 
-<details>
-<summary><b>Q. Personality traits are: [DU-16J,1 lJu]</b></summary>
+### Q. Personality traits are: [DU-16J,1 lJu]
 
 a) sense of humour
 b) comprehension
@@ -635,10 +572,8 @@ Cc) projection
 d) honesty
 e) reliability
 Ans. a) T, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Social needs are for: [DU-15Ju]</b></summary>
+### Q. Social needs are for: [DU-15Ju]
 
 a) Food.
 b) Love.
@@ -646,10 +581,8 @@ c) Friendship.
 d) Prestige.
 e) Family position.
 Ans. a) F, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Structure of society consists of: [DU-15J]</b></summary>
+### Q. Structure of society consists of: [DU-15J]
 
 a) Caste
 b) Income
@@ -658,10 +591,8 @@ d) Marriage
 e) Family size
 Ans, a) T, b) T, c) T, d) F, e) F.
 [Ref- Park / 24" / 730]
-</details>
 
-<details>
-<summary><b>Q. The behavioural science includes: [DU- 14Ju,12J]</b></summary>
+### Q. The behavioural science includes: [DU- 14Ju,12J]
 
 a) Economics
 b) Sociology
@@ -669,10 +600,8 @@ c) Social psychology
 d) Political science
 e) Social anthropology
 Ans. a) F, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Major emotions are: [DU-14J]</b></summary>
+### Q. Major emotions are: [DU-14J]
 
 a) fear
 b) anger
@@ -680,10 +609,8 @@ c) stress
 d) habits
 e) grief
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Conditions affecting learning: [DU-12J]</b></summary>
+### Q. Conditions affecting learning: [DU-12J]
 
 a) motivation
 b) habit
@@ -699,10 +626,8 @@ humour. It is the best
 on the severity of
 d to cooperate with the doctor in the
 atients prefer a prolonged sick role in order to
-</details>
 
-<details>
-<summary><b>Q. Defense mechanism includes: [DU-11J]</b></summary>
+### Q. Defense mechanism includes: [DU-11J]
 
 a) Projection
 b) Frustration
@@ -710,10 +635,8 @@ c) Displacement
 d) Comprehension
 e) Imagination
 Ans. a) T, b) F, ) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Personality traits of an individual include: [DU-11J]</b></summary>
+### Q. Personality traits of an individual include: [DU-11J]
 
 a) Honesty
 b) Reliability
@@ -721,10 +644,8 @@ c) Preservance
 d) Comprehensiveness
 e)° Tactfulness
 Ans. a) T, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Social needs are: (DU-10Ju]</b></summary>
+### Q. Social needs are: (DU-10Ju]
 
 a. Company
 b. Education
@@ -732,10 +653,8 @@ c. Medical care
 d. Recognition
 e. Prestige
 Ans. a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Conditions affecting learning are: [DU- 10Ju]</b></summary>
+### Q. Conditions affecting learning are: [DU- 10Ju]
 
 a. Behaviour
 b. Habit
@@ -743,10 +662,8 @@ c. Age
 d. Gender
 e. Positive health
 Ans, a) F, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Disorder of perception is: [DU-10Ju]</b></summary>
+### Q. Disorder of perception is: [DU-10Ju]
 
 a. An imaginary perception.
 b. A tendency to action.
@@ -760,10 +677,8 @@ United Nations
 World health organization (WHO).
 UNICEF...
 International Health Agencies
-</details>
 
-<details>
-<summary><b>Q. Name the health related UN organizations. [SUST-16J]<br>Q. List 5 health related UN organizations. [CU-10J]<br>Q. Name the international health agencies.</b></summary>
+### Q. Name the health related UN organizations. [SUST-16J]<br>Q. List 5 health related UN organizations. [CU-10J]<br>Q. Name the international health agencies.
 
 International Health Agencies can be classified as follows:
 A) United Nation Agencies:
@@ -805,10 +720,8 @@ Save the Children Fund
 10) Family Planning International Assistance (FPIA)
 11) The Path Finder Fund
 [Ref- Park / 24" / 959-965 + Rashid, Khabir, Hyder / 5" 1564-574]
-</details>
 
-<details>
-<summary><b>Q. What are the international health organizations working in Bangladesh?</b></summary>
+### Q. What are the international health organizations working in Bangladesh?
 
 International health organizations working in Bangladesh:
 World Health Organization (WHO)
@@ -830,10 +743,8 @@ AAAS
 15. Rockefeller Foundation.
 16. Rotary International
 17, International Centre for Diarrhoeal Disease Research, Bangladesh (ICDDR,B)
-</details>
 
-<details>
-<summary><b>Q. Name 5 international organizations working with health in Bangladesh. [DU-15J]</b></summary>
+### Q. Name 5 international organizations working with health in Bangladesh. [DU-15J]
 
 International organizations working with health in Bangladesh:
 1) World Health Organization (WHO).
@@ -841,10 +752,8 @@ International organizations working with health in Bangladesh:
 3) United Nation Fund for Population Activities (UNFPA).
 4) International Red Cross & Red Crescent movement.
 5) Intemational Centre for Diarrhoeal Disease Research, Bangladesh (ICDDR,B).
-</details>
 
-<details>
-<summary><b>📌 Viva — Organization Headquarter Establishment year</b></summary>
+### 📌 Viva — Organization Headquarter Establishment year
 
 Organization Headquarter Establishment year
 | UN New ae 24" October, 1945
@@ -860,10 +769,8 @@ UNEP Nairobi- Kenya. 1972
 [ADB Manila, Philippines. | 1966
 Colombo Plan Colombo, Srilanka. 1950 fi
 United Nations
-</details>
 
-<details>
-<summary><b>Q. Write short note on: United Nations.</b></summary>
+### Q. Write short note on: United Nations.
 
 **United Nations:** It is an association of many countries, which aims to improve economic and social condition
 and to solve political problems in the world in a peaceful way.
@@ -881,5 +788,4 @@ China
 Russian
 Spanish
 Arabian
-</details>
 

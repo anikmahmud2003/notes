@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -106,8 +116,8 @@
 
   <h2 id="indications">1 · Indications of Pregnancy Test</h2>
 
-  <details>
-    <summary>🔴 Enumerate the indications of pregnancy test.</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the indications of pregnancy test.</div>
     <div class="ans">
       <p>Four main indications:</p>
       <ol>
@@ -119,12 +129,12 @@
       <div class="mnem">🎯 <strong>Mnemonic — "4 D's":</strong> <strong>D</strong>iagnose early pregnancy · <strong>D</strong>eath of foetus confirmed · <strong>D</strong>etect mole/choriocarcinoma · <strong>D</strong>ifferentiate pseudocyst.</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Exam frequencies: CMU-23M, RMU-21Nv, DU-12Ja</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="principle">2 · Principle of Pregnancy Test</h2>
 
-  <details>
-    <summary>📌 What is the principle behind all pregnancy tests? (Immunological basis)</summary>
+  <div class="qcard">
+    </div>📌 What is the principle behind all pregnancy tests? (Immunological basis)</div>
     <div class="ans">
       <p><strong>Principle:</strong> The presence of <strong>human chorionic gonadotropin (hCG)</strong> in the urine of a pregnant woman forms the basis of <em>all</em> pregnancy tests.</p>
       <p><strong>Immunological basis:</strong> involves the principle of <strong>antigen–antibody reaction</strong>:</p>
@@ -135,20 +145,20 @@
       </ul>
       <p class="ref">Ref: Samson Wright's 13e/581 · Lecture SSMC · Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 What is the biological basis of pregnancy tests?</summary>
+  <div class="qcard">
+    </div>📌 What is the biological basis of pregnancy tests?</div>
     <div class="ans">
       <p>hCG is a glycoprotein that mimics <strong>luteinising hormone (LH)</strong> and stimulates the corpus luteum to produce progesterone. Biological tests exploit this hormonal action in animals.</p>
       <p class="ref">Ref: Samson Wright's 13e/581 · Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="methods">3 · Classification of Methods</h2>
 
-  <details>
-    <summary>🔴 Mention the methods employed in pregnancy test.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the methods employed in pregnancy test.</div>
     <div class="ans">
       <table>
         <tr><th>Category</th><th>Methods</th><th>Advantages / Disadvantages</th></tr>
@@ -161,12 +171,12 @@
       </table>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="immunological">4 · Immunological (Modern) Tests</h2>
 
-  <details>
-    <summary>📌 Describe the direct agglutination test.</summary>
+  <div class="qcard">
+    </div>📌 Describe the direct agglutination test.</div>
     <div class="ans">
       <p><strong>Direct agglutination test (HCG agglutination test):</strong></p>
       <ul>
@@ -176,10 +186,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Describe the indirect agglutination (passive haemagglutination inhibition) test.</summary>
+  <div class="qcard">
+    </div>📌 Describe the indirect agglutination (passive haemagglutination inhibition) test.</div>
     <div class="ans">
       <p><strong>Indirect agglutination test (Passive haemagglutination inhibition test):</strong></p>
       <ul>
@@ -189,21 +199,21 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 What is the advantage of immunological methods?</summary>
+  <div class="qcard">
+    </div>📌 What is the advantage of immunological methods?</div>
     <div class="ans">
       <p>Immunological tests are the <span class="good">modern, preferred methods</span> — <strong>cheap, reliable, accurate, and provide quick results</strong>.</p>
       <p><strong>ELISA</strong> is the most widely used today, available as rapid strip-test kits for home use.</p>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="biological">5 · Biological Tests</h2>
 
-  <details>
-    <summary>🔴 Describe the Friedman test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the Friedman test.</div>
     <div class="ans">
       <p><strong>1. Friedman Test</strong></p>
       <ul>
@@ -213,10 +223,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the Aschim-Zondek (A-Z) test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the Aschim-Zondek (A-Z) test.</div>
     <div class="ans">
       <p><strong>2. Aschim-Zondek (A-Z) Test</strong></p>
       <ul>
@@ -226,10 +236,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the Xenopus laevis test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the Xenopus laevis test.</div>
     <div class="ans">
       <p><strong>3. Female <em>Xenopus laevis</em> (African Clawed Toad) Test</strong></p>
       <ul>
@@ -239,10 +249,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the Galli-Mainini test.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the Galli-Mainini test.</div>
     <div class="ans">
       <p><strong>4. Galli-Mainini Test</strong></p>
       <ul>
@@ -252,20 +262,20 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Why are the biological tests largely obsolete?</summary>
+  <div class="qcard">
+    </div>🔴 Why are the biological tests largely obsolete?</div>
     <div class="ans">
       <div class="mnem">🎯 <strong>Why obsolete:</strong> need live animals · 24–48 hr wait (except Galli-Mainini) · expensive · ethical concerns · not suitable for large-scale screening. Immunological/ELISA tests are faster, cheaper, and equally reliable.</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="modern">6 · RIA &amp; ELISA</h2>
 
-  <details>
-    <summary>📌 Write a short note on Radioimmunoassay (RIA) for pregnancy.</summary>
+  <div class="qcard">
+    </div>📌 Write a short note on Radioimmunoassay (RIA) for pregnancy.</div>
     <div class="ans">
       <ul>
         <li>A highly sensitive <strong>in-vitro</strong> technique for measuring hCG in blood or urine.</li>
@@ -275,10 +285,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Write a short note on ELISA for pregnancy.</summary>
+  <div class="qcard">
+    </div>📌 Write a short note on ELISA for pregnancy.</div>
     <div class="ans">
       <ul>
         <li>The <span class="good">most widely used pregnancy test</span> worldwide today.</li>
@@ -289,10 +299,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Compare RIA vs ELISA.</summary>
+  <div class="qcard">
+    </div>📌 Compare RIA vs ELISA.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>RIA</th><th>ELISA</th></tr>
@@ -304,12 +314,12 @@
       </table>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="imaging">7 · Imaging &amp; Radiological Tests</h2>
 
-  <details>
-    <summary>📌 What is the role of ultrasonography in pregnancy testing?</summary>
+  <div class="qcard">
+    </div>📌 What is the role of ultrasonography in pregnancy testing?</div>
     <div class="ans">
       <h3>Ultrasonography (USG)</h3>
       <ul>
@@ -320,10 +330,10 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 What is the role of radiological (X-ray) tests?</summary>
+  <div class="qcard">
+    </div>📌 What is the role of radiological (X-ray) tests?</div>
     <div class="ans">
       <h3>Radiological Tests</h3>
       <ul>
@@ -332,12 +342,12 @@
       </ul>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="timing">8 · Timing — When is hCG Detectable?</h2>
 
-  <details>
-    <summary>📌 When does hCG appear in blood and urine after conception?</summary>
+  <div class="qcard">
+    </div>📌 When does hCG appear in blood and urine after conception?</div>
     <div class="ans">
       <table>
         <tr><th>Specimen</th><th>Earliest detection after conception</th><th>Notes</th></tr>
@@ -347,28 +357,28 @@
       <div class="mnem">🎯 <strong>Rule of 6 and 14:</strong> Blood = 6 days; Urine = 14 days. "6 for serum, 14 for pee."</div>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 How does timing affect test selection?</summary>
+  <div class="qcard">
+    </div>📌 How does timing affect test selection?</div>
     <div class="ans">
       <p>Most home kits detect urine hCG at a threshold of <strong>20–25 mIU/mL</strong>. Most reliable results are obtained <strong>after a missed period</strong>. Testing too early may yield a false negative.</p>
       <p class="ref">Arif Guide 2025 Vol-2, p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Pregnancy test</summary>
-    <details>
-      <summary>Positive pregnancy test is observed in: Amenorrhoea · Hydatidiform mole · Choriocarcinoma · Endometrial hyperplasia · Dysgerminoma</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Pregnancy test</div>
+    <div class="qcard">
+      </div>Positive pregnancy test is observed in: Amenorrhoea · Hydatidiform mole · Choriocarcinoma · Endometrial hyperplasia · Dysgerminoma</div>
       <div class="ans">Amenorrhoea <span class="ff">F</span> · Hydatidiform mole <span class="tf">T</span> · Choriocarcinoma <span class="tf">T</span> · Endometrial hyperplasia <span class="ff">F</span> · Dysgerminoma <span class="ff">F</span> <span class="ref">(DU-12Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
 
-  <details class="rapid" open>
-    <summary>Pregnancy Test — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Pregnancy Test — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">🎯 hCG detectable in blood vs urine after conception?</div>
       <div class="a"><strong>Blood = 6 days; Urine = 14 days.</strong></div>
@@ -389,7 +399,7 @@
       <div class="q">🎯 Name the 4 biological tests and their animals.</div>
       <div class="a">Friedman → female rabbit · A-Z → female rat/mouse · Xenopus laevis → female toad · Galli-Mainini → male frog.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch26_Lipid_Cholesterol.html">← Ch 26: Lipid &amp; Cholesterol</a></span>

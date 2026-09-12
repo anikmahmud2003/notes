@@ -5,8 +5,7 @@
 
 # Part A — Testis (Q1–6)
 
-<details>
-<summary><b>Q1. Classify tumours of testis.</b></summary>
+### Q1. Classify tumours of testis.
 
 ### Overview
 **Germ cell tumours (GCT) = ~95% of testicular tumours** — the most common cancer in Caucasian males aged **15–45 yr**. Any solid testicular mass is treated as **malignant until proven otherwise**; biopsy is avoided (risk of tumour spillage) and **radical orchiectomy** is the standard first step.
@@ -54,10 +53,8 @@ Primordial germ cell (acquired differentiation defect)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What is cryptorchidism?</b></summary>
+### Q2. What is cryptorchidism?
 
 ### Definition
 **Cryptorchidism = failure of the testis to descend from the abdomen into the scrotum.**
@@ -91,10 +88,8 @@ Basement membrane thickening → loss of spermatogonia
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Short note on Seminoma.</b></summary>
+### Q3. Short note on Seminoma.
 
 ### Definition & epidemiology
 Seminoma is the **most common testicular germ cell tumour (~50%)**, reproducing the morphology of **primordial germ cells / early gonocytes**. Peak incidence **4th decade**. The classic "good-prognosis" GCT.
@@ -122,10 +117,8 @@ Seminoma is the **most common testicular germ cell tumour (~50%)**, reproducing 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Short note on Teratoma.</b></summary>
+### Q4. Short note on Teratoma.
 
 ### Definition
 A germ cell tumour containing **derivatives of more than one germ layer** (endoderm, mesoderm, ectoderm) — neural tissue, muscle, cartilage, bone, squamous epithelium with skin adnexa, thyroid-like follicles, bronchial and gut epithelium — in a fibrous/myxoid stroma. Elements may be **mature or immature**.
@@ -151,10 +144,8 @@ A germ cell tumour containing **derivatives of more than one germ layer** (endod
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. How does seminoma differ from non-seminomatous testicular tumour?</b></summary>
+### Q5. How does seminoma differ from non-seminomatous testicular tumour?
 
 Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they differ in differentiation, gross appearance, markers, invasiveness, and prognosis.
 
@@ -181,10 +172,8 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Name the testicular tumour markers and their uses.</b></summary>
+### Q6. Name the testicular tumour markers and their uses.
 
 | Marker | Produced by | Clinical value |
 |---|---|---|
@@ -209,12 +198,10 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 ---
 
-</details>
 
 # Part B — Prostate (Q7–12)
 
-<details>
-<summary><b>Q7. What are the diseases of prostate?</b></summary>
+### Q7. What are the diseases of prostate?
 
 | Category | Diseases |
 |---|---|
@@ -240,10 +227,8 @@ Both arise from the same precursor (GCNIS) and both carry **i(12p)** — they di
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What are the tumours of prostate?</b></summary>
+### Q8. What are the tumours of prostate?
 
 Primary prostate tumours are almost always **epithelial**; by far the most important is **acinar (usual) adenocarcinoma**.
 
@@ -267,10 +252,8 @@ Primary prostate tumours are almost always **epithelial**; by far the most impor
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Give the pathogenesis of benign prostatic hyperplasia (BPH).</b></summary>
+### Q9. Give the pathogenesis of benign prostatic hyperplasia (BPH).
 
 ### Hormonal driver
 BPH is a **hormonally driven proliferation** of the transition-zone glands and stroma. The key player is **dihydrotestosterone (DHT)**, the most potent prostatic androgen, with a supporting role for **estrogens**.
@@ -298,10 +281,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Write down the morphology of BPH.</b></summary>
+### Q10. Write down the morphology of BPH.
 
 ### Gross
 - Prostate weight increases **3–5× (60–100 g**; normal ~20 g).
@@ -324,10 +305,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Difference between benign prostatic hyperplasia and malignant prostatic hyperplasia.</b></summary>
+### Q11. Difference between benign prostatic hyperplasia and malignant prostatic hyperplasia.
 
 | Feature | **BPH** | **Prostatic carcinoma** |
 |---|---|---|
@@ -353,10 +332,8 @@ Testosterone → (type 2 5α-reductase, mainly in STROMAL cells) → DHT
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Short note on Prostate Specific Antigen (PSA).</b></summary>
+### Q12. Short note on Prostate Specific Antigen (PSA).
 
 ### What is PSA?
 PSA is a protein produced almost exclusively by **prostatic epithelium**. It is normally present in semen as an **androgen-regulated serine protease that liquefies the seminal coagulum**; only minute amounts leak into the blood.
@@ -381,12 +358,10 @@ PSA is a protein produced almost exclusively by **prostatic epithelium**. It is 
 
 ---
 
-</details>
 
 # Part C — Semen Analysis & Male Infertility (Q13–22)
 
-<details>
-<summary><b>Q13. What are the indications of semen analysis?</b></summary>
+### Q13. What are the indications of semen analysis?
 
 Semen analysis = laboratory examination of the ejaculate (volume, sperm concentration/count, motility, morphology, vitality, pH, liquefaction) standardized against **WHO reference values**.
 
@@ -404,10 +379,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. How is the specimen collected for semen analysis?</b></summary>
+### Q14. How is the specimen collected for semen analysis?
 
 - Method: **masturbation** into a **sterile, wide-mouthed, non-toxic container**, ideally at the laboratory (no transport delay).
 - **No lubricants or condoms** — most lubricants are spermicidal; plain sterile container only.
@@ -424,10 +397,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Mention the importance of semen analysis.</b></summary>
+### Q15. Mention the importance of semen analysis.
 
 - **Cornerstone of male fertility evaluation** — the first and most informative test for the infertile couple.
 - **Diagnoses the cause of male infertility** — objectively identifies oligospermia, azoospermia, asthenozoospermia, teratozoospermia, necrospermia, etc.
@@ -443,10 +414,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. What are the prerequisites of semen analysis?</b></summary>
+### Q16. What are the prerequisites of semen analysis?
 
 - **Abstinence: 2–7 days** (ideally 2–3 days). 🔴 Too long an abstinence → low motility + more dead/abnormal forms; too short → low count.
 - Avoid **alcohol, drugs, recent febrile illness** — fever transiently suppresses spermatogenesis; because spermatogenesis takes ~74 days, the effect appears ~2–3 months later and takes that long to recover.
@@ -465,10 +434,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Write a normal semen analysis report.</b></summary>
+### Q17. Write a normal semen analysis report.
 
 | Parameter | WHO 2021 (6th ed.) | WHO 2010 (5th ed.) |
 |---|---|---|
@@ -493,10 +460,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. Define:</b></summary>
+### Q18. Define:
 
 - Oligospermia
 - Azoospermia
@@ -520,10 +485,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. Give the properties of normozoospermia.</b></summary>
+### Q19. Give the properties of normozoospermia.
 
 **Normozoospermia** = a sample in which **all parameters are within WHO reference ranges**.
 
@@ -540,10 +503,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. What is:</b></summary>
+### Q20. What is:
 
 - Normozoospermia
 - Hyperzoospermia
@@ -566,10 +527,8 @@ Semen analysis = laboratory examination of the ejaculate (volume, sperm concentr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. Causes of male infertility.</b></summary>
+### Q21. Causes of male infertility.
 
 Classified by **level of the defect** — pretesticular / testicular / post-testicular.
 
@@ -599,10 +558,8 @@ Classified by **level of the defect** — pretesticular / testicular / post-test
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. How will you investigate a case of male infertility?</b></summary>
+### Q22. How will you investigate a case of male infertility?
 
 Follows a logical order: **history → repeated semen analysis → hormones → imaging → genetics → biopsy**.
 
@@ -625,4 +582,3 @@ Follows a logical order: **history → repeated semen analysis → hormones → 
 
 ---
 
-</details>

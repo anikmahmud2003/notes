@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Mention the levels of delivery of health care. What are the principles of primary health care? (S15,Q1)</b></summary>
+### Q1. Mention the levels of delivery of health care. What are the principles of primary health care? (S15,Q1)
 
 ### Levels of delivery of health care
 Health services are usually organized at **three levels**, each supported by a higher level to which the patient is **referred**:
@@ -31,10 +30,8 @@ PHC is based on **4 principles**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Define primary health care. List the elements/components of PHC? (S21,Q1)</b></summary>
+### Q2. Define primary health care. List the elements/components of PHC? (S21,Q1)
 
 ### Definition
 > 🔴 PHC = **"Essential health care based on practical, scientifically sound and socially acceptable methods and technology, made universally accessible to individuals and families in the community through their full participation and at a cost that the community and the country can afford to maintain at every stage of their development in the spirit of self-determination."** (Alma-Ata Declaration, 1978)
@@ -56,10 +53,8 @@ PHC is based on **4 principles**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. How primary health care was incepted? Explain equitable distribution of health service. (S22,Q1)</b></summary>
+### Q3. How primary health care was incepted? Explain equitable distribution of health service. (S22,Q1)
 
 ### Inception / background of PHC
 - The concept of PHC came into limelight in **1978** following the **International Conference on Primary Health Care in Alma-Ata (former USSR, now Kazakhstan)**.
@@ -80,10 +75,8 @@ PHC is based on **4 principles**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are the principles of PHC? Explain community participation. (S23,Q1)</b></summary>
+### Q4. What are the principles of PHC? Explain community participation. (S23,Q1)
 
 ### Principles of PHC (4)
 1. Equitable distribution of health services. 2. Community participation at all levels. 3. Inter-sectoral coordination / Multi-sectoral approach. 4. Appropriate technology.
@@ -111,10 +104,8 @@ PHC is based on **4 principles**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Mention the levels of health care delivery in BD. What do you mean by intersectoral coordination? Give an example? (S25,Q1)</b></summary>
+### Q5. Mention the levels of health care delivery in BD. What do you mean by intersectoral coordination? Give an example? (S25,Q1)
 
 ### Levels of health care delivery in Bangladesh
 **Primary (UHC + Union H&FWC/sub-centres) → Secondary (District hospitals = first referral level) → Tertiary (super-specialist; medical college/regional hospitals) → Super-specialized national institutes.**
@@ -132,4 +123,3 @@ PHC is based on **4 principles**:
 
 > 📖 Ch-02 (Concept of Health & Disease), Endeavour PDF pp. 44–45, 48–49
 
-</details>

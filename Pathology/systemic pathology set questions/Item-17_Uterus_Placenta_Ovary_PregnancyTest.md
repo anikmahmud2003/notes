@@ -8,8 +8,7 @@
 
 # PART A — Main Questions (Q1–15)
 
-<details>
-<summary><b>Q1. Name the tumors of uterus.</b></summary>
+### Q1. Name the tumors of uterus.
 
 ### Endometrial (epithelial)
 - **Endometrial polyp** (benign, exophytic, estrogen-responsive)
@@ -32,10 +31,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What do you mean by endometriosis? Name the common sites of endometriosis.</b></summary>
+### Q2. What do you mean by endometriosis? Name the common sites of endometriosis.
 
 ### Definition
 🔴 **Endometriosis = the presence of endometrial glands + stroma OUTSIDE the uterus** (stroma-only variants exist). ~10% of women; peak 3rd–4th decades. Clinical: **infertility, dysmenorrhea, pelvic pain**.
@@ -59,10 +56,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What do you mean by adenomyosis? Mention the complications of adenomyosis.</b></summary>
+### Q3. What do you mean by adenomyosis? Mention the complications of adenomyosis.
 
 ### Definition
 🔴 **Adenomyosis = endometrial glands ± stroma WITHIN the myometrium**, remaining **in continuity with the endometrium** (down-growth of basal endometrium into the muscle). Found in **up to 20% of uteri**.
@@ -80,10 +75,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What is DUB? What are the causes of abnormal uterine bleeding?</b></summary>
+### Q4. What is DUB? What are the causes of abnormal uterine bleeding?
 
 ### Definition
 **DUB (dysfunctional uterine bleeding) = abnormal uterine bleeding WITHOUT a structural abnormality** (no tumour, polyp, pregnancy, or infection). It is the **most common overall cause of abnormal bleeding**, and most often results from **anovulation** — estrogen unopposed by progesterone. Most common at the **two ends of reproductive life (menarche and perimenopause)**.
@@ -109,10 +102,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Short note: Leiomyomas/ Fibroids.</b></summary>
+### Q5. Short note: Leiomyomas/ Fibroids.
 
 ### Overview
 🔴 **Leiomyoma = the MOST COMMON TUMOR IN WOMEN** — benign smooth-muscle tumour of the myometrium, single or (usually) **multiple**. Hormonally responsive (estrogen-dependent; grow in reproductive years, shrink after menopause). **MED12 mutations in ~70%** (causative); ~40% have a chromosomal abnormality (12q14/HMGIC, 6p/HMGIY).
@@ -140,10 +131,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Classify the ovarian neoplasms. Name the hormone secreting tumors of the ovary.</b></summary>
+### Q6. Classify the ovarian neoplasms. Name the hormone secreting tumors of the ovary.
 
 ### Classification (by cell of origin)
 | Category | Tumours |
@@ -166,10 +155,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Classify germ cell tumor of ovary. What is dermoid cyst?</b></summary>
+### Q7. Classify germ cell tumor of ovary. What is dermoid cyst?
 
 ### Classification of ovarian germ cell tumours
 - **Teratomas** (the "differentiated" group):
@@ -194,10 +181,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What do you mean by Krukenberg tumor?</b></summary>
+### Q8. What do you mean by Krukenberg tumor?
 
 🔴 **Krukenberg tumour = a BILATERAL metastatic ovarian tumour containing mucin-filled SIGNET-RING cells**, usually from **gastric carcinoma** (also colon, breast, biliary, pancreas). The ovaries are typically **enlarged bilaterally**, firm, and often retain an ovarian shape. It is a **metastatic** (secondary) tumour, NOT a primary ovarian neoplasm.
 
@@ -209,10 +194,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What is Meigs syndrome?</b></summary>
+### Q9. What is Meigs syndrome?
 
 🔴 **Meigs syndrome = the triad of an OVARIAN FIBROMA (>6 cm) + ASCITES + RIGHT-SIDED HYDROTHORAX.** The ascites and pleural effusion **disappear after removal of the fibroma**. Association with **basal cell nevus (Gorlin) syndrome**.
 
@@ -224,10 +207,8 @@ Bizarre nuclei, cellular, **intravenous leiomyomatosis** (extends into vessels �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Short note: Dysgerminoma.</b></summary>
+### Q10. Short note: Dysgerminoma.
 
 ### Definition
 🔴 **Dysgerminoma = the ovarian counterpart of testicular SEMINOMA.** 2% of ovarian cancers but **~50% of malignant ovarian germ cell tumours**; **75% occur in the 2nd–3rd decades**; associated with **gonadal dysgenesis**.
@@ -249,10 +230,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Enumerates the functions of placenta.</b></summary>
+### Q11. Enumerates the functions of placenta.
 
 1. **Materno-fetal exchange** — oxygen, CO₂, nutrients (glucose, amino acids, fatty acids), electrolytes, waste (urea, bilirubin) across the placental membrane.
 2. **Hormone production** — 🔴 **hCG** (from syncytiotrophoblast), **hPL** (human placental lactogen), **estrogen, progesterone**, relaxin.
@@ -266,10 +245,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Enumerates the indications of pregnancy test.</b></summary>
+### Q12. Enumerates the indications of pregnancy test.
 
 1. **Diagnosis of pregnancy** — the most common indication.
 2. **Evaluation of abnormal pregnancy** — threatened/missed abortion, **ectopic pregnancy** (serial quantitative hCG), molar pregnancy (markedly elevated hCG).
@@ -284,10 +261,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Mention the methods employed in pregnancy test?</b></summary>
+### Q13. Mention the methods employed in pregnancy test?
 
 - **Urine tests (qualitative, home/immunochromatographic):** **Monoclonal antibody-based immunoassays** (dipstick/cassette) detecting β-hCG — rapid, 5–10 min.
 - **Serum tests:**
@@ -302,10 +277,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Give the principle of pregnancy tests. How pregnancy is diagnosed immunologically?</b></summary>
+### Q14. Give the principle of pregnancy tests. How pregnancy is diagnosed immunologically?
 
 ### Principle
 🔴 **All pregnancy tests detect HUMAN CHORIONIC GONADOTROPIN (hCG)** — a glycoprotein hormone secreted by the **syncytiotrophoblast** of the placenta, present in maternal blood and urine from ~8–10 days after conception. Detection is by **antigen–antibody (immunologic) reaction** using **monoclonal antibodies specific for the β-subunit of hCG** (α-subunit cross-reacts with LH/FSH/TSH — so β-specificity is essential).
@@ -322,10 +295,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Short note: Pregnancy test.</b></summary>
+### Q15. Short note: Pregnancy test.
 
 - **What:** A laboratory/point-of-care test detecting **β-hCG** in urine or serum — the earliest and most reliable marker of pregnancy (positive by ~8–10 days after conception).
 - **Methods:** Urine qualitative immunochromatography (home kits) · serum quantitative immunoassay (ELISA/CLIA/RIA) — the gold standard for monitoring.
@@ -338,12 +309,10 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
 # PART B — Ovarian Tumor: SAQs (1–40)
 
-<details>
-<summary><b>SAQ 1. Classify ovarian tumors according to their cell of origin.</b></summary>
+### SAQ 1. Classify ovarian tumors according to their cell of origin.
 
 ① **Surface epithelial–stromal (müllerian)** — serous, mucinous, endometrioid, clear cell, Brenner; ② **Germ cell** — teratoma, dysgerminoma, yolk sac, choriocarcinoma; ③ **Sex cord–stromal** — granulosa, thecoma/fibroma, Sertoli-Leydig, hilus; ④ **Metastatic** — Krukenberg, breast/colon.
 
@@ -355,10 +324,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 2. Name the major categories of ovarian tumors.</b></summary>
+### SAQ 2. Name the major categories of ovarian tumors.
 
 **Epithelial (~65%), germ cell (15–20%), sex cord–stromal (~5–10%), metastatic/others.**
 
@@ -370,10 +337,8 @@ Stem-cell markers **OCT3, OCT4, NANOG**; **activating KIT mutations in ~⅓** (t
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 3. What are surface epithelial–stromal tumors? Give four examples.</b></summary>
+### SAQ 3. What are surface epithelial–stromal tumors? Give four examples.
 
 Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. Four examples: **Serous, mucinous, endometrioid, clear cell** (+ Brenner, undifferentiated, carcinosarcoma).
 
@@ -385,10 +350,8 @@ Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. F
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 4. Enumerate the types of serous ovarian tumors.</b></summary>
+### SAQ 4. Enumerate the types of serous ovarian tumors.
 
 **Benign serous cystadenoma** (→ cystadenofibroma) · **Borderline (atypical proliferative)** · **Serous carcinoma** (low-grade = micropapillary; high-grade).
 
@@ -400,10 +363,8 @@ Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. F
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 5. Enumerate the types of mucinous ovarian tumors.</b></summary>
+### SAQ 5. Enumerate the types of mucinous ovarian tumors.
 
 **Benign mucinous cystadenoma · borderline · mucinous carcinoma.** (The trichotomy benign → borderline → malignant per lineage.)
 
@@ -415,10 +376,8 @@ Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. F
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 6. Mention the benign, borderline, and malignant forms of epithelial ovarian tumors.</b></summary>
+### SAQ 6. Mention the benign, borderline, and malignant forms of epithelial ovarian tumors.
 
 | Lineage | Benign | Borderline | Malignant |
 |---|---|---|---|
@@ -434,10 +393,8 @@ Tumours derived from the **ovarian surface (coelomic/müllerian) epithelium**. F
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 7. List the important types of germ cell tumors of the ovary.</b></summary>
+### SAQ 7. List the important types of germ cell tumors of the ovary.
 
 Mature & immature teratoma, **dysgerminoma, yolk sac tumor, choriocarcinoma**, embryonal carcinoma, polyembryoma, mixed.
 
@@ -449,10 +406,8 @@ Mature & immature teratoma, **dysgerminoma, yolk sac tumor, choriocarcinoma**, e
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 8. Name the most common benign ovarian germ cell tumor.</b></summary>
+### SAQ 8. Name the most common benign ovarian germ cell tumor.
 
 🔴 **Mature cystic teratoma (dermoid cyst).**
 
@@ -464,10 +419,8 @@ Mature & immature teratoma, **dysgerminoma, yolk sac tumor, choriocarcinoma**, e
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 9. Name the most common malignant germ cell tumor of the ovary.</b></summary>
+### SAQ 9. Name the most common malignant germ cell tumor of the ovary.
 
 🔴 **Dysgerminoma** (~50% of malignant GCTs).
 
@@ -479,10 +432,8 @@ Mature & immature teratoma, **dysgerminoma, yolk sac tumor, choriocarcinoma**, e
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 10. What is a mature cystic teratoma?</b></summary>
+### SAQ 10. What is a mature cystic teratoma?
 
 Benign unilocular cyst with **hair + sebum**, all 3 germ layers, 46,XX, bilateral 10–15%, ~1% → SCC.
 
@@ -494,10 +445,8 @@ Benign unilocular cyst with **hair + sebum**, all 3 germ layers, 46,XX, bilatera
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 11. List the malignant germ cell tumors of the ovary.</b></summary>
+### SAQ 11. List the malignant germ cell tumors of the ovary.
 
 **Dysgerminoma, immature teratoma, yolk sac tumor, choriocarcinoma**, embryonal carcinoma, mixed.
 
@@ -509,10 +458,8 @@ Benign unilocular cyst with **hair + sebum**, all 3 germ layers, 46,XX, bilatera
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 12. Mention the important sex cord–stromal tumors of the ovary.</b></summary>
+### SAQ 12. Mention the important sex cord–stromal tumors of the ovary.
 
 **Granulosa cell tumor, thecoma, fibroma, fibrothecoma, Sertoli-Leydig cell tumor, hilus (Leydig) cell tumor.**
 
@@ -524,10 +471,8 @@ Benign unilocular cyst with **hair + sebum**, all 3 germ layers, 46,XX, bilatera
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 13. What are the common hormone-producing ovarian tumors?</b></summary>
+### SAQ 13. What are the common hormone-producing ovarian tumors?
 
 Granulosa cell (estrogen), thecoma/fibrothecoma (estrogen), Sertoli-Leydig (androgen), hilus cell (testosterone).
 
@@ -539,10 +484,8 @@ Granulosa cell (estrogen), thecoma/fibrothecoma (estrogen), Sertoli-Leydig (andr
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 14. Name the ovarian tumors associated with estrogen production.</b></summary>
+### SAQ 14. Name the ovarian tumors associated with estrogen production.
 
 🔴 **Granulosa cell tumor** (→ endometrial hyperplasia/carcinoma); thecoma/fibrothecoma.
 
@@ -554,10 +497,8 @@ Granulosa cell (estrogen), thecoma/fibrothecoma (estrogen), Sertoli-Leydig (andr
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 15. Name the ovarian tumors associated with androgen production.</b></summary>
+### SAQ 15. Name the ovarian tumors associated with androgen production.
 
 🔴 **Sertoli-Leydig cell tumor** (virilization); **hilus (Leydig) cell tumor** (Reinke crystalloids, testosterone).
 
@@ -569,10 +510,8 @@ Granulosa cell (estrogen), thecoma/fibrothecoma (estrogen), Sertoli-Leydig (andr
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 16. What is a granulosa cell tumor?</b></summary>
+### SAQ 16. What is a granulosa cell tumor?
 
 Estrogen-producing sex cord–stromal tumor (~5% of ovarian tumors; 95% adult type, ~⅔ postmenopausal). Histology: small cuboidal/polygonal cells with **Call-Exner bodies**; **inhibin +**; **FOXL2 mutations in 97% of adult type**; estrogen → precocious puberty (juvenile), endometrial hyperplasia/carcinoma (10–15%). **All potentially malignant (5–25%)**, indolent — late recurrences (10–20 yr); 10-yr survival ~85%.
 
@@ -584,10 +523,8 @@ Estrogen-producing sex cord–stromal tumor (~5% of ovarian tumors; 95% adult ty
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 17. What is a Sertoli-Leydig cell tumor?</b></summary>
+### SAQ 17. What is a Sertoli-Leydig cell tumor?
 
 Masculinizing tumor (virilization: breast atrophy, amenorrhea, hirsutism, clitoral hypertrophy, voice change); **DICER1 mutations in >½**; <5% recur/metastasize.
 
@@ -599,10 +536,8 @@ Masculinizing tumor (virilization: breast atrophy, amenorrhea, hirsutism, clitor
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 18. What is an ovarian fibroma?</b></summary>
+### SAQ 18. What is an ovarian fibroma?
 
 Benign solid gray-white sex cord–stromal tumor, **unilateral ~90%**, hormonally inactive; associated with **Meigs syndrome** and **Gorlin (basal cell nevus) syndrome**.
 
@@ -614,10 +549,8 @@ Benign solid gray-white sex cord–stromal tumor, **unilateral ~90%**, hormonall
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 19. Define Meigs syndrome.</b></summary>
+### SAQ 19. Define Meigs syndrome.
 
 Ovarian **fibroma** (>6 cm) + **ascites** + **right-sided hydrothorax** — resolves after tumor removal.
 
@@ -629,10 +562,8 @@ Ovarian **fibroma** (>6 cm) + **ascites** + **right-sided hydrothorax** — reso
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 20. What is a Krukenberg tumor?</b></summary>
+### SAQ 20. What is a Krukenberg tumor?
 
 Bilateral ovarian metastasis of **signet-ring cells**, most often **gastric** (→ see Q8).
 
@@ -644,10 +575,8 @@ Bilateral ovarian metastasis of **signet-ring cells**, most often **gastric** (�
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 21. Mention the common primary sites that metastasize to the ovary.</b></summary>
+### SAQ 21. Mention the common primary sites that metastasize to the ovary.
 
 Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian — **breast, colon, stomach, biliary tract, pancreas**; Krukenberg (gastric signet-ring).
 
@@ -659,10 +588,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 22. Differentiate primary ovarian tumor from metastatic ovarian tumor.</b></summary>
+### SAQ 22. Differentiate primary ovarian tumor from metastatic ovarian tumor.
 
 | Feature | Primary | Metastatic |
 |---|---|---|
@@ -680,10 +607,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 23. What is the most common malignant ovarian epithelial tumor?</b></summary>
+### SAQ 23. What is the most common malignant ovarian epithelial tumor?
 
 🔴 **High-grade serous carcinoma.**
 
@@ -695,10 +620,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 24. What is the most common ovarian tumor in young women?</b></summary>
+### SAQ 24. What is the most common ovarian tumor in young women?
 
 🔴 **Mature cystic teratoma (dermoid cyst)** (most common overall benign); most common **malignant** in young women = dysgerminoma.
 
@@ -710,10 +633,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 25. Mention the tumor markers used in ovarian tumors.</b></summary>
+### SAQ 25. Mention the tumor markers used in ovarian tumors.
 
 **CA-125** (epithelial/serous — monitoring), **AFP** (yolk sac), **hCG** (choriocarcinoma/dysgerminoma with syncytiotrophoblasts), **inhibin** (granulosa cell), **OCT3/4, NANOG, KIT** (dysgerminoma), **CEA** (mucinous).
 
@@ -733,10 +654,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 26. Write the tumor marker of yolk sac tumor.</b></summary>
+### SAQ 26. Write the tumor marker of yolk sac tumor.
 
 🔴 **AFP (α-fetoprotein)** — also α1-antitrypsin in hyaline globules.
 
@@ -748,10 +667,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 27. Write the tumor marker of dysgerminoma.</b></summary>
+### SAQ 27. Write the tumor marker of dysgerminoma.
 
 🔴 **OCT3/OCT4/NANOG** (+ LDH; mild hCG if syncytiotrophoblasts; **KIT mutations** in ~⅓).
 
@@ -763,10 +680,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 28. Write the tumor marker of granulosa cell tumor.</b></summary>
+### SAQ 28. Write the tumor marker of granulosa cell tumor.
 
 🔴 **Inhibin** (serum + tissue — diagnostic & monitoring) (+ estrogen/FOXL2).
 
@@ -778,10 +693,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 29. Write the tumor marker commonly used for monitoring epithelial ovarian carcinoma.</b></summary>
+### SAQ 29. Write the tumor marker commonly used for monitoring epithelial ovarian carcinoma.
 
 🔴 **CA-125** (used to monitor known disease, NOT a screening test).
 
@@ -793,10 +706,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 30. Mention two molecular abnormalities associated with high-grade serous carcinoma.</b></summary>
+### SAQ 30. Mention two molecular abnormalities associated with high-grade serous carcinoma.
 
 **TP53 mutations (>95%)** and **RB deletions / aneuploidy** (also PIK3CA amplifications); arises from **STIC** (fallopian fimbriae) or cortical inclusion cysts (Type II pathway).
 
@@ -808,10 +719,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 31. Mention two molecular abnormalities associated with endometrioid carcinoma of the ovary.</b></summary>
+### SAQ 31. Mention two molecular abnormalities associated with endometrioid carcinoma of the ovary.
 
 **PTEN, PIK3CA, ARID1A, KRAS, CTNNB1 (β-catenin), MMR defects (MSI)** — the "Type I" low-grade pathway (also endometriosis-associated); quote any two.
 
@@ -823,10 +732,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 32. Mention the characteristic mutation of granulosa cell tumor.</b></summary>
+### SAQ 32. Mention the characteristic mutation of granulosa cell tumor.
 
 🔴 **FOXL2 mutation in 97% of adult-type granulosa cell tumors.**
 
@@ -838,10 +745,8 @@ Müllerian (endometrium, tube, contralateral ovary, peritoneum); extramüllerian
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 33. Mention the characteristic histological feature of dysgerminoma.</b></summary>
+### SAQ 33. Mention the characteristic histological feature of dysgerminoma.
 
 Sheets of **large uniform clear cells** + **fibrous septa with lymphocytes** (± noncaseating granulomas); OCT3/4+.
 
@@ -853,10 +758,8 @@ Sheets of **large uniform clear cells** + **fibrous septa with lymphocytes** (±
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 34. Mention the characteristic histological feature of yolk sac tumor.</b></summary>
+### SAQ 34. Mention the characteristic histological feature of yolk sac tumor.
 
 **Lace-like (reticular) pattern** of cuboidal/flattened cells + **Schiller-Duval bodies** + eosinophilic **hyaline globules (AFP+)**.
 
@@ -868,10 +771,8 @@ Sheets of **large uniform clear cells** + **fibrous septa with lymphocytes** (±
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 35. Mention the characteristic histological feature of granulosa cell tumor.</b></summary>
+### SAQ 35. Mention the characteristic histological feature of granulosa cell tumor.
 
 Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bodies** (follicle-like spaces with eosinophilic material); microfollicular growth; nuclear grooves ("coffee-bean" nuclei).
 
@@ -883,10 +784,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 36. What are Call-Exner bodies?</b></summary>
+### SAQ 36. What are Call-Exner bodies?
 
 🔴 **Small follicle-like glandular spaces containing eosinophilic material** (secretions) surrounded by granulosa cells — a hallmark of **granulosa cell tumor** (mimics primordial follicles).
 
@@ -898,10 +797,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 37. What are Schiller-Duval bodies?</b></summary>
+### SAQ 37. What are Schiller-Duval bodies?
 
 🔴 **Glomerulus-like structures** — a central vessel wrapped in tumor cells inside a tumor-lined space — the signature of **yolk sac (endodermal sinus) tumor**.
 
@@ -913,10 +810,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 38. What are psammoma bodies?</b></summary>
+### SAQ 38. What are psammoma bodies?
 
 **Concentric laminated calcifications (calcified spherules)**; occur in **serous tumors** (benign, borderline, malignant) — common but **not specific**; also seen in papillary thyroid carcinoma and meningioma.
 
@@ -928,10 +823,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 39. What is the usual route of spread of ovarian carcinoma?</b></summary>
+### SAQ 39. What is the usual route of spread of ovarian carcinoma?
 
 🔴 **Transcoelomic — direct shedding/exfoliation onto the peritoneal surfaces** (peritoneal carcinomatosis, omental caking, ascites) → then **lymphatic** (para-aortic) and **hematogenous** (liver, lung).
 
@@ -943,10 +836,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 40. Why is ovarian carcinoma often diagnosed at an advanced stage?</b></summary>
+### SAQ 40. Why is ovarian carcinoma often diagnosed at an advanced stage?
 
 **Vague/insidious early symptoms** (bloating, abdominal discomfort) + **silent intraperitoneal spread before local symptoms**; no effective screening test (CA-125 is not sensitive/specific enough); most present **after spread beyond the ovary** (stage III–IV with peritoneal disease).
 
@@ -958,12 +849,10 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
 # PART C — Ovarian Tumor Cases (1–5)
 
-<details>
-<summary><b>Case 1: Mature Cystic Teratoma</b></summary>
+### Case 1: Mature Cystic Teratoma
 
 > A 24-year-old woman presents with lower abdominal pain. Ultrasonography reveals a unilateral ovarian cyst containing calcified material, hair, and sebaceous material.
 
@@ -987,10 +876,8 @@ Small cuboidal/polygonal cells in follicular patterns with 🔴 **Call-Exner bod
 
 ---
 
-</details>
 
-<details>
-<summary><b>Case 2: Dysgerminoma</b></summary>
+### Case 2: Dysgerminoma
 
 > A 19-year-old woman presents with abdominal distension and pelvic mass. Histology shows sheets of large uniform cells with clear cytoplasm separated by fibrous septa containing lymphocytes.
 
@@ -1017,10 +904,8 @@ Malignant **germ cell tumor** (ovarian counterpart of seminoma).
 
 ---
 
-</details>
 
-<details>
-<summary><b>Case 3: Sertoli-Leydig Cell Tumor</b></summary>
+### Case 3: Sertoli-Leydig Cell Tumor
 
 > A 28-year-old woman develops hirsutism, deepening of voice, amenorrhea, and clitoromegaly. Imaging reveals a unilateral ovarian mass.
 
@@ -1047,10 +932,8 @@ Sertoli-Leydig = **androgen → virilization/masculinization**; granulosa cell =
 
 ---
 
-</details>
 
-<details>
-<summary><b>Case 4: Clear Cell Carcinoma</b></summary>
+### Case 4: Clear Cell Carcinoma
 
 > A 45-year-old woman with long-standing endometriosis develops an ovarian mass. Histology shows malignant cells with clear cytoplasm.
 
@@ -1077,10 +960,8 @@ Sertoli-Leydig = **androgen → virilization/masculinization**; granulosa cell =
 
 ---
 
-</details>
 
-<details>
-<summary><b>Case 5: Krukenberg Tumor</b></summary>
+### Case 5: Krukenberg Tumor
 
 > A 50-year-old woman presents with bilateral ovarian enlargement. Histology shows mucin-filled signet-ring cells in the ovarian stroma. Further investigation reveals gastric carcinoma.
 
@@ -1110,4 +991,3 @@ Bilateral involvement is characteristic of **hematogenous/transcoelomic seeding 
 
 ---
 
-</details>

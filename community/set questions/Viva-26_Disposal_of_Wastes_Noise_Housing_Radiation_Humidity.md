@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What do you mean by sewer, sullage, sludge and sewage? Where you can get sludge? (S10,Q3)</b></summary>
+### Q1. What do you mean by sewer, sullage, sludge and sewage? Where you can get sludge? (S10,Q3)
 
 ### Definitions
 1. **Sewer** — an **underground pipe/conduit** of a sewage system that carries **sewage** (waste water).
@@ -23,10 +22,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Define and classify refuse. List the methods of refuse disposal. What are the components of water carriage system? (S19,Q3)</b></summary>
+### Q2. Define and classify refuse. List the methods of refuse disposal. What are the components of water carriage system? (S19,Q3)
 
 ### Definition of refuse
 > 🔴 **Refuse** = the **waste materials from homes, restaurants and other establishments** in the community — mainly **garbage, rubbish and ashes**.
@@ -59,10 +56,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Illustrate the water seal latrine. (S27,Q3)</b></summary>
+### Q3. Illustrate the water seal latrine. (S27,Q3)
 
 ### Water seal latrine (hand-flushed, for rural families)
 > The **hand-flushed water seal latrine** is the **improved sanitary latrine for rural families**. The trap **holds water and forms the "water seal"**, which prevents flies & odours from the pit escaping into the latrine.
@@ -83,10 +78,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the physical changes in a crowded room. (S10,Q3)</b></summary>
+### Q4. Mention the physical changes in a crowded room. (S10,Q3)
 
 ### Physical changes in an ill-ventilated / crowded room
 1. **Rise in indoor temperature** — from emanation of body heat.
@@ -103,10 +96,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Define and classify humidity. Mention the health effects of humidity. Name the instrument used to measure humidity. (S23,Q3)</b></summary>
+### Q5. Define and classify humidity. Mention the health effects of humidity. Name the instrument used to measure humidity. (S23,Q3)
 
 ### Humidity — definition & classification
 > 🔴 **Humidity (moisture)** = the **amount of water present in a unit volume of air**.
@@ -130,10 +121,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What are the audible and non-audible effects of noise? (S24,Q3)</b></summary>
+### Q6. What are the audible and non-audible effects of noise? (S24,Q3)
 
 ### Auditory (audible) effects of noise
 1. **Auditory fatigue — noise-induced temporary threshold shift (NITTS):** temporary loss, greatest at **90 dB region, 4000–6000 Hz**.
@@ -155,10 +144,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention the source of radiation. State the acute and long term (delayed) effects of radiation. (S25,Q3)</b></summary>
+### Q7. Mention the source of radiation. State the acute and long term (delayed) effects of radiation. (S25,Q3)
 
 ### Sources of radiation exposure
 **A. Natural:**
@@ -188,10 +175,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Enumerate the effects of noise on health. What do you mean by acute radiation sickness syndrome? (S29,Q3)</b></summary>
+### Q8. Enumerate the effects of noise on health. What do you mean by acute radiation sickness syndrome? (S29,Q3)
 
 ### Effects of noise on health
 **Auditory:** auditory fatigue (NITTS) at 90 dB/4000–6000 Hz; **deafness** (>85 dB daily exposure, ~100 dB repeated, >160 dB single → TM rupture).
@@ -209,10 +194,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. List the major measures of controlling noise in an industry. (S30,Q3)</b></summary>
+### Q9. List the major measures of controlling noise in an industry. (S30,Q3)
 
 ### Control of (industrial) noise
 1. **City/industrial planning** — earmark **separate zones for industries** away from residential areas; **green belts** (thickly planted trees/bushes) between industry & dwellings.
@@ -227,4 +210,3 @@
 
 > 📖 Ch-15, Endeavour PDF pp. 519–520
 
-</details>

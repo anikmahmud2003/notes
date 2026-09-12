@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -92,8 +102,8 @@
 
   <h2 id="struct">1 · Vascular Structure &amp; Function</h2>
 
-  <details>
-    <summary>What are the 3 layers of a vessel wall (outside → in)?</summary>
+  <div class="qcard">
+    </div>What are the 3 layers of a vessel wall (outside → in)?</div>
     <div class="ans">
       <table>
         <tr><th>Layer</th><th>Notes</th></tr>
@@ -104,18 +114,18 @@
       <p><em>All vessels except capillaries have these 3 layers.</em></p>
       <p class="ref">Robbins 10e p.485</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>How do capillaries differ in structure?</summary>
+  <div class="qcard">
+    </div>How do capillaries differ in structure?</div>
     <div class="ans">
       <p>About the diameter of a red cell (<strong>7–8 μm</strong>), endothelial lining but <strong>no media</strong>; variable numbers of <strong>pericytes</strong> (smooth-muscle-like cells) lie just deep to the endothelium.</p>
       <p class="ref">Robbins 10e p.485</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Name the 3 types of arteries by size/structure.</summary>
+  <div class="qcard">
+    </div>Name the 3 types of arteries by size/structure.</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Examples</th></tr>
@@ -125,28 +135,28 @@
       </table>
       <p class="ref">Robbins 10e p.485</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What do lymphatics do?</summary>
+  <div class="qcard">
+    </div>What do lymphatics do?</div>
     <div class="ans">
       <p>Thin-walled channels lined by specialized endothelium; return interstitial tissue fluid and inflammatory cells to the bloodstream.</p>
       <p class="ref">Robbins 10e p.485</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the 2 principal mechanisms of vascular disease?</summary>
+  <div class="qcard">
+    </div>What are the 2 principal mechanisms of vascular disease?</div>
     <div class="ans">
       <p><span class="good">(1) Narrowing (stenosis) or complete obstruction of the lumen</span> — progressive (atherosclerosis) or precipitous (thrombosis/embolism). <span class="good">(2) Weakening of vessel walls → dilation or rupture.</span></p>
       <p class="ref">Robbins 10e p.518</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="congenital">2 · Congenital Anomalies of Blood Vessels</h2>
 
-  <details>
-    <summary>Name the 4 congenital anomalies of blood vessels.</summary>
+  <div class="qcard">
+    </div>Name the 4 congenital anomalies of blood vessels.</div>
     <div class="ans">
       <ol>
         <li><strong>Developmental / berry aneurysms</strong> — cerebral vessels; rupture → <strong>fatal intracerebral haemorrhage</strong>.</li>
@@ -156,10 +166,10 @@
       </ol>
       <p class="ref">Robbins 10e p.487</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Give the causes (aetiology) of an AV fistula.</summary>
+  <div class="qcard">
+    </div>Give the causes (aetiology) of an AV fistula.</div>
     <div class="ans">
       <ul>
         <li>Developmental defects</li>
@@ -170,10 +180,10 @@
       </ul>
       <p class="ref">Robbins 10e p.487</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Clinical importance of congenital vascular anomalies?</summary>
+  <div class="qcard">
+    </div>Clinical importance of congenital vascular anomalies?</div>
     <div class="ans">
       <ul>
         <li>Rupture → <strong>intracerebral haemorrhage</strong>.</li>
@@ -181,20 +191,20 @@
       </ul>
       <p class="ref">Robbins 10e p.487</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="htn">3 · Hypertension</h2>
 
-  <details>
-    <summary>Define hypertension.</summary>
+  <div class="qcard">
+    </div>Define hypertension.</div>
     <div class="ans">
       <p><strong>US National Heart, Lung, and Blood Institute:</strong> a <span class="hot">sustained diastolic pressure &gt;89 mmHg, or a sustained systolic pressure &gt;139 mmHg</span> = clinically significant hypertension.</p>
       <p class="ref">Robbins 10e p.489</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify blood pressure in adults.</summary>
+  <div class="qcard">
+    </div>Classify blood pressure in adults.</div>
     <div class="ans">
       <table>
         <tr><th>Category</th><th>Systolic (mmHg)</th><th>Diastolic (mmHg)</th></tr>
@@ -207,10 +217,10 @@
       </table>
       <p class="ref">Robbins 10e p.489</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify the causes of hypertension (essential vs secondary).</summary>
+  <div class="qcard">
+    </div>Classify the causes of hypertension (essential vs secondary).</div>
     <div class="ans">
       <p><strong>Essential (primary) HTN:</strong> <span class="hot">90–95% of all cases</span>.</p>
       <p><strong>Secondary HTN</strong> — by cause:</p>
@@ -224,18 +234,18 @@
       <div class="mnem">🎯 <strong>Pheochromocytoma</strong> = catecholamine-secreting adrenal-medulla tumour → ↑adrenaline &amp; nor-adrenaline → ↑BP.</div>
       <p class="ref">Robbins 10e pp.489–490</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Define malignant (accelerated) hypertension.</summary>
+  <div class="qcard">
+    </div>Define malignant (accelerated) hypertension.</div>
     <div class="ans">
       <p>A clinical syndrome with <span class="hot">severe pressure elevation (SBP &gt;200, DBP &gt;120 mmHg), renal failure, and retinal haemorrhages &amp; exudates</span>, with or without <strong>papilloedema</strong>. May arise de novo, but more often superimposed on pre-existing "benign" HTN.</p>
       <p class="ref">Robbins 10e p.490</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>List the complications of hypertension.</summary>
+  <div class="qcard">
+    </div>List the complications of hypertension.</div>
     <div class="ans">
       <ul>
         <li>↑Risk of atherosclerosis</li>
@@ -250,28 +260,28 @@
       </ul>
       <p class="ref">Robbins 10e p.490</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Hypertension</summary>
-    <details>
-      <summary>Which may cause secondary hypertension? Hypothyroidism · Hyperaldosteronism · Addison's disease · Pheochromocytoma · Renal artery stenosis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Hypertension</div>
+    <div class="qcard">
+      </div>Which may cause secondary hypertension? Hypothyroidism · Hyperaldosteronism · Addison's disease · Pheochromocytoma · Renal artery stenosis</div>
       <div class="ans">Hypothyroidism <span class="ff">F</span> · Hyperaldosteronism <span class="tf">T</span> · Addison's disease <span class="ff">F</span> · Pheochromocytoma <span class="tf">T</span> · Renal artery stenosis <span class="tf">T</span> <span class="ref">(DU-09Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="arterio">4 · Arteriosclerosis (Hardening of the Arteries)</h2>
 
-  <details>
-    <summary>Define arteriosclerosis.</summary>
+  <div class="qcard">
+    </div>Define arteriosclerosis.</div>
     <div class="ans">
       <p>A <strong>generic term for arterial wall thickening and loss of elasticity</strong> (literally <em>"hardening of the arteries"</em>).</p>
       <p class="ref">Robbins 10e p.493</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify arteriosclerosis — the 4 patterns.</summary>
+  <div class="qcard">
+    </div>Classify arteriosclerosis — the 4 patterns.</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Affects</th><th>Key features</th></tr>
@@ -282,38 +292,38 @@
       </table>
       <p class="ref">Robbins 10e p.493; Harsh Mohan 7e p.371</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Distinguish arteriosclerosis vs atherosclerosis.</summary>
+  <div class="qcard">
+    </div>Distinguish arteriosclerosis vs atherosclerosis.</div>
     <div class="ans">
       <p><strong>Arteriosclerosis</strong> = generic <em>wall thickening + loss of elasticity</em>. <strong>Atherosclerosis</strong> = the most frequent/important <em>variety</em>, with intimal lesions (atheromas) that protrude into &amp; obstruct the lumen and weaken the underlying tunica media.</p>
       <div class="mnem">🎯 <strong>Arteriosclerosis = "AAA-M":</strong> Arteriolosclerosis · Atherosclerosis · Mönckeberg · (Fibromuscular hyperplasia). <em>Hyaline = Harmless(ish) HTN; Onion-skin = Ominous (malignant HTN).</em></div>
       <p class="ref">Robbins 10e p.493</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="athero">5 · ATHEROSCLEROSIS — THE KEY CHAPTER</h2>
 
-  <details>
-    <summary>Define atherosclerosis and atheroma.</summary>
+  <div class="qcard">
+    </div>Define atherosclerosis and atheroma.</div>
     <div class="ans">
       <p><strong>Atherosclerosis:</strong> a vascular-disease pattern with intimal lesions called <strong>atheromas</strong> (atheromatous/atherosclerotic plaques) that protrude into &amp; obstruct the vascular lumen and weaken the underlying tunica media.</p>
       <p><strong>Atheroma / atherosclerotic plaque:</strong> a fully developed atherosclerotic lesion — also called <em>fibrous plaque, fibrofatty plaque, or atheroma</em>.</p>
       <p class="ref">Robbins 10e pp.493, 501</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Give the common sites of atherosclerosis (in order).</summary>
+  <div class="qcard">
+    </div>Give the common sites of atherosclerosis (in order).</div>
     <div class="ans">
       <p>(1) Lower abdominal aorta &amp; iliac arteries → (2) Coronary arteries → (3) Popliteal arteries → (4) Internal carotid arteries → (5) Vessels of the circle of Willis.</p>
       <p class="ref">Robbins 10e p.501</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Gross morphology of an atheromatous plaque.</summary>
+  <div class="qcard">
+    </div>Gross morphology of an atheromatous plaque.</div>
     <div class="ans">
       <ul>
         <li><strong>Colour:</strong> yellow-tan, raised; thrombus over ulcerated plaques → red-brown.</li>
@@ -329,10 +339,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.499–502</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Microscopy of an atheromatous plaque — 4 principal components.</summary>
+  <div class="qcard">
+    </div>Microscopy of an atheromatous plaque — 4 principal components.</div>
     <div class="ans">
       <ol>
         <li><strong>Cells:</strong> variable SMC, macrophages, T lymphocytes</li>
@@ -343,18 +353,18 @@
       <p>Some ("<strong>fibrous plaques</strong>") are almost exclusively SMC + fibrous tissue &amp; may be heavily calcified.</p>
       <p class="ref">Robbins 10e p.502</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Complications of an atheromatous plaque.</summary>
+  <div class="qcard">
+    </div>Complications of an atheromatous plaque.</div>
     <div class="ans">
       <p>(1) Mechanical obstruction of blood flow; (2) Rupture → catastrophic obstructive vascular thrombosis; (3) Plaques increase diffusion distance lumen→media → ischaemic injury &amp; wall weakening → aneurysm formation.</p>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Draw/label the components of an atheromatous plaque; types of plaque.</summary>
+  <div class="qcard">
+    </div>Draw/label the components of an atheromatous plaque; types of plaque.</div>
     <div class="ans">
       <h3>Components (diagram, top→bottom)</h3>
       <p><strong>FIBROUS CAP</strong> — SMC, macrophages, foam cells, lymphocytes, collagen, elastin, proteoglycans, neovascularisation.<br>
@@ -369,27 +379,27 @@
       </table>
       <p class="ref">Robbins 10e pp.494, 503</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is a foam cell?</summary>
+  <div class="qcard">
+    </div>What is a foam cell?</div>
     <div class="ans">
       <p>Lipid-laden macrophages and lipid-laden smooth-muscle cells (foamy cytoplasm full of ingested lipid). <em>Monocyte/macrophage and SMC derived.</em></p>
       <p class="ref">Robbins 10e p.499</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is a fatty streak and its significance?</summary>
+  <div class="qcard">
+    </div>What is a fatty streak and its significance?</div>
     <div class="ans">
       <p>Lesions under the endothelium of closely-packed <strong>foam cells</strong> + lipid-containing elongated SMC + a few lymphoid cells + small extracellular lipid, collagen, proteoglycans. Begin as small flat yellow macules → coalesce into elongated streaks (≥1 cm). Prominent in aorta &amp; major arteries, more on the <strong>posterior</strong> than anterior wall.</p>
       <p><strong>Significance:</strong> not raised, no significant flow disturbance — but are <span class="good">precursor lesions of atheromatous plaques</span>.</p>
       <p class="ref">Robbins 10e pp.499, 501</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Non-modifiable risk factors for atherosclerosis.</summary>
+  <div class="qcard">
+    </div>Non-modifiable risk factors for atherosclerosis.</div>
     <div class="ans">
       <ol>
         <li>Genetic abnormalities</li>
@@ -399,10 +409,10 @@
       </ol>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Modifiable (controllable) risk factors for atherosclerosis.</summary>
+  <div class="qcard">
+    </div>Modifiable (controllable) risk factors for atherosclerosis.</div>
     <div class="ans">
       <ol>
         <li>Hyperlipidaemia (esp. hypercholesterolaemia)</li>
@@ -412,10 +422,10 @@
       </ol>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Additional / other risk factors for atherosclerosis.</summary>
+  <div class="qcard">
+    </div>Additional / other risk factors for atherosclerosis.</div>
     <div class="ans">
       <h3>Additional</h3>
       <ul>
@@ -434,10 +444,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.494–497</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Detail on key risk factors: genetics, age, gender.</summary>
+  <div class="qcard">
+    </div>Detail on key risk factors: genetics, age, gender.</div>
     <div class="ans">
       <ul>
         <li><strong>Genetics:</strong> family history = <span class="hot">most important independent risk factor</span>.</li>
@@ -446,18 +456,18 @@
       </ul>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Detail on hyperlipidaemia as a risk factor.</summary>
+  <div class="qcard">
+    </div>Detail on hyperlipidaemia as a risk factor.</div>
     <div class="ans">
       <p>Hypercholesterolaemia is sufficient alone to initiate lesions; atherosclerosis ∝ ↑LDL ("bad cholesterol") and ↓HDL ("good cholesterol").</p>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Detail on HTN, diabetes, metabolic syndrome as risk factors.</summary>
+  <div class="qcard">
+    </div>Detail on HTN, diabetes, metabolic syndrome as risk factors.</div>
     <div class="ans">
       <ul>
         <li><strong>Hypertension:</strong> prematurely accelerates atherosclerosis; ↑risk of IHD (ischaemic heart disease) by ~60%.</li>
@@ -466,10 +476,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.494–497</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>State the etio-pathogenesis of atherosclerosis (sequence).</summary>
+  <div class="qcard">
+    </div>State the etio-pathogenesis of atherosclerosis (sequence).</div>
     <div class="ans">
       <ol>
         <li><strong>Endothelial injury &amp; dysfunction</strong> → ↑vascular permeability, leukocyte adhesion, thrombosis.</li>
@@ -483,26 +493,26 @@
       </ol>
       <p class="ref">Robbins 10e p.497</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Role of lipids in atherogenesis — general.</summary>
+  <div class="qcard">
+    </div>Role of lipids in atherogenesis — general.</div>
     <div class="ans">
       <p>Hyperlipidaemia may initiate endothelial injury, promote foam-cell formation, act as a monocyte chemotactic factor, inhibit macrophage motility, or injure SMCs.</p>
       <p class="ref">Robbins 10e p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mechanism A of lipids — impaired endothelial-cell function.</summary>
+  <div class="qcard">
+    </div>Mechanism A of lipids — impaired endothelial-cell function.</div>
     <div class="ans">
       <p>Chronic hypercholesterolaemia ↑local reactive oxygen species → membrane/mitochondrial damage; free radicals accelerate <strong>nitric oxide (NO)</strong> decay, dampening vasodilation.</p>
       <p class="ref">Robbins 10e p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mechanism B of lipids — modified (oxidised) LDL.</summary>
+  <div class="qcard">
+    </div>Mechanism B of lipids — modified (oxidised) LDL.</div>
     <div class="ans">
       <ul>
         <li>Lipoproteins accumulate in intima; aggregate or become <strong>oxidised</strong> by free radicals from inflammatory cells.</li>
@@ -512,10 +522,10 @@
       </ul>
       <p class="ref">Robbins 10e p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Effects/complications of atherosclerosis in different organs.</summary>
+  <div class="qcard">
+    </div>Effects/complications of atherosclerosis in different organs.</div>
     <div class="ans">
       <table>
         <tr><th>Vessel</th><th>Consequence</th></tr>
@@ -529,10 +539,10 @@
       <p><strong>Acute plaque change:</strong> rupture/fissuring · erosion/ulceration · haemorrhage · thrombus · embolisation.</p>
       <p class="ref">Robbins 10e pp.502, 494</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Prevention of atherosclerosis.</summary>
+  <div class="qcard">
+    </div>Prevention of atherosclerosis.</div>
     <div class="ans">
       <h3>1. Primary prevention</h3>
       <ul>
@@ -547,60 +557,60 @@
       <p>Prevent recurrence of events (e.g., MI).</p>
       <p class="ref">Robbins 10e p.494</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Atherosclerosis risk factors</summary>
-    <details>
-      <summary>Organs affected by atherosclerosis: thrombosis in pulmonary vein · calf vein · pelvic vein · left heart · pulmonary trunk</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Atherosclerosis risk factors</div>
+    <div class="qcard">
+      </div>Organs affected by atherosclerosis: thrombosis in pulmonary vein · calf vein · pelvic vein · left heart · pulmonary trunk</div>
       <div class="ans">Pulmonary vein <span class="ff">F</span> · Calf vein <span class="tf">T</span> · Pelvic vein <span class="ff">F</span> · Left heart <span class="ff">F</span> · Pulmonary trunk <span class="ff">F</span></div>
-    </details>
-    <details>
-      <summary>Risk factors include: increased LDL · antioxidant intake · saturated fatty acids · sedentary lifestyle · cigarette smoking</summary>
+    </div>
+    <div class="qcard">
+      </div>Risk factors include: increased LDL · antioxidant intake · saturated fatty acids · sedentary lifestyle · cigarette smoking</div>
       <div class="ans">↑LDL <span class="tf">T</span> · Antioxidant intake <span class="ff">F</span> · Saturated fat <span class="tf">T</span> · Sedentary lifestyle <span class="tf">T</span> · Smoking <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
-    </details>
-    <details>
-      <summary>Risk factors include (DU-23M): hypercalcaemia · hyperlipidaemia · hypertension · obesity · increased workload</summary>
+    </div>
+    <div class="qcard">
+      </div>Risk factors include (DU-23M): hypercalcaemia · hyperlipidaemia · hypertension · obesity · increased workload</div>
       <div class="ans">Hypercalcaemia <span class="ff">F</span> · Hyperlipidaemia <span class="tf">T</span> · HTN <span class="tf">T</span> · Obesity <span class="tf">T</span> · ↑workload <span class="ff">F</span> <span class="ref">(DU-23M)</span></div>
-    </details>
-    <details>
-      <summary>Risk factors are (RMU-22M): high HDL · smoking · antioxidant intake · eating saturated fat · sedentary lifestyle</summary>
+    </div>
+    <div class="qcard">
+      </div>Risk factors are (RMU-22M): high HDL · smoking · antioxidant intake · eating saturated fat · sedentary lifestyle</div>
       <div class="ans">High HDL <span class="ff">F</span> · Smoking <span class="tf">T</span> · Antioxidant <span class="ff">F</span> · Saturated fat <span class="tf">T</span> · Sedentary lifestyle <span class="tf">T</span> <span class="ref">(RMU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Major modifiable risk factors (DU-210ct/M): obesity · diabetes mellitus · alcohol · high-carb diet · cigarette smoking</summary>
+    </div>
+    <div class="qcard">
+      </div>Major modifiable risk factors (DU-210ct/M): obesity · diabetes mellitus · alcohol · high-carb diet · cigarette smoking</div>
       <div class="ans">Obesity <span class="ff">F</span> · Diabetes <span class="tf">T</span> · Alcohol <span class="ff">F</span> · High-carb diet <span class="ff">F</span> · Smoking <span class="tf">T</span> <span class="ref">(DU-210ct/M)</span></div>
-    </details>
-    <details>
-      <summary>Risk factors affecting (DU-19Nv): increased HDL · homocysteinaemia · antioxidant intake · saturated fatty acid · type A personality</summary>
+    </div>
+    <div class="qcard">
+      </div>Risk factors affecting (DU-19Nv): increased HDL · homocysteinaemia · antioxidant intake · saturated fatty acid · type A personality</div>
       <div class="ans">↑HDL <span class="ff">F</span> · Homocysteinaemia <span class="tf">T</span> · Antioxidant <span class="ff">F</span> · Saturated fatty acid <span class="tf">T</span> · Type A personality <span class="tf">T</span> <span class="ref">(DU-19Nv)</span></div>
-    </details>
-    <details>
-      <summary>Risk factors are (DU-13Ja): diabetes mellitus · homocystinuria · lysosomal storage disease · alcohol intake · partial gastrectomy</summary>
+    </div>
+    <div class="qcard">
+      </div>Risk factors are (DU-13Ja): diabetes mellitus · homocystinuria · lysosomal storage disease · alcohol intake · partial gastrectomy</div>
       <div class="ans">Diabetes <span class="tf">T</span> · Homocystinuria <span class="ff">F</span> · Lysosomal storage disease <span class="ff">F</span> · Alcohol <span class="tf">T</span> · Partial gastrectomy <span class="ff">F</span> <span class="ref">(DU-13Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Atherosclerosis complications &amp; foam cells</summary>
-    <details>
-      <summary>Complications of anthroscleroma include (DU-11Ju): fissuring · calcification · malignant transformation · ossification · haemorrhage</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Atherosclerosis complications &amp; foam cells</div>
+    <div class="qcard">
+      </div>Complications of anthroscleroma include (DU-11Ju): fissuring · calcification · malignant transformation · ossification · haemorrhage</div>
       <div class="ans">Fissuring <span class="tf">T</span> · Calcification <span class="tf">T</span> · Malignant transformation <span class="ff">F</span> · Ossification <span class="ff">F</span> · Haemorrhage <span class="tf">T</span> <span class="ref">(DU-11Ju)</span></div>
-    </details>
-    <details>
-      <summary>Complications of atheromatous lesion (DU-18Ja): intraplaque haemorrhage · thrombus formation · cyst formation · dystrophic calcification · intraplaque granuloma</summary>
+    </div>
+    <div class="qcard">
+      </div>Complications of atheromatous lesion (DU-18Ja): intraplaque haemorrhage · thrombus formation · cyst formation · dystrophic calcification · intraplaque granuloma</div>
       <div class="ans">Intraplaque haemorrhage <span class="tf">T</span> · Thrombus <span class="tf">T</span> · Cyst <span class="ff">F</span> · Dystrophic calcification <span class="tf">T</span> · Intraplaque granuloma <span class="ff">F</span> <span class="ref">(DU-18Ja)</span></div>
-    </details>
-    <details>
-      <summary>Foam cells in atheroma are derived from (DU-10Ju): endothelial cell · monocyte · histiocyte · smooth muscle · neutrophil</summary>
+    </div>
+    <div class="qcard">
+      </div>Foam cells in atheroma are derived from (DU-10Ju): endothelial cell · monocyte · histiocyte · smooth muscle · neutrophil</div>
       <div class="ans">Endothelial cell <span class="ff">F</span> · Monocyte <span class="tf">T</span> · Histiocyte <span class="tf">T</span> · Smooth muscle <span class="tf">T</span> · Neutrophil <span class="ff">F</span> <span class="ref">(DU-10Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="tumours">6 · Vascular Tumours</h2>
 
-  <details>
-    <summary>Classify vascular tumours (by grade).</summary>
+  <div class="qcard">
+    </div>Classify vascular tumours (by grade).</div>
     <div class="ans">
       <p><strong>All endothelial in origin; markers CD31, CD34, von-Willebrand factor (vWF):</strong></p>
       <table>
@@ -611,38 +621,38 @@
       </table>
       <p class="ref">Robbins 10e pp.519–522</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — glomus tumour.</summary>
+  <div class="qcard">
+    </div>Short note — glomus tumour.</div>
     <div class="ans">
       <p><strong>Definition:</strong> benign but <span class="hot">exquisitely painful</span> tumour of <strong>modified smooth-muscle cells of the glomus body</strong> (a specialised AV thermoregulatory structure).</p>
       <p><strong>Location:</strong> distal digits, especially <strong>under the fingernails</strong>. <strong>Treatment:</strong> excision is curative.</p>
       <p><strong>Morphology:</strong> usually &lt;1 cm, round, slightly elevated, red-blue firm nodule. Microscopy: nests of specialised glomus cells with branching vascular channels; cells small, uniform, round/cuboidal, scant cytoplasm, ultrastructure like SMC.</p>
       <p class="ref">Robbins 10e p.521</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — haemangioma (definition + types).</summary>
+  <div class="qcard">
+    </div>Short note — haemangioma (definition + types).</div>
     <div class="ans">
       <p><strong>Haemangioma:</strong> benign neoplasm of blood vessels, blood-filled vessels. <strong>Age:</strong> infancy &amp; childhood (7% of all benign tumours of this age). <strong>Most common site:</strong> skin of face &amp; mucosal surfaces.</p>
       <p><strong>Types:</strong> capillary, cavernous, pyogenic granuloma (granulation-tissue type), juvenile/"strawberry".</p>
       <p class="ref">Robbins 10e p.519</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Capillary haemangioma morphology.</summary>
+  <div class="qcard">
+    </div>Capillary haemangioma morphology.</div>
     <div class="ans">
       <p><strong>Gross:</strong> bright red-to-blue, few mm to several cm, level or slightly elevated, intact overlying epithelium.</p>
       <p><strong>Microscopy:</strong> <span class="good">unencapsulated lobules of capillary-sized, thin-walled, blood-filled vessels lined by flattened endothelium surrounded by a layer of pericytes</span>; vessels separated by scant connective tissue; lumens may be thrombosed/organised; haemosiderin pigment; focal scarring.</p>
       <p class="ref">Robbins 10e p.519</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Cavernous haemangioma &amp; pyogenic granuloma histology.</summary>
+  <div class="qcard">
+    </div>Cavernous haemangioma &amp; pyogenic granuloma histology.</div>
     <div class="ans">
       <ul>
         <li><strong>Cavernous haemangioma:</strong> thin-walled cavernous vascular spaces (fully/partly blood-filled) lined by flattened endothelium, separated by scanty stroma.</li>
@@ -650,10 +660,10 @@
       </ul>
       <p class="ref">Robbins 10e p.519</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short notes — lymphangioma, angiosarcoma, spider telangiectasia.</summary>
+  <div class="qcard">
+    </div>Short notes — lymphangioma, angiosarcoma, spider telangiectasia.</div>
     <div class="ans">
       <ul>
         <li><strong>Lymphangioma:</strong> benign lymphatic counterpart of haemangioma. Two types: simple (capillary) &amp; cavernous (<strong>cystic hygroma</strong>).</li>
@@ -662,20 +672,20 @@
       </ul>
       <p class="ref">Robbins 10e pp.520–522</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="aneurysm">7 · Aneurysms &amp; Dissections</h2>
 
-  <details>
-    <summary>Define aneurysm.</summary>
+  <div class="qcard">
+    </div>Define aneurysm.</div>
     <div class="ans">
       <p>A <span class="hot">localised abnormal dilation of a blood vessel or the heart</span>, congenital or acquired. In the aorta → <strong>aortic aneurysm</strong>.</p>
       <p class="ref">Robbins 10e p.504</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>True vs false aneurysm.</summary>
+  <div class="qcard">
+    </div>True vs false aneurysm.</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Definition</th></tr>
@@ -685,10 +695,10 @@
       </table>
       <p class="ref">Robbins 10e pp.504–506</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify aneurysm by shape (saccular vs fusiform).</summary>
+  <div class="qcard">
+    </div>Classify aneurysm by shape (saccular vs fusiform).</div>
     <div class="ans">
       <ul>
         <li><strong>Saccular:</strong> spherical outpouching involving only a portion of the wall (e.g., berry aneurysm).</li>
@@ -696,10 +706,10 @@
       </ul>
       <p class="ref">Robbins 10e p.505</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Give the causes of aneurysm.</summary>
+  <div class="qcard">
+    </div>Give the causes of aneurysm.</div>
     <div class="ans">
       <ol>
         <li>Atherosclerosis</li>
@@ -713,18 +723,18 @@
       </ol>
       <p class="ref">Robbins 10e p.505</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is arterial dissection / aortic dissection?</summary>
+  <div class="qcard">
+    </div>What is arterial dissection / aortic dissection?</div>
     <div class="ans">
       <p>Blood enters a defect in the arterial wall and tunnels through medial or medial-adventitial planes → <strong>blood-filled channel within the aortic wall</strong>. Often (not always) aneurysmal; disastrous if it ruptures through the adventitia.</p>
       <p class="ref">Robbins 10e p.507</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Risk factors of aortic dissection.</summary>
+  <div class="qcard">
+    </div>Risk factors of aortic dissection.</div>
     <div class="ans">
       <p><span class="hot">Hypertension is the major risk factor.</span> Two groups:</p>
       <ol>
@@ -733,30 +743,30 @@
       </ol>
       <p class="ref">Robbins 10e p.507</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Clinical features of aortic dissection; cause of death.</summary>
+  <div class="qcard">
+    </div>Clinical features of aortic dissection; cause of death.</div>
     <div class="ans">
       <p>Sudden onset of <span class="hot">excruciating pain</span> starting in anterior chest, radiating to the back between scapulae, moving downward as dissection progresses — can be confused with MI.</p>
       <p><strong>Most common cause of death:</strong> <strong>rupture → bleeding into pericardial, pleural, or peritoneal cavities</strong>.</p>
       <p class="ref">Robbins 10e p.507</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="vasculitis">8 · Vasculitis (Vessel-Wall Inflammation)</h2>
 
-  <details>
-    <summary>Define vasculitis.</summary>
+  <div class="qcard">
+    </div>Define vasculitis.</div>
     <div class="ans">
       <p>A general term for <strong>vessel-wall inflammation</strong>, with protean manifestations depending on the vascular bed affected (CNS vs heart vs small bowel).</p>
       <p><strong>Clinical manifestations:</strong> fever, myalgias, arthralgias, malaise. Most vasculitides affect <strong>small vessels</strong>.</p>
       <p class="ref">Robbins 10e p.508</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Pathogenesis of vasculitis — 2 mechanisms.</summary>
+  <div class="qcard">
+    </div>Pathogenesis of vasculitis — 2 mechanisms.</div>
     <div class="ans">
       <ol>
         <li><strong>Infectious vasculitis:</strong> direct invasion by pathogens.</li>
@@ -771,10 +781,10 @@
       </ol>
       <p class="ref">Robbins 10e p.508</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Classify non-infectious vasculitis by mechanism with examples.</summary>
+  <div class="qcard">
+    </div>Classify non-infectious vasculitis by mechanism with examples.</div>
     <div class="ans">
       <table>
         <tr><th>Mechanism</th><th>Examples</th></tr>
@@ -787,10 +797,10 @@
       </table>
       <p class="ref">Robbins 10e pp.508–516</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — giant cell (temporal) arteritis.</summary>
+  <div class="qcard">
+    </div>Short note — giant cell (temporal) arteritis.</div>
     <div class="ans">
       <ul>
         <li><strong>Type:</strong> chronic, classically <em>granulomatous</em> inflammation of large-to-small arteries.</li>
@@ -800,10 +810,10 @@
       </ul>
       <p class="ref">Robbins 10e p.511</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — Takayasu arteritis.</summary>
+  <div class="qcard">
+    </div>Short note — Takayasu arteritis.</div>
     <div class="ans">
       <ul>
         <li><strong>Type:</strong> <em>granulomatous vasculitis of medium &amp; large arteries</em>.</li>
@@ -813,10 +823,10 @@
       </ul>
       <p class="ref">Robbins 10e p.511</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — polyarteritis nodosa (PAN).</summary>
+  <div class="qcard">
+    </div>Short note — polyarteritis nodosa (PAN).</div>
     <div class="ans">
       <ul>
         <li><strong>Type:</strong> systemic vasculitis of small- or medium-sized muscular arteries.</li>
@@ -827,10 +837,10 @@
       </ul>
       <p class="ref">Robbins 10e p.513</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — Kawasaki disease.</summary>
+  <div class="qcard">
+    </div>Short note — Kawasaki disease.</div>
     <div class="ans">
       <ul>
         <li><strong>Nature:</strong> acute, febrile, usually <em>self-limited</em> illness of infancy/childhood with large-to-medium arteritis (80% &lt;4 yr).</li>
@@ -839,10 +849,10 @@
       </ul>
       <p class="ref">Robbins 10e p.514</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — granulomatosis with polyangiitis (GPA / Wegener).</summary>
+  <div class="qcard">
+    </div>Short note — granulomatosis with polyangiitis (GPA / Wegener).</div>
     <div class="ans">
       <p>A necrotising vasculitis with the <span class="hot">triad</span>:</p>
       <ol>
@@ -852,10 +862,10 @@
       </ol>
       <p class="ref">Robbins 10e p.514</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — Churg-Strauss syndrome.</summary>
+  <div class="qcard">
+    </div>Short note — Churg-Strauss syndrome.</div>
     <div class="ans">
       <ul>
         <li><strong>Type:</strong> <em>small-vessel necrotising vasculitis</em>.</li>
@@ -865,10 +875,10 @@
       </ul>
       <p class="ref">Robbins 10e p.515</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note — Buerger disease (thromboangiitis obliterans).</summary>
+  <div class="qcard">
+    </div>Short note — Buerger disease (thromboangiitis obliterans).</div>
     <div class="ans">
       <ul>
         <li><strong>Type:</strong> segmental, thrombosing, acute &amp; chronic inflammation of <em>medium &amp; small arteries</em>, esp. tibial and radial → vascular insufficiency of extremities.</li>
@@ -877,20 +887,20 @@
       </ul>
       <p class="ref">Robbins 10e p.515</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="raynaud">9 · Raynaud Phenomenon</h2>
 
-  <details>
-    <summary>What is Raynaud phenomenon?</summary>
+  <div class="qcard">
+    </div>What is Raynaud phenomenon?</div>
     <div class="ans">
       <p>Exaggerated vasoconstriction of arteries &amp; arterioles in response to <strong>cold or emotion</strong>. Most commonly affects extremities (fingers, toes), occasionally nose, earlobes, lips. Digits show <span class="hot">"red, white, and blue"</span> colour changes (proximal vasodilation, central vasoconstriction, distal cyanosis).</p>
       <p class="ref">Robbins 10e p.516</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Types of Raynaud phenomenon.</summary>
+  <div class="qcard">
+    </div>Types of Raynaud phenomenon.</div>
     <div class="ans">
       <ul>
         <li><strong>Primary Raynaud</strong> (formerly Raynaud disease): caused by cold or emotional stress.</li>
@@ -898,30 +908,30 @@
       </ul>
       <p class="ref">Robbins 10e p.516</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="varicose">10 · Varicose Veins</h2>
 
-  <details>
-    <summary>What are varicose veins?</summary>
+  <div class="qcard">
+    </div>What are varicose veins?</div>
     <div class="ans">
       <p>Abnormally dilated, tortuous veins produced by prolonged, increased intraluminal pressure with vessel dilation and <strong>incompetence of the venous valves</strong>.</p>
       <p class="ref">Robbins 10e p.517</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why are the legs, oesophagus and anal canal special sites?</summary>
+  <div class="qcard">
+    </div>Why are the legs, oesophagus and anal canal special sites?</div>
     <div class="ans">
       <p>Superficial veins of upper &amp; lower leg are commonly involved because venous pressures can be markedly elevated (up to <strong>10× normal</strong>) by prolonged dependent posture. Two other special sites: <span class="good">oesophageal varices &amp; haemorrhoids</span>.</p>
       <p class="ref">Robbins 10e p.517</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
 
-  <details class="rapid" open>
-    <summary>Blood Vessels — one-liners &amp; mnemonics</summary>
+  <div class="qcard rapid">
+    </div>Blood Vessels — one-liners &amp; mnemonics</div>
     <div class="ans">
       <div class="q">🎯 Most common male HTN pattern? Anatomic variant in malignant HTN?</div>
       <div class="a"><strong>Benign HTN → hyaline arteriolosclerosis; malignant HTN → hyperplastic arteriolosclerosis ("onion-skin", fibrinoid necrosis).</strong></div>
@@ -929,7 +939,7 @@
       <div class="q">🎯 "Pulseless disease" = ? · "Red, white and blue" digits = ? · Exquisitely painful subungual tumour = ?</div>
       <div class="a">Pulseless disease = <strong>Takayasu arteritis</strong> · red-white-blue = <strong>Raynaud phenomenon</strong> · painful subungual tumour = <strong>glomus tumour</strong>.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

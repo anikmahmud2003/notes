@@ -12,16 +12,13 @@
 
 ## Non-communicable diseases (NCDs) .
 
-<details>
-<summary><b>Q. Define non-communicable diseases.</b></summary>
+### Q. Define non-communicable diseases.
 
 **Non-communicable diseases:** oo.
 These are a group of chronic diseases where the causative agents are not clearly identified, but a set of
 risk factors have been identified to be associated.
-</details>
 
-<details>
-<summary><b>Q. State the cardinal characteristics of non-communicable diseases. [DU-06S]</b></summary>
+### Q. State the cardinal characteristics of non-communicable diseases. [DU-06S]
 
 **Cardinal characteristics of non-communicable diseases:** The commission on chronic illness in USA has
 defined “Non communicable disease” which have one or more of the following characteristics —
@@ -57,26 +54,20 @@ To memorize them effortlessly, use the acronym **"P-R-A-I-S"** (Praise) or follo
 4. **Special training:** এখন তাকে নতুন করে চলাফেরা বা থেরাপি নেওয়ার জন্য **স্পেশাল ট্রেনিং** দিতে হবে।
 5. **Long supervision:** সবশেষে, এই অবস্থায় টিকে থাকার জন্য তাকে আজীবন **দীর্ঘদিন ডাক্তারের তত্ত্বাবধান** বা কেয়ারে থাকতে হবে।
 
-</details>
 
-<details>
-<summary><b>Q. What are the differences between communicable & non-communicable diseases? [CU-10J,</b></summary>
+### Q. What are the differences between communicable & non-communicable diseases? [CU-10J,
 
 SUST-17N/M,12Ju]
 Differences between communicable & non-communicable diseases:
 Transmitted from person to person
 2) Agent /risk factor _| Agent responsible
 i
-</details>
 
-<details>
-<summary><b>Q. Write down the common [SUST-16M,15Ju] / 5 chronic [SUST-13J] /5 important [CU-13J,</b></summary>
+### Q. Write down the common [SUST-16M,15Ju] / 5 chronic [SUST-13J] /5 important [CU-13J,
 
 SUST-18N,17N,16N/J] non-communicable diseases of Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. Mention five non-communicable diseases prevalent in your locality. [CU-12Ju]</b></summary>
+### Q. Mention five non-communicable diseases prevalent in your locality. [CU-12Ju]
 
 **Common non-communicable disease prevalent in Bangladesh:**
 1) Cardiovascular diseases:
@@ -89,10 +80,8 @@ SUST-18N,17N,16N/J] non-communicable diseases of Bangladesh.
 5) Mental illness.
 6) Blindness.
 7) Accidents.
-</details>
 
-<details>
-<summary><b>Q. What are the impacts of non-communicable diseases?</b></summary>
+### Q. What are the impacts of non-communicable diseases?
 
 **Impacts of non-communicable diseases:**
 1) Loss of life.
@@ -100,10 +89,8 @@ SUST-18N,17N,16N/J] non-communicable diseases of Bangladesh.
 3) Family hardship.
 4) Poverty.
 5) Economic loss of the country.
-</details>
 
-<details>
-<summary><b>Q. Why non-communicable diseases are increasing in developing countries? [CU-10J, SUST-10J]<br>Q. Why non-communicable diseases are increasing in Bangladesh?</b></summary>
+### Q. Why non-communicable diseases are increasing in developing countries? [CU-10J, SUST-10J]<br>Q. Why non-communicable diseases are increasing in Bangladesh?
 
 . At Present, most countries of the South-East Asia Region are passing through demographic and |
 epidemiological transition: Improvement of health status resulting from economic development, improved
@@ -148,10 +135,8 @@ diseased and non-diseased states.
   - Chronic diseases (e.g., cancer) the underlying pathological processes are well established
 long before the disease manifests itself.
 [Ref- Park /24" / 382]
-</details>
 
-<details>
-<summary><b>Q. Write down the preventive measures for non-communicable diseases. [SUST-10Ju]<br>Q. Mention the measures for prevention and control of NCDs. [DU-18N]</b></summary>
+### Q. Write down the preventive measures for non-communicable diseases. [SUST-10Ju]<br>Q. Mention the measures for prevention and control of NCDs. [DU-18N]
 
 Ansv ee
 Platr‘to prevent non-communicable diseases:
@@ -174,10 +159,8 @@ drug abuse.
 9) The integrated programme for the prevention and control of non-communicable diseases.
 [Ref- Park / 24" / 382]
 Coronary Heart Disease (CHD)
-</details>
 
-<details>
-<summary><b>Viva Q. Name the principal cardiovascular diseases.</b></summary>
+### Viva Q. Name the principal cardiovascular diseases.
 
 **Principal cardiovascular diseases:** The principal cardiovascular diseases include-
 1) Coronary heart disease (CHD) / ischaemic heart disease (IHD) / Coronary artery disease.
@@ -207,10 +190,8 @@ LDLs undergo in situ oxidation making them more difficult to mobilize & locally 
 Smooth muscle cells migrate to the lesion. :
 Thrombosis formation.
 Partial or complete occlusion of blood vessel,
-</details>
 
-<details>
-<summary><b>Q. Mention the clinical manifestations of CHD.<br>Q. How CHD present itself?</b></summary>
+### Q. Mention the clinical manifestations of CHD.<br>Q. How CHD present itself?
 
 **Clinical manifestations of CHD:**
 Angina pectoris of effort.
@@ -218,16 +199,12 @@ Myocardial infarction (MI).
 Irregularities of the heart.
 Cardiac failure.
 Sudden death.
-</details>
 
-<details>
-<summary><b>QS S88</b></summary>
+### QS S88
 
 [Ref- Park /24* /385]
-</details>
 
-<details>
-<summary><b>Q. How can you measure the burden of CHD?</b></summary>
+### Q. How can you measure the burden of CHD?
 
 **Measurement of the burden of CHD:** The burden of CHD may be estimated in various ways-
 1) Proportional mortality ratio: The proportion of all deaths currently attributed to it.
@@ -256,10 +233,8 @@ Sedentary habits
 Stress
 [Ref- Park /24" / 386]
 SNE LALA EE EE NNO
-</details>
 
-<details>
-<summary><b>Q. Enu e the strategies for prevention of coronary heart disease. [RU-11J] ;<br>Q. Di WHO recommended approaches for the prevention of coronary heart disease.</b></summary>
+### Q. Enu e the strategies for prevention of coronary heart disease. [RU-11J] ;<br>Q. Di WHO recommended approaches for the prevention of coronary heart disease.
 
 risk factors of IHD can be prevented? [SUST-05M]
 ow can we control obesity in terms of prevention of CHD, DM and HTN? [CU-05M]
@@ -305,10 +280,8 @@ to prevent recurrence, delay progress & effectively hinder complications. It inv
 - Lipid lowering agent (clofibrate)
 - Anti-thrombotic agent (aspirin).
 [Ref- Park /24" / 388]
-</details>
 
-<details>
-<summary><b>Q. Enumerate primordial prevention of CHD.</b></summary>
+### Q. Enumerate primordial prevention of CHD.
 
 Primordial prevention of CHD; Cigarette smoking, alcohol intake, high fat diet, sedentary life style, stress
 (type-1 personality) are acquired life style, which are import risk factor for development of CHD.
@@ -317,10 +290,8 @@ is the time when life style are formed.
   - We know that in primordial prevention efforts are directed towards in changing children for
 adoptive harmful lifestyle.
 [Ref- Park /24™ / 388]
-</details>
 
-<details>
-<summary><b>Q. Whats hypertension? What are the stages of hypertension?</b></summary>
+### Q. Whats hypertension? What are the stages of hypertension?
 
   - Hipertension: Hypertension is defined as persistently raised systolic blood pressure of 140 mmHg or greater
 andWiastolic blood pressure of 90 mmHg or greater in subjects who are not taking antihypertensive medication.
@@ -360,10 +331,8 @@ e) Drugs:
   - Anabolic steroids.
   - NSAIDs,
 i [Ref- Rashid, Khabir, Hyder /4" /227]
-</details>
 
-<details>
-<summary><b>Q. vi € gown the risk factors [DU-17M,14J,12Ju, SUST-17M, RU-15Ju,11J, CU-14Ju] / importat</b></summary>
+### Q. vi € gown the risk factors [DU-17M,14J,12Ju, SUST-17M, RU-15Ju,11J, CU-14Ju] / importat
 
 1
 isk ctors [SUST-18N] of hypertension.
@@ -404,10 +373,8 @@ figure is as follows —
 7) Diagnosed and treated
 8) Inadequately treated
 Figure: Hypertension in the community. 9) Adequately treated
-</details>
 
-<details>
-<summary><b>Q. Comment on “tracking” of blood pressure. ‘</b></summary>
+### Q. Comment on “tracking” of blood pressure. ‘
 
 **Tracking of blood pressure:**
 If blood pressure levels of individuals were followed up
@@ -426,10 +393,8 @@ adolescents “at risk" of developing hypertension as a future date.
 Time
 Fig: Tracking of blood pressure.
 [Ref- Park / 24" /392]
-</details>
 
-<details>
-<summary><b>Q. Discuss the diet of a hypertensive patient. [SUST-14Ju]</b></summary>
+### Q. Discuss the diet of a hypertensive patient. [SUST-14Ju]
 
 **Diet of a hypertensive patient:**
 1) Good general nutrition and weight reduction for the obese.
@@ -437,10 +402,8 @@ Fig: Tracking of blood pressure.
 3) Taking regular physical exercise.
 4) Increasing consumption of fruit and vegetables.
 5) Reducing alcohol intake.
-</details>
 
-<details>
-<summary><b>Q. state preeuton & control measures for hypertension. [DU-16J,13Ju]<br>Q. hypertension can be prevented? [SUST-17M]</b></summary>
+### Q. state preeuton & control measures for hypertension. [DU-16J,13Ju]<br>Q. hypertension can be prevented? [SUST-17M]
 
 **Prevéntion of HTN:**
 4 1. Prima revention:
@@ -463,10 +426,8 @@ b. Treatment.
 c. Patient compliance.
 [Ref- Park /24" /394]
 EEE ENS
-</details>
 
-<details>
-<summary><b>Q. Mention the complications of untreated hypertension.</b></summary>
+### Q. Mention the complications of untreated hypertension.
 
 Complications of yntreated hypertension;
 1) Hypertensive cardiovascular diseases:
@@ -544,20 +505,16 @@ _7) Facilities for the long-term follow up of patients are essential.
 BY Education and training of health personnel and of the public.
 [Ref- Park /24" /397]
 Rheumatic fever
-</details>
 
-<details>
-<summary><b>Q. Define rheumatic fever (RF) / rheumatic heart disease (RHD).</b></summary>
+### Q. Define rheumatic fever (RF) / rheumatic heart disease (RHD).
 
 **Rheumatic fever (RF) / rheumatic heart disease (RHD):**
 Rheumatic fever is a febrile disease affecting connective tissues particularly
 initiated by infection of the throat by group-A beta haemolytic streptococci.
 in the heart and joints .
 [Ref- Park /24"/397]
-</details>
 
-<details>
-<summary><b>Q. What are the consequences of rheumatic heart disease (RHD)?</b></summary>
+### Q. What are the consequences of rheumatic heart disease (RHD)?
 
 **Consequences of rheumatic heart disease RHD):** \
 1) Continuing damage to the heart. }
@@ -568,10 +525,8 @@ in the heart and joints .
 ——————E———eeE
 SAQ, MCQ), VIVA & Osp
 ‘ U-10J]
-</details>
 
-<details>
-<summary><b>Q. Illustrate the epidemiological features of rheumatic ayaa<br>Q. Discuss the host and environmental factors of rheumatic<br>Q. Mention the aetiological factors of rheumatic fever. [RU-154]</b></summary>
+### Q. Illustrate the epidemiological features of rheumatic ayaa<br>Q. Discuss the host and environmental factors of rheumatic<br>Q. Mention the aetiological factors of rheumatic fever. [RU-154]
 
 **Epidemiological features of rheumatic fever:**
 a)
@@ -590,10 +545,8 @@ Socioeconomic status: i
 housing and inadequate health services.
 5) High risk groups: The school-age children between 5 and 15 years, slum dwellers and
 those living in a closed community (e.g. barracks) [Ref Park / 24/397
-</details>
 
-<details>
-<summary><b>Q. Sfae‘the revised Jones criteria for the diagnosis of rheumatic fever ;</b></summary>
+### Q. Sfae‘the revised Jones criteria for the diagnosis of rheumatic fever ;
 
 - What are the criteria which help in diagnosis of rheumatic fever? [DU-16J]
 uckett-Jones criteria for diagnosis of acute rheumatic fever:
@@ -617,10 +570,8 @@ ASO titre raised.
 Positive throat culture.
 Recent scarlet fever,
 [Ref- Rashid, Khabir, Hyder /5" /302]
-</details>
 
-<details>
-<summary><b>Q. Why rheumatic fever is higher in slum dwellers-explain? [RU-18N]</b></summary>
+### Q. Why rheumatic fever is higher in slum dwellers-explain? [RU-18N]
 
 **Rheumatic fever is higher in slum dwellers:** Rheumatic fever is a Social disease, Its incidence is higher in
 slum dwellers due to-
@@ -665,10 +616,8 @@ upto 40 years of age, whichever is longer. (an opinion)
 Ree ne nee enn e ens
 EI SRY
 Cancer
-</details>
 
-<details>
-<summary><b>Q. Define cancer. [DU-04S]</b></summary>
+### Q. Define cancer. [DU-04S]
 
 **Cancer:** Cancer may be regarded as a group of diseases characterized by-
   - An abnormal growth of cells.
@@ -677,10 +626,8 @@ Cancer
 be successfully removed.
 Cancer can occur at any site or tissue of the body and may involve any type of cells.
 [Ref- Park / 24" / 400]
-</details>
 
-<details>
-<summary><b>Q. What are the major categories of cancer?</b></summary>
+### Q. What are the major categories of cancer?
 
 **Major categories of cancer:** .
 1) Carcinomas: Arising from epithelial cells lining the internal surfaces of the various organs (e.g.
@@ -690,10 +637,8 @@ tissue, fat, and bone).
 3) Lymphomas, myeloma and leukaemias: Arising from the cells of bone marrow and immune
 systems.
 [Ref- Park / 24" / 400]
-</details>
 
-<details>
-<summary><b>Q. Wrife‘dofn the warning signs [SUST-12Ju, RU-16N] / danger signs [DU-14J, RU-14Ju] / early</b></summary>
+### Q. Wrife‘dofn the warning signs [SUST-12Ju, RU-16N] / danger signs [DU-14J, RU-14Ju] / early
 
 - 4 ng signs [RU-18M] of cancer.
 **arning signs / danger signs of cancer:**
@@ -705,10 +650,8 @@ systems.
 6) Constant indigestion or difficulty in swallowing.
 7) A change in wart or mole.
 [Ref- Rashid, Khabir, Hyder / 5" /311|
-</details>
 
-<details>
-<summary><b>Q. What are the causes of cancer?<br>Q. Focus on environmental factors of cancer. (DU-14Ju,10Ju]</b></summary>
+### Q. What are the causes of cancer?<br>Q. Focus on environmental factors of cancer. (DU-14Ju,10Ju]
 
 **Causes of cancer:**
 A) Environmental factors:
@@ -734,10 +677,8 @@ Cytomegalovirus (CMV): Kaposi’s sarcoma.
 D |
 B) Genetic factors: For example, retinoblastoma occurs in children of the same parent.
 [Ref- Park /24" / 403] ij
-</details>
 
-<details>
-<summary><b>Q. What agethe common cancers in Bangladesh? [CU-05S]</b></summary>
+### Q. What agethe common cancers in Bangladesh? [CU-05S]
 
 ist common (top) cancers among the male and females prevalent in Bangladesh. [SUST-
 M, CU-14J, 13Ju] :
@@ -774,10 +715,8 @@ kidney.
   - Dietary factors: Smoked fish is related to stomach cancer, dietary fiber to intestinal cancer, beef |
 consumption to bowel cancer and a high fat diet to breast cancer. h
 [Ref- Park / 24" / 403]
-</details>
 
-<details>
-<summary><b>Q. Discuss the role of different agent factors in developing cancer.</b></summary>
+### Q. Discuss the role of different agent factors in developing cancer.
 
 **Agent factors in developing cancer:**
 a) Physical agents: e.g. UV radiation — development of skin cancer. ,
@@ -799,10 +738,8 @@ e)
 Nutrition: Smoked fish is related to stomach cancer, dietary fiber to intestinal cancer, beef
 consumption to bowel cancer and a high fat diet to breast cancer.
 [Ref- Rashid, Khabir, Hyder / 5" / 308-310 + Park / 24" / 403]
-</details>
 
-<details>
-<summary><b>Q. Write about cancer screening?</b></summary>
+### Q. Write about cancer screening?
 
 **Cancer screening:**
 Individuals above age 35 years, who can afford it, may undergo a thorough annual medical check-up by a
@@ -820,10 +757,8 @@ or other blood dyscrasias. Blood biochemistry provides proof of liver and kidney
 5) Mammography helps in the early diagnosis of breast cancer.
 6) Sigmoidoscopy may reveal colorectal cancers.
 [Ref- Rashid, Khabir, Hyder / 5" /312]
-</details>
 
-<details>
-<summary><b>Q. Mention screening test for-</b></summary>
+### Q. Mention screening test for-
 
 - Cacervix
 - Ca breast
@@ -831,10 +766,8 @@ or other blood dyscrasias. Blood biochemistry provides proof of liver and kidney
 **“ Screening test for carcinoma cervix:** Pap smear.
 > Screening test for breast cancer: Mammography, FNAC from breast lump.
 + Screening test for lung cancer: Chest X-ray, CT-guided FNAC from lung mass.
-</details>
 
-<details>
-<summary><b>Q. What are the cancer emergencies?</b></summary>
+### Q. What are the cancer emergencies?
 
 **Cancer emergencies:**
 1. Superior vena cava syndrome (features of superior venacaval obstruction).
@@ -846,10 +779,8 @@ or other blood dyscrasias. Blood biochemistry provides proof of liver and kidney
 7. Raised intracranial pressure.
 _ Q. Give an account of the cancer prevention.
 ;
-</details>
 
-<details>
-<summary><b>Q. Prevalence of cancer is increasing in Bangladesh, why?</b></summary>
+### Q. Prevalence of cancer is increasing in Bangladesh, why?
 
 **preales at cancer is increasing in Bangladesh:** The leading causes are- 1
 win i i ‘ |
@@ -864,10 +795,8 @@ Cigarette smoking / tobacco habit.
 examination or mammography in case of Ca breast). |
 ]
 [Ref- Rashid, Khabir, Hyder / 4" / 288]
-</details>
 
-<details>
-<summary><b>Q. How you prevent cancer? [SUST-18M] |</b></summary>
+### Q. How you prevent cancer? [SUST-18M] |
 
 **Cancer prevention:**
 + Primary prevention:
@@ -885,10 +814,8 @@ examination or mammography in case of Ca breast). |
   - Surgery
   - Radiotherapy
   - Chemotherapy |
-</details>
 
-<details>
-<summary><b>Q. Mention the role of primary prevention in controlling cancer. [RU-13Ju] |</b></summary>
+### Q. Mention the role of primary prevention in controlling cancer. [RU-13Ju] |
 
 **Role of primary prevention in controlling cancer:** |
 Advancing knowledge has increased our understanding of causative factors of some cancers and it is |
@@ -914,10 +841,8 @@ MCQ), VIVA & OSPF
 254 — ENDEAVO UR COMMUNITY MEDICINE FOR WRITTEN (SA
 Carcinoma cervix
 iOn the associated risk factors with cancer cervix. T-06S
-</details>
 
-<details>
-<summary><b>Q. Describe the risk factors of cancer cervix in Bangladesh. [CU-04M, SUS ]</b></summary>
+### Q. Describe the risk factors of cancer cervix in Bangladesh. [CU-04M, SUS ]
 
 **1. Age:** 25 — 45 years.
 2. Intercourse at an early age.
@@ -961,10 +886,8 @@ increasing breast cancer risk.
 economic groups.
 9) Others: Radiation, OCP etc.
 [Ref- Park /24"/ 407]
-</details>
 
-<details>
-<summary><b>Q. Write down the screening and prevention of breast cancer.</b></summary>
+### Q. Write down the screening and prevention of breast cancer.
 
 **Screening for breast cancer:** The basic techniques for early detection of breast cancer are-
   - Breast self-examination (BSE) by the patient.
@@ -987,16 +910,12 @@ B) Secondary prevention:
   - To generate research data that might be useful.
 [Ref- Park / 24" / 405, 408]
 Carcinoma of lung / Bronchogenic carcinoma
-</details>
 
-<details>
-<summary><b>Q. Mention the risk factors of Ca lung. Mention screening and prevention of it.</b></summary>
+### Q. Mention the risk factors of Ca lung. Mention screening and prevention of it.
 
 Q-Prevalence of Ca lung is increasing in Bangladesh, why? Explain.
-</details>
 
-<details>
-<summary><b>Q. High prevalence of Ca lung is a problem for Bangladesh. What preventive measures you</b></summary>
+### Q. High prevalence of Ca lung is a problem for Bangladesh. What preventive measures you
 
 suggest?
 Risk factors of carcinoma of lung / bronchogenic carcinoma:
@@ -1025,10 +944,8 @@ Risk factors for oral cancer:
 4) High risk groups: These include tobacco chewers and smokers, bidi smokers, people using tobacco in
 other forms such as betel, quid; people who sleep with the tobacco quid in the mouth.
 [Ref- Park / 24" / 406]
-</details>
 
-<details>
-<summary><b>Q. Mention the prevention of oral cancer.</b></summary>
+### Q. Mention the prevention of oral cancer.
 
 **Prevention of oral cancer:**
 1) Primary prevention: Elimination of tobacco habits by intensive public education and motivation for
@@ -1048,10 +965,8 @@ Other types (secondary to pancreatic, hormonal, drug-induced, genetic and other 
 2. Impaired glucose tolerance (IGT).
 3. Gestational diabetes mellitus (GDM).
 [Ref- Park /24"/ 410 + Rashid, Khabir, Hyder /5" / 314]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Insulin resistance syndrome.</b></summary>
+### Q. Write short note on: Insulin resistance syndrome.
 
 **Insulin resistance syndrome:**
 In obese patients with type-2 diabetes, the association of hyperglycaemia, hyperinsulinaemia,
@@ -1080,10 +995,8 @@ Chemical agents
 Stress
 Social class
 [Ref- Park / 24" / 412]
-</details>
 
-<details>
-<summary><b>Q. Writetfown the clinical differences between type-1 and type-2 diabetes mellitus.</b></summary>
+### Q. Writetfown the clinical differences between type-1 and type-2 diabetes mellitus.
 
 ation the differences between the clinical presentations of IDDM & NIDDM.
 [Clinical features. | ‘Type DM(DDM) | —“‘Type-2DM(NIDDM) __|
@@ -1106,10 +1019,8 @@ EES en
 9) Low socioeconomic condition. ‘
 10) Genetic syndrome: Down syndrome, Tumer's syndrome, and Klinefelter’s syndrome.
 [Ref- Park / 24" / 412 + Davidson / 23"
-</details>
 
-<details>
-<summary><b>📌 Viva — Natural history of DM</b></summary>
+### 📌 Viva — Natural history of DM
 
 **Natural history of DM:**
 Environmental
@@ -1127,10 +1038,8 @@ Loss of body weight
 General weakness
 KANNAN
 [Ref- Rashid, Khabir, Hyder /5" / 317]
-</details>
 
-<details>
-<summary><b>Q. Discuss the diet of a diabetic & hypertensive patient. [SUST-14Ju]</b></summary>
+### Q. Discuss the diet of a diabetic & hypertensive patient. [SUST-14Ju]
 
 **Dietary management of DM:**
 1) Healthy eating:
@@ -1201,10 +1110,8 @@ complications of diabetes such as blindness, kidney failure, coronary thrombosis
 lower extremities etc.
 [Ref- Park /24"/ 414]
 0}
-</details>
 
-<details>
-<summary><b>Q. Mention the role of Bangladesh Institute of Research and Rehabilitation in Diabetes,</b></summary>
+### Q. Mention the role of Bangladesh Institute of Research and Rehabilitation in Diabetes,
 
 Endocrine and Metabolic Disorders (BIRDEM) for prevention and control of diabetes in
 Bangladesh.
@@ -1219,10 +1126,8 @@ programmes in the field of diabetology.
 5) BIRDEM has its own Postgraduate Academy, running different postgraduate courses in diabetes,
 endocrine and metabolic disorders.
 [Ref- Rashid, Khabir, Hyder / 5" /319]
-</details>
 
-<details>
-<summary><b>Q. Define obesity. [SUST-13Ju,12Ju]<br>Q. Mention the risk factors of obesity and its prevention. [SUST-10J]<br>Q. Explain the preventive approaches for obesity related health problems. [CU-1 1Ju]<br>Q. What are the health risks of obese persons? [SUST-14Ju,13Ju]<br>Q. Write short note on: Obesity. [SUST-16M]</b></summary>
+### Q. Define obesity. [SUST-13Ju,12Ju]<br>Q. Mention the risk factors of obesity and its prevention. [SUST-10J]<br>Q. Explain the preventive approaches for obesity related health problems. [CU-1 1Ju]<br>Q. What are the health risks of obese persons? [SUST-14Ju,13Ju]<br>Q. Write short note on: Obesity. [SUST-16M]
 
 **Obesity:**
 Obesity may be defined as an abnormal growth of the adipose tissue due to an enlargement of fat cell
@@ -1266,10 +1171,8 @@ Prevention of obesity:
 - Secondary prevention:
 - Appetite depressing drug e.g. sibutramine.
 - Surgery (gastric banding, partial gastrectomy).
-</details>
 
-<details>
-<summary><b>Q. A married lady of 30 years old having BMI &gt; 35 is complaining of infertility despite of her 8</b></summary>
+### Q. A married lady of 30 years old having BMI &gt; 35 is complaining of infertility despite of her 8
 
 years married life. Comment on her obesity status. What should be the advices for
 prevention and control of her obesity? [RU-| IJu]
@@ -1282,10 +1185,8 @@ Prevention and control of obesity:
 Prevention & control:
 Please see above.
 Geriatric health
-</details>
 
-<details>
-<summary><b>Q. Discuss the geriatric health problems. [CU-16M,14Ju]<br>Q. Sta oblems of senior citizens of Bangladesh. [DU-16N]</b></summary>
+### Q. Discuss the geriatric health problems. [CU-16M,14Ju]<br>Q. Sta oblems of senior citizens of Bangladesh. [DU-16N]
 
 e common geriatric health problems in Bangladesh. [DU-17N,16M]
 .\Wyife short note on: Geriatric health problems.
@@ -1327,10 +1228,8 @@ Wwe a re
 - Sexual adjustment
 - Emotional disorder
 [Ref- Park /24™/ 631]
-</details>
 
-<details>
-<summary><b>Q. What types of care can be taken to lessen the distresses of senior citizens to pass the end days</b></summary>
+### Q. What types of care can be taken to lessen the distresses of senior citizens to pass the end days
 
 comfortably? [CU-16M,14Ju]
 Care of geriatric age people:
@@ -1350,20 +1249,16 @@ Chapter-'
 06: Epidemiolo, poof Ni
 ouecommunicable Diseases —_____________ 363
 . Modifiable ris
-</details>
 
-<details>
-<summary><b>Q Hen k factors for hypertension: [DU-18N,17N]</b></summary>
+### Q Hen k factors for hypertension: [DU-18N,17N]
 
 b) Sedentary lifestyle,
 c) Family history,
 d) Smoking. ,
 e) Age.
 Ans. a) F, b) T, c) F, d) T, e) F,
-</details>
 
-<details>
-<summary><b>Q. Modifiable risk factors for DM:</b></summary>
+### Q. Modifiable risk factors for DM:
 
 a) Age.
 b) Obesity.
@@ -1372,10 +1267,8 @@ d) Physical activity.
 e) Sex.
 Ans, a) F, b) T, c) F, d) T, e) F.
 [DU-17M]
-</details>
 
-<details>
-<summary><b>Q. Geriatric problems due to aging: [DU-17M]</b></summary>
+### Q. Geriatric problems due to aging: [DU-17M]
 
 a) Atherosclerosis.
 b) Cancer.
@@ -1383,10 +1276,8 @@ c) Glaucoma.
 d) Diabetes mellitus.
 e) Senile cataract.
 Ans. a) F, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Risk factors for cervical cancer include: [DU-16N,15Ju]</b></summary>
+### Q. Risk factors for cervical cancer include: [DU-16N,15Ju]
 
 a) Age between 45-55 years.
 b) Genital warts.
@@ -1394,10 +1285,8 @@ c) High socioeconomic status.
 d) Early marriage.
 e) Repeated child birth.
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Classical symptoms of DM: [DU-16N]</b></summary>
+### Q. Classical symptoms of DM: [DU-16N]
 
 a) Frequency of micturition.
 b) General weakness.
@@ -1405,10 +1294,8 @@ c) Profuse urination.
 d) Sweating.
 e) Tiredness.
 Ans. a) F, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. The major manifestation of rheumatic fever are: [DU-13J,12J]</b></summary>
+### Q. The major manifestation of rheumatic fever are: [DU-13J,12J]
 
 a) prolong P-R interval
 b) fever
@@ -1417,10 +1304,8 @@ d) subcutaneous nodules
 e) polyarthralgia
 Ans. a) F, b) F, c) T, d) T, €) F.
 SAO, MCQ), VIVA & O.
-</details>
 
-<details>
-<summary><b>Q. Risk factors for cervical cancer are: [DU-12Ju,10Ju]</b></summary>
+### Q. Risk factors for cervical cancer are: [DU-12Ju,10Ju]
 
 a) age between 45 to 55 years
 b) genital warts
@@ -1442,5 +1327,4 @@ Insecticides
 a es
 — an ooo
 oor
-</details>
 

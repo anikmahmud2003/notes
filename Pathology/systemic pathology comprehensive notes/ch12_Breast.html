@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -92,8 +102,8 @@
 
   <h2 id="diseases">1 · Diseases of the Breast (Classification)</h2>
 
-  <details>
-    <summary>🔴 Name the diseases of the breast. What are the inflammatory conditions of the breast? Classify tumours / breast carcinoma of the breast.</summary>
+  <div class="qcard">
+    </div>🔴 Name the diseases of the breast. What are the inflammatory conditions of the breast? Classify tumours / breast carcinoma of the breast.</div>
     <div class="ans">
       <h3>Diseases of the breast — four big groups</h3>
       <p><strong>1. Congenital anomalies:</strong></p>
@@ -121,12 +131,12 @@
       <p><strong>4. Tumours of breast</strong> (see next flashcard).</p>
       <p class="ref">Robbins 10e pp.1037–1044 · Harsh Mohan 7e p.751 · BRS Pathology 5e p.311 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="tumours">2 · Classification of Breast Tumours</h2>
 
-  <details>
-    <summary>🔴 Classify tumours of the breast. Classify breast cancer / breast carcinoma (histological + WHO invasive classification). <span class="hot">(Important for VIVA)</span></summary>
+  <div class="qcard">
+    </div>🔴 Classify tumours of the breast. Classify breast cancer / breast carcinoma (histological + WHO invasive classification). <span class="hot">(Important for VIVA)</span></div>
     <div class="ans">
       <h3>A. Benign tumours</h3>
       <p><strong>a. Stromal tumours:</strong></p>
@@ -167,12 +177,12 @@
       <div class="mnem">🎯 <strong>In situ = "good prognosis / non-invasive"; Invasive ≈ "bad"; of all in situ, DCIS 80% &amp; LCIS 20%.</strong></div>
       <p class="ref">Robbins 10e pp.1037–1063 · Harsh Mohan 7e p.751 · BRS Pathology 5e p.311 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="inflamm">3 · Inflammatory Disorders of the Breast (Nice to Know)</h2>
 
-  <details>
-    <summary>🔴 Nice to Know — describe each inflammatory disorder of the breast: acute mastitis, squamous metaplasia of lactiferous ducts (Zuska disease), duct ectasia, fat necrosis, lymphocytic mastopathy, granulomatous mastitis.</summary>
+  <div class="qcard">
+    </div>🔴 Nice to Know — describe each inflammatory disorder of the breast: acute mastitis, squamous metaplasia of lactiferous ducts (Zuska disease), duct ectasia, fat necrosis, lymphocytic mastopathy, granulomatous mastitis.</div>
     <div class="ans">
       <h3>1. Acute mastitis</h3>
       <p>Acute bacterial mastitis typically occurs <span class="hot">during the first month of breastfeeding</span> and is caused by local infection by <strong>Staphylococcus aureus</strong> or, less commonly, <strong>streptococci</strong>. The breast is <strong>erythematous and painful</strong>, and <strong>fever</strong> is often present.</p>
@@ -188,12 +198,12 @@
       <p>Granulomatous inflammation of the breast may be a manifestation of <strong>systemic granulomatous diseases</strong> (e.g., granulomatosis with polyangiitis, sarcoidosis, tuberculosis) <em>or</em> of <strong>inflammatory/infectious disorders localised to the breast</strong>.</p>
       <p class="ref">Robbins 10e p.1040 · Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="fibrocystic">4 · Morphology of Non-Proliferative (Fibrocystic) Changes</h2>
 
-  <details>
-    <summary>Mention the morphology of non-proliferative breast changes (fibrocystic changes).</summary>
+  <div class="qcard">
+    </div>Mention the morphology of non-proliferative breast changes (fibrocystic changes).</div>
     <div class="ans">
       <p>There are <span class="hot">three principal morphologic changes</span>: <strong>(a) cystic change, often with apocrine metaplasia; (b) fibrosis; and (c) adenosis</strong>.</p>
       <h3>1. Cysts</h3>
@@ -204,18 +214,18 @@
       <p><strong>Increase in the number of acini per lobule.</strong> It is a <strong>normal feature of pregnancy</strong>. In nonpregnant women, adenosis can occur as a focal change. The acini are lined by <strong>columnar epithelial cells</strong>, and calcifications are occasionally present within the lumens.</p>
       <p class="ref">Robbins 10e p.1042</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Fibrocystic changes</summary>
+  <div class="quiz"></div>🎯 True/False practice — Fibrocystic changes</div>
     <div class="ans">
-      <details><summary>Fibrocystic changes of breast include: adenosis, dysplasia of ductal epithelial cells, epithelial hypoplasia, apocrine metaplasia, Hürthle cell changes. (RU-19M)</summary><div class="ans">Item <span class="tf">Adenosis = True</span> · <span class="ff">Dysplasia of ductal epithelial cells = False</span> · <span class="ff">Epithelial hypoplasia = False</span> · <span class="ff">Apocrine metaplasia = False</span> (present but marked F in Arif key) · <span class="ff">Hürthle cell changes = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Fibrocystic changes of breast include: adenosis, dysplasia of ductal epithelial cells, epithelial hypoplasia, apocrine metaplasia, Hürthle cell changes. (RU-19M)</div><div class="ans">Item <span class="tf">Adenosis = True</span> · <span class="ff">Dysplasia of ductal epithelial cells = False</span> · <span class="ff">Epithelial hypoplasia = False</span> · <span class="ff">Apocrine metaplasia = False</span> (present but marked F in Arif key) · <span class="ff">Hürthle cell changes = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="fibroadenoma">5 · Fibroadenoma of the Breast</h2>
 
-  <details>
-    <summary>🔴 Short note: Fibroadenoma of the breast. Give its morphology (gross + microscopic features). 🎯 <em>Most common benign tumour of the female breast</em></summary>
+  <div class="qcard">
+    </div>🔴 Short note: Fibroadenoma of the breast. Give its morphology (gross + microscopic features). 🎯 <em>Most common benign tumour of the female breast</em></div>
     <div class="ans">
       <p><strong>Fibroadenoma (adenofibroma):</strong> the <span class="hot">most common benign tumour of the female breast</span>.</p>
       <p><strong>Age:</strong> most patients are between <span class="hot">15 to 30 years</span>. <strong>Number:</strong> frequently <strong>multiple and bilateral</strong>.</p>
@@ -242,12 +252,12 @@
       <div class="mnem">🎯 <strong>Fibroadenoma = "young (15–30), mobile, rubbery, bilateral &amp; multiple." Intracanalicular = compressed slit-like ducts; Pericanalicular = patent ducts ringed by stroma.</strong></div>
       <p class="ref">Robbins 10e p.1062 · Harsh Mohan 7e p.748 · BRS Pathology 5e p.311</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="invasiveductal">6 · Invasive (Ductal) Carcinoma — Morphology</h2>
 
-  <details>
-    <summary>🔴 Give the gross and microscopic features of invasive ductal carcinoma (duct cell / infiltrating duct carcinoma) of the breast.</summary>
+  <div class="qcard">
+    </div>🔴 Give the gross and microscopic features of invasive ductal carcinoma (duct cell / infiltrating duct carcinoma) of the breast.</div>
     <div class="ans">
       <p><strong>Invasive ductal carcinoma (IDC) / infiltrating duct carcinoma-NOS (no other special type):</strong> the <span class="hot">most common (70–80%)</span> breast cancer, found <span class="hot">more frequently in the left breast</span>, often in the <span class="hot">upper-outer quadrant</span>. Its precursor lesion is <strong>ductal carcinoma in situ (DCIS)</strong>.</p>
       <h3>Gross</h3>
@@ -267,12 +277,12 @@
       <div class="mnem">🎯 <strong>IDC = "hard, irregular, grating, chalky-streaked mass; left breast &amp; upper-outer quadrant; solid nests + cords + poorly-formed glands invading fibrous stroma."</strong></div>
       <p class="ref">Robbins 10e p.1055 · Harsh Mohan 7e p.752</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="paget">7 · Paget Disease of the Nipple</h2>
 
-  <details>
-    <summary>🔴 Short note: Paget's disease of the nipple. <span class="hot">(Important for VIVA)</span></summary>
+  <div class="qcard">
+    </div>🔴 Short note: Paget's disease of the nipple. <span class="hot">(Important for VIVA)</span></div>
     <div class="ans">
       <p><strong>Paget disease of the nipple:</strong> a <span class="hot">rare manifestation of breast cancer (1% to 4% of cases)</span> presenting as a <strong>unilateral erythematous eruption with a scale crust</strong>. Pruritus (itching) is common, and the lesion <span class="good">may be mistaken for eczema</span>.</p>
       <p>The nipple bears a <strong>crusted, scaly and eczematoid lesion</strong> with a <strong>palpable subareolar mass in about 50–60%</strong> of cases.</p>
@@ -298,12 +308,12 @@
       <div class="mnem">🎯 <strong>Paget = "eczematoid nipple + large anaplastic Paget cells with a clear halo; ARISES from underlying DCIS that migrates WITHOUT crossing the basement membrane."</strong></div>
       <p class="ref">Robbins 10e p.1053 · Harsh Mohan 7e p.755 · BRS Pathology 5e p.312 · Prof. Khaleque p.134</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="inflammatory">8 · Inflammatory Carcinoma &amp; Peau d'Orange</h2>
 
-  <details>
-    <summary>🔴 What do you mean by inflammatory carcinoma of the breast?</summary>
+  <div class="qcard">
+    </div>🔴 What do you mean by inflammatory carcinoma of the breast?</div>
     <div class="ans">
       <h3>Inflammatory breast cancer</h3>
       <p>The term is used for breast cancers in which there is <strong>redness, oedema, tenderness and rapid enlargement</strong>.</p>
@@ -314,20 +324,20 @@
       <li>The oedematous skin is <strong>tethered to the breast by Cooper ligaments</strong> and mimics the surface of an <strong>orange peel</strong> — appearance referred to as <strong>peau d'orange</strong>.</li>
       </ul>
     </div>
-  </details>
-  <details>
-    <summary>What is peau d'orange? (Important for VIVA)</summary>
+  </div>
+  <div class="qcard">
+    </div>What is peau d'orange? (Important for VIVA)</div>
     <div class="ans">
       <h3>Peau d'orange</h3>
       <p>In <strong>invasive (infiltrating) carcinoma</strong>, lymphatics may become <strong>so involved as to block the local area of skin drainage</strong> &amp; cause <strong>lymphoedema &amp; thickening of the skin</strong>. In such cases the oedematous skin is <strong>tethered to the breast by Cooper ligaments</strong> and mimics the surface of an orange peel — an appearance referred to as <strong>peau d'orange</strong>.</p>
       <p class="ref">Robbins 10e p.1058 · Harsh Mohan 7e p.755 · Pathoma Lecture notes</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="lump">9 · Causes &amp; Clinical Presentation of a Breast Lump</h2>
 
-  <details>
-    <summary>Enumerate the causes of a breast lump (differential diagnosis in a female — 25 / 38 / 20-year-old presentations). Give the clinical presentation of breast cancer.</summary>
+  <div class="qcard">
+    </div>Enumerate the causes of a breast lump (differential diagnosis in a female — 25 / 38 / 20-year-old presentations). Give the clinical presentation of breast cancer.</div>
     <div class="ans">
       <h3>Causes of a breast lump</h3>
       <ol>
@@ -352,10 +362,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1046, 1058</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 How will you proceed to diagnose a case of breast lump in a female (in the pathology laboratory)? Short note: Breast lump and diagnosis.</summary>
+  <div class="qcard">
+    </div>🔴 How will you proceed to diagnose a case of breast lump in a female (in the pathology laboratory)? Short note: Breast lump and diagnosis.</div>
     <div class="ans">
       <h3>A. History taking</h3>
       <ol>
@@ -418,10 +428,10 @@
       </ol>
       <div class="mnem">🎯 <strong>Diagnosis ladder: History → Examination → Investigations (Mammography + USG + MRI + FNAC + Biopsy/histopathology + IHC (ER/PR/HER2) + nipple-discharge cytology).</strong></div>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What do you mean by 'triple technique' in the diagnosis of breast cancer? <span class="hot">(For VIVA)</span></summary>
+  <div class="qcard">
+    </div>🔴 What do you mean by 'triple technique' in the diagnosis of breast cancer? <span class="hot">(For VIVA)</span></div>
     <div class="ans">
       <p><strong>Triple technique in diagnosis of breast cancer</strong> comprises of:</p>
       <ol>
@@ -432,17 +442,17 @@
       <p><strong>N.B.:</strong> Additional techniques such as <strong>stereotactic biopsy</strong> and <strong>frozen section</strong> are immensely valuable to the surgeon for immediate pathological diagnosis in doubtful cases.</p>
       <p class="ref">Harsh Mohan 7e p.750</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Clinical case — A 23-year-old female with a palpable mobile, well-circumscribed lump in the left breast, not fixed to overlying skin. Probable diagnosis?</summary>
+  <div class="qcard">
+    </div>🔴 Clinical case — A 23-year-old female with a palpable mobile, well-circumscribed lump in the left breast, not fixed to overlying skin. Probable diagnosis?</div>
     <div class="ans">
       <p><strong>Probable diagnosis: Fibroadenoma of the breast.</strong></p>
       <h3>Investigations</h3>
     </div>
-  </details>
-  <details>
-    <summary>How would you proceed in the laboratory?</summary>
+  </div>
+  <div class="qcard">
+    </div>How would you proceed in the laboratory?</div>
     <div class="ans">
       <ul>
       <li><strong>Mammography</strong></li>
@@ -451,10 +461,10 @@
       <li><strong>Biopsy &amp; histopathology</strong></li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A 25-year-old female presented with a right breast lump. What are the possible causes?</summary>
+  <div class="qcard">
+    </div>A 25-year-old female presented with a right breast lump. What are the possible causes?</div>
     <div class="ans">
       <h3>Possible causes</h3>
       <ul>
@@ -466,9 +476,9 @@
       </ul>
       <h3>Investigations</h3>
     </div>
-  </details>
-  <details>
-    <summary>What investigations would you perform to establish the diagnosis?</summary>
+  </div>
+  <div class="qcard">
+    </div>What investigations would you perform to establish the diagnosis?</div>
     <div class="ans">
       <ul>
       <li><strong>Ultrasonography</strong> of both breasts and axilla</li>
@@ -478,17 +488,17 @@
       </ul>
       <p><strong>Tumour marker: CA 15-3.</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Clinical case — A 55/50-year-old female with an irregular, hard, skin-fixed breast lump with bloody nipple discharge. Probable diagnosis?</summary>
+  <div class="qcard">
+    </div>🔴 Clinical case — A 55/50-year-old female with an irregular, hard, skin-fixed breast lump with bloody nipple discharge. Probable diagnosis?</div>
     <div class="ans">
       <p><strong>Diagnosis: Carcinoma of the breast.</strong></p>
       <h3>Investigations</h3>
     </div>
-  </details>
-  <details>
-    <summary>How would you confirm / investigate?</summary>
+  </div>
+  <div class="qcard">
+    </div>How would you confirm / investigate?</div>
     <div class="ans">
       <ol>
       <li><strong>Ultrasonography</strong> of both breast and axilla</li>
@@ -498,10 +508,10 @@
       <li><strong>Immunohistochemistry (IHC)</strong> for <strong>ER (oestrogen receptor), PR (progesterone receptor) &amp; HER2 (human epidermal growth factor receptor 2)</strong> testing</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Clinical case — A 60-year-old female with a hard, fixed lump in the right breast (growing for 1 month) plus a right axillary swelling. What is the probable cause of the axillary swelling and your diagnosis?</summary>
+  <div class="qcard">
+    </div>Clinical case — A 60-year-old female with a hard, fixed lump in the right breast (growing for 1 month) plus a right axillary swelling. What is the probable cause of the axillary swelling and your diagnosis?</div>
     <div class="ans">
       <p><strong>Probable cause of axillary swelling: Carcinoma breast with axillary lymph node metastasis.</strong></p>
       <h3>Investigations</h3>
@@ -513,12 +523,12 @@
         <li><strong>Immunohistochemistry (IHC)</strong> for <strong>ER (oestrogen receptor), PR (progesterone receptor) &amp; HER2 (human epidermal growth factor receptor 2)</strong> testing</li>
       </ol>
     </div>
-  </details>
+  </div>
 
   <h2 id="risk">10 · Risk Factors for Breast Cancer</h2>
 
-  <details>
-    <summary>🔴 Write down the risk factors involved in breast cancer. <span class="hot">(V.V.I for VIVA &amp; MCQ)</span></summary>
+  <div class="qcard">
+    </div>🔴 Write down the risk factors involved in breast cancer. <span class="hot">(V.V.I for VIVA &amp; MCQ)</span></div>
     <div class="ans">
       <ol>
         <li><strong>Gender:</strong> <span class="hot">99% of affected patients are female</span>.</li>
@@ -542,23 +552,23 @@
       <div class="mnem">🎯 <strong>N.B. The MAJOR risk factors for breast cancer are HORMONAL and GENETIC.</strong><br>🎯 <strong>Protective factors = breastfeeding, exercise; HRT/obesity/radiation/family history = risk-increasing.</strong></div>
       <p class="ref">Robbins 10e p.1046 · BRS Pathology 5e p.312 · Harsh Mohan 7e p.750</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Risk factors for breast cancer</summary>
+  <div class="quiz"></div>🎯 True/False practice — Risk factors for breast cancer</div>
     <div class="ans">
-      <details><summary>Good prognosis in breast carcinoma: positive BRCA-1/2, positive ER/PR, well differentiation, distant metastasis, high proliferation rate. (DU-24Nv)</summary><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="ff">Distant metastasis = False</span> · <span class="ff">High proliferation rate = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Risk factors for breast cancer: early menarche, early menopause, HRT, family history, increased progesterone. (DU-22Nv)</summary><div class="ans">Item <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="tf">HRT = True</span> · <span class="tf">Family history = True</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Risk factors: increasing age, infertility, oestrogen therapy, breastfeeding, obesity. (BUP-22Nv)</summary><div class="ans">Item <span class="tf">Increasing age = True</span> · <span class="tf">Infertility = True</span> · <span class="tf">Oestrogen therapy = True</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Obesity = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Risk factors: increased mammographic density, early age at 1st live birth, young obese women, breastfeeding, postmenopausal HRT. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Increased mammographic density = True</span> · <span class="tf">Early age at 1st live birth = True</span> · <span class="ff">Young obese women = False</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Postmenopausal HRT = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Risk factors: close relative, early menarche, early menopause, endometrial carcinoma, increased progesterone. (DU-13Ja)</summary><div class="ans">Item <span class="tf">Close relative = True</span> · <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="ff">Endometrial carcinoma = False</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Risk factors for carcinoma breast: germline mutations, 1st-degree relatives with breast cancer, obesity, breastfeeding, severe exercise. (CU-19Nv)</summary><div class="ans">Item <span class="tf">Germline mutations = True</span> · <span class="tf">1st-degree relatives = True</span> · <span class="tf">Obesity = True</span> · <span class="ff">Breastfeeding = False</span> · <span class="ff">Severe exercise = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Good prognosis in breast carcinoma: positive BRCA-1/2, positive ER/PR, well differentiation, distant metastasis, high proliferation rate. (DU-24Nv)</div><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="ff">Distant metastasis = False</span> · <span class="ff">High proliferation rate = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Risk factors for breast cancer: early menarche, early menopause, HRT, family history, increased progesterone. (DU-22Nv)</div><div class="ans">Item <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="tf">HRT = True</span> · <span class="tf">Family history = True</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Risk factors: increasing age, infertility, oestrogen therapy, breastfeeding, obesity. (BUP-22Nv)</div><div class="ans">Item <span class="tf">Increasing age = True</span> · <span class="tf">Infertility = True</span> · <span class="tf">Oestrogen therapy = True</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Obesity = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Risk factors: increased mammographic density, early age at 1st live birth, young obese women, breastfeeding, postmenopausal HRT. (DU-16Ju)</div><div class="ans">Item <span class="tf">Increased mammographic density = True</span> · <span class="tf">Early age at 1st live birth = True</span> · <span class="ff">Young obese women = False</span> · <span class="ff">Breastfeeding = False</span> (protective) · <span class="tf">Postmenopausal HRT = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Risk factors: close relative, early menarche, early menopause, endometrial carcinoma, increased progesterone. (DU-13Ja)</div><div class="ans">Item <span class="tf">Close relative = True</span> · <span class="tf">Early menarche = True</span> · <span class="ff">Early menopause = False</span> · <span class="ff">Endometrial carcinoma = False</span> · <span class="ff">Increased progesterone = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Risk factors for carcinoma breast: germline mutations, 1st-degree relatives with breast cancer, obesity, breastfeeding, severe exercise. (CU-19Nv)</div><div class="ans">Item <span class="tf">Germline mutations = True</span> · <span class="tf">1st-degree relatives = True</span> · <span class="tf">Obesity = True</span> · <span class="ff">Breastfeeding = False</span> · <span class="ff">Severe exercise = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="prognosis">11 · Prognostic Factors of Breast Carcinoma</h2>
 
-  <details>
-    <summary>🔴 Outline the prognostic factors involved in breast carcinoma.</summary>
+  <div class="qcard">
+    </div>🔴 Outline the prognostic factors involved in breast carcinoma.</div>
     <div class="ans">
       <h3>A. Major prognostic factors</h3>
       <ol>
@@ -589,21 +599,21 @@
       <div class="mnem">🎯 <strong>Most important = axillary LN status; second = tumour size. Poor-prognosis flags = distant metastasis, inflammatory carcinoma, lymphovascular invasion, HER2+.</strong></div>
       <p class="ref">Robbins 10e p.1058 · Harsh Mohan 7e p.755</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Prognostic factors in breast carcinoma</summary>
+  <div class="quiz"></div>🎯 True/False practice — Prognostic factors in breast carcinoma</div>
     <div class="ans">
-      <details><summary>Prognostic factors of breast carcinoma: invasion, metastasis, ER/PR, atypical hyperplasia, inflammatory carcinoma. (CMU-22M)</summary><div class="ans">Item <span class="ff">Invasion = False</span> (per CMU-22M marking) · <span class="tf">Metastasis = True</span> · <span class="tf">ER/PR = True</span> · <span class="ff">Atypical hyperplasia = False</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Breast lumps are associated with: pain, nipple discharge, fibrocystic change, peau d'orange, Krukenberg tumours. (RMU-22M)</summary><div class="ans">Item <span class="tf">Pain = True</span> · <span class="tf">Nipple discharge = True</span> · <span class="tf">Fibrocystic change = True</span> · <span class="tf">Peau d'orange = True</span> · <span class="tf">Krukenberg tumours = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Good prognosis breast cancer: positive BRCA-1/2, positive ER/PR, well differentiation, in situ comedocarcinoma, high proliferative rate. (DU-15Ja)</summary><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="tf">In situ comedocarcinoma = True</span> · <span class="ff">High proliferative rate = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Major prognostic factors: invasion, metastasis, oestrogen receptors, histologic subtypes, inflammatory carcinoma. (DU-11/10Ju)</summary><div class="ans">Item <span class="tf">Invasion = True</span> · <span class="tf">Metastasis = True</span> · <span class="ff">Oestrogen receptors = False</span> (minor factor) · <span class="tf">Histologic subtypes = True</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Prognostic factors of breast carcinoma: invasion, metastasis, ER/PR, atypical hyperplasia, inflammatory carcinoma. (CMU-22M)</div><div class="ans">Item <span class="ff">Invasion = False</span> (per CMU-22M marking) · <span class="tf">Metastasis = True</span> · <span class="tf">ER/PR = True</span> · <span class="ff">Atypical hyperplasia = False</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Breast lumps are associated with: pain, nipple discharge, fibrocystic change, peau d'orange, Krukenberg tumours. (RMU-22M)</div><div class="ans">Item <span class="tf">Pain = True</span> · <span class="tf">Nipple discharge = True</span> · <span class="tf">Fibrocystic change = True</span> · <span class="tf">Peau d'orange = True</span> · <span class="tf">Krukenberg tumours = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Good prognosis breast cancer: positive BRCA-1/2, positive ER/PR, well differentiation, in situ comedocarcinoma, high proliferative rate. (DU-15Ja)</div><div class="ans">Item <span class="ff">Positive BRCA-1/2 = False</span> · <span class="tf">Positive ER/PR = True</span> · <span class="tf">Well differentiation = True</span> · <span class="tf">In situ comedocarcinoma = True</span> · <span class="ff">High proliferative rate = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Major prognostic factors: invasion, metastasis, oestrogen receptors, histologic subtypes, inflammatory carcinoma. (DU-11/10Ju)</div><div class="ans">Item <span class="tf">Invasion = True</span> · <span class="tf">Metastasis = True</span> · <span class="ff">Oestrogen receptors = False</span> (minor factor) · <span class="tf">Histologic subtypes = True</span> · <span class="ff">Inflammatory carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="molecular">12 · Molecular Classification of Breast Carcinoma</h2>
 
-  <details>
-    <summary>🔴 Name the molecular subtypes of breast carcinoma. Write the molecular classification / discuss the molecular subtypes of invasive breast carcinoma. <span class="hot">(V.V.I for VIVA)</span></summary>
+  <div class="qcard">
+    </div>🔴 Name the molecular subtypes of breast carcinoma. Write the molecular classification / discuss the molecular subtypes of invasive breast carcinoma. <span class="hot">(V.V.I for VIVA)</span></div>
     <div class="ans">
       <h3>Molecular classification of breast cancer</h3>
       <table>
@@ -617,21 +627,21 @@
       <div class="mnem">🎯 <strong>Basal-like = triple negative (ER−PR−HER2−) = worst prognosis. Luminal A = ER+PR+HER2− = best / endocrine-responsive.</strong></div>
       <p class="ref">Robbins 10e p.1060 · BRS Pathology 5e p.311 · Harsh Mohan 7e p.757</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss the role of ER, PR &amp; HER2 in the prognosis of breast carcinoma. <span class="hot">(V.V.I for VIVA)</span></summary>
+  <div class="qcard">
+    </div>🔴 Discuss the role of ER, PR &amp; HER2 in the prognosis of breast carcinoma. <span class="hot">(V.V.I for VIVA)</span></div>
     <div class="ans">
       <p><strong>ER / PR (oestrogen / progesterone receptors):</strong> tumours that express <strong>both ER &amp; PR (or only ER or PR)</strong> have a <span class="good">better prognosis</span>, because they <strong>respond well to endocrine therapy</strong>.</p>
       <p><strong>HER2 / neu (human epidermal growth factor receptor 2):</strong> presence of <strong>HER2/neu</strong> is associated with a <span class="hot">poorer prognosis</span>, because tumours that overexpress HER2 <strong>tend to metastasize earlier</strong>.</p>
       <p class="ref">BRS Pathology 5e p.312 · Lecture DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="breastca">13 · Short Note on Breast Cancer</h2>
 
-  <details>
-    <summary>Short note: Breast cancer.</summary>
+  <div class="qcard">
+    </div>Short note: Breast cancer.</div>
     <div class="ans">
       <p><strong>Breast cancer:</strong> carcinoma of the breast is the <span class="hot">most common non-skin malignancy in women</span> and is <strong>second only to lung cancer as a cause of cancer deaths</strong>. A woman who lives to age 90 has a <strong>one in eight</strong> chance of developing breast cancer.</p>
       <ul>
@@ -642,20 +652,20 @@
       </ul>
       <div class="mnem">🎯 <strong>Metastasis of breast cancer = "axillary LN → lung → liver → bone."</strong></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="gyneco">14 · The Male Breast — Gynaecomastia</h2>
 
-  <details>
-    <summary>🔴 What do you mean by gynaecomastia?</summary>
+  <div class="qcard">
+    </div>🔴 What do you mean by gynaecomastia?</div>
     <div class="ans">
       <p><strong>Gynaecomastia:</strong> enlargement of the male breast. It may be <strong>unilateral or bilateral</strong> and presents as a <strong>button-like subareolar enlargement</strong>. In advanced cases, the swelling can <strong>simulate the adolescent female breast</strong>.</p>
       <h3>Pathogenesis</h3>
       <p>Gynaecomastia occurs as a result of an <strong>imbalance between oestrogens</strong> (which stimulate breast tissue) and <strong>androgens</strong> (which counteract these effects).</p>
     </div>
-  </details>
-  <details>
-    <summary>What are its causes? Short note: Gynaecomastia. (Important for VIVA)</summary>
+  </div>
+  <div class="qcard">
+    </div>What are its causes? Short note: Gynaecomastia. (Important for VIVA)</div>
     <div class="ans">
       <h3>Causes</h3>
       <ol>
@@ -672,12 +682,12 @@
       </ol>
       <p class="ref">Robbins 10e p.1044 · Harsh Mohan 7e p.748</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs from ch18)</h2>
 
-  <details class="rapid" open>
-    <summary>The Breast — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>The Breast — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">Good prognosis in breast carcinoma related to: positive BRCA-1 and BRCA-2 gene (T/F)? positive ER &amp; PR receptors? well differentiation? distant metastasis? high proliferation rate?</div>
       <div class="a">Positive BRCA-1/2 = <strong>False</strong> · positive ER &amp; PR receptors = <strong>True</strong> · well differentiation = <strong>True</strong> · distant metastasis = <strong>False</strong> · high proliferation rate = <strong>False</strong>.</div>
@@ -751,7 +761,7 @@
       <div class="q">🎯 Which benign breast lesion is 'proliferative with atypia' and raises invasive-carcinoma risk? Which in situ carcinoma is confined and non-metastasizing (good prognosis)?</div>
       <div class="a">Atypical ductal hyperplasia (ADH) &amp; atypical lobular hyperplasia (ALH) · In situ (DCIS/LCIS) carcinoma stays in the ductal system and cannot metastasize.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch11_Gestational_Trophoblastic_Disease.html">← Previous: Gestational Trophoblastic Disease</a></span>

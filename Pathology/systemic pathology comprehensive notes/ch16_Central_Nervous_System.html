@@ -65,7 +65,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -101,8 +111,8 @@
 
   <h2 id="infective">1 · Infective Conditions of the CNS</h2>
 
-  <details>
-    <summary>🔴 What are the infective conditions of the Central Nervous System (CNS)?</summary>
+  <div class="qcard">
+    </div>🔴 What are the infective conditions of the Central Nervous System (CNS)?</div>
     <div class="ans">
       <p><strong>Infective conditions of the CNS (important for VIVA):</strong></p>
       <h3>A. Acute Meningitis</h3>
@@ -159,10 +169,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.1241, 1261–1269</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Name some viruses that cause CNS infection. What are the neurotrophic viruses?</summary>
+  <div class="qcard">
+    </div>Name some viruses that cause CNS infection. What are the neurotrophic viruses?</div>
     <div class="ans">
       <p><strong>Neurotrophic viruses (target nerve tissue specifically):</strong></p>
       <ol>
@@ -180,12 +190,12 @@
       </ol>
       <p class="ref">Robbins 10e p.1264</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="meningitis">2 · Meningitis &amp; Meningoencephalitis</h2>
 
-  <details>
-    <summary>🔴 Define meningitis and meningoencephalitis. How are they classified?</summary>
+  <div class="qcard">
+    </div>🔴 Define meningitis and meningoencephalitis. How are they classified?</div>
     <div class="ans">
       <p><strong>Meningitis:</strong> an inflammatory process of the <strong>leptomeninges</strong> (pia mater + arachnoid mater) and the <strong>cerebrospinal fluid (CSF)</strong> within the subarachnoid space, usually caused by an infection. May also occur in response to a non-bacterial irritant (chemical meningitis).</p>
       <p><strong>Classification of infectious meningitis (by etiology &amp; clinical evolution):</strong></p>
@@ -199,20 +209,20 @@
       <p><strong>Meningoencephalitis:</strong> inflammation of <strong>both the meninges AND the brain parenchyma</strong> (meninges + encephalon = meningoencephalitis).</p>
       <p class="ref">Robbins 10e p.1261</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Meningitis (CSF findings)</summary>
+  <div class="quiz"></div>🎯 True/False practice — Meningitis (CSF findings)</div>
     <div class="ans">
-      <details><summary>Features of CSF in pyogenic meningitis: cobweb formation, decreased protein, cloudy appearance, presence of neutrophils, decreased sugar. (DU-22Nv)</summary><div class="ans">Item <span class="ff">Cobweb formation = False</span> (tubercular) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cloudy appearance = True</span> · <span class="tf">Neutrophils = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
-      <details><summary>CSF findings in tubercular meningitis: neutrophil pleocytosis, decreased protein, cob-web formation, decreased chloride, decreased sugar. (DU-19M)</summary><div class="ans">Item <span class="ff">Neutrophil pleocytosis = False</span> (lymphocytes) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cob-web formation = True</span> · <span class="tf">Decreased chloride = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
-      <details><summary>Viral meningitis: clear CSF, lymphocytes in CSF, polymorphs in CSF, clot formation, blood in CSF. (RU-14Ja)</summary><div class="ans">Item <span class="tf">Clear CSF = True</span> · <span class="tf">Lymphocytes in CSF = True</span> · <span class="ff">Polymorphs in CSF = False</span> · <span class="ff">Clot formation = False</span> · <span class="ff">Blood in CSF = False</span> <span class="ref">(ch31 MCQ)</span></div></details>
+      <div class="qcard"></div>Features of CSF in pyogenic meningitis: cobweb formation, decreased protein, cloudy appearance, presence of neutrophils, decreased sugar. (DU-22Nv)</div><div class="ans">Item <span class="ff">Cobweb formation = False</span> (tubercular) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cloudy appearance = True</span> · <span class="tf">Neutrophils = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></div>
+      <div class="qcard"></div>CSF findings in tubercular meningitis: neutrophil pleocytosis, decreased protein, cob-web formation, decreased chloride, decreased sugar. (DU-19M)</div><div class="ans">Item <span class="ff">Neutrophil pleocytosis = False</span> (lymphocytes) · <span class="ff">Decreased protein = False</span> (increased) · <span class="tf">Cob-web formation = True</span> · <span class="tf">Decreased chloride = True</span> · <span class="tf">Decreased sugar = True</span> <span class="ref">(ch31 MCQ)</span></div></div>
+      <div class="qcard"></div>Viral meningitis: clear CSF, lymphocytes in CSF, polymorphs in CSF, clot formation, blood in CSF. (RU-14Ja)</div><div class="ans">Item <span class="tf">Clear CSF = True</span> · <span class="tf">Lymphocytes in CSF = True</span> · <span class="ff">Polymorphs in CSF = False</span> · <span class="ff">Clot formation = False</span> · <span class="ff">Blood in CSF = False</span> <span class="ref">(ch31 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="demyelin">3 · Demyelinating Diseases of the CNS</h2>
 
-  <details>
-    <summary>🔴 What are the demyelinating diseases of the CNS? (Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 What are the demyelinating diseases of the CNS? (Important for VIVA)</div>
     <div class="ans">
       <p><strong>Demyelinating diseases of the CNS:</strong> acquired conditions characterised by <span class="hot">preferential damage to myelin with relative preservation of axons</span>.</p>
       <ol>
@@ -223,12 +233,12 @@
       </ol>
       <p class="ref">Robbins 10e p.1269</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="degen">4 · Degenerative Diseases of the CNS</h2>
 
-  <details>
-    <summary>🔴 What are the degenerative (neurodegenerative) diseases of the CNS?</summary>
+  <div class="qcard">
+    </div>🔴 What are the degenerative (neurodegenerative) diseases of the CNS?</div>
     <div class="ans">
       <p><strong>Neurodegenerative diseases:</strong> disorders characterised by <strong>progressive loss of particular groups of neurons</strong> that often share functions. The common pathological process = accumulation of <strong>protein aggregates</strong> (hence also called "proteinopathies").</p>
       <h3>Classification</h3>
@@ -246,12 +256,12 @@
       </table>
       <p class="ref">Robbins 10e p.1273</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="haemorrhage">5 · Intracranial Haemorrhage</h2>
 
-  <details>
-    <summary>🔴 What are the causes of intracranial haemorrhage?</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes of intracranial haemorrhage?</div>
     <div class="ans">
       <p><strong>Causes of intracranial haemorrhage:</strong></p>
       <h3>1. Traumatic lesion</h3>
@@ -269,12 +279,12 @@
       </table>
       <p class="ref">Robbins 10e p.1257</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="tumours">6 · Tumours of the CNS — Classification</h2>
 
-  <details>
-    <summary>🔴 Classify tumours of the CNS. (RMU-21/19/17M, CU-10Ja, CMU-24/23M, RMU-24M)</summary>
+  <div class="qcard">
+    </div>🔴 Classify tumours of the CNS. (RMU-21/19/17M, CU-10Ja, CMU-24/23M, RMU-24M)</div>
     <div class="ans">
       <p><strong>Primary CNS (intracranial) tumours</strong> may originate in the brain or spinal cord, or spread from another primary site (metastatic). Primary CNS tumours include tumours arising from constituent cells of the brain (with the sole exception of microglial cells) and from supporting tissues.</p>
       <table>
@@ -291,18 +301,18 @@
       </table>
       <p class="ref">Robbins 10e pp.1241, 1293; Harsh Mohan 7e pp.878, 883</p>
     </div>
-  </details>
+  </div>
 
-  <details id="tumours">
-    <summary>Nice to Know: Where are metastatic tumour deposits in the brain commonly located?</summary>
+  <div class="qcard" id="tumours">
+    </div>Nice to Know: Where are metastatic tumour deposits in the brain commonly located?</div>
     <div class="ans">
       <p>Metastatic tumour deposits in the brain are commonly <strong>multiple</strong>, <strong>well-defined</strong>, and usually located at the <span class="hot">grey-white matter junction</span> (watershed zone where blood supply is most vulnerable to microemboli).</p>
       <p class="ref">Harsh Mohan 7e p.884</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the special characteristics of CNS tumours / brain tumours? (Very Important for VIVA — CMU-21Nv, 20Nv/M, 19/18/17M, 14Ju, 10Ja, BUP-22M; DU-23Nv, CMU-23Nv, CU-18Nv)</summary>
+  <div class="qcard">
+    </div>🔴 What are the special characteristics of CNS tumours / brain tumours? (Very Important for VIVA — CMU-21Nv, 20Nv/M, 19/18/17M, 14Ju, 10Ja, BUP-22M; DU-23Nv, CMU-23Nv, CU-18Nv)</div>
     <div class="ans">
       <p><strong>Differences between tumours of the nervous system and tumours of other parts of the body — four unique characteristics:</strong></p>
       <ol>
@@ -313,12 +323,12 @@
       </ol>
       <p class="ref">Robbins 10e pp.1293, 8th ed. p.1330</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="glioma">7 · Glioma — Astrocytoma, Oligodendroglioma, Ependymoma</h2>
 
-  <details id="glioma">
-    <summary>🔴 What is a glioma? Mention the types of astrocytoma. (CU-19Nv, CMU-24M)</summary>
+  <div class="qcard" id="glioma">
+    </div>🔴 What is a glioma? Mention the types of astrocytoma. (CU-19Nv, CMU-24M)</div>
     <div class="ans">
       <p><strong>Glioma:</strong> all tumours arising from <strong>neuroglia</strong> (or more precisely, from neuroectodermal epithelial tissue). Gliomas are the <span class="hot">most common primary CNS tumours</span>, collectively accounting for <strong>40% of all intracranial tumours</strong>.</p>
       <p>They include tumours arising from:</p>
@@ -339,10 +349,10 @@
       </table>
       <p class="ref">Robbins 10e p.1293; BRS Pathology 5th ed. p.383; Harsh Mohan 7e p.879</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the WHO grading of astrocytomas — Grades I to IV with morphology.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the WHO grading of astrocytomas — Grades I to IV with morphology.</div>
     <div class="ans">
       <h3>WHO Grade I — Pilocytic Astrocytoma (Juvenile Pilocytic Astrocytoma)</h3>
       <ul>
@@ -375,10 +385,10 @@
       </ul>
       <p class="ref">Harsh Mohan 7e p.879; Robbins 10e p.1293</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Oligodendroglioma.</summary>
+  <div class="qcard">
+    </div>Short note: Oligodendroglioma.</div>
     <div class="ans">
       <p><strong>Oligodendroglioma:</strong> malignant tumour of <strong>oligodendrocytes</strong>; presents as a slow-growing tumour in the <strong>middle-age group</strong>, often involving the <strong>frontal lobe</strong> of the cerebral hemisphere. May present as seizures.</p>
       <h3>Gross morphology</h3>
@@ -393,10 +403,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1295; BRS Pathology 5th ed. p.384; Pathoma</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Ependymoma.</summary>
+  <div class="qcard">
+    </div>Short note: Ependymoma.</div>
     <div class="ans">
       <p><strong>Ependymoma:</strong> malignant tumour of <strong>ependymal cells</strong>, usually seen in the <strong>4th ventricle</strong>.</p>
       <h3>Key features</h3>
@@ -406,20 +416,20 @@
       </ul>
       <p class="ref">Robbins 10e p.1293; BRS Pathology 5th ed. p.383; Pathoma</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Glioma (glial tumours)</summary>
+  <div class="quiz"></div>🎯 True/False practice — Glioma (glial tumours)</div>
     <div class="ans">
-      <details><summary>Glioma includes: astrocytoma, oligodendroglioma, schwannoma, neurofibroma, ependymoma. (DU-23M)</summary><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="tf">Oligodendroglioma = True</span> · <span class="ff">Schwannoma = False</span> (nerve sheath) · <span class="ff">Neurofibroma = False</span> (nerve sheath) · <span class="tf">Ependymoma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Following tumours are glioma: meningioma, medulloblastoma, astrocytoma, craniopharyngioma, oligodendroglioma. (DU-11Ju)</summary><div class="ans">Item <span class="ff">Meningioma = False</span> · <span class="ff">Medulloblastoma = False</span> (PNET) · <span class="tf">Astrocytoma = True</span> · <span class="ff">Craniopharyngioma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Tumours of glial cells include: astrocytoma, meningioma, ependymoma, medulloblastoma, oligodendroglioma. (DU-09Ja)</summary><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="ff">Meningioma = False</span> · <span class="tf">Ependymoma = True</span> · <span class="ff">Medulloblastoma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Glioma includes: astrocytoma, oligodendroglioma, schwannoma, neurofibroma, ependymoma. (DU-23M)</div><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="tf">Oligodendroglioma = True</span> · <span class="ff">Schwannoma = False</span> (nerve sheath) · <span class="ff">Neurofibroma = False</span> (nerve sheath) · <span class="tf">Ependymoma = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Following tumours are glioma: meningioma, medulloblastoma, astrocytoma, craniopharyngioma, oligodendroglioma. (DU-11Ju)</div><div class="ans">Item <span class="ff">Meningioma = False</span> · <span class="ff">Medulloblastoma = False</span> (PNET) · <span class="tf">Astrocytoma = True</span> · <span class="ff">Craniopharyngioma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Tumours of glial cells include: astrocytoma, meningioma, ependymoma, medulloblastoma, oligodendroglioma. (DU-09Ja)</div><div class="ans">Item <span class="tf">Astrocytoma = True</span> · <span class="ff">Meningioma = False</span> · <span class="tf">Ependymoma = True</span> · <span class="ff">Medulloblastoma = False</span> · <span class="tf">Oligodendroglioma = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="meningioma">8 · Meningioma</h2>
 
-  <details>
-    <summary>🔴 Short note: Meningioma. (DU-07Ja, SU-12Ju, CU-12Ja)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Meningioma. (DU-07Ja, SU-12Ju, CU-12Ja)</div>
     <div class="ans">
       <p><strong>Meningioma:</strong> the <strong>second most common primary intracranial neoplasm</strong>. Most cases are <strong>benign and slow-growing</strong>. Originates from <strong>arachnoidal cells</strong> of the meninges; is external to the brain and can often be successfully removed surgically. Can cause seizure by compression.</p>
       <p>Uncommon in children; most often occurs <strong>after 30 years of age</strong>; shows moderate (<strong>3:2</strong>) <strong>female predominance</strong>.</p>
@@ -443,12 +453,12 @@
       </ul>
       <p class="ref">Robbins 10e p.1300; BRS Pathology 5th ed. p.384</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="pnst">9 · Peripheral Nerve Sheath Tumours (PNSTs)</h2>
 
-  <details>
-    <summary>🔴 Short note: Peripheral nerve sheath tumours. (CU-16Ju)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Peripheral nerve sheath tumours. (CU-16Ju)</div>
     <div class="ans">
       <p><strong>Peripheral nerve sheath tumours (PNSTs):</strong> a group of benign and malignant neoplasms — all likely arise from cells of <strong>Schwann cell lineage</strong>.</p>
       <h3>Three common PNSTs</h3>
@@ -460,10 +470,10 @@
       <p><strong>Association:</strong> PNSTs have association with relatively common familial tumour syndromes: <strong>NF1, NF2, and schwannomatosis</strong>.</p>
       <p class="ref">Robbins 10e p.1236; BRS Pathology 5th ed. p.385</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Schwannoma. (CMU-23M, 13Ju)</summary>
+  <div class="qcard">
+    </div>Short note: Schwannoma. (CMU-23M, 13Ju)</div>
     <div class="ans">
       <p><strong>Schwannoma:</strong> a <strong>benign tumour</strong> exhibiting Schwann cell differentiation; often arises directly from peripheral nerves. Component of <strong>neurofibromatosis (NF)</strong>.</p>
       <h3>Morphology</h3>
@@ -473,10 +483,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1237</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write in brief about neurofibroma. (CU-20/13Ju, CMU-21M/20Nv)</summary>
+  <div class="qcard">
+    </div>Write in brief about neurofibroma. (CU-20/13Ju, CMU-21M/20Nv)</div>
     <div class="ans">
       <p><strong>Neurofibroma:</strong> a <strong>benign nerve sheath tumour</strong> in the peripheral nervous system.</p>
       <p><strong>Origin:</strong> arises from <strong>non-myelinating-type Schwann cells</strong>. The neoplastic Schwann cells are admixed with perineurial-like cells, fibroblasts, mast cells, and CD34+ spindle cells. May be sporadic or NF1-associated.</p>
@@ -494,10 +504,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1237</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 State the differences between schwannoma and neurofibroma. (CMU-22M, 20M)</summary>
+  <div class="qcard">
+    </div>🔴 State the differences between schwannoma and neurofibroma. (CMU-22M, 20M)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Schwannoma</th><th>Neurofibroma</th></tr>
@@ -512,12 +522,12 @@
       </table>
       <p class="ref">Harsh Mohan 7e p.887</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded CNS MCQs from ch18)</h2>
 
-  <details class="rapid" open>
-    <summary>CNS — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>CNS — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">Glioma includes: Astrocytoma (T/F), Oligodendroglioma (T/F), Schwannoma (T/F), Neurofibroma (T/F), Ependymoma (T/F)? (DU-23M)</div>
       <div class="a">Astrocytoma = <strong>True</strong> · Oligodendroglioma = <strong>True</strong> · Schwannoma = <strong>False</strong> (nerve sheath tumour) · Neurofibroma = <strong>False</strong> (nerve sheath tumour) · Ependymoma = <strong>True</strong>.</div>
@@ -558,7 +568,7 @@
       <div class="q">🎯 Meningioma shows whorled pattern and which calcified structure? NF1 gene is on which chromosome? NF2 gene is on which chromosome?</div>
       <div class="a">Psammoma bodies · NF1 = <strong>chromosome 17</strong> · NF2 = <strong>chromosome 22</strong>.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

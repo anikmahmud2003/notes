@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Why and how small pox was possible to be eradicated? (S1,Q2)</b></summary>
+### Q1. Why and how small pox was possible to be eradicated? (S1,Q2)
 
 ### Why smallpox eradication was possible (epidemiological basis)
 1. **No known animal reservoir** (man is the only host).
@@ -29,10 +28,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Enumerate the characteristics of chicken pox rash? (S1,Q2)</b></summary>
+### Q2. Enumerate the characteristics of chicken pox rash? (S1,Q2)
 
 ### Characteristics of chicken pox rash
 1. **Distribution:** symmetrical; rash is **centripetal** — first & most abundant on the **trunk**, then face, arms; **palms & soles usually not affected**; mucosal surfaces (mouth, conjunctiva) & axilla may be affected.
@@ -48,10 +45,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Mention the complications of chicken pox. (S3,Q2)</b></summary>
+### Q3. Mention the complications of chicken pox. (S3,Q2)
 
 ### Complications of chicken pox
 1. **Haemorrhage (varicella haemorrhagica).**
@@ -69,10 +64,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are the characteristics of dengue rash? (S2,Q2)</b></summary>
+### Q4. What are the characteristics of dengue rash? (S2,Q2)
 
 ### Characteristics of dengue rash
 1. **Maculopapular rash** — typically over the **dorsum of limbs and trunk**.
@@ -87,10 +80,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. What do you mean by Dengue Shock syndrome. (S8,Q2)</b></summary>
+### Q5. What do you mean by Dengue Shock syndrome. (S8,Q2)
 
 ### Dengue Shock Syndrome (DSS)
 > 🔴 **DSS** = the most severe manifestation of dengue viral infection — **classical dengue/haemorrhagic dengue with features of circulatory failure (shock)**.
@@ -108,10 +99,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Explain dengue shock syndrome. (S22,Q2)</b></summary>
+### Q6. Explain dengue shock syndrome. (S22,Q2)
 
 *Repeat of Q5* — DSS = classical dengue + **features of circulatory failure**:
 - Rapid, weak pulse, narrowing of pulse pressure (< 20 mm Hg) or **hypotension with cold clammy skin & restlessness**.
@@ -122,10 +111,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Classify dengue. What do you mean by dengue shock syndrome? (S28,Q2)</b></summary>
+### Q7. Classify dengue. What do you mean by dengue shock syndrome? (S28,Q2)
 
 ### Classification of dengue (dengue syndrome)
 ```text
@@ -156,10 +143,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. List the complications of measles. (S2,Q2)</b></summary>
+### Q8. List the complications of measles. (S2,Q2)
 
 ### Complications of measles
 **1. Effects of measles virus itself:**
@@ -181,10 +166,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What is pathognomic sign of measles? (S3,Q2)</b></summary>
+### Q9. What is pathognomic sign of measles? (S3,Q2)
 
 ### Koplik's spot — the pathognomonic sign of measles
 > 🔴 **Koplik's spots** are the **pathognomonic sign of measles**, characterized by:
@@ -201,10 +184,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Enumerate the complications of German measles. (S7,Q2)</b></summary>
+### Q10. Enumerate the complications of German measles. (S7,Q2)
 
 ### Complications of Rubella (German measles)
 **1. Congenital rubella syndrome (CRS)** — the most important (if infection in 1st trimester):
@@ -224,10 +205,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Name the complications of mumps. (S8,Q2)</b></summary>
+### Q11. Name the complications of mumps. (S8,Q2)
 
 ### Complications of mumps
 **Frequent complications:**
@@ -247,10 +226,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. How can you control Hepatitis B infection in a community? (S10,Q2)</b></summary>
+### Q12. How can you control Hepatitis B infection in a community? (S10,Q2)
 
 ### Control of Hepatitis B in a community
 **1. Immunization:**
@@ -275,10 +252,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Mention the types and severity of Hepatitis with their route of transmission. (S20,Q2)</b></summary>
+### Q13. Mention the types and severity of Hepatitis with their route of transmission. (S20,Q2)
 
 ### Types of viral hepatitis with route of transmission
 | Type | Route of transmission | Severity / course |
@@ -299,10 +274,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Classify infective hepatitis. How can you prevent hepatitis A infection in a community. (S21,Q2)</b></summary>
+### Q14. Classify infective hepatitis. How can you prevent hepatitis A infection in a community. (S21,Q2)
 
 ### Classification of infective (viral) hepatitis
 - **According to duration:** Acute & chronic hepatitis.
@@ -326,10 +299,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. What do you mean by epidemic jaundice? Mention its occurrence. (S22,Q2)</b></summary>
+### Q15. What do you mean by epidemic jaundice? Mention its occurrence. (S22,Q2)
 
 ### Epidemic jaundice
 > 🔴 **Epidemic jaundice** = jaundice occurring in epidemic form due to **Hepatitis A or Hepatitis E** viral infection, transmitted through **contaminated food or water** (faeco-oral route). Outbreaks are common where sanitation & water supplies are poor (e.g. hostel outbreaks, flood-affected areas, slum communities).
@@ -345,10 +316,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Define infective jaundice. What are the after effects/consequences of hepatitis? How can you prevent infective jaundice in a community? (S23,Q2)</b></summary>
+### Q16. Define infective jaundice. What are the after effects/consequences of hepatitis? How can you prevent infective jaundice in a community? (S23,Q2)
 
 ### Infective jaundice
 > 🔴 **Infective (viral) hepatitis** = inflammation of the liver caused by hepatitis viruses (HAV–HEV), presenting with **jaundice** (dark urine, yellowish sclera/skin) plus prodromal fever, anorexia, nausea, vomiting, fatigue & enlarged liver.
@@ -381,10 +350,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Classify rabies animal. Differentiate fixed and street virus. (S4,Q2)</b></summary>
+### Q17. Classify rabies animal. Differentiate fixed and street virus. (S4,Q2)
 
 ### Classification of rabid animals
 **A. By type (domestic vs wild):**
@@ -412,10 +379,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What are the indications of anti-rabies treatment (post exposure immunization) in relation to animal bite? (S30,Q2)</b></summary>
+### Q18. What are the indications of anti-rabies treatment (post exposure immunization) in relation to animal bite? (S30,Q2)
 
 ### Indications of anti-rabies treatment (post-exposure)
 1. The biting animal **shows signs of rabies or dies within 10 days** of the bite.
@@ -434,10 +399,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. What do you mean by eradication of disease? Mention the factors to be considered in eradicating of Poliomyelitis. (S16,Q2)</b></summary>
+### Q19. What do you mean by eradication of disease? Mention the factors to be considered in eradicating of Poliomyelitis. (S16,Q2)
 
 ### Eradication of disease
 > 🔴 Eradication = termination of **all transmission of infection by extermination of the infectious agent** through surveillance and containment (e.g. smallpox — the only disease eradicated).
@@ -458,10 +421,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. Difference between Salk and Sabin polio vaccine. (S17,Q2)</b></summary>
+### Q20. Difference between Salk and Sabin polio vaccine. (S17,Q2)
 
 ### IPV (Salk) vs OPV (Sabin)
 | Feature | **IPV (Salk)** | **OPV (Sabin)** |
@@ -482,10 +443,8 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. What are the diseases subject to international regulation? Tell the mode of transmission and vector of yellow fever. (S30,Q6)</b></summary>
+### Q21. What are the diseases subject to international regulation? Tell the mode of transmission and vector of yellow fever. (S30,Q6)
 
 ### Diseases subject to international regulation (quarantinable / IHR-notifiable)
 1. **Plague** (bubonic 2–7 days, septicaemic 2–7 days, pneumonic 1–3 days — incubation).
@@ -502,4 +461,3 @@ As in Q5/Q6 — DF/DHF with circulatory failure: rapid weak pulse, pulse pressur
 
 > 📖 Ch-05, Endeavour PDF pp. 121–122; Ch-07, Endeavour PDF p. 281 (Aedes → yellow fever, dengue, chikungunya)
 
-</details>

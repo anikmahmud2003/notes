@@ -3,8 +3,7 @@
 ---
 ---
 
-<details>
-<summary><b>Q1. Define osteomyelitis</b></summary>
+### Q1. Define osteomyelitis
 
 ### Definition
 
@@ -25,10 +24,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Classify osteomyelitis</b></summary>
+### Q2. Classify osteomyelitis
 
 ### A. According to duration / clinical course
 
@@ -69,10 +66,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are the causes and etiology of osteomyelitis</b></summary>
+### Q3. What are the causes and etiology of osteomyelitis
 
 ### Organisms — EXAM FAVORITE TABLE
 
@@ -115,10 +110,8 @@ Direct implantation (compound fracture, surgery, puncture)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. State the pathogenesis and morphological features of osteomyelitis</b></summary>
+### Q4. State the pathogenesis and morphological features of osteomyelitis
 
 ### A. Why the metaphysis? (Age-related location)
 
@@ -134,10 +127,8 @@ Direct implantation (compound fracture, surgery, puncture)
 
 ---
 
-</details>
 
-<details>
-<summary><b>১. শিশু (>১ বছর): মেটাফাইসিস (Metaphysis) আক্রান্ত হওয়ার কারণ</b></summary>
+### ১. শিশু (>১ বছর): মেটাফাইসিস (Metaphysis) আক্রান্ত হওয়ার কারণ
 
 * চুলের কাঁটার মতো বাঁক (Hair-pin bends): শিশুদের লং বোনের (যেমন: Femur বা Tibia) মেটাফাইসিস অংশে রক্তনালী বা ক্যাপিলারিগুলো "U" আকৃতির বা হেয়ার-পিনের মতো বাঁক নেয়।
 * ধীর রক্তপ্রবাহ (Sluggish blood flow): এই বিশেষ বাঁকের কারণে সেখানে রক্তপ্রবাহ খুব ধীর হয়ে যায়। ফলে রক্তে থাকা ব্যাকটেরিয়া খুব সহজেই এখানে আটকে (Lodging) ইনফেকশন তৈরি করতে পারে।
@@ -145,10 +136,8 @@ Direct implantation (compound fracture, surgery, puncture)
 
 ---
 
-</details>
 
-<details>
-<summary><b>২. নবজাতক/ইনফ্যান্ট (<১ বছর): জয়েন্ট ও এপিফাইসিস আক্রান্ত হওয়ার কারণ</b></summary>
+### ২. নবজাতক/ইনফ্যান্ট (<১ বছর): জয়েন্ট ও এপিফাইসিস আক্রান্ত হওয়ার কারণ
 
 * উন্মুক্ত রক্তনালী (Transphyseal vessels): ১ বছরের কম বয়সী শিশুদের গ্রোথ প্লেট সম্পূর্ণ তৈরি হয় না। রক্তনালীগুলো গ্রোথ প্লেট ভেদ করে মেটাফাইসিস থেকে সরাসরি এপিফাইসিস (Epiphysis) পর্যন্ত চলে যায়।
 * সেপ্টিক আর্থ্রাইটিস (Septic Arthritis): রক্তনালীর এই সংযোগের কারণে ইনফেকশন খুব দ্রুত জয়েন্টে ছড়িয়ে পড়ে পুঁজ জমায়।
@@ -156,10 +145,8 @@ Direct implantation (compound fracture, surgery, puncture)
 
 ---
 
-</details>
 
-<details>
-<summary><b>৩. প্রাপ্তবয়স্ক (Adults): মেরুদণ্ড (Vertebrae) আক্রান্ত হওয়ার কারণ</b></summary>
+### ৩. প্রাপ্তবয়স্ক (Adults): মেরুদণ্ড (Vertebrae) আক্রান্ত হওয়ার কারণ
 
 * ক্লোজড গ্রোথ প্লেট: বড়দের গ্রোথ প্লেট বন্ধ হয়ে যাওয়ায় লং বোনের মেটাফাইসিসের সেই বিশেষ রক্তনালী আর থাকে না।
 * ব্যাটসনের ভেনাস প্লেক্সাস (Batson's Plexus): প্রাপ্তবয়স্কদের মেরুদণ্ডের চারপাশে একটি বিশেষ শিরা বা ভেনাস নেটওয়ার্ক থাকে, যেখানে কোনো ভালভ (Valve) থাকে না। এর ফলে শরীরের অন্য কোনো অংশের (যেমন: প্রস্রাবের ইনফেকশন বা UTI) ব্যাকটেরিয়া খুব সহজে এবং সরাসরি মেরুদণ্ডের হাড়ে চলে আসতে পারে।
@@ -234,10 +221,8 @@ CHRONIC OSTEOMYELITIS (relapse/remission, sequestra persist)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Mention complications of chronic osteomyelitis</b></summary>
+### Q5. Mention complications of chronic osteomyelitis
 
 ### Complications — EXAM FAVORITE LIST 🔴
 
@@ -261,10 +246,8 @@ CHRONIC OSTEOMYELITIS (relapse/remission, sequestra persist)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is sequestrum and involucrum</b></summary>
+### Q6. What is sequestrum and involucrum
 
 ### Definitions
 
@@ -278,10 +261,8 @@ CHRONIC OSTEOMYELITIS (relapse/remission, sequestra persist)
 
 ---
 
-</details>
 
-<details>
-<summary><b>১. Sequestrum (মৃত হাড়ের টুকরো)</b></summary>
+### ১. Sequestrum (মৃত হাড়ের টুকরো)
 
 * Separated & Free-lying: এটি পুরোপুরি রক্তসঞ্চালনহীন (Devitalized) একটি মৃত হাড়, যা আশেপাশের জীবন্ত হাড় থেকে সম্পূর্ণ বিচ্ছিন্ন হয়ে পুঁজে ভরা গহ্বরের (Cavity) মধ্যে ভাসমান অবস্থায় থাকে।
 * Foreign Body effect: যেহেতু এতে কোনো রক্ত চলাচল নেই, তাই শরীর একে নিজের অংশ বলে মনে করে না। এটি একটি স্থায়ী ফরেন বডি (Foreign body) বা বহিরাগত বস্তুর মতো আচরণ করে।
@@ -289,10 +270,8 @@ CHRONIC OSTEOMYELITIS (relapse/remission, sequestra persist)
 
 ---
 
-</details>
 
-<details>
-<summary><b>২. Involucrum (নতুন হাড়ের খোলস)</b></summary>
+### ২. Involucrum (নতুন হাড়ের খোলস)
 
 * Reactive & Protective: ভেতরের পুঁজ যখন হাড়ের বাইরের আবরণ বা পেরিওস্টিয়ামকে (Periosteum) ওপরের দিকে ঠেলে দেয় (Lifted periosteum), তখন পেরিওস্টিয়ামের অস্টিওব্লাস্ট (Bone-forming cells) কোষগুলো উদ্দীপিত হয়ে নতুন হাড় তৈরি করে।
 * Sleeve/Shell: এটি মৃত সেকুয়েস্ট্রামের চারপাশে একটি সুরক্ষামূলক খোলস বা জ্যাকেটের মতো আবরণ তৈরি করে, যাতে হাড়টি পুরোপুরি ভেঙে না যায়। তবে এই নতুন হাড়টি সাধারণত অসম (Irregular) এবং আর্কিটেকচারালি দুর্বল হয়।
@@ -335,10 +314,8 @@ Pus erodes an opening through involucrum → CLOACA → sinus tract to skin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What is Brodie abscess</b></summary>
+### Q7. What is Brodie abscess
 
 ### Definition
 
@@ -364,10 +341,8 @@ Pus erodes an opening through involucrum → CLOACA → sinus tract to skin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Classify bone tumours</b></summary>
+### Q8. Classify bone tumours
 
 ### General principles 📌
 
@@ -401,10 +376,8 @@ Pus erodes an opening through involucrum → CLOACA → sinus tract to skin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Write short note on osteosarcoma</b></summary>
+### Q9. Write short note on osteosarcoma
 
 ### Definition
 
@@ -465,10 +438,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Write short note on Ewing tumour</b></summary>
+### Q10. Write short note on Ewing tumour
 
 ### Definition
 
@@ -521,10 +492,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Write short note on giant cell tumour of bone</b></summary>
+### Q11. Write short note on giant cell tumour of bone
 
 ### Definition
 
@@ -570,10 +539,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What are gross and microscopic findings of giant cell tumour of bone</b></summary>
+### Q12. What are gross and microscopic findings of giant cell tumour of bone
 
 ### Gross findings
 
@@ -604,10 +571,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>🦴 Gross Findings: খালি চোখে কেমন দেখাবে?</b></summary>
+### 🦴 Gross Findings: খালি চোখে কেমন দেখাবে?
 
 সহজে মনে রাখার জন্য একটি "বেলুন"-এর কথা চিন্তা করুন।
 
@@ -620,19 +585,15 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>🔬 Microscopic Findings: দুই ধরনের কোষের খেলা (Two Cell Populations)</b></summary>
+### 🔬 Microscopic Findings: দুই ধরনের কোষের খেলা (Two Cell Populations)
 
 পরীক্ষায় স্যারদের সবচেয়ে প্রিয় প্রশ্ন (Exam Favorite) হলো—"GCT-তে কী কী কোষ থাকে?"। মনে রাখবেন, এখানে দুই ধরনের কোষ একসাথে থাকে:
 
 ---
 
-</details>
 
-<details>
-<summary><b>১. Mononuclear Stromal Cells (এক নিউক্লিয়াসযুক্ত কোষ):</b></summary>
+### ১. Mononuclear Stromal Cells (এক নিউক্লিয়াসযুক্ত কোষ):
 
 * আসল অপরাধী: মনে রাখবেন, এই কোষগুলোই হলো আসল ক্যান্সার বা টিউমার কোষ (The neoplastic component)।
 * বৈশিষ্ট্য: এগুলো দেখতে গোল, ডিম্বাকার বা সুতার মতো (Spindle) হয় এবং চাদরের মতো বিছানো থাকে।
@@ -640,10 +601,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>২. Multinucleated Osteoclast-like Giant Cells (বহু নিউক্লিয়াসযুক্ত দৈত্যাকার কোষ):</b></summary>
+### ২. Multinucleated Osteoclast-like Giant Cells (বহু নিউক্লিয়াসযুক্ত দৈত্যাকার কোষ):
 
 * অতিথি কোষ: এরা কিন্তু আসল টিউমার কোষ নয়! এরা হলো নির্দোষ বা রিয়্যাক্টিভ (Reactive) কোষ। ওপরের স্ট্রোমাল কোষের RANKL প্রোটিনের ডাকে সাড়া দিয়ে শরীরের সাধারণ কোষগুলো একসাথে জোড়া লেগে এই দৈত্যাকার কোষ তৈরি করে।
 * বৈশিষ্ট্য: এগুলো দেখতে বিশাল বড় এবং একেকটিতে ৫০ থেকে ১০০টিরও বেশি নিউক্লিয়াস থাকে।
@@ -655,10 +614,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>💡 Diagnostic Pearls: মনে রাখার গোল্ডেন টিপস</b></summary>
+### 💡 Diagnostic Pearls: মনে রাখার গোল্ডেন টিপস
 
 পরীক্ষায় বা ভাইভায় কনফিউশন দূর করার জন্য এই পয়েন্টগুলো মাথায় রাখবেন:
 
@@ -669,10 +626,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>🎯 মনে রাখার সহজ চাবিকাঠি (GCT Summary)</b></summary>
+### 🎯 মনে রাখার সহজ চাবিকাঠি (GCT Summary)
 
 "Epiphysis-এ লাল-বাদামী মাংসের বেলুন, যেখানে ১ নিউক্লিয়াসের আসল চোর RANKL দিয়ে ডেকে আনে ১০০ নিউক্লিয়াসের নিরীহ দৈত্যকে—কিন্তু কোনো নতুন হাড় বানায় না!"
 
@@ -686,19 +641,15 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Write morphology of osteosarcoma</b></summary>
+### Q13. Write morphology of osteosarcoma
 
 নোটটি অত্যন্ত চমৎকার এবং পরীক্ষার জন্য গোছানো। অস্টিওসারকোমা (Osteosarcoma) হলো হাড়ের এক ধরনের মারাত্মক ক্যান্সার (Malignant bone tumor)। মেডিকেল পরীক্ষায় ভালো নম্বর পাওয়ার জন্য এর মরফোলজি বা গঠনকে সহজ বাংলায় নিচে বুঝিয়ে দেওয়া হলো:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Gross Morphology (খালি চোখে যা দেখা যায়)</b></summary>
+### Gross Morphology (খালি চোখে যা দেখা যায়)
 
 এটি মূলত হাড়ের বাহ্যিক এবং কাটার পরের চেহারা বর্ণনা করে।
 
@@ -712,10 +663,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Microscopic Morphology (অণুবীক্ষণ যন্ত্রে যা দেখা যায়)</b></summary>
+### Microscopic Morphology (অণুবীক্ষণ যন্ত্রে যা দেখা যায়)
 
 এটি ডায়াগনোসিসের জন্য সবচেয়ে গুরুত্বপূর্ণ অংশ। এর মূল শর্ত বা Hallmark হলো—ক্যান্সার কোষগুলো সরাসরি নিজে অস্টিওয়েড (Osteoid) বা অপূর্ণাঙ্গ হাড় তৈরি করবে।
 
@@ -729,10 +678,8 @@ Conventional (central) · Telangiectatic (blood-filled spaces, mimics ABC) · Sm
 
 ---
 
-</details>
 
-<details>
-<summary><b>Radiology & Spread (এক্স-রে এবং বিস্তার)</b></summary>
+### Radiology & Spread (এক্স-রে এবং বিস্তার)
 
 * Radiological correlation: এক্স-রে করলে দেখা যায় হাড়ের মেটাফাইসিস অংশটি ক্ষয় হয়ে যাচ্ছে (Lytic) এবং একই সাথে অদ্ভুত নতুন হাড় তৈরি হচ্ছে (Blastic)। এখানে Sunburst pattern এবং Codman triangle পরিষ্কার দেখা যায়।
 * Sites of spread (কোথায় ছড়ায়): এই ক্যান্সারটি লিম্ফ নোডের মাধ্যমে ছড়ায় না। এটি সরাসরি রক্তের মাধ্যমে সবচেয়ে প্রথমে এবং প্রধানত ফুসফুসে (Lungs) ছড়িয়ে পড়ে। এরপর অন্যান্য হাড় বা ব্রেইনে যেতে পারে।
@@ -778,10 +725,8 @@ Hematogenous → 🔴 **lungs** (first and most common), bone, brain. Lymphatics
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Classify soft tissue tumours with examples</b></summary>
+### Q14. Classify soft tissue tumours with examples
 
 ### General principles 📌
 
@@ -823,10 +768,8 @@ Hematogenous → 🔴 **lungs** (first and most common), bone, brain. Lymphatics
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Enumerate the causes of arthritis.</b></summary>
+### Q15. Enumerate the causes of arthritis.
 
 ### Classification by etiology — complete list
 
@@ -848,10 +791,8 @@ Hematogenous → 🔴 **lungs** (first and most common), bone, brain. Lymphatics
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Short note: Osteoarthritis</b></summary>
+### Q16. Short note: Osteoarthritis
 
 ### Definition
 
@@ -890,29 +831,23 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>🧠 গল্প ও সিকোয়েন্স: একটি হাইওয়ের পিচ ঢালাই উঠে যাওয়ার গল্প</b></summary>
+### 🧠 গল্প ও সিকোয়েন্স: একটি হাইওয়ের পিচ ঢালাই উঠে যাওয়ার গল্প
 
 আপনার হাড্ডির কার্টিলেজ বা তরুনাস্থিকে একটি মসৃণ পিচ ঢালাই রাস্তার সাথে তুলনা করুন। গাড়ি চলতে চলতে সেই রাস্তার কী দশা হয়, খেয়াল করুন:
 
 ---
 
-</details>
 
-<details>
-<summary><b>১. শুরুর ধাক্কা (Early Change)</b></summary>
+### ১. শুরুর ধাক্কা (Early Change)
 
 * ফাটল বা Fibrillation: রাস্তার পিচ দুর্বল হয়ে পানি জমল এবং ছোট ছোট ফাটল দেখা দিল। ঠিক তেমনি কার্টিলেজে পানি বাড়ে, প্রোটিওগ্লাইকান কমে এবং আড়াআড়ি ফাটল ধরে, যাকে বলে Fibrillation।
 * Joint Mice: ফাটল বড় হয়ে পিচের চটলা যেমন উঠে যায়, তেমনি কার্টিলেজের টুকরো ভেঙে জয়েন্টের ভেতর ভেসে বেড়ায়। এদেরকে বলে Loose bodies বা Joint mice (জয়েন্টের ইঁদুর)।
 
 ---
 
-</details>
 
-<details>
-<summary><b>২. হাড্ডি যখন উন্মুক্ত (The Red Marks - Core Pathology)</b></summary>
+### ২. হাড্ডি যখন উন্মুক্ত (The Red Marks - Core Pathology)
 
 কার্টিলেজ যখন সম্পূর্ণ শেষ, তখন নিচের হাড্ডি (Subchondral bone) বের হয়ে আসে এবং একে অপরের সাথে ঘষা খেতে থাকে।
 
@@ -922,10 +857,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>৩. চারপাশের পরিবর্তন (Marginal Changes)</b></summary>
+### ৩. চারপাশের পরিবর্তন (Marginal Changes)
 
 * 🔴 Osteophytes (হাড়ের বাড়তি অংশ): জয়েন্টের দুই প্রান্তে হাড়ের ওপর চাপ কমাতে শরীর সেখানে মাশরুম বা ছাতার মতো বাড়তি নতুন হাড় গজায়। এগুলোকে বলে Osteophytes বা Bone spurs।
 * Synovium ও Spine: জয়েন্টের পর্দায় কোনো বড় যুদ্ধ হয় না, তাই Minimal inflammation (সামান্য লালচে ভাব)। আর মেরুদণ্ডে এই সমস্যা হলে তাকে আমরা বলি Spondylosis।
@@ -934,10 +867,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>💡 পরীক্ষার ভাইভা ও রিটেনের জন্য "পাসিং হ্যাক্স"</b></summary>
+### 💡 পরীক্ষার ভাইভা ও রিটেনের জন্য "পাসিং হ্যাক্স"
 
 * RA বনাম OA পার্থক্য: এক্সামিনার যদি জিজ্ঞেস করেন, "OA-তে ইনফ্লামেশন কেমন?" এক কথায় উত্তর দেবেন, "Minimal বা নাই বললেই চলে, স্যার।" (RA-তে যেখানে প্যানাস ও তীব্র ইনফ্লামেশন থাকে)।
 * এক্স-রে ফাইন্ডিংস: এই চার্ট থেকেই কিন্তু ওএ (OA)-এর এক্স-রে পয়েন্ট আসে: ১. Joint space loss, ২. Osteophytes, ৩. Subchondral sclerosis, ৪. Subchondral cysts.
@@ -972,10 +903,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. A teenage boy presented with pain and swelling above the knee joint. X ray shows mixed osteoblastic and lytic mass in the lower part of femur. What is your diagnosis</b></summary>
+### Q17. A teenage boy presented with pain and swelling above the knee joint. X ray shows mixed osteoblastic and lytic mass in the lower part of femur. What is your diagnosis
 
 ### Answer
 
@@ -1024,10 +953,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What are the criteria for diagnosis of rheumatoid arthritis (ACR/EULAR 2010 or classic 1987 revised criteria — give both briefly)</b></summary>
+### Q18. What are the criteria for diagnosis of rheumatoid arthritis (ACR/EULAR 2010 or classic 1987 revised criteria — give both briefly)
 
 ### A. ACR/EULAR 2010 classification criteria
 
@@ -1057,10 +984,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>💡 সহজে মনে রাখার টেকনিক: "৪-৬ এর গোল্ডেন রুল"</b></summary>
+### 💡 সহজে মনে রাখার টেকনিক: "৪-৬ এর গোল্ডেন রুল"
 
 * পাস মার্কের সূত্র: মোট ৭টির মধ্যে অন্তত ৪টি ক্রাইটেরিয়া পজিটিভ হতে হবে।
 * টাইম ডিউরেশন: প্রথম ১ থেকে ৪ নম্বর ক্রাইটেরিয়াগুলো অবশ্যই কমপক্ষে ৬ সপ্তাহ ধরে স্থায়ী থাকতে হবে (acute বা সাময়িক ব্যথা বাদ দেওয়ার জন্য)।
@@ -1069,28 +994,22 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>🧠 ক্রাইটেরিয়াগুলো সিরিয়ালি মনে রাখার "স্মার্ট হ্যাক"</b></summary>
+### 🧠 ক্রাইটেরিয়াগুলো সিরিয়ালি মনে রাখার "স্মার্ট হ্যাক"
 
 পুরো ৭টি পয়েন্টকে মুখস্থ না করে ৩টি লজিক্যাল গ্রুপে ভাগ করে ফেলুন:
 
 ---
 
-</details>
 
-<details>
-<summary><b>গ্রুপ ক: রোগীর নিজের অনুভূতি (Symptoms) — পয়েন্ট ১</b></summary>
+### গ্রুপ ক: রোগীর নিজের অনুভূতি (Symptoms) — পয়েন্ট ১
 
 * ১. Morning stiffness (সকালের জড়তা): ঘুম থেকে ওঠার পর হাত-পা নাড়াতে কষ্ট হবে ১ ঘণ্টা বা তার বেশি। নড়াচড়া করলে আস্তে আস্তে কমে (এটি Osteoarthritis থেকে আলাদা করার মূল পয়েন্ট)।
 
 ---
 
-</details>
 
-<details>
-<summary><b>গ্রুপ খ: ডাক্তারের ফিজিক্যাল এক্সামিনেশন (Signs) — পয়েন্ট ২, ৩, ৪, ৫</b></summary>
+### গ্রুপ খ: ডাক্তারের ফিজিক্যাল এক্সামিনেশন (Signs) — পয়েন্ট ২, ৩, ৪, ৫
 
 * ২. ৩ বা তার বেশি জয়েন্টে সমস্যা: শরীরের ১৪টি জয়েন্ট এরিয়ার মধ্যে অন্তত ৩টি জায়গায় একসাথে ফোলা/পানি আসা।
 * ৩. হাতের জয়েন্ট মাস্ট: কবজি (Wrist), MCP বা PIP জয়েন্টের যেকোনো একটি ফুলতেই হবে (হাত ছাড়া RA কল্পনা করা যায় না)।
@@ -1099,10 +1018,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>গ্রুপ গ: ল্যাবরেটরি ও এক্স-রে (Investigation) — পয়েন্ট ৬, ৭</b></summary>
+### গ্রুপ গ: ল্যাবরেটরি ও এক্স-রে (Investigation) — পয়েন্ট ৬, ৭
 
 * ৬. Serum RF Positive: রক্ত পরীক্ষায় Rheumatoid Factor পজিটিভ আসবে।
 * ৭. X-ray Changes: হাত বা কবজির এক্স-রে করলে হাড়ের ক্ষয় (Erosions) এবং জয়েন্টের চারপাশের হাড় পাতলা হয়ে যাওয়া (Juxta-articular osteoporosis) দেখা যাবে।
@@ -1111,10 +1028,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>📌 পরীক্ষার জন্য অতি গুরুত্বপূর্ণ "লাল পতাকা" (High-Yield Pearls)</b></summary>
+### 📌 পরীক্ষার জন্য অতি গুরুত্বপূর্ণ "লাল পতাকা" (High-Yield Pearls)
 
 * ১ নম্বর পয়েন্টে ১ ঘণ্টার কম হলে কিন্তু ক্রাইটেরিয়া ফুলফিল হবে না।
 * ২ নম্বর পয়েন্টে মনে রাখুন, DIP (হাতের আঙুলের একদম মাথার জয়েন্ট) সাধারণত RA-তে আক্রান্ত হয় না। এটি Osteoarthritis-এর বৈশিষ্ট্য।
@@ -1143,10 +1058,8 @@ Subchondral response: sclerosis, cysts (geodes), marginal osteophytes
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. Describe the pathogenesis of rheumatoid arthritis</b></summary>
+### Q19. Describe the pathogenesis of rheumatoid arthritis
 
 ### Definition anchor
 
@@ -1158,10 +1071,8 @@ RA = chronic systemic autoimmune inflammatory disease targeting the **synovium**
 
 ---
 
-</details>
 
-<details>
-<summary><b>ধাপ ১: সূচনা (The Spark) — শরীর ও পরিবেশের যুদ্ধ</b></summary>
+### ধাপ ১: সূচনা (The Spark) — শরীর ও পরিবেশের যুদ্ধ
 
 প্রথমে মানুষের শরীরের ভেতরে একটা দুর্বলতা থাকে এবং বাইরে থেকে কিছু শত্রু আসে।
 
@@ -1170,10 +1081,8 @@ RA = chronic systemic autoimmune inflammatory disease targeting the **synovium**
 
 ---
 
-</details>
 
-<details>
-<summary><b>ধাপ ২: ইমিউনিটি (The Police Attack) — অ্যান্টিবডি ও জয়েন্টে প্রবেশ</b></summary>
+### ধাপ ২: ইমিউনিটি (The Police Attack) — অ্যান্টিবডি ও জয়েন্টে প্রবেশ
 
 শরীর এখন এই বদলে যাওয়া প্রোটিনগুলোকে নিজের ভাবাতে ভুল করে এবং শত্রু মনে করে আক্রমণ করে।
 
@@ -1182,10 +1091,8 @@ RA = chronic systemic autoimmune inflammatory disease targeting the **synovium**
 
 ---
 
-</details>
 
-<details>
-<summary><b>ধাপ ৩: ধ্বংসযজ্ঞ (The Destruction) — প্যানাস ও পঙ্গুত্ব</b></summary>
+### ধাপ ৩: ধ্বংসযজ্ঞ (The Destruction) — প্যানাস ও পঙ্গুত্ব
 
 জয়েন্টে ঢুকে এরা এলাহী কাণ্ডকারখানা শুরু করে দেয়।
 
@@ -1198,10 +1105,8 @@ RA = chronic systemic autoimmune inflammatory disease targeting the **synovium**
 
 ---
 
-</details>
 
-<details>
-<summary><b>💡 চটজলদি মনে রাখার শর্টকাট সূত্র (The 5-P Formula)</b></summary>
+### 💡 চটজলদি মনে রাখার শর্টকাট সূত্র (The 5-P Formula)
 
 পরীক্ষার খাতায় যেন সিকোয়েন্স ভুল না হয়, তাই এই ৫টি 'P' সিরিয়ালি মনে রাখুন:
 
@@ -1270,10 +1175,8 @@ SYSTEMIC effects: immune-complex vasculitis, rheumatoid nodules
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. What are the seronegative arthritis. Write shortly on suppurative arthritis.</b></summary>
+### Q20. What are the seronegative arthritis. Write shortly on suppurative arthritis.
 
 ### Part 1 — Seronegative spondyloarthropathies
 
@@ -1318,10 +1221,8 @@ SYSTEMIC effects: immune-complex vasculitis, rheumatoid nodules
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. What are the crystal induced arthritis? Write shortly on gout.</b></summary>
+### Q21. What are the crystal induced arthritis? Write shortly on gout.
 
 ### Part 1 — Crystal-induced arthropathies
 
@@ -1381,10 +1282,8 @@ Repeated attacks → CHRONIC TOPHACEOUS GOUT (tophi + joint damage + nephropathy
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. Difference between osteoarthritis and rheumatoid arthritis</b></summary>
+### Q22. Difference between osteoarthritis and rheumatoid arthritis
 
 ### Master comparison table — EXAM FAVORITE 🔴
 
@@ -1413,10 +1312,8 @@ Repeated attacks → CHRONIC TOPHACEOUS GOUT (tophi + joint damage + nephropathy
 
 ---
 
-</details>
 
-<details>
-<summary><b>জয়েন্টের ক্ষয় ও হাড়ের পরিবর্তন</b></summary>
+### জয়েন্টের ক্ষয় ও হাড়ের পরিবর্তন
 
 * Cartilage degradation: জয়েন্টের ভেতরের নরম হাড় বা তরুণাস্থি ক্ষয়ে গেছে। এটিই অস্টিওআর্থ্রাইটিসের মূল লক্ষণ।
 * Eburnation: তরুণাস্থি পুরোপুরি ক্ষয়ে গিয়ে ভেতরের শক্ত হাড়টি বের হয়ে এসেছে। ঘর্ষণের ফলে হাড়ের মাথাটি হাতির দাঁতের মতো মসৃণ ও চকচকে হয়ে গেছে।
@@ -1426,19 +1323,15 @@ Repeated attacks → CHRONIC TOPHACEOUS GOUT (tophi + joint damage + nephropathy
 
 ---
 
-</details>
 
-<details>
-<summary><b>জয়েন্টের চারপাশের ঝিল্লি (Synovium)</b></summary>
+### জয়েন্টের চারপাশের ঝিল্লি (Synovium)
 
 * Synovium mildly inflamed: জয়েন্টকে আবৃত করে রাখা নরম ঝিল্লিতে মৃদু বা সামান্য প্রদাহ (ফোলা ভাব) আছে। এটি হাড়ের ক্ষয়ের কারণে সৃষ্ট মৃদু প্রতিক্রিয়া।
 
 ---
 
-</details>
 
-<details>
-<summary><b>যা অনুপস্থিত (সবচেয়ে গুরুত্বপূর্ণ অংশ)</b></summary>
+### যা অনুপস্থিত (সবচেয়ে গুরুত্বপূর্ণ অংশ)
 
 * NO pannus: কোনো 'প্যানাস' (অস্বাভাবিক রক্তনালী ও টিস্যুর স্তর) তৈরি হয়নি। প্যানাস রিউমাটয়েড আর্থ্রাইটিসে জয়েন্ট ধ্বংস করে, যা এখানে নেই।
 * NO ankylosis: জয়েন্টের হাড়গুলো জোড়া লেগে শক্ত হয়ে যায়নি। অর্থাৎ, জয়েন্টটি একেবারে অচল বা লক হয়ে যায়নি।
@@ -1463,4 +1356,3 @@ Repeated attacks → CHRONIC TOPHACEOUS GOUT (tophi + joint damage + nephropathy
 
 ---
 
-</details>

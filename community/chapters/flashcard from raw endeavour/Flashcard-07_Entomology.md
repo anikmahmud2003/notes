@@ -12,8 +12,7 @@ OSP
 
 ## Entomology and Arthropods
 
-<details>
-<summary><b>Q. Define entomology and medical entomology [RU-12J].</b></summary>
+### Q. Define entomology and medical entomology [RU-12J].
 
 **Entomology:** A study of the arthropods is known as entomology.
 Medial entomology: ;
@@ -24,10 +23,8 @@ Q/Define arthropod.
 Arthropod:(Joint footed invertebrates are called arthropods, e.g. Insecta (mosquito), Arachnida (Itch mite) an
 Crustacea.
 . [Ref- Rashid, Khabir, Hyder / 5" / 436]
-</details>
 
-<details>
-<summary><b>Q. Classify medically important arthropods. [SUST-18N, CU-13J,!0Ju]<br>Q. Name the arthropods of medical importance. [SUST-18M, | 5J]<br>Q. Write the medically iniportant arthropods which cause public health hazards. [CU-14J]</b></summary>
+### Q. Classify medically important arthropods. [SUST-18N, CU-13J,!0Ju]<br>Q. Name the arthropods of medical importance. [SUST-18M, | 5J]<br>Q. Write the medically iniportant arthropods which cause public health hazards. [CU-14J]
 
 **Classification of arthropods of medical importance:**
 Class: Insecta Class: Arachnida Class: Crustacea
@@ -47,10 +44,8 @@ Class: Insecta Class: Arachnida Class: Crustacea
   - Sand fleas
 5) Reduviid bugs.
 [Ref- Park / 24" / 804]
-</details>
 
-<details>
-<summary><b>Q. What are the distinctive characteristics of arthropods?</b></summary>
+### Q. What are the distinctive characteristics of arthropods?
 
 Distinctive characters of arthropods of medical importance:
 Arachnida
@@ -68,10 +63,8 @@ Cephalothorax & abdomen
 [Ref- Park / 24" / 804]
 07: Ent Se
 Cha, ter-07: Entomology set
-</details>
 
-<details>
-<summary><b>Q. What are the medical importances of arthropods?</b></summary>
+### Q. What are the medical importances of arthropods?
 
 **Medical importance of arthropods:**
 arriers of some disease agent and are called vectors.
@@ -80,26 +73,20 @@ arriers of some disease agent and are called vectors.
 2 s i itself are causative agents of diseases; e.g. scabies
 3) They can cause economical problem by destroying crops in the fields. =
 4) Some arthropods give us nutritious food; e.g. Honey by bees.
-</details>
 
-<details>
-<summary><b>Q. Classify arthropods of medical importance. [DU-1 8N,17N,16J, RU-10J]<br>Q. List the common vectors with the diseases they transmit. [SUST-13Ju]<br>Q. List important vector borne diseases. [SUST-16J,13J,10Ju]</b></summary>
+### Q. Classify arthropods of medical importance. [DU-1 8N,17N,16J, RU-10J]<br>Q. List the common vectors with the diseases they transmit. [SUST-13Ju]<br>Q. List important vector borne diseases. [SUST-16J,13J,10Ju]
 
 . Name the arthropod borne diseases common in Bangladesh. [RU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. What are the diseases transmitted by arthropods [CU-18N,16J,11J, SUST-12Ju RU-10JJ/</b></summary>
+### Q. What are the diseases transmitted by arthropods [CU-18N,16J,11J, SUST-12Ju RU-10JJ/
 
 mosquitoes [DU-16J, CU-15J,10.u, RU-13J, SUST-15Ju/J,14J,12J,10Ju] / sand fly [RU-13J,
 SUST-14J, 12J,10Ju} / Mite [CU=10Ju, SUST-I 5Ju] / Ticks [CU-10Ju, SUST-15Ju] / rat fleas
 [CU-10Ju] / Musca domestica [CU-16N, 14Ju] / Cyclops [CU-1 7M].
 . Name 3 (three) important arthropods prevalent in Bangladesh & disease caused by them.
 [SUST-I8N]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Vector borne diseases of Bangladesh. [SUST-12J]</b></summary>
+### Q. Write short note on: Vector borne diseases of Bangladesh. [SUST-12J]
 
 Arthropods of medical importance an
 d the diseases transmitted by them:
@@ -125,10 +112,8 @@ ds Bubonic plague, Endemic typhus, Chiggerosis,
 2) Rat flea H rae at .
 Hard tick Tick typhus, Viral encephalitis, Viral fever, Viral
 3) Tick haemorrhagic fever, Tularemia, Tick paralysis.
-</details>
 
-<details>
-<summary><b>Q. fever, Relapsing fever.</b></summary>
+### Q. fever, Relapsing fever.
 
 Trombiculid Scrub typhus, Rickettsial-Pox.
 mite
@@ -139,18 +124,14 @@ disease.
 [Ref- Park /24" / 805]
 pes ___ + + see ee
 NAANAAAANANEAA SSSA ASA N UNA SUNN EN
-</details>
 
-<details>
-<summary><b>Q. Name three insects prevalent in Bangladesh and diseases caused by them. [DU-13J]</b></summary>
+### Q. Name three insects prevalent in Bangladesh and diseases caused by them. [DU-13J]
 
 Three insects prevalent in Bangladesh and diseases caused by them:
 Diseases caused by them
 ~ | Kala-azar
-</details>
 
-<details>
-<summary><b>Q. Write 8 arthropod borne diseases with agents and vectors.</b></summary>
+### Q. Write 8 arthropod borne diseases with agents and vectors.
 
 **8 arthropod borne diseases with agent and vectors:**
 Disease
@@ -169,10 +150,8 @@ Leishmaniasis Leishmania donovani Sand fly
 Yellow fever Flavivirus _
 Plague Yersinia pestis
 Japanese encephalitis | Group-B arbovirus (flavivirus Culicine mosquitoes
-</details>
 
-<details>
-<summary><b>Q. Name common arthropod-borne disease prevalent in Bangladesh. [DU-15J,12J]</b></summary>
+### Q. Name common arthropod-borne disease prevalent in Bangladesh. [DU-15J,12J]
 
 **Common arthropod-borne disease prevalent in Bangladesh:**
 1) Malaria.
@@ -186,10 +165,8 @@ Agent. i
 Plasmodium vivax, P. falciparum, P. ovale, P. malariae
 Wuchereria bancrofti, Brugia malayi, Brugia timori
 Dengue virus
-</details>
 
-<details>
-<summary><b>Q. What do you mean by ‘vector’?</b></summary>
+### Q. What do you mean by ‘vector’?
 
 **Vector:**
 In communicable disease terminology, the word ‘vector’ means “an arthropod or other invertebrate
@@ -197,10 +174,8 @@ which transmits infection by inoculation into or through the skin or mucous memb
 of infective materials on the skin or on food or other objects”.
 [Ref- Park / 24" / 805]
 [Note: Details about vector is discussed in the chapter-03: Epidemiology & epidemiological methods]
-</details>
 
-<details>
-<summary><b>📌 Viva — Definitive host: The host in which the se</b></summary>
+### 📌 Viva — Definitive host: The host in which the se
 
 - Definitive host: The host in which the se:
 he! Xual cycle of the agent occurs is c iti
@@ -216,10 +191,8 @@ louse infestation.
 ae
 [Ref- Park / 24" / 805]
 oN
-</details>
 
-<details>
-<summary><b>Viva Q. What i i P F</b></summary>
+### Viva Q. What i i P F
 
 Ariewer at is complete life cycle and incomplete life cycle of arthropod?
 Complete life cycle of arthropod:
@@ -231,10 +204,8 @@ When metamorphosis is not com:
 plete and there are less than four st iti i i
 cycle of arthropods. Example: Tsetse flies, black flies etc, lalalaliii dal
 [Ref- Park /24" / 805]
-</details>
 
-<details>
-<summary><b>Q. How arthropod borne diseases are transmitted? [DU-1 Ju]<br>Q. How diseases are transmitted by arthropods? [RU-15J]<br>Q. How arthropods transmit disease to man? [RU-12J]<br>Q. Discuss the mode of transmission of arthropod borne diseases. [CU-10Ju/J]<br>Q. Discuss biological transmission of arthropod borne diseases. [DU-12Ju]<br>Q. Mention different types of transmission of arthropod borne diseases. [RU-18M, 13Ju]<br>Q. Discuss the transmission of vector-borne diseases? [DU-18M]<br>Q. What do you understand by mechanical transmission of disease? [SUST-13J]<br>Q. “At present arthropod-borne disease contribute a major public health”- explain it with the</b></summary>
+### Q. How arthropod borne diseases are transmitted? [DU-1 Ju]<br>Q. How diseases are transmitted by arthropods? [RU-15J]<br>Q. How arthropods transmit disease to man? [RU-12J]<br>Q. Discuss the mode of transmission of arthropod borne diseases. [CU-10Ju/J]<br>Q. Discuss biological transmission of arthropod borne diseases. [DU-12Ju]<br>Q. Mention different types of transmission of arthropod borne diseases. [RU-18M, 13Ju]<br>Q. Discuss the transmission of vector-borne diseases? [DU-18M]<br>Q. What do you understand by mechanical transmission of disease? [SUST-13J]<br>Q. “At present arthropod-borne disease contribute a major public health”- explain it with the
 
 mechanism of transmission of disease by arthropod. [RU-14Ju]
 Transmission of arthropod-borne disease: 3 types of transmission —
@@ -253,16 +224,12 @@ body of the arthropod; e.g. malaria parasite in anopheles mosquito.
 multiply in the body of the arthropod; e.g. filarial parasite in culex mosquito and guinea
 worm embryo in cyclops.
 [Ref- Park / 24" / 805]
-</details>
 
-<details>
-<summary><b>Q. Make a plan to control the common vectors in Bangladesh. [RU-17N]<br>Q. Describe in brief the principles of arthropod control. What do you mean by integrated</b></summary>
+### Q. Make a plan to control the common vectors in Bangladesh. [RU-17N]<br>Q. Describe in brief the principles of arthropod control. What do you mean by integrated
 
 approach? [RU-16M,11J]
-</details>
 
-<details>
-<summary><b>Q. State the principles of arthropod control. [DU-11J, RU-16M, SUST-18M, 10Ju]<br>Q. Write down the measures for arthropod control. [DU-18N]<br>Q. Mention the principles of control of arthropod borne diseases [SUST-18M,17M, CU-10Ju]<br>Q. How can you control vector? [SUST-16J,14J,11J]<br>Q. Write down the principles of vector control measures. (CU-14Ju, 13Ju]<br>Q. Mention the control measures of common vector borne diseases. [CU-16N/M]<br>Q. What is integrated approach in vector control? [DU-15Ju]</b></summary>
+### Q. State the principles of arthropod control. [DU-11J, RU-16M, SUST-18M, 10Ju]<br>Q. Write down the measures for arthropod control. [DU-18N]<br>Q. Mention the principles of control of arthropod borne diseases [SUST-18M,17M, CU-10Ju]<br>Q. How can you control vector? [SUST-16J,14J,11J]<br>Q. Write down the principles of vector control measures. (CU-14Ju, 13Ju]<br>Q. Mention the control measures of common vector borne diseases. [CU-16N/M]<br>Q. What is integrated approach in vector control? [DU-15Ju]
 
 **Vector control:**
 A) General principles of arthropod control:
@@ -295,10 +262,8 @@ B) Integrated approach: Since no single method of control is likely to provide a
 So two or more methods are used continuously for vector control with a view to obtain maximum
 results with the minimum effort and to avoid the excessive use of any one method.
 [Ref- Park / 24" / 805]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by integrated approach of arthropod control? [RU-16M]<br>Q. Write short note on: Integrated approach in vector control. [RU-18N]</b></summary>
+### Q. What do you mean by integrated approach of arthropod control? [RU-16M]<br>Q. Write short note on: Integrated approach in vector control. [RU-18N]
 
 **Integrated vector control measures:**
 It has been defined as utilization of all appropriate technology and management techniques to
@@ -308,10 +273,8 @@ control.
 It is important to realize that for most vectors, sanitation, water & habitat management, waste
 management, source reduction & pesticides will remain the major components of integrated vector control
 approach.
-</details>
 
-<details>
-<summary><b>Q. Integrated approach for vector control is needed to obtain maximum results with minimum effort-explain it with describing principles of arthropod control, [RU-16M]</b></summary>
+### Q. Integrated approach for vector control is needed to obtain maximum results with minimum effort-explain it with describing principles of arthropod control, [RU-16M]
 
 Please write from above discussion.
 ntomology 271
@@ -331,16 +294,12 @@ Trapping
 Electronic device Bc
 Figure: Integrated vector control measures.
 |Ref- Rashid, Khabir, Hyder / 5" / 447] =
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Fleas. [RU-14Ju]</b></summary>
+### Q. Write short note on: Fleas. [RU-14Ju]
 
 Please try yourself.
-</details>
 
-<details>
-<summary><b>Q. Mention the vectors of malaria in Bangladesh?</b></summary>
+### Q. Mention the vectors of malaria in Bangladesh?
 
 **Malarial vector in Bangladesh:**
 1. A. philippinensis - Plains of rural Bangladesh (common in Bangladesh)
@@ -354,10 +313,8 @@ Please try yourself.
 Whoa SNNNANANNNSSNN ANN SSS
 NNANAANAARANAAAND OOOO OO
 U . r .
-</details>
 
-<details>
-<summary><b>Q. What are the mosquitoes of medical importance?</b></summary>
+### Q. What are the mosquitoes of medical importance?
 
 **Mosquitoes of medical importance:**
 Aedes.
@@ -365,22 +322,16 @@ Anopheles.
 Culex.
 Mansonia, and
 Hemagogus.
-</details>
 
-<details>
-<summary><b>Q. List the diseases transmitted by mosquitoes. [RU-I8N, SUST-17N, RU-13J]<br>Q. Mention some important species of Anopheles mosquito. [CU-17N]</b></summary>
+### Q. List the diseases transmitted by mosquitoes. [RU-I8N, SUST-17N, RU-13J]<br>Q. Mention some important species of Anopheles mosquito. [CU-17N]
 
 Please see above.
-</details>
 
-<details>
-<summary><b>Q. Description the life cycle of malarial parasite within infection chain of malaria.</b></summary>
+### Q. Description the life cycle of malarial parasite within infection chain of malaria.
 
 Please see in the chapter “Communicable diseases — Malaria”.
-</details>
 
-<details>
-<summary><b>Q. What are the stages of life cycle of mosquito?</b></summary>
+### Q. What are the stages of life cycle of mosquito?
 
 **Stages of life cycle of mosquito:** 4 stages —
 1) Egg
@@ -388,10 +339,8 @@ Please see in the chapter “Communicable diseases — Malaria”.
 3) Pupa
 4) Adult
 [Ref- Park / 24" / 806]
-</details>
 
-<details>
-<summary><b>Q. What are the habits of mosquito?<br>Q. Mention important habits of mosquito. [RU-16J]</b></summary>
+### Q. What are the habits of mosquito?<br>Q. Mention important habits of mosquito. [RU-16J]
 
 **Habits of mosquito:**
 1) Feeding habits: The males never bite. They subsist on plant juices. The females on the contrary are
@@ -406,20 +355,16 @@ containing certain types of aquatic vegetation.
 wind.
 7) Life span: It is influenced by temperature and humidity. Both high and low temperatures are fatal.
 [Ref- Park / 24" / 808]
-</details>
 
-<details>
-<summary><b>Q. List the mosquito borne diseases prevailing in Bangladesh. [DU-14Ju, SUST-16M]</b></summary>
+### Q. List the mosquito borne diseases prevailing in Bangladesh. [DU-14Ju, SUST-16M]
 
 **Mosquito borne diseases prevailing in Bangladesh:**
 1) Dengue (viral, by Aedes aegypti).
 2) Chikungunya (viral, by Aedes aegypti).
 3) Malaria (protozoal disease, by Anopheles).
 4) Filariasis (helminthic disease).
-</details>
 
-<details>
-<summary><b>Q. Mention the control measures of mosquito, [DU-10J, CU-18N,16J,15J,10J, SUST-16N, 13J]<br>Q. How can you prevent yourself from mosquito bite? [SUST-17N, 16M]<br>Q. What are the control measures of mosquito at Dhaka city [DU-15J] / hill tracts [RU-14Ju]?<br>Q. Write down the vector control measures for malaria, [CU-I Ju] yet Personal protective measures for disease prevention, [DU-17N]</b></summary>
+### Q. Mention the control measures of mosquito, [DU-10J, CU-18N,16J,15J,10J, SUST-16N, 13J]<br>Q. How can you prevent yourself from mosquito bite? [SUST-17N, 16M]<br>Q. What are the control measures of mosquito at Dhaka city [DU-15J] / hill tracts [RU-14Ju]?<br>Q. Write down the vector control measures for malaria, [CU-I Ju] yet Personal protective measures for disease prevention, [DU-17N]
 
 Mosquito control measures;
 A) Anti-larval measures:
@@ -453,10 +398,8 @@ Dimethyl] phthalate
 Dimethyl] carbate.
 Ethyl! hexanediol etc.
 [Ref- Park /24/ 809] ‘
-</details>
 
-<details>
-<summary><b>Q. Why organochloride compound is not suitable for larviciding operations? [DU-10J]</b></summary>
+### Q. Why organochloride compound is not suitable for larviciding operations? [DU-10J]
 
 Organochloride compound (e.g. DDT, HCH) is not suitable for larviciding operation, because of:
 1) Their long residual effect,
@@ -464,10 +407,8 @@ Organochloride compound (e.g. DDT, HCH) is not suitable for larviciding operatio
 3) Increased risk of developing resistance in the vector mosquitoes.
 [Ref- Park /24"/810]
 i,“
-</details>
 
-<details>
-<summary><b>Viva Q. A knowledge of breeding habits is required for conducting mosquito control operation.</b></summary>
+### Viva Q. A knowledge of breeding habits is required for conducting mosquito control operation.
 
 -Why?
 A knowledge of breeding habits is required for conducting mosquito control operation: Source reduction
@@ -484,10 +425,8 @@ abolished by appropriate engineering measures such as filling and drainage.
 should be removed or destroyed by herbicides.
 Source reduction method generally produces results that are permanent.
 [Ref- Park /24"/ 809]
-</details>
 
-<details>
-<summary><b>Q. Differentiate between Anopheles and Culex mosquitoes.<br>Q. Differentiate morphology adult Anopheles, Culex and Aedes. [RU-11J]</b></summary>
+### Q. Differentiate between Anopheles and Culex mosquitoes.<br>Q. Differentiate morphology adult Anopheles, Culex and Aedes. [RU-11J]
 
 **Differences between anopheles and culex mosquitoes:**
 Anopheles : Culex, Aedes, Mansonia
@@ -504,10 +443,8 @@ Adults v When at rest, inclined at an angle to surface.| “ When at rest, the b
 - Wings spotted. Y Wings unspotted.
 - _Palpi long in both sexes. v _Palpi short in female.
 [Ref- Park / 24" / 808]
-</details>
 
-<details>
-<summary><b>Q. What are the breeding habits of different types of mosquito? [SUST-16N]<br>Q. Compare the breeding place of Anopheles, Culex & Aedes mosquitos. Name the disease</b></summary>
+### Q. What are the breeding habits of different types of mosquito? [SUST-16N]<br>Q. Compare the breeding place of Anopheles, Culex & Aedes mosquitos. Name the disease
 
 transmitted by them? [RU-16N]
 Breeding place & disease transmitted by Anopheles, Culex and Aedes mosquitos:
@@ -531,10 +468,8 @@ Differences between the Anopheline and culicines (Aedes, Culex) mosquitoes):
 CULICINES
 RESTING POSITION
 Figure: Adult house fly. Figure: Life cycle of house fly.
-</details>
 
-<details>
-<summary><b>Q. Discuss habits of houseflies. _<br>Q. Illustrate the relation between habit of house fly and disease transmission. [RU-14J]</b></summary>
+### Q. Discuss habits of houseflies. _<br>Q. Illustrate the relation between habit of house fly and disease transmission. [RU-14J]
 
 **Mi:**
 Breeding habits: The most important breeding places of flies in order of importance are —
@@ -559,10 +494,8 @@ tendency to fly towards light.
 4 miles, and sometimes even more from the point of their origin.
 [Ref- Park /24"/ 811]
 Moan. a 8 8 oo a + 2 ere:
-</details>
 
-<details>
-<summary><b>Q. Name the diseases transmitted by housefly. [DU-16J,14J, SUST-11J]<br>Q. Mention the medical importance of housefly [RU-1 \Ju] / Musca domestica [RU-18M].<br>Q. How diseases are transmitted by Musca domestica? [CU-14Ju]</b></summary>
+### Q. Name the diseases transmitted by housefly. [DU-16J,14J, SUST-11J]<br>Q. Mention the medical importance of housefly [RU-1 \Ju] / Musca domestica [RU-18M].<br>Q. How diseases are transmitted by Musca domestica? [CU-14Ju]
 
 **Diseases spread by house fly / Musca domestica:**
 Name of the disease
@@ -581,10 +514,8 @@ Anthrax B. anthracis.
 Yaws T. pertenuue.
 [Ref- Park /24"/811]
 Different helminthes
-</details>
 
-<details>
-<summary><b>Q. Discuss transmission of diseases by houseflies.<br>Q. How house fly acts as a vector in context of communicable disease? [DU-15Ju]</b></summary>
+### Q. Discuss transmission of diseases by houseflies.<br>Q. How house fly acts as a vector in context of communicable disease? [DU-15Ju]
 
 **Mechanism of disease transmission by house flies:**
 1) Mechanical transmission: they transport micro-organisms on their feet and hairy legs. House flies
@@ -594,10 +525,8 @@ the house fly infects food and thereby transmits disease.
 3) Defecation: The excrement of housefly has been found to contain numerous micro-organisms as
 well as cysts and ova of intestinal parasites.
 [Ref- Park / 24" / 811]
-</details>
 
-<details>
-<summary><b>Q. Outline the control measures of Musca domestica. [CU-15Ju]<br>Q. Mention the control measures of house fly. [RU-1 Ju]</b></summary>
+### Q. Outline the control measures of Musca domestica. [CU-15Ju]<br>Q. Mention the control measures of house fly. [RU-1 Ju]
 
 **Housefly control measures:**
 1) Environmental control: Source reduction, i.e. elimination of their breeding places by.
@@ -628,10 +557,8 @@ relief from house flies.
 education. a
 [Ref- Park /24"/811]
 | Sand fly
-</details>
 
-<details>
-<summary><b>Q. Differentiate between mosquito and sand fly morphologically. [RU-18N, 14J,13J]<br>Q. Discuss the morphological characteristics of a sand fly with its epidemiological importance. [RU-16N]</b></summary>
+### Q. Differentiate between mosquito and sand fly morphologically. [RU-18N, 14J,13J]<br>Q. Discuss the morphological characteristics of a sand fly with its epidemiological importance. [RU-16N]
 
 **Differences between mosquito and sand fly:**
 |, Traits | Mosquito
@@ -645,10 +572,8 @@ of legs. pairs of legs.
 PyLeg Are long compared with the size of body.
 Is not a hairy insect
 [Ref- Park / 24" / 806, 812]
-</details>
 
-<details>
-<summary><b>Q. List the diseases transmitted by sand fly. [CU-18M, RU-13J]<br>Q. Mention the medical importance of sand fly. [RU-1 1 Ju]<br>Q. What are the diseases transmitted by Phlebotomus argentipes. [CU-15Ju]</b></summary>
+### Q. List the diseases transmitted by sand fly. [CU-18M, RU-13J]<br>Q. Mention the medical importance of sand fly. [RU-1 1 Ju]<br>Q. What are the diseases transmitted by Phlebotomus argentipes. [CU-15Ju]
 
 **Diseases transmitted by sand fly:**
 SPECIES DISEASES CARRIED
@@ -660,10 +585,8 @@ Sergentomyia punjabensis Sand fly fever
 [Ref- Park /24"/ 813]
 SSO nN
 —— awl
-</details>
 
-<details>
-<summary><b>Q. Describe the life cycle of sand fly.</b></summary>
+### Q. Describe the life cycle of sand fly.
 
 **Life cycle of sand fly:** The life cycle of sand fly is characterized by
 complete metamorphosis, e.g. having following four stages-
@@ -675,10 +598,8 @@ become pupa in about 2 weeks.
 4) Adult: The average life of a sand fly is about 2 weeks,
 [Ref- Park /24" / 812]
 Figure: Adult sand fly.
-</details>
 
-<details>
-<summary><b>Q. Mention habits of sand fly.</b></summary>
+### Q. Mention habits of sand fly.
 
 **Habits of sand fly:**
 1) They infest dwellings during night and take shelter during day in holes and crevices in walls, wholes in
@@ -687,10 +608,8 @@ trees, dark rooms, stables and store rooms.
 3) They are incapable of flying over long distances, they merely hope about from one place to another.
 4) They are generally confined to within 50 yards of their breeding places.
 [Ref- Park /24"/ 812]
-</details>
 
-<details>
-<summary><b>Q. How to control sand fly in a community? [DU-16J,13Ju]<br>Q. Outline the control measures of sand fly. [RU-11Ju]<br>Q. Write down the vector control measures for kala-azar. [CU-1 Ju]</b></summary>
+### Q. How to control sand fly in a community? [DU-16J,13Ju]<br>Q. Outline the control measures of sand fly. [RU-11Ju]<br>Q. Write down the vector control measures for kala-azar. [CU-1 Ju]
 
 **Control of sand flies:**
 Sand flies are easily controlled because they do not move long distances from the place of heir
@@ -703,26 +622,20 @@ should be done in the human dwellings, cattle sheds and other places.
 dwells, filling up cracks and crevices in walls and floors, and location of cattle sheds and poultry
 houses at a fair distance from human habitations should receive attention.
 [Ref- Park /24"/813]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Sand fly.</b></summary>
+### Q. Write short note on: Sand fly.
 
 Please write from above discussion.
 SS
-</details>
 
-<details>
-<summary><b>Q. What is the peculiarity in the life cycle of tsetse fly?</b></summary>
+### Q. What is the peculiarity in the life cycle of tsetse fly?
 
 **Peculiarities in the life cycle of tsetse fly:**
 The female does not lay eggs, but gives birth to a living larva, one at a time, at 10 days intervals.
 [Ref- Park /24" / 813}
 Figure: Adult tsetse fly.
-</details>
 
-<details>
-<summary><b>Q. Define fleas. [RU-17M]<br>Q. Classify flea. [RU-17M,16M] ‘<br>Q. Name the diseases transmitted by fleas. [RU-17M]</b></summary>
+### Q. Define fleas. [RU-17M]<br>Q. Classify flea. [RU-17M,16M] ‘<br>Q. Name the diseases transmitted by fleas. [RU-17M]
 
 **Flea:**
 Fleas are small flightless insects that form the order Siphonaptera. They lived by the consuming the
@@ -750,36 +663,28 @@ Fleas of public health importance Diseases transmitted by them
   - Ulcer of the feet.
   - _ Secondary infection, e.g. tetanus & gas gangrene.
 [Ref- Park /24"/ 815]
-</details>
 
-<details>
-<summary><b>Q. How do rat fleas transmit disease?</b></summary>
+### Q. How do rat fleas transmit disease?
 
 **Mode of transmission of disease by rat fleas:**
 1) Biting.
 2) Mechanical transmission.
 3) Faeces.
 [Ref- Park /24" / 816]
-</details>
 
-<details>
-<summary><b>Q. How rat fleas can be controlled?</b></summary>
+### Q. How rat fleas can be controlled?
 
 **Control of fleas:**
 1) Insecticides: Cheapest and most widely used formulation has been 10% DDT dust.
 2) Repellents: Diethyltotuamide, benzyl benzoate etc. ;
 3) Rodent control: Flea control should be followed by rodent control.
 [Ref- Park /24" / 816]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Rat flea, [RU-13Ju]</b></summary>
+### Q. Write short note on: Rat flea, [RU-13Ju]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. What is the public health importance of “blocked fleas”? [RU-17M]<br>Q. Enumerate epidemiological importance of blocked flea. [CU-12J] |<br>Q. Write short note on: Blocked fleas. |</b></summary>
+### Q. What is the public health importance of “blocked fleas”? [RU-17M]<br>Q. Enumerate epidemiological importance of blocked flea. [CU-12J] |<br>Q. Write short note on: Blocked fleas. |
 
 **Blocked flea:**
 A flea may ingest up to 0.5 cu mm of blood which may contain as many as 5,000 plague bacilli. The
@@ -794,20 +699,16 @@ up to a year, and certain species survive in the burrow microclimate for as long
 a
 ee ‘
 Louse infestation
-</details>
 
-<details>
-<summary><b>Q. What are the different types of louse?</b></summary>
+### Q. What are the different types of louse?
 
 **Types of louse:**
 1) Head louse (Pediculus capitus)
 2) Body louse (Pediculus corporis)
 3) Pubic or crab louse (Phthirus pubis)
 [Ref- Park /24"/814] |
-</details>
 
-<details>
-<summary><b>Q. Discuss stages in the life history of lice.</b></summary>
+### Q. Discuss stages in the life history of lice.
 
 **Life history of lice:**
 Figure: Life cycle of a louse.
@@ -822,19 +723,15 @@ host and develops into an adult after passing through 3 moults. The larval stage
 (3) Adult: The entire life cycle from the laying of an egg to the appearance of the adult louse takes about
 15 to 17 days under favourable conditions. Adult lice live from 30 to 50 days.
 [Ref- Park /24"/814]
-</details>
 
-<details>
-<summary><b>Q. What are the diseases caused by lice?</b></summary>
+### Q. What are the diseases caused by lice?
 
 **Diseases caused by lice:**
 [Dermatitis | Due to scratching and secondary infection _|
 [Ref- Park / 24/814]
 i EEE |
-</details>
 
-<details>
-<summary><b>Q. Mention the contr.</b></summary>
+### Q. Mention the contr.
 
 ol measures of pediculosis. [CU-18M]
 H arse ,
@@ -855,10 +752,8 @@ v) Health education.
 ntrol of louse infestation:
 [Ref- Park /24" /814]
 Ticks & Mites
-</details>
 
-<details>
-<summary><b>Q. Name the diseases transmitted by hard tics & soft ticks. [RU-16J]<br>Q. Write short note on: Ticks. [RU-18M]</b></summary>
+### Q. Name the diseases transmitted by hard tics & soft ticks. [RU-16J]<br>Q. Write short note on: Ticks. [RU-18M]
 
 **Ticks:**
 Ticks are important arthropods of class Arachnida.
@@ -887,10 +782,8 @@ Diseases transmitted by soft ticks:
 Mode of transmission of disease: By biting.
 [Ref- Park / 24" / 817]
 LLIN OOV OS
-</details>
 
-<details>
-<summary><b>Q. State the life cycle of itch mite. Mention the diseases spread by it.</b></summary>
+### Q. State the life cycle of itch mite. Mention the diseases spread by it.
 
 **Life cycle of itch mite:** There are four stages in the history of life of an itch mite —
 1) Egg.
@@ -900,20 +793,16 @@ LLIN OOV OS
 The life cycle from egg to adult may take 10 to 15 days. The adult mites live for 1 to 2 months,
 + Disease spread by itch mite: Scabies or itch.
 Itch mite & Scabies
-</details>
 
-<details>
-<summary><b>Q. Describe itch mite.<br>Q. Define scabies.</b></summary>
+### Q. Describe itch mite.<br>Q. Define scabies.
 
 **Itch mite / Sarcoptes scabiei | Acarus scabiei:**
 The itch mite (Sarcoptes scabiei or Acarus scabiei) is an extremely small, globular arthropod just
 visible to the naked eye. The female parasite burrows into the epidermis where it breeds and causes the
 condition known as scabies or itch.
 [Ref- Park / 24" / 818]
-</details>
 
-<details>
-<summary><b>Q. What are the main diagnostic features of scabies?</b></summary>
+### Q. What are the main diagnostic features of scabies?
 
 **Main diagnostic features of scabies are:**
 1) Intense itching at night.
@@ -924,10 +813,8 @@ condition known as scabies or itch.
 6) Secondary infection leads to crusted papules and pustules.
 7) Confirmatory diagnosis — Searching of parasite in skin debris under microscope.
 [Ref- Rashid, Khabir, Hyder / 5 / 289 + Park / 24" / 819]
-</details>
 
-<details>
-<summary><b>Q. How scabies can be controlled?<br>Q. Discuss control measures of scabies. [DU-10Ju, CU-17M,13J]<br>Q. Write short note on: Control of scabies. [SUST-18N]</b></summary>
+### Q. How scabies can be controlled?<br>Q. Discuss control measures of scabies. [DU-10Ju, CU-17M,13J]<br>Q. Write short note on: Control of scabies. [SUST-18N]
 
 **Controls of scabies:**
 1) Sanitation control:
@@ -950,10 +837,8 @@ e) Gamma benzene hexachloride (GBH) 1%
 f) Crotamiton (10%) cream or lotion.
 th
 [Ref- Rashid, Khabir, Hyder /5" /289 + Park /24 /819]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Scabies. [SUST-16M]</b></summary>
+### Q. Write short note on: Scabies. [SUST-16M]
 
 **Scabies:**
 Definition: ; :
@@ -980,19 +865,15 @@ ili) Secondary infection.
 iv) Urticaria.
 v) Eczema.
 [Ref- Rashid, Khabir, Hyder /5" / 288, 289 + Park / 24" / 819]
-</details>
 
-<details>
-<summary><b>Viva Q. A boy came to you with history of itching and pustules in inner digital space, itching</b></summary>
+### Viva Q. A boy came to you with history of itching and pustules in inner digital space, itching
 
 worsen at night. What is the diagnosis?
 Diagnosis:
 Scabies.
 Insecticides
-</details>
 
-<details>
-<summary><b>Q. Define insecticide.<br>Q. Classify insecticide. [RU-15J]</b></summary>
+### Q. Define insecticide.<br>Q. Classify insecticide. [RU-15J]
 
 **Ans:**
 Insecticide: Insecticides are substances, which are used to kill insects.
@@ -1011,10 +892,8 @@ According to origin and composition:
   - Synthetic pyrethrolds: e.g. deltarmethrin, permethrin.
 4) Biological compounds: e.g. Bacullius thuringienis serotype H-14, Bacillus sphaericus.
 [Ref- Rashid, Khabir, Hyder / 5" / 444]
-</details>
 
-<details>
-<summary><b>Q. What are the toxic effects of insecticides?<br>Q. Name the toxicity produced by organophosphorus compound (OPC). [CU-1 1Ju]</b></summary>
+### Q. What are the toxic effects of insecticides?<br>Q. Name the toxicity produced by organophosphorus compound (OPC). [CU-1 1Ju]
 
 **Toxic effects of insecticides:**
 1. Effects on human body:
@@ -1062,10 +941,8 @@ B) Topical effects:
 - Disturbance of ecological balance
 - Chances of water pollution & air pollution.
 MEQ
-</details>
 
-<details>
-<summary><b>Q. Arthropods acts as disease vector: [DU- 17N]</b></summary>
+### Q. Arthropods acts as disease vector: [DU- 17N]
 
 a) Itch mite in scabies.
 b) Mosquito in malaria.
@@ -1073,10 +950,8 @@ c) Sand fly in kala-azar.
 d) Louse in pediculosis.
 e) Housefly in shigellosis.
 Ans. a) F, b) T, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Vectors can transmit agent by: [DU-17M, I1Ju]</b></summary>
+### Q. Vectors can transmit agent by: [DU-17M, I1Ju]
 
 a) Biting
 b) Regurgitation
@@ -1084,10 +959,8 @@ c) Parenterally
 d) Droplet nuclei .
 e) Deposit of infective materials on the skin
 Ans. a) T, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. The organochloride compounds are: [DU- 163,113]</b></summary>
+### Q. The organochloride compounds are: [DU- 163,113]
 
 a) Diazinon
 b) DDT
@@ -1095,10 +968,8 @@ c) Dieldrin
 d) Abate
 e) Lindane
 Ans. a) F, b) T, ¢) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Disease caused by housefly: [DU-16J]</b></summary>
+### Q. Disease caused by housefly: [DU-16J]
 
 a) Cholera.
 b) Enteric fever.
@@ -1106,10 +977,8 @@ c) Viral fever.
 d) Trachoma.
 e) Whooping cough.
 Ans. a) T, b) T, ¢) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Aedes mosquito spreads: [DU-16J]</b></summary>
+### Q. Aedes mosquito spreads: [DU-16J]
 
 a) Yellow fever.
 b) Filariasis.
@@ -1117,10 +986,8 @@ c) DHF.
 d) Viral arthritis.
 e) Chikunguinya fever.
 Ans. a) T, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Common species of anopheles in</b></summary>
+### Q. Common species of anopheles in
 
 **Bangladesh are:** [DU-15J]
 a) An. fluviatilis
@@ -1129,10 +996,8 @@ c) An. sudaicus
 d) An. maculatus
 e) An. Balabacensis or dirus
 Ans. a) F, b) T, ¢) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Breeding habit of insects are:: [DU-13J] Q. Diseases transmitted by lice are: [DU-11J]</b></summary>
+### Q. Breeding habit of insects are:: [DU-13J] Q. Diseases transmitted by lice are: [DU-11J]
 
 a) anopheles breeds in clean water a) Epidemic typhus
 b) culex breeds in water with agnatic b) Sleeping sickness
@@ -1142,17 +1007,13 @@ c) aedes breeds in small collection of d) Dermatitis
 artificial water e) Oriental sore
 d) mansonia breeds in dirty water T.OT.OF.
 e) xenopsylla breeds in cracks and holes Ans. a) T, b) F, ¢) T, 4) T, €)
-</details>
 
-<details>
-<summary><b>Q. Contact poisons are: [DU-10Ju]</b></summary>
+### Q. Contact poisons are: [DU-10Ju]
 
 Ans. a) T, b) F, c) T, d) F, e) T. tale
 a) Nicotine
-</details>
 
-<details>
-<summary><b>Q. Insecticide that acts as contact poison 3 Suara</b></summary>
+### Q. Insecticide that acts as contact poison 3 Suara
 
 anes [DU-12Ju] d) Carbon disulphide
 a) diazinon e) Sodium fluoride
@@ -1175,19 +1036,15 @@ Juvenile Delinquency ..
 SS —
 _ 3
 School health service
-</details>
 
-<details>
-<summary><b>Q. Define school health service.</b></summary>
+### Q. Define school health service.
 
 **School health service:**
 The school health service is a personal health service delivering comprehensive health care service to
 the school students and school personnel throughout the school years.
 [Ref- Park /24" /614)
-</details>
 
-<details>
-<summary><b>Q. Write down the importance of school health programme / school health services.</b></summary>
+### Q. Write down the importance of school health programme / school health services.
 
 Importance of school health service / school health programme:
 1. To control communicable disease among the students.
@@ -1204,10 +1061,8 @@ into adulthood as a step towards achieving the goal of ‘Health For All’.
 4) Awakening health consciousness in children.
 5) The provision of healthful environment.
 [Ref- Rashid, Khabir, Hyder / 4" / 164 + Park /24" / 615]
-</details>
 
-<details>
-<summary><b>Q. Write down the importance of school health services. [SUST-10J]</b></summary>
+### Q. Write down the importance of school health services. [SUST-10J]
 
 Importance of school health service / school health programme:
 1) The health of the school children is a common concern of the school, parents and the community.
@@ -1226,10 +1081,8 @@ rn ee ee ee eee ee,
 err rnnnnen ee
 are the tasks / aspects of school health service?
 State the tasks of a school health service to rural priorities,
-</details>
 
-<details>
-<summary><b>Q. Mention the aspects of school health service.</b></summary>
+### Q. Mention the aspects of school health service.
 
 **Tasks/ aspects of school health services:**
 9.
@@ -1247,10 +1100,8 @@ Eye health
 11. Education of handicapped children
 12. Proper maintenance and use of school health records.
 [Ref- Park /24" / 615]
-</details>
 
-<details>
-<summary><b>Q. What are the essential components of school health services? [CU-12Ju]<br>Q. What will be the ideal location for a primary school? [SUST-18M]</b></summary>
+### Q. What are the essential components of school health services? [CU-12Ju]<br>Q. What will be the ideal location for a primary school? [SUST-18M]
 
 **Essential components of school health service:**
 1. Screening of school children: By medical officer, public health nurse, school teachers and class
@@ -1288,5 +1139,4 @@ Sanitary conveniences: Boys and girls needs separately —
 11. Special surveys: For growth & development (physical & mental), anaemia, tuberculosis, worms.
 ws
 a TH NA ANN NANA NN ECA RAN
-</details>
 

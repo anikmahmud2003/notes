@@ -9,8 +9,7 @@
 
 ## Occupational health & Ergonomics
 
-<details>
-<summary><b>Q. Define occupational health,<br>Q. What do you mean by occupational health?</b></summary>
+### Q. Define occupational health,<br>Q. What do you mean by occupational health?
 
 **Occupational health:**
 The Joint ILO/WHO committee on occupational health (1950) gave the following definition —
@@ -21,10 +20,8 @@ from factors adverse to health; the placing & maintenance of the workers in an o
 adapted to his physiological & psychological equipment and to summarize the adaptation of work to man &
 each man to his job.”
 [Ref- Park / 24" / 849]
-</details>
 
-<details>
-<summary><b>Q. What are the objectives of occupational health? [CU-17N,16N, RU-14Ju]</b></summary>
+### Q. What are the objectives of occupational health? [CU-17N,16N, RU-14Ju]
 
 **Objectives of occupational health:**
 1) The promotion and maintenance of the highest degree of physical, mental and social well-being of
@@ -35,10 +32,8 @@ workers in all occupation.
 physiological and psychological equipment.
 5) The adaptation of work to man and each man to his job.
 [Ref- Rashid, Khabir, Hyder / 5" / 208]
-</details>
 
-<details>
-<summary><b>Q. Deéfine’ergonomics. [DU-18N]</b></summary>
+### Q. Deéfine’ergonomics. [DU-18N]
 
 ite down the objectives of ergonomics. [DU-18N]
 nsWer
@@ -47,19 +42,15 @@ simply means: ‘fitting the job to the worker’.
 Objective: To achieve the best mutual adjustment of man and his work, for the improvement of human
 (> efficiency and well-being. :
 [Ref- Park / 24" / 840]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by occupational environment? [CU-10Ju]<br>Q. Enumerate types of interaction in working environment.</b></summary>
+### Q. What do you mean by occupational environment? [CU-10Ju]<br>Q. Enumerate types of interaction in working environment.
 
 **Occupational / working environment:**
 It means “the sum of external conditions and influences which prevail at the place of work and which
 have a bearing on the health of the working population.
 [Ref- Park /24" / 840]
-</details>
 
-<details>
-<summary><b>Q. How occupational environment determines health and disease of workers of factory? Explain.<br>Q. Enumerate types of interaction in working environment.</b></summary>
+### Q. How occupational environment determines health and disease of workers of factory? Explain.<br>Q. Enumerate types of interaction in working environment.
 
 Occupational environment determines health and disease of workers of factory:
 Basically, there are three types of interaction in an occupational environment as follow:
@@ -87,10 +78,8 @@ disturb his sleep. Severe prolonged stress, no matter where it has been aroused,
 mental symptoms which do not allow man to work efficiently. -
 [Ref- Park / 24" /840, 841]
 Occupational disease & Industrial health hazards
-</details>
 
-<details>
-<summary><b>Q. Define occupational disease. [SUST-16J]<br>Q. Classify occupational diseases [RU-14J] / health hazards (DU-15Ju,11Ju, SUST-16M, 143] /</b></summary>
+### Q. Define occupational disease. [SUST-16J]<br>Q. Classify occupational diseases [RU-14J] / health hazards (DU-15Ju,11Ju, SUST-16M, 143] /
 
 ions) Peet [CU-18N, 16J].
 the occtipational diseases due to physical agents [RU-08J] / organic dusts [RU-12J] /
@@ -143,10 +132,8 @@ tardiness, alcoholism, drug abuse, sickness absenteeism
   - Psychosomatic ill health: Fatigue, headache, pain in the shoulders, neck and back,
 propensity to peptic ulcer, hypertension, heart disease and rapid aging.
 [Ref- Park / 24" / 841]
-</details>
 
-<details>
-<summary><b>Q. What are the occupational diseases in Bangladesh?</b></summary>
+### Q. What are the occupational diseases in Bangladesh?
 
 **Occupational diseases in Bangladesh:**
 Poisoning by lead, phosphorus, arsenic, manganese, nitrous fumes, carbon-bisulfide, 2. azene,
@@ -167,10 +154,8 @@ Specific occupational problems
 Dermatitis
 the probable causes of dermatitis of an industrial worker?
 e preventive measure of occupational dermatosis.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Occupational dermatitis. [CU-12J]</b></summary>
+### Q. Write short note on: Occupational dermatitis. [CU-12J]
 
 **Causes of dermatitis of an industrial worker:**
 1) Physical: Heat, cold, moisture, friction, pressure, X-rays and other rays.
@@ -193,19 +178,15 @@ detection and treatment of occupational dermatitis.
 220)
 [Ref- Rashid, Khabir, Hyder / 5/219,
 Dust-borne diseases / Pneumoconiosis
-</details>
 
-<details>
-<summary><b>Q. Mention the different dusts and dust borne diseases. [CU-10Ju]<br>Q. Classify dust borne diseases. [SUST-17N,15J,13Ju]</b></summary>
+### Q. Mention the different dusts and dust borne diseases. [CU-10Ju]<br>Q. Classify dust borne diseases. [SUST-17N,15J,13Ju]
 
 moconiosis. [DU-17N, | 5Ju, CU-15J,10J, SUST-18M,17N, 16N, 15J,13Ju,12Ju]
 ify pneumoconiosis. [DU-17N]
 fst common pneumoconiosis. (DU-14J]
 numerate pneumoconiosis with their causative agents. [SUST-16J]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Pneumoconiosis. [SUST-18N,17M,|0Ju, RU-14J,12Ju, CU-12Ju]</b></summary>
+### Q. Write short note on: Pneumoconiosis. [SUST-18N,17M,|0Ju, RU-14J,12Ju, CU-12Ju]
 
 **Pneumoconiosis:**
 Tt is a lung disease caused by dust within the size range of 0.5 to 3 micron afte
@@ -231,16 +212,12 @@ As there is no cure for these conditions, emphasis should be on preventive measu
 3) Periodic medical checkup.
 [Ref- Park / 24" / 843]
 azardous effect of dust on the lungs.
-</details>
 
-<details>
-<summary><b>Q. Discuss the factors related to h</b></summary>
+### Q. Discuss the factors related to h
 
 what factors you should consider?
-</details>
 
-<details>
-<summary><b>Q. For assessing pneumoconiosis,</b></summary>
+### Q. For assessing pneumoconiosis,
 
 **ngs:** The hazardous effects of dusts on the lungs depend
 Factors related to hazardous effect of dust on the lung:
@@ -252,17 +229,13 @@ upon a number of factors such as:
 4) Period of exposure and.
 5) Health status of the person exposed.
 [Ref- Park / 24" / 843]
-</details>
 
-<details>
-<summary><b>Q. In a coal mine, several workers came out of the mine cave and within a few minutes</b></summary>
+### Q. In a coal mine, several workers came out of the mine cave and within a few minutes
 
 developed some health problems. What may be the health problems and how can you
 alleviate those conditions? [RU-09Ju]
-</details>
 
-<details>
-<summary><b>Q. How coal miners can be prevented from anthracosis? [DU-12Ju]</b></summary>
+### Q. How coal miners can be prevented from anthracosis? [DU-12Ju]
 
 **Possible health problems:** Coal miner’s pneumoconiosis (anthracosis).
 It may have two general phases:
@@ -296,10 +269,8 @@ indicated. |
 4) Bagasse control: By keeping the moisture content above 20% and spraying the bagasse can be
 rendered safe for manufacturing use... ~~~
 Sa is Parmer’s lung? [DU-12J, RU-17N, 13J,12Ju]
-</details>
 
-<details>
-<summary><b>Q. Give gShort account of Farmer’s lung. [CU-08J]<br>Q. Write short note on: Farmer’s lung. [DU-13J, RU-18N,16J,15J,11J, SUST-12J, CU-12J]</b></summary>
+### Q. Give gShort account of Farmer’s lung. [CU-08J]<br>Q. Write short note on: Farmer’s lung. [DU-13J, RU-18N,16J,15J,11J, SUST-12J, CU-12J]
 
 [Ref- Park / 24" / 844]
 : It is an occupational disease due to inhalation of mouldy hay or grain dust.
@@ -325,10 +296,8 @@ The hazardous effects of dusts on the lungs depend upon a number of factors such
 (e) Health status of the person exposed
 : [Ref- Park / 24" / 843]
 Sickness absenteeism
-</details>
 
-<details>
-<summary><b>Q. Define sickness absbatesit<br>Q. Write short note on: Sickness Absenteeism. [DU-10Ju, SUST-14Ju, RU-16M, 1 5Ju, 14Ju,13J, 12J,11J]</b></summary>
+### Q. Define sickness absbatesit<br>Q. Write short note on: Sickness Absenteeism. [DU-10Ju, SUST-14Ju, RU-16M, 1 5Ju, 14Ju,13J, 12J,11J]
 
 **ickness absenteeism:**
 It is an important health problem in industry and is a useful index in industry to access the state of
@@ -349,10 +318,8 @@ Prevention: The methods for reducing sickness absenteeism include:
   - Application of ergonomics.
 [Ref- Park / 24" / 847]
 Lead exposure
-</details>
 
-<details>
-<summary><b>Q. What health hazard can occur due to lead exposure?</b></summary>
+### Q. What health hazard can occur due to lead exposure?
 
 **Health hazards due to lead exposure:**
 ~ Toxic effects of inorganic lead exposure:
@@ -373,10 +340,8 @@ P|
 4) Delirium.
 [Ref- Park / 24" / 44)
 Sili€osis
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Silicosis.</b></summary>
+### Q. Write short note on: Silicosis.
 
 **Silicosis:**
 ” It is an occupational disease caused by inhalation of dust containing free silica or silicon dioxide, found
@@ -425,10 +390,8 @@ obtained by supporting the source on vibration isolators by metal springs.
 b. To reduce air borne sound we can provide distance between source and receiver.
 [Ref- Rashid, Khabir, Hyder / 5" / 509]
 ° Occupational cancers
-</details>
 
-<details>
-<summary><b>Q. Discuss occupational cancers. [SUST-08J]<br>Q. Discuss 4 occupational cancers with their causative factors. [<br>Q. Enumerate 4 occupational cancers with concerned occupations. RU-15J]</b></summary>
+### Q. Discuss occupational cancers. [SUST-08J]<br>Q. Discuss 4 occupational cancers with their causative factors. [<br>Q. Enumerate 4 occupational cancers with concerned occupations. RU-15J]
 
 [RU-12Ju, | LJu]
 The occupational cancers with causative agents are given below:
@@ -453,10 +416,8 @@ Characteristics / criteria of occupational cancer:
 [Ref- Park /24" / 846]
 TO mn a
 oN
-</details>
 
-<details>
-<summary><b>Q. Name five occupational groups who are at risk of occupational cancer.<br>Q. Name some industries where skin cancer, lung cancer and bladder cancer are more</b></summary>
+### Q. Name five occupational groups who are at risk of occupational cancer.<br>Q. Name some industries where skin cancer, lung cancer and bladder cancer are more
 
 prevalent.
 Occupational groups who are at risk of occupational cancer:
@@ -467,10 +428,8 @@ makers.
 3) Bladder cancer: Aniline industry workers, dye-stuffs, rubber, gas and electric cable industry workers,
 4) Leukaemia: Radiation worker.
 [Ref- Park / 24" / 845]
-</details>
 
-<details>
-<summary><b>Q. Write down the control measures of occupational cancers. [RU-15J]<br>Q. Mention industrial cancer control measures. [RU-1 1Ju]</b></summary>
+### Q. Write down the control measures of occupational cancers. [RU-15J]<br>Q. Mention industrial cancer control measures. [RU-1 1Ju]
 
 **Preventive measures of occupational cancers:**
 Elimination or control of industrial carcinogens. Technical measure such as exclusion of the
@@ -507,17 +466,13 @@ Replacement and periodic examination of workers should be done every 2 months
 WNNARARAAARARRAD SIANAAANANNAASANSSNAENARARARNAARA
 ealth hazards due to industrialization
 Oe
-</details>
 
-<details>
-<summary><b>Q. Mention problems due to industrialization, [DU-15J,10Ju, CU-13Ju, SUST-12J, RU-</b></summary>
+### Q. Mention problems due to industrialization, [DU-15J,10Ju, CU-13Ju, SUST-12J, RU-
 
 ealth problems due to indiscriminate industrialization. [DU-14Ju]
 down the health problems of garments workers. [DU-16J,15J, CU-14Ju]
-</details>
 
-<details>
-<summary><b>Q. Mlustrate psychological hazards of garment female workers. [DU-10J]<br>Q. ee the health hazards faced by the garments workers in Bangladesh. [CU-18N,16M,</b></summary>
+### Q. Mlustrate psychological hazards of garment female workers. [DU-10J]<br>Q. ee the health hazards faced by the garments workers in Bangladesh. [CU-18N,16M,
 
 u
 2 Write short note on: Health problems due to industrialization. [SUST-10J]
@@ -541,10 +496,8 @@ prostitution, increased crime etc.
 [Ref- Rashid, Khabir, Hyder / 5" /209 + Park / 24" / 847, 848]
 Z
 _Kécident in industry
-</details>
 
-<details>
-<summary><b>Q. What are the causes of accident in industry?</b></summary>
+### Q. What are the causes of accident in industry?
 
 **Causes of accident in industry:** The causes of accidents are several and may be grouped under 2 headlines —
 (A) Human factors:
@@ -576,10 +529,8 @@ Prevention of accidents in industry: The principles of accident prevention are �
 7) Careful reporting, maintenance of records & publicity.
 [Ref- Park /24"/ 847)
 Health hazards of a cotton mill
-</details>
 
-<details>
-<summary><b>Q. What are the health hazards of a cotton mill?<br>Q. A lady has been working in a textile mill for long 20 years, where she is exposed to huge</b></summary>
+### Q. What are the health hazards of a cotton mill?<br>Q. A lady has been working in a textile mill for long 20 years, where she is exposed to huge
 
 ; cotton dust every day. What occupational disease(s) she is likely to develop there? [RU-18M]:
 nswer ;
@@ -593,17 +544,13 @@ result of hypersensitivity reaction.
 5) Occupational lung cancer may be the most fatal conclusion of cotton mill health hazard.
 [Ref- Rashid, Khabir, Hyder / 5" /218]
 oc hazards in agricultural workers
-</details>
 
-<details>
-<summary><b>Q. Wifat are the health hazards of farmers of Bangladesh? [SUST-18M, 1 6N]</b></summary>
+### Q. Wifat are the health hazards of farmers of Bangladesh? [SUST-18M, 1 6N]
 
 lustrate the health hazards faced by the farmers [CU-16N] / agri-workers [DU-13Ju] in
 Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the occupational diseases 0</b></summary>
+### Q. Enumerate the occupational diseases 0
 
 < Q. Mention the common occupational hazar'
 rh example. [RU-15Ju,14Ju]
@@ -614,10 +561,8 @@ Anthrax.
 Leptospirosis.
 Tetanus. .
 Tuberculosis (bovine).
-</details>
 
-<details>
-<summary><b>Q. Fever.</b></summary>
+### Q. Fever.
 
 Fungal infection (of hands & feet).
 Parasitic infection (worms).
@@ -640,10 +585,8 @@ i > Chances of developing addiction from anesthetic gases
   - Occupational asthma.
 [Ref- Park /24" / 846]
 Health hazards of a doctor
-</details>
 
-<details>
-<summary><b>Q. List the occupational health hazards among health personnel. [DU-15Ju]<br>Q. Whatare-tiie usual occupational health problems of the medical professionals? [CU-11J]</b></summary>
+### Q. List the occupational health hazards among health personnel. [DU-15Ju]<br>Q. Whatare-tiie usual occupational health problems of the medical professionals? [CU-11J]
 
 tethe occupational health hazards of health personals. [SUST-14Ju, RU-16]]
 ite short note on: Occupational health hazards of a doctor. [SUST-17N]
@@ -696,10 +639,8 @@ Adequate housing facilities near the plant.
 e the personal protective devices. [SUST-14J]
 ame the personal protective equipment (PPEs) that you suggest for a worker of a cotton
 mill. [RU-16N]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Personal protective equipment. [RU-09Ju]</b></summary>
+### Q. Write short note on: Personal protective equipment. [RU-09Ju]
 
 Personal protective equipments (PPEs) used in an industry:
 1) Respiratory devices
@@ -720,10 +661,8 @@ seuss the principles of control of occupational health hazards. [SUST-16M]
 14Ju,13J]
 _ Q. Write down the preventive medical [RU-17M] / engineering [RU-10Ju] measures to prevent
 occupational hazards.
-</details>
 
-<details>
-<summary><b>Q. A lady has been working in a textile mill for long 20 years, where she is exposed to huge cotton</b></summary>
+### Q. A lady has been working in a textile mill for long 20 years, where she is exposed to huge cotton
 
 dust every day. What occupational disease(s) she is likely to develop there? What measures
 should have to be taken to prevent the problem? [RU-18M]
@@ -765,10 +704,8 @@ safety shoes, aprons, gloves, gumboots, barrier creams, screens and goggles.
 to protect workers from industrial hazards. The two most important acts are the Factory (amendment
 act, 1965 and the Workmen’s Compensation Act, 1923. _ H
 [Ref- Park / 24" /849 + Rashid, Khabir, Hyder / 5" /220] }
-</details>
 
-<details>
-<summary><b>Q. Why</b></summary>
+### Q. Why
 
 123] |
 . An employer, before installation of some radiological & other imaging machineries, come to
@@ -782,10 +719,8 @@ A) To place the right man in the right job.
 [Ref- Park /24"™/ 849]
 Benefits for the Employees
 Q<Mention the benefits for the employees. [RU-14J]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the workers benefit from the employer. [RU-10J]<br>Q. Describe in brief the medical benefits of an industrial worker, [RU-16N]<br>Q. Mention the healthcare services those are included in medical benefits as occupational |</b></summary>
+### Q. Enumerate the workers benefit from the employer. [RU-10J]<br>Q. Describe in brief the medical benefits of an industrial worker, [RU-16N]<br>Q. Mention the healthcare services those are included in medical benefits as occupational |
 
 benefits for thé employees. [RU-17M] |
 yee can get from an industrial management: a
@@ -822,10 +757,8 @@ expenses on his funeral, the amount not exceeding Rs.1000..
 Rehabilitation allowance: On monthly payment of Rs. 10, the insured person and his family
 members continue to get medical treatment after permanent disablement or retirement.
 [Ref- Park / 24" / 853]
-</details>
 
-<details>
-<summary><b>Q.A ing lady who is a government employee, is running her first trimester of pregnancy.</b></summary>
+### Q.A ing lady who is a government employee, is running her first trimester of pregnancy.
 
 ina benefit she may claim to the authority as per outcome of her pregnancy? [RU-12Ju]
 Answer
@@ -834,10 +767,8 @@ YW) Medical benefit.
 ” Sickness benefit.
 giaiaoaly benefit.
 Offensive Trade
-</details>
 
-<details>
-<summary><b>Q. Défine offensive trade. [CU-18M]<br>Q What are the offensive trades? [CU-17M,16M, 1 5Ju,14Ju]<br>Q. Write short note on: Offensive trade. [SUST-18M,16N, CU-13Ju,10J]</b></summary>
+### Q. Défine offensive trade. [CU-18M]<br>Q What are the offensive trades? [CU-17M,16M, 1 5Ju,14Ju]<br>Q. Write short note on: Offensive trade. [SUST-18M,16N, CU-13Ju,10J]
 
 **Offensive trades:**
 Any trade, which may impair health of a person in some way or is a source of nuisance fro
@@ -871,10 +802,8 @@ b. periodic checkup.
 PRPNAWeUY
 [Ref- Rashid, Khabir, Hyder / 5" /222]
 Slaughter house
-</details>
 
-<details>
-<summary><b>Q. What are the criteria of good slaughter house?</b></summary>
+### Q. What are the criteria of good slaughter house?
 
 **Criteria of good slaughter house are:**
 - away from human habitation.
@@ -888,10 +817,8 @@ Slaughter house
 8) It should not be used for sleeping.
 [Ref- Rashid, Khabir, Hyder / 5" / 222]
 Badge of the trade
-</details>
 
-<details>
-<summary><b>Q. What do you mean by “badge of the trade”?</b></summary>
+### Q. What do you mean by “badge of the trade”?
 
 **Badge of the trade:**
 The trauma of a particular occupation often gives rise to characteristic stigma “badge of the trade”. For
@@ -901,10 +828,8 @@ workers handling vibration tools, metallic tattooing as a result of explosives.
 SET renee Tae ae i, |
 5
 Factory legislation
-</details>
 
-<details>
-<summary><b>Q. What are health and safety legislation of Bangladesh?</b></summary>
+### Q. What are health and safety legislation of Bangladesh?
 
 **Health and safety legislation of Bangladesh are:**
 AY The Factories Act, 196
@@ -916,10 +841,8 @@ he shops and Establishment’s Act, 1965
 7), Minimum Wages Ordinance, 1961
 AY Employment of Children’s Act, 1938.
 [Ref- Rashid, Khabir, Hyder /5"/ 223]
-</details>
 
-<details>
-<summary><b>Q. Mention some factory acts.</b></summary>
+### Q. Mention some factory acts.
 
 **Factory act:** The factories act regulating the working conditions of the workers are —
 1) Keeping the factory premises clean.
@@ -935,10 +858,8 @@ AY Employment of Children’s Act, 1938.
 11) Supply of first aid appliances.
 12) Prohibiting employment of children below the age of 14 years.
 [Ref- Rashid, Khabir, Hyder / 5" /223]
-</details>
 
-<details>
-<summary><b>Q. Offensive trade includes: [DU-17M, 14J] Q. Baggasosis is characterized by: [DU-16J]</b></summary>
+### Q. Offensive trade includes: [DU-17M, 14J] Q. Baggasosis is characterized by: [DU-16J]
 
 a) Leather processing. a) Inhalation of fine cotton dust.
 b) Animal trading. b) Acute diffuse bronchitis.
@@ -946,10 +867,8 @@ c) Cotton mill. c) A dense nodular fibrosis.
 d) Trade mill. d) Mottling of lungs.
 e) Meat processing. e) Emphysema.
 Ans. a) T, b) T, c) T, d) F, e) F. Ans. a) F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Organic dust borne disease: [DU-16J] Q. Examples of inorganic dusts: [DU-15Ju]</b></summary>
+### Q. Organic dust borne disease: [DU-16J] Q. Examples of inorganic dusts: [DU-15Ju]
 
 a) Asbestosis. a) Silica.
 b) Siderosis. b) Cotton dust.
@@ -957,10 +876,8 @@ c) Bagassosis. c) Coal.
 d) Tobaccosis. .  d) Jute dust.
 e) Pneumonia. e) Asbestos.
 Ans. a) F, b) F, c) T, d) T, e) F. Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Pneumoconiosis includes: [DU-!4Ju] Q. The important pneumoconiosis: (DU-12J]</b></summary>
+### Q. Pneumoconiosis includes: [DU-!4Ju] Q. The important pneumoconiosis: (DU-12J]
 
 a) Actinomycosis. a) asbestosis among coal miners
 b) Anthracosis. b) silicosis among gold miners
@@ -968,20 +885,16 @@ c) Brucellosis. c) siderosis among steel-mill workers
 d) Psitacosis. d) bagassosis among paper-mill workers
 e) Asbestosis. e) anthracosis among ceramic workers
 Ans. a) F, b) T, c) F, d) F, e) T. Ans. a) F, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Pneumoconiosis are: [DU-11J]</b></summary>
+### Q. Pneumoconiosis are: [DU-11J]
 
 a) Actinomycosis
 b) Farmer’s lung
 c) Siderosis
 d) Psittacosis
 e) Asbestosis
-</details>
 
-<details>
-<summary><b>Q. Following industry workers are at risk of</b></summary>
+### Q. Following industry workers are at risk of
 
 **lung cancer:** [DU-13Ju]
 a) glass manufacture
@@ -991,10 +904,8 @@ d) uranium mining
 e) cement factory Ans. a) F, b) T, ¢) F, d) F, e) T.
 Ansa) F, 0) Rep ey) Taye Q. Occupational diseases due to chemical
 solvents are: [DU-10Ju]
-</details>
 
-<details>
-<summary><b>Q. Offensive trades are: [DU-13Ju]</b></summary>
+### Q. Offensive trades are: [DU-13Ju]
 
 a. Carbon bisulphate
 a) slaughtering
@@ -1008,5 +919,4 @@ e. Chloroform
 Ans. a) T, b) F, c) T, d) F, e) T.
 ~~ «4
 ‘
-</details>
 

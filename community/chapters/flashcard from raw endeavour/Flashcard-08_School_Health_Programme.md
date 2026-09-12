@@ -14,15 +14,12 @@
 
 ## School environment
 
-<details>
-<summary><b>Q. Enumerate the healthful school environment. [DU-12J, SUST-16N]<br>Q. Whatare the criteria of healthful school environment [DU-16M, SUST-17M]<br>Q. How can you ensure healthful school environment? [DU-13J]</b></summary>
+### Q. Enumerate the healthful school environment. [DU-12J, SUST-16N]<br>Q. Whatare the criteria of healthful school environment [DU-16M, SUST-17M]<br>Q. How can you ensure healthful school environment? [DU-13J]
 
 ist the factors that create soothing school environment. [RU-10J]
 . Write down the measures for ensuring healthful school environment. [DU-18N,14J]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Healthful school environment. [RU-14Ju]</b></summary>
+### Q. Write short note on: Healthful school environment. [RU-14Ju]
 
 **Criteria of healthful school environment:**
 1) Satisfactory toilet & lavatory facilities.
@@ -33,18 +30,14 @@ ist the factors that create soothing school environment. [RU-10J]
 6) Restroom & playground.
 7) Clean environment.
 |Ref- Rashid, Khabir, Hyder /5"/ 184]
-</details>
 
-<details>
-<summary><b>Viva Q. Why healthful school environment is essential?</b></summary>
+### Viva Q. Why healthful school environment is essential?
 
 **Healthful school environment is essential:** .
 School environment should be healthful as a child spends a good portion of his time in the school.
 [Ref- Rashid, Khabir, Hyder /5"/ 184]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **|. Location:** school should be centrally situated with proper approach road and should be away from busy
 place, road, cinema, shall. Factories, railway and marker.
@@ -80,10 +73,8 @@ sacvicied for tihng — should not be allowed inside school premises and separat
 One urinal for every 60 students.
 Separate arrangement for girls and boys.
 Periodic medical examination
-</details>
 
-<details>
-<summary><b>Q. What do you mean by periodic medical examination?</b></summary>
+### Q. What do you mean by periodic medical examination?
 
 **Periodic medical examination:**
 _ Periodic medical examination means periodic physical examination or screening of students to
@@ -100,10 +91,8 @@ A routine examination of blood and urine should be carried out.
 Clinical examination for nutritional deficiency and examination of faeces for intestinal parasites are particularly
 important. ‘
 [Ref- Rashid, Khabir, Hyder /5" / 183 + Park / 24" / 615]
-</details>
 
-<details>
-<summary><b>Q. What is health appraisal? [DU-10Ju]<br>Q. What do you mean by health appraisal in school health?</b></summary>
+### Q. What is health appraisal? [DU-10Ju]<br>Q. What do you mean by health appraisal in school health?
 
 **Health appraisal:** Health appraisal consists of periodic medical examinations and observation of children by
 the class teacher. The health appraisal should cover not only the students but also the teachers and other school
@@ -113,22 +102,16 @@ Medical examination of the teachers and other school personnel.
 Daily morning inspection.
 [Ref- Park / 24" / 615]
 School desks
-</details>
 
-<details>
-<summary><b>Q. Mention the types of school desk. [DU-18M,14J, SUST-17N]<br>Q. Mention the types and importance of school desks. [DU-1 1J,10J]<br>Q. Mention different types of school desks with two important indications of minus desk for the</b></summary>
+### Q. Mention the types of school desk. [DU-18M,14J, SUST-17N]<br>Q. Mention the types and importance of school desks. [DU-1 1J,10J]<br>Q. Mention different types of school desks with two important indications of minus desk for the
 
 younger children. (RU-15J]
-</details>
 
-<details>
-<summary><b>Q. Define plus desk. [DU-16N]</b></summary>
+### Q. Define plus desk. [DU-16N]
 
 minus desk. [DU-16M]
-</details>
 
-<details>
-<summary><b>Q. Mention the importance of<br>Q. Write short note on: School desk. [SUST-12J]</b></summary>
+### Q. Mention the importance of<br>Q. Write short note on: School desk. [SUST-12J]
 
 **Different school desks:** -.
 Zero desk: Here the posterior edge of the desk is vertically in lin
@@ -158,24 +141,18 @@ der of preference come the dual seats & desks.
 - Single seats & desks are ideal & next in or
 ° The faulty seats give rise to certain orthopedic defects.
 - The zero and minus types are suitable for reading and writing.
-</details>
 
-<details>
-<summary><b>Q. Which desk you recommend for nursery children & why? [SUST-17N]</b></summary>
+### Q. Which desk you recommend for nursery children & why? [SUST-17N]
 
 Minus desk.
 SIRE
 School health problems
-</details>
 
-<details>
-<summary><b>Q. What are the common school health probl in Bang</b></summary>
+### Q. What are the common school health probl in Bang
 
 SUST-I8M,ION/M,ISI IIT] nn DanBladesh? [DU-16N,11J,10J, CU-17N,124,
-</details>
 
-<details>
-<summary><b>Q. Enumerate the health problems of primary school children of rural area, [DU-15Ju]<br>Q. What are the common health problems in primary school children? [CU-13J]<br>Q. Enlist common diseases of school children. [DU-18N] :<br>Q. Write short note on: School health problems. [SUST-16J]</b></summary>
+### Q. Enumerate the health problems of primary school children of rural area, [DU-15Ju]<br>Q. What are the common health problems in primary school children? [CU-13J]<br>Q. Enlist common diseases of school children. [DU-18N] :<br>Q. Write short note on: School health problems. [SUST-16J]
 
 **School health problems:**
 A) Problems related to the health of the students:
@@ -204,10 +181,8 @@ municipal area. ;
 - 6%secondary school
 - Service — curative mainly.
 - Total number — 25.
-</details>
 
-<details>
-<summary><b>Q. Mention school health programmes of Bangladesh.</b></summary>
+### Q. Mention school health programmes of Bangladesh.
 
 **School health programmes of Bangladesh:**
 General objectives: d curative services to the school children of Bangladesh in order to
@@ -236,27 +211,21 @@ dissemination seminar at the union and thana levels.
 practices, and through the distribution of vitamin A capsules and multivitamin tablets at the
 community, union and upazila levels.
 [Ref- Rashid, Khabir, Hyder /5" / 187]
-</details>
 
-<details>
-<summary><b>Q. What is deworming? [CU-12Ju]</b></summary>
+### Q. What is deworming? [CU-12Ju]
 
 **Deworming:**
 Deworming is the giving of an anthelmintic drug to an individual to rid him/her of intestinal parasites.
-</details>
 
-<details>
-<summary><b>Q. How school health service developed in Bangladesh?</b></summary>
+### Q. How school health service developed in Bangladesh?
 
 **Development of school health service in Bangladesh:**
 Following the preparation of a Master Plan in 1993 for the development of a comprehensive and viable
 School Health Programme in the country, the project proforma was signed in June 1996 for the implementation
 of School Health Pilot Project (SHPP) in 4 districts under the World Bank's Fourth Population Project.
 [Ref- Rashid, Khabir, Hyder / 4/168]
-</details>
 
-<details>
-<summary><b>📌 Viva — Staffing pattern / organogram of school health team</b></summary>
+### 📌 Viva — Staffing pattern / organogram of school health team
 
 **Staffing pattern / organogram of school health team:**
 A) At district level:
@@ -276,10 +245,8 @@ Supporting staffs
 School teachers
 Class monitors.
 [Ref- Rashid, Khabir, Hyder / 4" / 166]
-</details>
 
-<details>
-<summary><b>Q. What instruments should carry a school medical officer during visit?</b></summary>
+### Q. What instruments should carry a school medical officer during visit?
 
 **Instruments required to examine the school children:**
 1)
@@ -294,16 +261,12 @@ Cotton
 Bandage
 10) Antiseptic solution.
 [Ref- Rashid, Khabir, Hyder / 4" / 166]
-</details>
 
-<details>
-<summary><b>Q. Write down the duties [CU-16N, 12Ju/J, SUST-16M] / functions [SUST-17M] / job criteria</b></summary>
+### Q. Write down the duties [CU-16N, 12Ju/J, SUST-16M] / functions [SUST-17M] / job criteria
 
 [CU-13] of school health medical officer.
-</details>
 
-<details>
-<summary><b>Q. Mention the role of school health medical officer in school health programme. [DU-12Ju]</b></summary>
+### Q. Mention the role of school health medical officer in school health programme. [DU-12Ju]
 
 Duties & responsibilities of school health medical officer:
 !)
@@ -341,10 +304,8 @@ nation with officers of education department regarding school health
 11) To perform any other func’
 tions assigned by Director/DMP, SHP from time to time
 [Ref- Rashid, Khabir, Hyder 15/185]
-</details>
 
-<details>
-<summary><b>Q. What are the duties and responsibilities of public health nurse?</b></summary>
+### Q. What are the duties and responsibilities of public health nurse?
 
 Duties and responsibilities of
 1) To play key role in estal :
@@ -370,10 +331,8 @@ students, organizing referral system, follow up care and in conducting training 
 9) To motivate school authorities in getting their students involved in community health activities,
 10) To perform any other functions assigned to her by the medical officer and school health unit.
 [Ref- Rashid, Khabir, Hyder / 5 / 185]
-</details>
 
-<details>
-<summary><b>Q. Mention the role of school teacher in school health service.</b></summary>
+### Q. Mention the role of school teacher in school health service.
 
 **Duties & responsibilities of school teacher:**
 1. To impart health education according to curriculum of school system.
@@ -390,20 +349,16 @@ Mid-day meal programme:
 The mid-day programme (MSMP) is also known as School Lunch Programme. The major objective of
 the programme is to attract more children for admission to schools and retain them so that literacy improvement
 of children could be brought about,
-</details>
 
-<details>
-<summary><b>Q. What is mid-day school meal?</b></summary>
+### Q. What is mid-day school meal?
 
 **Mid-day school meal:**
 In order to combat malnutrition and improve the health of school children, it is now an accepted
 procedure in all advanced countries to provide a good nursing meal to school children on a ‘no profit no loss’
 bias. It is the mid-day school meal.
 [Ref- Park / 24" / 698]
-</details>
 
-<details>
-<summary><b>Q. Write down the criteria of mid-day school meal. [RU-17M, SUST-18N, 1 5Ju,13J,11J, CU-16N]</b></summary>
+### Q. Write down the criteria of mid-day school meal. [RU-17M, SUST-18N, 1 5Ju,13J,11J, CU-16N]
 
 **Criteria of a mid-day school meal:**
 1) The meal should be a supplement and not a substitute to the home diet.
@@ -417,10 +372,8 @@ of the meal and
 6) The menu should be frequently changed to avoid monotony.
 Model menu of a mid-day school meal:
 [Ref- Park / 24" / 698]
-</details>
 
-<details>
-<summary><b>Q. ‘ ged bee yee - sie! ea ees 2200 kcal/day & 20% of the total energy should come</b></summary>
+### Q. ‘ ged bee yee - sie! ea ees 2200 kcal/day & 20% of the total energy should come
 
 : i culate what amount of i i i
 muidiiey school meal. [RU-16)] energy & protein should be needed in preparing
@@ -441,17 +394,13 @@ The meal should supply at least one third of the total energy requirement, and h
 protein need.
 Total calorie at mid-day meal: 734 kcal.
 Total protein should be needed =107+2 =53.5 gm.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Mid-day school meal. [SUST-16N, 12Ju]<br>Q. Describe “mid-day meal”, [SUST-11Ju]</b></summary>
+### Q. Write short note on: Mid-day school meal. [SUST-16N, 12Ju]<br>Q. Describe “mid-day meal”, [SUST-11Ju]
 
 Please see above.
 Handicapped Children
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Handicapped children.<br>Q. Define and classify handicapped children. List its preventive approaches.</b></summary>
+### Q. Write short note on: Handicapped children.<br>Q. Define and classify handicapped children. List its preventive approaches.
 
 **Handicap:**
 A handicap is defined as
@@ -491,10 +440,8 @@ a
   - Treatment.
   - Training and education. as
 [Ref- Park / 24” / 618]
-</details>
 
-<details>
-<summary><b>📌 Viva — Categories of mental retardation</b></summary>
+### 📌 Viva — Categories of mental retardation
 
 **Categories of mental retardation:**
 Mild mental retardation > IQ = 70-50
@@ -502,10 +449,8 @@ Moderate mental retardation > 1Q = 49 — 35
 Severe mental retardation + IQ = 34 - 20
 Profound mental retardation + IQ = Under 20
 [Ref- Park / 24" / 618]
-</details>
 
-<details>
-<summary><b>Q. One of the family members of an extended family norm is mentally handicapped. How this</b></summary>
+### Q. One of the family members of an extended family norm is mentally handicapped. How this
 
 wretched fellow should be managed in that family?
 Management of handicapped children (secondary prevention):
@@ -535,10 +480,8 @@ Types of juvenile delinquency:
 3. Habitually disobedient.
 4. Those who desert their home and mix with immoral people.
 [Ref- Park /24"/ 621]
-</details>
 
-<details>
-<summary><b>Q. Common school health problems are: [DU-14Ju]</b></summary>
+### Q. Common school health problems are: [DU-14Ju]
 
 a) Dental caries.
 b) Lathyrism.
@@ -546,10 +489,8 @@ c) Helminthiasis.
 d) Rheumatic fever.
 e) Scabies
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Principles of school lunch are as follows: [DU-14Ju]</b></summary>
+### Q. Principles of school lunch are as follows: [DU-14Ju]
 
 a) Meal should be a substitute to home diet.
 b) Should supply at least 1/3 of daily requirement.
@@ -557,10 +498,8 @@ c) Should contain 100% of daily protein need.
 d) No packet from home should be allowed.
 e) Menu should be frequently changed.
 Ans. a) F, b) T, ©) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. School health services comprise of: [DU-13J]</b></summary>
+### Q. School health services comprise of: [DU-13J]
 
 a) health education
 b) prevention of communicable diseases
@@ -571,10 +510,8 @@ Ans. a) T, b) T, ¢) F, d) F, e) T-
 err TON
 = SNNNNA ND
 302 — ENDEAV u] CQ), VIV,
-</details>
 
-<details>
-<summary><b>Q. An ideal classroom is characterized by: [DU-12Ju]</b></summary>
+### Q. An ideal classroom is characterized by: [DU-12Ju]
 
 **a) height:** 12 feet
 b) room: sound and dust proof
@@ -582,10 +519,8 @@ c) for each student: 30 cubic feet floor space
 d) distance of black board: not < 7 feet
 e) number of student: not > 40 in one class
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Common school health problems are: [DU-12J]</b></summary>
+### Q. Common school health problems are: [DU-12J]
 
 a. lathyrism
 b. night blindness
@@ -593,10 +528,8 @@ c. scabies
 d. dental caries
 e. LBW
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Common school health problem in juvenile ages are: [DU-10Ju]</b></summary>
+### Q. Common school health problem in juvenile ages are: [DU-10Ju]
 
 f a. Night blindness
 b. Drug abuse
@@ -604,5 +537,4 @@ c. Nutritional anaemia
 d. School phobia
 e. Scabies
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 

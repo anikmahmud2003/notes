@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Mention the levels of health care delivery. (S27,Q1)</b></summary>
+### Q1. Mention the levels of health care delivery. (S27,Q1)
 
 ### Levels of health care delivery in Bangladesh
 Health services are organized at **four levels**, each supported by a higher level to which the patient is referred:
@@ -24,10 +23,8 @@ Health services are organized at **four levels**, each supported by a higher lev
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. List the principles of PHC. (S9,Q1)</b></summary>
+### Q2. List the principles of PHC. (S9,Q1)
 
 ### Principles of Primary Health Care (PHC)
 Primary health care is based on **4 principles**:
@@ -41,4 +38,3 @@ Primary health care is based on **4 principles**:
 
 > 📖 Ch-02, Endeavour PDF p. 48
 
-</details>

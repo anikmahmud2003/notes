@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Definition of cirrhosis of liver. What is chronic liver disease?</b></summary>
+### Q1. Definition of cirrhosis of liver. What is chronic liver disease?
 
 ### Definition of cirrhosis
 
@@ -25,10 +24,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. List the causes of cirrhosis. Mention the causes common in Bangladesh.</b></summary>
+### Q2. List the causes of cirrhosis. Mention the causes common in Bangladesh.
 
 ### Causes of cirrhosis
 
@@ -60,10 +57,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Classify cirrhosis of liver according to etiology / What are the causes (etiology) of cirrhosis of liver.</b></summary>
+### Q3. Classify cirrhosis of liver according to etiology / What are the causes (etiology) of cirrhosis of liver.
 
 ### Etiologic classification of cirrhosis
 
@@ -86,10 +81,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Classify cirrhosis morphologically. How cirrhosis is graded histologically/clinically?</b></summary>
+### Q4. Classify cirrhosis morphologically. How cirrhosis is graded histologically/clinically?
 
 ### Morphological classification
 
@@ -124,10 +117,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Describe the pathogenesis of cirrhosis of liver in chronic viral hepatitis.</b></summary>
+### Q5. Describe the pathogenesis of cirrhosis of liver in chronic viral hepatitis.
 
 ### Pathogenesis (chronic HBV/HCV → cirrhosis)
 
@@ -163,10 +154,8 @@ Septa distort vasculature → intrahepatic shunts + increased sinusoidal resista
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is NASH? How Non alcoholic fatty liver disease may give rise to cirrhosis?</b></summary>
+### Q6. What is NASH? How Non alcoholic fatty liver disease may give rise to cirrhosis?
 
 ### NASH — definition
 
@@ -207,10 +196,8 @@ Risk continues: HCC even in NAFLD-related cirrhosis (<1%/yr)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Give the pathogenesis of ascites in cirrhosis.</b></summary>
+### Q7. Give the pathogenesis of ascites in cirrhosis.
 
 ### Pathogenesis of ascites in cirrhosis
 
@@ -253,10 +240,8 @@ Contributing factors to enumerate:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Discuss the pathology / morphology of cirrhosis of liver.</b></summary>
+### Q8. Discuss the pathology / morphology of cirrhosis of liver.
 
 ### Gross morphology
 
@@ -284,10 +269,8 @@ Contributing factors to enumerate:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Enumerate the clinical features of cirrhosis of liver.</b></summary>
+### Q9. Enumerate the clinical features of cirrhosis of liver.
 
 ### Clinical features grouped by mechanism
 
@@ -305,10 +288,8 @@ Contributing factors to enumerate:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Enumerate the complications of cirrhosis of liver.</b></summary>
+### Q10. Enumerate the complications of cirrhosis of liver.
 
 | Complication | Key points |
 |---|---|
@@ -330,10 +311,8 @@ Contributing factors to enumerate:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Pathogenesis of edema in cirrhosis of liver.</b></summary>
+### Q11. Pathogenesis of edema in cirrhosis of liver.
 
 ### Pathogenesis of peripheral edema in cirrhosis
 
@@ -369,10 +348,8 @@ Contributing factors:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What do you mean by acute liver failure? What are the causes of acute liver failure?</b></summary>
+### Q12. What do you mean by acute liver failure? What are the causes of acute liver failure?
 
 ### Definition
 
@@ -395,10 +372,8 @@ Contributing factors:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. List the neoplasms of liver. Give the morphology of hepatocellular carcinoma.</b></summary>
+### Q13. List the neoplasms of liver. Give the morphology of hepatocellular carcinoma.
 
 ### Neoplasms of the liver
 
@@ -432,10 +407,8 @@ Contributing factors:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. What is hepatorenal syndrome? What is hepatopulmonary syndrome?</b></summary>
+### Q14. What is hepatorenal syndrome? What is hepatopulmonary syndrome?
 
 ### Hepatorenal syndrome (HRS)
 
@@ -466,10 +439,8 @@ Contributing factors:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. What are features of liver failure? How liver failure can be diagnosed in laboratory?</b></summary>
+### Q15. What are features of liver failure? How liver failure can be diagnosed in laboratory?
 
 ### Clinical features of liver failure
 
@@ -505,10 +476,8 @@ Contributing factors:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Give the pathogenesis of hepatic encephalopathy and coagulopathy in liver failure.</b></summary>
+### Q16. Give the pathogenesis of hepatic encephalopathy and coagulopathy in liver failure.
 
 ### Pathogenesis of hepatic encephalopathy
 
@@ -561,10 +530,8 @@ Cholestasis → bile salt lack → vitamin K malabsorption
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Problem-based question: A male of 50 years has presented with weakness, tiredness and hepatomegaly for few months. He has got history of hepatitis B infection few years back. USG revealed Cirrhosis with a SOL in the right lobe of liver. (a) What is your diagnosis? (b) How will you proceed to confirm the diagnosis?</b></summary>
+### Q17. Problem-based question: A male of 50 years has presented with weakness, tiredness and hepatomegaly for few months. He has got history of hepatitis B infection few years back. USG revealed Cirrhosis with a SOL in the right lobe of liver. (a) What is your diagnosis? (b) How will you proceed to confirm the diagnosis?
 
 ### (a) Diagnosis
 
@@ -596,4 +563,3 @@ Supporting points:
 
 ---
 
-</details>

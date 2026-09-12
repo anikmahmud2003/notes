@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -93,8 +103,8 @@
 
   <h2>1 · Overview & Normal Values of Renal Function Tests</h2>
 
-    <details id="urine1" class="flash">
-    <summary>🔴 What are the renal function tests?</summary>
+    <div class="qcard flash" id="urine1">
+    </div>🔴 What are the renal function tests?</div>
     <div class="ans">
       <h3>1. Routine examination of urine</h3>
       <table>
@@ -124,10 +134,10 @@
         <tr><td>Crystals — Urates, uric acid, calcium oxalate, amorphous phosphate, triple phosphate</td><td>Absent</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Give their normal levels and units of measurement. (DU-22Nv,14Ja) Mention the common/important renal function tests (DU-22Nv,16Ju, BBFMMU'S-23Nv, CU-20Ju,16Ja).</summary>
+  <div class="qcard flash">
+    </div>Give their normal levels and units of measurement. (DU-22Nv,14Ja) Mention the common/important renal function tests (DU-22Nv,16Ju, BBFMMU'S-23Nv, CU-20Ju,16Ja).</div>
     <div class="ans">
       <h3>2. Blood analysis</h3>
       <ul>
@@ -136,10 +146,10 @@
         <li>Serum electrolytes: Na⁺ 134–145 mmol/L, K⁺ 3.6–5.1 mmol/L, Cl⁻ 95–107 mmol/L, etc.</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Name the 5 important RFTs (CU-11Ja).</summary>
+  <div class="qcard flash">
+    </div>Name the 5 important RFTs (CU-11Ja).</div>
     <div class="ans">
       <h3>3. Renal clearance tests</h3>
       <ul>
@@ -148,29 +158,29 @@
         <li><strong>Inulin clearance test:</strong> 125 ml/min</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How will you diagnose renal disorders in the laboratory?</summary>
+  <div class="qcard flash">
+    </div>How will you diagnose renal disorders in the laboratory?</div>
     <div class="ans">
       <h3>4. Imaging / other</h3>
       <p>Plain X-ray KUB (kidney–ureter–bladder) region · Ultrasonography (USG) · Intravenous urography (IVU) · CT scan · MRI · Retrograde pyelography &amp; cystoscopy · Renal arteriography &amp; venography · Radionuclide study (renography) · Renal biopsy followed by histopathology · Uroflowmetry.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Renal function tests (DU-22M, SU-20Nv, RU-19/18M,16Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Renal function tests (DU-22M, SU-20Nv, RU-19/18M,16Ju).</div>
     <div class="ans">
       <h3>5 important RFTs (CU-11Ja)</h3>
       <p>Urine examination, blood urea, serum creatinine, creatinine clearance (GFR), and serum electrolytes — plus uric acid &amp; kidney imaging.</p>
       <p class="ref">Ref: Lecture SSMC &amp; MuMC; Davidson's 22e pp.466–471</p>
     </div>
-  </details>
+  </div>
 
   <h2>2 · Clinical Importance of Urine Examination</h2>
 
-  <details id="urine2" class="flash">
-    <summary>🔴 Write down the significance of renal function test (RU-13Ju); Describe briefly the importance of urine examination; Enumerate the indications of routine urine examination (RU-14Ja); Importance of routine urine examination (RU-12Ja); Diseases that can be diagnosed by urine examination (RU-17Nv,15Ju,08Ja); Write briefly about urine examination (RU-18Ja).</summary>
+  <div class="qcard flash" id="urine2">
+    </div>🔴 Write down the significance of renal function test (RU-13Ju); Describe briefly the importance of urine examination; Enumerate the indications of routine urine examination (RU-14Ja); Importance of routine urine examination (RU-12Ja); Diseases that can be diagnosed by urine examination (RU-17Nv,15Ju,08Ja); Write briefly about urine examination (RU-18Ja).</div>
     <div class="ans">
       <h3>Importance of urine examination</h3>
       <ol>
@@ -192,12 +202,12 @@
       </ol>
       <p class="ref">Ref: Lecture SSMC, DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2>3 · Physical Examination of Urine (Volume, Colour, Appearance, Specific Gravity)</h2>
 
-  <details id="physical" class="flash">
-    <summary>🔴 Illustrate the importance of physical test of urine (For VIVA); Mention the different abnormal colours of urine (RU-13/11Ju); Short note: Colour of urine in different conditions (RU-15Ju).</summary>
+  <div class="qcard flash" id="physical">
+    </div>🔴 Illustrate the importance of physical test of urine (For VIVA); Mention the different abnormal colours of urine (RU-13/11Ju); Short note: Colour of urine in different conditions (RU-15Ju).</div>
     <div class="ans">
       <h3>Clinical importance of physical examination of urine</h3>
       <p><strong>a. Volume</strong> — may be polyuria, oliguria, anuria</p>
@@ -236,19 +246,19 @@
       </ul>
       <p class="ref">Ref: Lecture SSMC, DMC; Long Cases in Clinical Medicine 1st ed p.378</p>
     </div>
-  </details>
+  </div>
 
   <h2>4 · Chemical Examination of Urine</h2>
 
-    <details id="chemical" class="flash">
-    <summary>🔴 Give the clinical importance of chemical examination of urine (For VIVA).</summary>
+    <div class="qcard flash" id="chemical">
+    </div>🔴 Give the clinical importance of chemical examination of urine (For VIVA).</div>
     <div class="ans">
       <h3>Clinical importance of chemical examination of urine</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the chemical tests done in urine examination?</summary>
+  <div class="qcard flash">
+    </div>What are the chemical tests done in urine examination?</div>
     <div class="ans">
       <ul>
         <li><strong>pH:</strong> low (acidic) in normal condition and acidosis</li>
@@ -260,34 +270,34 @@
         <li><strong>Blood</strong> — <em>Orthotolidin test</em> (found positive in haematuria, haemoglobinuria)</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Mention the laboratory interpretation of urine analysis (RU-10Ja).</summary>
+  <div class="qcard flash">
+    </div>Mention the laboratory interpretation of urine analysis (RU-10Ja).</div>
     <div class="ans">
       <div class="mnem">🎯 Remember test→condition pairs: Heat = albumin · Benedict = sugar · Hay's = bile salts · Fouchet's = bilirubin · Rothera = ketones · Orthotolidin = blood.</div>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the special tests in urine examination?</summary>
+  <div class="qcard flash">
+    </div>What are the special tests in urine examination?</div>
     <div class="ans">
       <p class="ref">Ref: Lecture SSMC, DMC</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash" id="nicetoknow1">
-    <summary>Nice to Know: What is the significance of plenty of pus cells in urine?</summary>
+  <div class="qcard flash" id="nicetoknow1">
+    </div>Nice to Know: What is the significance of plenty of pus cells in urine?</div>
     <div class="ans">
       <p>In urine, <strong>plenty of pus cells indicate UTI</strong> (urinary tract infection).</p>
       <p class="ref">Ref: Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
   <h2>5 · Urinary Crystals, Casts & Organized Deposits</h2>
 
-  <details id="crystals" class="flash">
-    <summary>🔴 Short note: Urinary crystals (RU-18Ja, CU-12Ju); Mention the organic and inorganic substances found in urine (CU-15Ja); Write the findings to be noted in routine analysis of urine (CU-20Nv).</summary>
+  <div class="qcard flash" id="crystals">
+    </div>🔴 Short note: Urinary crystals (RU-18Ja, CU-12Ju); Mention the organic and inorganic substances found in urine (CU-15Ja); Write the findings to be noted in routine analysis of urine (CU-20Nv).</div>
     <div class="ans">
       <p><strong>Urinary crystals:</strong> Crystalluria indicates that the urine is supersaturated with the compounds that comprise the crystals, e.g. ammonium, magnesium and phosphate for struvite.</p>
       <h3>1. Common crystals</h3>
@@ -321,10 +331,10 @@
       </ol>
       <p class="ref">Ref: Geoffrey K. Dube and Robert S. Brown</p>
     </div>
-  </details>
+  </div>
 
-    <details id="casts" class="flash">
-    <summary>🔴 What do you mean by casts in urine?</summary>
+    <div class="qcard flash" id="casts">
+    </div>🔴 What do you mean by casts in urine?</div>
     <div class="ans">
       <p><strong>Casts:</strong> These are solidified or coagulated proteins formed in the renal tubules. They are microscopic narrow cylindrical structures with parallel sides and rounded ends, varying in size and shape. Common casts are cellular casts (epithelial, RBC, WBC), granular cast and hyaline cast.</p>
       <table>
@@ -339,54 +349,54 @@
       <p>RBC cast → AGN · WBC cast → pyelonephritis · Epithelial cast → renal tubular necrosis · Granular cast → glomerulonephritis (hyaline = normal).</p>
       <p class="ref">Ref: Prof. Khaleque p.203; Long Cases in Clinical Medicine 1st ed p.376; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Enumerate casts in urine (RU-11Ja).</summary>
+  <div class="qcard flash">
+    </div>Enumerate casts in urine (RU-11Ja).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the organized deposits of urine?</summary>
+  <div class="qcard flash">
+    </div>What are the organized deposits of urine?</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Mention the different types of casts and give its importance (RU-15Ja).</summary>
+  <div class="qcard flash">
+    </div>Mention the different types of casts and give its importance (RU-15Ja).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write four important casts with corresponding diseases (SU-14Ju).</summary>
+  <div class="qcard flash">
+    </div>Write four important casts with corresponding diseases (SU-14Ju).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Casts in urine (CMU-22M,12/11Ja,10Ju, RU-20M,17Ju,16Ja,12Ju,10Ja).</summary>
+  <div class="qcard flash">
+    </div>Short note: Casts in urine (CMU-22M,12/11Ja,10Ju, RU-20M,17Ju,16Ja,12Ju,10Ja).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Casts in urine with interpretation (RU-13Ju).</summary>
+  <div class="qcard flash">
+    </div>Casts in urine with interpretation (RU-13Ju).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
   <h2>6 · Microscopic Findings of Urine in Pathological Conditions</h2>
 
-  <details id="micro" class="flash">
-    <summary>🔴 Write the microscopic findings of urine in pathological conditions (SU-14Ju); Enumerate diseases that can be diagnosed by urine examination — explain with clinical and laboratory findings (RU-15Ju); Mention the indications of renal biopsy (for VIVA).</summary>
+  <div class="qcard flash" id="micro">
+    </div>🔴 Write the microscopic findings of urine in pathological conditions (SU-14Ju); Enumerate diseases that can be diagnosed by urine examination — explain with clinical and laboratory findings (RU-15Ju); Mention the indications of renal biopsy (for VIVA).</div>
     <div class="ans">
       <h3>Microscopic findings of urine in pathological conditions</h3>
       <p><strong>1. RBC</strong> — different causes of haematuria, such as:</p>
@@ -416,10 +426,10 @@
       </ol>
       <p class="ref">Ref: Davidson's 21e p.469; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details id="collection" class="flash">
-    <summary>State the procedure for collection of sample of urine for routine examination (CU-10Ju).</summary>
+  <div class="qcard flash" id="collection">
+    </div>State the procedure for collection of sample of urine for routine examination (CU-10Ju).</div>
     <div class="ans">
       <ol>
         <li>Urine is collected in a clean, dry, sterile pot / sterilized test tube</li>
@@ -430,28 +440,28 @@
       </ol>
       <p class="ref">Ref: Prof. Khaleque p.201</p>
     </div>
-  </details>
+  </div>
 
   <h2>7 · Renal Clearance Test</h2>
 
-    <details id="clearance" class="flash">
-    <summary>🔴 What do you mean by renal clearance test?</summary>
+    <div class="qcard flash" id="clearance">
+    </div>🔴 What do you mean by renal clearance test?</div>
     <div class="ans">
       <p><strong>Renal clearance test:</strong> It is the virtual volume of plasma (in ml) that is completely cleared of a particular substance by both kidneys in each minute.</p>
       <p>Or, renal clearance may be defined as the virtual volume of plasma which contains the amount of that substance excreted through urine per minute.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>State the importance of renal clearance test.</summary>
+  <div class="qcard flash">
+    </div>State the importance of renal clearance test.</div>
     <div class="ans">
       <div class="mnem">🎯 Formula: <strong>Renal clearance (ml/min) = (Concentration of substance in urine × Volume of urine [ml/min]) ÷ Concentration of substance in plasma</strong></div>
       <h3>Examples</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Renal clearance test.</summary>
+  <div class="qcard flash">
+    </div>Short note: Renal clearance test.</div>
     <div class="ans">
       <table>
         <tr><th>Clearance</th><th>Normal value</th></tr>
@@ -460,10 +470,10 @@
         <tr><td>Renal clearance of urea (C<sub>urea</sub>)</td><td>60 – 70 ml/min</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Why is clearance important for GFR?</summary>
+  <div class="qcard flash">
+    </div>Why is clearance important for GFR?</div>
     <div class="ans">
       <h3>Importance of plasma clearance</h3>
       <ol>
@@ -475,50 +485,50 @@
         <li>It can be used to quantify the basic functions of the kidney — glomerular filtration, tubular reabsorption and tubular secretion</li>
       </ol>
     </div>
-  </details>
+  </div>
 
   <h2>8 · Uremia & Azotemia</h2>
 
-    <details id="azotemia" class="flash">
-    <summary>🔴 What do you mean by uremia & azotemia?</summary>
+    <div class="qcard flash" id="azotemia">
+    </div>🔴 What do you mean by uremia & azotemia?</div>
     <div class="ans">
       <h3>Azotemia</h3>
       <p>Azotemia is a <strong>biochemical abnormality</strong> indicating an increase of blood urea nitrogen (BUN) &amp; creatinine level.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What is azotemia?</summary>
+  <div class="qcard flash">
+    </div>What is azotemia?</div>
     <div class="ans">
       <p class="ref">Ref: Prof. Khaleque p.197</p>
       <h3>Uremia</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Mention the causes of uremia (DU-15/03Ja, SU-09Ju, CU-07Ja).</summary>
+  <div class="qcard flash">
+    </div>Mention the causes of uremia (DU-15/03Ja, SU-09Ju, CU-07Ja).</div>
     <div class="ans">
       <p>Presence of an excessive amount of creatinine, urea and other nitrogenous waste products in the blood is called <strong>uremia</strong> (Ref: Lecture SSMC).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Pre-renal causes of uremia (RU-14Ju).</summary>
+  <div class="qcard flash">
+    </div>Pre-renal causes of uremia (RU-14Ju).</div>
     <div class="ans">
       <p>Or, when azotemia becomes associated with <strong>clinical signs &amp; symptoms and biochemical abnormalities</strong>, it is termed uremia (Ref: Robbins 10e p.896).</p>
       <p>Or, uremia is the clinical condition due to an increase of blood urea nitrogen (BUN) &amp; creatinine level (Ref: Prof. Khaleque p.197).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Causes of high urea level in blood (SU-14Ja, CU-03Ja).</summary>
+  <div class="qcard flash">
+    </div>Causes of high urea level in blood (SU-14Ja, CU-03Ja).</div>
     <div class="ans">
       <h3>Causes of uremia (classified)</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short notes: Azotemia (CU-14Ja), Uremia (CMU-22Nv, SU-13/10Ju).</summary>
+  <div class="qcard flash">
+    </div>Short notes: Azotemia (CU-14Ja), Uremia (CMU-22Nv, SU-13/10Ju).</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Causes</th></tr>
@@ -528,10 +538,10 @@
       </table>
       <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.197</p>
     </div>
-  </details>
+  </div>
 
-    <details id="normal-urea" class="flash">
-    <summary>Write down the normal levels of blood urea and creatinine (DU-11Ja).</summary>
+    <div class="qcard flash" id="normal-urea">
+    </div>Write down the normal levels of blood urea and creatinine (DU-11Ja).</div>
     <div class="ans">
       <h3>Normal levels (⚠️ Very Important for VIVA)</h3>
       <ul>
@@ -539,25 +549,25 @@
         <li><strong>Serum creatinine:</strong> 0.7 – 1.4 mg/dl or 60 – 120 μmol/L</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Causes of high blood urea (SU-14/13/12/06Ja).</summary>
+  <div class="qcard flash">
+    </div>Causes of high blood urea (SU-14/13/12/06Ja).</div>
     <div class="ans">
       <p>Normal value of <strong>BUN (blood urea nitrogen) is 7 – 21 mg/dl</strong>. <span class="ref">(Ref: Lecture SSMC)</span></p>
       <div class="mnem">🎯 BUN (~½ of urea): urea 15–40 mg/dl ↔ BUN 7–21 mg/dl.</div>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What is the normal serum uric acid level?</summary>
+  <div class="qcard flash">
+    </div>What is the normal serum uric acid level?</div>
     <div class="ans">
       <h3>Causes of high blood urea</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>State clinical significance of raised serum uric acid (DU-03Ja).</summary>
+  <div class="qcard flash">
+    </div>State clinical significance of raised serum uric acid (DU-03Ja).</div>
     <div class="ans">
       <ol>
         <li>Intake of high-protein diet</li>
@@ -570,17 +580,17 @@
       </ol>
       <h3>Uric acid</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Clinical importance of serum uric acid (DU-10Ju,08Ja).</summary>
+  <div class="qcard flash">
+    </div>Clinical importance of serum uric acid (DU-10Ju,08Ja).</div>
     <div class="ans">
       <p>Normal plasma level of uric acid: <strong>2 – 7 mg/dl (0.12 – 0.42 mmol/L)</strong>.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Uric acid.</summary>
+  <div class="qcard flash">
+    </div>Short note: Uric acid.</div>
     <div class="ans">
       <h3>Clinical significance of raised serum uric acid (hyperuricaemia)</h3>
       <ol>
@@ -596,67 +606,67 @@
         <li>Eclampsia</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What is uricemia?</summary>
+  <div class="qcard flash">
+    </div>What is uricemia?</div>
     <div class="ans">
       <h3>Uricemia (RMU-24M)</h3>
       <p>Uricemia refers to <strong>uric acid levels in the blood</strong> and is commonly associated with hyperuricemia (high uric acid), which can lead to gout and kidney stones.</p>
     </div>
-  </details>
+  </div>
 
-    <details id="creatinine" class="flash">
-    <summary>🔴 Write the clinical importance of serum creatinine (DU-11Ju,10Ju/Ja, SU-19Nv,17M).</summary>
+    <div class="qcard flash" id="creatinine">
+    </div>🔴 Write the clinical importance of serum creatinine (DU-11Ju,10Ju/Ja, SU-19Nv,17M).</div>
     <div class="ans">
       <h3>Creatinine</h3>
       <p>Creatinine is a <strong>breakdown product of creatine phosphate in muscle</strong>, and is usually produced at a fairly constant rate by the body (depending on muscle mass).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Serum creatinine (CU-15Ja,08Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Serum creatinine (CU-15Ja,08Ju).</div>
     <div class="ans">
       <p>Normal level: <strong>0.7 – 1.4 mg/dl (60 – 120 μmol/L)</strong>.</p>
       <h3>Causes of increased serum creatinine level</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Why serum creatinine is more specific than serum urea as a renal function test?</summary>
+  <div class="qcard flash">
+    </div>Why serum creatinine is more specific than serum urea as a renal function test?</div>
     <div class="ans">
       <p><strong>Reduced excretion in:</strong> (1) Renal failure · (2) Competition for tubular secretion with some drugs (e.g. trimethoprim, cimetidine).</p>
       <p><strong>High production in:</strong> (1) Rhabdomyolysis · (2) Large muscle mass.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Why serum creatinine is more specific RFT?</summary>
+  <div class="qcard flash">
+    </div>Why serum creatinine is more specific RFT?</div>
     <div class="ans">
       <p class="ref">Ref: Davidson's 20e p.461; Lecture SSMC</p>
       <h3>Why serum creatinine is more specific than serum urea (⚠️ Very Important for VIVA)</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Why is serum creatinine estimation more valuable than blood urea?</summary>
+  <div class="qcard flash">
+    </div>Why is serum creatinine estimation more valuable than blood urea?</div>
     <div class="ans">
       <p>Blood urea is a <strong>poor guide</strong> to renal excretory function as it <strong>varies with protein intake, liver metabolic capacity and renal perfusion</strong>.</p>
       <p>Serum creatinine is <strong>more specific</strong> because it is produced from muscle at a <strong>constant rate</strong> and <strong>almost completely filtered at the glomerulus</strong>. If muscle mass remains constant, changes in creatinine concentration reflect changes in GFR (glomerular filtration rate).</p>
     </div>
-  </details>
+  </div>
 
   <h2>9 · Proteinuria</h2>
 
-    <details id="proteinuria" class="flash">
-    <summary>🔴 What is proteinuria?</summary>
+    <div class="qcard flash" id="proteinuria">
+    </div>🔴 What is proteinuria?</div>
     <div class="ans">
       <h3>Causes of proteinuria (V.V.I. for VIVA)</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the causes of proteinuria?</summary>
+  <div class="qcard flash">
+    </div>What are the causes of proteinuria?</div>
     <div class="ans">
       <h3>A. Physiological</h3>
       <ul>
@@ -667,10 +677,10 @@
         <li>Following mental strain</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Proteinuria (RU-19Nv,18M,17Nv).</summary>
+  <div class="qcard flash">
+    </div>Short note: Proteinuria (RU-19Nv,18M,17Nv).</div>
     <div class="ans">
       <h3>B. Pathological</h3>
       <p><strong>a. Renal diseases:</strong></p>
@@ -691,10 +701,10 @@
       <p><strong>c. Systemic or pre-renal diseases (mild proteinuria):</strong> Febrile illness · Congestive heart failure · Hypertension · Hyperthyroidism · Systemic disorders associated with haematuria.</p>
       <p class="ref">Ref: Prof. Khaleque p.201</p>
     </div>
-  </details>
+  </div>
 
-    <details id="massive-proteinuria" class="flash">
-    <summary>What is massive proteinuria?</summary>
+    <div class="qcard flash" id="massive-proteinuria">
+    </div>What is massive proteinuria?</div>
     <div class="ans">
       <p><strong>Massive proteinuria:</strong> when more than <strong>3.5 gm albumin passes through urine in 24 hours</strong>, it is called massive proteinuria.</p>
       <h3>Causes of massive proteinuria (170% Important for VIVA)</h3>
@@ -708,38 +718,38 @@
       </ol>
       <p class="ref">Ref: Lecture SSMC &amp; DMC</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Enumerate the causes of massive proteinuria (DU-22Nv, RMU-22M).</summary>
+  <div class="qcard flash">
+    </div>Enumerate the causes of massive proteinuria (DU-22Nv, RMU-22M).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What diseases may present with massive proteinuria?</summary>
+  <div class="qcard flash">
+    </div>What diseases may present with massive proteinuria?</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Mention 4 causes of massive proteinuria (DU-09Ja).</summary>
+  <div class="qcard flash">
+    </div>Mention 4 causes of massive proteinuria (DU-09Ja).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Massive proteinuria (DU-14/11Ja, RU-17/10Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Massive proteinuria (DU-14/11Ja, RU-17/10Ju).</div>
     <div class="ans">
       <p></p>
     </div>
-  </details>
+  </div>
 
-    <details id="detect-protein" class="flash">
-    <summary>Enumerate the laboratory procedure of detection of protein in urine (RU-04S/Ja,03Ja).</summary>
+    <div class="qcard flash" id="detect-protein">
+    </div>Enumerate the laboratory procedure of detection of protein in urine (RU-04S/Ja,03Ja).</div>
     <div class="ans">
       <h3>A. Qualitative test (detects present or not — absolute quantity cannot be measured)</h3>
       <ol>
@@ -747,10 +757,10 @@
         <li><strong>Reagent strip test (Stix test)</strong></li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How can you detect/estimate protein in urine?</summary>
+  <div class="qcard flash">
+    </div>How can you detect/estimate protein in urine?</div>
     <div class="ans">
       <h3>B. Quantitative test (absolute quantity can be measured)</h3>
       <ol>
@@ -758,33 +768,33 @@
         <li>Sulpho-salicylic acid test</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Name the tests for proteinuria (DU-09Ju).</summary>
+  <div class="qcard flash">
+    </div>Name the tests for proteinuria (DU-09Ju).</div>
     <div class="ans">
       <p class="ref">Ref: Prof. Khaleque p.205</p>
       <h3>Heat coagulation test</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Methods of protein detection in urine (RU-16Ju, CU-13Ja).</summary>
+  <div class="qcard flash">
+    </div>Methods of protein detection in urine (RU-16Ju, CU-13Ja).</div>
     <div class="ans">
       <p><strong>Principle:</strong> Coagulation of protein is caused by the <strong>denaturation of protein structure by heat</strong>. (Secondary, tertiary and quaternary structures are lost, but the primary structure remains intact.)</p>
       <p><strong>Requirements:</strong> A test tube · Bunsen burner · 5% acetic acid · Supplied urine (or protein solution).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How do you perform the heat coagulation test of urine?</summary>
+  <div class="qcard flash">
+    </div>How do you perform the heat coagulation test of urine?</div>
     <div class="ans">
       <p><strong>Procedure:</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write the procedure of heat coagulation test (SU-12Ja).</summary>
+  <div class="qcard flash">
+    </div>Write the procedure of heat coagulation test (SU-12Ja).</div>
     <div class="ans">
       <ol>
         <li>About two-thirds of a test tube is filled with supplied urine</li>
@@ -794,10 +804,10 @@
       </ol>
       <h3>Grading of cloudiness</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Principle of detection of protein in urine (DU-16Ju).</summary>
+  <div class="qcard flash">
+    </div>Principle of detection of protein in urine (DU-16Ju).</div>
     <div class="ans">
       <table>
         <tr><th>Cloudiness</th><th>Grading</th></tr>
@@ -808,26 +818,26 @@
       </table>
       <h3>24-hour urinary protein (CU-13Ju)</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Heat coagulation test (RU-17Nv).</summary>
+  <div class="qcard flash">
+    </div>Short note: Heat coagulation test (RU-17Nv).</div>
     <div class="ans">
       <p>24-hour urine protein measures the amount of protein released in urine over a 24-hour period. The test checks the function of the kidneys and detects disease. Urine samples are collected in one or more containers over 24 hours, kept in a cool environment, then sent to the lab for analysis. The test is simple and non-invasive.</p>
       <p><strong>Normal value:</strong> &lt; 80 mg of protein per day.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: 24 hours urinary protein (CU-13Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: 24 hours urinary protein (CU-13Ju).</div>
     <div class="ans">
       <p><strong>Indications:</strong> Glomerulonephritis · Uncontrolled diabetes · High blood pressure · SLE (systemic lupus erythematosus) · UTI (urinary tract infection) · Multiple myeloma · Amyloidosis.</p>
       <p><strong>Disadvantages:</strong> (1) Does not show what kinds of protein are in the urine · (2) Does not show the cause of the protein · (3) Occasionally proteinuria is not a sign of kidney damage (specially for children) · (4) Other factors, such as extreme stress, vigorous exercise, dehydration, may influence results.</p>
     </div>
-  </details>
+  </div>
 
-  <details id="microalbumin" class="flash">
-    <summary>What is microalbumin? Write its importance (DU-09Ju, RU-12Ja); Short note: Microalbuminuria (RU-09Ju); Nice to Know: Postural or orthostatic proteinuria (VIVA).</summary>
+  <div class="qcard flash" id="microalbumin">
+    </div>What is microalbumin? Write its importance (DU-09Ju, RU-12Ja); Short note: Microalbuminuria (RU-09Ju); Nice to Know: Postural or orthostatic proteinuria (VIVA).</div>
     <div class="ans">
       <h3>Microalbuminuria</h3>
       <p>Microalbuminuria describes the urinary excretion of <strong>small amounts of normal albumin protein (30 – 300 mg/day)</strong> which is not detected by conventional methods.</p>
@@ -840,7 +850,7 @@
       <h3>Nice to Know: Postural or orthostatic proteinuria (⚠️ Very Important for VIVA)</h3>
       <p>Postural or orthostatic proteinuria (without organic disease): protein is detectable in healthy persons in the <strong>ambulant position</strong>, but is <strong>absent in the first morning sample or after a period of rest</strong>. There is no detectable renal disease. The condition is benign.</p>
     </div>
-  </details>
+  </div>
 
   <h3>Significance of quantifying proteinuria (Very Important for VIVA)</h3>
   <table>
@@ -850,16 +860,16 @@
     <tr><td>Tubular proteinuria</td><td>&lt; 0.5 gm/day</td></tr>
   </table>
 
-    <details id="bence-jones" class="flash">
-    <summary>What do you mean by Bence-Jones protein?</summary>
+    <div class="qcard flash" id="bence-jones">
+    </div>What do you mean by Bence-Jones protein?</div>
     <div class="ans">
       <p><strong>Bence-Jones protein:</strong> It is an <strong>immunoglobulin light chain</strong>, either κ (kappa) or λ (lambda).</p>
       <h3>Found in various pathological conditions like</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How is Bence-Jones protein detected in urine?</summary>
+  <div class="qcard flash">
+    </div>How is Bence-Jones protein detected in urine?</div>
     <div class="ans">
       <ul>
         <li>Multiple myeloma</li>
@@ -870,17 +880,17 @@
       </ul>
       <p class="ref">Ref: de Gruchy 5e pp.306–307</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short notes: Bence-Jones protein and its detection (DU-14Ju).</summary>
+  <div class="qcard flash">
+    </div>Short notes: Bence-Jones protein and its detection (DU-14Ju).</div>
     <div class="ans">
       <h3>Detection of Bence-Jones protein in urine</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Bence-Jones protein (DU-13Ja,10Ju, SU-20/18M,15/09Ja, RU-17Ja,15Ju,13Ja,10Ju, CU-10Ja).</summary>
+  <div class="qcard flash">
+    </div>Bence-Jones protein (DU-13Ja,10Ju, SU-20/18M,15/09Ja, RU-17Ja,15Ju,13Ja,10Ju, CU-10Ja).</div>
     <div class="ans">
       <ol>
         <li><strong>Heat test:</strong> Bence-Jones proteins have unique behaviour on heating. Urine containing Bence-Jones protein <strong>flocculates when heated slowly to 50–60 °C</strong>. The flocculated proteins <strong>dissolve on boiling, and reappear on cooling below 60 °C</strong>.</li>
@@ -888,67 +898,67 @@
       </ol>
       <p class="ref">Ref: de Gruchy 5e pp.306–307</p>
     </div>
-  </details>
+  </div>
 
   <h2>10 · Reducing Substances in Urine</h2>
 
-    <details id="reducing" class="flash">
-    <summary>🔴 Classify reducing substance (CU-15Ju).</summary>
+    <div class="qcard flash" id="reducing">
+    </div>🔴 Classify reducing substance (CU-15Ju).</div>
     <div class="ans">
       <p><strong>Reducing substances:</strong> substances that can reduce Benedict solution.</p>
       <h3>Most important urinary reducing substances</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the reducing agents found in urine?</summary>
+  <div class="qcard flash">
+    </div>What are the reducing agents found in urine?</div>
     <div class="ans">
       <p><strong>1. Sugar substances:</strong> Glucose, lactose, pentose, fructose &amp; galactose.</p>
       <p><strong>2. Non-sugar substances:</strong> Homogentisic acid (present in alkaptonuria) · Nalidixic acid · Drugs — cephalosporin, ascorbic acid or aspirin.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Reducing substance in urine (DU-22Nv, CU-13/12Ja).</summary>
+  <div class="qcard flash">
+    </div>Short note: Reducing substance in urine (DU-22Nv, CU-13/12Ja).</div>
     <div class="ans">
       <div class="mnem">🎯 N.B.: Normally reducing substances are absent in urine, but present in certain conditions. <strong>Glycosuria is the most common</strong>. Lactosuria occurs in pregnancy and during lactation. Pentosuria, fructosuria and galactosuria are rare inborn errors of metabolism.</div>
       <p class="ref">Ref: Lecture SSMC; Prof. Khaleque p.202</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How glucose is detected in urine.</summary>
+  <div class="qcard flash">
+    </div>How glucose is detected in urine.</div>
     <div class="ans">
       <h3>Detection of glucose in urine (V.V.I. for Practical Examination)</h3>
       <p><strong>A. Qualitative test:</strong> (1) Benedict's test (usually done) · (2) Fehling test (obsolete, very costly) · (3) Reagent strip test (specific for glucose &amp; better for bedside purposes).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Method of detection of glycosuria (RU-15Ju).</summary>
+  <div class="qcard flash">
+    </div>Method of detection of glycosuria (RU-15Ju).</div>
     <div class="ans">
       <p><strong>B. Quantitative test:</strong> can be done using Benedict's quantitative reagent, but not usually done for practical purposes.</p>
       <p class="ref">Ref: Prof. Khaleque p.205</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How do you perform Benedict's test and interpret it (DU-03S).</summary>
+  <div class="qcard flash">
+    </div>How do you perform Benedict's test and interpret it (DU-03S).</div>
     <div class="ans">
       <h3>Benedict's test</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How can you detect reducing substance?</summary>
+  <div class="qcard flash">
+    </div>How can you detect reducing substance?</div>
     <div class="ans">
       <p><strong>Principle:</strong> Cupric salt is reduced by glucose in hot alkaline solution to cuprous salt, giving a visible colour.</p>
       <p><strong>Procedure:</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Principle of detection (DU-16Ju).</summary>
+  <div class="qcard flash">
+    </div>Principle of detection (DU-16Ju).</div>
     <div class="ans">
       <ol>
         <li>Take 5 ml of Benedict qualitative reagent in a test tube</li>
@@ -958,10 +968,10 @@
       </ol>
       <p><strong>Observation:</strong> The blue colour of the reagent changes depending on the amount of reducing substance present: <strong>Blue → Green → Yellow → Orange → Brick red</strong>.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Benedict's test (DU-23Nv,21Oct/M).</summary>
+  <div class="qcard flash">
+    </div>Short note: Benedict's test (DU-23Nv,21Oct/M).</div>
     <div class="ans">
       <h3>Interpretation</h3>
       <table>
@@ -973,18 +983,18 @@
         <tr><td>Brick-red</td><td>++++</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How will you be sure glucose is present?</summary>
+  <div class="qcard flash">
+    </div>How will you be sure glucose is present?</div>
     <div class="ans">
       <h3>To be sure glucose is present (since Benedict only detects reducing substance)</h3>
       <p>By <strong>glucose strip</strong> (strip tests are specific for glucose). <span class="ref">(Ref: Lecture SSMC)</span></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Significance of Benedict's test.</summary>
+  <div class="qcard flash">
+    </div>Significance of Benedict's test.</div>
     <div class="ans">
       <h3>Significance of Benedict's test in urine</h3>
       <ol>
@@ -993,21 +1003,21 @@
         <li>To see prognosis of treatment of diabetes mellitus</li>
       </ol>
     </div>
-  </details>
+  </div>
 
   <h2>11 · Ketone Bodies in Urine</h2>
 
-    <details id="ketone" class="flash">
-    <summary>🔴 Name the ketone bodies (DU-11Ju, RU-14Ju).</summary>
+    <div class="qcard flash" id="ketone">
+    </div>🔴 Name the ketone bodies (DU-11Ju, RU-14Ju).</div>
     <div class="ans">
       <h3>Ketone bodies</h3>
       <p>Ketone bodies are reducing substances formed by the excessive and abnormal fat metabolism.</p>
       <p>The ketone bodies are:</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Ketone bodies (RU-18Nv/Ja,10/08Ju, CU-14Ja, SU-12/05Ja).</summary>
+  <div class="qcard flash">
+    </div>Short note: Ketone bodies (RU-18Nv/Ja,10/08Ju, CU-14Ja, SU-12/05Ja).</div>
     <div class="ans">
       <ol>
         <li>Acetoacetate</li>
@@ -1020,10 +1030,10 @@
         <tr><td>Ketone bodies</td><td>Less than 3 mg/dl or 0.2 mmol/L</td><td>Less than 1 mg/day</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How can you detect ketone bodies in urine?</summary>
+  <div class="qcard flash">
+    </div>How can you detect ketone bodies in urine?</div>
     <div class="ans">
       <p class="ref">Ref: Lippincott's 3e p.195; Harper's 26e pp.184,245</p>
       <h3>Methods of detecting ketone bodies in urine</h3>
@@ -1033,19 +1043,19 @@
         <li>Reagent strip test</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Biochemical test for detecting ketone bodies (RU-17/16Ja,14Ju).</summary>
+  <div class="qcard flash">
+    </div>Biochemical test for detecting ketone bodies (RU-17/16Ja,14Ju).</div>
     <div class="ans">
       <p class="ref">Ref: Prof. Khaleque p.205</p>
       <h3>Rothera's test</h3>
       <p>It is the test for detecting ketone bodies in urine.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Rothera's test (RU-09Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Rothera's test (RU-09Ju).</div>
     <div class="ans">
       <p><strong>Procedure:</strong></p>
       <ol>
@@ -1055,37 +1065,37 @@
         <li>A permanganate (purple) coloured ring at the junction of the two fluids indicates the presence of ketone bodies</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Causes of ketonuria (RU-17/16Ja,11Ju).</summary>
+  <div class="qcard flash">
+    </div>Causes of ketonuria (RU-17/16Ja,11Ju).</div>
     <div class="ans">
       <p class="ref">Ref: Prof. Khaleque p.205</p>
       <h3>Ketonuria</h3>
       <p>Acetoacetate, β-hydroxybutyrate and acetone are collectively called ketone bodies (ketones). Excretion of <strong>more than a trace of these substances in the urine is called ketonuria</strong>.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Ketonuria (DU-16Ju, RU-12Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Ketonuria (DU-16Ju, RU-12Ju).</div>
     <div class="ans">
       <h3>Causes of ketonuria</h3>
       <p><strong>A. Physiological:</strong> (1) Starvation (due to fat breakdown) · (2) Diet low in carbohydrate · (3) High-fat diet.</p>
       <p><strong>B. Pathological:</strong> (1) Uncontrolled DM (diabetes mellitus) · (2) Severe dehydration following vomiting and diarrhoea · (3) Glycogen storage disease.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Define ketonemia and ketosis.</summary>
+  <div class="qcard flash">
+    </div>Define ketonemia and ketosis.</div>
     <div class="ans">
       <p class="ref">Ref: Lecture SSMC</p>
       <h3>Ketonemia &amp; Ketosis</h3>
       <p><strong>Ketonemia:</strong> presence of excess ketone bodies in the blood higher than normal level is called ketonemia.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How can you detect ketone body, bile salts and chyle in urine?</summary>
+  <div class="qcard flash">
+    </div>How can you detect ketone body, bile salts and chyle in urine?</div>
     <div class="ans">
       <p><strong>Ketosis:</strong> ketonemia &amp; ketonuria together is called ketosis. <span class="ref">(Ref: Harper's 28e p.191)</span></p>
       <h3>Detection of ketone body, bile salts and chyle in urine</h3>
@@ -1096,20 +1106,20 @@
         <tr><td>Chyle</td><td>Milky-white appearance which disappears if a fat solvent (e.g. acetic acid) is added; chylomicron visualized under microscope with dark-ground illumination or stained with Sudan-III</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
   <h2>12 · Haematuria</h2>
 
-    <details id="hematuria" class="flash">
-    <summary>🔴 What do you mean by haematuria?</summary>
+    <div class="qcard flash" id="hematuria">
+    </div>🔴 What do you mean by haematuria?</div>
     <div class="ans">
       <p><strong>Haematuria:</strong> presence of <strong>RBC in urine</strong> is called haematuria. It indicates bleeding from anywhere in the renal tract.</p>
       <h3>Causes of haematuria (V.V.I. for VIVA)</h3>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the causes of haematuria?</summary>
+  <div class="qcard flash">
+    </div>What are the causes of haematuria?</div>
     <div class="ans">
       <p><strong>A. Renal causes</strong> — blood is intimately mixed with urine:</p>
       <ul>
@@ -1122,17 +1132,17 @@
         <li>Trauma</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write 4 causes of haematuria (CU-12Ja).</summary>
+  <div class="qcard flash">
+    </div>Write 4 causes of haematuria (CU-12Ja).</div>
     <div class="ans">
       <p><strong>B. Post-renal causes:</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>State the renal causes of haematuria (CU-04Ja).</summary>
+  <div class="qcard flash">
+    </div>State the renal causes of haematuria (CU-04Ja).</div>
     <div class="ans">
       <ol>
         <li>Trauma to any part of urinary tract</li>
@@ -1142,10 +1152,10 @@
       </ol>
       <p><strong>C. Pre-renal causes (systemic diseases)</strong> — blood intimately mixed with urine:</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Haematuria (DU-19Nv, SMU-23/22/19M,14Ju,10Ja, CMU-22Nv,11Ju, RU-12Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Haematuria (DU-19Nv, SMU-23/22/19M,14Ju,10Ja, CMU-22Nv,11Ju, RU-12Ju).</div>
     <div class="ans">
       <ul>
         <li>Haemorrhagic disorders e.g. haemophilia, thrombocytopenia, DIC (disseminated intravascular coagulation)</li>
@@ -1156,10 +1166,10 @@
       </ul>
       <p class="ref">Ref: Prof. Khaleque p.202</p>
     </div>
-  </details>
+  </div>
 
-  <details id="investigate-haematuria" class="flash">
-    <summary>How will you investigate a case of haematuria? (SU-20M); Mention the urinary findings of a case of haematuria; Short note: Microscopic haematuria (DU-12Ju); Nice to Know: Haematuria gross vs microscopic.</summary>
+  <div class="qcard flash" id="investigate-haematuria">
+    </div>How will you investigate a case of haematuria? (SU-20M); Mention the urinary findings of a case of haematuria; Short note: Microscopic haematuria (DU-12Ju); Nice to Know: Haematuria gross vs microscopic.</div>
     <div class="ans">
       <h3>Investigation of a case of haematuria</h3>
       <p><strong>1. Urine:</strong></p>
@@ -1191,10 +1201,10 @@
       <p><strong>Management:</strong> depends upon the cause.</p>
       <p class="ref">Ref: Davidson's 21e pp.478–479</p>
     </div>
-  </details>
+  </div>
 
-  <details id="painless-haematuria" class="flash">
-    <summary>Mention the causes of painless haematuria (SU-19Nv,17M,13Ju); Write the causes of painful haematuria; Nice to Know: blood in urine as haematuria vs haemoglobinuria.</summary>
+  <div class="qcard flash" id="painless-haematuria">
+    </div>Mention the causes of painless haematuria (SU-19Nv,17M,13Ju); Write the causes of painful haematuria; Nice to Know: blood in urine as haematuria vs haemoglobinuria.</div>
     <div class="ans">
       <h3>Causes of painless haematuria</h3>
       <ol>
@@ -1219,12 +1229,12 @@
       <p class="ref">Ref: Long Cases in Clinical Medicine 1e p.378</p>
       <p><strong>Nice to Know:</strong> Blood is present in urine as: (1) <strong>Haematuria</strong> — presence of red cells in urine; or (2) <strong>Haemoglobinuria</strong> — haemoglobin passed in urine. <span class="ref">(Ref: Prof. Khaleque p.202)</span></p>
     </div>
-  </details>
+  </div>
 
   <h2>13 · Nephrotic Syndrome</h2>
 
-  <details id="nephrotic" class="flash">
-    <summary>🔴 Define nephrotic syndrome (DU-17/16Ja,12Ju, RU-20Nv/M,17/12/10Ja); Enumerate the causes of nephrotic syndrome (DU-17M,16Ja,12Ju, RU-18M,16Ju,15/10/08Ja, CU-13Ju); Enumerate the primary causes (SU-08Ja); Short note: Nephrotic syndrome (DU-15Ja, RU-14Ja, CU-10Ju,09Ja); A 7-year-old boy with massive proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia — diagnosis &amp; causes (RMU-22M).</summary>
+  <div class="qcard flash" id="nephrotic">
+    </div>🔴 Define nephrotic syndrome (DU-17/16Ja,12Ju, RU-20Nv/M,17/12/10Ja); Enumerate the causes of nephrotic syndrome (DU-17M,16Ja,12Ju, RU-18M,16Ju,15/10/08Ja, CU-13Ju); Enumerate the primary causes (SU-08Ja); Short note: Nephrotic syndrome (DU-15Ja, RU-14Ja, CU-10Ju,09Ja); A 7-year-old boy with massive proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia — diagnosis &amp; causes (RMU-22M).</div>
     <div class="ans">
       <h3>Nephrotic syndrome</h3>
       <p>It is a <strong>glomerular syndrome</strong> characterized by <span class="hot">massive proteinuria (&gt; 3.5 gm/day), hypoalbuminaemia (plasma albumin &lt; 3 gm/dl), generalized oedema, hyperlipidaemia and lipiduria</span> (lipid in the urine).</p>
@@ -1251,10 +1261,10 @@
       <p class="ref">Ref: Robbins 10e p.912; Harsh Mohan 7e p.648</p>
       <p><strong>Clinical case (RMU-22M):</strong> A 7-year-old boy with massive proteinuria, hypoalbuminaemia, generalized oedema and hyperlipidaemia → <strong>Diagnosis: Nephrotic syndrome</strong>. Causes as above.</p>
     </div>
-  </details>
+  </div>
 
-    <details id="nephrotic-investigation" class="flash">
-    <summary>How will you investigate a case of nephrotic syndrome?</summary>
+    <div class="qcard flash" id="nephrotic-investigation">
+    </div>How will you investigate a case of nephrotic syndrome?</div>
     <div class="ans">
       <h3>Laboratory investigations for nephrotic syndrome</h3>
       <p><strong>1. Routine and microscopic examination of urine:</strong></p>
@@ -1267,49 +1277,49 @@
       </ul>
       <p><strong>2. 24-hour urinary total protein estimation:</strong> usually &gt; 3.5 gm / 24 hrs.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write down laboratory findings in nephrotic syndrome (RU-17Ju,16Ja).</summary>
+  <div class="qcard flash">
+    </div>Write down laboratory findings in nephrotic syndrome (RU-17Ju,16Ja).</div>
     <div class="ans">
       <p><strong>3. Serum albumin:</strong> &lt; 3 gm/dl.</p>
       <p><strong>4. Albumin/Globulin ratio:</strong> reduced.</p>
       <p><strong>5. Serum lipid profile:</strong> high cholesterol and high triglycerides (TG) may be present.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What urinary findings do you expect in nephrotic syndrome?</summary>
+  <div class="qcard flash">
+    </div>What urinary findings do you expect in nephrotic syndrome?</div>
     <div class="ans">
       <p><strong>6.</strong> Blood sugar, blood urea, serum creatinine and serum electrolytes should be done.</p>
       <p><strong>7. USG of KUB region</strong> to see both kidneys present or not, kidney size, position, any growth.</p>
       <p><strong>8. Renal biopsy</strong> (to see the type of glomerular disease — minimal, membranous or membranoproliferative) — guides diagnosis, therapy and prognosis.</p>
       <p class="ref">Ref: Prof. Khaleque p.204; Davidson's 20e p.467</p>
     </div>
-  </details>
+  </div>
 
   <h2>14 · Nephritic Syndrome / AGN</h2>
 
-    <details id="nephritic" class="flash">
-    <summary>🔴 What do you mean by nephritic syndrome or AGN?</summary>
+    <div class="qcard flash" id="nephritic">
+    </div>🔴 What do you mean by nephritic syndrome or AGN?</div>
     <div class="ans">
       <h3>Nephritic syndrome / AGN</h3>
       <p>Nephritic syndrome or acute glomerulonephritis (AGN) is a glomerular disease of the kidney characterized by <strong>inflammation in the glomeruli</strong>, manifested as <span class="hot">haematuria (red blood cells and red cell casts in urine), proteinuria (usually subnephrotic range) with or without oedema, azotemia and hypertension</span>.</p>
       <p class="ref">Ref: Robbins 10e p.906</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the causes of nephritic syndrome?</summary>
+  <div class="qcard flash">
+    </div>What are the causes of nephritic syndrome?</div>
     <div class="ans">
       <h3>Causes of nephritic syndrome (AGN) (Very Important for VIVA)</h3>
       <h3>A. PRIMARY GLOMERULAR DISEASES</h3>
       <p><strong>I. Acute proliferative glomerulonephritis:</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>How will you diagnose a case of nephritic syndrome?</summary>
+  <div class="qcard flash">
+    </div>How will you diagnose a case of nephritic syndrome?</div>
     <div class="ans">
       <ul>
         <li><strong>Post-streptococcal glomerulonephritis</strong> (Group A β-haemolytic streptococcus)</li>
@@ -1324,10 +1334,10 @@
       <p><strong>II. Rapidly progressive (crescentic) glomerulonephritis (RPGN)</strong></p>
       <p><strong>III. Membranoproliferative glomerulonephritis</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write down laboratory findings in nephritic syndrome (RU-17Ju,16Ja).</summary>
+  <div class="qcard flash">
+    </div>Write down laboratory findings in nephritic syndrome (RU-17Ju,16Ja).</div>
     <div class="ans">
       <p><strong>IV. IgA nephropathy</strong></p>
       <h3>B. SYSTEMIC DISEASES</h3>
@@ -1341,19 +1351,19 @@
         <li>Cryoglobulinaemia</li>
       </ul>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Urinary findings in a patient with nephritic syndrome (DU-16Ju, BSFMMU'S-23Nv, SMU-23M,19Nv).</summary>
+  <div class="qcard flash">
+    </div>Urinary findings in a patient with nephritic syndrome (DU-16Ju, BSFMMU'S-23Nv, SMU-23M,19Nv).</div>
     <div class="ans">
       <p class="ref">Ref: Robbins 10e p.906; Harsh Mohan 7e p.648</p>
       <h3>Diagnosis of nephritic syndrome (AGN)</h3>
       <p><strong>Clinical features:</strong> (i) patient is usually a child of 5–10 years of age · (ii) haematuria (brown urine) · (iii) oedema and generalized fluid retention · (iv) hypertension · (v) oliguria · (vi) evidence of sore throat or skin infection. <span class="ref">(Ref: Davidson's 23e p.392)</span></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Nephritic syndrome (AGN) (CU-04S).</summary>
+  <div class="qcard flash">
+    </div>Short note: Nephritic syndrome (AGN) (CU-04S).</div>
     <div class="ans">
       <p><strong>Laboratory investigations:</strong></p>
       <ul>
@@ -1369,10 +1379,10 @@
       </ul>
       <p class="ref">Ref: Prof. Khaleque p.204; Lecture SSMC</p>
     </div>
-  </details>
+  </div>
 
-  <details id="differentiate" class="flash">
-    <summary>🔴 Write down the urinary findings in nephrotic syndrome (DU-12Ja, SMU-23M,10Ja); Urinary findings in nephritic syndrome / AGN (DU-11Ju, SMU-23M); How can you differentiate nephritic and nephrotic syndrome by examining urine? (CU-19Nv, RU-12Ju); Lab investigations to differentiate nephrotic vs nephritic (DU-04J); Give biochemical changes and urinary findings of both (DU-18M); Urinary findings in nephritic and nephrotic (DU-16Ju, BSFMMU'S-23Nv, SMU-23M,21/19Nv,17M, CU-20M, RU-11Ju); Expected urinary findings in AGN (DU-10Ju,06Ja); Short note: Urinary findings in nephrotic syndrome (CU-16Ju); Case: boy with peri-orbital oedema + high-coloured scanty urine after sore throat (DU-14Ja); Boy 15 with fever, peri-orbital oedema, oliguria (DU-14Ja).</summary>
+  <div class="qcard flash" id="differentiate">
+    </div>🔴 Write down the urinary findings in nephrotic syndrome (DU-12Ja, SMU-23M,10Ja); Urinary findings in nephritic syndrome / AGN (DU-11Ju, SMU-23M); How can you differentiate nephritic and nephrotic syndrome by examining urine? (CU-19Nv, RU-12Ju); Lab investigations to differentiate nephrotic vs nephritic (DU-04J); Give biochemical changes and urinary findings of both (DU-18M); Urinary findings in nephritic and nephrotic (DU-16Ju, BSFMMU'S-23Nv, SMU-23M,21/19Nv,17M, CU-20M, RU-11Ju); Expected urinary findings in AGN (DU-10Ju,06Ja); Short note: Urinary findings in nephrotic syndrome (CU-16Ju); Case: boy with peri-orbital oedema + high-coloured scanty urine after sore throat (DU-14Ja); Boy 15 with fever, peri-orbital oedema, oliguria (DU-14Ja).</div>
     <div class="ans">
       <h3>Urinary findings in AGN &amp; nephrotic syndrome (VIVA favourite table)</h3>
       <table>
@@ -1406,12 +1416,12 @@
       <p class="ref">Ref: Long Cases in Clinical Medicine 1e p.378</p>
       <p><strong>Causes of puffy face:</strong> (1) Renal cause — nephrotic syndrome, acute glomerulonephritis · (2) Myxoedema · (3) Cushing's syndrome · (4) SVC (superior vena cava) obstruction · (5) Angioneurotic oedema · (6) Hypoproteinaemia · (7) Congestive cardiac failure in advanced stage · (8) Alcoholism · (9) Acromegaly. <span class="ref">(Ref: Long Cases in Clinical Medicine 1e p.377)</span></p>
     </div>
-  </details>
+  </div>
 
   <h2>15 · Disorders of Urine Volume</h2>
 
-  <details id="volume" class="flash">
-    <summary>🔴 Short note: Anuria; Define oliguria (DU-18M,14Ju) &amp; causes of oliguria (DU-18M,14Ju, CU-05Ju); Short note: Oliguria (DU-04M); Short note: Polyuria.</summary>
+  <div class="qcard flash" id="volume">
+    </div>🔴 Short note: Anuria; Define oliguria (DU-18M,14Ju) &amp; causes of oliguria (DU-18M,14Ju, CU-05Ju); Short note: Oliguria (DU-04M); Short note: Polyuria.</div>
     <div class="ans">
       <h3>Anuria</h3>
       <p>Anuria is the (almost) total absence of urine (&lt; 100 ml/day). <span class="ref">Ref: Davidson's 23e p.391; Lecture SSMC</span></p>
@@ -1438,22 +1448,22 @@
       </ol>
       <p class="ref">Ref: Davidson's 23e p.396</p>
     </div>
-  </details>
+  </div>
 
   <h2>16 · Haemoglobinuria, Chyluria & Pyuria</h2>
 
-    <details id="others" class="flash">
-    <summary>🔴 Short note: Haemoglobinuria (RU-12Ja).</summary>
+    <div class="qcard flash" id="others">
+    </div>🔴 Short note: Haemoglobinuria (RU-12Ja).</div>
     <div class="ans">
       <h3>Haemoglobinuria</h3>
       <p>Presence of <strong>haemoglobin in urine</strong> due to excessive intravascular haemolysis is called haemoglobinuria. <strong>Occult blood test will be positive</strong>.</p>
       <p><strong>Causes:</strong></p>
       <p><strong>A) Acute haemoglobinuria:</strong></p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What is chyluria?</summary>
+  <div class="qcard flash">
+    </div>What is chyluria?</div>
     <div class="ans">
       <ol>
         <li>Incompatible blood transfusion</li>
@@ -1471,65 +1481,65 @@
       <p><strong>B) Chronic haemoglobinuria:</strong> (1) Paroxysmal nocturnal haemoglobinuria · (2) Cardiac haemolytic anaemia · (3) Cold haemagglutinin disease.</p>
       <p class="ref">Ref: de Gruchy 5e p.178; Prof. Khaleque p.202</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Chyluria (RU-17/14Ja,09Ju).</summary>
+  <div class="qcard flash">
+    </div>Short note: Chyluria (RU-17/14Ja,09Ju).</div>
     <div class="ans">
       <h3>Chyluria</h3>
       <p>When <strong>chyle is present in urine</strong>, it is called chyluria.</p>
       <p><strong>Causes:</strong> (1) Filariasis · (2) Diabetes mellitus · (3) Kidney tumours · (4) Fracture of long bones.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Short note: Pyuria.</summary>
+  <div class="qcard flash">
+    </div>Short note: Pyuria.</div>
     <div class="ans">
       <p class="ref">Ref: Prof. Khaleque p.202</p>
       <h3>Pyuria</h3>
       <p>Presence of a <strong>large number of pus cells in urine</strong> is called pyuria.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What should be the next step when you find pyuria in urine R/M/E?</summary>
+  <div class="qcard flash">
+    </div>What should be the next step when you find pyuria in urine R/M/E?</div>
     <div class="ans">
       <p><strong>Causes:</strong> (1) Urinary tract infection (UTI) · (2) Renal tuberculosis (sterile pyuria — pus cells but no organism in urine) · (3) Renal stone.</p>
       <h3>Next step when pyuria found in urine R/M/E (V.V.I. for VIVA)</h3>
       <p><strong>Culture</strong> (urine culture &amp; sensitivity).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Mention causes of sterile pyuria (RU-16Ju).</summary>
+  <div class="qcard flash">
+    </div>Mention causes of sterile pyuria (RU-16Ju).</div>
     <div class="ans">
       <h3>Sterile pyuria (RU-16Ju)</h3>
       <p>Neutrophils (pus cells) are present in the urine but routine urine culture may be negative.</p>
       <p><strong>Causes of sterile pyuria:</strong> Renal tuberculosis · Patient of UTI on antibiotic · AGN (acute glomerulonephritis).</p>
       <p class="ref">Ref: Davidson's 23e p.430; Lecture SSMC &amp; DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2>17 · Urinary Tract Infection (UTI)</h2>
 
-    <details id="uti" class="flash">
-    <summary>🔴 What is UTI?</summary>
+    <div class="qcard flash" id="uti">
+    </div>🔴 What is UTI?</div>
     <div class="ans">
       <h3>Urinary tract infection (UTI)</h3>
       <p>UTI is defined as the presence of <strong>&gt; 10⁵ organisms/ml urine</strong> in the urinary tract in a <strong>mid-stream sample of urine (MSU)</strong>.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>What are the causes of UTI?</summary>
+  <div class="qcard flash">
+    </div>What are the causes of UTI?</div>
     <div class="ans">
       <h3>Causes of UTI</h3>
       <p>Organisms causing UTI in the community include:</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write down the urinary findings of UTI (BUP-16Ja).</summary>
+  <div class="qcard flash">
+    </div>Write down the urinary findings of UTI (BUP-16Ja).</div>
     <div class="ans">
       <ul>
         <li><strong>Escherichia coli</strong> derived from the gastrointestinal tract (<span class="hot">about 70% of infections</span>)</li>
@@ -1541,10 +1551,10 @@
       </ul>
       <p class="ref">Ref: Kumar &amp; Clark 10e p.1381</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Write down the treatment of UTI (BUP-18Nv).</summary>
+  <div class="qcard flash">
+    </div>Write down the treatment of UTI (BUP-18Nv).</div>
     <div class="ans">
       <h3>Investigations / urinary findings of UTI</h3>
       <ol>
@@ -1557,233 +1567,233 @@
         <li>Cystoscopy — to evaluate continuous haematuria or other suspicion of bladder lesion</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Case: 27-year-old male with increased frequency of micturition (CMU-22Nv).</summary>
+  <div class="qcard flash">
+    </div>Case: 27-year-old male with increased frequency of micturition (CMU-22Nv).</div>
     <div class="ans">
       <h3>Treatment of UTI (BUP-18Nv)</h3>
       <p>Please write from "Arif's representation on PHARMACOLOGY &amp; THERAPEUTICS" (empirical + culture-guided antibiotics, hydration, analgesia).</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Case: 40-year-old male with right flank colicky pain with haematuria (CMU-22M).</summary>
+  <div class="qcard flash">
+    </div>Case: 40-year-old male with right flank colicky pain with haematuria (CMU-22M).</div>
     <div class="ans">
       <h3>Clinical cases</h3>
       <p><strong>Case 1 (CMU-22Nv):</strong> 27-year-old male, increased frequency of micturition. a) Diagnosis: UTI. b) Causes as above. c) Lab tests: Urine RME — pyuria, haematuria · Urine culture &amp; sensitivity — to find the causative organism · Complete blood count with ESR — neutrophilic leukocytosis, raised ESR.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="flash">
-    <summary>Case: 22-year-old lady with fever, dysuria, lower abdominal pain + pus cells (BUP-18Nv).</summary>
+  <div class="qcard flash">
+    </div>Case: 22-year-old lady with fever, dysuria, lower abdominal pain + pus cells (BUP-18Nv).</div>
     <div class="ans">
       <p><strong>Case 2 (CMU-22M):</strong> 40-year-old male, right flank colicky pain with haematuria. a) Diagnosis: UTI (and/or renal stone). b) Causes as above. c) Lab tests &amp; findings as above.</p>
       <p><strong>Case 3 (BUP-18Nv):</strong> 22-year-old lady, fever, dysuria, lower abdominal pain, urinary exam shows numerous pus cells. a) Diagnosis: UTI. b) Laboratory investigations for confirmation &amp; treatment: as above (urine RME, culture &amp; sensitivity, CBC with ESR, blood urea/creatinine/electrolytes).</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire — True/False + One-Liner + Clinical MCQs (ch20 + folded ch31)</h2>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Renal clearance & function tests</summary>
-    <details>
-      <summary>Blood urea elevated in: severe dehydration (T), pregnancy (T), acute kidney injury (T), cirrhosis (F), diarrhoea (F)? (BUP-22Nv)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Renal clearance & function tests</div>
+    <div class="qcard">
+      </div>Blood urea elevated in: severe dehydration (T), pregnancy (T), acute kidney injury (T), cirrhosis (F), diarrhoea (F)? (BUP-22Nv)</div>
       <div class="ans">Severe dehydration <span class="tf">T</span> · pregnancy <span class="tf">T</span> · acute kidney injury <span class="tf">T</span> · cirrhosis <span class="ff">F</span> · diarrhoea <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Renal function tests include: blood urea nitrogen (T), serum creatinine (T), serum lipase (F), renal clearance test (T), serum iron (F)? (BUP-22Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Renal function tests include: blood urea nitrogen (T), serum creatinine (T), serum lipase (F), renal clearance test (T), serum iron (F)? (BUP-22Nv)</div>
       <div class="ans">BUN <span class="tf">T</span> · serum creatinine <span class="tf">T</span> · serum lipase <span class="ff">F</span> · renal clearance test <span class="tf">T</span> · serum iron <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Renal function tests include: renal clearance test (T), BUN (T), serum uric acid (T), urea clearance to assess renal blood flow (F), inulin clearance to assess GFR (T)? (DU-09Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Renal function tests include: renal clearance test (T), BUN (T), serum uric acid (T), urea clearance to assess renal blood flow (F), inulin clearance to assess GFR (T)? (DU-09Ja)</div>
       <div class="ans">Renal clearance test <span class="tf">T</span> · BUN <span class="tf">T</span> · serum uric acid <span class="tf">T</span> · urea clearance for renal blood flow <span class="ff">F</span> · inulin clearance for GFR <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Haematuria & painless haematuria</summary>
-    <details>
-      <summary>Causes of haematuria include: cardiac failure (F), renal stone (T), neuroblastoma (F), renal cell carcinoma (T), nephrotic syndrome (F)? (DU-24Nv)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Haematuria & painless haematuria</div>
+    <div class="qcard">
+      </div>Causes of haematuria include: cardiac failure (F), renal stone (T), neuroblastoma (F), renal cell carcinoma (T), nephrotic syndrome (F)? (DU-24Nv)</div>
       <div class="ans">Cardiac failure <span class="ff">F</span> · renal stone <span class="tf">T</span> · neuroblastoma <span class="ff">F</span> · renal cell carcinoma <span class="tf">T</span> · nephrotic syndrome <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of haematuria include: cardiac failure (F), kidney stone (T), nephrotic syndrome (F), renal tuberculosis (T), pregnancy (F)? (DU-21Ja,20Nv/M,17Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of haematuria include: cardiac failure (F), kidney stone (T), nephrotic syndrome (F), renal tuberculosis (T), pregnancy (F)? (DU-21Ja,20Nv/M,17Nv)</div>
       <div class="ans">Cardiac failure <span class="ff">F</span> · kidney stone <span class="tf">T</span> · nephrotic syndrome <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · pregnancy <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Painless haematuria is associated with: chronic pyelonephritis (F), nephrotic syndrome (T), renal cell carcinoma (T), renal calculi (F), renal tuberculosis (T)? (DU-23Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Painless haematuria is associated with: chronic pyelonephritis (F), nephrotic syndrome (T), renal cell carcinoma (T), renal calculi (F), renal tuberculosis (T)? (DU-23Nv)</div>
       <div class="ans">Chronic pyelonephritis <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · renal calculi <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of painless haematuria: renal calculi (F), renal TB (T), renal cell carcinoma (T), hydronephrosis (F), nephrotic syndrome (T)? (DU-22Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of painless haematuria: renal calculi (F), renal TB (T), renal cell carcinoma (T), hydronephrosis (F), nephrotic syndrome (T)? (DU-22Nv)</div>
       <div class="ans">Renal calculi <span class="ff">F</span> · renal TB <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · hydronephrosis <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Painless haematuria associated with: vesical calculi (F), nephrotic syndrome (F), renal tuberculosis (T), renal calculi (F), renal cell carcinoma (T)? (DU-21Oct/M)</summary>
+    </div>
+    <div class="qcard">
+      </div>Painless haematuria associated with: vesical calculi (F), nephrotic syndrome (F), renal tuberculosis (T), renal calculi (F), renal cell carcinoma (T)? (DU-21Oct/M)</div>
       <div class="ans">Vesical calculi <span class="ff">F</span> · nephrotic syndrome <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · renal calculi <span class="ff">F</span> · renal cell carcinoma <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Painless haematuria occurs in: papilloma urinary bladder (T), renal stone (F), renal tuberculosis (T), renal cell carcinoma (T), cystitis (F)? (DU-18Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Painless haematuria occurs in: papilloma urinary bladder (T), renal stone (F), renal tuberculosis (T), renal cell carcinoma (T), cystitis (F)? (DU-18Ja)</div>
       <div class="ans">Papilloma urinary bladder <span class="tf">T</span> · renal stone <span class="ff">F</span> · renal tuberculosis <span class="tf">T</span> · renal cell carcinoma <span class="tf">T</span> · cystitis <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Massive proteinuria</summary>
-    <details>
-      <summary>Massive proteinuria is a feature of: acute glomerulonephritis (F), diabetic nephropathy (T), partial gastrectomy (F), hypertension (F), toxaemia of pregnancy (T)? (DU-23M)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Massive proteinuria</div>
+    <div class="qcard">
+      </div>Massive proteinuria is a feature of: acute glomerulonephritis (F), diabetic nephropathy (T), partial gastrectomy (F), hypertension (F), toxaemia of pregnancy (T)? (DU-23M)</div>
       <div class="ans">AGN <span class="ff">F</span> · diabetic nephropathy <span class="tf">T</span> · partial gastrectomy <span class="ff">F</span> · hypertension <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of massive proteinuria: nephrotic syndrome (T), severe CCF (F), diabetic nephropathy (F), toxaemia of pregnancy (T), multiple myeloma (T)? (CMU-22M)</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of massive proteinuria: nephrotic syndrome (T), severe CCF (F), diabetic nephropathy (F), toxaemia of pregnancy (T), multiple myeloma (T)? (CMU-22M)</div>
       <div class="ans">Nephrotic syndrome <span class="tf">T</span> · severe CCF <span class="ff">F</span> · diabetic nephropathy <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · multiple myeloma <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of massive proteinuria include: nephritic syndrome (F), nephrotic syndrome (T), uncontrolled DM (F), toxaemia of pregnancy (T), renal stone (F)? (DU-19Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of massive proteinuria include: nephritic syndrome (F), nephrotic syndrome (T), uncontrolled DM (F), toxaemia of pregnancy (T), renal stone (F)? (DU-19Nv)</div>
       <div class="ans">Nephritic syndrome <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · uncontrolled DM <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · renal stone <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria occurs in: AGN (F), hypertension (F), nephrotic syndrome (T), IgA nephropathy (F)? (DU-17M) Also: nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria occurs in: AGN (F), hypertension (F), nephrotic syndrome (T), IgA nephropathy (F)? (DU-17M) Also: nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</div>
       <div class="ans">AGN <span class="ff">F</span> · hypertension <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · IgA nephropathy <span class="ff">F</span> ; and nephrotic syndrome = True · SLE <span class="tf">T</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria occurs in: amyloidosis (T), CCF (F), nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria occurs in: amyloidosis (T), CCF (F), nephrotic syndrome (T), SLE (T), toxaemia of pregnancy (T)? (RU-14Ja)</div>
       <div class="ans">Amyloidosis <span class="tf">T</span> · CCF <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · SLE <span class="tf">T</span> · toxaemia of pregnancy <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria observed in: pre-eclamptic toxaemia (T), multiple myeloma (T), cardiac failure (F), haemolytic anaemia (F)? (DU-13Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria observed in: pre-eclamptic toxaemia (T), multiple myeloma (T), cardiac failure (F), haemolytic anaemia (F)? (DU-13Ja)</div>
       <div class="ans">Pre-eclamptic toxaemia <span class="tf">T</span> · multiple myeloma <span class="tf">T</span> · cardiac failure <span class="ff">F</span> · haemolytic anaemia <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria occurs in: pregnancy (F), CCF (T), nephrotic syndrome (T), SLE (T), Milne's syndrome (F)? (RU-13Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria occurs in: pregnancy (F), CCF (T), nephrotic syndrome (T), SLE (T), Milne's syndrome (F)? (RU-13Ja)</div>
       <div class="ans">Pregnancy <span class="ff">F</span> · CCF <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · SLE <span class="tf">T</span> · Milne's syndrome <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria occurs in: chronic renal failure (F), hepatic failure (F), nephrotic syndrome (T), minimal change disease (T), SLE (T)? (DU-10Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria occurs in: chronic renal failure (F), hepatic failure (F), nephrotic syndrome (T), minimal change disease (T), SLE (T)? (DU-10Ja)</div>
       <div class="ans">Chronic renal failure <span class="ff">F</span> · hepatic failure <span class="ff">F</span> · nephrotic syndrome <span class="tf">T</span> · minimal change disease <span class="tf">T</span> · SLE <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Massive proteinuria occurs in: pyelonephritis (F), toxaemia of pregnancy (T), nephrotic syndrome (T), AGN (F), renal cell carcinoma (F)? (DU-11Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Massive proteinuria occurs in: pyelonephritis (F), toxaemia of pregnancy (T), nephrotic syndrome (T), AGN (F), renal cell carcinoma (F)? (DU-11Ja)</div>
       <div class="ans">Pyelonephritis <span class="ff">F</span> · toxaemia of pregnancy <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · AGN <span class="ff">F</span> · renal cell carcinoma <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Proteinuria & urine protein tests</summary>
-    <details>
-      <summary>Proteinuria is a constant feature of: acute glomerulonephritis (T), nephrotic syndrome (T), renal stone (F), hypertension (T), haematuria (T)? (DU-14Ja)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Proteinuria & urine protein tests</div>
+    <div class="qcard">
+      </div>Proteinuria is a constant feature of: acute glomerulonephritis (T), nephrotic syndrome (T), renal stone (F), hypertension (T), haematuria (T)? (DU-14Ja)</div>
       <div class="ans">Acute glomerulonephritis <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · renal stone <span class="ff">F</span> · hypertension <span class="tf">T</span> · haematuria <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Urinary protein can be detected by: heat coagulation test (T), Rothera's test (F), reagent strip test (T), Benedict test (F), sulphosalicylic test (T)? (DU-22Nv / DU-10Ju)</summary>
+    </div>
+    <div class="qcard">
+      </div>Urinary protein can be detected by: heat coagulation test (T), Rothera's test (F), reagent strip test (T), Benedict test (F), sulphosalicylic test (T)? (DU-22Nv / DU-10Ju)</div>
       <div class="ans">Heat coagulation <span class="tf">T</span> · Rothera's <span class="ff">F</span> · reagent strip <span class="tf">T</span> · Benedict <span class="ff">F</span> · sulphosalicylic acid <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Non-sugar reducing substances</summary>
-    <details>
-      <summary>Non-sugar reducing substances: ascorbic acid (T), uric acid (T), alpha-methyl dopa (F), penicillin (F), sucrose (F)? (DU-23Nv)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Non-sugar reducing substances</div>
+    <div class="qcard">
+      </div>Non-sugar reducing substances: ascorbic acid (T), uric acid (T), alpha-methyl dopa (F), penicillin (F), sucrose (F)? (DU-23Nv)</div>
       <div class="ans">Ascorbic acid <span class="tf">T</span> · uric acid <span class="tf">T</span> · alpha-methyl dopa <span class="ff">F</span> · penicillin <span class="ff">F</span> · sucrose <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Urinary casts & UTI microscopy</summary>
-    <details>
-      <summary>Regarding casts present in urine: RBC cast in acute pyelonephritis (F), hyaline cast in nephrotic syndrome (F), WBC cast in nephritic syndrome (T), cellular cast in chronic (F), colloid cast with massive proteinuria (F)? (DU-22M)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Urinary casts & UTI microscopy</div>
+    <div class="qcard">
+      </div>Regarding casts present in urine: RBC cast in acute pyelonephritis (F), hyaline cast in nephrotic syndrome (F), WBC cast in nephritic syndrome (T), cellular cast in chronic (F), colloid cast with massive proteinuria (F)? (DU-22M)</div>
       <div class="ans">RBC cast in acute pyelonephritis <span class="ff">F</span> · hyaline cast in nephrotic <span class="ff">F</span> · WBC cast in nephritic <span class="tf">T</span> · cellular cast in chronic <span class="ff">F</span> · colloid cast with massive proteinuria <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Urinary microscopic findings in upper UTI: pus cell (T), dysmorphic RBC (T), RBC cast (T), WBC cast (F), crystals (F)? (BUP-22Nv)</summary>
+    </div>
+    <div class="qcard">
+      </div>Urinary microscopic findings in upper UTI: pus cell (T), dysmorphic RBC (T), RBC cast (T), WBC cast (F), crystals (F)? (BUP-22Nv)</div>
       <div class="ans">Pus cell <span class="tf">T</span> · dysmorphic RBC <span class="tf">T</span> · RBC cast <span class="tf">T</span> · WBC cast <span class="ff">F</span> · crystals <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Specific gravity, Bence-Jones & urine chemistry</summary>
-    <details>
-      <summary>Specific gravity of urine is increased in: chronic renal failure (F), diabetes mellitus (T), diabetes insipidus (F), acute glomerulonephritis (T), nephrotic syndrome (T)? (DU-10Nv,18Ja)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Specific gravity, Bence-Jones & urine chemistry</div>
+    <div class="qcard">
+      </div>Specific gravity of urine is increased in: chronic renal failure (F), diabetes mellitus (T), diabetes insipidus (F), acute glomerulonephritis (T), nephrotic syndrome (T)? (DU-10Nv,18Ja)</div>
       <div class="ans">Chronic renal failure <span class="ff">F</span> · DM <span class="tf">T</span> · DI <span class="ff">F</span> · AGN <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Characteristic features of Bence-Jones protein: free monoclonal kappa or lambda chain (T), originally described for behaviour on heating (T), flocculates when heated to 300 °C (F), also found occasionally in lymphoma (F), electrophoresis of urine is non-reliable (F)? (DU-09Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Characteristic features of Bence-Jones protein: free monoclonal kappa or lambda chain (T), originally described for behaviour on heating (T), flocculates when heated to 300 °C (F), also found occasionally in lymphoma (F), electrophoresis of urine is non-reliable (F)? (DU-09Ja)</div>
       <div class="ans">Free monoclonal κ/λ chain <span class="tf">T</span> · behaviour on heating <span class="tf">T</span> · flocculates at 300 °C <span class="ff">F</span> · occasionally in lymphoma <span class="ff">F</span> · urine electrophoresis non-reliable <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Following are associated with high-coloured urine: diabetes insipidus (F), AGN (T), starvation (F), cirrhosis of liver (F), cystitis (F)? (RU-13Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Following are associated with high-coloured urine: diabetes insipidus (F), AGN (T), starvation (F), cirrhosis of liver (F), cystitis (F)? (RU-13Ja)</div>
       <div class="ans">DI <span class="ff">F</span> · AGN <span class="tf">T</span> · starvation <span class="ff">F</span> · cirrhosis <span class="ff">F</span> · cystitis <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Hyperuricaemia</summary>
-    <details>
-      <summary>Causes of hyperuricaemia: gout (T), allopurinol therapy (F), polycythaemia (T), low protein diet (F), CGL (chronic granulocytic leukaemia) (T)? (DU-19M); also psoriasis (T), alcoholism (F)? (DU-10Ju/J,09Ju)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Hyperuricaemia</div>
+    <div class="qcard">
+      </div>Causes of hyperuricaemia: gout (T), allopurinol therapy (F), polycythaemia (T), low protein diet (F), CGL (chronic granulocytic leukaemia) (T)? (DU-19M); also psoriasis (T), alcoholism (F)? (DU-10Ju/J,09Ju)</div>
       <div class="ans">Gout <span class="tf">T</span> · allopurinol <span class="ff">F</span> · polycythaemia <span class="tf">T</span> · low protein diet <span class="ff">F</span> · CGL <span class="tf">T</span> . Plus psoriasis = True · alcoholism <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Causes of hyperuricaemia include: gout (T), alcoholism (F), liver damage (F), large dose of vitamin-C (F), leukaemia (T)? (DU-08Ju)</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of hyperuricaemia include: gout (T), alcoholism (F), liver damage (F), large dose of vitamin-C (F), leukaemia (T)? (DU-08Ju)</div>
       <div class="ans">Gout <span class="tf">T</span> · alcoholism <span class="ff">F</span> · liver damage <span class="ff">F</span> · large dose of vitamin-C <span class="ff">F</span> · leukaemia <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Ketonuria</summary>
-    <details>
-      <summary>Causes of ketonuria include: untreated diabetes mellitus (T), starvation (T), severe dehydration (T), diet low in fat (F), obesity (F)? (DU-11Ja) Also glycogen storage disease (T), diet high in carbohydrate (F), decreased fat metabolism (F)? (DU-10Ja)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Ketonuria</div>
+    <div class="qcard">
+      </div>Causes of ketonuria include: untreated diabetes mellitus (T), starvation (T), severe dehydration (T), diet low in fat (F), obesity (F)? (DU-11Ja) Also glycogen storage disease (T), diet high in carbohydrate (F), decreased fat metabolism (F)? (DU-10Ja)</div>
       <div class="ans">Untreated DM <span class="tf">T</span> · starvation <span class="tf">T</span> · severe dehydration <span class="tf">T</span> · diet low in fat <span class="ff">F</span> · obesity <span class="ff">F</span> . Plus glycogen storage disease = True · high-CHO diet <span class="ff">F</span> · decreased fat metabolism <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>Ketonuria may occur in: severe diabetes mellitus (T), diabetes insipidus (F), prolonged starvation (T), uremia (F), cachectic person (T)? (DU-14Ju)</summary>
+    </div>
+    <div class="qcard">
+      </div>Ketonuria may occur in: severe diabetes mellitus (T), diabetes insipidus (F), prolonged starvation (T), uremia (F), cachectic person (T)? (DU-14Ju)</div>
       <div class="ans">Severe DM <span class="tf">T</span> · DI <span class="ff">F</span> · prolonged starvation <span class="tf">T</span> · uremia <span class="ff">F</span> · cachectic person <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Haemoglobinuria</summary>
-    <details>
-      <summary>Haemoglobinuria is associated with: incompatible blood transfusion (T), cerebral malaria (T), acute glomerulonephritis (F), hypersplenism (T), septicaemia (F)? (DU-10Nv)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Haemoglobinuria</div>
+    <div class="qcard">
+      </div>Haemoglobinuria is associated with: incompatible blood transfusion (T), cerebral malaria (T), acute glomerulonephritis (F), hypersplenism (T), septicaemia (F)? (DU-10Nv)</div>
       <div class="ans">Incompatible blood transfusion <span class="tf">T</span> · cerebral malaria <span class="tf">T</span> · AGN <span class="ff">F</span> · hypersplenism <span class="tf">T</span> · septicaemia <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Nephrotic syndrome</summary>
-    <details>
-      <summary>The nephrotic syndrome is accompanied by: decreased glomerular capillary permeability (F), oedema (T), loss of 4 gm or more of plasma protein daily (T), hypolipidaemia (F), abundant cortical deposits of neutral fat (T)? (DU-09Ju)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Nephrotic syndrome</div>
+    <div class="qcard">
+      </div>The nephrotic syndrome is accompanied by: decreased glomerular capillary permeability (F), oedema (T), loss of 4 gm or more of plasma protein daily (T), hypolipidaemia (F), abundant cortical deposits of neutral fat (T)? (DU-09Ju)</div>
       <div class="ans">Decreased capillary permeability <span class="ff">F</span> · oedema <span class="tf">T</span> · loss ≥4 gm protein/day <span class="tf">T</span> · hypolipidaemia <span class="ff">F</span> · abundant neutral fat <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Hyperlipidaemia</summary>
-    <details>
-      <summary>Hyperlipidaemia mostly occurs in: nephrotic syndrome (T), long-term starvation (F), diabetes mellitus (T), pulmonary hypertension (F), obesity (T)? (DU-23Nv)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Hyperlipidaemia</div>
+    <div class="qcard">
+      </div>Hyperlipidaemia mostly occurs in: nephrotic syndrome (T), long-term starvation (F), diabetes mellitus (T), pulmonary hypertension (F), obesity (T)? (DU-23Nv)</div>
       <div class="ans">Nephrotic syndrome <span class="tf">T</span> · long-term starvation <span class="ff">F</span> · DM <span class="tf">T</span> · pulmonary hypertension <span class="ff">F</span> · obesity <span class="tf">T</span> .</div>
-    </details>
-    <details>
-      <summary>Hyperlipidaemia occurs in: familial hypercholesterolaemia (T), diabetes mellitus (T), nephrotic syndrome (T), nephritic syndrome (F), peptic ulcer disease (F)? (DU-17Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>Hyperlipidaemia occurs in: familial hypercholesterolaemia (T), diabetes mellitus (T), nephrotic syndrome (T), nephritic syndrome (F), peptic ulcer disease (F)? (DU-17Ja)</div>
       <div class="ans">Familial hypercholesterolaemia <span class="tf">T</span> · DM <span class="tf">T</span> · nephrotic syndrome <span class="tf">T</span> · nephritic syndrome <span class="ff">F</span> · PUD <span class="ff">F</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Miscellaneous matched pairs & normal values</summary>
-    <details>
-      <summary>Correctly matched: ketonuria — old diabetes mellitus (T), increased lymphocytes — pyogenic meningitis (F), increased PT — overdose of anticoagulant (T), pseudocyesis — positive pregnancy test (T), low albumin/globulin ratio — Crohn's disease (F)? (RU-18M)</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Miscellaneous matched pairs & normal values</div>
+    <div class="qcard">
+      </div>Correctly matched: ketonuria — old diabetes mellitus (T), increased lymphocytes — pyogenic meningitis (F), increased PT — overdose of anticoagulant (T), pseudocyesis — positive pregnancy test (T), low albumin/globulin ratio — Crohn's disease (F)? (RU-18M)</div>
       <div class="ans">Ketonuria–old DM <span class="tf">T</span> · increased lymphocytes–pyogenic meningitis <span class="ff">F</span> · increased PT–anticoagulant overdose <span class="tf">T</span> · pseudocyesis–positive pregnancy test <span class="tf">T</span> · low A/G ratio–Crohn's <span class="ff">F</span> .</div>
-    </details>
-    <details>
-      <summary>The following values are within normal limit: FBS 5.5 mmol/L (T), S. creatinine 3.4 mg/dl (F), blood urea 120 mg/dl (F), triglyceride 180 mg/dl (F), serum PSA 0.4 U/L (T)? (DU-13Ja)</summary>
+    </div>
+    <div class="qcard">
+      </div>The following values are within normal limit: FBS 5.5 mmol/L (T), S. creatinine 3.4 mg/dl (F), blood urea 120 mg/dl (F), triglyceride 180 mg/dl (F), serum PSA 0.4 U/L (T)? (DU-13Ja)</div>
       <div class="ans">FBS 5.5 <span class="tf">T</span> · S. creatinine 3.4 mg/dl <span class="ff">F</span> (normal 0.7–1.4) · blood urea 120 <span class="ff">F</span> (normal 15–40) · triglyceride 180 <span class="ff">F</span> · serum PSA 0.4 U/L <span class="tf">T</span> .</div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
-    <details class="rapid" open>
-    <summary>Renal Function Test — One-Liners & Mnemonics (test yourself, then reveal)</summary>
+    <div class="qcard rapid">
+    </div>Renal Function Test — One-Liners & Mnemonics (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">What are the 3 normal clearance values? (inulin, creatinine, urea)</div>
@@ -1826,7 +1836,7 @@
       <div class="a">Painless: IgA nephropathy, renal TB, renal cell carcinoma, bladder papilloma. Painful: renal stone, infection, trauma, polycystic kidney (clot colic), loin-pain-haematuria syndrome.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

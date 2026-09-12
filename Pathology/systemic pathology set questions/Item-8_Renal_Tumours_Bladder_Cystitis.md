@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify kidney tumours.</b></summary>
+### Q1. Classify kidney tumours.
 
 ### Definition
 
@@ -64,10 +63,8 @@ Accumulating losses of many chromosomes (extreme hypodiploidy)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Short Note: Wilms tumour.</b></summary>
+### Q2. Short Note: Wilms tumour.
 
 ### Definition
 
@@ -121,10 +118,8 @@ TP53 mutation drives ANAPLASIA (chemoresistance).
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Renal cell carcinoma: Risk factors, Classification, Morphology / Pathology, C/F, Lab Diagnosis.</b></summary>
+### Q3. Renal cell carcinoma: Risk factors, Classification, Morphology / Pathology, C/F, Lab Diagnosis.
 
 ### Definition
 
@@ -212,10 +207,8 @@ Renal vein thrombosis with IVC extension · haemorrhage · metastatic disease (l
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. A male of 55 years presented with hematuria, loin pain, palpable mass in the lumbar region. What is the likely diagnosis? What are the histological types of the lesion?</b></summary>
+### Q4. A male of 55 years presented with hematuria, loin pain, palpable mass in the lumbar region. What is the likely diagnosis? What are the histological types of the lesion?
 
 ### Likely diagnosis
 
@@ -252,10 +245,8 @@ Renal vein thrombosis with IVC extension · haemorrhage · metastatic disease (l
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Cystitis: Cause, Predisposing Factor.</b></summary>
+### Q5. Cystitis: Cause, Predisposing Factor.
 
 ### Definition
 
@@ -322,10 +313,8 @@ Ascending infection → **acute pyelonephritis** · chronic cystitis with fibros
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Urinary Bladder Tumour: Types, risk factors.</b></summary>
+### Q6. Urinary Bladder Tumour: Types, risk factors.
 
 ### Definition
 
@@ -406,10 +395,8 @@ Aromatic amines absorbed → hepatic N-hydroxylation (CYP1A2) → circulating el
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention the types of Urinary stone with the pathogenesis. Mention the complications of urinary stones.</b></summary>
+### Q7. Mention the types of Urinary stone with the pathogenesis. Mention the complications of urinary stones.
 
 ### Definition
 
@@ -490,10 +477,8 @@ Often asymptomatic; 🔴 **renal colic** — excruciating loin-to-groin pain whe
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What are the common causes of urinary tract obstruction?</b></summary>
+### Q8. What are the common causes of urinary tract obstruction?
 
 ### Definition
 
@@ -540,4 +525,3 @@ Acute: renal colic ± anuria. Chronic partial: nocturia/polyuria, recurrent UTI/
 
 ---
 
-</details>

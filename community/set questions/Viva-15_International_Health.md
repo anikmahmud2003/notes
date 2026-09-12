@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Mention date of World Health Day celebration. Name the headquarters of WHO. (S5,Q7)</b></summary>
+### Q1. Mention date of World Health Day celebration. Name the headquarters of WHO. (S5,Q7)
 
 ### World Health Day
 > 🔴 The WHO constitution came into force on **7 April, 1948**, which is celebrated every year as **"World Health Day"** (a theme is chosen each year to focus attention on a specific aspect of public health).
@@ -20,10 +19,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are the activities of UNICEF in Bangladesh? (S6,Q7)</b></summary>
+### Q2. What are the activities of UNICEF in Bangladesh? (S6,Q7)
 
 ### UNICEF — at a glance
 - **UNICEF** = United Nations Children's (Emergency) Fund — a specialized agency of the UN, established in **1946** for rehabilitation of children in war-ravaged countries.
@@ -49,10 +46,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are the activities of IRC in Bangladesh? (S8,Q7)</b></summary>
+### Q3. What are the activities of IRC in Bangladesh? (S8,Q7)
 
 ### Red Crescent / Red Cross
 > The Red Cross/Crescent is a **non-political international humanitarian organization** devoted to the service of mankind in peace and war, founded by **Henry Dunant** (at the 1859 Battle of Solferino). Working bodies: International Committee of Red Cross (1863, wartime) & International Federation of Red Cross & Red Crescent Societies (1919, peacetime).
@@ -69,10 +64,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are the activities of FAO? (S9,Q6)</b></summary>
+### Q4. What are the activities of FAO? (S9,Q6)
 
 ### FAO
 > **FAO** = "Food and Agricultural Organization" — a specialized agency of the UN; prime concern is the **increased production of food to keep pace with the growing world population.**
@@ -89,10 +82,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Name the national NGOs having health programmes in Bangladesh. (S10,Q7)</b></summary>
+### Q5. Name the national NGOs having health programmes in Bangladesh. (S10,Q7)
 
 ### Some important national NGOs working in health & family planning sectors
 1. **Bangladesh Rural Advancement Committee (BRAC).**
@@ -112,10 +103,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Name some bilateral NGOs working in Bangladesh. (S11,Q3)</b></summary>
+### Q6. Name some bilateral NGOs working in Bangladesh. (S11,Q3)
 
 ### Bilateral agencies working in Bangladesh
 > 📌 Bilateral agencies are those financed by individual (government-to-government) donor countries.
@@ -131,10 +120,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Name the health related activities of national NGOs in Bangladesh? (S12,Q7)</b></summary>
+### Q7. Name the health related activities of national NGOs in Bangladesh? (S12,Q7)
 
 ### Health-related activities of national NGOs in Bangladesh (example — BRAC)
 > 📌 BRAC (started 1972 by **Fazle Hasan Abed**; now the largest national NGO) runs **BRAC Health Programme** — community health programmes include:
@@ -161,10 +148,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Classify international health organization. (S13,Q7)</b></summary>
+### Q8. Classify international health organization. (S13,Q7)
 
 ### Classification of international health agencies
 **A) United Nations (multilateral) agencies:**
@@ -182,10 +167,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. List the functions of WHO. (S15,Q4)</b></summary>
+### Q9. List the functions of WHO. (S15,Q4)
 
 ### Functions / activities of WHO
 1. **Prevention and control of specific diseases:**
@@ -213,10 +196,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Name some national NGOs working in health sector in Bangladesh. Enumerate the functions of WHO? (S19,Q7)</b></summary>
+### Q10. Name some national NGOs working in health sector in Bangladesh. Enumerate the functions of WHO? (S19,Q7)
 
 ### National NGOs in health sector (Bangladesh)
 1. **BRAC** — Bangladesh Rural Advancement Committee.
@@ -240,10 +221,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Name the health related activities of the national NGOs in Bangladesh. (S20,Q7)</b></summary>
+### Q11. Name the health related activities of the national NGOs in Bangladesh. (S20,Q7)
 
 *Repeat of Q7* — National NGO health activities (BRAC example):
 1. **Nutrition** — nutrition education, monitoring & surveillance, vitamin-A capsule distribution.
@@ -259,10 +238,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Name some national NGOs working in health sector in Bangladesh. (S23,Q7)</b></summary>
+### Q12. Name some national NGOs working in health sector in Bangladesh. (S23,Q7)
 
 *Repeat (list)* — National NGOs working in health & family planning sectors:
 
@@ -279,10 +256,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Name the regional headquarters of WHO. (S24,Q7)</b></summary>
+### Q13. Name the regional headquarters of WHO. (S24,Q7)
 
 ### WHO regional organizations & headquarters
 | Region | Headquarters |
@@ -300,10 +275,8 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. What are the activities of Int. Red Crescent in Bangladesh. (S17,Q7)</b></summary>
+### Q14. What are the activities of Int. Red Crescent in Bangladesh. (S17,Q7)
 
 *Repeat of Q3* — Red Crescent activities in Bangladesh:
 1. **5 general hospitals** in Dhaka city.
@@ -313,4 +286,3 @@ Other national NGOs (GSK, DAB, BFRP, Red Crescent) similarly run MCH, family pla
 
 > 📖 Ch-23, Endeavour PDF pp. 658–659
 
-</details>

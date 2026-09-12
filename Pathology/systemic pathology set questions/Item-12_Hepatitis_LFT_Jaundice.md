@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. List the causes of acute hepatitis. Give the positive findings in liver function tests in acute hepatitis.</b></summary>
+### Q1. List the causes of acute hepatitis. Give the positive findings in liver function tests in acute hepatitis.
 
 ### Causes of acute hepatitis
 
@@ -34,10 +33,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Mention the viral markers of hepatitis with their diagnostic significance.</b></summary>
+### Q2. Mention the viral markers of hepatitis with their diagnostic significance.
 
 ### Hepatitis A–E markers
 
@@ -65,10 +62,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Name the viruses commonly causing acute liver failure. Give the clinical features of liver failure.</b></summary>
+### Q3. Name the viruses commonly causing acute liver failure. Give the clinical features of liver failure.
 
 ### Viruses causing acute liver failure (fulminant viral hepatitis)
 
@@ -100,10 +95,8 @@ Pathology: **massive/submassive hepatic necrosis** with collapse of reticulin fr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Name the viruses commonly causing chronic hepatitis. How chronic hepatitis can be confirmed in laboratory?</b></summary>
+### Q4. Name the viruses commonly causing chronic hepatitis. How chronic hepatitis can be confirmed in laboratory?
 
 ### Viruses causing chronic hepatitis
 
@@ -130,10 +123,8 @@ Pathology: **massive/submassive hepatic necrosis** with collapse of reticulin fr
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. List the causes of chronic hepatitis. Mention the fates/outcomes of chronic hepatitis.</b></summary>
+### Q5. List the causes of chronic hepatitis. Mention the fates/outcomes of chronic hepatitis.
 
 ### Causes of chronic hepatitis
 
@@ -172,10 +163,8 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. List the liver function tests. What are changes in liver function test occurring in obstructive jaundice?</b></summary>
+### Q6. List the liver function tests. What are changes in liver function test occurring in obstructive jaundice?
 
 ### List of liver function tests (Arif classification)
 
@@ -209,10 +198,8 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Give the pathological definition and classification of jaundice.</b></summary>
+### Q7. Give the pathological definition and classification of jaundice.
 
 ### Pathological definition
 
@@ -234,10 +221,8 @@ Chronic hepatitis (persistent interface hepatitis)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Mention the causes of neonatal jaundice with the pathogenesis.</b></summary>
+### Q8. Mention the causes of neonatal jaundice with the pathogenesis.
 
 ### Causes of neonatal jaundice
 
@@ -280,10 +265,8 @@ Newborn liver
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. How the types of jaundice can be differentiated without blood test?</b></summary>
+### Q9. How the types of jaundice can be differentiated without blood test?
 
 ### Clinical differentiation (history, examination, urine/stool inspection)
 
@@ -307,10 +290,8 @@ Newborn liver
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Mention the causes of prehepatic jaundice. How prehepatic jaundice can be diagnosed by liver function test?</b></summary>
+### Q10. Mention the causes of prehepatic jaundice. How prehepatic jaundice can be diagnosed by liver function test?
 
 ### Causes of prehepatic (hemolytic) jaundice
 
@@ -339,10 +320,8 @@ Newborn liver
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. What are the desired changes in liver function test in a case of hepatocellular jaundice?</b></summary>
+### Q11. What are the desired changes in liver function test in a case of hepatocellular jaundice?
 
 ### LFT changes in hepatocellular (hepatic) jaundice
 
@@ -377,10 +356,8 @@ Newborn liver
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Give pathogenesis and outcome of hepatitis B viral infection.</b></summary>
+### Q12. Give pathogenesis and outcome of hepatitis B viral infection.
 
 ### Pathogenesis of HBV infection
 
@@ -429,10 +406,8 @@ Clearance: HBsAg↓ → anti-HBs↑    CHRONIC hepatitis (5–10% adults; ~90% i
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Give the lab diagnosis of viral hepatitis.</b></summary>
+### Q13. Give the lab diagnosis of viral hepatitis.
 
 ### A. Non-specific laboratory tests
 
@@ -464,4 +439,3 @@ Clearance: HBsAg↓ → anti-HBs↑    CHRONIC hepatitis (5–10% adults; ~90% i
 
 ---
 
-</details>

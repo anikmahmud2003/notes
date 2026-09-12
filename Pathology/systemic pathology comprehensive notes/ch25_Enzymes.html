@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -119,8 +129,8 @@
   <h2 id="classification">1 · Enzymes of Clinical Importance — Classification by Organ System</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 Name the enzymes of clinical importance, classified by organ system.</summary>
+  <div class="qcard">
+    </div>🔴 Name the enzymes of clinical importance, classified by organ system.</div>
     <div class="ans">
       <p><strong>Enzymes of clinical importance</strong> (VIVA favourite — asked repeatedly at DU, RU, SU, CU):</p>
       <table>
@@ -136,14 +146,14 @@
       <div class="mnem">🎯 <strong>Memory aid:</strong> "Heart has CK + AST + LDH · Liver has ALT + AST + ALP + GGT + LDH · Bone has ALP + ACP · Pancreas has Amylase + Lipase."</div>
       <p class="ref">Arif 2025 pp.480–481 · Exam tags: SU-18M, DU-23Nv, RU-17Ju, CU-12Ja, SU-10Ja, RU-15Ja</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="normal-values">2 · Normal Values &amp; Conditions Where Raised</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 List all clinically important enzymes with their normal values (reference range) and conditions in which they are raised.</summary>
+  <div class="qcard">
+    </div>🔴 List all clinically important enzymes with their normal values (reference range) and conditions in which they are raised.</div>
     <div class="ans">
       <table>
         <tr><th>Enzyme</th><th>Normal Value (IU/L)</th><th>Conditions Where Raised</th></tr>
@@ -159,14 +169,14 @@
       <div class="mnem">🎯 <strong>ALT = liver-specific · AST = heart/skeletal liver-marker, rises early in MI · ALP = obstructive jaundice + bone.</strong></div>
       <p class="ref">Arif 2025 pp.481–482 · Davidson's 20th/21st ed. · Exam tags: RU-12Ju, SU-14Ju, DU-05Ja, SU-09Ja</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="liver-diff">3 · Serum Enzyme Assay in Differentiating Liver Disorders</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 Draw a table showing the role of serum enzyme assay in differentiating various liver disorders.</summary>
+  <div class="qcard">
+    </div>🔴 Draw a table showing the role of serum enzyme assay in differentiating various liver disorders.</div>
     <div class="ans">
       <table>
         <tr><th>Enzyme</th><th>Increased In (Liver Disorders)</th></tr>
@@ -177,23 +187,23 @@
       </table>
       <p class="ref">Arif 2025 pp.482–483 · Exam tag: RU-11Ju</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="sgpt-sgot">4 · SGPT &amp; SGOT (Transaminases)</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>📌 What are SGOT and SGPT? What do the abbreviations stand for?</summary>
+  <div class="qcard">
+    </div>📌 What are SGOT and SGPT? What do the abbreviations stand for?</div>
     <div class="ans">
       <p><strong>SGOT = AST (Aspartate Aminotransferase)</strong> · <strong>SGPT = ALT (Alanine Aminotransferase)</strong>.</p>
       <p>Both are transaminases that transfer amino groups to a ketoacid: ALT from <strong>alanine</strong>, AST from <strong>aspartate</strong> (producing pyruvate and oxaloacetate respectively).</p>
       <p class="ref">Arif 2025 p.483 · Davidson's 20th/940 · Exam tag: CU-09Ja</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Which is more specific for liver disease — and why?</summary>
+  <div class="qcard">
+    </div>📌 Which is more specific for liver disease — and why?</div>
     <div class="ans">
       <ul>
         <li>Both SGPT &amp; SGOT are located in the <strong>cytoplasm of the hepatocyte</strong> and widely distributed in other tissues.</li>
@@ -203,30 +213,30 @@
       <div class="mnem">🎯 <strong>ALT = "A" for "Alone in liver" (most specific) · AST = "A" for "Anywhere" (heart, muscle, liver).</strong></div>
       <p class="ref">Arif 2025 p.483</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Give the normal values of AST and ALT.</summary>
+  <div class="qcard">
+    </div>📌 Give the normal values of AST and ALT.</div>
     <div class="ans">
       <p><strong>AST (SGOT):</strong> 10–45 IU/L · <strong>ALT (SGPT):</strong> 10–50 IU/L.</p>
       <p class="ref">Arif 2025 p.483</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="cardiac">5 · Cardiac Markers (Enzymes + Proteins)</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 What are cardiac markers?</summary>
+  <div class="qcard">
+    </div>🔴 What are cardiac markers?</div>
     <div class="ans">
       <p>Intracellular enzymes or proteins <strong>released into blood following cardiac muscle damage</strong> due to ischaemia (e.g., MI) or other assaults. They show a serial change: <strong>rise → peak → fall</strong>.</p>
       <p class="ref">Arif 2025 pp.483–484 · RU-15Ja, DU-13Ja, SU-19Nv</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Name the enzymes used as cardiac markers.</summary>
+  <div class="qcard">
+    </div>🔴 Name the enzymes used as cardiac markers.</div>
     <div class="ans">
       <h3>A. Enzymes</h3>
       <ol>
@@ -242,10 +252,10 @@
       </ol>
       <p class="ref">Arif 2025 pp.483–484</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the timing of rise, peak, and return to normal of each cardiac marker after MI.</summary>
+  <div class="qcard">
+    </div>🔴 Give the timing of rise, peak, and return to normal of each cardiac marker after MI.</div>
     <div class="ans">
       <table>
         <tr><th>Marker</th><th>Normal Value</th><th>Rise Within</th><th>Peak At</th><th>Returns to Normal</th></tr>
@@ -258,26 +268,26 @@
       <div class="mnem">🎯 <strong>Earliest rise = CK-MB &amp; Troponin (4–6 h); Longest elevation = Troponin (5–14 d); Myoglobin = earliest, clears fastest.</strong></div>
       <p class="ref">Arif 2025 pp.483–484 · Exam tags: RU-15Ja, DU-13Ja, SU-19Nv, DU-19M, DU-16Ja, DU-23M</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Cardiac markers of acute MI</summary>
-    <details>
-      <summary>Biochemical markers of acute MI include: Troponin-T · LDH · ALP · CK-MB · γ-interferon</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Cardiac markers of acute MI</div>
+    <div class="qcard">
+      </div>Biochemical markers of acute MI include: Troponin-T · LDH · ALP · CK-MB · γ-interferon</div>
       <div class="ans">Troponin-T <span class="tf">T</span> · LDH <span class="tf">T</span> · ALP <span class="ff">F</span> · CK-MB <span class="tf">T</span> · γ-interferon <span class="ff">F</span> <span class="ref">(RU-14Ja/13Ju)</span></div>
-    </details>
-    <details>
-      <summary>Preferred biochemical markers for diagnosis of acute MI: LDH · Troponin-I · CK-MB · Troponin-T · SGPT</summary>
+    </div>
+    <div class="qcard">
+      </div>Preferred biochemical markers for diagnosis of acute MI: LDH · Troponin-I · CK-MB · Troponin-T · SGPT</div>
       <div class="ans">LDH <span class="tf">T</span> · Troponin-I <span class="tf">T</span> · CK-MB <span class="tf">T</span> · Troponin-T <span class="tf">T</span> · SGPT <span class="ff">F</span> <span class="ref">(DU-10Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="troponin">6 · Troponin — Best Indicator for MI</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 What are troponins? Give their types.</summary>
+  <div class="qcard">
+    </div>🔴 What are troponins? Give their types.</div>
     <div class="ans">
       <p><strong>Troponins</strong> are regulatory proteins that control <strong>calcium-mediated contraction of cardiac and skeletal muscle</strong>.</p>
       <ul>
@@ -287,18 +297,18 @@
       </ul>
       <p class="ref">Arif 2025 pp.484–485 · Exam tags: DU-08Ja, RU-15Ja, DU-06Ja</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Why are troponin T and I the best indicators for MI?</summary>
+  <div class="qcard">
+    </div>🔴 Why are troponin T and I the best indicators for MI?</div>
     <div class="ans">
       <p>They are structural cardiac muscle proteins released during <strong>myocyte damage and necrosis</strong>. They have <span class="hot">nearly complete cardiac tissue specificity + high sensitivity</span>, making them the gold standard for MI diagnosis.</p>
       <p class="ref">Arif 2025 pp.484–485</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the kinetics of troponin after acute MI.</summary>
+  <div class="qcard">
+    </div>🔴 Give the kinetics of troponin after acute MI.</div>
     <div class="ans">
       <p>Not normally detectable in circulation. After acute MI:</p>
       <ul>
@@ -309,24 +319,24 @@
       <p><strong>Other conditions where troponins may be elevated:</strong> minor myocardial damage, pulmonary embolus, septic shock, pulmonary oedema.</p>
       <p class="ref">Arif 2025 pp.484–485 · Robbins 10e/550 · Davidson's 23rd/450</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="ck-cpk">7 · CK (Creatine Kinase / CPK)</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 Write a short note on CK (Creatine Kinase) / CPK — what is it and where is it concentrated?</summary>
+  <div class="qcard">
+    </div>🔴 Write a short note on CK (Creatine Kinase) / CPK — what is it and where is it concentrated?</div>
     <div class="ans">
       <p>An enzyme highly concentrated in <strong>brain, myocardium, and skeletal muscle</strong>. It is composed of two dimers designated <strong>"M" (muscle)</strong> and <strong>"B" (brain)</strong>.</p>
       <p><strong>Normal values:</strong> Male: 55–170 U/L · Female: 30–135 U/L.</p>
       <p><strong>Alternative name:</strong> Creatine Phosphokinase (CPK).</p>
       <p class="ref">Arif 2025 pp.484–485 · Exam tags: CU-10Ju, DU-04S</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the isoenzymes (isoforms) of CK and their tissue sources.</summary>
+  <div class="qcard">
+    </div>🔴 Give the isoenzymes (isoforms) of CK and their tissue sources.</div>
     <div class="ans">
       <table>
         <tr><th>Isoenzyme</th><th>Tissue Source</th></tr>
@@ -336,10 +346,10 @@
       </table>
       <p class="ref">Arif 2025 pp.484–485 · Robbins 10e/550</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 In which clinical conditions is CK raised?</summary>
+  <div class="qcard">
+    </div>🔴 In which clinical conditions is CK raised?</div>
     <div class="ans">
       <ul>
         <li>Myocardial Infarction (MI)</li>
@@ -352,23 +362,23 @@
       </ul>
       <p class="ref">Arif 2025 pp.484–485 · Davidson's 20th/1075, 23rd/1360</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="ck-mb">8 · CK-MB Isoenzyme</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 What is the clinical importance of CK-MB?</summary>
+  <div class="qcard">
+    </div>🔴 What is the clinical importance of CK-MB?</div>
     <div class="ans">
       <p><strong>CK-MB (Creatine Kinase MB isoenzyme):</strong> the <strong>cardiac-specific isoform</strong> of creatine kinase. In MI, CK-MB is <span class="hot">disproportionately elevated compared with total CK</span>.</p>
       <p><strong>Normal value:</strong> <span class="good">&lt;6% of total CK</span>.</p>
       <p class="ref">Arif 2025 p.485 · Exam tag: DU-11Ju</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the kinetics of CK-MB in MI.</summary>
+  <div class="qcard">
+    </div>🔴 Give the kinetics of CK-MB in MI.</div>
     <div class="ans">
       <table>
         <tr><th>Enzyme</th><th>Normal Value</th><th>Rise Within</th><th>Peak At</th><th>Returns to Normal</th></tr>
@@ -377,23 +387,23 @@
       <div class="mnem">🎯 <strong>CK-MB peaks early (12–24 h) and clears fast (48–72 h) — ideal for detecting re-infarction, unlike troponin which stays up for 2 weeks.</strong></div>
       <p class="ref">Arif 2025 p.485 · Davidson's 23rd/497 · Robbins 10e/550</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="mi-case">9 · Clinical Case — Acute Myocardial Infarction</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🎯 A 56-year-old male has excruciating left-sided chest pain and sweating, not relieved by rest or sublingual nitroglycerine. What is your provisional diagnosis?</summary>
+  <div class="qcard">
+    </div>🎯 A 56-year-old male has excruciating left-sided chest pain and sweating, not relieved by rest or sublingual nitroglycerine. What is your provisional diagnosis?</div>
     <div class="ans">
       <p><strong>Provisional diagnosis:</strong> <span class="hot">Acute Myocardial Infarction (MI)</span>.</p>
       <p>Classic presentation — severe cardiac-type chest pain not relieved by rest/nitroglycerine, with sweating.</p>
       <p class="ref">Arif 2025 p.485 · Exam tag: DU-11Ja</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🎯 What investigations and expected results confirm the MI?</summary>
+  <div class="qcard">
+    </div>🎯 What investigations and expected results confirm the MI?</div>
     <div class="ans">
       <ol>
         <li><strong>ECG:</strong> ST-segment elevation · Pathological Q-wave formation · T-wave inversion.</li>
@@ -402,14 +412,14 @@
       </ol>
       <p class="ref">Arif 2025 p.485 · Exam tag: DU-11Ja</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="tumour-markers">10 · Enzymes as Tumour Markers</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🎯 Name two enzymes acting as tumour markers.</summary>
+  <div class="qcard">
+    </div>🎯 Name two enzymes acting as tumour markers.</div>
     <div class="ans">
       <ol>
         <li><strong>Acid Phosphatase (ACP):</strong> marker for <strong>carcinoma of prostate</strong> and metastatic tumour of bone.</li>
@@ -417,30 +427,30 @@
       </ol>
       <p class="ref">Arif 2025 p.485 · Exam tag: RU-13Ja</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Enzymes &amp; disease associations</summary>
-    <details>
-      <summary>Which are enzymes of medical importance? Amylase · CPK · Lactate dehydrogenase · Acid phosphatase · Aldolase</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Enzymes &amp; disease associations</div>
+    <div class="qcard">
+      </div>Which are enzymes of medical importance? Amylase · CPK · Lactate dehydrogenase · Acid phosphatase · Aldolase</div>
       <div class="ans">Amylase <span class="tf">T</span> · CPK <span class="tf">T</span> · Lactate dehydrogenase <span class="tf">T</span> · Acid phosphatase <span class="tf">T</span> · Aldolase <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
-    </details>
-    <details>
-      <summary>Raised serum acid phosphatase includes: Paget's disease of bone · Rickets · Chronic liver disease · Chronic prostatitis · Osteoporosis</summary>
+    </div>
+    <div class="qcard">
+      </div>Raised serum acid phosphatase includes: Paget's disease of bone · Rickets · Chronic liver disease · Chronic prostatitis · Osteoporosis</div>
       <div class="ans">Paget's <span class="tf">T</span> · Rickets <span class="ff">F</span> · Chronic liver disease <span class="ff">F</span> · Chronic prostatitis <span class="tf">T</span> · Osteoporosis <span class="ff">F</span> <span class="ref">(DU-12Ju)</span></div>
-    </details>
-    <details>
-      <summary>True for alkaline phosphatase: Produced in bone &amp; liver · Increases in Paget's · Marked increase in obstructive jaundice · Increases in malnutrition · Increases in pernicious anaemia</summary>
+    </div>
+    <div class="qcard">
+      </div>True for alkaline phosphatase: Produced in bone &amp; liver · Increases in Paget's · Marked increase in obstructive jaundice · Increases in malnutrition · Increases in pernicious anaemia</div>
       <div class="ans">Bone/liver <span class="tf">T</span> · Paget's <span class="tf">T</span> · Obstructive jaundice <span class="tf">T</span> · Malnutrition <span class="ff">F</span> · Pernicious anaemia <span class="ff">F</span> <span class="ref">(DU-08Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="psa">11 · PSA (Prostate-Specific Antigen)</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🔴 Write the clinical importance of PSA (Prostate-Specific Antigen).</summary>
+  <div class="qcard">
+    </div>🔴 Write the clinical importance of PSA (Prostate-Specific Antigen).</div>
     <div class="ans">
       <ol>
         <li>Measurement of PSA is the <span class="hot">most important test</span> in the diagnosis and management of <strong>prostate cancer</strong>.</li>
@@ -451,35 +461,35 @@
       </ol>
       <p class="ref">Arif 2025 p.485 · Robbins 10e/981 · Davidson's 23rd/439, 1322, 1324 · Exam tag: DU-10/08Ja</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="pancreatitis-case">12 · Clinical Case — Acute Pancreatitis</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>🎯 A 51-year-old chronic alcoholic man has central abdominal pain radiating to the back; serum amylase 12,000 U/L (Normal &lt;300 U/L). Provisional diagnosis?</summary>
+  <div class="qcard">
+    </div>🎯 A 51-year-old chronic alcoholic man has central abdominal pain radiating to the back; serum amylase 12,000 U/L (Normal &lt;300 U/L). Provisional diagnosis?</div>
     <div class="ans">
       <p><strong>Provisional diagnosis:</strong> <span class="hot">Acute pancreatitis</span>.</p>
       <p>Chronic alcoholism + severe radiating abdominal pain + markedly elevated serum amylase.</p>
       <p class="ref">Arif 2025 p.485 · Exam tag: DU-13Ja</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🎯 What type of necrosis occurs in the peritoneum in this case?</summary>
+  <div class="qcard">
+    </div>🎯 What type of necrosis occurs in the peritoneum in this case?</div>
     <div class="ans">
       <p><strong>Type of necrosis:</strong> <span class="hot">Enzymatic fat necrosis</span>. Lipase released from the damaged pancreas hydrolyses peripancreatic fat → free fatty acids → combine with calcium → chalky-white deposits = <strong>soap necrosis</strong>.</p>
       <p class="ref">Arif 2025 p.485 · Exam tag: DU-13Ja</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="ada">13 · ADA (Adenosine Deaminase)</h2>
   <!-- ============================================================ -->
 
-  <details>
-    <summary>📌 Write a short note on ADA (Adenosine Deaminase).</summary>
+  <div class="qcard">
+    </div>📌 Write a short note on ADA (Adenosine Deaminase).</div>
     <div class="ans">
       <p><strong>ADA (Adenosine Deaminase),</strong> also known as adenosine aminohydrolase, is an enzyme involved in <strong>purine metabolism</strong> — needed for breakdown of adenosine from food and for turnover of nucleic acids in tissues.</p>
       <h3>Functions</h3>
@@ -491,14 +501,14 @@
       <p>ADA deficiency leads to <span class="hot">severe combined immunodeficiency (SCID)</span> and <strong>pulmonary fibrosis</strong>.</p>
       <p class="ref">Arif 2025 p.486 · Exam tag: SU-17M</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire One-liners (test yourself, then reveal)</h2>
   <!-- ============================================================ -->
 
-  <details class="rapid" open>
-    <summary>Enzymes — one-liners &amp; mnemonics</summary>
+  <div class="qcard rapid">
+    </div>Enzymes — one-liners &amp; mnemonics</div>
     <div class="ans">
       <div class="q">🎯 ALT vs AST specificity for liver?</div>
       <div class="a"><strong>ALT (SGPT) more liver-specific;</strong> AST also in heart, muscle, RBCs.</div>
@@ -515,7 +525,7 @@
       <div class="q">🎯 GGT raised in which conditions?</div>
       <div class="a"><strong>Liver disease, obstructive jaundice, alcoholic cirrhosis, cholangitis/cholecystitis, alcohol excess.</strong></div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

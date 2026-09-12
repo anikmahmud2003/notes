@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. List the criteria of a good lighting. (S11,Q3)</b></summary>
+### Q1. List the criteria of a good lighting. (S11,Q3)
 
 ### Criteria of good lighting
 1. **Sufficiency** — the lighting must be **sufficient to discern the details** of the object (adequate illumination).
@@ -23,10 +22,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are the causes of air pollution? (S13,Q3)</b></summary>
+### Q2. What are the causes of air pollution? (S13,Q3)
 
 ### Causes/sources of air pollution
 1. **Natural phenomena** — volcanoes, forest fires, naturally-occurring radioactive substances, bacteria, viruses, moulds & spores.
@@ -43,10 +40,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What is air pollution? Mention the common source of air pollution in Bangladesh. State the effects of ill ventilation on health. (S16,Q3)</b></summary>
+### Q3. What is air pollution? Mention the common source of air pollution in Bangladesh. State the effects of ill ventilation on health. (S16,Q3)
 
 ### Definition of air pollution
 > 🔴 **Air pollution** = the **presence in the ambient (surrounding) atmosphere** of substances (gases, particulate matter) generated **by the activities of man** in concentrations **injurious to health, safety and comfort** — or injurious to vegetation & animals, resulting in chemicals entering the **food chain** or being present in **drinking water**.
@@ -68,10 +63,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the common air pollutants in a big city like Dhaka. How can you disinfect the indoor and outdoor air. (S17,Q3)</b></summary>
+### Q4. Mention the common air pollutants in a big city like Dhaka. How can you disinfect the indoor and outdoor air. (S17,Q3)
 
 ### Common air pollutants in a big city (Dhaka)
 - **Carbon monoxide (CO), nitrogen oxides (NOx), sulphur dioxide (SO₂)**.
@@ -94,10 +87,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Define and classify ventilation. Name the natural ventilation process. Why propulsion system of ventilation is necessary? (S18,Q3)</b></summary>
+### Q5. Define and classify ventilation. Name the natural ventilation process. Why propulsion system of ventilation is necessary? (S18,Q3)
 
 ### Definition of ventilation
 > 🔴 **Ventilation** = the **science of maintaining atmospheric conditions comfortable and healthful** to the human body — the *modern concept*: **replacement of vitiated air by fresh outdoor air** and control of the incoming air (temperature, humidity, purity) to provide a comfortable thermal environment free from risk of infection.
@@ -125,10 +116,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Define light. Mention characteristics of good lighting. (S20,Q3)</b></summary>
+### Q6. Define light. Mention characteristics of good lighting. (S20,Q3)
 
 ### Definition of light
 > 🔴 **Light** = the **electromagnetic radiation to which the human eye is sensitive**.
@@ -150,10 +139,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. List the indicators of air pollution. How can you prevent air pollution? (S22,Q3)</b></summary>
+### Q7. List the indicators of air pollution. How can you prevent air pollution? (S22,Q3)
 
 ### Indicators of air pollution
 1. **Sulphur dioxide (SO₂)** — major contaminant in urban & industrial areas; estimated in all surveys.
@@ -176,10 +163,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Name the air pollutants with their sources. (S30,Q3)</b></summary>
+### Q8. Name the air pollutants with their sources. (S30,Q3)
 
 ### Major air pollutants with their sources
 | Pollutant | Source |
@@ -200,4 +185,3 @@
 
 > 📖 Ch-15, Endeavour PDF pp. 509–510
 
-</details>

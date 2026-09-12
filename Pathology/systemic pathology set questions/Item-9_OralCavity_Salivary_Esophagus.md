@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What are the diseases of oral cavity?</b></summary>
+### Q1. What are the diseases of oral cavity?
 
 ### Overview
 📌 The oral cavity extends from the lips to the palatoglossal arch; its diseases fall into **6 major groups** — developmental/tooth-related, inflammatory/reactive, infections, premalignant, malignant, and odontogenic lesions.
@@ -24,10 +23,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are common infections of oral cavity?</b></summary>
+### Q2. What are common infections of oral cavity?
 
 ### Common infections
 
@@ -48,10 +45,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are tumours and pre-cancerous lesions of oral cavity?</b></summary>
+### Q3. What are tumours and pre-cancerous lesions of oral cavity?
 
 ### Pre-cancerous (potentially malignant) lesions
 
@@ -89,10 +84,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Classify tumours of salivary gland / What are the malignant neoplasms of salivary gland?</b></summary>
+### Q4. Classify tumours of salivary gland / What are the malignant neoplasms of salivary gland?
 
 ### General rules (say these first)
 - Salivary tumours = **<2% of all human tumours**; **65–80% arise in the PAROTID**; only ~5% occur before age 16.
@@ -121,10 +114,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Give the morphology of pleomorphic adenoma / Give the histological features of pleomorphic adenoma / Short note on pleomorphic adenoma.</b></summary>
+### Q5. Give the morphology of pleomorphic adenoma / Give the histological features of pleomorphic adenoma / Short note on pleomorphic adenoma.
 
 ### Definition
 **Pleomorphic adenoma (mixed tumour) = the most common benign salivary gland neoplasm**, composed of a **mixture of ductal (epithelial), myoepithelial and mesenchymal-like (chondromyxoid) elements** — hence "mixed tumour." Accounts for ~60% of parotid tumours; also submandibular/minor glands (palate). Molecular driver: **PLAG1 overexpression** (chromosomal rearrangement); **HMGA2** in PLAG1-negative cases.
@@ -156,10 +147,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Why is it called pleomorphic adenoma?</b></summary>
+### Q6. Why is it called pleomorphic adenoma?
 
 - 🔴 The term **"pleomorphic" describes the ARCHITECTURAL diversity, not cellular pleomorphism (anaplasia)** — individual cells are actually bland and benign-looking.
 - One tumour shows **multiple patterns simultaneously**: ducts, tubules, acini, solid sheets, cords, islands and cysts formed by epithelial + myoepithelial cells.
@@ -181,10 +170,8 @@ Modified myoepithelial cell
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Name the pathological conditions / diseases of esophagus.</b></summary>
+### Q7. Name the pathological conditions / diseases of esophagus.
 
 | Category | Conditions |
 |---|---|
@@ -203,10 +190,8 @@ Modified myoepithelial cell
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What is achalasia? What are the causes?</b></summary>
+### Q8. What is achalasia? What are the causes?
 
 ### Definition
 **Achalasia = a disorder of esophageal motility characterized by the triad of (1) incomplete relaxation of the lower esophageal sphincter (LES), (2) increased LES resting tone, and (3) aperistalsis of the esophageal body.**
@@ -239,10 +224,8 @@ of the myenteric (Auerbach) plexus
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What is Barrett's esophagus?</b></summary>
+### Q9. What is Barrett's esophagus?
 
 ### Definition
 **Barrett esophagus = intestinal metaplasia of the distal esophageal squamous mucosa caused by chronic gastroesophageal reflux (GERD), in which the normal stratified squamous epithelium is replaced by columnar epithelium containing goblet cells.**
@@ -265,10 +248,8 @@ of the myenteric (Auerbach) plexus
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. What are esophageal varices?</b></summary>
+### Q10. What are esophageal varices?
 
 ### Definition
 **Esophageal varices = abnormally dilated, tortuous subepithelial veins of the distal esophagus (and proximal stomach) that develop as portosystemic collateral channels when portal hypertension forces blood to shunt from the portal system into the systemic circulation.**
@@ -297,10 +278,8 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Mention the sites of esophageal cancer.</b></summary>
+### Q11. Mention the sites of esophageal cancer.
 
 ### Anatomic sites
 
@@ -321,10 +300,8 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Mention the risk factors of esophageal carcinoma.</b></summary>
+### Q12. Mention the risk factors of esophageal carcinoma.
 
 | Risk factor | **Adenocarcinoma** | **Squamous cell carcinoma** |
 |---|---|---|
@@ -344,10 +321,8 @@ Cirrhosis / hepatic schistosomiasis / other portal HTN
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Barrett's esophagus is a premalignant condition - explain.</b></summary>
+### Q13. Barrett's esophagus is a premalignant condition - explain.
 
 ### Explanation (step-wise)
 Barrett esophagus is premalignant because the metaplastic goblet-cell epithelium **accumulates sequential genetic alterations and passes through recognizable histologic stages ending in adenocarcinoma**:
@@ -383,10 +358,8 @@ Chronic GERD (acid + bile reflux)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. What are the malignancies of esophagus?</b></summary>
+### Q14. What are the malignancies of esophagus?
 
 ### Malignant tumours
 1. 🔴 **Squamous cell carcinoma** — most common worldwide; middle third; keratinizing/nonkeratinizing nests recapitulating squamous epithelium; variants: verrucous, basaloid, spindle-cell.
@@ -415,10 +388,8 @@ Progressive **dysphagia (solids → liquids) → odynophagia → obstruction**, 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Short note: Aphthous Ulceration, Leukoplakia.</b></summary>
+### Q15. Short note: Aphthous Ulceration, Leukoplakia.
 
 ### (a) Aphthous ulceration (canker sore)
 **Definition: a recurrent, painful, shallow round-to-oval ulceration of the nonkeratinized oral mucosa with an erythematous halo, occurring singly or in crops.**
@@ -442,4 +413,3 @@ Progressive **dysphagia (solids → liquids) → odynophagia → obstruction**, 
 
 ---
 
-</details>

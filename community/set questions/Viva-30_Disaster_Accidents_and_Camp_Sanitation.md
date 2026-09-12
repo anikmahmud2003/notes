@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Define and classify disasters. What are the common health problems after cyclone? (S1,Q6)</b></summary>
+### Q1. Define and classify disasters. What are the common health problems after cyclone? (S1,Q6)
 
 ### Disaster (definition)
 > 🔴 **WHO definition:** *"Any occurrence that causes damage, economic disruption, loss of human life or deterioration of health and health services on a scale sufficient to warrant an extraordinary response from outside the affected community or area."*
@@ -29,10 +28,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are the health and social impacts of disaster? (S2,Q6)</b></summary>
+### Q2. What are the health and social impacts of disaster? (S2,Q6)
 
 ### Health impacts (effects of disaster on health)
 1. **Deaths** — many perish in earthquakes & tidal waves; immediate deaths in floods are not significant.
@@ -54,10 +51,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Name the natural disasters common in Bangladesh. What are the fundamental aspects of disaster management? (S3,Q6)</b></summary>
+### Q3. Name the natural disasters common in Bangladesh. What are the fundamental aspects of disaster management? (S3,Q6)
 
 ### Common natural disasters of Bangladesh
 1. **Cyclone**
@@ -81,10 +76,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Define disaster. What are the preparedness activities before disaster management? (S4,Q6)</b></summary>
+### Q4. Define disaster. What are the preparedness activities before disaster management? (S4,Q6)
 
 ### Disaster (definition) — WHO
 *"Any occurrence that causes damage, economic disruption, loss of human life or deterioration of health and health services on a scale sufficient to warrant an extraordinary response from outside the affected community or area."*
@@ -102,10 +95,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. List the man made disasters in Bangladesh. What are the actions to be taken during disaster? (S5,Q6)</b></summary>
+### Q5. List the man made disasters in Bangladesh. What are the actions to be taken during disaster? (S5,Q6)
 
 ### Man-made disasters in Bangladesh
 1. **Fire.**
@@ -128,10 +119,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Enumerate the common health problems after disaster? (S6,Q6)</b></summary>
+### Q6. Enumerate the common health problems after disaster? (S6,Q6)
 
 ### Common health problems after disaster
 1. **Deaths** — many perish in earthquake/tidal wave; also drowning in floods/cyclones.
@@ -152,10 +141,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Define and classify disaster. Name the steps of management after disaster. (S7,Q6)</b></summary>
+### Q7. Define and classify disaster. Name the steps of management after disaster. (S7,Q6)
 
 ### Disaster (definition) + Classification — see Q1.
 
@@ -178,10 +165,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What is road traffic accident? Mention major causes of RTA. (S8,Q6)</b></summary>
+### Q8. What is road traffic accident? Mention major causes of RTA. (S8,Q6)
 
 ### Road traffic accident (definition)
 > 🔴 RTA = **any accident involving at least one road vehicle** (motorized), occurring on a road **open to public circulation** and resulting in injury/death — the vehicle may collide with another vehicle, pedestrian, animal or a roadside object. *(Definition per standard text — Park.)*
@@ -202,10 +187,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What are the factors responsible for increase RTA in Bangladesh? (S9,Q6)</b></summary>
+### Q9. What are the factors responsible for increase RTA in Bangladesh? (S9,Q6)
 
 ### Factors responsible for the causation/increase of RTA
 1. A **risky mix of vehicles** in the traffic stream.
@@ -225,10 +208,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Define domestic accidents. What are the most common causes of domestic accidents? (S10,Q6)</b></summary>
+### Q10. Define domestic accidents. What are the most common causes of domestic accidents? (S10,Q6)
 
 ### Domestic accident (definition)
 > 🔴 **Domestic accident means an accident which takes place in the home or in its immediate surroundings**, and more generally, **all accidents not connected with traffic, vehicles or sport.**
@@ -251,10 +232,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. State the common domestic accidents in Bangladesh. How domestic accidents can be prevented? (S11,Q6)</b></summary>
+### Q11. State the common domestic accidents in Bangladesh. How domestic accidents can be prevented? (S11,Q6)
 
 ### Common domestic accidents in Bangladesh
 **Bruise/cuts/punctured wounds · Falls & concussion · Burns & scalds · Bites & stings · Electric shock · Poisoning (drugs, insecticides, rat poison, kerosene) · Suffocation · Foreign body in eye/orifices · Drowning · Injuries from animals.**
@@ -272,10 +251,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What are the reasons for R.T.A? How can it be prevented? (S12,Q5)</b></summary>
+### Q12. What are the reasons for R.T.A? How can it be prevented? (S12,Q5)
 
 ### Reasons for RTA
 **Risky mix of vehicles · defective roads/poor street lighting · defective cross-roads · no segregation of pedestrians · poor vehicle maintenance · overloading of public transport · low driving standards/disregard of rules · unpredictable pedestrian behaviour.**
@@ -297,10 +274,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. What are the main reasons for accidents in water transports in Bangladesh? How can it be prevented? (S13,Q6)</b></summary>
+### Q13. What are the main reasons for accidents in water transports in Bangladesh? How can it be prevented? (S13,Q6)
 
 ### Causes of accidents in water transport
 1. **Natural disasters** — cyclone, tornado, tidal wave.
@@ -327,10 +302,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Define and classify disasters. Mention the common health problems in cyclone affected coastal areas. (S14,Q4)</b></summary>
+### Q14. Define and classify disasters. Mention the common health problems in cyclone affected coastal areas. (S14,Q4)
 
 ### Disaster (definition) + Classification — see Q1.
 
@@ -348,10 +321,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. What are the health, environmental and economical impacts of disaster? (S15,Q5)</b></summary>
+### Q15. What are the health, environmental and economical impacts of disaster? (S15,Q5)
 
 ### Health impacts
 **Deaths · severe injuries (requiring intensive medical care) · increased risk of infection · malnutrition/food scarcity · major population movements · animal bites, nuisance from dead bodies & excreta.**
@@ -374,10 +345,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. What are the fundamental aspects of disaster management? (S16,Q6)</b></summary>
+### Q16. What are the fundamental aspects of disaster management? (S16,Q6)
 
 ### Fundamental aspects of disaster management (3)
 1. **Disaster response** — actions taken during/after the disaster (emergency committee, rescue, care of injured).
@@ -390,10 +359,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Mention the major types of disaster. What are the fundamental aspects of disaster management? (S17,Q6)</b></summary>
+### Q17. Mention the major types of disaster. What are the fundamental aspects of disaster management? (S17,Q6)
 
 ### Major types of disaster
 - **A) Natural disasters:** cyclone, flood, tidal waves, tornado, earthquake, landslide, volcanic eruption, drought, heat waves, fires, hurricanes, epidemics, building collapse.
@@ -410,10 +377,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What is disaster? Mention the environmental and economical problems after disaster? (S18,Q6)</b></summary>
+### Q18. What is disaster? Mention the environmental and economical problems after disaster? (S18,Q6)
 
 ### Disaster (definition) — WHO
 *"Any occurrence that causes damage, economic disruption, loss of human life or deterioration of health and health services on a scale sufficient to warrant an extraordinary response from outside the affected community or area."*
@@ -435,10 +400,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. What are the special points requiring careful attention in relation to camp sanitation? (S19,Q6)</b></summary>
+### Q19. What are the special points requiring careful attention in relation to camp sanitation? (S19,Q6)
 
 ### Special points for camp sanitation (7)
 1. **Site selection** — high land not subject to flooding/water-logging; good approach from the main road.
@@ -455,10 +418,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. What are the arrangements of facilities required in sanitation of camps, fair and festivals? (S20,Q6)</b></summary>
+### Q20. What are the arrangements of facilities required in sanitation of camps, fair and festivals? (S20,Q6)
 
 ### Health measures for camps, fairs & festivals
 1. **Site selection** — high land not subject to flooding/water-logging; good approach from main road.
@@ -475,10 +436,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. Classify disaster. Explain green house effects. (S21,Q6)</b></summary>
+### Q21. Classify disaster. Explain green house effects. (S21,Q6)
 
 ### Classification of disaster — see Q1 (natural + man-made).
 
@@ -501,10 +460,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. Explain the factors responsible for increased RTA in Bangladesh? (S22,Q5)</b></summary>
+### Q22. Explain the factors responsible for increased RTA in Bangladesh? (S22,Q5)
 
 ### Factors responsible for the increase in RTA
 1. **A risky mix of vehicles** in the traffic stream.
@@ -522,10 +479,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. Define domestic accidents. What are the common causes of domestic accidents? (S23,Q6)</b></summary>
+### Q23. Define domestic accidents. What are the common causes of domestic accidents? (S23,Q6)
 
 *(Same as Q10 — repeated question in the PDF.)*
 
@@ -541,10 +496,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q24. What are the reasons for R.T.A.? How it can be prevented? (S24,Q6)</b></summary>
+### Q24. What are the reasons for R.T.A.? How it can be prevented? (S24,Q6)
 
 *(Same as Q12 — repeated question in the PDF.)*
 
@@ -568,10 +521,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q25. What are the special points requiring careful attention in relation to basic sanitation in a camp? (S25,Q6)</b></summary>
+### Q25. What are the special points requiring careful attention in relation to basic sanitation in a camp? (S25,Q6)
 
 ### Special points for camp sanitation (basic)
 1. **Site selection** — elevated, flood-free land with good road approach.
@@ -588,10 +539,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q26. Define and classify disasters. What are the common health problems after disaster? (S26,Q6)</b></summary>
+### Q26. Define and classify disasters. What are the common health problems after disaster? (S26,Q6)
 
 *(Same as Q1 (definition/classification) + Q6 (health problems) — repeated question in the PDF.)*
 
@@ -611,10 +560,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q27. Define domestic accidents. List the causes of domestic accidents? How domestic accidents can be prevented? (S27,Q6)</b></summary>
+### Q27. Define domestic accidents. List the causes of domestic accidents? How domestic accidents can be prevented? (S27,Q6)
 
 ### Definition
 **Domestic accident = accident taking place in the home or its immediate surroundings** — all accidents not connected with traffic, vehicles or sport.
@@ -635,10 +582,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q28. What are the factors responsible for increase RTA in Bangladesh? (S28,Q6)</b></summary>
+### Q28. What are the factors responsible for increase RTA in Bangladesh? (S28,Q6)
 
 *(Same as Q9/Q22 — repeated question in the PDF.)*
 
@@ -658,10 +603,8 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q29. What are the special points requiring careful attention in relation to camp sanitation? (S29,Q6)</b></summary>
+### Q29. What are the special points requiring careful attention in relation to camp sanitation? (S29,Q6)
 
 *(Same as Q19/Q25 — repeated question in the PDF.)*
 
@@ -678,4 +621,3 @@ Rise in global temperature (~2–5 °C by 2050) · **rise in sea level** (meltin
 
 > 📖 Ch-15, Endeavour PDF pp. 488–489, 537
 
-</details>

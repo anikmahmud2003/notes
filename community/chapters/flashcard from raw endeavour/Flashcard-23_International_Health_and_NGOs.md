@@ -41,8 +41,7 @@ CP RPADANEWH—
 = ©
 PNAWAWNHH
 
-<details>
-<summary><b>Q. Enlist 5 important UN organizations working in our country. [CU-11Ju]<br>Q. Mention 5 (five) UN health organization.</b></summary>
+### Q. Enlist 5 important UN organizations working in our country. [CU-11Ju]<br>Q. Mention 5 (five) UN health organization.
 
 **5 important UN organizations working in our country:**
 1) World Health Organization- WHO
@@ -72,10 +71,8 @@ Secretary generals of United Nations
 Note: From 24 October 1945 to | February 1946 Gladwyn Jebb of UK served as acting secretary general.
 9) Anténio Guterres
 World health organization (WHO)
-</details>
 
-<details>
-<summary><b>Q. Mention the functions of WHO. [SUST-16N]<br>Q. Give the outline of functions of WHO secretariats. [DU-10J]<br>Q. What are the important activities of WHO? [SUST-1 IJu]<br>Q. Write down the role of WHO in health development. [DU-12Ju]<br>Q. Name 2 responsibilities of WHO in global health. [DU-14Ju]<br>Q. Mention 3 important functions of WHO. [SUST-10Ju]</b></summary>
+### Q. Mention the functions of WHO. [SUST-16N]<br>Q. Give the outline of functions of WHO secretariats. [DU-10J]<br>Q. What are the important activities of WHO? [SUST-1 IJu]<br>Q. Write down the role of WHO in health development. [DU-12Ju]<br>Q. Name 2 responsibilities of WHO in global health. [DU-14Ju]<br>Q. Mention 3 important functions of WHO. [SUST-10Ju]
 
 **Q. Write short note on:** WHO. [CU-16J,15J,13J, RU-I7N, 16M, 1 5Ju, 13J,12J,10Ju, SUST-1I5u]
 World health organization (WHO): The World Health Organization is a sp
@@ -140,17 +137,13 @@ d each of the six regional
 aborates with the UN and with the other
 hip.
 activities [DU-16J] /5 important activities [SUST-18N, 13Ju] /3 major
-</details>
 
-<details>
-<summary><b>Q. Name the current</b></summary>
+### Q. Name the current
 
 O in Bangladesh.
 activities [DU-14J] / collaborative programs [DU-1 Ju] of WH
-</details>
 
-<details>
-<summary><b>Q. Write down the important functions of WHO in your country.<br>Q. Enumerate the functions of WHO in this region. [RU-16N]</b></summary>
+### Q. Write down the important functions of WHO in your country.<br>Q. Enumerate the functions of WHO in this region. [RU-16N]
 
 Activities / collaborative programmes of WHO in Bangladesh:
 : has bacterial, viral, parasitic and
@@ -169,10 +162,8 @@ education.
 8) Information and literature services: Health statistics, health legislation, biomedical literature, WHO
 publications, and public information.
 [Ref- Rashid, Khabir, Hyder / 5" / 566]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the WHO implemented projects in Bangladesh.</b></summary>
+### Q. Enumerate the WHO implemented projects in Bangladesh.
 
 **WHO implemented projects in Bangladesh:**
 1) Administrative capability development.
@@ -192,10 +183,8 @@ publications, and public information.
 14) Information support,
 15) Health research.
 ty services including vaccine production.
-</details>
 
-<details>
-<summary><b>Q. Define regionalization.<br>Q. Enlist the regions of WHO with their headquarters. [DU-18M]<br>Q. Name the WHO regional organizations with their headquarters, {DU-12J]<br>Q. Mention the regions and regional head-quarters of WHO. [SUST-18M, CU-13Ju, 10Ju]<br>Q. What are the regional headquarters of WHO? [DU-15J, SUST-16N]<br>Q. Write down the name of regional head-quarter of WHO with region. [SUST-13Ju]<br>Q. Name the regional headquarters of WHO. [SUST-10Ju]</b></summary>
+### Q. Define regionalization.<br>Q. Enlist the regions of WHO with their headquarters. [DU-18M]<br>Q. Name the WHO regional organizations with their headquarters, {DU-12J]<br>Q. Mention the regions and regional head-quarters of WHO. [SUST-18M, CU-13Ju, 10Ju]<br>Q. What are the regional headquarters of WHO? [DU-15J, SUST-16N]<br>Q. Write down the name of regional head-quarter of WHO with region. [SUST-13Ju]<br>Q. Name the regional headquarters of WHO. [SUST-10Ju]
 
 In order to meet the special health needs of different areas, WHO has established six regional
 organizations on the basis of geography, tempered or distempered by politics and not on stages of development
@@ -214,19 +203,15 @@ Washington D.C. (U.S.A )
 Copenhagen (Denmark )
 Cairo (Egypt )
 Manila (Philippines )
-</details>
 
-<details>
-<summary><b>Q. What is SEARO?<br>Q. List the member countries of SEARO (WHO). [SUST-18N]</b></summary>
+### Q. What is SEARO?<br>Q. List the member countries of SEARO (WHO). [SUST-18N]
 
 **SEARO:**
 SEARO means South East Asia Regional Office of WHO which is situated in New Delhi. The official
 address is WHO, Indraprastha Estate, New Delhi, India.
 [Ref- Park / 24" /961, 962]
-</details>
 
-<details>
-<summary><b>Q. Name the countries belong to SEARO region of WHO. [SUST-16M, RU-16N]<br>Q. Name the SEARO countries. [SUST-13J]</b></summary>
+### Q. Name the countries belong to SEARO region of WHO. [SUST-16M, RU-16N]<br>Q. Name the SEARO countries. [SUST-13J]
 
 **Countries under South East Asia regions (SEAR):**
 Bangladesh
@@ -258,10 +243,8 @@ Bangladesh Joins WHO in 1972.
 Total member of WHO upto 2010 is 193 (last member is the Montenegro, 2006).
 Head quarter of WHO in Geneva, Switzerland.
 SNN4
-</details>
 
-<details>
-<summary><b>Q. Discuss the principal structural organs of WHO.</b></summary>
+### Q. Discuss the principal structural organs of WHO.
 
 **Principal structural organs of WHO/ organization of WHO:** The WHO consists of 3 principal organs- .
 - The World Health Assembly: This is the “Health Parliament” of Nations and the supreme governing
@@ -290,10 +273,8 @@ EB for a five year term.
 Function: To provide Member States with technical and managerial support for their national health
 development programs.
 [Ref- Park /24" /961 + Website- www.who.com]
-</details>
 
-<details>
-<summary><b>Q. State the roles of WHO secretariat.</b></summary>
+### Q. State the roles of WHO secretariat.
 
 **Roles of WHO secretariat:**
 The primary function is to provide Membe
@@ -301,10 +282,8 @@ The primary function is to provide Membe
 national health development programs, ee iS
 [Ref- Park /24"/ 961]
 want iN: AA — _
-</details>
 
-<details>
-<summary><b>Q. What do you mean by executive body of WHO?</b></summary>
+### Q. What do you mean by executive body of WHO?
 
 **Executive body of WHO:**
 It had originally 18 members, each designed by a Member State. Subsequently, the number was raised
@@ -314,10 +293,8 @@ field of health", they are designed by, but do not represent their governments. 
 renewed every year. The executive body meets at least twice a year, generally in January and shortly after the
 meeting of the World Health Assembly in May.
 |Ref- Park /24"/ 961]
-</details>
 
-<details>
-<summary><b>Q. What is world health day?<br>Q. Write down the slogan of world health day 2018 and briefly explain it. (DU-18M]<br>Q. Write short note on: World health day.<br>Q. Write short note on: 07 April. [CU-17M]</b></summary>
+### Q. What is world health day?<br>Q. Write down the slogan of world health day 2018 and briefly explain it. (DU-18M]<br>Q. Write short note on: World health day.<br>Q. Write short note on: 07 April. [CU-17M]
 
 **World Health Day:**
 It the WHO has its origin in April 1945, during the conference held at San Francisco to set tip the
@@ -335,10 +312,8 @@ health.
 2014: Vector-borne disease: small bite, big threat.
 2013: Healthy heart beat, healthy blood pressure.
 UNICEF
-</details>
 
-<details>
-<summary><b>Q. What do you mean by UNICEF? Mention 5 important functions of UNICEF.<br>Q. Write down the functions of UNICEF. [DU-18M, SUST-13J]<br>Q. What are the important activities of UNICEF? [SUST-18M,16M,12J]<br>Q. Write down the objectives and goals of UNICEF. [CU-10Ju/J]<br>Q. Write short note on: UNICEF. [SUST-15J,14J, CU-14Ju, RU-14J,10J]</b></summary>
+### Q. What do you mean by UNICEF? Mention 5 important functions of UNICEF.<br>Q. Write down the functions of UNICEF. [DU-18M, SUST-13J]<br>Q. What are the important activities of UNICEF? [SUST-18M,16M,12J]<br>Q. Write down the objectives and goals of UNICEF. [CU-10Ju/J]<br>Q. Write short note on: UNICEF. [SUST-15J,14J, CU-14Ju, RU-14J,10J]
 
 **UNICEF:**
 UNICEF is one of the specialized agencies of the United Nations. It was established in 1946 by the
@@ -371,16 +346,12 @@ _Day care centre
 Child welfare and youth agencies
 Women’s club
 - Education: Formal & non-formal.
-</details>
 
-<details>
-<summary><b>Q. Write down the functions [DU-15Ju,13J] / important functions [CU-10J] / activities [DU-12J,</b></summary>
+### Q. Write down the functions [DU-15Ju,13J] / important functions [CU-10J] / activities [DU-12J,
 
 CU-10Ju] of UNICEF in Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. State the role of UNICEF in preventing communicable disease. [DU-15J]</b></summary>
+### Q. State the role of UNICEF in preventing communicable disease. [DU-15J]
 
 **Functions of UNICEF in Bangladesh:**
 1, In health: -
@@ -406,10 +377,8 @@ d. It is engaged in conduction joint nutrition survey with the Bangladesh bureau
 since 1924,
 [Ref- Rashid, Khabir, Hyder /5" /567|
 & NGOs— gy
-</details>
 
-<details>
-<summary><b>Q. Write down the role</b></summary>
+### Q. Write down the role
 
 of UNFPA,
 UNFPA: UNFPA means “United Nations Fund for Population Activities”,
@@ -427,10 +396,8 @@ Programme. It also supports fellowship programme in demographic analysis and dat
 6) UNFPA has Social programmes on youth, ageing and on AIDS.
 7) Publication of national seminars or conferences,
 [Ref- Rashid, Khabir, Hyder / 5" / 569]
-</details>
 
-<details>
-<summary><b>Q. Write down the role of FAO.</b></summary>
+### Q. Write down the role of FAO.
 
 **FAO:** It means “food and agriculture organization”,
 Role of FAO:
@@ -443,10 +410,8 @@ population. The main aims and objectives of the
 ed production of food to keep pace with the growing world
 organization are —
 [Ref- Rashid, Khabir, Hyder /5" / 569, 570 + Park / 24" / 963]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Red Crescent / Red Cross. [RU-10Ju]<br>Q. Write short note on: Bangladesh Red Crescent Society. [RU-1 Ju]<br>Q. Write short note on: IRCS, [RU-18M]</b></summary>
+### Q. Write short note on: Red Crescent / Red Cross. [RU-10Ju]<br>Q. Write short note on: Bangladesh Red Crescent Society. [RU-1 Ju]<br>Q. Write short note on: IRCS, [RU-18M]
 
 **The Red cross / crescent:**
 It is a non-political international humanitarian organization devoted to the service of mankind in peace,
@@ -481,16 +446,12 @@ ii) 6 MCH Hospitals ( total bed 110 ) in the urban areas.
 iii) 53 maternal & child welfare centres in rural areas.
 iv) Urban & rural based charitable dispensaries.
 [Ref- Park / 24" / 965 + Rashid, Khabir, Hyder / 5/571]
-</details>
 
-<details>
-<summary><b>Q. Enlist important [DU-10J, RU-12Ju] / Five (5) important [RU-18N, SUST-12J] / three (3)</b></summary>
+### Q. Enlist important [DU-10J, RU-12Ju] / Five (5) important [RU-18N, SUST-12J] / three (3)
 
 important [SUST-16N] national & international NGO’s working in Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. Name health related international NGOs acting in Bangladesh. [DU-16J,12Ju]</b></summary>
+### Q. Name health related international NGOs acting in Bangladesh. [DU-16J,12Ju]
 
 Some important NGO working in health and family planning sectors:
 Foreign / international NGO:
@@ -520,10 +481,8 @@ NGOs ——
 7) Bangladesh Associatio
 2 sociation for the A.
 8) Voluntary Health Services oe
-</details>
 
-<details>
-<summary><b>Q. Name some ongoing health<br>Q. What are the ongoing healt<br>Q. What are the recent health</b></summary>
+### Q. Name some ongoing health<br>Q. What are the ongoing healt<br>Q. What are the recent health
 
 Bangladesh?
 ngoin = rogram in Bangladesh:
@@ -542,10 +501,8 @@ Program in Bangladesh.
 h projects and program?
 Program in Government for reducing morbidity and mortality in
 control program.
-</details>
 
-<details>
-<summary><b>Q. Write down the functions / activities [SUST-16J] of BRAC.<br>Q. Discuss the health related activities of BRAC in Bangladesh. [CU-13Ju]<br>Q. _ short note on: BRAC. [SUST-16M, CU-18N,17N,16M,15Ju, RU-11J]</b></summary>
+### Q. Write down the functions / activities [SUST-16J] of BRAC.<br>Q. Discuss the health related activities of BRAC in Bangladesh. [CU-13Ju]<br>Q. _ short note on: BRAC. [SUST-16M, CU-18N,17N,16M,15Ju, RU-11J]
 
 nsw
 BRAC:
@@ -575,10 +532,8 @@ Rural sanitation
 Child Survival Program.
 [Ref- Rashid, Khabir, Hyder / 5" / 578]
 A
-</details>
 
-<details>
-<summary><b>Q. Write down the functions of ICDDR,B. [SUST-16N]<br>Q. Write short note on: ICDDR,B. [CU-18M, 16N]</b></summary>
+### Q. Write down the functions of ICDDR,B. [SUST-16N]<br>Q. Write short note on: ICDDR,B. [CU-18M, 16N]
 
 **ICDDR,B:**
 The International Centre for Diarrhoeal Disease Research, Bangladesh (ICDDR,B), established in 1960
@@ -604,10 +559,8 @@ Major achievements:
 4) Development of improved ORS.
 5) Dissemination of knowledge on diarrhea research.
 [Ref- Rashid, Khabir, Hyder /5"/574+ Lecture]
-</details>
 
-<details>
-<summary><b>Q. Discuss the health related activities of ICDDRB in Bangladesh. [CU-13Ju]</b></summary>
+### Q. Discuss the health related activities of ICDDRB in Bangladesh. [CU-13Ju]
 
 **Health related activities of ICDDRB in Bangladesh:**
 1) Research and publications regarding different types of infectious diseases including cholera and
@@ -622,10 +575,8 @@ biostatistics
 family planning
 demographic surveillance
 child survival strategies
-</details>
 
-<details>
-<summary><b>Q. Discuss Diabetic Association of Bangladesh.<br>Q. Mention the activities of Diabetic association of Bangladesh. [DU-13Ju]</b></summary>
+### Q. Discuss Diabetic Association of Bangladesh.<br>Q. Mention the activities of Diabetic association of Bangladesh. [DU-13Ju]
 
 **Diabetic association of Bangladesh:** ;
 vas renamed as Diabetic Association of Bangladesh in
@@ -655,10 +606,8 @@ medical education. The nied ee are
 . t
 5) Ibrahim Medical College. ini
 [Ref- Rashid, Khabir, Hyder 15" /579}
-</details>
 
-<details>
-<summary><b>Q. State the role of CARE in Bangladesh in health and agriculture sectors.<br>Q. Write short note on: CARE. [CU-17M]</b></summary>
+### Q. State the role of CARE in Bangladesh in health and agriculture sectors.<br>Q. Write short note on: CARE. [CU-17M]
 
 **CARE:**
 7 CARE is one of the world’s largest international humanitarian organization, committed to helping
@@ -687,10 +636,8 @@ BANAT
 <
 International health regulation (IHR)
 ‘
-</details>
 
-<details>
-<summary><b>Q. What is international health regulation?</b></summary>
+### Q. What is international health regulation?
 
 **International health regulation (IHR):**
 The International Health Regulations are an international legal instrument which is legally binding on
@@ -700,10 +647,8 @@ Purpose: ;
 The purpose of the International Health Regulations adopted in 1969 [IHR (1969)] is to ensure
 maximum security against the international spread of diseases with a minimum interference with world traffic.
 The THR (1969) only apply to three infectious diseases: cholera, plague and yellow fever.
-</details>
 
-<details>
-<summary><b>Q. Why were the THR revised?</b></summary>
+### Q. Why were the THR revised?
 
 Because of their narrow scope of application and other limitations, the IHR (1969) were revised by the
 WHO Member States. In May 2005, the World Health Assembly adopted the revised International Health
@@ -714,10 +659,8 @@ health response to the international spread of disease in ways that are commensu
 public health risks, and which avoid unnecessary interference with international traffic and trade. The IHR
 (2005) also establish a single code of procedures and practices for routine public health measures at
 international airports and ports and some ground crossings.
-</details>
 
-<details>
-<summary><b>Q. Name the diseases under surveillance and regulation.</b></summary>
+### Q. Name the diseases under surveillance and regulation.
 
 **Diseases under international surveillance program are:**
 1) Smallpox. .
@@ -728,10 +671,8 @@ international airports and ports and some ground crossings.
 6) Relapsing fever.
 7) Ebola.
 8) Zika virus.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Geneva Convention.</b></summary>
+### Q. Write short note on: Geneva Convention.
 
 **Geneva conventions:** There are four Geneva Conventions adopted on 12 August 1949, They are:
 Geneva conventions I- to protect wounded and sick in armed forces on land as well as medical
@@ -740,16 +681,12 @@ Geneva conventions II- to protect the same categories of people at sea as well a
 Geneva conventions III- Concerning treatment to prisoners of war.
 Geneva conventions IV- regarding protection of civilians in time of war.
 NNN
-</details>
 
-<details>
-<summary><b>Q. Write short note on: International health regulation. [CU-18M]</b></summary>
+### Q. Write short note on: International health regulation. [CU-18M]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. Organs of WHO</b></summary>
+### Q. Organs of WHO
 
 a) Secretariat,
 b) World health asse
@@ -759,10 +696,8 @@ e) Regional offices.
 Ans. a) T, b) T, c) T, d) F, e) F,
 are: [DU-16N]
 mbly,
-</details>
 
-<details>
-<summary><b>Q. The headquarters of: [DU-15Ju]</b></summary>
+### Q. The headquarters of: [DU-15Ju]
 
 a) WHO in Geneva,
 b) UNDP in New York,
@@ -770,10 +705,8 @@ c) UNICEF in Rome.
 d) UNFPA in Nairobi,
 e) WEP in Rome.
 Ans. a) T, b) T, c) F, d) F, e)T.
-</details>
 
-<details>
-<summary><b>Q. Diseases subject to international health</b></summary>
+### Q. Diseases subject to international health
 
 **regulation include:** (DU-14]}
 a) diarrhoeal diseases
@@ -782,10 +715,8 @@ c) meningococcal encephalitis
 d) plague
 e) yellow fever
 Ans. a) T, b) F, c) F, d) T, ¢) T.
-</details>
 
-<details>
-<summary><b>Q. NGOs are primarily focused on: [DU-13Ju]</b></summary>
+### Q. NGOs are primarily focused on: [DU-13Ju]
 
 a) urban development
 b) eradication of illiteracy
@@ -793,10 +724,8 @@ c) telecommunication
 d) provision of health care
 €) poverty alleviation
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Diseases under international health</b></summary>
+### Q. Diseases under international health
 
 **regulation are:** [DU-13Ju]
 a) plague
@@ -805,10 +734,8 @@ c) paralytic polio
 d) rabies
 ce) yellow fever
 Ans. a) F, b) T, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Diseases under international health</b></summary>
+### Q. Diseases under international health
 
 **regulation:** [DU-13J]
 a) plague
@@ -817,10 +744,8 @@ c) paralytic polio
 d) rabies
 e) yellow fever
 Ans, a) F, b) T, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. The headquarters of: [DU-12J]</b></summary>
+### Q. The headquarters of: [DU-12J]
 
 a) WHO in Geneva
 b) UNDP in New York
@@ -828,10 +753,8 @@ c) UNICEF in Rome
 d) UNFPA in Nairobi
 e) WFP in UK
 Ans, a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. National NGO includes: [DU-10Ju]</b></summary>
+### Q. National NGO includes: [DU-10Ju]
 
 a. Radda Barnen
 b. The Path Finder Fund
@@ -846,5 +769,4 @@ Research / 654
 Research methodology / 654
 Research instruments / 656
 - Protocol writing / 656
-</details>
 

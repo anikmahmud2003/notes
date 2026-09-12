@@ -13,14 +13,11 @@ MUNITY MEDICINE FOR WRITTEN ¢ VIVA & OSPE
 
 ## Health administration
 
-<details>
-<summary><b>Q. What are the levels of health care service delivery in Bangladesh? [RU-16M]<br>Q. Narrate the health care service delivery system mentioning their levels in Bangladesh. [RU- 15J]</b></summary>
+### Q. What are the levels of health care service delivery in Bangladesh? [RU-16M]<br>Q. Narrate the health care service delivery system mentioning their levels in Bangladesh. [RU- 15J]
 
 _Q. What are the levels of health care service delivery in Bangladesh? [RU-16M]_
-</details>
 
-<details>
-<summary><b>Q. Describe in brief the organizational structure of health service in Bangladesh. [RU-15Ju]<br>Q. What is the designation of UZHC chief? [SUST-16J]</b></summary>
+### Q. Describe in brief the organizational structure of health service in Bangladesh. [RU-15Ju]<br>Q. What is the designation of UZHC chief? [SUST-16J]
 
 **Health care service delivery system in Bangladesh:**
 + Atunion level: It is planned to cover all the unions (except the union where UHC is situated) by 1
@@ -106,16 +103,12 @@ Assistant secretaries
 Director General of Health Services- assisted by ADG-8 directors.
 Director General of Family Welfare.
 |Ref- Rashid, Khabir, Hyder /5" /35]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Health administration of Bangladesh. [RU-12J]</b></summary>
+### Q. Write short note on: Health administration of Bangladesh. [RU-12J]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Viva Q. Mention the organogram of health and family welfare ministry.</b></summary>
+### Viva Q. Mention the organogram of health and family welfare ministry.
 
 Organogram of ministry of health and family welfare (MOH&FW):
 Chief; Minister of health and family welfare.
@@ -130,10 +123,8 @@ Stuffs:
 directors and other support stuff.
 Director general of family welfare.
 _ [Ref- Rashid, Khabir, Hyder /5® /35]
-</details>
 
-<details>
-<summary><b>Viva Q. Mention the functions of ministry of health and family welfare.</b></summary>
+### Viva Q. Mention the functions of ministry of health and family welfare.
 
 **Functions of ministry of health and family welfare:**
 1) Formulation of policy.
@@ -141,10 +132,8 @@ _ [Ref- Rashid, Khabir, Hyder /5® /35]
 3) Legislation.
 4) Coordination with other ministries, international and bilateral agencies.
 [Ref- Rashid, Khabir, Hyder /5* /35]
-</details>
 
-<details>
-<summary><b>Q. Mention the organizational structure of DG, health service.</b></summary>
+### Q. Mention the organizational structure of DG, health service.
 
 **Organizational structure of DG, health service:**
 Chief: Director General of Health Service (DGHS).
@@ -158,10 +147,8 @@ The director, drug administration and the director, nursing services are directl
 the secretary of health and family welfare. Advisory services are provided by WHO as and when
 necessary.
 [Ref- Rashid, Khabir, Hyder /5" / 35]
-</details>
 
-<details>
-<summary><b>Q. Write down the functions of DG Health.</b></summary>
+### Q. Write down the functions of DG Health.
 
 **Functions of DG Health:**
 1) Planning.
@@ -203,32 +190,24 @@ Dersser/Pharmacist 2 Darwan/Chowkider _1.Number of Health Inspector depends on t
 2 Lab Techn. 1 Mashalchi
 2 EPI Techn. 5 Sweeper
 [Ref- Rashid, Khabir, Hyder / 5/34]
-</details>
 
-<details>
-<summary><b>Q. Who are the grass root level health workers? [SUST-18N]</b></summary>
+### Q. Who are the grass root level health workers? [SUST-18N]
 
 **Grass-root level health workers:**
 1) Family welfare visitor (FWV).
 2) Sub-assistant community medical officer (SACMO).
 3) Community health care provider (CHCP).
 4) Family planning assistant (FPA).
-</details>
 
-<details>
-<summary><b>Q. Discuss different health care facilities and health programmes delivered at Upazilla Health</b></summary>
+### Q. Discuss different health care facilities and health programmes delivered at Upazilla Health
 
 Complexes in Bangladesh. [RU-13J]
-</details>
 
-<details>
-<summary><b>Q. Mention the programmes and health services you head observed at upazilla health complex</b></summary>
+### Q. Mention the programmes and health services you head observed at upazilla health complex
 
 during your RFST. [CU-15Ju,13J]
-</details>
 
-<details>
-<summary><b>Q. Mention the function of upazilla health complex.</b></summary>
+### Q. Mention the function of upazilla health complex.
 
 i
 Health cares delivered from a upazilla health complex:
@@ -248,10 +227,8 @@ tuberculosis, hepatitis-B and Haemophilus influenzae-B (HIB).
 7) MCH services.
 8) Control and supervision of the work of the subentries.
 [Ref- Rashid, Khabir, Hyder / 5 /34-37]
-</details>
 
-<details>
-<summary><b>Q. Why it is called complex?</b></summary>
+### Q. Why it is called complex?
 
 It is 3 1-bedded hospital at the Upazilla / Thana level. It is called complex because it offers —
 - Outdoor and indoor services.
@@ -260,10 +237,8 @@ e
 - Training and supplies.
 - Referral treatment for union health & family welfare centers. In each THC, there are 8 doctors
 and I dental surgeon.
-</details>
 
-<details>
-<summary><b>Q. Narrate the problems faced to render services by a union health & family welfare center. [CU-17N,16N]</b></summary>
+### Q. Narrate the problems faced to render services by a union health & family welfare center. [CU-17N,16N]
 
 **Problems in rendering services at UH&FWC:**
 Most of the UH&FWC in Bangladesh are not well equipped & arranged for proper service delivery.
@@ -277,16 +252,12 @@ Lack of proper monitoring of service delivery by the proper authority.
 Negligence of the doctors & other supportive stuffs for proper service delivery.
 10) Lack of effective cooperation with the other higher referral systems.
 11) Local sybdicate.
-</details>
 
-<details>
-<summary><b>Q. Write down the duties & responsibilities [DU-16M] / important responsibilities [SUST-18N,</b></summary>
+### Q. Write down the duties & responsibilities [DU-16M] / important responsibilities [SUST-18N,
 
 17M,16J,14Ju,12Ju] of UH&FPO.
-</details>
 
-<details>
-<summary><b>Q. Write the functions of UH&FPO [CU-14J] / TH&FPO [CU-12J].<br>Q. Write short note on: UH&FPO/ TH&FPO. [RU-17M, 16J,14Ju,13J, 12J,10Ju]</b></summary>
+### Q. Write the functions of UH&FPO [CU-14J] / TH&FPO [CU-12J].<br>Q. Write short note on: UH&FPO/ TH&FPO. [RU-17M, 16J,14Ju,13J, 12J,10Ju]
 
 **Duties & responsibilities of UU&FPO / UHFPO / TH&FPO:**
 f health activities at the Thana level
@@ -318,10 +289,8 @@ ordinance etc.
 12) To perform any other duties that may be assigned to him from time to time, related to his sphere of
 responsibilities.
 [Ref- Rashid, Khabir, Hyder / 5" /37]
-</details>
 
-<details>
-<summary><b>Q. Write down the duties & responsibilities of a medical officer at upazilla level.<br>Q. Mention the duties of a community physician at upazilla level. [DU-16N]</b></summary>
+### Q. Write down the duties & responsibilities of a medical officer at upazilla level.<br>Q. Mention the duties of a community physician at upazilla level. [DU-16N]
 
 Duties of a medical officer / community physician at upazilla level:
 1) Emergency patient management:
@@ -356,16 +325,12 @@ dengu, chikungunya, nipah virus infection etc.
   - Take part in effective coordination with other government departments including upazilla
 chairman, MP.
   - Any order from the superior authorities.
-</details>
 
-<details>
-<summary><b>Q. Write down the responsibilities [DU-18N,17N, SUST-15Ju,12J,10Ju] / activities [(CU-18M,12Ju]</b></summary>
+### Q. Write down the responsibilities [DU-18N,17N, SUST-15Ju,12J,10Ju] / activities [(CU-18M,12Ju]
 
 / functions [RU-14Ju] of health assistant.
-</details>
 
-<details>
-<summary><b>Q. Lists 3 responsibilities of health assistants. [DU-14Ju]<br>Q. Write down the functions of a grass-root level health worker. [DU-18M,16N]<br>Q. Write short note on: Health assistant (HA). [RU-15Ju,12Ju, | 1Ju,10J]</b></summary>
+### Q. Lists 3 responsibilities of health assistants. [DU-14Ju]<br>Q. Write down the functions of a grass-root level health worker. [DU-18M,16N]<br>Q. Write short note on: Health assistant (HA). [RU-15Ju,12Ju, | 1Ju,10J]
 
 Responsibilities / job description / functions of health assistant (HA):
 1). They are the front-line (grass-root level) staff of DGHS involved in community mobilization
@@ -385,10 +350,8 @@ give treatment for simple ailment and refer cases to
 n and personal hygiene.
 lanning activities at the village health posts.
 vitamin A capsule, when required.
-</details>
 
-<details>
-<summary><b>Q. What are the responsibilities of sanitary inspector?</b></summary>
+### Q. What are the responsibilities of sanitary inspector?
 
 **Responsibilities of sanitary inspector:**
 n by Direct action or Mobile court.
@@ -399,16 +362,12 @@ n by Direct action or Mobile court.
 5) Take action against public nuisance
 6) Visit relief camp, fair etc.
 tion of family planning worker / FWV.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the job descrip</b></summary>
+### Q. Enumerate the job descrip
 
 f FWA in a community clinic. (CU-12Ju]
-</details>
 
-<details>
-<summary><b>Q. Write down the activities 0</b></summary>
+### Q. Write down the activities 0
 
 **Family welfare assistant (FWA):** | for 4000 populations.
 Function:
@@ -421,10 +380,8 @@ B) Minor:
 1.Advice on care of newborn babies.
 2. Reference of family planning clients to satellite clinic.
 3.Health education.
-</details>
 
-<details>
-<summary><b>📌 Viva — Famil</b></summary>
+### 📌 Viva — Famil
 
 Famil
 Function:
@@ -436,37 +393,27 @@ Function:
 : | for | union. | FPA for 500 eligible couple.
 . Planning Assistant
 ts through satellite clinic.
-</details>
 
-<details>
-<summary><b>Q. Mention the duties and responsibilities of civil surgeon (CS).</b></summary>
+### Q. Mention the duties and responsibilities of civil surgeon (CS).
 
 Duties and responsibilitics of civil surgeon (CS); Z
 At the district level, civil surgeon is responsible for all health activities, domiciliary and institutional
 (except medical colleges and attached hospitals) in his district.
 [Ref- Rashid, Khabir, Hyder /5"/35]
-</details>
 
-<details>
-<summary><b>Q. Write down different functions of community clinic in relation to rural health care. [CU-15Ju}<br>Q. Mention the objectives and activities of community clinic. (CU-12Ju]<br>Q. Discuss the activities carried out in a “community clinic”, [SUST-13Ju]<br>Q. Enlist health care provided at community clinic. [DU-17M, 13J]<br>Q. State the objectives and explain the services of community clinic under revitalization</b></summary>
+### Q. Write down different functions of community clinic in relation to rural health care. [CU-15Ju}<br>Q. Mention the objectives and activities of community clinic. (CU-12Ju]<br>Q. Discuss the activities carried out in a “community clinic”, [SUST-13Ju]<br>Q. Enlist health care provided at community clinic. [DU-17M, 13J]<br>Q. State the objectives and explain the services of community clinic under revitalization
 
 program of PHC. [CU-11Ju]
-</details>
 
-<details>
-<summary><b>Q. Why community clinic is essential for revitalization of PHC? [CU-11J]<br>Q. List the health care services in a table, those are provided & not provided in the community</b></summary>
+### Q. Why community clinic is essential for revitalization of PHC? [CU-11J]<br>Q. List the health care services in a table, those are provided & not provided in the community
 
 clinic. [RU-16M]
-</details>
 
-<details>
-<summary><b>Q. Illustrate the works of a CHCP. [CU-17M]<br>Q. Write short note on: Community clinic. [SUST-18N,17N, 1 6N/M, 12J,1 1J, RU-17N/M, 16J,15J, 14J,12Ju, CU-13Ju]</b></summary>
+### Q. Illustrate the works of a CHCP. [CU-17M]<br>Q. Write short note on: Community clinic. [SUST-18N,17N, 1 6N/M, 12J,1 1J, RU-17N/M, 16J,15J, 14J,12Ju, CU-13Ju]
 
 _Q. Illustrate the works of a CHCP. [CU-17M]_
-</details>
 
-<details>
-<summary><b>Q. Write short note on: CHCP. [RU-18M]</b></summary>
+### Q. Write short note on: CHCP. [RU-18M]
 
 **Community clinic:**
 It is under implementation infra-structure of health service center one for 6000 rural population in total
@@ -501,10 +448,8 @@ Functions / services of community clinic / functions of CHCP:
 7) Advice on treatment of disease.
 8) Health education.
 9) Emergency service (minor injury).
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Satellite clinic.</b></summary>
+### Q. Write short note on: Satellite clinic.
 
 **Satellite clinic:** It is one type of out-reach center (ORC).
   - Total 8 in numbers at every union,
@@ -528,10 +473,8 @@ Preventive activities:
   - Vitamin-A in xerophthalmia.
   - Treatment for worm infestation.
 Hospital administration
-</details>
 
-<details>
-<summary><b>Q. Define and classify hospital. Write down the functions of hospital.</b></summary>
+### Q. Define and classify hospital. Write down the functions of hospital.
 
 **Hospital:**
 Hospital is a combination of many processes. To the community it is a place to receive medical care, to
@@ -574,10 +517,8 @@ nurses and other paramedical stuff.
 - Promote community health development action.
 - Provide basic and continuing education to PHC workers.
 - Conduct research on PHC.
-</details>
 
-<details>
-<summary><b>Q. Mention the services delivered by hospital.</b></summary>
+### Q. Mention the services delivered by hospital.
 
 **Services delivered by hospital:**
 1) General administration: Financial, personnel, material.
@@ -607,10 +548,8 @@ SSNS S'S
 |Ref- Rashid, Khabir, Hyder /5"/ 47]
 e unit).
 [Ref- Rashid, Khabir, Hyder / 5" / 47, 48]
-</details>
 
-<details>
-<summary><b>Q. Discuss the role of hospital in primary health care.</b></summary>
+### Q. Discuss the role of hospital in primary health care.
 
 **Role of hospital in primary health care:**
 Hospital and primary health care services are two interrelated and equally necessary parts of a truly
@@ -623,10 +562,8 @@ e
 Conduct research on PHC.
 [Ref- Rashid, Khabir, Hyder / 5" / 49]
 National health programmes
-</details>
 
-<details>
-<summary><b>Q. List the name of important health programmes in Bangladesh.</b></summary>
+### Q. List the name of important health programmes in Bangladesh.
 
 **Ongoing health programmes in Bangladesh:**
 1) Expanded Programme on Immunization (EPI).
@@ -648,10 +585,8 @@ National health programmes
 17) Arsenic mitigation programme.
 18) Rheumatic fever control programme.
 19) Emergency preparedness and response programme.
-</details>
 
-<details>
-<summary><b>Q. Mention 5 national health programmes for children.</b></summary>
+### Q. Mention 5 national health programmes for children.
 
 **S.national health programmes for children:**
 1) Expanded Programme on Immunization (EPI).
@@ -659,10 +594,8 @@ National health programmes
 3) ARI control programme.
 4) National blindness prevention programme (NBPP) through vitamin-A plus campaign.
 5) Deworming programme.
-</details>
 
-<details>
-<summary><b>Q. Mention 5 national health programmes related to nutrition.</b></summary>
+### Q. Mention 5 national health programmes related to nutrition.
 
 **S.national health programmes related to nutrition:**
 1) National nutrition programme (NNP).
@@ -670,10 +603,8 @@ National health programmes
 3) Vitamin-A plus campaign.
 4) Deworming programme.
 5) National immunization day (NID).
-</details>
 
-<details>
-<summary><b>Q. What do you mean by HPSP? / Discuss HPSP.</b></summary>
+### Q. What do you mean by HPSP? / Discuss HPSP.
 
 Health & population Sector Programme (HPSP);
 In the context of various weaknesses, shortfalls and anomaly observed during the implementation of the
@@ -705,10 +636,8 @@ Other services of public health importance.
 Other health and nutrition services.
 SAAS Ss
 [Ref- Rashid, Khabir, Hyder / 5" /37]
-</details>
 
-<details>
-<summary><b>Q. Explain ESP. What are the components of ESP?<br>Q. State the components of ESP. [DU-12J]</b></summary>
+### Q. Explain ESP. What are the components of ESP?<br>Q. State the components of ESP. [DU-12J]
 
 **Essential Services Package (ESP):**
 Due to resource constraints it is not possible to provide services needed by all segments of population.
@@ -728,10 +657,8 @@ increase the —
   - Equity of access.
   - Efficiency of services. é
 [Ref- Rashid, Khabir, Hyder /5 / 40]
-</details>
 
-<details>
-<summary><b>Q. Explain HNPSP.</b></summary>
+### Q. Explain HNPSP.
 
 Health, nutrition and population sector programme (HNPSP):
 As the life of HPSP is to come to an end in June 2003 the Government has decided to launch a new
@@ -742,10 +669,8 @@ programme has yielded hardly any palpable result and hence the decision to intro
 without the full implementation of the existing one does not seem to be logical.
 [Ref- Rashid, Khabir, Hyder /5"™ 137]
 Health management & planning
-</details>
 
-<details>
-<summary><b>Q. Define planning. [DU-16M]<br>Q. What are the purposes of planning? [DU-15Ju]<br>Q. Write short note on: Planning. [CU-18M]</b></summary>
+### Q. Define planning. [DU-16M]<br>Q. What are the purposes of planning? [DU-15Ju]<br>Q. Write short note on: Planning. [CU-18M]
 
 **Planning:**
 Planning can be defined as the process of deciding hov
@@ -769,16 +694,12 @@ Steps of planning:
   - Execution.
   - Evaluation.
 [Ref- Park / 21" / 807 + Rashid, Khabir, Hyder /5"/64]
-</details>
 
-<details>
-<summary><b>Q. Make a report on day visit during RFST. Which you have enjoyed most? [CU-16N]<br>Q. What are the purposes of RFST? [SUST-10J]<br>Q. Narrate a pen picture of study tour emphasizing env</b></summary>
+### Q. Make a report on day visit during RFST. Which you have enjoyed most? [CU-16N]<br>Q. What are the purposes of RFST? [SUST-10J]<br>Q. Narrate a pen picture of study tour emphasizing env
 
 program. [CU-17M,16M]
-</details>
 
-<details>
-<summary><b>Q. Narrate a pen picture of RFST center staying &<br>Q. Make a report on different works at RFST center during RFST program at<br>Q. Write short note on: RFST. [SUST-18M,17N, RU-17M,16J,15J]</b></summary>
+### Q. Narrate a pen picture of RFST center staying &<br>Q. Make a report on different works at RFST center during RFST program at<br>Q. Write short note on: RFST. [SUST-18M,17N, RU-17M,16J,15J]
 
 **2 Write short note on:** Residential field site training (RFST) programme. [RU-12Ju,11J, osu)
 nswer
@@ -819,10 +740,8 @@ for the students to see for themselves the
 diagnosis and community therapy which are things to be leant in
 in the community through this
 level, not in hospital level.
-</details>
 
-<details>
-<summary><b>Q. Health infrastructure at primary care level</b></summary>
+### Q. Health infrastructure at primary care level
 
 **are:** [DU-18N,17N]
 a) District hospital.
@@ -831,10 +750,8 @@ c) Medical college hospital.
 d) Community clinic (CC).
 e) Family welfare center (FWC).
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Functions of hospitals are: [DU-16N]</b></summary>
+### Q. Functions of hospitals are: [DU-16N]
 
 a) Curative.
 b) Part of primary health care.
@@ -842,10 +759,8 @@ c) Education & research.
 d) Encouragement of the patients.
 e) To supply drugs.
 Ans. a) T, b) T, c) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Activities of management include: [DU- 18M,14J]</b></summary>
+### Q. Activities of management include: [DU- 18M,14J]
 
 - a) Planning
 b) Organizing
@@ -859,5 +774,4 @@ Epidemiology, statistics & demography
 Nutritive values
 Procedure station (Checklist) ..
 Perm amasse wen a
-</details>
 

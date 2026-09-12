@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify skin tumours.</b></summary>
+### Q1. Classify skin tumours.
 
 ### Overview
 
@@ -63,10 +62,8 @@ Skin tumours are classified by **cell of origin** and **biological behaviour**. 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Mention the premalignant and malignant lesions of the skin.</b></summary>
+### Q2. Mention the premalignant and malignant lesions of the skin.
 
 ### Premalignant (Pre-cancerous) Lesions
 
@@ -105,10 +102,8 @@ Invasive SCC (keratin pearls, <5% mets)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What are the locally malignant tumours of skin?</b></summary>
+### Q3. What are the locally malignant tumours of skin?
 
 ### Definition
 
@@ -149,10 +144,8 @@ BCC invasion:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Short note: Squamous cell carcinoma (SCC).</b></summary>
+### Q4. Short note: Squamous cell carcinoma (SCC).
 
 ### Definition
 
@@ -226,10 +219,8 @@ Actinic keratosis (TP53 mutation) → SCC in situ (Bowen disease) → Invasive S
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Short note: Basal cell carcinoma (BCC) / Rodent ulcer.</b></summary>
+### Q5. Short note: Basal cell carcinoma (BCC) / Rodent ulcer.
 
 ### Definition
 
@@ -325,10 +316,8 @@ Other histologic features:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Short note: Malignant melanoma.</b></summary>
+### Q6. Short note: Malignant melanoma.
 
 ### Definition
 
@@ -439,10 +428,8 @@ epidermis + superficial dermis         into deep dermis
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention the inflammatory dermatoses of skin.</b></summary>
+### Q7. Mention the inflammatory dermatoses of skin.
 
 ### Classification
 
@@ -514,10 +501,8 @@ Spongiosis: oedema seeps into intercellular spaces of stratum spinosum
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Classify blistering diseases of skin.</b></summary>
+### Q8. Classify blistering diseases of skin.
 
 ### The Key Question
 
@@ -633,10 +618,8 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 
 ---
 
-</details>
 
-<details>
-<summary><b>📋 Quick Reference — High-Yield Comparison</b></summary>
+### 📋 Quick Reference — High-Yield Comparison
 
 ### Skin Cancer at a Glance
 
@@ -659,14 +642,11 @@ And: GRANULAR IgA at papillae = Dermatitis herpetiformis (gluten/celiac)
 
 ---
 
-</details>
 
-<details>
-<summary><b>🔗 Links</b></summary>
+### 🔗 Links
 
 - **Previous:** [Item 22](Item-17_Uterus_Placenta_Ovary_PregnancyTest.md) · **Next:** [Item 24](Item-24_Sample_Collection_Preservation_Processing.md)
 - **Robbins Ch 25 source:** [Pathology/ch25_Skin.md](../robbins/ch25_Skin.md)
 
 ---
 
-</details>

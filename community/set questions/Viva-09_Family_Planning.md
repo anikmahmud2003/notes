@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify oral contraceptive pills and list their complications? (S18,Q6)</b></summary>
+### Q1. Classify oral contraceptive pills and list their complications? (S18,Q6)
 
 ### Oral contraceptive pills (OCP) — classification
 > 🔴 **Oral contraceptive pills** are hormonal contraceptives taken by mouth, containing **estrogen and/or progestogen.**
@@ -45,4 +44,3 @@
 
 > 📖 Ch-10, Endeavour PDF pp. 341–343
 
-</details>

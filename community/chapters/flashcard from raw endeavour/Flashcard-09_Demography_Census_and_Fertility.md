@@ -12,18 +12,15 @@ ea
 
 ## Demography
 
-<details>
-<summary><b>Q. Define demography. [DU-10Ju, RU-16M, CU-12Ju,10Ju, seal be ee val<br>Q. Define demography with its observable phenomena. [SUST-18N,17N, 16J,</b></summary>
+### Q. Define demography. [DU-10Ju, RU-16M, CU-12Ju,10Ju, seal be ee val<br>Q. Define demography with its observable phenomena. [SUST-18N,17N, 16J,
 
 Peale! Demography is the scientific study of human population) which mainly concentrates on —
 /\)_ Changes in population size (growth or decline) ;
 2) The composition of the population (age, sex, ethnic groups etc.) and
 P) The distribution of population in space (urban, rural etc.).
 [Ref- Rashid, Khabir, Hyder /5"/ 190 + Park /24" /513]
-</details>
 
-<details>
-<summary><b>Q. List the uses of demography. [RU-10J]<br>Q. What are the uses of demographic data?</b></summary>
+### Q. List the uses of demography. [RU-10J]<br>Q. What are the uses of demographic data?
 
 **Uses of demography:**
 1) Demography focuses its attention to three readily observable human phenomena —
@@ -40,16 +37,12 @@ and structure, which should underpin healthcare planning. .
 5) Demography is largely concerned with answering questions about how population change and how
 its changes can be measured.
 [Ref- Rashid, Khabir, Hyder /5" / 190 + Park /24"/513]
-</details>
 
-<details>
-<summary><b>Q. State the different demographic processes. [DU-16J,14Ju, CU-14J,13Ju,12J,10Ju, SUST- 18N,17N;13Ju,10J]</b></summary>
+### Q. State the different demographic processes. [DU-16J,14Ju, CU-14J,13Ju,12J,10Ju, SUST- 18N,17N;13Ju,10J]
 
 _Q. State the different demographic processes. [DU-16J,14Ju, CU-14J,13Ju,12J,10Ju, SUST- 18N,17N;13Ju,10J]_
-</details>
 
-<details>
-<summary><b>Q. Whatare the processes that influence demographic changes? [DU-1 |Ju]<br>Q. Define social mobility & migration. [SUST-16J]</b></summary>
+### Q. Whatare the processes that influence demographic changes? [DU-1 |Ju]<br>Q. Define social mobility & migration. [SUST-16J]
 
 ApSwer
 emographic process: Five demographic processes —
@@ -75,10 +68,8 @@ emographic cycle [DU
 ease emographic transition, [DU-12J,10)
 . Discuss the stages of demographic cycle witl ]
 15Ju,143u, RU-18N,17M,16M, CUS 4, Bu LON) nn NT Me Ad 13S SUST-17M
-</details>
 
-<details>
-<summary><b>Q. State the stages of demogra hic ; ee<br>Q. What are the dinertlednice a i with their characteristics. [RU-12Ju]<br>Q. Differentiate 1" & 4" stage. [SU wy eee cycle? (SUST-12J, 10Ju]<br>Q. Describe declining state mentioning ways to I<br>Q. Write short note on: St pape lg aA eh</b></summary>
+### Q. State the stages of demogra hic ; ee<br>Q. What are the dinertlednice a i with their characteristics. [RU-12Ju]<br>Q. Differentiate 1" & 4" stage. [SU wy eee cycle? (SUST-12J, 10Ju]<br>Q. Describe declining state mentioning ways to I<br>Q. Write short note on: St pape lg aA eh
 
 ©. Wilte shortwnte he 7 ages of demographic cycle. [SUST-1 lJu]
 : : Dem i
@@ -99,20 +90,16 @@ of population-becomes stationary, e.g. UK, Denmark, Sweden, Belgium etc. :
 rate. Some east European countries, notably Germany and Hungary are experiencing this stage.
 [Ref- Park / 24/513]
 —_— 05
-</details>
 
-<details>
-<summary><b>Q. Explain the stages of demographic cycle where the population growth remains static.</b></summary>
+### Q. Explain the stages of demographic cycle where the population growth remains static.
 
 Stages of demographic cycle where the population remain static: |
 1) 1I''stage (high stationary): This stage is characterized by a high birth rate and a high death rate |
 which cancel each other and the population remains stationary, ¢.g. India was in this stage till 1920. |
 2) 4" stage (low stationary): In this stage, both birth rate and death rate fall. As a result, the growth
 of population becomes stationary, €.g. UK, Denmark, Sweden, Belgium etc.
-</details>
 
-<details>
-<summary><b>Q. Describe the stages where population growth is not static. [RU-16M]</b></summary>
+### Q. Describe the stages where population growth is not static. [RU-16M]
 
 Stages of demographic cycle where population growth is not static:
 1) 2™ stage (early expanding): The death rate begins to decline while birth rate remains unchanged
@@ -125,10 +112,8 @@ Singapore etc. ;
 rate. Some east European countries, nota
 gins to decline because birth rate is lower than the death
 bly Germany and Hungary are experiencing this stage.
-</details>
 
-<details>
-<summary><b>Q. Bangladesh in which stage at present?</b></summary>
+### Q. Bangladesh in which stage at present?
 
 sali stage of demographic cycle “Stage of late expanding”.
 Bangladesh is now in 3"
@@ -137,10 +122,8 @@ Cause: . F i
 We know that in 3rd stage of demographic cycle the death rate declines sei ear oe oo rite
 tends to fall. The statistical data of CDR and CBR of Bangladesh prove the above criteria. 90, in
 3rd stage of demographic cycle.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the demographic characteristics of Bangladesh. [CU-12J]<br>Q. Enumerate the fertility related rates used in demography. [RU-17M]<br>Q. Write short note on: Demographic trend in Bangladesh. [SUST-10Ju]</b></summary>
+### Q. Enumerate the demographic characteristics of Bangladesh. [CU-12J]<br>Q. Enumerate the fertility related rates used in demography. [RU-17M]<br>Q. Write short note on: Demographic trend in Bangladesh. [SUST-10Ju]
 
 F
 . Demographic characteristic of Bangladesh: According to census 2011 (5" census), demographic
@@ -202,10 +185,8 @@ Age & sex structure: Wide base and narrow apex indicates a higher proportion of 
 in younger age group, indicating a rapid population growth in-future.
   - Infant mortality rate (IMR): 45.67 deaths per 1,000 live births.
 [Ref- Economic survey-2014]
-</details>
 
-<details>
-<summary><b>Q. What are the sources of demography?</b></summary>
+### Q. What are the sources of demography?
 
 **Sources of demography:**
 1) Decennial census (major source).
@@ -217,54 +198,38 @@ Planning Commission.
 6) Demographic and Health Survey (DHS), NIPORT.
 7) Bangladesh Fertility survey, NIPORT.
 [Ref- Rashid, Khabir, Hyder / 4" /172]
-</details>
 
-<details>
-<summary><b>Q. Draw, explain and interpret the age-sex pyramid of developing-& developed countries. [CU- 10Ju, RU-12J]</b></summary>
+### Q. Draw, explain and interpret the age-sex pyramid of developing-& developed countries. [CU- 10Ju, RU-12J]
 
 _Q. Draw, explain and interpret the age-sex pyramid of developing-& developed countries. [CU- 10Ju, RU-12J]_
-</details>
 
-<details>
-<summary><b>Q. Draw and interpret an age</b></summary>
+### Q. Draw and interpret an age
 
 -sex pyramid of a developing country. [DU-17M]
-</details>
 
-<details>
-<summary><b>Q. Illustrate-the features of age-sex pyramid of a developing count!</b></summary>
+### Q. Illustrate-the features of age-sex pyramid of a developing count!
 
 ry with the help of a diagram.
 [RU; . . .
-</details>
 
-<details>
-<summary><b>Q. Wifat information can be obtained from a population pyramid ofa country? Explain with</b></summary>
+### Q. Wifat information can be obtained from a population pyramid ofa country? Explain with
 
 diagram. [DU-15Ju
 3 mid’ of developed & developing countries? (CU-12Ju]
-</details>
 
-<details>
-<summary><b>Q. Differentiate between ‘Age-Sex pyra</b></summary>
+### Q. Differentiate between ‘Age-Sex pyra
 
 ds of developed countries with developing countries in relation to
-</details>
 
-<details>
-<summary><b>Q. Compare the age pyrami</b></summary>
+### Q. Compare the age pyrami
 
 social & economic impact. [RU-15Ju] _ ;
-</details>
 
-<details>
-<summary><b>Q. Differentiate between developed & developing countries in respect of demographic</b></summary>
+### Q. Differentiate between developed & developing countries in respect of demographic
 
 characteristics. [DU-18N/M] ;
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Population pyramid.</b></summary>
+### Q. Write short note on: Population pyramid.
 
 **Age and se} ture (Age pyramid):** . . :
 cand sex stint ture gives a visual presentation of population growth in a country. The
@@ -303,10 +268,8 @@ pyramid takes the shape.
 Indicate high rate of population in younger age. |
 population of India & of the population of Switzerland.
 [ 3) Interpretation| Indicate rapid growth of population.
-</details>
 
-<details>
-<summary><b>Q. What are the importance of population pyramid?</b></summary>
+### Q. What are the importance of population pyramid?
 
 **Importance of age pyramid:**
 ‘ lanned growth of population in developed and
@@ -316,10 +279,8 @@ developing countries.
 to the maximum population in the developed countries are middle aged.
 3) Shows that the health services in developing countries are inadequate and ineffective in comparison
 to developed countries where health services are adequate and effective.
-</details>
 
-<details>
-<summary><b>Q. Define doubling time.</b></summary>
+### Q. Define doubling time.
 
 hen population will be doubled in our country, focus some so’
 consequences in this regard? [CU-18N]
@@ -335,10 +296,8 @@ cio-demographic
 r Bangladesh to double its population from 28.9 million in 1901 tO
 1 - 1981) the population nearly doubled itself,
 i
-</details>
 
-<details>
-<summary><b>Q. The growth rate of a country j 309</b></summary>
+### Q. The growth rate of a country j 309
 
 the time when the Bonnlatines 2.5 percent and her population size is 10 million. Calculate
 Will be 20 million. [RU-1 1)
@@ -360,18 +319,14 @@ No of live births during the year
 Crude birth rate = —————_______________— x 1000
 Estimated mid-year population
 [Ref- Rashid, Khabir, Hyder /5™/ 196]
-</details>
 
-<details>
-<summary><b>Q. Why CBR is a weaker fertility related statistics?</b></summary>
+### Q. Why CBR is a weaker fertility related statistics?
 
 Ansye
 CBR is a weaker fertility related statistics because the denominator of this includes men and women
 outside the reproductive age group i.e. those not at risk of giving birth.
-</details>
 
-<details>
-<summary><b>Q. What do you mean by growth rate? [RU-15Ju]<br>Q. Calculate growth rate of Bangladesh. \</b></summary>
+### Q. What do you mean by growth rate? [RU-15Ju]<br>Q. Calculate growth rate of Bangladesh. \
 
 **Population growth rate:** F
 It is the net residual calculated in percent when the crude death rate is subtracted from the crude birth
@@ -390,10 +345,8 @@ Growth rate = -
 10
 , .
 SNR NNN
-</details>
 
-<details>
-<summary><b>Q. Calculate growth rate from following statistics: CBR = 35, CDR = 20. [SUST-11J]</b></summary>
+### Q. Calculate growth rate from following statistics: CBR = 35, CDR = 20. [SUST-11J]
 
 Crude birth rate — Crude death rate
 Growth rate =
@@ -401,16 +354,12 @@ Growth rate =
 35-20
 10
 =1.5%
-</details>
 
-<details>
-<summary><b>Q. Write short note on: CBR. [CU-15J]</b></summary>
+### Q. Write short note on: CBR. [CU-15J]
 
 Please write from above.
-</details>
 
-<details>
-<summary><b>Q. What are the salient features of population growth?</b></summary>
+### Q. What are the salient features of population growth?
 
 **Salient features of population growth:**
   - Approximately 95% of this growth is occurring in developing countries.
@@ -423,10 +372,8 @@ Europe 1.6.
   - World population is currently going at 176 people per minute, 10564 people per hour, 25,35,425
 people per day, and 9,25,43,000 people per year.
 [Ref- Rashid, Khabir, Hyder / 4" / 172]
-</details>
 
-<details>
-<summary><b>Q. What are the causes of declining death rate?</b></summary>
+### Q. What are the causes of declining death rate?
 
 **Causes of declining death rate:**
 1) Absence of natural checks, e.g. famines, and large-scale epidemics.
@@ -438,10 +385,8 @@ people per day, and 9,25,43,000 people per year.
 7) International aid in several directions.
 8) Development of social consciousness among the masses.
 [Ref- Park /21"/54]
-</details>
 
-<details>
-<summary><b>Q. Define life table. [RU-10J]<br>Q. What are the uses of life table?</b></summary>
+### Q. Define life table. [RU-10J]<br>Q. What are the uses of life table?
 
 **Life table:** It is an effective method in measuring the force of mortality in a population.
 Uses of life table:
@@ -454,10 +399,8 @@ Uses of life table:
 Lo 7 a 7 ——— —— |
 ensus & Fertili
 ertilitiy ———
-</details>
 
-<details>
-<summary><b>Q. Define population explosio</b></summary>
+### Q. Define population explosio
 
 . n, x
 " wena population asvineie (et an
@@ -490,16 +433,12 @@ Effect on family:
 3) Sanitation problem
 4) Educational problem
 5) Poor level of life style.
-</details>
 
-<details>
-<summary><b>Q. What are the causes of population explosion?<br>Q. What are the factors responsible for high fertility in Bangladesh? [DU-15J,10Ju, SUST-18M, 14J,12Ju, RU-14Ju, CU-13Ju]</b></summary>
+### Q. What are the causes of population explosion?<br>Q. What are the factors responsible for high fertility in Bangladesh? [DU-15J,10Ju, SUST-18M, 14J,12Ju, RU-14Ju, CU-13Ju]
 
 _Q. What are the causes of population explosion?_
-</details>
 
-<details>
-<summary><b>Q. Mention the factors responsible for high population growth in Bangladesh. [RU-12J]</b></summary>
+### Q. Mention the factors responsible for high population growth in Bangladesh. [RU-12J]
 
 Factors restore responsible for high rowth rate
 1) Universality of marriage:
@@ -519,10 +458,8 @@ Factors restore responsible for high rowth rate
 in Bangladesh:
 / birth rate / fertili
 [Ref- Rashid, Khabir, Hyder / 5" / 198 + Park /24"/ 521]
-</details>
 
-<details>
-<summary><b>Q. Outline the strategies of population control programme in Bangladesh? ;<br>Q. Suggest controls measure/ enumerate different step to control population explosion?<br>Q. How high fertility of Bangladesh could be reduced? [DU-16J,13Ju]</b></summary>
+### Q. Outline the strategies of population control programme in Bangladesh? ;<br>Q. Suggest controls measure/ enumerate different step to control population explosion?<br>Q. How high fertility of Bangladesh could be reduced? [DU-16J,13Ju]
 
 Strategies of population control programme in Bangladesh:
 Adoption of contraceptive methods,
@@ -536,10 +473,8 @@ By increasing recreation facilities.
 . Breast-feeding.
 0. By sociological approach by rising the age of marriage to a responsible limit.
 seer aweswnn
-</details>
 
-<details>
-<summary><b>Q. How using some other methods in addition to contraceptive can control fertility?</b></summary>
+### Q. How using some other methods in addition to contraceptive can control fertility?
 
 **Controlled measure in addition to contraceptive:**
 Prevention of early marriage by legislation.
@@ -552,10 +487,8 @@ By increasing recreation facilities.
 Breast-feeding.
 By sociological approach by rising the age of marriage to a responsible limit.
 SSNS eS >
-</details>
 
-<details>
-<summary><b>Q. Brilliant children of Bangladesh go abroad for higher study and after completion of study,</b></summary>
+### Q. Brilliant children of Bangladesh go abroad for higher study and after completion of study,
 
 never return in country. What problems will result for the families and the country
 ultimately? [CU-18N]
@@ -569,16 +502,12 @@ resources.
 people to migrate.
   - When the students settle in other countries, many of them may adopt foreign culture that will in
 tum affect values and other family norms.
-</details>
 
-<details>
-<summary><b>Q. Thousands of people from Middle East are now in different refugee camps of European</b></summary>
+### Q. Thousands of people from Middle East are now in different refugee camps of European
 
 countries. Make a sketch of this event narrating push & pull factors of migration. [CU-16M]
-</details>
 
-<details>
-<summary><b>Q. People want to leave for USA or Europe though there are lots of problems to get satisfactory</b></summary>
+### Q. People want to leave for USA or Europe though there are lots of problems to get satisfactory
 
 job. Make a sketch of this event narrating push & pull factor of migration. [CU-14Ju]
 Push factors for migration:
@@ -602,17 +531,13 @@ Jand to Bangladesh following threat to lives. Social hazards resulting from this
 3) Environmental pollution
 4) Increased violence and crime in the affected community
 5) Spread of infection and diseases to the host country people.
-</details>
 
-<details>
-<summary><b>Q. Thousands of people from Myanmar are now rushing to Cox’s Bazar, Bandarban for taking</b></summary>
+### Q. Thousands of people from Myanmar are now rushing to Cox’s Bazar, Bandarban for taking
 
 shelter & saving lives. Name the problem & enumerate social hazards resulting from this.
 [CU-18M]
-</details>
 
-<details>
-<summary><b>Q. Thousands of people from different area of Bangladesh & Rohingas from Myanmar are now</b></summary>
+### Q. Thousands of people from different area of Bangladesh & Rohingas from Myanmar are now
 
 floating on the boats in different seas of Thailand & Malaysia though they know the risk of
 life & death. Make a sketch of this event narrating push & pull factors of migration. [CU-
@@ -648,10 +573,8 @@ and Pakistan etc.
 the household who is required to fill in the information.
 3) By combination of both, . é
 [Ref- Rashid, Khabir, Hyder /5' /198)
-</details>
 
-<details>
-<summary><b>Q. Enumerate the information generated from a census. [RU-I7N, I6N, 1 3Ju]<br>Q. What are the information we obtain from census?</b></summary>
+### Q. Enumerate the information generated from a census. [RU-I7N, I6N, 1 3Ju]<br>Q. What are the information we obtain from census?
 
 **Information we obtain from census:** - . .
 1) Demographic, social and economic characteristics of the people, the conditions under which they live,
@@ -660,10 +583,8 @@ how they work, their income and other basic information.
 demographic and socio-economic indicators. =
 [Ref- Park /24" / 877]
 | statistical rates and other health,
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 1" census > In Sweden in 1749; In USA -> 1790; In UK — 1801; In subcontinent > 1881
 In erstwhile Pakistan > 1951; In Bangladesh — 1974.
@@ -681,30 +602,24 @@ which was the 4" census.
 - 2 lac & 50 thousands areas were located for this job.
 Fertility is the child-bearing performance of individuals, couples or populations.
 [Ref- Rashid, Khabir, Hyder /5" / 196]
-</details>
 
-<details>
-<summary><b>Q. Define sterility.</b></summary>
+### Q. Define sterility.
 
 Sterility is the incapability of female to conceive or inabilit i 0
 ee, nability of males to cause a female conceive due t
 About 15 — 20% of females of age groups 25 — 49 years are sterile in Bangladesh.
 [Ref- Rashid, Khabir, Hyder / 4" / 179]
 ee 2 wh REEDED EERE BE BRIAR Ree: i
-</details>
 
-<details>
-<summary><b>📌 Viva — Age specific (marital) fertility Iti eects y</b></summary>
+### 📌 Viva — Age specific (marital) fertility Iti eects y
 
 “ Age specific (marital) fertility Iti eects y
 ny specific age group. rate: It is the number of live births in a year to 1000 married woman in
 « Total fertility rate (TFR): It is defined as the total number of live births which a woman of
 reproductive age (15-49 years) experiences under current age specific schedule.
 [Ref- Park /24" / 523]
-</details>
 
-<details>
-<summary><b>Q. Explain NRR.<br>Q. Illustrate the importance of Net Reproduction Rate. [RU-10J]<br>Q. State NRR with the demographic significance of NRR = 1. [RU-13Ju]<br>Q. Illustrate the importance of Net Reproduction Rate (NRR). [RU-10J]</b></summary>
+### Q. Explain NRR.<br>Q. Illustrate the importance of Net Reproduction Rate. [RU-10J]<br>Q. State NRR with the demographic significance of NRR = 1. [RU-13Ju]<br>Q. Illustrate the importance of Net Reproduction Rate (NRR). [RU-10J]
 
 **Net Reproduction Rate (NRR):** It is defined as the number of daughters a newborn girl will bear during her
 lifetime assuming fixed age-specific fertility and mortality rates.
@@ -716,10 +631,8 @@ replacement level.
 4) Demographers are of the view that the demographic goal of NRR = | can be achieved only if at
 least 60% of the eligible couples are effectively practicing family planning.
 [Ref- Park / 24" / 523]
-</details>
 
-<details>
-<summary><b>Q. Describe gross reproductive rate (GRR).</b></summary>
+### Q. Describe gross reproductive rate (GRR).
 
 **Gross Reproduction Rate (GRR):** :
 Id be born to a woman if she experiences the current fertility pattern
@@ -727,10 +640,8 @@ Average number of girls that wou
 assuming no mortality.
 through her reproductive span (1 5-44/49 years),
 [Ref- Park / 24" / 523]
-</details>
 
-<details>
-<summary><b>Q. What is general fertility rate (GFR)?<br>Q. Write short note on: GFR. [CU-14Ju]</b></summary>
+### Q. What is general fertility rate (GFR)?<br>Q. Write short note on: GFR. [CU-14Ju]
 
 **General fertility rate (GFR):** . ; ;
 It is the number of live births per 1000 women in the reproductive age group In a given year.
@@ -741,10 +652,8 @@ e area in same year
 Mid-year female population age 15 — 44/49 in the sam
 [Ref- Park /24"/523]
 ,
-</details>
 
-<details>
-<summary><b>Q. A total of S500 married women in the age group of 15 to 34 years were present ina community</b></summary>
+### Q. A total of S500 married women in the age group of 15 to 34 years were present ina community
 
 in 2015 & they gave 150 live births in that year. Calculate general marital fertility rate &
 interpret the result. [RU-16N]
@@ -755,10 +664,8 @@ Mid-year female population age 15 — 44/49 in the same area in same year
 = x 1000
 = 300
 Interpretation: High fertility rate.
-</details>
 
-<details>
-<summary><b>Q. What is total fertility rate (TFR)?</b></summary>
+### Q. What is total fertility rate (TFR)?
 
 **Total fertility rate (TFR):**
 It is the average number of children a woman would have if she were to pass through her reproductive
@@ -787,10 +694,8 @@ Factors that influence the fertility:
 15) Modernization of values.
 16) Some social norms, prohibition of coitus during specific period etc,
 [Ref- Rashid, Khabir, Hyder /5™ / 198]
-</details>
 
-<details>
-<summary><b>Q. Mention indicators of fertility. [CU-13J]</b></summary>
+### Q. Mention indicators of fertility. [CU-13J]
 
 **Indicators used to measure the fertility:**
 1. Birth rate
@@ -808,16 +713,12 @@ Factors that influence the fertility:
 13. Abortion ratio
 14. Marriage rate
 [Ref- Park / 24" / 522]
-</details>
 
-<details>
-<summary><b>Q. Describe three fertility statistics with example. [RU-10Ju]</b></summary>
+### Q. Describe three fertility statistics with example. [RU-10Ju]
 
 Please see above — NRR, GFR, GRR.
-</details>
 
-<details>
-<summary><b>Q. Demographic process includes: [DU-18N, 17N]</b></summary>
+### Q. Demographic process includes: [DU-18N, 17N]
 
 Ans. a)
 a) Fertility.
@@ -826,10 +727,8 @@ c) Mortality.
 d) Marriage.
 e) Fecundity.
 T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Demographic process includes: [DU-17M, 16J,14J,13J]</b></summary>
+### Q. Demographic process includes: [DU-17M, 16J,14J,13J]
 
 Ans. a)
 a) Fertility.
@@ -838,10 +737,8 @@ c) Mortality.
 d) Social mobility.
 e) Fecundity.
 T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Demographic processes are: [DU-16N]</b></summary>
+### Q. Demographic processes are: [DU-16N]
 
 Ans. a)
 a) Morbidity.
@@ -850,10 +747,8 @@ c) Social mobility.
 d) Census.
 e) Marriage.
 F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Case fatality rate: [DU-16N]</b></summary>
+### Q. Case fatality rate: [DU-16N]
 
 a) Associated with specific time interval.
 b) It is the ratio of death to cause.
@@ -861,10 +756,8 @@ c) Closely relates the disease elimination.
 d) Represents the killing power of a disease.
 e) It is computed for a broad disease group.
 Ans. a) F, b) F, ¢) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Main sources of demographic statistics</b></summary>
+### Q. Main sources of demographic statistics
 
 **are:** [DU-15Ju]
 a) National surveys.
@@ -873,10 +766,8 @@ c) Population census.
 d) Growth & decline in population size.
 e) Registration of vital events.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Fertility can be measured by: [DU- _ 15J,14Ju]</b></summary>
+### Q. Fertility can be measured by: [DU- _ 15J,14Ju]
 
 a) Child woman ratio.
 b) Marriage rate.
@@ -884,10 +775,8 @@ c) Case fatality rate.
 d) MMR.
 e) Birth rate.
 Ans. a) T, b) T, ¢) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. NRR=1: [DU-15J] Q. Dependency ratio includes: [DU-1 Ju]</b></summary>
+### Q. NRR=1: [DU-15J] Q. Dependency ratio includes: [DU-1 Ju]
 
 a) Implies 2 child norm. a) social dependency ratio
 b) Indicates one girl child norm. b) young age dependency ratio
@@ -896,10 +785,8 @@ d) Can be achieved CPR is 60%. d) old age dependency ratio
 e) Means population to be below e) unemployed dependency ratio
 iepleeqins Ans. a) T, b) T, €) F, 4) T, e) F.
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Case fertility rate is: [DU-10Ju]<br>Q. Measures of fertility are as follows: [DU- a) The ratio of death to cases</b></summary>
+### Q. Case fertility rate is: [DU-10Ju]<br>Q. Measures of fertility are as follows: [DU- a) The ratio of death to cases
 
 13Ju] b) Used typically in acute infectious disease
 a) Crude birth rate c) Associated with specific time interval
@@ -908,10 +795,8 @@ c) Gross reproductive rate epidemic
 d) Child woman ratio e) Closely related to disease elimination
 e) Expectation of life Ans. a) T, b) T, c) F, d) T, e) F.
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Demographic characteristics includes:</b></summary>
+### Q. Demographic characteristics includes:
 
 [DU-12J]}
 a) population size
@@ -930,5 +815,4 @@ Intra-uterine contraceptive devices (IUCD).
 Post-conceptional contraceptive methods
 Miscellaneous contraceptive methods..
 Permanent (terminal) Contraceptive Methods
-</details>
 

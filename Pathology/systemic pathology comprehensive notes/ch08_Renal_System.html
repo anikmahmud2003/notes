@@ -55,7 +55,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -112,8 +122,8 @@
   <!-- ============ SECTION 1: HISTOLOGY ============ -->
   <h2 id="histology">1 · Renal Histology &amp; Filtration Barrier</h2>
 
-  <details>
-    <summary>Describe the structure of a nephron and the three components of the glomerular filtration barrier.</summary>
+  <div class="qcard">
+    </div>Describe the structure of a nephron and the three components of the glomerular filtration barrier.</div>
     <div class="ans">
       <p>The parenchyma of each kidney contains approximately <strong>1 million nephrons</strong>. A nephron has 5 major parts: (1) Glomerular capsule (glomerulus + Bowman's capsule), (2) Proximal Convoluted Tubule (PCT), (3) Loop of Henle, (4) Distal Convoluted Tubule (DCT), (5) Collecting ducts.</p>
       <h3>Glomerular Filtration Barrier — 3 components (inside → out):</h3>
@@ -125,13 +135,13 @@
       <p>The glomerulus performs complex filtration from capillaries into the urinary space.</p>
       <p class="ref">Robbins 10e pp.895–896 · Arif pp.225–226</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 2: CLASSIFICATION ============ -->
   <h2 id="classification">2 · Classification of Kidney Diseases</h2>
 
-  <details>
-    <summary>🔴 Name and classify the diseases of the kidney.</summary>
+  <div class="qcard">
+    </div>🔴 Name and classify the diseases of the kidney.</div>
     <div class="ans">
       <p><strong>Comprehensive classification:</strong></p>
       <ol>
@@ -146,13 +156,13 @@
       </ol>
       <p class="ref">Robbins 10e pp.895–952 · Harsh Mohan 7e p.680 · Arif pp.226–227</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 3: CYSTIC ============ -->
   <h2 id="cystic">3 · Cystic Diseases of the Kidney</h2>
 
-  <details>
-    <summary>What are the cystic diseases of the kidney? Briefly describe each.</summary>
+  <div class="qcard">
+    </div>What are the cystic diseases of the kidney? Briefly describe each.</div>
     <div class="ans">
       <table>
         <tr><th>Type</th><th>Key Features</th></tr>
@@ -166,13 +176,13 @@
       </table>
       <p class="ref">Robbins 10e pp.895, 941 · Harsh Mohan 7e p.644 · Arif pp.227</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 4: MANIFESTATIONS ============ -->
   <h2 id="manifestations">4 · Clinical Manifestations of Renal Diseases</h2>
 
-  <details>
-    <summary>🔴 What are the clinical manifestations of renal diseases?</summary>
+  <div class="qcard">
+    </div>🔴 What are the clinical manifestations of renal diseases?</div>
     <div class="ans">
       <p><strong>11 major clinical presentations:</strong></p>
       <ol>
@@ -191,13 +201,13 @@
       <div class="mnem">🎯 <strong>Azotaemia</strong> = biochemical (↑BUN + creatinine) alone; <strong>Uraemia</strong> = biochemical + clinical symptoms.</div>
       <p class="ref">Robbins 10e p.896 · Arif pp.227–228</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 5: GLOMERULAR CLASSIFICATION ============ -->
   <h2 id="glomerular">5 · Classification of Glomerular Diseases</h2>
 
-  <details>
-    <summary>🔴 Classify glomerular diseases into primary, secondary, and hereditary. List the key terminologies.</summary>
+  <div class="qcard">
+    </div>🔴 Classify glomerular diseases into primary, secondary, and hereditary. List the key terminologies.</div>
     <div class="ans">
       <h3>A) Primary Glomerular Diseases</h3>
       <p>Minimal-Change Disease (lipoid nephrosis) · Membranous Glomerulonephritis · Membranoproliferative GN (MPGN) · Focal Segmental Glomerulosclerosis (FSGS) · IgA Nephropathy (Berger disease) · Chronic GN · Acute GN · Rapidly Progressive (Crescentic) GN (RPGN)</p>
@@ -221,10 +231,10 @@
       <p><strong>Four features of glomerular disease (general):</strong> proteinuria, haematuria, hypertension, and disturbed excretory function — in varying combinations depending on the underlying condition.</p>
       <p class="ref">Robbins 10e pp.898, 901 · Harsh Mohan 7e p.647 · Arif pp.228–229</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the 5 glomerular syndromes and their manifestations? (Important for VIVA)</summary>
+  <div class="qcard">
+    </div>What are the 5 glomerular syndromes and their manifestations? (Important for VIVA)</div>
     <div class="ans">
       <table>
         <tr><th>Syndrome</th><th>Manifestations</th></tr>
@@ -236,13 +246,13 @@
       </table>
       <p class="ref">Robbins 10e p.898 · Harsh Mohan 7e p.647 · Arif p.228</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 6: NEPHRITIC ============ -->
   <h2 id="nephritic">6 · Nephritic Syndrome (Acute Glomerulonephritis)</h2>
 
-  <details>
-    <summary>🔴 Define nephritic syndrome / Acute Glomerulonephritis (AGN). What are its causes?</summary>
+  <div class="qcard">
+    </div>🔴 Define nephritic syndrome / Acute Glomerulonephritis (AGN). What are its causes?</div>
     <div class="ans">
       <p><strong>Definition:</strong> A glomerular disease characterised by <strong>inflammation in the glomeruli</strong>, manifested as <strong>haematuria</strong> (red blood cells and RBC casts in urine), <strong>proteinuria</strong> (usually subnephrotic range), with or without <strong>oedema, azotaemia, and hypertension</strong>.</p>
       <h3>Causes of Nephritic Syndrome (AGN):</h3>
@@ -256,10 +266,10 @@
       <p><strong>B. Systemic Diseases:</strong> Goodpasture syndrome (pulmonary haemorrhage + renal failure), SLE (Lupus nephritis), PAN, GPA (Wegener), Microscopic Polyangiitis, HSP, Cryoglobulinaemia.</p>
       <p class="ref">Robbins 10e p.906 · Harsh Mohan 7e p.648 · Arif pp.229–230</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the pathogenesis of Post-Streptococcal Glomerulonephritis (PSGN).</summary>
+  <div class="qcard">
+    </div>🔴 Describe the pathogenesis of Post-Streptococcal Glomerulonephritis (PSGN).</div>
     <div class="ans">
       <p><strong>Causative agent:</strong> Group A β-haemolytic streptococcus (<em>Streptococcus pyogenes</em>).</p>
       <p><strong>Lag period:</strong> 1–4 weeks after streptococcal pharyngitis (sore throat) or skin infection (infected scabies/impetigo).</p>
@@ -272,10 +282,10 @@
       <p><strong>Final common pathway:</strong> Ag-Ab complexes implanted in GBM → activation of <strong>classical complement pathway</strong> → formation of Chemotactic factors + Membrane Attack Complex (MAC) → aggregation of neutrophils &amp; macrophages → release of enzymes → injury to epithelial, endothelial &amp; mesangial cells → <strong>AGN</strong>.</p>
       <p class="ref">Robbins 10e p.906 · Arif pp.230–231</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the morphology (gross + microscopic) of Acute Diffuse Proliferative GN.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the morphology (gross + microscopic) of Acute Diffuse Proliferative GN.</div>
     <div class="ans">
       <h3>Macroscopic (Gross):</h3>
       <ul>
@@ -291,10 +301,10 @@
       </ul>
       <p class="ref">Robbins 10e p.908 · Arif pp.231</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the clinical features and complications of AGN.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the clinical features and complications of AGN.</div>
     <div class="ans">
       <h3>Clinical Features:</h3>
       <ul>
@@ -317,22 +327,22 @@
       </ol>
       <p class="ref">Robbins 10e p.909 · Arif pp.231–232</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write about the prognosis of AGN.</summary>
+  <div class="qcard">
+    </div>Write about the prognosis of AGN.</div>
     <div class="ans">
       <p><strong>Children:</strong> &gt;95% eventually recover completely with conservative therapy. A small minority (&lt;1%) become severely oliguric, develop RPGN, and a few may progress to chronic GN (chronic renal failure).</p>
       <p><strong>Adults:</strong> About 60% recover promptly; some develop RPGN; others develop chronic GN.</p>
       <p class="ref">Robbins 10e p.909 · Arif p.232</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 7: NEPHROTIC ============ -->
   <h2 id="nephrotic">7 · Nephrotic Syndrome</h2>
 
-  <details>
-    <summary>🔴 Define nephrotic syndrome. Enumerate its causes. Differentiate primary causes in children vs adults.</summary>
+  <div class="qcard">
+    </div>🔴 Define nephrotic syndrome. Enumerate its causes. Differentiate primary causes in children vs adults.</div>
     <div class="ans">
       <p><strong>Definition:</strong> A glomerular syndrome characterised by <span class="hot">massive proteinuria (≥3.5 g/day)</span>, <strong>hypoalbuminaemia</strong> (plasma albumin &lt;3 g/dl), <strong>generalised oedema</strong>, <strong>hyperlipidaemia</strong>, and <strong>lipiduria</strong>.</p>
       <h3>Causes of Nephrotic Syndrome:</h3>
@@ -348,10 +358,10 @@
       <div class="mnem">🎯 <strong>Children</strong> → primary glomerulonephritis most common; most frequent = MCD (65%). <strong>Adults</strong> → systemic diseases (DM, amyloidosis, SLE) more frequent; most common primary = Membranous GN (40%).</div>
       <p class="ref">Robbins 10e pp.896, 912 · Harsh Mohan 7e p.648 · Arif pp.232–233</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the laboratory findings in nephrotic syndrome?</summary>
+  <div class="qcard">
+    </div>What are the laboratory findings in nephrotic syndrome?</div>
     <div class="ans">
       <ol>
         <li><strong>Urinalysis (R/M/E):</strong> Massive proteinuria (albumin +++/++++); casts: hyaline &amp; granular casts may be present</li>
@@ -364,13 +374,13 @@
       </ol>
       <p class="ref">Arif p.236</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 8: AGN vs NEPHROTIC ============ -->
   <h2 id="compare">8 · Comparison: AGN vs Nephrotic Syndrome</h2>
 
-  <details>
-    <summary>🔴 Differentiate between nephritic syndrome (AGN) and nephrotic syndrome. (V.V.V. for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Differentiate between nephritic syndrome (AGN) and nephrotic syndrome. (V.V.V. for VIVA)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Nephritic Syndrome (AGN)</th><th>Nephrotic Syndrome</th></tr>
@@ -391,10 +401,10 @@
       </table>
       <p class="ref">Robbins 9e pp.906, 911 · Harsh Mohan 7e p.649 · Arif pp.233–234</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the urinary findings in AGN and nephrotic syndrome?</summary>
+  <div class="qcard">
+    </div>What are the urinary findings in AGN and nephrotic syndrome?</div>
     <div class="ans">
       <table>
         <tr><th>Examination</th><th>Nephritic (AGN)</th><th>Nephrotic</th></tr>
@@ -413,10 +423,10 @@
       </table>
       <p class="ref">Prof. Khaleque p.204 · Harsh Mohan 7e p.649 · Arif p.233</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A boy of 10 years has periorbital oedema after sore throat 2 weeks ago. What is the diagnosis?</summary>
+  <div class="qcard">
+    </div>A boy of 10 years has periorbital oedema after sore throat 2 weeks ago. What is the diagnosis?</div>
     <div class="ans">
       <p><strong>Provisional diagnosis:</strong> Acute Glomerulonephritis (post-streptococcal).</p>
       <p><strong>Positive urine findings (R/M/E):</strong></p>
@@ -426,25 +436,25 @@
       <li><strong>Microscopic:</strong> RBC = plenty; Cast = RBC cast; Epithelial cells = absent</li>
       </ul>
     </div>
-  </details>
-  <details>
-    <summary>What are the positive urine findings?</summary>
+  </div>
+  <div class="qcard">
+    </div>What are the positive urine findings?</div>
     <div class="ans">
       <p><strong>Other investigations:</strong> CBC (leukocytosis), Serum C₃ (reduced), ASO titer (raised), Renal biopsy (only if atypical presentation).</p>
       <p><strong>Note:</strong> Important D/D is nephrotic syndrome — but age would be 2–6 yr, oliguria absent, oedema generalised.</p>
       <p class="ref">Arif pp.234–236</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A boy of 10 years passes 10 gm protein/day. Serum albumin 25 g/L. Diagnosis?</summary>
+  <div class="qcard">
+    </div>A boy of 10 years passes 10 gm protein/day. Serum albumin 25 g/L. Diagnosis?</div>
     <div class="ans">
       <p><strong>Diagnosis:</strong> Nephrotic syndrome (likely Minimal Change Disease — renal biopsy shows no significant changes on light microscopy).</p>
       <p><strong>Investigations:</strong></p>
     </div>
-  </details>
-  <details>
-    <summary>Investigations?</summary>
+  </div>
+  <div class="qcard">
+    </div>Investigations?</div>
     <div class="ans">
       <ul>
       <li>Urine R/M/E — massive proteinuria (++++); hyaline &amp; granular casts</li>
@@ -457,13 +467,13 @@
       </ul>
       <p class="ref">Arif pp.236</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 9: MCD ============ -->
   <h2 id="mcd">9 · Minimal Change Disease (Lipoid Nephrosis)</h2>
 
-  <details>
-    <summary>🔴 Write about Minimal Change Disease (lipoid nephrosis). Why is it called lipoid nephrosis?</summary>
+  <div class="qcard">
+    </div>🔴 Write about Minimal Change Disease (lipoid nephrosis). Why is it called lipoid nephrosis?</div>
     <div class="ans">
       <p><strong>Definition:</strong> The prototype of nephrotic syndrome. Characterised by <strong>diffuse effacement of foot processes of podocytes</strong> on electron microscopy, with glomeruli appearing virtually normal by light microscopy.</p>
       <p><strong>Peak incidence:</strong> 2–6 years of age. <span class="hot">Dramatic response to corticosteroid therapy</span> (highly steroid-sensitive).</p>
@@ -479,13 +489,13 @@
       <p><strong>Prognosis:</strong> Excellent — despite massive proteinuria, renal function remains good; excellent long-term prognosis for children and adults.</p>
       <p class="ref">Robbins 10e p.914 · BRS Pathology 5e p.265 · Arif pp.237</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 10: MEMBRANOUS ============ -->
   <h2 id="membranous">10 · Membranous Nephropathy</h2>
 
-  <details>
-    <summary>What is membranous nephropathy? Describe its morphology.</summary>
+  <div class="qcard">
+    </div>What is membranous nephropathy? Describe its morphology.</div>
     <div class="ans">
       <p><strong>Definition:</strong> A common cause of the <span class="hot">nephrotic syndrome in adults</span>. Characterised by <strong>diffuse thickening of the glomerular capillary wall</strong> due to accumulation of deposits containing immunoglobulin along the subepithelial side of the basement membrane.</p>
       <h3>Morphology:</h3>
@@ -496,13 +506,13 @@
       </ul>
       <p class="ref">Robbins 10e p.913 · BRS Pathology 5e p.265 · Arif p.237</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 11: IgA ============ -->
   <h2 id="iga">11 · IgA Nephropathy (Berger Disease)</h2>
 
-  <details>
-    <summary>🔴 Write a short note on IgA nephropathy (Berger disease).</summary>
+  <div class="qcard">
+    </div>🔴 Write a short note on IgA nephropathy (Berger disease).</div>
     <div class="ans">
       <p><strong>Definition:</strong> One of the most common causes of <strong>recurrent microscopic or gross haematuria</strong> and the <span class="hot">most common glomerular disease worldwide</span>. Characterised by <strong>deposition of IgA in the mesangium</strong>.</p>
       <h3>Pathogenesis:</h3>
@@ -515,13 +525,13 @@
       </ol>
       <p class="ref">Robbins 10e p.920 · Arif p.238</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 12: CGN ============ -->
   <h2 id="cgn">12 · Chronic Glomerulonephritis</h2>
 
-  <details>
-    <summary>What are the causes of chronic glomerulonephritis?</summary>
+  <div class="qcard">
+    </div>What are the causes of chronic glomerulonephritis?</div>
     <div class="ans">
       <p><strong>Chronic GN</strong> refers to end-stage glomerular disease that may result from specific types of GN or develop without antecedent history of any well-recognised acute GN form.</p>
       <p><strong>Primary glomerular diseases that lead to chronic GN:</strong></p>
@@ -535,13 +545,13 @@
       </ul>
       <p class="ref">Robbins 9e p.925 · Arif p.238</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 13: DIABETIC ============ -->
   <h2 id="diabetic">13 · Diabetic Nephropathy</h2>
 
-  <details>
-    <summary>🔴 Write a short note on diabetic nephropathy. What are the lesions and morphology?</summary>
+  <div class="qcard">
+    </div>🔴 Write a short note on diabetic nephropathy. What are the lesions and morphology?</div>
     <div class="ans">
       <p><strong>Definition:</strong> The conglomerate of lesions that often occur concurrently in the diabetic kidney. It is one of the leading causes of chronic kidney failure. Advanced/end-stage kidney disease occurs in as many as <strong>40%</strong> of both Type 1 and Type 2 diabetes.</p>
       <h3>Glomerular Syndromes in Diabetic Nephropathy:</h3>
@@ -564,13 +574,13 @@
       </ul>
       <p class="ref">Robbins 10e pp.923, 1118 · BRS Pathology 5e p.265 · Arif pp.238–239</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 14: ATN ============ -->
   <h2 id="tubular">14 · Acute Tubular Injury / Necrosis (ATI / ATN)</h2>
 
-  <details>
-    <summary>🔴 Define acute tubular injury (ATI) / acute tubular necrosis (ATN). Give its types, pathogenesis, and morphology.</summary>
+  <div class="qcard">
+    </div>🔴 Define acute tubular injury (ATI) / acute tubular necrosis (ATN). Give its types, pathogenesis, and morphology.</div>
     <div class="ans">
       <p><strong>Definition:</strong> A clinicopathologic entity characterised by damage to tubular epithelial cells and an <span class="hot">acute decline in renal function</span>, often associated with shedding of granular casts and tubular cells into the urine. It is the <strong>most common cause of acute kidney injury (AKI)</strong> and may produce oliguria (&lt;400 mL/day).</p>
       <h3>Types &amp; Causes:</h3>
@@ -585,13 +595,13 @@
       <p>Electrolyte abnormalities · Acidosis · Uraemia · Fluid overload with oliguria.</p>
       <p class="ref">Robbins Basic Pathology 10e pp.562, 567–569 · Robbins 10e p.924 · Arif pp.239–240</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 15: PYELONEPHRITIS ============ -->
   <h2 id="pyelo">15 · Pyelonephritis</h2>
 
-  <details>
-    <summary>🔴 Define pyelonephritis. What are its types, etiology, and routes of infection?</summary>
+  <div class="qcard">
+    </div>🔴 Define pyelonephritis. What are its types, etiology, and routes of infection?</div>
     <div class="ans">
       <p><strong>Definition:</strong> Inflammation affecting the <strong>tubules, interstitium, and renal pelvis</strong>. One of the most common diseases of the kidney.</p>
       <h3>Types:</h3>
@@ -614,10 +624,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.927–928 · Arif pp.240–241</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the predisposing factors and complications of acute pyelonephritis?</summary>
+  <div class="qcard">
+    </div>What are the predisposing factors and complications of acute pyelonephritis?</div>
     <div class="ans">
       <h3>Predisposing Factors:</h3>
       <ol>
@@ -637,22 +647,22 @@
       <li><strong>Perinephric abscess</strong></li>
       </ul>
     </div>
-  </details>
-  <details>
-    <summary>What are the urinary findings?</summary>
+  </div>
+  <div class="qcard">
+    </div>What are the urinary findings?</div>
     <div class="ans">
       <h3>Urinary Findings:</h3>
       <p><strong>Acute:</strong> Protein = trace amount; Microscopy = many leucocytes (pyuria), leucocyte/neutrophil casts (pus casts), some RBCs, epithelial cells, bacteria (bacteriuria); Urine culture = positive.</p>
       <p><strong>Chronic:</strong> Protein in small amount; pus cells.</p>
       <p class="ref">Robbins 10e pp.928–930 · Arif pp.241</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 16: UTI ============ -->
   <h2 id="uti">16 · Urinary Tract Infection (UTI)</h2>
 
-  <details>
-    <summary>Define UTI. Why is it more common in females? Name the common pathogens.</summary>
+  <div class="qcard">
+    </div>Define UTI. Why is it more common in females? Name the common pathogens.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Presence and multiplication of bacteria in the urinary tract.</p>
       <h3>Types:</h3>
@@ -671,13 +681,13 @@
       </ul>
       <p class="ref">Robbins 8e p.939 · Arif pp.241–242</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 17: ARF ============ -->
   <h2 id="arf">17 · Acute Renal Failure (ARF) / Acute Kidney Injury (AKI)</h2>
 
-  <details>
-    <summary>🔴 Define acute renal failure / AKI. Classify its causes. Describe the stages.</summary>
+  <div class="qcard">
+    </div>🔴 Define acute renal failure / AKI. Classify its causes. Describe the stages.</div>
     <div class="ans">
       <p><strong>Definition:</strong> A sudden, usually reversible loss of renal function developing over days to weeks, usually accompanied by reduced urine volume. Characterised by rapid decline in GFR (within hours to days) with dysregulation of fluid/electrolyte balance and retention of metabolic waste products (urea, creatinine).</p>
       <h3>Causes (Prerenal / Renal / Postrenal):</h3>
@@ -692,10 +702,10 @@
       </ol>
       <p class="ref">Davidson 21e pp.482–483 · Robbins 10e p.898 · Arif pp.242–243</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A girl of 6 years has watery diarrhoea and then cessation of micturition. Explain the mechanisms involved.</summary>
+  <div class="qcard">
+    </div>A girl of 6 years has watery diarrhoea and then cessation of micturition. Explain the mechanisms involved.</div>
     <div class="ans">
       <p><strong>Pathogenesis (stepwise):</strong></p>
       <ol>
@@ -710,13 +720,13 @@
       </ol>
       <p class="ref">Arif p.243</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 18: CRF ============ -->
   <h2 id="crf">18 · Chronic Renal Failure (CRF) / Chronic Kidney Disease (CKD)</h2>
 
-  <details>
-    <summary>🔴 Define CRF/CKD. What are its causes?</summary>
+  <div class="qcard">
+    </div>🔴 Define CRF/CKD. What are its causes?</div>
     <div class="ans">
       <p><strong>Definition:</strong> Irreversible deterioration in renal function that develops over years. Defined as a <strong>persistently diminished GFR &lt;60 mL/min/1.73 m²</strong> for at least 3 months, from any cause, and/or persistent albuminuria.</p>
       <h3>Causes:</h3>
@@ -733,13 +743,13 @@
       </table>
       <p class="ref">Davidson 21e p.487 · Arif p.244</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 19: TUMOUR CLASSIFICATION ============ -->
   <h2 id="tumours">19 · Kidney Tumours — Classification</h2>
 
-  <details>
-    <summary>🔴 Classify kidney tumours (benign and malignant).</summary>
+  <div class="qcard">
+    </div>🔴 Classify kidney tumours (benign and malignant).</div>
     <div class="ans">
       <h3>1. Benign Tumours:</h3>
       <ul>
@@ -764,13 +774,13 @@
       <p><strong>Secondary:</strong> Blood-borne metastases chiefly from lung, breast, stomach cancers.</p>
       <p class="ref">Robbins Basic Pathology 10e pp.578–580 · Robbins 10e p.948 · Arif p.244</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 20: RCC ============ -->
   <h2 id="rcc">20 · Renal Cell Carcinoma (RCC)</h2>
 
-  <details>
-    <summary>🔴 Write about RCC: definition, risk factors, morphology, and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Write about RCC: definition, risk factors, morphology, and clinical features.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Derived from renal tubular epithelium (adenocarcinoma). Represents <span class="hot">80–85% of all primary malignant renal neoplasms</span> and 2–3% of all adult cancers.</p>
       <h3>Risk Factors / Causes:</h3>
@@ -809,17 +819,17 @@
       <div class="mnem">🎯 Classic triad: <strong>Painless haematuria + palpable abdominal mass + dull flank pain</strong></div>
       <p class="ref">Robbins Basic Pathology 10e pp.578–580 · Robbins 10e pp.948–950 · Arif pp.244–246</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A male 55 yr with haematuria, loin pain, palpable lumbar mass. Diagnosis?</summary>
+  <div class="qcard">
+    </div>A male 55 yr with haematuria, loin pain, palpable lumbar mass. Diagnosis?</div>
     <div class="ans">
       <p><strong>Likely diagnosis:</strong> Renal Cell Carcinoma.</p>
       <p><strong>Investigations:</strong></p>
     </div>
-  </details>
-  <details>
-    <summary>Investigations?</summary>
+  </div>
+  <div class="qcard">
+    </div>Investigations?</div>
     <div class="ans">
       <ol>
       <li>Urine R/E — RBC; Cytology — malignant cells may be present</li>
@@ -834,13 +844,13 @@
       </ol>
       <p class="ref">Arif pp.245–246</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 21: WILMS ============ -->
   <h2 id="wilms">21 · Wilms Tumour (Nephroblastoma)</h2>
 
-  <details>
-    <summary>🔴 Write a short note on Wilms tumour: pathogenesis, morphology, and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Write a short note on Wilms tumour: pathogenesis, morphology, and clinical features.</div>
     <div class="ans">
       <p><strong>Definition:</strong> The <span class="hot">most common primary renal tumour of childhood</span>. Usually occurs between 2–5 years of age. ~5–10% involve both kidneys.</p>
       <h3>Pathogenesis:</h3>
@@ -871,13 +881,13 @@
       </ul>
       <p class="ref">Robbins 10e p.480 · Arif pp.246–247</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 22: STONES ============ -->
   <h2 id="stones">22 · Renal Stones (Urolithiasis)</h2>
 
-  <details>
-    <summary>🔴 Classify renal stones. What is a staghorn calculus? Name common causes and who is most affected.</summary>
+  <div class="qcard">
+    </div>🔴 Classify renal stones. What is a staghorn calculus? Name common causes and who is most affected.</div>
     <div class="ans">
       <h3>Types of Renal Calculi (4 main types):</h3>
       <table>
@@ -899,13 +909,13 @@
       </ul>
       <p class="ref">Robbins Basic Pathology 10e p.576 · Robbins 10e p.947 · Arif pp.247–248</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ SECTION 23: BLADDER ============ -->
   <h2 id="bladder">23 · Urinary Bladder — Cystitis &amp; Tumours</h2>
 
-  <details>
-    <summary>Write short notes on acute and chronic cystitis. What are the predisposing factors and symptoms?</summary>
+  <div class="qcard">
+    </div>Write short notes on acute and chronic cystitis. What are the predisposing factors and symptoms?</div>
     <div class="ans">
       <h3>Etiology (Causative Organisms):</h3>
       <p><strong>1. Coliform bacteria:</strong> <em>E. coli</em>, <em>Proteus</em>, <em>Klebsiella</em>, <em>Enterobacter</em>, Tuberculous cystitis, <em>Chlamydia</em>, <em>Mycoplasma</em></p>
@@ -922,10 +932,10 @@
       </ol>
       <p class="ref">Robbins 10e p.955 · Arif pp.248</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the complications of bladder stone and the tumours of the urinary bladder?</summary>
+  <div class="qcard">
+    </div>What are the complications of bladder stone and the tumours of the urinary bladder?</div>
     <div class="ans">
       <h3>Complications of Bladder Calculus:</h3>
       <p>Bladder outlet obstruction · Infection · Anuria &amp; retention of urine · Haematuria · Chronic bladder dysfunction · Bladder cancer.</p>
@@ -951,10 +961,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.957–958, 962 · Arif pp.249</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Enumerate the causes of urinary tract obstruction (obstructive uropathy).</summary>
+  <div class="qcard">
+    </div>Enumerate the causes of urinary tract obstruction (obstructive uropathy).</div>
     <div class="ans">
       <p><strong>Causes organised by category:</strong></p>
       <ol>
@@ -969,13 +979,13 @@
       </ol>
       <p class="ref">Robbins 10e p.945 · Arif p.229</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============ RAPID-FIRE ============ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs — Renal System)</h2>
 
-  <details class="rapid" open>
-    <summary>Renal System — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Renal System — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Urinary findings of nephrotic syndrome include: RBC cast (F), pyuria (F), lipiduria (F), massive proteinuria (T), hyaline cast (T)?</div>
@@ -1069,7 +1079,7 @@
       <div class="a">Post-streptococcal GN, <strong>RPGN</strong>, <strong>Membranous nephropathy</strong>, MPGN, IgA nephropathy, FSGS (any 3).</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

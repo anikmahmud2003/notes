@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. What is biopsy and autopsy? How histopathology helps the autopsy procedure?</b></summary>
+### Q1. What is biopsy and autopsy? How histopathology helps the autopsy procedure?
 
 ### Definitions
 - 🔴 **Biopsy = removal of a small piece of tissue from a LIVING patient for diagnostic examination** (e.g., tumour typing/grading, confirming inflammation, transplant surveillance).
@@ -30,10 +29,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Define & classify biopsy. Write shortly on core biopsy.</b></summary>
+### Q2. Define & classify biopsy. Write shortly on core biopsy.
 
 ### Definition
 **Biopsy = removal of tissue from a living patient for diagnostic (microscopic) examination.** The technique is chosen by the **site, size and nature** of the lesion and by how much tissue is needed.
@@ -63,10 +60,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. State the steps in histopathology.</b></summary>
+### Q3. State the steps in histopathology.
 
 ```
 Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sectioning → Staining → Mounting → Microscopy & report
@@ -88,10 +83,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What is Frozen Section? Write its indication, use, limitation.</b></summary>
+### Q4. What is Frozen Section? Write its indication, use, limitation.
 
 ### Definition
 🔴 **A frozen section is a rapid tissue diagnosis made WHILE THE PATIENT IS STILL ON THE OPERATING TABLE** by freezing the fresh tissue instead of the multi-day paraffin process.
@@ -121,10 +114,8 @@ Guides the surgical decision **in the same sitting** and avoids a second operati
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.</b></summary>
+### Q5. What is tissue preservatives? Name some preservatives & aims. Mention steps of tissue processing.
 
 ### Definition
 **Tissue preservatives = agents that keep tissue from deteriorating after removal**, preventing **autolysis** (self-digestion by the tissue's own enzymes) and **putrefaction** (decay by bacteria), so the sample remains fit for study.
@@ -154,10 +145,8 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is fixatives? Mention aim of fixation. Classification of fixatives.</b></summary>
+### Q6. What is fixatives? Mention aim of fixation. Classification of fixatives.
 
 ### Definition
 **Fixative = a chemical (or physical) agent used to FIX (preserve) tissue** so that morphology is retained close to the living state and the tissue is **hardened** for sectioning. **Fixation is the FIRST and MOST IMPORTANT step of tissue handling.**
@@ -189,10 +178,8 @@ Fixation → Dehydration (ascending alcohol) → Clearing (xylene) → Wax impre
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?</b></summary>
+### Q7. Mention the steps of tissue processing. Why tissue must undergo processing for histopathology?
 
 ### Steps (in order)
 ```
@@ -218,10 +205,8 @@ Fixation → Dehydration → Clearing → Wax impregnation → Embedding → Sec
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What are the staining methods used in histopathology? What is the purpose of staining?</b></summary>
+### Q8. What are the staining methods used in histopathology? What is the purpose of staining?
 
 ### Purpose of staining
 - Fixed tissue sections are **colourless** and show no contrast — **stains make components visible under the microscope**.
@@ -258,4 +243,3 @@ Antibody-based staining for **specific proteins/antigens** (e.g., CK, CD markers
 
 ---
 
-</details>

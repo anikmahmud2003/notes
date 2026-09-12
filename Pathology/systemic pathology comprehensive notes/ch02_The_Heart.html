@@ -66,7 +66,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -90,8 +100,8 @@
 
   <h2 id="class">1 · Classification of Heart Diseases</h2>
 
-  <details id="q1">
-    <summary>🔴 Name the major cardiac diseases. Classify congenital heart disease.</summary>
+  <div class="qcard" id="q1">
+    </div>🔴 Name the major cardiac diseases. Classify congenital heart disease.</div>
     <div class="ans">
       <p><strong>Classification of heart diseases (complete):</strong></p>
       <ol>
@@ -114,10 +124,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.527–580; Arif pp.45–46</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 List the causes of chest pain.</summary>
+  <div class="qcard">
+    </div>📌 List the causes of chest pain.</div>
     <div class="ans">
       <h3>A. Central causes</h3>
       <ol>
@@ -136,12 +146,12 @@
       </ol>
       <p class="ref">Robbins 10e p.529; Davidson's 23e p.177</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="chd">2 · Congenital Heart Disease (CHD)</h2>
 
-  <details>
-    <summary>🔴 Short note: Congenital heart disease. What are the three major categories?</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Congenital heart disease. What are the three major categories?</div>
     <div class="ans">
       <p><strong>Congenital heart disease (CHD)</strong> = abnormalities of the heart or great vessels present at birth. Most arise from <strong>faulty embryogenesis during gestational weeks 3–8</strong>, when major cardiovascular structures form. <span class="hot">Incidence: ~5% of live births.</span></p>
       <p>A <strong>shunt</strong> is an abnormal communication between chambers or vessels. Blood flows down pressure gradients from left (systemic) to right (pulmonary) side or vice versa.</p>
@@ -154,12 +164,12 @@
       </table>
       <p class="ref">Robbins 10e pp.534–536; Arif pp.48–49</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="tof">3 · Tetralogy of Fallot (TOF)</h2>
 
-  <details>
-    <summary>🔴 Short note: Tetralogy of Fallot. Give the four cardinal features, clinical features, and morphology.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Tetralogy of Fallot. Give the four cardinal features, clinical features, and morphology.</div>
     <div class="ans">
       <p><strong>Tetralogy of Fallot (TOF)</strong> — the four cardinal features (mnemonic: <strong>V.V.O.V</strong>):</p>
       <ol>
@@ -180,20 +190,20 @@
       <p><strong>Treatment:</strong> complete surgical repair is possible for classic TOF but more complicated for persons with pulmonary atresia and dilated bronchial arteries.</p>
       <p class="ref">Robbins 10e p.538; Arif p.49</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Tetralogy of Fallot</summary>
-    <details>
-      <summary>Components of tetralogy of Fallot: Left ventricular hypertrophy · Right ventricular hypertrophy · Ventricular septal defect · Atrial septal defect · Aortic stenosis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Tetralogy of Fallot</div>
+    <div class="qcard">
+      </div>Components of tetralogy of Fallot: Left ventricular hypertrophy · Right ventricular hypertrophy · Ventricular septal defect · Atrial septal defect · Aortic stenosis</div>
       <div class="ans">Left ventricular hypertrophy <span class="ff">F</span> · Right ventricular hypertrophy <span class="tf">T</span> · Ventricular septal defect <span class="tf">T</span> · Atrial septal defect <span class="ff">F</span> · Aortic stenosis <span class="ff">F</span> (the obstruction is subpulmonary, not aortic) <span class="ref">(RMU-22M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="hf">4 · Heart Failure</h2>
 
-  <details>
-    <summary>🔴 Define heart failure. What is pressure-overload vs volume-overload hypertrophy?</summary>
+  <div class="qcard">
+    </div>🔴 Define heart failure. What is pressure-overload vs volume-overload hypertrophy?</div>
     <div class="ans">
       <p><strong>Heart failure</strong> = the condition in which the heart cannot pump blood to adequately meet the metabolic demands of peripheral tissues, or can do so only at elevated filling pressures.</p>
       <h3>Patterns of hypertrophy (Robbins)</h3>
@@ -205,10 +215,10 @@
       <p>In dilated hearts, <strong>heart weight</strong> (not wall thickness) is the best measure of hypertrophy.</p>
       <p class="ref">Robbins 10e pp.530–532</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the causes and morphologic changes in left-sided heart failure?</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes and morphologic changes in left-sided heart failure?</div>
     <div class="ans">
       <p><strong>Causes of left-sided heart failure:</strong></p>
       <ul>
@@ -232,10 +242,10 @@
       </ul>
       <p class="ref">Robbins 10e p.532; Arif pp.50–52</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the causes and morphologic changes in right-sided heart failure?</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes and morphologic changes in right-sided heart failure?</div>
     <div class="ans">
       <p><strong>Causes:</strong></p>
       <ol>
@@ -264,12 +274,12 @@
       <p><strong>Cardinal features of congestive cardiac failure (bilateral):</strong> bilateral basal crepitations + raised JVP + tender hepatomegaly + dependent oedema.</p>
       <p class="ref">Robbins 10e p.533; Arif pp.51–52</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="ihd">5 · Ischaemic Heart Disease (IHD)</h2>
 
-  <details>
-    <summary>🔴 Define and classify ischaemic heart disease (IHD). Why is it called coronary artery disease?</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify ischaemic heart disease (IHD). Why is it called coronary artery disease?</div>
     <div class="ans">
       <p><strong>Ischaemic heart disease (IHD)</strong> = a group of related entities resulting from <strong>myocardial ischaemia</strong> — an imbalance between myocardial supply (perfusion) and cardiac demand for oxygenated blood.</p>
       <p>In &gt;90% of cases, myocardial ischaemia results from reduced blood flow due to obstructive <strong>atherosclerotic lesions in the epicardial coronary arteries</strong> → hence IHD is frequently called <strong>coronary artery disease (CAD)</strong>.</p>
@@ -291,10 +301,10 @@
       <div class="mnem">🎯 Atherosclerotic lesions in coronary arteries: highest incidence in <strong>LAD</strong> (left anterior descending) &gt; RCA (right coronary) &gt; CXA (circumflex). One-third single-vessel, one-third two-vessel, one-third three-vessel disease.</div>
       <p class="ref">Robbins 10e pp.542–543; BRS Pathology 5e p.137; Harsh Mohan 7e p.407</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the risk factors for IHD / MI? (major + additional)</summary>
+  <div class="qcard">
+    </div>🔴 What are the risk factors for IHD / MI? (major + additional)</div>
     <div class="ans">
       <h3>Non-modifiable (constitutional)</h3>
       <ol>
@@ -327,10 +337,10 @@
       </ul>
       <p class="ref">Robbins 10e p.494; BRS Pathology 5e p.124; Harsh Mohan 7e p.373</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss the pathogenesis of IHD. What are the non-atherosclerotic causes?</summary>
+  <div class="qcard">
+    </div>🔴 Discuss the pathogenesis of IHD. What are the non-atherosclerotic causes?</div>
     <div class="ans">
       <p>The dominant cause of IHD = partial or complete interruption of arterial blood flow to the myocardium → insufficient coronary perfusion relative to myocardial demand.</p>
       <h3>Three broad headings of etiology</h3>
@@ -352,12 +362,12 @@
       <p><strong>Consequences of myocardial ischaemia</strong> (depending on suddenness, duration, degree, location, extent): stable angina, unstable angina, MI, SCD.</p>
       <p class="ref">Robbins 10e p.542; BRS Pathology 5e p.137; Harsh Mohan 7e p.408</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="angina">6 · Angina Pectoris</h2>
 
-  <details>
-    <summary>🔴 Define angina pectoris. Describe the three types.</summary>
+  <div class="qcard">
+    </div>🔴 Define angina pectoris. Describe the three types.</div>
     <div class="ans">
       <p><strong>Angina pectoris</strong> (literally "chest pain") = paroxysmal, usually recurrent attacks of substernal or precordial chest discomfort caused by <strong>transient (15 seconds to 15 minutes) myocardial ischaemia</strong> insufficient to induce myocyte necrosis.</p>
       <h3>Three types</h3>
@@ -370,20 +380,20 @@
       <div class="mnem">🎯 In angina, <strong>no elevation of enzymes</strong> in blood — there is no irreversible myocardial injury.</div>
       <p class="ref">Robbins 10e p.543; BRS Pathology 5e p.137; Harsh Mohan 7e p.409</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="mi">7 · Myocardial Infarction (MI)</h2>
 
-  <details>
-    <summary>🔴 Define myocardial infarction (MI).</summary>
+  <div class="qcard">
+    </div>🔴 Define myocardial infarction (MI).</div>
     <div class="ans">
       <p><strong>Myocardial infarction (MI)</strong> ("heart attack") = death of cardiac muscle due to <strong>prolonged ischaemia</strong>. The most important and feared consequence of coronary artery disease.</p>
       <p class="ref">Robbins 10e pp.543, 546–547</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the two patterns of MI?</summary>
+  <div class="qcard">
+    </div>What are the two patterns of MI?</div>
     <div class="ans">
       <table>
         <tr><th>Pattern</th><th>Description</th></tr>
@@ -393,18 +403,18 @@
       <p><strong>Multifocal microinfarction:</strong> pathology involving only smaller intramural vessels.</p>
       <p class="ref">Robbins 10e pp.546–547</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What type of necrosis occurs in MI?</summary>
+  <div class="qcard">
+    </div>What type of necrosis occurs in MI?</div>
     <div class="ans">
       <p><span class="hot">Coagulative necrosis</span>.</p>
       <p class="ref">Robbins 10e p.543; BRS Pathology 5e p.137; Harsh Mohan 7e p.410</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss the pathogenesis of MI. What is the "area at risk"?</summary>
+  <div class="qcard">
+    </div>🔴 Discuss the pathogenesis of MI. What is the "area at risk"?</div>
     <div class="ans">
       <h3>A. Coronary arterial occlusion</h3>
       <p><strong>a) Thrombotic occlusion (most common):</strong></p>
@@ -425,10 +435,10 @@
       <div class="mnem">🎯 Myocardial ischaemia leads to loss of function within <strong>1–2 minutes</strong> but causes necrosis only after <strong>20–30 minutes</strong>.</div>
       <p class="ref">Robbins 10e pp.544, 553; Arif pp.56–57</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the morphology of MI (gross + microscopic timeline).</summary>
+  <div class="qcard">
+    </div>🔴 Give the morphology of MI (gross + microscopic timeline).</div>
     <div class="ans">
       <table>
         <tr><th>Time after MI</th><th>Gross</th><th>Microscopic</th></tr>
@@ -445,10 +455,10 @@
       </table>
       <p class="ref">Robbins 10e p.547; Arif pp.57–58</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the clinical features of MI.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the clinical features of MI.</div>
     <div class="ans">
       <ul>
         <li>Prolonged (&gt;30 minutes) central chest pain — crushing, stabbing, or squeezing</li>
@@ -463,10 +473,10 @@
       <div class="mnem">🎯 <strong>Painless / "silent" MI:</strong> in as many as <strong>25%</strong> of patients MI is entirely asymptomatic (e.g., diabetic neuropathy) — discovered only by ECG or lab tests.</div>
       <p class="ref">Robbins 10e p.550; Davidson's 23e p.495; Arif p.58</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the biochemical changes and cardiac markers in MI with their timing.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the biochemical changes and cardiac markers in MI with their timing.</div>
     <div class="ans">
       <h3>Biochemical changes</h3>
       <ol>
@@ -504,10 +514,10 @@
       <div class="mnem">🎯 <strong>CRP</strong> (C-reactive protein): normal &lt;5 mg/L; &gt;3 mg/L = highest cardiovascular risk; 1–3 mg/L = moderate risk. Strongly predicts MI, stroke, peripheral arterial disease, SCD.</div>
       <p class="ref">Robbins 10e p.550; Davidson's 23e pp.497–498; BRS Pathology 5e p.138; Arif pp.59–60</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Mention the treatment of MI (therapeutic interventions).</summary>
+  <div class="qcard">
+    </div>📌 Mention the treatment of MI (therapeutic interventions).</div>
     <div class="ans">
       <ol>
         <li>Urgent hospitalization (CCU — coronary care unit)</li>
@@ -523,10 +533,10 @@
       </ol>
       <p class="ref">Robbins 10e p.550; Davidson's 23e p.498</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the complications of acute MI? (enumerate all 10)</summary>
+  <div class="qcard">
+    </div>🔴 What are the complications of acute MI? (enumerate all 10)</div>
     <div class="ans">
       <p>Nearly three-fourths of patients experience one or more complications:</p>
       <ol>
@@ -550,10 +560,10 @@
       <div class="mnem">🎯 One-third of patients with STEMI (ST-elevation MI) at home will die — usually of arrhythmia within 1 hour of symptom onset, before medical attention.</div>
       <p class="ref">Robbins 10e p.551; BRS Pathology 5e pp.138–139; Arif p.61</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>📌 Clinical scenario: 50-year-old male with sudden severe chest pain, sweating, loss of consciousness. Diagnosis and expected biochemical findings?</summary>
+  <div class="qcard">
+    </div>📌 Clinical scenario: 50-year-old male with sudden severe chest pain, sweating, loss of consciousness. Diagnosis and expected biochemical findings?</div>
     <div class="ans">
       <p><strong>Probable diagnosis:</strong> acute myocardial infarction (MI).</p>
       <p><strong>Expected biochemical findings:</strong></p>
@@ -565,52 +575,52 @@
       </ul>
       <p class="ref">Arif pp.62</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Ischaemic heart disease &amp; Myocardial infarction</summary>
-    <details>
-      <summary>Examples of IHD: Angina pectoris · Chronic ischaemic heart disease · Infective endocarditis · Hypertrophic cardiomyopathy · Sudden cardiac death</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Ischaemic heart disease &amp; Myocardial infarction</div>
+    <div class="qcard">
+      </div>Examples of IHD: Angina pectoris · Chronic ischaemic heart disease · Infective endocarditis · Hypertrophic cardiomyopathy · Sudden cardiac death</div>
       <div class="ans">Angina pectoris <span class="tf">T</span> · Chronic IHD <span class="tf">T</span> · Infective endocarditis <span class="ff">F</span> · Hypertrophic cardiomyopathy <span class="ff">F</span> · Sudden cardiac death <span class="tf">T</span> <span class="ref">(CMU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Changes observed in acute MI: Raised troponin-I · Raised serum creatinine · Leukopenia · Blood cholesterol &gt;200 mg/dl · Lactate dehydrogenase</summary>
+    </div>
+    <div class="qcard">
+      </div>Changes observed in acute MI: Raised troponin-I · Raised serum creatinine · Leukopenia · Blood cholesterol &gt;200 mg/dl · Lactate dehydrogenase</div>
       <div class="ans">Raised troponin-I <span class="tf">T</span> · Raised serum creatinine <span class="ff">F</span> · Leukopenia <span class="ff">F</span> (leukocytosis occurs) · Cholesterol &gt;200 mg/dl <span class="ff">F</span> · Lactate dehydrogenase <span class="tf">T</span> <span class="ref">(DU-21Ja)</span></div>
-    </details>
-    <details>
-      <summary>Markers for IHD: CK-MB · LDH · ALT · AST · Troponin-I</summary>
+    </div>
+    <div class="qcard">
+      </div>Markers for IHD: CK-MB · LDH · ALT · AST · Troponin-I</div>
       <div class="ans">CK-MB <span class="tf">T</span> · LDH <span class="tf">T</span> · ALT <span class="ff">F</span> (liver marker) · AST <span class="tf">T</span> · Troponin-I <span class="tf">T</span> <span class="ref">(CU-19Nv)</span></div>
-    </details>
-    <details>
-      <summary>Diagnostic markers of MI: CPK · ALT · AST · Troponin-I · Acid phosphatase</summary>
+    </div>
+    <div class="qcard">
+      </div>Diagnostic markers of MI: CPK · ALT · AST · Troponin-I · Acid phosphatase</div>
       <div class="ans">CPK <span class="tf">T</span> · ALT <span class="ff">F</span> · AST <span class="tf">T</span> · Troponin-I <span class="tf">T</span> · Acid phosphatase <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
-    </details>
-    <details>
-      <summary>Enzymes of clinical importance in MI: Serum amylase · CPK · Pyruvate kinase · Lactate dehydrogenase · Aspartate aminotransferase</summary>
+    </div>
+    <div class="qcard">
+      </div>Enzymes of clinical importance in MI: Serum amylase · CPK · Pyruvate kinase · Lactate dehydrogenase · Aspartate aminotransferase</div>
       <div class="ans">Serum amylase <span class="ff">F</span> (pancreatic) · CPK <span class="tf">T</span> · Pyruvate kinase <span class="ff">F</span> · LDH <span class="tf">T</span> · AST <span class="tf">T</span> <span class="ref">(DU-17Nv)</span></div>
-    </details>
-    <details>
-      <summary>Changes in acute MI: Raised troponin-I · Creatine kinase-MM · Neutrophilic leukocytosis · Blood cholesterol &gt;200 mg/dl · Raised CRP</summary>
+    </div>
+    <div class="qcard">
+      </div>Changes in acute MI: Raised troponin-I · Creatine kinase-MM · Neutrophilic leukocytosis · Blood cholesterol &gt;200 mg/dl · Raised CRP</div>
       <div class="ans">Troponin-I <span class="tf">T</span> · CK-MM <span class="ff">F</span> (CK-MB is cardiac; CK-MM is skeletal) · Neutrophilic leukocytosis <span class="tf">T</span> · Cholesterol &gt;200 mg/dl <span class="ff">F</span> · Raised CRP <span class="tf">T</span> <span class="ref">(DU-17M)</span></div>
-    </details>
-    <details>
-      <summary>Morphological features of acute MI depend on: Age of patient · Rate of development of coronary obstruction · Sex · Extent of collateral circulation · Duration of occlusion</summary>
+    </div>
+    <div class="qcard">
+      </div>Morphological features of acute MI depend on: Age of patient · Rate of development of coronary obstruction · Sex · Extent of collateral circulation · Duration of occlusion</div>
       <div class="ans">Age <span class="tf">T</span> · Rate of obstruction <span class="tf">T</span> · Sex <span class="ff">F</span> · Extent of collateral circulation <span class="ff">F</span> · Duration of occlusion <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
-    </details>
-    <details>
-      <summary>Myocardial infarction is associated with: Fibrinoid necrosis of myocardium · Raised LDH · Ventricular aneurysm · Leukocytosis · Myocarditis</summary>
+    </div>
+    <div class="qcard">
+      </div>Myocardial infarction is associated with: Fibrinoid necrosis of myocardium · Raised LDH · Ventricular aneurysm · Leukocytosis · Myocarditis</div>
       <div class="ans">Fibrinoid necrosis <span class="ff">F</span> (coagulative necrosis) · Raised LDH <span class="tf">T</span> · Ventricular aneurysm <span class="tf">T</span> · Leukocytosis <span class="tf">T</span> · Myocarditis <span class="ff">F</span> <span class="ref">(DU-12Ju)</span></div>
-    </details>
-    <details>
-      <summary>Complications of MI include: Rheumatic heart disease · Contractile dysfunction · Myxoma · Myocardial rupture · Pericarditis</summary>
+    </div>
+    <div class="qcard">
+      </div>Complications of MI include: Rheumatic heart disease · Contractile dysfunction · Myxoma · Myocardial rupture · Pericarditis</div>
       <div class="ans">RHD <span class="ff">F</span> · Contractile dysfunction <span class="tf">T</span> · Myxoma <span class="ff">F</span> · Myocardial rupture <span class="tf">T</span> · Pericarditis <span class="ff">F</span> <span class="ref">(DU-11Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="scd">8 · Sudden Cardiac Death (SCD)</h2>
 
-  <details>
-    <summary>🔴 Short note: Sudden cardiac death (SCD). Give the causes.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Sudden cardiac death (SCD). Give the causes.</div>
     <div class="ans">
       <p><strong>Sudden cardiac death (SCD)</strong> = unexpected death from cardiac causes, either without symptoms, or within <strong>1–24 hours of symptom onset</strong> (Pathoma: &lt;1 hour).</p>
       <p><strong>Mechanism:</strong> most often a lethal arrhythmia (asystole or ventricular fibrillation).</p>
@@ -631,12 +641,12 @@
       </ol>
       <p class="ref">Robbins 10e pp.551, 555; Arif pp.62–63</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="veg">9 · Vegetative Heart Disease</h2>
 
-  <details>
-    <summary>🔴 Name the vegetative heart diseases. Compare the four major forms of vegetative endocarditis.</summary>
+  <div class="qcard">
+    </div>🔴 Name the vegetative heart diseases. Compare the four major forms of vegetative endocarditis.</div>
     <div class="ans">
       <p><strong>Vegetation</strong> = complex of thrombotic debris and organisms, often resulting from colonisation/invasion of heart valves or mural endocardium by a microbe, with destruction of underlying cardiac tissue. (Thrombi on heart valves = vegetations; may be infected or sterile.)</p>
       <h3>Three categories of vegetative heart disease</h3>
@@ -655,12 +665,12 @@
       </table>
       <p class="ref">Robbins 10e pp.561–562; Arif pp.63–64</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rhd">10 · Rheumatic Fever &amp; Rheumatic Heart Disease</h2>
 
-  <details>
-    <summary>🔴 Define rheumatic fever (RF) and rheumatic heart disease (RHD). Which valve is most commonly involved?</summary>
+  <div class="qcard">
+    </div>🔴 Define rheumatic fever (RF) and rheumatic heart disease (RHD). Which valve is most commonly involved?</div>
     <div class="ans">
       <p><strong>Rheumatic fever (RF)</strong> = an acute, immunologically mediated, multisystem inflammatory disease occurring a few weeks after <strong>group A streptococcal pharyngitis</strong>; occasionally follows streptococcal skin infections. Affects children <strong>5–15 years</strong>, 1–4 weeks after pharyngitis.</p>
       <p><strong>Rheumatic heart disease (RHD)</strong> = the chronic stage of RF involving all layers of the heart (<strong>pancarditis</strong>), characterised principally by <strong>deforming fibrotic valvular disease</strong>, particularly the mitral valve.</p>
@@ -672,10 +682,10 @@
       <div class="mnem">🎯 RHD is virtually the <strong>only cause of mitral stenosis</strong>.</div>
       <p class="ref">Robbins 10e p.560; Harsh Mohan 7e p.418; BRS Pathology 5e p.139</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Enumerate the Jones criteria for diagnosis of rheumatic fever. (major + minor + supporting evidence)</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the Jones criteria for diagnosis of rheumatic fever. (major + minor + supporting evidence)</div>
     <div class="ans">
       <p>Diagnosis requires <strong>2 major OR 1 major + 2 minor manifestations</strong> PLUS evidence of preceding streptococcal infection.</p>
       <h3>Major manifestations</h3>
@@ -703,10 +713,10 @@
       </ol>
       <p class="ref">Robbins 10e p.562; Davidson's 23e p.515; BRS Pathology 5e p.140; Arif pp.65–66</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write the pathogenesis of rheumatic fever.</summary>
+  <div class="qcard">
+    </div>🔴 Write the pathogenesis of rheumatic fever.</div>
     <div class="ans">
       <p>RF is a <strong>post-infectious immunologic disease</strong> — cross-reaction of antibodies (produced against streptococcal antigens) with host proteins. An autoimmune reaction incited by streptococcal infection.</p>
       <h3>Molecular mimicry — step by step</h3>
@@ -720,10 +730,10 @@
       <p><strong>Autoimmunity:</strong> in some cases, streptococcal infection can evoke an autoimmune response against cardiac self-antigens.</p>
       <p class="ref">Robbins 10e p.561; Arif pp.66–67</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write the morphology of acute and chronic rheumatic heart disease. What is an Aschoff body?</summary>
+  <div class="qcard">
+    </div>🔴 Write the morphology of acute and chronic rheumatic heart disease. What is an Aschoff body?</div>
     <div class="ans">
       <h3>A) Morphology of acute rheumatic heart disease</h3>
       <p>Focal inflammatory lesions in various tissues, most distinctive within the heart = <strong>Aschoff nodules / Aschoff bodies</strong>.</p>
@@ -754,10 +764,10 @@
       <p><strong>Anitschkow cells</strong> = enlarged macrophages within Aschoff bodies with nuclei showing: longitudinal section → <strong>caterpillar-like serrated nuclear chromatin</strong>; cross-section → <strong>owl-eye appearance</strong> of central chromatin mass with perinuclear halo.</p>
       <p class="ref">Robbins 10e p.561; BRS Pathology 5e p.139; Harsh Mohan 7e pp.420–422; Arif pp.67–68</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the cardiac lesions of rheumatic fever (endocarditis, myocarditis, pericarditis).</summary>
+  <div class="qcard">
+    </div>🔴 Write down the cardiac lesions of rheumatic fever (endocarditis, myocarditis, pericarditis).</div>
     <div class="ans">
       <p>Cardiac lesions of RF = <strong>pancarditis</strong> — focal inflammatory involvement of interstitial tissue of all three heart layers.</p>
       <h3>1. Rheumatic endocarditis</h3>
@@ -768,10 +778,10 @@
       <p>Inflammatory involvement of the pericardium → breathlessness or chest pain.</p>
       <p class="ref">Harsh Mohan 7e pp.420–422; Davidson's 23e p.515; Arif p.69</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Enumerate the complications of rheumatic fever. What is the most common cause of death in acute RF?</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the complications of rheumatic fever. What is the most common cause of death in acute RF?</div>
     <div class="ans">
       <h3>Complications</h3>
       <ol>
@@ -787,68 +797,68 @@
       <p><strong>Most common cause of death in acute rheumatic fever:</strong> <span class="hot">acute rheumatic myocarditis</span>.</p>
       <p class="ref">Robbins 10e p.562; Pathoma Lecture Notes; Arif pp.69–70</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Rheumatic fever &amp; rheumatic heart disease</summary>
-    <details>
-      <summary>Major criteria of rheumatic fever: Pancarditis · Raised ASO titer · Erythema marginatum · Arthralgia · Subcutaneous nodules</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Rheumatic fever &amp; rheumatic heart disease</div>
+    <div class="qcard">
+      </div>Major criteria of rheumatic fever: Pancarditis · Raised ASO titer · Erythema marginatum · Arthralgia · Subcutaneous nodules</div>
       <div class="ans">Pancarditis <span class="tf">T</span> · Raised ASO titer <span class="ff">F</span> (supporting evidence, not a major criterion) · Erythema marginatum <span class="tf">T</span> · Arthralgia <span class="ff">F</span> (minor criterion) · Subcutaneous nodules <span class="tf">T</span> <span class="ref">(DU-23Nv)</span></div>
-    </details>
-    <details>
-      <summary>Jones criteria include: Polyarthritis · Carditis · Subcutaneous nodule · Arthralgia · Fever</summary>
+    </div>
+    <div class="qcard">
+      </div>Jones criteria include: Polyarthritis · Carditis · Subcutaneous nodule · Arthralgia · Fever</div>
       <div class="ans">Polyarthritis <span class="ff">F</span> (major) · Carditis <span class="ff">F</span> (major) · Subcutaneous nodule <span class="tf">T</span> (major) · Arthralgia <span class="tf">T</span> (minor) · Fever <span class="tf">T</span> (minor) <span class="ref">(BUP-22Nv)</span></div>
-    </details>
-    <details>
-      <summary>Regarding rheumatic fever: Usually has a history of sore throat by group A β-hemolytic strep · Associated with rheumatoid arthritis · Late complication of congenital heart disease · More common in children · Most frequent cause of mitral stenosis</summary>
+    </div>
+    <div class="qcard">
+      </div>Regarding rheumatic fever: Usually has a history of sore throat by group A β-hemolytic strep · Associated with rheumatoid arthritis · Late complication of congenital heart disease · More common in children · Most frequent cause of mitral stenosis</div>
       <div class="ans">Sore throat history <span class="tf">T</span> · RA association <span class="ff">F</span> · Late complication of CHD <span class="ff">F</span> · More common in children <span class="tf">T</span> · Most frequent cause of mitral stenosis <span class="tf">T</span> <span class="ref">(DU-17M)</span></div>
-    </details>
-    <details>
-      <summary>Major criteria of rheumatic heart disease: Raised ASO titer · Sydenham chorea · Raised ESR · Leukocytosis · Subcutaneous nodule</summary>
+    </div>
+    <div class="qcard">
+      </div>Major criteria of rheumatic heart disease: Raised ASO titer · Sydenham chorea · Raised ESR · Leukocytosis · Subcutaneous nodule</div>
       <div class="ans">ASO titer <span class="tf">T</span> (supporting evidence of strep) · Sydenham chorea <span class="tf">T</span> · Raised ESR <span class="ff">F</span> (minor) · Leukocytosis <span class="ff">F</span> (minor) · Subcutaneous nodule <span class="tf">T</span> <span class="ref">(DU-15Ju)</span></div>
-    </details>
-    <details>
-      <summary>Associated with rheumatic fever: High ESR · Aschoff body giant cells · Genetic predisposition · Leukopenia · Carditis due to bacterial invasion</summary>
+    </div>
+    <div class="qcard">
+      </div>Associated with rheumatic fever: High ESR · Aschoff body giant cells · Genetic predisposition · Leukopenia · Carditis due to bacterial invasion</div>
       <div class="ans">High ESR <span class="tf">T</span> (minor) · Aschoff giant cells <span class="tf">T</span> · Genetic predisposition <span class="ff">F</span> · Leukopenia <span class="ff">F</span> · Carditis due to bacterial invasion <span class="tf">T</span> (immunologically mediated post-infection) <span class="ref">(RU-13Ja)</span></div>
-    </details>
-    <details>
-      <summary>Complications of rheumatic heart disease: Systemic hypertension · Pulmonary valve deformity · Ventricular tachycardia · Pancarditis · Mural thrombus</summary>
+    </div>
+    <div class="qcard">
+      </div>Complications of rheumatic heart disease: Systemic hypertension · Pulmonary valve deformity · Ventricular tachycardia · Pancarditis · Mural thrombus</div>
       <div class="ans">Systemic HTN <span class="ff">F</span> · Pulmonary valve deformity <span class="tf">T</span> · Ventricular tachycardia <span class="ff">F</span> · Pancarditis <span class="tf">T</span> · Mural thrombus <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
-    </details>
-    <details>
-      <summary>Hypertensive heart disease includes: Left ventricular hypertrophy · Right ventricular hypertrophy · Cor pulmonale · Acute myocardial infarction · Ventricular tachycardia</summary>
+    </div>
+    <div class="qcard">
+      </div>Hypertensive heart disease includes: Left ventricular hypertrophy · Right ventricular hypertrophy · Cor pulmonale · Acute myocardial infarction · Ventricular tachycardia</div>
       <div class="ans">LVH <span class="tf">T</span> · RVH <span class="tf">T</span> (late, secondary to pulmonary HTN) · Cor pulmonale <span class="ff">F</span> · Acute MI <span class="ff">F</span> · Ventricular tachycardia <span class="tf">T</span> <span class="ref">(DU-10Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details>
-    <summary>📌 Clinical scenario (6-yr boy, joint pain, rash, nodules after sore throat, ESR 70, ASO 500): what is the diagnosis?</summary>
+  <div class="qcard">
+    </div>📌 Clinical scenario (6-yr boy, joint pain, rash, nodules after sore throat, ESR 70, ASO 500): what is the diagnosis?</div>
     <div class="ans">
       <p><strong>Probable diagnosis: acute rheumatic fever.</strong> (ASO titre elevated + clinical features fit the modified Jones criteria.)</p>
       <p class="ref">Robbins 10e p.561</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>In that rheumatic fever case: what changes occur in the myocardium?</summary>
+  <div class="qcard">
+    </div>In that rheumatic fever case: what changes occur in the myocardium?</div>
     <div class="ans">
       <p>Focal interstitial inflammation called <strong>Aschoff bodies</strong> (granulomatous lesions) — consisting of fragmented collagen, fibrinoid material, plump activated macrophages (Anitschkow cells), and occasional multinucleated giant cells (Aschoff giant cells).</p>
       <p class="ref">Robbins 10e p.561; BRS Pathology 5e p.139</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>In that rheumatic fever case: is a giant cell seen?</summary>
+  <div class="qcard">
+    </div>In that rheumatic fever case: is a giant cell seen?</div>
     <div class="ans">
       <p>Yes — <strong>Aschoff cells / Aschoff giant cells</strong> (multinucleated giant cells within Aschoff bodies).</p>
       <p class="ref">Robbins 10e p.561; Arif p.70</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="ie">11 · Infective Endocarditis (IE)</h2>
 
-  <details>
-    <summary>🔴 Classify endocarditis. Define infective endocarditis. Compare acute vs subacute IE.</summary>
+  <div class="qcard">
+    </div>🔴 Classify endocarditis. Define infective endocarditis. Compare acute vs subacute IE.</div>
     <div class="ans">
       <p><strong>Endocarditis</strong> = inflammation of the inner layer (endocardium) of the heart, usually involving the heart valves, characterised by the prototypic lesion — the <strong>vegetation</strong>.</p>
       <h3>Classification by etiology</h3>
@@ -874,10 +884,10 @@
       </table>
       <p class="ref">Robbins 10e p.563; BRS Pathology 5e p.141; Harsh Mohan 7e p.425; Arif pp.70–71</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss the etiopathogenesis of infective endocarditis.</summary>
+  <div class="qcard">
+    </div>🔴 Discuss the etiopathogenesis of infective endocarditis.</div>
     <div class="ans">
       <h3>A. Etiology</h3>
       <p><strong>Causative agents:</strong></p>
@@ -901,10 +911,10 @@
       <p>Organisms entering bloodstream → implanted on cardiac valves or mural endocardium via <strong>surface adhesion molecules</strong> mediating adherence to injured endocardium.</p>
       <p class="ref">Robbins 10e p.563; Harsh Mohan 7e p.425; Arif pp.71–72</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the complications of infective endocarditis? (cardiac + extracardiac)</summary>
+  <div class="qcard">
+    </div>🔴 What are the complications of infective endocarditis? (cardiac + extracardiac)</div>
     <div class="ans">
       <h3>A. Cardiac complications</h3>
       <ul>
@@ -926,12 +936,12 @@
       <div class="mnem">🎯 Causes of death in IE: cardiac failure, persistent infection, embolism to vital organs, renal failure, rupture of mycotic aneurysm of cerebral arteries.</div>
       <p class="ref">Robbins 10e p.564; Harsh Mohan 7e p.428; Arif pp.72–73</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="cm">12 · Cardiomyopathies</h2>
 
-  <details>
-    <summary>🔴 Define cardiomyopathy. Classify it (primary vs secondary; anatomical patterns).</summary>
+  <div class="qcard">
+    </div>🔴 Define cardiomyopathy. Classify it (primary vs secondary; anatomical patterns).</div>
     <div class="ans">
       <p><strong>Cardiomyopathy</strong> (literally "heart muscle disease") = any cardiac dysfunction resulting from a myocardial abnormality.</p>
       <h3>By aetiology</h3>
@@ -947,12 +957,12 @@
       </ol>
       <p class="ref">Robbins 10e p.567; Arif p.73</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="myocarditis">13 · Myocarditis</h2>
 
-  <details>
-    <summary>🔴 Define myocarditis. Enumerate its causes (infectious, immune, unknown).</summary>
+  <div class="qcard">
+    </div>🔴 Define myocarditis. Enumerate its causes (infectious, immune, unknown).</div>
     <div class="ans">
       <p><strong>Myocarditis</strong> = a diverse group of pathologic entities in which infectious microorganisms and/or immune reactions injure the heart.</p>
       <h3>Major causes</h3>
@@ -981,12 +991,12 @@
       </ul>
       <p class="ref">Robbins 10e p.575; Arif p.74</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="pericarditis">14 · Pericarditis</h2>
 
-  <details>
-    <summary>🔴 Define and classify pericarditis. Enumerate its causes.</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify pericarditis. Enumerate its causes.</div>
     <div class="ans">
       <p><strong>Pericarditis</strong> = inflammation of the pericardium. May occur secondary to cardiac, thoracic, or systemic disorders, metastases, or cardiac surgery.</p>
       <h3>Classification</h3>
@@ -1003,10 +1013,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.577–578; Arif pp.74–75</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give an account of constrictive pericarditis.</summary>
+  <div class="qcard">
+    </div>🔴 Give an account of constrictive pericarditis.</div>
     <div class="ans">
       <p><strong>Constrictive pericarditis:</strong> the heart is encased in a dense, fibrous or fibrocalcific scar that limits diastolic expansion and seriously restricts cardiac output — resembling restrictive cardiomyopathy.</p>
       <ul>
@@ -1017,12 +1027,12 @@
       </ul>
       <p class="ref">Robbins 10e p.578; Arif p.75</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="tumours">15 · Tumours of the Heart</h2>
 
-  <details>
-    <summary>🔴 Name the tumours of the heart (primary benign, primary malignant, metastatic).</summary>
+  <div class="qcard">
+    </div>🔴 Name the tumours of the heart (primary benign, primary malignant, metastatic).</div>
     <div class="ans">
       <h3>1. Primary cardiac tumours</h3>
       <p><strong>Benign:</strong></p>
@@ -1041,12 +1051,12 @@
       <p>Most frequently from <strong>lung &amp; breast carcinomas, melanomas, leukaemias, and lymphomas</strong>.</p>
       <p class="ref">Robbins 10e pp.527–580; Arif p.75</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Heart MCQs from ch18)</h2>
 
-  <details class="rapid" open>
-    <summary>The Heart — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>The Heart — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">Major criteria of rheumatic fever (Jones criteria): Pancarditis (T/F), Raised ASO titer (T/F), Erythema marginatum (T/F), Arthralgia (T/F), Subcutaneous nodules (T/F).</div>
       <div class="a">Pancarditis = <strong>True</strong> · Raised ASO titer = <strong>False</strong> (ASO is supporting evidence, not a major criterion) · Erythema marginatum = <strong>True</strong> · Arthralgia = <strong>False</strong> (minor criterion) · Subcutaneous nodules = <strong>True</strong>.</div>
@@ -1105,7 +1115,7 @@
       <div class="q">🎯 One-liner: Most common valve in RHD? "Fish mouth" / "buttonhole" stenosis = ? "Boot-shaped" heart = ? Most common cause of SCD in first hour post-MI? Earliest cardiac marker in MI? Most sensitive &amp; specific marker in MI?</div>
       <div class="a">Most common valve in RHD = <strong>Mitral valve (65–70%)</strong> · Fish mouth stenosis = <strong>Chronic RHD mitral stenosis</strong> · Boot-shaped heart = <strong>Tetralogy of Fallot</strong> · Most common cause of SCD in first hour post-MI = <strong>Arrhythmia (VF)</strong> · Earliest cardiac marker = <strong>Myoglobin</strong> · Most sensitive &amp; specific = <strong>Troponin-I</strong>.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch01_Blood_Vessels.html">← Ch 01 · Blood Vessels</a></span>

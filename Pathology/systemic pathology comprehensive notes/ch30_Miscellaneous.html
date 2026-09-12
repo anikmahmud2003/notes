@@ -55,7 +55,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -89,8 +99,8 @@
   <!-- ============================================================ -->
   <h2 id="vdrl">1 · VDRL Test (Syphilis Screening)</h2>
 
-  <details>
-    <summary>🔴 Write a short note on the VDRL (Venereal Disease Research Laboratory) test. What are its advantages and disadvantages?</summary>
+  <div class="qcard">
+    </div>🔴 Write a short note on the VDRL (Venereal Disease Research Laboratory) test. What are its advantages and disadvantages?</div>
     <div class="ans">
       <p><strong>VDRL (Venereal Disease Research Laboratory) test:</strong> the most commonly used simple and rapid screening test for <strong>syphilis</strong>, caused by the spirochaete <em>Treponema pallidum</em>.</p>
       <ul>
@@ -119,15 +129,15 @@
       </table>
       <p class="ref">Arif 15e (2025) Vol-2, p.499 · Prof. Akram 3rd Ed, pp.241–242</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!--  SECTION 2 — HYPOALBUMINAEMIA                                -->
   <!-- ============================================================ -->
   <h2 id="hypoalbum">2 · Causes of Hypoalbuminaemia</h2>
 
-  <details>
-    <summary>🔴 Mention and classify the causes of hypoalbuminaemia.</summary>
+  <div class="qcard">
+    </div>🔴 Mention and classify the causes of hypoalbuminaemia.</div>
     <div class="ans">
       <p><strong>Hypoalbuminaemia:</strong> serum albumin concentration below the normal range (normal ≈ 3.5–5.0 g/dL). Albumin is synthesised exclusively by the liver and accounts for ~60% of total serum protein — its level reflects the balance between <strong>synthesis, intake, absorption, and loss</strong>.</p>
       <h3>Classification of causes (four-pillar framework)</h3>
@@ -148,15 +158,15 @@
       <div class="mnem">🎯 <strong>"4 I's of hypoalbuminaemia":</strong> Intake ↓ · Intestinal absorption ↓ · (hepatic) Insufficient synthesis ↑ · Increased loss (renal/GI/skin).</div>
       <p class="ref">Arif 15e (2025) Vol-2, p.499 · Robbins 10e, Ch 18 (Liver, pp. 835–838)</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <!--  SECTION 3 — TRIPLE ANTIGEN TEST                             -->
   <!-- ============================================================ -->
   <h2 id="triple">3 · Triple Antigen Test (Widal, Weil-Felix, Brucella Agglutination)</h2>
 
-  <details>
-    <summary>🔴 By which triple antigen test, which organisms can be detected? Describe each component.</summary>
+  <div class="qcard">
+    </div>🔴 By which triple antigen test, which organisms can be detected? Describe each component.</div>
     <div class="ans">
       <p>The <strong>Triple Antigen test</strong> is a multiplex serological screening assay used to simultaneously detect agglutinating antibodies against three major febrile-illness pathogens. It is performed by mixing patient serum with a cocktail of three standardised antigens on a single slide or test card.</p>
       <table>
@@ -180,31 +190,31 @@
       <div class="mnem">🎯 <strong>Triple Antigen = "W-W-B":</strong> <strong>W</strong>idal (Salmonella) · <strong>W</strong>eil-Felix (Rickettsia) · <strong>B</strong>rucella (Brucella).</div>
       <p class="ref">Arif 15e (2025) Vol-2, p.499 · Ananthanarayan &amp; Paniker's Textbook of Microbiology, 10th Ed</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Correctly matched items</summary>
-    <details>
-      <summary>Correctly matched: Ketonuria — old diabetes mellitus · Increased lymphocytes — pyogenic meningitis · Increased PT — anticoagulant overdose · Pseudocyesis — positive pregnancy test · Albumin-globulin ratio altered — Crohn's disease</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Correctly matched items</div>
+    <div class="qcard">
+      </div>Correctly matched: Ketonuria — old diabetes mellitus · Increased lymphocytes — pyogenic meningitis · Increased PT — anticoagulant overdose · Pseudocyesis — positive pregnancy test · Albumin-globulin ratio altered — Crohn's disease</div>
       <div class="ans">Ketonuria—old DM <span class="tf">T</span> · Increased lymphocytes—pyogenic meningitis <span class="ff">F</span> (pyogenic = neutrophils) · Increased PT—anticoagulant overdose <span class="tf">T</span> · Pseudocyesis—positive pregnancy test <span class="tf">T</span> · A:G ratio altered—Crohn's disease <span class="ff">F</span> <span class="ref">(RU-18M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Values within normal limit</summary>
-    <details>
-      <summary>Within normal limits: FBS 5.5 mmol/L · Serum creatinine 3.4 mg/dL · Blood urea 120 mg/dL · Triglycerides 180 mg/dL · Serum PSA 0.4 U/L</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Values within normal limit</div>
+    <div class="qcard">
+      </div>Within normal limits: FBS 5.5 mmol/L · Serum creatinine 3.4 mg/dL · Blood urea 120 mg/dL · Triglycerides 180 mg/dL · Serum PSA 0.4 U/L</div>
       <div class="ans">FBS 5.5 mmol/L <span class="tf">T</span> (normal &lt;5.6 mmol/L) · Creatinine 3.4 mg/dL <span class="ff">F</span> (normal 0.6–1.2) · Blood urea 120 mg/dL <span class="ff">F</span> (normal 15–40) · Triglycerides 180 mg/dL <span class="ff">F</span> (normal &lt;150) · PSA 0.4 U/L <span class="tf">T</span> (normal &lt;4.0) <span class="ref">(DU-13Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <!-- ============================================================ -->
   <!--  RAPID-FIRE SECTION                                           -->
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded General Clinical Pathology MCQs from ch31)</h2>
 
-  <details class="rapid" open>
-    <summary>Miscellaneous — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Miscellaneous — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
 
       <!-- ====== FOLDED: Miscellaneous MCQs from ch31 p.510 ====== -->
@@ -249,7 +259,7 @@
       <div class="a">In very high antibody titres (secondary syphilis), <strong>excess antibody saturates all antigen sites</strong>, preventing visible flocculation → false-negative result. Diluting the serum (quantitative VDRL) resolves this.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch29_Sputum_Examination.html">← Ch 29 · Sputum Examination</a></span>

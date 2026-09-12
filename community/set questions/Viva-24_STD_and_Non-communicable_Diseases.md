@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. How can you prevent and control STDs in a community? (S26,Q2)</b></summary>
+### Q1. How can you prevent and control STDs in a community? (S26,Q2)
 
 > 🔴 **STDs** = a group of communicable diseases transmitted predominantly by **sexual contact**, caused by bacterial (N. gonorrhoeae, T. pallidum, C. trachomatis, H. ducreyi), viral (HIV, HPV, HBV, HSV), protozoal, fungal & ectoparasitic agents.
 
@@ -39,10 +38,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Enumerate the risk factors of coronary heart disease. (S17,Q2)</b></summary>
+### Q2. Enumerate the risk factors of coronary heart disease. (S17,Q2)
 
 ### Risk factors of CHD (Modifiable)
 1. **Cigarette smoking.**
@@ -65,10 +62,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. State the preventive approaches for the rheumatic fever. (S25,Q2)</b></summary>
+### Q3. State the preventive approaches for the rheumatic fever. (S25,Q2)
 
 ### Prevention of rheumatic fever / rheumatic heart disease
 **1. Primary prevention (prevent first attack — treat streptococcal sore throat):**
@@ -91,10 +86,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Define obesity. List the health problems with obesity. (S28,Q7)</b></summary>
+### Q4. Define obesity. List the health problems with obesity. (S28,Q7)
 
 ### Definition of obesity
 > 🔴 **Obesity** = abnormal growth of the **adipose tissue** due to enlargement of fat cell size (**hypertrophic obesity**) or increase in fat cell number (**hyperplastic obesity**) or both.
@@ -116,4 +109,3 @@
 
 > 📖 Ch-06, Endeavour PDF pp. 274
 
-</details>

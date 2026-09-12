@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Mention the causes of pulmonary edema. What is heart failure cell?</b></summary>
+### Q1. Mention the causes of pulmonary edema. What is heart failure cell?
 
 ### Definition
 🔴 **Pulmonary edema = abnormal accumulation of fluid in the extravascular compartments of the lung (interstitium + alveolar spaces).**
@@ -52,10 +51,8 @@ Microvascular injury (sepsis/pneumonia/aspiration/toxins)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are the common fates of pulmonary embolism? What is the most common source of such embolus?</b></summary>
+### Q2. What are the common fates of pulmonary embolism? What is the most common source of such embolus?
 
 ### 🔴 Most common source
 **Deep leg vein thrombi (>95% of pulmonary emboli)** — popliteal, femoral and iliac veins **above the knee** (formed by **Virchow triad**: endothelial injury, stasis, hypercoagulability). Other sources: deep pelvic veins, right heart chambers, indwelling central venous catheters (right atrial thrombus); rare unusual emboli — fat, air/amniotic fluid, tumor.
@@ -83,10 +80,8 @@ Microvascular injury (sepsis/pneumonia/aspiration/toxins)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What is Pneumonia? Classify Pneumonia according to etiology.</b></summary>
+### Q3. What is Pneumonia? Classify Pneumonia according to etiology.
 
 ### Definition
 🔴 **Pneumonia = any infection of the lung parenchyma (distal airways + alveoli) associated with exudation of inflammatory cells into the air spaces.** It is the most common infectious cause of death worldwide; defense failures (lost cough reflex, mucociliary dysfunction, pooled secretions, impaired alveolar macrophages, congestion/edema, immune defects) allow pathogens to reach the lower respiratory tract.
@@ -111,10 +106,8 @@ Microvascular injury (sepsis/pneumonia/aspiration/toxins)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Name the common organisms that cause pneumonia (Typical, Atypical). How pneumonia can be confirmed in the lab?</b></summary>
+### Q4. Name the common organisms that cause pneumonia (Typical, Atypical). How pneumonia can be confirmed in the lab?
 
 ### Common organisms
 
@@ -145,10 +138,8 @@ Microvascular injury (sepsis/pneumonia/aspiration/toxins)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. What are the stages of lobar pneumonia? Discuss about morphology/pathology of each stage of Lobar (acute bacterial) Pneumonia.</b></summary>
+### Q5. What are the stages of lobar pneumonia? Discuss about morphology/pathology of each stage of Lobar (acute bacterial) Pneumonia.
 
 ### Definition & organism
 🔴 **Lobar pneumonia = acute bacterial pneumonia in which consolidation (exudative solidification) involves an entire lobe (or large part of it) uniformly.** Most common organism: **Streptococcus pneumoniae**; occasionally Klebsiella. Spread occurs rapidly across alveoli through **pores of Kohn** + channels of Lambert.
@@ -181,10 +172,8 @@ Abrupt onset high fever with rigors, pleuritic chest pain + friction rub, cough 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Enumerate the Complications of Pneumonia.</b></summary>
+### Q6. Enumerate the Complications of Pneumonia.
 
 ### 🔴 Complications (Robbins trio + extensions)
 
@@ -208,10 +197,8 @@ Abrupt onset high fever with rigors, pleuritic chest pain + friction rub, cough 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Mention the Difference between Lobar & Bronchopneumonia.</b></summary>
+### Q7. Mention the Difference between Lobar & Bronchopneumonia.
 
 | Feature | 🔴 **Lobar Pneumonia** | 🔴 **Bronchopneumonia (lobular)** |
 |---|---|---|
@@ -233,10 +220,8 @@ Abrupt onset high fever with rigors, pleuritic chest pain + friction rub, cough 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Write/describe Lab Diagnosis of Lobar Pneumonia.</b></summary>
+### Q8. Write/describe Lab Diagnosis of Lobar Pneumonia.
 
 ### 1. Specimen: Sputum (mainstay)
 - **Collection:** deep-cough early-morning sample in sterile wide-mouth container **before antibiotics**; reject saliva-contaminated samples (<10 pus cells/>25 epithelial cells per HPF).
@@ -271,10 +256,8 @@ Repeat CXR after 6 weeks (complete clearance expected — persistent shadow dema
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Name the types of Pulmonary TB. Discuss the pathogenesis of Primary Pulmonary TB.</b></summary>
+### Q9. Name the types of Pulmonary TB. Discuss the pathogenesis of Primary Pulmonary TB.
 
 ### Types of pulmonary tuberculosis
 
@@ -318,10 +301,8 @@ Inhalation of aerosolized droplet nuclei (1–5 µm, 1–10 bacilli)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Mention causes of chronic pneumonia? Mention the most common sites of primary TB? Give the pathogenesis of secondary TB.</b></summary>
+### Q10. Mention causes of chronic pneumonia? Mention the most common sites of primary TB? Give the pathogenesis of secondary TB.
 
 ### Part A — Causes of CHRONIC pneumonia (persisting >6 weeks)
 
@@ -359,10 +340,8 @@ ENDOGENOUS reactivation of dormant bacilli from healed primary focus
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Mention the fate/outcome of Primary tuberculosis. What is Miliary tuberculosis?</b></summary>
+### Q11. Mention the fate/outcome of Primary tuberculosis. What is Miliary tuberculosis?
 
 ### 🔴 Fate / outcome of primary TB
 
@@ -386,10 +365,8 @@ ENDOGENOUS reactivation of dormant bacilli from healed primary focus
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What is Ghon focus and Ghon complex? Mention the difference between Primary TB & Secondary TB.</b></summary>
+### Q12. What is Ghon focus and Ghon complex? Mention the difference between Primary TB & Secondary TB.
 
 ### Definitions
 - 🔴 **Ghon focus** = the initial 1–1.5 cm **subpleural parenchymal lesion of primary TB** — area of caseating granulomatous inflammation located in the lower part of the upper lobe / upper part of the lower lobe.
@@ -418,10 +395,8 @@ ENDOGENOUS reactivation of dormant bacilli from healed primary focus
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Give the pathological / morphological features of secondary TB.</b></summary>
+### Q13. Give the pathological / morphological features of secondary TB.
 
 ### Site & general plan
 🔴 **Apical/posterior segments of one or both upper lobes** — combination of **caseating granulomas + cavitation + fibrosis**; lesion may remain localized for years or smoulder/extend.
@@ -448,10 +423,8 @@ Progressive cavitary disease, tuberculous empyema, **hemoptysis** (eroded vessel
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Describe the structure of TB Granuloma. What is tuberculin/Mantoux test?</b></summary>
+### Q14. Describe the structure of TB Granuloma. What is tuberculin/Mantoux test?
 
 ### 🔴 Structure of the TUBERCULOUS GRANULOMA (from centre outward)
 
@@ -505,10 +478,8 @@ Progressive cavitary disease, tuberculous empyema, **hemoptysis** (eroded vessel
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Describe the lab diagnosis of Pulmonary TB.</b></summary>
+### Q15. Describe the lab diagnosis of Pulmonary TB.
 
 ### 1. Specimen collection
 🔴 **Three consecutive early-morning deep-cough sputum samples** (spot-morning-spot); if non-productive — gastric aspirate (children), induced sputum, **bronchoscopy with BAL**, pleural fluid, tissue biopsy (lymph node, lung).
@@ -545,10 +516,8 @@ Progressive cavitary disease, tuberculous empyema, **hemoptysis** (eroded vessel
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Short Note: BCG Vaccine, Tuberculin test, Lung Abscess, ARDS, Acute lung injury, Pulmonary edema.</b></summary>
+### Q16. Short Note: BCG Vaccine, Tuberculin test, Lung Abscess, ARDS, Acute lung injury, Pulmonary edema.
 
 ### (a) BCG Vaccine
 🔴 **Live attenuated *Mycobacterium bovis* (Bacille Calmette–Guérin)** administered intradermally, usually at birth (Bangladesh EPI schedule).
@@ -593,10 +562,8 @@ See Q14 for details — 🔴 intradermal 5 TU PPD; **induration read at 48–72 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17 (PBQ). A 78 year old man is brought to the emergency department. For the last several days he has fatigue, high fever & productive cough. A chest radiograph shows consolidation in right lower lobe. A gram stain of sputum shows a predominance of gram positive diplococci. What is the most likely diagnosis?</b></summary>
+### Q17 (PBQ). A 78 year old man is brought to the emergency department. For the last several days he has fatigue, high fever & productive cough. A chest radiograph shows consolidation in right lower lobe. A gram stain of sputum shows a predominance of gram positive diplococci. What is the most likely diagnosis?
 
 ### 🔴 Diagnosis
 **ACUTE BACTERIAL (LOBAR) PNEUMONIA due to Streptococcus pneumoniae (pneumococcal pneumonia) — right lower lobe.**
@@ -623,10 +590,8 @@ See Q14 for details — 🔴 intradermal 5 TU PPD; **induration read at 48–72 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18 (PBQ). A 35 years old Farmer presented with Productive Cough, Occasional hemoptysis, low grade fever at night for 6 months. Chest X-Ray shows multiple patchy opacities at right upper lung with right sided mild pleural effusion. What is your diagnosis? How will you confirm the diagnosis?</b></summary>
+### Q18 (PBQ). A 35 years old Farmer presented with Productive Cough, Occasional hemoptysis, low grade fever at night for 6 months. Chest X-Ray shows multiple patchy opacities at right upper lung with right sided mild pleural effusion. What is your diagnosis? How will you confirm the diagnosis?
 
 ### 🔴 Diagnosis
 **PULMONARY TUBERCULOSIS (secondary/post-primary type, right upper zone) with right-sided tuberculous pleural effusion.**
@@ -663,4 +628,3 @@ See Q14 for details — 🔴 intradermal 5 TU PPD; **induration read at 48–72 
 
 ---
 
-</details>

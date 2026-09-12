@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify congenital heart disease. Shortly describe the TOF.</b></summary>
+### Q1. Classify congenital heart disease. Shortly describe the TOF.
 
 ### Definition
 
@@ -40,10 +39,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are cyanotic and acyanotic heart diseases?</b></summary>
+### Q2. What are cyanotic and acyanotic heart diseases?
 
 🔴 **Cyanotic heart disease:** congenital lesions with a **right-to-left shunt or mixing**, so deoxygenated venous blood enters systemic circulation → **central cyanosis present from early life**.
 
@@ -71,10 +68,8 @@ pulmonary arterioles → pulmonary vascular resistance ↑↑
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. What is Rheumatic Fever? Describe the pathogenesis of Rheumatic fever.</b></summary>
+### Q3. What is Rheumatic Fever? Describe the pathogenesis of Rheumatic fever.
 
 ### Definition
 
@@ -116,10 +111,8 @@ Healing by fibrosis → repeated attacks → CHRONIC RHEUMATIC HEART DISEASE
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are the Diagnostic criteria / Clinical Feature / Jones Criteria of rheumatic fever?</b></summary>
+### Q4. What are the Diagnostic criteria / Clinical Feature / Jones Criteria of rheumatic fever?
 
 ### 🔴 Revised Jones criteria — diagnosis requires **evidence of preceding GAS infection PLUS either 2 MAJOR or 1 MAJOR + 2 MINOR criteria**
 
@@ -151,10 +144,8 @@ Onset 2–3 wk after sore throat; fever, migratory polyarthritis, chest pain/mur
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Describe Etiopathogenesis of Rheumatic heart disease.### Etiology</b></summary>
+### Q5. Describe Etiopathogenesis of Rheumatic heart disease.### Etiology
 
 1. 🔴 **Trigger organism: Group A β-hemolytic Streptococcus (Streptococcus pyogenes) pharyngitis** — virulent M-protein serotypes.
 2. **Host factors:** genetic susceptibility (HLA-DR alleles, ~3% attack rate), age 5–15 yr, malnutrition/poverty/overcrowding.
@@ -193,10 +184,8 @@ chordal shortening/fusion → MITRAL STENOSIS (fish-mouth)/MR ± AS/AR
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Enumerate complication of Rheumatic fever.</b></summary>
+### Q6. Enumerate complication of Rheumatic fever.
 
 ### Complications during the acute attack
 
@@ -225,10 +214,8 @@ chordal shortening/fusion → MITRAL STENOSIS (fish-mouth)/MR ± AS/AR
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Name the inflammatory diseases of heart. Mention the causes of pericarditis.</b></summary>
+### Q7. Name the inflammatory diseases of heart. Mention the causes of pericarditis.
 
 ### Inflammatory diseases of the heart
 
@@ -256,10 +243,8 @@ chordal shortening/fusion → MITRAL STENOSIS (fish-mouth)/MR ± AS/AR
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Write/Describe in short about aschoff body.</b></summary>
+### Q8. Write/Describe in short about aschoff body.
 
 ### Definition
 
@@ -288,10 +273,8 @@ Myocardial **interstitium especially perivascular** near small vessels (left ven
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What is Anitschkow cell? What is Infective Endocarditis?</b></summary>
+### Q9. What is Anitschkow cell? What is Infective Endocarditis?
 
 ### Anitschkow cell
 
@@ -319,10 +302,8 @@ Myocardial **interstitium especially perivascular** near small vessels (left ven
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Discuss the etiopathogenesis of Infective Endocarditis.</b></summary>
+### Q10. Discuss the etiopathogenesis of Infective Endocarditis.
 
 ### Etiology (causative organisms)
 
@@ -374,10 +355,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. List Complications of Infective Endocarditis.</b></summary>
+### Q11. List Complications of Infective Endocarditis.
 
 ### A. Local (cardiac) complications
 
@@ -408,10 +387,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What is Vegetation? Name/causes of Vegetative Heart Diseases.</b></summary>
+### Q12. What is Vegetation? Name/causes of Vegetative Heart Diseases.
 
 ### Definition
 
@@ -433,10 +410,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Short Note: Pericarditis</b></summary>
+### Q13. Short Note: Pericarditis
 
 - 🔴 **Definition:** inflammation of the pericardium (fibroserous sac around the heart); normally the sac contains <50 mL of straw-colored lubricating fluid.
 - **Types & causes:**
@@ -454,10 +429,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Short note: Cardiomyopathy</b></summary>
+### Q14. Short note: Cardiomyopathy
 
 - 🔴 **Definition (WHO/expert consensus): cardiomyopathies are heterogeneous diseases of the myocardium causing mechanical and/or electrical dysfunction, usually with inappropriate hypertrophy or dilatation, and are either confined to the heart (primary) or part of a generalized systemic disorder (secondary).** Excluded: ischemic, valvular, hypertensive, congenital heart disease.
 - **Classification (functional):**
@@ -477,10 +450,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Short note: Myocarditis.</b></summary>
+### Q15. Short note: Myocarditis.
 
 - 🔴 **Definition: myocarditis is inflammation of the myocardium associated with myocyte injury/necrosis and degeneration, caused by infectious agents, immune reactions or toxins.**
 - **Causes:**
@@ -498,10 +469,8 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Morphology of Rheumatic Heart disease (Acute & Chronic both)</b></summary>
+### Q16. Morphology of Rheumatic Heart disease (Acute & Chronic both)
 
 ### A. Acute rheumatic carditis (pancarditis — all three layers)
 
@@ -529,4 +498,3 @@ Constant shedding: SEPTIC EMBOLI + IMMUNE COMPLEX formation
 
 ---
 
-</details>

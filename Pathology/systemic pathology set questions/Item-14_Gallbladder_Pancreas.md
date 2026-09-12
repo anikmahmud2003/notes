@@ -3,8 +3,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Define cholelithiasis. Give the classification of gallstones.</b></summary>
+### Q1. Define cholelithiasis. Give the classification of gallstones.
 
 ### Definition
 
@@ -25,10 +24,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Mention the etiology / risk factors of Cholesterol gall stone.</b></summary>
+### Q2. Mention the etiology / risk factors of Cholesterol gall stone.
 
 ### Risk factors for cholesterol gallstones
 
@@ -49,10 +46,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Mention the pathogenesis of Cholesterol gallstone formation.</b></summary>
+### Q3. Mention the pathogenesis of Cholesterol gallstone formation.
 
 ### Pathogenesis of cholesterol gallstone formation
 
@@ -88,10 +83,8 @@ Crystals trapped by stagnant bile → grow + aggregate
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the complications of gallstones.</b></summary>
+### Q4. Mention the complications of gallstones.
 
 ### Complications of gallstones
 
@@ -116,10 +109,8 @@ Crystals trapped by stagnant bile → grow + aggregate
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Mention the pathogenesis of pigment gallstones.</b></summary>
+### Q5. Mention the pathogenesis of pigment gallstones.
 
 ### Pathogenesis of pigment stone formation
 
@@ -166,10 +157,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Short note: Acute cholecystitis.</b></summary>
+### Q6. Short note: Acute cholecystitis.
 
 ### Acute cholecystitis
 
@@ -191,10 +180,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What are the morphological changes in chronic cholecystitis?</b></summary>
+### Q7. What are the morphological changes in chronic cholecystitis?
 
 ### Morphology of chronic cholecystitis
 
@@ -223,10 +210,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What type of carcinoma occurs in the gall bladder?</b></summary>
+### Q8. What type of carcinoma occurs in the gall bladder?
 
 ### Carcinoma of the gallbladder
 
@@ -246,10 +231,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What are the common causes of acute pancreatitis?</b></summary>
+### Q9. What are the common causes of acute pancreatitis?
 
 ### Common causes of acute pancreatitis
 
@@ -275,10 +258,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. What are the clinical presentations of acute pancreatitis? How it is diagnosed in laboratory?</b></summary>
+### Q10. What are the clinical presentations of acute pancreatitis? How it is diagnosed in laboratory?
 
 ### Clinical presentations
 
@@ -310,10 +291,8 @@ Recurrent cholangitis, hepatolithiasis → risk of cholangiocarcinoma
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Problem-based question: A woman presents with right upper quadrant abdominal pain for the past 6 hours. The pain suddenly starts after a heavy fatty meal and radiates to her right shoulder and back. She has associated nausea and vomiting. On examination, Murphy's sign is positive. Blood picture shows leucocytosis. Questions: (a) What is your clinical diagnosis? (b) Mention the pathogenesis. (c) Mention the complications.</b></summary>
+### Q11. Problem-based question: A woman presents with right upper quadrant abdominal pain for the past 6 hours. The pain suddenly starts after a heavy fatty meal and radiates to her right shoulder and back. She has associated nausea and vomiting. On examination, Murphy's sign is positive. Blood picture shows leucocytosis. Questions: (a) What is your clinical diagnosis? (b) Mention the pathogenesis. (c) Mention the complications.
 
 ### (a) Clinical diagnosis
 
@@ -370,4 +349,3 @@ neutrophilic infiltrate ± necrosis (gangrenous) — leukocytosis
 
 ---
 
-</details>

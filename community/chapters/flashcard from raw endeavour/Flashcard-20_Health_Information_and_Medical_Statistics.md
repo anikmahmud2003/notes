@@ -24,14 +24,11 @@ For international information on vital statistics:
 - The epidemiological and vital statistical reports of the WHO.
 . [Ref- Park / 24" / 877]
 
-<details>
-<summary><b>Q. Define data. [DU-14J, RU-18N,13Ju, SUST-18N/M, 14Ju/J,12J]<br>Q. Classify data with example. [DU-18M,16M/J,12Ju, RU-18N, 13Ju, SUST-18N,15Ju, 14Ju,12J, CU-17N,16N,14J,13Ju]</b></summary>
+### Q. Define data. [DU-14J, RU-18N,13Ju, SUST-18N/M, 14Ju/J,12J]<br>Q. Classify data with example. [DU-18M,16M/J,12Ju, RU-18N, 13Ju, SUST-18N,15Ju, 14Ju,12J, CU-17N,16N,14J,13Ju]
 
 _Q. Define data. [DU-14J, RU-18N,13Ju, SUST-18N/M, 14Ju/J,12J]_
-</details>
 
-<details>
-<summary><b>Q. Classify data with example based on measurements. [RU-17N]<br>Q. Classify sources of data. [DU-16N]<br>Q. State the sources from where data can be collected. [SUST-08J]<br>Q. Write short note on: Data. [CU-16J]</b></summary>
+### Q. Classify data with example based on measurements. [RU-17N]<br>Q. Classify sources of data. [DU-16N]<br>Q. State the sources from where data can be collected. [SUST-08J]<br>Q. Write short note on: Data. [CU-16J]
 
 **Data:**
 Data consists of discrete observations of attributes or events.
@@ -59,16 +56,12 @@ vaccinated; anaemic, not anaemic etc,
 ‘ ya ues in any given interval. e.g. height in cm. Here fraction is possible.
 ) ! iscrete data: A discrete value is one which can have only finite number of value in any given
 interval; e.g. number of hospital bed. Here fraction is not possible. :
-</details>
 
-<details>
-<summary><b>Q. Describe the different types of data collection.<br>Q. What are the methods of data collection? [DU-18N,17N, SUST-18N, | 5Ju, 14Ju,12J, RU-15J, CU-17N,16N,12Ju]</b></summary>
+### Q. Describe the different types of data collection.<br>Q. What are the methods of data collection? [DU-18N,17N, SUST-18N, | 5Ju, 14Ju,12J, RU-15J, CU-17N,16N,12Ju]
 
 _Q. Describe the different types of data collection._
-</details>
 
-<details>
-<summary><b>Q. How data can be collected? [CU-13Ju, SUST-14J]</b></summary>
+### Q. How data can be collected? [CU-13Ju, SUST-14J]
 
 **Methods / types of data collection:** There are several methods of data collection. Important ones are:
 1) Observational Method: This is the most commonly used method of data collection. Under the
@@ -117,16 +110,12 @@ a
 7) Depth interview
 8) Content analysis.
 [Ref- C. R. Kothary /2"4/ 117]
-</details>
 
-<details>
-<summary><b>Q. What are the methods of data presentation? [RU-17N,16M,15J,14J,11Ju, SUST-18M,13J,12J, 10J]</b></summary>
+### Q. What are the methods of data presentation? [RU-17N,16M,15J,14J,11Ju, SUST-18M,13J,12J, 10J]
 
 _Q. What are the methods of data presentation? [RU-17N,16M,15J,14J,11Ju, SUST-18M,13J,12J, 10J]_
-</details>
 
-<details>
-<summary><b>Q. How data can be presented? [DU-15J, SUST-15J]<br>Q. How can you present your research findings? [RU-13J]<br>Q. What are the types of statistical table? [RU-10J]<br>Q. Write short note on: Methods of data presentation. [SUST-17N]</b></summary>
+### Q. How data can be presented? [DU-15J, SUST-15J]<br>Q. How can you present your research findings? [RU-13J]<br>Q. What are the types of statistical table? [RU-10J]<br>Q. Write short note on: Methods of data presentation. [SUST-17N]
 
 **Methods of data presentation:**
 A) Tabulation: Three types of tables are in use:
@@ -170,10 +159,8 @@ orthodox charts.
 2)
 s or symbols are used to present the data. It is a popular
 stand and
-</details>
 
-<details>
-<summary><b>Q. Mention the graphs used for presentation of quantitative data.</b></summary>
+### Q. Mention the graphs used for presentation of quantitative data.
 
 **Methods of presenting quantitative data:** Quantitative, continuous or measured data is presented through
 graphs. The common graphs in use are —
@@ -183,10 +170,8 @@ graphs. The common graphs in use are —
 4) Line chart or graph
 5) Cumulative frequency diagram
 6) Scatter or dot diagram
-</details>
 
-<details>
-<summary><b>Q. How will you present qualitative data?</b></summary>
+### Q. How will you present qualitative data?
 
 **Methods of presenting qualitative data:** Qualitative, discrete or counted data is presented through diagrams.
 The common diagrams in use are --
@@ -194,10 +179,8 @@ The common diagrams in use are --
 2) Pie or sector diagram.
 3) Pictogram or picture diagram.
 4) Map diagram or spot map.
-</details>
 
-<details>
-<summary><b>Q. State graphical presentation of data. [DU-12Ju]<br>Q. What are the important methods of graphical presentation of data?</b></summary>
+### Q. State graphical presentation of data. [DU-12Ju]<br>Q. What are the important methods of graphical presentation of data?
 
 **Important methods of graphical presentation of data:**
 <> Diagrams:
@@ -213,10 +196,8 @@ The common diagrams in use are --
 3) Line diagram
 4) Scatter diagram
 [Ref- Rashid, Khabir, Hyder / 5" / 114]
-</details>
 
-<details>
-<summary><b>Q. Write down the characteristics of data presentation.</b></summary>
+### Q. Write down the characteristics of data presentation.
 
 **Characteristics of data presentation:**
 1) Should be complete and comprehensive.
@@ -228,10 +209,8 @@ The common diagrams in use are --
 7) Helpful for further analysis.
 {
 CQ), VIVA & OSPE
-</details>
 
-<details>
-<summary><b>Q. Mention the parts of a table. [DU-| 8N,17N]<br>Q. Mention the characteristics of table. [SUST-09J]</b></summary>
+### Q. Mention the parts of a table. [DU-| 8N,17N]<br>Q. Mention the characteristics of table. [SUST-09J]
 
 **Characteristics of table:**
 1) The table should be numbered, e.g. table-1, table-2 etc.
@@ -247,10 +226,8 @@ geographically.
 [Ref- Park / 24" / 881]
 d concise.
 chronologically, alphabetically or
-</details>
 
-<details>
-<summary><b>Q. What is frequency distribution?</b></summary>
+### Q. What is frequency distribution?
 
 **Frequency distribution:**
 Distribution of the values (of a variable) according to their frequency of occurrence is called frequency
@@ -265,10 +242,8 @@ which may be common and the others may be
 ues, some of
 r of occurrences we get a
 tude along with their numbe
-</details>
 
-<details>
-<summary><b>Q. What are the rules for making a frequency distribution table?</b></summary>
+### Q. What are the rules for making a frequency distribution table?
 
 Rules for making a frequen
 1) The class or group interval between the
@@ -284,10 +259,8 @@ distribution table:
 groups should not be too broad or too narrow
 1 too few but be ordinarily between 6 and
 apter-20: Health information and basic medical Statistics ————___—._581
-</details>
 
-<details>
-<summary><b>Q. Draw and label different types of bar charts, {SUST-16J]</b></summary>
+### Q. Draw and label different types of bar charts, {SUST-16J]
 
 . Describ i tain
 cat ribe bar diagram with picture/figure. [RU-16M, |3Ju,12Ju]
@@ -316,10 +289,8 @@ S a West
 60 East
 1" Qtr 2" Qtr 3" Qtr 4" Qtr
 Figure: Component bar chart.
-</details>
 
-<details>
-<summary><b>Q. Describe histogram.</b></summary>
+### Q. Describe histogram.
 
 **Histogram:**
 It is a pictorial diagram of frequency distribution. It is a special form of bar chart of frequency
@@ -329,10 +300,8 @@ Criteria:
 2) The class intervals are given along the horizontal axis.
 3) Thee frequencies are given along the vertical axis.
 4) The area of each block or rectangle is proportional to the frequency.
-</details>
 
-<details>
-<summary><b>Q. How pie chart is constructed?<br>Q. Describe one of the graphical methods used for presenting continuous data. [RU-1 Ju]<br>Q. Discuss pie diagram. [SUST-12J]</b></summary>
+### Q. How pie chart is constructed?<br>Q. Describe one of the graphical methods used for presenting continuous data. [RU-1 Ju]<br>Q. Discuss pie diagram. [SUST-12J]
 
 **Pie chart / sector diagram:**
 A pie chart is a system of presentation of data in a circle subdivided into parts to reveal the various
@@ -342,30 +311,24 @@ the data. Sectors are coloured or shaded differently. This permits comparison be
 of the same phenomenon.
 [Ref- Rashid, Khabir, Hyder /5"/ 114]
 ARRAARALANRAR aA
-</details>
 
-<details>
-<summary><b>Q. Draw a sector diagram of ANC utilization rates of 30%, 20% and 50% by the pregnant</b></summary>
+### Q. Draw a sector diagram of ANC utilization rates of 30%, 20% and 50% by the pregnant
 
 A women living in urban slum, rural and urban area respectively. [RU-13J]
 nswer
 Presentation of these data in percentage by pie chart / sector diagram:
 ANC utilization rate by the pregnant women
 1, it was found that out of 40 patients 16 were
-</details>
 
-<details>
-<summary><b>Q. Ina children ward of your district hospita .</b></summary>
+### Q. Ina children ward of your district hospita .
 
 d rest 12 from other diseases. Present these data in
 suffering from ARI, 12 from diarrhoea an
 percentage by a suitable chart. [RU-11J]
 Presentation of these data in percentage by pie chart:
 Values and percentages of patients in the hospital
-</details>
 
-<details>
-<summary><b>Q. Mention the properties of normal distribution curve.<br>Q. State the characteristics of normal distribution curve, [DU-15Ju, RU-16J]</b></summary>
+### Q. Mention the properties of normal distribution curve.<br>Q. State the characteristics of normal distribution curve, [DU-15Ju, RU-16J]
 
 **Z Write short note on:** Normal distribution curve. [SUST-13Ju]
 nswer
@@ -379,18 +342,14 @@ observations.
 3) Half the measurement lie above and half below the mean.
 4) In terms of standard deviation (SD) the limits mean +3 times the SD include 99% of: |’ vaiues.
 Mean +2 times the SD include 95% of all values while mean + one SD include 68% all individual.
-</details>
 
-<details>
-<summary><b>Q. Define survey.</b></summary>
+### Q. Define survey.
 
 **Survey:**
 Collection of data on a particular disease especially its epidemiological aspects is called survey.
 Hypothesis
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Hypothesis.</b></summary>
+### Q. Write short note on: Hypothesis.
 
 **Hypothesis:**
 A hypothesis is a supposition, arrived at from or reflection. It can be accepted or rejected, using the
@@ -406,10 +365,8 @@ effect
 observation of the effect. ‘ .
 [Ref- P 17, dil
 Variable
-</details>
 
-<details>
-<summary><b>Q. Define variable. [DU-I6N, CU-! — RU-15J]<br>Q. Classify variables. [DU-15Ju, Ct 18N,16M,15J,13J,10J, RU-15J]</b></summary>
+### Q. Define variable. [DU-I6N, CU-! — RU-15J]<br>Q. Classify variables. [DU-15Ju, Ct 18N,16M,15J,13J,10J, RU-15J]
 
 **Variable:** A variable is a characteristic of a person, object or phenomenon that can take on di
 Example: Age, height etc.
@@ -438,10 +395,8 @@ categories or non-
 hat is antecedent to the dependent variable is termed as
 es lung cancer. Here smoking is
 able.
-</details>
 
-<details>
-<summary><b>Q. Describe the basic scales of measurement of variables.</b></summary>
+### Q. Describe the basic scales of measurement of variables.
 
 **Scales of measurement of variables:**
 1) Nominal scale: Qualitative varia
@@ -471,20 +426,16 @@ quality that zero indicates absence of the attribute. Asa
 bers in the scale is the same as that between the amounts of the
 Se ‘
 Sample & Sampling
-</details>
 
-<details>
-<summary><b>Q. Define sample. [DU-16N, SUST-17N/M, RU-17M, CU-10Ju]</b></summary>
+### Q. Define sample. [DU-16N, SUST-17N/M, RU-17M, CU-10Ju]
 
 **Sample:**
 ; A sample isa part of the population about which information is actually obtained with a view to
 studying the population characteristics. A sample should, therefore, be representative of the population. The
 Tepresentativeness of the sample is ensured by random selection of sample units.
 [Ref- Rashid, Khabir, Hyder /5" / 110, 121)
-</details>
 
-<details>
-<summary><b>Q. Define sampling. [RU-1 8M, 12Ju,11J, SUST-17N,16N/M, 13Ju]<br>Q. Define sample unit.</b></summary>
+### Q. Define sampling. [RU-1 8M, 12Ju,11J, SUST-17N,16N/M, 13Ju]<br>Q. Define sample unit.
 
 **Sampling:**
 a Sampling is the procedure through which sample is collected from population.
@@ -493,34 +444,26 @@ Sampling is a technique of securing information about the universe by examining 
 same.
 Sample unit:
 Each number of the population from which we collect data is called sample unit.
-</details>
 
-<details>
-<summary><b>Q. Define sampling frame.</b></summary>
+### Q. Define sampling frame.
 
 **Sampling frame:** The list of all the sampling unit in the population survey is called sampling frame.
 [Ref- Rashid, Khabir, Hyder / 5" / 121]
-</details>
 
-<details>
-<summary><b>Q. Define sample interval.</b></summary>
+### Q. Define sample interval.
 
 **Sample interval:** It is a number which is calculated by the formula —
 N (number of sample unit)
 Sample interval (SI) =
 n (desired sample size)
-</details>
 
-<details>
-<summary><b>Q. Define sample size.</b></summary>
+### Q. Define sample size.
 
 4
 Sample size: The number of persons or sampling unit selected from the population of the study comprises the
 sample size.
-</details>
 
-<details>
-<summary><b>Q. How can you calculate sample size?</b></summary>
+### Q. How can you calculate sample size?
 
 **Calculation of sample size:** Sample size can be calculated by the following formula —
 Pq
@@ -535,28 +478,22 @@ for 99% confidence level).
 d= Error limit (or the accuracy desired). 21
 [Ref- Rashid, Khabir, Hyder /5" / 121, 12
 ewmmuecneceeseeen
-</details>
 
-<details>
-<summary><b>Q. What is sampling procedure or sampling method?</b></summary>
+### Q. What is sampling procedure or sampling method?
 
 **Sampling procedure / sampling method:**
 e selected sample represents the
 it is a method of selecting a part of a population in a way that th
 population.
-</details>
 
-<details>
-<summary><b>Q. What are the advantages of sampling?</b></summary>
+### Q. What are the advantages of sampling?
 
 **Advantages of sampling:**
 1) It reduces cost of study and investigation.
 2) It reduces the time required.
 3) Itreduces the number of personnel involved.
-</details>
 
-<details>
-<summary><b>Q. Define population. [SUST-17N, RU-17M, CU-10Ju]</b></summary>
+### Q. Define population. [SUST-17N, RU-17M, CU-10Ju]
 
 **Population:**
 Population refers to totality of all individuals about which data are collected.
@@ -564,17 +501,13 @@ Population refers to totality of all individuals about which data are collected.
 Or,
 aving some common observable characteristic.
 A complete set of individuals, objects or measurements hi
-</details>
 
-<details>
-<summary><b>Q. What do you mean by parameter?</b></summary>
+### Q. What do you mean by parameter?
 
 **Parameter:**
 The numerical characteristic of a given population is called parameter.
-</details>
 
-<details>
-<summary><b>Q. How sample differs from population in a research? [CU-09J]</b></summary>
+### Q. How sample differs from population in a research? [CU-09J]
 
 **Sample versus population in a research:**
 1) Most of the statistical investigations are concerned with the properties of the population, but data are
@@ -598,10 +531,8 @@ The characteristics of a ood sample:
 5) Sample design must such that the results of the sample study can be applied in general for the universe
 with a reasonable level of confidence.
 , [Ref- C. R. Kothary 12" /72)
-</details>
 
-<details>
-<summary><b>Q. What is the usefulness of sampling?</b></summary>
+### Q. What is the usefulness of sampling?
 
 **Usefulness of sampling:**
 1. Sampling can save time ai
@@ -615,10 +546,8 @@ eed.
 3.
 4,
 5
-</details>
 
-<details>
-<summary><b>Sampling may enable more accurate measurement for a sample study is generally conducted by trained</b></summary>
+### Sampling may enable more accurate measurement for a sample study is generally conducted by trained
 
 and experience investigators.
 Sampling remains the only way when population contains infinitely many members.
@@ -631,16 +560,12 @@ technique [DU-17M, SUST-17M,16N] / different methods of sampling [DU-15J,11Ju, C
 14Ju,10Ju, SUST-17N, 16M, 13J,10J, RU-17M,16J,10J] with example.
 Explain simple random sampling. [DU-16J, CU-12Ju, 10J]
 Discuss types of probability sampling technique with example. [DU-10J, CU-16J]
-</details>
 
-<details>
-<summary><b>Q.<br>Q. Mention stratified sampling technique with example. [DU-15J]<br>Q.<br>Q.</b></summary>
+### Q.<br>Q. Mention stratified sampling technique with example. [DU-15J]<br>Q.<br>Q.
 
 Discuss different sampling methods. [DU-18M,16N]
-</details>
 
-<details>
-<summary><b>Q. Give the characteristic features of simple random sampling. [RU-18M]<br>Q. Write short note on: Sampling techniques. [CU-13J]<br>Q. Write short note on: Simple random sampling. [RU-11J]</b></summary>
+### Q. Give the characteristic features of simple random sampling. [RU-18M]<br>Q. Write short note on: Sampling techniques. [CU-13J]<br>Q. Write short note on: Simple random sampling. [RU-11J]
 
 Classification of sampling / different methods of sampling / sampling technique:
 A) Probability sampling / Chance sampling / Random sampling:
@@ -677,10 +602,8 @@ collect the sample of that occasion.
 researcher.
 |Ref- B.K. Mahajan / 6" /96 + Rashid, Khabir, Hyder / 5" / 121]
 ap! information and basic medical statistics IP
-</details>
 
-<details>
-<summary><b>Q. Mention the require i</b></summary>
+### Q. Mention the require i
 
 answer quirements for simple random sampling technique.
 /B quirements for simple rand pling que:
@@ -690,10 +613,8 @@ answer quirements for simple random sampling technique.
 4) Asample frame.
 5) Number to each of the units (individuals or households),
 [Ref- Park /24™ / 887]
-</details>
 
-<details>
-<summary><b>Q. Which sampling technique is better and why?</b></summary>
+### Q. Which sampling technique is better and why?
 
 ed simple random technique is better than other techniques?
 Simms le random sampling technique is better than other techniques: Because —
@@ -704,10 +625,8 @@ equal chance of being selected in the sample.
 3) Random numbers are haphazard collection of certain numbers, arranged in a cunning manner to
 eliminate personal selection of unconscious bias.
 [Ref- Park /24" / 887]
-</details>
 
-<details>
-<summary><b>Q. Write the steps of systematic random sampling with example. [CU-12J]<br>Q. Discuss “random sampling”. [SUST-13Ju]</b></summary>
+### Q. Write the steps of systematic random sampling with example. [CU-12J]<br>Q. Discuss “random sampling”. [SUST-13Ju]
 
 **Steps of systematic random sampling:**
 th or 10" unit at regular intervals.
@@ -719,10 +638,8 @@ By this method, each unit in the sampling frame would have the same chance of be
 but the number of possible samples is greatly reduced.
 Example: Filaria survey in a region.
 [Ref- Park / 24" / 887]
-</details>
 
-<details>
-<summary><b>Q. What is non-sampling?</b></summary>
+### Q. What is non-sampling?
 
 **Non-sampling:** oo, . . .
 Error due to other than chance in conducting a statistical investigation e.g. bias due to faulty
@@ -732,16 +649,12 @@ in a complete count as well as in a sample.
 Central tendency
 y? [RU-12J, SUST-08)]
 ry? [DU-15J,13J, CU-10Ju, RU-I6N, I 5Ju,12J, SUST-
-</details>
 
-<details>
-<summary><b>Q. What do you mean by central tendenc<br>Q. What are the measures of central tendenc:</b></summary>
+### Q. What do you mean by central tendenc<br>Q. What are the measures of central tendenc:
 
 18N/M,15J,12Ju,10Ju]
-</details>
 
-<details>
-<summary><b>Q. Mention and define the three important measures of central tendency. [CU-11Ju]<br>Q. Define mean, median & mode with examples. [RU-I6N, 1 5Ju]</b></summary>
+### Q. Mention and define the three important measures of central tendency. [CU-11Ju]<br>Q. Define mean, median & mode with examples. [RU-I6N, 1 5Ju]
 
 **Central tendency:** In case of large number of observation there is generally a tendency of the observation to
 cluster around a central point. This is known as central tendency. There are mainly 3 main measure of
@@ -779,37 +692,29 @@ fe
 Mode: Mode is the value which occurs most frequently, i.e. a value which has the highest frequency in
 the series is the mode. For example in the series: 7, 9, 8, 6, 9, 11, 14 9 is the mode.
 [Ref- Rashid, Khabir, Hyder /5"/ 118]
-</details>
 
-<details>
-<summary><b>Viva Q. What are the statistical averages?</b></summary>
+### Viva Q. What are the statistical averages?
 
 **Statistical averages:**
 Mean, median & mode.
 Central tendency measurement of even numbers
 2, 25, 30;
-</details>
 
-<details>
-<summary><b>Q. Calculate mean from the following observations of age in years: 12, 14, 16, 18, 20, 2</b></summary>
+### Q. Calculate mean from the following observations of age in years: 12, 14, 16, 18, 20, 2
 
 35 & 40. [DU-17M]
 Mean: (12 + 14+ 16+ 18 +20 +22 +25 +30 + 35 + 40) = 10 = 232+ 10=23.2
 JNAAANANANANANSNANAANAARAAAI
 AABRARBRVBABAUALAY
-</details>
 
-<details>
-<summary><b>Q. Age of 8 people are 52, 42, 65, 52, 60, 45, 38 and 40, Find out median age & present the data</b></summary>
+### Q. Age of 8 people are 52, 42, 65, 52, 60, 45, 38 and 40, Find out median age & present the data
 
 graphically. [DU-16M]
 Median: In ascending order, the numbers are: 38, 40, 42, 45, 52, 52, 60, 65
 Here, there are 08 numbers (even). So, median is the arithmetic mean of n/2 that means
 n/2 + | that means 5" number. So, the median is (45+52) + 2 = 48.5
-</details>
 
-<details>
-<summary><b>Q. Estimated Hb% of eight pregnant mothers are 8, 8.5, 9.5, 10, 10.5, 11, 13 & 12 in mg/dl</b></summary>
+### Q. Estimated Hb% of eight pregnant mothers are 8, 8.5, 9.5, 10, 10.5, 11, 13 & 12 in mg/dl
 
 respectively. Find out the median Hb level & present the data demographically. [DU-14Ju]
 Median Hb level: In ascending order, the Hb percentages (in mg/dl) are: 8, 8.5, 9.5, 10, 10.5, 11, 12, 13
@@ -817,10 +722,8 @@ Here, there are 08 numbers (even). So, median is the arithmetic mean of n/2 that
 n/2 + 1 that means 5" number. So, median is (10 + 10.5) +2 = 10.25 (mg/dl)
 1, 95, 75, 77, 84 & 90. Calculate
 4" number &
-</details>
 
-<details>
-<summary><b>Q. The DBP of 10 individuals is recorded as 84, 75, 81, 79, 7</b></summary>
+### Q. The DBP of 10 individuals is recorded as 84, 75, 81, 79, 7
 
 mean & median value of above observations. [RU-14Ju]
 Mean: (84 +75 +81+79+71 +95 +75 +77+84 +90) + 10=811 + 10 = 81.10
@@ -829,10 +732,8 @@ Median: In ascending order, the numbers are: 71,75, 7
 mean of n/2 that means 5” number and
 Here, there are 10 numbers (even). So, median is the arithmetic
 n/2 +1 that means 6" number. So, median is (79 + 81) +2 = 80
-</details>
 
-<details>
-<summary><b>Q. Calculate the mean, median and mode from the following observed values: 72, 82, 76, 83, 89,</b></summary>
+### Q. Calculate the mean, median and mode from the following observed values: 72, 82, 76, 83, 89,
 
 77, 76, 78, 90, 95. [SUST-13Ju]
 Central tendency:
@@ -841,10 +742,8 @@ Median: In ascending order, the numbers are: 72, 76, 76, 77, 78, 82, 83, 89, 90,
 Here, there are 10 numbers (even). So, median is the arithmetic mean of n/2 that means 5" number and
 n/2 + | that means 6" number. So, median is (78 + 82) + 2 = 80
 + Mode: Mode is the most frequent number. Here, most frequent numbers is 76.
-</details>
 
-<details>
-<summary><b>Q. Calculate the measures of central tendency of ‘8’ girls aged 10, 15, 8, 9, 12, 8, 8 & 26 years. [CU-14J,13Ju]</b></summary>
+### Q. Calculate the measures of central tendency of ‘8’ girls aged 10, 15, 8, 9, 12, 8, 8 & 26 years. [CU-14J,13Ju]
 
 **Central tendency:**
 Mean: (10 + 15+8+9+ 12+ 8+8+26)+8=96+8=12
@@ -857,10 +756,8 @@ n/2 + | that means 5" number. So, me
 most frequent numbers is 8.
 ef
 % Mode: Mode is the most frequent number. Here,
-</details>
 
-<details>
-<summary><b>Q. Calculate mean, median and mode from the following observed values: 24, 7, 10, 21, 15, 28,</b></summary>
+### Q. Calculate mean, median and mode from the following observed values: 24, 7, 10, 21, 15, 28,
 
 12, 21, 16, 19, 8, 21. [SUST-14J]
 Central tendency:
@@ -875,65 +772,45 @@ ee
 UST-18N]
 Calculate the tendency. [CU-18N]
 3, 5, 5, 6, 4, 5, 7, 7.
-</details>
 
-<details>
-<summary><b>Q. Calculate central tendency from 3, 5, 5, 6, 4, 5, 6 and 4. [S<br>Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11kg.<br>Q. Calculate mean, median & mode from the following observed values: [SUST-18M]</b></summary>
+### Q. Calculate central tendency from 3, 5, 5, 6, 4, 5, 6 and 4. [S<br>Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11kg.<br>Q. Calculate mean, median & mode from the following observed values: [SUST-18M]
 
 _Q. Calculate central tendency from 3, 5, 5, 6, 4, 5, 6 and 4. [S_
-</details>
 
-<details>
-<summary><b>Q. Weight of 6 children are 14, 12, 14, 20, 13 & 11 kg. Calculate the measures of central</b></summary>
+### Q. Weight of 6 children are 14, 12, 14, 20, 13 & 11 kg. Calculate the measures of central
 
 tendency. [CU-17N]
-</details>
 
-<details>
-<summary><b>Q. Calculate mean, median & mode from the following observed values: 3, 5, 5, 6, 4,5, 6, & 4. [SUST-17M]</b></summary>
+### Q. Calculate mean, median & mode from the following observed values: 3, 5, 5, 6, 4,5, 6, & 4. [SUST-17M]
 
 _Q. Calculate mean, median & mode from the following observed values: 3, 5, 5, 6, 4,5, 6, & 4. [SUST-17M]_
-</details>
 
-<details>
-<summary><b>Q. Calculate the measures of central tendency from the following observed values: 8, 10, 6, 9, 8, 10,</b></summary>
+### Q. Calculate the measures of central tendency from the following observed values: 8, 10, 6, 9, 8, 10,
 
 12, 9. [SUST-15J]
-</details>
 
-<details>
-<summary><b>Q. The ESR of 10 patients are 6, 8, 16, 5, 10, 7, 6, 12, 14 and 6. Calculate various measures of</b></summary>
+### Q. The ESR of 10 patients are 6, 8, 16, 5, 10, 7, 6, 12, 14 and 6. Calculate various measures of
 
 central tendency by using formula. [CU-125u]
-</details>
 
-<details>
-<summary><b>Q. Calculate the measures of central tendency from the following observed values: 55, 60, 63, 55,</b></summary>
+### Q. Calculate the measures of central tendency from the following observed values: 55, 60, 63, 55,
 
 75, 63, 58, 55, 62 and 61. [CU-11J]
-</details>
 
-<details>
-<summary><b>Q. Calculate the measures of central tendency from the following observation: 8, 10, 6, 9, 8, 10,</b></summary>
+### Q. Calculate the measures of central tendency from the following observation: 8, 10, 6, 9, 8, 10,
 
 12, 9. [SUST-12Ju,10Ju]
-</details>
 
-<details>
-<summary><b>Q. Calculate the measures of central tendency from the following observed values: 8, 9, 5, 6, 8, 7,</b></summary>
+### Q. Calculate the measures of central tendency from the following observed values: 8, 9, 5, 6, 8, 7,
 
 8, 5, 8, 6. [CU-10Ju]
-</details>
 
-<details>
-<summary><b>Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11 kg. Calculate the central tendency. [CU-16J]</b></summary>
+### Q. Weight of 8 children was 12, 10, 14, 15, 12, 18, 20 & 11 kg. Calculate the central tendency. [CU-16J]
 
 Please try yourself.
 Central tendency measurement of odd numbers
-</details>
 
-<details>
-<summary><b>Q. Compute mean, median & modal values from the following observations: 52, 65, 52, 60, 45,</b></summary>
+### Q. Compute mean, median & modal values from the following observations: 52, 65, 52, 60, 45,
 
 42, 46, 58, 36, 52 & 40. [DU-16J]
 Central tendency:
@@ -941,20 +818,16 @@ Mean: 52+ 65+52+60+45 +42 +46 + 58 +36 +52 +40 =548 +11 = 49.81
 “ Median: In ascending order, the numbers are: 36, 40, 42, 45, 46, 52, 52, 52, 58, 60, 65
 Here, there are 11 numbers (odd). So, median is 52.
 Mode: Mode is the most frequent number. Here, most frequent numbers is 52.
-</details>
 
-<details>
-<summary><b>Q. Calculate the mean, median and mode values of following observations: 52, 65, 52, 60, 45. [DU-14J]</b></summary>
+### Q. Calculate the mean, median and mode values of following observations: 52, 65, 52, 60, 45. [DU-14J]
 
 **Central tendency:**
 “ Mean: (52 + 65 + 52 + 60+ 45) +5=274+5=54.8
 Median: In ascending order, the numbers are: 45, 52, 52, 60, & 65.
 Here, there are 5 numbers (odd). So, median is the (n + 1)/2 that means 3“ number. So, median is 52
 Mode: Mode is the most frequent number. Here, most frequent numbers is 52.
-</details>
 
-<details>
-<summary><b>Q. Compete mean, median and mode values from followi : 0, 55, 52</b></summary>
+### Q. Compete mean, median and mode values from followi : 0, 55, 52
 
 **56, 68, 46, 62, $0. [DU-121] ‘om following observations:** 62, 75, 62, 70, 55, 52,
 Central tendency:
@@ -962,24 +835,18 @@ Central tendency:
 Median: In ascending order, the numbers are: 46, 50, 52, 55, 56, 62, 62, 62, 68, 70, & 75
 Here, there are 1] numbers (odd). So, median is the (n + 1)/2 that means 6” number. So, median is 62.
 Mode: Mode is the most frequent number. Here, most frequent numbers is 62.
-</details>
 
-<details>
-<summary><b>Q. Weight of 5 boys was 12, 10, 14, 5 & 9 kilogram. Calculate the standard deviation. [CU-18M]<br>Q. Calculate the ‘mean of ‘5’ girls aged 10, 15, 8, 9 & 25 years. [CU-13J]<br>Q. Calculate mean, median and mode from the following observed values: 24, 7, 10, 21, 15, 28,</b></summary>
+### Q. Weight of 5 boys was 12, 10, 14, 5 & 9 kilogram. Calculate the standard deviation. [CU-18M]<br>Q. Calculate the ‘mean of ‘5’ girls aged 10, 15, 8, 9 & 25 years. [CU-13J]<br>Q. Calculate mean, median and mode from the following observed values: 24, 7, 10, 21, 15, 28,
 
 12, 21, 16, 19, 8. [SUST-1 ]Ju]
 Please try yourself.
 Measures of Dispersion
-</details>
 
-<details>
-<summary><b>Q. What do you mean by dispersion? [CU-11J]<br>Q. Illustrate the measures of dispersion with example. [DU-12J, SUST-17M, I 1Ju, RU-15Ju,12J]<br>Q. Diastolic blood pressure (DBP) of 10 peoples are 83, 75, 81, 79, 71, 90, 75, 95, 77 and 94 in</b></summary>
+### Q. What do you mean by dispersion? [CU-11J]<br>Q. Illustrate the measures of dispersion with example. [DU-12J, SUST-17M, I 1Ju, RU-15Ju,12J]<br>Q. Diastolic blood pressure (DBP) of 10 peoples are 83, 75, 81, 79, 71, 90, 75, 95, 77 and 94 in
 
 mmHg. What is the range of DBP? [DU-13J]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Measures of dispersion. [CU-14J]</b></summary>
+### Q. Write short note on: Measures of dispersion. [CU-14J]
 
 **Dispersion:** Dispersion means scattering of values of the variable.
 Measures of dispersion: There are several measures of variation of which the following are widely known:
@@ -1010,10 +877,8 @@ When the sample size is 30 or less than 30, the above basic formula is modified 
 LZ (x-xy
 S.D. = ——_
 n-1
-</details>
 
-<details>
-<summary><b>Q. What are the uses / importance of standard deviation?</b></summary>
+### Q. What are the uses / importance of standard deviation?
 
 **Fd Uses / Importance of standard deviation:**
 : 1) It summarizes the deviation of a large distribution from mean in one figure as a unit of variation.
@@ -1024,18 +889,14 @@ natural or real due to some special reasons.
 [Ref- Park / 24" / 885]
 a,
 [Ref- Mahajan / 6" / 67]
-</details>
 
-<details>
-<summary><b>Viva Q. What is mid-year population?</b></summary>
+### Viva Q. What is mid-year population?
 
 **Mid-year population:**
 The mid-year population refers to the population estimated as on the first July of a year.
 [Ref- Park / 24" / 60]
-</details>
 
-<details>
-<summary><b>Q. How can you calculate standard deviation (SD)?<br>Q. Write down the steps of calculation of standard deviation, [CU-11Ju]<br>Q. Write short note on: Standard deviation. [CU-13Ju]</b></summary>
+### Q. How can you calculate standard deviation (SD)?<br>Q. Write down the steps of calculation of standard deviation, [CU-11Ju]<br>Q. Write short note on: Standard deviation. [CU-13Ju]
 
 **Standard deviation (SD):**
 Standard deviation is defined as “Root — Means — Square — Deviation.”
@@ -1054,16 +915,12 @@ Steps of calculation: The steps involved in calculating the standard deviation a
   - 
 Then take the square root, which gives standard deviation.
 [Ref- Park / 24" / 885]
-</details>
 
-<details>
-<summary><b>Q. Weight of six children was 12, 10, 14, 15, 09 and 12 kg. Calculate the standard deviation. [CU- 17M,16N]</b></summary>
+### Q. Weight of six children was 12, 10, 14, 15, 09 and 12 kg. Calculate the standard deviation. [CU- 17M,16N]
 
 _Q. Weight of six children was 12, 10, 14, 15, 09 and 12 kg. Calculate the standard deviation. [CU- 17M,16N]_
-</details>
 
-<details>
-<summary><b>Q. Weight of 8 children were 12, 10, 14, 15, 20, 18, 20 18, 20 & 30 kg. Calculate the standard</b></summary>
+### Q. Weight of 8 children were 12, 10, 14, 15, 20, 18, 20 18, 20 & 30 kg. Calculate the standard
 
 deviation. [CU-16M]
 Calculation of mean:
@@ -1083,10 +940,8 @@ n-1
 o) aan ace
 = V5.2
 = 23
-</details>
 
-<details>
-<summary><b>Q. Weight of 05 children was 11,5, 6, 8 & 10 kg. Calculate the standard deviation. [CU-15Ju]</b></summary>
+### Q. Weight of 05 children was 11,5, 6, 8 & 10 kg. Calculate the standard deviation. [CU-15Ju]
 
 **Calculation of mean:**
 Mean = (11+5+6+8+10) + 5
@@ -1104,10 +959,8 @@ n-l
 a
 V6.5
 = 2.55
-</details>
 
-<details>
-<summary><b>Q. ESR of 7 persons was 12, 10, 14, 15, 20, 18 & 30. Calculate the standard deviation. [CU-14Ju]</b></summary>
+### Q. ESR of 7 persons was 12, 10, 14, 15, 20, 18 & 30. Calculate the standard deviation. [CU-14Ju]
 
 **Calculation of mean:**
 Mean = (12 + 10+ 14415 +20+ 18+30)+7
@@ -1130,10 +983,8 @@ n-1
 6
 = V44.33
 = 6.65
-</details>
 
-<details>
-<summary><b>Q. Age of 10 people are 83, 75, 81, 79, 71, 95, 75, 77, 84 & 90 in years. Find out the standard</b></summary>
+### Q. Age of 10 people are 83, 75, 81, 79, 71, 95, 75, 77, 84 & 90 in years. Find out the standard
 
 deviation of age. [DU-13Ju]
 Calculation of mean:
@@ -1155,10 +1006,8 @@ n-1
 9
 = V53.55
 = 731
-</details>
 
-<details>
-<summary><b>Q. Calculate the mean and standard deviation of ‘S’ girls aged 10, 15, 8, 9 & 25 years. [CU-13J]</b></summary>
+### Q. Calculate the mean and standard deviation of ‘S’ girls aged 10, 15, 8, 9 & 25 years. [CU-13J]
 
 **Calculation of mean:**
 Mean = (10 + 15 +8+9+25)+5
@@ -1178,10 +1027,8 @@ n-1
 4
 - 49.3
 7.02
-</details>
 
-<details>
-<summary><b>Q. Qualitative data are presented: [DU-18N, 17N]</b></summary>
+### Q. Qualitative data are presented: [DU-18N, 17N]
 
 a) Simple bar diagram.
 b) Scatter diagram.
@@ -1189,10 +1036,8 @@ c) Table.
 d) Pie diagram.
 e) Histogram.
 Ans. a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Qualitative data include: [DU-18M]</b></summary>
+### Q. Qualitative data include: [DU-18M]
 
 a) Age.
 b) Sex.
@@ -1200,10 +1045,8 @@ c) Religion.
 d) Height.
 e) Vaccination status.
 Ans. a) F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Measures of dispersion: [DU-18M]</b></summary>
+### Q. Measures of dispersion: [DU-18M]
 
 a) Range.
 b) Median.
@@ -1211,10 +1054,8 @@ c) Mean deviation.
 d) Mode.
 e) Standard deviation.
 Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Vital events are: [DU-18M]</b></summary>
+### Q. Vital events are: [DU-18M]
 
 a) Morbidity.
 b) Mortality.
@@ -1222,10 +1063,8 @@ c) Marriage.
 d) Migration.
 e) Fertility.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Qualitative data can be presented by: [DU- 16N]</b></summary>
+### Q. Qualitative data can be presented by: [DU- 16N]
 
 a) Simple bar
 b) Pie chart
@@ -1233,10 +1072,8 @@ c) Scatter diagram
 d) Frequency polygon
 e) Component bar
 Ans. a) F, b) T, c) F, d) T, €) F.
-</details>
 
-<details>
-<summary><b>Q. The normal distribution curve is: [DU-16N]</b></summary>
+### Q. The normal distribution curve is: [DU-16N]
 
 a) Bell shaped.
 b) Perfectly symmetrical curve.
@@ -1244,10 +1081,8 @@ c) Based on number of observations.
 d) Determined by a single parameter.
 e) Mean, median & mode coincide.
 Ans. a) T, b) T, ¢) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Vital events are: [DU-16J]</b></summary>
+### Q. Vital events are: [DU-16J]
 
 a) Modbidity.
 b) Mortality.
@@ -1255,10 +1090,8 @@ c) Marriage.
 d) Cencus.
 e) Divorce.
 Ans, a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Measures of dispersion includes: [DU-16J]</b></summary>
+### Q. Measures of dispersion includes: [DU-16J]
 
 a) Range.
 b) Median.
@@ -1266,10 +1099,8 @@ c) Mode.
 d) Mean deviation.
 e) Normal distribution.
 Ans. a) T, b) F, ¢) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Methods of selecting random sample are: [DU-15Ju]</b></summary>
+### Q. Methods of selecting random sample are: [DU-15Ju]
 
 a) Simple.
 b) Systematic.
@@ -1277,10 +1108,8 @@ c) Stratified.
 d) Convenient.
 e) Quota.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Qualitative data presented by: [DU-15J]</b></summary>
+### Q. Qualitative data presented by: [DU-15J]
 
 a) Bar diagram
 b) Frequency polygon
@@ -1288,10 +1117,8 @@ c) Pie diagram
 d) Histogram
 e) Line diagram
 Ans. a) F, b) T, ¢) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Measurements of central tendency: [DU- Q. Measures of dispersion are: [DU-11Ju]</b></summary>
+### Q. Measurements of central tendency: [DU- Q. Measures of dispersion are: [DU-11Ju]
 
 14Ju] a) range
 a) Mean. b) average
@@ -1300,10 +1127,8 @@ c) Range. }) mode
 d) Median. e) median
 e) Standard deviation.
 Ans, a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Sources of health information: [DU-13J]</b></summary>
+### Q. Sources of health information: [DU-13J]
 
 a) census
 b) quarantine for disease
@@ -1311,10 +1136,8 @@ c) epidemiological surveillance
 d) environmental health data
 e) statistical maps
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Probability sampling includes: [DU-13J]</b></summary>
+### Q. Probability sampling includes: [DU-13J]
 
 a) convenient sampling
 b) simple random sampling
@@ -1322,10 +1145,8 @@ c) systematic random sampling
 d) quota sampling
 e) stratified sampling
 Ans. a) F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Vital statistics deals with: [DU-12Ju]</b></summary>
+### Q. Vital statistics deals with: [DU-12Ju]
 
 a) natality
 b) mortality
@@ -1334,10 +1155,8 @@ d) fertility
 e) divorce
 Ans. a) F, b) T, ¢) F, d) T, e) F.
 Ans. a) T, b) T, ¢) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Qualitative data presented by: [DUA 1J]</b></summary>
+### Q. Qualitative data presented by: [DUA 1J]
 
 a) Simple bar
 b) Pie chart
@@ -1345,10 +1164,8 @@ c) Scatter diagram
 d) Frequency polygon
 e) Component bar
 Ans. a) T, b) T, ¢) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Quantitative continuous data can be</b></summary>
+### Q. Quantitative continuous data can be
 
 **presented by:** [DU-10Ju]
 a) Histogram.
@@ -1361,5 +1178,4 @@ Communication for Health Education
 Communication
 Health Education
 ie RED A tT A
-</details>
 

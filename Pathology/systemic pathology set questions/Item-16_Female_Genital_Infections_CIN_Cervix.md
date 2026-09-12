@@ -10,8 +10,7 @@
 
 # PART A — Infections of the Female Genital Tract
 
-<details>
-<summary><b>Normal defence of the lower genital tract (must know first)</b></summary>
+### Normal defence of the lower genital tract (must know first)
 
 - **Lactobacilli** produce **lactic acid → vaginal pH < 4.5** + bacteriotoxic **H₂O₂**.
 - Bleeding, sex, douching, or antibiotics → **pH rises** → overgrowth of pathogens.
@@ -27,10 +26,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q1. Define vulvovaginitis. Mention two common causes.</b></summary>
+### Q1. Define vulvovaginitis. Mention two common causes.
 
 ### Definition
 **Vulvovaginitis = inflammation of the vulva and vagina**, usually together, typically an **infection** but may follow chemical/physical irritation. It is characterized by vaginal discharge, itching/burning, dyspareunia and erythema.
@@ -50,10 +47,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What is bacterial vaginosis? Name the most common organism associated with it.</b></summary>
+### Q2. What is bacterial vaginosis? Name the most common organism associated with it.
 
 ![](image_7e0d80c7.png)
 ### Definition
@@ -70,10 +65,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Write four clinical features of vulvovaginal candidiasis.</b></summary>
+### Q3. Write four clinical features of vulvovaginal candidiasis.
 
 1. **Intense vulval pruritus / itching** (the hallmark).
 2. **Thick white, "cottage-cheese" or curd-like vaginal discharge**.
@@ -88,10 +81,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are clue cells? In which condition are they seen?</b></summary>
+### Q4. What are clue cells? In which condition are they seen?
 
 ### Definition
 **Clue cells = mature squamous epithelial (vaginal) cells covered with adherent clusters of small coccobacilli**, giving a **shaggy, stippled ("ground-glass") border** and obscuring the cell margin. Best seen on a **saline (wet) mount**.
@@ -107,10 +98,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Name the causative organism of trichomoniasis.</b></summary>
+### Q5. Name the causative organism of trichomoniasis.
 
 🔴 **Trichomonas vaginalis** — a **flagellated protozoan**, sexually transmitted. It is pear-shaped with 4–5 anterior flagella and a characteristic **jerky motility** on a fresh wet mount.
 
@@ -122,10 +111,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is meant by "strawberry cervix"? In which infection is it found?</b></summary>
+### Q6. What is meant by "strawberry cervix"? In which infection is it found?
 
 ### Definition
 **"Strawberry cervix" = erythematous, inflamed cervix studded with multiple punctate/petechial hemorrhages** — a colposcopic appearance likened to a strawberry.
@@ -142,10 +129,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Define cervicitis. Mention two common infectious causes.</b></summary>
+### Q7. Define cervicitis. Mention two common infectious causes.
 
 ### Definition
 **Cervicitis = inflammation of the uterine cervix.** A mild degree is found in virtually all women and is usually insignificant; clinically significant cervicitis may shed atypical-looking cells and cause an abnormal Pap.
@@ -163,10 +148,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What is pelvic inflammatory disease (PID)?</b></summary>
+### Q8. What is pelvic inflammatory disease (PID)?
 
 ### Definition
 **PID = infection that starts in the vulva/vagina/cervix and spreads UPWARD (ascending) to involve the uterus (endometritis), fallopian tubes (salpingitis), and ovaries (oophoritis)** → pelvic pain, adnexal tenderness, fever, cervical motion tenderness and discharge.
@@ -186,10 +169,8 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Mention four complications of PID.</b></summary>
+### Q9. Mention four complications of PID.
 
 1. **Chronic salpingitis → infertility** (tubal scarring/occlusion).
 2. **Ectopic pregnancy** (impaired tubal transport).
@@ -205,10 +186,8 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Name the common causative organisms of salpingitis.</b></summary>
+### Q10. Name the common causative organisms of salpingitis.
 
 - 🔴 **Neisseria gonorrhoeae** — **>60%** of suppurative salpingitis (acute).
 - **Chlamydia trachomatis** — most of the remainder (part of PID).
@@ -223,10 +202,8 @@ The adnexa are the structures next to the uterus, including the ovaries, fallopi
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Describe the clinical features and laboratory diagnosis of vulvovaginal candidiasis.</b></summary>
+### Q11. Describe the clinical features and laboratory diagnosis of vulvovaginal candidiasis.
 
 ### Clinical features
 - **Intense vulval pruritus** + burning, dyspareunia, dysuria.
@@ -250,10 +227,8 @@ Pregnancy, diabetes mellitus, **broad-spectrum antibiotics**, immunosuppression 
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Write a short note on Trichomonas vaginalis infection.</b></summary>
+### Q12. Write a short note on Trichomonas vaginalis infection.
 
 ### Organism
 **Trichomonas vaginalis** — a **flagellated protozoan**, **sexually transmitted**; one of the most common STIs (also transmitted by fomites/contaminated towels).
@@ -285,10 +260,8 @@ The protozoan attaches to the vaginal squamous epithelium, producing inflammatio
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Discuss the etiology and clinical features of bacterial vaginosis.</b></summary>
+### Q13. Discuss the etiology and clinical features of bacterial vaginosis.
 
 ### Etiology
 - **Polymicrobial overgrowth**: 🔴 **Gardnerella vaginalis** + anaerobes (*Mobiluncus*, *Bacteroides*, *Peptostreptococcus*) + *Mycoplasma hominis* replace the normal **lactobacilli**.
@@ -316,10 +289,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Describe the pathogenesis of pelvic inflammatory disease.</b></summary>
+### Q14. Describe the pathogenesis of pelvic inflammatory disease.
 
 ![](image_d36d7ba0.png)
 
@@ -339,10 +310,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Write the complications of pelvic inflammatory disease and explain how infertility occurs.</b></summary>
+### Q15. Write the complications of pelvic inflammatory disease and explain how infertility occurs.
 
 ### Complications
 1. **Infertility** (tubal factor) — the most important.
@@ -369,10 +338,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Discuss acute and chronic endometritis.</b></summary>
+### Q16. Discuss acute and chronic endometritis.
 
 ### Acute endometritis
 - **Uncommon;** follows **delivery or miscarriage** (**retained products of conception**).
@@ -402,10 +369,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. What are the pathological changes seen in salpingitis?</b></summary>
+### Q17. What are the pathological changes seen in salpingitis?
 
 ### Acute salpingitis
 - **Congestion, edema and neutrophil-rich (suppurative) inflammation** of the mucosa.
@@ -430,10 +395,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. Describe genital herpes under the following headings: Etiology, Clinical features, Microscopic features.</b></summary>
+### Q18. Describe genital herpes under the following headings: Etiology, Clinical features, Microscopic features.
 
 ### Etiology
 - 🔴 **Herpes simplex virus — HSV-2 (most genital cases), HSV-1 (increasing)** — DNA virus.
@@ -460,10 +423,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. What is HPV infection? Mention the low-risk and high-risk HPV types.</b></summary>
+### Q19. What is HPV infection? Mention the low-risk and high-risk HPV types.
 
 ### What is HPV infection?
 - **Human papillomavirus** = a small **DNA virus** that infects **squamous epithelium**; sexually transmitted and extremely common (prevalence peaks at **20–24 yr**).
@@ -482,10 +443,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. Describe the histological features of condyloma acuminatum.</b></summary>
+### Q20. Describe the histological features of condyloma acuminatum.
 
 ### Condyloma acuminatum (genital wart) — histology
 1. 🔴 **Exophytic papillary architecture with branching fibrovascular cores** (papillomatosis).
@@ -502,13 +461,11 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
 # SCENARIO-BASED QUESTIONS
 > 📌 **Note:** All 10 scenarios + Extra 1 appear verbatim in Dr. Sharmeen Jahan's "Infections of the Female Genital Tract" slides. The slides give the answers in the content sections (Vulvovaginitis → Salpingitis) — those are captured in the 📌 Mam's slide notes of Part A Q1–Q20 above.
 
-<details>
-<summary><b>Scenario 1: Vulvovaginal Candidiasis</b></summary>
+### Scenario 1: Vulvovaginal Candidiasis
 
 > A 28-year-old pregnant woman presents with intense vulval itching and thick white "cottage cheese-like" vaginal discharge. She recently completed a course of broad-spectrum antibiotics.
 >
@@ -531,10 +488,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 2: Trichomoniasis</b></summary>
+### Scenario 2: Trichomoniasis
 
 > A 24-year-old sexually active woman complains of vaginal itching and foul-smelling frothy yellow-green discharge. On examination, the cervix appears erythematous with multiple punctate hemorrhages ("strawberry cervix").
 >
@@ -557,10 +512,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 3: Bacterial Vaginosis</b></summary>
+### Scenario 3: Bacterial Vaginosis
 
 > A 30-year-old woman presents with a thin gray-white vaginal discharge and a fishy odor, particularly after sexual intercourse. Vaginal pH is elevated.
 >
@@ -592,10 +545,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 4: Chlamydial Cervicitis</b></summary>
+### Scenario 4: Chlamydial Cervicitis
 
 > A 22-year-old woman presents with mucopurulent cervical discharge and dysuria. She has multiple sexual partners. Laboratory tests reveal infection with Chlamydia trachomatis.
 >
@@ -618,10 +569,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 5: Gonococcal Infection</b></summary>
+### Scenario 5: Gonococcal Infection
 
 > A 26-year-old woman presents with purulent vaginal discharge, pelvic pain, and fever. Cervical swab culture reveals Neisseria gonorrhoeae.
 >
@@ -652,10 +601,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 6: Pelvic Inflammatory Disease (PID)</b></summary>
+### Scenario 6: Pelvic Inflammatory Disease (PID)
 
 > A 27-year-old woman presents with lower abdominal pain, fever, abnormal vaginal discharge, and cervical motion tenderness. She has a history of untreated sexually transmitted infection.
 >
@@ -678,10 +625,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 7: Chronic Endometritis</b></summary>
+### Scenario 7: Chronic Endometritis
 
 > A 35-year-old woman presents with abnormal uterine bleeding and infertility. Endometrial biopsy reveals plasma cells within the endometrial stroma.
 >
@@ -710,10 +655,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 8: Salpingitis</b></summary>
+### Scenario 8: Salpingitis
 
 > A woman with a history of PID undergoes laparoscopy. The fallopian tubes are thickened and filled with pus.
 >
@@ -736,10 +679,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 9: Genital Herpes</b></summary>
+### Scenario 9: Genital Herpes
 
 > A 23-year-old woman presents with painful genital vesicles and ulcers associated with fever and malaise. Tzanck smear demonstrates multinucleated giant cells.
 >
@@ -769,10 +710,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Scenario 10: HPV Infection and Cervical Cancer</b></summary>
+### Scenario 10: HPV Infection and Cervical Cancer
 
 > A 32-year-old woman undergoes cervical screening. Cytology shows koilocytosis. HPV DNA testing is positive for HPV-16.
 >
@@ -795,10 +734,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Extra 1: Chlamydial PID</b></summary>
+### Extra 1: Chlamydial PID
 
 > A 25-year-old sexually active woman presents with lower abdominal pain, fever, mucopurulent cervical discharge, and cervical motion tenderness. Laboratory tests reveal Chlamydia trachomatis infection.
 >
@@ -821,10 +758,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Extra 2: Frothy green discharge</b></summary>
+### Extra 2: Frothy green discharge
 
 > A 25-year-old woman presents with frothy green vaginal discharge and itching.
 >
@@ -842,10 +777,8 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
-<details>
-<summary><b>Extra 3: Thick white curd-like discharge</b></summary>
+### Extra 3: Thick white curd-like discharge
 
 > A woman presents with thick white curd-like vaginal discharge and intense itching.
 >
@@ -863,7 +796,6 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 ---
 
-</details>
 
 # QUICK-FIRE (rapid Q&A)
 1. **Which organism causes candidal vaginitis?** → *Candida albicans*.
@@ -885,8 +817,7 @@ Linked to **premature labor, chorioamnionitis, post-abortal and post-hysterectom
 
 # PART B — Cervical Intraepithelial Neoplasia (CIN), Carcinoma Cervix & Screening
 
-<details>
-<summary><b>Dr. Rokhsana's Questions</b></summary>
+### Dr. Rokhsana's Questions
 
 ### R1. Name important organisms that can infect the female genital tract.
 
@@ -1016,12 +947,10 @@ The **Papanicolaou (Pap) smear** = exfoliative cytology of the **cervical transf
 
 ---
 
-</details>
 
 # SAQs on CIN, Carcinoma Cervix & Screening (1–20)
 
-<details>
-<summary><b>SAQ 1</b></summary>
+### SAQ 1
 
 a) Define Cervical Intraepithelial Neoplasia (CIN).
 b) Classify CIN.
@@ -1040,10 +969,8 @@ c) Mention two histological features of CIN III.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 2</b></summary>
+### SAQ 2
 
 a) What is dysplasia?
 b) What are the microscopic features of cervical dysplasia?
@@ -1062,10 +989,8 @@ c) What is the significance of dysplasia?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 3</b></summary>
+### SAQ 3
 
 a) Define carcinoma in situ (CIS).
 b) Mention three features of CIS.
@@ -1091,10 +1016,8 @@ c) How does CIS differ from invasive carcinoma?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 4</b></summary>
+### SAQ 4
 
 a) Define invasive carcinoma of the cervix.
 b) Mention two routes of spread of cervical carcinoma.
@@ -1113,10 +1036,8 @@ c) Name the most common histological type of cervical carcinoma.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 5</b></summary>
+### SAQ 5
 
 a) What is the transformation zone?
 b) Why is it clinically important?
@@ -1135,10 +1056,8 @@ c) Mention two lesions commonly arising in this zone.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 6</b></summary>
+### SAQ 6
 
 a) What is HPV?
 b) Name four high-risk HPV types associated with cervical cancer.
@@ -1157,10 +1076,8 @@ c) Which HPV types are most commonly associated with cervical carcinoma?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 7</b></summary>
+### SAQ 7
 
 a) Describe the role of HPV in cervical carcinogenesis.
 b) What are E6 and E7 proteins?
@@ -1179,10 +1096,8 @@ c) Mention their effects on p53 and RB genes.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 8</b></summary>
+### SAQ 8
 
 a) Enumerate the risk factors for carcinoma cervix.
 b) Which risk factor is considered most important?
@@ -1201,10 +1116,8 @@ c) Mention two host-related risk factors.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 9</b></summary>
+### SAQ 9
 
 a) Classify cervical intraepithelial neoplasia.
 b) Describe the histological features of CIN I.
@@ -1223,10 +1136,8 @@ c) Mention the risk of progression of CIN III.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 10</b></summary>
+### SAQ 10
 
 a) Differentiate between CIN III and carcinoma in situ.
 b) What is the current WHO/Robbins concept regarding these lesions?
@@ -1243,10 +1154,8 @@ b) What is the current WHO/Robbins concept regarding these lesions?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 11</b></summary>
+### SAQ 11
 
 a) Write the sequence of development of cervical carcinoma.
 b) Which molecular events are responsible for malignant transformation?
@@ -1268,10 +1177,8 @@ Normal squamous epithelium
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 12</b></summary>
+### SAQ 12
 
 a) What is koilocytosis?
 b) Mention its significance.
@@ -1290,10 +1197,8 @@ c) In which viral infection is it commonly seen?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 13</b></summary>
+### SAQ 13
 
 a) What is a Pap smear?
 b) State its principle.
@@ -1312,10 +1217,8 @@ c) Mention its importance in cervical cancer prevention.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 14</b></summary>
+### SAQ 14
 
 a) Enumerate the screening methods for cervical carcinoma.
 b) Which screening test is most widely used?
@@ -1334,10 +1237,8 @@ c) What is HPV DNA testing?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 15</b></summary>
+### SAQ 15
 
 a) What is VIA (Visual Inspection with Acetic Acid)?
 b) Describe its procedure briefly.
@@ -1356,10 +1257,8 @@ c) Mention two advantages of VIA.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 16</b></summary>
+### SAQ 16
 
 a) What is liquid-based cytology (LBC)?
 b) Mention two advantages over conventional Pap smear.
@@ -1376,10 +1275,8 @@ b) Mention two advantages over conventional Pap smear.
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 17</b></summary>
+### SAQ 17
 
 a) What are the benefits of cervical cancer screening?
 b) How does screening reduce mortality from cervical cancer?
@@ -1396,10 +1293,8 @@ b) How does screening reduce mortality from cervical cancer?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 18</b></summary>
+### SAQ 18
 
 a) Name the two major histological types of cervical carcinoma.
 b) Which is more common?
@@ -1418,10 +1313,8 @@ c) From where does adenocarcinoma arise?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 19</b></summary>
+### SAQ 19
 
 a) Mention the functions of p53.
 b) How does HPV E6 protein affect p53?
@@ -1440,10 +1333,8 @@ c) What is the consequence of this interaction?
 
 ---
 
-</details>
 
-<details>
-<summary><b>SAQ 20</b></summary>
+### SAQ 20
 
 a) What is the role of RB protein in cell cycle regulation?
 b) How does HPV E7 protein affect RB?
@@ -1462,12 +1353,10 @@ c) What is the result of RB inactivation?
 
 ---
 
-</details>
 
 # 🐀 Write Short Notes On (CIN/cervix set)
 
-<details>
-<summary><b>1. CIN III</b></summary>
+### 1. CIN III
 
 High-grade cervical intraepithelial neoplasia (= severe dysplasia/CIS = **HSIL**). Dysplastic basaloid cells occupy **>⅔ to full epithelial thickness** with nuclear atypia, mitoses; **intact basement membrane (no invasion)**. Caused by **persistent high-risk HPV** (16/18); **~10% progress to invasive cancer in 2–10 yr**. IHC: **p16+ (block), Ki-67 high**. Treatment: **colposcopy + conization**.
 
@@ -1477,10 +1366,8 @@ High-grade cervical intraepithelial neoplasia (= severe dysplasia/CIS = **HSIL**
 
 ---
 
-</details>
 
-<details>
-<summary><b>2. Carcinoma in situ</b></summary>
+### 2. Carcinoma in situ
 
 Full-thickness dysplastic/malignant squamous epithelium **confined above the intact basement membrane** — no stromal invasion, no metastasis. Currently reported as **HSIL (CIN III)**. Curable by cone excision; the boundary with invasive carcinoma is basement-membrane breach (nests/tongues of cells + stromal reaction).
 
@@ -1490,10 +1377,8 @@ Full-thickness dysplastic/malignant squamous epithelium **confined above the int
 
 ---
 
-</details>
 
-<details>
-<summary><b>3. Pap smear</b></summary>
+### 3. Pap smear
 
 Exfoliative cytology of the **transformation zone**, Papanicolaou-stained, read by Bethesda. Detects **koilocytes → LSIL → HSIL** in the pre-invasive window. Combined with HPV testing (≥30 yr); the backbone of the **75% cervical cancer mortality reduction**.
 
@@ -1503,10 +1388,8 @@ Exfoliative cytology of the **transformation zone**, Papanicolaou-stained, read 
 
 ---
 
-</details>
 
-<details>
-<summary><b>4. HPV DNA testing</b></summary>
+### 4. HPV DNA testing
 
 Molecular detection of **high-risk HPV DNA** in cervical samples. **Higher sensitivity, lower specificity than Pap**; used for women **≥30 yr** (co-testing) and to triage ASC-US. **Persistent high-risk HPV positivity** = the carcinogenic event → closer surveillance/colposcopy.
 
@@ -1516,10 +1399,8 @@ Molecular detection of **high-risk HPV DNA** in cervical samples. **Higher sensi
 
 ---
 
-</details>
 
-<details>
-<summary><b>5. Koilocytosis</b></summary>
+### 5. Koilocytosis
 
 Nuclear enlargement + hyperchromasia + coarse chromatin + **perinuclear halo** — the **HPV E5 cytopathic effect**; hallmark of LSIL/CIN I (also seen in condylomata). Confirms active HPV replication.
 
@@ -1529,10 +1410,8 @@ Nuclear enlargement + hyperchromasia + coarse chromatin + **perinuclear halo** �
 
 ---
 
-</details>
 
-<details>
-<summary><b>6. Transformation zone</b></summary>
+### 6. Transformation zone
 
 The squamocolumnar junction area where columnar epithelium is replaced by **immature metaplastic squamous epithelium**. 🔴 **Most HPV-susceptible region** → the site of CIN and cervical carcinoma; targeted by the Pap smear.
 
@@ -1542,10 +1421,8 @@ The squamocolumnar junction area where columnar epithelium is replaced by **imma
 
 ---
 
-</details>
 
-<details>
-<summary><b>7. VIA</b></summary>
+### 7. VIA
 
 **Visual Inspection with Acetic Acid** — 3–5% acetic acid → abnormal epithelium turns **aceto-white**. Cheap, instant, no lab needed → **screen-and-treat** programs in low-resource settings.
 
@@ -1555,10 +1432,8 @@ The squamocolumnar junction area where columnar epithelium is replaced by **imma
 
 ---
 
-</details>
 
-<details>
-<summary><b>8. Squamous cell carcinoma of cervix</b></summary>
+### 8. Squamous cell carcinoma of cervix
 
 🔴 **~80% of cervical cancers**; arises from CIN in the transformation zone; keratinizing or nonkeratinizing nests/tongues invading stroma; precursor CIN/HSIL; high-risk HPV 16/18. Spread: direct (bladder/ureter → uremia), lymphatic. Staging Ia1 ≤3 mm → IV; 5-yr survival 100% (superficially invasive) → <20% beyond pelvis. Death usually from **local invasion (ureteral obstruction → pyelonephritis → uremia)**.
 
@@ -1570,10 +1445,8 @@ The squamocolumnar junction area where columnar epithelium is replaced by **imma
 
 ---
 
-</details>
 
-<details>
-<summary><b>9. Adenocarcinoma of cervix</b></summary>
+### 9. Adenocarcinoma of cervix
 
 **~15% of cervical cancers**; arises from **endocervical columnar epithelium (precursor: adenocarcinoma in situ)**; **mucin-depleted dark glands** with large hyperchromatic nuclei. Progresses **faster than SCC** → often presents advanced, worse prognosis; high-risk HPV-related (18 more than 16).
 
@@ -1585,10 +1458,8 @@ The squamocolumnar junction area where columnar epithelium is replaced by **imma
 
 ---
 
-</details>
 
-<details>
-<summary><b>10. HPV vaccination</b></summary>
+### 10. HPV vaccination
 
 Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); the broader 9-valent vaccine adds **5 more high-risk types + 6/11 (genital warts)**. Given to **boys and girls at 11–12 yr** (catch-up to 26). ~10-yr protection; 🔴 **screening must continue** (not all types covered).
 
@@ -1598,12 +1469,10 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>
 
 # Problem-Based Questions (PBQ 1–5)
 
-<details>
-<summary><b>PBQ 1: CIN I</b></summary>
+### PBQ 1: CIN I
 
 > A 25-year-old woman undergoes routine cervical screening. Pap smear reveals mild dysplastic changes. Colposcopy-guided biopsy shows dysplastic cells involving the lower one-third of the cervical epithelium.
 >
@@ -1628,10 +1497,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>
 
-<details>
-<summary><b>PBQ 2: CIN III</b></summary>
+### PBQ 2: CIN III
 
 > A 32-year-old woman presents with an abnormal Pap smear. Cervical biopsy shows severe epithelial atypia involving almost the entire thickness of the squamous epithelium. The basement membrane remains intact.
 >
@@ -1656,10 +1523,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>
 
-<details>
-<summary><b>PBQ 3: Carcinoma in Situ vs Invasive Carcinoma</b></summary>
+### PBQ 3: Carcinoma in Situ vs Invasive Carcinoma
 
 > A cervical biopsy demonstrates full-thickness epithelial atypia. In another patient, atypical cells are seen penetrating the basement membrane and infiltrating the cervical stroma.
 >
@@ -1684,10 +1549,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>
 
-<details>
-<summary><b>PBQ 4: HPV Infection</b></summary>
+### PBQ 4: HPV Infection
 
 > A 28-year-old sexually active woman is found to have persistent HPV-16 infection during cervical cancer screening.
 >
@@ -1712,10 +1575,8 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>
 
-<details>
-<summary><b>PBQ 5: Screening</b></summary>
+### PBQ 5: Screening
 
 > A 35-year-old woman with no symptoms undergoes a Pap smear as part of routine screening. The report shows high-grade squamous intraepithelial lesion (HSIL).
 >
@@ -1743,4 +1604,3 @@ Virus-like particle vaccine against **HPV 16 + 18** (~70% of cervical cancers); 
 
 ---
 
-</details>

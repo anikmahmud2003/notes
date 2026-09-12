@@ -12,8 +12,7 @@ oq
 
 ## Communicable Diseases
 
-<details>
-<summary><b>Q. What is communicable disease?</b></summary>
+### Q. What is communicable disease?
 
 **Communicable disease:**
 An illness due to specific infectious agent or it’s toxic products capable of being directly or indirectly
@@ -24,10 +23,8 @@ Component:
   - Agent: The seed.
   - Host: The soil.
   - Route of transmission: The climate.
-</details>
 
-<details>
-<summary><b>Q. State the cardinal characteristics of infectious diseases.</b></summary>
+### Q. State the cardinal characteristics of infectious diseases.
 
 **Cardinal characteristics of infectious diseases:** For an infectious disease to occur, the following conditions or
 events must be take place —
@@ -41,10 +38,8 @@ order for a disease to be caused elsewhere.
 to another.
 5) There must be a susceptible host.
 [Ref- Rashid, Khabir, Hyder / 5" /89]
-</details>
 
-<details>
-<summary><b>Q. Classify communicable diseases.</b></summary>
+### Q. Classify communicable diseases.
 
 **Classification of communicable diseases:**
 —sassilication of communicable diseases:
@@ -67,10 +62,8 @@ etc.
 diseases
 azar etc.
 rickettsial fever etc.
-</details>
 
-<details>
-<summary><b>Q. Enumerate important communicable disease of Bangladesh. [SUST-15Ju]<br>Q. Mention five communicable diseases prevalent in your locality with causative organisms. [CU-12Ju]</b></summary>
+### Q. Enumerate important communicable disease of Bangladesh. [SUST-15Ju]<br>Q. Mention five communicable diseases prevalent in your locality with causative organisms. [CU-12Ju]
 
 - paren important communicable diseases of Bangladesh with their causative agents.
 Some communicable diseases with their causative agent and incubations periods:
@@ -80,10 +73,8 @@ Polio virus
 Clostridium tetani
 Rabies virus Commonly 3-8 weeks, but may vary
 from 4 days to many years.
-</details>
 
-<details>
-<summary><b>Q. Name the eruptive communicable diseases.</b></summary>
+### Q. Name the eruptive communicable diseases.
 
 **Eruptive communicable diseases:**
 :
@@ -96,10 +87,8 @@ Salmonella typhi & paratyphi
 Rickettsia rickettsi
 Rickettsia prowazeki
 Rickettsia tsutsugamushi
-</details>
 
-<details>
-<summary><b>Q. Name the common disease problems in the rural areas of our country.<br>Q. Name five (5) most common communicable diseases prevalent in Bangladesh. [SUST-17N, CU-13J]</b></summary>
+### Q. Name the common disease problems in the rural areas of our country.<br>Q. Name five (5) most common communicable diseases prevalent in Bangladesh. [SUST-17N, CU-13J]
 
 **Common disease problems in the rural areas our country:**
 1) Diarrhoeal diseases
@@ -109,10 +98,8 @@ Rickettsia tsutsugamushi
 5) Tetanus
 6) Intestinal worm infestation
 7) Scabies
-</details>
 
-<details>
-<summary><b>📌 Viva — 3 old diseases threatening the world: 3 new diseases threatening the world</b></summary>
+### 📌 Viva — 3 old diseases threatening the world: 3 new diseases threatening the world
 
 **“ 3 old diseases threatening the world:** 3 new diseases threatening the world:
   - Tuberculosis. > AIDS.
@@ -127,10 +114,8 @@ rae i) different routes of transmission of communicable disease with example. [S
 E Mention the routes of diseases transmission of infectious diseases. [DU-15J]
 - Discuss different methods [SUST-I6N] / modes [CU-13Ju,10J, SUST-15Ju/J,13Ju] of
 transmission of communicable diseases with example.
-</details>
 
-<details>
-<summary><b>Q. What are the routes of disease transmission? Give examples of each of them. [SUST-12J]<br>Q. Write short note on: Disease transmission. [CU-16N]</b></summary>
+### Q. What are the routes of disease transmission? Give examples of each of them. [SUST-12J]<br>Q. Write short note on: Disease transmission. [CU-16N]
 
 **Modes of transmission of communicable diseases:**
 - Direct transmission:
@@ -181,10 +166,8 @@ ontrol and Prevention of Communicable Diseases
 ly lention the measures for prevention & control of communicable diseases. [DU-18M]
 le Ta the principles of control of communicable disease. [RU-18N, SUST-17M, 14Ju, 13Ju,
 u
-</details>
 
-<details>
-<summary><b>Q. Discuss the measures of communicable disease control. [SUST-16M]</b></summary>
+### Q. Discuss the measures of communicable disease control. [SUST-16M]
 
 **Principle of control of communicable diseases:**
 1) Controlling the reservoir / prevention of spread:
@@ -210,10 +193,8 @@ most food borne illnesses.
   - Disinfection.
   - Sterilization.
 [Ref- Park / 24" / 127 + Rashid, Khabir, Hyder 15" /226, 227]
-</details>
 
-<details>
-<summary><b>Q. How transmission of communicable disease can be prevented? [SUST-13J]</b></summary>
+### Q. How transmission of communicable disease can be prevented? [SUST-13J]
 
 Interruption / prevention of transmission of communicable disease:
 A major aspect of communicable disease control relates to “breaking the chain of transmission” or
@@ -227,10 +208,8 @@ refrigeration of prepared foods and withdrawal of contaminated foods.
 breeding places.
 4) Practice of safe sex,
 [Ref- Park / 24" / 130 + Rashid, Khabir, Hyder / 5/227]
-</details>
 
-<details>
-<summary><b>Q. Discuss different aspects of infectious disease control in Bangladesh context. [DU-07J]</b></summary>
+### Q. Discuss different aspects of infectious disease control in Bangladesh context. [DU-07J]
 
 Different aspects of infectious disease control in Bangladesh:
 The term ‘disease control’ defines as a process aimed at reducing —
@@ -257,10 +236,8 @@ Sometimes, tetanus toxoid (TT) vaccines are delivered to neonates and mothers of
 control tetanus.
 [Ref- Rashid, Khabir, Hyder / 5" / 421]
 Notification of a communicable disease
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Notification of disease. [SUST-16M]</b></summary>
+### Q. Write short note on: Notification of disease. [SUST-16M]
 
 **Notification of disease:**
 Once an infectious disease has been detected (or even suspected) it should be notified to the local health
@@ -295,10 +272,8 @@ ch epee permits immediate action to be taken by the health
 Notification of a communicable disease
 Please see in the ‘Chapter-03: Principles of Epidemiology & Epidemiological Methods’.
 Isolation of the patient
-</details>
 
-<details>
-<summary><b>Q. Define isolation. [SUST-16N]<br>Q. Write short note on: Isolation. [SUST-18M]</b></summary>
+### Q. Define isolation. [SUST-16N]<br>Q. Write short note on: Isolation. [SUST-18M]
 
 **Isolation:**
 - Isolation of the patient is the oldest communicable disease control measure.
@@ -325,10 +300,8 @@ Example: Small pox, Measles.
 FE J
 5
 VIVA & OS.
-</details>
 
-<details>
-<summary><b>📌 Viva — Communicable diseases where isolation has</b></summary>
+### 📌 Viva — Communicable diseases where isolation has
 
 Communicable diseases where isolation has
 Communicable diseases where isolation has
@@ -343,10 +316,8 @@ a value in control:
 7) STD. etc.
 [Ref- Park /24" / 129]
 Quarantine
-</details>
 
-<details>
-<summary><b>Q. Define quarantine. [SUST-16N]<br>Q. Write short note on: Quarantine. [SUST-18M]</b></summary>
+### Q. Define quarantine. [SUST-16N]<br>Q. Write short note on: Quarantine. [SUST-18M]
 
 **Quarantine:**
 It has been defined as “the limitation of freedom of movement of such well persons or domestic animals
@@ -359,10 +330,8 @@ Types of quarantine:
 exclusion of children from school.
 3) Segregation: e.g. removal of susceptible children to homes of immune persons.
 [Ref- Park / 24" / 129]
-</details>
 
-<details>
-<summary><b>Q. Differentiate between isolation & quarantine. [DU-18N,17N]</b></summary>
+### Q. Differentiate between isolation & quarantine. [DU-18N,17N]
 
 **Differences between isolation and quarantine:**
 __ Isolation
@@ -413,20 +382,16 @@ Plague
 3-6 days (6 days organized under IHR:
 Yellow fever
 [Ref- Park /22"4 / 784]
-</details>
 
-<details>
-<summary><b>Q. A participant from South Africa will come to Bangladesh next Sunday to attend a seminar on</b></summary>
+### Q. A participant from South Africa will come to Bangladesh next Sunday to attend a seminar on
 
 yellow fever. What a port health officer will have to do at the airport before allowing him to
 enter in Bangladesh? [RU-12Ju]
 Duty of a port health officer:
 He will do the tests to detect any international quarantinable disease.
 Emerging and Reemerging Disease
-</details>
 
-<details>
-<summary><b>Q. Discuss ‘emerging & re-emerging diseases’ with example. [SUST-16M]<br>Q. Write short note on: Emerging and re-emerging infectious diseases.</b></summary>
+### Q. Discuss ‘emerging & re-emerging diseases’ with example. [SUST-16M]<br>Q. Write short note on: Emerging and re-emerging infectious diseases.
 
 **Emerging diseases:**
 Emerging infectious diseases are those whose incidence in humans has increased during the last two
@@ -448,10 +413,8 @@ The factors responsible for emergence and re-emergence of infectious diseases:
 [Ref- Park / 24" /373]
 Bacterial Diseases
 Diphtheria
-</details>
 
-<details>
-<summary><b>Q. Define diphtheria.<br>Q. What are the types of diphtheria?</b></summary>
+### Q. Define diphtheria.<br>Q. What are the types of diphtheria?
 
 **Diphtheria:**
 Diphtheria is an acute bacterial disease caused by toxigenic strains of Corynebacterium diphtheriae,
@@ -467,10 +430,8 @@ the other sites such as eyes (conjunctiva), nose or vagina.
 Laryngeal diphtheria is serious in infants and young children, while nasal diphtheria is mild and
 often chronic.
 [Ref- Rashid, Khabir, Hyder / 5" /227]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **“ Case definition of diphtheria:** A respiratory tract illness characterized by —
 - Sore throat (laryngitis, pharyngitis or tonsillitis), and
@@ -478,10 +439,8 @@ often chronic.
 - Adherent membrane of the tonsils, pharynx and or nose, and
 - Without other apparent cause determined by the physician.
 [Ref- Rashid, Khabir, Hyder / 5" / 227]
-</details>
 
-<details>
-<summary><b>Q. Discuss the pathogenesis of diphtheria.</b></summary>
+### Q. Discuss the pathogenesis of diphtheria.
 
 **Pathogenesis of diphtheria:** The bacilli multiply locally, usually in the throat, and elaborate a powerful
 exotoxin, which is responsible for:
@@ -492,10 +451,8 @@ Marked congestion, oedema or local tissue destruction.
 Enlargement of regional lymph nodes and
 Signs and symptoms of toxaemia.
 [Ref- Park /24" / 169]
-</details>
 
-<details>
-<summary><b>Q. Discuss the important epidemiological features of diphtheria.<br>Q. Write down the epidemiology of diphtheria. [CU-04M]</b></summary>
+### Q. Discuss the important epidemiological features of diphtheria.<br>Q. Write down the epidemiology of diphtheria. [CU-04M]
 
 **Epidemiological features of diphtheria:**
 - **Occurrence:**
@@ -532,10 +489,8 @@ trend.
   - Non-respiratory route.
 6) I bation period: 2 - 6 days.
 oa * [Ref- Park /24"/ 170]
-</details>
 
-<details>
-<summary><b>Q. Mention the clinical features of diphtheria.</b></summary>
+### Q. Mention the clinical features of diphtheria.
 
 **Clinical features of diphtheria:**
 - Respiratory tract forms of diphtheria: Consists of pharyngotonsillar, laryngotracheal, nasal, and
@@ -558,19 +513,15 @@ Cutaneous d r ears as a cond: ere |
 be surrounded by erythema and c [Ref- Park /24"/ 171]
 EE aa
 NG
-</details>
 
-<details>
-<summary><b>Q. How diphtheria can be diagnosed clinically?</b></summary>
+### Q. How diphtheria can be diagnosed clinically?
 
 linical diagnosi Hi H '
 Clinical diagnosis of diphtheria which should form the basis for starting immediate treatment is based
 on observation of a whitish membrane, especially if extending to the uvula and soft palate.
 [Ref- Rashid, Khabir, Hyder / 5" /228)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Shick test.</b></summary>
+### Q. Write short note on: Shick test.
 
 Shick test; Intradermal test which test two things —
 - To know the immune status of the person against diphtheria,
@@ -600,10 +551,8 @@ Negative Positive Avirulent Not infective None
 Virulent Carrier Isolate and treat
 |_Negative [Negative | ———_—| Healthy person
 [Ref- Rashid, Khabir, Hyder / 5" / 229}
-</details>
 
-<details>
-<summary><b>Q. Mention the complications of diphtheria. [DU-10Ju]</b></summary>
+### Q. Mention the complications of diphtheria. [DU-10Ju]
 
 **Complications of Diphtheria:**
 “ 1" week:
@@ -625,10 +574,8 @@ accommodation (manifest by difficulty in reading small point).
   - Diaphragmatic Paralysis,
 [Ref- D
 avidson / 23°! + Kumar & Clark /7"/126+MR Choudhury’s Microbiology]
-</details>
 
-<details>
-<summary><b>Q. Outline the treatment of diphtheria, [CU-04M]</b></summary>
+### Q. Outline the treatment of diphtheria, [CU-04M]
 
 **Treatment of diphtheria:**
 Notification: ini i H :
@@ -650,10 +597,8 @@ immunization history until three swabs 24 hours apart are culture-negative.
 4
 S
 [Ref- Davidson / 23" /340]
-</details>
 
-<details>
-<summary><b>Q. What measures should be taken to control & prevent diphtheria? [DU-16M]<br>Q. How can you control diphtheria among cases and carriers? [DU-07Ju]</b></summary>
+### Q. What measures should be taken to control & prevent diphtheria? [DU-16M]<br>Q. How can you control diphtheria among cases and carriers? [DU-07Ju]
 
 **Control & prevention of diphtheria:** ;
 1) Active immunization against diphtheria: DPT or DT toxoid may be used. Protection conferred
@@ -669,20 +614,16 @@ discharges of patient.
   - Penicillin. . [Ref- Rashid, Khabir, Hyder /5" / 228]
 4)
 i the family history of
-</details>
 
-<details>
-<summary><b>Q. A 6 weeks old child came to you for vaccination. Mother gave</b></summary>
+### Q. A 6 weeks old child came to you for vaccination. Mother gave
 
 convulsion. Will you vaccinate the child? If yes, which vaccines would you prefer and why?
 Yes, the child will be vaccinated. I will prefer DT vaccine instead of DPT, because pertussis
 © ine i ib vulsion.
 omponent of the vaccine is responsible for con (ited Parke adhg it
 Enteric fever (Typhoid and Para hoid
-</details>
 
-<details>
-<summary><b>Q. Define enteric fever.</b></summary>
+### Q. Define enteric fever.
 
 **Enteric fever:**
 - The term “enteric fever” includes both typhoid and paratyphoid fevers.
@@ -691,10 +632,8 @@ manifested clinically by gradual onset of headache, sustained fever, relative br
 on the trunk and splenomegaly in about 75% of patients.
 - The disease may occur sporadically epidemically or endemically.
 [Ref- Park /24" / 249 + Rashid, Khabir, Hyder /5" / 229]
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology of typhoid fever?<br>Q. Write down the natural history of typhoid fever?</b></summary>
+### Q. Write down the epidemiology of typhoid fever?<br>Q. Write down the natural history of typhoid fever?
 
 **Epidemiology of typhoid fever:**
 “ Occurrence: Worldwide developing countries incidence varies from 100 — 1500/lakh.
@@ -728,20 +667,16 @@ weeks depending upon the dose of the bacilli ingested.
 ‘ Ty source: faeces and urine of cases or carriers.
 econdary sources: contaminated water, food, fingers and flies.
 [Ref- Park / 24" /249, 250]
-</details>
 
-<details>
-<summary><b>📌 Viva — Typhoid Marry,</b></summary>
+### 📌 Viva — Typhoid Marry,
 
 - Typhoid Marry,
 4 cook who gave rise to mo 0 i i
 tart re than |
 een 300 case in her life time.
 More frequent than urinary carriers,
-</details>
 
-<details>
-<summary><b>Q. Why sometimes typhoid fever breaks out in a village explosively?</b></summary>
+### Q. Why sometimes typhoid fever breaks out in a village explosively?
 
 **— perserners breaks out in a village explosively:** The possible factors responsible may be —
 2) Vegetables grown in sewag
@@ -760,10 +695,8 @@ season).
 4) Now availability of safe water supply
 5) Inadequate disposal of excreta.
 [Ref- Park /24" /250]
-</details>
 
-<details>
-<summary><b>Q. Write down preventive and control measure of typhoid fever?<br>Q. How an outbreak of typhoid fever could be controlled in an urban community? [RU-18M]</b></summary>
+### Q. Write down preventive and control measure of typhoid fever?<br>Q. How an outbreak of typhoid fever could be controlled in an urban community? [RU-18M]
 
 **Preventive and control measures of typhoid fever:**
 1) Provision of safe drinking water.
@@ -782,10 +715,8 @@ four weeks. }
 » Cholecystectomy. |
   - Concurrent disinfection of faeces, urine and soiled articles.
 [Ref- Rashid, Khabir, Hyder / 5" / 230] |
-</details>
 
-<details>
-<summary><b>📌 Viva — Mode of transmission of typhoid fever</b></summary>
+### 📌 Viva — Mode of transmission of typhoid fever
 
 - **Mode of transmission of typhoid fever:**
 SOCIAL FACTORS
@@ -808,10 +739,8 @@ S
 1)
 Figure: Dynamics of typhoid fever. |
 [Ref- Park /24"/250]
-</details>
 
-<details>
-<summary><b>Q. How typhoid fever can be diagnosed in the laboratory?</b></summary>
+### Q. How typhoid fever can be diagnosed in the laboratory?
 
 **Laboratory diagnosis of typhoid fever:**
 1) . Microbiological procedures: The definitive diagnosis of typhoid fever depends on the isolation of |
@@ -824,10 +753,8 @@ minutes. Another rapid serological test, typhidot, takes 3 hours to perform. A n
 test Typhidot-m was recently developed to detect specific IgM antibodies only. Another test is
 dipstick test.
 [Ref- Park /24" / 250, 251]
-</details>
 
-<details>
-<summary><b>Q. Mention the complications of typhoid fever. [DU-06J]</b></summary>
+### Q. Mention the complications of typhoid fever. [DU-06J]
 
 **Complications of typhoid fever:**
 1) Intestinal haemorrhage
@@ -882,18 +809,14 @@ or 50, and they are more severe at night.
 3) Convalescent stage (1-2 weeks):
   - Cough becomes less frequent.
   - Sputum less tenacious.
-</details>
 
-<details>
-<summary><b>Q. A health worker at his village house noticed some insects with hooping behavior. Identify</b></summary>
+### Q. A health worker at his village house noticed some insects with hooping behavior. Identify
 
 insects with its morphological characteristics & mention its epidemiological importance.
 [RU-17N]
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. What are the complications of pertussis? [DU-11Ju]</b></summary>
+### Q. What are the complications of pertussis? [DU-11Ju]
 
 **Complications of whooping cough:**
 1) Respiratory system:
@@ -909,10 +832,8 @@ Please write from above discussion.
 6) Tongue: Ulceration of frenulum of tongue in children.
 7) Umbilicus: Umbilical hernia.
 [Ref- Park / 24" /174 + Davidson 123"
-</details>
 
-<details>
-<summary><b>Q. What are the preventive and control measures of whooping cough?<br>Q. Outline the treatment of whooping cough.</b></summary>
+### Q. What are the preventive and control measures of whooping cough?<br>Q. Outline the treatment of whooping cough.
 
 **Control & prevention of whooping cough:**
 A) Cases and contacts:
@@ -937,10 +858,8 @@ B) Active immunization:
 C) Passive immunization,
 [Ref- Park / 24" / 174 + Rashid, Khabir, Hyder / 5/232]
 Tetanus
-</details>
 
-<details>
-<summary><b>Q. Define tetanus. Classify tetanus.</b></summary>
+### Q. Define tetanus. Classify tetanus.
 
 **Tetanus:**
 It is an acute disease caused by exotoxin of Clostridium tetani and characterized by painful paroxysmal
@@ -977,10 +896,8 @@ spasms are limited locally. Y pi inoculation. Here incubation period is longer a
 6) Tetanus neonatorum: Usually occurs if childbirth takes place in an unhygienic environment.
 [Ref- Rashid, Khabir, Hyder / 5" / 233]
 Sted by restlessness, irritability, pain, rigidity, twitching and spasm of
-</details>
 
-<details>
-<summary><b>Q: Discuss the important epidemiological features of tetanus.</b></summary>
+### Q: Discuss the important epidemiological features of tetanus.
 
 **Epidemiological features of tetanus:**
 ° Occurrence: Tetanus is the worldwide in distribution; rare in developed countries. Still a problem in
@@ -1010,10 +927,8 @@ pinprick, skin abrasion, puncture wound, burns, unsterile surgery, human bite, a
 5) Incubation period: The incubation period is usually 6 to 10 days. It may be are short as one
 day & as long as several years.
 [Ref- Park / 24" / 329]
-</details>
 
-<details>
-<summary><b>Q. How tetanus occurs after RTA?<br>Q. Write down the pathogenesis of tetanus.</b></summary>
+### Q. How tetanus occurs after RTA?<br>Q. Write down the pathogenesis of tetanus.
 
 **Mechanism of tetanus after RTA:** d fractures b
 Spores of Cl. tetani enter through penetrating or punctured wounds or through compound frac ya
@@ -1030,16 +945,12 @@ neurons are not inhibited.
 The inhibition of the release of inhibitory neurotransmitter allows the more powerful muscle to prevail
 hyper-reflexia, muscle spasm and spastic paralysis result.
 Death usually results from respiratory muscle paralysis.
-</details>
 
-<details>
-<summary><b>Q. How do you prevent tetanus?<br>Q. A person brought to hospital with an extensive lacerated injury of left hand. Mention the</b></summary>
+### Q. How do you prevent tetanus?<br>Q. A person brought to hospital with an extensive lacerated injury of left hand. Mention the
 
 measures to be taken to prevent tetanus in him. [RU-10Ju]
-</details>
 
-<details>
-<summary><b>Q. Cases of neonatal tetanus are reported to health authority of an Upazilla health complex.</b></summary>
+### Q. Cases of neonatal tetanus are reported to health authority of an Upazilla health complex.
 
 What are the measures to be accomplished to prevent this problem? [RU-17N]
 A practical scheme for the prevention of tetanus is given below:
@@ -1073,27 +984,21 @@ Prevention and control of tetanus after an injury:
 2 os etanus immunoglobulin) 5,000 units i.m. is given as soon as the diagnosis is clinicalfy arrived
 . To neutralize absorbed toxin, i.v. injection of 3,000 3U of antitoxin may also be undertaken.
 [Ref- Rashid, Khabir, Hyder 15" /233]
-</details>
 
-<details>
-<summary><b>Q. A married woman took two doses of TT vaccines. Several months later she conceived. In this</b></summary>
+### Q. A married woman took two doses of TT vaccines. Several months later she conceived. In this
 
 situation what should be the appropriate measures for ensuring mother and her baby safe
 from tetanus.
 A booster dose is considered sufficient.
-</details>
 
-<details>
-<summary><b>Q. A pregnant woman aged 20 years came to the antenatal clinic. The attending doctor informs</b></summary>
+### Q. A pregnant woman aged 20 years came to the antenatal clinic. The attending doctor informs
 
 her that she did not need to take any TT vaccine for pregnancy. What are the reasons for not
 A giving TT vaccine to that pregnant woman?
 nswer
 She already has taken complete dosage of TT vaccine within 5 years.
-</details>
 
-<details>
-<summary><b>Q. Who are the target population for tetanus toxoid (TT)?</b></summary>
+### Q. Who are the target population for tetanus toxoid (TT)?
 
 **Target population for tetanus toxoid (TT):**
 1) All infants.
@@ -1102,10 +1007,8 @@ She already has taken complete dosage of TT vaccine within 5 years.
 4) Farmers.
 5) Mothers at the seventh and eighth months of pregnancy to prevent tetanus neonatorum.
 [Ref- Rashid, Khabir, Hyder / 5 / 416]
-</details>
 
-<details>
-<summary><b>Q. How you will prevent and control tetanus neonatorum?</b></summary>
+### Q. How you will prevent and control tetanus neonatorum?
 
 **Prevention and control of tetanus neonatorum:**
 1) Immunization of mother:
@@ -1150,10 +1053,8 @@ hours of birth.
   - Proper training and equipping of the village midwives and MCH workers in the area.
   - Health education, particularly education of the mother is very important.
 [Ref- Park / 24" / 330]
-</details>
 
-<details>
-<summary><b>Q. Why ATS is not used now as a method of immunization?<br>Q. Mention the disadvantages of ATS.</b></summary>
+### Q. Why ATS is not used now as a method of immunization?<br>Q. Mention the disadvantages of ATS.
 
 ATS is not used now because —
 1) It causes sensitivity reaction in many people
@@ -1161,18 +1062,14 @@ ATS is not used now because —
 3) ATS stimulate the formation of antibodies to it. Hence a person who has one received ATS tends to
 rapidly eliminate subsequent doses.
 [Ref- Park / 24" / 330]
-</details>
 
-<details>
-<summary><b>Q. Why antibiotic is indicated in tetanus?</b></summary>
+### Q. Why antibiotic is indicated in tetanus?
 
 The method of tetanus prophylaxis is active immunization but it is of no immediate effect in non-
 immune persons. ATS as an agent for immediate protection has its drawbacks, For this Treason antibiotics are
 indicated.
-</details>
 
-<details>
-<summary><b>Q. What is lock jaw?</b></summary>
+### Q. What is lock jaw?
 
 **Lock jaw:**
 - Synonym: Trismus.
@@ -1183,10 +1080,8 @@ indicated.
 . . . we
 tology of Communicable Diseases 123
 Plague
-</details>
 
-<details>
-<summary><b>Q. Define plague, wild Plague, domestic plague.</b></summary>
+### Q. Define plague, wild Plague, domestic plague.
 
 **“ Plague:** Plague i ; . . .
 Siague: Plague is an infectious disease of animals (zoonosis), particularly wild and domestic rodents,
@@ -1200,10 +1095,8 @@ their activities. may be defined as “plague existing in nature independently o
 > Domestic plague: Pl! is inti
 Somestic plague: Plague that is intimately associated with the man a d ivi i
 has a definite potential for producing epidecnits, ies Nae
-</details>
 
-<details>
-<summary><b>Q. Classify plague.</b></summary>
+### Q. Classify plague.
 
 **Classification of plague:**
 1) Human plaque:
@@ -1218,10 +1111,8 @@ plague.
   - Wild plague
   - Domestic plague
 [Ref- Park / 24" /311, 312]
-</details>
 
-<details>
-<summary><b>Q. Illustrate the transmission cycle of plague. [DU-16M]<br>Q. Write the mode of transmission of plague.</b></summary>
+### Q. Illustrate the transmission cycle of plague. [DU-16M]<br>Q. Write the mode of transmission of plague.
 
 - Mode of transmission:
 **1) Vector transmission:** It is transmitted to man mainly by the bite of infected rat flea.
@@ -1230,10 +1121,8 @@ present on the mouth part of the flea.
 3) Droplet infection: Pneumonic plague is spread directly from person to person by
 droplet infection.
 [Ref- Park / 24" /311]
-</details>
 
-<details>
-<summary><b>Q. To check the chain of transmission of plague what measure you should adopt? ;</b></summary>
+### Q. To check the chain of transmission of plague what measure you should adopt? ;
 
 **Measures for the prevention of transmission of plague:**
 1) Control of cases:
@@ -1248,10 +1137,8 @@ Disinfection
 5) Chemoprophylaxis.
 6) Surveillance.
 7) Health education, [Ref- Park
-</details>
 
-<details>
-<summary><b>Q. Write down the importance of “Blocked Flea”. U-12J<br>Q. Enumerate epidemiological importance of blocked flea. [C ]</b></summary>
+### Q. Write down the importance of “Blocked Flea”. U-12J<br>Q. Enumerate epidemiological importance of blocked flea. [C ]
 
 **Blocked flea:** F i
 A flea may ingest up to 0.5 cu mm of blood which may contain as many as 5,000 plagy
@@ -1263,16 +1150,12 @@ in so do; 24
 A partially blocked flea : , .
 It is more dangerous than a completely blocked flea because it can live longer. Infected fleas may fy
 up to a year, and certain species survive in the burrow microclimate for as long as 4 years.
-</details>
 
-<details>
-<summary><b>[Ref- Park/ 248)</b></summary>
+### [Ref- Park/ 248)
 
 _[Ref- Park/ 248)_
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Black Death.</b></summary>
+### Q. Write short note on: Black Death.
 
 **Black death:**
 The 2™ pandemic originated in central Asia in fourteen centu
@@ -1280,10 +1163,8 @@ One fourth population of Europe is estimated to have
 ry mostly involved European coungj
 died and in some parts mortality was 70% of Pop
 It was named BLACK DEATH due to its great severity.
-</details>
 
-<details>
-<summary><b>📌 Viva — Plague has caused 3 world pandemics</b></summary>
+### 📌 Viva — Plague has caused 3 world pandemics
 
 - **Plague has caused 3 world pandemics:**
 - The justinian plague, 6" century
@@ -1292,10 +1173,8 @@ It was named BLACK DEATH due to its great severity.
 - 3" pandemic: Started in China in 1980 and reached the rest of the world the early years off
 20" century, it reached Honkong in 1894, where Yersin and Kitasato described the causative
 bacillus.
-</details>
 
-<details>
-<summary><b>Q. How plague can be prevented and controlled in epidemic area?</b></summary>
+### Q. How plague can be prevented and controlled in epidemic area?
 
 **Prevention and control of plague epidemic:**
 1) Control of rat population.
@@ -1323,10 +1202,8 @@ a daily dose of 30 mg/kg for 10 days, or tetracycline, 10 mg/kg every 6 hours or
 intravenously for 10 days. Intravenous fluids, pressor drugs, oxygen and incubation and
 mechanical ventilation are used as required.
 [Ref- Rashid, Khabir, Hyder / 5/235]
-</details>
 
-<details>
-<summary><b>Q. State the international measures against plague.</b></summary>
+### Q. State the international measures against plague.
 
 **International measures against plague:**
 1) Telegraphic notification within 24 hours by goveraments to WHO.
@@ -1338,10 +1215,8 @@ surveillance for a period of not more than 6 days from the date of arrival.
 5) Plague is one of the quarantinable diseases, and as much special measures are taken at the ports in
 accordance with International Health Regulation.
 [Ref- Rashid, Khabir, Hyder / 5™/235]
-</details>
 
-<details>
-<summary><b>Q. What measures should we take to control rat fleas?</b></summary>
+### Q. What measures should we take to control rat fleas?
 
 **Control of rat fleas:**
 The most effective method to break the chain of transmission (rodent-flea-man) is the destruction of |
@@ -1356,10 +1231,8 @@ floor level, back of the doors, roofing of thatched house, crevices of walls, ra
 " dogs, and other pets.
 [Ref- Park /24" /313]
 Anthrax
-</details>
 
-<details>
-<summary><b>Q. What is anthrax?</b></summary>
+### Q. What is anthrax?
 
 **Anthrax:**
 - the bacteria Bacillus anthracis that is
@@ -1367,10 +1240,8 @@ Anthrax is a disease of wild or domestic animals caused b:
 s ulcer (malignant pustule).
 transmitted to man. The characteristic lesion of human anthrax is a necrotic cutaneou:
 [Ref- Rashid, Khabir, Hyder / 5" / 235]
-</details>
 
-<details>
-<summary><b>Q. Mention the epidemiological features of anthrax.</b></summary>
+### Q. Mention the epidemiological features of anthrax.
 
 **Epidemiology of anthrax:**
 amongst workers handling contaminated
@@ -1398,10 +1269,8 @@ drums, brushes etc. and soil associated with infected animals.
 for years,
 alia bani
 [Ref- Rashid, Khabir, Hyder / 5" 1235)
-</details>
 
-<details>
-<summary><b>Q. State the clinical features of anthrax.</b></summary>
+### Q. State the clinical features of anthrax.
 
 **Clinical features of anthrax:**
 at tatures of anthrax:
@@ -1424,10 +1293,8 @@ Symptoms of septicaemia.
 Pleural effusion.
 Meningitis may occur.
 [Ref- Davidson /23"]
-</details>
 
-<details>
-<summary><b>Q. Write down the investigations and treatment of anthrax.</b></summary>
+### Q. Write down the investigations and treatment of anthrax.
 
 **Investigations for antharx:** j
 1) Demonstrating the organism in smears from cutaneous lesions or by culture of blood and other
@@ -1443,10 +1310,8 @@ Tab. Phenoxymethyl-penicillin 500 — 1000 mg 6-hourly for 10 days,
 a further 2-month course of ciprofloxacin 500 mg 12-hourly or doxycycline 100 mg 12-hourly
 orally is added.
 [Ref- Kumar & Clark /7" / 142 + Davidson /23"]
-</details>
 
-<details>
-<summary><b>Q. Discuss the control measures of anthrax. [DU-11J]</b></summary>
+### Q. Discuss the control measures of anthrax. [DU-11J]
 
 **Control measures of anthrax:**
 1) Enforcement of health measures in the industries dealing with skin and hides, wool and hairs, bone
@@ -1467,10 +1332,8 @@ used in 1839, The disease is caused by Mycobacterium tuberculosis and rarely by 
 common site of lesion is the lungs as tubercle bacilli grow best in high oxygen content. It also affects
 extrapulmonary tissues. The disease usually runs a chronic course with varying clinical manifestations.
 [Ref- Rashid, Khabir, Hyder / 5" /347]
-</details>
 
-<details>
-<summary><b>Q. Define tuberculosis. What are the primary sites of TB infection?<br>Q. Why tuberculosis primarily affects lungs?</b></summary>
+### Q. Define tuberculosis. What are the primary sites of TB infection?<br>Q. Why tuberculosis primarily affects lungs?
 
 **Tuberculosis:** Tuberculosis is a chronic specific infections and communicable gramulomatous disease which
 primarily affects lungs and cause pulmonary tuberculosis.
@@ -1482,10 +1345,8 @@ Primary sites:
   - Tonsil. " {Ref- Rashid, Khabir, Hyder /5"/347]
   - Oropharynx. :
 Other sites: Bones, Joints, Kidney, Meninges, Lymph nodes etc.
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology of tuberculosis.<br>Q. ‘Tuberculosis is a social disease with medical aspect’-explain it. (RU-14Ju]<br>Q. ‘Incidence of TB is increasing’-discuss. [CU-18M]<br>Q. Name the agents of tuberculosis. [SUST-18M]</b></summary>
+### Q. Write down the epidemiology of tuberculosis.<br>Q. ‘Tuberculosis is a social disease with medical aspect’-explain it. (RU-14Ju]<br>Q. ‘Incidence of TB is increasing’-discuss. [CU-18M]<br>Q. Name the agents of tuberculosis. [SUST-18M]
 
 **Epidemiological features of pulmonary tuberculosis:**
 Occurrence: Tuberculosis has a worldwide distribution.
@@ -1519,10 +1380,8 @@ vaccination. . . ;
   - Transplacental (Extremely rare).
 5) Incubation period: 3 - 6 weeks.
 [Ref- Park /24"/190, 191]
-</details>
 
-<details>
-<summary><b>Q. Mention social factors predisposing tuberculosis. [DU-17M,15J]</b></summary>
+### Q. Mention social factors predisposing tuberculosis. [DU-17M,15J]
 
 **Social factors predisposing tuberculosis:**
 1)
@@ -1541,10 +1400,8 @@ high vascularity) ;
 - Cardiac muscle.
 - Skeletal muscle,
 - Thyroid glands,
-</details>
 
-<details>
-<summary><b>Q. Classify tuberculosis.</b></summary>
+### Q. Classify tuberculosis.
 
 **Classification of tuberculosis:**
 mo
@@ -1605,10 +1462,8 @@ HIV positive TB patient.
 HIV negative TB patient.
 HIV status unknown TB patient.
 [Ref- Park / 24" / 189]
-</details>
 
-<details>
-<summary><b>Q. Define primary complex.<br>Q. What is Ghon focus?</b></summary>
+### Q. Define primary complex.<br>Q. What is Ghon focus?
 
 **Primary complex /Ghon complex:**
 In primary tuberculosis, there is formation of primary complex (Ghon complex) consisting of:
@@ -1618,10 +1473,8 @@ In primary tuberculosis, there is formation of primary complex (Ghon complex) co
 - Tonsil and cervical lymph node.
 - Intestine and mesenteric lymph node.
 - Skin.
-</details>
 
-<details>
-<summary><b>Q. What are the clinical features of tuberculosis?<br>Q. How pulmonary tuberculosis can be diagnosed?</b></summary>
+### Q. What are the clinical features of tuberculosis?<br>Q. How pulmonary tuberculosis can be diagnosed?
 
 **inical features of tuberculosis:**
 1) Chronic cough for three weeks or more with or without expectoration or coughing of blood,
@@ -1647,10 +1500,8 @@ present.
 4) Sputum for AFB: Ziehl-Neelsen staining.
 5) Sputum for culture.
 6) Recent advanced: ELISA.
-</details>
 
-<details>
-<summary><b>Q. A young man has been suffering from low grade fever, gradual weight loss and chronic cough</b></summary>
+### Q. A young man has been suffering from low grade fever, gradual weight loss and chronic cough
 
 for the last 6 weeks. The day before yesterday he came to a doctor with the complaint of
 chest pain. What would be the clinical diagnosis by the doctor and how he would proceed for
@@ -1659,10 +1510,8 @@ Clinical diagnosis:
 Pulmonary tuberculosis with pleurisy.
 Confirmation of diagnosis:
 Please see above — The investigations.
-</details>
 
-<details>
-<summary><b>Q. Mention the indications of chest X-ray in a case of tuberculosis.</b></summary>
+### Q. Mention the indications of chest X-ray in a case of tuberculosis.
 
 **Indications of chest X-ray in a case of tuberculosis:**
 1) Insputum smear-positive pulmonary TB:
@@ -1672,10 +1521,8 @@ Please see above — The investigations.
 2) In patients who had 3 negative sputum smears and continues to cough despite a course of broad-
 spectrum antibiotic. #/ 33)
 [Ref- Rashid, Khabir, Hyder /4°/33
-</details>
 
-<details>
-<summary><b>Q. What is Tuberculin test? Give its interpretation,<br>Q. Write short note on: Mantoux test?</b></summary>
+### Q. What is Tuberculin test? Give its interpretation,<br>Q. Write short note on: Mantoux test?
 
 Tuberculin test / Mantoux test;
 ss I 7 a oe test of TB which can help in diagnosis of TB with other tests. >
@@ -1713,10 +1560,8 @@ Concurrent immunosuppressed therapy.
 During some viral disease such as measles AIDS.
 During the incubation period (4 to 6 weeks) of tuberculous infection.
 [Ref- Park / 24" / 195]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **“ Case of tuberculosis:** A case of tuberculosis is defined by WHO as a patient whose sputum is positive
 for tubercle bacilli.
@@ -1727,10 +1572,8 @@ to take home for an early morning sample the following morning.
 Patient brings an early moming sample.
 [Ref- Park /24™/ 192]
 J
-</details>
 
-<details>
-<summary><b>Q. What is open and closed case of pulmonary TB? [DU-17M]<br>Q. What is open case of tuberculosis? [DU-15J, SUST-18M,17M, 16N]<br>Q. What is the epidemiological importance of open case of TB? [SUST-17M, 16N]<br>Q. Write down the importance of open case tuberculosis. [SUST-18M]</b></summary>
+### Q. What is open and closed case of pulmonary TB? [DU-17M]<br>Q. What is open case of tuberculosis? [DU-15J, SUST-18M,17M, 16N]<br>Q. What is the epidemiological importance of open case of TB? [SUST-17M, 16N]<br>Q. Write down the importance of open case tuberculosis. [SUST-18M]
 
 **Open case of TB / Smear positive TB:** ;
 Patient with at least one initial sputum smears positive for AFB is called an open case of TB.
@@ -1741,10 +1584,8 @@ Closed case of TB / Smear negative TB:
 Patient with at least two negative smears, but tuberculosis suggestive symptoms and X-ray
 abnormalities or positive culture is called a close case of TB.
 [Ref- Park / 24" / 189)
-</details>
 
-<details>
-<summary><b>Q. Write down the treatment of pulmonary TB.</b></summary>
+### Q. Write down the treatment of pulmonary TB.
 
 **Chemotherapy or treatment of tuberculosis:**
 Treatment regimen
@@ -1769,16 +1610,12 @@ FDC = Fixed dose combination tablet.
 BCG vaccination: BCG vaccination for all new born babies has been included in the national EPI.
 [Ref- Rashid, Khabir, Hyder / 5" / 351, 352 + Global tuberculosis report-2012 by WHO]
 W024 Now-a-days there is no category-III as the treatment of category-III was same as category-l.
-</details>
 
-<details>
-<summary><b>Q. Write the anti-TB drugs with their doses.</b></summary>
+### Q. Write the anti-TB drugs with their doses.
 
 **Anti TB drugs and their Dose:**
-</details>
 
-<details>
-<summary><b>Q. Mention the complications of pulmonary tuberculosis.</b></summary>
+### Q. Mention the complications of pulmonary tuberculosis.
 
 **Complications of pulmonary tuberculosis:**
 !)
@@ -1793,10 +1630,8 @@ Tubercular lymphadenitis.
 Intestinal tuberculosis.
 10) Haemoptysis.
 11) Progressive pulmonary tuberculosis.
-</details>
 
-<details>
-<summary><b>Q. Give preventive measures for tuberculosis. [DU-14Ju/J,13J, CU-11J]<br>Q. How tuberculosis can be prevented in the community? [DU-15Ju, RU-17M]<br>Q. How the mortality & morbidity of TB can be reduced? [CU-18M]</b></summary>
+### Q. Give preventive measures for tuberculosis. [DU-14Ju/J,13J, CU-11J]<br>Q. How tuberculosis can be prevented in the community? [DU-15Ju, RU-17M]<br>Q. How the mortality & morbidity of TB can be reduced? [CU-18M]
 
 **Control & prevention of tuberculosis:** The control measures of TB consist of both curative & preventive.
 A). Curative component: (Early diagnosis and treatment)
@@ -1819,10 +1654,8 @@ B) Preventive component:
 6) Surveillance.
 Ee
 J
-</details>
 
-<details>
-<summary><b>Q. Define drug resistance. Why TB becomes resistant? How will you prevent drug resistance?<br>Q. Write short note on: Drug resistance.</b></summary>
+### Q. Define drug resistance. Why TB becomes resistant? How will you prevent drug resistance?<br>Q. Write short note on: Drug resistance.
 
 **Drug resistance:**
 _Drug resistance means that certain strains of tuberculosis bacilli are not killed by the antituberculosis
@@ -1844,10 +1677,8 @@ Prevention of drug Resistance:
 1) Treatment with two or more drugs in combination.
 2) Using drugs to which the bacteria are sensitive
 3) Ensuring that the treatment is complete, adequate and regular.
-</details>
 
-<details>
-<summary><b>Q. Define MDR and XDR tuberculosis.<br>Q. Write short note on: Multi-drug resistant (MDR) TB.</b></summary>
+### Q. Define MDR and XDR tuberculosis.<br>Q. Write short note on: Multi-drug resistant (MDR) TB.
 
 **Multidrug resistant TB (MDR-TB):**
 WHO defines a multi-drug resistant (MDR) strain as one that is at least resistant to 2 first line drugs:
@@ -1861,10 +1692,8 @@ patients.
 Patients with MDR tuberculosis may need to be hospitalized and isolated which adds to the cost of
 treatment, to prevent transmission of primary resistant strains to others.
 [Ref- Park / 24" / 189, 211]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Extensive drug resistant TB (XDR-TB).</b></summary>
+### Q. Write short note on: Extensive drug resistant TB (XDR-TB).
 
 **Extensive drug resistant TB (XDR-TB):** ‘
 Cases of TB that are resistant to almost all second line drugs are termed extensively drug resistant
@@ -1877,10 +1706,8 @@ kanamycin.
 [Ref- Park / 24" / 189]
 nahh a
 a a a Nt it A tt tm ll tia Nt AA
-</details>
 
-<details>
-<summary><b>Q. Is MDR-TB a i i</b></summary>
+### Q. Is MDR-TB a i i
 
 hen public health problem in Bangladesh? Explain why. [RU-13J]
 ee isa public health problem in Bangladesh for the following reasons:
@@ -1890,10 +1717,8 @@ second line drugs are available.
 ae” drugs cost 30 times as much as drugs used in treatment of non-resistant tuberculosis
 4) Patients with MDR tuberculosis may need to be hospitalized and isolated which adds to the cost of
 treatment, to prevent transmission of primary resistant strains to others.
-</details>
 
-<details>
-<summary><b>Q. Discuss the TB control programme in Bangladesh.</b></summary>
+### Q. Discuss the TB control programme in Bangladesh.
 
 **TB control program in Bangladesh:**
 j Until 1965, TB services were mainly based in 44TB clinics. 8 segregation hospitals and 4 TB hospitals.
@@ -1922,10 +1747,8 @@ Bangladesh in 1993, has now expanded to cover 75% of the population with a treat
 3) Standardized, multi-drug and directly observed treatment.
 4) Adequate supply of drugs
 5) Proper recording and reporting.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: BCG.</b></summary>
+### Q. Write short note on: BCG.
 
 **BCG:** BCG means ‘Bacille Calmette Guerin’.
 Aim of BCG: BCG vaccine prevent & stop the spread of TB.
@@ -1967,10 +1790,8 @@ Contraindication:
 3) Hypo-gammaglobulinaemia.
 4) Immuno-compromised person.
 5) Pregnancy.
-</details>
 
-<details>
-<summary><b>Q. What is DOTS? [DU-11Ju]<br>Q. Write down the strategies of DOTS. [DU-11Ju, CU-1 IJu]<br>Q. Write short note on: DOTS [SUST-18N,17N,16N/M,15Ju/J,1 1J]</b></summary>
+### Q. What is DOTS? [DU-11Ju]<br>Q. Write down the strategies of DOTS. [DU-11Ju, CU-1 IJu]<br>Q. Write short note on: DOTS [SUST-18N,17N,16N/M,15Ju/J,1 1J]
 
 **DOTS:**
 %
@@ -2006,17 +1827,13 @@ Me
 voluntary workers such as teachers, anganwadi workers, Dais, ex-patients, social workers etc. They will
 be known as ‘DOT agent’.
 [Ref- Park / 24" / 186 + Ref- Rashid, Khabir, Hyder / 5" /352]
-</details>
 
-<details>
-<summary><b>Q. Name two NGOs that help Bangladesh government in DOTS strategy.</b></summary>
+### Q. Name two NGOs that help Bangladesh government in DOTS strategy.
 
 1) BRAC.
 2) Damien Foundation.
-</details>
 
-<details>
-<summary><b>Q. A50 years old man has come to you with sputum positive AFB report. He resides in a</b></summary>
+### Q. A50 years old man has come to you with sputum positive AFB report. He resides in a
 
 combined family of low socioeconomic status. How are you going to provide education about
 drug compliance and other health measures?
@@ -2025,10 +1842,8 @@ Education to this patient:
 - Nutrition. |
 - Housing improvement.
 - Isolation.
-</details>
 
-<details>
-<summary><b>Q. Mention the awareness message for early diagnosis of TB. [CU-06S]</b></summary>
+### Q. Mention the awareness message for early diagnosis of TB. [CU-06S]
 
 For early diagnosis of tuberculosis, we should test the sputum of the patients. In this regard, the sputum
 positive cases are the targets of the programme. Therefore, utmost importance has to be given for early
@@ -2038,20 +1853,16 @@ process is —
 2 samples becomes positive or contain TB bacilli. The lengthy process of sputum culture comes next. Thus
 early diagnosis of TB can be possible.
 [Ref- Rashid, Khabir, Hyder / 4" / 335]
-</details>
 
-<details>
-<summary><b>Q. Why the prevalence of tuberculosis is higher among HIV infected patients?</b></summary>
+### Q. Why the prevalence of tuberculosis is higher among HIV infected patients?
 
 Cause of higher prevalence of TB among HIV infected patients:
 The HIV virus damages body’s natural immune protection. It reduces the number of helper T-cells and
 thus damages both cell-mediated and antibody-mediated immune systems. Thus it accelerates the speed at
 which tuberculosis progresses from a harmless infection to life-threatening condition.
 [Ref- Park 24" / 189, 212]
-</details>
 
-<details>
-<summary><b>Q. Write down the link between HIV & tuberculosis. [DU-16M]</b></summary>
+### Q. Write down the link between HIV & tuberculosis. [DU-16M]
 
 **Relation / interaction between HIV & tuberculosis:** HIV & TB interacts in several ways: |
 1) Reactivation of latent infection: People who are infected with both TB & HIV are 25-30 times |
@@ -2067,10 +1878,8 @@ Z - “LL PLTLLY TLL TDL TLD See
 tuberculosis.
 [Ref- Park /24"/219)
 Leprosy (Hansen's disease
-</details>
 
-<details>
-<summary><b>Q. Write about Hansen’s disease (Leprosy).<br>Q. What is Hansen’s disease? [RU-12J]</b></summary>
+### Q. Write about Hansen’s disease (Leprosy).<br>Q. What is Hansen’s disease? [RU-12J]
 
 **Hansen’s disease (Leprosy):** .
 Leprosy is a chronic infectious granulomatous disease caused by Mycobacterium leprae characterized
@@ -2083,10 +1892,8 @@ is usually light touch). |
 3) Presence of thickened nerves, and |
 4) Presence of acid-fast bacilli in the shin or nasal smears.
 [Ref- Park / 24" / 332]
-</details>
 
-<details>
-<summary><b>Q. Classify leprosy. :<br>Q. Mention different methods of classification of leprosy. [DU-16M]<br>Q. Classify leprosy according to Indian classification. [RU-14J,1 33]<br>Q. Mention the Indian classification of Hansen’s disease [RU-1 5J] / leprosy [RU-12J].</b></summary>
+### Q. Classify leprosy. :<br>Q. Mention different methods of classification of leprosy. [DU-16M]<br>Q. Classify leprosy according to Indian classification. [RU-14J,1 33]<br>Q. Mention the Indian classification of Hansen’s disease [RU-1 5J] / leprosy [RU-12J].
 
 **Classification of leprosy:**
 There are so many classification systems of leprosy such as the Madrid classification, Ridley.
@@ -2117,10 +1924,8 @@ n
 1) Paucibacillary leprosy (1-5 skin lesions)
 2) Multibacillary leprosy (more than 5 skin lessons)
 [Ref- Park / 24" / 335 + Rashid, Khabir, Hyder 15" / 356]
-</details>
 
-<details>
-<summary><b>Q. What do you mean by paucibacillary and multibacillary leprosy? Write down the differences</b></summary>
+### Q. What do you mean by paucibacillary and multibacillary leprosy? Write down the differences
 
 between them.
 Paucibacillary leprosy:
@@ -2153,10 +1958,8 @@ he
 8) Sensory loss in lesions
 9) Infectivity
 10) Outlook
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiological features of leprosy.<br>Q. ‘Leprosy is called a social disease’-explain. [RU-16M]</b></summary>
+### Q. Write down the epidemiological features of leprosy.<br>Q. ‘Leprosy is called a social disease’-explain. [RU-16M]
 
 **Epidemiological features of leprosy (Hansen’s disease):** ’
 “ Occurrence: The disease is common in tropics and sum subtropics. It is endemic in Bangladesh.
@@ -2191,10 +1994,8 @@ indirect such as contaminated clothes. :
 4) Incubation period: Usually 3-5 years or more for lepromatous cases. The tuberculoid leprosy
 is thought to have a shorter incubation period.
 [Ref- Park / 24" /333]
-</details>
 
-<details>
-<summary><b>Q. Mention the laboratory diagnosis of leprosy.</b></summary>
+### Q. Mention the laboratory diagnosis of leprosy.
 
 **Laboratory diagnosis of leprosy:**
 1) Microscopic examination of smears made from skin lesions or nasal mucous membrane.
@@ -2207,10 +2008,8 @@ is thought to have a shorter incubation period.
 - FLA-ABS test
 - ELISA
 [Ref- Rashid, Khabir, Hyder / 5" /357]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Lepromin test.</b></summary>
+### Q. Write short note on: Lepromin test.
 
 **Lepromin test:**
 It is a skin test to diagnose leprosy.
@@ -2224,10 +2023,8 @@ the diameter of erythema is more than 10 mm at the end of 24 hours, the test is 
 2) Late reaction: Here the test result is read at 21 days; if there is a nodule of more than 5 mm in
 diameter at the site of inoculation, the test is said to be positive.
 [Ref- Rashid, Khabir, Hyder /5*/351
-</details>
 
-<details>
-<summary><b>Q. States the goals of leprosy control.</b></summary>
+### Q. States the goals of leprosy control.
 
 **3.main goals of leprosy control are:**
 1) To interrupt transmission of infection in the community by sterilizing by sterilizing infectious
@@ -2238,10 +2035,8 @@ patients as rapidly as possible with bactericidal drug.
 5) Education of the people about leprosy.
 6) Support the patient psychologically & socially.
 [Ref- Park / 24" / 340 + Davidson / 23”
-</details>
 
-<details>
-<summary><b>Q. Mention the treatment of leprosy as per WHO recommendation. [DU-17M, RU-16M, 13J]<br>Q. Give WHO recommended drug regimens of Hansen’s disease. [RU-15J]</b></summary>
+### Q. Mention the treatment of leprosy as per WHO recommendation. [DU-17M, RU-16M, 13J]<br>Q. Give WHO recommended drug regimens of Hansen’s disease. [RU-15J]
 
 **Treatment of leprosy:** The WHO recommends two treatment regimens are:
   - Multibacillary leprosy: It includes both lepromatous and borderline leprosy. Three drugs are used —
@@ -2255,10 +2050,8 @@ recommends the following treatment.
   - Rifampicin: 600mg, once a month for 6 months, supervised.
   - Dapsone: 100 mg (1-2 mg/kg of body weight) daily for 6 months, self-administered.
 [Ref- Park /24" /341]
-</details>
 
-<details>
-<summary><b>Q. Why multi drug therapy (MDT) is preferred in the elimination strategies of leprosy?</b></summary>
+### Q. Why multi drug therapy (MDT) is preferred in the elimination strategies of leprosy?
 
 1) To prevent drug resistance.
 2) It has the traditional advantage of curtailing the duration of treatme:
@@ -2278,20 +2071,16 @@ No vision loss
 Severe visual impairment
 [Ref- Rashid, Khabir, Hyder / 5" /358]
 Eye
-</details>
 
-<details>
-<summary><b>Q. Write down the complications of leprosy. [RU-16M]</b></summary>
+### Q. Write down the complications of leprosy. [RU-16M]
 
 **Complications of leprosy:**
 1) Hands & feet deformity.
 2) Blindness.
 3) Peripheral neuropathy,
 4) Multi-organ failure.
-</details>
 
-<details>
-<summary><b>Q. How can you prevent and control leprosy in Bangladesh?<br>Q: How can you prevent the spread of leprosy in the community?</b></summary>
+### Q. How can you prevent and control leprosy in Bangladesh?<br>Q: How can you prevent the spread of leprosy in the community?
 
 **Preventive and control measure of leprosy:**
 1) Medical measures:
@@ -2317,10 +2106,8 @@ Others protection of people at risk improvement of socio-economic conditions of 
   - To check whether the desired results are being achieved.
   - To modified programme.
 [Ref- Park /24" /339]
-</details>
 
-<details>
-<summary><b>Q. Discuss ongoing leprosy elimination program in Bangladesh. [DU-14Ju]<br>Q. Discuss the leprosy control program in Bangladesh.</b></summary>
+### Q. Discuss ongoing leprosy elimination program in Bangladesh. [DU-14Ju]<br>Q. Discuss the leprosy control program in Bangladesh.
 
 **Leprosy control program in Bangladesh:**
   - Before 1965, leprosy control services were limited to different Christian Missionary in high
@@ -2382,10 +2169,8 @@ iii) Headache
 iv) Stiffness of neck & back
 v) Increased cells and protein in CSF ‘“
 [Ref- Rashid, Khabir, Hyder / 5" / 236]
-</details>
 
-<details>
-<summary><b>Q. Discuss the epidemiology of poliomyelitis.</b></summary>
+### Q. Discuss the epidemiology of poliomyelitis.
 
 - Occurrence: Poliomyelitis is endemic all over the world including Bangladesh
 **1) Agent:** Poliovirus. (It is an RNA enterovirus)
@@ -2420,10 +2205,8 @@ important contributory factors.
 developed world).
 5) Incubation period: 7-14 days; maximum range 3-35 days.
 [Ref- Park /24"/219]
-</details>
 
-<details>
-<summary><b>Q. “Poliomyelitis can be eradicated” — give your points for and against.<br>Q. Mention the role of immunization in poliomyelitis eradication. [DU-14Ju]<br>Q. Mention the epidemiological basis for elimination of poliomyelitis. [CU-10J]<br>Q. What are the factors in favour to eradication of poliomyelitis? [SUST-12J]</b></summary>
+### Q. “Poliomyelitis can be eradicated” — give your points for and against.<br>Q. Mention the role of immunization in poliomyelitis eradication. [DU-14Ju]<br>Q. Mention the epidemiological basis for elimination of poliomyelitis. [CU-10J]<br>Q. What are the factors in favour to eradication of poliomyelitis? [SUST-12J]
 
 **Favouring points for eradication of polio:**
 1) Man is the only host.
@@ -2452,16 +2235,12 @@ against the other 2 types of viruses.
 7) OPV strict preservation by cold chain maintenance is required which is very difficult.
 8) Children developing polio in spite of dose of OPV is a common observation.
 9) Immunization of all children should be done simultaneously, which is actually difficult.
-</details>
 
-<details>
-<summary><b>Q. What are the strategies for eradication of poliomyelitis?<br>Q. Discuss the epidemiological approach of poliomyelitis eradication. [DU-10J]<br>Q. pate briefly the AFP surveillance system for polio eradication programme in our country. U-11Ju]</b></summary>
+### Q. What are the strategies for eradication of poliomyelitis?<br>Q. Discuss the epidemiological approach of poliomyelitis eradication. [DU-10J]<br>Q. pate briefly the AFP surveillance system for polio eradication programme in our country. U-11Ju]
 
 _Q. What are the strategies for eradication of poliomyelitis?_
-</details>
 
-<details>
-<summary><b>Q. Write down ongoing polio eradication program in Bangladesh. [DU-14J]</b></summary>
+### Q. Write down ongoing polio eradication program in Bangladesh. [DU-14J]
 
 **The strategies for eradicated of poliomyelitis:**
 Poliomyelitis is the target disease of children that may be eradicated from the world by the year 2005.
@@ -2473,16 +2252,12 @@ the goal of eradication are:
 3) Conducting supplementary immunization which includes case reporting, mopping up and
 national immunization day (NID).
 [Ref- Rashid, Khabir, Hyder / st 1238]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Polio eradication. [RU-10Ju]</b></summary>
+### Q. Write short note on: Polio eradication. [RU-10Ju]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. Enlist different types of clinical presentation of poliomyelitis?<br>Q. Classify poliomyelitis.</b></summary>
+### Q. Enlist different types of clinical presentation of poliomyelitis?<br>Q. Classify poliomyelitis.
 
 **Clinical presentation of poliomyelitis:**
 1) In-apparent polio / Subclinical infection:
@@ -2519,10 +2294,8 @@ Headache |
 Sore throat |
 45% VAN
 [Ref- Park /24"/2)
-</details>
 
-<details>
-<summary><b>Q. What are the consequences of infections in case of poliomyelitis? |</b></summary>
+### Q. What are the consequences of infections in case of poliomyelitis? |
 
 **Consequences of infections in case of poliomyelitis:**
 Polio infection
@@ -2539,10 +2312,8 @@ paralysis
 Complete
 Residual disability
 [Ref- Rashid, Khabir, ny
-</details>
 
-<details>
-<summary><b>Q. Write down the prevention & control measures of poliomyelitis.</b></summary>
+### Q. Write down the prevention & control measures of poliomyelitis.
 
 i
 Prevention & control measures of poliomyelitis: Poliomyelitis can be successfully prevented by imo
@@ -2567,19 +2338,15 @@ observed as a supplementary measure for eradication of poliomyelitis when all ch
 country below 5 years of age are administered OPV on the same day irrespective of their previous
 immunization status,
 [Ref- Rashid, Khabir, Hyder / 5* / 237]
-</details>
 
-<details>
-<summary><b>Q. What are the polio vaccines?</b></summary>
+### Q. What are the polio vaccines?
 
 **Polio vaccines:** Two types of vaccines are used throughout the world; they are —
 1) Inactivated (Salk) polio vaccine (IPV).
 2) Oral (Sabin) polio vaccine (OPV).
 [Ref- Park /24"/221|
-</details>
 
-<details>
-<summary><b>Q. Describe the mechanism of OPV.<br>Q. Write short note on: OPV.</b></summary>
+### Q. Describe the mechanism of OPV.<br>Q. Write short note on: OPV.
 
 **Mechanism of OPV:** J
 On administration, the live vaccine strains infect intestinal epithelial cells. After replication, the virus is
@@ -2611,10 +2378,8 @@ Contraindications of OPV:
 4) Patients suffering from leukaemias and malignancy.
 5) Those receiving corticosteroids. F.
 [Ref- Park / 24" /22y ;
-</details>
 
-<details>
-<summary><b>Q. Why IPV is used in developed countries?</b></summary>
+### Q. Why IPV is used in developed countries?
 
 **Use of IPV in developed countries:**
 Since the efficacy of OPV is not 100%, even with potent vaccines properly administered, some Cases
@@ -2622,10 +2387,8 @@ May occur. Universally, it is being considered that the enhanced inactivated pol
 first one or two doses in a continuation regimen with OPV may prevent post-vaccine poliomyelitis. So,
 although it is costly IPV is used in developed countries.
 [Ref- Rashid, Khabir, Hyder /5"/ 237-238)
-</details>
 
-<details>
-<summary><b>Q. Which vaccine can cause provocative reaction?<br>Q. Why provocative reaction (PR) occurs?</b></summary>
+### Q. Which vaccine can cause provocative reaction?<br>Q. Why provocative reaction (PR) occurs?
 
 **Provocative reaction:**
 OPV can cause provocative reaction. Several provocative or risk factors have been found to precipitate
@@ -2633,10 +2396,8 @@ an attack of paralytic polio in individuals already infected with polio viruses.
 intramuscular injections, operative procedures, such as tonsillectomy undertaken especially during epidemics of
 polio and administration of immunizing agents particularly alum-containing DPT.
 [Ref- Park /24" 124
-</details>
 
-<details>
-<summary><b>Q. Differentiate between Salk and Sabin vaccine.</b></summary>
+### Q. Differentiate between Salk and Sabin vaccine.
 
 Differences between IPV (Salk vaccine) and OPV (Sabin vaccine):
 IPV (Salk TOPV (Sabin type ,
@@ -2656,10 +2417,8 @@ temperatures, unless stabilized.
 storage and transportation. Has a longer shelf-life.
 [Ref- Park /24"/ 22]
 Viral hepatitis
-</details>
 
-<details>
-<summary><b>Q. Define Hepatitis and classify hepatitis.</b></summary>
+### Q. Define Hepatitis and classify hepatitis.
 
 **Hepatitis:** Inflammation of the liver, which results in damage to hepatocytes with subsequent cell death.
 Classifications:
@@ -2678,10 +2437,8 @@ immunocompromised individual.
 2) Autoimmune disorders, toxins, alcohol, drugs (e.g. anti-TB drugs).
 3) Miscellaneous: Wilson’s disease.
 [Ref- Park / 24" /225]
-</details>
 
-<details>
-<summary><b>Q. Name different viral hepatitis with their mode of transmission. [RU-18M]</b></summary>
+### Q. Name different viral hepatitis with their mode of transmission. [RU-18M]
 
 Different viral hepatitis with their mode of transmission:
 Mode of transmission
@@ -2697,10 +2454,8 @@ Hepatitis C > Blood.
   - Sexual contact.
   - _ Mother to child (during birth).
 Hepatitis-A
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology of hepatitis-A?</b></summary>
+### Q. Write down the epidemiology of hepatitis-A?
 
 **Epidemiology of hepatitis A / Infectious hepatitis:**
 * Occurrence: It is endemic in most developing countries.
@@ -2736,10 +2491,8 @@ Natural history:
 - Sexual transmission (homo sexual activity)
 2) Incubation period: 15 days to 45 days (usually 4 weeks)
 [Ref- Park /24"/225)
-</details>
 
-<details>
-<summary><b>Q. Mention the clinical features and diagnosis of viral hepatitis-A.</b></summary>
+### Q. Mention the clinical features and diagnosis of viral hepatitis-A.
 
 **Clinical features of viral hepatitis-A:**
   - Fever. > Nausea. =
@@ -2754,16 +2507,12 @@ Diagnosis of hepatitis-A viral infection:
 3) Test for abnormal liver function, such as serum ALT (SGPT) and bilirubin,
 4) Demonstration of HAV particles or specific viral antigens in the faeces, bile and blood.
 [Ref- Rashid, Khabir, Hyder / 5" / 238, 239 + Park / 24" /226]
-</details>
 
-<details>
-<summary><b>Q. In a hostel, 10 students have developed jaundice suddenly. Mention the causes.</b></summary>
+### Q. In a hostel, 10 students have developed jaundice suddenly. Mention the causes.
 
 **Causes:** Hepatitis A or hepatitis E viral infection by contaminated food or water supply.
-</details>
 
-<details>
-<summary><b>Q. Why viral hepatitis-A is higher in Bangladesh? Explain.<br>Q. Why viral hepatitis-A is higher in slum people?</b></summary>
+### Q. Why viral hepatitis-A is higher in Bangladesh? Explain.<br>Q. Why viral hepatitis-A is higher in slum people?
 
 **Viral hepatitis-A is higher in Bangladesh:** Due to-
 1) Poor standard of hygiene and sanitation.
@@ -2794,24 +2543,18 @@ liver, caused by hepatitis B virus (HBV) and transmitted usually by the parenter
 Persistent hepatitis B virus infection may cause progressive liver disease including chronic active
 hepatitis and hepatocellular carcinoma.
 [Ref- Park / 24" / 227]
-</details>
 
-<details>
-<summary><b>Q. What is Dane particle?</b></summary>
+### Q. What is Dane particle?
 
 **Dane particle:** Hepatitis B virus is a complex, 42 nm, double-shelled DNA virus, originally known as the
 Dane particle”.
 [Ref- Park / 24" / 228]
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology [CU-12J] / epidemiological features of hepatitis-B.<br>Q. Write down the mode of transmission of hepatitis-B. [DU-14Ju, CU-10Ju, SUST-15J,12J,11J,</b></summary>
+### Q. Write down the epidemiology [CU-12J] / epidemiological features of hepatitis-B.<br>Q. Write down the mode of transmission of hepatitis-B. [DU-14Ju, CU-10Ju, SUST-15J,12J,11J,
 
 RU-16N,15Ju] ‘
-</details>
 
-<details>
-<summary><b>Q. How hepatitis B is transmitted through different routes of transmission? [RU-13Ju]</b></summary>
+### Q. How hepatitis B is transmitted through different routes of transmission? [RU-13Ju]
 
 **Epidemiology of hepatitis B / serum hepatitis:**
 * Occurrence: it is endemic in all over the world, especially in tropical and developing countries.
@@ -2846,10 +2589,8 @@ most important factor for high prevalent rate. |
 high risk. j
 ;
 [Ref- Park / 24" /228)
-</details>
 
-<details>
-<summary><b>Q. Who are the population at risk for hepatitis B? [CU-16M, 15Ju]<br>Q. Enlist the peoples belong to high risk group for hepatitis-B. [CU-10Ju]<br>Q. Who belongs to high risk group for hepatitis-B? [SUST-15J,12J,11J]</b></summary>
+### Q. Who are the population at risk for hepatitis B? [CU-16M, 15Ju]<br>Q. Enlist the peoples belong to high risk group for hepatitis-B. [CU-10Ju]<br>Q. Who belongs to high risk group for hepatitis-B? [SUST-15J,12J,11J]
 
 **High risk group for hepatitis-B:**
 1) Recipients of blood transfusion.
@@ -2861,10 +2602,8 @@ workers.
 6) Infants of HBV carrier mothers.
 7) Patients who are immuno-compromised.
 [Ref- Park /24™ / 228]
-</details>
 
-<details>
-<summary><b>Q. How can you prevent Hepatitis B? [DU-15Ju,12Ju, SUST-12J,11J] |<br>Q. How the mortality & morbidity of hepatitis-B can be reduced? [CU-16M, 15Ju] |<br>Q. Write down the vaccination schedule for HBV. ]</b></summary>
+### Q. How can you prevent Hepatitis B? [DU-15Ju,12Ju, SUST-12J,11J] |<br>Q. How the mortality & morbidity of hepatitis-B can be reduced? [CU-16M, 15Ju] |<br>Q. Write down the vaccination schedule for HBV. ]
 
 **Prevention and control of HBV:**
 “ Hepatitis B vaccine: |
@@ -2910,10 +2649,8 @@ rejected.
 5) Use barrier method of contraceptives such as condom, diaphragm etc.
 6) Health education to people regarding epidemiological feature of disease.
 [Ref- Park /24™ / 230, 231]
-</details>
 
-<details>
-<summary><b>Q. Mention the serologic markers of HBV infection.</b></summary>
+### Q. Mention the serologic markers of HBV infection.
 
 **Serologic markers of HBV infection:**
 Antigen:
@@ -2923,10 +2660,8 @@ Antibody:
 v¥ Anti-HBc antibody
 - Anti-HBs antibody
 - Anti-HBe antibody
-</details>
 
-<details>
-<summary><b>Q. For a 40 years old man what is (are) the marker present in his blood for diagnosing him as a</b></summary>
+### Q. For a 40 years old man what is (are) the marker present in his blood for diagnosing him as a
 
 carrier of hepatitis B virus and infectious case?
 For carrier of hepatitis B: HBsAg.
@@ -2936,10 +2671,8 @@ HBsAg
   - Anti-HBc IgM ;
   - Anti-HBs IgM r
   - Anti-HBe IgM
-</details>
 
-<details>
-<summary><b>Q. A health personnel accidentally exposed to HBV infection. What measures you will suggest to</b></summary>
+### Q. A health personnel accidentally exposed to HBV infection. What measures you will suggest to
 
 him?
 For immediate protection, hepatitis-B immunoglobulin (HBIG) should be given as soon as possible
@@ -2948,10 +2681,8 @@ the victim's blood is drawn for HBsAg testing. If the test is negative, vaccinat
 and a full course given. If the test is positive for surface antibody, no further action is needed.
 [Ref- Park /24™ /231]
 SOA PLLOLLODLOLP FELIS LEIILLSLLIILLLIP LD ELI LOLLIPOP D
-</details>
 
-<details>
-<summary><b>Q. Write down the complications of acute viral hepatitis.</b></summary>
+### Q. Write down the complications of acute viral hepatitis.
 
 Complications of acute viral hepatitis;
 1) Fulminant hepatic failure.
@@ -2967,10 +2698,8 @@ Complications of acute viral hepatitis;
 11) Renal failure (hepato-renal syndrome).
 12) Hyperbilirubinaemia & its complications.
 iinet
-</details>
 
-<details>
-<summary><b>Q. Illustrate clinical course of hepatitis B in adult with a flow chart. [RU-14Ju]<br>Q. Give the clinical course of hepatitis-B virus.</b></summary>
+### Q. Illustrate clinical course of hepatitis B in adult with a flow chart. [RU-14Ju]<br>Q. Give the clinical course of hepatitis-B virus.
 
 **Clinical course of hepatitis B virus infection:**
 Clinical infection
@@ -2978,10 +2707,8 @@ Clinical infection
 + flu-like
 Figure: Clinical course of hepatitis B in adults.
 s . [Ref- Park /24"/230]
-</details>
 
-<details>
-<summary><b>Q. Why prevalence of hepatitis-B is increased in Bangladesh?</b></summary>
+### Q. Why prevalence of hepatitis-B is increased in Bangladesh?
 
 a .
 Prevalence of hepatitis-B is increased in Bangladesh: Prevalence of hepatitis-B is high in developing
@@ -2996,10 +2723,8 @@ circumcision.
 6) Lack of awareness, of the high risk groups, such as hospital stuff and commercial sex workers
 _ (prostitutes).
 7) Hepatitis B vaccine is not accessible to the poor.
-</details>
 
-<details>
-<summary><b>Q. Write down the differences between hepatitis-A, E and hepatitis-B, C.<br>Q. Write down the differences between hepatitis-A and hepatitis-C.</b></summary>
+### Q. Write down the differences between hepatitis-A, E and hepatitis-B, C.<br>Q. Write down the differences between hepatitis-A and hepatitis-C.
 
 **Differences between hepatitis-A & E and Hepatitis-B & C:**
 [ln Traits) se Mepatitis-A& Eo To Hepatitis BC sy
@@ -3009,10 +2734,8 @@ _ blood, sexual etc.).
 cirrhosis & hepatocellular cancer
 4) Anti-viral therap No
 Not needed.
-</details>
 
-<details>
-<summary><b>Q. State the clinical consequence hepatitis-C.</b></summary>
+### Q. State the clinical consequence hepatitis-C.
 
 **Clinical consequence hepatitis-C:**
 1) Most primary infections are asymptomatic or clinically mild, only developed anorexia, malaise and
@@ -3022,10 +2745,8 @@ abdominal pain.
   - Chronic active hepatitis.
   - Cirrhosis of liver.
   - Hepatocellular carcinoma.
-</details>
 
-<details>
-<summary><b>Q. Why hepatitis-C is more dangerous than hepatitis-B?<br>Q. Epidemiologically hepatitis C is more dangerous than hepatitis B — explain. [RU-15Ju,13Ju]</b></summary>
+### Q. Why hepatitis-C is more dangerous than hepatitis-B?<br>Q. Epidemiologically hepatitis C is more dangerous than hepatitis B — explain. [RU-15Ju,13Ju]
 
 **Hepatitis-C is more dangerous than hepatitis-B:** Because-
 1) Clinical features developed lately.
@@ -3035,28 +2756,22 @@ abdominal pain.
 5) No test to detect the antigen in serum.
 6) No vaccine is available.
 7) No immunoglobulin is available.
-</details>
 
-<details>
-<summary><b>Q. Mention the mode of transmission of hepatitis-C virus.</b></summary>
+### Q. Mention the mode of transmission of hepatitis-C virus.
 
 **Mode of transmission of hepatitis-C virus:**
 1) Blood.
 2) Sexual contact.
 3) Mother to child — during birth.
 tetera |
-</details>
 
-<details>
-<summary><b>Q. Mention the laboratory diagnosis of hepatitis-C.</b></summary>
+### Q. Mention the laboratory diagnosis of hepatitis-C.
 
 Laboratory diagnosis of hepatitis-C;
   - Anti-HBc IgM.
   - PCR (only conclusive diagnosis).
-</details>
 
-<details>
-<summary><b>Q. How hepatitis-C infection can be prevented?</b></summary>
+### Q. How hepatitis-C infection can be prevented?
 
 **Prevention of hepatitis-C:** .
 1) Creation of awareness among genera! population through health education.
@@ -3067,37 +2782,29 @@ hazard.
 5) Use of condom by the sex workers.
 6) Vaccination.
 Hepatitis-D
-</details>
 
-<details>
-<summary><b>Q. What is delta hepatitis?</b></summary>
+### Q. What is delta hepatitis?
 
 **Delta hepatitis:**
 Hepatitis D is called “delta hepatitis” which always occurs in association with hepatitis B.
 [Ref- Park /24" /234]
 Hepatitis-E
-</details>
 
-<details>
-<summary><b>Q. How hepatitis E virus is transmitted and diagnosed?</b></summary>
+### Q. How hepatitis E virus is transmitted and diagnosed?
 
 **Mode of transmission of hepatitis-E:** (faeco-oral transmission) |
   - Water or food supply.
   - Contaminated faeces. |
 Diagnosis: By anti-HEV IgM antibodies.
 [Ref- Park / 24/234]
-</details>
 
-<details>
-<summary><b>Q. Why HEV infection is more common in slum people? Explain.</b></summary>
+### Q. Why HEV infection is more common in slum people? Explain.
 
 **HEV infection is more common in slum people:**
 Water or food supply, contaminated by fences is very easy in slum. So, HEV infection is more common
 in slum people.
-</details>
 
-<details>
-<summary><b>Q. State preventive measures of hepatitis E virus infection.</b></summary>
+### Q. State preventive measures of hepatitis E virus infection.
 
 **Prevention of hepatitis E virus infection:**
 1) Hand washing before eating and after toilet. ]
@@ -3128,16 +2835,12 @@ a pment Disease incidence is high in colder months, but in Bangladesh the diseas
 CEST meni ly p person by droplet infection. The disease may
 «> Incubation period: Short, usually 1-5 days.
 [Ref- Rashid, Khabir, Hyder / 5*/ 243]
-</details>
 
-<details>
-<summary><b>Q. What are the different subtypes of influenza?</b></summary>
+### Q. What are the different subtypes of influenza?
 
 **Subtypes of influenza:** There are three viral subtypes, namely influenza type A, type B and type C.
-</details>
 
-<details>
-<summary><b>Q. What is antigenic shift and antigenic drift?</b></summary>
+### Q. What is antigenic shift and antigenic drift?
 
 **Antigenic shift and antigenic drift:**
 The influenza-A virus is unique among the viruses because it is frequently subject to antigenic
@@ -3146,10 +2849,8 @@ When there is a sudden complete or major change, it is called a shift,
 gradual over a period of time, it is called a drift.
 [Ref- Park / 24" / 164]
 and when the antigenic change is
-</details>
 
-<details>
-<summary><b>Q. How influenza can be prevented?</b></summary>
+### Q. How influenza can be prevented?
 
 **Prevention of influenza:**
 “ Sensible precautions:
@@ -3169,10 +2870,8 @@ Antiviral drugs: ‘Amantadine, Rimantadine.
 eT TILILEPEPD
 RALPLLLLE LLL ee" “ EBL ig
 Bird flu (Avian influenza)
-</details>
 
-<details>
-<summary><b>Q. What is bird flu?</b></summary>
+### Q. What is bird flu?
 
 Answel
 Bird
@@ -3231,10 +2930,8 @@ Not be ready in time to stop the outbreak now
 eadly bird flu could take up to develop and will probably
 sweeping Asia, according to world health organization.
 [Ref- Healthcare bulletin'4]
-</details>
 
-<details>
-<summary><b>Q. Give prevention & control</b></summary>
+### Q. Give prevention & control
 
 Answe
 measures of bird flu (H7N9). [DU-13Ju]
@@ -3259,10 +2956,8 @@ have infected human,
 This is a new virus and current outbreak globally indicates person-to-person contact and infection
 spread. Till August 2009, 200 cases swine flu have been confirmed in Bangladesh and one unofficial death from
 swine flu was reported in a daily newspaper on 31* August 2009.
-</details>
 
-<details>
-<summary><b>Q. Describe the epidemiology of swine flu. [SUST-10J]</b></summary>
+### Q. Describe the epidemiology of swine flu. [SUST-10J]
 
 **Epidemiology of swine flu:** ="
 A) Occurrence: Recent outbreaks first in Mexico city with death of about 800 cases and later spread
@@ -3284,10 +2979,8 @@ from 1 to 2 days before and
 4) Mode of transmission: Person-to-person contact (by droplet).
 5) Incubation period: 48 — 72 hours.
 [Ref- Park /24™/ 166]
-</details>
 
-<details>
-<summary><b>Q. Outline the suggestion to prevent swine flu & bird flu in Bangladesh. [SUST-10J]</b></summary>
+### Q. Outline the suggestion to prevent swine flu & bird flu in Bangladesh. [SUST-10J]
 
 **Preventive measures of swine flu and bird flu:** It includes —
 1) Use of masks.
@@ -3303,10 +2996,8 @@ Measles / Rubeola: An acute highly infectious disease
 myxoviruses which is clinically characterized by fever
 (coryza, cough) followed by a typical rash.
 [Ref- Park / 24" / 157]
-</details>
 
-<details>
-<summary><b>Q. Discuss in brief the epidemiological features of measles. [RU-04J]</b></summary>
+### Q. Discuss in brief the epidemiological features of measles. [RU-04J]
 
 **Epidemiological features of measles:**
 - Occurrence: Measles is endemic all over the world.
@@ -3334,10 +3025,8 @@ myxoviruses which is clinically characterized by fever
   - Rarely air borne
 5) Incubation period: | — 2 weeks.
 [Ref- Park /24"/ 157]
-</details>
 
-<details>
-<summary><b>Q. What are the clinical features of measles?</b></summary>
+### Q. What are the clinical features of measles?
 
 **Clinical features of measles:**
 1) Prodromal stage (catarrh al stage):
@@ -3348,10 +3037,8 @@ myxoviruses which is clinically characterized by fever
 - Days 6-7: fever and rash begins to fade.
 3) Post-measles stage: The child will have lost weight and will weak for a number of days.
 [Ref- Park /24"/ 157]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Koplik’s spot.</b></summary>
+### Q. Write short note on: Koplik’s spot.
 
 **Koplik’s spot:** They are the pathognomonic of measles characterized by-
 - Small, bluish white spots on a red base.
@@ -3381,19 +3068,15 @@ Measles associated diarrhoea.
   - Kwashiorkor.
   - Cornea] liberation.
 [Ref- Park /24" / 158 + Davidson’s Medicine / 23"
-</details>
 
-<details>
-<summary><b>Q. Why measles is treated with vitamin A?</b></summary>
+### Q. Why measles is treated with vitamin A?
 
 All cases of severe measles, and all cases of measles in areas with high case-fertility rates should be
 treated with vitamin A, as many children develop acute deficiency of vitamin A, which may lead to
 keratomalacia and blindness from corneal scarring.
 [Ref- Park / 24" / 158]
-</details>
 
-<details>
-<summary><b>Q. How eradication of measles is possible?</b></summary>
+### Q. How eradication of measles is possible?
 
 Measles is amenable to eradication. Measles immunization has in its favour the fact that only one dose
 is needed and that a measles vaccines has now been developed which is more heat stable.
@@ -3401,10 +3084,8 @@ It requires:
   - Achieving immunization coverage at least 96% of children under 1 year of age.
   - The cumulation in the immunity gap be prevented.
 [Ref- Park /24"/ 159]
-</details>
 
-<details>
-<summary><b>Q. Write down the control measures of measles outbreak.</b></summary>
+### Q. Write down the control measures of measles outbreak.
 
 **Control measures in case of outbreak of measles:**
 1) Isolation for 7 days after onset of rash.
@@ -3412,10 +3093,8 @@ It requires:
 should be given within 3 - 4 days of exposure.)
 3) Prompt immunization at the beginning of an epidemic is essential to limit the spread.
 [Ref- Park /24"/ 159]
-</details>
 
-<details>
-<summary><b>Q. Give the characteristics of dermal rashes in communicable diseases.<br>Q. Describe the characteristics of the rashes of small pox, measles, typhoid fever and syphilis.</b></summary>
+### Q. Give the characteristics of dermal rashes in communicable diseases.<br>Q. Describe the characteristics of the rashes of small pox, measles, typhoid fever and syphilis.
 
 Time of
 appearance
@@ -3497,10 +3176,8 @@ Maculopapular finally
 mountain
 petechial haemorrhage.
 [Ref- Rashid, Khabir, Hyder /5"/295]
-</details>
 
-<details>
-<summary><b>Q. How measles can be prevented?</b></summary>
+### Q. How measles can be prevented?
 
 **Prevention of measles:** ; . ,
 1) Active immunization: Measles is best prevented by active immunization. 4
@@ -3517,10 +3194,8 @@ immune-compromised patients) is effective if given in 3-4 days of exposure (in t
 eg The person passively immunized should be given the live measles vaccine 8-12 weeks
 ater.
 [Ref- Park /24"/ 158, 159]
-</details>
 
-<details>
-<summary><b>Q. Write down the differences between chicken pox & measles.</b></summary>
+### Q. Write down the differences between chicken pox & measles.
 
 **Differences between chicken pox and measles:**
 Ag Measles virus (RNA paramyxo virus
@@ -3538,10 +3213,8 @@ covered areas of the body e.g. trunk, axilla is
 ears, then in extremities (hands and
 Rubella (German measles)
 also affected.
-</details>
 
-<details>
-<summary><b>Q. Mention the agent, host factors and routes of transmission of Rubella (German measles).</b></summary>
+### Q. Mention the agent, host factors and routes of transmission of Rubella (German measles).
 
 **Rubella (German measles):**
 1) Agent factors:
@@ -3569,10 +3242,8 @@ the different stages.
 joiner
 164 — ENDEA VOUR COMMUNITY MEDICINE FOR WR
 ITTEN (SAQ, MCQ), VIVA & Osp
-</details>
 
-<details>
-<summary><b>Q. What is Congenital rubella syndrome?</b></summary>
+### Q. What is Congenital rubella syndrome?
 
 **Congenital rubella sy ndrome:** Congenital rubella syndrome (CRS) refers to infants born with defects
 secondary to intrauterine infection or who manifest symptoms or signs of intrauterine infection
@@ -3595,10 +3266,8 @@ patent ductus arteriosus, cataract and deafness.
   - 2° trimester: Deafness.
   - After 16 weeks: Suffer no major abnormalities.
 [Ref- Park /24/ 16)
-</details>
 
-<details>
-<summary><b>📌 Viva — Congenital abnormalitic_ ~-hella infection</b></summary>
+### 📌 Viva — Congenital abnormalitic_ ~-hella infection
 
 **+ Congenital abnormalitic_ ~-hella infection:**
 Heart — Septal defect
@@ -3606,10 +3275,8 @@ Eye > Cataract
 Brain — Mental retardation
 Ear + Deafness
 [Ref- Davidson’s Medicine /23%]
-</details>
 
-<details>
-<summary><b>Q. How rubella may be diagnosed?</b></summary>
+### Q. How rubella may be diagnosed?
 
 **Diagnosis of Rubella:**
 1) Isolation of virus: Throat swab culture.
@@ -3618,10 +3285,8 @@ Ear + Deafness
   - ELISA test.
   - Radio-immune assay (RIA).
 [Ref- Park /24"/ 161]
-</details>
 
-<details>
-<summary><b>Q. Discuss prevention of rubella.</b></summary>
+### Q. Discuss prevention of rubella.
 
 **Prevention of rubella:** By active immunization against rubella with live attenuated vaccines.
 Rubella vaccines:
@@ -3635,10 +3300,8 @@ F
 [Ref- Park / 24°! 16
 __-____—— i
 p pidemiology of Communicable Diseases ee
-</details>
 
-<details>
-<summary><b>Q. What are the diff</b></summary>
+### Q. What are the diff
 
 pia erences between measles & German measles? [CU-17N,16N/J]
 Differences between measles & German measles;
@@ -3648,10 +3311,8 @@ months — 3 years.
 3) Vertical transmission _
 4) Koplick’s spot ppeared after 2 days.
 Mumps (Infectious parotitis)
-</details>
 
-<details>
-<summary><b>Q. What is mumps? Give its period scabili</b></summary>
+### Q. What is mumps? Give its period scabili
 
 Pp of communicability.
 mere a elingereneen oe and communicable disease characterized by fever, tenderness and
@@ -3664,10 +3325,8 @@ Organs involved:
   - Extra-salivary glands: testis, pancreas, ovaries, CNS, prostate
 Period of communicability: Usually 4-6 days before the onset of symptoms and a week or more thereafter.
 The period of maximum infectivity is just before and at the onset of parotitis.
-</details>
 
-<details>
-<summary><b>Q. Describe the epidemiology of mumps.</b></summary>
+### Q. Describe the epidemiology of mumps.
 
 **Epidemiology of mumps:**
 - Occurrence: Mumps is endemic all over the world.
@@ -3697,10 +3356,8 @@ attack confers life-long immunity.
 [Ref- Park / 24/162 + Rashid, Khabir, Hyder /5" / 247]
 before the appearance of parotid gland
 particularly the age group 5-15 years. One
-</details>
 
-<details>
-<summary><b>Q. List the complications of mumps. [DU-16M,13J,11J]</b></summary>
+### Q. List the complications of mumps. [DU-16M,13J,11J]
 
 **Complications of mumps:**
 - Frequent complications:
@@ -3725,10 +3382,8 @@ particularly the age group 5-15 years. One
 6) Facial palsy
 7) Transverse myelitis
 [Ref- Park /24*/161]
-</details>
 
-<details>
-<summary><b>Q. A 3 years old child presented with bilateral parotid swelling along with fever. What is the</b></summary>
+### Q. A 3 years old child presented with bilateral parotid swelling along with fever. What is the
 
 likely diagnosis & how we can prevent this disease?
 Diagnosis: Mumps.
@@ -3740,10 +3395,8 @@ The vaccine is now available as combined vaccine viz. combined measles-mumps-rub
 vaccine / rubella-mumps vaccine.
 2. Immunoglobulin: Specific immunoglobulin (MIg) is available.
 [Ref- Park /24°/ 161]
-</details>
 
-<details>
-<summary><b>Q. Describe the clinical features of mumps.</b></summary>
+### Q. Describe the clinical features of mumps.
 
 **Clinical features of mumps:**
 1) Pain and swelling in either one or both the parotid glands but may also involve the sublingual and
@@ -3756,10 +3409,8 @@ from 3-5 days. :
 6) The swelling subsides slowly over 1-2 weeks.
 | | : [Ref- Park /24”/ 161]
 pter. pidemiology of Communicable Diseases = 167
-</details>
 
-<details>
-<summary><b>Q. The mumps cases have i</b></summary>
+### Q. The mumps cases have i
 
 ae ve increased recently, What measures to be taken?
 Control of mumps:
@@ -3783,10 +3434,8 @@ Epidemiology of chicken pox:
   - Incubation period : 2 to3 weeks (14 — 17 days). \
   - Immunity : One attack gives durable immunity; second attacks are rare.
 [Ref- Rashid, Khabir, Hyder / 5" /248 + Park / 24" / 154]
-</details>
 
-<details>
-<summary><b>Q. Mention the clinical manifestations and complications of chicken pox.<br>Q. State the complications of chicken pox. [DU-12J]</b></summary>
+### Q. Mention the clinical manifestations and complications of chicken pox.<br>Q. State the complications of chicken pox. [DU-12J]
 
 **Clinical features of chicken pox:** Clinical spectrum of chicken pox may vary from a mild illness and only a
 few scattered lessons to febrile illness and widespread rash. The clinical course of chicken pox may be divided
@@ -3829,10 +3478,8 @@ cortical atrophy). :
 9) Septicemia
 10) Septic arthritis.
 [Ref- Park /24"/ 154]
-</details>
 
-<details>
-<summary><b>Q. How can you prevent chickenpox? [DU-11J]<br>Q. A patient of chicken pox is admitted in isolation room of infectious disease hospital. After 7</b></summary>
+### Q. How can you prevent chickenpox? [DU-11J]<br>Q. A patient of chicken pox is admitted in isolation room of infectious disease hospital. After 7
 
 days the patient is discharged from hospital with complete recovery. What type of
 disinfection measure should be taken during stay and after discharge from hospital? [RU-
@@ -3859,10 +3506,8 @@ teachers, non-pregnant woman of childbearing age etc.
 3) Disinfection of articles soiled by nose and throat discharges.
 4) Antiviral therapy- acyclovir, valacylovir, famiciclovir and foscarnet.
 [Ref- Park / 24" / 155]
-</details>
 
-<details>
-<summary><b>Q. Give the difference between small pox and chicken pox.</b></summary>
+### Q. Give the difference between small pox and chicken pox.
 
 Witte down the distinctive features of rash of chicken pox. [DU-16M]
 Difference between small pox & chicken pox:
@@ -3894,10 +3539,8 @@ appears.
 but may rise again in the pustular stage
 secondary rise of fever).
 Small pox (Variola)
-</details>
 
-<details>
-<summary><b>Q. Why small pox eradication was possible?<br>Q. Mention the epidemiological basis of eradication of small pox. [SUST-10J]</b></summary>
+### Q. Why small pox eradication was possible?<br>Q. Mention the epidemiological basis of eradication of small pox. [SUST-10J]
 
 Epidemiological feature responsible for eradication of small pox:
 1) No known animal reservoir.
@@ -3919,10 +3562,8 @@ after the rash appears.
 - Temperature rise with each
 fresh crop of rash.
 [Ref- Park / 24" / 155]
-</details>
 
-<details>
-<summary><b>Q. When and how small pox has been eradicated?</b></summary>
+### Q. When and how small pox has been eradicated?
 
 **History of small pox eradication:**
 Edward Jenner introduced vaccination against small pox in 1796. Through the next two centuries
@@ -3932,10 +3573,8 @@ The last case of naturally occurring small pox in the world was reported in Soma
 1977. Finally on May 8, 1980, the World Health Assembles declared “The World and all its people have won
 freedom from the small pox an unprecedented achievement in the histories of public health.”
 “ [Ref- Rashid, Khabir, Hyder / 5" / 249]
-</details>
 
-<details>
-<summary><b>📌 Viva — Small pox eradication in Bangladesh;</b></summary>
+### 📌 Viva — Small pox eradication in Bangladesh;
 
   - Small pox eradication in Bangladesh;
 - The last case of variola major occurred in Bangladesh on the 16th October, 1975. The patient's
@@ -3949,10 +3588,8 @@ remain
 - Infection with animal pox viruse, e.g. monkey pox and the tanapox viruses.
 [Ref- Park / 24" / 153}
 Rabies
-</details>
 
-<details>
-<summary><b>Q. Name the rabid animals?<br>Q. Name 4 rabid animals. [SUST-18M]</b></summary>
+### Q. Name the rabid animals?<br>Q. Name 4 rabid animals. [SUST-18M]
 
 **Rabid animal:**
   - Dogs (99% cases in Bangladesh) > Wolf > Horse
@@ -3961,10 +3598,8 @@ Rabies
   - Jackal > Pig > Monkey
   - Deer
 [Ref- Rashid, Khabir, Hyder / 5" /250]
-</details>
 
-<details>
-<summary><b>Q. State the epidemiological features of rabies. [RU-10J]<br>Q. Give outline of epidemiology of rabies.</b></summary>
+### Q. State the epidemiological features of rabies. [RU-10J]<br>Q. Give outline of epidemiology of rabies.
 
 **Epidemiological features of rabies:**
 “ Occurrence: It occurs throughout the world except in developed countries. Rabies is endemic in
@@ -3988,10 +3623,8 @@ disease.
 and during the course of the disease. Bats shed virus during the course of the disease.
 [Ref- Park / 24" /294 + Rashid, Khabir, Hyder / 5" / 250]
 — a woth
-</details>
 
-<details>
-<summary><b>📌 Viva — exists in 3 epidemiological forms</b></summary>
+### 📌 Viva — exists in 3 epidemiological forms
 
 **+ a exists in 3 epidemiological forms:**
 ata cables: Infection transfer from wild life to domestic dogs (99%, of human cases of
@@ -3999,10 +3632,8 @@ ies).
 2) wild life rabies (sylvatic form of rabies): The wild life cycle perpetuated by the jackal, fox,
 yena etc. that are the main reservoir and transmitters of rabies.
 3) Bat rabies: The vampire bat is an important host and vector of rabies.
-</details>
 
-<details>
-<summary><b>Q. Describe modes of transmission of rabies?</b></summary>
+### Q. Describe modes of transmission of rabies?
 
 **Modes of transmission of rabies:**
 1) Animal bites: Most of the human rabies results from the biting of-
@@ -4020,10 +3651,8 @@ infect lab workers.
   - Child biting to others.
   - Corneal & organ transplantation.
 [Ref- Park / 24" / 295]
-</details>
 
-<details>
-<summary><b>Q. How rabies differs from other communicable diseases? [RU-1 1Ju]<br>Q. Incidence of Rabies is increasing-discuss. [CU-17M]</b></summary>
+### Q. How rabies differs from other communicable diseases? [RU-1 1Ju]<br>Q. Incidence of Rabies is increasing-discuss. [CU-17M]
 
 Peculiarities of rabies from other communicable diseases:
 1) It is the only communicable disease of man that is always fatal.
@@ -4033,10 +3662,8 @@ the bite, number of wounds, amount of virus injected, species of the biting anim
 provided by the clothing and treatment undertaken, if any. In no other communicable disease
 incubation period is so variable and dependent on so many factors.
 [Ref- Park /24" /294]
-</details>
 
-<details>
-<summary><b>Q. Write short notes on (i) Street virus & (ii) Fixed virus.</b></summary>
+### Q. Write short notes on (i) Street virus & (ii) Fixed virus.
 
 **Street virus:** The virus recovered from naturally occurring cases of rabies is called street virus. The virus is
 excreted in the saliva of affected animals. The virus as it occurs in nature is known as street virus.
@@ -4056,20 +3683,16 @@ A ee ee ee ee eee.
   - It is non-pathogenic. It may be pathogenic, if rabies vaccine (prepared from fixed virus) is injected
 after inadequate inactivation. am
 [Ref- Park / 24" /294]
-</details>
 
-<details>
-<summary><b>Q. Why fixed virus is called fixed virus?</b></summary>
+### Q. Why fixed virus is called fixed virus?
 
 a ‘
 Serial brain-to-brain passage of the street virus in rabbits modify the virus such that its incubation —
 period is progressively reduced until it becomes fixed between 4-6 days. So the virus isolated at this stage is
 called a fixed virus.
 [Ref- Park / 24" / 294]
-</details>
 
-<details>
-<summary><b>Q. Write down the differences between street virus and fixed virus.</b></summary>
+### Q. Write down the differences between street virus and fixed virus.
 
 **Differences between street virus and fixed virus:**
 Incubation period
@@ -4082,10 +3705,8 @@ vaccine. vaccine.
 of rabies. street virus produces fixed virus.
 D
 Streetvirus. | SSS SCFixed virus
-</details>
 
-<details>
-<summary><b>Q. Write down the clinical features of rabies in dogs.</b></summary>
+### Q. Write down the clinical features of rabies in dogs.
 
 **Clinical features of rabies in dogs:** The disease in dogs may manifest in the following forms-
 * Furious type:
@@ -4110,10 +3731,8 @@ Note: The characteristic symptoms of hydrophobia are absent in animal.
 hw
 papter-05: Epidemiolo,
 i) Communicable Diseases =
-</details>
 
-<details>
-<summary><b>Q. Write down the clinical features of R<br>Q. Write short note on: Hydrophobia _</b></summary>
+### Q. Write down the clinical features of R<br>Q. Write short note on: Hydrophobia _
 
 **avd hobia:** Rabies in man is called hyd
 caused by bite of a rabid animal (i.e. ates wa
@@ -4129,10 +3748,8 @@ Mechanism:
 Significance: This symptom is pathognomonic of rabies.
 (means fear of water). It is the diseased condition in man
 [Ref- Park / 24" / 295]
-</details>
 
-<details>
-<summary><b>Q. How will you diagnose a case of rabies from dog bite?</b></summary>
+### Q. How will you diagnose a case of rabies from dog bite?
 
 **Diagnosis a case of rabies from dog bite:**
 < Clinical diagnosis:
@@ -4144,22 +3761,16 @@ Significance: This symptom is pathognomonic of rabies.
   - Isolation of virus from saliva and other secretions.
   - Animal (mice) inoculation test with brain tissues of rabid animal.
 [Ref- Rashid, Khabir, Hyder /5™ / 251}
-</details>
 
-<details>
-<summary><b>Q. What measures you can take after dog bite? [SUST-12Ju, 10Ju]<br>Q. How will you manage a case bitten by a street dog? [DU-16M] ;<br>Q. Name different types of vaccines with their dosage schedule that are used currently against</b></summary>
+### Q. What measures you can take after dog bite? [SUST-12Ju, 10Ju]<br>Q. How will you manage a case bitten by a street dog? [DU-16M] ;<br>Q. Name different types of vaccines with their dosage schedule that are used currently against
 
 rabies. [RU-14J]
-</details>
 
-<details>
-<summary><b>Q. Discuss post-exposure prophylaxis of rabies. [SUST-18M,17M,14Ju,11J,10Ju]<br>Q. Mention the dosage schedule of HDCV for both pre-exposure and psot-exposure prophylaxis</b></summary>
+### Q. Discuss post-exposure prophylaxis of rabies. [SUST-18M,17M,14Ju,11J,10Ju]<br>Q. Mention the dosage schedule of HDCV for both pre-exposure and psot-exposure prophylaxis
 
 of rabies. [RU-1 Ju]
-</details>
 
-<details>
-<summary><b>Q. Mention the pre-exposure prophylactic measures for rabies. [SUST-1 Ju]<br>Q. Write short note on: Post-exposure prophylaxis of rabies. [SUST-15Ju,10J]</b></summary>
+### Q. Mention the pre-exposure prophylactic measures for rabies. [SUST-1 Ju]<br>Q. Write short note on: Post-exposure prophylaxis of rabies. [SUST-15Ju,10J]
 
 **Management & prevention of human rabies:** This may be considered in 3 headings:
 - Post-exposure prophylaxis.
@@ -4196,26 +3807,20 @@ Dose: 3 doses 1 ml IM on days 0, 7, 21 or 28.
 - Ifthe patient’s antibody titre is unknown: 3 doses of HDCV | ml IM on days 0, 3 and 7.
 - If the patient’s antibody titre is 0.5 IU/L: Only 2 dose is needed on days 0, 3.
 [Ref- Rashid, Khabir, Hyder /5* / 251]
-</details>
 
-<details>
-<summary><b>Q. Give the schedule of anti-rabies treatment that you like to suggest.</b></summary>
+### Q. Give the schedule of anti-rabies treatment that you like to suggest.
 
 **Schedule of anti-rabies treatment:**
 Human diploid cell vaccine (HDCV):
 6 doses, 1 ml each
 On days: 0, 3, 7, 14 & 28
 Booster dose on day 90
-</details>
 
-<details>
-<summary><b>Q. Who discovered anti-rabies vaccine?</b></summary>
+### Q. Who discovered anti-rabies vaccine?
 
 Luis Pasteur.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **Classification of exposure:** One of the factors determining the dose of anti-rabies vaccine is the degree
 of rabies to which the persons is exposed.
@@ -4241,10 +3846,8 @@ Indication of anti-rabies treatment:
 tifa anal dre peaive for sbiea y test or test for Negri bodies) of the brain of the
 5) All bites by wild animals.
 [Ref- Park / 24" / 296]
-</details>
 
-<details>
-<summary><b>Q. How rabies can be controlled?<br>Q. How the morbidity & mortality of rabies can be reduced? (CU-17M]</b></summary>
+### Q. How rabies can be controlled?<br>Q. How the morbidity & mortality of rabies can be reduced? (CU-17M]
 
 **Preventive and control measures of rabies:**
 1) Immunization of pet dogs and cats annually.
@@ -4262,25 +3865,19 @@ workers with HDCV given IM in 3 doses (1 ml each) on days 0, 7, 21 or 28.
   - Local treatment of wound.
   - Immunization.
 [Ref- Rashid, Khabir, Hyder / 5" /251]
-</details>
 
-<details>
-<summary><b>Q. Ruby, a 9 year girl, while playing was bitten by a dog, completely unprovoked. The dog could</b></summary>
+### Q. Ruby, a 9 year girl, while playing was bitten by a dog, completely unprovoked. The dog could
 
 - not be traced. How you can manage the dog bite of Ruby. [SUST-16J]
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. “Rabies is a preventable disease but not curable” - Explain. [CU-11J]</b></summary>
+### Q. “Rabies is a preventable disease but not curable” - Explain. [CU-11J]
 
 **Rabies is a preventable disease but not curable:**
 There is no specific treatment of rabies. Its mortality rate is cent percent. But it can be prevented by
 appropriate vaccine in proper time. So, it is a preventable disease but not curable.
-</details>
 
-<details>
-<summary><b>Q. Enumerate different types of vaccines used for prevention of rabies.</b></summary>
+### Q. Enumerate different types of vaccines used for prevention of rabies.
 
 **Anti-rabies vaccine (ARV):**
 Rabies vaccine is defined as a fluid or dried preparation of rabies fixed virus grown in the neural tissue
@@ -4295,10 +3892,8 @@ Types:
   - Human diploid cell vaccine (HDCV).
   - Second- generation tissue culture (animal cell) vaccines.
 [Ref- Park / 24", 297)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Human diploid cell vaccine (HDCV).</b></summary>
+### Q. Write short note on: Human diploid cell vaccine (HDCV).
 
 **Human diploid cell vaccine:**
   - Preparation: It is prepared by propagating the rabies fixed virus in human diploid fibroblast cells
@@ -4313,10 +3908,8 @@ Advantages:
 - Free of the risk of producing CNS complication.
 “ Disadvantage: Expensive.
 [Ref- Park / 24" /297 + Rashid, Khabir, Hyder / 5° /251|
-</details>
 
-<details>
-<summary><b>Q. Which vaccine widely used</b></summary>
+### Q. Which vaccine widely used
 
 **Vaccine widely used in Bangladesh:**
 Inactivated sheep brain vaccine (manufactured at the Institute of Public Health, Mohakhali, Dhaka),
@@ -4327,19 +3920,15 @@ Human doses according to the class of bites:
 in Bangladesh? Mention its doses according to the class of bites.
 [Ref- Rashid, Khabir, Hyder / 5" /251]
 Denque
-</details>
 
-<details>
-<summary><b>Q. Define dengue & dengue syndrome.</b></summary>
+### Q. Define dengue & dengue syndrome.
 
 **+ Dengue:** Dengue is a self-limiting tropical arthropod borne viral febrile disease of human.
 “ Dengue syndrome: Dengue fever (DF), dengue haemorrhagic fever (DHF) and dengue shock
 syndrome (DSS) are grouped into “dengue syndrome”.
 [Ref- Rashid, Khabir, Hyder /5"/ 252]
-</details>
 
-<details>
-<summary><b>Q. Discuss the epidemiology of Dengue. [CU-1 3Ju]<br>Q. Write down the epidemiology of dengue fever.<br>Q. Explain transmission of dengue fever.</b></summary>
+### Q. Discuss the epidemiology of Dengue. [CU-1 3Ju]<br>Q. Write down the epidemiology of dengue fever.<br>Q. Explain transmission of dengue fever.
 
 **Epidemiology of dengue fever:**
 > Occurrence: The disease is a risk in many tropical and sub-tropical countries particularly in costal
@@ -4367,20 +3956,16 @@ disease.
   - Mosquito become infective 8-11 days after the blood meal.
   - Being infected from a dengue patient the mosquito remains infected for life long.
 [Ref- Rashid, Khabir, Hyder / 5" / 252]
-</details>
 
-<details>
-<summary><b>Viva Q. How can we identify aedes mosquito?</b></summary>
+### Viva Q. How can we identify aedes mosquito?
 
 **Identification of aedes mosquito:**
 Aedes mosquitoes are easily distinguished by white stripes on a black body. Because of the striped or
 banded character of their legs they are sometimes referred to as “tiger mosquitoes”. They are most abundant
 during rainy season.
 [Ref- Park /24" / 808]
-</details>
 
-<details>
-<summary><b>Viva Q. Recently the dengue fever cases have increased in Dhaka city, why? Explain.</b></summary>
+### Viva Q. Recently the dengue fever cases have increased in Dhaka city, why? Explain.
 
 Recently the dengue fever cases have increased in Dhaka city: Due to-
   - Rapid urbanization.
@@ -4388,10 +3973,8 @@ Recently the dengue fever cases have increased in Dhaka city: Due to-
   - Overcrowding.
   - Inadequate sanitation.
 [Ref- Rashid, Khabir, Hyder / 4” / 228]
-</details>
 
-<details>
-<summary><b>Q. Classify dengue fever. [CU-12J]<br>Q. Classify dengue syndrome. [RU-11J]<br>Q. Classify dengue viral infection. [RU-12Ju]</b></summary>
+### Q. Classify dengue fever. [CU-12J]<br>Q. Classify dengue syndrome. [RU-11J]<br>Q. Classify dengue viral infection. [RU-12Ju]
 
 Manifestation of dengue virus infection / dengue syndrome:
 [ Asymptomatic Undeferentiated fever
@@ -4402,10 +3985,8 @@ No shock
 ic fever <
 Dengue haemorrhagic Dengue shock syndrome (DSS)
 [Ref- Rashid, Khabir, Hyder / 5" /252]
-</details>
 
-<details>
-<summary><b>Q. Draw and level infection chain of dengue fever?</b></summary>
+### Q. Draw and level infection chain of dengue fever?
 
 **Infection chain of dengue fever:**
 Source of Infection “* host
@@ -4415,10 +3996,8 @@ reservoir of dengue fever dengue
 Reservoir; Man ; - By biting of infected
 Vector: Aedes aegypti | aedes mosquito
 Figure: Infection chain of dengue.
-</details>
 
-<details>
-<summary><b>Q. Mention the classification & grading of the severity of dengue infection as per WHO. [RU- 17M, 12Ju,11J]</b></summary>
+### Q. Mention the classification & grading of the severity of dengue infection as per WHO. [RU- 17M, 12Ju,11J]
 
 **Severity grading of Dengue syndrome:** The dengue syndrome may suitable be grouped into five distinct
 grades according to severity as shown below.
@@ -4431,10 +4010,8 @@ features of DF Hematocrit > 20%
 +
 DHF (DSS)-III
 DHF(DSS)-IV
-</details>
 
-<details>
-<summary><b>Q. Write down the clinical features of DF and DHF and pathogenesis. [DU-06M]</b></summary>
+### Q. Write down the clinical features of DF and DHF and pathogenesis. [DU-06M]
 
 **Clinical features of dengue fever (DF):**
 1) Abrupt onset of fever, chills and high fever.
@@ -4507,10 +4084,8 @@ eek
 Ultimately shock
 Nn ene croc Soares mening ne
 [Ref- Park / 24" / 263}
-</details>
 
-<details>
-<summary><b>Q. Give the laboratory diagnosis of DF and DHF.<br>Q. How will you diagnose dengue fever?</b></summary>
+### Q. Give the laboratory diagnosis of DF and DHF.<br>Q. How will you diagnose dengue fever?
 
 **Laboratory Diagnosis of DF:** :
 1) Platelet: usually normal as are other components of the blood clothing mechanism. However
@@ -4530,10 +4105,8 @@ restlessness.
   - Thrombocytopenia (usually < 100000/mm’). ;
   - Haemoconcentration: haematocrit increased by 20% or more of the base line value.
 [Ref- Park / 24" / 265)
-</details>
 
-<details>
-<summary><b>Q. Write in short the prevention and control measures of dengue fever? [DU-18N, SUST-15Ju]</b></summary>
+### Q. Write in short the prevention and control measures of dengue fever? [DU-18N, SUST-15Ju]
 
 **Prevention and control measures of dengue fever:**
 1) Mosquito control:
@@ -4562,10 +4135,8 @@ varieties.
 a
 ns
 Chikungunya fever
-</details>
 
-<details>
-<summary><b>Q. Illustrate an epidemiological triad for Chikun<br>Q. Give epidemiology of chikungunia fever. [CU-17N} [DU-17N]<br>Q. Mention the ways of transmission of chikungun gunya fever, [RU-1 8N]</b></summary>
+### Q. Illustrate an epidemiological triad for Chikun<br>Q. Give epidemiology of chikungunia fever. [CU-17N} [DU-17N]<br>Q. Mention the ways of transmission of chikungun gunya fever, [RU-1 8N]
 
 **Chikungunya Fever:** (It is also called “*Mxyt Ga” locally)
 Chikungunya fever (CF) is a viral illness caused by an arbovirus t
@@ -4596,10 +4167,8 @@ reservoirs. These include monkeys, rodents, birds, and other vertebrates.
   - Blood meal is necessary for ovulation.
   - No person to person transmission.
 3) Incubation period: 3-7 days, but it can be 2-12 days.
-</details>
 
-<details>
-<summary><b>Q. What are the common clinical features of chikungunya fever? [RU-18N]<br>Q. Write down the treatment of chikungunya fever.</b></summary>
+### Q. What are the common clinical features of chikungunya fever? [RU-18N]<br>Q. Write down the treatment of chikungunya fever.
 
 **Clinical features of chikungunya fever:**
 Rare in adults, but seen in children
@@ -4663,10 +4232,8 @@ Treatment:
 8) Isotonic i.v. fluidb (Normal saline, Hartman’s solution) & antibiotic (to treat secondary bacterial
 infection) for hospitalized patient.
 enna en ne ne ae --aan!
-</details>
 
-<details>
-<summary><b>Q. Mention the control measures of chikungunya fever. {RU-18N]<br>Q. How chikungunya fever can be prevented in an urban society of Bangladesh. [DU-17N]<br>Q. How to control chikungunia in your city? [CU-17N]</b></summary>
+### Q. Mention the control measures of chikungunya fever. {RU-18N]<br>Q. How chikungunya fever can be prevented in an urban society of Bangladesh. [DU-17N]<br>Q. How to control chikungunia in your city? [CU-17N]
 
 **Prevention and control measures of chikungunya fever:**
 1) Mosquito control:
@@ -4693,10 +4260,8 @@ It is a severe infectious and life threatening disease characterized by toxic ja
 fever, severe body ache, nausea, vomiting and albuminuria accompanied by haemorrhages from stomach, nose
 and mouth.
 [Ref- Rashid, Khabir, Hyder / 5" / 255]
-</details>
 
-<details>
-<summary><b>Q. Mention epidemiological features of yellow fever.</b></summary>
+### Q. Mention epidemiological features of yellow fever.
 
 **Epidemiology of yellow fever:**
 Occurrence: Central parts of Africa, west Indies South and Central America. Endemic in west Africa.
@@ -4726,10 +4291,8 @@ iod” of 8 to 12 days, the mosquito
   - The jungle cycle /Sylvan: Between monkeys and various mosquitoes.
   - The urban cycle: person to person transmission by Aedes aegypti.
 4) Incubation period: 3 to 6 days [Ref- Park /24* 154
-</details>
 
-<details>
-<summary><b>Q. Mention the control measures of yellow fever.</b></summary>
+### Q. Mention the control measures of yellow fever.
 
 **Control of yellow fever:** ; ;
 1) Notification: It is an internationally notifiable disease.
@@ -4755,29 +4318,23 @@ ous attention to fluid and electrolyte balance, urine output and
 require a valid certificate of vaccination against yellow fever for their entry into non~
 country like Bangladesh. = aloe
 [Ref- Park / 24" /300 + Rashid, Khabir, Hyder /5*/255]
-</details>
 
-<details>
-<summary><b>Viva Q. How yellow fever can enter into Bangladesh?</b></summary>
+### Viva Q. How yellow fever can enter into Bangladesh?
 
 **Entry of yellow fever into Bangladesh:**
 Yellow fever can enter into Bangladesh either through i i i
 d D gh infected persons coming b
 transport or through infected mosquitoes brought by aircraft, ship or land aod ade
 [Ref- Rashid, Khabir, Hyder /3"/256]
-</details>
 
-<details>
-<summary><b>Q. At least how many ca:</b></summary>
+### Q. At least how many ca:
 
 enentee? y cases should be reported to declare yellow fever to be epidemic in your
 At least one case.
 , al
 Zika Virus
-</details>
 
-<details>
-<summary><b>Q. Discuss the epidemiology of Zika virus.</b></summary>
+### Q. Discuss the epidemiology of Zika virus.
 
 **Epidemiology of Zika virus:**
 ° currence: First identified i
@@ -4793,10 +4350,8 @@ Natural history:
 1) Reservoir: Not known.
 2) Mode of transmission: Female Aedes aegypti mosquito transmits the disease.
 [Ref- Park /24™/293]
-</details>
 
-<details>
-<summary><b>Q. What measures can be taken to prevent Zika virus disease outbreak in Bangladesh? [SUST- 16N]</b></summary>
+### Q. What measures can be taken to prevent Zika virus disease outbreak in Bangladesh? [SUST- 16N]
 
 **Clinical features of Zika virus infection:** (Symptoms are usually mild & lasts for 2-7 days & they are similar
 to other arbovirus infection, ¢.8. dengue.
@@ -4818,20 +4373,16 @@ Prevention: Please write down the prevention of dengue fever from ab
 female Aedes aegypti mosquito. '
 [Ref- Park /24"/ 293]
 ove as both of them are transmitted by
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Zika virus. [CU-17M]</b></summary>
+### Q. Write short note on: Zika virus. [CU-17M]
 
 Please write from above.
 OY
 186 — ENDEA VOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MCQ), VIVA & OSPE
 Protozoal Diseases
 Amoebiasis
-</details>
 
-<details>
-<summary><b>Q. Define amoebiasis. How you can prevent and control it?</b></summary>
+### Q. Define amoebiasis. How you can prevent and control it?
 
 **Amoebiasis:**
 ; The term ‘amoebiasis’ has been defined by WHO as the condition of harbouring the protozoan parasite
@@ -4864,10 +4415,8 @@ mg/kg of body weight/day (children) for 20 days, or oral diloxanide furoate, 500
 t.d.s. for 10 days (adults).
 [Ref- Park / 24" / 255, 256]
 Kala-azar
-</details>
 
-<details>
-<summary><b>Q. Define kala-azar.<br>Q. Name some districts of Bangladesh mostly affected by kala-azar? Why these areas are mostly</b></summary>
+### Q. Define kala-azar.<br>Q. Name some districts of Bangladesh mostly affected by kala-azar? Why these areas are mostly
 
 affected?
 Kala-azar:
@@ -4896,10 +4445,8 @@ Heavy rainfall.
 More organic matter in soil.
 Primitive thatched housing and living with cattle in or near bed room.
 [Ref- Rashid, Khabir, Hyder / 4 / 329]
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology of kala-azar.<br>Q. How & what are the diseases transmitted by Phlebomus argentipes. [CU-16M]</b></summary>
+### Q. Write down the epidemiology of kala-azar.<br>Q. How & what are the diseases transmitted by Phlebomus argentipes. [CU-16M]
 
 **Epidemiology of kala-azar:**
 1) Occurrence: Worldwide distribution.
@@ -4923,10 +4470,8 @@ Incubation period: Generally 2-4 months, the range being 10 days to over one yea
 5) Mode of transmission: By bite of female phlebotomine sandfly.
 6) Incubation period: Generally | — 4 months; range is 10 days to 2 years.
 [Ref- Park / 24" / 322 + Rashid, Khabir, Hyder / 5" /342]
-</details>
 
-<details>
-<summary><b>Q. Why kala-azar strikes back in Bangladesh?<br>Q. What are the problems in control of kala-azar?</b></summary>
+### Q. Why kala-azar strikes back in Bangladesh?<br>Q. What are the problems in control of kala-azar?
 
 Kala-azar strikes in Bangladesh for the following reasons:
 1) Lack of adequate information regarding epidemiology of visceral leishmaniasis.
@@ -4967,10 +4512,8 @@ liver, bone marrow, lymph node.
 - Serological diagnosis : No value
 - Culture: NNN media.
 [Ref- Rashid, Khabir, Hyder /5"/ 343]
-</details>
 
-<details>
-<summary><b>Q. Mention the control measures of leishmaniasis. [DU-17M]<br>Q. Write short note on: Prevention of kala-azar. [CU-10J]</b></summary>
+### Q. Mention the control measures of leishmaniasis. [DU-17M]<br>Q. Write short note on: Prevention of kala-azar. [CU-10J]
 
 **Prevention and control of kala-azar:**
 1) Case finding and treatment.
@@ -4994,19 +4537,15 @@ a DDT or malathion at 1 gm/metre” on all indoor surfaces from ground level to 
   - Use of repellent
   - There is no drugs and vaccine for personal prophylaxis against kala-azar.
 [Ref- Park / 24" / 324 + Rashid, Khabir, Hyder / 5" /344 + Davidson /23"4|
-</details>
 
-<details>
-<summary><b>QA patient came to a doctor with the complaints of double rise of temperature in a day,</b></summary>
+### QA patient came to a doctor with the complaints of double rise of temperature in a day,
 
 darkening of the skin colour, weight loss in spite of normal appetite along with splenomegaly.
 What is your diagnosis? Suggest the control measures for the disease. [RU-11J]
 Diagnosis: Kala-azar (visceral leishmaniasis).
 Control measures: Please see above.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: PKDL.</b></summary>
+### Q. Write short note on: PKDL.
 
 **PKDL:** PKDL means Post Kala-azar Dermal leishmaniasis, caused by L. donovani.
 Hypo-pigmented areas on skin without loss of sensation, and there may be associated erythematous .
@@ -5022,10 +4561,8 @@ Treatment:
 days gap, in this way 6 cycles (total 120 injections).
 [Ref- Rashid, Khabir, Hyder /5™ 1346 + Davidson 123")
 Malaria
-</details>
 
-<details>
-<summary><b>Q. What is malaria?<br>Q. Mention the vectors of malaria in Bangladesh. [CU-06M, SUST-06J]</b></summary>
+### Q. What is malaria?<br>Q. Mention the vectors of malaria in Bangladesh. [CU-06M, SUST-06J]
 
 **Malaria:** Malaria is a protozoal disease caused by infection with parasites of t!
 transmitted to man by certain species of infected female Anopheles mosquito.
@@ -5056,10 +4593,8 @@ Aedes Africanus (Mosquitoe)
 Aedes simpsoni (Mosquitoe)
 Aedes haemagogus (Mosquitog,
 Yellow fever
-</details>
 
-<details>
-<summary><b>Q. Describe epidemiology of malaria.<br>Q. Mention the species of malaria.</b></summary>
+### Q. Describe epidemiology of malaria.<br>Q. Mention the species of malaria.
 
 **Epidemiology of malaria:**
 - Occurrence; Malaria has a worldwide distribution.
@@ -5148,10 +4683,8 @@ Zygote = (fertilization) *————~ _ enters ———— __ (differentiatio
 Figure: Life cycle of malaria.
 [Ref- Park / 24" / 274]
 CQ), VIVA & O.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
   - Life cycle of malarial parasite: 2 Cycles of malarial Pp
 **1) Human /asexual cycle:** It beings when an infec
@@ -5164,10 +4697,8 @@ infected person.
 arasite: 9
 ted mosquito bites a persons and injects
 s when gametocytes are ingested by the vector Mosquito from
-</details>
 
-<details>
-<summary><b>Q. What are the endemic diseases of Bangladesh? How will you measure the endemicity of</b></summary>
+### Q. What are the endemic diseases of Bangladesh? How will you measure the endemicity of
 
 malaria in a defined population?
 Endemic disease of Bangladesh:
@@ -5190,10 +4721,8 @@ Hypo-endemicity- child spleen rate- 1-10%
 over 25%. ;
 Holo- endemicity- child spleen rate is constantly over 75%, adult spleen rate is low.
 [Ref- Park /24™/+ Rashid, Khabir, Hyder /5"|
-</details>
 
-<details>
-<summary><b>Q. Draw and level infection chain of malaria.</b></summary>
+### Q. Draw and level infection chain of malaria.
 
 **Infection chain of malaria:**
 Source of infection
@@ -5208,10 +4737,8 @@ tropical Africa - Blood transfusion immunity
 3. Congenital malaria:
 Comparatively rare.
 a
-</details>
 
-<details>
-<summary><b>Q. Write down the treatment of malaria.<br>Q. Write down the treatment of severe falciparum malaria. [DU-05M]</b></summary>
+### Q. Write down the treatment of malaria.<br>Q. Write down the treatment of severe falciparum malaria. [DU-05M]
 
 Treatment of malaria;
 Treatment of uncomplicated malaria:
@@ -5262,17 +4789,13 @@ Artemether:
 Loading dose: 3.2 mg/kg IM.
 Maintenance dose: 1.6 me/kg daily for 5 days, [Ref- National guideline of Mal, fa
 Stdtintenance dose: arial
-</details>
 
-<details>
-<summary><b>Q. Why malaria cases are not isolated?</b></summary>
+### Q. Why malaria cases are not isolated?
 
 Malaria is a vector bome disease, Man to man transmission of this disease o eee oa
 intermediate agent (female anopheles Mosquito) is required for transmission chain. So isolation is o NO value.
-</details>
 
-<details>
-<summary><b>Q. What do you mean by Roll Back Malaria? [DU-06M]</b></summary>
+### Q. What do you mean by Roll Back Malaria? [DU-06M]
 
 **Roll back malaria:** By mid-1995 all malaria endemic countries in the region had adopted the revised malaria
 control strategy to reduce Morbidity and mortality and to reduce its area of distribution particulars of multi-drug
@@ -5288,10 +4811,8 @@ as training of village health workers and mothers on early and appropriate treat
 especially in children. .
 Encourage the development of more effective and new anti-malaria drugs and vaccines.
 [Ref- Park / 24" / 236)
-</details>
 
-<details>
-<summary><b>Q. What are the causes of anaemia in malaria?</b></summary>
+### Q. What are the causes of anaemia in malaria?
 
 **Causes of Anaemia in malaria:**
 1) Haemolysis of infected erythrocyte.
@@ -5299,10 +4820,8 @@ Encourage the development of more effective and new anti-malaria drugs and vacci
 3) Dyserythropoiesis.
 4) Splenomegaly causing erythrocyte Sequestration and haemodilution,
 5) Depletion of foliate stores,
-</details>
 
-<details>
-<summary><b>Q. Illustrate different measures for malaria control. [CU-17N]<br>Q. Write down the preventive measures of malaria? [SUST-15Ju]<br>Q. Write down the malaria control measures in Bangladesh. [DU-12Ju]<br>Q. What measures can be taken to control malaria? [CU-11J]</b></summary>
+### Q. Illustrate different measures for malaria control. [CU-17N]<br>Q. Write down the preventive measures of malaria? [SUST-15Ju]<br>Q. Write down the malaria control measures in Bangladesh. [DU-12Ju]<br>Q. What measures can be taken to control malaria? [CU-11J]
 
 **Principle of malaria Prevention and control:**
 Management of malaria cases: Disease control Strategies;
@@ -5329,10 +4848,8 @@ c) Protection against mosquito bites:
   - Screening,
   - Repellents. mn
 [Ref- Park / 24" / 285]
-</details>
 
-<details>
-<summary><b>Q. Write about the chemoprophylaxis of malaria. ' |</b></summary>
+### Q. Write about the chemoprophylaxis of malaria. ' |
 
 **Chemoprophylaxis of malaria:**
 Indication: It is recommended for —
@@ -5357,10 +4874,8 @@ or
 traveling to 1 week after return
 High chloroquine resistant area
 [Ref- Davidson’s Medicine / 23™ + Rang Dale / 5" / 677] |
-</details>
 
-<details>
-<summary><b>Q. Explain why malaria can’t be eradicated from Bangladesh? |<br>Q. Write down the causes of resurgence of malaria. j<br>Q. Explain the difficulties of malaria control programme in Bangladesh. [DU-01J]</b></summary>
+### Q. Explain why malaria can’t be eradicated from Bangladesh? |<br>Q. Write down the causes of resurgence of malaria. j<br>Q. Explain the difficulties of malaria control programme in Bangladesh. [DU-01J]
 
 The factors those are responsible for failure of malaria eradication programme in Bangladesh are—
 1) Administrative failure:
@@ -5388,10 +4903,8 @@ Prolonged incubation period. saeiataite
 fective or potent vaccine again . i
 Noameetve or et ° [Ref- Rashid, Khabir, Hyder / 4" /323 + Park /24%
 i ics.
-</details>
 
-<details>
-<summary><b>Q. Write about the prevention and control of malaria epidemic</b></summary>
+### Q. Write about the prevention and control of malaria epidemic
 
 **Prevention and control of malaria epidemics:** , of geographical areas and
 !) Epidemiological stratification to define epidemic prone strata in terms of geogr
@@ -5404,10 +4917,8 @@ adequate stock of antimalarials. . . ace in
 4) Prevention of spread of epidemic will require residual insecticide spraying. .
 [Ref- Rashid, Khabir, Hyder / 5" / 341)
 Helminthic Diseases
-</details>
 
-<details>
-<summary><b>Q. Classify helminthic diseases,</b></summary>
+### Q. Classify helminthic diseases,
 
 **Classification of helminthic diseases:**
 Metazoa
@@ -5426,10 +4937,8 @@ E. gramulosus Basch d) Wuchereria & Brugia
 c) Hymenolepsis :
 i ica = F. hepatica B. malayi
 [Ref Rashid, Khabir, Hyder / 5" /267)
-</details>
 
-<details>
-<summary><b>Q. Name the common helminthic disease prevalent in our country.</b></summary>
+### Q. Name the common helminthic disease prevalent in our country.
 
 **Common helminthic diseases prevalent in our country:**
 !) Ascariasis (round worm infection).
@@ -5441,20 +4950,16 @@ i ica = F. hepatica B. malayi
 7) Echinococcosis (hydatid disease).
 8) Schistosomiasis.
 [Ref- Rashid, Khabir, Hyder / 5" / 267-276]
-</details>
 
-<details>
-<summary><b>Q. Name the endemic parasitic diseases in Bangladesh.</b></summary>
+### Q. Name the endemic parasitic diseases in Bangladesh.
 
 **Some endemic parasitic diseases in BD:**
 1) Endemic malaria.
 2) Endemic kala-azar.
 3) Amoebiasis.
 4) Ascariasis.
-</details>
 
-<details>
-<summary><b>Q. Name the intestinal parasites.</b></summary>
+### Q. Name the intestinal parasites.
 
 **Intestinal parasite:**
 A) Protozoa:
@@ -5475,10 +4980,8 @@ B) Helminthic:
   - Paragonimus species
   - Fasciolopsis buski
   - Heterophyes heterophyes.
-</details>
 
-<details>
-<summary><b>Q. How parasitic diseases can be reduced/ controlled?</b></summary>
+### Q. How parasitic diseases can be reduced/ controlled?
 
 **Control measures of parasitic disease:**
 A) Primary control measures:
@@ -5558,10 +5061,8 @@ Untreated human faeces should not be used as manure.
 e
 [Ref- Rashid, Khabir, Hyder / 5" / 265, 268]
 Ancylostomiasis (Hook worm disease)
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiology of hook worm infestation.</b></summary>
+### Q. Write down the epidemiology of hook worm infestation.
 
 **Epidemiology of ancylostomiasis / hook worm disease:**
 Occurrence: Ancylostoma duodenale and the Necator americanus are found in every country
@@ -5576,10 +5077,8 @@ Moist, loose, sandy soil rich in organic matter favours larval development.
 in contact with it. The most common sites include the skin between the toes, dorsum of the feet, and
 inner aspect of the sole.
 [Ref- Rashid, Khabir, Hyder / 5" / 269]
-</details>
 
-<details>
-<summary><b>Q. Discuss approaches of hookworm prevention and control. [DU-07J]<br>Q. Suggest some method to prevent A. duodenale infestation in agriculture workers.</b></summary>
+### Q. Discuss approaches of hookworm prevention and control. [DU-07J]<br>Q. Suggest some method to prevent A. duodenale infestation in agriculture workers.
 
 **Prevention & control measures of hookworm infestation:**
 1) Sanitary disposal of faeces:
@@ -5616,10 +5115,8 @@ TTEN (SA OSp,
   - Prevention of soil pales -
 is. '
 Measures of personal prophy fe park /24/258+ Rashid, Khabir, Hyder / 5% l 24)
-</details>
 
-<details>
-<summary><b>Q. What are the complications of hookworm?</b></summary>
+### Q. What are the complications of hookworm?
 
 **Complications of hookworm infestation:** hild
 1) Retardation of physical growth and development of child.
@@ -5630,19 +5127,15 @@ Measures of personal prophy fe park /24/258+ Rashid, Khabir, Hyder / 5% l 24)
 6) Diminished Capacity for sustained hard work.
 7) Hypoalbuminaemia,
 Filariasis
-</details>
 
-<details>
-<summary><b>Q. What is lymphatic filariasis?<br>Q. What are the Causative agents of lymphatic filariasis? [SUST-04J]</b></summary>
+### Q. What is lymphatic filariasis?<br>Q. What are the Causative agents of lymphatic filariasis? [SUST-04J]
 
 **Lymphatic filariasis:** The term “lymphatic filariasis’ covers infection with three closely related nematode
 worms — Wuchererig bancrofti, Brugia malayi, & Brugia timori. All three infections are transmitted to man by
 the bites of infective mosquitoes. th
 [Ref- Park /24 1287]
-</details>
 
-<details>
-<summary><b>Q. Write the epidemiological features of filariasis.</b></summary>
+### Q. Write the epidemiological features of filariasis.
 
 **Epidemiological features of filariasis:**
 % Agent: W, bancrofti, B. malayi.
@@ -5703,10 +5196,8 @@ Hypertrophy and hyperplasia >
 . + Figure: Pathogenesis of lymphatic filariasis.
 Produce oedema & other clinical sign.
 [Ref- Rashid, Khabir, Hyder / 5" 7/271]
-</details>
 
-<details>
-<summary><b>Q. Discuss the stages of lymphatic filariasis?</b></summary>
+### Q. Discuss the stages of lymphatic filariasis?
 
 The following stages have been described in lymphatic filariasis:
 1) Asymptomatic amicrofilaraemia: In all endemic areas a proportion of population does not show
@@ -5726,10 +5217,8 @@ i stage usually develops 10-15 years from the
 4) Stage of chronic obstructive lesions: The chronic resis and obstruction of lymphatic vessels
 onset of the first acute attack. This phase is due to fi
 causing permanent structural changes. [Ref- Park / 24", 289)
-</details>
 
-<details>
-<summary><b>Q. Write down the control measures of filariasis. ; h. [DU-12]<br>Q. Write down on going filariasis elimination program in Bangladesh.</b></summary>
+### Q. Write down the control measures of filariasis. ; h. [DU-12]<br>Q. Write down on going filariasis elimination program in Bangladesh.
 
 **Control measures of filarial cases:**
 A) Chemotherapy:
@@ -5759,10 +5248,8 @@ B) Vector control:
   - Using mosquito nets.
   - Screening of houses.
 [Ref- Park /24"/291]
-</details>
 
-<details>
-<summary><b>Q. Explain “Twin Pillars of filariasis elimination”. [DU-12Ju]</b></summary>
+### Q. Explain “Twin Pillars of filariasis elimination”. [DU-12Ju]
 
 **Twin pillars of filariasis elimination:** Controlling morbidity and interruption of transmission of filariasis is
 called the twin pillars of filariasis elimination,
@@ -5781,10 +5268,8 @@ microfilaremia.
 given together or with albendazole.
 J
 SS
-</details>
 
-<details>
-<summary><b>Q. Acpadent in an endemic zone came to a doctor with huge swelling of left leg which was non-</b></summary>
+### Q. Acpadent in an endemic zone came to a doctor with huge swelling of left leg which was non-
 
 pitting type. What might be the probable diagnosis of the doctor? What might be the
 meee of the disease if a patient remains untreated? [RU-12J]
@@ -5795,10 +5280,8 @@ Complications of filariasis if untreated; Common complications of lymphatic fila
 3) Disfigurement.
 4) Sexual disability.
 Taeniasis
-</details>
 
-<details>
-<summary><b>Q. What is taeniasis?</b></summary>
+### Q. What is taeniasis?
 
 **Taeniasis:**
 Taeniasis is an intestinal infection caused by cestode Taenia saginata (beef tapeworm) and Taenia
@@ -5806,10 +5289,8 @@ solium (pork tapeworm).
 [Ref- Rashid, Khabir, Hyder / 5" 1274)
 Note: The terms ‘taeniasis’ and ‘tineasis’ are not the same. Tineasis means fungal infection of the skin
 by dermatophytes.
-</details>
 
-<details>
-<summary><b>Q. Write down the preventive measures of taeniasis, [DU-11J]</b></summary>
+### Q. Write down the preventive measures of taeniasis, [DU-11J]
 
 **Preventive measures of taeniasis:**
 1) Eating raw or undercooked meat of the intermediate hosts, i.e. beef and pork must be avoided.
@@ -5819,10 +5300,8 @@ by dermatophytes.
 choice for specific treatment are praziquantel and niclosamide.
 [Ref- Rashid, Khabir, Hyder / 5" /274]
 Sexually transmitted diseases
-</details>
 
-<details>
-<summary><b>Q. Define sexually transmitted disease.<br>Q. Classify sexually transmitted diseases. [SUST-12J]<br>Q. Classify STDs with their causative organism. [SUST-15J]<br>Q. What are the common syndromes & sequelae of STDs? [DU-16M]</b></summary>
+### Q. Define sexually transmitted disease.<br>Q. Classify sexually transmitted diseases. [SUST-12J]<br>Q. Classify STDs with their causative organism. [SUST-15J]<br>Q. What are the common syndromes & sequelae of STDs? [DU-16M]
 
 **Sexually transmitted diseases (STDs):**
 They are a group of communicable diseases that are transmitted predominantly by sexual contact and
@@ -5856,10 +5335,8 @@ Pubic pediculosis
 [Ref- Park / 24" / 348, 349]
 Ectoparasites | Sarcoptes scabiei
 3 Phthirus pubis
-</details>
 
-<details>
-<summary><b>Q. Mention classical STD pathogens and diseases caused by them. [RU-10Ju]</b></summary>
+### Q. Mention classical STD pathogens and diseases caused by them. [RU-10Ju]
 
 **Classical STD pathogens and diseases caused by them:**
 Glassical| STD) pathogen Discase
@@ -5869,10 +5346,8 @@ Haemophilus ducrei [Chancroid Cid
 Chlamydia trachomatis [Lymphogranulomavenereum
 Calymatobacterium granulomatosis Donovanosis (granuloma inguinale)
 [Ref- Park / 24" / 349]
-</details>
 
-<details>
-<summary><b>Q. Name the important [SUST-16M] / 5 commonly occurring [SUST-17N] STDs in Bangladesh.</b></summary>
+### Q. Name the important [SUST-16M] / 5 commonly occurring [SUST-17N] STDs in Bangladesh.
 
 **Important / commonly occurring STDs in Bangladesh:**
 1) Gonorrhoea,
@@ -5881,10 +5356,8 @@ Calymatobacterium granulomatosis Donovanosis (granuloma inguinale)
 4) Urethritis,
 5) Vaginitis,
 6) Cervicitis & PID.
-</details>
 
-<details>
-<summary><b>Q. Mention the social & behavioural factors responsible for the spread of STDs. [DU-16M]</b></summary>
+### Q. Mention the social & behavioural factors responsible for the spread of STDs. [DU-16M]
 
 Social and behavioral factors involved in the spread of STDs:
 1) Prostitution: The prostitute acts as a reservoir of infection. The protestuant (m
@@ -5904,10 +5377,8 @@ TATA naa
 ne Economic factors: Rapid economic development, greater prosperity and affluence.
 2) Absence of healthy recreation facilities.
 [Ref- Park / 24" / 349]
-</details>
 
-<details>
-<summary><b>Q. How STDs can be controlled & prevented? [DU-16N]<br>Q. How STDs can be controlled in a community? [SUST-15J]<br>Q. Mention the control measures [RU-16J] / intervention strategies [RU-12Ju] / modern</b></summary>
+### Q. How STDs can be controlled & prevented? [DU-16N]<br>Q. How STDs can be controlled in a community? [SUST-15J]<br>Q. Mention the control measures [RU-16J] / intervention strategies [RU-12Ju] / modern
 
 co [RU-10Ju] of sexually transmitted diseases in Bangladesh.
 Control of STDs:
@@ -5976,10 +5447,8 @@ D) Monitoring and evaluation:
 - Monitoring of the disease.
 - Evaluation of the programme activities. h
 [Ref- Park / 24" / 357]
-</details>
 
-<details>
-<summary><b>Q. Outline the prevention of STDs. [SUST-11Ju]</b></summary>
+### Q. Outline the prevention of STDs. [SUST-11Ju]
 
 **Prevention of STDs:**
 1) Health and sex education:
@@ -6007,10 +5476,8 @@ Disposable syringes and needles should be used.
 [Ref- Rashid, Khabir, Hyder / 4/2631
 apter-05: Epidemiology 0 Communicable Diseases ££ a ——A—__——— _207
 Syphilis
-</details>
 
-<details>
-<summary><b>Q. How syphilis can be classified?</b></summary>
+### Q. How syphilis can be classified?
 
 **Classification of Syphilis:** Syphilis may be classified as —
 - Acquired syphilis;
@@ -6025,10 +5492,8 @@ v_ Early congenital
 - Late congenital
 - Stigmata or scar
 [Ref- Rashid, Khabir, Hyder / 5" / 280]
-</details>
 
-<details>
-<summary><b>Q. Write down the epidemiological features of syphilis.</b></summary>
+### Q. Write down the epidemiological features of syphilis.
 
 **Epidemiological features of syphilis:**
 - **Occurrence:** Syphilis is now virtually worldwide. It is endemic in Bangladesh.
@@ -6057,10 +5522,8 @@ v_ Early congenital
   - Incubation period: commonly 14 - 28 days but with extremes 9 - 90 days.
 ene
 ss
-</details>
 
-<details>
-<summary><b>Q. How syphilis can be diagnosed? [DU-04J]</b></summary>
+### Q. How syphilis can be diagnosed? [DU-04J]
 
 **Diagnosis of syphilis:**
 + History: H/O sexual exposure, usually 14-28 days back.
@@ -6095,10 +5558,8 @@ FTA-abs (Flurescent treponemal antigen absorbent test).
 ELISA (Treponemal enzyme linked immune sorbent assay).
 CFT.
 QNNN
-</details>
 
-<details>
-<summary><b>📌 Viva — Prevention & control of syphilis in Bangladesh</b></summary>
+### 📌 Viva — Prevention & control of syphilis in Bangladesh
 
 **+ Prevention & control of syphilis in Bangladesh:**
 1) Notification: It is an urgent need to develop an effective notifying system of STDs.
@@ -6129,10 +5590,8 @@ Immortal traffic acts should he enforced,
   - Motivation of sexual behaviour
   - Education to rise the responsibility that his or her partner should attend the VD clinic
   - Education informing the importance of completing treatment and follows up.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the characteristi</b></summary>
+### Q. Enumerate the characteristi
 
 **Characteristics of rashes of syphilis:**
 - Rashes appear all over the body including sole and palm.
@@ -6165,16 +5624,12 @@ Acquired immunodeficienc
 ituation. [SUST-
 HIV-AIDS” with special fo situ [ T.
 cus on Bangladesh
-</details>
 
-<details>
-<summary><b>Q. Write a brief account on 12Ju]</b></summary>
+### Q. Write a brief account on 12Ju]
 
 Please see below.
-</details>
 
-<details>
-<summary><b>Q. Discuss the epidemiology [CU-13J] / natural history TV AIDS transmission?<br>Q. Who are the high risk groups for AIDS [SUST-18N, 17M,<br>Q. Mention sources of HIV/AIDS. [DU-14J]<br>Q. Write the mode of transmission of AIDS. [SUST-I8N]</b></summary>
+### Q. Discuss the epidemiology [CU-13J] / natural history TV AIDS transmission?<br>Q. Who are the high risk groups for AIDS [SUST-18N, 17M,<br>Q. Mention sources of HIV/AIDS. [DU-14J]<br>Q. Write the mode of transmission of AIDS. [SUST-I8N]
 
 **AIDS:** Sometimes called as ‘slim disease’. :
 i l illness caused by the human
@@ -6218,10 +5673,8 @@ neutralizing variety. Their T-cell function was far from normal
 [Ref- Park / 24" / 363]
 p Epidemiology of Communicable Diseases eo 2
 . Q. How HIV/AIDS spread? [SUST-14]]
-</details>
 
-<details>
-<summary><b>Q. Write down th ;</b></summary>
+### Q. Write down th ;
 
 n the mode of spread / transmission of HIV / AIDS.
 Mode of spread / transmission of HIV / AIDS:
@@ -6245,10 +5698,8 @@ Tattooing
 Acupuncture
 Scarification
 e) Shared razor, tooth brushes, combs,
-</details>
 
-<details>
-<summary><b>Q. How will you diagnose AIDS?<br>Q. Enumerate WHO case definition for AIDS surveillance in adults. [RU-16J]<br>Q. Enumerate the major & minor signs given by the WHO for AIDS surveillance. [RU-16N]</b></summary>
+### Q. How will you diagnose AIDS?<br>Q. Enumerate WHO case definition for AIDS surveillance in adults. [RU-16J]<br>Q. Enumerate the major & minor signs given by the WHO for AIDS surveillance. [RU-16N]
 
 **Diagnosis of AIDS:**
 > Clinical diagnosis:
@@ -6306,10 +5757,8 @@ Lymphopenia.
 Reversal CD4 & CD8 cell ratio.
 Functional abnormality in macrophage & B cell.
 [Ref- M.R. Choudhury /5" / 540, 541]
-</details>
 
-<details>
-<summary><b>Q. Explain AIDS related complex (ARC). [DU-06M]</b></summary>
+### Q. Explain AIDS related complex (ARC). [DU-06M]
 
 **AIDS related complex (ARC):**
 A person with ARC has illnesses caused by damage to the immune system, but without the
@@ -6356,16 +5805,12 @@ Histoplasmosis
 Cause of opportunistic infection in AIDS patients:
 Due to reduction in number of T helper cell count.
 [Ref- Park /24™/ 365]
-</details>
 
-<details>
-<summary><b>Q. How spread of AIDS can be prevented? [DU-16N]<br>Q. Discuss the control measures [SUST-17M, 16M] / preventive measures [SUST-15Ju] /</b></summary>
+### Q. How spread of AIDS can be prevented? [DU-16N]<br>Q. Discuss the control measures [SUST-17M, 16M] / preventive measures [SUST-15Ju] /
 
 approaches [DU-10Ju] / control strategies to prevent AIDS in Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. How you can prevent incidence of HIV/AIDS in Bangladesh? [SUST-17N, 14J]<br>Q. ‘Prevention of AIDS is of utmost importance for human existence’-clarify. [CU-18N]</b></summary>
+### Q. How you can prevent incidence of HIV/AIDS in Bangladesh? [SUST-17N, 14J]<br>Q. ‘Prevention of AIDS is of utmost importance for human existence’-clarify. [CU-18N]
 
 **Control measures of AIDS:**
 1) Preventive measures:
@@ -6385,25 +5830,19 @@ existing therapies will be to treat the manifestations of AIDS.
 the main aim of
 ns —t ——————
 ee
-</details>
 
-<details>
-<summary><b>Q. An HIV infected mother gave birth to a baby. What advice you will give her regarding</b></summary>
+### Q. An HIV infected mother gave birth to a baby. What advice you will give her regarding
 
 vaccination?
 Advice regarding vaccination:
 1) No Symptom and sign > All vaccination.
 2) Symptoms and signs of AIDS > All vaccination except BCG.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Transmission & prevention of HIV / AIDS. [SUST-11J]</b></summary>
+### Q. Write short note on: Transmission & prevention of HIV / AIDS. [SUST-11J]
 
 Please write from above discussion.
-</details>
 
-<details>
-<summary><b>Q. Briefly describe the HIV-AIDS situation in Bangladesh. [SUST-15Ju, 14J,12J}</b></summary>
+### Q. Briefly describe the HIV-AIDS situation in Bangladesh. [SUST-15Ju, 14J,12J}
 
 **HIV-AIDS situation in Bangladesh:**
 Although Bangladesh continues to be a low prevalence area, it is surrounded by high prevalence
@@ -6438,10 +5877,8 @@ Deaths in 2003:
 Low estimate:
 High estimate: < 400
 [Ref- UNAIDS, UNICEF, WHO]
-</details>
 
-<details>
-<summary><b>Q. Prevention of AIDS is of utmost importance for human existence-clarify. How the mortality</b></summary>
+### Q. Prevention of AIDS is of utmost importance for human existence-clarify. How the mortality
 
 & morbidity of this disease can be reduced? [CU-18N, 16]
 Please write from above discussion,
@@ -6451,10 +5888,8 @@ ANNAN RAE peewee ————--
 Chapter-
 05: Epidemiology of Communicable Diseases ——H_——$———_215
 Zoonoses
-</details>
 
-<details>
-<summary><b>Q. rp zoonotic diseases, [RU-07Ju, SUST-17M,16J]<br>Q. a important zoonotic diseases. [SUST-12Ju,1 tJu,10Ju]<br>Q. Name the zoonotic diseases with their causative agents.<br>Q. Enumerate the zoonotic di</b></summary>
+### Q. rp zoonotic diseases, [RU-07Ju, SUST-17M,16J]<br>Q. a important zoonotic diseases. [SUST-12Ju,1 tJu,10Ju]<br>Q. Name the zoonotic diseases with their causative agents.<br>Q. Enumerate the zoonotic di
 
 = otic diseases. [RU-05M]
 Zoonosis / zoonotic disease:
@@ -6514,10 +5949,8 @@ Schistosomiasis ‘ .
 reservoir. Organic matter (including food), soil and plants are conside! -animal.
 e.g. Larva migrans .
 Some of the mycosis. [Ref- Park / 244/294
-</details>
 
-<details>
-<summary><b>Q. Give the control measures of zoonotic diseases.</b></summary>
+### Q. Give the control measures of zoonotic diseases.
 
 **Control of zoonoses:**
 1) Control in animal:
@@ -6541,10 +5974,8 @@ Health Education.
 Prevention of environmental contamination.
 Prevention of food contamination
 Improve diagnostic facility
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Zoonosis. [SUST-15J]</b></summary>
+### Q. Write short note on: Zoonosis. [SUST-15J]
 
 Please write from above.
 Other Communicable Diseases
@@ -6553,16 +5984,12 @@ ARL:
 ARI is an episode of acute symptoms and signs resulting from infection of any part of respiratory tract
 or any related structures including paranasal sinuses, middle ear and pleural cavity.
 [Ref- Rashid, Khabir, Hyder / 5“ / 364]
-</details>
 
-<details>
-<summary><b>Q. What is ARI?</b></summary>
+### Q. What is ARI?
 
 ee
-</details>
 
-<details>
-<summary><b>Q. State the epidemiological triad of ARL</b></summary>
+### Q. State the epidemiological triad of ARL
 
 **Epidemiological triad of ARI:**
 Agent: — Bacteria
@@ -6573,10 +6000,8 @@ Environment: Host:
 — Housing — Malnourished children
 — Overcrowding
 [Ref- Rashid, Khabir, Hyder / 5" / 365]
-</details>
 
-<details>
-<summary><b>Q. What are the acute respiratory tract infections?</b></summary>
+### Q. What are the acute respiratory tract infections?
 
 **Classification of ARI:**
 Acute upper respiratory infections (AURI):
@@ -6591,16 +6016,12 @@ Bronchitis
 Broncheolitis
 Pneumonia
 [Ref- Rashid, Khabir, Hyder / 5" / 366]
-</details>
 
-<details>
-<summary><b>Q. Classify ARI according to severity of illness.<br>Q. Classify ARI according to WHO case management for children aged 2 months to 5 years. [DU-17M, 16M]</b></summary>
+### Q. Classify ARI according to severity of illness.<br>Q. Classify ARI according to WHO case management for children aged 2 months to 5 years. [DU-17M, 16M]
 
 _Q. Classify ARI according to severity of illness._
-</details>
 
-<details>
-<summary><b>Q. Mention the management oriented classification of ARI.</b></summary>
+### Q. Mention the management oriented classification of ARI.
 
 **Classification of ARI according to severity of illness:**
 A) Child aged 2 months upto 5 years:
@@ -6614,10 +6035,8 @@ B) Infants less than 2 months of age:
 3. No pneumonia: Cough or cold.
 [Ref- Park /24™/ 179-181]
 een
-</details>
 
-<details>
-<summary><b>Q. Mention the management oriented classification of ARI.</b></summary>
+### Q. Mention the management oriented classification of ARI.
 
 Management oriented classification o E
 han 70/min, stridor.
@@ -6626,10 +6045,8 @@ han 70/min, stridor.
 3) Moderate; Most symptoms as described in severe but respiratory rate 50/min.
 4) Mild: Cough and cold, respiratory rate below 50/min.
 [Ref- Rashid, Khabir, Hyder / 5/366]
-</details>
 
-<details>
-<summary><b>Q. Write down the clinical features of ARI.</b></summary>
+### Q. Write down the clinical features of ARI.
 
 **Clinical features of ARI:**
 . 1) Running nose.
@@ -6638,10 +6055,8 @@ han 70/min, stridor.
 4) Difficult breathing.
 5) Ear problem (e.g. pain).
 6) Fever.
-</details>
 
-<details>
-<summary><b>Q. Write down the agents of ARI.<br>Q. Discuss preventive for ARI. [DU-14Ju]</b></summary>
+### Q. Write down the agents of ARI.<br>Q. Discuss preventive for ARI. [DU-14Ju]
 
 **Agents of ARI:**
 A) Bacteria:
@@ -6687,10 +6102,8 @@ ee
 14) Health promotional actives or health education.
 15) Community support.
 [Ref- Park / 24" / 178 + Rashid, Khabir, Hyder /5" / 366]
-</details>
 
-<details>
-<summary><b>Q. Write down the danger signs of severe pneumonia with management.<br>Q. Outline the management scheme of severe pneumonia. [DU-06S]</b></summary>
+### Q. Write down the danger signs of severe pneumonia with management.<br>Q. Outline the management scheme of severe pneumonia. [DU-06S]
 
 **Danger sins of very severe disease with management:**
 Danger signs | Management
@@ -6715,10 +6128,8 @@ Refer urgently to hospital,
 - Severe malnutrition. Y lfcerebral malaria is possible, give an antimalarial.
 [Ref- Park / 24" / 180, 181]
 Severe acute respiratory syndrome (SARS)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: SARS.<br>Q. What is SARS? State clinical features, prevention and control of SARS.</b></summary>
+### Q. Write short note on: SARS.<br>Q. What is SARS? State clinical features, prevention and control of SARS.
 
 **SARS:** Severe acute respiratory syndrome (SARS) is a communicable viral disease, caused by a new strain of
 coronavirus, which differs considerably in genetic structure from previously recognized coronavirus.
@@ -6756,10 +6167,8 @@ Treatment: There is no specific treatment for SARS. _
 2) The antiviral agents ribavirin given intravenously in combination with high dose of corticosteroids,
 may have been responsible for some clinical improvement. a
 [Ref- Park / 24" / 184]
-</details>
 
-<details>
-<summary><b>Q. What to do if one travel to a SARS affected country?</b></summary>
+### Q. What to do if one travel to a SARS affected country?
 
 - The first line defense is careful hand hygiene.
 - Asasender role, itis good practice to wash hands frequently e Soap and water.
@@ -6771,10 +6180,8 @@ may have been responsible for some clinical improvement. a
   - Medical teams are constantly surveying all incoming flight from SARS affected countries.
   - Quarantine measures are kept ready for suspects.
 Acute Diarrhoeal Disease
-</details>
 
-<details>
-<summary><b>Q. Define diarrhoea. [SUST-18M]<br>Q. Define diarrhoeal disease.</b></summary>
+### Q. Define diarrhoea. [SUST-18M]<br>Q. Define diarrhoeal disease.
 
 **Diarrhoea:**
 Diarrhoea is defined as the passage of loose, liquid or watery stools more than three times a day.
@@ -6787,10 +6194,8 @@ The term is not a nosological or epidemiological entity.
 [Ref- Park / 24" / 236]
 <a
 (ene eR
-</details>
 
-<details>
-<summary><b>Q. Classify diarrhoea. [SUST-18M]</b></summary>
+### Q. Classify diarrhoea. [SUST-18M]
 
 **lassification of diarrhoea / iarrhoeal disease:**
 4 aw classification of diarrhoea / clinical types of diarrhoeal disease:
@@ -6866,10 +6271,8 @@ Spurious disease. |
   - According to causative agents:
 - Infective
 - Non-infective
-</details>
 
-<details>
-<summary><b>Q. What are the common causes of diarrhoeal disease in Bangladesh? [SUST-06S]</b></summary>
+### Q. What are the common causes of diarrhoeal disease in Bangladesh? [SUST-06S]
 
 **Causes of diarrhoeal diseases in our country:**
 Name of the diseases | Causative agent
@@ -6882,10 +6285,8 @@ Adenovirus
 Norwalk virus
 Astrovirus.
 Vibrio Cholerae
-</details>
 
-<details>
-<summary><b>Q. Enumerate the common organisms of diarrhoea in Bangladesh.</b></summary>
+### Q. Enumerate the common organisms of diarrhoea in Bangladesh.
 
 **Common organisms of diarrhoea in Bangladesh:**
 !)
@@ -6908,10 +6309,8 @@ Organisms responsible for epidemics of di H
 — the non-bacterial causes of diarrhoea in Bangladesh. [SUST-04M]
 Non-bacterial causes of diarrhoea in Bangladesh:
 Please write from all the causes of diarrhoea (infective & non-infective) except bacter ial causes.
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **° nvasive diarrhoea or dysentery:** Dysentery is diarrhoea with presence of mucus and blood which
 often is accompanied by fever, anorexia and irritability.
@@ -6920,10 +6319,8 @@ type the other causes are salmonella (non-typhoidal) usually ingested through co
 (Kababs). Dysentery causes several protein-losing enteropathy leading to under nutrition or frank
 malnutrition, including oedema (Kwashiorkor).
 [Ref- Rashid, Khabir, Hyder / 5" / 326]
-</details>
 
-<details>
-<summary><b>Q. What are the risk factors of diarrhoeal disease?</b></summary>
+### Q. What are the risk factors of diarrhoeal disease?
 
 **Risk factors for diarrhoeal disease:**
 Risk factors or Can
@@ -6943,10 +6340,8 @@ Environmental factors:
 3) In tropical areas, rotavirus diarrhoea occurs throughout the year, increase frequency during the
 drier cool mouths. And the bacterial diarrhoea peak during the warmer, rainy season.
 [Ref- Park /24" / 237]
-</details>
 
-<details>
-<summary><b>Q. How community diagnosis and community treatment is being carried out in diarrhocal</b></summary>
+### Q. How community diagnosis and community treatment is being carried out in diarrhocal
 
 disease control programme?
 Community diagnosis in diarrhoeal disease control programme: By the following way:
@@ -6966,10 +6361,8 @@ Community treatment in diarrhoeal disease control programme: By the following wa
 5) Intersectorial co-ordination
 6) Utilization of all available resources of community
 7) Legislation
-</details>
 
-<details>
-<summary><b>Q. How will you manage diarrhoea in a village?</b></summary>
+### Q. How will you manage diarrhoea in a village?
 
 **Management of diarrhoea in a village:**
 A) Prevention of dehydration: (No dehydration, but diarrhoea continues)
@@ -7012,10 +6405,8 @@ E) Prevention of diarrhoea:
 5) Health education
 6) Literacy.
 7) Immunization against measles.
-</details>
 
-<details>
-<summary><b>Q. How will you contro! diarrhoea in a village?</b></summary>
+### Q. How will you contro! diarrhoea in a village?
 
 **Component of a diarrhoeal diseases control programme:**
 - Short term: Appropriate clinical management:
@@ -7052,16 +6443,12 @@ C) Prevention of diarrhoeal epidemics:
 10) Epidemiological investigations and report writing.
 [Ref- Park / 24" /239 + Rashid, Khabir, Hyder / 5" / 327]
 Ritmo orem i
-</details>
 
-<details>
-<summary><b>Q. Give an outline of diarrhoeal epidemic control.<br>Q. Diarrhoeal diseases are common in community. Chalk out a plan to import health education</b></summary>
+### Q. Give an outline of diarrhoeal epidemic control.<br>Q. Diarrhoeal diseases are common in community. Chalk out a plan to import health education
 
 to prevent such problem. [RU-10J]
-</details>
 
-<details>
-<summary><b>Q. A diarrhoeal outbreak has been occurred in a slum in Dhaka city. What sorts of health</b></summary>
+### Q. A diarrhoeal outbreak has been occurred in a slum in Dhaka city. What sorts of health
 
 education are to be given to the slum dwellers to combat the situation? [RU-13Ju]
 Control of diarrhoeal epidemic: A
@@ -7089,10 +6476,8 @@ among the close contacts of active cases in the family or in a crowded community
 camp or slum.
 10) Epidemiological investigation and report writing.
 [Ref- Rashid, Khabir, Hyder /5" / 327, 328]
-</details>
 
-<details>
-<summary><b>Q. What health education measures you will take during on epidemic outbreak of diarrhoea.</b></summary>
+### Q. What health education measures you will take during on epidemic outbreak of diarrhoea.
 
 **Health education measures:**
 1) Importance of hand washing.
@@ -7100,10 +6485,8 @@ camp or slum.
 3) Safe water.
 4) Protection of food"and water from contamination and from flies.
 [Ref- Rashid, Khabir, Hyder / 5" / 328]
-</details>
 
-<details>
-<summary><b>Q. Outline the preventive measures of diarrhea. [DU-13J]<br>Q. Discuss the role of PHC in prevention, control & treatment of diarrhoeal diseases in</b></summary>
+### Q. Outline the preventive measures of diarrhea. [DU-13J]<br>Q. Discuss the role of PHC in prevention, control & treatment of diarrhoeal diseases in
 
 Bangladesh. [DU-16N]
 Prevention of diarrhoea:
@@ -7127,10 +6510,8 @@ disposal of stool of years children.
 Fly control: Files breeding in association and human or animal faeces should be controlled.
 [Ref- Park / 24" /243 + Rashid, Khabir, Hyder / 5" /327]
 9)
-</details>
 
-<details>
-<summary><b>Q. Explain why diarrhoeal disease are endemic in Bangladesh?</b></summary>
+### Q. Explain why diarrhoeal disease are endemic in Bangladesh?
 
 **Cause for endemicity of diarrhoeal disease in BD:**
 1) Lack of proper breast feeding and weaning practice.
@@ -7144,19 +6525,15 @@ Fly control: Files breeding in association and human or animal faeces should be 
 9) Lack of health education.
 10) High density of population.
 Dehydration
-</details>
 
-<details>
-<summary><b>Q. What are the different stages of dehydration?<br>Q. Classify dehydration. [CU-11Ju]</b></summary>
+### Q. What are the different stages of dehydration?<br>Q. Classify dehydration. [CU-11Ju]
 
 **Stages of dehydration:** There are three stages of dehydration —
 No sign of dehydration.
 Some sign of dehydration.
 Severe dehydration.
-</details>
 
-<details>
-<summary><b>Q. How do you access dehydration? [SUST-05J]<br>Q. Focus on modern assessment of dehydration. [CU-1 1Ju]</b></summary>
+### Q. How do you access dehydration? [SUST-05J]<br>Q. Focus on modern assessment of dehydration. [CU-1 1Ju]
 
 **Assessment of dehydration for diarrhoea:**
 Points | No Dehydration | Some Deliydration’) |) Severe Dehydration
@@ -7193,16 +6570,12 @@ young children.
 : |Ref- Rashid, Khabir, Hyder / 5" / 325]
 ea after assessing dehydration? [DU-16M] ;
 dehydration. [DU-17M]
-</details>
 
-<details>
-<summary><b>Q. How will you manage diarrho UST-14J]</b></summary>
+### Q. How will you manage diarrho UST-14J]
 
 _Q. How will you manage diarrho UST-14J]_
-</details>
 
-<details>
-<summary><b>Q. Write down the management of a diarrhoeal patient with severe<br>Q. Discuss the management of diarrhoea patient with no sign of dehydration. [S<br>Q. Discuss home management of diarrhoea with no sign of dehydration. [SUST-18M]</b></summary>
+### Q. Write down the management of a diarrhoeal patient with severe<br>Q. Discuss the management of diarrhoea patient with no sign of dehydration. [S<br>Q. Discuss home management of diarrhoea with no sign of dehydration. [SUST-18M]
 
 **Measures taken in various degree of dehydration:**
 Measure should be taken for no sign of. dehydration: Patient first seen with no signs of dehydration
@@ -7238,17 +6611,13 @@ Age 1" give 30 ml/kg in Then give 70 mi/kg in
 Infants (< 12 months) 1 hour 5 hours
 Older (> 12 months) 30 minutes 2 Y% hours
 [Ref- Park /24"/ 239]
-</details>
 
-<details>
-<summary><b>Q. What are physiologi i i</b></summary>
+### Q. What are physiologi i i
 
 ysiological basis of oral rehydration th ion i
 sited ot ydration therapy in management of dehydration in
-</details>
 
-<details>
-<summary><b>Q. Write short note on: ORS. [CU-03M]<br>Q. Give the composition of ORS. [SUST-05J]</b></summary>
+### Q. Write short note on: ORS. [CU-03M]<br>Q. Give the composition of ORS. [SUST-05J]
 
 **Physiological basis of oral rehydration therapy:** (ORS means oral rehydration salt)
 ab Oral rehydration therapy is based on the observation that glucose orally enhances the intestinal
@@ -7276,10 +6645,8 @@ Glucose facilities absorption of Na” and water in the intestine
   - 
 Bicarbonate and citrate corrects acid base balance.
 [Ref- Park / 24" /239 + Rashid, Khabir, Hyder /5"/325]
-</details>
 
-<details>
-<summary><b>Q. Mention the indication of giving ORS and mention its dose. [CU-10Ju]</b></summary>
+### Q. Mention the indication of giving ORS and mention its dose. [CU-10Ju]
 
 **Indications of giving ORS:**
 © Diarthoea with no sign of dehydration.
@@ -7296,10 +6663,8 @@ Reassess after 4 hours. If improved then treated as no sign of dehydration if no
 hospital.
 ——— nn VAN NAANS SENN
 AAA ANNAN
-</details>
 
-<details>
-<summary><b>📌 Viva — Advantage of rice ORS over glucose based ORS (WHO-ORS)</b></summary>
+### 📌 Viva — Advantage of rice ORS over glucose based ORS (WHO-ORS)
 
   - Advantage of rice ORS over glucose based ORS (WHO-ORS):
 ceptable.
@@ -7311,10 +6676,8 @@ yei id peptides fr Hong! !
 down slowly by pancreatic amylase).
 4) Reducing the stool output and diarrhoea.
 Cholera
-</details>
 
-<details>
-<summary><b>Q. What steps should you suggest for the control of cholera in village?<br>Q. An epidemic outbreak of cholera is reported to you how can you plan to control it? ;</b></summary>
+### Q. What steps should you suggest for the control of cholera in village?<br>Q. An epidemic outbreak of cholera is reported to you how can you plan to control it? ;
 
 **Control of cholera during an outbreak of epidemic:**
 1) Verifications of diagnosis: It is important is have confirmation of outbreak as quickly as possible,
@@ -7353,10 +6716,8 @@ r
 [Ref- Park / 24" /246]
 $$ — TN )
 Role of ICDDR,B in controlling diarrhoeal disease in Banglade
-</details>
 
-<details>
-<summary><b>Q. Discuss the role of ICDDR,B in the control of diarrhoeal disease. [DU-05M]<br>Q. How ICDDR,B helps in control of diarrhea? [DU-12Ju]</b></summary>
+### Q. Discuss the role of ICDDR,B in the control of diarrhoeal disease. [DU-05M]<br>Q. How ICDDR,B helps in control of diarrhea? [DU-12Ju]
 
 **Role of ICDDR,B in the control of diarrhocal disease:**
 Bangladesh is the host country for the international center for diarrhoea disease research, Bangladesh
@@ -7393,10 +6754,8 @@ centers for diarrhoea patients.
 publication and library services.
 [Ref- Rashid, Khabir, Hyder / 5" / 328, 329]
 Food poisoning
-</details>
 
-<details>
-<summary><b>Q. Define food poisoning. [RU-17N]</b></summary>
+### Q. Define food poisoning. [RU-17N]
 
 **Food poisoning:**
 Food poisoning is an acute gastro-enteritis caused by ingestion of food or drink contaminated with
@@ -7407,10 +6766,8 @@ The condition is characterized by-
   - Attack of many persons at the same time and
   - Similarity of signs and symptoms in the majority of cases.
 [Ref- Park /24" / 253]
-</details>
 
-<details>
-<summary><b>Q. Classify food poison;</b></summary>
+### Q. Classify food poison;
 
 Aiea Y food poisoning. [RU-17N]
 Types of food Doisoning:
@@ -7444,10 +6801,8 @@ later on diarrhoea,
 Campylobacter
 Jejuni
 Bacillus cereus
-</details>
 
-<details>
-<summary><b>Q. How outbreak of food poisoning can be prevented in the community? [RU-17N]</b></summary>
+### Q. How outbreak of food poisoning can be prevented in the community? [RU-17N]
 
 **Preventive & control measures of food poisoning:**
 1) Food Sanitation :
@@ -7476,10 +6831,8 @@ subjected to laboratory analysis if they were unsatisfactory. Continuing surveil
 avoid outbreaks of food-borne diseases.
 [Ref- Park / 24/255]
 Sn a a EEA ene: eee
-</details>
 
-<details>
-<summary><b>Q. Write down difference between cholera and food poisoning.</b></summary>
+### Q. Write down difference between cholera and food poisoning.
 
 **Difference between cholera and food poisoning:**
 sCholera’ Food poisoning
@@ -7508,20 +6861,16 @@ Yes
 13. Urine Suppressed
 14. Blood Leucocytosis Normal
 [Ref- Park / 24" / 255]
-</details>
 
-<details>
-<summary><b>Q. Zoonotic disease include: [DU-18M,17N]</b></summary>
+### Q. Zoonotic disease include: [DU-18M,17N]
 
 None
 Projectile, effortless, watery and
 continuous
 Copious rice watery, inoffensive.
 6. Stools
-</details>
 
-<details>
-<summary><b>Q. Vertically transmitted diseases include:</b></summary>
+### Q. Vertically transmitted diseases include:
 
 [DU-18N] a) Measles.
 a) Gonorrhoea. b) Rabies.
@@ -7530,10 +6879,8 @@ c) Tetanus. d) Bovine tuberculosis.
 d) AIDS. e) Anthrax.
 e} Hepelias: Ans. a) F, b) T, ©) F, d) T, e) T.
 Ans. a) F, b) T, c) F, d) T, e) T;
-</details>
 
-<details>
-<summary><b>Q. Disease transmitted through placenta:<br>Q. Disease transmitted through feco-oral [DU-17M]</b></summary>
+### Q. Disease transmitted through placenta:<br>Q. Disease transmitted through feco-oral [DU-17M]
 
 **route:** [DU-18N,17N] a) Syphilis.
 a) Cholera. b) Neonatal tetanus.
@@ -7542,10 +6889,8 @@ c) Ankylostomiasis. d) Hepatitis-B. ;
 d) Hepatitis-E. e) Gonorrhoea.
 e) Shigellosis. Ans. a) T, b) F, 6) F, d) TeT.
 Ans. a) T, b) F, ¢) F, d) T, ¢) T.
-</details>
 
-<details>
-<summary><b>Q. Basic principles of TB treatment: [DU- 16N]</b></summary>
+### Q. Basic principles of TB treatment: [DU- 16N]
 
 a) Early diagnosis.
 b) Prompt treatment.
@@ -7553,10 +6898,8 @@ c) Right combination of drugs.
 d) Right doses.
 e) Right duration.
 Ans. a) T, b) T, c) T, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Complications of measles: [DU-15Ju]</b></summary>
+### Q. Complications of measles: [DU-15Ju]
 
 a) Otitis media.
 b) Diarrhoea.
@@ -7564,10 +6907,8 @@ b) Diarrhoea.
 d) Encephalitis.
 e) Reye’s syndrome.
 Ans, a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Basic approaches to the control of AIDS is</b></summary>
+### Q. Basic approaches to the control of AIDS is
 
 **directed to:** [DU-15Ju]
 a) Prevention of the disease.
@@ -7576,10 +6917,8 @@ c) Anti-retroviral drugs.
 d) Specific prophylaxis.
 e) Population strategy.
 Ans. a) T, b) F, ¢) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Complications of Plasmodium falciparum</b></summary>
+### Q. Complications of Plasmodium falciparum
 
 **malaria are:** [DU-15Ju] .
 a) Hepatomegaly.
@@ -7588,10 +6927,8 @@ c) Acute renal failure.
 d) Dehydration.
 e) Herpes simplex.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Vertically transmitted diseases are: [DU- 14J]</b></summary>
+### Q. Vertically transmitted diseases are: [DU- 14J]
 
 a) hepatitis-E
 b) toxoplasma gondii
@@ -7599,10 +6936,8 @@ c) german measles
 d) epidemic typhus
 e) leprosy
 Ans. a) F, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Complications of mumps include: [DU-</b></summary>
+### Q. Complications of mumps include: [DU-
 
 14J)
 a) orchitis
@@ -7611,10 +6946,8 @@ c) oophoritis -
 d) subacute sclerosing pancreatitis
 e) neuritis
 Ans. a) T, b) F, c) T, d) F, e) T-
-</details>
 
-<details>
-<summary><b>Q. Fixed rabies virus: [DU-14J]</b></summary>
+### Q. Fixed rabies virus: [DU-14J]
 
 a) is produced by single brain culture of street
 virus
@@ -7623,10 +6956,8 @@ c) used to produce anti-rabies vaccine
 d) does not produce Negri bodies
 e) multiply in extraneural tissue
 Ans. a) F, b) T, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Feature of chicken pox rash: [DU-13Ju]</b></summary>
+### Q. Feature of chicken pox rash: [DU-13Ju]
 
 a) very rapid evolution
 b) an area of inflammation around the vesicles
@@ -7634,10 +6965,8 @@ c) mostly appear on extensor surface
 d) fever subsides with the appearance of it
 e) axilla is affected
 Ans. a) T, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Vertically transmitted disease includes: [DU-13Ju,12Ju]</b></summary>
+### Q. Vertically transmitted disease includes: [DU-13Ju,12Ju]
 
 a) tuberculosis
 b) hepatitis-B
@@ -7645,10 +6974,8 @@ c) mumps
 d) rubella
 e) chicken pox
 Ans. a) F, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Regarding opportunistic infection: [DU-</b></summary>
+### Q. Regarding opportunistic infection: [DU-
 
 13Ju)
 a) Occur in deficiency of immune s
@@ -7660,10 +6987,8 @@ d) infection not related to primary condition of
 patient
 e) organisms are drug resistant
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Major signs of AIDS are: [DU-13J]</b></summary>
+### Q. Major signs of AIDS are: [DU-13J]
 
 a) weight loss > 10% of body weight
 b) fever for 1 week to one month
@@ -7671,10 +6996,8 @@ c) pruritic dermatitis
 d) oropharyngeal candidiasis
 e) Virchow’s gland
 Ans. a) T, b) F, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Mode of transmission of malaria includes: [DU-13J]</b></summary>
+### Q. Mode of transmission of malaria includes: [DU-13J]
 
 a) vector transmission
 b) transmission through unsafe sex
@@ -7682,10 +7005,8 @@ c) unsafe blood transfusion
 d) vertical transmission
 e) through fomite
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. International quarantinable diseases are:</b></summary>
+### Q. International quarantinable diseases are:
 
 (DU-12Ju,11J]
 a) Plague
@@ -7694,10 +7015,8 @@ c) Yellow fever
 d) Avian flu
 e) Cholera
 Ans. a) T, b) F, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. The characteristics of chicken pox rashes</b></summary>
+### Q. The characteristics of chicken pox rashes
 
 **are:** [DU-12Ju]
 a) deep-seated
@@ -7706,10 +7025,8 @@ c) axilla is affected
 d) predominant on flexor surface
 e) umbilicated
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Characteristics of Salmonella typhi</b></summary>
+### Q. Characteristics of Salmonella typhi
 
 **include:** [DU-12Ju]
 a) non motile
@@ -7720,10 +7037,8 @@ d) survive in ice cream for more than a
 month
 e) grows rapidly in milk
 Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Fetal varicella syndrome is characterized</b></summary>
+### Q. Fetal varicella syndrome is characterized
 
 **by:** [DU-12Ju]
 a) aplasia of brain
@@ -7732,10 +7047,8 @@ c) hypopigmentation
 d) pneumonia
 e) sub-acute sclerosing panencephalitis
 Ans. a) T, b) T, ¢) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Warning signs of dengue are: [DU-12Ju]</b></summary>
+### Q. Warning signs of dengue are: [DU-12Ju]
 
 a) haematocrit less than 20%
 b) restlessness
@@ -7743,10 +7056,8 @@ c) mucosal bleeding
 d) hepatomegaly
 e) ongoing vomiting
 Ans. a) T, b) T, ¢) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. AIDS related complexes are: [DU-12J]</b></summary>
+### Q. AIDS related complexes are: [DU-12J]
 
 a) toxoplasma encephalitis
 b) shingles
@@ -7754,10 +7065,8 @@ c) hairy leukoplakia
 d) unexplained diarrhoea
 e) = 10% body weight loss
 Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. High risk people of STDs are: (DU-11Ju]</b></summary>
+### Q. High risk people of STDs are: (DU-11Ju]
 
 a) travelers
 b) high officials
@@ -7767,10 +7076,8 @@ e) shelterless city dwellers
 Ans. a) T, b) T, ¢) F, d) F, e) T. ;
 SS |
 OEE OO OO ——— lll
-</details>
 
-<details>
-<summary><b>Q. sreomiany Sources of typhoid fever: [DU- Q. Anchylostomiasis can be prevented by:</b></summary>
+### Q. sreomiany Sources of typhoid fever: [DU- Q. Anchylostomiasis can be prevented by:
 
 IJu} DU-11Ju]
 a) faeces of cases a) restriction of bare footed movement
@@ -7779,10 +7086,8 @@ Cc) flies c) health education
 d) contaminated water d) vaccination —
 e) urine of carriers e) improvement of sanitation
 Ans. a) F, b) T, c) T, d) T, e) F. Ans. a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Types of plague are: [DU-1 Iu] Q. AIDS generally occurred through: [DU-</b></summary>
+### Q. Types of plague are: [DU-1 Iu] Q. AIDS generally occurred through: [DU-
 
 a) bubonic HJ]
 b) pneumonic a) Sexual contact -_
@@ -7792,10 +7097,8 @@ e) indeterminate d) Tooth extraction
 t bit
 Ans. a) T, b) T, c) F, d) T, e) F. sdbaabieaay
 Ans. a) T, b) T, c) F, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. The most common congenital defects in</b></summary>
+### Q. The most common congenital defects in
 
 **rubella infection are:** [DU-1 IJu]
 a) glaucoma
@@ -7804,10 +7107,8 @@ c) deafness
 d) cataract
 e) mental retardation
 Ans. a) F, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. The opportunistic infections in AIDS</b></summary>
+### Q. The opportunistic infections in AIDS
 
 **patients are:** [DU-11Ju]
 a) tuberculosis
@@ -7833,5 +7134,4 @@ Geriatric health
 ee SN
 AAA A AWA Ue Ree eR ERE REE E RA EEA EER ERANERARRANANRARAAAN ENN
 SNA NEEEEEEENANANANN. 88
-</details>
 

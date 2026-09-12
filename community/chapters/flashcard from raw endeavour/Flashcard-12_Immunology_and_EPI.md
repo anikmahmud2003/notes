@@ -6,23 +6,18 @@
 
 ---
 
-<details>
-<summary><b>Q. Define immunity, [DU-17N,15Ju, SUST-I8N,17N,15J,14J,13J,12J,11J, RU-12Ju,11Ju, CU- 14J,12Ju, 10Ju]</b></summary>
+### Q. Define immunity, [DU-17N,15Ju, SUST-I8N,17N,15J,14J,13J,12J,11J, RU-12Ju,11Ju, CU- 14J,12Ju, 10Ju]
 
 **Immunity / host defense against infection:**
 Immunity is the ability of the body to recognize, destroy and eliminate antigenic material (eg. bacteria,
 virus etc.) foreign to its own.
 [Ref- Park /24* 196
-</details>
 
-<details>
-<summary><b>Q. Classify immunity with examples. [DU-17N,15Ju, lJ, CU-12Ju,10Ju/J, RU-12Ju,1 Lu, SUST- 18N,13J,11J]</b></summary>
+### Q. Classify immunity with examples. [DU-17N,15Ju, lJ, CU-12Ju,10Ju/J, RU-12Ju,1 Lu, SUST- 18N,13J,11J]
 
 _Q. Classify immunity with examples. [DU-17N,15Ju, lJ, CU-12Ju,10Ju/J, RU-12Ju,1 Lu, SUST- 18N,13J,11J]_
-</details>
 
-<details>
-<summary><b>Q. Enumerate the different types of natural immunity,</b></summary>
+### Q. Enumerate the different types of natural immunity,
 
 **Classification of immunity:**
 A) Innate (non-specific) immunity:
@@ -74,16 +69,12 @@ Passive immunity may be developed in following ways:
   - By transfer of maternal antibodies (IGA) via colostrum to foetus.
   - By transfer of lymphocytes, to induces passive cellular immunity.
 [Ref- Park /24"/ 106]
-</details>
 
-<details>
-<summary><b>Q. What are the differences between active and passive immunity? [CU-11J,10Ju, RU-14Ju,11Ju, SUST-17N, 14J,12J]</b></summary>
+### Q. What are the differences between active and passive immunity? [CU-11J,10Ju, RU-14Ju,11Ju, SUST-17N, 14J,12J]
 
 _Q. What are the differences between active and passive immunity? [CU-11J,10Ju, RU-14Ju,11Ju, SUST-17N, 14J,12J]_
-</details>
 
-<details>
-<summary><b>Q. Mention five difference</b></summary>
+### Q. Mention five difference
 
 **Difference between active & passive immunity:**
 Traits : Active Immunit
@@ -111,18 +102,14 @@ No risk of type-I and type-II
 hypersensitivity.
 Prevention of disease.
 [Ref- Akram’s Immunology / 4" + Park /24™/ 106]
-</details>
 
-<details>
-<summary><b>Q. How active immunity is provided to a child?</b></summary>
+### Q. How active immunity is provided to a child?
 
 Following immunization (vaccination) with an antigen which may be a killed vaccine, a live attenuated
 i toxoid.
 vaccine or toxol [Ref- Park / 24" / 106]
-</details>
 
-<details>
-<summary><b>Q. “Active immunity is superior to passive immunity” — Justify. .<br>Q. Why active immunity is superior to passive immunity? [CU-14J,12Ju,10J]</b></summary>
+### Q. “Active immunity is superior to passive immunity” — Justify. .<br>Q. Why active immunity is superior to passive immunity? [CU-14J,12Ju,10J]
 
 Active immunity is Superior to passive immunity for the following reasons: .
 1) Active immunity is long-lasting, whereas passive immunity is short-lasting. . ;
@@ -130,10 +117,8 @@ Active immunity is Superior to passive immunity for the following reasons: .
 3) Secondary immune response occurs in active immunity, whereas it does not occur in passive
 immunity, . _ ;
 4) There is no risk of type-I and type-II hypersensitivity reactions in active immunity,
-</details>
 
-<details>
-<summary><b>Q. What are the constituents of cell mediated immunity?</b></summary>
+### Q. What are the constituents of cell mediated immunity?
 
 **Constituents of cell mediated immunity:**
 1) Macrophage.
@@ -142,10 +127,8 @@ immunity, . _ ;
 4) Natural killer (NK) cells.
 5) ADCC (antibody dependent cell mediated cytotoxicity).
 [Ref- Rashid, Khabir, Hyder / 4 398]
-</details>
 
-<details>
-<summary><b>Q. Define antigen and antibody.</b></summary>
+### Q. Define antigen and antibody.
 
 **Antigen:**
 An antigen is a substance protein or polysaccharide in nature which when introduced into the body is
@@ -154,10 +137,8 @@ Antibody:
 Antibodies are immunoglobulins that react s
 Antibodies are — IgG, IgM, IgD, IgA, IgE.
 pecifically with the antigens that stimulate their production.
-</details>
 
-<details>
-<summary><b>Q. What is immunoglobulin? [SUST-1 Ju]<br>Q. What are the functions of immunoglobulins?<br>Q. Write short note on: Immunoglobulins. [RU-10J]</b></summary>
+### Q. What is immunoglobulin? [SUST-1 Ju]<br>Q. What are the functions of immunoglobulins?<br>Q. Write short note on: Immunoglobulins. [RU-10J]
 
 **Immunoglobulins:**
 These are globulin of animal origin endowed antibody activity or Structurally similar proteins having no
@@ -182,10 +163,8 @@ IgD:
 IgE:
 NSV VN NANNY
 aasseceemeemmmeneeenemmne Se rilieunGeanner
-</details>
 
-<details>
-<summary><b>Q. Define immune response. What are the fimr</b></summary>
+### Q. Define immune response. What are the fimr
 
 S whale you wcan'by'i types of immune responses? —
 van y immune response? [RU-13J]
@@ -198,10 +177,8 @@ antigen induces a response which is known as primary response.
 elicits a more rapid & heightened response which is known is as the secondary response.
 . The amplified population of memory cells accounts for the rapidity & intensity that
 distinguishes a secondary response from the primary response.
-</details>
 
-<details>
-<summary><b>Q. How primary response differs from secondary response?</b></summary>
+### Q. How primary response differs from secondary response?
 
 nswer
 Comparison between primary & secondary immune response:
@@ -213,10 +190,8 @@ Comparison between primary & secondary immune response:
 Affinity of Ab Low [High
 7) Cross reactive antibody g :
 8) Predominant Ig class g g =
-</details>
 
-<details>
-<summary><b>Q. Discuss mechanism of immune response.<br>Q. How an individual will response to an antigen when introduced for first time? [DU-10J]<br>Q. Discuss the mechanism of immune response after vaccination.</b></summary>
+### Q. Discuss mechanism of immune response.<br>Q. How an individual will response to an antigen when introduced for first time? [DU-10J]<br>Q. Discuss the mechanism of immune response after vaccination.
 
 **Mechanism of immune response:** Immunogenic stimulus by vaccination or any foreign antigen > Processing
 and presentation of the antigen by macrophage or other antigen presenting cells which are recognized by helper
@@ -226,10 +201,8 @@ T cells (Th) > Activation and proliferation of helper T cells >
 lymphocyte > Proliferation & differentiation of activated B cells to plasma cells > Production of
 antibody > Humoral immunity.
 [Ref- LANGE Microbiology review /12"]
-</details>
 
-<details>
-<summary><b>Q. What is anamnestic reaction and its importance?</b></summary>
+### Q. What is anamnestic reaction and its importance?
 
 **Anamnestic reaction:** ,
 f host on second time with subsequent exposure the same or closely related
@@ -241,10 +214,8 @@ Importance:
 3) Antibody more abundant.
 4) Antibody response maintains at higher level for a longer period of time.
 a
-</details>
 
-<details>
-<summary><b>Q. Define herd immunity. [CU-12Ju, RU-12J]<br>Q. State the epidemiological significance of “Herd immunity”. [RU-13Ju]<br>Q. Mention the significance of herd immunity. [RU-14Ju]<br>Q. Write short note on: Herd immunity. [SUST-16N, CU-17N,16J,14J,13Ju]</b></summary>
+### Q. Define herd immunity. [CU-12Ju, RU-12J]<br>Q. State the epidemiological significance of “Herd immunity”. [RU-13Ju]<br>Q. Mention the significance of herd immunity. [RU-14Ju]<br>Q. Write short note on: Herd immunity. [SUST-16N, CU-17N,16J,14J,13Ju]
 
 r
 Herd immunity: It is the level of resistance of a community or group of people to a particular disease.
@@ -262,10 +233,8 @@ unlikely.
 course. e.g. diphtheria and poliomyelitis. .
 4) The epidemic curve tends to decline with a buildup of herd immunity.
 [Ref- Park /24"/ 107]
-</details>
 
-<details>
-<summary><b>Q. What are the elements of herd immunity? [RU-14Ju]<br>Q. What are the elements of herd structure? [DU-11J]<br>Q. What are the preconditions of herd immunity? [CU-1 Ju]</b></summary>
+### Q. What are the elements of herd immunity? [RU-14Ju]<br>Q. What are the elements of herd structure? [DU-11J]<br>Q. What are the preconditions of herd immunity? [CU-1 Ju]
 
 **Elements contribute to herd immunity:**
 a) Occurrence of clinical and subclinical infection in the herd.
@@ -276,20 +245,16 @@ c) Herd structure:
 - Possible insect vectors.
 Environmental and social factors that favour or inhibit the spread of infection from host to host.
 [Ref- Park /24"/ 107]
-</details>
 
-<details>
-<summary><b>Q. Illustrate the influencing factors of herd structure. [CU-11Ju]</b></summary>
+### Q. Illustrate the influencing factors of herd structure. [CU-11Ju]
 
 **Influencing factors of herd structure:**
 1) New births.
 2) Deaths.
 3) Population mobility.
 [Ref- Park /24"/ 107]
-</details>
 
-<details>
-<summary><b>Q. How herd immunity can be developed? [DU-11J]<br>Q. How herd immunity can be achieved / acquired in a community?</b></summary>
+### Q. How herd immunity can be developed? [DU-11J]<br>Q. How herd immunity can be achieved / acquired in a community?
 
 Herd immunity is achieved by-
 1. Immunization.
@@ -305,28 +270,22 @@ eE-t—
 7. Provision of proper nutrition.
 Determination of herd immunity: By serological surveys.
 [Ref- Park /24™/ 107]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
   - Some diseases which can be eradicated by herd immunity: Poliomyelitis, diphtheria.
   - One disease that cannot be protected by herd immunity: Tetanus.
   - Herd immunity can be maintained by: On-going immunization programme.
 [Ref- Park /24™ / 107]
-</details>
 
-<details>
-<summary><b>Q. Define ring immunity.<br>Q. State ring immunization. [DU-13Ju]</b></summary>
+### Q. Define ring immunity.<br>Q. State ring immunization. [DU-13Ju]
 
 **Ring immunity:**
 When an infected non-immune person is surrounded by a barrier of immune persons, then the disease
 cannot be transmitted outside. It is called ring immunity. This was applied to eradicate small pox.
 Immunization & vaccination
-</details>
 
-<details>
-<summary><b>Q. What is immunization? Classify immunization.</b></summary>
+### Q. What is immunization? Classify immunization.
 
 **Immunization:**
 It is defined as a technique by which immunizing agents are introduced into the body for the production
@@ -334,16 +293,12 @@ of Ab to prevent disease.
 Classification:
 1) Active immunization: Vaccine.
 2) Passive immunization: Immunoglobulin, Antisera.
-</details>
 
-<details>
-<summary><b>Q. Define vaccine. [RU-18N,M, 15J,14J,12J,1 1J, SUST-12Ju, CU-14J,13Ju]<br>Q. Classify vaccines with example. [DU-18N,17N,12Ju, CU-14J,13Ju, RU-18M,14J,12J,11J, SUST- 12Ju]</b></summary>
+### Q. Define vaccine. [RU-18N,M, 15J,14J,12J,1 1J, SUST-12Ju, CU-14J,13Ju]<br>Q. Classify vaccines with example. [DU-18N,17N,12Ju, CU-14J,13Ju, RU-18M,14J,12J,11J, SUST- 12Ju]
 
 _Q. Define vaccine. [RU-18N,M, 15J,14J,12J,1 1J, SUST-12Ju, CU-14J,13Ju]_
-</details>
 
-<details>
-<summary><b>Q. Name live vaccines. [DU-13J]<br>Q. Write short note on: Vaccine. [CU-18N,16M,] 5Ju, RU-10Ju]</b></summary>
+### Q. Name live vaccines. [DU-13J]<br>Q. Write short note on: Vaccine. [CU-18N,16M,] 5Ju, RU-10Ju]
 
 **Vaccine:**
 Vaccine is an immuno-biological substance designed to produce specific protection against a given
@@ -398,10 +353,8 @@ DPTP (DPT + inactivated polio).
 QLNN8 SSN
 More recent preparations are subunit vaccine and recombinant vaccine.
 [Ref- Park / 24" / 108]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **1 mmunoglobulin preparations:** Two types of immunoglobulin preparations are available for passive
 immunization. These are:
@@ -411,19 +364,15 @@ lonors,
 recently recovered from an infection or are obtained from individuals who have been
 immunized against a specific infection,
 [Ref- Park /24"/112]
-</details>
 
-<details>
-<summary><b>Q. What is meant by antisera? [SUST-11Ju]</b></summary>
+### Q. What is meant by antisera? [SUST-11Ju]
 
 **Anti-sera / antitoxins:**
 These are the materials prepared in animals. Admini i ‘
 sot bei . Adminis| ive ri
 sensitivity of the recipient. tration of antisera may give rise to abnormal
-</details>
 
-<details>
-<summary><b>Q. How does vaccine differ fr: i</b></summary>
+### Q. How does vaccine differ fr: i
 
 oe om antisera? [CU-09J]
 Differences between vaccine and antisera:
@@ -440,17 +389,13 @@ Guillain Barre syndrome (GBS) etc. etc.
 5) Contraindications Some live vaccines are contraindicated in ‘Antisera have no contraindication in
 in pregnancy. pregnancy.
 i
-</details>
 
-<details>
-<summary><b>Q. What is immunizing agent?</b></summary>
+### Q. What is immunizing agent?
 
 **Immunizing agents:**
 They-are the agent which when introduced into the body produce immunity.
-</details>
 
-<details>
-<summary><b>Q. What are the differences between live attenuated and killed vaccine?</b></summary>
+### Q. What are the differences between live attenuated and killed vaccine?
 
 Differences between attenuated vaccine and killed vaccine:
 [Traits Killed vaccine T Live attenuated vaccine =
@@ -469,10 +414,8 @@ No
 transmission to non-immune contacts
 11. Interference by other viruses in host
 12. Stability at room temperature
-</details>
 
-<details>
-<summary><b>Q. Live vaccines are superior to inactivated vaccines-justify. [DU-18M]<br>Q. ‘Live vaccine is more potent than killed vaccine’-justify. [RU-18M, 13Ju]<br>Q. Why live vaccines are more potent immunizing agent than killed vaccine? [SUST-09J]</b></summary>
+### Q. Live vaccines are superior to inactivated vaccines-justify. [DU-18M]<br>Q. ‘Live vaccine is more potent than killed vaccine’-justify. [RU-18M, 13Ju]<br>Q. Why live vaccines are more potent immunizing agent than killed vaccine? [SUST-09J]
 
 Live vaccines are more potent thon killed vaccines, because:
 Live organisms multiply in the host and the resulting antigenic dose is larger than what is injected.
@@ -483,16 +426,12 @@ There may be other mechanisms such as the persistence of latent virus.
 See oo em A
 aA AAAAAAALANA AAA EEE EDS ml
 ened
-</details>
 
-<details>
-<summary><b>Q. What are the live vaccines used in EPI schedule?</b></summary>
+### Q. What are the live vaccines used in EPI schedule?
 
 Live vaccines used in EPI; BCG, measles, oral polio.
-</details>
 
-<details>
-<summary><b>Q. What are the contraindications for vaccination? [SUST-12Ju]</b></summary>
+### Q. What are the contraindications for vaccination? [SUST-12Ju]
 
 **Contraindications for vaccination:**
 1) Contraindications of all vaccines:
@@ -511,10 +450,8 @@ following egg ingestion.
   - Anaphylactic reaction to a previous dose.
   - Evolving neurological disease (e.g. uncontrolled epilepsy or progressive encephalopathy),
 [Ref- Park /24"/ 128]
-</details>
 
-<details>
-<summary><b>Q. Mention the contraindications of live vaccines. [DU-13Ju]</b></summary>
+### Q. Mention the contraindications of live vaccines. [DU-13Ju]
 
 **Contraindications of live vaccines:** Live vaccines should not be administered to —
 1) Immunodeficiency state.
@@ -524,10 +461,8 @@ following egg ingestion.
 malignancy or because of therapy with corticosteroids, alkylating agents, anti-metabolic agents or
 radiation.
 [Ref- Park / 24" / 128]
-</details>
 
-<details>
-<summary><b>Q. Define monovalent, polyvalent and combined vaccine.</b></summary>
+### Q. Define monovalent, polyvalent and combined vaccine.
 
 - Monovalent vaccine: Monovalent vaccines are those which are prepared from only one strain of a
 species.
@@ -536,28 +471,22 @@ strains of the same species.
 + Combined / mixed vaccine: If more than one kind of immunizing agent is included in the vaccine, itis
 called a mixed or combined vaccine.
 [Ref- Park /24"/ 110]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **+ Auto vaccine / autogenous vaccine:** When the organism in the vaccine is obtained from the same
 patient.
 [Ref- Park /24"/ 110]
-</details>
 
-<details>
-<summary><b>Q. What are the advantages of combination?<br>Q. Mention the usefulness of combined vaccine.</b></summary>
+### Q. What are the advantages of combination?<br>Q. Mention the usefulness of combined vaccine.
 
 **Advantages of combination:**
 1) To simplify administration.
 2) To reduce costs.
 3) To minimize the number of contacts of the patient with the health system.
 [Ref- Park /24"/ 110]
-</details>
 
-<details>
-<summary><b>Q. Mention the advantages of DPT vaccine.</b></summary>
+### Q. Mention the advantages of DPT vaccine.
 
 DPT is a combined vaccine. Advantages are —
 1) Three vaccines (diphtheria, pertussis, tetanus) are administered at a time.
@@ -566,19 +495,15 @@ DPT is a combined vaccine. Advantages are —
 4) Simplify administration.
 5) Increase the potency.
 [Ref- Park / 24" / 110]
-</details>
 
-<details>
-<summary><b>Q. Explain toxoid.</b></summary>
+### Q. Explain toxoid.
 
 **Toxoid:** These are vaccines prepared from toxin by inactivation (combining formaldehyde with toxin) which
 have no toxigenicity but retain antigenicity.
 Example: Tetanus toxoid (TT), Diphtheria toxoid (DT).
 [Ref- Park /24™/ 110]
-</details>
 
-<details>
-<summary><b>Q. List the vaccine preventable diseases. [SUST-14Ju]</b></summary>
+### Q. List the vaccine preventable diseases. [SUST-14Ju]
 
 1) Diphtheria
 2) Pertussis
@@ -597,10 +522,8 @@ of action are controversial:
 7) Rabies
 8) Mumps.
 9) Rubella etc.
-</details>
 
-<details>
-<summary><b>Q. Enlist the factors related to effective vaccination.</b></summary>
+### Q. Enlist the factors related to effective vaccination.
 
 **Factors related to effective vaccination:**
 1) Sterilization of syringes and needles.
@@ -612,10 +535,8 @@ of action are controversial:
 7) Contraindication.
 [Ref- Rashid, Khabir, Hyder /5*/ 411)
 immunization session but at different sites
-</details>
 
-<details>
-<summary><b>Q. State the complications [SUST-17M] / hazards [RU-| 1J] / after effects of immunization.<br>Q. Mention the adverse effects of vaccination. [SUST-17M]<br>Q. What are the different types of AEFI (adverse effect following immunization)? [CU-11Ju]<br>Q. Write short note on: Adverse events following vaccination. [SUST-16J]</b></summary>
+### Q. State the complications [SUST-17M] / hazards [RU-| 1J] / after effects of immunization.<br>Q. Mention the adverse effects of vaccination. [SUST-17M]<br>Q. What are the different types of AEFI (adverse effect following immunization)? [CU-11Ju]<br>Q. Write short note on: Adverse events following vaccination. [SUST-16J]
 
 Hazards of immunization / vaccination / adverse effects following immunization (AEFI):
 1) Vaccine reaction: It may be i) Local reactions or ii) Systemic reactions.
@@ -667,20 +588,16 @@ f .g. a potential problem in mass vaccination
 against measles, rubella and mumps). P m
 VSSNSN
 [Ref- Park /24" £119]
-</details>
 
-<details>
-<summary><b>Q. Write down the contraindications of vaccination. [SUST-15Ju]</b></summary>
+### Q. Write down the contraindications of vaccination. [SUST-15Ju]
 
 **Contraindications of vaccination:**
 1) High fever.
 2) Severe malnutrition.
 3) Immune compromised patient (e.g. AIDS, TB).
 4) Hypersensitivity.
-</details>
 
-<details>
-<summary><b>📌 Viva — Contraindications & reactions of commonly used vaccines</b></summary>
+### 📌 Viva — Contraindications & reactions of commonly used vaccines
 
 **Contraindications & reactions of commonly used vaccines:**
 Vaccine preventable disease|. Contraindication®: |" - Reactions. 9
@@ -691,10 +608,8 @@ Poliomyelitis None.
 Measles Severe malnutrition. _| Mild fever, slight rash after 6 — 10 days.
 [Ref- Rashid, Khabir, Hyder / 5" / 413]
 EPI & NID
-</details>
 
-<details>
-<summary><b>Q. Write short note on: EPI.</b></summary>
+### Q. Write short note on: EPI.
 
 **EPI:** (Expanded programme on immunization)
 WHO launched a global immunization programme
@@ -747,10 +662,8 @@ For more curiosity
 1923. - Diphtheria Toxoid 1963 - Measles vaccine
 1926 - Pertussis vaccine 1982 - Hepatitis B vaccine \
 [Ref- Park /24"/ 109]
-</details>
 
-<details>
-<summary><b>Q. What is EPI plus? [CU-09J]</b></summary>
+### Q. What is EPI plus? [CU-09J]
 
 **EPI plus:** Some special programmes in addition to vaccination are now carried out from the EPI office, these
 are known as EPI-plus. For example —
@@ -758,10 +671,8 @@ are known as EPI-plus. For example —
 2) Sex education to the couples.
 3) Advice on breast feeding.
 4) Family planning advice.
-</details>
 
-<details>
-<summary><b>Q. Discuss the strategies of EPI in Bangladesh.<br>Q. How adequate vaccination coverage can be maintained by administrative steps in</b></summary>
+### Q. Discuss the strategies of EPI in Bangladesh.<br>Q. How adequate vaccination coverage can be maintained by administrative steps in
 
 Bangladesh? [RU-15J]
 The strategies of EPI_in Bangladesh: .
@@ -772,10 +683,8 @@ ine immunization coverage of all antigens at all levels.
 reduction through high risk approach (MNT campaign).
 4) Strengthen AFP and EPI disease surveillance activities at all levels.
 [Ref- Rashid, Khabir, Hyder /5"/4201
-</details>
 
-<details>
-<summary><b>Q. Discuss achievements of EPI in Bangladesh</b></summary>
+### Q. Discuss achievements of EPI in Bangladesh
 
 **SS ie EF) pan Bangladesh:** on bs expanded programme on immunization was formally launched
   - . of milestone i iveri ices i
@@ -789,16 +698,12 @@ EPI service delivery is done through two types of service centers:
   - Throughout reach centres established at village level. 8 as Bae
 Thus the success of EPI is achieved.
 [Ref- Rashid, Khabir, Hyder / 5 / 419]
-</details>
 
-<details>
-<summary><b>Q. Give the up-to-date EPI schedule for Bangladesh. [DU-18M,14J,11J, SUST-18M, 10J]<br>Q. Write down the present EPI schedule [SUST-15Ju,13J,12Ju/J, RU-18N, 14J,13J] / immunization</b></summary>
+### Q. Give the up-to-date EPI schedule for Bangladesh. [DU-18M,14J,11J, SUST-18M, 10J]<br>Q. Write down the present EPI schedule [SUST-15Ju,13J,12Ju/J, RU-18N, 14J,13J] / immunization
 
 schedule [DU-15J, CU-13J, RU-16N, SUST-11J] in Bangladesh.
-</details>
 
-<details>
-<summary><b>Q. Write down the EPI vaccines with schedules. [SUST-16M]<br>Q. Illustrate EPI schedule for Bangladesh. [SUST-16J]<br>Q. List available vaccines with their doses in our country. [SUST-09J]</b></summary>
+### Q. Write down the EPI vaccines with schedules. [SUST-16M]<br>Q. Illustrate EPI schedule for Bangladesh. [SUST-16J]<br>Q. List available vaccines with their doses in our country. [SUST-09J]
 
 **Up-to-date EPI Schedule in Bangladesh:**
 TARE DO ALOU Renee
@@ -826,10 +731,8 @@ This is the latest up-to-date ongoing EPI schedule for Bangladesh. Students are 
 all the old schedules for EPI as they carry no practical significance now-a-days. :
 0.5 ml - Yes Yes
 Single dose, after completion of 15 months.
-</details>
 
-<details>
-<summary><b>Q. Enumerate the EPI vaccines. [SUST-12Ju]</b></summary>
+### Q. Enumerate the EPI vaccines. [SUST-12Ju]
 
 **Classification of vaccines used in EPI:**
 1) Live attenuated vaccine:
@@ -848,10 +751,8 @@ Vaccines used in EPI:
 4) Pneumococcal vaccine.
 5) Measles Vaccine.
 6) MR vaccine (measles + rubella).
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Pentavalent vaccine. [SUST-12Ju]</b></summary>
+### Q. Write short note on: Pentavalent vaccine. [SUST-12Ju]
 
 **Pentavalent vaccine:**
 + Composition:
@@ -864,10 +765,8 @@ Vaccines used in EPI:
 - Route of administration: Intramuscular.
 » Site of administration: Upper & outer part of mid-thigh.
 » Age of child: At 6 weeks, 10 weeks and 14 weeks.
-</details>
 
-<details>
-<summary><b>Q. Mention vaccine preventable diseases other than EPI. [CU-11J]</b></summary>
+### Q. Mention vaccine preventable diseases other than EPI. [CU-11J]
 
 i
 Vaccine preventable diseases other than EPI:
@@ -883,10 +782,8 @@ Vaccine preventable diseases other than EPI:
 10) Cervical carcinoma.
 [Ref- Rashid, Khabir, Hyder /5"/ 414-417]
 EA 6 eee
-</details>
 
-<details>
-<summary><b>Q. Give the immunization Schedule of 1 year old child.<br>Q. Tabulate the immunization schedule for infants.</b></summary>
+### Q. Give the immunization Schedule of 1 year old child.<br>Q. Tabulate the immunization schedule for infants.
 
 **Immunization schedule of 0-1 years:**
 Age Vaccine
@@ -898,23 +795,17 @@ Pentavalent vaccine, OPV
 9 month Measles, OPV
 OPV can also be given just after birth but it is counted as zero dose.
 [Ref- EPI guideline, DG Health, People’s Republic of Bangladesh]
-</details>
 
-<details>
-<summary><b>Q. Give the immunization schedule for mothers of reproductive age group against tetanus, [DU- 13J]</b></summary>
+### Q. Give the immunization schedule for mothers of reproductive age group against tetanus, [DU- 13J]
 
 _Q. Give the immunization schedule for mothers of reproductive age group against tetanus, [DU- 13J]_
-</details>
 
-<details>
-<summary><b>Q. List the ‘TT-5’ schedule in BD. [CU-13Ju]<br>Q. Tabulate the immunization schedule for women of reproductive age. [RU-12Ju]<br>Q. A young girl aged 13 years comes to a doctor for TT vaccination. What factors are to be</b></summary>
+### Q. List the ‘TT-5’ schedule in BD. [CU-13Ju]<br>Q. Tabulate the immunization schedule for women of reproductive age. [RU-12Ju]<br>Q. A young girl aged 13 years comes to a doctor for TT vaccination. What factors are to be
 
 considered to start TT vaccine of that girl-give your opinion? Mention the TT vaccine
 schedule of woman of reproductive age. [RU-16M]
-</details>
 
-<details>
-<summary><b>Q. List the TT schedule in Bangladesh. [CU-14J]</b></summary>
+### Q. List the TT schedule in Bangladesh. [CU-14J]
 
 **TT vaccination schedule for women of reproductive age:**
 Minimum ‘interval eee, aes eiatth B EE AA int SR ER
@@ -923,10 +814,8 @@ Minimum ‘interval eee, aes eiatth B EE AA int SR ER
 | year after TT-3 10 years (from _15 days after the administration of TT-4) .
 ear after TT-4 For life.
 [Ref- Rashid, Khabir, Hyder / 5"/ 419]
-</details>
 
-<details>
-<summary><b>Q. Write down the dose schedule of tetanus toxoid during pregnancy. [RU-12Ju]</b></summary>
+### Q. Write down the dose schedule of tetanus toxoid during pregnancy. [RU-12Ju]
 
 **Dose schedule of tetanus toxoid during pregnancy:**
 Immunity status of pregnant women
@@ -935,10 +824,8 @@ pneeinnene The 1" dose at 16-20 weeks of pregnancy.
 The 2™ dose at 20-24 weeks of pregnancy.
 It will protect next 5 years. :
 [Ref- Park / 24" / 132]
-</details>
 
-<details>
-<summary><b>Q. What are the causes of giving BCG vaccine just after birth?</b></summary>
+### Q. What are the causes of giving BCG vaccine just after birth?
 
 **Causes of giving BCG vaccine just after birth:**
 1) To protect the baby from tuberculosis that may be transmitted from the mother (hidden case) or
@@ -950,10 +837,8 @@ nT Eee:
 tubercular meningitis, milliary tuberculosis which are most frequent in young children and are ae
 fatal. Therefore it should be given early in life as possible in any situation where the risk of
 tubercular infection is high.
-</details>
 
-<details>
-<summary><b>Q. State complications of BCG.</b></summary>
+### Q. State complications of BCG.
 
 **Complications of BCG:** Complications of BCG vaccinations are more or less related to the strain, dosage ang
 age of the child, faulty technique and skill of the vaccinator. The main complications are
@@ -962,45 +847,35 @@ age of the child, faulty technique and skill of the vaccinator. The main complic
 3. Axillary lymphadenitis
 Again, generalized eczema, infectious dermatitis, hypogammaglobulinaemia may occur.
 [Ref- Rashid, Khabir, Hyder / 4" 1337)
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 _Point list — see above section._
-</details>
 
-<details>
-<summary><b>Viva Q. Why measles vaccine is given at the age of 9 months?</b></summary>
+### Viva Q. Why measles vaccine is given at the age of 9 months?
 
 Measles vaccine is given after 9 month of age, because —
 Infants are protected by maternal antibodies up to 6 months of age; in some maternal immunity may
 persist beyond 9 months. Measles vaccine is not given to a child before the age of 9 months because it interferes
 with the maternal antibodies passively transmitted to a child. However, it has been shown that the matemal
 antibodies start declining as early as 6 months, causing at an early age.
-</details>
 
-<details>
-<summary><b>Viva Q. Why buttock is not used routinely as an immunization site?</b></summary>
+### Viva Q. Why buttock is not used routinely as an immunization site?
 
 The buttock should not be used routinely as an immunization site for infants. children or adults because
 of the risk of injury to the sciatic nerve. Since the depth of gluteal fat in adult women is usually more than 3.5
 cm, which is typically the length of the injecting vaccines into the buttock may result in poor absorption of the
 vaccine from fatty tissue.
 [Ref- Rashid, Khabir, Hyder / 5" / 411]
-</details>
 
-<details>
-<summary><b>Viva Q. Why there is an interval of 4 weeks between doses?</b></summary>
+### Viva Q. Why there is an interval of 4 weeks between doses?
 
 Giving dose of a vaccine at less than 4 weeks interval may lessen antibody responses. Lengthening the
 interval between doses of theses vaccine leads to higher antibody levels. So, there is an minimum interval of 4
 weeks between disease.
 [Ref- Rashid, Khabir, Hyder /5"/412]
-</details>
 
-<details>
-<summary><b>Q. What are the criteria of a thought-out immunization schedule?</b></summary>
+### Q. What are the criteria of a thought-out immunization schedule?
 
 **Criteria of a thought-out immunization schedule:**
 1) Epidemiologically relevant: Vaccination should be included only against diseases which are
@@ -1009,10 +884,8 @@ public health problems and against which an effective vaccine persists. 4
 3) Operationally feasible: This includes cost and ability to achieve a high percentage of coverage.
 4) Socially acceptable: The vaccination schedule must take into account the local customs, beliefs
 and practices.
-</details>
 
-<details>
-<summary><b>Q. Discuss NID programme in brief. [SUST-1 Ju]<br>Q. Describe NID and its importance. [CU-12Ju]<br>Q. How NID contributes to eradicate poliomyelitis? [DU-12Ju]<br>Q. Write short note on: NID. [SUST-15J,12Ju]</b></summary>
+### Q. Discuss NID programme in brief. [SUST-1 Ju]<br>Q. Describe NID and its importance. [CU-12Ju]<br>Q. How NID contributes to eradicate poliomyelitis? [DU-12Ju]<br>Q. Write short note on: NID. [SUST-15J,12Ju]
 
 Or os eee ee
 NID / National immunization day:
@@ -1033,28 +906,22 @@ NID in Bangladesh: Ist NID was observed in Bangladesh on March 16 to April 16, 1
 18™ NID — 2010, 10" January.
 NID is ongoing each year on particular dates.
 Cold chain system
-</details>
 
-<details>
-<summary><b>Q. What is cold chain system? [SUST-17N,12J,10J]</b></summary>
+### Q. What is cold chain system? [SUST-17N,12J,10J]
 
 **Cold chain:**
 It is a system of storage and transport of vaccines at low temperature from the manufacturer to the
 actual vaccination site. It consists of a series of storage and transport links, all designed to keep vaccines within
 an acceptable range until it reaches the user.
-</details>
 
-<details>
-<summary><b>Q. What is the importance of cold chain? [SUST-10J]</b></summary>
+### Q. What is the importance of cold chain? [SUST-10J]
 
 **Importance of cold chain:**
 1) To maintain potency of vaccine.
 2) For the store of vaccine.
 3) For the transportation of vaccine at low temperature.
-</details>
 
-<details>
-<summary><b>Q. Briefly discuss cold chain system.<br>Q. Explain the cold chain maintained at district level in the country. [CU-14J,13Ju]</b></summary>
+### Q. Briefly discuss cold chain system.<br>Q. Explain the cold chain maintained at district level in the country. [CU-14J,13Ju]
 
 **The cold chain system is as follow:**
 Vaccine collected from the manufacturer is transported to an airport as soon as they are available
@@ -1076,10 +943,8 @@ Wscine carrier
 Field level (8 hour Storage)
 Ice vaste pack
 Use of vaccine.
-</details>
 
-<details>
-<summary><b>Q. Enlist the components [DU-18N,17N] / equipments [SUST-18N, | 7N, 125] of cold chain system,<br>Q. List the cold chain equipments with their uses.</b></summary>
+### Q. Enlist the components [DU-18N,17N] / equipments [SUST-18N, | 7N, 125] of cold chain system,<br>Q. List the cold chain equipments with their uses.
 
 **Cold chain equipment:**
 1) Walk in cold rooms (WIC):
@@ -1099,10 +964,8 @@ boxes, vaccine carriers for transportation of vaccines and during the sessions.
 6) Day carriers / flasks: Used only for few hours period.
 7) Ice packs.
 [Ref- Park /24"/115]
-</details>
 
-<details>
-<summary><b>Q. Which temperature measles & OPV can be stored?<br>Q. Mention cold chain for specific immunizing agents in different site.<br>Q. State the cold chain system of immunity agent in different levels of health care services. [DU- 10J]</b></summary>
+### Q. Which temperature measles & OPV can be stored?<br>Q. Mention cold chain for specific immunizing agents in different site.<br>Q. State the cold chain system of immunity agent in different levels of health care services. [DU- 10J]
 
 **Vaccine cold chain at different level:**
 ~accine cold chain at different level:
@@ -1115,16 +978,12 @@ tetanus toxoid, DT, BCG & diluents.
 [Ref- Park /24"/ 115]
 TS
 ad
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Cold chain. [SUST-18M,17M,16M, 15Ju/J,14J,13J,12Ju, | 15]<br>Q. Describe cold chain in relation to vaccines under EPI, [RU-12Ju]</b></summary>
+### Q. Write short note on: Cold chain. [SUST-18M,17M,16M, 15Ju/J,14J,13J,12Ju, | 15]<br>Q. Describe cold chain in relation to vaccines under EPI, [RU-12Ju]
 
 **Please see below.:**
-</details>
 
-<details>
-<summary><b>Q. How vaccine loses its efficacy?</b></summary>
+### Q. How vaccine loses its efficacy?
 
 **Vaccine loses its efficacy for the following reasons:**
 1) It stored at temperature above 8°C.
@@ -1158,10 +1017,8 @@ Vaccines damaged by freezing Vaccines unaffected by freezin:
 e
 Hepatitis B
 [Ref- WHO guideline]
-</details>
 
-<details>
-<summary><b>Q. Live attenuated vaccines under EPI</b></summary>
+### Q. Live attenuated vaccines under EPI
 
 **schedule:** [DU-18N/M,17N]
 a) BCG.
@@ -1170,10 +1027,8 @@ c) OPV.
 d) TT,
 e) MR.
 Ans, a) T, b) F, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Active natural immunity is acquired</b></summary>
+### Q. Active natural immunity is acquired
 
 **through:** [DU-18M,17N]
 a) In apparent infection.
@@ -1182,10 +1037,8 @@ c) Administration of TIG.
 d) Clinical infection.
 e) Breast feeding.
 Ans. a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Vaccines administered intramuscularly: [DU-17M]</b></summary>
+### Q. Vaccines administered intramuscularly: [DU-17M]
 
 a) BCG.
 b) Hepatitis B.
@@ -1193,10 +1046,8 @@ c) Pentavalent vaccine.
 d) MR vaccine.
 e) Yellow fever.
 Ans. a) F, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Killed vaccines are used in preventing: [DU-17M]</b></summary>
+### Q. Killed vaccines are used in preventing: [DU-17M]
 
 a) Rabies.
 b) Yellow fever.
@@ -1204,10 +1055,8 @@ c) Typhoid.
 d) Hepatitis B.
 e) Chicken pox.
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Following vaccines must be stored in</b></summary>
+### Q. Following vaccines must be stored in
 
 **freezer compartment:** [DU-16J,11J]
 a) BCG
@@ -1216,10 +1065,8 @@ c) DPT
 d) Measles
 e) Tetanus toxoid
 Ans. a) F, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Live attenuated vaccines are: [DU-15Ju)</b></summary>
+### Q. Live attenuated vaccines are: [DU-15Ju)
 
 a) Yellow fever.
 b) Hepatitis B. -
@@ -1227,10 +1074,8 @@ c) TT.
 d) BCG.
 e) Rabies.
 Ans. a) T, b) F, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Killed vaccines are used in preventing: [DU-15J]</b></summary>
+### Q. Killed vaccines are used in preventing: [DU-15J]
 
 a) Rabies.
 b) Yellow fever.
@@ -1238,10 +1083,8 @@ c) Pertussis.
 d) Hepatitis B.
 e) Chickenpox.
 Ans, a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Antisera is used in case of: [DU-14Ju]</b></summary>
+### Q. Antisera is used in case of: [DU-14Ju]
 
 a) Diphtheria.
 b) Tetanus.
@@ -1249,10 +1092,8 @@ c) Rabies.
 d) Measles.
 e) Varicella infection.
 Ans. a) T, b) T, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Live vaccines are used in: [DU-14J]</b></summary>
+### Q. Live vaccines are used in: [DU-14J]
 
 a) tuberculosis
 b) poliomyelitis
@@ -1260,10 +1101,8 @@ c) diphtheria
 d) yellow fever
 e) cholera
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Present goal of EPI includes: [DU-13Ju]</b></summary>
+### Q. Present goal of EPI includes: [DU-13Ju]
 
 a) eradication of poliomyelitis
 b) reduce diarrhoeal mortality by 50%
@@ -1274,10 +1113,8 @@ Ans. a) T, b) F, c) T, d) T, e) F.
 a
 Chapter-12: Im
 munology & EPI ail
-</details>
 
-<details>
-<summary><b>Q. Adjuvant are added : . |</b></summary>
+### Q. Adjuvant are added : . |
 
 **1334] to vaccine to:** (DU- Q. Intramuscular administration of vaccines
 a) potentiate the immune Tesponse are: [DU-10Ju]
@@ -1286,10 +1123,8 @@ c) increase antibody production ARV ™
 d) increase dose of antigen ‘ |
 e) retain antigen in a local granuloma 3 Lr
 Ans. a) T, b) F, c) T, d) T, e) F, Ans. a) F, b) T, c) T, d) T,e) F. |
-</details>
 
-<details>
-<summary><b>Q “a equipment consists of: [DU- Q. Present goal of EPI is/are: [DU-10Ju]</b></summary>
+### Q “a equipment consists of: [DU- Q. Present goal of EPI is/are: [DU-10Ju]
 
 . . a) Eradication of poliomyelitis
 a) vaccine carrier
@@ -1304,10 +1139,8 @@ d) Reduction of measles incidence of 90%
 e) To cure 80% of detected new smear
 Ans. a) T, b) F, c) T, d) F, e) T. positive TB
 Ans. a) T, b) F, c) T, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Live attenuated vaccines are: [DU-12Ju]</b></summary>
+### Q. Live attenuated vaccines are: [DU-12Ju]
 
 a) yellow fever vaccine
 b) pertussis vaccine
@@ -1315,10 +1148,8 @@ c) hepatitis B vaccine
 d) mumps vaccine
 e) DPT vaccine
 Ans. a) T, b) F, ¢) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Hazards of immunization include: [DU- 12Ju]</b></summary>
+### Q. Hazards of immunization include: [DU- 12Ju]
 
 a) local abscess due to reaction of
 immunizing agent (T)
@@ -1332,10 +1163,8 @@ Disinfection...
 Sterilization
 Control of hospital acquired infection
 Disinfection
-</details>
 
-<details>
-<summary><b>Q. Define & classify disinfection. [RU-1 IJu,10Ju]</b></summary>
+### Q. Define & classify disinfection. [RU-1 IJu,10Ju]
 
 **Disinfection:** ;
 It is the killing of infectious agents outside the body by direct exposure to chemical or physical agents,
@@ -1355,10 +1184,8 @@ milk and hand washing. z is
 [Ref- Park / 24" / 136]
 Uses of disinfection: Disinfection of urine, faces, vomit, contaminated cloths, hands, dressing, aprons, gloves,
 etc. throughout the course of illness.
-</details>
 
-<details>
-<summary><b>Q. Define disinfectant. Classify disinfectant.<br>Q. Mention different disinfection procedures in</b></summary>
+### Q. Define disinfectant. Classify disinfectant.<br>Q. Mention different disinfection procedures in
 
 Disinfectant
 It is usually a chemical agent (but sometimes a physical agent) which destroys disease-causing
@@ -1405,10 +1232,8 @@ Lime.
 - Cresol fumigation.
 - Hydrocyanic acid gas.
 [Ref- Park / 24" / 136 + Rashid, Khabir, Hyder /5“ /291|
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 - **Antiseptic:** It is a substance which destroys or inhibits the growth of microorganisms.
 - Deodorant: It is a substance which suppresses or neutralizes bad odours, e.g. lime & bleaching
@@ -1417,10 +1242,8 @@ powder.
 which removes bacteria along with dirt.
 + Sterilization: It is the process of destroying all organisms including spores.
 [Ref- Park /24" / 136]
-</details>
 
-<details>
-<summary><b>Q. What are the qualities of ideal disinfectant?</b></summary>
+### Q. What are the qualities of ideal disinfectant?
 
 **Qualities of ideal disinfectant:**
 1) It should not be very poisonous.
@@ -1433,10 +1256,8 @@ which removes bacteria along with dirt.
 8) It should not bleach or stain.
 9) It should be readily miscible with water.
 [Ref- Rashid, Khabir, Hyder /5" /294 + Park /24" / 136]
-</details>
 
-<details>
-<summary><b>Q. What are the mechanisms of action of disinfectants?</b></summary>
+### Q. What are the mechanisms of action of disinfectants?
 
 **Mechanisms of action of disinfectants:**
 1) Disruption of the lipid-containing cell membrane (e.g. alcohol, detergent, phenol etc.).
@@ -1444,10 +1265,8 @@ which removes bacteria along with dirt.
 3) Modification of nucleic acids.
 4) Interference with bacterial cell wall.
 5) Chemical antagonism.
-</details>
 
-<details>
-<summary><b>Q. Discuss gaseous disinfectants.</b></summary>
+### Q. Discuss gaseous disinfectants.
 
 **Gaseous disinfectants:**
 i) Formaldehyde gas:
@@ -1521,10 +1340,8 @@ theatre.
 - UV is equally effective in gram-positive & gram-negative organisms.
 - Ionizing radiation: plastic syringes, catheter, anaesthetic instrument & transfusion set can be
 sterilized.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Incineration. [CU-17M, RU-11Ju]</b></summary>
+### Q. Write short note on: Incineration. [CU-17M, RU-11Ju]
 
 **Incineration:**
 Incineration is a high temperature dry oxidation process, that reduces organic and combustible waste to
@@ -1533,11 +1350,8 @@ Use: .
 The process is usually selected to treat wastes that cannot be recycled, reused or disposed off in a land
 fill site. Hospital refuse which is particularly dangerous is best disposed by incineration.
 [Ref- Park / 24" / 827]
-</details>
 
-<details>
-<summary><b>Q. Define pasteurization. State the process of pasteurization of milk. [RU-10J]<br>Q. How milk is pasteurized / preserved?</b></summary>
+### Q. Define pasteurization. State the process of pasteurization of milk. [RU-10J]<br>Q. How milk is pasteurized / preserved?
 
 **Please see in the ‘Chapter-14:** Nutrition & Health’.
-</details>
 

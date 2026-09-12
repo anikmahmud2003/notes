@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -109,8 +119,8 @@
   <!-- ======================== SECTION 1 ======================== -->
   <h2 id="histo">1 · Thyroid Histology &amp; Function</h2>
 
-  <details>
-    <summary>Describe the histology of the thyroid gland. What are the cell types and their hormones?</summary>
+  <div class="qcard">
+    </div>Describe the histology of the thyroid gland. What are the cell types and their hormones?</div>
     <div class="ans">
       <p>The thyroid gland is divided by thin fibrous septa into lobules composed of <strong>follicles</strong> (about 20–40 per lobule), which are the main functional units. The follicles are lined by <strong>cuboidal to low columnar epithelium</strong> with numerous fine microvilli extending into the follicular <strong>colloid</strong> that contains the glycoprotein <strong>thyroglobulin</strong> (which contains the thyroid hormones within its molecule).</p>
       <p>The thyroid gland follicles also contain a population of <strong>parafollicular cells (C cells)</strong>, which synthesize and secrete the hormone <strong>calcitonin</strong>.</p>
@@ -121,13 +131,13 @@
       </table>
       <p class="ref">Robbins 10e p.1075; Harsh Mohan 7e p.793</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 2 ======================== -->
   <h2 id="classify">2 · Classification of Thyroid Diseases</h2>
 
-  <details>
-    <summary>🔴 Classify the diseases of the thyroid gland.</summary>
+  <div class="qcard">
+    </div>🔴 Classify the diseases of the thyroid gland.</div>
     <div class="ans">
       <p><strong>1. Congenital anomalies:</strong></p>
       <ul>
@@ -166,13 +176,13 @@
       </ul>
       <p class="ref">Robbins 10e pp.1075–1092; Harsh Mohan 7e p.793</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 3 ======================== -->
   <h2 id="tft">3 · Thyroid Function Tests</h2>
 
-  <details>
-    <summary>Enumerate the thyroid function tests. What are the normal values of FT3, FT4 &amp; TSH?</summary>
+  <div class="qcard">
+    </div>Enumerate the thyroid function tests. What are the normal values of FT3, FT4 &amp; TSH?</div>
     <div class="ans">
       <p><strong>Thyroid function tests (TFTs):</strong></p>
       <ol>
@@ -202,10 +212,10 @@
       <div class="mnem">🎯 <strong>V.V.I. for VIVA:</strong> The measurement of serum <strong>TSH concentration</strong> is the most useful / most sensitive single (number one) screening test for hyper/hypo-thyroidism.</div>
       <p class="ref">Robbins 10e p.1078; Davidson's 21e p.1295</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the hormonal changes in primary and secondary hypothyroidism.</summary>
+  <div class="qcard">
+    </div>Describe the hormonal changes in primary and secondary hypothyroidism.</div>
     <div class="ans">
       <h3>Primary hypothyroidism (problem is in the thyroid gland)</h3>
       <ul>
@@ -221,13 +231,13 @@
       </ul>
       <p class="ref">Robbins 10e p.1078</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 4 ======================== -->
   <h2 id="hyper">4 · Hyperthyroidism (Thyrotoxicosis)</h2>
 
-  <details>
-    <summary>🔴 Define thyrotoxicosis and hyperthyroidism. Enumerate the causes of hyperthyroidism.</summary>
+  <div class="qcard">
+    </div>🔴 Define thyrotoxicosis and hyperthyroidism. Enumerate the causes of hyperthyroidism.</div>
     <div class="ans">
       <p><strong>Thyrotoxicosis &amp; hyperthyroidism:</strong> Hyperthyroidism, also called thyrotoxicosis, is a <span class="hot">hypermetabolic clinical and biochemical state caused by excess production of thyroid hormones (T3 and T4)</span>. Because it is caused most commonly by hyperfunction of the thyroid gland, it is often referred to as hyperthyroidism.</p>
       <div class="mnem">📌 <strong>N.B.:</strong> Strictly speaking, hyperthyroidism is only one cause of thyrotoxicosis. In certain conditions the oversupply is from excessive release of preformed hormone (e.g. in thyroiditis) or an extrathyroidal source (e.g. Struma ovarii, exogenous thyroxine).</div>
@@ -247,10 +257,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.1075–1076</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Define hypothyroidism. Enumerate its causes.</summary>
+  <div class="qcard">
+    </div>Define hypothyroidism. Enumerate its causes.</div>
     <div class="ans">
       <p><strong>Hypothyroidism:</strong> A <span class="hot">hypometabolic clinical state resulting from inadequate production of thyroid hormones for prolonged periods</span>, or rarely, from resistance of the peripheral tissues to the effects of thyroid hormones.</p>
       <h3>Causes of hypothyroidism</h3>
@@ -271,10 +281,10 @@
       </ol>
       <p class="ref">Robbins 10e p.1077</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the clinical manifestations of hypothyroidism? Distinguish cretinism from myxoedema.</summary>
+  <div class="qcard">
+    </div>What are the clinical manifestations of hypothyroidism? Distinguish cretinism from myxoedema.</div>
     <div class="ans">
       <p>Clinical manifestations depend upon the age at onset and are divided into 2 forms:</p>
       <ul>
@@ -284,35 +294,35 @@
       <div class="mnem">📌 The term <strong>myxoedema</strong> connotes <strong>non-pitting oedema</strong> due to accumulation of hydrophilic mucopolysaccharides in the ground substance of dermis and other tissues.</div>
       <p class="ref">Harsh Mohan 7e p.794; Robbins 10e p.1077</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 5 ======================== -->
   <h2 id="hypo">5 · Hypothyroidism — Clinical Case</h2>
 
-  <details>
-    <summary>A middle-aged female has high TSH and low T3 &amp; T4. What is your diagnosis?</summary>
+  <div class="qcard">
+    </div>A middle-aged female has high TSH and low T3 &amp; T4. What is your diagnosis?</div>
     <div class="ans">
       <p><strong>Diagnosis:</strong> <span class="hot">Primary hypothyroidism</span> — the elevated TSH with low FT3/FT4 confirms the thyroid gland itself is failing; the pituitary is producing maximal TSH in an attempt to stimulate it.</p>
     </div>
-  </details>
-  <details>
-    <summary>What may be the causes? (RMU-22Nv)</summary>
+  </div>
+  <div class="qcard">
+    </div>What may be the causes? (RMU-22Nv)</div>
     <div class="ans">
       <p><strong>Possible causes:</strong> Hashimoto thyroiditis (most common in iodine-sufficient areas), iodine deficiency, post-thyroidectomy, post-radioiodine therapy, drugs (lithium, amiodarone), congenital biosynthetic defects.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Hypothyroidism</summary>
+  <div class="quiz"></div>🎯 True/False practice — Hypothyroidism</div>
     <div class="ans">
-      <details><summary>Primary causes of hypothyroidism: thyroid dysgenesis, pituitary failure, iodine deficiency, Hashimoto's thyroiditis, hypothalamic failure. (DU-08Ju)</summary><div class="ans">Item <span class="tf">Thyroid dysgenesis = True</span> · <span class="ff">Pituitary failure = False</span> (secondary) · <span class="tf">Iodine deficiency = True</span> · <span class="tf">Hashimoto's thyroiditis = True</span> · <span class="ff">Hypothalamic failure = False</span> (tertiary) <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Primary causes of hypothyroidism: thyroid dysgenesis, pituitary failure, iodine deficiency, Hashimoto's thyroiditis, hypothalamic failure. (DU-08Ju)</div><div class="ans">Item <span class="tf">Thyroid dysgenesis = True</span> · <span class="ff">Pituitary failure = False</span> (secondary) · <span class="tf">Iodine deficiency = True</span> · <span class="tf">Hashimoto's thyroiditis = True</span> · <span class="ff">Hypothalamic failure = False</span> (tertiary) <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 6 ======================== -->
   <h2 id="hashi">6 · Hashimoto Thyroiditis</h2>
 
-  <details>
-    <summary>🔴 What are the inflammatory conditions of the thyroid gland? Describe Hashimoto thyroiditis (pathogenesis, morphology, clinical features).</summary>
+  <div class="qcard">
+    </div>🔴 What are the inflammatory conditions of the thyroid gland? Describe Hashimoto thyroiditis (pathogenesis, morphology, clinical features).</div>
     <div class="ans">
       <p><strong>Inflammatory conditions of the thyroid gland (thyroiditis):</strong></p>
       <ul>
@@ -343,13 +353,13 @@
       <p><strong>Epidemiology:</strong> Most common cause of hypothyroidism where iodine levels are sufficient. Most prevalent between 45 and 65 years; F:M = 10–20:1.</p>
       <p class="ref">Robbins 10e p.1078</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 7 ======================== -->
   <h2 id="graves">7 · Graves' Disease</h2>
 
-  <details>
-    <summary>🔴 Short note: Graves' disease (pathogenesis, morphology, clinical features, lab findings, treatment).</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Graves' disease (pathogenesis, morphology, clinical features, lab findings, treatment).</div>
     <div class="ans">
       <p><strong>Graves' disease:</strong> An <strong>autoimmune thyroid disorder</strong> and the most common cause of endogenous hyperthyroidism. Characterised by a <span class="hot">clinical triad:</span></p>
       <ol>
@@ -411,17 +421,17 @@
       </ol>
       <p class="ref">Robbins 10e p.1081; Harsh Mohan 7e p.797</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A 30-year-old lady presents with diffuse thyroid enlargement + exophthalmos. What is your diagnosis?</summary>
+  <div class="qcard">
+    </div>A 30-year-old lady presents with diffuse thyroid enlargement + exophthalmos. What is your diagnosis?</div>
     <div class="ans">
       <p><strong>Clinical diagnosis:</strong> <span class="hot">Graves' disease</span></p>
       <p><strong>Thyroid hormone levels:</strong></p>
     </div>
-  </details>
-  <details>
-    <summary>What is the status of thyroid hormones? (DU-13Ju, DU-12Ja)</summary>
+  </div>
+  <div class="qcard">
+    </div>What is the status of thyroid hormones? (DU-13Ju, DU-12Ja)</div>
     <div class="ans">
       <ul>
       <li>Plasma TSH (Thyroid Stimulating Hormone): <span class="hot">↓ Low (suppressed)</span></li>
@@ -430,21 +440,21 @@
       </ul>
       <p><strong>Immunological mechanism:</strong> Circulating antibodies against the TSH receptor activate the receptor, making the thyroid gland hyperactive.</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Hyperthyroidism &amp; Graves' disease</summary>
+  <div class="quiz"></div>🎯 True/False practice — Hyperthyroidism &amp; Graves' disease</div>
     <div class="ans">
-      <details><summary>Hyperthyroidism occurs in: Hashimoto's thyroiditis, lymphocytic thyroiditis, iodine deficiency, toxic adenoma, Graves' disease. (DU-24Nv)</summary><div class="ans">Item <span class="ff">Hashimoto's = False</span> · <span class="ff">Lymphocytic thyroiditis = False</span> · <span class="ff">Iodine deficiency = False</span> · <span class="tf">Toxic adenoma = True</span> · <span class="tf">Graves' disease = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Graves' disease is associated with: high T3/T4, high TSH, hyperplasia of thyroid, dermopathy, bradycardia. (DU-21Oct/M)</summary><div class="ans">Item <span class="tf">High T3/T4 = True</span> · <span class="ff">High TSH = False</span> · <span class="tf">Hyperplasia of thyroid = True</span> · <span class="tf">Dermopathy = True</span> (pretibial myxoedema) · <span class="ff">Bradycardia = False</span> (tachycardia) <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Graves' disease is characterized by: pretibial myxoedema, hyperplasia of thyroid acini, decreased T3/T4, raised TSH, presence of thyroid autoantibody. (DU-16Ju)</summary><div class="ans">Item <span class="tf">Pretibial myxoedema = True</span> · <span class="tf">Hyperplasia of acini = True</span> · <span class="ff">Decreased T3/T4 = False</span> · <span class="ff">Raised TSH = False</span> · <span class="tf">Thyroid autoantibody = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Hyperthyroidism occurs in: Hashimoto's thyroiditis, lymphocytic thyroiditis, iodine deficiency, toxic adenoma, Graves' disease. (DU-24Nv)</div><div class="ans">Item <span class="ff">Hashimoto's = False</span> · <span class="ff">Lymphocytic thyroiditis = False</span> · <span class="ff">Iodine deficiency = False</span> · <span class="tf">Toxic adenoma = True</span> · <span class="tf">Graves' disease = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Graves' disease is associated with: high T3/T4, high TSH, hyperplasia of thyroid, dermopathy, bradycardia. (DU-21Oct/M)</div><div class="ans">Item <span class="tf">High T3/T4 = True</span> · <span class="ff">High TSH = False</span> · <span class="tf">Hyperplasia of thyroid = True</span> · <span class="tf">Dermopathy = True</span> (pretibial myxoedema) · <span class="ff">Bradycardia = False</span> (tachycardia) <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Graves' disease is characterized by: pretibial myxoedema, hyperplasia of thyroid acini, decreased T3/T4, raised TSH, presence of thyroid autoantibody. (DU-16Ju)</div><div class="ans">Item <span class="tf">Pretibial myxoedema = True</span> · <span class="tf">Hyperplasia of acini = True</span> · <span class="ff">Decreased T3/T4 = False</span> · <span class="ff">Raised TSH = False</span> · <span class="tf">Thyroid autoantibody = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 8 ======================== -->
   <h2 id="goiter">8 · Goiter (Simple &amp; Multinodular)</h2>
 
-  <details>
-    <summary>🔴 What is goiter?</summary>
+  <div class="qcard">
+    </div>🔴 What is goiter?</div>
     <div class="ans">
       <p><strong>Goiter:</strong> Any <strong>enlargement of the thyroid gland</strong>, caused by compensatory hyperplasia and hypertrophy of the follicular epithelium in response to thyroid hormone deficiency.</p>
       <p><strong>Pathogenesis:</strong> Impairment of thyroid hormone synthesis → compensatory rise in serum TSH (Thyroid Stimulating Hormone) → hypertrophy and hyperplasia of thyroid follicular cells → gross enlargement of the thyroid gland.</p>
@@ -464,9 +474,9 @@
       </li>
       </ol>
     </div>
-  </details>
-  <details>
-    <summary>Classify goiter. What are its causes?</summary>
+  </div>
+  <div class="qcard">
+    </div>Classify goiter. What are its causes?</div>
     <div class="ans">
       <h3>Causes of goiter</h3>
       <ol>
@@ -479,10 +489,10 @@
       </ol>
       <p class="ref">Robbins 10e p.1082; BRS Pathology 5e p.322</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the causes of hyperfunctional and hypofunctional goiter? (CMU-24M)</summary>
+  <div class="qcard">
+    </div>What are the causes of hyperfunctional and hypofunctional goiter? (CMU-24M)</div>
     <div class="ans">
       <h3>Hyperfunctional goiter (overactive thyroid — hyperthyroidism)</h3>
       <ol>
@@ -501,10 +511,10 @@
         <li><strong>Post-treatment hypothyroidism</strong> — after radioiodine, surgery, or anti-thyroid drugs</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Diffuse non-toxic (simple/colloid) goiter. Describe its pathogenesis.</summary>
+  <div class="qcard">
+    </div>Short note: Diffuse non-toxic (simple/colloid) goiter. Describe its pathogenesis.</div>
     <div class="ans">
       <p><strong>Simple goiter (colloid goiter):</strong> A form of goiter that causes enlargement of the entire gland without producing nodularity. Because the enlarged follicles are filled with colloid, the term <strong>colloid goiter</strong> has been applied.</p>
       <h3>Pathogenesis</h3>
@@ -520,10 +530,10 @@
       </ul>
       <p class="ref">Robbins 10e p.1083; BRS Pathology 5e p.323</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Multinodular goiter (pathogenesis, morphology).</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Multinodular goiter (pathogenesis, morphology).</div>
     <div class="ans">
       <p><strong>Multinodular goiter:</strong> Irregular enlargement of the thyroid resulting in nodule formation. Virtually all long-standing simple goiters convert into multinodular goiters. Occurs in both endemic and sporadic forms; more common in females; affects older individuals (late complication).</p>
       <h3>Pathogenesis</h3>
@@ -544,13 +554,13 @@
       <div class="mnem">📌 <strong>Non-toxic goiter:</strong> Goiter without thyroid hormone dysfunction. <strong>Toxic goiter:</strong> Goiter associated with hyperthyroidism. If patient is euthyroid or hypothyroid → "non-toxic" is appropriate.</div>
       <p class="ref">Robbins 10e p.1083</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 9 ======================== -->
   <h2 id="thyca">9 · Thyroid Carcinoma</h2>
 
-  <details>
-    <summary>🔴 Enumerate the pathogenesis and premalignant tumours of thyroid cancer. What is the role of genetic factors?</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the pathogenesis and premalignant tumours of thyroid cancer. What is the role of genetic factors?</div>
     <div class="ans">
       <h3>Pathogenesis of thyroid cancer</h3>
       <p><strong>1. Genetic factors</strong> — distinct genetic events in each histologic variant:</p>
@@ -572,10 +582,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.1084–1085</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Papillary carcinoma of thyroid (morphology, clinical features, prognosis).</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Papillary carcinoma of thyroid (morphology, clinical features, prognosis).</div>
     <div class="ans">
       <p><strong>Papillary carcinoma of thyroid:</strong> Most common form of thyroid cancer (<span class="hot">80–85%</span>). Occur throughout life but peak between 25 and 50 years. Found in ~3× more frequently in females than males. Account for majority of thyroid carcinomas associated with previous exposure to ionizing radiation.</p>
       <h3>Morphology</h3>
@@ -605,10 +615,10 @@
       <p><strong>Prognosis:</strong> <span class="good">Excellent — 10-year survival rate in excess of 95%.</span></p>
       <p class="ref">Robbins 10e p.1088; Harsh Mohan 7e p.802</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Follicular carcinoma of thyroid (morphology, metastasis, prognosis).</summary>
+  <div class="qcard">
+    </div>Short note: Follicular carcinoma of thyroid (morphology, metastasis, prognosis).</div>
     <div class="ans">
       <p><strong>Follicular carcinoma:</strong> Second most common thyroid cancer (<span class="hot">10–15%</span>). Common in women (F:M = 3:1); older age than papillary, peak incidence 40–60 years.</p>
       <h3>Morphology</h3>
@@ -630,10 +640,10 @@
       <p><strong>Treatment:</strong> Total thyroidectomy → radioactive iodine. Thyroid hormone given post-surgery to suppress endogenous TSH.</p>
       <p class="ref">Robbins 10e p.1089; Harsh Mohan 7e p.803</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 How will you differentiate papillary carcinoma from follicular carcinoma of thyroid? (DU-07Ju)</summary>
+  <div class="qcard">
+    </div>🔴 How will you differentiate papillary carcinoma from follicular carcinoma of thyroid? (DU-07Ju)</div>
     <div class="ans">
       <table>
         <tr><th>Trait</th><th>Papillary Carcinoma</th><th>Follicular Carcinoma</th></tr>
@@ -652,10 +662,10 @@
       </table>
       <p class="ref">Robbins 10e pp.1086–1089; Harsh Mohan 7e p.802</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write down the contrasting features of different types of thyroid carcinoma. (CMU-22M)</summary>
+  <div class="qcard">
+    </div>Write down the contrasting features of different types of thyroid carcinoma. (CMU-22M)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Papillary</th><th>Follicular</th><th>Medullary</th><th>Anaplastic</th></tr>
@@ -673,10 +683,10 @@
       </table>
       <p class="ref">Harsh Mohan 7e p.802</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is the prognosis of thyroid cancer? (CU-08Ja)</summary>
+  <div class="qcard">
+    </div>What is the prognosis of thyroid cancer? (CU-08Ja)</div>
     <div class="ans">
       <p>Prognosis largely depends on age, extent of invasion, and stage at presentation (presence/absence of distant metastasis).</p>
       <ul>
@@ -687,17 +697,17 @@
       </ul>
       <p class="ref">Robbins 10e pp.1086–1092; Harsh Mohan 7e p.802</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>A 25-year-old lady has a solitary nodule in the right lobe of thyroid with right-sided cervical lymphadenopathy for 3 months. (BUP-21Nv/M) (a) Probable diagnosis?</summary>
+  <div class="qcard">
+    </div>A 25-year-old lady has a solitary nodule in the right lobe of thyroid with right-sided cervical lymphadenopathy for 3 months. (BUP-21Nv/M) (a) Probable diagnosis?</div>
     <div class="ans">
       <p><strong>(a) Probable diagnosis:</strong> <span class="hot">Carcinoma thyroid</span> (likely papillary — most common, common cervical lymph node metastasis, young female).</p>
       <p><strong>(b) Investigations:</strong></p>
     </div>
-  </details>
-  <details>
-    <summary>(b) Investigations?</summary>
+  </div>
+  <div class="qcard">
+    </div>(b) Investigations?</div>
     <div class="ans">
       <ol>
       <li>Serum TSH, FT3 &amp; FT4</li>
@@ -707,21 +717,21 @@
       <li>Lobectomy followed by histopathology</li>
       </ol>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Thyroid carcinoma &amp; goiter</summary>
+  <div class="quiz"></div>🎯 True/False practice — Thyroid carcinoma &amp; goiter</div>
     <div class="ans">
-      <details><summary>Papillary carcinoma of thyroid is associated with: worse prognosis, common among thyroid malignancy, rapid metastasis, psammoma body, characteristic nuclear feature. (DU-19Nv)</summary><div class="ans">Item <span class="ff">Worse prognosis = False</span> · <span class="tf">Common among thyroid malignancy = True</span> · <span class="ff">Rapid metastasis = False</span> · <span class="tf">Psammoma body = True</span> · <span class="tf">Characteristic nuclear feature = True</span> (ground-glass nuclei) <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Features of papillary thyroid carcinoma: psammoma body, ground-glass nuclei, arises from parafollicular cells, worse prognosis, increased serum calcitonin. (DU-19M)</summary><div class="ans">Item <span class="tf">Psammoma body = True</span> · <span class="tf">Ground-glass nuclei = True</span> · <span class="ff">Arises from parafollicular cells = False</span> (medullary does) · <span class="ff">Worse prognosis = False</span> · <span class="ff">Increased serum calcitonin = False</span> (medullary) <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Neoplasms of thyroid: medullary carcinoma, papillary carcinoma, squamous cell carcinoma, Hürthle cell adenoma, anaplastic carcinoma. (DU-12Ju)</summary><div class="ans">Item <span class="tf">Medullary = True</span> · <span class="tf">Papillary = True</span> · <span class="ff">Squamous cell = False</span> · <span class="ff">Hürthle cell adenoma = False</span> · <span class="tf">Anaplastic = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Papillary carcinoma of thyroid is associated with: worse prognosis, common among thyroid malignancy, rapid metastasis, psammoma body, characteristic nuclear feature. (DU-19Nv)</div><div class="ans">Item <span class="ff">Worse prognosis = False</span> · <span class="tf">Common among thyroid malignancy = True</span> · <span class="ff">Rapid metastasis = False</span> · <span class="tf">Psammoma body = True</span> · <span class="tf">Characteristic nuclear feature = True</span> (ground-glass nuclei) <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Features of papillary thyroid carcinoma: psammoma body, ground-glass nuclei, arises from parafollicular cells, worse prognosis, increased serum calcitonin. (DU-19M)</div><div class="ans">Item <span class="tf">Psammoma body = True</span> · <span class="tf">Ground-glass nuclei = True</span> · <span class="ff">Arises from parafollicular cells = False</span> (medullary does) · <span class="ff">Worse prognosis = False</span> · <span class="ff">Increased serum calcitonin = False</span> (medullary) <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Neoplasms of thyroid: medullary carcinoma, papillary carcinoma, squamous cell carcinoma, Hürthle cell adenoma, anaplastic carcinoma. (DU-12Ju)</div><div class="ans">Item <span class="tf">Medullary = True</span> · <span class="tf">Papillary = True</span> · <span class="ff">Squamous cell = False</span> · <span class="ff">Hürthle cell adenoma = False</span> · <span class="tf">Anaplastic = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 10 ======================== -->
   <h2 id="endopanc">10 · Endocrine Pancreas</h2>
 
-  <details>
-    <summary>Describe the cell types of the endocrine pancreas and their hormones. What are the diseases of the endocrine pancreas?</summary>
+  <div class="qcard">
+    </div>Describe the cell types of the endocrine pancreas and their hormones. What are the diseases of the endocrine pancreas?</div>
     <div class="ans">
       <p>The endocrine pancreas consists of about <strong>1 million clusters of cells — the Islets of Langerhans</strong>, which contain four major and two minor cell types:</p>
       <table>
@@ -752,13 +762,13 @@
       </ul>
       <p class="ref">Robbins 10e pp.1097–1115</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 11 ======================== -->
   <h2 id="pancreatitis">11 · Pancreatitis</h2>
 
-  <details>
-    <summary>Define acute pancreatitis. What are its causes and clinical features?</summary>
+  <div class="qcard">
+    </div>Define acute pancreatitis. What are its causes and clinical features?</div>
     <div class="ans">
       <p><strong>Acute pancreatitis:</strong> Reversible pancreatic parenchymal injury associated with inflammation.</p>
       <h3>Causes</h3>
@@ -778,9 +788,9 @@
       <li><strong>Inherited alterations</strong> in genes encoding pancreatic enzymes and their inhibitors</li>
       </ol>
     </div>
-  </details>
-  <details>
-    <summary>What are its sequelae?</summary>
+  </div>
+  <div class="qcard">
+    </div>What are its sequelae?</div>
     <div class="ans">
       <h3>Clinical Features</h3>
       <ul>
@@ -797,10 +807,10 @@
       </ol>
       <p class="ref">Robbins 8e pp.893, 895–896</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is chronic pancreatitis? Mention its causes and sequelae.</summary>
+  <div class="qcard">
+    </div>What is chronic pancreatitis? Mention its causes and sequelae.</div>
     <div class="ans">
       <p><strong>Chronic pancreatitis:</strong> Inflammation of the pancreas with <strong>irreversible destruction of exocrine parenchyma, fibrosis</strong>, and in late stages, destruction of the endocrine parenchyma.</p>
       <h3>Causes</h3>
@@ -819,13 +829,13 @@
       </ol>
       <p class="ref">Robbins 8e pp.896, 898</p>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== SECTION 12 ======================== -->
   <h2 id="dm">12 · Diabetes Mellitus</h2>
 
-  <details>
-    <summary>🔴 Define and classify diabetes mellitus. What are the different types? (DU-17Nv, RU-20/18Nv, CU-05Ja)</summary>
+  <div class="qcard">
+    </div>🔴 Define and classify diabetes mellitus. What are the different types? (DU-17Nv, RU-20/18Nv, CU-05Ja)</div>
     <div class="ans">
       <p><strong>Diabetes mellitus (DM):</strong> A clinical syndrome characterised by an increase in plasma blood glucose (<strong>hyperglycaemia</strong>) due to <span class="hot">absolute or relative deficiency of insulin</span>. It is a group of metabolic disorders sharing the common feature of hyperglycaemia caused by defects in insulin secretion, insulin action, or most commonly both.</p>
       <h3>Classification of DM</h3>
@@ -848,10 +858,10 @@
       </ol>
       <p class="ref">Robbins 10e p.1099; Davidson's 23e p.733</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Type 1 diabetes mellitus (pathogenesis, genetics, environmental factors).</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Type 1 diabetes mellitus (pathogenesis, genetics, environmental factors).</div>
     <div class="ans">
       <p><strong>Type 1 diabetes / IDDM (Insulin-Dependent DM) / Juvenile-onset DM:</strong> An <span class="hot">autoimmune disease characterised by pancreatic β-cell destruction and absolute deficiency of insulin</span>. Accounts for ~5–10% of diabetes; most common subtype in patients &lt;20 years.</p>
       <h3>Pathogenesis</h3>
@@ -866,10 +876,10 @@
       <p><strong>Environmental factors:</strong> Viruses — Coxsackieviruses group B, mumps, measles, cytomegalovirus, rubella, infectious mononucleosis.</p>
       <p class="ref">Robbins 10e pp.1099, 1101; Davidson's 23e p.728</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Type 2 diabetes mellitus (etiopathogenesis, pathogenesis).</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Type 2 diabetes mellitus (etiopathogenesis, pathogenesis).</div>
     <div class="ans">
       <p><strong>Type 2 diabetes / NIDDM (Non-Insulin-Dependent DM) / Adult-onset DM:</strong> Caused by a combination of <span class="hot">peripheral resistance to insulin action and an inadequate secretory response by the pancreatic β cells ("relative insulin deficiency")</span>. Accounts for ~90–95% of diabetic patients; vast majority are overweight.</p>
       <h3>Etiopathogenesis</h3>
@@ -888,10 +898,10 @@
       <div class="mnem">📌 The combination of <strong>obesity + hyperglycaemia + increased serum cholesterol/triglycerides + hypertension</strong> = <strong>Metabolic Syndrome</strong>.</div>
       <p class="ref">Robbins 10e p.1103; Davidson's 23e p.730</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the differences between Type 1 and Type 2 diabetes mellitus? (DU-18M, CMU-23M, BUP-18M, BUP-22M)</summary>
+  <div class="qcard">
+    </div>🔴 What are the differences between Type 1 and Type 2 diabetes mellitus? (DU-18M, CMU-23M, BUP-18M, BUP-22M)</div>
     <div class="ans">
       <table>
         <tr><th>Trait</th><th>Type 1 DM</th><th>Type 2 DM</th></tr>
@@ -907,10 +917,10 @@
       </table>
       <p class="ref">Davidson's 23e p.735</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the clinical features and complications of diabetes mellitus. (DU-21Ja, 20Nv/M, RMU-21Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Mention the clinical features and complications of diabetes mellitus. (DU-21Ja, 20Nv/M, RMU-21Nv)</div>
     <div class="ans">
       <h3>Classic triad of diabetes</h3>
       <ol>
@@ -944,10 +954,10 @@
       </ol>
       <p class="ref">Davidson's 23e pp.734, 756; Robbins 10e pp.1106–1107</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the causes of death in diabetes mellitus. What are the effects of DM on the kidney?</summary>
+  <div class="qcard">
+    </div>Mention the causes of death in diabetes mellitus. What are the effects of DM on the kidney?</div>
     <div class="ans">
       <h3>Causes of death in diabetes mellitus</h3>
       <ol>
@@ -970,21 +980,21 @@
       </ol>
       <p class="ref">Robbins 10e pp.1109–1110</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Diabetes mellitus (Type-1)</summary>
+  <div class="quiz"></div>🎯 True/False practice — Diabetes mellitus (Type-1)</div>
     <div class="ans">
-      <details><summary>Insulin-dependent (Type-1) DM is characterized by: early onset, patients commonly obese, significant genetic factor, autoimmune destruction of islet cells, frequent hypoglycaemic coma. (DU-21Ja/20Nv/M/18Ja)</summary><div class="ans">Item <span class="tf">Early onset = True</span> · <span class="ff">Commonly obese = False</span> · <span class="ff">Significant genetic factor = False</span> · <span class="tf">Autoimmune destruction of islet cells = True</span> · <span class="tf">Frequent hypoglycaemic coma = True</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Characteristics of Type-1 DM: markedly reduced blood insulin, link to MHC class-II HLA genes, late insulitis, no anti-islet cell antibodies. (DU-08Ju)</summary><div class="ans">Item <span class="tf">Markedly reduced blood insulin = True</span> · <span class="tf">Linkage to MHC class-II HLA genes = True</span> · <span class="ff">Late insulitis = False</span> · <span class="ff">No anti-islet cell antibodies = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Characteristics of Type-1 DM: increased age, obesity, linkage with HLA, beta-cell destruction, frequent ketoacidosis. (DU-23M)</summary><div class="ans">Item <span class="ff">Increased age = False</span> · <span class="ff">Obesity = False</span> · <span class="tf">Linkage with HLA = True</span> · <span class="tf">Beta-cell destruction = True</span> · <span class="tf">Frequent ketoacidosis = True</span> <span class="ref">(ch31 MCQ)</span></div></details>
+      <div class="qcard"></div>Insulin-dependent (Type-1) DM is characterized by: early onset, patients commonly obese, significant genetic factor, autoimmune destruction of islet cells, frequent hypoglycaemic coma. (DU-21Ja/20Nv/M/18Ja)</div><div class="ans">Item <span class="tf">Early onset = True</span> · <span class="ff">Commonly obese = False</span> · <span class="ff">Significant genetic factor = False</span> · <span class="tf">Autoimmune destruction of islet cells = True</span> · <span class="tf">Frequent hypoglycaemic coma = True</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Characteristics of Type-1 DM: markedly reduced blood insulin, link to MHC class-II HLA genes, late insulitis, no anti-islet cell antibodies. (DU-08Ju)</div><div class="ans">Item <span class="tf">Markedly reduced blood insulin = True</span> · <span class="tf">Linkage to MHC class-II HLA genes = True</span> · <span class="ff">Late insulitis = False</span> · <span class="ff">No anti-islet cell antibodies = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Characteristics of Type-1 DM: increased age, obesity, linkage with HLA, beta-cell destruction, frequent ketoacidosis. (DU-23M)</div><div class="ans">Item <span class="ff">Increased age = False</span> · <span class="ff">Obesity = False</span> · <span class="tf">Linkage with HLA = True</span> · <span class="tf">Beta-cell destruction = True</span> · <span class="tf">Frequent ketoacidosis = True</span> <span class="ref">(ch31 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <!-- ======================== RAPID FIRE ======================== -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
 
-  <details class="rapid" open>
-    <summary>Endocrine System — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Endocrine System — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <!-- FROM ch18 MCQs -->
       <div class="q">Hyperthyroidism occurs in: (DU-24Nv) — Hashimoto's thyroiditis, lymphocytic thyroiditis, iodine deficiency, toxic adenoma, Graves' disease?</div>
@@ -1078,7 +1088,7 @@
       <div class="q">🎯 Plummer's disease = ?</div>
       <div class="a"><strong>Toxic multinodular goiter</strong> — multiple thyroid nodules become hyperactive, producing excessive thyroid hormones.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="ch12_Breast.html">← Ch 12 · Breast</a></span>

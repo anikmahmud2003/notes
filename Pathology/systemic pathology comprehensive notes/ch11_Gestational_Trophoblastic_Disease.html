@@ -67,7 +67,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -107,8 +117,8 @@
 
   <h2 id="overview">1 · Overview — What is Gestational Trophoblastic Disease?</h2>
 
-  <details>
-    <summary>Enumerate the gestational trophoblastic diseases / tumours. Short note: Gestational trophoblastic disease. (RU-12Ju, RU-10Ja)</summary>
+  <div class="qcard">
+    </div>Enumerate the gestational trophoblastic diseases / tumours. Short note: Gestational trophoblastic disease. (RU-12Ju, RU-10Ja)</div>
     <div class="ans">
       <p><strong>GTD (gestational trophoblastic disease):</strong> a spectrum of <strong>tumours and tumour-like conditions</strong> characterised by proliferation of <strong>placental tissue</strong>, either villous or trophoblastic.</p>
       <h3>Major disorders (classification)</h3>
@@ -122,12 +132,12 @@
       <div class="mnem">🎯 <strong>"HICC":</strong> Hydatidiform mole → Invasive mole → Choriocarcinoma (→ PSTT). Order = increasing aggressiveness.</div>
       <p class="ref">Ref: Robbins 10e p.1033</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="mole">2 · Hydatidiform Mole</h2>
 
-  <details>
-    <summary>Short note: Hydatidiform mole — definition, age, clinical features. (SU-20Nv) (Very Important for VIVA)</summary>
+  <div class="qcard">
+    </div>Short note: Hydatidiform mole — definition, age, clinical features. (SU-20Nv) (Very Important for VIVA)</div>
     <div class="ans">
       <p><strong>Hydatidiform mole:</strong> characterised by <span class="hot">cystic swelling of the chorionic villi</span>, accompanied by variable <strong>trophoblastic proliferation</strong>. Associated with an <strong>increased risk</strong> of persistent trophoblastic disease (<strong>invasive mole</strong>) or <strong>choriocarcinoma</strong>.</p>
       <p><strong>Diagnosis:</strong> usually diagnosed during <strong>early pregnancy</strong> (average <strong>9 weeks</strong>) by pelvic sonography (USG = ultrasonography).</p>
@@ -143,10 +153,10 @@
       <div class="mnem">🎯 <em>Hydatidiform mole can be mistaken for a normal pregnancy, but the uterus is often too large for gestational age and hCG is very high.</em></div>
       <p class="ref">Ref: Robbins 10e p.1033</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the morphology of hydatidiform mole (gross + microscopic). (CU-12Ju)</summary>
+  <div class="qcard">
+    </div>🔴 Mention the morphology of hydatidiform mole (gross + microscopic). (CU-12Ju)</div>
     <div class="ans">
       <h3>Macroscopic (Gross)</h3>
       <ul>
@@ -160,12 +170,12 @@
       </ul>
       <p class="ref">Fig: Complete hydatidiform mole · Ref: Robbins 10e p.1033; BRS Pathology 5e p.310</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="compare">3 · Complete vs Partial Hydatidiform Mole — Differences (Important for VIVA)</h2>
 
-  <details>
-    <summary>🔴 Mention the differences between complete mole and partial mole. (Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Mention the differences between complete mole and partial mole. (Important for VIVA)</div>
     <div class="ans">
       <table>
         <tr><th>Traits</th><th>Complete mole</th><th>Partial mole</th></tr>
@@ -179,12 +189,12 @@
       <div class="mnem">🎯 <strong>"Complete = Clean (no baby)":</strong> Complete → no embryo, diploid, all-paternal, aggressive-looking; Partial → embryo present, triploid, two paternal + one maternal. <em>Complete mole has higher risk of choriocarcinoma.</em></div>
       <p class="ref">Ref: Lecture DMC</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="lab">4 · Laboratory Diagnosis of Hydatidiform Mole</h2>
 
-  <details>
-    <summary>How is hydatidiform mole diagnosed in the laboratory? (SU-06/05Ja)</summary>
+  <div class="qcard">
+    </div>How is hydatidiform mole diagnosed in the laboratory? (SU-06/05Ja)</div>
     <div class="ans">
       <ol>
         <li><strong>Ultrasonogram (USG):</strong> reveals <span class="hot">"snowstorm appearance"</span> of the mole — <span class="good">diagnostic</span>.</li>
@@ -207,12 +217,12 @@
       </ul>
       <div class="mnem">🎯 <strong>USG snowstorm + hCG &gt;1 lac + +ve pregnancy test</strong> = molar pregnancy; chest X-ray to rule out metastatic choriocarcinoma.</div>
     </div>
-  </details>
+  </div>
 
   <h2 id="invasive">5 · Invasive Mole</h2>
 
-  <details>
-    <summary>Short note: Invasive mole — morphology, clinical features, treatment. (CU-12Ju)</summary>
+  <div class="qcard">
+    </div>Short note: Invasive mole — morphology, clinical features, treatment. (CU-12Ju)</div>
     <div class="ans">
       <p><strong>Invasive mole:</strong> an <span class="hot">infiltrative lesion that penetrates or even perforates the uterine wall</span>.</p>
       <h3>Morphology</h3>
@@ -231,12 +241,12 @@
       <p>The tumour <span class="good">responds well to chemotherapy</span>, but may result in <strong>uterine rupture</strong>, necessitating <strong>hysterectomy</strong>.</p>
       <p class="ref">Fig: Invasive mole presenting as a hemorrhagic mass adherent to the uterine wall · Ref: Robbins 10e p.1034</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="chorioca">6 · Choriocarcinoma</h2>
 
-  <details>
-    <summary>Short note: Choriocarcinoma — precuror conditions, morphology, clinical features, metastases. (Arif 2025)</summary>
+  <div class="qcard">
+    </div>Short note: Choriocarcinoma — precuror conditions, morphology, clinical features, metastases. (Arif 2025)</div>
     <div class="ans">
       <p><strong>Gestational choriocarcinoma:</strong> a <span class="hot">malignant neoplasm of trophoblastic cells</span> derived from a previously normal or abnormal pregnancy, such as an extrauterine <strong>ectopic pregnancy</strong>. It is <strong>rapidly invasive and metastasizes widely</strong>, but once identified <strong>responds well to chemotherapy</strong>.</p>
       <h3>Precursor conditions (where it arises)</h3>
@@ -262,38 +272,38 @@
       <div class="mnem">🎯 <strong>No villi + both trophoblasts + blood-vessel invasion</strong> = choriocarcinoma. <em>"Lungs (50%) &amp; vagina (30–40%)"</em> are the classic mets.</div>
       <p class="ref">Ref: Robbins 10e p.1034</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz"><summary>🎯 True/False practice — Hydatidiform mole &amp; choriocarcinoma</summary>
+  <div class="quiz"></div>🎯 True/False practice — Hydatidiform mole &amp; choriocarcinoma</div>
     <div class="ans">
-      <details><summary>Positive pregnancy test is observed in: amenorrhoea, hydatidiform mole, choriocarcinoma, endometrial hyperplasia, dysgerminoma. (DU-12Ja)</summary><div class="ans">Item <span class="ff">Amenorrhoea = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Endometrial hyperplasia = False</span> · <span class="ff">Dysgerminoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
-      <details><summary>Gestational trophoblastic diseases include: hydrocele, hydatidiform mole, invasive mole, leiomyosarcoma, embryonal carcinoma. (RMU-22M)</summary><div class="ans">Item <span class="ff">Hydrocele = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Invasive mole = True</span> · <span class="ff">Leiomyosarcoma = False</span> · <span class="ff">Embryonal carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></details>
+      <div class="qcard"></div>Positive pregnancy test is observed in: amenorrhoea, hydatidiform mole, choriocarcinoma, endometrial hyperplasia, dysgerminoma. (DU-12Ja)</div><div class="ans">Item <span class="ff">Amenorrhoea = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Choriocarcinoma = True</span> · <span class="ff">Endometrial hyperplasia = False</span> · <span class="ff">Dysgerminoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
+      <div class="qcard"></div>Gestational trophoblastic diseases include: hydrocele, hydatidiform mole, invasive mole, leiomyosarcoma, embryonal carcinoma. (RMU-22M)</div><div class="ans">Item <span class="ff">Hydrocele = False</span> · <span class="tf">Hydatidiform mole = True</span> · <span class="tf">Invasive mole = True</span> · <span class="ff">Leiomyosarcoma = False</span> · <span class="ff">Embryonal carcinoma = False</span> <span class="ref">(ch18 MCQ)</span></div></div>
     </div>
-  </details>
+  </div>
 
   <h2 id="vignette">7 · Case Vignette (Important for VIVA)</h2>
 
-  <details>
-    <summary>🔴 A 3-month pregnant woman, 40 yrs of age, comes with vaginal bleeding. Ultrasonogram of lower abdomen shows cystic changes in uterus and grape-like clusters. What is the provisional diagnosis and the most serious complication?</summary>
+  <div class="qcard">
+    </div>🔴 A 3-month pregnant woman, 40 yrs of age, comes with vaginal bleeding. Ultrasonogram of lower abdomen shows cystic changes in uterus and grape-like clusters. What is the provisional diagnosis and the most serious complication?</div>
     <div class="ans">
       <p><strong>Provisional diagnosis:</strong> <span class="hot">Hydatidiform mole</span>.</p>
       <p><strong>Most serious complication:</strong> <span class="hot">Choriocarcinoma</span>.</p>
       <div class="mnem">🎯 <strong>Vaginal bleeding + enlarged-for-dates uterus + USG "grape-like" / snowstorm</strong> in a 40-yr-old → molar pregnancy; the feared progression is <strong>choriocarcinoma</strong>.</div>
     </div>
-  </details>
+  </div>
 
   <h2 id="pseudo">8 · Pseudocyesis &amp; Urine Differentiation</h2>
 
-  <details>
-    <summary>What is pseudocyesis?</summary>
+  <div class="qcard">
+    </div>What is pseudocyesis?</div>
     <div class="ans">
       <h3>Pseudocyesis</h3>
       <p><strong>Pseudocyesis:</strong> a condition in which a patient has <span class="hot">nearly all of the usual signs and symptoms of pregnancy</span> — such as <strong>enlargement of the abdomen, weight gain, cessation of menses, and morning sickness</strong> — but the patient is <strong>not actually pregnant</strong>.</p>
       <p>It is usually seen in women who either are <strong>very desirous of having children</strong> or <strong>wish to avoid pregnancy</strong>. Treatment is usually done by <span class="good">psychiatric means</span>.</p>
     </div>
-  </details>
-  <details>
-    <summary>How can you differentiate the urine of a pregnant lady from the urine of a trophoblastic tumour patient by examining urine? (RU-07Ju)</summary>
+  </div>
+  <div class="qcard">
+    </div>How can you differentiate the urine of a pregnant lady from the urine of a trophoblastic tumour patient by examining urine? (RU-07Ju)</div>
     <div class="ans">
       <h3>Differentiation by urine examination</h3>
       <p>The key is the <strong>hCG (human chorionic gonadotropin) level</strong>:</p>
@@ -302,12 +312,12 @@
       <li>Trophoblastic tumour: hCG <span class="hot">&gt; 1 lac unit</span>, and it may be up to <span class="hot">5 lacs</span></li>
       </ul>
     </div>
-  </details>
+  </div>
 
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Systemic Pathology MCQs)</h2>
 
-  <details class="rapid" open>
-    <summary>GTD — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>GTD — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
       <div class="q">Gestational trophoblastic disease includes (RMU-22M): Hydrocele (T/F), Hydatidiform mole (T/F), Invasive mole (T/F), Leiomyosarcoma (T/F), Embryonal carcinoma (T/F)?</div>
       <div class="a">Hydrocele = <strong>False</strong> · hydatidiform mole = <strong>True</strong> · invasive mole = <strong>True</strong> · leiomyosarcoma = <strong>False</strong> · embryonal carcinoma = <strong>False</strong>.</div>
@@ -339,7 +349,7 @@
       <div class="q">🎯 Treatment of invasive mole?</div>
       <div class="a"><strong>Chemotherapy</strong> (responds well); may need <strong>hysterectomy</strong> if uterine rupture.</div>
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

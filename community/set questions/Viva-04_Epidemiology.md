@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Define Epidemiology &amp; Epidemic. What are the types of Epidemics? (S1,Q2)</b></summary>
+### Q1. Define Epidemiology &amp; Epidemic. What are the types of Epidemics? (S1,Q2)
 
 ### Epidemiology
 > 🔴 Epidemiology = **"The study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems."** — John M. Last (1988)
@@ -31,10 +30,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Aims of Epidemiology. Mention the major types of epidemics (S2,Q2)</b></summary>
+### Q2. Aims of Epidemiology. Mention the major types of epidemics (S2,Q2)
 
 ### Aims & objectives of epidemiology (International Epidemiological Association)
 1. To **describe the distribution and magnitude** of health and disease problems in human populations.
@@ -61,10 +58,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Define Epidemiology. Illustrate Epidemiological approach. (S3,Q2)</b></summary>
+### Q3. Define Epidemiology. Illustrate Epidemiological approach. (S3,Q2)
 
 ### Definition
 *(Epidemiology = study of distribution & determinants of health-related states/events in specified populations + application to control — John M. Last, 1988.)*
@@ -92,10 +87,8 @@ The epidemiologist studies disease occurrence by **asking questions** and **maki
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What are epidemiological measurements? Define incidence &amp; prevalence. (S4,Q2)</b></summary>
+### Q4. What are epidemiological measurements? Define incidence &amp; prevalence. (S4,Q2)
 
 ### Epidemiological measurements
 Measurement of **mortality** (death) and **morbidity** (illness/disability) is the basic quantitative tool of epidemiology. They are calculated as **rates, ratios and proportions**; the important indices are —
@@ -124,10 +117,8 @@ Prevalence rate = No. of current cases (old + new) in a given time/period   × 1
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Tools used in epidemiological measurements with their definition. (S5,Q2)</b></summary>
+### Q5. Tools used in epidemiological measurements with their definition. (S5,Q2)
 
 ### Basic tools: Ratio, Proportion, Rate
 | Tool | Definition | Example |
@@ -150,10 +141,8 @@ Rate =  X (No. of events)   ×  K   (e.g., ×1000)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What are the mortality rate and ratios? (S6,Q2)</b></summary>
+### Q6. What are the mortality rate and ratios? (S6,Q2)
 
 ### Commonly used mortality rates & ratio measures
 1. **Crude death rate (CDR)**
@@ -202,10 +191,8 @@ Specific death rate =  Total No. of deaths from a specific disease in a year   �
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What are the aspects do we consider to measure morbidity? (S7,Q2)</b></summary>
+### Q7. What are the aspects do we consider to measure morbidity? (S7,Q2)
 
 Morbidity (illness) in the community is measured by the following rates:
 
@@ -227,10 +214,8 @@ Additionally, **disability rates** (temporary/permant disability) measure the co
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. What is cohort. List the steps of cohort study. Measures of morbidity. (S8,Q8)</b></summary>
+### Q8. What is cohort. List the steps of cohort study. Measures of morbidity. (S8,Q8)
 
 ### Cohort (definition)
 > 🔴 **Cohort** = a group of people who **share a common characteristic or experience within a defined time period** (e.g., age, occupation, exposure to a drug or vaccine, pregnancy, insured persons).
@@ -254,10 +239,8 @@ Additionally, **disability rates** (temporary/permant disability) measure the co
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Define incidence &amp; prevalence rate. What are the special incidence rates? (S9,Q2)</b></summary>
+### Q9. Define incidence &amp; prevalence rate. What are the special incidence rates? (S9,Q2)
 
 ### Definitions
 **Incidence rate** = No. of **NEW cases** in a defined population during a specified period (× 1,000).
@@ -281,10 +264,8 @@ Additionally, **disability rates** (temporary/permant disability) measure the co
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Importance of incidence and prevalence. (S10,Q2)</b></summary>
+### Q10. Importance of incidence and prevalence. (S10,Q2)
 
 ### Uses / importance of incidence
 1. **To control disease** (identify outbreaks, evaluate control measures).
@@ -305,10 +286,8 @@ Additionally, **disability rates** (temporary/permant disability) measure the co
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Classify epidemiological studies. Difference between case control &amp; cohort study. (S11,Q2)</b></summary>
+### Q11. Classify epidemiological studies. Difference between case control &amp; cohort study. (S11,Q2)
 
 ### Classification of epidemiological methods / studies
 **A) Observational studies:**
@@ -341,10 +320,8 @@ Additionally, **disability rates** (temporary/permant disability) measure the co
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. What is descriptive epidemiology? Procedure used in descriptive studies. (S12,Q2)</b></summary>
+### Q12. What is descriptive epidemiology? Procedure used in descriptive studies. (S12,Q2)
 
 ### Descriptive epidemiology
 > 🔴 Descriptive studies are concerned with **observing the distribution of disease or health-related characteristics in human populations** and **identifying the characteristics with which the disease seems to be associated.**
@@ -373,10 +350,8 @@ It answers 3 basic questions:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Define carrier with example. (S13,Q2)</b></summary>
+### Q13. Define carrier with example. (S13,Q2)
 
 ### Carrier (definition)
 > 🔴 **Carrier** = "an **infected person or animal that harbours a specific infectious agent in the absence of discernible clinical disease** and serves as a **potential source of infection for others**."
@@ -394,10 +369,8 @@ It answers 3 basic questions:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Categorize place variation in disease occurrences. What are the advantages of case-control study? (S14,Q2)</b></summary>
+### Q14. Categorize place variation in disease occurrences. What are the advantages of case-control study? (S14,Q2)
 
 ### Place (geographical) variation in disease occurrence
 Different diseases predominate in **different places**:
@@ -428,10 +401,8 @@ Different diseases predominate in **different places**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Name the international quarantinable disease and notifiable diseases under surveillance? (S14,Q7), (S25,Q7)</b></summary>
+### Q15. Name the international quarantinable disease and notifiable diseases under surveillance? (S14,Q7), (S25,Q7)
 
 ### International quarantinable diseases
 > Under international health regulations, persons from infected places at ports are subject to quarantine. **International quarantinable diseases (IHR):**
@@ -457,10 +428,8 @@ The IHR (1969) applied only to these **three** diseases; revised IHR (2005) broa
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. What are steps of conducting case control study (S15,Q2)</b></summary>
+### Q16. What are steps of conducting case control study (S15,Q2)
 
 ### Basic steps of a case-control study (4)
 1. **Selection of cases and controls**
@@ -478,10 +447,8 @@ The IHR (1969) applied only to these **three** diseases; revised IHR (2005) broa
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. How can you measure disease load in a community. Disadvantages of case control study (S16,Q2)</b></summary>
+### Q17. How can you measure disease load in a community. Disadvantages of case control study (S16,Q2)
 
 ### Measuring disease load in the community
 Disease frequency ("load") is expressed as **rates & ratios**:
@@ -502,10 +469,8 @@ Disease frequency ("load") is expressed as **rates & ratios**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. What do you mean by cross sectional and longitudinal studies. list the advantages of cohort study (S17,Q2)</b></summary>
+### Q18. What do you mean by cross sectional and longitudinal studies. list the advantages of cohort study (S17,Q2)
 
 ### Cross-sectional study
 > Simplest form of observational study — based on a **single examination of a cross-section of the population at one point in time**; results can be projected to the whole population if sampling is correct. Also known as **"prevalence study."**
@@ -532,10 +497,8 @@ Disease frequency ("load") is expressed as **rates & ratios**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. Enumerate some experimental studies. what are the steps in randomized control trial (RCT)? (S18,Q2)</b></summary>
+### Q19. Enumerate some experimental studies. what are the steps in randomized control trial (RCT)? (S18,Q2)
 
 ### Experimental studies (enumerate)
 1. **Randomized controlled trials (RCT)** — clinical trials, preventive trials, risk-factor trials, cessation experiments, trial of aetiological agents, evaluation of health services.
@@ -559,10 +522,8 @@ Disease frequency ("load") is expressed as **rates & ratios**:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. What are the types of analytical studies. enumerate the difference between cohort and case control study (S20,Q2)</b></summary>
+### Q20. What are the types of analytical studies. enumerate the difference between cohort and case control study (S20,Q2)
 
 ### Types of analytical studies
 Analytical studies test hypotheses (individuals are the unit of study). **They comprise 2 distinct types of observational studies:**
@@ -589,10 +550,8 @@ Analytical studies test hypotheses (individuals are the unit of study). **They c
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. Define cohort. what are the steps in cohort studies. list its disadvantages? (S21,Q2)</b></summary>
+### Q21. Define cohort. what are the steps in cohort studies. list its disadvantages? (S21,Q2)
 
 ### Cohort (definition)
 > A **cohort** = a group of people who **share a common characteristic or experience within a defined time period** (age, occupation, exposure to a drug/vaccine, pregnancy...). Synonyms of cohort study: **prospective, longitudinal, incidence, forward-looking study.** It proceeds from **cause to effect.**
@@ -622,10 +581,8 @@ Analytical studies test hypotheses (individuals are the unit of study). **They c
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. What is case and control. enumerate the types of cohort studies with example. (S22,Q2)</b></summary>
+### Q22. What is case and control. enumerate the types of cohort studies with example. (S22,Q2)
 
 ### Case, non-case & control
 | Term | Meaning |
@@ -652,10 +609,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. Define and classify epidemic. what are the steps in investigation an epidemic outbreak? (S23,Q2)</b></summary>
+### Q23. Define and classify epidemic. what are the steps in investigation an epidemic outbreak? (S23,Q2)
 
 ### Epidemic — definition & classification
 > Epidemic (Epi = upon, demos = people) = **unusual occurrence** of disease/health-related behaviour/events **in excess of the expected** in a community or region.
@@ -684,10 +639,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q24. What is carrier? classify the carriers with example. mention the epidemiological importance of carrier. (S24,Q2)</b></summary>
+### Q24. What is carrier? classify the carriers with example. mention the epidemiological importance of carrier. (S24,Q2)
 
 ### Carrier (definition)
 > An infected person/animal that harbours a specific infectious agent **in the absence of discernible clinical disease** and serves as a potential source of infection for others. **Example:** "Typhoid Mary."
@@ -718,10 +671,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q25. Enumerate some experimental studies. what are the steps in randomised control trial (RCT)? (S25,Q2)</b></summary>
+### Q25. Enumerate some experimental studies. what are the steps in randomised control trial (RCT)? (S25,Q2)
 
 *(Identical to Q19.)*
 
@@ -743,10 +694,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q26. Define epidemic with example. What are the steps of Investigation of an epidemic? (S26,Q2)</b></summary>
+### Q26. Define epidemic with example. What are the steps of Investigation of an epidemic? (S26,Q2)
 
 *("apjotic" in the PDF = epidemic.)*
 
@@ -770,10 +719,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q27. Define isolation and quarantine. (S28,Q2)</b></summary>
+### Q27. Define isolation and quarantine. (S28,Q2)
 
 ### Isolation
 > 🔴 **Isolation** = "separation, **for the period of communicability, of infected persons or animals** from others, in such places & under such conditions, as to prevent or limit the direct or indirect transmission of the infectious agent from those infected to those who are susceptible."
@@ -806,10 +753,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q28. What do you mean by control, elimination and eradication? Give example of each (S29,Q2)</b></summary>
+### Q28. What do you mean by control, elimination and eradication? Give example of each (S29,Q2)
 
 | Term | Meaning | Example |
 |---|---|---|
@@ -823,10 +768,8 @@ Non-smoking cohort ───▶  no lung cancer
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q29. Define and classify carrier with example. Tell its epidemiological importance. (S30,Q2)</b></summary>
+### Q29. Define and classify carrier with example. Tell its epidemiological importance. (S30,Q2)
 
 *(Identical to Q24.)*
 
@@ -846,4 +789,3 @@ Non-smoking cohort ───▶  no lung cancer
 
 > 📖 Ch-03, Endeavour PDF pp. 100–101
 
-</details>

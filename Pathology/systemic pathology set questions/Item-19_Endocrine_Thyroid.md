@@ -6,8 +6,7 @@
 
 # Part A — Thyroid Neoplasms & Hyperthyroidism (Q1–4)
 
-<details>
-<summary><b>Q1. Name the thyroid neoplasms.</b></summary>
+### Q1. Name the thyroid neoplasms.
 
 ### Classification of Thyroid Neoplasms
 
@@ -40,10 +39,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Define hyperthyroidism and thyrotoxicosis.</b></summary>
+### Q2. Define hyperthyroidism and thyrotoxicosis.
 
 ### Definitions
 
@@ -71,10 +68,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Mention the causes of thyrotoxicosis.</b></summary>
+### Q3. Mention the causes of thyrotoxicosis.
 
 ### Causes of Thyrotoxicosis
 
@@ -107,10 +102,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Enumerate the causes of hyperthyroidism.</b></summary>
+### Q4. Enumerate the causes of hyperthyroidism.
 
 ### Causes of Hyperthyroidism
 
@@ -143,12 +136,10 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-</details>
 
 # Part B — Thyroiditis & Goiter (Q5–7)
 
-<details>
-<summary><b>Q5. Short note: Hashimoto thyroiditis.</b></summary>
+### Q5. Short note: Hashimoto thyroiditis.
 
 ### Definition
 🔴 **Hashimoto thyroiditis (chronic lymphocytic thyroiditis) = the most common cause of hypothyroidism in iodine-sufficient areas** and the most common nonendemic goiter in children. An autoimmune disorder characterized by thyroid destruction by autoreactive lymphocytes.
@@ -198,10 +189,8 @@ Follicular adenoma → Follicular carcinoma (with capsular/vascular invasion)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What do you mean by goiter? Tell its pathogenesis/ Give the pathogenesis of goiter in iodine deficiency.</b></summary>
+### Q6. What do you mean by goiter? Tell its pathogenesis/ Give the pathogenesis of goiter in iodine deficiency.
 
 ### Definition
 🔴 **Goiter = abnormal enlargement of the thyroid gland.** It is a descriptive term, not a specific diagnosis. Can be diffuse or nodular, toxic or nontoxic.
@@ -279,10 +268,8 @@ Compensatory increase in iodide trapping efficiency
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What is Grave's disease? Give the pathogenesis of Grave's disease.</b></summary>
+### Q7. What is Grave's disease? Give the pathogenesis of Grave's disease.
 
 ### Definition
 🔴 **Graves disease = the most common cause of endogenous hyperthyroidism** (~85% of thyrotoxicosis cases). An autoimmune disorder characterized by stimulatory autoantibodies against the TSH receptor, causing diffuse thyroid hyperplasia, hyperthyroidism, and characteristic extrathyroidal manifestations.
@@ -381,12 +368,10 @@ TSH RECEPTOR ANTIBODIES:
 
 ---
 
-</details>
 
 # Part C — Papillary Carcinoma & Investigation (Q8–9)
 
-<details>
-<summary><b>Q8. Short note: Papillary carcinoma of thyroid.</b></summary>
+### Q8. Short note: Papillary carcinoma of thyroid.
 
 ### Definition
 🔴 **Papillary thyroid carcinoma (PTC) = the most common thyroid malignancy (~80–85% of thyroid cancers)** and the most common endocrine malignancy overall. Arises from follicular epithelial cells.
@@ -468,10 +453,8 @@ TSH RECEPTOR ANTIBODIES:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. What are the thyroid function tests? How hypo and hyperthyroidism and its types can be diagnosed by these tests?</b></summary>
+### Q9. What are the thyroid function tests? How hypo and hyperthyroidism and its types can be diagnosed by these tests?
 
 ### Thyroid Function Tests
 
@@ -555,12 +538,10 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 ---
 
-</details>
 
 # Part D — Clinical Case & Thyroglossal Duct Cyst (Q10–11)
 
-<details>
-<summary><b>Q10. A female of 24 years presenting with neck swelling and leg edema. Her TSH is done and found high. What is your provisional diagnosis? What investigations do you have to do further?</b></summary>
+### Q10. A female of 24 years presenting with neck swelling and leg edema. Her TSH is done and found high. What is your provisional diagnosis? What investigations do you have to do further?
 
 ### Analysis of the Case
 - **Age/Sex:** 24-year-old female
@@ -625,10 +606,8 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Notes on Thyroglossal duct cyst.</b></summary>
+### Q11. Notes on Thyroglossal duct cyst.
 
 ### Definition
 🔴 **Thyroglossal duct cyst = the most common clinically significant congenital anomaly of the thyroid gland.** A remnant of the thyroglossal duct — the tract along which the thyroid descends from the foramen cecum of the tongue to its final position in the anterior neck during embryological development.
@@ -706,4 +685,3 @@ TSH normal → Usually euthyroid (rare TSH-secreting pituitary adenoma if FT4/FT
 
 ---
 
-</details>

@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -114,8 +124,8 @@
   <!-- ============================================================ -->
   <h2 id="overview">1 · Overview — Diseases of the Liver</h2>
 
-  <details>
-    <summary>🔴 Name the diseases of the liver. Classify hepatic tumours/neoplasms.</summary>
+  <div class="qcard">
+    </div>🔴 Name the diseases of the liver. Classify hepatic tumours/neoplasms.</div>
     <div class="ans">
       <p><strong>Important pathologic lesions of the liver:</strong></p>
       <ol>
@@ -138,19 +148,19 @@
       </ol>
       <p class="ref">Robbins 10e pp.822–872</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the patterns of hepatic injury.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the patterns of hepatic injury.</div>
     <div class="ans">
       <p><strong>1. Reversible injury:</strong> Accumulation of fat (steatosis) and bilirubin (cholestasis), as well as <strong>ballooning</strong> — cell swelling, cytoplasmic clearing, and clumping of intermediate filaments, which when prominent may form <strong>Mallory hyaline</strong>.</p>
       <p><strong>2. Irreversible injury:</strong> Hepatocytes die by <strong>necrosis</strong> or <strong>apoptosis</strong>.</p>
       <p class="ref">Robbins 10e p.824</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Name the inflammatory liver diseases. What are the causes of hepatitis?</summary>
+  <div class="qcard">
+    </div>🔴 Name the inflammatory liver diseases. What are the causes of hepatitis?</div>
     <div class="ans">
       <p><strong>A. Infectious disorders:</strong></p>
       <ul>
@@ -163,13 +173,13 @@
       <p><strong>Other causes of hepatitis:</strong> Drugs (acetaminophen, isoniazid, α-methyldopa, methotrexate), toxins (aflatoxin/mushroom poisoning), alcohol, metabolic (NAFLD, haemochromatosis, Wilson disease, α₁-antitrypsin deficiency, neonatal hepatitis), cholestasis (biliary stricture, sclerosing cholangitis), congestion (CCF, Budd-Chiari syndrome).</p>
       <p class="ref">Robbins 10e pp.823–839</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="failure">2 · Liver Failure</h2>
 
-  <details>
-    <summary>🔴 Short note: Liver failure. Mention clinical features and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Liver failure. Mention clinical features and complications.</div>
     <div class="ans">
       <p><strong>Liver failure:</strong> The most severe form of liver disease — may be <strong>acute</strong> (sudden massive hepatic destruction) or (more commonly) <strong>chronic</strong>, following years of insidious, progressive liver injury. <strong>Acute-on-chronic liver failure</strong> occurs when an unrelated acute injury is superimposed on late-stage chronic disease.</p>
       <p><span class="hot">80–90% of functional capacity must be lost before hepatic failure appears.</span></p>
@@ -195,10 +205,10 @@
       <div class="mnem">🎯 Without liver transplantation, mortality in hepatic failure is ~80%.</div>
       <p class="ref">Robbins 10e pp.826, 831</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Define acute liver failure. Mention causes (ABCDE mnemonic) and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Define acute liver failure. Mention causes (ABCDE mnemonic) and clinical features.</div>
     <div class="ans">
       <p><strong>Acute (fulminant) liver failure:</strong> An acute liver illness associated with <strong>encephalopathy and coagulopathy</strong> that occurs within <strong>26 weeks</strong> of the initial liver injury <strong>in the absence of pre-existing liver disease</strong>.</p>
       <h3>Causes — ABCDE Mnemonic</h3>
@@ -225,10 +235,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.826, 831</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Hepatic encephalopathy. (Very Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Hepatic encephalopathy. (Very Important for VIVA)</div>
     <div class="ans">
       <p><strong>Hepatic encephalopathy:</strong> A spectrum of disturbances in consciousness, ranging from subtle behavioural abnormalities to marked confusion and stupor, to deep coma and death. May progress over days, weeks, or months following acute hepatic injury.</p>
       <h3>Associated fluctuating neurologic signs</h3>
@@ -240,47 +250,47 @@
       <p>Caused by <strong>elevated ammonia levels</strong>, which correlate with impaired neuronal function and cerebral oedema. The principal source of ammonia is the <strong>gastrointestinal tract</strong> (produced by microorganisms and enterocytes during glutamine metabolism). Normally, ammonia is transported in the portal vein to the liver, where it is metabolised in the urea cycle; in severe liver disease, this detoxification mechanism fails.</p>
       <p class="ref">Robbins 10e p.827</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Hepatorenal syndrome. (Very Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Hepatorenal syndrome. (Very Important for VIVA)</div>
     <div class="ans">
       <p><strong>Hepatorenal syndrome:</strong> A form of <strong>renal failure</strong> occurring in individuals with liver failure in whom there is <strong>no intrinsic morphologic or functional cause</strong> for kidney dysfunction.</p>
       <p>Onset is marked by a drop in urine output and increasing levels of urea and creatinine in the blood. Sodium retention, impaired free-water excretion, and decreased renal perfusion and glomerular filtration rate (GFR) are the main renal functional abnormalities.</p>
       <p><span class="good">The decline in renal function is reversible if liver function is restored</span> — e.g. by liver transplantation.</p>
       <p class="ref">Robbins 10e p.827</p>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Liver Failure</summary>
-    <details>
-      <summary>Causes of chronic liver disease include: Hepatitis A virus · Hepatitis B virus · Hepatitis C virus · Human papilloma virus · Hepatitis E virus</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Liver Failure</div>
+    <div class="qcard">
+      </div>Causes of chronic liver disease include: Hepatitis A virus · Hepatitis B virus · Hepatitis C virus · Human papilloma virus · Hepatitis E virus</div>
       <div class="ans">Hepatitis A virus <span class="ff">F</span> · Hepatitis B virus <span class="tf">T</span> · Hepatitis C virus <span class="tf">T</span> · Human papilloma virus <span class="ff">F</span> · Hepatitis E virus <span class="ff">F</span> <span class="ref">(DU-23M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="hepatitis">3 · Viral Hepatitis</h2>
 
-  <details>
-    <summary>🔴 What are hepatotrophic viruses?</summary>
+  <div class="qcard">
+    </div>🔴 What are hepatotrophic viruses?</div>
     <div class="ans">
       <p><strong>Hepatotrophic viruses:</strong> The group of viruses (<strong>HAV, HBV, HCV, HDV, HEV</strong>) that have a <strong>specific affinity for the liver</strong>.</p>
     </div>
-  </details>
-  <details>
-    <summary>Why are they named so? Enumerate them.</summary>
+  </div>
+  <div class="qcard">
+    </div>Why are they named so? Enumerate them.</div>
     <div class="ans">
       <p class="ref">Robbins 10e p.831</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Compare hepatitis A virus (HAV) and hepatitis B virus (HBV).</summary>
+  <div class="qcard">
+    </div>🔴 Compare hepatitis A virus (HAV) and hepatitis B virus (HBV).</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>HAV</th><th>HBV</th></tr>
@@ -295,10 +305,10 @@
       <p><strong>HAV:</strong> Spread by ingestion of contaminated water/foods; endemic in countries with poor sanitation. Sexual transmission may occur but maternal-fetal transmission does not. Blood-borne transmission is rare (viremia is transient). 99% recover within 3 months; disease resolution in nearly all by 6 months. Acute liver failure in 0.1–0.3%. Extrahepatic manifestations include rash, arthralgia, leucocytoclastic vasculitis, glomerulonephritis, cryoglobulinaemia.</p>
       <p class="ref">Robbins 10e pp.831, 832, 836</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the possible outcomes of hepatitis B virus (HBV) infection.</summary>
+  <div class="qcard">
+    </div>🔴 Give the possible outcomes of hepatitis B virus (HBV) infection.</div>
     <div class="ans">
       <ol>
         <li><strong>Acute hepatitis followed by recovery</strong> and clearance of the virus (99% of acute hepatitis in adults)</li>
@@ -310,10 +320,10 @@
       <p><span class="hot">Patients with long-standing HBV- or HCV-related cirrhosis are at increased risk for HCC.</span></p>
       <p class="ref">Robbins 10e pp.832, 838; Park 23e p.215</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the serologic markers of HBV infection.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the serologic markers of HBV infection.</div>
     <div class="ans">
       <p><strong>a. Antigens:</strong> HBsAg (hepatitis B surface antigen), HBeAg (hepatitis B e antigen)</p>
       <p><strong>b. Antibodies:</strong> Anti-HBc IgM (anti-hepatitis B core IgM), Anti-HBs (anti-hepatitis B surface), Anti-HBe IgM</p>
@@ -325,10 +335,10 @@
       </ul>
       <p class="ref">Robbins 10e p.833</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Give the clinicopathologic syndromes of viral hepatitis.</summary>
+  <div class="qcard">
+    </div>🔴 Give the clinicopathologic syndromes of viral hepatitis.</div>
     <div class="ans">
       <ol>
         <li>Acute asymptomatic infection with recovery</li>
@@ -339,10 +349,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.836–837</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the morphologic changes in acute viral hepatitis (macroscopic + microscopic).</summary>
+  <div class="qcard">
+    </div>🔴 Write down the morphologic changes in acute viral hepatitis (macroscopic + microscopic).</div>
     <div class="ans">
       <p><strong>Macroscopic:</strong></p>
       <ul>
@@ -358,10 +368,10 @@
       </ul>
       <p class="ref">Robbins 10e p.837</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss chronic viral hepatitis: causes, pathogenesis, morphology, clinical features, and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Discuss chronic viral hepatitis: causes, pathogenesis, morphology, clinical features, and complications.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Symptomatic, biochemical, or serological evidence of continuing or relapsing hepatic disease for <strong>&gt;6 months</strong>.</p>
       <h3>Causes</h3>
@@ -398,10 +408,10 @@
       </ol>
       <p class="ref">Robbins 10e p.837</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is fulminant hepatitis / fulminant liver failure?</summary>
+  <div class="qcard">
+    </div>🔴 What is fulminant hepatitis / fulminant liver failure?</div>
     <div class="ans">
       <p><strong>Fulminant hepatitis / fulminant liver failure:</strong> Very rapid onset acute liver failure, typically the result of <strong>massive hepatic necrosis</strong> most often induced by drugs or toxins.</p>
       <p><strong>Causes:</strong></p>
@@ -413,10 +423,10 @@
       </ul>
       <p class="ref">Robbins 10e p.826</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What is carrier state of hepatitis?</summary>
+  <div class="qcard">
+    </div>What is carrier state of hepatitis?</div>
     <div class="ans">
       <p><strong>Carrier state:</strong> An individual who harbours and can transmit an organism but has no symptoms. For hepatotropic viruses, two scenarios:</p>
       <ol>
@@ -426,10 +436,10 @@
       <p>For HBV: "healthy carrier" = individual with HBsAg and anti-HBe, but without HBeAg. Normal aminotransferases, low or undetectable serum HBV DNA, and lack of significant inflammation or injury on biopsy.</p>
       <p class="ref">Robbins 10e p.837</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What alterations occur in liver function tests (LFTs) in acute viral hepatitis?</summary>
+  <div class="qcard">
+    </div>What alterations occur in liver function tests (LFTs) in acute viral hepatitis?</div>
     <div class="ans">
       <ul>
         <li>Serum bilirubin: <strong>High</strong></li>
@@ -438,32 +448,32 @@
         <li>Viral markers: <strong>Positive</strong></li>
       </ul>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Viral Hepatitis</summary>
-    <details>
-      <summary>Hepatitis A virus can produce: Haemolytic jaundice · Acute hepatitis · Chronic hepatitis · Fulminant hepatitis · Carrier state</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Viral Hepatitis</div>
+    <div class="qcard">
+      </div>Hepatitis A virus can produce: Haemolytic jaundice · Acute hepatitis · Chronic hepatitis · Fulminant hepatitis · Carrier state</div>
       <div class="ans">Haemolytic jaundice <span class="ff">F</span> · Acute hepatitis <span class="tf">T</span> · Chronic hepatitis <span class="ff">F</span> · Fulminant hepatitis <span class="tf">T</span> · Carrier state <span class="ff">F</span> <span class="ref">(DU-15Ju)</span></div>
-    </details>
-    <details>
-      <summary>Hepatitis C virus is associated with: Chronic hepatitis · Ground glass hepatocyte · Fatty change in hepatocytes · Neutrophils in portal triad · Faecal-oral transmission</summary>
+    </div>
+    <div class="qcard">
+      </div>Hepatitis C virus is associated with: Chronic hepatitis · Ground glass hepatocyte · Fatty change in hepatocytes · Neutrophils in portal triad · Faecal-oral transmission</div>
       <div class="ans">Chronic hepatitis <span class="tf">T</span> · Ground glass hepatocyte <span class="ff">F</span> · Fatty change in hepatocytes <span class="tf">T</span> · Neutrophils in portal triad <span class="ff">F</span> · Faecal-oral transmission <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
-    </details>
-    <details>
-      <summary>Morphology of acute hepatitis includes: Ballooning degeneration · Bile duct proliferation · Bridging necrosis · Portal tract infiltration · Fibrosis</summary>
+    </div>
+    <div class="qcard">
+      </div>Morphology of acute hepatitis includes: Ballooning degeneration · Bile duct proliferation · Bridging necrosis · Portal tract infiltration · Fibrosis</div>
       <div class="ans">Ballooning degeneration <span class="tf">T</span> · Bile duct proliferation <span class="ff">F</span> · Bridging necrosis <span class="tf">T</span> · Portal tract infiltration <span class="tf">T</span> · Fibrosis <span class="tf">T</span> <span class="ref">(DU-14Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="cirrhosis">4 · Cirrhosis of Liver</h2>
 
-  <details>
-    <summary>🔴 Define chronic liver disease (CLD). Define cirrhosis of liver. (Very Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Define chronic liver disease (CLD). Define cirrhosis of liver. (Very Important for VIVA)</div>
     <div class="ans">
       <p><strong>Chronic liver disease (CLD):</strong> A series of liver disorders of varying causes and severity in which hepatic inflammation and necrosis continue for <strong>at least 6 months</strong>. Or: hepatic injury, inflammation and/or fibrosis occurring for &gt;6 months.</p>
       <p><strong>Cirrhosis of liver:</strong> The <span class="hot">end-stage of chronic liver disease</span> characterised by:</p>
@@ -475,10 +485,10 @@
       <div class="mnem">🎯 Although cirrhosis and chronic liver failure are often associated, they are <strong>not synonymous</strong> — not all cirrhosis leads to chronic liver failure, and not all end-stage chronic liver disease is cirrhotic.</div>
       <p class="ref">Robbins 10e p.828; Robbins 11e (South Asia) p.536</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Classify cirrhosis of liver (etiological + morphological).</summary>
+  <div class="qcard">
+    </div>🔴 Classify cirrhosis of liver (etiological + morphological).</div>
     <div class="ans">
       <h3>Etiological classification</h3>
       <ol>
@@ -501,10 +511,10 @@
       </table>
       <p class="ref">Robbins 10e p.828</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the etiology/causes/risk factors of cirrhosis of liver.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the etiology/causes/risk factors of cirrhosis of liver.</div>
     <div class="ans">
       <ol>
         <li><strong>Chronic viral hepatitis (B or C)</strong> — most common cause in Bangladesh</li>
@@ -519,10 +529,10 @@
       </ol>
       <p class="ref">Robbins 10e p.828; Davidson's 23e p.866</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the pathogenesis of cirrhosis of liver.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the pathogenesis of cirrhosis of liver.</div>
     <div class="ans">
       <p>The central pathogenic processes are: <strong>death of hepatocytes, extracellular matrix (ECM) deposition, and vascular reorganisation</strong>.</p>
       <ol>
@@ -536,18 +546,18 @@
       </ol>
       <p class="ref">Robbins 10e p.828</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why is there jaundice in cirrhosis?</summary>
+  <div class="qcard">
+    </div>Why is there jaundice in cirrhosis?</div>
     <div class="ans">
       <p>Disruption of the interface between the parenchyma and portal tracts may obliterate biliary channels, leading to the development of jaundice.</p>
       <p class="ref">Robbins 9e p.828</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Discuss the pathology/morphology of cirrhosis of liver (gross + microscopic).</summary>
+  <div class="qcard">
+    </div>🔴 Discuss the pathology/morphology of cirrhosis of liver (gross + microscopic).</div>
     <div class="ans">
       <h3>Macroscopic</h3>
       <ul>
@@ -565,10 +575,10 @@
       </ul>
       <p class="ref">Robbins 10e p.828</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Enumerate the clinical features of cirrhosis of liver.</summary>
+  <div class="qcard">
+    </div>🔴 Enumerate the clinical features of cirrhosis of liver.</div>
     <div class="ans">
       <h3>1. Features of portal hypertension</h3>
       <ul>
@@ -591,10 +601,10 @@
       <div class="mnem">🎯 Spider telangiectasia, gynaecomastia, and parotid enlargement are most common in <strong>alcoholic cirrhosis</strong>.</div>
       <p class="ref">Davidson's 23e p.867; Robbins 10e p.828</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the complications/causes of death in cirrhosis of liver (features of decompensated liver disease).</summary>
+  <div class="qcard">
+    </div>🔴 Mention the complications/causes of death in cirrhosis of liver (features of decompensated liver disease).</div>
     <div class="ans">
       <ol>
         <li><strong>Jaundice</strong></li>
@@ -609,36 +619,36 @@
       <div class="mnem">🎯 Chronic liver failure develops when the metabolic capacity of the liver is exceeded.</div>
       <p class="ref">Davidson's 23e p.867; Robbins 10e p.828; Harsh Mohan 7e p.588</p>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Cirrhosis of Liver</summary>
-    <details>
-      <summary>Liver cirrhosis is associated with: Splenomegaly · Haemorrhoids · Normal PT · Spider angioma · Proteinuria</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Cirrhosis of Liver</div>
+    <div class="qcard">
+      </div>Liver cirrhosis is associated with: Splenomegaly · Haemorrhoids · Normal PT · Spider angioma · Proteinuria</div>
       <div class="ans">Splenomegaly <span class="tf">T</span> · Haemorrhoids <span class="tf">T</span> · Normal PT <span class="ff">F</span> · Spider angioma <span class="tf">T</span> · Proteinuria <span class="tf">T</span> <span class="ref">(DU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Followings are associated with cirrhosis of liver: Disorganisation of hepatic architecture · Localised oedema · Iron overload · Portal hypotension · Enlarged liver</summary>
+    </div>
+    <div class="qcard">
+      </div>Followings are associated with cirrhosis of liver: Disorganisation of hepatic architecture · Localised oedema · Iron overload · Portal hypotension · Enlarged liver</div>
       <div class="ans">Disorganisation of hepatic architecture <span class="tf">T</span> · Localised oedema <span class="ff">F</span> · Iron overload <span class="ff">F</span> · Portal hypotension <span class="ff">F</span> · Enlarged liver <span class="tf">T</span> <span class="ref">(RU-18M)</span></div>
-    </details>
-    <details>
-      <summary>In chronic liver disease: Prothrombin time is prolonged · Serum bilirubin is always raised · Serum ALP is raised · A:G ratio is altered · Serum albumin is decreased</summary>
+    </div>
+    <div class="qcard">
+      </div>In chronic liver disease: Prothrombin time is prolonged · Serum bilirubin is always raised · Serum ALP is raised · A:G ratio is altered · Serum albumin is decreased</div>
       <div class="ans">PT prolonged <span class="tf">T</span> · Bilirubin always raised <span class="ff">F</span> · ALP raised <span class="ff">F</span> · A:G ratio altered <span class="tf">T</span> · Albumin decreased <span class="tf">T</span> <span class="ref">(DU-13Ju)</span></div>
-    </details>
-    <details>
-      <summary>Complication of cirrhosis of liver include: Hepatocellular carcinoma · Ascites · Haematemesis and melena · Testicular atrophy · Hyperlipidaemia</summary>
+    </div>
+    <div class="qcard">
+      </div>Complication of cirrhosis of liver include: Hepatocellular carcinoma · Ascites · Haematemesis and melena · Testicular atrophy · Hyperlipidaemia</div>
       <div class="ans">HCC <span class="tf">T</span> · Ascites <span class="tf">T</span> · Haematemesis/melena <span class="tf">T</span> · Testicular atrophy <span class="ff">F</span> · Hyperlipidaemia <span class="ff">F</span> <span class="ref">(DU-21Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="pht">5 · Portal Hypertension</h2>
 
-  <details>
-    <summary>🔴 What are the causes of portal hypertension? (Prehepatic, intrahepatic, posthepatic)</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes of portal hypertension? (Prehepatic, intrahepatic, posthepatic)</div>
     <div class="ans">
       <p><strong>1. Prehepatic causes:</strong></p>
       <ul>
@@ -665,10 +675,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.828, 829</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the complications/clinical consequences of portal hypertension?</summary>
+  <div class="qcard">
+    </div>🔴 What are the complications/clinical consequences of portal hypertension?</div>
     <div class="ans">
       <p>The <span class="hot">four major clinical consequences</span> of portal hypertension are:</p>
       <ol>
@@ -679,32 +689,32 @@
       </ol>
       <p class="ref">Robbins 10e p.829</p>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Portal Hypertension</summary>
-    <details>
-      <summary>Consequences of portal hypertension include: Oesophageal varices · Ascites · Increased bilirubin · Congestive splenomegaly</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Portal Hypertension</div>
+    <div class="qcard">
+      </div>Consequences of portal hypertension include: Oesophageal varices · Ascites · Increased bilirubin · Congestive splenomegaly</div>
       <div class="ans">Oesophageal varices <span class="tf">T</span> · Ascites <span class="tf">T</span> · Increased bilirubin <span class="ff">F</span> · Congestive splenomegaly <span class="tf">T</span> <span class="ref">(DU-19M)</span></div>
-    </details>
-    <details>
-      <summary>Major consequences of portal hypertension include: Hepatic encephalopathy · Ascites · Formation of porto-systemic venous shunt · Congestive splenomegaly</summary>
+    </div>
+    <div class="qcard">
+      </div>Major consequences of portal hypertension include: Hepatic encephalopathy · Ascites · Formation of porto-systemic venous shunt · Congestive splenomegaly</div>
       <div class="ans">Hepatic encephalopathy <span class="tf">T</span> · Ascites <span class="tf">T</span> · Portosystemic shunt <span class="tf">T</span> · Congestive splenomegaly <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
-    </details>
-    <details>
-      <summary>Features of portal hypertension include: Ascites · Oesophageal varices · Splenomegaly · Haemorrhoids · Caput medusa in anterior abdominal wall</summary>
+    </div>
+    <div class="qcard">
+      </div>Features of portal hypertension include: Ascites · Oesophageal varices · Splenomegaly · Haemorrhoids · Caput medusa in anterior abdominal wall</div>
       <div class="ans">Ascites <span class="tf">T</span> · Oesophageal varices <span class="tf">T</span> · Splenomegaly <span class="tf">T</span> · Haemorrhoids <span class="tf">T</span> · Caput medusa <span class="tf">T</span> <span class="ref">(RU-14Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="ascites">6 · Ascites in Cirrhosis</h2>
 
-  <details>
-    <summary>🔴 Define ascites. What are the causes of ascites? (Exudative vs Transudative)</summary>
+  <div class="qcard">
+    </div>🔴 Define ascites. What are the causes of ascites? (Exudative vs Transudative)</div>
     <div class="ans">
       <p><strong>Ascites:</strong> Accumulation of excess fluid in the peritoneal cavity. In <span class="hot">85% of cases caused by cirrhosis</span>. Clinically detectable when ≥500 ml accumulated.</p>
       <table>
@@ -719,10 +729,10 @@
       </table>
       <p class="ref">Davidson's 23e pp.847, 862; Robbins 10e p.829</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the mechanism/pathogenesis of ascites in cirrhosis of liver.</summary>
+  <div class="qcard">
+    </div>🔴 Describe the mechanism/pathogenesis of ascites in cirrhosis of liver.</div>
     <div class="ans">
       <p><strong>1. Splanchnic vasodilatation:</strong> Cirrhosis (fibrosis) → pronounced splanchnic vasodilatation → falling systemic arterial pressure → reduced renal blood flow → activation of renin-angiotensin system with secondary hyperaldosteronism → ↑Na⁺ and H₂O retention → ↑plasma hydrostatic pressure → transudation of fluid into peritoneal cavity → ascites.</p>
       <p><strong>2. Percolation of hepatic lymph:</strong> Cirrhosis → hepatic lymphatic flow (20 L/day vs normal 800–1000 ml/day) exceeds thoracic duct return capacity → percolation of excess hepatic lymph (rich in proteins) into peritoneal cavity → ascites.</p>
@@ -731,21 +741,21 @@
       <p><strong>5. Hypoalbuminaemia:</strong> Cirrhosis → impaired hepatic function → decreased albumin synthesis → hypoalbuminaemia → decreased plasma oncotic pressure → transudation → ascites.</p>
       <p class="ref">Robbins 10e p.829; Davidson's 23e p.863</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Why does hypoproteinaemic oedema occur in cirrhosis of liver?</summary>
+  <div class="qcard">
+    </div>Why does hypoproteinaemic oedema occur in cirrhosis of liver?</div>
     <div class="ans">
       <p>The liver is the principal site of protein (mainly albumin) synthesis. In cirrhosis, the normal architecture is altered, hepatocytes undergo necrosis and apoptosis. Protein (albumin) synthesis is decreased → plasma oncotic pressure is decreased → hypoproteinaemic oedema.</p>
       <p class="ref">Robbins 10e p.829; Davidson's 23e p.863</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="alcoholic">7 · Alcoholic Liver Disease</h2>
 
-  <details>
-    <summary>🔴 Give an outline of the spectrum of liver diseases associated with alcohol abuse.</summary>
+  <div class="qcard">
+    </div>🔴 Give an outline of the spectrum of liver diseases associated with alcohol abuse.</div>
     <div class="ans">
       <p><strong>Alcoholic liver disease:</strong> A chronic disorder giving rise to steatosis, alcoholic hepatitis, progressive steato-fibrosis, and marked derangement of vascular perfusion leading eventually to cirrhosis.</p>
       <p>Excessive alcohol (ethanol) consumption is a major cause of liver disease in Western countries. Threshold: <strong>≥80 g/day</strong> (may be lower in women).</p>
@@ -783,13 +793,13 @@
       </ol>
       <p class="ref">Robbins 10e pp.842–845</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="nafld">8 · Nonalcoholic Fatty Liver Disease (NAFLD)</h2>
 
-  <details>
-    <summary>🔴 Define NAFLD and NASH. What are the complications?</summary>
+  <div class="qcard">
+    </div>🔴 Define NAFLD and NASH. What are the complications?</div>
     <div class="ans">
       <p><strong>NAFLD:</strong> Hepatic steatosis (fatty liver) in individuals who do <strong>not</strong> consume alcohol (or in small quantities) and who do not have another cause of secondary hepatic fat accumulation (e.g. HCV, Wilson disease, medications). Associated with <strong>obesity, type 2 diabetes mellitus, and hyperlipidaemia</strong> (components of metabolic syndrome).</p>
       <p><strong>NASH (nonalcoholic steatohepatitis):</strong> NAFLD with steatohepatitic injury and histologic features similar to alcoholic hepatitis.</p>
@@ -801,13 +811,13 @@
         <li>Hepatocellular carcinoma</li>
       </ul>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="inherited">9 · Inherited Liver Disease</h2>
 
-  <details>
-    <summary>🔴 Short note: Haemochromatosis. (Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Haemochromatosis. (Important for VIVA)</div>
     <div class="ans">
       <p><strong>Haemochromatosis:</strong> Caused by excessive iron absorption, most deposited in the <strong>liver and pancreas</strong>, followed by heart, joints, and endocrine organs.</p>
       <h3>Types</h3>
@@ -827,10 +837,10 @@
       <p>Important involved organs: liver, pancreas, heart, joints, endocrine organs.</p>
       <p class="ref">Robbins 10e p.848</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Wilson disease (hepato-lenticular degeneration). (Important for VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Wilson disease (hepato-lenticular degeneration). (Important for VIVA)</div>
     <div class="ans">
       <p><strong>Wilson disease:</strong> An <strong>autosomal recessive</strong> disorder caused by mutation of the <strong>ATP7B gene</strong>, resulting in impaired copper excretion into bile and a failure to incorporate copper into <strong>ceruloplasmin</strong>. Marked by accumulation of toxic levels of copper in many tissues, principally <strong>liver, brain, and eye</strong>.</p>
       <h3>Pathogenesis</h3>
@@ -861,24 +871,24 @@
       <p>Early recognition + long-term copper chelation (D-penicillamine or trientine) or zinc-based therapy (blocks dietary copper uptake). Liver transplantation can be curative in severe cases.</p>
       <p class="ref">Robbins 10e pp.850–851</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="pbc">10 · Primary Biliary Cholangitis (PBC)</h2>
 
-  <details>
-    <summary>🔴 What is primary biliary cholangitis (PBC)?</summary>
+  <div class="qcard">
+    </div>🔴 What is primary biliary cholangitis (PBC)?</div>
     <div class="ans">
       <p><strong>PBC:</strong> An <strong>autoimmune disease</strong> characterised by inflammatory destruction of small- and medium-sized <strong>intrahepatic bile ducts</strong>.</p>
       <p class="ref">Robbins 10e p.857</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="hcc">11 · Hepatocellular Carcinoma (HCC)</h2>
 
-  <details>
-    <summary>🔴 Write down the etiology of hepatocellular carcinoma (HCC). Give its morphology and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Write down the etiology of hepatocellular carcinoma (HCC). Give its morphology and clinical features.</div>
     <div class="ans">
       <p><strong>HCC:</strong> Most primary liver cancers arise from hepatocytes. Accounts for ~5.4% of all cancers worldwide. <span class="hot">Pronounced male predominance (up to 8:1).</span></p>
       <h3>Causes / risk factors</h3>
@@ -911,17 +921,17 @@
       <p>Cachexia, GI/variceal bleeding, liver failure with hepatic coma, rupture with fatal haemorrhage (rare).</p>
       <p class="ref">Robbins 10e p.868</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 A male of 55 years with history of hepatitis B infection presents with weakness, hepatomegaly. USG shows a SOL in the liver. What is your diagnosis?</summary>
+  <div class="qcard">
+    </div>🔴 A male of 55 years with history of hepatitis B infection presents with weakness, hepatomegaly. USG shows a SOL in the liver. What is your diagnosis?</div>
     <div class="ans">
       <p><strong>Probable diagnosis:</strong> Hepatocellular carcinoma (HCC).</p>
       <p><strong>Investigations to proceed:</strong></p>
     </div>
-  </details>
-  <details>
-    <summary>How will you proceed?</summary>
+  </div>
+  <div class="qcard">
+    </div>How will you proceed?</div>
     <div class="ans">
       <ol>
       <li>Liver function test: ↓total protein, ↓albumin, ↓A:G ratio, ↑PT, ↑bilirubin</li>
@@ -931,28 +941,28 @@
       <li>Image-guided core needle biopsy / FNAC from liver SOL → histopathology</li>
       </ol>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Hepatocellular Carcinoma</summary>
-    <details>
-      <summary>Etiological factors relevant to HCC include: Viral infection · Tobacco smoking · Chronic alcoholism · Helicobacter pylori infection · Exposure to aflatoxin</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Hepatocellular Carcinoma</div>
+    <div class="qcard">
+      </div>Etiological factors relevant to HCC include: Viral infection · Tobacco smoking · Chronic alcoholism · Helicobacter pylori infection · Exposure to aflatoxin</div>
       <div class="ans">Viral infection <span class="tf">T</span> · Tobacco smoking <span class="ff">F</span> · Chronic alcoholism <span class="tf">T</span> · H. pylori infection <span class="ff">F</span> · Aflatoxin <span class="tf">T</span> <span class="ref">(DU-16Ja)</span></div>
-    </details>
-    <details>
-      <summary>Causes of hepatocellular carcinoma include: Viral hepatitis · Aflatoxin · Hereditary haemochromatosis · α₁-antitrypsin deficiency</summary>
+    </div>
+    <div class="qcard">
+      </div>Causes of hepatocellular carcinoma include: Viral hepatitis · Aflatoxin · Hereditary haemochromatosis · α₁-antitrypsin deficiency</div>
       <div class="ans">Viral hepatitis <span class="tf">T</span> · Aflatoxin <span class="tf">T</span> · Haemochromatosis <span class="tf">T</span> · α₁-antitrypsin deficiency <span class="tf">T</span> <span class="ref">(RU-14Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="abscess">12 · Liver Abscess</h2>
 
-  <details>
-    <summary>🔴 Short note: Liver abscess.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Liver abscess.</div>
     <div class="ans">
       <p><strong>Liver abscess:</strong> A form of liver infection common in developing countries.</p>
       <p><strong>Cause:</strong> Usually echinococcal and amebic infections; less commonly other protozoal/helminthic organisms. Most abscesses are pyogenic (complication of bacterial infection elsewhere).</p>
@@ -973,10 +983,10 @@
       <p>Antibiotic therapy (smaller lesions), surgical drainage (larger lesions). Mortality with large abscesses: 30–90%; with early recognition, up to 80% survive.</p>
       <p class="ref">Robbins 10e pp.839, 854</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Name common pathological conditions of hepatomegaly. What are the causes of tender hepatomegaly?</summary>
+  <div class="qcard">
+    </div>🔴 Name common pathological conditions of hepatomegaly. What are the causes of tender hepatomegaly?</div>
     <div class="ans">
       <h3>Causes of hepatomegaly</h3>
       <p><strong>A. Hepatic causes:</strong> Viral hepatitis, liver abscess (pyogenic/amoebic), primary HCC, secondaries in liver, polycystic liver, hydatid cyst, cirrhosis (early), NAFLD, alcohol, haemochromatosis, amyloidosis, Budd-Chiari syndrome.</p>
@@ -993,13 +1003,13 @@
       <div class="mnem">🎯 D/Ds of liver SOL (space-occupying lesion): Liver abscess · Haemangioma · Hydatid cyst · Adenoma · Hepatocellular carcinoma.</div>
       <p class="ref">Davidson's 23e p.862; Robbins 10e p.862</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="gallbladder">13 · Gall Bladder &amp; Biliary Tract Diseases</h2>
 
-  <details>
-    <summary>🔴 Name the pathological conditions of gall bladder and extra-hepatic biliary ducts.</summary>
+  <div class="qcard">
+    </div>🔴 Name the pathological conditions of gall bladder and extra-hepatic biliary ducts.</div>
     <div class="ans">
       <h3>Diseases of gall bladder</h3>
       <ol>
@@ -1023,13 +1033,13 @@
       </ol>
       <p class="ref">Robbins 10e pp.823, 872–877</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="gallstones">14 · Gallstones (Cholelithiasis)</h2>
 
-  <details>
-    <summary>🔴 Define gall stones. Write the pathogenesis of gall stone formation (cholesterol + pigment stones).</summary>
+  <div class="qcard">
+    </div>🔴 Define gall stones. Write the pathogenesis of gall stone formation (cholesterol + pigment stones).</div>
     <div class="ans">
       <p><strong>Gallstones:</strong> Concretions produced in the gall bladder due to abnormal composition of bile. Supersaturation of bile with cholesterol or bilirubin salts promotes stone formation.</p>
       <h3>A) Pathogenesis of cholesterol stones</h3>
@@ -1048,10 +1058,10 @@
       </ul>
       <p class="ref">Robbins 10e p.873</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Classify gallstones. Mention etiology/risk factors and complications.</summary>
+  <div class="qcard">
+    </div>🔴 Classify gallstones. Mention etiology/risk factors and complications.</div>
     <div class="ans">
       <h3>Classification</h3>
       <table>
@@ -1076,36 +1086,36 @@
       </ol>
       <p class="ref">Robbins 10e pp.873, 875</p>
     </div>
-  </details>
+  </div>
 
   
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Gallstones</summary>
-    <details>
-      <summary>Complications of gallstone include: Empyema of the gall bladder · Carcinoma of the gall bladder · Liver failure · Renal failure · Cirrhosis of liver</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Gallstones</div>
+    <div class="qcard">
+      </div>Complications of gallstone include: Empyema of the gall bladder · Carcinoma of the gall bladder · Liver failure · Renal failure · Cirrhosis of liver</div>
       <div class="ans">Empyema <span class="tf">T</span> · Carcinoma <span class="tf">T</span> · Liver failure <span class="ff">F</span> · Renal failure <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> <span class="ref">(RMU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Conditions predisposing to gall stone formation include: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Raised serum triglycerides</summary>
+    </div>
+    <div class="qcard">
+      </div>Conditions predisposing to gall stone formation include: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Raised serum triglycerides</div>
       <div class="ans">Viral hepatitis <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> · Hereditary spherocytosis <span class="tf">T</span> · Obesity <span class="tf">T</span> · Raised triglycerides <span class="ff">F</span> <span class="ref">(DU-21Ja)</span></div>
-    </details>
-    <details>
-      <summary>Gallstones are associated with: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Sickle cell anaemia</summary>
+    </div>
+    <div class="qcard">
+      </div>Gallstones are associated with: Viral hepatitis · Cirrhosis of liver · Hereditary spherocytosis · Obesity · Sickle cell anaemia</div>
       <div class="ans">Viral hepatitis <span class="ff">F</span> · Cirrhosis <span class="ff">F</span> · Hereditary spherocytosis <span class="tf">T</span> · Obesity <span class="tf">T</span> · Sickle cell anaemia <span class="tf">T</span> <span class="ref">(DU-13Ju)</span></div>
-    </details>
-    <details>
-      <summary>Obstruction of common bile duct is associated with: Great increase in ALP · Increase in serum unconjugated bilirubin · Decrease in faecal stercobilinogen · Increase in faecal fat · Increase in urinary urobilinogen</summary>
+    </div>
+    <div class="qcard">
+      </div>Obstruction of common bile duct is associated with: Great increase in ALP · Increase in serum unconjugated bilirubin · Decrease in faecal stercobilinogen · Increase in faecal fat · Increase in urinary urobilinogen</div>
       <div class="ans">ALP increase <span class="tf">T</span> · Unconjugated bilirubin increase <span class="ff">F</span> · Faecal stercobilinogen decrease <span class="tf">T</span> · Faecal fat increase <span class="tf">T</span> · Urinary urobilinogen increase <span class="ff">F</span> <span class="ref">(DU-13Ju)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
 
 <!-- ============================================================ -->
   <h2 id="cholecystitis">15 · Acute &amp; Chronic Cholecystitis</h2>
 
-  <details>
-    <summary>🔴 Short note: Acute cholecystitis.</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Acute cholecystitis.</div>
     <div class="ans">
       <p><strong>Acute cholecystitis:</strong> Acute inflammation of the gall bladder, precipitated in <span class="hot">90% of cases by obstruction of the neck of the GB or cystic duct by a gallstone</span>.</p>
       <h3>Risk factors</h3>
@@ -1127,10 +1137,10 @@
       <p>Definitive diagnosis: USG / CT scan of whole abdomen.</p>
       <p class="ref">Robbins 10e p.875; BRS Pathology 5e p.255</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is chronic cholecystitis? Mention morphological changes.</summary>
+  <div class="qcard">
+    </div>🔴 What is chronic cholecystitis? Mention morphological changes.</div>
     <div class="ans">
       <p><strong>Chronic cholecystitis:</strong> Chronic inflammation of the gallbladder due to chemical irritation from long-standing cholelithiasis, with or without superimposed bouts of acute cholecystitis.</p>
       <h3>Morphology</h3>
@@ -1153,10 +1163,10 @@
       </ul>
       <p class="ref">Robbins 10e p.876; BRS Pathology 5e p.255</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the potential complications of chronic cholecystitis?</summary>
+  <div class="qcard">
+    </div>What are the potential complications of chronic cholecystitis?</div>
     <div class="ans">
       <ul>
         <li>Bacterial superinfection with cholangitis or sepsis</li>
@@ -1167,13 +1177,13 @@
       </ul>
       <p class="ref">Robbins 10e p.876</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="gbc">16 · Carcinoma of Gall Bladder</h2>
 
-  <details>
-    <summary>🔴 What type of carcinoma occurs in gall bladder? Give its morphology.</summary>
+  <div class="qcard">
+    </div>🔴 What type of carcinoma occurs in gall bladder? Give its morphology.</div>
     <div class="ans">
       <p><strong>Type:</strong> Most carcinomas of the GB are <strong>adenocarcinomas</strong> (lined by columnar epithelium). About 5% are squamous cell carcinoma or adenosquamous differentiation. Squamous cell carcinoma may occur in long-standing gallstone disease (gallstones cause squamous metaplasia). A minority may show carcinoid or mesenchymal features (carcinosarcoma).</p>
       <h3>Morphology</h3>
@@ -1184,13 +1194,13 @@
       </ol>
       <p class="ref">Robbins 10e pp.876–877</p>
     </div>
-  </details>
+  </div>
 
   <!-- ============================================================ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; Viva Sweep (incl. folded Liver &amp; Biliary MCQs from ch18)</h2>
 
-  <details class="rapid" open>
-    <summary>Liver &amp; Biliary Tract — True/False &amp; one-liners (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Liver &amp; Biliary Tract — True/False &amp; one-liners (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Causes of chronic liver disease include: Hepatitis A virus (F), Hepatitis B virus (T), Hepatitis C virus (T), Human papilloma virus (F), Hepatitis E virus (F).</div>
@@ -1269,7 +1279,7 @@
       <div class="a">Caput medusae = <strong>dilated periumbilical veins</strong> (portosystemic shunting via paraumbilical veins) · Fetor hepaticus = <strong>"musty/sweet and sour" body odour</strong> (portosystemic shunting of volatile substances) · Asterixis = <strong>flapping tremor</strong> (hepatic encephalopathy — nonrhythmic extension-flexion movements of hands).</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>

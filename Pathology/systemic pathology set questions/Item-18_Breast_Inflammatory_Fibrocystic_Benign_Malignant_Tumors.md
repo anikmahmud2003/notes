@@ -6,8 +6,7 @@
 
 # Part A — Morphological Classification & Risk Factors (Q1–2)
 
-<details>
-<summary><b>Q1. Classify carcinoma breast according to morphology. Name the stromal tumors of the breast.</b></summary>
+### Q1. Classify carcinoma breast according to morphology. Name the stromal tumors of the breast.
 
 ### Morphological Classification of Carcinoma of the Breast
 
@@ -60,10 +59,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. Mention risk factors of carcinoma breast. How will you diagnose a case of carcinoma cervix?</b></summary>
+### Q2. Mention risk factors of carcinoma breast. How will you diagnose a case of carcinoma cervix?
 
 ### Risk Factors of Carcinoma Breast
 
@@ -133,12 +130,10 @@
 
 ---
 
-</details>
 
 # Part B — Inflammatory Disorders & Breast Lump (Q3–4)
 
-<details>
-<summary><b>Q3. Name inflammatory disorders of the breast. Discuss breast abscess.</b></summary>
+### Q3. Name inflammatory disorders of the breast. Discuss breast abscess.
 
 ### Inflammatory Disorders of the Breast
 
@@ -205,10 +200,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Mention the causes of breast lump in females. What is triple assessment?</b></summary>
+### Q4. Mention the causes of breast lump in females. What is triple assessment?
 
 ### Causes of Breast Lump in Females
 
@@ -253,12 +246,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
 # Part C — Fibroadenoma & Molecular Subtypes (Q5–6)
 
-<details>
-<summary><b>Q5. Mention the morphological features of fibroadenoma of breast.</b></summary>
+### Q5. Mention the morphological features of fibroadenoma of breast.
 
 ### Definition
 🔴 **Fibroadenoma = the most common benign tumor of the female breast**, a biphasic neoplasm composed of **proliferating intralobular stroma** and **epithelium**. Driven by **somatic MED12 mutations** (~2/3 of cases).
@@ -307,10 +298,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Mention the molecular subtypes of invasive breast cancer.</b></summary>
+### Q6. Mention the molecular subtypes of invasive breast cancer.
 
 ### Overview
 🔴 **Invasive breast cancer is classified into 3 major molecular subtypes** based on gene expression profiling, each with distinct genetics, biology, metastatic pattern, and therapy. All arise from the TDLU.
@@ -357,12 +346,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
 # Part D — Prognostic Factors & Gynecomastia (Q7–8)
 
-<details>
-<summary><b>Q7. What are the prognostic factors of breast cancer?</b></summary>
+### Q7. What are the prognostic factors of breast cancer?
 
 ### Overview
 🔴 **Prognostic factors** tell the likely outcome; **predictive factors** tell the likely response to therapy. The AJCC 8th edition combines anatomic staging with prognostic factors (grade, ER, PR, HER2) to create a **prognostic stage**.
@@ -405,10 +392,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Short note: Gynecomastia.</b></summary>
+### Q8. Short note: Gynecomastia.
 
 ### Definition
 🔴 **Gynecomastia = benign proliferation of male breast glandular tissue**, producing a palpable subareolar mass. It is **NOT** the same as pseudogynecomastia (fat deposition in obese men).
@@ -466,12 +451,10 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
 # Part E — Clinical Cases (Q9–10)
 
-<details>
-<summary><b>Q9. A 25 yr old woman is presented with a firm, mobile nodule in the outer quadrant of the right breast. Write down your D/D. How will you proceed to investigate the case?</b></summary>
+### Q9. A 25 yr old woman is presented with a firm, mobile nodule in the outer quadrant of the right breast. Write down your D/D. How will you proceed to investigate the case?
 
 ### Differential Diagnosis
 
@@ -521,10 +504,8 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. A 65 yr old woman is found to have a 1.5 cm firm, fixed, irregular mass in the upper outer quadrant of the left breast. Write down your D/D.</b></summary>
+### Q10. A 65 yr old woman is found to have a 1.5 cm firm, fixed, irregular mass in the upper outer quadrant of the left breast. Write down your D/D.
 
 ### Differential Diagnosis
 
@@ -584,4 +565,3 @@ Bacterial entry (cracked nipple / duct obstruction)
 
 ---
 
-</details>

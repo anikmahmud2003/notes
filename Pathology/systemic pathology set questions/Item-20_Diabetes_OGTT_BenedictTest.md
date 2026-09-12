@@ -6,8 +6,7 @@
 
 # Part A — Diabetes Mellitus: Definition & Diagnosis (Q1–7)
 
-<details>
-<summary><b>Q1. Define DM. Classify it.</b></summary>
+### Q1. Define DM. Classify it.
 
 ### Definition
 
@@ -40,10 +39,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are the differences between Type-I & Type-II diabetes mellitus?</b></summary>
+### Q2. What are the differences between Type-I & Type-II diabetes mellitus?
 
 ### Type I vs Type II DM — comparison table
 
@@ -70,10 +67,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Give the lab diagnosis of DM.</b></summary>
+### Q3. Give the lab diagnosis of DM.
 
 ### Diagnostic criteria (any ONE establishes DM)
 
@@ -111,10 +106,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. What is IFG and IGT? Tell their significance.</b></summary>
+### Q4. What is IFG and IGT? Tell their significance.
 
 ### Definitions
 
@@ -146,10 +139,8 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Tell WHO diagnostic criteria of DM.</b></summary>
+### Q5. Tell WHO diagnostic criteria of DM.
 
 ### WHO criteria for diagnosis of DM (non-pregnant adults)
 
@@ -180,10 +171,8 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. What is GDM & IGT? Discuss about HbA1c.</b></summary>
+### Q6. What is GDM & IGT? Discuss about HbA1c.
 
 ### Gestational diabetes mellitus (GDM)
 
@@ -231,10 +220,8 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. What is OGTT? Tell its procedure and interpretation.</b></summary>
+### Q7. What is OGTT? Tell its procedure and interpretation.
 
 ### Definition
 
@@ -274,12 +261,10 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-</details>
 
 # Part B — Complications & Hypoglycemia (Q8–13)
 
-<details>
-<summary><b>Q8. What are the complications of DM?</b></summary>
+### Q8. What are the complications of DM?
 
 ### Overview table
 
@@ -315,10 +300,8 @@ Together = 🔴 **"prediabetes" / intermediate hyperglycemia / dysglycemia**.
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Short note: Renal glycosuria.</b></summary>
+### Q9. Short note: Renal glycosuria.
 
 ### Definition
 
@@ -365,10 +348,8 @@ Glucosuria appears at LOW plasma glucose (normal FPG, normal OGTT)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. What do you mean by hyperglycemia sine glycosuria? Tell the importance of HbA1c.</b></summary>
+### Q10. What do you mean by hyperglycemia sine glycosuria? Tell the importance of HbA1c.
 
 ### Hyperglycemia sine glycosuria
 
@@ -406,10 +387,8 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Define hypoglycemia. What are the causes of hypoglycemia?</b></summary>
+### Q11. Define hypoglycemia. What are the causes of hypoglycemia?
 
 ### Definition
 
@@ -438,10 +417,8 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. How does hypoglycemia occur in diabetic patients?</b></summary>
+### Q12. How does hypoglycemia occur in diabetic patients?
 
 ### Why diabetics develop hypoglycemia (the commonest acute complication of treatment)
 
@@ -480,10 +457,8 @@ NO glycosuria despite hyperglycemia
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Discuss in short about the pathogenesis of diabetic ketoacidosis.</b></summary>
+### Q13. Discuss in short about the pathogenesis of diabetic ketoacidosis.
 
 ### Setting
 
@@ -547,12 +522,10 @@ normal/high — falls abruptly with insulin therapy → replace early.
 
 ---
 
-</details>
 
 # Part C — Benedict Test & Case (Q14–15)
 
-<details>
-<summary><b>Q14. Tell the procedure and interpretations of Benedict's test.</b></summary>
+### Q14. Tell the procedure and interpretations of Benedict's test.
 
 ### What it is
 
@@ -604,10 +577,8 @@ normal/high — falls abruptly with insulin therapy → replace early.
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. A 25 year old type I diabetic patient was taking insulin regularly as treatment. He suddenly became unconscious and was brought to you. You examined and got the patient sweating with increased heart rate. His relatives gave a history of missed meal this morning after taking insulin. What is your diagnosis? How will you treat the patient?</b></summary>
+### Q15. A 25 year old type I diabetic patient was taking insulin regularly as treatment. He suddenly became unconscious and was brought to you. You examined and got the patient sweating with increased heart rate. His relatives gave a history of missed meal this morning after taking insulin. What is your diagnosis? How will you treat the patient?
 
 ### What is your diagnosis?
 
@@ -655,4 +626,3 @@ normal/high — falls abruptly with insulin therapy → replace early.
 
 ---
 
-</details>

@@ -9,8 +9,7 @@
 
 4
 
-<details>
-<summary><b>📌 Viva — Procedures for disinfection</b></summary>
+### 📌 Viva — Procedures for disinfection
 
 **Procedures for disinfection:**
 Faeces and urine Bleaching powder, phenol (crude), cresol, lime
@@ -35,19 +34,15 @@ Mattresses and
 Floor, furniture and other room surfaces
 Isolation room and other rooms
 [Ref- Rashid, Khabir, Hyder / 5" /293]
-</details>
 
-<details>
-<summary><b>Q. How can you disinfect hospital beddings (mattresses, linen & clothes)? [DU-14J]</b></summary>
+### Q. How can you disinfect hospital beddings (mattresses, linen & clothes)? [DU-14J]
 
 **Disinfection of mattresses:**
 By iodophor.
 Disinfection of linen & clothes:
 Boiling.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Auto disabled syringes.</b></summary>
+### Q. Write short note on: Auto disabled syringes.
 
 **A-D Syringes:**
 They are self-locking syringes that can be used only once. They are the preferred equipment for all
@@ -60,10 +55,8 @@ i) They can only be used once.
 ii) They eliminate the patient to patient disease transmission caused by the use of contaminated needle
 and syringes.
 iii) They save time for health workers from their heavy work for sterilization.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Prefilled AD injection devices.</b></summary>
+### Q. Write short note on: Prefilled AD injection devices.
 
 **Prefilled AD injection devices:**
 Pre filled AD injection devices are single dose packe
@@ -90,10 +83,8 @@ i
 i) The barrel, and |
 ii) The plunger top. |
 [Ref- Immunization in practice / WHO] i
-</details>
 
-<details>
-<summary><b>Q. What are the differences betw: isepti isi Ht</b></summary>
+### Q. What are the differences betw: isepti isi Ht
 
 Ancwer veen antiseptics and disinfectant? |
 Differences between antiseptics and disinfectant:
@@ -116,10 +107,8 @@ Cresol (Lysol), Chlorhexidine, Dettol, Savion,
 Povidone iodine etc.
 5. Example
 Sterilization ei aiesal |
-</details>
 
-<details>
-<summary><b>Q. Define sterilization. [RU-10Ju] What are the methods of sterilization? i</b></summary>
+### Q. Define sterilization. [RU-10Ju] What are the methods of sterilization? i
 
 **Sterilization:**
 Sterilization is the absolute freeing of an article from any microbial burden including spores. i)
@@ -167,20 +156,16 @@ d) Ultrasonication:
 - Oxidizing agents e.g. halogen (iodine, chlorine), H2O2 etc.
 - Dyes e.g. crystal violet.
 - Alkylating agents e.g. formaldehyde, gluteraldehyde, ethylene oxide etc.
-</details>
 
-<details>
-<summary><b>Q. Mention the mechanism of action of radiation.</b></summary>
+### Q. Mention the mechanism of action of radiation.
 
 **Mechanism of. action of radiation:**
 1) Formation of thymine dimers and addition of hydroxy! groups to the nucleotide bases. As a result ;
 DNA replication is inhibited and the organism can’t grow.
 2) Production of free radicals.
 3) Direct heat on a covalent bond in DNA, resulting in chain breakage.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Ionizing radiation.</b></summary>
+### Q. Write short note on: Ionizing radiation.
 
 **lonizing radiation (B & y rays):**
 Ionizing radiation is being increasingly used for sterilization of bandages, dressing, catgut, plastic
@@ -190,10 +175,8 @@ opened. Ionizing radiation has great penetrating powers with little or no heatin
 This method is most effective but very costly. Commercial methods of sterilization are normally carried
 out by gamma radiation (atomic). It is now one of the most viable, safe and economic methods used today.
 [Ref- Park /24"/ 137]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Boiling.</b></summary>
+### Q. Write short note on: Boiling.
 
 **Boiling:**
 Boiling is an effective method of disinfection. Boiling for 5-10 minutes (rolling boil) w
@@ -209,10 +192,8 @@ minutes is adequate to disinfect linen, utensils, and bedpans. i]
 ; The drawbacks of boiling are that it is a slow process, unsuitable for thick beddings and woolen
 materials as they shrink, and it fixes albuminous stain,
 [Ref- Park /24"/ 137]
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Autoclave. |</b></summary>
+### Q. Write short note on: Autoclave. |
 
 H
 Autoclave:
@@ -236,10 +217,8 @@ including spores. It is the most effective method for sterilization of linen, dr
 surgical instruments and culture media. It is not suitable for sterilization of plastics and sharp instruments by
 autoclave.
 [Ref- Rashid, Khabir, Hyder / 4" /267 + M.R. Choudhury / 5" / 43 + Park / 24" / 137]
-</details>
 
-<details>
-<summary><b>Q. Give the mechanism of action of dry heat and moist heat. l</b></summary>
+### Q. Give the mechanism of action of dry heat and moist heat. l
 
 i|
 Mechanism of action of dry heat: 1
@@ -250,20 +229,16 @@ Mechanism of action of moist heat: i
 1. Loss of functional integrity of cytoplasmic membrane. |
 2. Denaturation and coagulation of structural proteins and enzymes. |
 3. Breakage of DNA strands.
-</details>
 
-<details>
-<summary><b>Q. Mention the advantages of moist heat over dry heat in sterilization. |<br>Q. Why moist heat is better / superior than dry heat?</b></summary>
+### Q. Mention the advantages of moist heat over dry heat in sterilization. |<br>Q. Why moist heat is better / superior than dry heat?
 
 **Moist heat is superior to dry heat due to:**
 1. Moist heat has a better penetrating power at a lower temperature. |
 2. It produces latent heat. |
 3. Kills the bacteria by denaturing their enzyme & structural proteins. \ |
 4. Bacteria are more susceptible to moist heat |
-</details>
 
-<details>
-<summary><b>Q. Name the methods by which an object is made free from spores.</b></summary>
+### Q. Name the methods by which an object is made free from spores.
 
 **Methods by which an object is made free from spores:**
 1. Physical methods:
@@ -275,10 +250,8 @@ Mechanism of action of moist heat: i
   - Ethylene oxide
   - Formaldehyde
   - Gluteraldehyde
-</details>
 
-<details>
-<summary><b>Q. Name the materials sterilized by ethylene oxide gas.</b></summary>
+### Q. Name the materials sterilized by ethylene oxide gas.
 
 **Materials sterilized by ethylene oxide gas:**
 1) Heart-lung machine.
@@ -288,10 +261,8 @@ Mechanism of action of moist heat: i
 5) Artery and bone graft.
 6) Polythene tubing.
 7) Electrical and medical instruments.
-</details>
 
-<details>
-<summary><b>Q. Give the methods of sterilization of disposable syringe, catheter, glass wares and culture</b></summary>
+### Q. Give the methods of sterilization of disposable syringe, catheter, glass wares and culture
 
 media.
 Most suitable method of sterilization of the following agents:
@@ -308,10 +279,8 @@ Culture media ~ | Autoclave
 Culture media containing serum & egg — by tyndalization.
 ar — by steaming (90 minutes
 Culture media containing sug
-</details>
 
-<details>
-<summary><b>Q. Differentiate between disinfection and sterilization.</b></summary>
+### Q. Differentiate between disinfection and sterilization.
 
 **Differences between disinfection and sterilization:**
 Disinfection is a process of reduction of
@@ -326,10 +295,8 @@ Sterilization is an absolute term i.e, th
 article must be sterile.
 2) Effectiveness
 _ at
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Fumigation.</b></summary>
+### Q. Write short note on: Fumigation.
 
 **Fumigation:** It is a process of gaseous disinfection by using formaldehyde in the form of vapor.
 Uses:
@@ -345,10 +312,8 @@ meters of space) in a stainless steel vessel over an electric hot plate.
 There is vigorous boiling and liberation of formaldehyde gas.
 The room is kept closed for 6 — 12 hours to allow disinfection.
 [Ref- Park / 24" / 138, 139 + Rashid, Khabir, Hyder / 5/294]
-</details>
 
-<details>
-<summary><b>Q. How can we prevent and control hospital acquired / nosocomial infection?</b></summary>
+### Q. How can we prevent and control hospital acquired / nosocomial infection?
 
 Prevention and control of hospital acquired / nosocomial infection:
 1) Isolation: Infectious patients must be isolated.
@@ -371,10 +336,8 @@ infection. ;
 [Ref- Park / 24" /376]
 g when dealing with
 usting and vacuum cleaning are important control
-</details>
 
-<details>
-<summary><b>Q. Tetanus has broken out ina ward of a hospital. How the ward may be disinfected?</b></summary>
+### Q. Tetanus has broken out ina ward of a hospital. How the ward may be disinfected?
 
 The ward may be disinfected by = ,
 1) Fumigation.
@@ -398,5 +361,4 @@ Malnutrition...
 Protein energy malnutri ion (PEM).
 Lathyrism ....scsssssesseseesseenereennennes
 Milk, meat & food borne disease:
-</details>
 

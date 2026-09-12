@@ -5,8 +5,7 @@
 
 ---
 
-<details>
-<summary><b>Q1. Classify ARI. (S12,Q2)</b></summary>
+### Q1. Classify ARI. (S12,Q2)
 
 ### Classification of ARI (Acute Respiratory Infection)
 **A. Anatomical classification:**
@@ -33,10 +32,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. How can you prevent ARI in rural community? (S13,Q2)</b></summary>
+### Q2. How can you prevent ARI in rural community? (S13,Q2)
 
 ### Prevention & control of ARI in a rural community
 1. **Improved living conditions** — avoid crowding in living & sleeping quarters; **ensure proper (cross) ventilation**.
@@ -55,10 +52,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. How can you assess and manage a case of moderate dehydrate patient? (S24,Q2)</b></summary>
+### Q3. How can you assess and manage a case of moderate dehydrate patient? (S24,Q2)
 
 > "Moderate (some) dehydration" = **5–10% body weight loss (50–100 ml/kg)**.
 
@@ -91,10 +86,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. Define diarrhoea and its causative organism. (S25,Q2)</b></summary>
+### Q4. Define diarrhoea and its causative organism. (S25,Q2)
 
 ### Definition of diarrhoea
 > 🔴 **Diarrhoea** = passage of **loose, liquid or watery stools three or more times a day**. However, it is the **recent change in the consistency & character of stools** (rather than mere number) that is important (e.g. in breast-fed infants).
@@ -117,10 +110,8 @@
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Classify food poisoning. What are the common cardinal features of food poisoning outbreak? (S27,Q2)</b></summary>
+### Q5. Classify food poisoning. What are the common cardinal features of food poisoning outbreak? (S27,Q2)
 
 ### Definition & classification of food poisoning
 > 🔴 **Food poisoning** = **acute gastro-enteritis** caused by ingestion of food or drink contaminated with **living bacteria / their toxins / inorganic chemical substances / poisons from plants & animals**.
@@ -145,4 +136,3 @@
 
 > 📖 Ch-05, Endeavour PDF pp. 245
 
-</details>

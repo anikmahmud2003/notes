@@ -12,8 +12,7 @@ MEDICINE FOR WRITTEN.
 
 ## Food, nutrition, nutrients & diet
 
-<details>
-<summary><b>Q. Define food. [CU-10Ju/J, RU-I Ju]<br>Q. What are the functions of food?</b></summary>
+### Q. Define food. [CU-10Ju/J, RU-I Ju]<br>Q. What are the functions of food?
 
 **Food:** . .
 Food is a composite mixture of substances which when consumed performs certain functions in the
@@ -23,10 +22,8 @@ i) Yielding energy
 ii) Building and maintaining the body.
 iii) Protecting the body & regulating the tissue function.
 [Ref- Rashid, Khabir, Hyder / 5” / 136]
-</details>
 
-<details>
-<summary><b>Q. Classify food. [DU-17M, CU-10Ju]<br>Q. Classify food on the basis of predominant functions. [DU-16N, RU-1 1Ju/J, SUST-17N, 13Ju]</b></summary>
+### Q. Classify food. [DU-17M, CU-10Ju]<br>Q. Classify food on the basis of predominant functions. [DU-16N, RU-1 1Ju/J, SUST-17N, 13Ju]
 
 **Classification of food:**
 “ According to chemical composition:
@@ -62,20 +59,16 @@ o
 [Ref- Park /24" / 647 + A C Deb /9"/894, 895]
 __ tf
 4
-</details>
 
-<details>
-<summary><b>Q. Write down the functions of food</b></summary>
+### Q. Write down the functions of food
 
 **Functions of food:**
 i pia nacre iia of heat & for all types of physical activities.
 3) Repair of the daily wear & tear.
 4) Fiber helps the stomach and bowels work efficiently.
 5) Vitamins and minerals serve as messengers and catalysts.
-</details>
 
-<details>
-<summary><b>Q. Name the calorigenic foods with their calorie values.</b></summary>
+### Q. Name the calorigenic foods with their calorie values.
 
 Calorigenic food / energy releasing food / energy yielding foods or energy value of food:
 Carbohydrate 4.1
@@ -84,10 +77,8 @@ Carbohydrate 4.1
 Protein
 Fat
 [Ref- Ganong / 24" / 489]
-</details>
 
-<details>
-<summary><b>Q. Write down the functions of non-calorigenic foods.</b></summary>
+### Q. Write down the functions of non-calorigenic foods.
 
 **Functions of non-caloriegenic foods:** (vitamin, mineral, water, dietary fibre).
 1) Water is a very essential component of cells, tissues and body fluids. Without water, no
@@ -100,10 +91,8 @@ etc.
 4) Dietary fibers are essenti
 colon cancer.
 al for normal bowel activity. The soften stools and prevent incidence of
-</details>
 
-<details>
-<summary><b>Q. Describe the role of each component of a balanced diet.<br>Q. Write down the functions of dietary carbohydrate, protein & lipids.</b></summary>
+### Q. Describe the role of each component of a balanced diet.<br>Q. Write down the functions of dietary carbohydrate, protein & lipids.
 
 **Functions of dietary carbohydrates (CHO):**
 1) Major sources of energy: Carbohydrates are the principal source of energy, supplying 60-80% of
@@ -156,19 +145,15 @@ Prevent fat accumulation in the liver.
 They are required for the synthesis of prostaglandins.
 Maintain proper growth and reproduction of the organisms.
 [Ref- Satyanarayana / 3" / 507-510 + Harper /27*]
-</details>
 
-<details>
-<summary><b>Q. What components of food are absent in rice, pulse, milk and egg?</b></summary>
+### Q. What components of food are absent in rice, pulse, milk and egg?
 
 **Rice:** Protein absent
 Pulse: Carbohydrate absent
 Milk: Ideal (but dietary fiber absent)
 Egg: Carbohydrate absent
-</details>
 
-<details>
-<summary><b>Q. What are the proximate principles of food?</b></summary>
+### Q. What are the proximate principles of food?
 
 **Proximate principles of food:** Protein, fat & carbohydrates are often called ‘proximate principles of food’ as
 they form the main bulk of food. They contribute to the total energy intake in the following proportions:
@@ -176,10 +161,8 @@ they form the main bulk of food. They contribute to the total energy intake in t
   - Fats: 10-30%
   - Carbohydrates: 65 — 80%
 [Ref- Park /24"/ 647]
-</details>
 
-<details>
-<summary><b>Q. What is a nutrient?<br>Q. Classify nutrients.</b></summary>
+### Q. What is a nutrient?<br>Q. Classify nutrients.
 
 **Nutrients:** Nutrients are organic & inorganic complexes contained in food. There are about 50 different
 nutrients which are normally supplied through the food.
@@ -195,25 +178,19 @@ may vary from a fraction of a mg to several grams. They are -
   - Vitamins &
   - Minerals.
 [Ref- Park / 24" / 647|
-</details>
 
-<details>
-<summary><b>Q. What are the micronutrient deficiency diseases? [RU-09Ju]</b></summary>
+### Q. What are the micronutrient deficiency diseases? [RU-09Ju]
 
 Please see later the diseases caused by different vitamin and mineral deficiencies.
-</details>
 
-<details>
-<summary><b>Q. What is nutrition? [CU-10J]</b></summary>
+### Q. What is nutrition? [CU-10J]
 
 **Nutrition:** Nutrition is the science or practice of consuming and utilizing foods.
 In other word, nutrition is the science of foods, the nutrients and other substances in foods, their actions,
 interaction and balance in relation to diet, health and diseases.
 [Ref- Rashid, Khabir, Hyder / 5" / 136]
-</details>
 
-<details>
-<summary><b>Q. Define diet? [CU-10J, RU-09Ju]</b></summary>
+### Q. Define diet? [CU-10J, RU-09Ju]
 
 **Diet:**
 A diet may be defined as the kinds of food on which a person or group lives.
@@ -221,18 +198,14 @@ A diet may be defined as the kinds of food on which a person or group lives.
 Or,
 The food which we are eating and or drinking is called diet.
 [Ref- Rashid, Khabir, Hyder / 5" / 136]
-</details>
 
-<details>
-<summary><b>Q. Define dietetics.</b></summary>
+### Q. Define dietetics.
 
 **Dietetics:**
 It is the science and art of food, the goal of which is to improve health through optimal feeding
 practices.
-</details>
 
-<details>
-<summary><b>Q. Define balanced diet. [RU-17M,16M, SUST-15J]<br>Q. Explain the importance and composition of balanced diet. [SUST-15J,10Ju]<br>Q. Write short note on: Balanced diet. [SUST-16M]</b></summary>
+### Q. Define balanced diet. [RU-17M,16M, SUST-15J]<br>Q. Explain the importance and composition of balanced diet. [SUST-15J,10Ju]<br>Q. Write short note on: Balanced diet. [SUST-16M]
 
 **Balanced diet:**
 A balanced diet is defined as one which contains a variety of foods in such quantities and proportions
@@ -280,10 +253,8 @@ hould be met. This amounts to 10 —
 15%
 2, food energy.
 [Ref- Park / 24" / 675]
-</details>
 
-<details>
-<summary><b>Q. Prepare a balanced diet for an eight month pregnant lady. [CU-12J]<br>Q. Write down the composition of daily diet of pregnant mother. [CU-14J]</b></summary>
+### Q. Prepare a balanced diet for an eight month pregnant lady. [CU-12J]<br>Q. Write down the composition of daily diet of pregnant mother. [CU-14J]
 
 **A balanced diet for an eight month pregnant lady:**
 For normal sedentary | Additional allowances
@@ -299,10 +270,8 @@ Milk 100 gm 100 gm 200 gm
 Oil and fat =
 Sugar & jaggery 20 gm 10 gm 30 gm
 [Ref- Park / 24/700]
-</details>
 
-<details>
-<summary><b>Q. To prepare a balance diet, protein fat & carbohydrate is needed by 15%, 20% & 65% of total</b></summary>
+### Q. To prepare a balance diet, protein fat & carbohydrate is needed by 15%, 20% & 65% of total
 
 calorie. Enumerate the amount of protein, fat & carbohydrate to prepare a balanced dict of
 3000 Keal. [RU-18M]
@@ -326,10 +295,8 @@ Protein should be needed =4
 : =450+4.1 = 109 gm.
 Fat should be needed =600+9.3 =65 ie
 Carbohydrate should be needed = 1950 + 4.1 = 476 gm.
-</details>
 
-<details>
-<summary><b>Q. pres a balance dict of an adult who needs 2700 keal, protein should be provide 15%,</b></summary>
+### Q. pres a balance dict of an adult who needs 2700 keal, protein should be provide 15%,
 
 () carbohydrate 65% of total energy. Calculate the amount of protein, fat &
 carbohydrate in gram for that person. [RU-15Ju]
@@ -345,10 +312,8 @@ So,
 Protein should be needed =405+4.1 =99 gm.
 Fat should be needed =540+9.3 =58 gm.
 Carbohydrate should be needed = 1755 +4.1 =428 gin.
-</details>
 
-<details>
-<summary><b>Q. How nutritional status of a rural community can be assessed? [DU&gt;16J,1 1Ju]<br>Q. How do you assess the nutritional status of an under 5 child? [CU-1lJu]<br>Q. What are the different methods of nutritional assessment? [SUST-12Ju]<br>Q. Enumerate the anthropometric measurements to assess the nutritional status of the students</b></summary>
+### Q. How nutritional status of a rural community can be assessed? [DU&gt;16J,1 1Ju]<br>Q. How do you assess the nutritional status of an under 5 child? [CU-1lJu]<br>Q. What are the different methods of nutritional assessment? [SUST-12Ju]<br>Q. Enumerate the anthropometric measurements to assess the nutritional status of the students
 
 of a high school. [RU-10J]
 . Assessment of nutritional status of a children:
@@ -390,10 +355,8 @@ following methods:
   - Health and educational services e.g. PHC service
   - Conditioning influences e.g. viral infection.
 [Ref- Park / 24" / 685-688]
-</details>
 
-<details>
-<summary><b>Q. List some biochemical tests used in nutritional survey. [RU-10J]</b></summary>
+### Q. List some biochemical tests used in nutritional survey. [RU-10J]
 
 **Some biochemical tests used in nutritional surveys:** .
 Nutrient Name of test / method *
@@ -420,10 +383,8 @@ Transferrin 20 gm/L
 250 mg/L
 Thyroid binding pre-albumin
 [Ref- Park / 24" / 687]
-</details>
 
-<details>
-<summary><b>Q. What is the importance of Mid Arm Circumference (MAC)?</b></summary>
+### Q. What is the importance of Mid Arm Circumference (MAC)?
 
 **Mid Arm circumference (MAC):** The mid arm circumference is measured at the mid-point between the
 acromial process of scapula and olecranon process of ulna. MAC is used nutritional status between 1-5 years.
@@ -434,10 +395,8 @@ Circumference Level of nutrition
 12,5-13.5 cm (yellow) Borderline
 < 12.5 cm (red) Malnourished
 [Ref- Park /24" / 687]
-</details>
 
-<details>
-<summary><b>Q. How body mass index (BMI) can be calculated?<br>Q. What do you mean by BMI? [SUST-13Ju,12Ju]</b></summary>
+### Q. How body mass index (BMI) can be calculated?<br>Q. What do you mean by BMI? [SUST-13Ju,12Ju]
 
 **Body mass index (BMI):** BMI is calculated by the following formula —
 Weight in Kg
@@ -454,10 +413,8 @@ Mildly increased
 - ClassII__| Severe
 - Class III_| Very severe (morbid obesity)
 [Ref- Davidson /22™/ 117 (Table: 5.21)]
-</details>
 
-<details>
-<summary><b>Q. A married lady aged 30 years came to a doctor with the complaints of infertility in spite of 8</b></summary>
+### Q. A married lady aged 30 years came to a doctor with the complaints of infertility in spite of 8
 
 years married life. Her height & weight were measured as 168 cm & 88 kg respectively. Now
 give a table for classification of obesity & interpret the lady’s condition based on BMI. [RU-
@@ -471,10 +428,8 @@ Height in m?
 (1.68 m)
 = 31.18
 Interpretation: The lady is moderately obese.
-</details>
 
-<details>
-<summary><b>Q. Five students of class X of a girls high school had weight of 50 kg, 65 kg, 60 kg, 40 kg and 75</b></summary>
+### Q. Five students of class X of a girls high school had weight of 50 kg, 65 kg, 60 kg, 40 kg and 75
 
 kg respectively and height of 161 cm, 164 cm, 160 cm, 158 cm and 156 cm respectively.
 Comment on their nutritional status by calculating BMI. [RU-13Ju]
@@ -526,10 +481,8 @@ Height in m?
 = 30. 82
 According to standard BMI range, the girl is an obese person.
 nt of
-</details>
 
-<details>
-<summary><b>Q. Two teenage girls want to know about their nutritional status. One girl has got her weig f</b></summary>
+### Q. Two teenage girls want to know about their nutritional status. One girl has got her weig f
 
 State
 45 kg and height of 161 cm and the other one has weight of 75 kg and height of 159 cm.
@@ -552,19 +505,15 @@ SS [as 159 cm = 1.59 m]
 (1.59 m)?
 = 29.67
 According to standard BMI range, the girl is an overweight person.
-</details>
 
-<details>
-<summary><b>Q. Define food hygiene. [CU-15Ju]</b></summary>
+### Q. Define food hygiene. [CU-15Ju]
 
 **Food hygiene:**
 Food hygiene implies hygiene in the production, handling, distribution and serving of all types of food.
 The aim is to prevent food poisoning and other food borne illnesses.
 [Ref- Park / 24" / 692]
-</details>
 
-<details>
-<summary><b>Q. Discuss dietary goals.<br>Q. State the dietary goals recommended by WHO. [DU-14Ju]</b></summary>
+### Q. Discuss dietary goals.<br>Q. State the dietary goals recommended by WHO. [DU-14Ju]
 
 All countries should develop a national nutrition and food
 Dietary goals / WHO recommended dietary goals:
@@ -581,17 +530,13 @@ rich in natural fiber should be taken.
 6) Protein should account for approximately 10-15% of the daily intake.
 7) Junk foods such as colas, ketchups and other foods that supply empty calories should be reduced.
 |Ref- Park /24" / 675]
-</details>
 
-<details>
-<summary><b>Q. Discuss the diet of a diabetic & hypertensive patient. [SUST-14Ju]</b></summary>
+### Q. Discuss the diet of a diabetic & hypertensive patient. [SUST-14Ju]
 
 **Please see in the ‘Chapter-06:** Epidemiology of non-communicable diseases’.
 Protein & amino acids
-</details>
 
-<details>
-<summary><b>Q. What is protein?</b></summary>
+### Q. What is protein?
 
 **Protein:**
 —_—_— compounds composed of carbon (C), hydrogen (H), oxygen
@@ -600,10 +545,8 @@ Proteins are complex organic nitrogenous i
 (O), nitrogen (N) and sulfur (S) in varying amounts. Some proteins also contain p
 occasionally other elements.
 [Ref- Park /24"/ 647|
-</details>
 
-<details>
-<summary><b>Q. Mention the functions of protein. [DU-18N, RU-ION, 15J,12Ju,1 1, CU-10Ju]<br>Q. Mention the RDA of protein. [CU-10Ju]</b></summary>
+### Q. Mention the functions of protein. [DU-18N, RU-ION, 15J,12Ju,1 1, CU-10Ju]<br>Q. Mention the RDA of protein. [CU-10Ju]
 
 Functions of protein;
 1) Body building
@@ -640,17 +583,13 @@ Female 1.33 gm/kg/day (average)
 tein differs from other proximate principles of food? [RU-10Ju]
 rogen, this usually amounting to
 [Ref- Park / 24" / 6471
-</details>
 
-<details>
-<summary><b>Q. How pro</b></summary>
+### Q. How pro
 
 Proteins differ from carbohydrates and fats in that they contain nit
 about 16 per cent.
-</details>
 
-<details>
-<summary><b>Q. What are the sources of protein?</b></summary>
+### Q. What are the sources of protein?
 
 **Sources of protein:**
 1) Animal source (first class protein / proteins of high biological value / reference protein / d
@@ -664,10 +603,8 @@ Theva ADEE pene able proteins are found in pulse, cereals, beans, nuts, oil seed
 shiese-proleinesan = ‘Le a flee acids i. ¢. they are lagging of one or more essential amino acids. So
 are called second class / low biological value / biologically incomplete proteins.
 [Ref- Park /24" / 647]
-</details>
 
-<details>
-<summary><b>Q. What is reference protein? [DU-10Ju]<br>Q. Why egg is called reference protein?</b></summary>
+### Q. What is reference protein? [DU-10Ju]<br>Q. Why egg is called reference protein?
 
 **Reference protein:**
 hav hi reference protein is one which would produce | gm of tissue for each gm consumed thus it would
@@ -679,10 +616,8 @@ Egg is called reference protein because:
   - Its high biological value & digestibility.
 » It contains all the essential amino acids in adequate amount.
   - 100% absorbable.
-</details>
 
-<details>
-<summary><b>Q. Define amino acids.</b></summary>
+### Q. Define amino acids.
 
 **Amino acids:**
 Amino acids are a group of organic compounds containing two functional groups- amino and carboxyl.
@@ -692,10 +627,8 @@ H
 R-C-COOH
 NH;
 Figure: General formula of a amino acid.
-</details>
 
-<details>
-<summary><b>Q. Define essential amino acid. Name the essential amino acids. Why they are called so?<br>Q. Enumerate essential amino acids. [RU-14J,13J]</b></summary>
+### Q. Define essential amino acid. Name the essential amino acids. Why they are called so?<br>Q. Enumerate essential amino acids. [RU-14J,13J]
 
 **Essential amino acid:** .
 The amino acids which cannot be synthesized in the body but essential for the growth and maintenance
@@ -711,10 +644,8 @@ supplied with diet. There are eight essential amino acids —
 7) Threonine
 8) Phenylalanine
 [Ref- Park / 24" / 647]
-</details>
 
-<details>
-<summary><b>Q. How quality of protein can be assessed? [RU-10Ju]<br>Q. Mention different methods to assess the quality of protein. [RU-14.}<br>Q. What are the parameters to assess the quality of protein?</b></summary>
+### Q. How quality of protein can be assessed? [RU-10Ju]<br>Q. Mention different methods to assess the quality of protein. [RU-14.}<br>Q. What are the parameters to assess the quality of protein?
 
 **Assessment of quality of protein:**
 1) Amino acid content of protein,
@@ -726,10 +657,8 @@ evaluation include — ;
   - Net protein utilization (NPU).
 3) Growth.
 [Ref- Park 124" 1 648) Z
-</details>
 
-<details>
-<summary><b>Q. What do you mean by protein supplementation? [CU-13J]<br>Q. Explain the supplementary action of protein. [DU-18M,16N,14J, RU-18M,15J]<br>Q. Explain the importance of supplementary actions of proteins in context of your country. [(CU-</b></summary>
+### Q. What do you mean by protein supplementation? [CU-13J]<br>Q. Explain the supplementary action of protein. [DU-18M,16N,14J, RU-18M,15J]<br>Q. Explain the importance of supplementary actions of proteins in context of your country. [(CU-
 
 10J)
 Importance of supplementary actions of proteins:
@@ -742,10 +671,8 @@ Thus with proper planning, it is possible for a vegetarian to obtain a high grad
 from mixed diets of cereals, pulses and vegetables. This in known as supplementary action of proteins, and is
 the basis of counseling people to eat mixed diets.
 [Ref- Park / 24" / 648]
-</details>
 
-<details>
-<summary><b>Q. Define fat. Classify lipids. What are the sources of fat?</b></summary>
+### Q. Define fat. Classify lipids. What are the sources of fat?
 
 **Fat:**
 Fats or lipids are made of fatty acids (saturated, polyunsaturated, monounsaturated), triglycerides,
@@ -762,19 +689,15 @@ Sources of fat:
 [Ref- Park / 24" / 649
 ate
 pter-14: Nutritio ———— |
-</details>
 
-<details>
-<summary><b>Q. Mention the requirements of fat.</b></summary>
+### Q. Mention the requirements of fat.
 
 **Requirements of fat:** : !
 20 — 309 i i susie |
 ortune fare in total dietary energy. At least 50% of fat intake shoud consist of vegetable oils rich in |
 [Ref- Park /24"/ 651] |
-</details>
 
-<details>
-<summary><b>Q. List the needful functions of fat. [RU-17M,16M,13J]</b></summary>
+### Q. List the needful functions of fat. [RU-17M,16M,13J]
 
 **Functions of the fat:** We need fat in the diet for the following reasons.
 1) They are high-energy foods, providing as much as 9 kcal/gm.
@@ -789,10 +712,8 @@ body for growth, for structural integrity of the cell membrane & decreased plate
 synthesis of steroid hormones and bile acids.
 9) Polyunsaturated fatty acids are precursors of prostaglandin now recognized as local hormones.
 [Ref- Park /24" / 649]
-</details>
 
-<details>
-<summary><b>Q. List the harmful functions of fat. [RU-17M,16M,13J]<br>Q. Mention diseases associated with high fat intake. [DU-15Ju,13J]</b></summary>
+### Q. List the harmful functions of fat. [RU-17M,16M,13J]<br>Q. Mention diseases associated with high fat intake. [DU-15Ju,13J]
 
 Diseases associated with high fat intake / Demerits of excess fat in diet:
 1) Obesity: Obesity occurs when fat-rich diet is taken. In fatty people adipose tissue may increase
@@ -805,10 +726,8 @@ a condition is known as phrenoderma or toad skin.
 Note:
 a —$—— :
 Skin lesions occur due to deficiency of essential fatty acids. ii
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **Visible fats:** Visible fats are those that are separated from their natural source e.g. ghee (butter) from
 milk, cooking oils from oil-bearing seeds and nuts. |
@@ -818,10 +737,8 @@ e oils are hydrogenated under condition of optimum temperature and H
 ed into semisolid or solid fat. The fat is i
 te
 a
-</details>
 
-<details>
-<summary><b>od</b></summary>
+### od
 
 **+ Hydrogenation:** When vegetabl
 pressure in the presence of a catalyst, the liquid oils are convert
@@ -830,10 +747,8 @@ known as ‘Vanaspati’.
 ETN \ SEE Ey RET
 MAM SAAN A Hel ESR!
   - |
-</details>
 
-<details>
-<summary><b>Q. Classify fatty acids.</b></summary>
+### Q. Classify fatty acids.
 
 **Classification of fatty acids:** ,
 1) Saturated fatty acids: e.g. palmitic, staric and lauric acids.
@@ -842,10 +757,8 @@ MAM SAAN A Hel ESR!
   - Polyunsaturated fatty acids (PUFA): c.g. lenoleic acid, linolenic acid, arachidonic aciq
 etc,
 [Ref- Park /24", 649
-</details>
 
-<details>
-<summary><b>Q. What is essential fatty acid? Name the essential fatty acids with sources.</b></summary>
+### Q. What is essential fatty acid? Name the essential fatty acids with sources.
 
 **Essential fatty acids:**
 Essential fatty acids are those that can’t synthesized by human, they can be derived only from food,
@@ -861,10 +774,8 @@ Soya bean oil & leafy vegetables.
   - Eicosapentaenoic acid Fish oil.
 [Ref- Park / 24" / 648, 649]
 Carbohydrate
-</details>
 
-<details>
-<summary><b>Q. Define carbohydrate. Classify carbohydrate.<br>Q. What are the source and functions of carbohydrate?</b></summary>
+### Q. Define carbohydrate. Classify carbohydrate.<br>Q. What are the source and functions of carbohydrate?
 
 **Carbohydrate:**
 Carbohydrates are composed of carbon, hydrogen, and oxygen. They are the cheapest and main source
@@ -888,19 +799,15 @@ Daily requirement: It should be 50 — 70% of total energy intak i ire
 sae cere ey Intake. The daily requirement of carbohydrate for
 [Ref- Park /24" / 651]
 on & Health Sey 7 |
-</details>
 
-<details>
-<summary><b>Q. Define dietary fiber, [SUST-16N]<br>Q. Explain the f i</b></summary>
+### Q. Define dietary fiber, [SUST-16N]<br>Q. Explain the f i
 
 dietary ds [DU-18N,17N] / role [DU-I6N, SUST-I6J] / importance [SUST-13Ju] of
 . Menti i
 5 io the source & role of dietary fiber in keeping good health. [SUST-16N]
 i _ ion the role of dietary fiber in health & disease. [DU-13Ju]
-</details>
 
-<details>
-<summary><b>Q. rite short note on: Dietary fiber. [RU-14Ju]</b></summary>
+### Q. rite short note on: Dietary fiber. [RU-14Ju]
 
 nswer
 Dictary fiber: These are non-st
@@ -924,10 +831,8 @@ disease including cancer.
 and reduce their bioavailability.
 [Ref- Park / 24" / 652]
 Vitamins
-</details>
 
-<details>
-<summary><b>Q. Define vitamins. [RU-12J,10Ju]<br>Q. Classify vitamins. [RU-12J,10Ju]</b></summary>
+### Q. Define vitamins. [RU-12J,10Ju]<br>Q. Classify vitamins. [RU-12J,10Ju]
 
 **Vitamins:** Vitamins are organic complex & chemical substances which are required by the body in small
 amount and act as a catalyst in various body processes which cannot be synthesized by the body and must be
@@ -948,10 +853,8 @@ Cobalamine (vitamin B12)
 2) Ascorbic acid (vitamin C).
 , ; ‘ [Ref- Park/ 24" 653)
 .. . ’ . 9
-</details>
 
-<details>
-<summary><b>Q. Write down the daily recommended dose of fat soluble vitamins:</b></summary>
+### Q. Write down the daily recommended dose of fat soluble vitamins:
 
 **Daily recommended dose of fat soluble vitamins:**
 Retinol (ug) | B-carotene (ug) |
@@ -974,10 +877,8 @@ Pregnancy & lactation 10.0 pg (400 IU
 Vitamin-E Adults 0.8 mg/g of essential fatty acids
 Vitamin-K Adults 0.03 mg/kg
 [Ref- Park / 24" / 654-656]
-</details>
 
-<details>
-<summary><b>Q. Name the components of vitamin B complex with their deficiency diseases. [RU-18M]</b></summary>
+### Q. Name the components of vitamin B complex with their deficiency diseases. [RU-18M]
 
 **Daily recommended dose of water soluble vitamins:**
 Vitamin | Age/Sex | RDA Active form
@@ -1000,10 +901,8 @@ Lactation
 [Ref- Park /24"/ 675]
 a
 Deficiency of vitamin B complex: Please see below.
-</details>
 
-<details>
-<summary><b>Q. List the important vitami i</b></summary>
+### Q. List the important vitami i
 
 aa itamin deficiency disorders. [SUST-16M]
 Water soluble vitamin deficiency diseases:
@@ -1036,10 +935,8 @@ Vitamin K Generalized bleedin,
 Vitamin D
 prolong clotting time
 [Ref- Park / 24°]
-</details>
 
-<details>
-<summary><b>Q. What is the vitamin A? Name sources of vitamin A. What are the functions of vitamin A?</b></summary>
+### Q. What is the vitamin A? Name sources of vitamin A. What are the functions of vitamin A?
 
 **Vitamin-A:**
 Vitamin A is a fat soluble vitamin which covers both a preformed vitamin, retinol and a pro-vitamin,
@@ -1076,10 +973,8 @@ tissue, which lines intestinal, respiratory and urinary tracts as well as the sk
 vitamin A deficiency and
 5) It may protect against some epithelial cancers such as bronchial cancers.
 [Ref- Park /24" / 653]
-</details>
 
-<details>
-<summary><b>Q. What are the manifestations of vitamin-A deficiency? [DU-17M, SUST-17M<br>Q. Enumerate the disorders due to vitamin-A deficiency. [RU-16N, 1 5Ju,14Ju, SUST-14J]</b></summary>
+### Q. What are the manifestations of vitamin-A deficiency? [DU-17M, SUST-17M<br>Q. Enumerate the disorders due to vitamin-A deficiency. [RU-16N, 1 5Ju,14Ju, SUST-14J]
 
 **Vitamin-A deficiency symptoms:**
 1) Qn eye: Xerophthalmia.
@@ -1096,10 +991,8 @@ stratified squamous)
 6) On urinary tract: Urinary tract infection, formation of stone.
 7) Qn reproduction: The reproductive system is adversely affected in vitamin A deficiency.
 Degeneration of germinal epithelium leads to sterility in males.
-</details>
 
-<details>
-<summary><b>Q. What are the ocular signs of vitamin A deficiency? [CU-12Ju]</b></summary>
+### Q. What are the ocular signs of vitamin A deficiency? [CU-12Ju]
 
 **Stages of ocular changes of vitamin-A deficiency:**
 1) Night blindness.
@@ -1137,23 +1030,17 @@ eee ol (It is a grave medical emergency)
 a ornea may becom
   - Ifthe eye collapses, vision is lost, ———_—
 [Ref- Park / 24" / 653]
-</details>
 
-<details>
-<summary><b>Q. How can you prevent xerophthalmia / night bli</b></summary>
+### Q. How can you prevent xerophthalmia / night bli
 
 ght blindness?
 . How can you control [DU-15 :
-</details>
 
-<details>
-<summary><b>Q ilindness? [ Ju,12Ju] / prevent [DU-16M,15Ju, 14Ju,12Ju] nutritional</b></summary>
+### Q ilindness? [ Ju,12Ju] / prevent [DU-16M,15Ju, 14Ju,12Ju] nutritional
 
 **. How will you treat a bo:** ;
-</details>
 
-<details>
-<summary><b>Q 17M.14J] y of 4 years age who has been suffering from night blindness? [SUST-</b></summary>
+### Q 17M.14J] y of 4 years age who has been suffering from night blindness? [SUST-
 
 Prevention & control of night blindness / xerophthalmia / iti i
 trit l H
@@ -1191,10 +1078,8 @@ years.
   - Improved health services to mother and children.
 5) Qperative: For restoration of vision -keratoplasty can be done if there is corneal © pacification,
 [Ref- Parsons’ Diseases of Eye /20*|
-</details>
 
-<details>
-<summary><b>Q. Define xerophthalmia.<br>Q. Discuss stages of xerophthalmia. [DU-16M, 12Ju, 1 0Ju]<br>Q. Write short note on: Xerophthalmia, [SUST-10J]</b></summary>
+### Q. Define xerophthalmia.<br>Q. Discuss stages of xerophthalmia. [DU-16M, 12Ju, 1 0Ju]<br>Q. Write short note on: Xerophthalmia, [SUST-10J]
 
 **Xerophthalmia:** (Means Disease of the dry eye) mae, .
 All ocular manifestations ranging from night blindness to keratomalacia due to vitamin-A deficiency
@@ -1215,10 +1100,8 @@ Predisposing factors:
 5) Faulty weaning,
 6) Infection, e.g. Diarrhoea, measles.
 7) Poverty.
-</details>
 
-<details>
-<summary><b>Q. On a moonlit night several children were playing with a ball in their courtyard. One of them</b></summary>
+### Q. On a moonlit night several children were playing with a ball in their courtyard. One of them
 
 could not locate the ball frequently. What was the problem with that child? What are the
 other organic signs may be present? How can you prevent and control that problem? [RU-
@@ -1271,10 +1154,8 @@ Adult 2.5 1g (100 IU)
 Infant & children 5.0 pg (200 IU)
 Pregnancy & lactation
 [Ref- Park / 24" / 655]
-</details>
 
-<details>
-<summary><b>Q. Why vitamin D is considered as kidney hormone?</b></summary>
+### Q. Why vitamin D is considered as kidney hormone?
 
 **Vitamin D is considered as kidney hormone:**
 It has been proposed that vitamin D should be regarded as a kidney hormone because it does not meet
@@ -1283,28 +1164,22 @@ of capacity in the human body to synthesize it. In fact, vitamin D; is not a die
 of adequate sunlight. It can be synthesized in the body in adequate amounts by simple exposure to sunlight even
 for five minutes per day. [Ref: P. k / 24" / 655]
 ei: Far
-</details>
 
-<details>
-<summary><b>Q. State thiamine deficiency disorders. [DU-13Ju]</b></summary>
+### Q. State thiamine deficiency disorders. [DU-13Ju]
 
 **Thiamine deficiency disorders:**
   - Beriberi (dry, wet & infantile)
   - Wernick’s encephalopathy [Ref. Park / 24" / 656]
-</details>
 
-<details>
-<summary><b>📌 Viva — Forms of beriberi</b></summary>
+### 📌 Viva — Forms of beriberi
 
 **Forms of beriberi:**
   - The dry beriberi: characterized by peripheral neuritis.
   - The wet beriberi: characterized by cardiac manifestations.
   - The infantile beriberi: scen in infants between 2 and 4 months of age
 [Ref- Park /24"; 656]
-</details>
 
-<details>
-<summary><b>Q. Mention sources, functions and deficiency diseases of folic acid.</b></summary>
+### Q. Mention sources, functions and deficiency diseases of folic acid.
 
 **Folic acid:**
 Sources:
@@ -1322,10 +1197,8 @@ in pregnancy and lactation. The deficiency features are-
 4) Gastrointestinal disturbances such as diarrhoea, distension and flatulence.
 5) Severe folate deficiency may cause infertility or even sterility.
 Neural tube defect in the fetus e.g. spina bifida, anencephaly (when deficiency in pregnant mother).
-</details>
 
-<details>
-<summary><b>Q. Mention the sources and deficiency features of vitamin B12.</b></summary>
+### Q. Mention the sources and deficiency features of vitamin B12.
 
 **Sources of vitamin B,):**
 - Animal sources: Liver, kidney, meat, fish, eggs, milk, and cheese.
@@ -1335,10 +1208,8 @@ Deficiency disorders:
 2) Peripheral neuropathy.
 3) Subacute combined degeneration of spinal cord.
 [Ref- Park / 24" / 658]
-</details>
 
-<details>
-<summary><b>Q. What are the sources of vitamin-C?</b></summary>
+### Q. What are the sources of vitamin-C?
 
 **Sources of vitamin C:**
 1) Fruits: Amloki, guava, orange, tomato, lime.
@@ -1346,10 +1217,8 @@ Deficiency disorders:
 3) Germinated pulses.
 4) Roots and tubers.
 [Ref- Park / 24" / 659]
-</details>
 
-<details>
-<summary><b>Q. What are the functions of vitamin C?</b></summary>
+### Q. What are the functions of vitamin C?
 
 **Functions of vitamin-C:**
 1) It is a potent anti-oxidant. It plays role in tissue oxidation.
@@ -1363,10 +1232,8 @@ Par ae ne formati Faas
 5) Anti-infective role help in es ait intestinal mucosa,
 6) Prevention of common cold und healing.
 [Ref- Park /24" / 659]
-</details>
 
-<details>
-<summary><b>Q. Write down the daily requ;</b></summary>
+### Q. Write down the daily requ;
 
 **eave:** Y requirement and deficiency disorders of vitamin C.
 Daily requirement of vitamin C; 60 mg in adult
@@ -1380,20 +1247,16 @@ g or bleeding i in or joi
 ar i
 € collectively known as scurvy. The features of scurvy are —
 [Ref- Park / 24" / 659]
-</details>
 
-<details>
-<summary><b>Q. Write the important dietary s Foxi : :</b></summary>
+### Q. Write the important dietary s Foxi : :
 
 pa ry sources of antioxidants with their daily requirements.
 Antioxidant vitamins: (Thei i i
 aaa a a a €ir sources and daily requirements are described above)
 2) Vitamin-E.
 3) Vitamin-C.
-</details>
 
-<details>
-<summary><b>Q. Define minerals with type. What are the functions of minerals?<br>Q. Write short note on: Trace elements. [SUST-15Ju,1 Ju]</b></summary>
+### Q. Define minerals with type. What are the functions of minerals?<br>Q. Write short note on: Trace elements. [SUST-15Ju,1 Ju]
 
 **Minerals:**
 ; The human body contains more than 50 chemical elements which are required for growth, repair and
@@ -1420,10 +1283,8 @@ by iodine,
 Maintenance of elt peti
 Mai ce of tone of musele and nerves:
 —_— [Ref- Park / 24" / 689]
-</details>
 
-<details>
-<summary><b>Q. Discuss role of major minerals for growth and regulation of body functions.</b></summary>
+### Q. Discuss role of major minerals for growth and regulation of body functions.
 
   - 
 VIVA & OSPR
@@ -1443,10 +1304,8 @@ Sodium is found in all body fluids. It is essential for the action potential & n
 Magnesium is a constituent of bones. It is essential for the normal metabolism of calcium and
 potassium.
 [Ref- Park / 24%
-</details>
 
-<details>
-<summary><b>Q. List the important mineral deficiency disorders. [SUST-16M]<br>Q. Write down the name of trace elements and their deficiency disorders.<br>Q. Name important micronutrients with their source & deficiency manifestations. [SUST-16J]</b></summary>
+### Q. List the important mineral deficiency disorders. [SUST-16M]<br>Q. Write down the name of trace elements and their deficiency disorders.<br>Q. Name important micronutrients with their source & deficiency manifestations. [SUST-16J]
 
 nctions, deficiency disease & good sources of important microminerals:
 | Deficiency disease
@@ -1494,10 +1353,8 @@ Dental caries, Drinking water.
 a,
 Cha ter-14; Nutrition & Health ____ 451
 ron
-</details>
 
-<details>
-<summary><b>Q. What are the sources of iron? Give the daily requirement and functions of iron.</b></summary>
+### Q. What are the sources of iron? Give the daily requirement and functions of iron.
 
   - Haem iron: Liver, meat, poultry and fish.
   - Non-haem iron: Iron are those of vegetables origin ¢.p.. cere
@@ -1531,19 +1388,15 @@ Reduced resistance to infection.
 Increase morbidity and mortality.
 Diminished work performance.
 [Ref- Park / 24" / 660, 661]
-</details>
 
-<details>
-<summary><b>📌 Viva — Iron absorption: . ;</b></summary>
+### 📌 Viva — Iron absorption: . ;
 
 **Iron absorption:** . ;
 Site: Mostly from duodenum and upper small intestine. ;
 Form: Ferrous (Fe’’) state. Haem iron more absorbed, non-haem iron less absorbed.
 [Ref- Park /24"/ 661]
-</details>
 
-<details>
-<summary><b>Q. Discuss the evaluation of iron status.</b></summary>
+### Q. Discuss the evaluation of iron status.
 
 » Haemoglobin co
 Serum iron conc
@@ -1557,10 +1410,8 @@ g/L probably indicates an absence of stored iron).
 as cece ne.
 VIVA & OSPE
 452_—- ENDEAVOUR COM!
-</details>
 
-<details>
-<summary><b>Q. How anaemia can be prevented?</b></summary>
+### Q. How anaemia can be prevented?
 
 of haemoglobit
 Prevention / intervention of anacmia; An estimation \
@@ -1585,10 +1436,8 @@ consumed dietary item.
 ay be necessary, If Hb
 elemental iron (180 mg of
 2)
-</details>
 
-<details>
-<summary><b>Q. Discuss detrimental effects and intervention measures of nutritional anaemia.</b></summary>
+### Q. Discuss detrimental effects and intervention measures of nutritional anaemia.
 
 **etrimental effects of nutritional anaemia:** The detrimental effects of anaemia can be seen in 3 important
 Di
@@ -1604,10 +1453,8 @@ increase susceptibility to infection.
 capacity.
 Intervention: Please see above.
 Calcium
-</details>
 
-<details>
-<summary><b>Q., Write short note on: Calcium and health,</b></summary>
+### Q., Write short note on: Calcium and health,
 
 **Calcium:** '
 - It constitutes 1.5 — 2% of body weight (adult human)
@@ -1635,19 +1482,15 @@ machinery. essage that arrive at cell surface membrane to the biochemical
 =~ Adult: 400 — 500 mg/day
 Infant + Children: | gnvday.
 [Ref- Park /24" / 659, 660]
-</details>
 
-<details>
-<summary><b>📌 Viva — litre of cow milk Provides about 1200 mg of calcium</b></summary>
+### 📌 Viva — litre of cow milk Provides about 1200 mg of calcium
 
 ——~ A litre of cow milk Provides about 1200 mg of calcium
 A litre of human milk provides about 300 mg of calcium.
 [Ref- Park / 24" / 659]
 lodine and Goitre
-</details>
 
-<details>
-<summary><b>Q. Mention the sources & function of iodine.</b></summary>
+### Q. Mention the sources & function of iodine.
 
 **Sources of iodine:**
 1. Sea foods: Sea fish, sea salt.
@@ -1657,10 +1500,8 @@ Functions of iodine:
 1. Required for the synthesis of thyroid hormones (T; & T4).
 2. Essential in minute amount for the normal growth and development and wellbeing of all human being.
 [Ref- Park / 24" / 662]
-</details>
 
-<details>
-<summary><b>Q. Enumerate the iodine deficiency disorders (IDDs). [DU-12Ju, RU-12J]<br>Q. Enlist iodine deficiency disorder spectrum. [DU-14Ju]<br>Q. What are the manifestations of iodine deficiency disorders (IDD)? [DU-11J]<br>Q. List the effects of iodine deficiencies. [RU-10Ju]<br>Q. Write short note on: IDD. [SUST-18M,17M, 14J,13Ju]</b></summary>
+### Q. Enumerate the iodine deficiency disorders (IDDs). [DU-12Ju, RU-12J]<br>Q. Enlist iodine deficiency disorder spectrum. [DU-14Ju]<br>Q. What are the manifestations of iodine deficiency disorders (IDD)? [DU-11J]<br>Q. List the effects of iodine deficiencies. [RU-10Ju]<br>Q. Write short note on: IDD. [SUST-18M,17M, 14J,13Ju]
 
 **lodine deficiency disorders (IDD):**
 hich refer to “all the effects of iodine deficiency on human
@@ -1701,16 +1542,12 @@ Intrauterine death (spontaneous
 abortion, miscarriage)
 [Ref- Park / 24" / 662}
 in different stages of life?
-</details>
 
-<details>
-<summary><b>Q. What are the effects of iodine deficiency</b></summary>
+### Q. What are the effects of iodine deficiency
 
 dine in different stages of life.
-</details>
 
-<details>
-<summary><b>Q. Enlist different deficiency disorders due to io</b></summary>
+### Q. Enlist different deficiency disorders due to io
 
 **Manifestations of IDD at different stages of life:**
 a) In pregnant period ce te
@@ -1724,10 +1561,8 @@ performance 3. Impaired mental function
 3. Brain damage of foetus
 3. Retard physical
 development.
-</details>
 
-<details>
-<summary><b>Q. How can you prevent iodine deficiency disorders? [DU-11J, SUST-14Ju]<br>Q. How goitre can be controlled / prevented?</b></summary>
+### Q. How can you prevent iodine deficiency disorders? [DU-11J, SUST-14Ju]<br>Q. How goitre can be controlled / prevented?
 
 **Control measure / prevention of IDD:**
 1. Todized salt:
@@ -1743,10 +1578,8 @@ iii) Determination of iodine in salt for quality control.
 [Ref- Park /24" / 681]
 aad
 ee
-</details>
 
-<details>
-<summary><b>Q.A boy came to you poor scho</b></summary>
+### Q.A boy came to you poor scho
 
 probable diagnosis? How aa, Performance & a swelling in front of the neck. What is your
 . Ina locality it was found that hae can be prevented? [SUST-15Ju]
@@ -1765,18 +1598,14 @@ Factors responsible:
 (aad developed painless swelling in front of their throat.
 ible and the consequences for that condition and how can
 Prevention: Please see above.
-</details>
 
-<details>
-<summary><b>Q. A boy res hilly area came to you with poor school performance and swelling in front of</b></summary>
+### Q. A boy res hilly area came to you with poor school performance and swelling in front of
 
 neck. What is your diagnosis? How this can be prevented?
 Diagnosis: Iodine deficiency disorder (IDD).
 Preventive measures: Please see above.
-</details>
 
-<details>
-<summary><b>Q. Write short note on: Endemic goiter.</b></summary>
+### Q. Write short note on: Endemic goiter.
 
 **Endemic goiter:**
 ~ When goitre occurs in a significant number of people (more that 10 % of population) in a defined
@@ -1795,10 +1624,8 @@ Grade 1- only palpable, not visibl
 Grade 2 - Visible in normal position .
 ble in normal neck position.
 Prevention / control: Please see above.
-</details>
 
-<details>
-<summary><b>📌 Viva — oitre. They interfere</b></summary>
+### 📌 Viva — oitre. They interfere
 
 oitre. They interfere
 re chemical substances leading to the development of g
@@ -1822,19 +1649,15 @@ Prevalence of goitre
 pituitary thyrotrophic hormone (TSH) and
 Prevalence of neonatal hypothyroidism.
 [Ref- Park / 24" / 663)
-</details>
 
-<details>
-<summary><b>Q. Iodine deficiency disorders have reduced in Bangladesh, why? Explain.</b></summary>
+### Q. Iodine deficiency disorders have reduced in Bangladesh, why? Explain.
 
 Todine deficiency disorders have reduced in Bangladesh, because =
 1) Intake of iodized table salt.
 2) Rising of population awareness.
 Fluorine
-</details>
 
-<details>
-<summary><b>Q. Mention the sources of fluorine. Why it is called two-edged sword?</b></summary>
+### Q. Mention the sources of fluorine. Why it is called two-edged sword?
 
 **Sources of fluorine:**
 1) Drinking water: Major source of fluorine to man.
@@ -1847,10 +1670,8 @@ with dental and skeletal fluorosis; and inadequate intake with dental caries. Th
 the most effective means available for the prevention of dental caries.
 [Ref- Park / 24" / 663]
 Zinc
-</details>
 
-<details>
-<summary><b>Q. Mention the functions of zinc. [DU-17N,14J,12J]</b></summary>
+### Q. Mention the functions of zinc. [DU-17N,14J,12J]
 
 **Functions of zinc:**
 1) Helps in wound healing
@@ -1867,10 +1688,8 @@ aed
 wa A ———
 papter-14: Nutrition & Health
 cppser te Nuteton & Heath
-</details>
 
-<details>
-<summary><b>📌 Viva — Dietary ene</b></summary>
+### 📌 Viva — Dietary ene
 
   - Dietary ene
 Protein > 4 kcal / gm (17 kJ)
@@ -1885,10 +1704,8 @@ estes r daily activities (Such as walking, sitting, standing, dressing, climbing
 3) Energy requirement for occupati i
 izanyrworiotnannal phwvsical mor work [Such as light work (office clerk), moderate work &
 [Ref- Park / 24” / 671)
-</details>
 
-<details>
-<summary><b>Q. Enlist the factors affecting energy requirement.</b></summary>
+### Q. Enlist the factors affecting energy requirement.
 
 **Factors affecting energy requirement:**
 i) Age
@@ -1897,10 +1714,8 @@ iii) Working condition
 iv) Body composition
 v) Physical activity
 vi) Physiological state
-</details>
 
-<details>
-<summary><b>Q. Define malnutrition. Classify it.</b></summary>
+### Q. Define malnutrition. Classify it.
 
 **Malnutrition:**
 Malnutrition has been defined as a pat
@@ -1920,10 +1735,8 @@ ition which results when insufficient food is eaten over an
 athological state resulting from the consumption of excessive quantity
 g from a relative or absolute lack of an
   - |
-</details>
 
-<details>
-<summary><b>Q. List the causes of malnutrition?<br>Q. What are the causes of malnutrition in Bangladesh?</b></summary>
+### Q. List the causes of malnutrition?<br>Q. What are the causes of malnutrition in Bangladesh?
 
 **Causes of malnutrition:**
 Primary malnutrition:
@@ -1940,10 +1753,8 @@ iii. Fever
 iv. Surgery
 v. Drug therapy.
 [Ref- Rashid, Khabir, Hyder / 4" / 126]
-</details>
 
-<details>
-<summary><b>Q. List the ecological factors related to malnutrition in your country. [CU-09Ju]</b></summary>
+### Q. List the ecological factors related to malnutrition in your country. [CU-09Ju]
 
 Ecological factors related to malnutrition in our country:
 1) Conditioning influences: Infectious diseases, particularly in small children.
@@ -1984,10 +1795,8 @@ nutritional [DU-12 itional [CU- ics
 " Classify nutritional de al healtl
 . H
 ficicney dise Problem in developing countries. [(CU-13Ju,11J]
-</details>
 
-<details>
-<summary><b>Q. Mention nutritional problen ases, [DU-15)]</b></summary>
+### Q. Mention nutritional problen ases, [DU-15)]
 
 i iti As of und f
 , Discuss nutritional prob! Tenet five children of B
@@ -2007,16 +1816,12 @@ bi ‘Ninian orkor, Marasmus.
 6) Khesari al intoxication: Neuro athyrism.
 dh ion: lath
 [Ref- Rashid, Khabir, Hyder /5"/ 141]
-</details>
 
-<details>
-<summary><b>Q. How do you control malnutrition in Bangladesh? [SUST-12Ju]<br>Q. How can you prevent malnutrition in case of under 5 children? [SUST-13Ju]<br>Q. How malnutrition can be prevented in children and women? [SUST-10Ju]<br>Q. What measures will you adopt to keep the under five children free from nutritional</b></summary>
+### Q. How do you control malnutrition in Bangladesh? [SUST-12Ju]<br>Q. How can you prevent malnutrition in case of under 5 children? [SUST-13Ju]<br>Q. How malnutrition can be prevented in children and women? [SUST-10Ju]<br>Q. What measures will you adopt to keep the under five children free from nutritional
 
 problems? [SUST-09J]
-</details>
 
-<details>
-<summary><b>Q. To ameliorate nutritional status of a population, intersectoral cooperation is essential —</b></summary>
+### Q. To ameliorate nutritional status of a population, intersectoral cooperation is essential —
 
 justify the interlinked activities. [RU-10J]
 Prevention & control measures for malnutrition:
@@ -2050,10 +1855,8 @@ CARE are working in close collaboration helping the national governments in diff
 parts of the world in their battle against malnutrition.
 [Ref- Park /24™ / 690
   - 
-</details>
 
-<details>
-<summary><b>Viva Q. How can a mother of a baby of low socioeconomic condition prevent malnutrition of her</b></summary>
+### Viva Q. How can a mother of a baby of low socioeconomic condition prevent malnutrition of her
 
 baby?
 Prevention of malnutrition by the mother of a baby of low socioeconomic condition:
@@ -2064,18 +1867,14 @@ Prevention of malnutrition by the mother of a baby of low socioeconomic conditio
 5) Family planning.
 6) Nutritional education.
 7) Consultation with the local doctor.
-</details>
 
-<details>
-<summary><b>Q. What do you mean by complimentary feeding?</b></summary>
+### Q. What do you mean by complimentary feeding?
 
 **Complementary feeding:**
 It means giving other foods in addition to breast milk. These foods and liquids are called
 complementary foods as they are additional or complements to basic foods rather than adequate on their own.
-</details>
 
-<details>
-<summary><b>Q. “Malnutrition predisposes to infection & infection to malnutrition” — justify the statement. [DU-10J]</b></summary>
+### Q. “Malnutrition predisposes to infection & infection to malnutrition” — justify the statement. [DU-10J]
 
 Malnutrition predisposes to infection & infection to malnutrition:
 Infectious diseases are an important conditioning factor responsible for malnutrition, particularly in
@@ -2102,16 +1901,12 @@ Immunity lowered
 Mucosal damage
 [Ref- Park / 24" / 677]
 Protein energy malnutrition (PEM)
-</details>
 
-<details>
-<summary><b>Q. Write short note on: PEM. [CU-12Ju]</b></summary>
+### Q. Write short note on: PEM. [CU-12Ju]
 
 Please write from below discussion.
-</details>
 
-<details>
-<summary><b>Q. Define PEM. [DU-16J,15J, SUST-11J]</b></summary>
+### Q. Define PEM. [DU-16J,15J, SUST-11J]
 
 **PEM:**
 ical condition arising from co-
@@ -2119,10 +1914,8 @@ Protein Energy Malnutrition describes as a range of clinico-patholog
 ly in infant and young children, and
 incidental lack, in varying proportion of protein and calories, occurring most
 commonly associated with infection, (WHO — 1973)
-</details>
 
-<details>
-<summary><b>Q. Classify PEM. [DU-1 Ju, SUST-16J]<br>Q. Write down the WHO (or FAO) [SUST-16M, | 1J] / Gomez [DU-09J] classification of PEM.</b></summary>
+### Q. Classify PEM. [DU-1 Ju, SUST-16J]<br>Q. Write down the WHO (or FAO) [SUST-16M, | 1J] / Gomez [DU-09J] classification of PEM.
 
 **Class pn of PEM:**
 ” Gomez classification:
@@ -2163,10 +1956,8 @@ Marasmus < 60 Absent [+t
 Nutritional dwarfism < 60 Absent Minimal.
 Underweight child 80 — 60 Absent +
 [Ref- Park / 24" / 677 + Rashid, Khabir, Hyder / 5" / 139]
-</details>
 
-<details>
-<summary><b>Q. What are the advantages and disadvantages of Gomez’s classification of PEM? [DU-09J]</b></summary>
+### Q. What are the advantages and disadvantages of Gomez’s classification of PEM? [DU-09J]
 
 **Advantages of Gomez’s classification:**
 1) It is based on weight retardation.
@@ -2182,16 +1973,12 @@ episode of malnutrition or to long-standing chronic undernutrition.
 [Ref- Park / 24" / 677]
 .$
 _-aasath
-</details>
 
-<details>
-<summary><b>Q. Compare kwashiorkor with marasmus. [DU-16J]<br>Q. State important difference between kwashiorkor & marasmus [DU-10Ju, CU-13J,12J, SUST- 18N,15J,14J]</b></summary>
+### Q. Compare kwashiorkor with marasmus. [DU-16J]<br>Q. State important difference between kwashiorkor & marasmus [DU-10Ju, CU-13J,12J, SUST- 18N,15J,14J]
 
 _Q. Compare kwashiorkor with marasmus. [DU-16J]_
-</details>
 
-<details>
-<summary><b>Q. Differentiate between kwashiorkor and marasmus clinically. [SUST-13J]<br>Q. Mention the principle features of PEM. [SUST-16J] ;<br>Q. Write short note on: Kwashiorkor & marasmus. [SUST-10J]</b></summary>
+### Q. Differentiate between kwashiorkor and marasmus clinically. [SUST-13J]<br>Q. Mention the principle features of PEM. [SUST-16J] ;<br>Q. Write short note on: Kwashiorkor & marasmus. [SUST-10J]
 
 **Difference between kwashiorkor & marasmus:**
 Kwashiorkor
@@ -2210,10 +1997,8 @@ B) Variable features
 5) Moon face None Often
 6) Hepatic enlargement_| None Frequent |
 [Ref- Rashid, Khabir, Hyder / 4" / 126]
-</details>
 
-<details>
-<summary><b>Q. Mention the health problems associated with protein deficiency. [DU-16M]</b></summary>
+### Q. Mention the health problems associated with protein deficiency. [DU-16M]
 
 **Protein deficiency diseases:**
 1) Marasmus (lack of protein and calorie).
@@ -2221,16 +2006,12 @@ B) Variable features
 3) Nutritional anaemia.
 4) Low birth weight infant.
 5) Infection.
-</details>
 
-<details>
-<summary><b>Q. Write down the risk factors [RU-18N] / predisposing factors [SUST-16M] / primary causes</b></summary>
+### Q. Write down the risk factors [RU-18N] / predisposing factors [SUST-16M] / primary causes
 
 [DU-10J] / ecological factors [CU-13Ju] of PEM.
-</details>
 
-<details>
-<summary><b>Q. Give the outline of factors of causation of kwashiorkor.</b></summary>
+### Q. Give the outline of factors of causation of kwashiorkor.
 
 **Risk factors for PEM:**
 1) An inadequate intake of food (food gap) both in quantity and quality.
@@ -2245,26 +2026,20 @@ B) Variable features
 AAAATTAAAAANAARINARARR NAN NNN NNN AANA A
 See
 464 — ENDER, YOUR COMMUNITY MEDICINE FOR WRITTEN (SAQ, MC
-</details>
 
-<details>
-<summary><b>Viva Q.</b></summary>
+### Viva Q.
 
 **PEM is a roblem of slum people:** Bec
 1)
 2) Infections are very
 3) Lack of immuniz
 4) Poor environmer
-</details>
 
-<details>
-<summary><b>Q. Mention measures<br>Q. How can you 18N]</b></summary>
+### Q. Mention measures<br>Q. How can you 18N]
 
 _Q. Mention measures_
-</details>
 
-<details>
-<summary><b>Q. Mention the guidelines</b></summary>
+### Q. Mention the guidelines
 
 the community,
 PEM isa problem of slum people, why? Explain.
@@ -2317,25 +2092,19 @@ C) Early Diagnosis & Treatment;
 pregnant and lactating woman (education, distribution of
 [Ref Park (24/678)
 Cha ter-14: Nutrition & Health . ss
-</details>
 
-<details>
-<summary><b>Q. Explain GOBIFFF / GOBI + 3F,<br>Q. GOBI-FFF are the measure</b></summary>
+### Q. Explain GOBIFFF / GOBI + 3F,<br>Q. GOBI-FFF are the measure
 
 S Of chi 5
-</details>
 
-<details>
-<summary><b>Q. Write short note on: GOBL ERR nu survival-explain, [DU-17N]</b></summary>
+### Q. Write short note on: GOBL ERR nu survival-explain, [DU-17N]
 
 FFF. [SUST-13)]
 ns'
 : According t . _
 cone ceording to UNICEF, Preventive measures for PEM can be explained by GOBIFFF which is as
-</details>
 
-<details>
-<summary><b>4 q</b></summary>
+### 4 q
 
 ll
 Growth Monitoring,
@@ -2364,10 +2133,8 @@ tow ow ow
 oil
 As = OC
 i i i led?
-</details>
 
-<details>
-<summary><b>Q. Define lathyrism. Why it occurs? How lathyrism can. be contro! d<br>Q. Discuss prevention & control measures of lathyrism in a community. [DU-13Ju]<br>Q. How can you prevent lathyrism? [DU-09Ju]</b></summary>
+### Q. Define lathyrism. Why it occurs? How lathyrism can. be contro! d<br>Q. Discuss prevention & control measures of lathyrism in a community. [DU-13Ju]<br>Q. How can you prevent lathyrism? [DU-09Ju]
 
 **Lathyrism:**
 It is a paralyzing disease of humans and animals. In the humans it is referred to as neurolathyrism & in
@@ -2417,20 +2184,16 @@ lathyrism.
 6. Socio-economic changes. .
 [Ref- Park / 24" / 682 + Rashid, Khabir, Hyder /4"/ 130]
 Milk, meet & food pornetliconses
-</details>
 
-<details>
-<summary><b>Viva Q. Mention the sources of milk infection.</b></summary>
+### Viva Q. Mention the sources of milk infection.
 
 **Sources of milk infection:**
 1) The dairy animal.
 2) Human handler.
 3) The environment e.g. contaminated vessels, polluted water, flies, dust etc.
 [Ref- Park / 24" /692]
-</details>
 
-<details>
-<summary><b>Q. Outline the milk borne diseases. [RU-17N, 1 5Ju,13Ju]<br>Q. Classify milk borne diseases with their causative agents.</b></summary>
+### Q. Outline the milk borne diseases. [RU-17N, 1 5Ju,13Ju]<br>Q. Classify milk borne diseases with their causative agents.
 
 **Milk borne diseases:** A joint FAO/WHO Expert Committee (1970) on Milk Hygiene classified milk-
 diseases as under:
@@ -2463,16 +2226,12 @@ Viral hepatitis.
 borne
 U-12Ju]
 [RU-13Ju]
-</details>
 
-<details>
-<summary><b>Q. Define and classify pasteurization of milk. [R</b></summary>
+### Q. Define and classify pasteurization of milk. [R
 
 tion of milk. [RU-10J]
-</details>
 
-<details>
-<summary><b>Q. Illustrate pasteurization of milk to preserve it.<br>Q. Define pasteurization. State the process of pasteuriza<br>Q. How milk is pasteurized / preserved?<br>Q. How can you disinfect milk in large scale? [DU-14Ju]</b></summary>
+### Q. Illustrate pasteurization of milk to preserve it.<br>Q. Define pasteurization. State the process of pasteuriza<br>Q. How milk is pasteurized / preserved?<br>Q. How can you disinfect milk in large scale? [DU-14Ju]
 
 **Pasteurization:**
 Pasteurization may be defined as the heating of mil
@@ -2499,10 +2258,8 @@ Very large quantities of milk per
 stages (the 2nd stage usually being under pressure) to 125°C for a few seconds only, It is then
 idly i ttled as quickly as possible.
 rapidly cooled and bottled as quickly as p' ae Park /24* 7699
-</details>
 
-<details>
-<summary><b>Q. What may be the characteristics of milk-borne epidemic?</b></summary>
+### Q. What may be the characteristics of milk-borne epidemic?
 
 The characteristics of milk borne epidemic are as follows —
 1. The onset is sudden with an explosive outburst.
@@ -2511,10 +2268,8 @@ The characteristics of milk borne epidemic are as follows —
 4. Children, fed on cow's milk, are more frequently attacked than adults.
 [Ref- Rashid, Khabir, Hyder / 4" / 136]
 1k from a common source.
-</details>
 
-<details>
-<summary><b>Q. List the deficiency diseases of public health importance. How can you preserve milk?</b></summary>
+### Q. List the deficiency diseases of public health importance. How can you preserve milk?
 
 The deficiency diseases of public health importance are as follows —
 1) Protein energy malnutrition
@@ -2528,10 +2283,8 @@ The deficiency diseases of public health importance are as follows —
 Preservation of milk:
 To preserve milk we can keep it in a cool place. Where refrigerators are available we can keep milk in
 that. In case of large quantity of milk it can be keep in ice box and may be in cold-storage.
-</details>
 
-<details>
-<summary><b>Q. Classify meat borne diseases.</b></summary>
+### Q. Classify meat borne diseases.
 
 **Meat borne diseases:**
 1) Tape worm infestations:
@@ -2546,10 +2299,8 @@ Tuberculosis
 Food poisoning
 VVVYN
 [Ref- Park / 24" / 693]
-</details>
 
-<details>
-<summary><b>Q. Classify food borne diseases.<br>Q. Enumerate the food borne diseases. [RU-1 1Ju]<br>Q. Mention the food borne diseases with their causative agents. [CU-14J]<br>Q. Write short note on: Food related disease.</b></summary>
+### Q. Classify food borne diseases.<br>Q. Enumerate the food borne diseases. [RU-1 1Ju]<br>Q. Mention the food borne diseases with their causative agents. [CU-14J]<br>Q. Write short note on: Food related disease.
 
 **Food borne diseases:**
 The term "food borne disease" is defined as, "a disease, usually either infectious toxin in nature caused
@@ -2584,10 +2335,8 @@ Streptococcal infection, Shigellosis, Brucellosis
 | Viral diseases _| Viral hepatitis, Gastroenteritis
 Parasites Taeniasis, Hydatidosis, Trichinosis, Ascariasis, Amoebiasis, Oxyuriasis.
 [Ref- Park / 24" / 694]
-</details>
 
-<details>
-<summary><b>Q. Mention different food toxins.</b></summary>
+### Q. Mention different food toxins.
 
 **Food toxins:**
 1) BOAA (Beta Oxalyl Aminoalanine): the cause of neurolathyrism found in seeds of the pulses -
@@ -2601,10 +2350,8 @@ flowering stage food grains such as bajra sorghum wheat.
 5) Pyrrolizidine alkaloids: Jhunjhunia seeds where found to contain this toxin which are hepatotoxin
 cause endemic ascites characterized by rapidly developing ascites and jaundice.
 [Ref- Park / 24" / 694]
-</details>
 
-<details>
-<summary><b>📌 Viva — Food additives: Food additives are defined as</b></summary>
+### 📌 Viva — Food additives: Food additives are defined as
 
 **+ Food additives:** Food additives are defined as
 to food generally in small quantity to improve i
@@ -2617,10 +2364,8 @@ Sweeteners: saccharin
 Bleaching agents: chlorine
 Acidity imparting agents: citric acid acetic acid.
 [Ref- Park /24"/ 695)
-</details>
 
-<details>
-<summary><b>Q. Define food fortification. [CU-15Ju}<br>Q. Discuss the fortification of food with example.<br>Q. Write short note on: Food fortification. [SUST-13J]</b></summary>
+### Q. Define food fortification. [CU-15Ju}<br>Q. Discuss the fortification of food with example.<br>Q. Write short note on: Food fortification. [SUST-13J]
 
 **Food fortification:** r
 WHO has defined food fortification as the process whereby nutrients are added to foods (in Telatively
@@ -2641,19 +2386,15 @@ admixture with edible ground nut.
 4) Edible oils: Fortification of vanaspathi with vitamin A.
 3)
 [Ref- Park / 24" / 696]
-</details>
 
-<details>
-<summary><b>📌 Viva — Viva points</b></summary>
+### 📌 Viva — Viva points
 
 **Food enrichment:** It means addition of dietary essentials to a food to restore the total content of the
 °,
 te
 former.
-</details>
 
-<details>
-<summary><b>Q. Define food adulteration. [DU-12J, SUST-17N,16N, CU-15Ju]<br>Q. How food adulteration is done in case of fruits, vegetables, fishes. [SUST-17N,16N]<br>Q. How to make these safer? [SUST-17N]<br>Q. Write short note on: Food adulteration. [SUST-18N, CU-11Ju, RU-13Ju]</b></summary>
+### Q. Define food adulteration. [DU-12J, SUST-17N,16N, CU-15Ju]<br>Q. How food adulteration is done in case of fruits, vegetables, fishes. [SUST-17N,16N]<br>Q. How to make these safer? [SUST-17N]<br>Q. Write short note on: Food adulteration. [SUST-18N, CU-11Ju, RU-13Ju]
 
 **Food adulteration:** j
 Extraction of valuable components from food or addition of something of lower price which is absent in
@@ -2672,10 +2413,8 @@ quality putting up decomposed foods
 7) Butter: By starch animal fat,
 8) Ghee: By vanaspathi.
 [Ref- Rashid, Khabir, Hyder / 4" / 135 + Park /24" / 696]
-</details>
 
-<details>
-<summary><b>Q. Nutritional deficiency include: [DU-18N]</b></summary>
+### Q. Nutritional deficiency include: [DU-18N]
 
 a) Scurvey.
 b) Neuro-lathyrism.
@@ -2683,10 +2422,8 @@ c) Botulism.
 d) Xerophthalmia.
 e) Dental fluorosis.
 Ans. a) T, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Micronutrients is/are: [DU-18N,10Ju]</b></summary>
+### Q. Micronutrients is/are: [DU-18N,10Ju]
 
 a) Ascorbic acid
 b) Essential fatty acid
@@ -2694,10 +2431,8 @@ c) Selenium
 d) Essential amino acid
 e) Dextrose
 Ans. a) T, b) F, c) T, d) F, e) F.
-</details>
 
-<details>
-<summary><b>Q. Natural sources of vitamin A: [DU-18M]</b></summary>
+### Q. Natural sources of vitamin A: [DU-18M]
 
 a) Green leafy vegetables.
 b) Food fortified with vitamin A.
@@ -2705,10 +2440,8 @@ c) Sweet potato.
 d) High potency vitamin A capsule.
 e) Carrot.
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Anthrometric measurements are: [DU- 17N]</b></summary>
+### Q. Anthrometric measurements are: [DU- 17N]
 
 a) MUAC.
 b) Age.
@@ -2716,10 +2449,8 @@ c) Blood group.
 d) Height.
 e) Hb%.
 Ans. a) T, b) F, c) F, d) T. e) F.
-</details>
 
-<details>
-<summary><b>Q. Daily requirement of Ca”*: [DU-16N]</b></summary>
+### Q. Daily requirement of Ca”*: [DU-16N]
 
 **a) Adult:** 500 mg
 b) Young lady: 700mg
@@ -2727,10 +2458,8 @@ c) Pregnant woman: Igm
 d) Old people: 1 gm
 e) Lactating mother: 1.2 gm
 Ans, a) F, b) F, c) T, d) T, e) T-
-</details>
 
-<details>
-<summary><b>Q. Food borne intoxications are: [DU-16N]</b></summary>
+### Q. Food borne intoxications are: [DU-16N]
 
 a) Typhoid fever.
 b) Lathyrism.
@@ -2738,10 +2467,8 @@ c) Botulism.
 d) Gastro-enteritis.
 e) Endemic ascites.
 Ans. a) F, b) T, c) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Egg contains: [DU-16J]</b></summary>
+### Q. Egg contains: [DU-16J]
 
 a) All vitamins.
 b) Calcium.
@@ -2749,10 +2476,8 @@ c) Carbohydrate.
 d) Fat.
 e) Protein.
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Functions of vitamin-A includes: [DU-15J]</b></summary>
+### Q. Functions of vitamin-A includes: [DU-15J]
 
 a) Maintaining the integrity of skin.
 b) Promotion of intestinal calcium
@@ -2762,10 +2487,8 @@ d) Stimulation of production of coagulation
 factors.
 e) Maintenance of globular epithelial cells.
 Ans. a) T, b) F, ¢) T, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Retinal deficiency is associated with: [DU- 14Ju]</b></summary>
+### Q. Retinal deficiency is associated with: [DU- 14Ju]
 
 a) Xerophthalmia
 b) Osteoporosis.
@@ -2773,10 +2496,8 @@ c) Wernick’s encephalopathy.
 d) Follicular hyperkeratosis.
 e) Growth retardation.
 Ans. a) T, b) F, ¢) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. The protective foods are: [DU-14J]</b></summary>
+### Q. The protective foods are: [DU-14J]
 
 a) cabbage
 b) pumpkin
@@ -2784,10 +2505,8 @@ c) butter
 d) ground nut
 e) spinach
 Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Regarding fat: ([DU-13Ju]</b></summary>
+### Q. Regarding fat: ([DU-13Ju]
 
 a) fat solid at 40°C
 b) rice contain invisible fat
@@ -2795,10 +2514,8 @@ b) rice contain invisible fat
 d) animal fat are rich sources of EFA
 e) cheeps & crackers contain trans fatty acid
 Ans. a) F, b) T, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. The protective foods are: [DU-13J]</b></summary>
+### Q. The protective foods are: [DU-13J]
 
 a) vegetables
 b) pulse
@@ -2806,10 +2523,8 @@ c) ground nut
 d) roots
 e) fruits
 Ans. a) T, b) F, c) F, d) F, e) T.
-</details>
 
-<details>
-<summary><b>Q. Trace elements are: [DU-1 2Ju]</b></summary>
+### Q. Trace elements are: [DU-1 2Ju]
 
 a) iron
 b) iodine
@@ -2819,10 +2534,8 @@ d) sodium
 Ans. a) T, b) T, c) T, d) F, e) F.
 i,
 VIVA & OSPE
-</details>
 
-<details>
-<summary><b>Q. According to functional classification: [DU-12J]</b></summary>
+### Q. According to functional classification: [DU-12J]
 
 a) milk is a protective food
 b) pulses are energy-yielding food
@@ -2830,10 +2543,8 @@ b) pulses are energy-yielding food
 d) cellulose are dietary fibre
 e) eggs are invisible fats
 Ans. a) T, b) T, c) F, d) T, e) F.
-</details>
 
-<details>
-<summary><b>Q. Water soluble vitamins are: [DU-12J]</b></summary>
+### Q. Water soluble vitamins are: [DU-12J]
 
 a) retinal
 b) cholecalciferol
@@ -2841,10 +2552,8 @@ Cc) tocopherol
 d) thiamine
 e) niacin
 Ans. a) F, b) F, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Pellagra is characterized by: [DU-12J]</b></summary>
+### Q. Pellagra is characterized by: [DU-12J]
 
 a) cheilosis
 b) dermatitis
@@ -2852,10 +2561,8 @@ c) angular stomatitis
 d) diarrhoea
 e) dementia
 Ans. a) F, b) T, c) F, d) T, e) T.
-</details>
 
-<details>
-<summary><b>Q. Features of a child suffering from</b></summary>
+### Q. Features of a child suffering from
 
 **marasmus:** [DU-1 1Ju]
 a) clear muscle wasting
@@ -2899,5 +2606,4 @@ Arsenicosis....
 Lead poisoning / Plumbism
 Ozone Layer Depletion ..
 a nnn A NN NN RT RT WSC cement
-</details>
 

@@ -6,8 +6,7 @@
 
 > 📖 Robbins 10e, Ch 20 (Kidney), pp. 895–952 · 📗 Arif 15e (2025), Vol-2, Unit-I Renal System, pp. 225–249 · Unit-II Renal Function Test, pp. 406–432
 
-<details>
-<summary><b>Q1. Define Acute pyelonephritis. Mention the etiology of Acute pyelonephritis. Discuss about Predisposing factors of Acute pyelonephritis.</b></summary>
+### Q1. Define Acute pyelonephritis. Mention the etiology of Acute pyelonephritis. Discuss about Predisposing factors of Acute pyelonephritis.
 
 ### Definition
 
@@ -45,10 +44,8 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q2. What are Complications of Acute Pyelonephritis?</b></summary>
+### Q2. What are Complications of Acute Pyelonephritis?
 
 | Complication | Description / who gets it |
 |---|---|
@@ -66,10 +63,8 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q3. Define UTI. Discuss the types of UTI. Tell The Urinary Findings of UTI. What is pyuria? Tell the cause of sterile pyuria.</b></summary>
+### Q3. Define UTI. Discuss the types of UTI. Tell The Urinary Findings of UTI. What is pyuria? Tell the cause of sterile pyuria.
 
 ### Definition
 
@@ -114,10 +109,8 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q4. List the name of Causative organisms of UTI. mention the complications of UTI.</b></summary>
+### Q4. List the name of Causative organisms of UTI. mention the complications of UTI.
 
 ### Causative organisms of UTI
 
@@ -145,10 +138,8 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q5. Why is UTI more common in females?</b></summary>
+### Q5. Why is UTI more common in females?
 
 1. 🔴 **Short, wide and straight female urethra (~4 cm vs 20 cm in males)** — easy ascending route for perineal/enteric organisms to reach the bladder.
 2. 🔴 **Urethral opening close to the vaginal vestibule and anus** — constant contamination by faecal flora (E. coli colonises the introitus).
@@ -164,10 +155,8 @@ Sudden onset fever with chills/rigors, **costovertebral angle tenderness (loin p
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q6. Classify Renal stone. What are the common causes of renal stone?</b></summary>
+### Q6. Classify Renal stone. What are the common causes of renal stone?
 
 ### Classification of renal stones
 
@@ -206,10 +195,8 @@ Retention on urothelium (fixed particle) → STONE FORMATION → colic/infection
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q7. Define azotemia and uraemia. Discuss about causes of uremia/azotemia.</b></summary>
+### Q7. Define azotemia and uraemia. Discuss about causes of uremia/azotemia.
 
 ### Definitions
 
@@ -234,10 +221,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q8. Mention the components of Renal function test with their normal values.</b></summary>
+### Q8. Mention the components of Renal function test with their normal values.
 
 ### Components of renal function tests
 
@@ -267,10 +252,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q9. Why S. Creatinine is considered as an ideal marker of renal function? Tell the normal value of blood urea & S.Creatinine.</b></summary>
+### Q9. Why S. Creatinine is considered as an ideal marker of renal function? Tell the normal value of blood urea & S.Creatinine.
 
 ### Why serum creatinine is an ideal marker
 
@@ -297,10 +280,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q10. Mention the components of routine Examination of urine.</b></summary>
+### Q10. Mention the components of routine Examination of urine.
 
 | Component | Details |
 |---|---|
@@ -315,10 +296,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q11. Describe briefly the importance of renal function tests.</b></summary>
+### Q11. Describe briefly the importance of renal function tests.
 
 1. 🔴 **Detection of renal impairment early** — even before symptoms (raised creatinine/microalbuminuria in diabetes & hypertension).
 2. 🔴 **Differentiation of type of renal failure** — pre-renal (high urea:creatinine ratio, concentrated urine, low urine sodium) vs renal vs post-renal.
@@ -336,10 +315,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q12. Enumerate the types of Urine samples.</b></summary>
+### Q12. Enumerate the types of Urine samples.
 
 | Type of sample | Use/importance |
 |---|---|
@@ -361,10 +338,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q13. Indication of 24 hours urinary total protein (UTP).</b></summary>
+### Q13. Indication of 24 hours urinary total protein (UTP).
 
 1. 🔴 **Diagnosis of nephrotic syndrome** — confirm proteinuria **≥3.5 g/day/1.73 m²** when dipstick persistently ≥2+ or ++/++++.
 2. **Quantification of proteinuria** when spot urine protein:creatinine ratio is equivocal.
@@ -382,10 +357,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q14. Enumerate the casts in urine with their interpretation/importance.</b></summary>
+### Q14. Enumerate the casts in urine with their interpretation/importance.
 
 🔴 **Casts are cylindrical moulds of Tamm-Horsfall mucoprotein precipitated in the distal convoluted tubule/collecting duct, trapping cells/debris — they localise the lesion to the KIDNEY (upper urinary tract).**
 
@@ -408,10 +381,8 @@ Nausea, vomiting, anorexia, ammoniac breath · pericarditis & pleuritis (fibrino
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q15. Enumerate Reducing substance of Urine.</b></summary>
+### Q15. Enumerate Reducing substance of Urine.
 
 Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
@@ -433,10 +404,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q16. Short Note: Urinary crystal.</b></summary>
+### Q16. Short Note: Urinary crystal.
 
 📌 **Urinary crystals are inorganic/organic crystalline precipitates found in urine sediment; their type depends chiefly on urine pH and concentration.** Occasional crystals are normal; abundant/persistent crystals suggest stone disease or metabolic disorder.
 
@@ -458,10 +427,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q17. Define Proteinuria. Mention its cause.</b></summary>
+### Q17. Define Proteinuria. Mention its cause.
 
 ### Definition
 
@@ -483,10 +450,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q18. Define massive proteinuria. Mention its cause. What is microalbuminuria and its importance?</b></summary>
+### Q18. Define massive proteinuria. Mention its cause. What is microalbuminuria and its importance?
 
 ### Massive proteinuria
 
@@ -514,10 +479,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q19. Enumerate the methods of detection of protein in urine.</b></summary>
+### Q19. Enumerate the methods of detection of protein in urine.
 
 1. 🔴 **Dipstick method (tetrabromophenol blue)** — colour change yellow→green/blue graded as trace to ++++; detects mainly **albumin** (negative for Bence-Jones protein & tubular proteins); false positives with very alkaline urine/quaternary ammonium antiseptics; false negatives with dilute urine/vitamin C.
 2. 🔴 **Heat coagulation test** — classic bedside qualitative test (see Q20).
@@ -536,10 +499,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q20. Heat coagulation test: Principle, procedure, interpretation.</b></summary>
+### Q20. Heat coagulation test: Principle, procedure, interpretation.
 
 ### Principle
 
@@ -569,10 +530,8 @@ Reducing substances reduce copper (Cu²⁺→Cu⁺) in Benedict's test:
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q21. Write in short about Bence-Jones Protein.</b></summary>
+### Q21. Write in short about Bence-Jones Protein.
 
 🔴 **Definition: Bence-Jones protein consists of free monoclonal immunoglobulin LIGHT CHAINS (κ or λ, molecular weight ~22 kDa) synthesized excessively by malignant plasma cells; being small they are freely filtered by the glomerulus and appear in urine.**
 
@@ -601,10 +560,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q22. Glycosuria: definition, types, causes, method of detection in urine.</b></summary>
+### Q22. Glycosuria: definition, types, causes, method of detection in urine.
 
 ### Definition
 
@@ -630,10 +587,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q23. Write in short about Benedict's test.</b></summary>
+### Q23. Write in short about Benedict's test.
 
 ### Benedict's qualitative test — for reducing sugar in urine
 
@@ -666,10 +621,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q24. Clinical significance of raised S. Uric Acid. what is the normal value of S. Uric acid.</b></summary>
+### Q24. Clinical significance of raised S. Uric Acid. what is the normal value of S. Uric acid.
 
 ### Normal value
 
@@ -691,10 +644,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q25. Write in short about S.creatinine with normal value.</b></summary>
+### Q25. Write in short about S.creatinine with normal value.
 
 🔴 **Definition: Serum creatinine is the concentration of creatinine — the cyclic anhydride derivative of creatine phosphate generated constantly from skeletal muscle metabolism — in blood; it is excreted almost entirely by glomerular filtration and therefore serves as the standard clinical index of glomerular filtration rate (GFR).**
 
@@ -711,10 +662,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q26. Name the ketone bodies. Define & mention the cause of ketonuria.</b></summary>
+### Q26. Name the ketone bodies. Define & mention the cause of ketonuria.
 
 ### Ketone bodies
 
@@ -742,10 +691,8 @@ Heat coagulation test (above), sulfosalicylic acid positivity (dipstick often ne
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q27. How will you detect Ketone bodies in urine with procedure?</b></summary>
+### Q27. How will you detect Ketone bodies in urine with procedure?
 
 ### 1. Rothera's test (classic tube test)
 
@@ -776,10 +723,8 @@ Add 10% ferric chloride dropwise to urine → **burgundy/red-brown (boodo green)
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q28. Mention the steps of urine analysis. How urine is prepared for microscopic examination.</b></summary>
+### Q28. Mention the steps of urine analysis. How urine is prepared for microscopic examination.
 
 ### Steps of urine analysis
 
@@ -816,10 +761,8 @@ report average count per HPF/LPF
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q29. Hematuria: Causes, Lab Diagnosis, Causes of painful & Painless Hematuria.</b></summary>
+### Q29. Hematuria: Causes, Lab Diagnosis, Causes of painful & Painless Hematuria.
 
 ### Definition
 
@@ -861,10 +804,8 @@ report average count per HPF/LPF
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q30. What do you mean by renal glycosuria?</b></summary>
+### Q30. What do you mean by renal glycosuria?
 
 🔴 **Renal glycosuria is the excretion of glucose in urine despite NORMAL blood glucose level (fasting & postprandial) and normal glucose tolerance, due to a defect in proximal tubular glucose reabsorption (lowered renal threshold) — typically a genetic defect of the sodium-glucose cotransporter SGLT2.**
 
@@ -880,10 +821,8 @@ report average count per HPF/LPF
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q31. Difference between Azotemia & Uremia.</b></summary>
+### Q31. Difference between Azotemia & Uremia.
 
 | Feature | **Azotemia** | **Uremia** |
 |---|---|---|
@@ -901,10 +840,8 @@ report average count per HPF/LPF
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q32. Enumerate the Colors of urine in different conditions.</b></summary>
+### Q32. Enumerate the Colors of urine in different conditions.
 
 | Colour | Condition/cause |
 |---|---|
@@ -927,10 +864,8 @@ report average count per HPF/LPF
 
 ---
 
-</details>
 
-<details>
-<summary><b>Q33. How to detect bile salt, ketone body, chyle in urine?</b></summary>
+### Q33. How to detect bile salt, ketone body, chyle in urine?
 
 ### 1. Bile salt — Hay's surface tension test
 
@@ -961,4 +896,3 @@ report average count per HPF/LPF
 
 ---
 
-</details>

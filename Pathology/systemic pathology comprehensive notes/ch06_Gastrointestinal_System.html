@@ -68,7 +68,17 @@
   .navfoot{display:flex;justify-content:space-between;margin-top:40px;border-top:1px solid var(--border);padding-top:16px}
   .navfoot a{color:var(--accent);text-decoration:none}
   @media print{ details{break-inside:avoid} .topnav,.toc-box,.navfoot{display:none} body{background:#fff;color:#000} }
-</style>
+/* ---- flat-notes: toggle-free cards (was <details>) ---- */
+.qcard{background:var(--panel,var(--card,#fff));border:1px solid var(--border,var(--line,#ccc));border-left:4px solid var(--flash,var(--accent,#888));border-radius:10px;margin:10px 0;overflow:hidden}
+.qcard>.q{display:block;padding:10px 14px;font-weight:700;color:var(--txt,var(--ink,#222));font-size:.97rem;border-bottom:1px solid var(--border,var(--line,#ccc));background:var(--flashbg,var(--panel2,transparent))}
+.quiz>.q{display:block;font-weight:800;color:var(--good,#4ade80);font-size:.98rem;padding:4px 0 8px}
+.quiz>.qcard{background:var(--panel2,transparent)}
+.quiz>.qcard>.q{color:var(--txt,var(--ink,#222));font-weight:600;font-size:.9rem;padding:9px 12px;background:transparent;border-bottom:1px solid var(--border,var(--line,#ccc))}
+.rapid .qcard>.q{color:var(--accent,#4fc3f7)}
+.footnotes .q{display:inline-block;font-size:.82rem;font-weight:700;color:var(--teal,#0f5b4e);margin-bottom:8px}
+nav.toc .toc-group{margin:0 0 6px}
+nav.toc .toc-group>.q{display:block;font-weight:700;color:var(--sect,var(--accent,#444));padding:6px 2px}
+@media print{.qcard{break-inside:avoid}}</style>
 </head>
 <body>
 <div class="topnav">
@@ -123,8 +133,8 @@
   <!-- ═══════════════════════ SECTION 1: OESOPHAGUS ═══════════════════════ -->
   <h2 id="oesophagus">1 · Oesophagus — Diseases Overview</h2>
 
-  <details id="oes-dis">
-    <summary>Name the pathological conditions / diseases of the oesophagus. What are the congenital anomalies?</summary>
+  <div class="qcard" id="oes-dis">
+    </div>Name the pathological conditions / diseases of the oesophagus. What are the congenital anomalies?</div>
     <div class="ans">
       <p><strong>Classification of oesophageal diseases:</strong></p>
       <ol>
@@ -142,10 +152,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.753–764 · Arif pp.144–145</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the oesophageal causes of haematemesis.</summary>
+  <div class="qcard">
+    </div>Mention the oesophageal causes of haematemesis.</div>
     <div class="ans">
       <p><strong>Oesophageal causes of haematemesis (vomiting blood):</strong></p>
       <ul>
@@ -166,10 +176,10 @@
       </ul>
       <p class="ref">Robbins 10e p.758</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What are the causes of oesophageal obstruction?</summary>
+  <div class="qcard">
+    </div>What are the causes of oesophageal obstruction?</div>
     <div class="ans">
       <ol>
         <li>Oesophageal webs, rings, stenosis</li>
@@ -178,14 +188,14 @@
       </ol>
       <p class="ref">Robbins 10e p.757</p>
     </div>
-  </details>
+  </div>
 
   <div class="mnem">🎯 <strong>Paterson-Brown-Kelly (Plummer-Vinson) syndrome:</strong> oesophageal web + severe iron-deficiency anaemia + glossitis + cheilosis. Associated with increased risk of oesophageal SCC. <em>(Ref: Robbins 10e p.757)</em></div>
 
   <h2 id="achalasia">1a · Achalasia</h2>
 
-  <details>
-    <summary>🔴 Short note: Achalasia. (CMU-23M)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Achalasia. (CMU-23M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Disordered oesophageal motility with inability to relax the lower oesophageal sphincter (LES), leading to progressive dysphagia and dilation of the oesophagus (mega-oesophagus).</p>
       <p><strong>Triad of achalasia:</strong></p>
@@ -211,12 +221,12 @@
       <p>Laparoscopic myotomy; pneumatic balloon dilatation; botulinum neurotoxin (Botox) injection (inhibits cholinergic neurons that promote contraction).</p>
       <p class="ref">Robbins 10e p.757 · BRS Pathology 5e p.228 · Pathoma 2014 p.102</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="gerd">1b · Reflux Oesophagitis / GERD</h2>
 
-  <details>
-    <summary>🔴 Short note: Reflux oesophagitis / GERD (gastro-oesophageal reflux disease). (CU-19M)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Reflux oesophagitis / GERD (gastro-oesophageal reflux disease). (CU-19M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Reflux of gastric acid into the lower oesophagus due to reduced lower oesophageal sphincter (LES) tone. <em>(N.B: It is the opposite of achalasia, where LES tone is increased.)</em></p>
       <h3>Causes / risk factors (conditions that decrease LES tone or increase abdominal pressure)</h3>
@@ -250,10 +260,10 @@
       </ul>
       <p class="ref">Robbins 10e p.759 · BRS Pathology 5e p.228</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Short note: Hiatal hernia.</summary>
+  <div class="qcard">
+    </div>Short note: Hiatal hernia.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Herniation or protrusion of part of the stomach through the oesophageal hiatus of the diaphragm. May cause LES incompetence; symptoms similar to GERD but symptomatic in &lt;10% of adults.</p>
       <h3>Anatomical types (3 patterns)</h3>
@@ -269,12 +279,12 @@
       </ul>
       <p class="ref">Robbins 10e p.760 · Harsh Mohan 7e p.521</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="varices">1c · Oesophageal Varices</h2>
 
-  <details>
-    <summary>🔴 What are oesophageal varices? Mention its mechanism. (CMU-23M)</summary>
+  <div class="qcard">
+    </div>🔴 What are oesophageal varices? Mention its mechanism. (CMU-23M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Dilated, tortuous veins lying primarily within the mucosa &amp; submucosa of the distal oesophagus and proximal stomach, occurring secondary to <strong>portal hypertension</strong>. Develops in 90% of cirrhotic patients (most commonly in alcoholic liver disease).</p>
       <h3>Clinical features</h3>
@@ -283,12 +293,12 @@
       <p>Liver cirrhosis / fibrosis → obstruction of portal blood flow → portal hypertension → porto-systemic shunting → anastomotic channels connecting portal and systemic venous systems open and become distended → oesophageal varices.</p>
       <p class="ref">Robbins 10e p.760 · BRS Pathology 5e p.228</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="barrett">1d · Barrett Oesophagus</h2>
 
-  <details>
-    <summary>🔴 Short note: Barrett oesophagus. (CU-18Nv, DU-06S/Ja, CMU-21Nv,20M)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Barrett oesophagus. (CU-18Nv, DU-06S/Ja, CMU-21Nv,20M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Long-standing complication of chronic GERD characterised by <strong>intestinal metaplasia</strong> within the oesophageal squamous mucosa — associated with increased risk of cancer. It is the <span class="hot">single most important risk factor for oesophageal adenocarcinoma</span>.</p>
       <p><strong>Incidence:</strong> occurs in up to 10% of individuals with symptomatic GERD; peak age 40–60 years.</p>
@@ -310,12 +320,12 @@
       <p>Local ulceration with bleeding and stricture; oesophageal adenocarcinoma.</p>
       <p class="ref">Robbins 10e p.761 · Harsh Mohan 7e p.523</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="oe-ca">1e · Oesophageal Carcinoma</h2>
 
-  <details>
-    <summary>🔴 Mention the risk factors of oesophageal squamous cell carcinoma (SCC). Write the etiopathogenesis.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the risk factors of oesophageal squamous cell carcinoma (SCC). Write the etiopathogenesis.</div>
     <div class="ans">
       <p>SCC occurs in adults &gt;45 years; males affected 4× more than females.</p>
       <h3>Risk factors</h3>
@@ -328,10 +338,10 @@
       </ol>
       <p class="ref">Robbins 10e pp.763–764</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the sites of oesophageal cancer.</summary>
+  <div class="qcard">
+    </div>Mention the sites of oesophageal cancer.</div>
     <div class="ans">
       <ul>
         <li><strong>Squamous cell carcinoma:</strong> arises most frequently in the <strong>upper and middle thirds</strong> of the oesophagus.</li>
@@ -339,10 +349,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.762–763 · BRS Pathology 5e p.229</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write the morphologic patterns of oesophageal squamous cell carcinoma.</summary>
+  <div class="qcard">
+    </div>Write the morphologic patterns of oesophageal squamous cell carcinoma.</div>
     <div class="ans">
       <p>Three morphologic patterns:</p>
       <ol>
@@ -352,13 +362,13 @@
       </ol>
       <p class="ref">Robbins 10e p.764</p>
     </div>
-  </details>
+  </div>
 
   <!-- ═══════════════════════ SECTION 2: STOMACH ═══════════════════════ -->
   <h2 id="stomach">2 · Stomach — Diseases Overview</h2>
 
-  <details>
-    <summary>Classify diseases of the stomach. Name the common malignant neoplasms of the stomach.</summary>
+  <div class="qcard">
+    </div>Classify diseases of the stomach. Name the common malignant neoplasms of the stomach.</div>
     <div class="ans">
       <ol>
         <li><strong>Congenital anomalies:</strong> ectopia, diaphragmatic hernia, congenital hypertrophic pyloric stenosis.</li>
@@ -377,14 +387,14 @@
       <div class="mnem">🎯 <strong>Who classification of gastric tumours:</strong> Epithelial (adenoma → adenocarcinoma), mesenchymal (GIST, leiomyoma/sarcoma), neuroendocrine (carcinoid, ECL-cell), lymphoid (MALToma).</div>
       <p class="ref">Robbins 10e pp.753, 764–779 · Harsh Mohan 7e p.529</p>
     </div>
-  </details>
+  </div>
 
   <div class="mnem">🎯 <strong>Congenital hypertrophic pyloric stenosis:</strong> congenital hypertrophy of pyloric smooth muscle (more common in males). Presents 3–6 weeks of life: projectile non-bilious vomiting, visible peristalsis (left-to-right), olive-like abdominal mass. Diagnosed by ultrasonography; treated by surgical myotomy. <em>(Ref: Robbins 10e p.755)</em></div>
 
   <h2 id="gastritis">2a · Gastritis (Acute &amp; Chronic)</h2>
 
-  <details>
-    <summary>🔴 Define gastritis. Mention its types and causes. Write the pathogenesis and clinical features.</summary>
+  <div class="qcard">
+    </div>🔴 Define gastritis. Mention its types and causes. Write the pathogenesis and clinical features.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Inflammation of the gastric mucosa.</p>
       <h3>1. Acute gastritis</h3>
@@ -419,10 +429,10 @@
       </table>
       <p class="ref">Robbins 10e pp.765–769</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the complications of chronic gastritis.</summary>
+  <div class="qcard">
+    </div>Mention the complications of chronic gastritis.</div>
     <div class="ans">
       <ol>
         <li>Peptic ulcer disease (PUD)</li>
@@ -433,12 +443,12 @@
       </ol>
       <p class="ref">Robbins 10e pp.765–769</p>
     </div>
-  </details>
+  </div>
 
   <div class="mnem">🎯 <strong>Gastropathy vs gastritis:</strong> "gastritis" = neutrophils present; "gastropathy" = inflammatory cells rare or absent. Common irritants: NSAIDs, alcohol, bile. <em>(Ref: Robbins 10e p.765)</em></div>
 
-  <details>
-    <summary>What are the tests done for <em>H. pylori</em> infection?</summary>
+  <div class="qcard">
+    </div>What are the tests done for <em>H. pylori</em> infection?</div>
     <div class="ans">
       <h3>Non-invasive tests</h3>
       <ul>
@@ -455,12 +465,12 @@
       </ul>
       <p class="ref">Robbins 10e p.768</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="pud">2b · Peptic Ulcer Disease (PUD)</h2>
 
-  <details>
-    <summary>🔴 Define peptic ulcer disease (PUD). Enumerate the common sites. (DU-19/17Nv, RU-21/20/19/18Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Define peptic ulcer disease (PUD). Enumerate the common sites. (DU-19/17Nv, RU-21/20/19/18Nv)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Chronic mucosal ulceration affecting the duodenum or stomach, almost always associated with <em>H. pylori</em> infection, NSAIDs, or cigarette smoking. Occur most commonly (98–99%) in duodenum or stomach in ratio 4:1.</p>
       <h3>Common sites (VIVA)</h3>
@@ -474,10 +484,10 @@
       </ul>
       <p class="ref">Robbins 10e p.770 · Harsh Mohan 7e p.535</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the causes / risk factors of peptic ulcer disease? (SMU-23/22M, CU-13Ju)</summary>
+  <div class="qcard">
+    </div>🔴 What are the causes / risk factors of peptic ulcer disease? (SMU-23/22M, CU-13Ju)</div>
     <div class="ans">
       <ul>
         <li><strong><em>H. pylori</em> infection</strong> (~90% duodenal ulcer patients, ~70% gastric ulcer patients)</li>
@@ -493,10 +503,10 @@
       </ul>
       <p class="ref">Robbins 10e p.770 · Davidson's 23e p.798</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the defense mechanisms of gastro-duodenal mucosa / mucosal barrier. (RMU-21M)</summary>
+  <div class="qcard">
+    </div>🔴 Write down the defense mechanisms of gastro-duodenal mucosa / mucosal barrier. (RMU-21M)</div>
     <div class="ans">
       <ol>
         <li>Surface mucous secretion</li>
@@ -509,10 +519,10 @@
       </ol>
       <p class="ref">Robbins 10e p.765</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Describe the pathogenesis of peptic ulcer disease. (DU-22Nv, CMU-23Nv,22M,19M)</summary>
+  <div class="qcard">
+    </div>🔴 Describe the pathogenesis of peptic ulcer disease. (DU-22Nv, CMU-23Nv,22M,19M)</div>
     <div class="ans">
       <p>PUD results from imbalances between <strong>mucosal defence mechanisms</strong> (protective factors) and <strong>damaging forces</strong>. PUD generally develops on a background of chronic gastritis.</p>
       <h3>1. Impairment of defence mechanism (Very Important for VIVA)</h3>
@@ -535,10 +545,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.765, 770</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What is the role of <em>H. pylori</em> in the pathogenesis of peptic ulcer? (CU-12Ja, SU-13Ju)</summary>
+  <div class="qcard">
+    </div>🔴 What is the role of <em>H. pylori</em> in the pathogenesis of peptic ulcer? (CU-12Ja, SU-13Ju)</div>
     <div class="ans">
       <p>Although <em>H. pylori</em> does not invade tissues, it causes ulcer through:</p>
       <ol>
@@ -552,10 +562,10 @@
       <p><em>H. pylori</em> infection most often presents as predominantly antral gastritis with normal or increased acid production.</p>
       <p class="ref">Robbins 10e p.767</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Diseases associated with <em>H. pylori</em> infection. (SU-20Nv, SMU-23/22M)</summary>
+  <div class="qcard">
+    </div>🔴 Diseases associated with <em>H. pylori</em> infection. (SU-20Nv, SMU-23/22M)</div>
     <div class="ans">
       <ol>
         <li>Peptic ulcer disease (PUD)</li>
@@ -565,10 +575,10 @@
       </ol>
       <p class="ref">Robbins 10e p.767</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write the morphology (gross + microscopic) of peptic ulcer. (DU-13/11Ja, SU-13/10Ja)</summary>
+  <div class="qcard">
+    </div>🔴 Write the morphology (gross + microscopic) of peptic ulcer. (DU-13/11Ja, SU-13/10Ja)</div>
     <div class="ans">
       <h3>Gross / macroscopic</h3>
       <ul>
@@ -588,10 +598,10 @@
       <p><em>N.B: Malignant gastric ulcers are larger, bowl-shaped with elevated and indurated mucosa at the margin.</em></p>
       <p class="ref">Robbins 10e p.770 · Harsh Mohan 7e p.535</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Differentiate benign (peptic) ulcer from malignant ulcer. (DU-18Nv/Ja, RMU-21/19Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Differentiate benign (peptic) ulcer from malignant ulcer. (DU-18Nv/Ja, RMU-21/19Nv)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Benign (peptic) ulcer</th><th>Malignant ulcer</th></tr>
@@ -609,10 +619,10 @@
       </table>
       <p class="ref">Harsh Mohan 7e p.543</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Mention the clinical features of peptic ulcer disease.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the clinical features of peptic ulcer disease.</div>
     <div class="ans">
       <p>Peptic ulcers are remitting and relapsing lesions.</p>
       <ol>
@@ -627,10 +637,10 @@
       <p><em>N.B: With penetrating ulcers, pain may be referred to the back, left upper quadrant, or chest (misinterpreted as cardiac).</em></p>
       <p class="ref">Robbins 10e p.771 · Harsh Mohan 7e p.536</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Write down the complications of peptic ulcer disease (PUD). (DU-22/19Nv, RU-21/20/18Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Write down the complications of peptic ulcer disease (PUD). (DU-22/19Nv, RU-21/20/18Nv)</div>
     <div class="ans">
       <ol>
         <li><strong>Bleeding:</strong> occurs in 15–20% of patients (most frequent complication); may be life-threatening; accounts for 25% of ulcer-related deaths; may be the 1st indication of an ulcer.</li>
@@ -640,10 +650,10 @@
       </ol>
       <p class="ref">Robbins 10e p.771 · Harsh Mohan 7e p.535</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Differentiate duodenal ulcer from gastric ulcer. (For VIVA)</summary>
+  <div class="qcard">
+    </div>Differentiate duodenal ulcer from gastric ulcer. (For VIVA)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Duodenal ulcer</th><th>Gastric ulcer</th></tr>
@@ -661,44 +671,44 @@
       </table>
       <p class="ref">Harsh Mohan 7e p.534</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Peptic ulcer, complications &amp; gastric carcinoma</summary>
-    <details>
-      <summary>Complications of peptic ulcer disease: Haematemesis · Adenocarcinoma · Perforation · Profuse vomiting · Diarrhoea</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Peptic ulcer, complications &amp; gastric carcinoma</div>
+    <div class="qcard">
+      </div>Complications of peptic ulcer disease: Haematemesis · Adenocarcinoma · Perforation · Profuse vomiting · Diarrhoea</div>
       <div class="ans">Haematemesis <span class="tf">T</span> · Adenocarcinoma <span class="tf">T</span> (gastric ulcer &lt;1%) · Perforation <span class="tf">T</span> · Profuse vomiting <span class="ff">F</span> · Diarrhoea <span class="ff">F</span> <span class="ref">(DU-18M)</span></div>
-    </details>
-    <details>
-      <summary>Complications of peptic ulcer disease: Perforation · Reflux oesophagitis · Pyloric stenosis · Diarrhoea · Haematemesis</summary>
+    </div>
+    <div class="qcard">
+      </div>Complications of peptic ulcer disease: Perforation · Reflux oesophagitis · Pyloric stenosis · Diarrhoea · Haematemesis</div>
       <div class="ans">Perforation <span class="tf">T</span> · Reflux oesophagitis <span class="tf">T</span> · Pyloric stenosis <span class="tf">T</span> (obstruction) · Diarrhoea <span class="ff">F</span> · Haematemesis <span class="tf">T</span> <span class="ref">(DU-17Ja)</span></div>
-    </details>
-    <details>
-      <summary>Peptic ulcer: Fungating ulcer morphology · Clean ulcer bed · Premalignant condition · Can complicate with melaena · Usually multiple when due to H. pylori</summary>
+    </div>
+    <div class="qcard">
+      </div>Peptic ulcer: Fungating ulcer morphology · Clean ulcer bed · Premalignant condition · Can complicate with melaena · Usually multiple when due to H. pylori</div>
       <div class="ans">Fungating <span class="ff">F</span> (punched-out) · Clean bed <span class="tf">T</span> · Premalignant <span class="tf">T</span> (gastric) · Melaena <span class="tf">T</span> · Multiple <span class="tf">T</span> <span class="ref">(DU-11Ja)</span></div>
-    </details>
-    <details>
-      <summary>Factors associated with gastric carcinoma: H. pylori infection · Higher socio-economic status · Barrett's oesophagus · Partial gastrectomy · Blood group B</summary>
+    </div>
+    <div class="qcard">
+      </div>Factors associated with gastric carcinoma: H. pylori infection · Higher socio-economic status · Barrett's oesophagus · Partial gastrectomy · Blood group B</div>
       <div class="ans">H. pylori <span class="tf">T</span> · Higher SES <span class="ff">F</span> · Barrett's <span class="ff">F</span> (oesophageal) · Partial gastrectomy <span class="tf">T</span> (stump) · Blood group B <span class="ff">F</span> (group A) <span class="ref">(DU-22Nv)</span></div>
-    </details>
-    <details>
-      <summary>Gastric carcinoma is associated with: Persistent H. pylori infection · Prolonged aspirin intake · Alcoholism · Chronic atrophic gastritis · Crohn's disease</summary>
+    </div>
+    <div class="qcard">
+      </div>Gastric carcinoma is associated with: Persistent H. pylori infection · Prolonged aspirin intake · Alcoholism · Chronic atrophic gastritis · Crohn's disease</div>
       <div class="ans">H. pylori <span class="tf">T</span> · Aspirin <span class="ff">F</span> · Alcoholism <span class="ff">F</span> · Chronic atrophic gastritis <span class="tf">T</span> · Crohn's <span class="ff">F</span> <span class="ref">(DU-21Ja,20Nv/M,17M)</span></div>
-    </details>
-    <details>
-      <summary>Gastric carcinoma: Partial gastrectomy · Barrett's oesophagus · Refined carbohydrate intake · High fatty diet · Positive occult blood test</summary>
+    </div>
+    <div class="qcard">
+      </div>Gastric carcinoma: Partial gastrectomy · Barrett's oesophagus · Refined carbohydrate intake · High fatty diet · Positive occult blood test</div>
       <div class="ans">Partial gastrectomy <span class="tf">T</span> (stump) · Barrett's <span class="tf">T</span> · Refined carbohydrate <span class="ff">F</span> (CRC) · High fat <span class="ff">F</span> (CRC) · Occult blood <span class="tf">T</span> <span class="ref">(RU-18M)</span></div>
-    </details>
-    <details>
-      <summary>Duodenal ulcer: Less common than gastric ulcer · Hypersecretion of gastric acid · Usually multiple (H. pylori) · 2nd/3rd part of duodenum · Requires surgery</summary>
+    </div>
+    <div class="qcard">
+      </div>Duodenal ulcer: Less common than gastric ulcer · Hypersecretion of gastric acid · Usually multiple (H. pylori) · 2nd/3rd part of duodenum · Requires surgery</div>
       <div class="ans">Less common <span class="ff">F</span> (4× more common) · Hypersecretion <span class="tf">T</span> · Multiple <span class="tf">T</span> · 2nd/3rd part <span class="ff">F</span> (1st part) · Surgery <span class="ff">F</span> (usually medical) <span class="ref">(RU-14Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="gist">2c · Gastrointestinal Stromal Tumour (GIST)</h2>
 
-  <details>
-    <summary>🔴 Short note: Gastrointestinal stromal tumour (GIST). (DU-21Ja,20Nv/M)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Gastrointestinal stromal tumour (GIST). (DU-21Ja,20Nv/M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Mesenchymal tumours derived from the interstitial cells of Cajal (pacemaker cells of the gastrointestinal muscularis propria). Most common mesenchymal tumour of the abdomen.</p>
       <p><strong>Peak age:</strong> 60 years (&lt;10% before age 40).</p>
@@ -720,12 +730,12 @@
       <p>Complete surgical resection (primary treatment for localised GIST); targeted therapy / tyrosine kinase inhibitor (<strong>imatinib</strong>) — inhibits tyrosine kinase activity of c-kit and PDGFRA.</p>
       <p class="ref">Robbins 10e p.779 · BRS Pathology 5e p.232</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="gastric-ca">2d · Gastric Adenocarcinoma</h2>
 
-  <details>
-    <summary>🔴 Mention the sites, risk factors, clinical features, morphology (gross &amp; microscopic) and spread of gastric carcinoma.</summary>
+  <div class="qcard">
+    </div>🔴 Mention the sites, risk factors, clinical features, morphology (gross &amp; microscopic) and spread of gastric carcinoma.</div>
     <div class="ans">
       <p>Adenocarcinoma is the most common gastric malignancy (&gt;90% of all gastric cancers).</p>
       <h3>Sites</h3>
@@ -775,13 +785,13 @@
       <p>Barium meal X-ray; upper GI endoscopy + biopsy (gold standard); USG/CT (liver metastasis); chest X-ray; tumour markers: CEA, CA 19-9.</p>
       <p class="ref">Robbins 10e pp.774–775 · Harsh Mohan 7e pp.538–542</p>
     </div>
-  </details>
+  </div>
 
   <!-- ═══════════════════════ SECTION 3: INTESTINES ═══════════════════════ -->
   <h2 id="intestines">3 · Small &amp; Large Intestine — Overview</h2>
 
-  <details>
-    <summary>Mention the diseases of the intestine. Classify tumours of the intestine.</summary>
+  <div class="qcard">
+    </div>Mention the diseases of the intestine. Classify tumours of the intestine.</div>
     <div class="ans">
       <ol>
         <li><strong>Congenital anomalies:</strong> atresia &amp; stenosis, Meckel diverticulum, congenital aganglionic megacolon (Hirschsprung disease).</li>
@@ -807,12 +817,12 @@
       </ol>
       <p class="ref">Robbins 10e pp.753, 780–819</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="obstruction">3a · Intestinal Obstruction</h2>
 
-  <details>
-    <summary>🔴 Mention the causes of intestinal obstruction. (VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Mention the causes of intestinal obstruction. (VIVA)</div>
     <div class="ans">
       <ol>
         <li><strong>Hernias:</strong> weakness/defect in abdominal wall → protrusion of a serosa-lined pouch of peritoneum (hernia sac).</li>
@@ -822,12 +832,12 @@
       </ol>
       <p class="ref">Robbins 10e pp.780–781</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="meckel">3b · Meckel Diverticulum</h2>
 
-  <details>
-    <summary>Short note: Meckel diverticulum.</summary>
+  <div class="qcard">
+    </div>Short note: Meckel diverticulum.</div>
     <div class="ans">
       <p><strong>Definition:</strong> blind outpouching of all three layers of the bowel wall (true diverticulum) due to incomplete obliteration of the vitellointestinal duct. Most common congenital anomaly of the GI tract; occurs in the ileum.</p>
       <div class="mnem">🎯 <strong>"Rule of 2s":</strong> occurs in ~2% of population; generally within 2 feet (60 cm) of the ileocaecal valve; ~2 inches (5 cm) long; twice as common in males; most often symptomatic by age 2 (only ~4% are ever symptomatic).</div>
@@ -836,12 +846,12 @@
       <p><strong>Complications:</strong> perforation, haemorrhage, diverticulitis.</p>
       <p class="ref">Robbins 10e p.755 · Pathoma 2014 p.106</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="megacolon">3c · Megacolon &amp; Hirschsprung Disease</h2>
 
-  <details>
-    <summary>Short note: Megacolon. (CMU-22Nv)</summary>
+  <div class="qcard">
+    </div>Short note: Megacolon. (CMU-22Nv)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Any form of marked dilatation of the entire colon or its segment.</p>
       <h3>Types &amp; causes</h3>
@@ -865,10 +875,10 @@
       </ol>
       <p class="ref">Harsh Mohan 7e pp.563–564</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Hirschsprung disease / congenital aganglionic megacolon. (DU-12Ju, CU-15Ja)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Hirschsprung disease / congenital aganglionic megacolon. (DU-12Ju, CU-15Ja)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Congenital disease caused by absence of ganglion cells in the nerve plexus (Meissner's &amp; Auerbach's plexus), usually of the distal hind gut, with hypertrophy of nerve fibres → functional obstruction of the colon. Incidence: ~1 in 5000 live births.</p>
       <h3>Pathogenesis</h3>
@@ -889,12 +899,12 @@
       <p><strong>Complications:</strong> enterocolitis, intestinal obstruction, fluid/electrolyte disturbances, growth retardation, perforation, peritonitis, septicaemia.</p>
       <p class="ref">Robbins 10e p.756 · Pathoma 2014 p.109</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="malabsorption">3d · Malabsorption &amp; Diarrhoea</h2>
 
-  <details>
-    <summary>🔴 Short note: Malabsorption syndrome. (For VIVA)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Malabsorption syndrome. (For VIVA)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Defective absorption of fats, fat- and water-soluble vitamins, proteins, carbohydrates, electrolytes/minerals, and water.</p>
       <p><strong>Hallmark:</strong> steatorrhoea — excessive faecal fat; bulky, frothy, greasy, yellow or clay-coloured stools.</p>
@@ -914,10 +924,10 @@
       </ul>
       <p class="ref">Robbins 10e p.783</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Define and classify diarrhoea.</summary>
+  <div class="qcard">
+    </div>Define and classify diarrhoea.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Increase in stool mass, frequency, or fluidity (&gt;200 g/day). Severe cases: &gt;1 L/day; without fluid resuscitation → death. <em>Painful, bloody, small-volume diarrhoea = dysentery.</em></p>
       <h3>Four major categories</h3>
@@ -929,21 +939,21 @@
       </ol>
       <p class="ref">Robbins 10e p.784</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="celiac">3e · Coeliac Disease</h2>
 
-  <details>
-    <summary>What is coeliac disease?</summary>
+  <div class="qcard">
+    </div>What is coeliac disease?</div>
     <div class="ans">
       <p><strong>Definition:</strong> Immune-mediated disorder triggered by ingestion of gluten-containing foods (wheat, rye, barley) in genetically predisposed individuals. Also known as coeliac sprue or gluten-sensitive enteropathy.</p>
       <p><strong>Mechanism of malabsorption:</strong> loss of brush-border surface area due to villous atrophy and possibly deficient enterocyte maturation from immune-mediated epithelial damage.</p>
       <p class="ref">Robbins 10e pp.784, 787</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Mention the differences between amoebic ulcer and ulcer of bacillary dysentery.</summary>
+  <div class="qcard">
+    </div>Mention the differences between amoebic ulcer and ulcer of bacillary dysentery.</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Amoebic ulcer</th><th>Bacillary dysentery ulcer</th></tr>
@@ -957,12 +967,12 @@
         <tr><td><strong>Causative organism</strong></td><td>Few normal flora</td><td>Gram-negative bacteria</td></tr>
       </table>
     </div>
-  </details>
+  </div>
 
   <h2 id="infections">3f · Infectious Enterocolitis</h2>
 
-  <details>
-    <summary>Write about pseudomembranous colitis.</summary>
+  <div class="qcard">
+    </div>Write about pseudomembranous colitis.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Generally caused by <em>Clostridioides (Clostridium) difficile</em>; also called antibiotic-associated colitis / antibiotic-associated diarrhoea.</p>
       <p><strong>Risk factors:</strong> antibiotic treatment, advanced age, hospitalisation, immunosuppression.</p>
@@ -972,10 +982,10 @@
       <p><strong>Treatment:</strong> metronidazole and vancomycin.</p>
       <p class="ref">Robbins 10e p.793</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Write about Whipple disease.</summary>
+  <div class="qcard">
+    </div>Write about Whipple disease.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Rare, multi-visceral chronic disease characterised by macrophages loaded with <em>Tropheryma whippelii</em> organisms.</p>
       <p><strong>Clinical presentation (triad):</strong> diarrhoea, weight loss, arthralgia. Extraintestinal symptoms (arthritis, fever, lymphadenopathy, neurologic/cardiac/pulmonary disease) may precede malabsorption by months/years.</p>
@@ -983,12 +993,12 @@
       <p><strong>Mechanism of malabsorption:</strong> bacteria-laden macrophages accumulate within small-intestinal lamina propria and mesenteric lymph nodes → lymphatic obstruction → impaired lymph drainage.</p>
       <p class="ref">Robbins 10e p.794</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="ibs">3g · Irritable Bowel Syndrome (IBS)</h2>
 
-  <details>
-    <summary>What do you mean by IBS? (SU-17M)</summary>
+  <div class="qcard">
+    </div>What do you mean by IBS? (SU-17M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Functional gastrointestinal disorder characterised by chronic, relapsing abdominal pain, bloating, and changes in bowel habits. Peak prevalence: 20–40 years; significant female predominance.</p>
       <h3>Types (Rome criteria)</h3>
@@ -1000,12 +1010,12 @@
       <p><strong>Diagnosis:</strong> endoscopic and microscopic evaluations are <em>normal</em>; diagnosis depends on clinical symptoms (abdominal pain/discomfort ≥3 days/month over 3 months, improving with defecation, with change in stool frequency or form).</p>
       <p class="ref">Robbins 10e p.798</p>
     </div>
-  </details>
+  </div>
 
   <h2 id="ibd">3h · Inflammatory Bowel Disease (IBD)</h2>
 
-  <details>
-    <summary>🔴 What is inflammatory bowel disease (IBD)? Name the IBDs. Describe the pathogenesis. (DU-24Nv,23M)</summary>
+  <div class="qcard">
+    </div>🔴 What is inflammatory bowel disease (IBD)? Name the IBDs. Describe the pathogenesis. (DU-24Nv,23M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Chronic condition resulting from complex interactions between intestinal microbiota and host immunity in genetically predisposed individuals → inappropriate mucosal immune activation.</p>
       <p><strong>Two disorders:</strong> (1) ulcerative colitis — limited to colon &amp; rectum, generally mucosa &amp; submucosa; (2) Crohn disease — may involve any area from mouth to anus, typically transmural.</p>
@@ -1018,10 +1028,10 @@
       <p><em>Why idiopathic?</em> The basis of the abnormalities is still not established.</p>
       <p class="ref">Robbins 10e pp.798–800</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Crohn disease. (DU-24Nv,23M, SU-20M,09Ja)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Crohn disease. (DU-24Nv,23M, SU-20M,09Ja)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Form of IBD; also called regional enteritis; commonly affects terminal ileum, ileocaecal valve &amp; cecum but may occur anywhere from mouth to anus; typically <strong>transmural</strong>.</p>
       <h3>Pathogenesis</h3>
@@ -1054,10 +1064,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.799–801</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 Short note: Ulcerative colitis. (DU-17M)</summary>
+  <div class="qcard">
+    </div>🔴 Short note: Ulcerative colitis. (DU-17M)</div>
     <div class="ans">
       <p><strong>Definition:</strong> Severe ulcerating inflammatory bowel disease limited to the <strong>colon &amp; rectum</strong>; generally limited to the <strong>mucosa &amp; submucosa</strong>.</p>
       <h3>Clinical features</h3>
@@ -1091,10 +1101,10 @@
       </ul>
       <p class="ref">Robbins 10e pp.799, 801–803</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>🔴 What are the differences between Crohn disease and ulcerative colitis? (DU-24Nv,23M, RMU-23/22/21M)</summary>
+  <div class="qcard">
+    </div>🔴 What are the differences between Crohn disease and ulcerative colitis? (DU-24Nv,23M, RMU-23/22/21M)</div>
     <div class="ans">
       <table>
         <tr><th>Feature</th><th>Crohn disease</th><th>Ulcerative colitis</th></tr>
@@ -1118,44 +1128,44 @@
       </table>
       <p class="ref">Robbins 10e p.799 · Harsh Mohan 7e p.552</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Crohn's disease &amp; ulcerative colitis</summary>
-    <details>
-      <summary>Crohn's disease includes: Transmural inflammation · Pseudopolyp formation · Crypt abscess · Caseating granuloma · Occurs in colon and rectum</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Crohn's disease &amp; ulcerative colitis</div>
+    <div class="qcard">
+      </div>Crohn's disease includes: Transmural inflammation · Pseudopolyp formation · Crypt abscess · Caseating granuloma · Occurs in colon and rectum</div>
       <div class="ans">Transmural <span class="tf">T</span> · Pseudopolyp <span class="ff">F</span> (UC) · Crypt abscess <span class="ff">F</span> (UC) · Caseating granuloma <span class="ff">F</span> (non-caseating) · Colon &amp; rectum <span class="tf">T</span> <span class="ref">(DU-24Nv)</span></div>
-    </details>
-    <details>
-      <summary>Characteristics of Crohn's disease: Transmural · Caseating granuloma · Continuous lesion · Toxic megacolon · Fistula formation</summary>
+    </div>
+    <div class="qcard">
+      </div>Characteristics of Crohn's disease: Transmural · Caseating granuloma · Continuous lesion · Toxic megacolon · Fistula formation</div>
       <div class="ans">Transmural <span class="tf">T</span> · Caseating granuloma <span class="ff">F</span> (non-caseating) · Continuous <span class="ff">F</span> (skip) · Toxic megacolon <span class="ff">F</span> (UC) · Fistula <span class="tf">T</span> <span class="ref">(DU-23Nv)</span></div>
-    </details>
-    <details>
-      <summary>Features of Crohn's disease: Shallow ulcer · Skip lesion · Transmural involvement · Non-caseating granuloma · Frequent dysplastic changes</summary>
+    </div>
+    <div class="qcard">
+      </div>Features of Crohn's disease: Shallow ulcer · Skip lesion · Transmural involvement · Non-caseating granuloma · Frequent dysplastic changes</div>
       <div class="ans">Shallow <span class="ff">F</span> (deep) · Skip <span class="tf">T</span> · Transmural <span class="tf">T</span> · Non-caseating <span class="tf">T</span> · Dysplasia <span class="ff">F</span> (more in UC) <span class="ref">(DU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Ulcers of small intestine: Duodenal ulcer · Typhoid ulcer · Crohn's disease · Ulcerative colitis · Amoebic dysentery</summary>
+    </div>
+    <div class="qcard">
+      </div>Ulcers of small intestine: Duodenal ulcer · Typhoid ulcer · Crohn's disease · Ulcerative colitis · Amoebic dysentery</div>
       <div class="ans">Duodenal <span class="tf">T</span> · Typhoid <span class="tf">T</span> · Crohn's <span class="tf">T</span> · UC <span class="ff">F</span> (colon) · Amoebic <span class="ff">F</span> (colon) <span class="ref">(CMU-22M)</span></div>
-    </details>
-    <details>
-      <summary>Characteristics of ulcerative colitis: Involves small intestine · Inflammation in mucosa and submucosa · Skin lesion · Malignant transformation is rare</summary>
+    </div>
+    <div class="qcard">
+      </div>Characteristics of ulcerative colitis: Involves small intestine · Inflammation in mucosa and submucosa · Skin lesion · Malignant transformation is rare</div>
       <div class="ans">Small intestine <span class="ff">F</span> (colon) · Mucosa &amp; submucosa <span class="tf">T</span> · Skin lesion <span class="tf">T</span> (pyoderma gangrenosum) · Malignant change rare <span class="ff">F</span> (frequent &gt;10 yr) <span class="ref">(RU-17M)</span></div>
-    </details>
-    <details>
-      <summary>Ulcerative colitis leads to: Malignancy · Bloody diarrhoea · Toxic megacolon · "Hose pipe" rigidity · Skip lesion</summary>
+    </div>
+    <div class="qcard">
+      </div>Ulcerative colitis leads to: Malignancy · Bloody diarrhoea · Toxic megacolon · "Hose pipe" rigidity · Skip lesion</div>
       <div class="ans">Malignancy <span class="tf">T</span> · Bloody diarrhoea <span class="tf">T</span> · Toxic megacolon <span class="tf">T</span> · Hose pipe rigidity <span class="tf">T</span> · Skip lesion <span class="ff">F</span> (Crohn's) <span class="ref">(DU-09Ju)</span></div>
-    </details>
-    <details>
-      <summary>Stress-induced ulcer of stomach: Peptic ulcer disease · NSAID-induced · Septicaemic shock</summary>
+    </div>
+    <div class="qcard">
+      </div>Stress-induced ulcer of stomach: Peptic ulcer disease · NSAID-induced · Septicaemic shock</div>
       <div class="ans">PUD <span class="ff">F</span> · NSAID <span class="ff">F</span> · Septicaemic shock <span class="tf">T</span> (stress ulcer) <span class="ref">(DU-15Ja)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="crc">3i · Colorectal Carcinoma</h2>
 
-  <details>
-    <summary>🔴 Colorectal carcinoma (CRC) — predisposing factors, clinical features, pathogenesis (APC/β-catenin &amp; MSI), types.</summary>
+  <div class="qcard">
+    </div>🔴 Colorectal carcinoma (CRC) — predisposing factors, clinical features, pathogenesis (APC/β-catenin &amp; MSI), types.</div>
     <div class="ans">
       <p><strong>Definition:</strong> Colorectal adenocarcinoma is the most common malignancy of the GI tract; ~15% of all cancer-related deaths; second only to lung cancer.</p>
       <h3>Predisposing factors</h3>
@@ -1186,10 +1196,10 @@
       <p><strong>Histopathological types:</strong> 95% adenocarcinomas; remainder: undifferentiated, signet-ring cell, adenosquamous carcinomas; also sarcoma (leiomyosarcoma), lymphoma, carcinoid tumours.</p>
       <p class="ref">Robbins 10e pp.813–814 · Harsh Mohan 7e pp.571–572, 587–588</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>What information do you want from the histopathology report after hemicolectomy for colon cancer? (CMU-23Nv)</summary>
+  <div class="qcard">
+    </div>What information do you want from the histopathology report after hemicolectomy for colon cancer? (CMU-23Nv)</div>
     <div class="ans">
       <ol>
         <li><strong>Tumour characteristics:</strong> histological type, grade, size, depth of invasion.</li>
@@ -1201,12 +1211,12 @@
         <li><strong>Additional findings:</strong> precursor lesions (adenomas, dysplasia), signet-ring cells, mucinous features, tumour budding.</li>
       </ol>
     </div>
-  </details>
+  </div>
 
   <h2 id="polyps">3j · Intestinal Polyps</h2>
 
-  <details>
-    <summary>🔴 Define polyp. Classify intestinal polyps. (CU-18M, CMU-24M,23Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Define polyp. Classify intestinal polyps. (CU-18M, CMU-24M,23Nv)</div>
     <div class="ans">
       <p><strong>Definition:</strong> A tumourous mass that protrudes into the lumen of the gut; any elevation of the intestinal surface.</p>
       <p>Polyps are most common in the colon but may occur in oesophagus, stomach, or small intestine.</p>
@@ -1231,42 +1241,42 @@
       <div class="mnem">🎯 <strong>Familial adenomatous polyposis (FAP):</strong> autosomal dominant; numerous colorectal adenomas (≥100 needed for diagnosis) in teenagers; caused by somatic mutations of APC gene. <strong>HNPCC (Lynch syndrome):</strong> inherited mutations in mismatch repair genes; most common syndromic form of colon cancer; right colon predilection.</div>
       <p class="ref">Robbins 10e pp.807, 810, 812–813</p>
     </div>
-  </details>
+  </div>
 
-  <details class="quiz">
-    <summary>🎯 True/False practice — Colorectal cancer risk, congenital anomalies &amp; carcinoid</summary>
-    <details>
-      <summary>Conditions predisposing to colonic cancer: Villous adenoma · Juvenile polyp · Crohn's colitis · Chronic ischaemic bowel disease · Familial polyposis</summary>
+  <div class="quiz">
+    </div>🎯 True/False practice — Colorectal cancer risk, congenital anomalies &amp; carcinoid</div>
+    <div class="qcard">
+      </div>Conditions predisposing to colonic cancer: Villous adenoma · Juvenile polyp · Crohn's colitis · Chronic ischaemic bowel disease · Familial polyposis</div>
       <div class="ans">Villous adenoma <span class="tf">T</span> · Juvenile polyp <span class="ff">F</span> (hamartomatous) · Crohn's colitis <span class="tf">T</span> · Chronic ischaemic bowel <span class="ff">F</span> · Familial polyposis <span class="tf">T</span> <span class="ref">(DU-12Ja)</span></div>
-    </details>
-    <details>
-      <summary>Congenital anomalies of GIT: Hirschsprung's disease · Hypertrophic pyloric stenosis · Crohn's disease · Familial adenomatous polyposis · Imperforate anus</summary>
+    </div>
+    <div class="qcard">
+      </div>Congenital anomalies of GIT: Hirschsprung's disease · Hypertrophic pyloric stenosis · Crohn's disease · Familial adenomatous polyposis · Imperforate anus</div>
       <div class="ans">Hirschsprung's <span class="tf">T</span> · Pyloric stenosis <span class="tf">T</span> · Crohn's <span class="ff">F</span> (acquired) · FAP <span class="tf">T</span> · Imperforate anus <span class="tf">T</span> <span class="ref">(DU-14Ju)</span></div>
-    </details>
-    <details>
-      <summary>Common sites of gut carcinoid tumour: Appendix · Duodenum · Margins of gastrojejunostomy · Rectum · With Meckel's diverticulum</summary>
+    </div>
+    <div class="qcard">
+      </div>Common sites of gut carcinoid tumour: Appendix · Duodenum · Margins of gastrojejunostomy · Rectum · With Meckel's diverticulum</div>
       <div class="ans">Appendix <span class="tf">T</span> (most common) · Duodenum <span class="tf">T</span> · Gastrojejunostomy margin <span class="ff">F</span> · Rectum <span class="tf">T</span> · Meckel's <span class="tf">T</span> <span class="ref">(DU-10Ja,09Ju/Ja)</span></div>
-    </details>
-    <details>
-      <summary>Fate of acute appendicitis: Lymphoma · Appendicular lump · Appendicular abscess</summary>
+    </div>
+    <div class="qcard">
+      </div>Fate of acute appendicitis: Lymphoma · Appendicular lump · Appendicular abscess</div>
       <div class="ans">Lymphoma <span class="ff">F</span> · Appendicular lump <span class="tf">T</span> · Appendicular abscess <span class="tf">T</span> <span class="ref">(RMU-22M)</span></div>
-    </details>
-  </details>
+    </div>
+  </div>
 
   <h2 id="appendix">4 · Appendix</h2>
 
-  <details>
-    <summary>🔴 Give the aetio-pathogenesis of acute appendicitis. (RMU-24M,22Nv)</summary>
+  <div class="qcard">
+    </div>🔴 Give the aetio-pathogenesis of acute appendicitis. (RMU-24M,22Nv)</div>
     <div class="ans">
       <p><strong>Aetiology (50–80% associated with luminal obstruction):</strong> faecalith (small stone-like stool mass), gallstone, tumour at the appendiceal opening (e.g. benign polyp), mass of worms (e.g. <em>Oxyuris vermicularis</em>).</p>
       <h3>Pathogenesis</h3>
       <p>Obstruction of appendiceal lumen → increased mucous secretion &amp; accumulation → increased intraluminal pressure → venous obstruction → ischaemia &amp; venous congestion → microbial proliferation → inflammation → additional oedema &amp; exudates → further embarrassment of blood supply → more injury → acute appendicitis. If not stopped → gangrenous necrosis.</p>
       <p class="ref">Robbins 10e p.819</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Describe the morphology of acute appendicitis. What are its complications? (DU-03S, RMU-24M,22Nv)</summary>
+  <div class="qcard">
+    </div>Describe the morphology of acute appendicitis. What are its complications? (DU-03S, RMU-24M,22Nv)</div>
     <div class="ans">
       <h3>Morphology</h3>
       <ul>
@@ -1292,10 +1302,10 @@
       <p><strong>Laboratory tests:</strong> CBC (neutrophilic leukocytosis); CRP elevated (&gt;10 mg/L); imaging (ultrasound/CT) for confirmation.</p>
       <p class="ref">Robbins 10e p.819</p>
     </div>
-  </details>
+  </div>
 
-  <details>
-    <summary>Name the tumours of the appendix. What is pseudomyxoma peritonei?</summary>
+  <div class="qcard">
+    </div>Name the tumours of the appendix. What is pseudomyxoma peritonei?</div>
     <div class="ans">
       <h3>Tumours of the appendix</h3>
       <ul>
@@ -1308,13 +1318,13 @@
       <p><strong>Pseudomyxoma peritonei:</strong> in mucinous cystadenocarcinoma, invasion of appendicular wall by malignant neoplastic cells and spread beyond appendix as peritoneal implants → peritoneal cavity distended with tenacious, semisolid mucin.</p>
       <p class="ref">Robbins 10e p.819</p>
     </div>
-  </details>
+  </div>
 
   <!-- ═══════════════════════ RAPID-FIRE ═══════════════════════ -->
   <h2 id="rapid">🔁 Rapid-Fire MCQ &amp; One-liner Sweep (incl. folded GI MCQs from ch18)</h2>
 
-  <details class="rapid" open>
-    <summary>Gastrointestinal System — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</summary>
+  <div class="qcard rapid">
+    </div>Gastrointestinal System — True/False, one-liners &amp; folded MCQs (test yourself, then reveal)</div>
     <div class="ans">
 
       <div class="q">Crohn's disease includes: transmural inflammation (T/F), pseudopolyp formation (T/F), crypt abscess formation (T/F), caseating granuloma (T/F), occurs in colon and rectum (T/F).</div>
@@ -1399,7 +1409,7 @@
       <div class="a">Leather bottle = <strong>linitis plastica (diffuse gastric carcinoma)</strong> · bird-beak = <strong>achalasia (barium swallow)</strong> · rule of 2s = <strong>Meckel diverticulum</strong> · cobblestone = <strong>Crohn disease</strong> · most common PUD complication = <strong>bleeding</strong> · most common obstruction in children &lt;2 yr = <strong>intussusception</strong>.</div>
 
     </div>
-  </details>
+  </div>
 
   <div class="navfoot">
     <span><a href="00_Index.html">← Index</a></span>
