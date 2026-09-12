@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Viral Replication & Cytopathic Effects (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Viral Replication &amp; Cytopathic Effects</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">8 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">8 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-02-Virus-Lists.html">‹ Prev</a><a href="Virology-04-Transmission-Persistence.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Viral Replication &amp; Cytopathic Effects</h2><div class="en">Replication steps, release mechanisms, early/late proteins, sites of replication, CPE</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V23</span>
+      <p class="qtext">Write down the steps of viral replications. ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Attachment → Penetration → Uncoating → Early transcription → Early translation → Genome replication → Late transcription → Late translation → Assembly → Release</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ol>
+        <li><b>Attachment (Adsorption)</b> – viral ligand binds to host cell receptor (non-covalent).</li>
+        <li><b>Penetration</b> – by endocytosis / pinocytotic vesicle.</li>
+        <li><b>Uncoating</b> – capsid removed, genome released into cell. Naked virus: vesicle ruptures. Enveloped virus: fusion with vesicle membrane.</li>
+        <li><b>Early Transcription</b> – early mRNA synthesis. DNA virus: host DNA-dependent RNA polymerase. (+) RNA virus: genome acts as mRNA. (–) RNA virus: virion RNA polymerase.</li>
+        <li><b>Early Translation</b> – early proteins = enzymes (polymerase, protease).</li>
+        <li><b>Genome Replication</b> – DNA: nucleus (except Pox in cytoplasm). RNA: cytoplasm (except Orthomyxo/Retro/Delta in nucleus).</li>
+        <li><b>Late Transcription</b> – late mRNA synthesis.</li>
+        <li><b>Late Translation</b> – late proteins = structural (capsid, envelope).</li>
+        <li><b>Assembly</b> – genome + structural proteins → progeny virions.</li>
+        <li><b>Release</b> – Naked: lysis. Enveloped: budding (Herpes→nuclear membrane; Corona→ER).</li>
+      </ol>
+      <p><b>Summary:</b> Early events = attachment + penetration + uncoating. Middle = gene expression + replication. Late = assembly + release.</p><p><img src="image-2.png" alt="image.png" data-porda-id="p_06ee16d8-72f4-411d-833d-a90cb253f700" data-porda-status="clean" class="porda-blur-img" data-porda-unblur="1"><br></p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Viral replication-এর ধাপগুলো কী কী?</p>
+        <p class="ca">Attachment → Penetration → Uncoating → Early transcription → Early translation → Genome replication → Late transcription → Late translation → Assembly → Release।</p>
+        <p class="cq">Attachment কীভাবে হয়?</p>
+        <p class="ca">Viral ligand non-covalently host cell receptor-এ bind করে। এটি tropism নির্ধারণ করে।</p>
+        <p class="cq">Eclipse period আর latent period-র পার্থক্য কী?</p>
+        <p class="ca">Eclipse: entry থেকে new virion তৈরি হওয়া পর্যন্ত। Latent: infection থেকে extracellular virus appearance পর্যন্ত।</p>
+        <p class="cq">Release-এ naked আর enveloped virus-র পার্থক্য কী?</p>
+        <p class="ca">Naked virus cell lysis দিয়ে বের হয় — cell destroyed। Enveloped virus budding দিয়ে বের হয় — cell প্রাথমিকভাবে survive করতে পারে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Replication-এ first attachment — virus-র ligand host receptor-এ bind করে। তারপর penetration, uncoating। Early transcription-এ mRNA, early translation-এ enzyme বানায়। Genome replicate হয়। Late mRNA আর structural protein তৈরি হয়। Assembly, then release — naked cell lysis করে, enveloped budding দিয়ে বের হয়।</p>
+<p>Attachment-ই virus-র tropism determine করে। Naked virus-এ capsid directly receptor-এ bind করে। Enveloped virus-এ spike protein bind করে।</p>
+<p>Early proteins enzymes (polymerase, protease) — replication-এ লাগে। Late proteins structural (capsid, envelope) — virion-এ যায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V24</span>
+      <p class="qtext">How virus release after replication? ******* (enveloped virus: budding process, naked virus: lysis of the cells)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Naked: lysis/rupture. Enveloped: budding through cell membrane (Herpes→nuclear, Corona→ER)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Naked virus:</b> Released by <b>lysis/rupture</b> of cell membrane — cell destroyed.</li>
+        <li><b>Enveloped virus:</b> Released by <b>budding</b> through outer cell membrane — nucleocapsid pushes through, acquires lipid envelope with glycoproteins. Cell may survive initially.</li>
+        <li><b>Exceptions:</b> Herpes virus → buds through <b>nuclear membrane</b>. Coronavirus → buds through <b>endoplasmic reticulum</b>.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Naked virus কীভাবে release হয়?</p>
+        <p class="ca">Cell membrane lysis/rupture দিয়ে — cell destroyed হয়।</p>
+        <p class="cq">Enveloped virus কীভাবে release হয়?</p>
+        <p class="ca">Budding দিয়ে — nucleocapsid membrane দিয়ে push করে, lipid envelope নিয়ে নেয়।</p>
+        <p class="cq">Herpes virus budding কোথা থেকে করে?</p>
+        <p class="ca">Nuclear membrane থেকে। Coronavirus budding করে endoplasmic reticulum থেকে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Naked virus cell membrane rupture করে বের হয় — lysis দিয়ে। Enveloped virus budding দিয়ে বের হয় — nucleocapsid membrane-এর দিয়ে push করে, lipid envelope নিয়ে নেয়।</p>
+<p>Herpes virus nuclear membrane থেকে, Coronavirus endoplasmic reticulum থেকে budding করে।</p>
+<p>Budding-এর আগে viral antigen cell membrane-এর surface-এ appear করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V25</span>
+      <p class="qtext">What do you mean by early protein and late protein? ******* (early protein are enzymes need for replication: before replication &amp; late protein are structural protein: after replication)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Early = enzymes (replicase, protease), before genome replication. Late = structural (capsid, envelope), after replication.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Early proteins</b> – expressed <b>before</b> genome replication. They are <b>enzymes</b>: DNA/RNA polymerase (replicase), proteases.</li>
+        <li><b>Late proteins</b> – expressed <b>after</b> genome replication. They are <b>structural proteins</b>: capsid, envelope proteins, peplomers.</li>
+      </ul>
+      <p><b>Sequence:</b> Early transcription → Early translation → Early proteins (enzymes) → Genome replication → Late transcription → Late translation → Late proteins (structural).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Early protein আর late protein-এর পার্থক্য কী?</p>
+        <p class="ca">Early protein genome replication-র আগে তৈরি হয় — এরা enzymes (polymerase, protease)। Late protein replication-র পরে তৈরি হয় — structural proteins (capsid, envelope)।</p>
+        <p class="cq">Sequence কেমন হয়?</p>
+        <p class="ca">Early transcription → Early translation → Early proteins → Genome replication → Late transcription → Late translation → Late proteins → Assembly।</p>
+        <p class="cq">Polyprotein কীভাবে কাজ করে?</p>
+        <p class="ca">কিছু virus-এ বড় polypeptide translate হয়, তারপর viral protease দিয়ে ছোট ছোট protein-এ ভাগ হয়। যেমন Poliovirus polyprotein।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Early protein genome replicate হবার আগে তৈরি হয় — এটা enzyme, replication-এ লাগবে (polymerase, protease)। Late protein replicate-র পরে তৈরি হয় — structural protein (capsid, envelope)।</p>
+<p>Sequence — Early transcription → enzyme → genome replicate → late transcription → structure → assembly।</p>
+<p>Some late proteins large polypeptide-র মতো translate হয়, viral protease দিয়ে ভাগ করতে হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V26</span>
+      <p class="qtext">Mention the sites of replication of DNA virus. ***** (nucleus, except pox virus in cytoplasm)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> All DNA viruses replicate in nucleus (except Poxvirus in cytoplasm using own RNA polymerase)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>All DNA viruses replicate in the nucleus</b> (using host cell DNA-dependent RNA polymerase), <b>except Poxvirus, which replicates in the cytoplasm</b> (uses its own DNA-dependent RNA polymerase).</p><div>cytoplasm = RNA virus - Retro/Orthomyxo/Delta + DNA (Pox)</div><div>Nucleus = All DNA +&nbsp;Retro/Orthomyxo/Delta - DNA (Pox)</div><p><br></p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">DNA virus কোথায় replicate করে?</p>
+        <p class="ca">সব DNA virus nucleus-এ — Poxvirus ছাড়া। Poxvirus cytoplasm-এ replicate করে।</p>
+        <p class="cq">Poxvirus কেন cytoplasm-এ replicate করে?</p>
+        <p class="ca">কারণ Poxvirus নিজের DNA-dependent RNA polymerase বহন করে, host cell nuclear machinery-র প্রয়োজন নেই।</p>
+        <p class="cq">Herpes virus nuclear membrane থেকে envelope নেয় — এর মানে কী?</p>
+        <p class="ca">এর মানে Herpes virus nucleus-এ replicate করে।</p>
+        <p class="cq">HBV replicate কোথায়?</p>
+        <p class="ca">Nucleus-এ, কিন্তু নিজের reverse transcriptase আছে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>সব DNA virus nucleus-এ replicate করে — host cell-র DNA-dependent RNA polymerase ব্যবহার করে। Exception Poxvirus — cytoplasm-এ করে, নিজের RNA polymerase আছে।</p>
+<p>Herpes virus nuclear membrane থেকে envelope নেয়। HBV nucleus-এ করে কিন্তু নিজের reverse transcriptase আছে।</p>
+<p>Poxvirus সবচেয়ে complex virus — own polymerase আছে, cytoplasm-এ replicate করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V27</span>
+      <p class="qtext">Mention the sites of replication of RNA virus. ***** (in cytoplasm except orthomyxo, retro and deltavirus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> All RNA viruses in cytoplasm EXCEPT Orthomyxovirus, Retrovirus, Deltavirus → nucleus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Most RNA viruses replicate in cytoplasm</b>. Three exceptions replicate in <b>nucleus</b>:</p>
+      <ul>
+        <li><b>Orthomyxovirus</b> (Influenza)</li>
+        <li><b>Retrovirus</b> (HIV, HTLV)</li>
+        <li><b>Deltavirus</b> (HDV)</li>
+      </ul>
+      <p><b>Key rules:</b></p>
+      <ul>
+        <li>(+) sense RNA: genome acts as mRNA directly (except Retrovirus which uses RT).</li>
+        <li>(–) sense RNA and dsRNA (Reovirus): carry own virion RNA polymerase (host cannot transcribe).</li><li><b>Reovirus = Rota virus</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">RNA virus কোথায় replicate করে?</p>
+        <p class="ca">Mostly cytoplasm। Exception: Orthomyxovirus (Influenza), Retrovirus (HIV), Deltavirus (HDV) — এরা nucleus-এ।</p>
+        <p class="cq">(+) sense RNA আর (-) sense RNA-র পার্থক্য কী?</p>
+        <p class="ca">(+) sense RNA directly mRNA-র মতো, host ribosome translate করতে পারে। (-) sense RNA mRNA-র complementary, প্রথমে virion RNA polymerase লাগে।</p>
+        <p class="cq">Rotavirus dsRNA — এর মানে কী?</p>
+        <p class="ca">Rotavirus-এর genome double-stranded RNA, 10-11 segments — সব RNA virus-এর মধ্যে শুধু Rotavirus-এর dsRNA।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>সব RNA virus cytoplasm-এ replicate করে — exception Influenza, HIV, HDV — এই তিনটি nucleus-এ।</p>
+<p>(+) sense RNA directly mRNA-র মতো। (-) sense RNA নিজের polymerase নিয়ে আসে, host-র kono enzyme (-) RNA-কে mRNA-তে convert করতে পারে না।</p>
+<p>Segmented RNA: Orthomyxovirus (8 segments), Arenavirus (2), Bunyavirus (3), Reovirus (10-11)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V28</span>
+      <p class="qtext">What are the changes occur in virus infected host cell? ****** (no apparent change and CPE such as lysis, malignant transformation, inclusion body formation, multinucleated giant cell formation etc)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> No change OR CPE: rounding, lysis, giant cells, malignant transformation, inclusion bodies</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div><div class="bcontent b-ans"><ul>
+        <li><b>1. No apparent change</b> – some infections subclinical.</li>
+        <li><b>2. CPE (Cytopathic Effect):</b>
+          <ul>
+            <li>Rounding and darkening of cell</li>
+            <li>Cell death or lysis</li>
+            <li><b>Multinucleated giant cell formation</b> (herpesviruses, paramyxoviruses)</li></ul><div><b>paramyxovirus =&nbsp;</b><span class="iNqyIf" data-sfc-cp="" data-sfc-root="ep" data-complete="true" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: rgb(0, 29, 53); border-bottom: 0px rgb(0, 29, 53);" style="font-family: sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: rgb(0, 29, 53); border-bottom: 0px rgb(0, 29, 53);">Measles virus,Mumps virus,parainfluenza viruses (PIV),Respiratory syncytial virus (RSV),Nipah virus</span></div></li><li><div><br></div><ul><li><b>Malignant transformation</b> (HPV, EBV, HBV)</li>
+            <li><b>Inclusion body formation</b> (Rabies-Negri; CMV-owl's eye; HSV/Measles)</li></ul><div><img src="image-3.png" alt="image.png" data-porda-id="p_01c0f8aa-8e49-4f6a-82dd-f7b40176da0c" data-porda-status="timeout" class="porda-blur-img" data-porda-unblur="1"><br></div><ul>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Virus-infected cell-এ কী কী change হতে পারে?</p>
+        <p class="ca">দুই ধরনের — (১) No apparent change (subclinical), (২) CPE (Cytopathic Effect) — rounding, lysis, giant cell, malignant transformation, inclusion body।</p>
+        <p class="cq">CPE-র উদাহরণ দাও।</p>
+        <p class="ca">Cell rounding, lysis, multinucleated giant cell (Herpes, Paramyxovirus), malignant transformation (HPV, EBV, HBV), inclusion body (Rabies-Negri, CMV-owl's eye)।</p>
+        <p class="cq">Giant cell কোন virus-এ দেখা যায়?</p>
+        <p class="ca">Herpesviruses ও Paramyxoviruses। Tzanck preparation-এ দেখা যায়।</p>
+        <p class="cq">Inclusion body-র কোনগুলো intracytoplasmic আর কোনগুলো intranuclear?</p>
+        <p class="ca">Intracytoplasmic: Rabies (Negri body), Smallpox (Guarneri)। Intranuclear: CMV (owl's eye), HSV (Cowdry A), Polio/Adeno (Cowdry B)। Both: Measles।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Virus infected cell-এ kono change নাও থাকতে পারে, CPE-ও হতে পারে। CPE-তে cell rounding, lysis, giant cell, malignant transformation, inclusion body — সব দেখা যায়।</p>
+<p>Giant cell Herpes আর Paramyxovirus-এ characteristic। Inclusion body lab diagnosis-এ সাহায্য করে — Negri body (Rabies), owl's eye (CMV), Cowdry A (HSV)।</p>
+<p>CPE হলো viral infection-র hallmark। Plaque assay method-এ virus quantify করা হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V29</span>
+      <p class="qtext">What do you mean by CPE? *** (cytopathic effects – changes in virus infected host cell)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> CPE = Cytopathic Effects = morphological/functional changes in infected cells. Hallmark of viral infection. Used for detection and quantification.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>CPE (Cytopathic Effects)</b> = morphological and functional changes in virus-infected host cells. Hallmark of viral infection, visible by light microscope.</p>
+      <p><b>Importance:</b></p>
+      <ul>
+        <li><b>Detection</b> of virus — based on CPE appearance in cell culture.</li>
+        <li><b>Quantification</b> — basis of plaque assay (single plaque = one infectious virion).</li>
+      </ul>
+      <p>Types: rounding, lysis, giant cells, inclusion bodies, malignant transformation.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">CPE কী?</p>
+        <p class="ca">Cytopathic Effects — virus-infected host cell-এ morphological ও functional changes। Viral infection-র hallmark।</p>
+        <p class="cq">CPE-র clinical importance কী?</p>
+        <p class="ca">দুইটি — (১) Virus detect করা CPE-র ভিত্তিতে, (২) Plaque assay-এ virus quantify করা।</p>
+        <p class="cq">Light microscope-এ virus দেখা যায় কি?</p>
+        <p class="ca">না, virus directly দেখা যায় না। কিন্তু culture-এ CPE detect করা যায়।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>CPE মানে Cytopathic Effect — virus-infected cell-এ morphological ও functional changes। এটি viral infection-র hallmark।</p>
+<p>Light microscope-এ culture-এ CPE দেখে virus detect করা যায়। Plaque assay method-এ virus quantify করা হয়।</p>
+<p>Giant cell, inclusion body, lysis — সব CPE।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V30</span>
+      <p class="qtext">What do you mean by infectious nucleic acid? (if only the genome of RNA enter a host and can replicate, then it called infectious nucleic acid)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Purified viral DNA/RNA without protein that can replicate. No virion polymerase needed. ssRNA(+) except retro; all DNA except Pox and HBV.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Infectious nucleic acid</b> = purified viral DNA or RNA (without protein) that can carry out the entire replication cycle and produce complete virus particles.</p>
+      <p><b>Can produce infectious nucleic acid:</b></p>
+      <ul>
+        <li>All (+) sense ssRNA virus (except Retrovirus)</li>
+        <li>All DNA virus (except Poxvirus and HBV)</li>
+      </ul>
+      <p><b>Cannot (require virion polymerase):</b> Poxvirus, HBV, all (–) RNA, Retrovirus, dsRNA (Reovirus).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Infectious nucleic acid কী?</p>
+        <p class="ca">Purified viral DNA বা RNA (protein ছাড়া) যেটা পুরো replication cycle carry out করতে পারে এবং complete virus particle produce করতে পারে।</p>
+        <p class="cq">কোন virus infectious nucleic acid তৈরি করতে পারে?</p>
+        <p class="ca">(+) sense ssRNA virus (Retrovirus ছাড়া) আর DNA virus (Poxvirus ও HBV ছাড়া)।</p>
+        <p class="cq">কোন virus করতে পারে না?</p>
+        <p class="ca">Poxvirus, HBV, (-) RNA virus, Retrovirus, dsRNA (Reovirus) — এদের virion polymerase লাগে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Infectious nucleic acid মানে virus-র শুধু genome host cell-এ enter করে আর replicate করতে পারে — capsid না লাগিয়ে।</p>
+<p>(+) sense RNA directly mRNA-র মতো, তাই host polymerase দিয়েই কাজ শুরু করে। (-) sense RNA আর Retrovirus-র নিজের polymerase লাগে, তাই infectious nucleic acid কাজ করে না।</p>
+<p>Poxvirus-র নিজের polymerase আছে কিন্তু purified DNA virion-এ packaged না হলে replication শুরু করতে পারে না।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

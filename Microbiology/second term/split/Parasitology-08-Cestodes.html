@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Cestodes (Tapeworms) (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Cestodes (Tapeworms)</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">18 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">18 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-07-Malaria-Sporozoa.html">‹ Prev</a><a href="Parasitology-09-Trematodes.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Cestodes (Tapeworms)</h2><div class="en">Cestodes vs trematodes vs nematodes, T. solium/T. saginata, cysticercosis, hydatid cyst, D. latum anaemia</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P99</span>
+      <p class="qtext">Write down the differences between cestodes, trematodes and nematodes.******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> read from the differences table in parasitology</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Cestodes (tapeworms), trematodes (flukes) and nematodes (roundworms) are the three classes of metazoa (helminths). Cestodes and trematodes belong to the phylum Platyhelminths (flatworms), while nematodes belong to the phylum Nemathelminths. Their main differences are summarised below:</p>
+      <div class="tblwrap"><table>
+        <thead>
+          <tr><th>Point</th><th>Cestodes</th><th>Trematodes</th><th>Nematodes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Common name</td><td>Tapeworm</td><td>Flukes</td><td>Roundworm / worm</td></tr>
+          <tr><td>Shape</td><td>Tape-like, flat</td><td>Leaf-like, flat</td><td>Elongated, cylindrical (filiform)</td></tr>
+          <tr><td>Segmentation</td><td>Segmented (proglottids)</td><td>Unsegmented</td><td>Unsegmented</td></tr>
+          <tr><td>Sexes</td><td>Not separated (monoecious / hermaphrodite)</td><td>Not separated (monoecious) except Schistosoma (diecious)</td><td>Separated (diecious)</td></tr>
+          <tr><td>Head</td><td>Suckers, often with hooks</td><td>Sucker but no hooks (oral + ventral sucker)</td><td>No sucker, no hooks; some have buccal capsule with teeth or cutting plate</td></tr>
+          <tr><td>Alimentary canal</td><td>Absent</td><td>Present but incomplete (no anus)</td><td>Present and complete (with anus)</td></tr>
+          <tr><td>Body cavity</td><td>Absent</td><td>Absent</td><td>Present</td></tr>
+          <tr><td>Body covering</td><td>Cuticle / tegument</td><td>Tegument</td><td>Cuticle</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">মেটাজোয়া (Metazoa) কী?</p>
+      <p class="ca">মেটাজোয়া হলো ইউক্যারিওটিক, বহুকোষী, দ্বিপার্শ্বিক সমমিতির পরজীবী কৃমি যাদের তিনটি জার্ম লেয়ার (ectoderm, mesoderm, endoderm) থাকে।</p>
+      <p class="cq">সাধারণভাবে কৃমি কোন দুটি ফাইলামে বিভক্ত?</p>
+      <p class="ca">Platyhelminths (ফ্ল্যাটওয়ার্ম — সেস্টোড ও ট্রিমাটোড) এবং Nemathelminths (নেমাটোড)।</p>
+      <p class="cq">হেলমিন্থের তিনটি মরফোলজিক্যাল ফর্ম কী কী?</p>
+      <p class="ca">ওভাম/ডিম্ব (ovum/egg), লার্ভা, এবং প্রাপ্তবয়স্ক কৃমি (adult worm)।</p>
+      <p class="cq">প্রজননের ভিত্তিতে হেলমিন্থ কত প্রকারের?</p>
+      <p class="ca">তিন প্রকার — ওভিপেরাস (ডিম্ব দেয়, যেমন A. lumbricoides), ভিভিপেরাস (লার্ভা জন্ম দেয়, যেমন W. bancrofti), ওভোভিভিপেরাস (ডিম্বের ভিতরে লার্ভা থাকে, যেমন Strongyloides stercoralis)।</p>
+      <p class="cq">প্রত্যেক শ্রেণির একটি করে উদাহরণ দাও।</p>
+      <p class="ca">সেস্টোড — T. solium; ট্রিমাটোড — F. buski; নেমাটোড — A. lumbricoides।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় এই প্রশ্নে বলবে — এটা তিন ধরনের পরজীবী কৃমির তুলনা। প্রথমে বলো Metazoa মানে কী — বহুকোষী, দ্বিপার্শ্বিক সমমিতির, তিনটি জার্ম লেয়ার সম্পন্ন কৃমি।</p>
+<p>তারপর তুলনামূলক টেবিল বলো:</p>
+<ul>
+<li><b>সাধারণ নাম:</b> সেস্টোড = tapeworm, ট্রিমাটোড = fluke, নেমাটোড = roundworm।</li>
+<li><b>আকৃতি:</b> সেস্টোড — টেপের মতো সমতল; ট্রিমাটোড — পাতার মতো সমতল; নেমাটোড — লম্বা সিলিন্ড্রিকাল।</li>
+<li><b>সেগমেন্টেশন:</b> সেস্টোডে proglottid দিয়ে সেগমেন্টেড; বাকি দুটি আনসেগমেন্টেড।</li>
+<li><b>লিঙ্গ:</b> সেস্টোড ও ট্রিমাটোড hermaphrodite (নিজেরই পুরুষ ও স্ত্রী), তবে ট্রিমাটোডের Schistosoma ব্যতীত; নেমাটোডেরা diecious (পুরুষ ও স্ত্রী আলাদা)।</li>
+<li><b>মাথা:</b> সেস্টোডে suckers ও hooks থাকে; ট্রিমাটোডে দুটি sucker (oral + ventral) কিন্তু hooks নেই; নেমাটোডে কোনো sucker/hooks নেই, কিছুতে buccal capsule ও দাঁত থাকে।</li>
+<li><b>পরিপাকনালী:</b> সেস্টোডে নেই; ট্রিমাটোডে আছে কিন্তু anus নেই (incomplete); নেমাটোডে সম্পূর্ণ আছে anus সহ।</li>
+<li><b>শরীর গহ্বর:</b> সেস্টোড ও ট্রিমাটোডে নেই; নেমাটোডে আছে।</li>
+<li><b>শরীরের আবরণ:</b> সেস্টোডে cuticle/tegument; ট্রিমাটোডে tegument; নেমাটোডে cuticle।</li>
+</ul>
+<p>সবচেয়ে গুরুত্বপূর্ণ মনে রাখার পয়েন্ট — <b>Cestode = no gut, Trematode = gut but no anus, Nematode = full gut with anus</b>। টেবিলটা ক্রমানুসারে বললেই ভাইভাতে ফুল মার্কস পাবে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P100</span>
+      <p class="qtext">Write down the characteristics of cestodes, trematodes and nematodes. *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> read the characteristics of trematodes, cestodes, nematodes from the differences</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Characteristics of cestodes (tapeworms):</b></p>
+      <ul>
+        <li>Common name: tapeworm; size from few millimetres to &gt;10 metres.</li>
+        <li>Tape-like, flat, segmented body; hermaphrodite (sexes not separated).</li>
+        <li>Adult worm has head (scolex) with suckers and sometimes hooks, neck, and trunk (strobila) made of proglottids (immature, mature and gravid).</li>
+        <li>Alimentary canal absent; body cavity absent.</li>
+      </ul>
+      <p><b>Characteristics of trematodes (flukes):</b></p>
+      <ul>
+        <li>Common name: flukes; leaf-like, flat, unsegmented; size 1 mm to several cm.</li>
+        <li>Head has two suckers — oral sucker (mouth) and ventral sucker (acetabulum), no hooks.</li>
+        <li>Sexes not separated (hermaphrodite) except Schistosoma (diecious).</li>
+        <li>Alimentary canal present but incomplete (no anus); body cavity absent.</li>
+      </ul>
+      <p><b>Characteristics of nematodes (roundworms):</b></p>
+      <ul>
+        <li>Common name: worm; elongated, cylindrical (filiform); few mm to 1 metre (D. medinensis up to 1 m).</li>
+        <li>Unsegmented; sexes separated (diecious); male usually smaller, posterior end coiled ventrally.</li>
+        <li>Head has no sucker, no hook, but some have well-developed buccal capsule with teeth or cutting plate.</li>
+        <li>Alimentary canal present and complete (with anus); body cavity present; body covered with cuticle.</li>
+        <li>Smallest nematodes: T. spiralis &amp; S. stercoralis (&lt;5 mm); largest in human: A. lumbricoides.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">সেস্টোডকে habitat অনুযায়ী কীভাবে শ্রেণীবিভাগ করা হয়?</p>
+      <p class="ca">ইনটেস্টাইনাল সেস্টোড (T. saginata, T. solium, D. latum, H. nana) এবং সোমাটিক/লার্ভাল সেস্টোড (E. granulosus প্রভৃতি)।</p>
+      <p class="cq">ট্রিমাটোডকে habitat অনুযায়ী কীভাবে ভাগ করা হয়?</p>
+      <p class="ca">ইনটেস্টাইনাল, হেপাটিক (লিভার), পালমোনারি (ফুসফুস) এবং ব্লাড ফ্লুক — এই চার ধরনে।</p>
+      <p class="cq">নেমাটোডের শ্রেণীবিভাগ কেমন?</p>
+      <p class="ca">ইনটেস্টাইনাল (AL, AD, NA, EV, TT, SS) এবং সোমাটিক/টিস্যু (W. bancrofti, Loa loa, O. volvulus)।</p>
+      <p class="cq">প্রাপ্তবয়স্ক সেস্টোডের proglottid কোনগুলো?</p>
+      <p class="ca">তিন ধরন — ইম্যাচুর (গ্রীবার কাছে), মেচার (মাঝখানে), এবং গ্রাভিড (পেছনের দিকে)।</p>
+      <p class="cq">নেমাটোডের লার্ভার দুটি ফর্ম কী কী?</p>
+      <p class="ca">রেবডিটিফর্ম লার্ভা (non-infectious, খাদ্য গ্রহণকারী) এবং ফাইলারিফর্ম লার্ভা (infectious, খাদ্য গ্রহণ করে না)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভাতে বলবে — প্রত্যেকটার বৈশিষ্ট্য আলাদাভাবে বলো।</p>
+<p><b>সেস্টোড (tapeworm):</b></p>
+<ul>
+<li>সাধারণ নাম tapeworm; আয়তন কয়েক মিলিমিটার থেকে ১০ মিটারেরও বেশি (D. latum সবচেয়ে লম্বা)।</li>
+<li>টেপের মতো সমতল, সেগমেন্টেড শরীর; hermaphrodite।</li>
+<li>প্রাপ্তবয়স্ক কৃমির মাথা (scolex) এ suckers ও কখনো hooks থাকে; ঘাড় (neck); এবং ধড় (strobila) যা proglottid দিয়ে গঠিত — immature, mature, gravid।</li>
+<li>পরিপাকনালী ও শরীর গহ্বর — দুটোই নেই।</li>
+</ul>
+<p><b>ট্রিমাটোড (fluke):</b></p>
+<ul>
+<li>সাধারণ নাম fluke; পাতার মতো সমতল, আনসেগমেন্টেড; আয়তন ১ মিমি থেকে কয়েক সেমি।</li>
+<li>মাথায় দুটি sucker — oral sucker ও ventral sucker (acetabulum), hooks নেই।</li>
+<li>লিঙ্গ আলাদা নয় (hermaphrodite), তবে Schistosoma ব্যতীত যা diecious।</li>
+<li>পরিপাকনালী আছে কিন্তু incomplete (anus নেই); শরীর গহ্বর নেই।</li>
+</ul>
+<p><b>নেমাটোড (roundworm):</b></p>
+<ul>
+<li>সাধারণ নাম worm; লম্বা, সিলিন্ড্রিকাল (filiform); কয়েক মিমি থেকে ১ মিটার (D. medinensis পর্যন্ত ১ মিটার)।</li>
+<li>আনসেগমেন্টেড; লিঙ্গ আলাদা (diecious); পুরুষ সাধারণত ছোট, পেছনের প্রান্ত ventrally কুণ্ডলিত।</li>
+<li>মাথায় sucker বা hook নেই; কিছুতে buccal capsule ও দাঁত বা cutting plate থাকে।</li>
+<li>পরিপাকনালী সম্পূর্ণ (anus সহ); শরীর গহ্বর আছে; শরীরে cuticle ঢাকা।</li>
+<li>সবচেয়ে ছোট — T. spiralis ও S. stercoralis (&lt;৫ মিমি); সবচেয়ে বড় মানুষে A. lumbricoides।</li>
+</ul>
+<p>ভাইভায় টেবিলের প্রতিটি পয়েন্ট ধাপে ধাপে বলো — shape, segmentation, sex, head, alimentary canal, body cavity। এটাই মূল।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P101</span>
+      <p class="qtext">Classify helminthes (metazoa) on the basis of reproduction. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> based on reproduction (laying eggs or larva)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Based on reproduction (laying eggs or larvae), helminths are classified into three types:</p>
+      <ul>
+        <li><b>Oviparous</b> (laying eggs): most cestodes, trematodes and nematodes. E.g. A. lumbricoides, T. trichiura (unsegmented eggs), A. duodenale, N. americanus (segmented eggs), E. vermicularis (eggs containing larvae).</li>
+        <li><b>Viviparous</b> (giving birth to larvae): e.g. W. bancrofti, Brugia malayi, D. medinensis, Trichinella spiralis.</li>
+        <li><b>Ovoviviparous</b> (laying eggs containing larvae that hatch out immediately): e.g. Strongyloides stercoralis.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">ওভিপেরাস কৃমির ডিম্ব কোথায় দেখা যায়?</p>
+      <p class="ca">মলে — AL, AD, TT, EV ইত্যাদি কৃমির ডিম্ব মলে পাওয়া যায়।</p>
+      <p class="cq">S. stercoralis-এর ক্ষেত্রে মলে কী পাওয়া যায় এবং কেন?</p>
+      <p class="ca">ডিম্ব নয়, লার্ভা পাওয়া যায়। কারণ এটি ovoviviparous — ডিম্বের ভিতরেই লার্ভা থাকে এবং অবিলম্বে ফুটে বের হয়।</p>
+      <p class="cq">ভিভিপেরাস ফাইলারিয়া কী উৎপাদন করে?</p>
+      <p class="ca">মাইক্রোফাইলারিয়া (প্রথম-স্তরের লার্ভা), যা ব্যাটম্যান/রোগীর রক্তে বা টিস্যু তরলে পাওয়া যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>তিনটি ভাগ আছে প্রজননের ভিত্তিতে:</p>
+<ul>
+<li><b>ওভিপেরাস (Oviparous)</b> — অর্থাৎ ডিম্ব দেয়। বেশিরভাগ কৃমিই এই শ্রেণিতে পড়ে — AL, AD, TT, EV সবাই ডিম্ব দেয়।</li>
+<li><b>ভিভিপেরাস (Viviparous)</b> — অর্থাৎ সরাসরি লার্ভা জন্ম দেয়। এদের মধ্যে W. bancrofti, Brugia malayi, D. medinensis, Trichinella spiralis।</li>
+<li><b>ওভোভিভিপেরাস (Ovoviviparous)</b> — অর্থাৎ ডিম্ব দেয় কিন্তু ডিম্বের ভিতরেই লার্ভা থাকে এবং সাথে সাথেই ফুটে বের হয়। একমাত্র উদাহরণ — Strongyloides stercoralis।</li>
+</ul>
+<p>এই সিম্পল কনসেপ্টটা মনে থাকলে ভাইভাতে বলতে পারবে। মনে রাখার কৌশল — <b>রক্তে লার্ভা পেলে = ভিভিপেরাস, মলে লার্ভা পেলে (SS) = ওভোভিভিপেরাস, মলে ডিম্ব পেলে = ওভিপেরাস</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P102</span>
+      <p class="qtext">Name the viviparous, oviparaous and ovoviviparous nematodes. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> viviparous — give birth to larvae; ovoviviparous — lay eggs containing larvae that hatch out</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Viviparous nematodes:</b> W. bancrofti, Brugia malayi, Dracunculus medinensis, Trichinella spiralis.</li>
+        <li><b>Ovoviviparous nematodes:</b> Strongyloides stercoralis.</li>
+        <li><b>Oviparous nematodes:</b> Ascaris lumbricoides, Trichuris trichiura (unsegmented eggs), Ancylostoma duodenale, Necator americanus (segmented eggs), Enterobius vermicularis (eggs containing larvae).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">ভিভিপেরাস ফাইলারিয়াল কৃমি কী ধরনের লার্ভা ছেড়ে দেয়?</p>
+      <p class="ca">মোটাইল মাইক্রোফাইলারিয়া (L1 লার্ভা), যা রক্তে বা টিস্যু তরলে পাওয়া যায়।</p>
+      <p class="cq">S. stercoralis-এর মলে কী পাওয়া যায় এবং কেন?</p>
+      <p class="ca">লার্ভা পাওয়া যায়, ডিম্ব নয়। কারণ স্ত্রী কৃমি ডিম্ব দেয় যার ভিতরে rhabditiform লার্ভা থাকে, ডিম্বগুলো তৎক্ষণাৎ ফুটে যায় এবং রেবডিটিফর্ম লার্ভাগুলো মলের সাথে বের হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় এই প্রশ্নের উত্তর সরাসরি তালিকা বলে দিতে হবে:</p>
+<p><b>ভিভিপেরাস:</b> W. bancrofti, Brugia, D. medinensis, Trichinella — এরা সবাই সরাসরি লার্ভা জন্ম দেয়।</p>
+<p><b>ওভোভিভিপেরাস:</b> শুধু Strongyloides stercoralis — এটি ডিম্ব দেয় কিন্তু ডিম্বের ভিতরেই লার্ভা থাকে।</p>
+<p><b>ওভিপেরাস:</b> AL, TT, AD, NA, EV — এরা সাধারণ ডিম্ব দেয়। AL ও TT-র ডিম্ব unsegmented, AD ও NA-র ডিম্ব segmented, EV-র ডিম্বে লার্ভা থাকে।</p>
+<p>মনে রাখার কৌশল: <b>রক্তে লার্ভা = ভিভিপেরাস, মলে লার্ভা (SS) = ওভোভিভিপেরাস, মলে ডিম্ব = ওভিপেরাস</b>। এটুকুই যথেষ্ট।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P103</span>
+      <p class="qtext">Write down the important character of cestodes/ tapeworm. ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> tapeworm — segmented, no gut, hermaphrodite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li>Common name: tapeworm; size <b>from few mm t</b>o <b>more than 10 metres (D. latum is the longest).</b></li>
+        <li>Flat, tape-like, segmented body.</li>
+        <li>Adult worm consists of: <b>head (scolex)</b> bearing suckers (cup-like acetabula) and sometimes <b>hooks (in T. solium, H. nana), </b>a <b>neck</b>, and a <b>trunk (strobila)</b> made of segments called proglottids.</li>
+        <li>Proglottids are of three types: immature (near neck), mature (middle), gravid (hind end).</li>
+        <li>Sexes not separated — monoecious / hermaphrodite.</li>
+        <li>Alimentary canal absent; body cavity absent.</li>
+        <li>Eggs: non-operated (in cyclophyllidea) and operculated (in pseudophyllidea, e.g. D. latum).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Cyclophyllidea ও Pseudophyllidea — scolex দিয়ে কীভাবে আলাদা করবে?</p>
+      <p class="ca">Cyclophyllidea — scolex-এ ৪টি cup-like sucker (T. saginata, T. solium, E. granulosus, H. nana)। Pseudophyllidea — scolex-এ ২টি slit-like groove (bothria), যেমন D. latum।</p>
+      <p class="cq">ইনটেস্টাইনাল বনাম সোমাটিক সেস্টোডের উদাহরণ দাও।</p>
+      <p class="ca">ইনটেস্টাইনাল (প্রাপ্তবয়স্ক কৃমি অন্ত্রে): T. saginata, T. solium, D. latum, H. nana। সোমাটিক (লার্ভা টিস্যুতে): cysticercus, hydatid cyst।</p>
+      <p class="cq">সবচেয়ে ছোট ও সবচেয়ে বড় সেস্টোড কোনটি?</p>
+      <p class="ca">সবচেয়ে ছোট — E. granulosus (৩–৬ মিমি); সবচেয়ে বড় — D. latum (১০ মিটারেরও বেশি)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>সেস্টোড মানে tapeworm। ভাইভায় ধাপে ধাপে বলো:</p>
+<ul>
+<li><b>scolex (মাথা)</b> — এতে suckers থাকে, cup-like। T. solium-এ hooks ও আছে তাই একে \"armed\" বলে। H. nana-তেও hooks আছে।</li>
+<li><b>strobila (শরীর)</b> — proglottid segment দিয়ে তৈরি। immature, mature, gravid — এই তিন ধরনের proglottid আছে।</li>
+<li><b>Hermaphrodite</b> — একই কৃমির ভেতরেই পুরুষ ও স্ত্রী অঙ্গ আছে।</li>
+<li><b>পরিপাকনালী নেই</b> — এই পয়েন্টটা ভাইভাতে লম্বা করে বলো।</li>
+<li><b>ডিম্ব:</b> Cyclophyllidea-র non-operculated; Pseudophyllidea-র (D. latum) operculated।</li>
+<li><b>সবচেয়ে লম্বা:</b> D. latum; <b>সবচেয়ে ছোট:</b> E. granulosus।</li>
+</ul>
+<p>এই পয়েন্টগুলো বললেই ভাইভাতে পূর্ণমাত্রা।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P104</span>
+      <p class="qtext">List the medically important cestodes with their host, infective form, mode of transmission, diseases. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. saginata, T. solium, E. granulosus, D. latum, H. nana with host/infective form/transmission/diseases</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <thead>
+          <tr><th>Cestode</th><th>Definitive host</th><th>Intermediate host</th><th>Infective form</th><th>Mode of transmission</th><th>Disease</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>T. saginata</td><td>Man</td><td>Cattle</td><td>Larva (cysticercus bovis)</td><td>Ingestion of larvae in undercooked beef</td><td>Intestinal taeniasis</td></tr>
+          <tr><td>T. solium</td><td>Man</td><td>Pigs, occasionally man</td><td>Larva (cysticercus cellulosae) for taeniasis; egg for cysticercosis</td><td>Undercooked pork (taeniasis); ingestion of eggs in food/water or autoinfection (cysticercosis)</td><td>Intestinal taeniasis &amp; cysticercosis</td></tr>
+          <tr><td>E. granulosus</td><td>Dog, fox, wolf</td><td>Sheep (optimum), man (dead-end / accidental)</td><td>Eggs in dog's faeces</td><td>Ingestion of eggs from dog faeces</td><td>Hydatid disease / hydatid cyst</td></tr>
+          <tr><td>D. latum</td><td>Man, cat, dog</td><td>Copepods (1st) &amp; fish (2nd)</td><td>Larva (plerocercoid)</td><td>Ingestion of undercooked freshwater fish</td><td>Diphyllobothriasis (macrocytic anaemia)</td></tr>
+          <tr><td>H. nana</td><td>Man (only)</td><td>None</td><td>Egg</td><td>Ingestion of eggs in contaminated food/water or autoinfection</td><td>Hymenolepiasis (dwarf tapeworm)</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">প্রত্যেকটি সেস্টোডের সাধারণ নাম কী কী?</p>
+      <p class="ca">T. saginata = beef/unarmed tapeworm; T. solium = pork/armed tapeworm; E. granulosus = dog tapeworm; D. latum = fish/broad tapeworm; H. nana = dwarf tapeworm।</p>
+      <p class="cq">D. latum ও H. nana-র host সংখ্যা কত?</p>
+      <p class="ca">D. latum-এর ৩টি host লাগে (মানুষ + copepod + মাছ); H. nana-র কোনো intermediate host নেই — একমাত্র host মানুষ।</p>
+      <p class="cq">প্রত্যেকটির ডায়াগনসিস কীভাবে করবে?</p>
+      <p class="ca">T. saginata — মলে proglottid দেখা যায়; D. latum — মলে operculated egg; H. nana — মলে ৪–৮টি polar filament সম্পন্ন egg; E. granulosus — Casoni's test বা USG।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় টেবিলটা ক্রমানুসারে বলো:</p>
+<ul>
+<li><b>T. saginata</b> — সাধারণ নাম beef tapeworm। Definitive host = মানুষ; intermediate host = গরু। Infective form = larva (cysticercus bovis)। সংক্রমণ = অপরিপাকৃত গরুর মাংস খাওয়া। রোগ = অন্ত্রে taeniasis।</li>
+<li><b>T. solium</b> — সাধারণ নাম pork tapeworm (armed)। Definitive host = মানুষ; intermediate host = শূকর, মাঝে মাঝে মানুষ। Infective form = taeniasis-এর জন্য larva (cysticercus cellulosae); cysticercosis-এর জন্য egg। সংক্রমণ = অপরিপাকৃত শূকরের মাংস (taeniasis); দূষিত খাবার/পানিতে egg গ্রহণ বা autoinfection (cysticercosis)। রোগ = অন্ত্রে taeniasis + cysticercosis।</li>
+<li><b>E. granulosus</b> — সাধারণ নাম dog tapeworm। Definitive host = কুকুর, শেয়াল, নেকড়ে। Intermediate host = ভেড়া (optimum), মানুষ (dead-end/accidental)। Infective form = কুকুরের মলে egg। সংক্রমণ = কুকুরের মলের egg গ্রহণ। রোগ = Hydatid disease / hydatid cyst।</li>
+<li><b>D. latum</b> — সাধারণ নাম fish/broad tapeworm। Definitive host = মানুষ, বিড়াল, কুকুর। Intermediate host = copepod (প্রথম) ও মাছ (দ্বিতীয়)। Infective form = larva (plerocercoid)। সংক্রমণ = অপরিপাকৃত মিঠাপানির মাছ খাওয়া। রোগ = Diphyllobothriasis (macrocytic anaemia)।</li>
+<li><b>H. nana</b> — সাধারণ নাম dwarf tapeworm। Definitive host = মানুষ (একমাত্র)। Intermediate host নেই। Infective form = egg। সংক্রমণ = দূষিত খাবার/পানিতে egg গ্রহণ বা autoinfection। রোগ = Hymenolepiasis।</li>
+</ul>
+<p>ভাইভাতে সতর্কতার সাথে টেবিল বলো — প্রতিটি কৃমির host, infective form, transmission, disease — এই চারটি পয়েন্ট কভার করো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P105</span>
+      <p class="qtext">Mention two (02) dangerous cestodes and explain the reason. *** (T. solium due to cysticercosis and E. granulosus after rapture hydatid cyst)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. solium due to cysticercosis and E. granulosus after rupture hydatid cyst</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The two most dangerous cestodes are:</p>
+      <ol>
+        <li><b>Taenia solium (pork tapeworm):</b> Dangerous because it causes <b>cysticercosis</b>. When man ingests the eggs (contaminated food/water or autoinfection), the oncosphere hatches, penetrates the intestine and reaches the brain, muscles and eyes as cysticercus cellulosae. Neurocysticercosis (brain) is the most serious form causing epilepsy and is a fatal space-occupying lesion.</li>
+        <li><b>Echinococcus granulosus (dog tapeworm):</b> Dangerous because its larval stage forms a hydatid cyst, mainly in the liver. If the cyst <b>ruptures</b>, it leads to severe <b>anaphylactic reaction and shock</b> (due to escape of hydatid fluid antigens) and can cause secondary cysts in other organs.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">cysticercosis কখন হয় — অপরিপাকৃত শূকরের মাংস খেলে নাকি egg খেলে?</p>
+      <p class="ca">cysticercosis হয় শুধুমাত্র T. solium-এর egg খেলে। অপরিপাকৃত শূকরের মাংস খেলে অন্ত্রে taeniasis হয়, cysticercosis হয় না।</p>
+      <p class="cq">Neurocysticercosis কেন গুরুতর?</p>
+      <p class="ca">এটি endemic এলাকায় intracranial space-occupying lesion (ICSOL)-এর সবচেয়ে সাধারণ কারণ, যা epilepsy ও মৃত্যু ঘটাতে পারে।</p>
+      <p class="cq">Hydatid cyst ফাটলে কী হয়?</p>
+      <p class="ca">Type-I anaphylactic reaction হয় — এটি একটি medical emergency। Hydatid fluid-এর antigen রক্তপ্রবাহে প্রবেশ করলে তীব্র অ্যালার্জিক প্রতিক্রিয়া ও shock হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>দুটি সবচেয়ে বিপজ্জনক সেস্টোড —</p>
+<ol>
+<li><b>T. solium (pork tapeworm):</b> কেন বিপজ্জনক? কারণ এটি cysticercosis করে। মানুষ যখন T. solium-এর egg খায় (দূষিত খাবার/পানি বা autoinfection থেকে), তখন oncosphere অন্ত্রে ফুটে বের হয়, অন্ত্রের দেয়াল ছিদ্র করে brain, muscle, eye-তে পৌঁছায় এবং সেখানে cysticercus cellulosae হিসাবে আবদ্ধ হয়। Neurocysticercosis সবচেয়ে গুরুতর — brain-এ epilepsy ও fatal space-occupying lesion তৈরি করে।</li>
+<li><b>E. granulosus (dog tapeworm):</b> কেন বিপজ্জনক? এর লার্ভা stage hydatid cyst তৈরি করে, মূলত লিভারে। যদি cyst <b>ফেটে যায়</b>, তাহলে hydatid fluid-এর antigen রক্তে প্রবেশ করে তীব্র anaphylactic reaction ও shock হয় — এটা medical emergency। এছাড়া অন্যান্য অঙ্গে secondary cyst তৈরি হতে পারে।</li>
+</ol>
+<p>মনে রাখো — T. solium বিপজ্জনক cysticercosis-এর জন্য, E. granulosus বিপজ্জনক hydatid cyst ফাটার জন্য। এই কারণগুলো সংক্ষেপে বললেই হয়ে যায়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P106</span>
+      <p class="qtext">Mention six (06) differentiating point between T. saginata and T. solium (including transmission and host) ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> transmission and host must be included; beef vs pork, unarmed vs armed</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <thead>
+          <tr><th>Point</th><th>T. saginata (beef tapeworm)</th><th>T. solium (pork tapeworm)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Common name</td><td>Beef tapeworm / unarmed tapeworm</td><td>Pork tapeworm / armed tapeworm</td></tr>
+          <tr><td>Host (intermediate)</td><td>Cattle</td><td>Pig, occasionally man (accidental)</td></tr>
+          <tr><td>Infective form</td><td>Larva (cysticercus bovis) in beef</td><td>Larva (cysticercus cellulosae) in pork for taeniasis; egg for cysticercosis</td></tr>
+          <tr><td>Mode of transmission</td><td>Ingestion of undercooked/raw beef</td><td>Ingestion of undercooked pork (taeniasis); ingestion of eggs/autoinfection (cysticercosis)</td></tr>
+          <tr><td>Scolex (rostellum &amp; hooks)</td><td><b>No rostellum, no hooks (unarmed)</b></td><td><b>Rostellum present with two rows of hooks (armed)</b></td></tr>
+          <tr><td>Disease in man</td><td>Intestinal taeniasis only (not cysticercosis)</td><td>Intestinal taeniasis + cysticercosis</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">দুই কৃমির আয়তন ও proglottid সংখ্যায় পার্থক্য কী?</p>
+      <p class="ca">T. saginata বড় (৫–১০ মিটার, proglottid ১০০০–২০০০); T. solium ছোট (২–৩ মিটার, proglottid &lt;১০০০)।</p>
+      <p class="cq">T. saginata-র egg মানুষকে সংক্রমিত করতে পারে কি?</p>
+      <p class="ca">না, T. saginata-র egg শুধু গরুকে সংক্রমিত করে। T. solium-এর egg মানুষ ও শূকর — দুজনকেই সংক্রমিত করতে পারে।</p>
+      <p class="cq">proglottid কীভাবে মলে আসে?</p>
+      <p class="ca">T. saginata-র proglottid সক্রিয়ভাবে নিজে নিজে বেরিয়ে আসে; T. solium-এর proglottid নিষ্ক্রিয়ভাবে ৫–৬টির সিরিজে আসে।</p>
+      <p class="cq">Uterus-এর শাখা সংখ্যা কত?</p>
+      <p class="ca">T. saginata-তে ১৫–৩০টি lateral branch; T. solium-এ ৫–১০টি lateral branch।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় ৬টি পার্থক্য পয়েন্ট বলো —</p>
+<ol>
+<li><b>সাধারণ নাম:</b> T. saginata = beef/unarmed tapeworm; T. solium = pork/armed tapeworm।</li>
+<li><b>Intermediate host:</b> T. saginata = গরু; T. solium = শূকর, মাঝে মাঝে মানুষ (accidental)।</li>
+<li><b>Scolex:</b> T. saginata-তে rostellum ও hooks নেই (unarmed); T. solium-এ rostellum ও দুই সারি hooks আছে (armed)।</li>
+<li><b>সংক্রমণের পথ:</b> T. saginata = অপরিপাকৃত গরুর মাংস; T. solium = অপরিপাকৃত শূকরের মাংস (taeniasis) বা egg গ্রহণ (cysticercosis)।</li>
+<li><b>Infective form:</b> T. saginata = larva (cysticercus bovis); T. solium = taeniasis-এর জন্য larva (cysticercus cellulosae), cysticercosis-এর জন্য egg।</li>
+<li><b>রোগ:</b> T. saginata = শুধু অন্ত্রে taeniasis (cysticercosis হয় না); T. solium = অন্ত্রে taeniasis + cysticercosis।</li>
+</ol>
+<p>মনে রাখার কৌশল: <b>\"Saginata = Safe (cysticercosis হয় না), Solium = Serious (cysticercosis হয়)\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P107</span>
+      <p class="qtext">Which one is more dangerous between T. solium &amp; T. saginata and why? ***** (T. solium due to cysticercosis)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. solium due to cysticercosis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>T. solium (pork tapeworm)</b> is more dangerous than T. saginata because:</p>
+      <ul>
+        <li>It causes <b>cysticercosis</b> in man. Man ingests the eggs (contaminated food/water or autoinfection) → oncosphere hatches in intestine → penetrates → reaches brain, muscles, subcutaneous tissue and eyes.</li>
+        <li><b>Neurocysticercosis</b> (brain involvement) is the most common and most serious form — causes epilepsy, headache, behavioural disturbances and is a major intracranial space-occupying lesion (ICSOL), which can be fatal.</li>
+        <li>T. saginata only causes intestinal taeniasis and cannot cause cysticercosis in man (its eggs are infective only to cattle).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">cysticercosis হতে হলে কী খেতে হয় — অপরিপাকৃত মাংস নাকি egg?</p>
+      <p class="ca">egg খেতে হয়। অপরিপাকৃত শূকরের মাংস খেলে শুধু taeniasis হয়।</p>
+      <p class="cq">মানুষ T. solium-এর জন্য কী ধরনের হোস্ট?</p>
+      <p class="ca">মানুষ definitive host (প্রাপ্তবয়স্ক কৃমির জন্য) এবং accidental intermediate host (cysticercus-এর জন্য) — দুটোই।</p>
+      <p class="cq">চোখে cysticercosis হলে কী হয়?</p>
+      <p class="ca">Ocular cysticercosis-এ ঝাপসা দৃষ্টি বা অন্ধত্ব হতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>T. solium বেশি বিপজ্জনক। কারণ এটি cysticercosis করে — মানুষের brain-এ cyst তৈরি হয়, তাই neurocysticercosis হয়, যা epilepsy ও fatal হতে পারে। T. saginata শুধু অন্ত্রে taeniasis করে, brain-এ কিছু করে না।</p>
+<p>উত্তরটা সংক্ষেপে: <b>\"T. solium, কারণ cysticercosis / neurocysticercosis।\"</b></p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P108</span>
+      <p class="qtext">How cysticercosis occurs in man? *** (when ingest contaminated egg or autoinfection not by taking undercooked pork)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> when ingest contaminated egg or autoinfection — not by taking undercooked pork</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Cysticercosis occurs when man ingests the <b>eggs</b> of T. solium (NOT by eating undercooked pork — that causes intestinal taeniasis). The sequence is:</p>
+      <ol>
+        <li>Man ingests eggs of T. solium in contaminated food or water, or by <b>autoinfection</b> (internal autoinfection by reverse peristalsis releasing eggs from gravid proglottids in intestine, or external autoinfection by faecal–oral self-contamination).</li>
+        <li>In the small intestine, the egg wall is digested and the <b>oncosphere</b> is liberated.</li>
+        <li>With the help of hooklets, the oncosphere penetrates the intestinal wall and enters the portal circulation and mesenteric lymphatics.</li>
+        <li>It is carried to various organs — brain, subcutaneous tissue, muscle and eyes.</li>
+        <li>The oncosphere develops into <b>cysticercus cellulosae</b> (encysted larva) within 7–9 weeks, producing cysticercosis.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">গুরুত্বপূর্ণ পার্থক্য কী — অপরিপাকৃত শূকরের মাংস খেলে কী হয় আর egg খেলে কী হয়?</p>
+      <p class="ca">অপরিপাকৃত শূকরের মাংস খেলে অন্ত্রে taeniasis হয়; egg খেলে cysticercosis হয়।</p>
+      <p class="cq">Neurocysticercosis ছাড়া cysticercus আর কোথায় কোথায় যেতে পারে?</p>
+      <p class="ca">Subcutaneous tissue-এ গাঁঠ (nodule) হিসাবে, পেশিতে (acute myositis) এবং চোখে (ocular cysticercosis)।</p>
+      <p class="cq">cysticercus-এর কমন সাইটগুলো কী?</p>
+      <p class="ca">Central nervous system, subcutaneous tissue এবং চোখ।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>মানুষ যখন T. solium-এর <b>egg</b> খায় — দূষিত খাবার/পানি থেকে বা autoinfection থেকে — তখন cysticercosis হয়। প্রক্রিয়াটা ধাপে ধাপে বলো:</p>
+<ol>
+<li>ছোট অন্ত্রে egg-এর প্রাচীর গলে oncosphere মুক্ত হয়।</li>
+<li>Hooklets সাহায্যে oncosphere অন্ত্রের দেয়াল ছিদ্র করে portal circulation ও mesenteric lymphatics-এ প্রবেশ করে।</li>
+<li>Blood stream ধরে বিভিন্ন অঙ্গে পৌঁছায় — brain, subcutaneous tissue, muscle, চোখ।</li>
+<li>৭–৯ সপ্তাহের মধ্যে oncosphere <b>cysticercus cellulosae</b>-তে পরিণত হয় (encysted larva), ফলে cysticercosis হয়।</li>
+</ol>
+<p>গুরুত্বপূর্ণ: <b>অপরিপাকৃত শূকরের মাংস খেলে taeniasis হয়, cysticercosis হয় না</b> — এই পার্থক্যটা জোর দিয়ে বলো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P109</span>
+      <p class="qtext">Enumerate the infective form, host, and mode of transmission of E. granulosus. *** (man: dead end intermediate host, optimum intermediate host: sheep; dog: definitive host)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> man: dead end intermediate host; optimum intermediate host: sheep; dog: definitive host</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Infective form:</b> Egg (in dog's faeces, containing hexacanth/oncosphere embryo).</li>
+        <li><b>Definitive host:</b> Dog (optimum), also fox and wolf.</li>
+        <li><b>Intermediate host:</b> Sheep (optimum), cattle; man is a <b>dead-end / accidental intermediate host</b>.</li>
+        <li><b>Mode of transmission:</b> Ingestion of eggs from dog's faeces — by direct contact with infected dog (handling, fondling), eating raw vegetables/food contaminated with dog's faeces, or allowing the dog to feed from the same dish.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Egg খাওয়ার পর oncosphere কোন পথে যায়?</p>
+      <p class="ca">অন্ত্র ছিদ্র করে portal vein-এ প্রবেশ করে → লিভার (প্রথম ফিল্টার) → hydatid cyst মূলত লিভারে তৈরি হয় (৭০%)। কিছু ফুসফুসে (দ্বিতীয় ফিল্টার) যায় → তারপর systemic circulation দিয়ে কিডনি, brain, bone, eye-তে পৌঁছায়।</p>
+      <p class="cq">মানুষকে dead-end host বলা হয় কেন?</p>
+      <p class="ca">কারণ definitive host (কুকুর) মানুষের মাংস খাওয়ার সুযোগ পায় না — সুতরাং parasite-এর জীবনচক্র মানুষের মধ্যে শেষ হয়ে যায়, কুকুরে আর ফিরে যায় না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় ধাপে ধাপে বলো:</p>
+<ul>
+<li><b>Infective form</b> = egg (কুকুরের মলে থাকে, hexacanth/oncosphere embryo সম্পন্ন)।</li>
+<li><b>Definitive host</b> = কুকুর (optimum), শেয়াল, নেকড়ে।</li>
+<li><b>Intermediate host</b> = ভেড়া (optimum), গরু; মানুষ = dead-end/accidental intermediate host।</li>
+<li><b>সংক্রমণের পথ</b> = কুকুরের মলের egg দূষিত খাবার/পানির মাধ্যমে গ্রহণ — কুকুরকে হাত লাগানো, দূষিত শাকসবজি খাওয়া, কুকুরকে নিজের পাত্র থেকে খাওয়ানো।</li>
+</ul>
+<p>মনে রাখো — dead-end host মানে কুকুর মানুষকে খেতে পারে না, তাই cycle শেষ হয়ে যায়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P110</span>
+      <p class="qtext">Write in short note on hydatid cyst. ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> larval stage of E. granulosus; structure: pericyst, ectocyst, endocyst; hydatid fluid &amp; sand</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The <b>hydatid cyst</b> is the larval stage of E. granulosus. When the oncosphere (liberated from the ingested egg) settles in an organ and gets encysted by host tissue, it develops into a large fluid-filled bladder-like cyst. Greek 'hydatis' means 'a drop of water'.</p>
+      <p><b>Structures of hydatid cyst:</b></p>
+      <ul>
+        <li><b>Pericyst:</b> outermost layer, host-derived; consists of fibrous tissue and blood vessels.</li>
+        <li><b>Ectocyst:</b> outer/middle cuticular layer, parasite-derived; tough elastic, <b>glycan-rich acellular hyaline layer</b> (~1 mm), resembles the white of a hard-boiled egg.</li>
+        <li><b>Endocyst:</b> inner germinal layer, parasite-derived; thin (22–25 µm) <b>cellular layer that form</b>s the ectocyst on the outer side and the brood capsules with scoleces (protoscolices) on the inner side, and secretes hydatid fluid.</li>
+      </ul>
+      <p><b>Hydatid fluid &amp; sand:</b></p>
+      <ul>
+        <li>Clear colourless fluid, low specific gravity (1.005–1.010), slightly acidic pH (~6.7). Contains salts, proteins; antigenic and toxic.</li>
+        <li><b>Hydatid sand:</b> granular deposit of brood capsules and protoscolices which break off and settle at the bottom.</li>
+      </ul>
+      <p><b>Site:</b> Liver (commonest, ~70%), then lungs (20–30%), spleen, kidney, brain, eyes, bones.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Hydatid cyst-এর কয়েকটি variety কী কী?</p>
+      <p class="ca">Primary cyst (embryo থেকে সরাসরি), secondary cyst (rupture থেকে), acephalocyst (brood capsule নেই), এবং endogenous daughter cysts।</p>
+      <p class="cq">Hydatid cyst সাধারণত কীভাবে ধরা পড়ে?</p>
+      <p class="ca">বেশিরভাগ ক্ষেত্রে asymptomatic থাকে এবং অন্য সমস্যার তদন্তের সময় ঘটাঘটে ultrasonography-তে ধরা পড়ে।</p>
+      <p class="cq">Rupture হলে কী হয়?</p>
+      <p class="ca">Anaphylactic reaction হয় এবং secondary cyst তৈরি হতে পারে।</p>
+      <p class="cq">চিকিৎসায় কী ব্যবহার করা হয়?</p>
+      <p class="ca">Albendazole (drug of choice), PAIR (puncture, aspiration, injection, re-aspiration) বা surgery।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Hydatid cyst মানে E. granulosus-এর লার্ভা। শুরুতেই বলো — গ্রিক শব্দ \"hydatis\" মানে পানির ফোঁটা; oncosphere যখন কোনো অঙ্গে থিতু হয়ে host টিস্যু দিয়ে ঢেকে যায়, তখন বড় পানিভরা cyst তৈরি হয়।</p>
+<p>গঠন — তিনটি layer বলো:</p>
+<ul>
+<li><b>Pericyst</b> — সবচেয়ে বাইরের layer, host থেকে তৈরি, fibrous tissue ও blood vessels থাকে।</li>
+<li><b>Ectocyst</b> — মাঝের cuticular layer, পরজীবী থেকে তৈরি, tough elastic acellular hyaline layer (~১ মিমি), hard-boiled egg-এর সাদার মতো দেখতে।</li>
+<li><b>Endocyst</b> — ভেতরের germinal layer, পরজীবী থেকে তৈরি, পাতলা (২২–২৫ µm) cellular layer — বাইরের দিকে ectocyst এবং ভেতরের দিকে brood capsule ও scolex (protoscolex) তৈরি করে এবং hydatid fluid নিঃসরণ করে।</li>
+</ul>
+<p><b>Hydatid fluid ও sand:</b> পরিষ্কার রংহীন তরল, low specific gravity (১.০০৫–১.০১০), সামান্য acidic pH (~৬.৭), antigenic ও toxic। <b>Hydatid sand</b> = brood capsule ও protoscolex-এর দানাদার পলি যা ভেঙে তলায় জমা হয়।</p>
+<p><b>সাইট:</b> লিভার সবচেয়ে বেশি (৭০%), তারপর ফুসফুস (২০–৩০%), তারপর spleen, kidney, brain, চোখ, হাড়।</p>
+<p>মনে রাখার কৌশল: <b>\"P-E-E = Pericyst-Ectocyst-Endocyst\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P111</span>
+      <p class="qtext">Mention the site of hydatid cyst (also common site). ****** (commest site: liver as first filter)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> commonest site: liver as first filter</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Liver</b> — commonest site (~70%) because it acts as the first filter for oncospheres reaching via the portal vein.</li>
+        <li><b>Lungs</b> — second commonest (~20–30%), acting as the second filter.</li>
+        <li>Other sites: spleen, kidney, brain, eyes, bones, heart, muscle and pelvic organs (urinary bladder, uterus, fallopian tube, ovary). boro boro sob organ e</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">oncosphere পোর্টাল সার্কুলেশনে প্রবেশ করে কোন ফিল্টারে আটকায়?</p>
+      <p class="ca">প্রথম ফিল্টার লিভার — অধিকাংশ oncosphere এখানে আটকে যায় (৭০%), কারণ লিভার portal vein-এর প্রথম ফিল্টার।</p>
+      <p class="cq">লিভার পার করে যাওয়া oncosphere কোথায় যায়?</p>
+      <p class="ca">Pulmonary circulation ধরে ফুসফুসে (দ্বিতীয় ফিল্টার, ২০–৩০%)। যা ফুসফুসও পার করে, তারা systemic circulation দিয়ে কিডনি, brain, হাড়, চোখে পৌঁছায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>সবচেয়ে সাধারণ সাইট = <b>লিভার</b>, কারণ লিভার প্রথম ফিল্টার — portal vein দিয়ে আসা oncosphere-এর বেশিরভাগই লিভারেই আটকে যায় (৭০%)।</p>
+<p>তারপর <b>ফুসফুস</b> — দ্বিতীয় ফিল্টার, ২০–৩০%।</p>
+<p>অন্য সাইটগুলো — spleen, kidney, brain, চোখ, হাড়, heart, muscle, pelvic organs (urinary bladder, uterus, fallopian tube, ovary)।</p>
+<p>মনে রাখো: লিভার → ফুসফুস → অন্যান্য অঙ্গ — এই ক্রমেই বলবে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P112</span>
+      <p class="qtext">Mention the consequences of raptured hydatid cyst. ***** (anaphylactic reaction and shock)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> anaphylactic reaction and shock</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The consequences of a <b>ruptured hydatid cyst</b> are:</p>
+      <ol>
+        <li><b>Anaphylactic reaction (type I hypersensitivity):</b> escape of hydatid fluid antigens into the circulation causes a severe anaphylactic reaction, which can lead to <b>anaphylactic shock</b> — a medical emergency.</li>
+        <li><b>Formation of secondary cysts:</b> rupture releases protoscolices/brood capsules into the circulation, which are carried to other organs and develop into secondary cysts.</li>
+        <li>Secondary bacterial infection of the ruptured cyst can cause pyogenic complications.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">তাই কেন exploratory puncture করা হয়?</p>
+      <p class="ca">না, করা হয় না — কারণ puncture করলে cyst ফেটে hydatid fluid বের হয়ে anaphylaxis হতে পারে।</p>
+      <p class="cq">Hydatid fluid কেন বিপজ্জনক?</p>
+      <p class="ca">কারণ এটি antigenic ও toxic — সেই জন্যই type-I hypersensitivity reaction হয়।</p>
+      <p class="cq">একটি বড়, ফাটা ছাড়া cyst কী প্রভাব ফেলে?</p>
+      <p class="ca">Pressure effect: hepatomegaly ও abdominal tenderness হতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Hydatid cyst ফেটে গেলে তিনটি জিনিস হয় —</p>
+<ol>
+<li><b>Anaphylactic reaction (type-I hypersensitivity)</b> — hydatid fluid-এর antigen রক্তে প্রবেশ করে তীব্র প্রতিক্রিয়া ও <b>anaphylactic shock</b> — এটি medical emergency।</li>
+<li><b>Secondary cyst তৈরি</b> — ফেটে গেলে protoscolex ও brood capsule রক্তে ছড়িয়ে পড়ে, অন্যান্য অঙ্গে গিয়ে নতুন cyst তৈরি করে।</li>
+<li>দ্বিতীয়ত, cyst-এ bacterial infection হলে pyogenic জটিলতা হতে পারে।</li>
+</ol>
+<p>তাই exploratory puncture করা হয় না — puncture করলেই fluid বের হয়ে anaphylaxis হতে পারে। এই পয়েন্টগুলো বললেই যথেষ্ট।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P113</span>
+      <p class="qtext">How is hydatid cyst diagnosed? ** (mainly accidental songraphical diagnosis, non invasive test: casoni's reaction)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mainly accidental sonographical diagnosis; non-invasive test: Casoni's reaction</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Hydatid cyst is often diagnosed <b>accidentally</b> by <b>ultrasonography (USG)</b> during investigation of other problems — this is the main non-invasive imaging method. Other diagnostic measures are:</p>
+      <ul>
+        <li><b>Casoni's test:</b> a non-invasive, immediate (type I) hypersensitivity skin test using sterile hydatid fluid antigen; a wheal of 5 cm or more (with pseudopodia) within 30 minutes is positive. (Now largely obsolete due to low sensitivity 60–80% and cross-reactivity.)</li>
+        <li><b>Imaging:</b> X-ray, ultrasound and CT scan.</li>
+        <li><b>Microscopy of aspirated fluid</b> from surgically removed cyst — reveals scolices, brood capsules and hooklets; exploratory puncture is avoided due to anaphylaxis risk.</li>
+        <li><b>Serology:</b> antigen detection (ELISA), antibody detection (ELISA, LAT, IFA, immunodiffusion, Western blot).</li>
+        <li><b>Molecular:</b> PCR; <b>histopathology</b> of removed cyst; <b>haematology:</b> eosinophilia.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Casoni's test কীভাবে করা হয়?</p>
+      <p class="ca">০.২ মিলি sterile hydatid fluid antigen এক বাহুতে ইনজেক্ট করা হয়, অন্য বাহুতে sterile saline (control) দেওয়া হয়। ৩০ মিনিটের মধ্যে ৫ সেমি বা ততোধিক ব্যাসের wheal (pseudopodia সহ) তৈরি হলে positive, প্রায় ১ ঘণ্টায় ফিকে হয়ে যায়।</p>
+      <p class="cq">চিকিৎসা কী?</p>
+      <p class="ca">আলবেনডাজল (drug of choice) — Albendazole, অথবা PAIR/surgery।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>বেশিরভাগ সময় hydatid cyst ঘটাঘটে (accidentally) USG-তে ধরা পড়ে — অন্য সমস্যার তদন্তে।</p>
+<p>Non-invasive test = <b>Casoni's reaction</b> — একটি immediate (type-I) hypersensitivity skin test; sterile hydatid fluid antigen দিয়ে করা হয়; ৩০ মিনিটে ৫ সেমি বা তার বেশি wheal positive। (আধুনিক যুগে low sensitivity ৬০–৮০% ও cross-reactivity-র কারণে অনেকটা বাতিল।)</p>
+<p>অন্যান্য নির্ণয়:</p>
+<ul>
+<li>Imaging: X-ray, ultrasound, CT scan।</li>
+<li>অপারেশনে বের করা cyst-এর তরলে microscopically scolex, brood capsule, hooklet দেখা যায়। Exploratory puncture করা যায় না — anaphylaxis risk।</li>
+<li>Serology: antigen detection (ELISA), antibody detection (ELISA, LAT, IFA, immunodiffusion, Western blot)।</li>
+<li>Molecular: PCR; পরিষ্কার cyst-এর histopathology; রক্তে eosinophilia।</li>
+</ul>
+<p>এই ৪–৫টি পয়েন্ট বললেই হয়ে যায়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P114</span>
+      <p class="qtext">'Human is dead end intermediate host for E. granulosus'- Explain. *** (no access to eat human flesh by the definitive host)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> no access to eat human flesh by the definitive host</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Man is called a <b>dead-end intermediate host</b> for E. granulosus because:</p>
+      <ul>
+        <li>The <b>natural intermediate host is the sheep</b> (whose hydatid cysts in organs are eaten by dogs after death/slaughter), completing the natural life cycle.</li>
+        <li>When man is infected accidentally, the hydatid cyst develops in the human liver/lungs, but the definitive host (dog) has <b>no access to eat human flesh</b>.</li>
+        <li>Therefore, the parasite's life cycle in man comes to a dead end — it cannot be transmitted <b>back to the dog</b> to complete sexual reproduction.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">প্রাকৃতিক cycle কীভাবে টিকে থাকে?</p>
+      <p class="ca">কুকুর → ভেড়া → কুকুর — এই cycle-ই স্বাভাবিক। মানুষ শুধু accidental intermediate host।</p>
+      <p class="cq">মানুষ E. granulosus-এর সংক্রমণ ছড়াতে পারে কি?</p>
+      <p class="ca">না, পারে না — মানুষের মধ্যে life cycle শেষ হয়ে যায়, তাই মানুষ E. granulosus-এর সংক্রমণ ছড়ানোতে কোনো ভূমিকা রাখে না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>মানুষকে dead-end intermediate host বলার কারণ —</p>
+<ul>
+<li>স্বাভাবিক intermediate host হলো ভেড়া, যার মৃতদেহ বা মাংস কুকুর খেলে cycle সম্পূর্ণ হয় (কুকুর → ভেড়া → কুকুর)।</li>
+<li>মানুষ যখন accidentally সংক্রমিত হয়, তখন মানুষের লিভার/ফুসফুসে hydatid cyst তৈরি হয়। কিন্তু definitive host (কুকুর) <b>মানুষের মাংস খাওয়ার সুযোগ পায় না</b>।</li>
+<li>তাই মানুষের মধ্যে parasite-এর life cycle dead end-এ পৌঁছে — সংক্রমণ আর কুকুরে ফিরে যেতে পারে না, sexual reproduction সম্পন্ন হয় না।</li>
+</ul>
+<p>সংক্ষেপে: <b>\"no access to eat human flesh\"</b> — এই logic-টাই বলবে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P115</span>
+      <p class="qtext">Mention the disease name of D. latum. (macrocytic Anaemia)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> macrocytic Anaemia</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The disease caused by <b>Diphyllobothrium latum</b> (fish tapeworm) is <b>Diphyllobothriasis</b>, which manifests as <b>macrocytic (megaloblastic/pernicious) anaemia</b> and sometimes intestinal obstruction.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">D. latum মানুষের সবচেয়ে লম্বা tapeworm কি?</p>
+      <p class="ca">হ্যাঁ — প্রাপ্তবয়স্ক কৃমি ১০ মিটারেরও বেশি হতে পারে।</p>
+      <p class="cq">সাধারণ নাম কী কী?</p>
+      <p class="ca">Fish tapeworm বা broad tapeworm।</p>
+      <p class="cq">কতগুলো host লাগে?</p>
+      <p class="ca">তিনটি host — মানুষ, copepod (Cyclops) এবং মিঠাপানির মাছ।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>D. latum-এর রোগ = <b>Diphyllobothriasis</b>, যা <b>macrocytic (megaloblastic/pernicious) anaemia</b> হিসেবে প্রকাশ পায়, কখনো কখনো intestinal obstruction-ও করে।</p>
+<p>কারণ — এটি ভিটামিন B12 শোষণ করে।</p>
+<p>সাধারণ নাম মনে রাখো — fish tapeworm, ১০ মিটারের বেশি লম্বা। কোনো প্রশ্ন এলে বলবে \"macrocytic anaemia\"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P116</span>
+      <p class="qtext">How does D. latum produce anaemia? ****** (release unsaturated fatty acid which interfere with intrinsic factor of castle, so B12 absorption hamper &amp; also take B12 as food and)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> releases unsaturated fatty acid which interferes with intrinsic factor of Castle, so B12 absorption is hampered; also takes B12 as food</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>D. latum, residing in the upper small intestine (ileum), produces <b>megaloblastic (macrocytic) anaemia</b> by two mechanisms:</p>
+      <ol>
+        <li>It liberates <b>unsaturated fatty acids</b> which interfere with the functioning of the <b>intrinsic factor of Castle</b>, thereby impairing vitamin B12 absorption → megaloblastic/pernicious anaemia.</li>
+        <li>D. latum also <b>takes up vitamin B12 as its own food</b>, competing with the host, leading to B12 deficiency and megaloblastic anaemia.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">পরজীবীদের anaemia টেবিলে D. latum-এর ধরন কী?</p>
+      <p class="ca">macrocytic (megaloblastic/pernicious) anaemia।</p>
+      <p class="cq">নির্ণয়ে কী কী পাওয়া যায়?</p>
+      <p class="ca">মলে operculated egg ও proglottid; রক্তে megaloblastic anaemia এবং mild-to-moderate eosinophilia।</p>
+      <p class="cq">প্রতিরোধ কী?</p>
+      <p class="ca">মাছ সম্পূর্ণভাবে রান্না করে খাওয়া; কাঁচা মাছের ক্ষেত্রে −১০°C-তে ২৪ ঘণ্টা deep freeze করে নেওয়া।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>D. latum ছোট অন্ত্রের উপরের অংশে (ileum) থাকে এবং <b>megaloblastic (macrocytic) anaemia</b> তৈরি করে দুইটি mechanism-এ:</p>
+<ol>
+<li><b>Unsaturated fatty acid নিঃসরণ করে</b> → intrinsic factor of Castle-এর কার্যকারিতা নষ্ট করে → vitamin B12 শোষণ ব্যাহত হয় → megaloblastic/pernicious anaemia।</li>
+<li><b>D. latum নিজে vitamin B12 খাদ্য হিসাবে গ্রহণ করে</b> — হোস্টের সাথে প্রতিযোগিতা করে → B12 deficiency → megaloblastic anaemia।</li>
+</ol>
+<p>দুটো mechanism ধাপে ধাপে বললেই ভাইভাতে সুন্দর উত্তর হবে।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Amoebiasis & Free-living Amoeba (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Amoebiasis &amp; Free-living Amoeba</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">12 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">12 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-03-Protozoa-General.html">‹ Prev</a><a href="Parasitology-05-Flagellates-Giardia-Trichomonas-Trypanosoma.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Amoebiasis &amp; Free-living Amoeba</h2><div class="en">E. histolytica lesions, sites, liver abscess, laboratory diagnosis, prevention, free-living amoeba</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P41</span>
+      <p class="qtext">State the important differences between amoebic and bacillary dysentery. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> clinical (onset, fever, toxicity, tenderness, tenesmus) + stool character + microscopic features</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Amoebic dysentery (E. histolytica)</th><th>Bacillary dysentery (Shigella)</th></tr>
+        <tr><td colspan="3"><b>Clinical</b></td></tr>
+        <tr><td>Onset</td><td>Slow</td><td>Acute</td></tr>
+        <tr><td>Fever</td><td>Absent (or low)</td><td>Present, high</td></tr>
+        <tr><td>Toxicity</td><td>Absent</td><td>Present</td></tr>
+        <tr><td>Abdominal tenderness</td><td>Localized</td><td>Generalized</td></tr>
+        <tr><td>Tenesmus</td><td>Absent</td><td>Present</td></tr>
+        <tr><td colspan="3"><b>Stool (Macroscopic)</b></td></tr>
+        <tr><td>Frequency</td><td>6–8 times/day</td><td>More than 10/day</td></tr>
+        <tr><td>Amount</td><td>Relatively copious</td><td>Small</td></tr>
+        <tr><td>Odor</td><td>Offensive</td><td>Odorless</td></tr>
+        <tr><td>Colour</td><td>Dark red</td><td>Bright red</td></tr>
+        <tr><td>Nature</td><td>Blood and mucus mixed with faeces</td><td>Blood and mucus with no or little faeces</td></tr>
+        <tr><td>Reaction</td><td>Acidic</td><td>Alkaline</td></tr>
+        <tr><td>Consistency</td><td>Not adherent to container</td><td>Adherent to the bottom of the container</td></tr>
+        <tr><td colspan="3"><b>Microscopy</b></td></tr>
+        <tr><td>RBCs</td><td>In clumps, yellowish</td><td>Discrete or in rouleaux, bright red</td></tr>
+        <tr><td>Pus cells</td><td>Scanty</td><td>Numerous</td></tr>
+        <tr><td>Macrophages</td><td>Few</td><td>Several, some with ingested RBCs (mistaken as E. histolytica)</td></tr>
+        <tr><td>Eosinophils</td><td>Present</td><td>Rare</td></tr>
+        <tr><td>Parasite</td><td>Trophozoite with ingested RBCs</td><td>Nil</td></tr>
+        <tr><td>Motile bacteria</td><td>Present (normal flora)</td><td>Nil</td></tr>
+        <tr><td>Pyhnotic bodies</td><td>Very common</td><td>Nil</td></tr>
+        <tr><td>Ghost cells</td><td>Nil</td><td>Numerous</td></tr>
+        <tr><td>Charcot–Leyden crystals</td><td>Present</td><td>Nil</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Ghost cells কী?</p>
+      <p class="ca">Ghost cells = enlarged/swollen epithelial cells without nucleus।</p>
+      <p class="cq">Pyhnotic bodies কী?</p>
+      <p class="ca">Pyhnotic bodies = WBCs এবং অন্যান্য cell-এর nucleus-এর remnants।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>দুটো dysentery — amoebic (E. histolytica) আর bacillary (Shigella)। পার্থক্য clinical, stool, আর microscopy — এই ৩ ভাগে।</p>
+<ul>
+<li><b>Clinical</b> — Amoebic: onset slow, fever নেই/কম, toxicity নেই, tenderness localized, tenesmus নেই। Bacillary: acute, high fever, toxicity থাকে, tenderness generalized, tenesmus থাকে।</li>
+<li><b>Stool (macroscopic)</b> — Amoebic: ৬-৮ বার/দিন, copious, offensive odor, dark red, blood-mucus faeces-এর সাথে মেশানো, acidic, container-এ লেগে থাকে না। Bacillary: ১০+ বার/দিন, small, odorless, bright red, faeces নেই/কম, alkaline, container-এর bottom-এ adherent।</li>
+<li><b>Microscopy</b> — Amoebic: RBC clumps yellowish, pus scanty, few macrophages, eosinophils present, trophozoite with ingested RBCs, motile bacteria, pyhnotic bodies common, Charcot-Leyden crystal present, ghost cells nil। Bacillary: RBC discrete/rouleaux bright red, pus numerous, several macrophages (ইনজেস্টেড RBC সহ, E. histolytica বলে ভুল হয়), eosinophils rare, parasite nil, motile bacteria nil, pyhnotic bodies nil, ghost cells numerous, Charcot-Leyden nil।</li>
+</ul>
+<p>মনে রাখো — "amoebic = dark, offensive, slow; bacillary = bright red, toxic, acute"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P42</span>
+      <p class="qtext">Mention the morphological, infective and pathogenic form of E. histolytica. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mature quadrinucleated cyst: infective form; trophozoite: pathogenic form</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Morphological forms (2):</b>
+        <ul>
+          <li><b>Trophozoite</b> — motile with pseudopodia, tissue-destroying ("histo-lytic"=tissue destroying via enzyme histolycin), contains ingested RBCs (distinguishes from E. dispar)</li>
+          <li><b>Cyst</b> — non-motile, resistant; mature cyst is <b>quadrinucleated</b> (4 nuclei) and produces 8 amoebulae on excystation</li>
+        </ul>
+      </li>
+      <li><b>Infective form:</b> <b>mature quadrinucleated cyst</b></li>
+      <li><b>Pathogenic form:</b> <b>trophozoite</b></li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">E. dispar আর E. histolytica-র পার্থক্য কি?</p>
+      <p class="ca">E. dispar non-pathogenic; morphologically identical, কিন্তু E. dispar-এর trophozoites ingested RBCs ধারণ করে না।</p>
+      <p class="cq">E. histolytica আর E. coli-র nuclei পার্থক্য কি?</p>
+      <p class="ca">E. histolytica: 1–4 nuclei with central karyosome; E. coli (commensal): 1–8 with eccentric karyosome।</p>
+      <p class="cq">Encystation আর excystation কোথায় হয়?</p>
+      <p class="ca">Encystation large intestine-এ, excystation terminal ileum ও caecum-এ।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>E. histolytica-র morphological forms ২টা — <b>trophozoite</b> আর <b>cyst</b>।</p>
+<ul>
+<li><b>Trophozoite</b> — motile, pseudopodia সহ; tissue-destroying ("histo-lytic" মানে enzyme histolycin দিয়ে tissue ধ্বংস করে); phagocytosed RBCs থাকে (এটাই E. dispar থেকে আলাদা করে)।</li>
+<li><b>Cyst</b> — non-motile, resistant; mature cyst quadrinucleated (৪টা nucleus), excystation-এ ৮টা amoebulae দেয়।</li>
+</ul>
+<p><b>Infective form</b> — mature quadrinucleated cyst (gastric juice-এ survive করে, তাই infection দেয়)।</p>
+<p><b>Pathogenic form</b> — trophozoite (tissue destroy করে, flask ulcer বানায়)।</p>
+<p>E. dispar non-pathogenic — morphologically identical কিন্তু ingested RBC নেই। E. histolytica nuclei 1-4 central karyosome; E. coli 1-8 eccentric karyosome। Encystation large intestine-এ, excystation terminal ileum-caecum-এ।</p>
+<p>Viva-তে বলবে — "cyst is infective, trophozoite is pathogenic।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P43</span>
+      <p class="qtext">What are the lesion produced by E. histolytica? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intestinal: large intestine + extra-intestinal</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Intestinal amoebiasis (amoebic dysentery):</b> flask-shaped ulcers in the<b> large intestine </b>(mucosa &amp; submucosa) — colon/cecum; amoeboma (granuloma) may mimic tumour.</li>
+      <li><b>Extra-intestinal amoebiasis:</b>
+        <ul>
+          <li>Hepatic amoebiasis — <b>amoebic liver abscess</b> (commonest extra-intestinal)</li>
+          <li>Pulmonary amoebiasis / lung abscess</li>
+          <li>Brain abscess</li>
+          <li>Splenic abscess</li>
+          <li>Skin — granulomatous ulceration</li>
+          <li>Amoebic vaginitis, amoebic ulcer of the penis</li>
+        </ul>
+      </li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">E. histolytica-র trophozoites কি সবসময় lesion করে?</p>
+      <p class="ca">না — ৯০% ক্ষেত্রে trophozoites কোনো lesion করে না (asymptomatic); ~১০% ক্ষেত্রে flask ulcers করে।</p>
+      <p class="cq">Ulcer ছিদ্র করতে পারে কি?</p>
+      <p class="ca">Ulcer সাধারণত submucosa-র বেশি deep যায় না, কিন্তু কিছু ক্ষেত্রে perforate → peritonitis হতে পারে।</p>
+      <p class="cq">Liver-এ trophozoites কীভাবে পৌঁছায়?</p>
+      <p class="ca">Portal circulation দিয়ে liver-এ পৌঁছে → anchovy sauce pus-সহ amoebic liver abscess।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>E. histolytica কী lesion বানায় — দুটো বড় ভাগ —</p>
+<p><b>Intestinal amoebiasis</b> — large intestine-এ (colon/caecum) flask-shaped ulcers, mucosa-submucosa; amoeboma (granuloma) tumour mimic করতে পারে।</p>
+<p><b>Extra-intestinal amoebiasis</b> —</p>
+<ul>
+<li>Hepatic amoebiasis — <b>amoebic liver abscess</b> (সবচেয়ে common extra-intestinal)</li>
+<li>Pulmonary amoebiasis / lung abscess</li>
+<li>Brain abscess</li>
+<li>Splenic abscess</li>
+<li>Skin — granulomatous ulceration</li>
+<li>Amoebic vaginitis, penile ulcer</li>
+</ul>
+<p>৯০% ক্ষেত্রে trophozoite কোনো lesion করে না (asymptomatic); ~১০% flask ulcers করে। Ulcer submucosa-র বেশি deep হয় না, কিন্তু perforate করলে peritonitis। Portal circulation দিয়ে trophozoite liver-এ পৌঁছে anchovy-sauce pus।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P44</span>
+      <p class="qtext">Mention the site of infection of E. histolytica. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intestinal: large intestine and extra-intestinal</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Intestinal site:</b> <b>Large intestine</b> — mucosa and submucosa (cecum, colon, sigmoid rectum).</li>
+      <li><b>Extra-intestinal sites:</b> liver (via portal vein), lung, brain, spleen, skin, vagina/penis.</li>
+    </ul>
+      <p>The parasite reaches extra-intestinal sites by invading deeper layers → portal circulation → liver (1st filter) → other organs.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Cyst-এর excystation কোথায় হয়?</p>
+      <p class="ca">Cyst-এর excystation terminal ileum ও caecum-এ হয়; তারপর trophozoites large intestine-এ invade করে।</p>
+      <p class="cq">Commonest extra-intestinal lesion কোনটি?</p>
+      <p class="ca">Amoebic liver abscess commonest extra-intestinal lesion (right lobe বেশি common)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Site জিজ্ঞেস করলে —</p>
+<p><b>Intestinal site</b> — <b>Large intestine</b> — mucosa এবং submucosa (caecum, colon, sigmoid, rectum)।</p>
+<p><b>Extra-intestinal site</b> — liver (portal vein দিয়ে), lung, brain, spleen, skin, vagina/penis।</p>
+<p>Parasite deeper layers invade করে → portal circulation → liver (১ম filter) → তারপর অন্যান্য organs।</p>
+<p>Cyst-এর excystation terminal ileum ও caecum-এ হয়; তারপর trophozoites large intestine invade করে। Amoebic liver abscess commonest extra-intestinal lesion (right lobe বেশি)।</p>
+<p>Viva-তে simple answer — "intestinal: large intestine; extra-intestinal: liver most common, also lung, brain, spleen, skin।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P45</span>
+      <p class="qtext">Mention 05 site of extra-intestinal amoebiasis. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> liver, lungs, brain, spleen, skin etc</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>05 sites of extra-intestinal amoebiasis:</b></p>
+      <ul>
+        <li><b>Liver</b> — amoebic liver abscess (commonest)</li>
+        <li><b>Lungs</b> — amoebic lung abscess (pulmonary amoebiasis)</li>
+        <li><b>Brain</b> — amoebic brain abscess</li>
+        <li><b>Spleen</b> — amoebic splenic abscess</li>
+        <li><b>Skin</b> — granulomatous ulceration (amoebiasis cutis); also vagina/penis (amoebic vaginitis, penile ulcer)</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Trophozoites কীভাবে এই sites-এ পৌঁছায়?</p>
+      <p class="ca">Portal circulation এবং systemic spread দিয়ে পৌঁছায়।</p>
+      <p class="cq">Rare sites কি কি?</p>
+      <p class="ca">Rare sites — heart, kidney, genital organs।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Extra-intestinal amoebiasis-এর ৫টা site —</p>
+<ul>
+<li><b>Liver</b> — amoebic liver abscess (সবচেয়ে common)</li>
+<li><b>Lungs</b> — amoebic lung abscess (pulmonary amoebiasis)</li>
+<li><b>Brain</b> — amoebic brain abscess</li>
+<li><b>Spleen</b> — amoebic splenic abscess</li>
+<li><b>Skin</b> — granulomatous ulceration (amoebiasis cutis); আরও vagina/penis (amoebic vaginitis, penile ulcer)</li>
+</ul>
+<p>মনে রাখো "Liver-Lung-Brain-Spleen-Skin"। Trophozoites portal circulation আর systemic spread দিয়ে এই sites-এ পৌঁছায়। Rare sites — heart, kidney, genital organs।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P46</span>
+      <p class="qtext">Mention the pathogenesis of amoebiasis? * (Only for written)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> host + infective form + mode of transmission + life cycle sequence</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Pathogenesis of amoebiasis (E. histolytica):</b></p>
+      <ul>
+        <li><b>Infective form:</b> mature quadrinucleated cyst; <b>Pathogenic form:</b> trophozoite.</li>
+        <li><b>Host:</b> man (definitive host); no intermediate host. <b>Transmission:</b> feco-oral — ingestion of contaminated food/water with the cyst; housefly may act as mechanical vector.</li>
+        <li><b>Site of lesion:</b> large intestine (mucosa &amp; submucosa).</li>
+        <li>Cyst passes through the stomach (wall resistant to gastric juice) → <b>excystation</b> in terminal ileum and caecum → quadrinucleated amoeba forms 8 amoebulae → adhere to colonic mucus → multiply by binary fission.</li>
+        <li>In <b>90%</b>, trophozoites produce no lesion — transform to cyst and pass in feces.</li>
+        <li>In <b>~10%</b>, trophozoites release proteolytic enzymes (<b>histolycin</b>) — lyse tissue and produce <b>flask-shaped ulcers</b> → blood + mucus in stool (amoebic dysentery).</li>
+        <li>Some trophozoites enter deeper layers → pass through <b>portal vein</b> into the liver → <b>amoebic liver abscess</b> (anchovy-sauce pus) and rarely other extra-intestinal sites.</li>
+        <li>With healing of the lesion, encystation occurs and cysts pass in feces — cycle repeats.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Pathogenesis আর pathogenicity-র পার্থক্য কি?</p>
+      <p class="ca">Pathogenesis = disease-র প্রক্রিয়া; pathogenicity = disease ঘটানোর ক্ষমতা (lesions তৈরি)।</p>
+      <p class="cq">Amoebiasis প্রতিরোধের উপায় কি?</p>
+      <p class="ca">Water boiling/filtration, food cover করা, আর asymptomatic carriers-কে metronidazole দিয়ে চিকিৎসা।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Pathogenesis লিখলে flow টা বের কর —</p>
+<ul>
+<li>Infective form — <b>mature quadrinucleated cyst</b>; pathogenic form — <b>trophozoite</b>।</li>
+<li>Host — man (definitive); কোনো intermediate host নেই।</li>
+<li>Transmission — feco-oral, contaminated food/water; housefly mechanical vector।</li>
+<li>Site — large intestine (mucosa &amp; submucosa)।</li>
+<li>Cyst stomach দিয়ে যায় (gastric juice-এ resistant) → terminal ileum ও caecum-এ <b>excystation</b> → ৮ amoebulae → colonic mucus-এ adhere → binary fission-এ multiply।</li>
+<li>৯০%-এ trophozoite কোনো lesion করে না — cyst হয়ে feces-এ যায়।</li>
+<li>~১০%-এ trophozoite <b>histolycin</b> (proteolytic enzyme) release করে → tissue lyse → <b>flask-shaped ulcers</b> → blood+mucus stool (amoebic dysentery)।</li>
+<li>কিছু trophozoite deeper layer-এ → <b>portal vein</b> → liver → <b>amoebic liver abscess</b> (anchovy-sauce pus) + অন্যান্য extra-intestinal sites।</li>
+<li>Lesion heal-এর সাথে সাথে encystation → cysts feces-এ → cycle repeats।</li>
+</ul>
+<p>Pathogenesis vs pathogenicity — দুটো মিক্স করা ভুল। Prevention — water boiling/filtration, food cover, asymptomatic carriers-এ metronidazole।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P47</span>
+      <p class="qtext">Mention the criteria of ulcer in intestinal amoebiasis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> flask shape ulcer; why flask shape: after penetration move side to side</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div><img src="image-7.png" alt="image.png" data-porda-id="p_15e59ae1-5399-44e3-ac00-8e538f9b5423" data-porda-status="clean" class="porda-blur-img" data-porda-unblur="1"><br></div><ul><li>The amoebic ulcer is <b>flask-shaped</b> — narrow mouth and neck, large rounded base.</li>
+      <li><b>Why flask shape?</b> After penetrating the mucosa, the trophozoites move <b>side to side (laterally)</b> in the <b>submucosa</b>, producing wide lateral spread, while the entry (mouth) stays narrow.</li>
+      <li>Ulcers generally do not penetrate deeper than the <b>submucosa</b>.</li>
+      <li>Amoebae are seen at the <b>periphery</b> of the lesion (invading adjoining healthy tissue).</li>
+      <li>Occasionally the ulcer may involve muscularis → <b>perforation and peritonitis</b>.</li>
+      <li>A granulomatous mass called <b>amoeboma</b> may form and mimic a malignant tumour.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Acute amoebic dysentery আর chronic carrier-এর stool-এ কী পাওয়া যায়?</p>
+      <p class="ca">Acute amoebic dysentery-র stool-এ mostly trophozoites; chronic carrier-এ cysts পাওয়া যায়।</p>
+      <p class="cq">Colonic ulcer-এর সংখ্যা কেমন?</p>
+      <p class="ca">Lesions-এর সংখ্যা কম কিন্তু deep হতে পারে — ulcers সাধারণত normal mucosa দিয়ে separated।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Amoebic ulcer-এর criteria —</p>
+<ul>
+<li>Ulcer <b>flask-shaped</b> — narrow mouth ও neck, large rounded base।</li>
+<li><b>কেন flask shape?</b> — কারণ trophozoite mucosa penetrate করার পর <b>submucosa-এ side-to-side (laterally)</b> নড়ে, ফলে wide lateral spread হয়, কিন্তু mouth/neck narrow থাকে।</li>
+<li>দেখতে bottle/flask-এর মতো — mouth চওড়া নয়, base চওড়া।</li>
+<li>Ulcer সাধারণত submucosa-র বেশি deep যায় না।</li>
+<li>Amoebae lesion-এর <b>periphery</b>-তে দেখা যায় (আসন্ন healthy tissue invade করছে)।</li>
+<li>মাঝে মাঝে muscularis-এ গেলে <b>perforation &amp; peritonitis</b> হতে পারে।</li>
+<li><b>Amoeboma</b> (granulomatous mass) malignant tumour mimic করতে পারে।</li>
+</ul>
+<p>Acute dysentery-র stool-এ trophozoites, chronic carrier-এ cysts। Lesion-এর সংখ্যা কম কিন্তু deep — ulcers normal mucosa দিয়ে separated।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P48</span>
+      <p class="qtext">Write down important points about pus of amoebic liver abscess. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> anchovy sauce pus; organism mainly found in periphery</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li>Appearance: <b>anchovy-sauce pus</b> — chocolate/reddish-brown, thick in consistency.</li>
+      <li>The pus is <b>sterile</b> — composed of necrotic liver tissue without pus cells; amoebic trophozoites are found only occasionally.</li>
+      <li>On microscopy, three zones are seen:
+        <ul>
+          <li><b>Central zone:</b> necrotic hepatocytes — <b>no trophozoite</b></li>
+          <li><b>Intermediate zone:</b> degenerating hepatocytes, connective tissue cells, RBCs, few WBCs, few trophozoites</li>
+          <li><b>Peripheral zone:</b> healthy hepatocytes and <b>trophozoites</b></li>
+        </ul>
+      </li>
+      <li><b>The organisms are mainly found in the periphery</b> — so USG-guided aspiration for microscopy must be taken from the peripheral zone for better diagnosis.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Amoebic liver abscess-এ stool examination কেমন থাকে?</p>
+      <p class="ca">Stool examination প্রায়ই negative (শুধু ~১৫% ক্ষেত্রে cysts পাওয়া যায়)।</p>
+      <p class="cq">Pus-এ parasite detection-এর best test কী?</p>
+      <p class="ca">Lectin antigen in pus by ELISA 100% sensitive; PCR-ও 100% sensitive।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Amoebic liver abscess-এর pus-এর গুরুত্বপূর্ণ point —</p>
+<ul>
+<li><b>Appearance</b> — <b>anchovy-sauce pus</b> — chocolate/reddish-brown, thick consistency।</li>
+<li>Pus <b>sterile</b> — necrotic liver tissue দিয়ে গঠিত, pus cells নেই; amoebic trophozoites মাঝে মাঝে।</li>
+<li>Microscopy-তে ৩টা zone দেখা যায়:
+  <ul>
+    <li><b>Central zone</b> — necrotic hepatocytes — <b>কোনো trophozoite নেই</b></li>
+    <li><b>Intermediate zone</b> — degenerating hepatocytes, connective tissue cells, RBCs, few WBCs, few trophozoites</li>
+    <li><b>Peripheral zone</b> — healthy hepatocytes + <b>trophozoites</b></li>
+  </ul>
+</li>
+<li><b>Organisms মূলত periphery-তে</b> — তাই USG-guided aspiration microscopy-র জন্য <b>peripheral zone</b> থেকে নিতে হয় diagnosis ভালো হওয়ার জন্য।</li>
+</ul>
+<p>Stool examination প্রায়ই negative (~১৫% cysts)। Pus-এ parasite detection-এর best test — lectin antigen by ELISA (100% sensitive), PCR (100% sensitive)।</p>
+<p>Classic viva point — "organism mainly in periphery।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P49</span>
+      <p class="qtext">Write down the laboratory diagnosis of intestinal amoebiasis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> stool examination (saline &amp; iodine wet mount), culture, immunological, PCR</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b> stool; blood for serology.</li>
+      <li><b>Macroscopic examination of stool:</b> foul smelling, dark red stool mixed with blood and mucus.</li>
+      <li><b>Microscopic examination:</b>
+        <ul>
+          <li><b>Saline and iodine (wet mount)</b> preparation of stool.</li>
+          <li>Acute amoebic dysentery: mostly <b>trophozoites</b> found (with ingested RBCs); chronic carrier: <b>cyst</b> found.</li>
+          <li>Pus cells scanty, Charcot–Leyden crystals present, motile bacteria (normal flora) present.</li>
+          <li><b>Trichrome stain</b> — better view.</li>
+        </ul>
+      </li>
+      <li><b>Culture:</b> xenic (polyxenic) and axenic culture — not done routinely.</li>
+      <li><b>Immunological test:</b> antigen detection (lectin antigen in stool by ELISA); antibody detection (anti-lectin antibody in blood by ELISA).</li>
+      <li><b>Molecular detection:</b> PCR.</li>
+      <li><b>Isoenzyme (zymodeme) analysis.</b></li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">E. histolytica নিশ্চিত করতে কোন microscopic finding সাহায্য করে?</p>
+      <p class="ca">Motile, active trophozoites with ingested RBCs E. histolytica নিশ্চিত করে (E. dispar নয়)।</p>
+      <p class="cq">Specimen-এর examination কতক্ষণে করা উচিত?</p>
+      <p class="ca">Motile trophozoites দেখতে fresh specimen (৩০ মিনিটের মধ্যে) examine করতে হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Intestinal amoebiasis-এর laboratory diagnosis —</p>
+<ol>
+<li><b>Specimen</b> — stool; blood (serology-র জন্য)।</li>
+<li><b>Macroscopic</b> — foul smelling, dark red stool, blood+mucus mixed।</li>
+<li><b>Microscopic</b> — <b>saline + iodine (wet mount)</b>; acute amoebic dysentery-এ trophozoites (ingested RBC সহ); chronic carrier-এ cysts। Pus cells scanty, Charcot-Leyden crystals present, motile bacteria (normal flora)। <b>Trichrome stain</b> ভালো view দেয়।</li>
+<li><b>Culture</b> — xenic (polyxenic) ও axenic — routine নয়।</li>
+<li><b>Immunological</b> — antigen: lectin antigen in stool by ELISA; antibody: anti-lectin antibody in blood by ELISA।</li>
+<li><b>Molecular</b> — PCR।</li>
+<li><b>Isoenzyme (zymodeme) analysis।</b></li>
+</ol>
+<p>Motile trophozoites with ingested RBCs E. histolytica নিশ্চিত করে (E. dispar নয়)। Fresh specimen (৩০ মিনিটের মধ্যে) examine করতে হয় motile trophozoites দেখতে।</p>
+<p>Viva-তে বলবে — "fresh stool examination is the key।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P50</span>
+      <p class="qtext">Write down the laboratory diagnosis of hepatic amoebiasis. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> USG-guided aspiration from peripheral zone, anchovy-sauce pus microscopy, ELISA (lectin), PCR</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b> USG-guided pus aspiration, stool, blood for serology.</li>
+      <li><b>Macroscopic examination of pus:</b> anchovy-sauce pus — chocolate/brown, thick consistency.</li>
+      <li><b>Microscopic examination of pus</b> (~25% sensitive):
+        <ul>
+          <li>Central zone: necrotic tissue — no trophozoite</li>
+          <li>Intermediate zone: degenerated liver cells, connective tissue cells, RBCs, few WBCs, few trophozoites</li>
+          <li>Peripheral zone: healthy hepatocytes and trophozoites</li>
+        </ul>
+        NB: aspiration should be from the <b>peripheral zone</b> for better diagnosis.
+      </li>
+      <li><b>Liver biopsy:</b> trophozoites can be demonstrated.</li>
+      <li><b>Stool examination:</b> cysts found in ~15% cases (50% sensitive).</li>
+      <li><b>Serological test:</b> antigen detection (lectin antigen in pus by ELISA — 100% sensitive); antibody detection (anti-lectin antibody in blood by ELISA); PCR — 100% sensitive.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">হেপাটিক অ্যামিবিয়াসিসের পুসের মাইক্রোস্কোপিতে কেন পেরিফারাল জোন থেকে অ্যাসপিরেশন নিতে হয়?</p><p class="ca">কারণ সেন্ট্রাল জোনে নেক্রোটিক টিস্যু থাকে যেখানে ট্রোফোজোয়িট নেই, ইন্টারমিডিয়েট জোনে শুধু ডিজেনারেটেড সেলস্ থাকে। পেরিফারাল জোনে হেলদি হেপাটোসাইটস্ আর ট্রোফোজোয়িট থাকে — তাই সেখান থেকে নিলে ডায়াগনোসিসের সেন্সিটিভিটি বাড়ে।</p><p class="cq">হেপাটিক অ্যামিবিয়াসিসকে pyogenic liver abscess থেকে কিভাবে differentiate করবেন?</p><p class="ca">হেপাটিক অ্যামিবিয়াসিসে anchovy-sauce পুস থাকে, USG-গাইডেড অ্যাসপিরেশন পেরিফারাল জোন থেকে, serology (lectin ELISA) পজিটিভ হয়। Pyogenic abscess-এ পাইোজেনিক অর্গানিজম পাওয়া যায়, WBC বেশি, blood culture পজিটিভ হতে পারে।</p><p class="cq">Anchovy-sauce পুস কেন বাদামি রঙের হয়?</p><p class="ca">কারণ E. histolytica লিভারের টিস্যুকে nekrosis করে দেয় — destroyed hepatocytes আর liquefied necrotic tissue মিলিয়ে বাদামি চকলেট রঙের anchovy-sauce পুস তৈরি হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>হেপাটিক অ্যামিবিয়াসিসের ডায়াগনোসিসে সবচেয়ে প্রথম স্পেসিমেন কালেক্ট করতে হবে — USG-গাইডেড দিয়ে লিভার অ্যাবসেস থেকে পুস অ্যাসপিরেট নিতে হবে। Anchovy-sauce পুস দেখতে চকলেট-ব্রাউন আর থিক কনসিস্টেন্সির মতো। পুসের মাইক্রোস্কোপিতে ৩ টা জোন আছে — সেন্ট্রাল জোনে নেক্রোটিক টিস্যু থাকে যেখানে ট্রোফোজোয়িট নেই, ইন্টারমিডিয়েট জোনে ডিজেনারেটেড সেলস আর কিছু ট্রোফোজোয়িট থাকে, আর পেরিফারাল জোনে হেলদি হেপাটোসাইটস আর বেশি ট্রোফোজোয়িট থাকে। তাই অ্যাসপিরেশন সবসময় পেরিফারাল জোন থেকে নিতে হবে — সেন্সিটিভিটি ভালো হয়।</p><p>লিভার বায়োপসিতেও ট্রোফোজোয়িট দেখা যায়। স্টুল এক্সামিনেশনে কিছু কেসে (১৫%) সিস্ট পাওয়া যায়। সিরোলজিতে লেকটিন অ্যান্টিজেন পুসে ELISA দিয়ে ডিটেক্ট করা যায় — সেন্সিটিভিটি ১০০%। অ্যান্টি-লেকটিন অ্যান্টিবডি ব্লাডে ELISA-তে ডিটেক্ট করা হয়। আর PCR ও ১০০% সেন্সিটিভ — কনফার্মেটরি টেস্ট।</p><p>ভাইভায় বলো — "পুস ফ্রম পেরিফারাল জোন, অ্যাঞ্চী-সস, লেকটিন ELISA, PCR কনফার্মেটরি।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P51</span>
+      <p class="qtext">How will you prevent transmission of E. histolytica? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> main-boiling and filtration</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Avoid ingestion of contaminated food and water.</b></li>
+      <li><b>Water: boiling and filtration</b> before drinking (kills cysts) — the main measure.</li>
+      <li><b>Cover food</b> to avoid contamination by housefly (mechanical vector).</li>
+      <li><b>Treatment of asymptomatic carriers</b> with <b>metronidazole.</b></li>
+      <li><b>Sanitary disposal of feces;</b> hand washing and personal hygiene.</li>
+      <li><b>Vaccination: not available.</b></li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">E. histolytica-র সিস্ট কি পরিবেশে survive করতে পারে?</p><p class="ca">হ্যাঁ, সিস্ট chlorinated water, ঠান্ডা তাপমাত্রা আর স্যাঁতসেঁতে পরিবেশে দিনের পর দিন survive করে। তাই পানি treatment (boiling, filtration) করতে হয়।</p><p class="cq">Why treat asymptomatic carrier?</p><p class="ca">কারণ asymptomatic carrier-রা স্টুলে সিস্ট shed করে আর feco-oral route দিয়ে অন্য মানুষকে infect করে। Treatment দিলে transmission cycle ভেঙে যায় — Metronidazole দেওয়া হয়।</p><p class="cq">Housefly কিভাবে E. histolytica transmit করে?</p><p class="ca">Housefly mechanical vector — দূষিত feces-এর সিস্ট fly-এর পাখা আর পায়ে লেগে যায়, তারপর খাবারে বসে — মানুষ খাবারের সাথে সিস্ট খেয়ে ফেলে। তাই খাবার ঢেকে রাখা জরুরি।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>E. histolytica-র ট্রান্সমিশন প্রিভেন্ট করতে সবচেয়ে ইম্পোর্ট্যান্ট জা — কন্টামিনেটেড পানি আর খাবার অ্যাভয়েড করতে হবে। পানিটা বয়েল করে বা ফিল্টার করে খেতে হবে — কারণ সিস্ট বয়েল হলে মারে আর ফিল্টারে ধরা পড়ে। এটা সবচেয়ে বেসিক আর ইফেক্টিভ মাপজোক।</p><p>খাবারকে ঢাকা রাখতে হবে যাতে হাউসফ্লাই মেকানিক্যালি কন্টামিনেট না করে। ফিজের নিশ্চিত ডিসপোজাল করতে হবে — ওপেন ডিফেকেশন বন্ধ করতে হবে। হাত ধোয়া আর পার্সোনাল হাইজিন মেইনটেইন করতে হবে।</p><p>অ্যাসিম্পটোমেটিক ক্যারিয়ারকে Metronidazole দিয়ে ট্রিট করা দরকার — কারণ তারা স্টুলে সিস্ট শেড করে আর অন্য মানুষকে ইনফেক্ট করে। কিন্তু ভ্যাকসিন অ্যাভেইলেবল নেই।</p><p>ভাইভায় বলো — "বয়েলিং আন্ড ফিলট্রেশন — মেইন মাজার; ফুড ঢাকো; ক্যারিয়ারদের ট্রিট করো; নো ভ্যাকসিন।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P52</span>
+      <p class="qtext">Enlist the free living amoeba with diseases produces by them. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Acanthamoeba, Naegleria fowleri, Balamuthia, Sappinia — with their diseases</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>#</th><th>Free-living amoeba</th><th>Disease</th></tr>
+        <tr><td>1</td><td><b>Acanthamoeba spp.</b> (A. castellanii, A. hatchetti, A. polyphaga)</td><td>Granulomatous amoebic encephalitis (GAE); <b>amoebic keratitis</b> in contact lens users</td></tr>
+        <tr><td>2</td><td><b>Naegleria fowleri</b></td><td><b>Primary amoebic meningoencephalitis (PAM)</b></td></tr>
+        <tr><td>3</td><td><b>Balamuthia mandrillaris</b></td><td>Granulomatous amoebic encephalitis (GAE)</td></tr>
+        <tr><td>4</td><td><b>Sappinia diploidea</b></td><td>Amoebic encephalitis</td></tr>
+      </tbody></table></div>
+      <p>These amoebae live free in soil and water but can accidentally infect man (facultative parasites).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Naegleria fowleri কিভাবে মানুষকে infect করে?</p><p class="ca">Naegleria freshwater-এ থাকে। Swimming-এর সময় নাক দিয়ে পানি ঢুকলে এটি nasal mucosa দিয়ে olfactory nerve ধরে মস্তিষ্কে পৌঁছে PAM (Primary Amoebic Meningoencephalitis) করে — rapidly fatal।</p><p class="cq">Acanthamoeba keratitis কেন contact lens users-এ বেশি হয়?</p><p class="ca">Contact lens users lens কে contaminated water দিয়ে ধুয়ে বা solution ঠিকমতো maintain না করলে Acanthamoeba সিস্ট lens আর cornea-র মাঝে stuck হয়ে keratitis করে।</p><p class="cq">Free-living amoeba কে facultative parasite কেন বলি?</p><p class="ca">কারণ এগুলো normally soil আর water-এ free living করে, কিন্তু সুযোগ পেলে মানুষকেও infect করতে পারে — obligate parasite নয়, তাই facultative parasite।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ফ্রি-লিভিং অ্যামিবা মানে যেগুলো নরমালি মাটি আর পানিতে থাকে, কিন্তু চান্স পেলে মানুষকেও ইনফেক্ট করতে পারে। এদেরকে ফ্যাকাল্টেটিভ প্যারাসাইট বলি — কারণ এগুলো অবলিগেট প্যারাসাইট না।</p><p>৪ টা ইম্পোর্ট্যান্ট ফ্রি-লিভিং অ্যামিবা আছে — প্রথম Acanthamoeba। এটা GAE করে আর কন্ট্যাক্ট লেন্স ব্যবহারকারীদের অ্যামিবিক কেরাটাইটিস করে। দ্বিতীয় Naegleria fowleri — এটা ফ্রেশওয়াটারে থাকে। সুইমিং করতে গেলে নাক দিয়ে পানি ঢুকলে মস্তিষ্কে পড়ে PAM হয়। তৃতীয় Balamuthia mandrillaris — এটাও GAE করে। চতুর্থ Sappinia diploidea — এটা অ্যামিবিক এনসেফালাইটিস করে।</p><p>ভাইভায় মনেমোনিক — "Naegleria → নাক → PAM; Acanthamoeba → কন্ট্যাক্ট লেন্স → চোখ; দুটোই → মস্তিষ্ক (GAE)।"</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

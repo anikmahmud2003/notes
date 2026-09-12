@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Flagellates — Giardia, Trichomonas & Trypanosoma (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Flagellates — Giardia, Trichomonas &amp; Trypanosoma</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">10 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">10 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-04-Amoebiasis.html">‹ Prev</a><a href="Parasitology-06-Leishmania-Kala-azar.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Flagellates — Giardia, Trichomonas &amp; Trypanosoma</h2><div class="en">Giardiasis &amp; steatorrhea, T. vaginalis, trypanosomiasis vectors &amp; diseases</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P53</span>
+      <p class="qtext">Mention the mode of transmission &amp; infective form of G. intestinalis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> feco-oral, mature cyst</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Morphological forms:</b> trophozoite (motile) and cyst (non-motile).</li>
+      <li><b>Infective form:</b> <b>mature cyst</b> (quadrinucleated).</li>
+      <li><b>Mode of transmission:</b> <b>feco-oral route</b> — ingestion of cyst in contaminated food or water; housefly may act as mechanical vector.</li>
+      <li><b>Pathogenic form:</b> trophozoite; <b>host:</b> man is the only host (definitive).</li>
+      <li><b>Site of lesion:</b> small intestine (duodenum).</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Giardia-র excystation কোথায় হয়?</p><p class="ca">Excystation duodenum-এ হয় — mature cyst stomach-এ resistant থাকার পর duodenum-এ পৌঁছালে সিস্ট থেকে trophozoite বের হয়।</p><p class="cq">Trophozoite কিভাবে giardiasis করে?</p><p class="ca">Trophozoite ventral sucking disc দিয়ে duodenal mucosal surface-এ লেগে পড়ে absorption area cover করে — ফ্যাট, প্রোটিন, কার্বোহাইড্রেট absorb করতে পারে না — তাই steatorrhoea হয়।</p><p class="cq">Giardia কি single host parasite?</p><p class="ca">হ্যাঁ, মানুষই sole definitive host — কোনো intermediate host নেই। Transmission feco-oral route দিয়ে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Giardia lamblia আর Giardia intestinalis — দুইটার নাম সেম। ইনফেকটিভ ফর্ম — ম্যাচুর সিস্ট (কোয়াড্রিনিউক্লিয়েটেড, চারটা নিউক্লিয়াস আছে)। ট্রান্সমিশন — ফেকো-ওরাল রুট — কন্টামিনেটেড খাবার আর পানি থেকে সিস্ট খাওয়া।</p><p>সিস্টটা খাওয়ার পর স্টমাকে রেজিস্ট্যান্ট, ডিউওডেনামে পৌঁছালে এক্সিস্টেশন হয়। ট্রোফোজোয়িট ভেন্ট্রাল সাকিং ডিস্ক দিয়ে ডিউওডেনাল মিউকোসাল সারফেসে লাগে পড়ে। বাইনারি ফিশন দিয়ে মাল্টিপ্লাই করে।</p><p>মানুষ হচ্ছে সোল ডেফিনিটিভ হোস্ট। প্যাথোজেনিক ফর্ম — ট্রোফোজোয়িট। লেশনের সাইট — ডিউওডেনাম।</p><p>ভাইভায় এক্সাক্ট বলো — "ইনফেকটিভ ফর্ম: ম্যাচুর সিস্ট; ট্রান্সমিশন: ফেকো-ওরাল; এক্সিস্টেশন: ডিউওডেনাম; প্যাথোজেনিক ফর্ম: ট্রোফোজোয়িট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P54</span>
+      <p class="qtext">Mention the site of infection of G. lamblia. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> small intestine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>The site of infection of <b>Giardia lamblia (G. intestinalis)</b> is the <b>small intestine — mainly the duodenum</b> (upper part of small intestine).</p>
+      <ul>
+        <li>The trophozoite attaches to the duodenal mucosa by its <b>ventral sucking disc</b>.</li>
+        <li>Attachment leads to malabsorption of fat, carbohydrate and protein → steatorrhoea, protein-losing enteropathy, lactose intolerance.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Giardia-কে common bile duct block করে কি না — কেন এই প্রশ্ন গুরুত্বপূর্ণ?</p><p class="ca">গুরুত্বপূর্ণ কারণ যদি common bile duct opening block হয়, তাহলে obstructive jaundice হতো — যা surgical condition, আলাদা scenario। Giardia শুধু duodenal mucosa-তে লাগে, duct opening-এ নয়।</p><p class="cq">Steatorrhoea কি?</p><p class="ca">Steatorrhoea মানে স্টুলে ফ্যাট বেশি থাকা — pale colour, foul-smelling, frothy, bulky greasy stool। Giardia absorption barrier তৈরি করে তাই ফ্যাট absorb হয় না।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Giardia lamblia (আর Giardia intestinalis) এর ইনফেকশন সাইট — স্মল ইনটেস্টাইন, মানে ডিউওডেনাম। ট্রোফোজোয়িট তার ভেন্ট্রাল সাকিং ডিস্ক দিয়ে ডিউওডেনাল মিউকোসাল সারফেসে লাগানো থাকে।</p><p>এই অ্যাটাচমেন্টের ফলে অ্যাবজর্পশন সমস্যা হয় — ফ্যাট, প্রোটিন, কার্বোহাইড্রেট কিছুই ঠিকমতো অ্যাবজর্ব হয় না। তাই স্টিটোরিয়া, প্রোটিন-লুজিং এন্টারোপ্যাথি, আর ল্যাক্টোজ ইনটলারেন্স হয়।</p><p>ভাইভায় এক্সট্রিমলি ইম্পোর্ট্যান্ট ওয়ার্নিং — "কমন বাইল ডাক্ট ব্লক" টা বলা যাবে না। এটা ভুল উত্তর! Giardia শুধু ডিউওডেনাল মিউকোসায় লাগে, ডাক্ট ওপেনিং ব্লক করে না।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P55</span>
+      <p class="qtext">Mention the causative agent steatorrhea. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> G. lamblia or intestinalis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Giardia lamblia / Giardia intestinalis / Lamblia intestinalis</b> — the protozoan that causes <b>steatorrhoea</b> (passage of excess fat in stool — pale, foul-smelling, frothy, bulky greasy stool).</p>
+      <ul>
+        <li>Disease: <b>giardiasis</b>, characterized by steatorrhoea.</li>
+        <li>Trophozoite attaches to the duodenal mucosa interfering with fat, carbohydrate and protein absorption.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Steatorrhoea-র স্টুলের special character কি?</p><p class="ca">স্টুল pale colour, foul-smelling, frothy, bulky, greasy — ফ্যাট malabsorption-এর ফলে স্টুলে ফ্যাট বেশি থাকে।</p><p class="cq">Giardia কে কেন diplomonad বলি?</p><p class="ca">কারণ Giardia-র দুইটা nucleus আছে (bilateral symmetry), ২টা flagellar tuft আছে, racket/pyriform shape — তাই diplomonad বলা হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>স্টিটোরিয়া মানে স্টুলে ফ্যাট বেশি থাকা — পেল কালার, ফাউল-স্মেলিং, ফ্রথি ডাইরিয়া। কজেটিভ এজেন্ট — Giardia lamblia / Giardia intestinalis / Lamblia intestinalis।</p><p>কেন হয়? ট্রোফোজোয়িট ডিউওডেনামে লাগে পড়ে আর অ্যাবজর্পশন এরিয়া কভারেজ করে। ফ্যাট, প্রোটিন, কার্বোহাইড্রেট কিছুই অ্যাবজর্ব হয় না। তাই স্টুলে ফ্যাট বেরিয়ে আসে।</p><p>এই অর্গানিজমকে ডিপ্লোমোনাড বলি — কারণ দুইটা নিউক্লিয়াস আছে।</p><p>ভাইভায় — "Giardia → স্টিটোরিয়া" এই লাইনটা ইম্পোর্ট্যান্ত।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P56</span>
+      <p class="qtext">Give the pathogenesis of steatorrhoea. *** (only for written)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> organism attached to duodenum → no or little absorption area for protein, lipid and carbohydrate</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li>Infection occurs by ingestion of mature cyst in contaminated food/water (feco-oral).</li>
+      <li>Excystation occurs in the <b>duodenum</b> → trophozoites multiply (binary fission).</li>
+      <li>The trophozoites <b>attach to the duodenal mucosa by their sucking disc</b> (ventral concave surface).</li>
+      <li>Attached organisms cover the absorbing surface → <b>no or little absorption area</b> remains for <b>protein, lipid and carbohydrate</b>.</li>
+      <li>Result: <b>malabsorption → steatorrhoea</b>, protein-losing enteropathy and lactose intolerance.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Written answer-এ life cycle-এর কোন কোন ধাপ উল্লেখ করতে হয়?</p><p class="ca">Infective form (mature cyst), pathogenic form (trophozoite), host (man — sole definitive), mode of transmission (feco-oral), site of lesion (duodenum), আর life cycle-এর steps — infection → excystation → multiplication → attachment → malabsorption।</p><p class="cq">Steatorrhoea-তে কোন কোন জিনিস absorb হয় না?</p><p class="ca">FAT (lipid), প্রোটিন, আর কার্বোহাইড্রেট — তিনটিই absorb হয় না কারণ absorbing surface trophozoite দিয়ে covered হয়ে যায়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>স্টিটোরিয়ার প্যাথোজেনেসিস স্টেপ বাই স্টেপ — প্রথমে ম্যাচুর সিস্ট খাবার আর পানি দিয়ে ইনফেকশন হয়। ডিউওডেনামে এক্সিস্টেশন হয়। ট্রোফোজোয়িট বাইনারি ফিশন দিয়ে মাল্টিপ্লাই করে।</p><p>তারপর ভেন্ট্রাল সাকিং ডিস্ক দিয়ে ডিউওডেনাল মিউকোসাল সারফেসে অ্যাটাচড হয়। অ্যাবজর্বিং সারফেস কভারেজ হয় — ফ্যাট, প্রোটিন, কার্বোহাইড্রেটের অ্যাবজর্পশনের জায়গা কমে যায়।</p><p>রেজাল্ট — মালঅ্যাবজর্পশন → স্টিটোরিয়া, প্রোটিন-লুজিং এন্টারোপ্যাথি, আর ল্যাক্টোজ ইনটলারেন্স।</p><p>রিটেনে — "ইনফেকটিভ ফর্ম, প্যাথোজেনিক ফর্ম, হোস্ট, ট্রান্সমিশন, লেশন সাইট, লাইফ সাইকেল" — সব উল্লেখ করো। ভাইভায় — "কভার্স দ্য অ্যাবজর্বিং সারফেস, নো এরিয়া ফর অ্যাবজর্পশন।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P57</span>
+      <p class="qtext">Give the laboratory diagnosis of giardiasis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> saline and iodine preparation of stool + string test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b> stool, duodenal secretion.</li>
+      <li><b>Macroscopic examination of stool:</b> offensive odour, pale colour, frothy, fatty (floats).</li>
+      <li><b>Microscopic examination (wet mount):</b> saline and iodine preparation of stool — <b>cyst and trophozoite</b> may be seen.</li>
+      <li><b>String test / Enterotest:</b> if microscopy is negative — a gelatin capsule on a string is swallowed until it reaches the duodenum; trophozoites adhere to the string and are visualized after withdrawal.</li>
+      <li><b>Culture:</b> axenic culture media (not routinely done).</li>
+      <li><b>Immunological test:</b> antigen detection in stool by ELISA; antibody detection in serum by ELISA.</li>
+      <li><b>Molecular detection:</b> PCR.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Giardiasis-এ কি repeat stool examination লাগতে পারে?</p><p class="ca">হ্যাঁ, কারণ cyst shedding intermittent — সব সময় স্টুলে cyst নাও থাকতে পারে। তাই একবার negative হলে আবার করতে হয়, ভিন্ন দিনে ৩-৪ বার।</p><p class="cq">String test (Enterotest) কি?</p><p class="ca">Gelatin capsule একটি string-এর সঙ্গে attached — রোগীকে গিলে খাওয়ানো হয়। string duodenum-এ পৌঁছালে trophozoite string-এ stuck হয়, withdraw করলে microscope-এ দেখা যায়। Stool negative হলে ব্যবহার হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>জিয়ার্ডিয়াসিসের ডায়াগনোসিস — প্রথমে স্পেসিমেন কালেক্ট করতে হবে — স্টুল আর ডিউওডেনাল সিক্রেশন।</p><p>ম্যাক্রোস্কোপিকে স্টুল — অফেন্সিভ ওডার, পেল কালার, ফ্রথি, ফ্যাটি। ওয়েট মাউন্ট স্যালাইন আর আয়োডিন দিয়ে — সিস্ট আর ট্রোফোজোয়িট দেখতে পাবে।</p><p>স্টুল নেগেটিভ হলে স্পেশাল টেস্ট — স্ট্রিং টেস্ট / এন্টারোটেস্ট। জেলাটিন ক্যাপসুল আর স্ট্রিং পেশেন্টকে ঢোকানো হয়। ডিউওডেনামে পৌঁছালে ট্রোফোজোয়িট স্ট্রিংয়ে স্টাক হয়।</p><p>কালচার — অ্যাক্সেনিক, routine নয়। ELISA, PCR সম্ভব।</p><p>ভাইভায় — "স্ট্রিং টেস্ট ফর জিয়ার্ডিয়াসিস ওয়েন স্টুল ইজ নেগেটিভ।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P58</span>
+      <p class="qtext">Mention the morphological form &amp; infective form of T. vaginalis. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> only trophozoite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Trichomonas vaginalis has only one morphological form — the trophozoite. It has NO cyst stage.</b></p>
+      <ul>
+        <li><b>Morphological form:</b> trophozoite only (pear-shaped, one nucleus, 4 anterior flagella + 1 lateral/undulating membrane flagellum, axostyle, jerky/twitchy/rotatory motility).</li>
+        <li><b>Infective form:</b> <b>trophozoite</b> (also the pathogenic form).</li>
+        <li>Because it has no cyst, transmission is only by direct contact (sexual route).</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">T. vaginalis-এর cyst না থাকার ফলে কী হয়?</p><p class="ca">Cyst না থাকার ফলে parasite পরিবেশে survive করতে পারে না। তাই transmission শুধু direct sexual contact দিয়ে হয় — feco-oral বা water-borne transmission হয় না।</p><p class="cq">T. vaginalis-এর motility কেমন?</p><p class="ca">Jerky, twitchy, rotatory motility — wet mount-এ typical movement দেখা যায়। এটা diagnostic feature।</p><p class="cq">Trichomonas-এর ৩টি species কি?</p><p class="ca">T. tenax (mouth), T. hominis (large intestine), T. vaginalis (genital tract) — শুধু T. vaginalis মানুষকে pathogenic করে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>T. vaginalis-এর কোনো সিস্ট স্টেজ নেই — শুধু ট্রোফোজোয়িট ফর্ম। এই পয়েন্টটা এক্সট্রিমলি ইম্পোর্ট্যান্ত। এনভায়রনমেন্টে সারভাইভ করতে পারে না।</p><p>ইনফেকটিভ ফর্মও, প্যাথোজেনিক ফর্মও ট্রোফোজোয়িট। ট্রান্সমিশন শুধু সেক্সুয়াল রুট দিয়ে। ফেকো-ওরাল বা ওয়াটার ট্রান্সমিশন নেই।</p><p>পেয়ার-শেপড, একটা নিউক্লিয়াস, ৪ টা অ্যান্টেরিয়র ফ্ল্যাজেলা আর ১ টা ল্যাটারাল ফ্ল্যাজেলা। অ্যাক্সোস্টাইল প্রেজেন্ট। মোটিলিটি — জার্কি, টুইচি, রোটেরি।</p><p>ভাইভায় — "শুধু ট্রোফোজোয়িট, নো সিস্ট; সেক্সুয়াল ট্রান্সমিশন।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P59</span>
+      <p class="qtext">Mention the mode of transmission of T. vaginalis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> sexually by trophozoite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Mode of transmission:</b> <b>sexual route</b> — by the trophozoite, through sexual contact with an infected partner. It is a sexually transmitted infection (STI).</p>
+      <ul>
+        <li>Infective and pathogenic form: <b>trophozoite</b>.</li>
+        <li>Site of lesion: genital tract (mainly female — vagina), urinary tract (mainly male urethra).</li>
+        <li>No cyst — so no feco-oral or water transmission.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">T. vaginalis-এ female ও male-এ কি symptoms হয়?</p><p class="ca">Female-এ vulvovaginitis — frothy yellow-green discharge, strawberry cervix, foul smell, dysuria। Male-এ বেশিরভাগ asymptomatic, কিন্তু urethritis (১০%), prostatitis, epididymitis হতে পারে।</p><p class="cq">Partner treatment কেন দরকার?</p><p class="ca">Reinfection prevent করতে partner-কেও treat করতে হয় — নাহলে আবার reinfection হবে। Treatment — Metronidazole/Tinidazole দুজনকেই।</p><p class="cq">Vaginal pH-এ কি পরিবর্তন হয় T. vaginalis-এ?</p><p class="ca">Vaginal pH &gt; 4.5 হয় (normally 4.5-এর কম থাকে)। Whiff test (amine test) পজিটিভ হয় — 10% KOH দিলে strong fishy odour আসে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>T. vaginalis-এর মোড অব ট্রান্সমিশন — সেক্সুয়াল রুট। STI।</p><p>সিস্ট নেই — তাই শুধু সেক্সুয়াল কন্টাক্ট। ফিমেলে ভালভোজাইনাইটিস — ফ্রথি ইয়েলো-গ্রিন ডিসচার্জ, স্ট্রবেরি সারভিক্স। মেলে বেশিরভাগই অ্যাসিম্পটোমেটিক, ইউরিথ্রাইটিস (১০%), প্রোস্ট্যাটাইটিস, এপিডিডিমাইটিস।</p><p>পার্টনার ট্রিটমেন্ট দরকার — Metronidazole/Tinidazole।</p><p>ভাইভায় — "নো সিস্ট; সেক্সুয়াল ট্রান্সমিশন; স্ট্রবেরি সারভিক্স।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P60</span>
+      <p class="qtext">Write down four (04) important points of T. vaginalis. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> flagellates, causes STD, only trophozoite form, highly motile</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Flagellate protozoan</b> (luminal flagellate) of the genital tract.</li>
+      <li>Causes a <b>sexually transmitted disease</b> — trichomoniasis (vulvovaginitis with frothy yellow-green discharge, strawberry cervix).</li>
+      <li><b>Has only the trophozoite form</b> — no cyst stage; trophozoite is both infective and pathogenic form.</li>
+      <li><b>Highly motile</b> — shows characteristic jerky/twitchy/rotatory motility in wet mount (used for diagnosis).</li>
+      <li>Pear-shaped, one nucleus, 4 anterior flagella + 1 undulating membrane (axostyle present).</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">T. vaginalis diagnosis-এ সবচেয়ে important কি?</p><p class="ca">Wet mount preparation — vaginal swab-এর saline mount-এ jerky/twitchy motility দেখা। এটা সবচেয়ে quick আর bedside applicable। Culture — Diamond's medium (&gt;95% sensitive)।</p><p class="cq">Diamond's medium কি?</p><p class="ca">Diamond's medium T. vaginalis-এর culture medium — routine-এ হয় না, কিন্তু sensitivity 95%-এর বেশি। Wet mount negative হলে ব্যবহার হয়।</p><p class="cq">Strawberry cervix কি?</p><p class="ca">T. vaginalis infection-এ cervix-এর surface-এ লাল লাল petechial hemorrhages দেখা যায় — colposcopy-তে strawberry-র মতো দেখায়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>T. vaginalis-এর ৪টা ইম্পোর্ট্যান্ত পয়েন্ট — (১) ফ্ল্যাজেলেটেড প্রোটোজোয়া; (২) STD — ট্রাইকোমোনিয়াসিস; (৩) শুধু ট্রোফোজোয়িট, সিস্ট নেই; (৪) হাইলি মোটাইল — জার্কি/টুইচি/রোটেরি।</p><p>পেয়ার-শেপড, ৪টা অ্যান্টেরিয়র + ১টা আন্ডুলেটিং মেমব্রেন ফ্ল্যাজেলা।</p><p>ডায়াগনোসিস — ওয়েট মাউন্টে মোটাইল ট্রোফোজোয়িট। কালচার — Diamond's medium (&gt;৯৫%)।</p><p>ভাইভায় — "ফ্ল্যাজেলেট, STD, শুধু ট্রোফোজোয়িট, হাইলি মোটাইল, জার্কি মোটিলিটি, ওয়েট মাউন্ট ফর ডায়াগনোসিস।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P61</span>
+      <p class="qtext">Mention the laboratory diagnosis of T. vaginalis. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> jerky motility of trophozoite in wet mount preparation of vaginal swab</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b>
+        <ul>
+          <li>Female: vaginal / high vaginal swab, vaginal discharge, urine sediment</li>
+          <li>Male: urethral discharge, urine sediment or prostatic smear</li>
+        </ul>
+      </li>
+      <li><b>Microscopic examination:</b>
+        <ul>
+          <li><b>Wet mount preparation (saline):</b> typical <b>jerky/twitchy motility</b> of living trophozoite — pH &gt;4.5</li>
+          <li><b>Fluorescent stain:</b> more sensitive but costly</li>
+        </ul>
+      </li>
+      <li><b>Culture:</b> Diamond's medium — not routinely done (sensitivity &gt;95%).</li>
+      <li><b>Immunological test:</b> antigen detection by ELISA (vaginal secretion); antibody detection by ELISA (serum).</li>
+      <li><b>Molecular test:</b> PCR.</li>
+      <li><b>Other tests:</b> Whiff test (amine test with 10% KOH — strong fishy odour) often positive.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Wet mount sensitivity কি কম?</p><p class="ca">Wet mount sensitivity culture আর PCR-এর চেয়ে কম, কিন্তু bedside-এ quick আর practical — তাই সবচেয়ে বেশি ব্যবহৃত। Trophozoite dead হলে smear-এ দেখা যায় না।</p><p class="cq">Vaginal discharge টা কি রঙের?</p><p class="ca">Frothy yellow-green colour, foul-smelling — এটা T. vaginalis-এর characteristic discharge।</p><p class="cq">Male-এ কি specimen collect করা হয়?</p><p class="ca">Male-এ urethral discharge বা urine sediment collect করা হয়। Prostatic smear-ও নেওয়া যায়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>T. vaginalis-এর ডায়াগনোসিস — স্পেসিমেন: ভ্যাজাইনাল স্ব্যাব, ইউরিন সেডিমেন্ট (ফিমেল); ইউরিথ্রাল ডিসচার্জ, প্রোস্টেটিক স্মিয়ার (মেল)।</p><p>ওয়েট মাউন্ট — স্যালাইন দিয়ে। জার্কি/টুইচি মোটিলিটি ওয়ালা ট্রোফোজোয়িট। সবচেয়ে কুইক মেথড। pH &gt;৪.৫।</p><p>কালচার — Diamond's medium। ELISA। PCR। Whiff টেস্ট — ১০% KOH, স্ট্রং ফিশি ওডার।</p><p>ভাইভায় — "টাইপিক্যাল জার্কি মোটিলিটি অব ট্রোফোজোয়িট ইন স্যালাইন ওয়েট মাউন্ট অব ভ্যাজাইনাল স্ব্যাব।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P62</span>
+      <p class="qtext">Mention the vectors and diseases of Trypanosoma species. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. cruzi: Chagas' disease by kissing or reduviid bug; T. brucei: sleeping sickness by tsetse fly</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Species</th><th>Disease</th><th>Vector</th><th>Area</th></tr>
+        <tr><td><b>Trypanosoma cruzi</b></td><td><b>Chagas' disease</b> (American trypanosomiasis)</td><td><b>Reduviid (kissing) bug</b> — bug bites on face (around mouth/eyes); infection by contamination of bite wound with bug feces</td><td>America</td></tr>
+        <tr><td><b>Trypanosoma brucei</b> (gambiense &amp; rhodesiense)</td><td><b>African sleeping sickness</b> (African trypanosomiasis)</td><td><b>Tsetse fly</b> bite</td><td>Africa</td></tr>
+      </tbody></table></div>
+      <p>Morphological forms used by 3 trypomastigote (blood), amastigote/epimastigote (tissue). Infective form = metacyclic trypomastigote. Trypanosoma brucei shows cyclical fever every 7–10 days due to antigenic variation (surface glycoproteins).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Trypanosoma brucei-তে cyclical fever কেন হয়?</p><p class="ca">Antigenic variation-এর ফলে — parasite surface glycoprotein antigen নিয়মিত পরিবর্তন করে। immune system একবার clear করে, আবার নতুন variant emerge করে fever wave তৈরি করে — তাই ৭-১০ দিন পর পর cyclical fever।</p><p class="cq">T. cruzi-তে xenodiagnosis কি?</p><p class="ca">Xenodiagnosis মানে — uninfected kissing bug-কে infected patient-এ বাইট করতে দেওয়া, তারপর bug-এ parasite ধরা পড়ে কি না check করা।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Trypanosoma — ২টা স্পিশিজ। T. cruzi — Chagas' disease — ভেক্টর Reduviid/kissing bug — আমেরিকা। বাগ মুখের পাশে বাইট করে।</p><p>T. brucei — African sleeping sickness — ভেক্টর Tsetse fly — আফ্রিকা। জ্বর সাইক্লিক্যাল ৭-১০ দিন — অ্যান্টিজেনিক ভ্যারিয়েশন।</p><p>ফর্মস — ট্রাইপোমাস্টিগোট, অ্যামাস্টিগোট, এপিমাস্টিগোট। ইনফেকটিভ — মেটাসাইক্লিক ট্রাইপোমাস্টিগোট।</p><p>ভাইভায় — "ক্রুজি → চাগাস → কিসিং বাগ → আমেরিকা; ব্রুসি → স্লিপিং সিকনেস → টসেট ফ্লাই → আফ্রিকা।"</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

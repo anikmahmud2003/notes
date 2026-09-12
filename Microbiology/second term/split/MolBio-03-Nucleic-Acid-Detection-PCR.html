@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molecular Biology & Biosafety — Nucleic Acid Detection & PCR (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Molecular Biology &amp; Biosafety</h1>
+  <h2>Nucleic Acid Detection &amp; PCR</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔵 Molecular Biology</span><span class="badge">7 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">7 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="MolBio-02-Genetic-Engineering.html">‹ Prev</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="molbio" class="subject s-mol">
+    <div class="sec-head"><div class="num">🧬</div><div><h2>Nucleic Acid Detection &amp; PCR</h2><div class="en">Detection methods, PCR/RT-PCR/real-time PCR, principle, steps, uses, PCR vs qPCR</div></div></div>
+    <div id="molbio-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB12</span>
+      <p class="qtext">Mention 5 methods of Nucleic acid detection.</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> electrophoresis, hybridization, amplification, sequencing, biosensor/POCT</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The five main methods of nucleic acid detection are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>#</th><th>Method Category</th><th>Techniques</th><th>Principle</th></tr>
+          <tr>
+            <td>1</td>
+            <td><b>Electrophoresis-based</b></td>
+            <td>Agarose gel electrophoresis, Polyacrylamide gel electrophoresis</td>
+            <td>Separate nucleic acids by size/charge in an electric field.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><b>Hybridization-based</b></td>
+            <td>Southern blot (DNA), Northern blot (RNA), Dot blot, FISH (Fluorescence In Situ Hybridization), Microarrays</td>
+            <td>Use labeled probes to detect specific nucleic acid sequences.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><b>Amplification-based</b></td>
+            <td>PCR, RT-PCR, Real-time PCR (qPCR), Multiplex PCR, Nested PCR, LAMP, NASBA</td>
+            <td>Increase nucleic acid copies for detection.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><b>Sequencing-based</b></td>
+            <td>Sanger sequencing, Next-generation sequencing (NGS), RNA-Seq, CRISPR-based detection (SHERLOK, DETECTR)</td>
+            <td>Determine the exact nucleotide sequence.</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><b>Biosensor &amp; Point-of-care</b></td>
+            <td>Electrochemical sensors, Lateral flow assays, Nanopore sequencing</td>
+            <td>Convert nucleic acid binding into measurable signals.</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Probe, primer ও cDNA-র মধ্যে পার্থক্য কী?</p>
+      <p class="ca">Probe = complementary target sequence শনাক্ত করতে ব্যবহৃত short ssDNA/RNA; Primer = DNA synthesis শুরু করতে ব্যবহৃত short ssDNA/RNA; cDNA = reverse transcriptase দিয়ে RNA template থেকে তৈরি DNA।</p>
+      <p class="cq">FISH কীভাবে কাজ করে এবং কোথায় দরকারি?</p>
+      <p class="ca">FISH cell-এর ভেতরে সরাসরি nucleic acid-কে দৃশ্যমান করে — chromosomal analysis ও tissue section-এ pathogen detection-এ দরকারি।</p>
+      <p class="cq">LAMP কী এবং এর সুবিধা কী?</p>
+      <p class="ca">LAMP (Loop-mediated isothermal amplification) constant temperature-এ DNA amplify করে — thermocycler প্রয়োজন হয় না, তাই point-of-care testing-এর জন্য উপযুক্ত।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Nucleic acid শনাক্তকরণের পাঁচটি প্রধান পদ্ধতি আছে। আমি প্রত্যেকটি বলি:</p>
+      <ol>
+        <li><b>Electrophoresis-based:</b> agarose gel-এ electric field-এ DNA/RNA size ও charge অনুযায়ী আলাদা করা হয়। যেমন — agarose gel electrophoresis, polyacrylamide gel।</li>
+        <li><b>Hybridization-based:</b> labeled probe দিয়ে নির্দিষ্ট sequence শনাক্ত করা হয়। যেমন — Southern blot (DNA), Northern blot (RNA), Dot blot, FISH, Microarray।</li>
+        <li><b>Amplification-based:</b> nucleic acid-এর কপি বাড়িয়ে detection করা হয়। যেমন — PCR, RT-PCR, Real-time PCR (qPCR), Multiplex PCR, Nested PCR, LAMP, NASBA।</li>
+        <li><b>Sequencing-based:</b> exact nucleotide sequence নির্ণয় করা হয়। যেমন — Sanger sequencing, NGS, RNA-Seq, CRISPR-based detection (SHERLOK, DETECTR)।</li>
+        <li><b>Biosensor &amp; Point-of-care:</b> nucleic acid binding-কে measurable signal-এ রূপান্তর করা হয়। যেমন — electrochemical sensor, lateral flow assay, nanopore sequencing।</li>
+      </ol>
+      <p>উল্লেখ্য — Probe হলো শনাক্তকারী, Primer হলো synthesis-এর সূচনাকারী, আর LAMP thermocycler ছাড়াই চলে — তাই POCT-তে দারুণ।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB13</span>
+      <p class="qtext">Which methods is best methods of organism detection. (whole genome sequencing or next generation sequencing is best and better than real time PCR)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> whole genome sequencing / NGS is best, better than real time PCR</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Next-Generation Sequencing (NGS) / Whole Genome Sequencing (WGS)</b> is the best method of organism detection, and it is better than real-time PCR (qPCR).</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Feature</th><th>NGS / WGS</th><th>qPCR</th></tr>
+          <tr><td>Target</td><td>Entire genome — detects <b>all</b> nucleic acid sequences simultaneously</td><td>Specific pre-determined target only</td></tr>
+          <tr><td>Discovery</td><td>Can identify <b>unknown organisms</b>, novel pathogens, mutations</td><td>Cannot detect unknown/new targets</td></tr>
+          <tr><td>Information</td><td>Provides complete genetic information — resistance genes, virulence factors, phylogenetics</td><td>Only presence/absence and quantification of a specific target</td></tr>
+          <tr><td>Throughput</td><td>Massively parallel — millions of sequences at once</td><td>Limited number of targets per run</td></tr>
+          <tr><td>Sensitivity</td><td>Very high</td><td>High</td></tr>
+          <tr><td>Cost &amp; Turnaround</td><td>Higher cost, longer turnaround (but decreasing)</td><td>Lower cost, faster turnaround</td></tr>
+        </tbody></table>
+      </div>
+      <p>However, <b>qPCR remains more practical for routine clinical diagnosis</b> due to its speed, lower cost, and easier setup. NGS is best when comprehensive genomic analysis is needed (e.g., outbreak investigation, antimicrobial resistance profiling, identifying novel pathogens).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">NGS কীভাবে কাজ করে?</p>
+      <p class="ca">NGS massively parallel sequencing করে — অর্থাৎ লক্ষ লক্ষ DNA fragment একই সাথে sequence করা হয়।</p>
+      <p class="cq">Sanger sequencing কী এবং এর সীমাবদ্ধতা কী?</p>
+      <p class="ca">Sanger sequencing হলো পুরনো পদ্ধতি — ddNTP-র chain termination-এর উপর ভিত্তি করে; এটি শুধু single gene analysis-এর জন্য উপযুক্ত।</p>
+      <p class="cq">RNA-Seq কী?</p>
+      <p class="ca">RNA-Seq হলো এক ধরনের NGS যেখানে RNA-কে প্রথমে cDNA-তে রূপান্তর করে sequence করা হয় — এটি transcriptomics-এর জন্য ব্যবহৃত হয়।</p>
+      <p class="cq">CRISPR-ভিত্তিক detection টুলগুলো কী কী?</p>
+      <p class="ca">SHERLOK (RNA detection) ও DETECTR (DNA detection) — এগুলো উদীয়মান দ্রুত detection পদ্ধতি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>organism detection-এর জন্য <b>NGS (Next-Generation Sequencing) / WGS (Whole Genome Sequencing)</b> হলো সর্বোত্তম পদ্ধতি, এবং এটি <b>real-time PCR (qPCR)-এর চেয়ে ভালো</b>। আমি তুলনা করে বুঝাই:</p>
+      <ul>
+        <li><b>Target:</b> NGS সম্পূর্ণ genome-কে একসাথে analyze করে — সব nucleic acid sequence; অপরদিকে qPCR শুধু একটি পূর্বনির্ধারিত নির্দিষ্ট target-ই detect করে।</li>
+        <li><b>Discovery:</b> NGS অজানা organism, novel pathogen ও mutation শনাক্ত করতে পারে; qPCR নতুন/অজানা target detect করতে পারে না।</li>
+        <li><b>Information:</b> NGS সম্পূর্ণ genetic তথ্য দেয় — resistance gene, virulence factor, phylogenetics; qPCR শুধু presence/absence ও quantification দেয়।</li>
+        <li><b>Throughput:</b> NGS massively parallel — একসাথে লক্ষ লক্ষ sequence; qPCR প্রতি run-এ সীমিত target।</li>
+        <li><b>Sensitivity:</b> NGS-র খুব উচ্চ; qPCR-রও উচ্চ।</li>
+        <li><b>Cost &amp; Turnaround:</b> NGS বেশি ব্যয়বহুল ও বেশি সময় লাগে; qPCR সস্তা ও দ্রুত (কিন্তু NGS-র cost কমে আসছে)।</li>
+      </ul>
+      <p>তবে মনে রাখতে হবে — <b>routine clinical diagnosis-এ qPCR-ই বেশি practical</b>, কারণ এটি দ্রুত, সস্তা ও সহজ। NGS ব্যবহার করা হয় তখনই যখন comprehensive genomic analysis দরকার — যেমন outbreak investigation, antimicrobial resistance profiling, novel pathogen শনাক্তকরণ।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB14</span>
+      <p class="qtext">What do you mean by PCR, RT-PCR &amp; Real time PCR? *** [(PCR: polymerase chain reaction (DNA detection methods), RT-PCR: reverse transcription PCR (RNA detection methods)]</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> PCR = DNA detection; RT-PCR = RNA detection (reverse transcription); Real time PCR = quantitative (qPCR)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Technique</th><th>Full Form</th><th>Template</th><th>Key Feature</th></tr>
+          <tr>
+            <td><b>PCR</b></td>
+            <td>Polymerase Chain Reaction</td>
+            <td><b>DNA</b></td>
+            <td>Amplifies a specific DNA fragment, generating millions of copies. Used for <b>DNA detection</b>. Requires post-PCR analysis (gel electrophoresis).</td>
+          </tr>
+          <tr>
+            <td><b>RT-PCR</b></td>
+            <td>Reverse Transcription PCR</td>
+            <td><b>RNA</b> (first converted to cDNA)</td>
+            <td>A variation of PCR used to amplify RNA. RNA is first converted to <b>cDNA</b> (complementary DNA) using the enzyme <b>reverse transcriptase</b>, then the standard PCR steps follow. Used for <b>RNA detection</b>.</td>
+          </tr>
+          <tr>
+            <td><b>Real-time PCR / qPCR</b></td>
+            <td>Quantitative PCR</td>
+            <td><b>DNA</b> (or cDNA from RNA)</td>
+            <td>Amplifies DNA and <b>simultaneously quantifies</b> it by monitoring fluorescence in real time. No need for post-PCR gel analysis. "q" stands for <b>quantitative</b>.</td>
+          </tr>
+        </tbody></table>
+      </div>
+      <p><b>Important note:</b> In RT-PCR, "RT" stands for <b>Reverse Transcription</b>, NOT Real Time. In qPCR, "q" stands for <b>quantitative</b>.</p>
+      <p><b>Types of PCR:</b></p>
+      <ul>
+        <li><b>Conventional PCR:</b> (a) PCR — DNA amplification; (b) RT-PCR — RNA amplification</li>
+        <li><b>Real-time PCR:</b> (a) Real-time PCR — DNA amplification; (b) Real-time RT-PCR — RNA amplification</li>
+        <li><b>Others:</b> Multiplex PCR, Nested PCR, Digital PCR, Single-cell PCR, In situ PCR, Hot Start PCR, etc.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Real-time PCR কীভাবে amplification detect করে?</p>
+      <p class="ca">এটি fluorescent dye (যেমন SYBR Green) বা probe (যেমন TaqMan) ব্যবহার করে amplification-কে সাথে সাথে detect করে।</p>
+      <p class="cq">Ct (cycle threshold) value বলতে কী বোঝায়?</p>
+      <p class="ca">lower Ct = strong positive (বেশি initial DNA); higher Ct = weakly positive (কম target DNA); Ct না থাকলে negative।</p>
+      <p class="cq">RT-PCR ও real-time RT-PCR-এর বিশ্লেষণ পদ্ধতির পার্থক্য কী?</p>
+      <p class="ca">RT-PCR (conventional)-এর জন্য post-PCR gel electrophoresis দরকার; অপরদিকে real-time RT-PCR-তে seta দরকার হয় না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>এই প্রশ্নে তিনটি টার্ম আলাদা করতে হবে। আমি একটি টেবিলের ধারায় বুঝাই:</p>
+      <ul>
+        <li><b>PCR (Polymerase Chain Reaction):</b> template হলো <b>DNA</b>। এটি নির্দিষ্ট DNA fragment-কে amplify করে লক্ষ-কোটি কপি তৈরি করে — অর্থাৎ <b>DNA detection</b>-এর জন্য। পরে gel electrophoresis-এ post-PCR analysis দরকার।</li>
+        <li><b>RT-PCR (Reverse Transcription PCR):</b> template হলো <b>RNA</b>। প্রথমে <b>reverse transcriptase</b> এনজাইম দিয়ে RNA-কে <b>cDNA</b>-তে রূপান্তরিত করা হয়, তারপর স্ট্যান্ডার্ড PCR ধাপ। এটি <b>RNA detection</b>-এর জন্য।</li>
+        <li><b>Real-time PCR / qPCR (Quantitative PCR):</b> template হলো <b>DNA (বা RNA থেকে আসা cDNA)</b>। এটি DNA-কে amplify করে এবং <b>পরিমাপ (quantify)</b>-ও করে — real time-এ fluorescence নিরীক্ষণের মাধ্যমে। এখানে post-PCR gel analysis লাগে না। "q" মানে <b>quantitative</b>।</li>
+      </ul>
+      <p>মনে রাখতে হবে — RT-PCR-এ "RT" মানে <b>Reverse Transcription</b>, Real Time নয়; আর qPCR-এ "q" মানে <b>quantitative</b>।</p>
+      <p>প্রকারভেদ: conventional PCR-এ (a) PCR (DNA) ও (b) RT-PCR (RNA); real-time PCR-এ (a) real-time PCR (DNA) ও (b) real-time RT-PCR (RNA)। এছাড়া Multiplex, Nested, Digital, Single-cell, In situ, Hot Start PCR ইত্যাদি আছে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB15</span>
+      <p class="qtext">Give the principle of PCR. ** (amplification of fragment of DNA)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> amplification of fragment of DNA</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Principle of PCR:</b></p>
+      <p>PCR is a technique used to <b>amplify a particular DNA fragment or segment</b>, generating millions of copies. The process relies on <b>thermal cycling</b> (repeated heating and cooling) and the enzymatic action of <b>DNA polymerase</b> (specifically <b>Taq polymerase</b>, a heat-stable enzyme from <i>Thermus aquaticus</i>).</p>
+      <p><b>Components of PCR:</b></p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Component</th><th>Role</th></tr>
+          <tr><td>Template DNA</td><td>The DNA sequence/fragment to be amplified</td></tr>
+          <tr><td>Primers (forward &amp; reverse)</td><td>Short ssDNA that bind to complementary sequences on the target DNA and initiate synthesis</td></tr>
+          <tr><td>Taq DNA polymerase</td><td>Heat-stable enzyme that synthesizes new DNA strands</td></tr>
+          <tr><td>dNTPs (A, T, C, G)</td><td>Building blocks (deoxynucleotide triphosphates) for DNA synthesis</td></tr>
+          <tr><td>Buffer solution</td><td>Maintains optimum pH and ionic strength</td></tr>
+          <tr><td>Mg²⁺ ions</td><td>Cofactor for DNA polymerase activity</td></tr>
+        </tbody></table>
+      </div>
+      <p>One cycle of PCR roughly doubles the amount of target DNA. After ~30–40 cycles, a single DNA molecule can be amplified to over a billion copies (2<sup>n</sup> amplification).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Taq polymerase-এর উৎস কী এবং কেন এটি গুরুত্বপূর্ণ?</p>
+      <p class="ca">Taq polymerase <i>Thermus aquaticus</i> থেকে বিচ্ছিন্ন — এটি hot spring-এর thermophilic bacterium; এটি 95°C-তেও সক্রিয় থাকে, যা denaturation step-এর জন্য অপরিহার্য।</p>
+      <p class="cq">Primer-গুলো কীভাবে ডিজাইন করা হয়?</p>
+      <p class="ca">Primer-গুলো target DNA-এর flanking region-এর সঙ্গে complementary হওয়ার জন্য ডিজাইন করা হয় — এরা ঠিক কোন অঞ্চল amplify হবে তা নির্ধারণ করে।</p>
+      <p class="cq">PCR-এ কপির সংখ্যা কীভাবে বাড়ে?</p>
+      <p class="ca">Exponentially: 30 cycle-এর পর একক template থেকে প্রায় 2³⁰ ≈ 1 billion কপি উৎপন্ন হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p><b>PCR-এর principle:</b> এটি এমন একটি technique যা নির্দিষ্ট DNA fragment বা segment-কে amplify করে লক্ষ-কোটি কপি তৈরি করে।</p>
+      <p>এই প্রক্রিয়া নির্ভর করে <b>thermal cycling</b>-এর উপর — বারবার heating ও cooling, এবং <b>DNA polymerase</b>-এর enzymatic work-এর উপর। ব্যবহৃত polymerase হলো <b>Taq polymerase</b> — যা <i>Thermus aquaticus</i> (hot spring-এর thermophilic bacterium) থেকে আসা heat-stable enzyme, তাই এটি 95°C-তেও সক্রিয় থাকে।</p>
+      <p>PCR-এর প্রয়োজনীয় উপাদান (components):</p>
+      <ul>
+        <li><b>Template DNA</b> — যে fragment amplify হবে; <b>Primers (forward &amp; reverse)</b> — short ssDNA, target DNA-এর complementary sequence-এ bind হয়ে synthesis শুরু করে;</li>
+        <li><b>Taq DNA polymerase</b> — নতুন DNA strand সংশ্লেষ করে; <b>dNTPs (A, T, C, G)</b> — DNA synthesis-এর building block;</li>
+        <li><b>Buffer solution</b> — optimum pH ও ionic strength বজায় রাখে; <b>Mg²⁺ ions</b> — DNA polymerase-এর cofactor।</li>
+      </ul>
+      <p>প্রতিটি cycle-এ target DNA প্রায় দ্বিগুণ হয়; অর্থাৎ একক DNA molecule ~30–40 cycle-এর পরে **2ⁿ** amplification অনুযায়ী এক বিলিয়নের বেশি কপিতে রূপান্তরিত হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB16</span>
+      <p class="qtext">Mention the basic steps of PCR. ** (denaturation, annealing and elongation)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> denaturation, annealing and elongation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Each cycle of PCR consists of <b>three basic steps</b>. Approximately <b>30–45 cycles</b> are performed:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Step</th><th>Temperature</th><th>Duration</th><th>Description</th></tr>
+          <tr>
+            <td><b>1. Denaturation</b></td>
+            <td>94–96°C</td>
+            <td>15–30 sec</td>
+            <td>Double-stranded DNA is heated to separate (denature) into two <b>single strands</b> by breaking hydrogen bonds between base pairs.</td>
+          </tr>
+          <tr>
+            <td><b>2. Annealing</b></td>
+            <td>50–70°C</td>
+            <td>15–30 sec</td>
+            <td>Primers (short DNA fragments) <b>bind (anneal)</b> to their complementary sequences on the single-stranded template DNA. Temperature depends on primer Tm.</td>
+          </tr>
+          <tr>
+            <td><b>3. Extension / Elongation</b></td>
+            <td>72°C</td>
+            <td>Depends on length of target</td>
+            <td><b>Taq DNA polymerase</b> extends the primers by adding nucleotides (dNTPs: A, T, C, G) in the 5'→3' direction, forming new complementary DNA strands.</td>
+          </tr>
+        </tbody></table>
+      </div>
+      <p><b>In real-time PCR (qPCR), an additional step — fluorescence detection — occurs during annealing or extension.</b></p>
+      <p><b>Post-PCR analysis (gel electrophoresis):</b> For conventional PCR, the amplified product is run on an agarose gel to check:</p>
+      <ul>
+        <li>No band → PCR negative or failed</li>
+        <li>Single sharp band → PCR positive (successful)</li>
+        <li>Multiple bands → Non-specific amplification or contamination</li>
+        <li>Faint bands → Low DNA concentration (weakly positive)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Gel electrophoresis-এ কোন কোন উপাদান প্রয়োজন?</p>
+      <p class="ca">PCR product, agarose gel (1–2%), TAE/TBE buffer, DNA stain (EtBr বা SYBR), DNA ladder (size marker), loading dye ও UV transilluminator।</p>
+      <p class="cq">SYBR Green ও ethidium bromide (EtBr)-এর তুলনা কী?</p>
+      <p class="ca">SYBR Green EtBr-এর চেয়ে নিরাপদ — EtBr বিষাক্ত এবং UV light প্রয়োজন।</p>
+      <p class="cq">Electrophoresis-এ DNA কোন দিকে চলে এবং কেন?</p>
+      <p class="ca">DNA negative charge-যুক্ত, তাই এটি positive electrode (anode)-এর দিকে চলে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>প্রতিটি PCR cycle-এ তিনটি মৌলিক ধাপ থাকে, এবং এগুলো প্রায় 30–45 বার পুনরাবৃত্তি হয়। আমি ধাপগুলো বলি:</p>
+      <ol>
+        <li><b>Denaturation (94–96°C, 15–30 sec):</b> double-stranded DNA-কে heat করে base pair-গুলোর hydrogen bond ভেঙে দুটি <b>single strand</b>-এ আলাদা করা হয়।</li>
+        <li><b>Annealing (50–70°C, 15–30 sec):</b> primer-গুলো (short DNA fragment) single-stranded template DNA-র complementary sequence-এর সাথে <b>bind (anneal)</b> করে। তাপমাত্রা primer-এর Tm-এর উপর নির্ভর করে।</li>
+        <li><b>Extension / Elongation (72°C):</b> <b>Taq DNA polymerase</b> primer-কে 5'→3' দিকে dNTPs (A, T, C, G) যোগ করে সম্প্রসারিত করে, ফলে নতুন complementary DNA strand তৈরি হয়। সময় target-এর দৈর্ঘ্যের উপর নির্ভর করে।</li>
+      </ol>
+      <p>উল্লেখ্য — real-time PCR (qPCR)-এ annealing বা extension-এর সময় একটি অতিরিক্ত ধাপ — <b>fluorescence detection</b> — যোগ হয়।</p>
+      <p>Conventional PCR-এর post-PCR analysis-এ amplified product-কে agarose gel-এ চালানো হয়:</p>
+      <ul>
+        <li>কোনো band নেই → PCR negative/failed; একটি sharp band → PCR positive (সফল); একাধিক band → non-specific amplification বা contamination; faint band → low DNA concentration (weakly positive)।</li>
+      </ul>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB17</span>
+      <p class="qtext">Mention some major uses of PCR (qPCR). * (organism detection, Sequencing, mutation detection)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> organism detection, Sequencing, mutation detection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The major uses of PCR (including qPCR) are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>#</th><th>Use</th><th>Example</th></tr>
+          <tr><td>1</td><td><b>Microorganism detection</b></td><td>COVID-19 detection (RT-qPCR), HIV viral load, HBV, bacterial infections</td></tr>
+          <tr><td>2</td><td><b>DNA cloning &amp; sequencing</b></td><td>Amplifying specific genes for cloning into vectors, DNA sequencing projects</td></tr>
+          <tr><td>3</td><td><b>Forensic DNA fingerprinting</b></td><td>Crime scene analysis, identification of individuals using STR profiling</td></tr>
+          <tr><td>4</td><td><b>Paternity testing</b></td><td>Determining biological parentage</td></tr>
+          <tr><td>5</td><td><b>Genetic mutation detection</b></td><td>Detecting point mutations, insertions, deletions associated with genetic diseases (e.g., sickle cell anemia, thalassemia, BRCA mutations)</td></tr>
+          <tr><td>6</td><td><b>Gene expression studies</b></td><td>RT-PCR/qPCR to measure mRNA levels and study gene regulation</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">RT-qPCR কীভাবে COVID-19-এ ব্যবহৃত হয়?</p>
+      <p class="ca">RT-qPCR হলো COVID-19 diagnosis-এর gold standard — এটি viral RNA-কে প্রথমে cDNA-তে রূপান্তর করে detect করে।</p>
+      <p class="cq">qPCR দিয়ে pathogen-এর পরিমাণ কীভাবে জানা যায়?</p>
+      <p class="ca">qPCR pathogen-এর পরিমাণ (viral load) quantify করতে পারে — lower Ct value মানে বেশি pathogen।</p>
+      <p class="cq">কোন কোন organism-এর জন্য PCR বিশেষভাবে দরকারি?</p>
+      <p class="ca">ধীরে বাড়া বা culture করা কঠিন organism — যেমন <i>Mycobacterium tuberculosis</i>, <i>Legionella</i> — detect করতে PCR/RT-PCR ব্যবহৃত হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>PCR (এবং qPCR)-এর প্রধান ব্যবহারগুলো আমি বলছি:</p>
+      <ol>
+        <li><b>Microorganism detection:</b> COVID-19 detection (RT-qPCR), HIV viral load, HBV, bacterial infection।</li>
+        <li><b>DNA cloning &amp; sequencing:</b> নির্দিষ্ট gene amplify করে vector-এ cloning, আর DNA sequencing project।</li>
+        <li><b>Forensic DNA fingerprinting:</b> crime scene analysis, STR profiling দিয়ে ব্যক্তি শনাক্তকরণ।</li>
+        <li><b>Paternity testing:</b> biological parentage নির্ধারণ।</li>
+        <li><b>Genetic mutation detection:</b> point mutation, insertion, deletion detect করা — যেমন sickle cell anemia, thalassemia, BRCA mutation।</li>
+        <li><b>Gene expression studies:</b> RT-PCR/qPCR দিয়ে mRNA level মাপা ও gene regulation study করা।</li>
+      </ol>
+      <p>মনে রাখবেন — <b>RT-qPCR</b> হলো COVID-19 diagnosis-এর <b>gold standard</b> — viral RNA detect করে এবং viral load-ও quantify করে (lower Ct মানে বেশি pathogen)। আর নিজে culture করা কঠিন organism — যেমন <i>Mycobacterium tuberculosis</i>, <i>Legionella</i> — detect করতেও PCR-ই শ্রেষ্ঠ।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB18</span>
+      <p class="qtext">Which one is better between PCR and qPCR (real time PCR)? - explain. ***** (best methods qPCR as because no need post PCR analysis, real time detection, using fluorescent dye, easy to detect, low manpower needed, sensitivity and specificity good, detect low copy number)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> qPCR is better — no post-PCR analysis, real-time detection, fluorescent dye, easy, low manpower, high sensitivity &amp; specificity, detects low copy number</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>qPCR (Real-Time PCR / Quantitative PCR) is better than conventional PCR.</b></p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Feature</th><th>Conventional PCR</th><th>qPCR (Real-Time PCR)</th></tr>
+          <tr><td>Post-PCR analysis</td><td>Requires gel electrophoresis (time-consuming, additional reagents)</td><td><b>No need</b> — detection during amplification</td></tr>
+          <tr><td>Quantification</td><td><b>Cannot</b> quantify exact amount of DNA — only confirms presence/absence</td><td><b>Can quantify</b> exact amount of DNA in real time</td></tr>
+          <tr><td>Detection method</td><td>End-point analysis (after all cycles)</td><td><b>Fluorescent dye</b> (SYBR Green) or probe (TaqMan) — easy to detect</td></tr>
+          <tr><td>Sensitivity</td><td>Moderate</td><td><b>High</b> — detects low copy numbers</td></tr>
+          <tr><td>Specificity</td><td>Moderate</td><td><b>High</b></td></tr>
+          <tr><td>Manpower</td><td>More (manual gel loading, interpretation)</td><td><b>Less</b> — automated real-time monitoring</td></tr>
+          <tr><td>Speed</td><td>Slower (includes gel step)</td><td><b>Faster</b> — results during the run</td></tr>
+          <tr><td>Contamination risk</td><td>Higher (opening tubes post-PCR for gel loading)</td><td><b>Lower</b> — closed-tube detection</td></tr>
+          <tr><td>Data output</td><td>Qualitative (band visible/not)</td><td>Quantitative with <b>Ct value</b> — lower Ct = more template DNA</td></tr>
+        </tbody></table>
+      </div>
+      <p><b>Why conventional PCR is not as good:</b> After all PCR cycles, post-PCR (end-point) analysis is needed — electrophoresis on gel to see the presence or absence of DNA band. It cannot quantify exact amount of DNA.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Ct value কী এবং কীভাবে ব্যাখ্যা করা হয়?</p>
+      <p class="ca">Ct value হলো সেই cycle number যেখানে fluorescence baseline অতিক্রম করে। lower Ct = strong positive (বেশি initial DNA); higher Ct = weakly positive (কম target DNA); no Ct = negative।</p>
+      <p class="cq">Melt curve analysis কী জন্য করা হয়?</p>
+      <p class="ca">শুধু SYBR Green-এর জন্য ঐচ্ছিক — single product নিশ্চিত করতে peak-এর uniformity দেখে specificity confirm করা হয়।</p>
+      <p class="cq">qPCR-এর ধাপগুলো ক্রমানুসারে কী কী?</p>
+      <p class="ca">initial denaturation (95°C, 2–10 min) → cycling (denaturation 95°C, annealing 50–65°C, extension 72°C, 40–50 বার) → annealing/extension-এ fluorescence detection → ঐচ্ছিক melt curve analysis (65–95°C)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p><b>qPCR (Real-Time PCR / Quantitative PCR) conventional PCR-এর চেয়ে ভালো।</b> আমি তুলনামূলকভাবে ব্যাখ্যা করি:</p>
+      <ul>
+        <li><b>Post-PCR analysis:</b> conventional PCR-এ gel electrophoresis দরকার — সময়সাপেক্ষ ও অতিরিক্ত reagent লাগে; qPCR-এ <b>প্রয়োজন হয় না</b> — amplification-এর সময়ই detection হয়।</li>
+        <li><b>Quantification:</b> conventional PCR সঠিক পরিমাণ বলতে পারে না — শুধু presence/absence confirms; qPCR real time-এ <b>exact amount quantify</b> করতে পারে।</li>
+        <li><b>Detection method:</b> conventional PCR end-point analysis (সব cycle শেষে); qPCR <b>fluorescent dye (SYBR Green)</b> বা <b>probe (TaqMan)</b> দিয়ে — detect করা সহজ।</li>
+        <li><b>Sensitivity ও Specificity:</b> conventional-এ moderate; qPCR-এ <b>high</b> — low copy number-ও detect করে।</li>
+        <li><b>Manpower:</b> conventional-এ বেশি (manual gel loading ও interpretation); qPCR-এ <b>কম</b> — automated real-time monitoring।</li>
+        <li><b>Speed:</b> conventional ধীর (gel step সহ); qPCR <b>দ্রুত</b> — run-এর সময়ই result।</li>
+        <li><b>Contamination risk:</b> conventional-এ বেশি (post-PCR এ tube খুলতে হয়); qPCR-এ <b>কম</b> — closed-tube detection।</li>
+        <li><b>Data output:</b> conventional qualitative (band visible হোক বা না); qPCR quantitative — <b>Ct value</b> দিয়ে (lower Ct = বেশি template DNA)।</li>
+      </ul>
+      <p>কেন conventional PCR ভালো নয়: সব cycle শেষের পর end-point analysis দরকার — gel-এ DNA band-এর উপস্থিতি/অনুপস্থিতি দেখতে হয়, আর DNA-এর exact amount quantify করা যায় না।</p>
+      <p>মনে রাখবেন — qPCR-এ <b>Ct value</b>: lower Ct = strong positive, higher Ct = weakly positive, no Ct = negative।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

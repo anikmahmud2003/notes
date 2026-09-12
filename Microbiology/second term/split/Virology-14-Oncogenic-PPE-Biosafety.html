@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Oncogenic Viruses, Biosafety & PPE (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Oncogenic Viruses, Biosafety &amp; PPE</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">4 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">4 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-13-Emerging-Infections-Corona.html">‹ Prev</a><a href="MolBio-01-Basics-Applications.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Oncogenic Viruses, Biosafety &amp; PPE</h2><div class="en">Oncogenic viruses, p53/Rb tumour suppressors, PPE types, donning &amp; doffing</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V137</span>
+      <p class="qtext">Write a short note on Oncogenic Viruses. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HPV, HBV, HCV, EBV, HHV-8, HTLV-1; 15-20% cancers are virus-associated</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Oncogenic viruses</b> (tumor viruses) are viruses that can cause or contribute to the development of cancer. Approximately <b>15-20% of all human cancers</b> have a viral etiology.</p>
+      <table>
+        <thead><tr><th>Virus</th><th>Type</th><th>Associated Cancer</th></tr></thead>
+        <tbody>
+          <tr><td>HPV (types 16, 18)</td><td>DNA</td><td>Cervical carcinoma, oropharyngeal, anal, penile cancer</td></tr>
+          <tr><td>HBV</td><td>DNA</td><td>Hepatocellular carcinoma (HCC)</td></tr>
+          <tr><td>HCV</td><td>RNA</td><td>Hepatocellular carcinoma (HCC), non-Hodgkin lymphoma</td></tr>
+          <tr><td>EBV (HHV-4)</td><td>DNA</td><td>Burkitt lymphoma, nasopharyngeal carcinoma, Hodgkin lymphoma, PTLD</td></tr>
+          <tr><td>HHV-8 (KSHV)</td><td>DNA</td><td>Kaposi sarcoma, primary effusion lymphoma</td></tr>
+          <tr><td>HTLV-1</td><td>RNA (retrovirus)</td><td>Adult T-cell leukemia/lymphoma (ATLL)</td></tr>
+          <tr><td>HIV</td><td>RNA (retrovirus)</td><td>Indirectly: Kaposi sarcoma, NHL, cervical carcinoma (via immunosuppression)</td></tr>
+          <tr><td>MCPyV</td><td>DNA</td><td>Merkel cell carcinoma (skin)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">অনকোজেনিক ভাইরাস কী?</p>
+<p class="ca">যেসব ভাইরাস হোস্ট কোষে ক্যান্সার সৃষ্টি করতে পারে — নিজস্ব জিন বা কোষের অনকোজিন সক্রিয় করে।</p>
+<p class="cq">HBV ও HCV-র সঙ্গে কোন ক্যান্সার?</p>
+<p class="ca">হেপাটোসেলুলার কার্সিনোমা (HCC) — দীর্ঘস্থায়ী সংক্রমণ ও সিরোসিসের মাধ্যমে।</p>
+<p class="cq">HPV-র অনকোজিন কী?</p>
+<p class="ca">E6 (p53 নিষ্ক্রিয়) ও E7 (retinoblastoma প্রোটিন নিষ্ক্রিয়) — কোষ-চক্রকে অনিয়ন্ত্রিত করে।</p>
+<p class="cq">দীর্ঘমেয়াদি ভাইরাস সংক্রমণের প্রতিরোধ?</p>
+<p class="ca">টিকা — HBV (HCC), HPV (cervical/anal/oral ক্যান্সার) — ভ্যাকসিন-প্রতিরোধযোগ্য ক্যান্সার।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>অনকোজেনিক ভাইরাস</b> ক্যান্সার সৃষ্টি করতে পারে। প্রধানগুলো:</p>
+<p><b>DNA ভাইরাস:</b> <b>HPV</b> (E6 → p53 নিষ্ক্রিয়; E7 → Rb নিষ্ক্রিয়) — cervical, anal, penile, oropharyngeal ক্যান্সার — টাইপ ১৬, ১৮ (x), ৩১, ৩৩, ৪৫; <b>EBV</b> — Burkitt lymphoma, nasopharyngeal carcinoma, Hodgkin, post-transplant lymphoproliferative; <b>HBV</b> — HCC (chronic → cirrhosis); <b>HHV-8/KSHV</b> — Kaposi sarcoma; <b>Merkel cell polyomavirus</b> — Merkel cell carcinoma।</p>
+<p><b>RNA ভাইরাস:</b> <b>HCV</b> — HCC (একটি RNA ভাইরাস); <b>HTLV-1</b> — adult T-cell leukemia/lymphoma।</p>
+<p><b>প্রতিরোধ:</b> HPV ভ্যাকসিন (cervical + anal + oral ক্যান্সার), HBV ভ্যাকসিন (HCC) — "ভ্যাকসিন-প্রতিরোধযোগ্য ক্যান্সার"।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V138</span>
+      <p class="qtext">What is the role of Tumor Suppressor Genes (p53, Rb) in virus-induced carcinogenesis? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HPV E6 binds p53 → degradation; HPV E7 binds Rb → E2F release → uncontrolled cell cycle</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Tumor suppressor genes (TSGs)</b> regulate cell growth and prevent uncontrolled proliferation. Viral oncoproteins can inactivate these TSGs → uncontrolled cell cycle → carcinogenesis.</p>
+      <p><b>p53 (Guardian of the Genome):</b></p>
+      <ul>
+        <li>Normally: p53 induces cell cycle arrest, DNA repair, or apoptosis in damaged cells.</li>
+        <li><b>HPV E6 oncoprotein:</b> Binds p53 → recruits E6-AP (E6-associated protein, an E3 ubiquitin ligase) → ubiquitination and proteasomal degradation of p53.</li>
+        <li>Result: Damaged cells escape apoptosis → accumulate mutations → carcinogenesis (cervical cancer).</li>
+      </ul>
+      <p><b>Rb (Retinoblastoma protein):</b></p>
+      <ul>
+        <li>Normally: Rb binds to E2F transcription factor → prevents entry into S-phase → controls cell cycle progression.</li>
+        <li><b>HPV E7 oncoprotein:</b> Binds Rb → displaces E2F → E2F is free → activates genes for S-phase entry → uncontrolled cell proliferation.</li>
+        <li>Result: Unregulated cell division → tumor formation.</li>
+      </ul>
+      <p><b>Summary:</b> HPV E6 → degrades p53 → no apoptosis. HPV E7 → inactivates Rb → uncontrolled proliferation. Together → cervical carcinogenesis.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">PPE-র অন্তর্ভুক্ত কী?</p>
+<p class="ca">Gloves, gown, mask (N95), face shield/goggles — সংক্রমণের উৎস ও রুট ভেদে।</p>
+<p class="cq">কোন ভাইরাসে airborne/strong droplets?</p>
+<p class="ca">SARS-CoV-2, influenza, measles-এ N95/FFP2 ও negative pressure room।</p>
+<p class="cq">গ্লাভস কখন বদলাবেন?</p>
+<p class="ca">প্রতিটি রোগীর পরে; দৃশ্যমান দূষণে; প্রতিবার উঠা-বসাজুড়ে hand hygiene।</p>
+<p class="cq">হার্ড শেয়ার/সুই-স্টিক injury কী করবেন?</p>
+<p class="ca">ক্ষত ধোয়া, রক্ত বের করা, disinfectant, উৎস-রোগীর HBV/HIV/HCV পরীক্ষা + PEP/HBIG/alerts।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>PPE (উৎপাদিত সুরক্ষা সরঞ্জাম)</b> স্বাস্থ্যকর্মীকে রক্ত-বাহিত, ড্রপলেট ও airborne সংক্রমণ থেকে বাঁচায়।</p>
+<p><b>উপাদান:</b> গ্লাভস (সিন্থেটিক, নন-লটেক্স — কন্টাক্ট ঝুঁকি), গাউন/অ্যাপ্রন, মাস্ক (ড্রপলেট — surgical; airborne — <b>N95/FFP2</b>), চোখ-সুরক্ষা (গগলস/ফেস শিল্ড), হেয়ার-কভার ও বুট। <b>পরিধান-নিয়ম:</b> গাউন → মাস্ক → গগলস → গ্লাভস (donning); গ্লাভস → গগলস → গাউন → মাস্ক (doffing) — শেষ পর্যন্ত হাত ধোয়া।</p>
+<p><b>কর্মক্ষেত্র:</b> ড্রপলেট (influenza, meningococcus, COVID) — surgical mask; airborne (TB, measles, chickenpox, invasive procedures-এ COVID) — N95/FFP2 + negative pressure room; কন্টাক্ট (রক্ত, নিঃসরণ, রোটাভাইরাস) — গ্লাভস + গাউন। গ্লাভস প্রতিটি রোগী-পরে বদল; দৃশ্যমান দূষণে; ব্যবহারে হাত ধোয়া।</p>
+<p>সুই-স্টিক/স্প্ল্যাশ injury: ক্ষত ধুয়ে বের করা, antiseptic; উৎস-রোগীর HBV/HIV/HCV পরীক্ষা; প্রয়োজনীয় PPE/TEPC পরিচালনা (HBIG + HBV vaccine, HIV PEP 72 ঘণ্টায়, HCV monitoring); ঘটনা নথিভুক্ত করা।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V139</span>
+      <p class="qtext">What is PPE? Mention its types. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Personal Protective Equipment; gloves, mask, gown, face shield, goggles</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>PPE (Personal Protective Equipment):</b> Protective clothing, masks, gloves, and other equipment designed to protect the wearer's body from injury or infection from hazards — physical, chemical, biological.</p>
+      <p><b>Types of PPE (in order of use):</b></p>
+      <ul>
+        <li><b>Gown/overall:</b> Protects body and clothing from contamination.</li>
+        <li><b>N95 respirator / Surgical mask:</b> N95 respirator filters 95% airborne particles (for airborne precautions — TB, COVID). Surgical mask protects against droplets.</li>
+        <li><b>Goggles:</b> Protects eyes from splashes and sprays.</li>
+        <li><b>Face shield:</b> Protects face from splashes (over goggles or alone).</li>
+        <li><b>Gloves (sterile/non-sterile):</b> Protects hands from contact with blood, body fluids, secretions.</li>
+        <li><b>Head cover/cap:</b> Protects hair from contamination.</li>
+        <li><b>Shoe cover:</b> Protects shoes from contamination.</li>
+      </ul>
+      <p><b>Levels of PPE:</b></p>
+      <ul>
+        <li><b>Level A:</b> Full-body encapsulated suit — highest protection (chemical/biological hazards).</li>
+        <li><b>Level B:</b> SCBA + chemical-resistant suit.</li>
+        <li><b>Level C:</b> Chemical-resistant clothing + air-purifying respirator.</li>
+        <li><b>Level D:</b> Standard work uniform + gloves + surgical mask (lowest risk).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">NCBI-তে HIV protease-এর দৈর্ঘ্য?</p>
+<p class="ca">99 aa (IMP/180 aa), simplity p.p. — research-এ স্বতন্ত্র।</p>
+<p class="cq">RefSeq HIV-1 জিনোম?</p>
+<p class="ca">NC_001802 (অন্যান্য ৯,৮০৯ bp)।</p>
+<p class="cq">BLAST-এ HIV অ্যামাইনো-সিকোয়েন্স কীভাবে ব্যবহার?</p>
+<p class="ca">Database সীমা "Viruses" — অনুক্রম উৎপাদন এবং রেফারেন্সের সঙ্গে তুলনা।</p>
+<p class="cq">HIV-1 protease inhibitor-এর উদাহরণ?</p>
+<p class="ca">Ritonavir, Atazanavir, Lopinavir — maturation (protease step) ব্লক করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ডাটাবেস ও বায়োইনফরমেটিক্সে HIV-1। NCBI তে <b>HIV-1</b>-এর জিনোম RefSeq <b>NC_001802</b> (৯,৮০৯ nt) — ssRNA(+) diploid; genes: gag, pol (protease-integrase-RT), env, tat, rev, nef, vif, vpr, vpu।</p>
+<p><b>HIV-1 Protease (PR):</b> 99-aa aspartic protease; gag-pol polyprotein-কে functional protein-এ cleave → virion maturation; well-ক্রিস্টালাইজড — structure-based drug design-এর model। <b>Protease inhibitor:</b> Ritonavir, Atazanavir, Lopinavir/boosting — maturation ব্লক।</p>
+<p><b>BLAST:</b> HIV-এর অ্যামিনো-অ্যাসিড সিকোয়েন্স viruse-দাতা database (db=refseq_viral প্রভৃতি) এ blastp; sequencing-ভিত্তিক ভাইরাস রিসার্চ — mutation/surveillance, চিকিৎসা। এক লাইনে — NC_001802 + p24/gp120/PR — HIV বায়োইনফরমেটিক্সের কেন্দ্র।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V140</span>
+      <p class="qtext">Describe the process of Donning and Doffing of PPE. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Donning: gown→mask→goggles→gloves; Doffing: gloves→goggles→gown→mask; hand hygiene before/after</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Donning (Putting on PPE):</b></p>
+      <ul>
+        <li><b>Step 1: Hand hygiene</b> — wash hands or use alcohol-based hand rub.</li>
+        <li><b>Step 2: Gown/overall</b> — put on gown, tie at neck and waist.</li>
+        <li><b>Step 3: N95 respirator/Surgical mask</b> — place over nose and mouth, secure straps. For N95: perform seal check (exhale/inhale — no air leaks).</li>
+        <li><b>Step 4: Goggles/Face shield</b> — place over eyes/face, adjust to fit snugly.</li>
+        <li><b>Step 5: Gloves</b> — put on gloves, ensure they cover the cuffs of the gown.</li>
+      </ul>
+      <p><b>Doffing (Removing PPE):</b></p>
+      <ul>
+        <li><b>Step 1: Hand hygiene</b> — before removing any PPE.</li>
+        <li><b>Step 2: Gloves</b> — remove gloves using glove-in-glove technique (peel off without touching outer surface). Discard. Hand hygiene.</li>
+        <li><b>Step 3: Goggles/Face shield</b> — remove by handling the earpieces/headband (not the front). Discard or disinfect. Hand hygiene.</li>
+        <li><b>Step 4: Gown</b> — untie, peel away from body (turn inside out). Discard. Hand hygiene.</li>
+        <li><b>Step 5: Mask/N95</b> — remove by handling straps only (not the front). Discard. Hand hygiene.</li>
+        <li><b>Final: Hand hygiene.</b></li>
+      </ul>
+      <p><b>Key principle:</b> Doff in reverse order of donning. Always perform hand hygiene between each step. Avoid touching the front (contaminated) surfaces of PPE.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">সবচেয়ে গুরুত্বপূর্ণ বায়োসেফটি ব্যবস্থা?</p>
+<p class="ca">Hand hygiene — সব মেডিক্যাল সেটিং-এ।</p>
+<p class="cq">একটি নির্ভরযোগ্য disinfectant?</p>
+<p class="ca">EtOH 70% + অক্সিডাইজিং এজেন্ট — enveloped ভাইরাস (HIV, HBV, COVID) নিষ্ক্রিয় করে।</p>
+<p class="cq">RNA ভাইরাস vaccination কে সবচেয়ে বেশি লাগে?</p>
+<p class="ca">গর্ভবতী, শিশু, বয়স্ক — influenza, COVID, rotavirus, measles-এর মতো।</p>
+<p class="cq">"Herd immunity"-এ discipline কী?</p>
+<p class="ca">&gt;৯৫% টিকাকরণ — সম্পূর্ণ প্রতিরোধ/গুরুতর রোগ প্রতিরোধ।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ভাইরোলজি-র পরীক্ষা ও বায়োসেফটি — গুরুত্বপূর্ণ সংক্ষিপ্তাংশ।</p>
+<p><b>বায়োসেফটি-১-৪ (BSL-1→4):</b> BSL-1 (নন-প্যাথোজেনিক), BSL-4 (Ebola, Hendra — biosafety cabinet + ল্যাব স্যুট)। <b>PCR-cycle threshold (Ct):</b> &lt;30 = high viral load; &gt;35 প্রায়ই borderline/রেকভাল।</p>
+<p><b>ভ্যাকসিন-বিরুদ্ধে (&gt;৯৫% নিয়ম):</b> সব ভ্যাকসিন-প্রতিরোধযোগ্য রোগে community immunity — immunocompromised-কে সুরক্ষা। <b>Herd immunity threshold:</b> measles ~৯৫%, disrupt (high R0); influenza ~৬০-৭০%; COVID-৮০%+ (বৈচিত্র্য)।</p>
+<p><b>disinfectants:</b> EtOH 70%, isopropanol, 0.1% sodium hypochlorite (bleach), quaternary ammonium — enveloped virus (HIV, HBV, HCV, SARS-CoV-2) দ্রুত নিষ্ক্রিয়। <b>PPE (donning→doffing) + hand hygiene + sharps নিষ্পত্তি + standard/contact/droplet/airborne precautions</b> — ভাইরোলজি-এর অপরিহার্য।</p>
+<p>এক লাইনে — "BSL → PPE → hand hygiene → টিকা/booster → আস্থা — পূর্ণাঙ্গ ভাইরোলজি চেইন।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

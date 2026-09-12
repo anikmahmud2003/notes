@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Leishmania & Kala-azar (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Leishmania &amp; Kala-azar</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">15 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">15 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-05-Flagellates-Giardia-Trichomonas-Trypanosoma.html">‹ Prev</a><a href="Parasitology-07-Malaria-Sporozoa.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Leishmania &amp; Kala-azar</h2><div class="en">Leishmania species, old/new world, Kala-azar anaemia &amp; complications, LD bodies, PKDL</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P63</span>
+      <p class="qtext">List the diseases produced by different species of Leishmania. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> visceral (Kala-azar), cutaneous (CL), mucocutaneous (MCL) — species wise</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Clinical type</th><th>Subdivision</th><th>Organism</th></tr>
+        <tr><td rowspan="4"><b>Visceral leishmaniasis (VL) = Kala-azar = Dumdum fever</b></td><td>Classical Kala-azar</td><td>L. donovani</td></tr>
+        <tr><td>Infantile Kala-azar</td><td>L. donovani infantum</td></tr>
+        <tr><td>South American Kala-azar</td><td>L. chagasi</td></tr>
+        <tr><td>Sudanese (leishmanoid)</td><td>L. archibaldi</td></tr>
+        <tr><td rowspan="5"><b>Cutaneous leishmaniasis (CL)</b></td><td>Old World CL (oriental sore)</td><td>L. tropica, L. major, L. aethiopica (DCL)</td></tr>
+        <tr><td>New World CL</td><td>L. mexicana (chiclero's ulcer), L. braziliensis (CL)</td></tr>
+        <tr><td>Diffuse CL (DCL)</td><td>L. aethiopica, L. mexicana</td></tr>
+        <tr><td>Uta</td><td>L. peruviana</td></tr>
+        <tr><td>Pian bois</td><td>L. guyanensis</td></tr>
+        <tr><td><b>Mucocutaneous leishmaniasis (MCL)</b></td><td>Espundia</td><td>L. braziliensis; L. panamensis</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Kala-azar-এর vector কি?</p><p class="ca">Female sandfly — Phlebotomus argentipes। Old World-এ Phlebotomus, New World-এ Lutzomyia।</p><p class="cq">Espundia কি?</p><p class="ca">Espundia হলো mucocutaneous leishmaniasis (MCL) — L. braziliensis দিয়ে হয়। Mucous membrane (নাক, মুখ, গলা)-এ ulceration হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Leishmania species আর diseases — ৩টা major clinical type।</p><p>Visceral leishmaniasis (VL) = Kala-azar = Dumdum fever — ৪টা subdivision: classical Kala-azar (L. donovani), infantile Kala-azar (L. donovani infantum), South American (L. chagasi), Sudanese leishmanoid (L. archibaldi)।</p><p>Cutaneous leishmaniasis (CL) — ৫টা subtype: Old World CL/oriental sore (L. tropica, L. major, L. aethiopica — DCL এর জন্য), New World CL (L. mexicana — chiclero's ulcer, L. braziliensis), diffuse CL/DCL (L. aethiopica, L. mexicana), Uta (L. peruviana), pian bois (L. guyanensis)।</p><p>Mucocutaneous leishmaniasis (MCL) — espundia (L. braziliensis, L. panamensis)।</p><p>Kala-azar vector-borne — female sandfly (Phlebotomus)। Reservoirs — human (L. donovani), canine (L. infantum/chagasi), gerbils (L. major), rodents (L. braziliensis)। Old World Phlebotomus, New World Lutzomyia।</p><p>ভাইভায় ম্নেমনিক — "donovani → Kala-azar; tropica → oriental sore; braziliensis → espundia।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P64</span>
+      <p class="qtext">What do you mean by old world and new world leishmania? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Old: outside America continent; New: America continent</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Old World leishmaniasis:</b> occurs <b>outside the American continent</b> — Asia, Africa, Europe (Mediterranean). Transmitted by sandfly of genus <b>Phlebotomus</b>.</li>
+      <li><b>New World leishmaniasis:</b> occurs <b>within the American continent</b> (Central &amp; South America). Transmitted by sandfly of genus <b>Lutzomyia</b>.</li>
+    </ul>
+      <p>Species: Old World — L. donovani, L. infantum, L. tropica, L. major, L. aethiopica; New World — L. chagasi, L. mexicana, L. braziliensis, L. peruviana, L. panamensis, L. guyanensis, L. amazonensis, L. venezuelensis.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Old World-এ vector কি আর New World-এ vector কি?</p><p class="ca">Old World-এ Phlebotomus sandfly। New World-এ Lutzomyia sandfly — এটা মনে রাখতে হয়, confusion হয়।</p><p class="cq">Hookworm-এও কি old/new world terminology আছে?</p><p class="ca">হ্যাঁ — Old World hookworm = Ancylostoma duodenale। New World hookworm = Necator americanus। একই terminology।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ওল্ড ওয়ার্ল্ড — আমেরিকার বাইরে (এশিয়া, আফ্রিকা, ইউরোপ)। ভেক্টর Phlebotomus। নিউ ওয়ার্ল্ড — আমেরিকার ভিতরে। ভেক্টর Lutzomyia।</p><p>ওল্ড স্পিশিজ — donovani, infantum, tropical, major, aethiopica। নিউ — chagasi, mexicana, braziliensis, peruviana, panamensis, guyanensis।</p><p>ভাইভায় — "ওল্ড = Phlebotomus; নিউ = Lutzomyia।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P65</span>
+      <p class="qtext">Name some species of new world and old world. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Old: L. donovani, L. tropica, L. major; New: L. braziliensis, L. mexicana, L. chagasi</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Old World species</th><th>New World species</th></tr>
+        <tr><td>L. donovani</td><td>L. chagasi</td></tr>
+        <tr><td>L. infantum</td><td>L. mexicana</td></tr>
+        <tr><td>L. tropica</td><td>L. braziliensis</td></tr>
+        <tr><td>L. major</td><td>L. peruviana</td></tr>
+        <tr><td>L. aethiopica</td><td>L. panamensis, L. guyanensis, L. amazonensis, L. venezuelensis</td></tr>
+      </tbody></table></div>
+      <p>Transmitted by Phlebotomus (Old World) and Lutzomyia (New World) sandflies.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Bangladesh-এ কোনো Leishmania species আছে?</p><p class="ca">হ্যাঁ, Bangladesh-এ L. donovani আছে — Old World species — visceral leishmaniasis (Kala-azar) করে। Vector Phlebotomus argentipes।</p><p class="cq">L. braziliensis কী করে?</p><p class="ca">L. braziliensis — New World species — mucocutaneous leishmaniasis (espundia) করে — mucous membrane-এ ulceration।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ওল্ড ওয়ার্ল্ড — donovani, infantum, tropical, major, aethiopica। নিউ ওয়ার্ল্ড — chagasi, mexicana, braziliensis, peruviana, panamensis।</p><p>ভাইভায় — বাংলাদেশে L. donovani (ওল্ড) কালা-আজার করে। ২-৩টা নাম ইনাফ।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P66</span>
+      <p class="qtext">Mention the vector of Kala-azar. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Sandfly: Phlebotomus argentipes</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>The vector of Kala-azar is the <b>female sandfly — Phlebotomus argentipes</b> (biological vector / intermediate host).</p>
+      <ul>
+        <li>Only the <b>female</b> sandfly bites (needs blood for egg production); males feed on plant/fruit juices.</li>
+        <li>In the sandfly midgut, ingested <b>amastigotes transform into promastigotes</b> (infective form) and migrate forward (anterior station development) — injected during the next bite.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Phlebotomus argentipes কি?</p><p class="ca">Phlebotomus argentipes হলো sandfly-র species — Kala-azar-এর vector, Old World-এ পাওয়া যায়। Female sandfly-ই bite করে।</p><p class="cq">Sandfly bite-এ কি inject হয়?</p><p class="ca">বাইটের সময় sandfly regurgitation দিয়ে midgut-এর promastigote skin-এ inject করে। Promastigote infective form।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কালা-আজারের ভেক্টর — ফিমেল স্যান্ডফ্লাই Phlebotomus argentipes।</p><p>শুধু ফিমেল বাইট করে — রক্ত লাগে ডিম প্রোডাকশনে। মিডগুটে অ্যামাস্টিগোট → প্রোমাস্টিগোট (ইনফেকটিভ)।</p><p>ভাইভায় — "Phlebotomus argentipes; ফিমেল স্যান্ডফ্লাই; প্রোমাস্টিগোট ইনজেক্ট হয়।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P67</span>
+      <p class="qtext">Mention the mode of transmission of Kala-azar. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> vector borne</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Vector-borne transmission</b> — bite of infected <b>female Phlebotomus argentipes sandfly</b> (biological vector).</li>
+      <li>Sandfly bite → regurgitation of promastigotes from midgut (or directly discharged) into the skin of the host.</li>
+      <li>Rare routes: blood transfusion, contaminated needles (rare), congenital transmission.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Infective form ও pathogenic form কি?</p><p class="ca">Infective form — promastigote (sandfly bite-এ inject হয়)। Pathogenic form — amastigote (human macrophage-এ থাকে)।</p><p class="cq">Reservoir host কি?</p><p class="ca">L. donovani-তে human (definitive host)। L. infantum/chagasi-তে canine animal। Wild আর domestic mammal-ও reservoir।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভেক্টর বোর্ন — ফিমেল Phlebotomus argentipes বাইট। ইনফেকটিভ ফর্ম প্রোমাস্টিগোট। প্যাথোজেনিক ফর্ম অ্যামাস্টিগোট।</p><p>রেয়ার — ব্লাড ট্রান্সফিউশন, কনজেনিটাল।</p><p>ভাইভায় — "ভেক্টর বোর্ন; ইনফেকটিভ প্রোমাস্টিগোট; প্যাথোজেনিক অ্যামাস্টিগোট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P68</span>
+      <p class="qtext">Why there is anaemia in kala-azar? *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> overcrowding of macrophages, relative hypoplasia of bone marrow</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Bone marrow hypoplasia (relative):</b> proliferation of parasitized reticulo-endothelial cells <b>crowds out (replaces) the erythropoietic tissue</b> of the bone marrow → reduced RBC production (note: actual erythropoiesis is hyperplastic — so it is "relative" hypoplasia).</li>
+      <li><b>Haemolysis:</b> RBCs are sequestered and destroyed in the enlarged spleen (hypersplenism).</li>
+      <li><b>Anti-red cell antibody:</b> immune-mediated lysis of RBCs.</li>
+      <li>Associated <b>thrombocytopenia</b> (epistaxis, haematuria, DIC) and <b>leucopenia</b> complete the pancytopenia picture.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Kala-azar-এ anaemia কি টাইপের?</p><p class="ca">Normocytic normochromic anaemia। Hb typically কমে। Pancytopenia hallmark — anaemia + leucopenia + thrombocytopenia।</p><p class="cq">Pancytopenia মানে কি?</p><p class="ca">৩টি cell কমে — RBC (anaemia), WBC (leucopenia), platelet (thrombocytopenia)। Relative monocytosis থাকে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কালা-আজারে অ্যানিমিয়া ৩ কারণ: (১) বোন ম্যারো রিলেটিভ হাইপোপ্লাসিয়া — প্যারাসাইটেড RBC ক্রাউডিং আউট করে; (২) হিমোলাইসিস — স্প্লিনে সিকোয়েস্ট্রেশন; (৩) অ্যান্টি-RBC অ্যান্টিবডি।</p><p>প্যানসাইটোপেনিয়া — অ্যানিমিয়া + লিউকোপেনিয়া + থ্রম্বোসাইটোপেনিয়া।</p><p>ভাইভায় — "ওভারক্রাউডিং অব ম্যাক্রোফাজেস → রিলেটিভ হাইপোপ্লাসিয়া; স্প্লেনিক সিকোয়েস্ট্রেশন → হিমোলাইসিস; অ্যান্টি-RBC অ্যান্টিবডি → ইমিউন লাইসিস।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P69</span>
+      <p class="qtext">What are the complications of Kala-azar? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> complications due to pancytopenia (reduced WBC: secondary infections high; bleeding due to thrombocytopenia)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>Kala-azar is a fatal disease if untreated. Complications arise mainly <b>due to pancytopenia</b>:</p>
+      <ul>
+        <li><b>Secondary infections</b> (due to severe leucopenia / immune suppression): amoebic dysentery, bacillary dysentery, tuberculosis, pneumonia, and other septic infections.</li>
+        <li><b>Anaemia</b> — normocytic normochromic.</li>
+        <li><b>Bleeding manifestations</b> (due to thrombocytopenia): epistaxis, haematuria, DIC.</li>
+        <li>Post-kala-azar dermal leishmaniasis (PKDL) — skin complication after treatment.</li>
+        <li>Progressive cachexia, weight loss, and intercurrent infections may be fatal.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">PKDL কি?</p><p class="ca">Post Kala-azar Dermal Leishmaniasis — treatment-এর ১-২ বছর পর skin-এ lesion হয়। Depigmented macule, erythematous patch, nodule। SSS আর biopsy দিয়ে diagnosis।</p><p class="cq">Kala-azar untreated থাকলে কি হয়?</p><p class="ca">Fatal — progressive cachexia, weight loss, intercurrent infection-এর ফলে death হতে পারে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কমপ্লিকেশনস্ প্যানসাইটোপেনিয়া থেকে — WBC কম → সেকেন্ডারি ইনফেকশন; প্লেটলেট কম → ব্লিডিং; অ্যানিমিয়া।</p><p>রিসাল্টে PKDL হয়ে পারে।</p><p>ভাইভায় — "কমপ্লিকেশনস্ ডিউ টু প্যানসাইটোপেনিয়া: ইনফেকশন, ব্লিডিং, অ্যানিমিয়া।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P70</span>
+      <p class="qtext">How will you diagnose a case of visceral leishmaniasis or Kala-azar? ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> best sample: splenic aspirates then buffy coat from blood, then bone marrow; microscopy after Leishman staining; culture: NNN media; immunology: rK39 test important</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Clinical suspicion:</b> pyrexia &gt;15 days, H/O travel to endemic area within 2 months, splenomegaly/weight loss/anaemia (any one).</li>
+      <li><b>Specimen collection:</b>
+        <ul>
+          <li><b>Splenic aspirates</b> — most sensitive (&gt;95%) but risk of haemorrhage</li>
+          <li><b>Buffy coat of blood</b> — risk-free, good sensitivity, preferred</li>
+          <li><b>Bone marrow aspirates</b> (60–85% sensitive), lymph node biopsy</li>
+        </ul>
+      </li>
+      <li><b>Rapid screening test:</b> <b>rK39 ICT</b> — most used (but not confirmatory).</li>
+      <li><b>Microscopy (gold standard):</b> Leishman-stained smear → <b>LD bodies</b> (amastigote): blue cytoplasm, pink/violet or slight red nucleus, bright red kinetoplast (right angle to nucleus), within monocyte/macrophage. Giemsa/Wright also used (Giemsa better for visualization).</li>
+      <li><b>Culture:</b> NNN (Novy, MacNeal, Nicole) medium at 22–26°C for 1–4 weeks → promastigotes; slow, not routinely done.</li>
+      <li><b>Immunological test:</b> antigen detection (ELISA, RIA); antibody detection (ELISA, CFT, DAT).</li>
+      <li><b>Molecular test:</b> PCR — confirmatory.</li>
+      <li><b>Other tests:</b> CBC — pancytopenia (anaemia, leucopenia with relative monocytosis, thrombocytopenia); nonspecific — aldehyde test, antimony test.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Best sample কি আর কেন?</p><p class="ca">Splenic aspirate most sensitive (&gt;95%) কিন্তু bleeding risk আছে। Buffy coat safe আর sensitivity-ও প্রায় সমান — তাই preferred। Bone marrow aspirate ৬০-৮৫% sensitive।</p><p class="cq">LD body কি?</p><p class="ca">LD body = Leishman-Donovan body = amastigote form of L. donovani। Monocyte/macrophage-এ থাকে। Leishman stain-এ blue cytoplasm, pink/red nucleus, bright red kinetoplast।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কালা-আজার ডায়াগনোসিস — প্রথমে ক্লিনিক্যাল সাসপিশন: pyrexia ১৫ দিনের বেশি, endemic area-তে travel history ২ মাসের মধ্যে, splenomegaly/weight loss/anaemia — এগুলোর যেকোনো একটা থাকলে সন্দেহ করবো।</p><p>তারপর specimen: splenic aspirate সবচেয়ে sensitive (&gt;৯৫%) কিন্তু spleen puncture-এ bleeding risk আছে — spleen vascular organ, আর patient-এর thrombocytopenia-ও থাকে। Buffy coat risk-free আর sensitivity প্রায় সমান — তাই preferred। Bone marrow aspirate ৬০-৮৫% sensitive, lymph node biopsy-ও করা যায়।</p><p>Rapid screening test — rK39 ICT, field/Kala-azar elimination program-এ সবচেয়ে বেশি ব্যবহৃত, কিন্তু confirmatory নয়।</p><p>Microscopy gold standard — Leishman stain দিয়ে smear দেখে LD body (amastigote) চিনতে হয়: blue cytoplasm, pink/violet বা slight red nucleus, bright red kinetoplast নিউক্লিয়াসের right-angle-এ, monocyte/macrophage-এর ভিতরে। Giemsa/Wright stain-ও ব্যবহৃত — Giemsa visualization-এ ভালো।</p><p>Culture — NNN (Novy, MacNeal, Nicole) medium ২২-২৬°C-এ ১-৪ সপ্তাহ → promastigote grow, slow, routine-এ নয়। Immunological — antigen detection (ELISA, RIA), antibody detection (ELISA, CFT, DAT)। Molecular — PCR confirmatory।</p><p>Other tests — CBC pancytopenia (anaemia, leucopenia with relative monocytosis, thrombocytopenia), nonspecific aldehyde test আর antimony test।</p><p>ভাইভায় ফ্লোটা — "screening rK39, confirm microscopy LD body, PCR ultimate confirmatory।" Splenic aspirate vs buffy coat জিজ্ঞেস করলে বলো — "splenic most sensitive but risky; buffy coat safe and preferred।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P71</span>
+      <p class="qtext">Why buffy coat preparation is chosen instead of splenic aspirates?</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> splenic aspirates: bleeding; buffy coat: sensitivity and specificity almost close to splenic aspirates</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Splenic aspirate</b> is the <b>most sensitive</b> method (&gt;95%), but is <b>risky</b> — splenic puncture carries a danger of <b>haemorrhage</b> (spleen is a vascular organ; patients also have thrombocytopenia).</li>
+      <li><b>Buffy coat</b> (leucocyte/platelet layer after centrifugation of blood) is a <b>risk-free</b> method, and its <b>sensitivity and specificity are almost close to splenic aspirates</b> — hence it is the <b>preferred</b> method for diagnosis.</li>
+      <li>So we choose buffy coat over splenic aspirate because it is nearly as sensitive but much safer.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Buffy coat কি?</p><p class="ca">Blood centrifuge করলে plasma আর RBC-এর মাঝে leucocytes আর platelets-এর thin layer থাকে — তাকে buffy coat বলে। এই layer-এ macrophage থাকে যেখানে LD body থাকতে পারে।</p><p class="cq">Spleen puncture risk কি?</p><p class="ca">Spleen puncture-এ bleeding risk — patient-এর thrombocytopenia-ও আছে, spleen vascular organ — fatal hemorrhage হতে পারে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>স্প্লেনিক অ্যাসপিরেট &gt;৯৫% সেন্সিটিভ কিন্তু ব্লিডিং রিস্ক — স্প্লিন ভাসকুলার, থ্রম্বোসাইটোপেনিয়াও আছে।</p><p>বাফি কোট — রিস্ক-ফ্রি, সেন্সিটিভিটি প্রায় সমান। তাই প্রিফার্ড।</p><p>ভাইভায় — "অলমোস্ট সেম ইয়েল্ড, জিরো ব্লিডিং রিস্ক।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P72</span>
+      <p class="qtext">How will you recognize LD bodies in microscopy? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> blue cytoplasm, red nucleus, bright red kinetoplast</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>LD body</b> (Leishman–Donovan body) = the amastigote form of Leishmania donovani seen inside monocytes/macrophages. After <b>Leishman staining</b>:</p>
+      <ul>
+        <li><b>Cytoplasm: blue</b></li>
+        <li><b>Nucleus: pink / violet / slight red</b></li>
+        <li><b>Kinetoplast: bright red</b>, lying tangentially or at <b>right angle to the nucleus</b></li>
+      </ul>
+      <p>Small, oval/round body within macrophage cytoplasm; seen in splenic aspirate, buffy coat, bone marrow smears. (Other stains: Giemsa/Wright.)</p>
+      <p>The kinetoplast represents multiple copies of mitochondrial DNA (extrachromosomal, homologous to bacterial plasmid).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Kinetoplast কি?</p><p class="ca">Kinetoplast হলো mitochondrial DNA-র multiple copies — Leishmania আর Trypanosoma-এ থাকে। Amastigote-এ free flagellum নেই।</p><p class="cq">Amastigote-এ flagellum কি থাকে?</p><p class="ca">Amastigote-এ free flagellum নেই — flagellum internal, kinetoplast area-এ short থাকে। Promastigote-এ anterior flagellum free থাকে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>LD বডি = অ্যামাস্টিগোট। Leishman stain — ব্লু সাইটোপ্লাজম, পিঙ্ক নিউক্লিয়াস, ব্রাইট রেড কাইনেটোপ্লাস্ট (ডান এংগে)।</p><p>কাইনেটোপ্লাস্ট = মাইটোকন্ড্রিয়াল DNA। অ্যামাস্টিগোটে ফ্রি ফ্ল্যাজেলা নেই।</p><p>ভাইভায় — "ব্লু সাইটোপ্লাজম, পিঙ্ক নিউক্লিয়াস, ব্রাইট রেড কাইনেটোপ্লাস্ট অ্যাট রাইট অ্যাংগেল।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P73</span>
+      <p class="qtext">What do you mean by rk39 rapid test? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> recombinant kinetoplast 39 test is an ICT test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>rK39</b> = <b>recombinant Kinetoplast antigen-39</b> (a 39-amino acid repeat antigen cloned in E. coli from the kinesin protein of Leishmania major/chagasi).</li>
+      <li><b>ICT</b> = immunochromatographic test (lateral flow, strip-based).</li>
+      <li>The rK39 rapid test detects <b>antibodies</b> against rK39 antigen in the blood — highly <b>sensitive and specific for visceral leishmaniasis (Kala-azar)</b>.</li>
+      <li>It is a <b>rapid screening test</b> (most used in the field/Kala-azar elimination program) but <b>not confirmatory</b> — microscopy/PCR are confirmatory.</li>
+      <li>Less sensitive &amp; specific in <b>PKDL</b>.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">rK39-এর full form কি?</p><p class="ca">Recombinant kinetoplast antigen-39। 39-amino acid repeat antigen — Leishmania major/chagasi থেকে ক্লোন করা E. coli-তে।</p><p class="cq">rK39 positive হলে confirmatory কি?</p><p class="ca">Confirmatory নয় — positive হলে microscopy (LD body) আর PCR দিয়ে confirm করতে হয়। rK39 শুধু screening test।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>rK39 = রিকম্বিনান্ট কাইনেটোপ্লাস্ট ৩৯ অ্যান্টিজেন। ICT = স্ট্রিপ টেস্ট।</p><p>কালা-আজারে অ্যান্টিবডি ডিটেক্ট করে। হাইলি সেন্সিটিভ, কিন্তু কনফার্মেটরি নয়।</p><p>ভাইভায় — "rK39 ইজ র‍্যাপিড ICT স্ক্রিনিং টেস্ট ফর VL, নট কনফার্মেটরি।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P74</span>
+      <p class="qtext">Mention the locations of different morphological form of L. donovani. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> amastigote in human and promastigote in vector; amastigote in microscopy and promastigote in culture</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>Leishmania donovani exists in <b>two morphological forms</b>:</p>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Location</th><th>Morphological form</th><th>Features</th></tr>
+        <tr><td><b>In human</b> (tissue)</td><td><b>Amastigote</b> (LD body) — non-motile</td><td>Inside monocyte/macrophage; found in spleen, liver, bone marrow; pathogenic form</td></tr>
+        <tr><td><b>In vector (sandfly)</b></td><td><b>Promastigote</b> — motile (flagellate)</td><td>In the gut of sandfly; infective form</td></tr>
+        <tr><td><b>In microscopy</b> (smear of human material)</td><td><b>Amastigote</b></td><td>Leishman-stained LD bodies</td></tr>
+        <tr><td><b>In culture</b> (NNN medium)</td><td><b>Promastigote</b></td><td>Grows as flagellated promastigotes at 22–26°C</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Amastigote আর promastigote-এর difference কি?</p><p class="ca">Amastigote — non-motile, free flagellum নেই (internal), human-এ pathogenic। Promastigote — motile, single anterior flagellum, vector-এ infective form।</p><p class="cq">Culture-এ কোন form পাওয়া যায়?</p><p class="ca">NNN medium ২২-২৬°C-এ culture করলে promastigote grow হয়। Slow — ১-৪ সপ্তাহ লাগতে পারে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>L. donovani ২ ফর্ম: হিউমানে অ্যামাস্টিগোট (LD বডি, মনোসাইটে); ভেক্টরে প্রোমাস্টিগোট।</p><p>মাইক্রোস্কোপিতে অ্যামাস্টিগোট; কালচারে প্রোমাস্টিগোট।</p><p>ভাইভায় — "হিউমান + মাইক্রোস্কোপি = অ্যামাস্টিগোট; ভেক্টর + কালচার = প্রোমাস্টিগোট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P75</span>
+      <p class="qtext">Which morphological form of L. donovani is found in human and vector? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> amastigote in human and promastigote in vector</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>In human:</b> <b>amastigote</b> form (non-motile; inside monocyte/macrophage — LD body).</li>
+      <li><b>In vector (sandfly):</b> <b>promastigote</b> form (motile, flagellated).</li>
+    </ul>
+      <p>The sandfly injects promastigotes during a bite; they are phagocytosed by macrophages and transform into amastigotes, which multiply by binary fission.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Sandfly bite-এ কি inject হয়?</p><p class="ca">Sandfly promastigote inject করে bite-এ। Promastigote infective form। তারপর macrophage phagocytose করে, amastigote-এ convert হয়।</p><p class="cq">Amastigote কিভাবে macrophage-এ থাকে?</p><p class="ca">Amastigote macrophage-এর ভিতরে binary fission দিয়ে multiply করে। ৫০-২০০ organism হওয়ার পর macrophage rupture হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>হিউমানে — অ্যামাস্টিগোট (নন-মোটাইল, ম্যাক্রোফাজে)। ভেক্টরে — প্রোমাস্টিগোট (মোটাইল, ফ্ল্যাজেলেটেড)।</p><p>বাইটে প্রোমাস্টিগোট ইনজেক্ট হয় → ম্যাক্রোফাজ → অ্যামাস্টিগোট → বাইনারি ফিশন → ৫০-২০০ হলে রাপচার।</p><p>ভাইভায় — "হিউমান = অ্যামাস্টিগোট; ভেক্টর = প্রোমাস্টিগোট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P76</span>
+      <p class="qtext">Which morphological form of L. donovani is found during microscopy and culture? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> amastigote in microscopy and promastigote in culture</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>During microscopy</b> (smear of clinical sample — splenic aspirate, buffy coat, bone marrow): <b>amastigote</b> form (LD body) is found.</li>
+      <li><b>During culture</b> (NNN medium at 22–26°C, 1–4 weeks): <b>promastigote</b> forms develop and can be seen.</li>
+    </ul>
+      <p>So the same parasite looks like an amastigote in the direct smear but transforms into motile promastigotes in culture.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Culture-এ amastigote কেন থাকে না?</p><p class="ca">Culture-এ environmental condition different — temperature ২২-২৬°C, আর specific media (NNN) ব্যবহৃত হয় — এই condition-এ amastigote flagellated promastigote-এ transform হয়।</p><p class="cq">Microscopy gold standard কেন?</p><p class="ca">Microscopy direct smear থেকে LD body দেখা যায় — quick, cheap, confirmatory। Culture slow (১-৪ সপ্তাহ) আর routine-এ হয় না।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>মাইক্রোস্কোপিতে — অ্যামাস্টিগোট (LD বডি)। কালচারে — প্রোমাস্টিগোট।</p><p>ভাইভায় — "ইন স্মিয়ার: অ্যামাস্টিগোট; ইন NNN কালচার: প্রোমাস্টিগোট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P77</span>
+      <p class="qtext">What do you mean by PKDL? How will you diagnose a case of PKDL? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Post Kala-azar Dermal Leishmaniasis; sample: SSS (slit skin smear) and biopsy from nodule</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>PKDL = Post Kala-azar Dermal Leishmaniasis (dermal leishmanoid).</b> About 1–2 years after complete (and sometimes partial) treatment of visceral leishmaniasis/Kala-azar, ~5–10% (the md says about 5%) patients develop PKDL — the visceral infection disappears but a <b>local skin infection persists</b>.</p>
+      <p><b>Clinical features:</b></p>
+      <ul>
+        <li><b>Depigmented macules</b> — earliest lesion, on trunk and extremities</li>
+        <li><b>Erythematous patches</b> — butterfly erythema on face (early)</li>
+        <li><b>Yellowish-pink nodules</b> — replace earlier lesions, mainly on face</li>
+      </ul>
+      <p><b>Diagnosis of PKDL:</b></p>
+      <ol>
+        <li>History of Kala-azar + residence in endemic region + clinical features (macule, patch, nodule)</li>
+        <li><b>Sample collection: SSS (slit skin smear)</b> and <b>biopsy from the nodule</b> (skin biopsy); blood for serology</li>
+        <li><b>Screening:</b> rK39 ICT (less sensitive in PKDL than in Kala-azar)</li>
+        <li><b>Microscopy:</b> Leishman-stained smear → LD bodies (amastigote; blue cytoplasm, pink/red nucleus, bright red kinetoplast)</li>
+        <li><b>Molecular test:</b> PCR — confirmatory</li>
+      </ol>
+      <p>Differential: leprosy (sensory loss), pityriasis/tinea versicolor.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">PKDL treatment কি?</p><p class="ca">1st line — Miltefosine। 2nd line — Liposomal Amphotericin B (৪ months), Sodium Stibogluconate (SSG) ৬ months।</p><p class="cq">PKDL-কে leprosy থেকে কিভাবে differentiate করবেন?</p><p class="ca">Leprosy-এ sensory loss থাকে (anesthetic patches)। PKDL-তে sensory loss নেই — depigmented macule, erythematous patch, nodule। Skin biopsy আর SSS দিয়ে LD body দেখা যায়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>PKDL = Post Kala-azar Dermal Leishmaniasis (dermal leishmanoid)। ক্যালা-আজার ট্রিটমেন্টের ১-২ বছর পর, কখনো partial treatment-এর পর, ~৫-১০% patient-এ PKDL হয় — visceral infection সেরে যায় কিন্তু local skin infection থেকে যায়।</p><p>Clinical features — তিন ধরনের lesion: depigmented macules (trunk আর extremities-এ, এটা earliest lesion), erythematous patches (butterfly erythema মুখে, early), yellowish-pink nodules (পূর্বের lesions-কে replace করে, mainত মুখে)।</p><p>Diagnosis — history of Kala-azar + endemic residence + clinical features (macule, patch, nodule)। Sample: SSS (slit skin smear) আর nodule থেকে skin biopsy — blood serology-র জন্য। Screening — rK39 ICT, কিন্তু PKDL-এ Kala-azar-এর চেয়ে কম sensitive। Microscopy — Leishman-stained smear-এ LD bodies (amastigote: blue cytoplasm, pink/red nucleus, bright red kinetoplast)। Molecular — PCR confirmatory।</p><p>Differential — leprosy (sensory loss থাকে, PKDL-তে নেই), pityriasis/tinea versicolor।</p><p>Treatment — difficult: 1st line miltefosine; 2nd line liposomal Amphotericin B (৪ months), sodium stibogluconate (SSG) ৬ months। rK39 Kala-azar-এর চিকিৎসার পর ২+ বছর পজিটিভ থাকতে পারে।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

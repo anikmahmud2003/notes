@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2nd Term Comprehensive Notes — Index (SZMC)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+
+  .tgrid{display:flex;flex-direction:column;gap:10px;margin:14px 0 6px}
+  .tlink{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:baseline;
+         background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;
+         text-decoration:none;color:var(--ink);box-shadow:0 1px 4px rgba(15,30,50,.06);transition:transform .15s,box-shadow .15s}
+  .tlink:hover{transform:translateX(3px);box-shadow:0 3px 10px rgba(15,30,50,.12)}
+  .tlink .tno{font-weight:800;color:var(--primary);font-size:13px;grid-column:1;grid-row:1}
+  .tlink .tt{font-weight:700;font-size:17px;grid-column:2;grid-row:1}
+  .tlink .tq{font-size:12px;color:var(--muted);grid-column:3;grid-row:1;white-space:nowrap}
+  .tlink .td{grid-column:2/4;font-size:13.5px;color:var(--muted)}
+  .stat{cursor:default;opacity:.9;align-items:center}
+  .stat:hover{transform:none;box-shadow:0 1px 4px rgba(15,30,50,.06)}
+  @media (max-width:600px){.tlink{grid-template-columns:auto 1fr}.tlink .tq{grid-column:2}}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Comprehensive Notes — Index</h1>
+  <h2>Topic-wise split · Mycology · Parasitology · Virology · Molecular Biology</h2>
+  <div class="rule"></div>
+  <div class="meta">Click any topic to open its split page — all content unchanged (not a single letter)</div>
+  <div class="badges"><span class="badge">🟢 Mycology (33)</span><span class="badge">🟣 Parasitology (159)</span><span class="badge">🔴 Virology (140)</span><span class="badge">🔵 Molecular Biology &amp; Biosafety (18)</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Filter topics…" oninput="filterIndex(this.value)">
+      <span class="counter" id="shownCount">35 topics · 350 questions</span>
+    </div>
+    <div class="navlinks"><a href="../2nd_Term_Comprehensive_Notes.html">📄 Full notes (single file)</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+<div class="subject">
+  <div class="sec-head"><div class="num">⚗</div><div><h2>Mycology</h2><div class="en">M1–M33 · 33 questions</div></div></div>
+  <div class="tgrid">
+      <a class="tlink" href="Mycology-01-General-Mycology.html"><span class="tno">M1–M6</span><span class="tt">General Mycology</span><span class="tq">6 questions</span><span class="td">Fungus, cell wall &amp; cell membrane, spores, morphology, yeast vs mold, hyphae &amp; mycelium</span></a>
+      <a class="tlink" href="Mycology-02-Classification-Dermatophytes.html"><span class="tno">M7–M9</span><span class="tt">Classification &amp; Dermatophytes</span><span class="tq">3 questions</span><span class="td">Habitat-based classification, dimorphic fungi, dermatophytes &amp; their sites</span></a>
+      <a class="tlink" href="Mycology-03-Laboratory-Diagnosis.html"><span class="tno">M10–M15</span><span class="tt">Laboratory Diagnosis of Fungal Infections</span><span class="tq">6 questions</span><span class="td">Culture media (SDA), staining methods, KOH wet mount, mycotoxins</span></a>
+      <a class="tlink" href="Mycology-04-Systemic-Opportunistic-Fungi.html"><span class="tno">M16–M19</span><span class="tt">Systemic, Opportunistic &amp; Normal Flora Fungi</span><span class="tq">4 questions</span><span class="td">Systemic &amp; opportunistic agents, normal flora, gram-stainable fungi</span></a>
+      <a class="tlink" href="Mycology-05-Candidiasis.html"><span class="tno">M20–M24</span><span class="tt">Candidiasis &amp; Candida</span><span class="tq">5 questions</span><span class="td">Properties of Candida, lesions of C. albicans, predisposing factors, diagnosis, germ tube test</span></a>
+      <a class="tlink" href="Mycology-06-Cryptococcus-Pneumocystis-Aspergillus.html"><span class="tno">M25–M30</span><span class="tt">Cryptococcus, Pneumocystis &amp; Aspergillus</span><span class="tq">6 questions</span><span class="td">C. neoformans, Pneumocystis jiroveci, aspergillosis, black/white fungus, fungal ball, rose handler disease</span></a>
+      <a class="tlink" href="Mycology-07-Other-Clinical-Mycology.html"><span class="tno">M31–M33</span><span class="tt">Other Clinical Mycology</span><span class="tq">3 questions</span><span class="td">Id reaction, dematiaceous fungi, sexual &amp; asexual spores</span></a>
+  </div>
+</div>
+
+<div class="subject">
+  <div class="sec-head"><div class="num">🦠</div><div><h2>Parasitology</h2><div class="en">P1–P159 · 159 questions</div></div></div>
+  <div class="tgrid">
+      <a class="tlink" href="Parasitology-01-General-Parasite-Host.html"><span class="tno">P1–P13</span><span class="tt">General Parasitology — Parasite &amp; Host</span><span class="tq">13 questions</span><span class="td">Parasite definition &amp; classification, host classification, relationships, vectors</span></a>
+      <a class="tlink" href="Parasitology-02-General-Transmission-Clinical.html"><span class="tno">P14–P28</span><span class="tt">General Parasitology — Transmission &amp; Clinical</span><span class="tq">15 questions</span><span class="td">Transmission routes &amp; sources, organ-specific parasites, fever/anaemia/eosinophilia, premunition</span></a>
+      <a class="tlink" href="Parasitology-03-Protozoa-General.html"><span class="tno">P29–P40</span><span class="tt">Protozoa — General</span><span class="tq">12 questions</span><span class="td">Definition, criteria, classification by locomotion &amp; habitat, encystation/excystation</span></a>
+      <a class="tlink" href="Parasitology-04-Amoebiasis.html"><span class="tno">P41–P52</span><span class="tt">Amoebiasis &amp; Free-living Amoeba</span><span class="tq">12 questions</span><span class="td">E. histolytica lesions, sites, liver abscess, laboratory diagnosis, prevention, free-living amoeba</span></a>
+      <a class="tlink" href="Parasitology-05-Flagellates-Giardia-Trichomonas-Trypanosoma.html"><span class="tno">P53–P62</span><span class="tt">Flagellates — Giardia, Trichomonas &amp; Trypanosoma</span><span class="tq">10 questions</span><span class="td">Giardiasis &amp; steatorrhea, T. vaginalis, trypanosomiasis vectors &amp; diseases</span></a>
+      <a class="tlink" href="Parasitology-06-Leishmania-Kala-azar.html"><span class="tno">P63–P77</span><span class="tt">Leishmania &amp; Kala-azar</span><span class="tq">15 questions</span><span class="td">Leishmania species, old/new world, Kala-azar anaemia &amp; complications, LD bodies, PKDL</span></a>
+      <a class="tlink" href="Parasitology-07-Malaria-Sporozoa.html"><span class="tno">P78–P98</span><span class="tt">Malaria &amp; Other Sporozoa</span><span class="tq">21 questions</span><span class="td">Plasmodium species, life cycle, cerebral malaria, complications, Cryptosporidium, Toxoplasma, B. coli</span></a>
+      <a class="tlink" href="Parasitology-08-Cestodes.html"><span class="tno">P99–P116</span><span class="tt">Cestodes (Tapeworms)</span><span class="tq">18 questions</span><span class="td">Cestodes vs trematodes vs nematodes, T. solium/T. saginata, cysticercosis, hydatid cyst, D. latum anaemia</span></a>
+      <a class="tlink" href="Parasitology-09-Trematodes.html"><span class="tno">P117–P121</span><span class="tt">Trematodes (Flukes)</span><span class="tq">5 questions</span><span class="td">Characteristics, blood/liver/lung/intestinal flukes, schistosomiasis, cancer-causing parasites</span></a>
+      <a class="tlink" href="Parasitology-10-Nematodes-Intestinal.html"><span class="tno">P122–P146</span><span class="tt">Nematodes — General &amp; Intestinal Worms</span><span class="tq">25 questions</span><span class="td">Characteristics &amp; classification, ova of AL/AD/TT/EV, A. lumbricoides, hookworm anaemia, enterobiasis, S. stercoralis</span></a>
+      <a class="tlink" href="Parasitology-11-Filariasis-Tissue-Nematodes.html"><span class="tno">P147–P159</span><span class="tt">Filariasis &amp; Tissue Nematodes</span><span class="tq">13 questions</span><span class="td">Occult vs classical filariasis, W. bancrofti, periodicity, provocation test, chyluria, miscellaneous</span></a>
+  </div>
+</div>
+
+<div class="subject">
+  <div class="sec-head"><div class="num">🧫</div><div><h2>Virology</h2><div class="en">V1–V140 · 140 questions</div></div></div>
+  <div class="tgrid">
+      <a class="tlink" href="Virology-01-General-Virology-Structure.html"><span class="tno">V1–V15</span><span class="tt">General Virology — Structure &amp; Classification</span><span class="tq">15 questions</span><span class="td">Virus definition &amp; structure, envelope, defective forms, prions, virus resistance, ICTV &amp; Baltimore classification</span></a>
+      <a class="tlink" href="Virology-02-Virus-Lists.html"><span class="tno">V16–V22</span><span class="tt">Important Virus Lists</span><span class="tq">7 questions</span><span class="td">RNA &amp; DNA viruses, enveloped &amp; naked viruses, HPV &amp; Parvo B19 diseases</span></a>
+      <a class="tlink" href="Virology-03-Replication-CPE.html"><span class="tno">V23–V30</span><span class="tt">Viral Replication &amp; Cytopathic Effects</span><span class="tq">8 questions</span><span class="td">Replication steps, release mechanisms, early/late proteins, sites of replication, CPE</span></a>
+      <a class="tlink" href="Virology-04-Transmission-Persistence.html"><span class="tno">V31–V42</span><span class="tt">Transmission, Persistence &amp; Latency</span><span class="tq">12 questions</span><span class="td">Routes of transmission, organ-specific viruses, persistence, latent/chronic/slow infections</span></a>
+      <a class="tlink" href="Virology-05-Diagnosis-Antivirals-Vaccines.html"><span class="tno">V43–V54</span><span class="tt">Diagnosis, Cultivation, Antivirals &amp; Vaccines</span><span class="tq">12 questions</span><span class="td">Serology, viral cultivation, antiviral drugs, interferons, inclusion bodies, vaccine-preventable diseases</span></a>
+      <a class="tlink" href="Virology-06-Herpesvirus.html"><span class="tno">V55–V59</span><span class="tt">Herpesvirus Family</span><span class="tq">5 questions</span><span class="td">HSV-1/HSV-2 differences, CMV, EBV, latency sites</span></a>
+      <a class="tlink" href="Virology-07-Hepatitis.html"><span class="tno">V60–V75</span><span class="tt">Hepatitis Viruses</span><span class="tq">16 questions</span><span class="td">Hepatotropic viruses, comparison, seromarkers, window period, prevention, needle stick injury</span></a>
+      <a class="tlink" href="Virology-08-Immunity-Vaccines-Prophylaxis.html"><span class="tno">V76–V86</span><span class="tt">Immunity, Vaccines &amp; Prophylaxis</span><span class="tq">11 questions</span><span class="td">Opsonization, hypersensitivity, drug routes, endotoxin/exotoxin, toxoids, live vs killed vaccines</span></a>
+      <a class="tlink" href="Virology-09-Respiratory-Rash-Viruses.html"><span class="tno">V87–V98</span><span class="tt">Respiratory &amp; Rash Viruses</span><span class="tq">12 questions</span><span class="td">Influenza, orthomyxo vs paramyxo, antigenic drift/shift, measles, RSV, BCG vaccine</span></a>
+      <a class="tlink" href="Virology-10-Polio-Neurotropic-Viruses.html"><span class="tno">V99–V110</span><span class="tt">Polio &amp; Neurotropic Viruses</span><span class="tq">12 questions</span><span class="td">OPV vs IPV, poliomyelitis, flaccid/spastic paralysis, rabies &amp; PEP, encephalitis, herd immunity</span></a>
+      <a class="tlink" href="Virology-11-Rotavirus-HIV-STD.html"><span class="tno">V111–V124</span><span class="tt">Rotavirus, HIV/AIDS &amp; STDs</span><span class="tq">14 questions</span><span class="td">Rotavirus, HIV morphology/pathogenesis/diagnosis/treatment, vertical transmission, STDs, syphilis vs gonorrhea</span></a>
+      <a class="tlink" href="Virology-12-Dengue-Arboviruses.html"><span class="tno">V125–V129</span><span class="tt">Dengue &amp; Arboviruses</span><span class="tq">5 questions</span><span class="td">Dengue fever, pathogenesis, treatment &amp; prevention, Dengue vs Chikungunya, vector control</span></a>
+      <a class="tlink" href="Virology-13-Emerging-Infections-Corona.html"><span class="tno">V130–V136</span><span class="tt">Emerging &amp; Re-emerging Infections</span><span class="tq">7 questions</span><span class="td">SARS, MERS, COVID-19 — short notes &amp; differences</span></a>
+      <a class="tlink" href="Virology-14-Oncogenic-PPE-Biosafety.html"><span class="tno">V137–V140</span><span class="tt">Oncogenic Viruses, Biosafety &amp; PPE</span><span class="tq">4 questions</span><span class="td">Oncogenic viruses, p53/Rb tumour suppressors, PPE types, donning &amp; doffing</span></a>
+  </div>
+</div>
+
+<div class="subject">
+  <div class="sec-head"><div class="num">🧬</div><div><h2>Molecular Biology &amp; Biosafety</h2><div class="en">MB1–MB18 · 18 questions</div></div></div>
+  <div class="tgrid">
+      <a class="tlink" href="MolBio-01-Basics-Applications.html"><span class="tno">MB1–MB5</span><span class="tt">Molecular Biology — Basics &amp; Applications</span><span class="tq">5 questions</span><span class="td">What is molecular biology, applications, central dogma, genomics/transcriptomics/proteomics, biotechnology</span></a>
+      <a class="tlink" href="MolBio-02-Genetic-Engineering.html"><span class="tno">MB6–MB11</span><span class="tt">Genetic Engineering — Tools &amp; Techniques</span><span class="tq">6 questions</span><span class="td">Steps of genetic engineering, DNA cloning &amp; rDNA technology, vectors, hosts, CRISPR, gene therapy</span></a>
+      <a class="tlink" href="MolBio-03-Nucleic-Acid-Detection-PCR.html"><span class="tno">MB12–MB18</span><span class="tt">Nucleic Acid Detection &amp; PCR</span><span class="tq">7 questions</span><span class="td">Detection methods, PCR/RT-PCR/real-time PCR, principle, steps, uses, PCR vs qPCR</span></a>
+  </div>
+</div>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function filterIndex(term){
+    term=term.trim().toLowerCase();
+    const ls=document.querySelectorAll('.tlink');
+    let shown=0;
+    ls.forEach(l=>{const hit=l.textContent.toLowerCase().includes(term);l.style.display=hit?'':'none';if(hit)shown++;});
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+ls.length+' topics' : ls.length+' topics · 350 questions';
+  }
+</script></body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Systemic, Opportunistic & Normal Flora Fungi (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Systemic, Opportunistic &amp; Normal Flora Fungi</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">4 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">4 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-03-Laboratory-Diagnosis.html">‹ Prev</a><a href="Mycology-05-Candidiasis.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Systemic, Opportunistic &amp; Normal Flora Fungi</h2><div class="en">Systemic &amp; opportunistic agents, normal flora, gram-stainable fungi</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M16</span>
+      <p class="qtext">Name four (04) systemic mycotic agents. **** (remember the main dimorphic fungus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Remember the main dimorphic fungi</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Four systemic (deep) mycotic agents — all are dimorphic fungi:</b></p>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Systemic Fungus</th><th>Disease</th><th>Microscopy</th><th>Transmission</th></tr>
+        <tr><td><i>Histoplasma capsulatum</i></td><td>Histoplasmosis</td><td>Yeast within macrophages</td><td>Inhalation</td></tr>
+        <tr><td><i>Blastomyces dermatitidis</i></td><td>Blastomycosis</td><td>Yeast with single broad-based bud</td><td>Inhalation of microconidia</td></tr>
+        <tr><td><i>Coccidioides immitis</i></td><td>Coccidioidomycosis</td><td>Spherule filled with endospores</td><td>Inhalation of arthrospores</td></tr>
+        <tr><td><i>Paracoccidioides brasiliensis</i></td><td>Paracoccidioidomycosis</td><td>Yeast with multiple buds ("ship captain's wheel")</td><td>Inhalation</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Systemic mycosis‑এর pathogenesis কীভাবে?</p>
+      <p class="ca">Spore inhalation → lung‑এ yeast differentiation → বেশিরভাগ asymptomatic ও self‑limited; disseminate করলে tissue destruction এমনকি death‑ও হতে পারে।</p>
+      <p class="cq"><i>H. capsulatum</i> macrophage‑এর ভিতর কীভাবে বাঁচে?</p>
+      <p class="ca"><b>Phagolysosome</b>‑এর ভিতরে <b>bicarbonate ও ammonia</b> দিয়ে pH বাড়িয়ে survive করে।</p>
+      <p class="cq"><i>B. dermatitidis</i> আর <i>C. neoformans</i>‑এর bud দিয়ে পার্থক্য কী?</p>
+      <p class="ca"><i>B. dermatitidis</i>‑এর <b>broad‑based bud</b>, আর <i>C. neoformans</i>‑এর <b>narrow‑based bud</b> — এটাই key differentiator।</p>
+      <p class="cq"><i>C. immitis</i>‑এর tissue ও environment form কী?</p>
+      <p class="ca">Lung tissue‑এ spherule with endospores; environment‑এ arthrospore।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, systemic (deep) mycotic agent চারটি, আর সবগুলোই <b>dimorphic fungi</b>।</p>
+      <ol>
+        <li><i>Histoplasma capsulatum</i> — histoplasmosis; microscopy — <b>yeast within macrophage</b>; transmission — inhalation।</li>
+        <li><i>Blastomyces dermatitidis</i> — blastomycosis; <b>single broad‑based bud</b> –যুক্ত yeast; transmission — inhalation of microconidia।</li>
+        <li><i>Coccidioides immitis</i> — coccidioidomycosis; <b>spherule filled with endospores</b>; transmission — inhalation of arthrospores।</li>
+        <li><i>Paracoccidioides brasiliensis</i> — paracoccidioidomycosis; <b>multiple buds ("ship captain's wheel")</b>; transmission — inhalation।</li>
+      </ol>
+      <p>Pathogenesis — spore inhalation → lung‑এ yeast differentiation → বেশিরভাগ asymptomatic/self‑limited; disseminate করলে tissue destruction বা death। বিশেষ কথা — <i>H. capsulatum</i> phagolysosome‑এর ভিতরে <b>bicarbonate ও ammonia</b> দিয়ে pH বাড়িয়ে বাঁচে; bud morphologically <i>B. dermatitidis</i> broad‑based, <i>C. neoformans</i> narrow‑based; <i>C. immitis</i> tissue‑এ spherule, environment‑এ arthrospore।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M17</span>
+      <p class="qtext">Name five (05) opportunistic mycotic agents. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Candida, Cryptococcus, Aspergillus, Pneumocystis, Mucor/Rhizopus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Opportunistic fungi</b> normally do not cause disease in healthy individuals but cause infection when the immune system is weakened or impaired.</p>
+      <p><b>Five important opportunistic mycotic agents:</b></p>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Opportunistic Fungus</th><th>Disease</th><th>Morphology</th></tr>
+        <tr><td><i>Candida albicans</i></td><td>Candidiasis</td><td>Yeast with pseudohyphae</td></tr>
+        <tr><td><i>Cryptococcus neoformans</i></td><td>Cryptococcal meningitis / cryptococcosis</td><td>Yeast with large capsule</td></tr>
+        <tr><td><i>Aspergillus fumigatus</i></td><td>Aspergillosis</td><td>Mold with septate hyphae, V-shaped branches</td></tr>
+        <tr><td><i>Mucor</i> &amp; <i>Rhizopus</i></td><td>Mucormycosis (black fungus)</td><td>Mold with non-septate hyphae</td></tr>
+        <tr><td><i>Pneumocystis jiroveci</i></td><td>Pneumocystis pneumonia</td><td>Cysts (difficult to culture)</td></tr>
+      </tbody></table></div>
+      <p><i>Penicillium marneffei</i> is also an important opportunistic agent (penicilliosis).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Most common opportunistic fungus কোনটি?</p>
+      <p class="ca"><i>C. albicans</i> — সবচেয়ে common opportunistic fungus, আর <b>nosocomial fungal infection</b>‑এর সবচেয়ে common কারণও।</p>
+      <p class="cq"><i>C. neoformans</i>‑এর বিশেষত্ব কী?</p>
+      <p class="ca">এটাই <b>একমাত্র capsulated fungus</b>; transmission — inhalation; source — <b>pigeon droppings</b>।</p>
+      <p class="cq"><i>Aspergillus</i>‑এর morphology?</p>
+      <p class="ca">Septate hyphae, <b>dichotomous (V‑shaped) branching</b>; green conidia radiating chain‑এ।</p>
+      <p class="cq"><i>Mucor/Rhizopus</i>‑এর morphology?</p>
+      <p class="ca">Non‑septate hyphae, <b>right‑angle branching</b>; spore sporangium‑এর ভিতরে।</p>
+      <p class="cq"><i>P. jiroveci</i>‑র culture ও diagnosis note কী?</p>
+      <p class="ca">Culture difficult; <b>methenamine silver</b> বা <b>Giemsa</b> stain দিয়ে diagnosis; ELISA শুধু <b>epidemiological</b> উদ্দেশ্যে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>opportunistic fungi</b> হলো সেইসব fungus যারা healthy মানুষে disease করে না, কিন্তু immune system weakened/impaired হলে infection করে।</p>
+      <p>পাঁচটি important agent — <i>Candida albicans</i> (candidiasis; yeast with pseudohyphae), <i>Cryptococcus neoformans</i> (cryptococcal meningitis/cryptococcosis; yeast with large capsule), <i>Aspergillus fumigatus</i> (aspergillosis; mold, septate hyphae, V‑shaped branch), <i>Mucor</i> &amp; <i>Rhizopus</i> (mucormycosis/black fungus; mold, non‑septate hyphae), <i>Pneumocystis jiroveci</i> (pneumocystis pneumonia; cysts, culture difficult)। <i>Penicillium marneffei</i>‑ও গুরুত্বপূর্ণ opportunistic agent (penicilliosis)।</p>
+      <p>High‑yield দিক — <i>C. albicans</i> সবচেয়ে common opportunistic fungus ও nosocomial fungal infection‑এর কারণ; <i>C. neoformans</i> একমাত্র capsulated fungus, source pigeon droppings, transmission inhalation; <i>Aspergillus</i>‑এর dichotomous V‑shaped branching ও green conidia; <i>Mucor/Rhizopus</i>‑এর non‑septate hyphae ও right‑angle branching; <i>P. jiroveci</i> diagnosis methenamine silver/Giemsa, ELISA শুধু epidemiological উদ্দেশ্যে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M18</span>
+      <p class="qtext">Enumerate the fungi that can be present as normal flora. ** (Candida spp)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Candida spp</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b><i>Candida</i> species</b> (especially <i>C. albicans</i>) are the only fungi found as normal flora in the human body. They colonize:</p>
+      <ul>
+        <li><b>Gastrointestinal tract (GIT)</b></li>
+        <li><b>Upper Respiratory Tract</b></li>
+        <li><b>Female genital tract</b></li>
+      </ul>
+      <p><i>Candida albicans</i> is the most common opportunistic fungus. As a normal commensal, it causes disease when host defenses are weakened — making it an opportunistic pathogen.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>C. albicans</i>‑কে কেন "white fungus" বলা হয়?</p>
+      <p class="ca">কারণ oral thrush‑এ <b>white patches (pseudomembrane)</b> দেখা যায়।</p>
+      <p class="cq">Infant‑এ transmission কীভাবে হয়?</p>
+      <p class="ca"><b>Vertical transmission</b> — birth‑এর সময় heavily colonized birth canal দিয়ে।</p>
+      <p class="cq">অন্য কোন <i>Candida</i> species আছে?</p>
+      <p class="ca"><i>C. tropicalis</i>, <i>C. parapsilosis</i>, <i>C. glabrata</i>, <i>C. krusei</i>, <i>C. dubliniensis</i>।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, মানবদেহে <b><i>Candida</i> species</b> (বিশেষ করে <i>C. albicans</i>)‑ই <b>একমাত্র</b> fungus যা normal flora হিসেবে থাকে। এরা colonize করে — <b>GIT</b>, <b>উপরের respiratory tract</b> আর <b>female genital tract</b>‑এ।</p>
+      <p><i>Candida albicans</i> হলো সবচেয়ে common opportunistic fungus। Normal commensal হিসেবে host defense দুর্বল হলে disease করে — তাই এটা opportunistic pathogen।</p>
+      <p>"White fungus" বলা হয় oral thrush‑এর white patches (pseudomembrane)‑এর কারণে। Infant‑এ transmission vertical — birth canal দিয়ে। আরও species আছে — <i>C. tropicalis</i>, <i>parapsilosis</i>, <i>glabrata</i>, <i>krusei</i>, <i>dubliniensis</i>।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M19</span>
+      <p class="qtext">Enumerate the fungi that can take gram stain. ** (Candida take gram positive stain)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Candida takes gram positive stain</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b><i>Candida</i> species</b> (especially <i>C. albicans</i>) are the only fungi that take up Gram stain. They stain <b>Gram-positive</b>, appearing as gram-positive oval budding yeast cells and pseudohyphae.</p>
+      <p>Gram stain is generally NOT useful for other fungi — dermatophytes, <i>Aspergillus</i>, <i>Mucor</i>, <i>Cryptococcus</i>, etc. do not take Gram stain reliably.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Gram stain‑এ gram‑positive yeast with pseudohyphae দেখলে এর তাৎপর্য কী?</p>
+      <p class="ca">এটা candidiasis‑এর জন্য suggestive — অর্থাৎ <i>Candida</i> infection থাকতে পারে।</p>
+      <p class="cq">অন্য fungus‑এর জন্য কোন stain ব্যবহার হয়?</p>
+      <p class="ca">Specialized stain — calcofluor white, Lactophenol cotton blue, বা Indian ink।</p>
+      <p class="cq"><i>Cryptococcus</i>‑এর diagnosis কোন stain দিয়ে?</p>
+      <p class="ca"><b>Indian ink</b> (negative stain) দিয়ে — Gram stain নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, শুধু মাত্র <b><i>Candida</i> species</b> (বিশেষ করে <i>C. albicans</i>)‑ই Gram stain গ্রহণ করে, আর এরা <b>Gram‑positive</b> stain হয় — gram‑positive oval budding yeast cell ও pseudohyphae হিসেবে দেখা যায়।</p>
+      <p>অন্য fungus — dermatophytes, <i>Aspergillus</i>, <i>Mucor</i>, <i>Cryptococcus</i> ইত্যাদি — Gram stain নির্ভরযোগ্যভাবে গ্রহণ করে না। তাই Gram stain‑এ gram‑positive yeast with pseudohyphae দেখলে candidiasis suggestive। অন্য fungus‑এর জন্য specialized stain — calcofluor white, LPCB, বা Indian ink (<i>Cryptococcus</i>‑এর জন্য negative stain)।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

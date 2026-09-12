@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — General Parasitology — Transmission & Clinical (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>General Parasitology — Transmission &amp; Clinical</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">15 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">15 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-01-General-Parasite-Host.html">‹ Prev</a><a href="Parasitology-03-Protozoa-General.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>General Parasitology — Transmission &amp; Clinical</h2><div class="en">Transmission routes &amp; sources, organ-specific parasites, fever/anaemia/eosinophilia, premunition</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P14</span>
+      <p class="qtext">List the 05 different route of transmission of parasites with 02 examples of each. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> feco-oral (most common), vector-borne, sexual, vertical, autoinfection, blood transfusion</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Route</th><th>Examples</th></tr>
+        <tr><td><b>1. Feco-oral route</b> (most common) — ingestion of food/water/vegetables polluted with infected feces</td><td>E. histolytica (cyst), Ascaris lumbricoides (egg), Giardia lamblia</td></tr>
+        <tr><td><b>2. Vector-borne / arthropod bite</b></td><td>Plasmodium (Anopheles bite), Leishmania (sandfly bite), W. bancrofti (Culex bite)</td></tr>
+        <tr><td><b>3. Sexual contact</b></td><td>Trichomonas vaginalis</td></tr>
+        <tr><td><b>4. Vertical transmission</b> (mother to fetus)</td><td>Toxoplasma gondii (transplacental)</td></tr>
+        <tr><td><b>5. Autoinfection</b></td><td>Enterobius vermicularis, Strongyloides stercoralis, Hymenolepis nana</td></tr>
+        <tr><td>6. Blood transfusion</td><td>Plasmodium, Leishmania, Trypanosoma</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Autoinfection কত ধরনের?</p>
+      <p class="ca">Autoinfection দুই ধরনের — external (contaminated hand দিয়ে) এবং internal (reverse peristalsis দিয়ে)।</p>
+      <p class="cq">Skin penetration দিয়ে infection হয় এমন parasite কি কি?</p>
+      <p class="ca">Skin penetration দিয়ে hookworm এবং Strongyloides stercoralis-এর filariform larva ঢুকে infection করে। Schistosoma-র cercariaও skin দিয়ে ঢুকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Parasite transmission route ৫-৬টা আছে —</p>
+<ul>
+<li><b>Feco-oral</b> — সবচেয়ে common, infected feces যুক্ত পানি-খাবার খেলে হয়। Example — E. histolytica (cyst), Ascaris (egg), Giardia।</li>
+<li><b>Vector-borne</b> — মশা/sandfly bite দিয়ে। Example — Plasmodium (Anopheles), Leishmania (sandfly), W. bancrofti (Culex)।</li>
+<li><b>Sexual</b> — sexual contact দিয়ে। Example — Trichomonas vaginalis।</li>
+<li><b>Vertical</b> — মা থেকে fetus-এ, transplacental route। Example — Toxoplasma gondii।</li>
+<li><b>Autoinfection</b> — নিজের থেকে নিজেই। Example — Enterobius, Strongyloides, H. nana।</li>
+<li><b>Blood transfusion</b> — infected donor থাকলে। Example — Plasmodium, Leishmania, Trypanosoma।</li>
+</ul>
+<p>Autoinfection two types — external (haat দিয়ে) আর internal (reverse peristalsis)। Skin penetration-ও একটা route — hookworm, S. stercoralis (filariform larva), Schistosoma (cercaria)। প্রত্যেক route-তে ২টা করে example বলার চেষ্টা করো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P15</span>
+      <p class="qtext">List the sources of different types of parasitic infection. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mostly as route of transmission (soil/water, food, man-to-man, animal zoonoses, vector)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Source</th><th>Details &amp; examples</th></tr>
+        <tr><td><b>1. Contaminated soil</b></td><td>Soil polluted with human excreta containing eggs of hookworm, Ascaris, Trichuris (eggs mature in soil)</td></tr>
+        <tr><td><b>2. Contaminated water</b></td><td>Water containing cysts of E. histolytica or Giardia lamblia; water with Cyclops harbouring Dracunculus larvae; cercariae of Schistosoma in water penetrating skin</td></tr>
+        <tr><td><b>3. Food</b></td><td>Raw/undercooked food or vegetables with infective stages — cysts of E. histolytica, metacercariae of F. buski on aquatic plants, eggs of E. granulosus</td></tr>
+        <tr><td><b>4. Man (man-to-man)</b></td><td>Directly transmitted from one infected man to another — amoebiasis, enterobiasis</td></tr>
+        <tr><td><b>5. Animals (zoonoses)</b></td><td>Infection directly or indirectly transmitted from infected animals to man — e.g., E. granulosus (dog), Toxoplasma (cat)</td></tr>
+        <tr><td><b>6. Vector</b></td><td>Arthropod/insect transmitting infection — mosquito (Plasmodium, W. bancrofti), sandfly (Kala-azar), housefly (mechanical)</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Zoonoses কী?</p>
+      <p class="ca">Zoonoses মানে animals থেকে man-এ transmitted infection — যেমন E. granulosus (dog থেকে), Toxoplasma (cat থেকে)।</p>
+      <p class="cq">Contaminated soil-এ animal-এর feces থাকলেও কি infection হতে পারে?</p>
+      <p class="ca">হ্যাঁ, যেমন E. granulosus-এর eggs contaminated soil-এ থাকতে পারে এবং man-কে infect করতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Parasite infection কোথা থেকে আসে — source list করতে হবে।</p>
+<ul>
+<li><b>Contaminated soil</b> — যেখানে মানুষের মল গিয়ে থাকে, ওর পরে egg পাকে। যেমন hookworm, Ascaris, Trichuris-এর eggs।</li>
+<li><b>Contaminated water</b> — E. histolytica বা Giardia cyst যুক্ত পানি; Dracunculus সহ Cyclops; Schistosoma-র cercaria পানি থেকে skin penetrate করে।</li>
+<li><b>Food</b> — raw/undercooked খাবার, পানির ফলে F. buski-র metacercaria, E. granulosus egg।</li>
+<li><b>Man-to-man</b> — একজন infected man থেকে অন্যজনে — amoebiasis, enterobiasis।</li>
+<li><b>Animals (zoonoses)</b> — E. granulosus (dog), Toxoplasma (cat)।</li>
+<li><b>Vector</b> — mosquito (Plasmodium, W. bancrofti), sandfly (kala-azar), housefly (mechanical)।</li>
+</ul>
+<p>Zoonoses মানে animals থেকে man-এ সংক্রমণ। Motamuti source আর route একই ধারণা থেকে আসে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P16</span>
+      <p class="qtext">Name some parasites causing CNS infection. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> P. falciparum, T. gondii, free living amoeba</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Plasmodium falciparum</b> — cerebral malaria (occlusion of cerebral microvasculature).</li>
+      <li><b>Toxoplasma gondii</b> — toxoplasma encephalitis (esp. in immunocompromised/AIDS).</li>
+      <li><b>Free-living amoeba:</b>
+        <ul>
+          <li><b>Naegleria fowleri</b> — primary amoebic meningoencephalitis (PAM)</li>
+          <li><b>Acanthamoeba spp.</b> — granulomatous amoebic encephalitis</li>
+          <li><b>Balamuthia mandrillaris</b> — granulomatous amoebic encephalitis</li>
+          <li><b>Sappinia diploidea</b> — amoebic encephalitis</li>
+        </ul>
+      </li>
+      <li><b>Trypanosoma brucei</b> — African sleeping sickness (CNS involvement in late stage).</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Naegleria fowleri কীভাবে মানুষে infection করে?</p>
+      <p class="ca">Naegleria fowleri swimmers-দের warm fresh water-এ আক্রমণ করে — nasal mucosa দিয়ে brain-এ ঢুকে primary amoebic meningoencephalitis (PAM) করে।</p>
+      <p class="cq">Acanthamoeba আবার কোন disease করে?</p>
+      <p class="ca">Acanthamoeba granulomatous amoebic encephalitis করে, আর contact-lens users-এ amoebic keratitis করে।</p>
+      <p class="cq">Toxoplasmosis-এ tissue cyst সবচেয়ে বেশি কোথায় থাকে?</p>
+      <p class="ca">Toxoplasmosis-এ brain হলো tissue cysts-এর সবচেয়ে common site (chronic infection)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>CNS-এ infection করে এমন parasite —</p>
+<ul>
+<li><b>Plasmodium falciparum</b> — cerebral malaria, brain-এর microvasculature block হওয়ায়।</li>
+<li><b>Toxoplasma gondii</b> — toxoplasma encephalitis, বিশেষ করে immunocompromised/AIDS patient-এ।</li>
+<li><b>Free-living amoeba:</b>
+  <ul>
+    <li><b>Naegleria fowleri</b> — primary amoebic meningoencephalitis (PAM)। Swimmers-দের warm fresh water থেকে nasal mucosa দিয়ে ঢোকে।</li>
+    <li><b>Acanthamoeba</b> — granulomatous amoebic encephalitis + contact-lens users-এ amoebic keratitis।</li>
+    <li><b>Balamuthia mandrillaris</b> — granulomatous amoebic encephalitis।</li>
+    <li><b>Sappinia diploidea</b> — amoebic encephalitis।</li>
+  </ul>
+</li>
+<li><b>Trypanosoma brucei</b> — African sleeping sickness, late stage-এ CNS আক্রান্ত।</li>
+</ul>
+<p>Viva-তে বলবে — "Naegleria fowleri causes primary amoebic meningoencephalitis" আর "Toxoplasma brain cyst common"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P17</span>
+      <p class="qtext">Name three (03) vector borne parasitic diseases. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Leishmania, Plasmodium, W. bancrofti</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>#</th><th>Disease</th><th>Parasite</th><th>Vector</th></tr>
+        <tr><td>1</td><td><b>Malaria</b></td><td>Plasmodium spp.</td><td>Female Anopheles mosquito (biological)</td></tr>
+        <tr><td>2</td><td><b>Leishmaniasis / Kala-azar</b></td><td>Leishmania donovani</td><td>Sandfly (Phlebotomus argentipes) (biological)</td></tr>
+        <tr><td>3</td><td><b>Filariasis</b></td><td>Wuchereria bancrofti</td><td>Female Culex mosquito (biological)</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">আর কোন কোন vector-borne parasitic disease আছে?</p>
+      <p class="ca">অন্যান্য vector-borne disease — Chagas' disease (reduviid bug), African sleeping sickness (tsetse fly), onchocerciasis (black fly), loiasis (deer fly), babesiosis (Ixodid tick)।</p>
+      <p class="cq">Sandfly আর mosquito দিয়ে কোন কোন parasite আসে?</p>
+      <p class="ca">Sandfly bite দিয়ে Leishmania আসে; mosquito bite দিয়ে Plasmodium এবং W. bancrofti আসে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Vector-borne মানে কোনো arthropod বা insect-এর bite দিয়ে infection হয়। ৩টা বড় disease —</p>
+<ul>
+<li><b>Malaria</b> — Plasmodium spp., vector হলো female Anopheles mosquito (biological)।</li>
+<li><b>Leishmaniasis / Kala-azar</b> — Leishmania donovani, vector হলো sandfly (Phlebotomus argentipes) (biological)।</li>
+<li><b>Filariasis</b> — Wuchereria bancrofti, vector হলো female Culex mosquito (biological)।</li>
+</ul>
+<p>Vector আর parasite couple টা মনে রাখো: Anopheles-Plasmodium, Sandfly-Leishmania, Culex-W. bancrofti।</p>
+<p>অন্যান্য vector-borne — Chagas' disease (reduviid bug), African sleeping sickness (tsetse fly), onchocerciasis (black fly), loiasis (deer fly), babesiosis (Ixodid tick)।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P18</span>
+      <p class="qtext">Name parasites that cause infection by skin penetration. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Hook worm, S.S (Strongyloides stercoralis)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer AD NA SS</div>
+    <div class="bcontent b-ans"><p>Parasites entering the host by <b>penetration of the skin</b> (by <b>filariform larva</b> L3):</p>
+      <ul>
+        <li><b>Ancylostoma duodenale</b> (old world hookworm)</li>
+        <li><b>Necator americanus</b> (new world hookworm)</li>
+        <li><b>Strongyloides stercoralis</b> (small round worm)</li>
+      </ul>
+      <p>Also: <b>Schistosoma spp.</b> cercariae pierce the skin from water (skin penetration route for trematodes).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Skin penetration কখন ঘটে এবং কীভাবে লার্ভা ঢোকে?</p>
+      <p class="ca">যখন মানুষ খালি পায়ে damp/moist soil-এ হাঁটে; larva hydrolytic enzymes নিঃসরণ করে যা skin-এ প্রবেশে সাহায্য করে।</p>
+      <p class="cq">S. stercoralis-এর skin re-entry কী ঘটায়?</p>
+      <p class="ca">S. stercoralis-এর filariform larva-র repeated skin entry autoinfection/hyperinfection ঘটায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কিছু parasite skin penetrate করে ঢোকে। এদের filariform larva (L3) থাকে —</p>
+<ul>
+<li><b>Ancylostoma duodenale</b> — old world hookworm</li>
+<li><b>Necator americanus</b> — new world hookworm</li>
+<li><b>Strongyloides stercoralis</b> — small round worm</li>
+</ul>
+<p>এটা হয় কখন? যখন মানুষ damp/moist soil-এ খালি পা দিয়ে হাঁটে — larva hydrolytic enzymes নিঃসরণ করে skin penetrate করে। Schistosoma-র cercaria-ও পানি থেকে skin দিয়ে ঢোকে (trematode-র skin penetration route)।</p>
+<p>S. stercoralis-এর filariform larva-র repeated skin entry autoinfection/hyperinfection ঘটায় — immunocompromised-এ dangerous।</p>
+<p>Viva-তে বলবে — "skin penetration by filariform larva; barefoot walking on moist soil"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P19</span>
+      <p class="qtext">What are the parasites found in blood or peripheral blood film? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Leishmania: in monocyte or macrophage, Plasmodium: in RBC, W. bancrofti: in plasma</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Parasite</th><th>Where in blood</th></tr>
+        <tr><td><b>Plasmodium spp.</b></td><td>Inside <b>RBC</b> (ring, trophozoite, schizont, gametocyte)</td></tr>
+        <tr><td><b>Babesia microti</b></td><td>Inside <b>RBC</b> (resembles P. falciparum ring, tetrad/"maltese cross" arrangement)</td></tr>
+        <tr><td><b>Leishmania donovani</b></td><td>Inside <b>monocyte or macrophage</b> (amastigote / LD body)</td></tr>
+        <tr><td><b>Wuchereria bancrofti</b></td><td>In <b>plasma</b> (microfilariae)</td></tr>
+        <tr><td><b>Brugia malayi</b></td><td>In plasma (microfilariae)</td></tr>
+        <tr><td><b>Trypanosoma brucei / cruzi</b></td><td>In plasma (trypomastigote)</td></tr>
+      </tbody></table></div>
+      <p>Mnemonics of md: In RBC → Plasmodium &amp; Babesia; In WBC (monocyte/macrophage) → Leishmania; In plasma → Wuchereria (and Trypanosoma).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">P. falciparum-এ peripheral blood film-এ কোন stage দেখা যায়?</p>
+      <p class="ca">P. falciparum-এ শুধু ring trophozoites এবং banana/crescentic gametocytes PBF-তে দেখা যায়।</p>
+      <p class="cq">Babesia-র tetrad arrangement কেমন দেখায়?</p>
+      <p class="ca">Babesia-র tetrad arrangement দেখতে maltese cross-এর মতো।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Peripheral blood film-এ কী পাওয়া যায় — এটা বড় question। মনে রাখো ৩টা golden point —</p>
+<ul>
+<li><b>RBC-র ভিতর</b> পাওয়া যায় Plasmodium (ring, trophozoite, schizont, gametocyte) এবং Babesia microti (tetrad/maltese cross)।</li>
+<li><b>Monocyte/macrophage (WBC)-এর ভিতর</b> পাওয়া যায় Leishmania donovani (amastigote/LD body)।</li>
+<li><b>Plasma-তে</b> পাওয়া যায় Wuchereria bancrofti (microfilaria), Brugia malayi (microfilaria), আর Trypanosoma (trypomastigote)।</li>
+</ul>
+<p>P. falciparum-এ PBF-তে শুধু ring trophozoite আর banana/crescentic gametocyte দেখা যায়। এটা shuffled করে viva-তে জিজ্ঞেস করে — "Leishmania কোথায় থাকে? RBC না WBC?" — উত্তর — monocyte/macrophage-এ।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P20</span>
+      <p class="qtext">What do you mean by autoinfection? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> transmission by ownself</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Autoinfection:</b> when the patient himself carries the organism (parasite) and is <b>self-reinfected without requiring any external source</b>.</p>
+      <p><b>Two types:</b></p>
+      <ul>
+        <li><b>External autoinfection:</b> the parasite is transmitted to the same person by <b>contaminated hand</b> (e.g., hand-to-mouth after scratching the perianal region in enterobiasis).</li>
+        <li><b>Internal autoinfection:</b> the parasite reaches the same person by <b>reverse peristalsis</b> (e.g., retrograde migration of larva in enterobiasis, hyperinfection in strongyloidiasis).</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন কোন parasite-তে autoinfection দেখা যায়?</p>
+      <p class="ca">Autoinfection দেখা যায় — Enterobius vermicularis, Taenia solium, Cryptosporidium hominis, Strongyloides stercoralis, Hymenolepis nana।</p>
+      <p class="cq">Cross infection আর autoinfection-এর পার্থক্য কি?</p>
+      <p class="ca">Cross infection-এ organisms অন্য patient থেকে আসে (autoinfection-এর বিপরীত); autoinfection-এ একই ব্যক্তি নিজে থেকে reinfected হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Autoinfection মানে নিজের থেকেই নিজে আবার infection ধরে নেওয়া। এখানে কোনো external source দরকার হয় না — patient-ই নিজের infection নিজে বাড়িয়ে দেয়।</p>
+<p>Two types —</p>
+<ul>
+<li><b>External autoinfection</b> — contaminated hand দিয়ে। উদাহরণ — Enterobius patient রাতে perianal region scratch করে, তারপর হাত দিয়ে mouth-এ গেলে egg ঢোকে।</li>
+<li><b>Internal autoinfection</b> — reverse peristalsis দিয়ে। উদাহরণ — Enterobius-এ larval retrograde migration, strongyloidiasis-এ hyperinfection।</li>
+</ul>
+<p>যাদের মধ্যে ঘটে — E. vermicularis, T. solium, Cryptosporidium hominis, S. stercoralis, H. nana। Cross infection হলো অন্য patient থেকে আসা — তার বিপরীত।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P21</span>
+      <p class="qtext">Mention some parasites causing autoinfection. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> E. vermicularis, T. solium, H. nana, C. hominis, SS (Strongyloides stercoralis)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>Parasites causing <b>autoinfection</b> (self-reinfection without external source):</p>
+      <ul>
+        <li><b>Enterobius vermicularis</b> (external by hand-to-mouth + internal by retrograde migration)</li>
+        <li><b>Taenia solium</b> (ingestion of own eggs → cysticercosis)</li>
+        <li><b>Hymenolepis nana</b> (internal autoinfection — eggs hatch in the intestine itself)</li>
+        <li><b>Cryptosporidium hominis</b> (thin-walled oocysts cause autoinfection)</li>
+        <li><b>Strongyloides stercoralis</b> (filariform larva penetrates gut wall / perianal skin → hyperinfection)</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">S. stercoralis-এ hyperinfection বলতে কি বোঝায়?</p>
+      <p class="ca">S. stercoralis-এ hyperinfection = reinfection + autoinfection, immunocompromised patient-এ গুরুত্বপূর্ণ।</p>
+      <p class="cq">C. hominis-এর দুটি oocyst ধরন কি কি?</p>
+      <p class="ca">C. hominis-এ thick-walled oocysts (৮০%) stool-এ বেরিয়ে যায়; thin-walled (২০%) autoinfection ঘটায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Autoinfection করে এমন parasite-এর নাম ৫টা —</p>
+<ul>
+<li><b>Enterobius vermicularis</b> — external (hand-to-mouth) + internal (retrograde migration) দুইভাবে।</li>
+<li><b>Taenia solium</b> — নিজের egg খেলে cysticercosis।</li>
+<li><b>Hymenolepis nana</b> — internal autoinfection, intestine-এই egg hatch করে।</li>
+<li><b>Cryptosporidium hominis</b> — thin-walled oocysts (২০%) autoinfection ঘটায়; thick-walled (৮০%) stool-এ যায়।</li>
+<li><b>Strongyloides stercoralis</b> — filariform larva gut wall/perianal skin দিয়ে re-enter করে hyperinfection ঘটায়।</li>
+</ul>
+<p>প্রথম letter মনে রাখো — E, T, H, C, SS। S. stercoralis-এ hyperinfection = reinfection + autoinfection, বিশেষ করে immunocompromised-এ danger।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P22</span>
+      <p class="qtext">Name the parasite causing sexually transmitted disease. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. vaginalis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Trichomonas vaginalis</b> — causes trichomoniasis, a sexually transmitted infection (STI). It is transmitted by sexual contact with the infective form, the <b>trophozoite</b>.</p>
+      <p>Disease in female: vulvovaginitis (frothy yellow-green, foul-smelling discharge), strawberry cervix, dysuria; in male: usually asymptomatic, urethritis, prostatitis, epididymitis.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Vaginal discharge-এর তিনটি common infectious cause কি কি?</p>
+      <p class="ca">তিনটি common cause — Gardnerella vaginalis (BV), Candida albicans (VVC), Trichomonas vaginalis (trichomoniasis)।</p>
+      <p class="cq">Trichomoniasis-এর বৈশিষ্ট্য কি?</p>
+      <p class="ca">Frothy yellow-green discharge + pH &gt;4.5 + wet mount-এ motile trophozoites।</p>
+      <p class="cq">Trichomonas infection-এ partner-এর চিকিৎসা করা প্রয়োজন কেন?</p>
+      <p class="ca">কেননা partner-কে চিকিৎসা না করলে reinfection হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>STD (sexually transmitted disease) ঘটানো protozoan হলো <b>Trichomonas vaginalis</b>।</p>
+<p>Transmission sexual contact দিয়ে — infective form হলো <b>trophozoite</b>; এটার cyst নেই, শুধু trophozoite form-ই আছে।</p>
+<p>Female-এ vulvovaginitis হয় — frothy yellow-green, foul-smelling discharge, strawberry cervix, dysuria। Male-এ mostly asymptomatic, কিন্তু urethritis, prostatitis, epididymitis হতে পারে।</p>
+<p>Vaginal discharge-এর ৩টা common infectious cause — Gardnerella vaginalis (BV), Candida albicans (VVC), Trichomonas vaginalis (trichomoniasis)।</p>
+<p>Trichomoniasis diagnosis — frothy yellow-green discharge + pH &gt;4.5 + wet mount-এ motile trophozoites। Partner-কেও চিকিৎসা করতে হবে নাহলে reinfection হবে। Viva-তে বলবে — "transmission sexual route, infective form trophozoite।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P23</span>
+      <p class="qtext">Name the parasite causing congenital infection. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> T. gondii</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Toxoplasma gondii</b> — causes congenital toxoplasmosis by <b>transplacental transmission of tachyzoites</b> from an infected mother to the fetus.</p>
+      <p>Consequences of congenital toxoplasmosis: repeated abortion, stillbirth, infertility; in neonate — encephalitis, hepatosplenomegaly, mental retardation, blindness. (Also hydrocephalus, chorioretinitis — classic triad.)</p>
+      <p>Note: first-trimester infection → less common but severe disease; third trimester → more common but milder.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Toxoplasma কোন group-এর অন্তর্গত?</p>
+      <p class="ca">Toxoplasma TORCH group-এর T (Toxoplasma, Others, Rubella, CMV, HSV-2)।</p>
+      <p class="cq">Tachyzoites কী এবং কীভাবে transmission হয়?</p>
+      <p class="ca">Tachyzoites হলো acute infection-এ rapidly multiplying form — এগুলো transplacentally transmitted হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Congenital infection মানে মা থেকে fetus-এর infection। Parasite-দের মধ্যে এটা করে <b>Toxoplasma gondii</b>।</p>
+<p>Mechanism — transplacental transmission of <b>tachyzoites</b> (acute infection-এ rapidly multiplying form) infected mother থেকে fetus-এ।</p>
+<p>ফলাফল — repeated abortion, stillbirth, infertility; neonate-এ — encephalitis, hepatosplenomegaly, mental retardation, blindness, hydrocephalus, chorioretinitis (classic triad)।</p>
+<p>গুরুত্বপূর্ণ — first-trimester infection → কম common কিন্তু severe; third trimester → বেশি common কিন্তু milder।</p>
+<p>Toxoplasma হলো TORCH group-এর T — Toxoplasma, Others, Rubella, CMV, HSV-2 — এটা সাথে মনে থাকবে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P24</span>
+      <p class="qtext">Name some opportunistic parasites. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> C. hominis, T. gondii, SS (S. stercoralis), Isospora</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Opportunistic parasites</b> (cause disease especially in immunocompromised / AIDS patients):</p>
+      <ul>
+        <li><b>Cryptosporidium hominis / parvum</b> — severe watery diarrhoea in AIDS (almost 100%)</li>
+        <li><b>Toxoplasma gondii</b> — toxoplasma encephalitis in AIDS</li>
+        <li><b>Strongyloides stercoralis</b> — hyperinfection in immunosuppression</li>
+        <li><b>Isospora belli</b> — diarrhoea in AIDS</li>
+        <li><b>Cyclospora cayetanensis</b> — diarrhoea</li>
+        <li><b>Microsporidia</b> — diarrhoea in immunocompromised</li>
+        <li><b>Free-living amoeba</b> (Acanthamoeba, Balamuthia)</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">C. hominis-এর দুটি oocyst ধরন কি কি?</p>
+      <p class="ca">C. hominis-এ thick-walled oocyst (৮০%) stool-এ বেরিয়ে যায়, thin-walled (২০%) autoinfection ঘটায়।</p>
+      <p class="cq">HIV-এর সাথে কোন parasite infection সবচেয়ে বেশি জিজ্ঞেস হয়?</p>
+      <p class="ca">HIV opportunistic infections favorite viva topic — Crypto এবং Toxoplasma list-এর উপরে থাকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Opportunistic parasite মানে — normal immune থাকলে infection করে না, কিন্তু immunocompromised / AIDS patient-এ গিয়ে গুরুতর infection করে।</p>
+<p>List —</p>
+<ul>
+<li><b>Cryptosporidium hominis / parvum</b> — AIDS-এ severe watery diarrhoea (প্রায় ১০০%)</li>
+<li><b>Toxoplasma gondii</b> — toxoplasma encephalitis in AIDS</li>
+<li><b>Strongyloides stercoralis</b> — hyperinfection in immunosuppression</li>
+<li><b>Isospora belli</b> — diarrhoea in AIDS</li>
+<li><b>Cyclospora cayetanensis</b> — diarrhoea</li>
+<li><b>Microsporidia</b> — diarrhoea in immunocompromised</li>
+<li><b>Free-living amoeba</b> (Acanthamoeba, Balamuthia)</li>
+</ul>
+<p>Viva-তে বলবে — "these parasites mainly cause disease in HIV/AIDS patients"। C. hominis-এ thick-walled oocyst (৮০%) stool-এ যায়, thin-walled (২০%) autoinfection করে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P25</span>
+      <p class="qtext">Name three (03) parasites causing fever. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Leishmania, Plasmodium, E. histolytica: amoebic liver abscess</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Plasmodium spp.</b> — malarial fever (tertian/quartan cyclic pattern)</li>
+      <li><b>Leishmania donovani</b> — Kala-azar: irregular fever rising in 24 hrs with afebrile periods, &gt;15 days duration</li>
+      <li><b>Entamoeba histolytica</b> — fever in amoebic liver abscess (hepatic amoebiasis)</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Trypanosoma brucei কী ধরনের fever দেয়?</p>
+      <p class="ca">Trypanosoma brucei antigenic variation-এর কারণে প্রতি ৭-১০ দিন পরপর cyclical fever দেয়।</p>
+      <p class="cq">Kala-azar-এর fever কী বৈশিষ্ট্যের?</p>
+      <p class="ca">Kala-azar fever ২৪ ঘণ্টার মধ্যে rises, মাঝে afebrile period থাকে, &gt;১৫ দিন স্থায়ী হয়; endemic area-তে ২ মাসের history থাকে।</p>
+      <p class="cq">Amoebic dysentery-র stool-এ কী crystal দেখা যায়?</p>
+      <p class="ca">Amoebic dysentery-র stool-এ Charcot–Leyden crystals দেখা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Fever দেয় এমন ৩টা parasite —</p>
+<ul>
+<li><b>Plasmodium</b> — malarial fever, cyclic pattern (tertian ৪৮ ঘণ্টা / quartan ৭২ ঘণ্টা)।</li>
+<li><b>Leishmania donovani</b> — Kala-azar-এর fever, irregular, ২৪ ঘণ্টায় rise আর মাঝে afebrile period, &gt;১৫ দিন স্থায়ী।</li>
+<li><b>Entamoeba histolytica</b> — amoebic liver abscess (hepatic amoebiasis)-এ fever হয়।</li>
+</ul>
+<p>Trypanosoma brucei-ও fever দেয় — antigenic variation-এর কারণে প্রতি ৭-১০ দিন cyclical। Kala-azar fever-এ endemic area-এর H/O ২ মাস থাকে। Amoebic dysentery-র stool-এ Charcot–Leyden crystals থাকে।</p>
+<p>Viva-তে ৩টা নাম বলে একটা করে ছোট explanation দাও।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P26</span>
+      <p class="qtext">Mention five (05) anaemia causing parasites. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> both Hook worm, fish tapeworm, Leishmania and Plasmodium</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer : PL AND</div><div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Parasite</th><th>Type of anaemia</th><th>Mechanism</th></tr>
+        <tr><td><b>Plasmodium spp.</b></td><td>Microcytic hypochromic or normocytic normochromic</td><td>RBC lysis (parasite induced + autoimmune + splenic removal)</td></tr>
+        <tr><td><b>Leishmania donovani</b></td><td>Normocytic normochromic</td><td>BM hypoplasia (crowding of macrophages), haemolysis, anti-red cell antibody</td></tr>
+        <tr><td><b>Ancylostoma duodenale</b> (hookworm)</td><td>Microcytic hypochromic (iron deficiency), rarely dimorphic</td><td>Chronic blood loss (0.2 ml/worm/day) + anticoagulant</td></tr>
+        <tr><td><b>Necator americanus</b> (hookworm)</td><td>Microcytic hypochromic</td><td>Chronic blood loss (0.03 ml/worm/day)</td></tr>
+        <tr><td><b>Diphyllobothrium latum</b> (fish tapeworm)</td><td>Macrocytic / megaloblastic (pernicious)</td><td>Interferes with intrinsic factor → B12 malabsorption; also consumes B12</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Dimorphic anaemia কী?</p>
+      <p class="ca">Dimorphic anaemia মানে দুই morphological form (microcytic + macrocytic) একসাথে — hookworm-এ দেখা যায়।</p>
+      <p class="cq">A. duodenale কেন N. americanus-এর চেয়ে বেশি anaemia করে?</p>
+      <p class="ca">কারণ A. duodenale-র ৬টা teeth, বড় size, বেশি migratory, আর বেশি blood loss (0.2 ml/worm/day বনাম 0.03)।</p>
+      <p class="cq">Ancylostoma-র কতগুলো worm প্রতিদিন কতটা blood নেয়?</p>
+      <p class="ca">প্রায় ১২টা A. duodenale worm ≈ প্রতিদিন ১% blood loss করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Anaemia দেয় এমন ৫টা parasite —</p>
+<ul>
+<li><b>Plasmodium</b> — microcytic hypochromic বা normocytic normochromic anaemia — RBC lysis (parasite-induced + autoimmune + splenic removal)।</li>
+<li><b>Leishmania donovani</b> — normocytic normochromic — BM hypoplasia (macrophage crowding), haemolysis, anti-red cell antibody।</li>
+<li><b>Ancylostoma duodenale</b> (hookworm) — microcytic hypochromic (iron deficiency), rarely dimorphic — chronic blood loss (0.2 ml/worm/day) + anticoagulant।</li>
+<li><b>Necator americanus</b> (hookworm) — microcytic hypochromic — chronic blood loss (0.03 ml/worm/day)।</li>
+<li><b>Diphyllobothrium latum</b> (fish tapeworm) — macrocytic/megaloblastic (pernicious) — intrinsic factor-এ interfere আর B12 consume করে।</li>
+</ul>
+<p>A. duodenale N. americanus-এর চেয়ে বেশি blood loss করে (বড়, বেশি teeth), তাই বেশি anaemia। Dimorphic anaemia = microcytic + macrocytic একসাথে। প্রত্যেকটার anaemia type viva-তে বলতে পারলে ভালো মার্কস।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P27</span>
+      <p class="qtext">Name 05 important parasites which contribute eosinophilia. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> W. bancrofti, E. granulosus, T. solium, A. lumbricoides, A. duodenale, parasites causing tissue infection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Wuchereria bancrofti</b> — filariasis (marked eosinophilia)</li>
+      <li><b>Echinococcus granulosus</b> — hydatid disease (marked eosinophilia)</li>
+      <li><b>Taenia solium</b> — cysticercosis (tissue infection)</li>
+      <li><b>Ascaris lumbricoides</b> — during larval migration (Loeffler's syndrome, massive eosinophilia up to 20%)</li>
+      <li><b>Ancylostoma duodenale</b> — hookworm infection</li>
+    </ul>
+      <p>Principle: invasive/tissue parasites (especially those migrating through tissues) stimulate eosinophilia; lumen-dwelling adult parasites cause less.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Eosinophils কীভাবে parasite-কে আক্রমণ করে?</p>
+      <p class="ca">Eosinophils parasite-কে ingest করে না — এরা parasite-এর surface-এ attach করে granules discharge করে (secreted contents parasite-এর জন্য toxic)।</p>
+      <p class="cq">Ascaris larval migration-এ Loeffler's syndrome কী?</p>
+      <p class="ca">Loeffler's syndrome — low grade fever, dry cough, blood-tinged sputum, urticaria, massive eosinophilia (২০% পর্যন্ত)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Eosinophilia মানে blood-এ eosinophil বেড়ে যাওয়া। Tissue বা migrating parasite গুলোই বেশি eosinophilia দেয় — invasive/tissue parasites (বিশেষত যারা tissue-এ migrate করে) eosinophilia stimulate করে; lumen-dwelling adult parasites কম করে।</p>
+<p>নাম ৫টা —</p>
+<ul>
+<li><b>Wuchereria bancrofti</b> — filariasis, marked eosinophilia</li>
+<li><b>Echinococcus granulosus</b> — hydatid disease, marked eosinophilia</li>
+<li><b>Taenia solium</b> — cysticercosis (tissue infection)</li>
+<li><b>Ascaris lumbricoides</b> — larval migration-এ Loeffler's syndrome, massive eosinophilia (২০% পর্যন্ত)</li>
+<li><b>Ancylostoma duodenale</b> — hookworm</li>
+</ul>
+<p>Loeffler's syndrome — low grade fever, dry cough, blood-tinged sputum, urticaria, massive eosinophilia। Eosinophils ingest করে না, attach করে granules discharge করে — এটাও বলতে পারো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P28</span>
+      <p class="qtext">Define premunition. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Plasmodium and Schistosoma</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Premunition</b> (concomitant immunity): a type of immunity in which there is <b>relative resistance to re-infection while the host still carries the existing parasites</b>. It does not eliminate the present infection, but partially protects the patient against a fresh (re-)infection.</p>
+      <ul>
+        <li>If the immune system is suppressed, the infection flares up and symptoms reappear.</li>
+        <li>With complete cure (elimination of the parasite), premunition disappears.</li>
+        <li>Seen in <b>malaria</b> (mostly falciparum) and <b>schistosomiasis</b>.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Malaria-তে premunition কতদিন থাকে?</p>
+      <p class="ca">Malaria-তে erythrocytic parasites যতদিন survive করে ততদিন premunition persists; total removal হলে immunity gone।</p>
+      <p class="cq">Schistosomiasis-এ immune response কীভাবে কাজ করে?</p>
+      <p class="ca">Schistosomiasis-এ immune response adult worms-কে kill করে না, কিন্তু re-invading schistosomulae-কে kill করতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Premunition (concomitant immunity) মানে — যে infection আগে থেকে আছে, সেটা থাকা অবস্থাতেই নতুন/re-infection থেকে কিছুটা protection থাকে।</p>
+<p>এটা present infection-কে eliminate করে না, কিন্তু fresh re-infection-এর বিরুদ্ধে partial protection দেয়।</p>
+<p>গুরুত্বপূর্ণ point — immune system suppressed হলে infection flare up করে, symptoms আবার আসে; আর parasite সম্পূর্ণ cure করলে premunition disappears।</p>
+<p>Seen in — malaria (বেশি falciparum) এবং schistosomiasis। Malaria-তে erythrocytic parasite যতদিন থাকে ততদিন premunition থাকে; total removal করলে gone। Schistosomiasis-এ immune response adult worm kill করে না কিন্তু re-invading schistosomulae kill করতে পারে।</p>
+<p>সংক্ষেপে বলবে — "concomitant immunity while infection persists"।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

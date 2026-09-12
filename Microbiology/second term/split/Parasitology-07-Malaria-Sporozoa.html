@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Malaria & Other Sporozoa (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Malaria &amp; Other Sporozoa</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">21 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">21 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-06-Leishmania-Kala-azar.html">‹ Prev</a><a href="Parasitology-08-Cestodes.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Malaria &amp; Other Sporozoa</h2><div class="en">Plasmodium species, life cycle, cerebral malaria, complications, Cryptosporidium, Toxoplasma, B. coli</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P78</span>
+      <p class="qtext">List the diseases produced by different species of Plasmodium. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> P. vivax (benign tertian), P. falciparum (malignant tertian), P. malariae (benign quartan), P. ovale (ovale tertian), P. knowlesi (quotidian)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>#</th><th>Plasmodium species</th><th>Type of malaria</th></tr>
+        <tr><td>1</td><td><b>P. vivax</b></td><td><b>Benign tertian malaria</b> (fever every 48 hours)</td></tr>
+        <tr><td>2</td><td><b>P. falciparum</b></td><td><b>Malignant tertian malaria</b> (fever every 48 hours, with complications)</td></tr>
+        <tr><td>3</td><td><b>P. malariae</b></td><td><b>Benign quartan malaria</b> (fever every 72 hours) 3 din por por 4th day</td></tr>
+        <tr><td>4</td><td><b>P. ovale</b></td><td><b>Ovale tertian malaria</b></td></tr>
+        <tr><td>5</td><td><b>P. knowlesi</b></td><td><b>Quotidian malaria</b> (fever every 24 hours)</td></tr>
+      </tbody></table></div>
+      <p>"Malaria" is from "mal" (bad) + "aria" (air) — from the ancient false belief of spread by polluted air.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Tertian fever মানে কি?</p><p class="ca">Tertian fever = প্রতি ৩য় দিন fever peak করে — 2-day cycle (৪৮ hours)। Vivax, falciparum, ovale — সব tertian। Quartan = প্রতি ৪র্থ দিন (৭২ hours) — malariae।</p><p class="cq">Quotidian malaria কি?</p><p class="ca">Quotidian = daily fever (২৪ hours) — P. knowlesi। Mixed infection (P. falciparum + P. vivax)-এও quotidian pattern হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Plasmodium — P. vivax (বেনিন টারশিয়ান, ৪৮ ঘণ্টা), P. falciparum (ম্যালিগন্যান্ট টারশিয়ান, ৪৮ ঘণ্টা, বিপজ্জনক), P. malariae (বেনিন কোয়ার্টান, ৭২ ঘণ্টা), P. ovale (ওভাল টারশিয়ান), P. knowlesi (কোয়োটিডিয়ান, ২৪ ঘণ্টা)।</p><p>ভাইভায় — "ভিভাক্স = বেনিন টারশিয়ান, ফালসিপারাম = ম্যালিগন্যান্ট, ম্যালেরিয়াই = কোয়ার্টান; নোওলেসি = ডেইলি।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P79</span>
+      <p class="qtext">Name the malarial parasites common in Bangladesh. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> hilly: P. falciparum, all: P. vivax</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>P. falciparum</b> — most common in Bangladesh, especially in <b>hilly/chittagong hill tract areas</b>.</li>
+      <li><b>P. vivax</b> — found <b>all over the country</b> (throughout Bangladesh).</li>
+      <li>Others (P. malariae, P. ovale) are rare in Bangladesh.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">P. falciparum কেন dangerous?</p><p class="ca">Complications বেশি (cerebral malaria, blackwater fever), drug resistance বেশি, আর anaemia বেশি (সব বয়সের RBC infect করে)।</p><p class="cq">P. vivax-এ relapse কেন হয়?</p><p class="ca">কারণ vivax-এ hypnozoites liver-এ dormant থাকে। Immunity কমলে আবার activate হয়ে নতুন attack করে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>বাংলাদেশে — P. falciparum (সবচেয়ে কমন, হিলি এরিয়া, বিপজ্জনক) আর P. vivax (সব জায়গায়, রিলাপ্স হয়)।</p><p>ভাইভায় — "ফালসিপারাম ইন হিলি এরিয়াস; ভিভাক্স অল ওভার।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P80</span>
+      <p class="qtext">How malaria is transmitted? What is the infective form? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Vector: bite of female Anopheles mosquito; infective form: sporozoite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Mode of transmission:</b> bite of <b>female Anopheles mosquito</b> (biological vector). During the bite, sporozoites are injected with saliva.</li>
+      <li><b>Infective form for man: sporozoite</b>.</li>
+      <li>Other modes: <b>blood transfusion</b> (donor with malaria; parasites viable 1–2 weeks in blood bank) — infective form trophozoite/schizont/merozoite (NOT sporozoite); <b>congenital</b> transmission (rare); needle sharing.</li></ul><div><p class="cq"><b>* Transfusion malaria-তে relapse কেন হয় না?</b></p><p class="ca"><b>কারণ pre-erythrocytic schizogony আর hypnozoites formation হয় না — liver stage completely absent। তাই relapse mechanism নেই।</b></p><br></div><ul>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Transfusion malaria-তে infective form কি?</p><p class="ca">Transfusion malaria-তে infective form trophozoite/schizont/merozoite — sporozoite নয়। কারণ liver stage sidestep হয়, তাই relapse-ও হয় না।</p><p class="cq">Transfusion malaria-তে relapse কেন হয় না?</p><p class="ca">কারণ pre-erythrocytic schizogony আর hypnozoites formation হয় না — liver stage completely absent। তাই relapse mechanism নেই।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ট্রান্সমিশন — ফিমেল Anopheles বাইট। ইনফেকটিভ — sporozoite।</p><p>ট্রান্সফিউশনে — ইনফেকটিভ ট্রোফোজোয়িট/মেরোজোয়েট (স্পোরোজোয়েট নয়)। রিলাপ্স হয় না।</p><p>ভাইভায় — "ট্রান্সফিউশন ম্যালেরিয়া: ইনফেকটিভ ট্রোফোজোয়িট, নট sporozoite।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P81</span>
+      <p class="qtext">Mention the host of malaria. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mosquito definitive host, man intermediate host</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Definitive host:</b> female <b>Anopheles mosquito</b> — sexual cycle (sporogony) occurs here.</li>
+      <li><b>Intermediate host:</b> <b>man</b> — asexual cycle (schizogony) occurs here.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Definitive host আর intermediate host-এর difference কি?</p><p class="ca">Definitive host-এ sexual cycle হয়। Intermediate host-এ asexual cycle হয়। Malaria-তে mosquito-এ sexual cycle, man-এ asexual।</p><p class="cq">Sporogony কি?</p><p class="ca">Mosquito-র body-তে gamete fusion হয়ে zygote → ookinete → oocyst → sporozoite (১০০-১০০০টি) salivary gland-এ চলে যায় — একে sporogony বলে (sexual cycle)।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ডেফিনিটিভ হোস্ট — ফিমেল Anopheles (সেক্সুয়াল সাইকেল)। ইন্টারমিডিয়েট হোস্ট — মানুষ (অ্যাসেক্সুয়াল)।</p><p>ভাইভায় — "মশা = ডেফিনিটিভ, মানুষ = ইন্টারমিডিয়েট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P82</span>
+      <p class="qtext">Name the stages of Plasmodium in human cycle. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> pre-erythrocytic or hepatic or primary exo-erythrocytic schizogony; erythrocytic schizogony; gametogony; latent or secondary exo-erythrocytic schizogony (hepatic)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Stages of Plasmodium in the human (intermediate host) cycle:</b></p>
+      <ul>
+        <li><b>Pre-erythrocytic schizogony</b> (Hepatic / Primary exo-erythrocytic schizogony) — sporozoites invade hepatocytes, schizogony produces merozoites.</li>
+        <li><b>Erythrocytic schizogony</b> — merozoites invade RBCs; ring → trophozoite → schizont → merozoites (cyclic; causes fever paroxysm).</li>
+        <li><b>Gametogony</b> — merozoites form gametocytes (microgametocyte &amp; macrogametocyte) in blood (taken up by mosquito).</li>
+        <li><b>Latent (hepatic) stage / Secondary exo-erythrocytic schizogony</b> — dormant forms (<b>hypnozoites</b>) persist in liver cells in P. vivax and P. ovale → cause <b>relapse</b>.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Hypnozoite কি?</p><p class="ca">Hypnozoite হলো P. vivax আর P. ovale-এর dormant form — liver-এ থাকে। Immunity কমলে activate হয়ে relapse করে। P. falciparum আর P. malariae-তে hypnozoite নেই।</p><p class="cq">Pre-erythrocytic schizogony কি?</p><p class="ca">Sporozoite hepatocyte-এ ঢুকে schizogony করে merozoite তৈরি করে — symptom-free liver stage।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Human (intermediate host) cycle-এর stages — ৪টি ধাপ আলাদাভাবে বলতে হয়।</p><p>(১) Pre-erythrocytic schizogony (Hepatic/Primary exo-erythrocytic schizogony) — sporozoite hepatocyte-এ ঢুকে schizogony করে merozoite তৈরি করে। Symptom-free liver stage।</p><p>(২) Erythrocytic schizogony — merozoite RBC-এ ঢুকে cyclic multiply করে — ring → trophozoite → schizont → merozoite। এখানেই fever paroxysm হয় (RBC রাপচারের ফলে)।</p><p>(৩) Gametogony — merozoite blood-এ gametocyte তৈরি করে (microgametocyte আর macrogametocyte) — mosquito এগুলো নিয়ে যায়।</p><p>(৪) Latent (hepatic) stage/Secondary exo-erythrocytic schizogony — dormant hypnozoites liver cell-এ পজিস্ট করে P. vivax আর P. ovale-তে → relapse করে। P. falciparum/ovale... (falciparum আর malariae-তে hypnozoite নেই)।</p><p>Mosquito cycle = sporogony (sexual) — gamete → zygote → ookinete → oocyst → ১০০-১০০০ sporozoite → salivary gland।</p><p>Prepatent period — entry থেকে peripheral blood-এ parasite (ring) দেখা পর্যন্ত। Incubation period — entry থেকে clinical feature পর্যন্ত।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P83</span>
+      <p class="qtext">What is recrudescence and relapse? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> relapse due to reactivation of hypnozoites: P. vivax and P. ovale; recrudescence due to persistence in circulation at a subclinical level: P. falciparum and P. malariae</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Relapse</th><th>Recrudescence</th></tr>
+        <tr><td>Mechanism</td><td>Reactivation of <b>hypnozoites</b> persisting in the <b>liver</b> → fresh erythrocytic cycles</td><td>Persistence of the parasite at a <b>subclinical level in circulation/blood</b> (erythrocytic forms)</td></tr>
+        <tr><td>Species</td><td><b>P. vivax</b> and <b>P. ovale</b></td><td><b>P. falciparum</b> and <b>P. malariae</b></td></tr>
+        <tr><td>Time</td><td>P. vivax: up to 3 yrs; P. ovale: 1–3 yrs</td><td>P. falciparum: up to 1 yr; P. malariae: up to 40 yrs</td></tr>
+        <tr><td>Source</td><td>Liver (hypnozoite)</td><td>Blood (persisting erythrocytic parasites)</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">P. malariae-তে recrudescence কত বছরের মধ্যে হয়?</p><p class="ca">P. malariae-তে recrudescence ৪০ বছর পরও হতে পারে! Parasite low-grade blood-এ persist করতে পারে বহু বছর।</p><p class="cq">Relapse কী কারণে হয়?</p><p class="ca">Relapse liver-এ থাকা hypnozoite reactivate হয়ে fresh erythrocytic cycle শুরু করার ফলে — P. vivax আর P. ovale-তে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Relapse আর recrudescence — দুটোই পুনরায় malaria attack, কিন্তু mechanism আলাদা।</p><p>Relapse — mechanism: liver-এ পজিস্ট থাকা hypnozoites reactivate হয়ে fresh erythrocytic cycle শুরু করে। Species: P. vivax আর P. ovale (hypnozoite এই দুটোতেই)। Time: P. vivax ৩ বছর পর্যন্ত, P. ovale ১-৩ বছর। Source: liver (hypnozoite)।</p><p>Recrudescence — mechanism: parasite blood/এ subclinical level-এ পজিস্ট থাকে, তারপর আবার active হয়ে clinical attack করে। Species: P. falciparum আর P. malariae। Time: falciparum ১ বছর, malariae ৪০ বছর পর্যন্ত। Source: blood (persisting erythrocytic parasites)।</p><p>Key পার্থক্য — falciparum আর malariae-তে blood infection established হলে erythrocytic schizogony phase সম্পূর্ণ disappear হয়ে যায়, কিন্তু vivax আর ovale-তে latent hypnozoite liver-এ পজিস্ট করে।</p><p>ভাইভায় ম্নেমনিক — "relapse = liver hypnozoite (vivax/ovale); recrudescence = blood persistence (falciparum/malariae)।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P84</span>
+      <p class="qtext">How will you diagnose a case of malaria? ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> blood thick film and thin film preparation by Giemsa stain</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b> peripheral blood; CSF if cerebral malaria suspected.</li>
+      <li><b>Microscopy (gold standard):</b> Giemsa or Leishman stain. Two films:
+        <ul>
+          <li><b>Thick film:</b> detects <b>presence</b> of parasites (concentration method — more sensitive)</li>
+          <li><b>Thin film:</b> detects <b>species</b> (morphological differentiation — ring, trophozoite, schizont, gametocyte)</li>
+        </ul>
+      </li>
+      <li><b>Culture:</b> not routine.</li>
+      <li><b>Immunological (antigen) test:</b> ICT — detects HRP-2 (P. falciparum only), plasmodium aldolase (pan-malarial), pLDH (pan-malarial); ELISA.</li>
+      <li><b>Molecular test:</b> PCR — confirmatory, detects low parasitaemia.</li>
+      <li><b>CBC:</b> anaemia, thrombocytopenia.</li>
+    </ol>
+      <p>Note: for P. falciparum only ring trophozoites and banana/crescentic gametocytes are seen; in P. vivax all stages are found.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Thick film আর thin film-এর difference কি?</p><p class="ca">Thick film — RBC lysis করে parasite concentrate করে — detection-এর জন্য। Thin film — morphology দেখে species identify করে।</p><p class="cq">HRP-2 কি?</p><p class="ca">Histidine-Rich Protein 2 — শুধু P. falciparum-এ থাকে। RDT (rapid diagnostic test)-এ falciparum-specific antigen।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Malaria diagnosis — peripheral blood film, Giemsa stain (Leishman stain-ও ব্যবহৃত)। Cerebral malaria সন্দেহ হলে CSF-ও নিতে হয়।</p><p>Microscopy gold standard — দুটো film: thick film parasite-এর presence detect করে (RBC lysis করে parasite concentrate হয় — concentration method, more sensitive, low parasitaemia-এ ভালো), thin film species নির্ধারণ করে (ring, trophozoite, schizont, gametocyte morphology দেখে)।</p><p>Species morphology — P. falciparum-এ শুধু ring trophozoite আর banana/crescentic gametocyte peripheral blood-এ; vivax-এ সব stage। Culture routine-এ হয় না।</p><p>Immunological (antigen) test — ICT/ELISA: HRP-2 (শুধু P. falciparum), plasmodium aldolase (pan-malarial), pLDH (pan-malarial)। Molecular — PCR confirmatory, low parasitaemia detect করে।</p><p>CBC — anaemia, thrombocytopenia। Blood fever spike-এর সময় collect করা ভালো — parasite load বেশি, yield ভালো।</p><p>ভাইভায় মূল কথাটা — "thick film for detection, thin film for species identification।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P85</span>
+      <p class="qtext">How will you differentiate P. vivax and P. falciparum in peripheral blood? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> P. vivax: all forms found; P. falciparum: only ring trophozoite and banana shaped gametocytes; RBC enlarged in P. vivax, normal in P. falciparum</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>P. vivax</th><th>P. falciparum</th></tr>
+        <tr><td>Hypnozoites</td><td>Yes</td><td>No</td></tr>
+        <tr><td>RBC infected</td><td>Reticulocytes (immature)</td><td>Mature + immature RBCs (all ages)</td></tr>
+        <tr><td>Infected RBC size</td><td><b>Enlarged</b></td><td><b>Normal</b> (size unaltered)</td></tr>
+        <tr><td>Stippling</td><td>Schuffner's dots</td><td>fm = FALCIPARUM E Maurer's dots</td></tr>
+        <tr><td>Stages in peripheral blood</td><td><b>All stages</b> — ring, growing trophozoites, schizonts, gametocytes</td><td><b>Only ring trophozoites</b> and <b>banana/crescentic gametocytes</b> (no schizonts in PBF; cytoadherent)</td></tr>
+        <tr><td>Early ring trophozoite</td><td>Large (2.5 µm), prominent chromatin</td><td>Small (1.5 µm), accolé forms (applied to RBC margin)</td></tr>
+        <tr><td>Late trophozoite</td><td>Irregular, vacuolated, actively amoeboid</td><td>Compact</td></tr>
+        <tr><td>Schizont</td><td>9–10 µm, fills enlarged RBC; merozoites 12–24, grape-like cluster</td><td>4.5–5 µm (fills ⅔ of RBC); merozoites 18–24</td></tr>
+        <tr><td>Gametocyte</td><td>Spherical, larger than RBC</td><td><b>Crescentic/banana-shaped</b>, larger than RBC</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">P. malariae-তে কি বিশেষ feature আছে?</p><p class="ca">Mature RBC infect করে, normal size, Ziemann's dots, band-form trophozoite, rosette schizont, hypnozoite নেই।</p><p class="cq">Falciparum schizont peripheral blood-এ কেন নেই?</p><p class="ca">Cytoadherence-এর ফলে schizont গুলো deep capillary-তে sequester হয় — peripheral blood-এ পাওয়া যায় না।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Vivax আর falciparum-এর difference — peripheral blood film-এ এরা কীভাবে আলাদা তা বোঝানো গুরুত্বপূর্ণ।</p><p>P. vivax — hypnozoites আছে (লিভারে) তাই relapse করে। Reticulocytes (immature RBC) infect করে। Infected RBC enlarged হয়। Schüffner's dots থাকে। Peripheral blood-এ সব stage পাওয়া যায় — ring, growing trophozoite, schizont, gametocyte। Early ring বড় (২.৫ μm), prominent chromatin। Late trophozoite irregular, vacuolated, actively amoeboid। Schizont ৯-১০ μm, enlarged RBC ভরা; merozoites ১২-২৪, grape-like cluster। Gametocyte spherical, RBC-র চেয়ে বড়।</p><p>P. falciparum — hypnozoites নেই (relapse হয় না)। Mature + immature সব বয়সের RBC infect করে। Infected RBC normal size (enlarged নয়)। Maurer's dots থাকে। Peripheral blood-এ শুধু ring trophozoite আর banana/crescentic gametocyte — schizont আর growing trophozoite নেই কারণ cytoadherence-এর ফলে deep capillaries-এ sequester হয়। Early ring ছোট (১.৫ μm), accolé forms (RBC margin-এ applied)। Late trophozoite compact। Schizont ৪.৫-৫ μm (RBC-র ২/৩ ভরা), merozoites ১৮-২৪। Gametocyte crescentic/banana-shaped, RBC-র চেয়ে বড়।</p><p>ভাইভায় ম্নেমনিক — "vivax = সব stages + বড় RBC (Schüffner); falciparum = শুধু ring + banana gametocyte + normal RBC (Maurer)."</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P86</span>
+      <p class="qtext">Give the peripheral blood film findings of P. falciparum. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> only ring trophozoite and banana shaped gametocytes; RBCs size unaltered</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Only ring trophozoites and banana (crescentic) shaped gametocytes</b> are seen in the peripheral blood film.</li>
+      <li><b>Schizonts and mature trophozoites are NOT found in PBF</b> — they are sequestered in deep capillaries (cytoadherence).</li>
+      <li><b>RBC size unaltered (normal)</b>.</li>
+      <li>Early ring trophozoites are small (1.5 µm) with accolé forms; Maurer's dots may be seen in infected RBCs.</li>
+      <li>Multiple rings per RBC may be present.</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Multiple rings per RBC কি?</p><p class="ca">P. falciparum-এ একটাই RBC-তে ২-৩টা ring trophozoite থাকতে পারে — falciparum-এর characteristic feature।</p><p class="cq">Accolé form কি?</p><p class="ca">Ring trophozoite RBC-র margin-এ applied থাকে — এমন দেখায়, একে accolé form বলে। Falciparum-এর early ring।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ফালসিপারাম PBF — শুধু রিং ট্রোফোজোয়িট + ব্যানানা গ্যামেটোসাইট। স্কিজন্ট সিকোয়েস্টার্ড। RBC নরমাল।</p><p>ভাইভায় — "শুধু রিং + ব্যানানা; RBC নরমাল; স্কিজন্ট সিকোয়েস্টার্ড।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P87</span>
+      <p class="qtext">What are the antigens of Plasmodium?</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HRP-2 (P. falciparum only), Plasmodium aldolase and LDH (pan-malarial); PfEMP-1 in cytoadherence</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Antigens of Plasmodium used for diagnosis (detected by ICT):</b></p>
+      <ul>
+        <li><b>Histidine-rich protein 2 (HRP-2):</b> found <b>only in P. falciparum</b> — species-specific.</li>
+        <li><b>Plasmodium aldolase (pan-malarial antigen):</b> found in <b>all malarial parasites</b>.</li>
+        <li><b>Lactate dehydrogenase (pLDH):</b> found in <b>all malarial parasites</b> (pan-malarial).</li>
+      </ul>
+      <p>Pathogenesis-related surface antigen: <b>PfEMP-1</b> (P. falciparum erythrocyte membrane protein 1) — responsible for knob formation and cytoadherence in cerebral malaria.</p>
+      <p>Detection: ICT (RDT), ELISA (antigen); antibody detection by ELISA.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">PfEMP-1 কি?</p><p class="ca">PfEMP-1 = P. falciparum Erythrocyte Membrane Protein 1 — falciparum-এর surface antigen। Knob formation আর cytoadherence-এর জন্য responsible — cerebral malaria-র pathogenesis-এ key।</p><p class="cq">ICT-তে কি detect হয়?</p><p class="ca">ICT-তে antigen detect হয় — HRP-2 (falciparum), aldolase (pan), pLDH (pan)।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>HRP-2 — শুধু ফালসিপারাম (RDT)। Aldolase, pLDH — প্যান-ম্যালেরিয়াল। PfEMP-1 — সেরিব্রাল ম্যালেরিয়া প্যাথোজেনেসিস।</p><p>ভাইভায় — "HRP-2 স্পেসিফিক (ফালসিপারাম); অ্যালডোলেজ/pLDH প্যান-ম্যালেরিয়াল।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P88</span>
+      <p class="qtext">Why there is anaemia in malaria? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mechanical lysis, autoimmune lysis, splenic removal of infected and uninfected RBCs</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>Type: microcytic hypochromic or normocytic normochromic anaemia. Mechanisms:</p>
+      <ul>
+        <li><b>Parasite-induced lysis of RBCs (mechanical):</b> during release of merozoites, infected RBCs rupture.</li>
+        <li><b>Autoimmune lysis of coated RBCs:</b> antibodies coat infected RBCs → complement-mediated lysis.</li>
+        <li><b>Splenic removal</b> of both infected and uninfected RBCs (coated with antibody) — hypersplenic sequestration.</li>
+        <li><b>Bone marrow suppression (dyserythropoiesis).</b></li>
+        <li><b>Increased fragility of RBCs.</b></li>
+      </ul>
+      <p>P. falciparum infects both mature and immature RBCs → most anaemia; P. vivax/ovale infect only reticulocytes; P. malariae only mature RBCs.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Malaria-তে anaemia কি টাইপের?</p><p class="ca">Microcytic hypochromic বা normocytic normochromic anaemia। P. falciparum-এ সবচেয়ে বেশি — কারণ mature+immature সব RBC infect করে।</p><p class="cq">Autoimmune lysis কি?</p><p class="ca">Antibody infected RBC-কে coat করে, complement activation হয়, RBC lyse হয়। Uninfected RBC-ও coated হয়ে destroy হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Malaria-এ anaemia — টাইপ: microcytic hypochromic বা normocytic normochromic। Mechanism গুলো আলাদাভাবে বলতে হয়।</p><p>(১) Parasite-induced mechanical lysis — merozoite release-এর সময় infected RBC rupture হয়।</p><p>(২) Autoimmune lysis — antibody infected RBC-কে coat করে, complement-mediated lysis হয়। Uninfected RBC-ও antibody দিয়ে coated হয়ে destroy হয়।</p><p>(৩) Splenic removal — infected আর uninfected RBC দুটোই spleen-এ sequester হয়ে destroy হয় (hypersplenic sequestration)।</p><p>(৪) Bone marrow suppression (dyserythropoiesis)। (৫) Increased fragility of RBC।</p><p>P. falciparum সবচেয়ে বেশি anaemia করে — কারণ mature আর immature দুটোই RBC infect করে। Vivax/ovale শুধু reticulocytes, malariae শুধু mature RBC infect করে।</p><p>অ্যানিমিয়া parasitaemia-র অনুপাতে disproportionate — কারণ uninfected RBC-ও destroy হয়। ভাইভায় ৩টা focus — "mechanical lysis, autoimmune lysis, splenic removal।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P89</span>
+      <p class="qtext">State the pathogenesis of cerebral malaria. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> PfEMP-1 of P. falciparum enhances knob formation, cytoadherence, resetting, clumping in microvasculature such as brain capillaries</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Pathogenesis of cerebral malaria (P. falciparum):</b></p>
+      <ol>
+        <li>P. falciparum expresses a specialized antigen <b>PfEMP-1</b> (P. falciparum erythrocyte membrane protein 1).</li>
+        <li><b>Knob formation:</b> infected RBCs with high surface PfEMP-1 develop knob protuberances on the cell membrane.</li>
+        <li><b>Cytoadherence:</b> parasitized RBCs with sticky knobs adhere to the endothelial surface; PfEMP-1 binds endothelial receptors (CD36, ICAM-1).</li>
+        <li><b>Rosetting:</b> infected RBCs bind to uninfected RBCs (via CR1 receptors).</li>
+        <li><b>Clumping:</b> parasitized RBCs aggregate in the microvasculature (e.g., brain capillaries).</li>
+        <li><b>Plugging &amp; occlusion:</b> microvessels are plugged → <b>occlusion of cerebral microcirculation → cerebral anoxia → coma, paralysis</b>.</li>
+      </ol>
+      <p>Clinical features: hyperpyrexia, headache, coma, paralysis; death occurs in 15–20% of cerebral malaria cases (md).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Cerebral malaria-তে diagnosis কি?</p><p class="ca">PBF + CSF examine, ICT, PCR। Clinical suspicion থাকলে smear negative হলেও treatment শুরু করতে হবে।</p><p class="cq">Knob formation কি?</p><p class="ca">PfEMP-1 high expression-এর ফলে infected RBC surface-এ knob-like protuberance তৈরি হয়। এই knob দিয়ে endothelial receptor (CD36, ICAM-1)-এ adhere হয়।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Cerebral malaria — P. falciparum-এর সবচেয়ে dangerous manifestation। Pathogenesis step-by-step বুঝাতে হয়।</p><p>প্রথম — falciparum একটি বিশেষ antigen এক্সপ্রেস করে — PfEMP-1 (P. falciparum Erythrocyte Membrane Protein 1) infected RBC surface-এ।</p><p>তারপর knob formation — infected RBC surface-এ knob-like protuberance তৈরি হয় (high surface PfEMP-1-এর কারণে)।</p><p>Cytoadherence — sticky knob দিয়ে parasitized RBC endothelial surface-এ adhere হয় — PfEMP-1 endothelial receptors CD36 আর ICAM-1-এর সাথে bind করে।</p><p>Rosetting — infected RBC uninfected RBC-কে bind করে (CR1 receptors দিয়ে)। Clumping — parasitized RBC microvasculature-তে (brain capillaries) aggregate হয়।</p><p>Plugging/occlusion — microvessels plugged হয় → cerebral microcirculation occlude হয় → cerebral anoxia → coma, paralysis।</p><p>Clinical — hyperpyrexia, headache, coma, paralysis; cerebral malaria-র ১৫-২০% death। Diagnosis — PBF + CSF, ICT, PCR। HLA-B53 genotype protective।</p><p>ভাইভায় চেইন — "PfEMP-1 → knob → cytoadherence → rosetting → clumping → plugging → occlusion → anoxia → coma।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P90</span>
+      <p class="qtext">What is black water fever? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intravascular hemolysis in previously experienced repeated P. falciparum</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Blackwater fever:</b> a serious complication of <b>P. falciparum</b> malaria characterized by <b>sudden intravascular haemolysis</b> (massive) followed by fever and <b>dark red/blackish or port-wine coloured urine</b> (haemoglobinuria). It occurs in patients who have <b>previously experienced repeated P. falciparum infections</b> and have been treated inadequately with quinine.</p>
+      <p><b>Mechanism (autoimmune):</b> antibodies develop against parasitized and quininized RBCs; with subsequent infection and quinine treatment ⇒ immune-complex formation → complement-mediated massive lysis of both parasitized and non-parasitized RBCs. No haptoglobin is left to bind excess Hb → free Hb passes in urine.</p>
+      <h3>G6PD-deficient patients may develop it after oxidant drugs even without malaria.</h3></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Blackwater fever কাদের হয়?</p><p class="ca">যারা repeated P. falciparum infection পেয়েছে আর quinine দিয়ে খারাপ treatment হয়েছে — তাদের-এ blackwater fever হয়।</p><p class="cq">Mechanism কি?</p><p class="ca">Autoimmune — parasitized আর quininized RBC-র বিরুদ্ধে antibody develop হয়, immune complex → complement-mediated massive lysis — parasitized + non-parasitized RBC দুটোরই। Free hemoglobin urine-তে বেরিয়ে আসে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Blackwater fever — P. falciparum malaria-র serious complication। Sudden massive intravascular haemolysis হয় → fever আর dark red/blackish/port-wine colored urine (haemoglobinuria)। যাদের previous-এ repeated P. falciparum infection ছিল আর quinine দিয়ে inadequate treatment হয়েছিল তাদের-এ বেশি হয়।</p><p>Mechanism (autoimmune) — antibody develop হয় parasitized আর quininized RBC-র বিরুদ্ধে। Subsequent infection আর quinine treatment-এ immune-complex formation হয় → complement-mediated massive lysis — parasitized আর non-parasitized RBC দুটোরই। Haptoglobin সব bound হয়ে যায়, excess free Hb urine-তে বেরিয়ে আসে।</p><p>G6PD-deficient patient — oxidant drugs দিলে malaria ছাড়া-ও blackwater fever হতে পারে।</p><p>Clinical — fever, vomiting, dark/port-wine urine। Complications — acute renal failure, acute liver failure, circulatory collapse।</p><p>ভাইভায় ম্নেমনিক — "massive intravascular hemolysis → hemoglobinuria → dark/port-wine urine।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P91</span>
+      <p class="qtext">Mention some complications of malaria. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> complications of P. falciparum (pernicious malaria, blackwater fever, anaemia, renal failure, hypoglycaemia, pulmonary oedema, etc.)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Pernicious malaria</b> (cerebral, algid, septicemic malaria)</li>
+      <li><b>Blackwater fever</b> (intravascular haemolysis)</li>
+      <li><b>Hypoglycaemia</b></li>
+      <li><b>Anaemia</b></li>
+      <li><b>Renal failure</b></li>
+      <li><b>Pulmonary oedema / ARDS</b></li>
+      <li>Hepatic dysfunction, metabolic acidosis, shock, cardiac abnormality, bleeding/coagulopathy</li>
+      <li>Splenic complications — rupture of spleen, tropical splenomegaly syndrome (hyperactive malarial splenomegaly / big spleen disease)</li>
+      <li>Abortion, stillbirth, low birth weight baby</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Pernicious malaria কি?</p><p class="ca">Life-threatening complication complex — cerebral malaria, algid malaria (splanchnic capillary block → cold clammy skin, shock), septicemic malaria (multi-organ failure)।</p><p class="cq">Tropical splenomegaly syndrome কি?</p><p class="ca">Massive splenomegaly, hepatomegaly, anaemia, leucopenia, raised IgM, high malarial antibody titre — chronic malaria exposure-এর ফলে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ম্যালেরিয়ার কমপ্লিকেশন — পারনিশাস (সেরিব্রাল, অ্যালজিড, সেপটিকেমিক), ব্ল্যাকওয়াটার ফিভার, হাইপোগ্লাইকেমিয়া, অ্যানিমিয়া, রেনাল ফেইলিউর, পালমোনারি ওডেমা, ডিসেমিনেশন।</p><p>ভাইভায় — ৬-৭টা বলো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P92</span>
+      <p class="qtext">State some complications of Plasmodium falciparum. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> pernicious malaria: cerebral &amp; septicemic malaria, blackwater fever, hypoglycemia, hypo and hyperthermia, anaemia, renal failure, hepatic dysfunction, pulmonary oedema, metabolic acidosis, shock, heart problem, rupture spleen</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Pernicious malaria:</b> cerebral malaria, algid malaria (splanchnic blockage), septicemic malaria (multi-organ failure)</li>
+      <li><b>Blackwater fever</b> — intravascular haemolysis with haemoglobinuria</li>
+      <li><b>Hypoglycaemia</b> (and hypo/hyperthermia)</li>
+      <li><b>Anaemia</b> (microcytic hypochromic / normocytic normochromic)</li>
+      <li><b>Renal failure</b> (acute tubular necrosis)</li>
+      <li><b>Hepatic dysfunction</b></li>
+      <li><b>Pulmonary oedema</b> / ARDS</li>
+      <li><b>Metabolic acidosis</b></li>
+      <li><b>Shock</b>, cardiac abnormality</li>
+      <li><b>Bleeding</b> (DIC), <b>rupture of spleen</b></li>
+      <li>Abortion, stillbirth, LBW baby; tropical splenomegaly syndrome</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Septicemic malaria কি?</p><p class="ca">High-grade fever with dissemination to organs → multi-organ failure। Pernicious malaria-র একটা type।</p><p class="cq">Drug resistance কেন হয়?</p><p class="ca">Gene mutation-এর ফলে common antimalarials-কে resist করে P. falciparum। High rate of mutation।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>P. falciparum-এর complications — প্রায় সব falciparum-specific।</p><p>Pernicious malaria — cerebral malaria (brain capillary occlusion → coma), algid malaria (splanchnic capillary blockage → cold clammy skin, hypotension, shock — gastric, choleric, dysenteric ৩ type), septicemic malaria (high-grade fever, multi-organ failure)।</p><p>Blackwater fever — intravascular haemolysis with haemoglobinuria। Hypoglycaemia (আর hypo/hyperthermia)। Anaemia — microcytic hypochromic/normocytic normochromic। Renal failure (acute tubular necrosis)। Hepatic dysfunction। Pulmonary oedema/ARDS। Metabolic acidosis। Shock, cardiac abnormality। Bleeding (DIC), splenic rupture। Pregnancy-এ abortion, stillbirth, LBW। Tropical splenomegaly syndrome।</p><p>P. falciparum সব বয়সের RBC infect করে → severe anaemia আর high parasite load। High drug resistance gene mutation-এর কারণে।</p><p>Key message — "falciparum is the dangerous species — complications many and fatal if untreated।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P93</span>
+      <p class="qtext">Which malarial species is more dangerous &amp; why? ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> P. falciparum: complications more; high rate drug resistance due to mutation; anaemia more due to infect both mature &amp; immature RBCs</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>P. falciparum</b> is the most dangerous malarial species. Reasons:</p>
+      <ol>
+        <li><b>Complications more:</b> causes pernicious malaria (cerebral malaria, algid, septicemic) and blackwater fever — life-threatening.</li>
+        <li><b>High rate of drug resistance:</b> shows resistance to common antimalarials due to <b>high rate of mutation of genes</b>.</li>
+        <li><b>Anaemia more:</b> P. vivax, P. malariae, P. ovale infect either young or old RBCs, but <b>P. falciparum invades both young (immature) and mature RBCs</b> → more RBC destruction → more anaemia.</li>
+      </ol>
+      <p>Also: cytoadherence and sequestration of schizonts in deep capillaries → cerebral malaria, placental pathology, organ dysfunction.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Vivax/ovale কি ধরনের RBC infect করে?</p><p class="ca">Reticulocytes (immature RBC) infect করে।</p><p class="cq">Malariae কি ধরনের RBC infect করে?</p><p class="ca">Mature RBCs only infect করে।</p><p class="cq">Falciparum immune clearance কে resist করে?</p><p class="ca">PfEMP-1 antigenic variation দিয়ে — surface glycoprotein নিয়মিত পরিবর্তন করে, immune system-কে evade করে।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>সবচেয়ে dangerous malarial species — P. falciparum। কেন dangerous ৩টি কারণে।</p><p>(১) Complications বেশি — pernicious malaria (cerebral malaria, algid malaria, septicemic malaria) আর blackwater fever — life-threatening।</p><p>(২) Drug resistance বেশি — common antimalarials-এর resistance gene mutation-এর উচ্চ হারের কারণে।</p><p>(৩) Anaemia বেশি — vivax, malariae, ovale নির্দিষ্ট বয়সের RBC infect করে (reticulocyte বা mature), কিন্তু falciparum mature/ immature দুই ধরনেরই infect করে → বেশি RBC destroy → বেশি anaemia।</p><p>আরও — cytoadherence আর sequestration deep capillaries-এ → cerebral malaria, placental pathology, organ dysfunction। Antigenic variation (PfEMP-1) immune clearance evade করে।</p><p>ভাইভায় ম্নেমনিক — "more complications, more resistance, more anaemia।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P94</span>
+      <p class="qtext">Enlist some malaria protective conditions. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> sickle cell anaemia, thalassemia, HbE, HbC, glucose 6 phosphate dehydrogenase deficiency, lack of Duffy blood group</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p>Conditions with less chance of developing malaria (protective conditions):</p><p>CSE</p><p>PABA</p><p>HLA-B53</p>
+      <ul>
+        <li><b>Sickle cell anaemia (HbS):</b> little ATPase activity — cannot produce enough ATP to support growth of P. falciparum.</li>
+        <li><b>Thalassaemia:</b> HbF &gt; HbA — protects against P. falciparum.</li>
+        <li><b>HbE and HbC:</b> natural protection against P. vivax and P. falciparum; HbC protects against P. falciparum.</li>
+        <li><b>G6PD deficiency:</b> protects against P. falciparum.</li>
+        <li><b>Lack of Duffy blood group:</b> Duffy-negative persons are resistant to <b>P. vivax</b> (merozoite invasion needs Duffy glycoprotein receptor).</li>
+        <li>PABA deficiency (no PABA in mother's milk — protects infants).</li>
+        <li>HLA-B53 — protected from cerebral malaria.</li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Sickle cell anemia-তে malaria protection কিভাবে হয়?</p><p class="ca">HbS-এ ATPase activity কম — P. falciparum-কে enough ATP support করতে পারে না। তাই growth inhibited।</p><p class="cq">Duffy blood group negative কি?</p><p class="ca">Duffy-negative persons-এ P. vivax merozoite invasion-এর জন্য Duffy glycoprotein receptor নেই। তাই vivax-এ resistance। West Africa-তে common।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>কিছু genetic condition আছে যা malaria-র risk কমায় বা defense দেয়।</p><p>Sickle cell anaemia (HbS) — little ATPase activity, P. falciparum-কে enough ATP support করতে পারে না → parasite growth হয় না।</p><p>Thalassaemia — HbF &gt; HbA — P. falciparum থেকে protect করে। HbE আর HbC — natural protection P. vivax আর P. falciparum থেকে; HbC বিশেষত falciparum থেকে।</p><p>G6PD deficiency — P. falciparum থেকে protection।</p><p>Lack of Duffy blood group — Duffy-negative মানুষ P. vivax-এ resistant — merozoite invasion-এর জন্য Duffy glycoprotein receptor লাগে, যা তাদের নেই। West Africa-তে common — তাই vivax সেখানে অনুপস্থিত।</p><p>PABA deficiency (mother's milk-এ PABA নেই — infants protect)। HLA-B53 — cerebral malaria থেকে protected।</p><p>এগুলো genetic condition যা RBC-কে parasite growth/invasion-এর জন্য অনুপযুক্ত করে দেয়। ভাইভায় ৪-৫টা বলাই যথেষ্ট — "sickle cell, thalassemia, G6PD deficiency, Duffy-negative।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P95</span>
+      <p class="qtext">Mention the staining methods used for Cryptosporidium hominis. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> modified acid fast stain (Kinyoun), auramine-rhodamine stain (immunofluorescence)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Modified acid-fast stain (Kinyoun staining):</b> with 0.5–1% H2SO4 — oocysts stain <b>red/pink</b> against a blue/green background.</li>
+      <li><b>Immunofluorescence (auramine–rhodamine stain):</b> fluorescent microscopy — oocysts appear bright.</li>
+    </ul>
+      <p>Specimen: stool. These stains demonstrate the <b>oocyst</b> (the diagnostic form) of Cryptosporidium hominis.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Crypto oocyst কিভাবে acid-fast হয়?</p><p class="ca">Oocyst-এর wall-এ acid-fast properties আছে — তাই modified acid-fast stain (Kinyoun)-এ red/pink color-এ stain হয়, background blue/green।</p><p class="cq">Specimen কি?</p><p class="ca">Stool — oocyst stool-এ বেরিয়ে আসে। Diagnostic form = oocyst।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Crypto staining — মডিফায়েড অ্যাসিড-ফাস্ট (Kinyoun) — অুসিস্ট রেড; অরামিন-রোডামিন — ফ্লোরেসেন্ট।</p><p>ভাইভায় — "মডিফায়েড অ্যাসিড-ফাস্ট অর অরামিন-রোডামিন।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P96</span>
+      <p class="qtext">Mention diagnostic approach of Cryptosporidium hominis. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> stool examination to see oocyst by modified acid fast stain or auramine-rhodamine stain</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ol>
+      <li><b>Specimen collection:</b> stool; (biopsy in refractory cases).</li>
+      <li><b>Microscopic examination of stool:</b> demonstrate <b>oocyst</b> by (<b>a</b>) modified acid-fast (Kinyoun) staining or (<b>b</b>) auramine–rhodamine immunofluorescence staining.</li>
+      <li><b>Immunological test:</b> antigen detection in stool by ELISA; antibody detection by ELISA.</li>
+      <li><b>Molecular test:</b> PCR (confirmatory).</li>
+      <li><b>Culture:</b> not done.</li>
+    </ol></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Crypto oocyst-এর size কি?</p><p class="ca">Round, ৪-৬ μm। Acid-fast। ৪টি sporozoite থাকে।</p><p class="cq">AIDS patient-এ crypto কেন severe?</p><p class="ca">Immunocompromised patient-এ diarrhoea severe আর prolonged হয়। Autoinfection হয় (thin-walled oocysts) — তাই persistent infection।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ডায়াগনোসিস — স্টুলে অুসিস্ট। মডিফায়েড অ্যাসিড-ফাস্ট বা অরামিন-রোডামিন। ELISA। PCR কনফার্মেটরি।</p><p>ভাইভায় — "স্টুল → মডিফায়েড অ্যাসিড-ফাস্ট → অুসিস্ট।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P97</span>
+      <p class="qtext">State the name of host &amp; mode of transmission of T. gondii. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> cat-like animal: definitive host; from the definitive host and congenital transmission</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Details</th></tr>
+        <tr><td><b>Definitive host</b></td><td><b>Cat family animals (felines)</b> — sexual cycle/gametogony occurs in cat intestine → oocyst with 8 sporozoites in cat feces</td></tr>
+        <tr><td><b>Intermediate host</b></td><td><b>Man</b> (and other mammals/birds) — asexual cycle (tachyzoites, bradyzoites)</td></tr>
+        <tr><td><b>Infective forms</b></td><td><b>Oocyst</b> (with 8 sporozoites), <b>bradyzoites</b> (in tissue cysts), <b>tachyzoites</b> (acute form)</td></tr>
+        <tr><td><b>Mode of transmission</b></td><td>1. Ingestion of mature <b>oocyst</b> with contaminated food/water/cat feces (common); 2. <b>Congenital (transplacental)</b> transmission o<b>f tachyzoites </b>— mother to fetus; 3. Ingestion of <b>tissue cyst</b> (bradyzoites) in undercooked meat (lamb, pork); 4. Accidental inoculation of cat feces through skin</td></tr>
+        <tr><td><b>Disease</b></td><td>Toxoplasmosis</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">T. gondii-র morphological forms কি কি?</p><p class="ca">Tachyzoites (acute infection-এ), bradyzoites (chronic — tissue cyst, brain-এ most common), oocyst (sexual cycle, cat feces-এ)।</p><p class="cq">Congenital toxoplasmosis-এ 1st trimester-এ কেন severe?</p><p class="ca">1st trimester-এ infection less common (placental barrier), কিন্তু severe — hydrocephalus, chorioretinitis, intracranial calcification (congenital triad)। 3rd trimester-এ common but milder।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Toxoplasma gondii-এর host আর transmission — ডেটেইল বোঝাতে হয়।</p><p>Definitive host — cat family animals (felines)। Cat-এর intestine-এ sexual cycle/gametogony হয় → cat feces-এ oocyst (৮টি sporozoites সহ) বের হয়। Intermediate host — man (আর অন্যান্য mammal/bird), যেখানে asexual cycle (tachyzoites, bradyzoites) হয়।</p><p>Infective forms — oocyst (৮ sporozoites, cat feces), bradyzoites (tissue cysts, chronic infection-এ), tachyzoites (acute form)।</p><p>Mode of transmission — (১) mature oocyst contaminated food/water/cat feces সাথে খাওয়া (common); (২) congenital (transplacental) — tachyzoites mother থেকে fetus; (৩) tissue cyst (bradyzoites) in মাংস — lamb, pork; (৪) accidental skin inoculation cat feces-এ।</p><p>Morphological forms — tachyzoites (acute), bradyzoites (chronic, tissue cyst, brain সবচেয়ে common site), oocyst (sexual, cat feces)।</p><p>Congenital — 1st trimester-এ infection less common (placental barrier) কিন্তু severe — hydrocephalus, chorioretinitis, intracranial calcification (classic triad)। 3rd trimester-এ common but milder।</p><p>Disease — toxoplasmosis। ভাইভায় — "cat definitive host; transmission by oocyst (feco-oral), congenital, and undercooked meat।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P98</span>
+      <p class="qtext">Mention two (02) important properties of B. coli. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> only ciliated protozoa, largest cyst, two nuclei</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Balantidium coli</b> — important properties:</p>
+      <ul>
+        <li><b>Only ciliated protozoan</b> pathogenic to man (trophozoite covered by cilia; cilia near the mouth = "adoral cilia").</li>
+        <li><b>Two nuclei</b> — kidney-shaped large <b>macronucleus</b> and small round <b>micronucleus</b>.</li>
+      </ul>
+      <p>Also: <b>largest protozoan</b> and has the <b>largest cyst</b> among protozoa; two contractile vacuoles; two forms (cyst &amp; trophozoite).</p>
+      <p>Host: pig is the natural/definitive host; man is accidental host (no intermediate host). Transmission: ingestion of food/water contaminated with feces. Causes balantidial dysentery (large intestine) — ulcers like E. histolytica, but no extra-intestinal lesions.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Balantidium coli-র natural host কি?</p><p class="ca">Pig হলো natural/definitive host। Manush accidental host। Intermediate host নেই।</p><p class="cq">B. coli কিভাবে ulcer করে?</p><p class="ca">Trophozoite small intestine-এ excyst করে colon-এ যায়, colon-এ burrow করে flask-like ulcer তৈরি করে — E. histolytica-র মতো। কিন্তু extra-intestinal lesion নেই।</p></div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>B. coli — একমাত্র সিলিয়েটেড প্রোটোজোয়া; দুইটা নিউক্লিয়াস (ম্যাক্রো + মাইক্রো); সবচেয়ে বড় প্রোটোজোয়া।</p><p>প্রাকৃতিক হোস্ট — শুয়োর; মানুষ অ্যাসিডেন্টাল।</p><p>ভাইভায় — "একমাত্র সিলিয়েটেড প্রোটোজোয়া; দুইটা নিউক্লিয়াস।"</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molecular Biology & Biosafety — Genetic Engineering — Tools & Techniques (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Molecular Biology &amp; Biosafety</h1>
+  <h2>Genetic Engineering — Tools &amp; Techniques</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔵 Molecular Biology</span><span class="badge">6 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">6 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="MolBio-01-Basics-Applications.html">‹ Prev</a><a href="MolBio-03-Nucleic-Acid-Detection-PCR.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="molbio" class="subject s-mol">
+    <div class="sec-head"><div class="num">🧬</div><div><h2>Genetic Engineering — Tools &amp; Techniques</h2><div class="en">Steps of genetic engineering, DNA cloning &amp; rDNA technology, vectors, hosts, CRISPR, gene therapy</div></div></div>
+    <div id="molbio-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB6</span>
+      <p class="qtext">Mention the step of genetic engineering. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> identification → isolation → insertion → transformation → selection → expression → harvesting</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The steps of genetic engineering are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>#</th><th>Step</th><th>Description</th></tr>
+          <tr><td>1</td><td><b>Identification of the desired gene</b></td><td>Determine which gene produces the desired trait or product (from the donor cell).</td></tr>
+          <tr><td>2</td><td><b>Isolation</b></td><td>Extract the desired gene/DNA fragment using <b>restriction enzymes (endonucleases)</b> that cut DNA at specific recognition sites.</td></tr>
+          <tr><td>3</td><td><b>Insertion (Ligation)</b></td><td>Ligate the isolated gene into a <b>vector</b> (e.g., plasmid) using <b>DNA ligase</b>.<br>Foreign DNA + Vector DNA = <b>Recombinant DNA</b>.</td></tr>
+          <tr><td>4</td><td><b>Transformation</b></td><td>Introduce the recombinant DNA into <b>host cells</b> (e.g., <i>E. coli</i>).</td></tr>
+          <tr><td>5</td><td><b>Selection</b></td><td>Select only those cells that have taken up the recombinant DNA, using <b>selectable markers</b> (e.g., antibiotic resistance genes or fluorescent markers).</td></tr>
+          <tr><td>6</td><td><b>Gene expression and Cloning</b></td><td>Culture the selected host cells to clone the gene — cells replicate and express the inserted gene.</td></tr>
+          <tr><td>7</td><td><b>Harvesting the desired product</b></td><td>The final product (e.g., protein, enzyme, vaccine) is extracted, purified, and processed (downstream processing).</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Restriction enzyme-কে কী বলা হয় এবং এটি কী করে?</p>
+      <p class="ca">Restriction enzyme (endonuclease) হলো "molecular scissors" — এটি নির্দিষ্ট palindromic sequence-এ DNA কেটে দেয়।</p>
+      <p class="cq">DNA ligase কী ভূমিকা পালন করে?</p>
+      <p class="ca">DNA ligase হলো "molecular glue" — এটি বিদেশি DNA fragment-কে vector DNA-এর সাথে জুড়ে দেয়।</p>
+      <p class="cq">Genetic engineering-এ সবচেয়ে প্রচলিত vector কোনটি?</p>
+      <p class="ca">Plasmid — ব্যাকটেরিয়ার ছোট, বৃত্তাকার, extrachromosomal DNA — সবচেয়ে সাধারণ vector।</p>
+      <p class="cq">Downstream processing বলতে কী বোঝায়?</p>
+      <p class="ca">এটি হলো প্রদত্ত recombinant product-এর পৃথকীকরণ (separation) ও purification-এর শেষ পর্যায়ের প্রক্রিয়া।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Genetic engineering-এর সাতটি ধাপ একটি নির্দিষ্ট sequence অনুসরণ করে। আমি ধাপে ধাপে বলি:</p>
+      <ol>
+        <li><b>Identification of the desired gene:</b> প্রথমে নির্ধারণ করা হয় কোন gene desired trait বা product তৈরি করে — donor cell থেকে।</li>
+        <li><b>Isolation:</b> <b>restriction enzyme (endonuclease)</b> দিয়ে DNA নির্দিষ্ট recognition site-এ কেটে desired gene/DNA fragment আলাদা করা হয়।</li>
+        <li><b>Insertion (Ligation):</b> isolated gene-কে <b>vector</b>-এর (যেমন plasmid) মধ্যে <b>DNA ligase</b> দিয়ে জুড়ে দেওয়া হয়। Foreign DNA + Vector DNA = <b>Recombinant DNA</b>।</li>
+        <li><b>Transformation:</b> recombinant DNA-কে host cell-এ (যেমন <i>E. coli</i>) প্রবেশ করানো হয়।</li>
+        <li><b>Selection:</b> <b>selectable marker</b> — যেমন antibiotic resistance gene বা fluorescent marker — দিয়ে সেই cell-গুলো বাছাই করা হয় যারা recombinant DNA নিয়েছে।</li>
+        <li><b>Gene expression and Cloning:</b> বাছাইকৃত host cell-গুলো culture করা হয়, ফলে cell replicate হয় এবং inserted gene express করে।</li>
+        <li><b>Harvesting the desired product:</b> শেষ ধাপ — উৎপাদিত product (protein, enzyme, vaccine) নিষ্কাশন, purification ও downstream processing করা হয়।</li>
+      </ol>
+      <p>উল্লেখ্য — restriction enzyme হলো "molecular scissors", আর DNA ligase হলো "molecular glue"।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB7</span>
+      <p class="qtext">What is DNA cloning &amp; recombinant DNA (rDNA) technology? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> DNA cloning = making identical copies; rDNA = combining DNA from two sources</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>DNA Cloning</b> is a molecular biology technique of creating <b>identical copies of a specific DNA fragment (gene)</b> by inserting it into a vector (plasmid or virus), which is then introduced into a host cell (bacteria or yeast) to replicate and produce multiple copies of the gene of interest.</p>
+      <p><b>Recombinant DNA (rDNA) Technology</b> is a set of molecular techniques used to <b>combine DNA from two different sources</b> and insert them into a host organism to produce new genetic combinations. The resulting DNA molecule is called recombinant DNA.</p>
+      <p><b>Types of DNA Cloning:</b></p>
+      <ul>
+        <li>Recombinant DNA cloning (traditional cloning)</li>
+        <li>PCR cloning (TA/Blunt-End cloning)</li>
+        <li>Gateway cloning (site-specific recombination)</li>
+        <li>Gibson assembly (seamless cloning)</li>
+        <li>TOPO cloning (topoisomerase-based)</li>
+        <li>BAC cloning (Bacterial artificial chromosome)</li>
+        <li>YAC cloning (Yeast artificial chromosome)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">সহজ ভাষায় DNA cloning ও rDNA technology কী?</p>
+      <p class="ca">DNA cloning = একটি gene-এর অভিন্ন কপি তৈরি করা; আর rDNA technology = ভিন্ন organism থেকে DNA-কে একত্র করে নতুন genetic combination তৈরি করা।</p>
+      <p class="cq">DNA cloning-এর সাথে genetic engineering-এর সম্পর্ক কী?</p>
+      <p class="ca">এদের সম্পর্কের ধারা হলো: Molecular Biology → tools → DNA cloning → Recombinant DNA technology → Genetic engineering (CRISPR ও gene therapy) → Biotechnology-তে প্রয়োগ।</p>
+      <p class="cq">DNA cloning-এর ধাপগুলো কী কী?</p>
+      <p class="ca">DNA cloning-এর ধাপগুলো genetic engineering-এর মতোই — identification → isolation → insertion → transformation → selection → expression → harvesting।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>প্রথমে <b>DNA cloning</b>: এটি এমন একটি technique যেখানে একটি নির্দিষ্ট DNA fragment (gene)-এর <b>অভিন্ন কপি (identical copies)</b> তৈরি করা হয়। পদ্ধতি — gene-কে <b>vector</b>-এ (plasmid বা virus) প্রবেশ করিয়ে host cell-এ (bacteria বা yeast) দেওয়া হয়, যা replicate হয়ে gene-এর বহু কপি উৎপাদন করে।</p>
+      <p>আর <b>Recombinant DNA (rDNA) technology</b>: এটি এমন একটি কৌশল যেখানে <b>দুটি ভিন্ন উৎসের DNA একত্রিত</b> করে host organism-এ প্রবেশ করানো হয়, ফলে নতুন genetic combination তৈরি হয়। ফলে তৈরি হওয়া DNA অণুকেই বলা হয় <b>recombinant DNA</b>।</p>
+      <p>DNA cloning-এর কয়েকটি প্রকারভেদ আছে:</p>
+      <ul>
+        <li>Recombinant DNA cloning (traditional), PCR cloning (TA/Blunt-End), Gateway cloning (site-specific recombination), Gibson assembly (seamless), TOPO cloning (topoisomerase-ভিত্তিক), BAC cloning (Bacterial artificial chromosome), YAC cloning (Yeast artificial chromosome)।</li>
+      </ul>
+      <p>মূল পার্থক্য — DNA cloning হলো কপি করা, আর rDNA technology হলো বিভিন্ন উৎসের DNA মেশানো।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB8</span>
+      <p class="qtext">Mention the important tools in genetic engineering. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> restriction enzymes, ligases, vectors, host cells, selectable markers</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The important tools (molecular tools) used in genetic engineering are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Tool</th><th>Function</th></tr>
+          <tr><td><b>Restriction enzymes (Endonucleases)</b></td><td>Cut DNA at specific recognition sequences ("molecular scissors").</td></tr>
+          <tr><td><b>DNA Ligases</b></td><td>Join DNA fragments together ("molecular glue").</td></tr>
+          <tr><td><b>Vectors</b></td><td>Carry foreign DNA into host cells. Examples: Plasmids, Bacteriophages, Cosmids, BAC, YAC.</td></tr>
+          <tr><td><b>Host cells</b></td><td>Organisms that receive the recombinant DNA and express the gene. Examples: <i>E. coli</i>, Yeast (<i>S. cerevisiae</i>).</td></tr>
+          <tr><td><b>Selectable markers</b></td><td>Help identify and select cells that have successfully taken up the recombinant DNA. Examples: Antibiotic resistance genes, fluorescent markers.</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Restriction enzyme-এর প্রকারভেদ কী কী এবং কোনটি genetic engineering-এ ব্যবহৃত হয়?</p>
+      <p class="ca">Restriction enzyme দুই প্রকার — restriction endonuclease (DNA-এর ভেতরে কাটে) এবং exonuclease (প্রান্ত থেকে কাটে)। Genetic engineering-এ <b>endonuclease</b> ব্যবহৃত হয়।</p>
+      <p class="cq">সবচেয়ে বেশি ব্যবহৃত vector কোনটি?</p>
+      <p class="ca">Plasmid — ব্যাকটেরিয়ায় পাওয়া ছোট, বৃত্তাকার, extrachromosomal DNA — সর্বাধিক ব্যবহৃত vector।</p>
+      <p class="cq">E. coli কেন সবচেয়ে বেশি ব্যবহৃত host?</p>
+      <p class="ca">কারণ এটি well-characterized, খুব দ্রুত বৃদ্ধি পায় এবং легко manipulate করা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Genetic engineering-এর মৌলিক টুল বা হাতিয়ারগুলো পাঁচটি। আমি প্রত্যেকটির কাজ সহ বলি:</p>
+      <ul>
+        <li><b>Restriction enzymes (Endonucleases):</b> নির্দিষ্ট recognition sequence-এ DNA কেটে দেয় — তাই একে "molecular scissors" বলা হয়। উল্লেখ্য, directory-তে endonuclease (ভেতরে কাটে) ব্যবহৃত হয়, exonuclease নয়।</li>
+        <li><b>DNA Ligases:</b> DNA fragment-গুলোকে জুড়ে দেয় — একে "molecular glue" বলা হয়।</li>
+        <li><b>Vectors:</b> foreign DNA-কে host cell-এ নিয়ে যায়। উদাহরণ — Plasmid, Bacteriophage, Cosmid, BAC, YAC। সবচেয়ে সাধারণ হলো <b>plasmid</b>।</li>
+        <li><b>Host cells:</b> recombinant DNA গ্রহণ করে gene express করে। উদাহরণ — <i>E. coli</i> ও Yeast (<i>S. cerevisiae</i>)। <i>E. coli</i> সবচেয়ে বেশি ব্যবহৃত, কেননা এটি দ্রুত বাড়ে ও সহজে manipulate করা যায়।</li>
+        <li><b>Selectable markers:</b> যেসব cell সফলভাবে recombinant DNA নিয়েছে তাদের চিহ্নিত করতে সাহায্য করে — যেমন antibiotic resistance gene বা fluorescent marker।</li>
+      </ul>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB9</span>
+      <p class="qtext">Mention the vector uses in genetic engineering/ DNA cloning/ Recombinant DNA technology. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> plasmids, bacteriophages, cosmids, BAC, YAC</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>A <b>vector</b> is a DNA molecule used as a vehicle to carry foreign genetic material into a host cell, where it can be replicated and/or expressed. The important vectors used are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Vector</th><th>Description</th><th>Insert Size</th></tr>
+          <tr><td><b>Plasmids</b></td><td>Small, circular, extrachromosomal DNA. Most common and easiest to use. Used for small DNA fragments.</td><td>Up to ~10 kb</td></tr>
+          <tr><td><b>Bacteriophages (Phages)</b></td><td>Viruses that infect bacteria. Used for large inserts and higher efficiency of transformation.</td><td>Up to ~23 kb</td></tr>
+          <tr><td><b>Cosmids</b></td><td>Hybrid vectors: <b>plasmid + cos site of bacteriophage λ (lambda)</b>. Plasmid portion allows replication in bacteria; cos site allows packaging of large DNA into phage particles.</td><td>30–45 kb</td></tr>
+          <tr><td><b>Fosmids</b></td><td>Similar to cosmids but more stable. Derived from bacterial F-plasmids (fertility plasmids).</td><td>~40 kb</td></tr>
+          <tr><td><b>BAC (Bacterial Artificial Chromosome)</b></td><td>Based on F-plasmid of <i>E. coli</i>. Used for very large DNA fragments.</td><td>100–300 kb</td></tr>
+          <tr><td><b>YAC (Yeast Artificial Chromosome)</b></td><td>Contains centromere, telomere and ARS from <i>Saccharomyces cerevisiae</i>. Used for very large DNA fragments.</td><td>200–2000 kb</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Plasmid-কে সবচেয়ে বেশি ব্যবহৃত vector কেন বলা হয়?</p>
+      <p class="ca">কারণ এটি হ্যান্ডল করা সহজ, সস্তা, এবং সহজেই bacteria-তে প্রবেশ করানো যায়।</p>
+      <p class="cq">Cosmid-এর বিশেষত্ব কী?</p>
+      <p class="ca">Cosmid تشکیل plasmid replication-এর সুবিধা ও bacteriophage packaging-এর সুবিধা একসাথে ধারণ করে — অর্থাৎ hybrid vector।</p>
+      <p class="cq">BAC ও YAC কখন ব্যবহার করা হয়?</p>
+      <p class="ca">যখন খুব বড় DNA fragment (যেমন সম্পূর্ণ chromosome বা genome project) clone করতে হয় তখন BAC ও YAC ব্যবহৃত হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p><b>Vector</b> হলো এমন একটি DNA molecule যা যানবাহনের (vehicle) মতো কাজ করে — foreign genetic material-কে host cell-এ পৌঁছে দেয়, যেখানে এটি replicate ও/অথবা express হতে পারে।</p>
+      <p>প্রধান vector-গুলো ও এদের insert capacity:</p>
+      <ul>
+        <li><b>Plasmids:</b> ছোট, বৃত্তাকার, extrachromosomal DNA — সবচেয়ে সাধারণ ও সহজ। ছোট DNA fragment-এর জন্য, capacity ~10 kb পর্যন্ত।</li>
+        <li><b>Bacteriophages (Phages):</b> bacteria-কে সংক্রমিত করা ভাইরাস — বড় insert ও উচ্চ transformation efficiency-এর জন্য, capacity ~23 kb।</li>
+        <li><b>Cosmids:</b> hybrid vector — <b>plasmid + bacteriophage λ (lambda)-এর cos site</b>। plasmid অংশ bacteria-তে replication দেয়, আর cos site বড় DNA-কে phage particle-এ packaging-এর সুযোগ দেয়। Capacity 30–45 kb।</li>
+        <li><b>Fosmids:</b> cosmid-এর মতো কিন্তু আরও stable — bacterial <b>F-plasmid (fertility plasmid)</b> থেকে উদ্ভূত। Capacity ~40 kb।</li>
+        <li><b>BAC (Bacterial Artificial Chromosome):</b> <i>E. coli</i>-এর F-plasmid ভিত্তিক — খুব বড় DNA fragment-এর জন্য, capacity 100–300 kb।</li>
+        <li><b>YAC (Yeast Artificial Chromosome):</b> <i>Saccharomyces cerevisiae</i>-র centromere, telomere ও ARS ধারণ করে — খুব বড় fragment-এর জন্য, capacity 200–2000 kb।</li>
+      </ul>
+      <p>সংক্ষেপে — ছোট থেকে বড় capacity অনুযায়ী: plasmid → phage → cosmid → fosmid → BAC → YAC।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB10</span>
+      <p class="qtext">Mention the host uses in genetic engineering DNA cloning/ Recombinant DNA technology. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> bacteria (E. coli), yeast (S. cerevisiae), mammalian cells, insect cells, plant cells, cell-free systems</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Host cells</b> are organisms or cells that receive the recombinant DNA and allow it to replicate and express the inserted gene. The hosts used are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Category</th><th>Host Organism/Cell</th><th>Notes</th></tr>
+          <tr><td rowspan="3"><b>1. Bacteria</b></td><td><i>Escherichia coli</i></td><td>Most widely used host</td></tr>
+          <tr><td><i>Bacillus subtilis</i></td><td>Used for protein secretion</td></tr>
+          <tr><td><i>Pseudomonas putida</i></td><td>Industrial applications</td></tr>
+          <tr><td rowspan="3"><b>2. Yeast (Fungus)</b></td><td><i>Saccharomyces cerevisiae</i> (Baker's yeast)</td><td>Most common among yeast hosts</td></tr>
+          <tr><td><i>Aspergillus</i> spp. (A. niger, A. oryzae, A. nidulans)</td><td>Enzyme production</td></tr>
+          <tr><td><i>Pichia pastoris</i></td><td>Protein expression</td></tr>
+          <tr><td rowspan="2"><b>3. Mammalian cells</b></td><td>Human embryonic kidney (HEK) cells</td><td>For eukaryotic protein production</td></tr>
+          <tr><td>Chinese hamster ovary (CHO) cells</td><td>Biopharmaceutical production</td></tr>
+          <tr><td><b>4. Insect cells</b></td><td>Sf9 cells</td><td>For recombinant protein via baculovirus</td></tr>
+          <tr><td><b>5. Plant cells</b></td><td><i>Agrobacterium tumefaciens</i></td><td>Plant genetic engineering</td></tr>
+          <tr><td rowspan="3"><b>6. Cell-free systems</b></td><td><i>E. coli</i> lysate</td><td>In vitro protein synthesis</td></tr>
+          <tr><td>Wheat germ extract</td><td>In vitro translation</td></tr>
+          <tr><td>Rabbit reticulocyte lysate</td><td>In vitro translation</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">E. coli-কে সর্বাধিক ব্যবহৃত host কেন বলা হয়?</p>
+      <p class="ca">কারণ এটি well-characterized, খুব দ্রুত বৃদ্ধি পায় (doubling time ~20 min) এবং সহজে genetically manipulate করা যায়।</p>
+      <p class="cq">Yeast host-দের বিশেষ সুবিধা কী?</p>
+      <p class="ca">S. cerevisiae সবচেয়ে সাধারণ yeast host — এর GRAS (generally recognized as safe) status আছে এবং এটি bacteria-যে পারে না এমন post-translational modification করতে পারে।</p>
+      <p class="cq">Mammalian cell host (HEK, CHO) কখন প্রয়োজন হয়?</p>
+      <p class="ca">যখন protein functional হওয়ার জন্য complex post-translational modification (যেমন glycosylation) দরকার হয় তখন এগুলো প্রয়োজন।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p><b>Host cell</b> হলো সেই cell, যেখানে recombinant DNA প্রবেশ করানো হয় এবং inserted gene replicate ও express হয়। Host-গুলোকে কয়েকটি শ্রেণিতে ভাগ করা যায়:</p>
+      <ul>
+        <li><b>Bacteria:</b> <i>Escherichia coli</i> — সবচেয়ে বেশি ব্যবহৃত host (দ্রুত বাড়ে, easily manipulate হয়); <i>Bacillus subtilis</i> — protein secretion-এর জন্য; <i>Pseudomonas putida</i> — industrial application।</li>
+        <li><b>Yeast (Fungus):</b> <i>Saccharomyces cerevisiae</i> — yeast-দের মধ্যে সবচেয়ে সাধারণ (GRAS status ও post-translational modification করতে পারে); <i>Aspergillus</i> spp. — enzyme production; <i>Pichia pastoris</i> — protein expression।</li>
+        <li><b>Mammalian cells:</b> HEK cells — eukaryotic protein-এর জন্য; CHO cells — biopharmaceutical production। এরা তখন দরকার যখন complex post-translational modification (glycosylation) লাগে।</li>
+        <li><b>Insect cells:</b> Sf9 cells — baculovirus-এর মাধ্যমে recombinant protein তৈরি।</li>
+        <li><b>Plant cells:</b> <i>Agrobacterium tumefaciens</i> — plant genetic engineering।</li>
+        <li><b>Cell-free systems:</b> <i>E. coli</i> lysate — in vitro protein synthesis; wheat germ extract ও rabbit reticulocyte lysate — in vitro translation।</li>
+      </ul>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB11</span>
+      <p class="qtext">What is Cosmids, Fosmid, CRISPR-Cas9 &amp; gene therapy?</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> cosmids = plasmid + cos site; CRISPR-Cas9 = gene editing; gene therapy = fixing faulty genes</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Cosmids:</b></p>
+      <p>A cosmid is a <b>hybrid plasmid vector</b> that contains the <b>cos site of bacteriophage λ (lambda)</b>. The plasmid portion allows replication in bacteria, while the cos site allows packaging of large DNA fragments into bacteriophage particles. Used for cloning larger DNA fragments (~30–45 kb) than standard plasmids.</p>
+
+      <p><b>Fosmids:</b></p>
+      <p>Fosmids are similar to cosmids but are <b>more stable</b>. They are derived from bacterial <b>F-plasmids (fertility plasmids)</b>. They also carry the cos site and can hold ~40 kb inserts.</p>
+
+      <p><b>CRISPR-Cas9 Gene Editing:</b></p>
+      <p>CRISPR-Cas9 is a revolutionary <b>gene-editing tool</b> that allows precisely cutting and modifying DNA in living cells.</p>
+      <ul>
+        <li><b>CRISPR</b> = <b>C</b>lustered <b>R</b>egularly <b>I</b>nterspaced <b>S</b>hort <b>P</b>alindromic <b>R</b>epeats</li>
+        <li><b>Cas9</b> = CRISPR-Associated protein 9 — an enzyme that acts like "molecular scissors" to cut DNA at a specific target site.</li>
+      </ul>
+      <p><b>Applications of CRISPR-Cas9:</b></p>
+      <ul>
+        <li>Medicine: Correct genetic disorders (sickle cell anemia, β-thalassemia), gene therapy, cancer immunotherapy (modifying T cells)</li>
+        <li>Agriculture: Disease-resistant crops, improved nutritional content (Golden Rice)</li>
+        <li>Industry: Create microbes for biofuel production</li>
+        <li>Research: Knockout/modify specific genes, study gene function, design custom organisms</li>
+      </ul>
+
+      <p><b>Gene Therapy:</b></p>
+      <p>Gene therapy is a technique that involves <b>fixing faulty genes or adding functional new genes</b> within a person to treat or prevent disease. It can involve:</p>
+      <ul>
+        <li><b>Replacing (Editing)</b> a faulty mutated gene by introducing a functional gene</li>
+        <li><b>Inactivating (Silencing)</b> a faulty mutated gene</li>
+        <li><b>Introducing (Adding)</b> a new gene</li>
+      </ul>
+      <p><b>Types of Gene Therapy:</b></p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Basis</th><th>Type</th><th>Description</th></tr>
+          <tr><td rowspan="2">Based on gene type</td><td>Somatic gene therapy</td><td>Targets non-reproductive cells; not inherited</td></tr>
+          <tr><td>Germ-line gene therapy</td><td>Targets ovum/sperm cells; inherited. Currently restricted in humans due to ethical concerns.</td></tr>
+          <tr><td rowspan="2">Based on delivery site</td><td>Ex vivo</td><td>Cells taken from patient, modified in lab, reintroduced (e.g., CAR-T cell therapy)</td></tr>
+          <tr><td>In vivo</td><td>Genetic material delivered directly into the body using viral vectors (e.g., Luxturna for retinal dystrophy)</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Gene delivery-এর ভাইরাল ও নন-ভাইরাল পদ্ধতিগুলো কী কী?</p>
+      <p class="ca">ভাইরাল vector: Adenovirus (short lasting), AAV — Adeno-associated virus (long lasting), Lentivirus (long lasting); নন-ভাইরাল: Liposome, Nanoparticle, Electroporation, CRISPR/Cas9।</p>
+      <p class="cq">Gene therapy-র প্রয়োগ কোন কোন রোগে আছে?</p>
+      <p class="ca">জিনগত রোগ (SCID, Thalassemia, Hemophilia, Cystic fibrosis), ক্যান্সার (CAR-T), চোখের রোগ (Luxturna), স্নায়বিক রোগ (Alzheimer's, Parkinson's) ও cardiovascular disease-তে ব্যবহৃত হয়।</p>
+      <p class="cq">Southern, Northern, Western blot соответственно কী detect করে?</p>
+      <p class="ca">Southern blotting DNA detect করে, Northern blotting RNA, Western blotting protein, আর Eastern blotting post-translational modification detect করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>এই প্রশ্নে চারটি টার্ম নিয়ে কথা হবে।</p>
+      <p><b>Cosmid:</b> এটি একটি <b>hybrid plasmid vector</b> যাতে <b>bacteriophage λ (lambda)-এর cos site</b> থাকে। plasmid অংশ bacteria-তে replication দেয়, আর cos site বড় DNA fragment-কে bacteriophage particle-এ packaging-এর সুযোগ দেয়। ফলে standard plasmid-এর চেয়ে বড় fragment (~30–45 kb) clone করা যায়।</p>
+      <p><b>Fosmid:</b> cosmid-এর মতো কিন্তু <b>আরও stable</b>। এটি bacterial <b>F-plasmid (fertility plasmid)</b> থেকে উদ্ভূত, cos site বহন করে এবং ~40 kb insert ধারণ করতে পারে।</p>
+      <p><b>CRISPR-Cas9 Gene Editing:</b> এটি একটি revolutionary <b>gene-editing tool</b> যা জীবিত cell-এ DNA-কে precisely cut ও modify করতে পারে। <b>CRISPR</b> = Clustered Regularly Interspaced Short Palindromic Repeats; <b>Cas9</b> = CRISPR-Associated protein 9 — একটি enzyme যা নির্দিষ্ট site-এ DNA কাটে ("molecular scissors")।</p>
+      <p>এর প্রয়োগ:</p>
+      <ul>
+        <li>Medicine: sickle cell anemia ও β-thalassemia-এর মতো জিনগত রোগ সংশোধন, gene therapy, cancer immunotherapy (T cell modify); Agriculture: disease-resistant crop, Golden Rice; Industry: biofuel-producing microbe; Research: gene knockout ও custom organism design।</li>
+      </ul>
+      <p><b>Gene Therapy:</b> faulty gene ঠিক করা বা functional নতুন gene যোগ করে রোগের চিকিৎসা। তিন ধরনের কাজ — faulty mutated gene <b>replace</b> করা, <b>inactivate (silence)</b> করা, বা নতুন gene <b>add</b> করা।</p>
+      <p>প্রকারভেদ — gene type ভিত্তিতে: <b>Somatic gene therapy</b> (non-reproductive cell; inherited হয় না) ও <b>Germ-line gene therapy</b> (ovum/sperm cell; inherited; নৈতিক কারণে মানুষে সীমিত)। Delivery site ভিত্তিতে: <b>Ex vivo</b> (নির্ণী cell lab-এ modify করে পুনরায় ঢোকানো, যেমন CAR-T) ও <b>In vivo</b> (viral vector দিয়ে সরাসরি শরীরে পাঠানো, যেমন Luxturna)।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — General Mycology (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>General Mycology</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">6 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">6 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-02-Classification-Dermatophytes.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>General Mycology</h2><div class="en">Fungus, cell wall &amp; cell membrane, spores, morphology, yeast vs mold, hyphae &amp; mycelium</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M1</span>
+      <p class="qtext">What is fungus? Mention the characteristics of fungus. Fungus vs. Bacteria. ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Eukaryotic, chitin cell wall, 80S ribosomes, exospore, etc.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Fungus:</b> Fungi are chlorophyll-free eukaryotic organisms that may be unicellular or multicellular and reproduce by sexual and asexual spores. The term comes from Greek <i>mykos</i> or <i>mykes</i> meaning fungus/mushroom. <b>Medical mycology</b> is the branch dealing with medically important fungi, and <b>mycosis</b> is any fungal infection.</p>
+      <p><b>Characteristics of Fungus:</b></p>
+      <ul>
+        <li><b>Cell type:</b> Eukaryote with a true nucleus and membrane-bound organelles (mitochondria, ER).</li>
+        <li><b>Cell number:</b> May be unicellular (yeast) or multicellular (mold).</li>
+        <li><b>Cell wall:</b> 90% polysaccharide, 10% protein. Contains <b>chitin</b> (polymer of N-acetyl glucosamine), <b>chitosan</b> (soluble derivative of chitin), and <b>β-glucan</b> (polymer of D-glucose).</li>
+        <li><b>Cytoplasmic membrane:</b> Contains sterols — ergosterol and zymosterol.</li>
+        <li><b>Ribosomes:</b> 80S (40S + 60S).</li>
+        <li><b>Chlorophyll:</b> Absent — they require an organic carbon source.</li>
+        <li><b>Reproduction:</b> By budding (asexual) or by sexual and asexual spores.</li>
+        <li><b>Oxygen requirement:</b> Mostly strict aerobes; some facultative anaerobes. No obligate anaerobes.</li>
+        <li><b>Natural habitat:</b> Mostly in the environment (soil, decaying organic matter).</li>
+      </ul>
+
+      <div class="tblwrap"><table>
+        <tbody><tr><th>#</th><th>Point</th><th>Fungus</th><th>Bacteria</th></tr>
+        <tr><td>1</td><td>Cell type</td><td>Eukaryotes</td><td>Prokaryotes</td></tr>
+        <tr><td>2</td><td>Cell number</td><td>Unicellular or multicellular</td><td>Unicellular</td></tr>
+        <tr><td>3</td><td>Cell wall</td><td>Chitin, chitosan, β-glucan</td><td>Peptidoglycan</td></tr>
+        <tr><td>4</td><td>Cell membrane</td><td>Sterol present (ergosterol, zymosterol)</td><td>Sterol absent (except Mycoplasma)</td></tr>
+        <tr><td>5</td><td>Cytoplasm-bound organelles</td><td>Present</td><td>Absent</td></tr>
+        <tr><td>6</td><td>Ribosomes</td><td>80S (40S + 60S)</td><td>70S (30S + 50S)</td></tr>
+        <tr><td>7</td><td>Nucleus</td><td>True (eukaryotic)</td><td>Primitive / nucleoid (prokaryotic)</td></tr>
+        <tr><td>8</td><td>Spore</td><td>Exospore (reproduction)</td><td>Endospore (survival)</td></tr>
+        <tr><td>9</td><td>Reproduction</td><td>Budding or sexual &amp; asexual spores</td><td>Binary fission</td></tr>
+        <tr><td>10</td><td>Treatment</td><td>Antifungal drug</td><td>Antibacterial drug</td></tr>
+        <tr><td>11</td><td>Organic carbon requirement</td><td>Required (no obligate anaerobes)</td><td>Not required by all</td></tr>
+        <tr><td>12</td><td>Thermal dimorphism</td><td>Yes (some)</td><td>No</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Antifungal drugs-কে mode of action ধরে কীভাবে classification করা যায়?</p>
+      <p class="ca">৩ ভাবে করা যায় — (১) <b>cell wall</b>‑এ act করে: echinocandin β‑glucan synthesis inhibit করে; (২) <b>cell membrane</b>‑এ act করে: amphotericin B ও nystatin ergosterol‑এর সাথে bind করে, আর azole ও terbinafine ergosterol‑এর synthesis inhibit করে; (৩) <b>nucleic acid</b>‑এ act করে: flucytosine DNA synthesis inhibit করে ও griseofulvin mitotic spindle‑কে disrupt করে।</p>
+      <p class="cq">Amphotericin B আর azole—দুটোই ergosterol‑এর সাথে সম্পর্কিত, তাহলে action-এ পার্থক্যটা কী?</p>
+      <p class="ca">পার্থক্য আছে। Amphotericin B সরাসরি ergosterol‑এর সাথে <b>bind</b> করে cell membrane‑এ pore তৈরি করে; কিন্তু azole ergosterol‑এর <b>synthesis</b>‑কে inhibit করে। অর্থাৎ একজন bind করে, আরেকজন তৈরিই হতে দেয় না।</p>
+      <p class="cq">Fungus-কে eradicate করা এত কঠিন কেন?</p>
+      <p class="ca">দুই কারণে — প্রথমত, animal host‑এর কাছে fungal cell wall‑এর polysaccharide degrade করার মতো enzyme নেই; দ্বিতীয়ত, <b>selective toxicity</b> অর্জন কঠিন, কারণ fungal cell আর human cell দুটোই <b>eukaryote</b>।</p>
+      <p class="cq">Fungi-র কিছু উপকারী দিক বলুন?</p>
+      <p class="ca">অনেক আছে — decomposition‑এর মাধ্যমে nutrient recycling করে; <b>mushroom, cheese, bread, wine, beer</b> তৈরি করে (food industry); <b>drug ও antibiotic</b> production‑এর biosynthetic factory; আর research‑এ model organism হিসেবে কাজ করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, মূল কথা হলো — <b>fungus</b> হলো chlorophyll‑মুক্ত, <b>eukaryotic</b> organism, যা unicellular বা multicellular হতে পারে এবং sexual ও asexual spore‑এর মাধ্যমে reproduce করে। Greek শব্দ <i>mykos/mykes</i> মানে fungus/mushroom। <b>Medical mycology</b> হলো সেই শাখা যা medically important fungi নিয়ে কাজ করে, আর <b>mycosis</b> হলো যেকোনো fungal infection।</p>
+      <p><b>Characteristics</b> গুলো বলি — প্রথমত, cell type <b>eukaryote</b>, অর্থাৎ true nucleus, mitochondria, ER—মembranr ও membrane‑bound organelle আছে। দ্বিতীয়ত, cell number অনুযায়ী unicellular (yeast) বা multicellular (mold)। তৃতীয়ত, cell wall ৯০% polysaccharide ও ১০% protein — সেখানে থাকে <b>chitin</b> (N‑acetyl glucosamine‑এর polymer), <b>chitosan</b> (chitin‑এর soluble derivative) ও <b>β‑glucan</b> (D‑glucose‑এর polymer)।</p>
+      <p>Cytoplasmic membrane‑এ <b>ergosterol</b> ও <b>zymosterol</b> (sterol) থাকে — এটাই antifungal treatment‑এর target। Ribosome <b>80S (40S+60S)</b>। <b>Chlorophyll absent</b>, তাই organic carbon source দরকার। Reproduction হয় budding দিয়ে বা sexual ও asexual spore দিয়ে। Oxygen requirement — বেশিরভাগ <b>strict aerobe</b>, কিছু facultative anaerobe; কিন্তু কোনো obligate anaerobe নেই। Natural habitat — soil, decaying organic matter, অর্থাৎ বেশিরভাগ environment‑এ।</p>
+      <p>এবার <b>fungus vs bacteria</b> তুলনা করি — fungus <b>eukaryote</b>, bacteria <b>prokaryote</b>; fungus unicellular বা multicellular, bacteria শুধু unicellular; fungus‑এর cell wall <b>chitin, chitosan, β‑glucan</b>, bacteria‑র <b>peptidoglycan</b>; fungus‑এর membrane‑এ sterol (ergosterol) আছে, bacteria‑তে নেই (Mycoplasma ছাড়া); ribosome fungus‑এ <b>80S</b>, bacteria‑তে 70S; fungus‑এ true nucleus, bacteria‑তে primitive nucleoid; fungus‑এর spore <b>exospore (reproduction)</b>, bacteria‑র <b>endospore (survival)</b>; fungus budding বা spore দিয়ে, bacteria binary fission দিয়ে; treatment antifungal vs antibacterial; fungus‑এ organic carbon লাগবেই (obligate anaerobe নেই), bacteria‑র সবসময় লাগে না; আর কিছু fungus‑এ <b>thermal dimorphism</b> আছে, bacteria‑তে নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M2</span>
+      <p class="qtext">Mention the composition of cell wall and cell membrane of fungi. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Cell wall: chitin, D glucan; Cell membrane: ergosterol</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Cell Wall of Fungi:</b></p>
+      <ul>
+        <li>Composed of <b>90% polysaccharide</b> and <b>10% protein</b>.</li>
+        <li><b>Chitin:</b> A polysaccharide composed of long chains of <b>N-acetyl glucosamine (NAG)</b>. Chitin is insoluble in most solvents and has no free amino groups.</li>
+        <li><b>Chitosan:</b> A soluble derivative of chitin that has free amino groups.</li>
+        <li><b>β-D-Glucan:</b> A polymer of D-glucose. Target of echinocandin antifungals.</li>
+      </ul>
+      <p><b>Cell Membrane (Cytoplasmic Membrane) of Fungi:</b></p>
+      <ul>
+        <li>Contains <b>ergosterol</b> and <b>zymosterol</b> (sterol components).</li>
+        <li>Ergosterol is the key target of many antifungal drugs (amphotericin B, nystatin bind directly; azoles and terbinafine inhibit its synthesis).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Ergosterol clinically এত গুরুত্বপূর্ণ কেন?</p>
+      <p class="ca">কারণ human cell membrane‑এ ergosterol থাকে না—থাকে <b>cholesterol</b>। এই পার্থক্যের উপরেই selective toxicity নির্ভর করে — <b>amphotericin B</b> ergosterol‑এর সাথে bind করে pore তৈরি করে, আর <b>azole</b> ergosterol synthesis inhibit করে। তাই fungus‑এর জন্য toxic, human cell‑এ কম ক্ষতি।</p>
+      <p class="cq">কোন antifungal cell wall‑এর উপর কাজ করে?</p>
+      <p class="ca"><b>Echinocandin</b> (caspofungin, micafungin) β‑glucan synthase inhibit করে। এটা বিশেষ, কারণ bacteria‑র cell wall‑এ তো <b>peptidoglycan</b> থাকে, β‑glucan নেই।</p>
+      <p class="cq"><i>P. jiroveci</i>‑র ক্ষেত্রে antifungal‑এ কী exception দেখা যায়?</p>
+      <p class="ca"><i>P. jiroveci</i>‑র cell membrane‑এ ergosterol নেই—থাকে <b>cholesterol</b>। তাই echinocandin ও conventional antifungal এই organism‑এর বিরুদ্ধে কম কার্যকর।</p>
+      <p class="cq">Fungal cytoplasm‑এ কী কী structure থাকে?</p>
+      <p class="ca">Cytoplasm‑এ <b>80S ribosome</b> (40S+60S) থাকে, আর membrane‑bound organelle হিসেবে <b>mitochondria</b> ও <b>endoplasmic reticulum</b> থাকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>cell wall</b> দিয়ে শুরু করি — এটা ৯০% polysaccharide ও ১০% protein দিয়ে তৈরি। Polysaccharide গুলো হলো <b>chitin</b>, <b>chitosan</b> ও <b>β‑D‑glucan</b>। Chitin হলো N‑acetyl glucosamine (NAG)‑এর long polymer, যা বেশিরভাগ solvent‑এ insoluble এবং free amino group থাকে না। Chitosan হলো chitin‑এর soluble derivative—এর free amino group থাকে। β‑D‑glucan হলো D‑glucose‑এর polymer, আর এটাই <b>echinocandin</b> antifungal‑এর target।</p>
+      <p>এবার <b>cell membrane (cytoplasmic membrane)</b> — এখানে থাকে <b>ergosterol</b> ও <b>zymosterol</b> (sterol component)। Ergosterol হলো অনেক antifungal drug‑এর key target — <b>amphotericin B ও nystatin</b> সরাসরি bind করে, আর <b>azole ও terbinafine</b> এর synthesis inhibit করে।</p>
+      <p>মনে রাখতে হবে — cell wall‑এ chitin ও β‑glucan, cell membrane‑এ ergosterol; এই দুটোই drug target। আর clinically গুরুত্বপূর্ণ হলো—human membrane‑এ cholesterol থাকে, ergosterol নয়, তাই amphotericin B ও azole selective toxicity দেখায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M3</span>
+      <p class="qtext">Difference between fungal and bacterial spore. **** (bacterial endospore for survival, fungal exospore for reproduction)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> bacterial endospore for survival, fungal exospore for reproduction</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Fungal Spore</th><th>Bacterial Spore</th></tr>
+        <tr><td>Type</td><td>Exospore</td><td>Endospore</td></tr>
+        <tr><td>Purpose</td><td><b>Reproduction</b> (both sexual and asexual)</td><td><b>Survival</b> under harsh conditions (heat, desiccation, radiation)</td></tr>
+        <tr><td>Formation</td><td>Formed externally from specialized structures (conidiophore, sporangium, or fragmentation of hyphae)</td><td>Formed intracellularly within a vegetative bacterial cell</td></tr>
+        <tr><td>Number</td><td>Many spores produced at once from a single parent</td><td>Typically one endospore per vegetative cell (one spore = one cell)</td></tr>
+        <tr><td>Structure</td><td>Simple: single- or few-celled; no specialized cortex</td><td>Complex: core, cortex, and thick protein coat (spore coat)</td></tr>
+        <tr><td>Resistance</td><td>Resistant to some environmental stresses but far less than bacterial endospores</td><td>Extremely resistant to heat, chemicals, UV radiation, desiccation</td></tr>
+        <tr><td>Germination</td><td>Germinates to form new fungal hyphae or yeast</td><td>Germinates back into a single vegetative cell</td></tr>
+        <tr><td>Examples</td><td>Zygospore, ascospore, basidiospore, conidia, sporangiospore, arthrospore, chlamydospore, blastospore</td><td>Bacillus, Clostridium endospores</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Fungal sexual spore গুলো কী কী?</p>
+      <p class="ca">তিনটি — <b>zygospore</b> (single, বড়, thick‑wall স্পোর), <b>ascospore</b> (ascus নামক থলির ভিতরে তৈরি হয়), আর <b>basidiospore</b> (basidium নামক pedestal‑এর উপরে তৈরি হয়)।</p>
+      <p class="cq">আর asexual spore (conidia) গুলো?</p>
+      <p class="ca">Asexual conidia গুলো হলো — arthrospore, blastospore, chlamydospore, sporangiospore, microconidia ও macroconidia।</p>
+      <p class="cq">যে fungus sexual spore তৈরি করে না, তাকে কী বলে?</p>
+      <p class="ca">তাকে বলে <b>fungi imperfecti</b> (Deuteromycotina)—অর্থাৎ imperfect fungus, কারণ এর sexual form পাওয়া যায় না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, মূল পার্থক্যটা হলো — fungal spore হলো <b>exospore</b>, অর্থাৎ <b>reproduction</b>‑এর জন্য, sexual ও asexual দুটোই; আর bacterial spore হলো <b>endospore</b>, অর্থাৎ <b>survival</b>‑এর জন্য — harsh condition (heat, desiccation, radiation)‑এ বাঁচতে সাহায্য করে।</p>
+      <p>Formation ধরে বলি — fungal spore <b>বাইরে</b>, specialized structure (conidiophore, sporangium, বা hyphae fragmentation) থেকে তৈরি হয়; bacterial endospore <b>ভিতরে</b>, vegetative bacterial cell‑এর intracellular‑এ তৈরি হয়। Number অনুযায়ী — fungus‑এ একটি parent থেকে একসাথে অনেকগুলো spore তৈরি হয়; bacteria‑তে একটি vegetative cell থেকে সাধারণত একটি মাত্র endospore (one spore = one cell)।</p>
+      <p>Structurally fungal spore simple — single বা few cell, কোনো specialized cortex নেই; bacteria‑র endospore complex — core, cortex ও thick protein coat (spore coat) থাকে। Resistance — fungal spore কিছুটা resistant, কিন্তু bacterial endospore‑এর মতো নয়; endospore heat, chemicals, UV, desiccation‑এ <b>extremely resistant</b>। Germination — fungal spore থেকে নতুন fungal hyphae বা yeast হয়; bacterial endospore থেকে single vegetative cell।</p>
+      <p>Example — fungal: zygospore, ascospore, basidiospore, conidia, sporangiospore, arthrospore, chlamydospore, blastospore; bacteria: <i>Bacillus</i>, <i>Clostridium</i> endospore। মনে রাখার শর্টকাট — exospore = reproduction, endospore = survival; many spores vs one spore।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M4</span>
+      <p class="qtext">Classify fungus morphologically with example. *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Yeast, yeast-like, mold, dimorphic — with examples</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Fungi are morphologically classified into two main forms — <b>yeast</b> and <b>mold</b> — plus two sub-categories: <b>yeast-like</b> and <b>dimorphic</b>.</p>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Morphological Type</th><th>Description</th><th>Examples</th></tr>
+        <tr>
+          <td><b>a. Yeast</b></td>
+          <td>Unicellular, round or oval cells. Reproduce by <b>budding</b>. In the body, buds remain attached or detach as new cells.</td>
+          <td><i>Cryptococcus neoformans</i> (pathogenic), <i>Saccharomyces cerevisiae</i> (non-pathogenic)</td>
+        </tr>
+        <tr>
+          <td><b>b. Yeast-like (pseudohyphae)</b></td>
+          <td>Unicellular yeast that forms <b>pseudohyphae</b> — elongated cells remaining attached in chains after budding.</td>
+          <td><i>Candida</i> species (especially <i>C. albicans</i>)</td>
+        </tr>
+        <tr>
+          <td><b>c. Mold</b></td>
+          <td>Multicellular, elongated filaments called <b>hyphae</b>. Hyphae grow continuously by tip extension, forming a tangled mass called <b>mycelium</b>. Hyphae may be septate or non-septate (coenocytic). Molds grow at room temperature (25°C).</td>
+          <td>Dermatophytes, <i>Aspergillus</i>, <i>Rhizopus</i>, <i>Mucor</i>, <i>Penicillium</i>, <i>Rhinosporidium seeberi</i></td>
+        </tr>
+        <tr>
+          <td><b>d. Dimorphic</b></td>
+          <td>Two forms: <b>mold at room temperature (25°C)</b> in environment; <b>yeast at body temperature (37°C)</b> in the host.</td>
+          <td><i>Histoplasma capsulatum</i>, <i>Blastomyces dermatitidis</i>, <i>Coccidioides immitis</i>, <i>Paracoccidioides brasiliensis</i>, <i>Sporothrix schenckii</i>, <i>Penicillium marneffei</i>, <i>Malassezia furfur</i></td>
+        </tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Septate আর non-septate hyphae—এই দুটো কোন ধরনের fungus‑এ দেখা যায়?</p>
+      <p class="ca"><b>Septate hyphae</b> — cross wall থাকে, বেশিরভাগ <b>pathogenic</b>, dermatophytes ও systemic fungi‑তে দেখা যায়। <b>Non-septate (coenocytic)</b> — cross wall নেই, multinucleated, বেশিরভাগ <b>saprophytic</b>, যেমন <i>Mucor</i>, <i>Penicillium</i>।</p>
+      <p class="cq">Hyphae কীভাবে grow করে?</p>
+      <p class="ca">Hyphae <b>tip‑এর extension</b> দিয়ে grow করে — filament‑এর খুঁএ cell division দিয়ে নয়।</p>
+      <p class="cq">Mycelium কী?</p>
+      <p class="ca">Hyphae‑র visible tangled mass‑কে mycelium বলে — culture‑এ cotton ball‑এর মতো দেখা যায়।</p>
+      <p class="cq">Fungi imperfecti কাকে বলে?</p>
+      <p class="ca">যে fungus sexual spore তৈরি করে না, তাকে <b>fungi imperfecti</b> বা Deuteromycotina বলে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, morphological classification‑এ মূলত ৪টি group আছে — <b>(ক) yeast</b>, <b>(খ) yeast‑like (pseudohyphae)</b>, <b>(গ) mold</b> ও <b>(ঘ) dimorphic</b>।</p>
+      <p>প্রথম <b>yeast</b> — unicellular, round বা oval cell, <b>budding</b> দিয়ে reproduce করে। শরীরে bud attached থাকে বা নতুন cell হয়ে আলাদা হয়। Example — <i>Cryptococcus neoformans</i> (pathogenic), <i>Saccharomyces cerevisiae</i> (non‑pathogenic)। দ্বিতীয় <b>yeast‑like</b> — unicellular yeast যা <b>pseudohyphae</b> তৈরি করে, অর্থাৎ budding‑এর পর elongated cell chain আকারে attached থাকে। Example — <i>Candida</i>, বিশেষ করে <i>C. albicans</i>।</p>
+      <p>তৃতীয় <b>mold</b> — multicellular, elongated filament <b>hyphae</b>। Hyphae tip extension দিয়ে grow করে এবং tangled mass হয়ে <b>mycelium</b> তৈরি করে। Hyphae septate বা non‑septate (coenocytic) হতে পারে। Mold 25°C (room temperature)‑এ grow করে। Example — dermatophytes, <i>Aspergillus</i>, <i>Rhizopus</i>, <i>Mucor</i>, <i>Penicillium</i>, <i>Rhinosporidium seeberi</i>।</p>
+      <p>চতুর্থ <b>dimorphic</b> — দুটি form: environment‑এ 25°C‑এ <b>mold</b>, host‑এ 37°C‑এ <b>yeast</b>। Example — <i>Histoplasma capsulatum</i>, <i>Blastomyces dermatitidis</i>, <i>Coccidioides immitis</i>, <i>Paracoccidioides brasiliensis</i>, <i>Sporothrix schenckii</i>, <i>Penicillium marneffei</i>, <i>Malassezia furfur</i>।</p>
+      <p>মনে রাখবেন — yeast unicellular + budding, mold multicellular + hyphae/mycelium; dimorphic মানে temperature অনুযায়ী দুই রকম। আর septate hyphae সাধারণত pathogenic, non‑septate saprophytic।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M5</span>
+      <p class="qtext">Mention important differentiating point between yeast and mold? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Unicellular vs multicellular, budding vs hyphae, etc.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Yeast</th><th>Mold</th></tr>
+        <tr><td>Cell number</td><td>Unicellular</td><td>Multicellular</td></tr>
+        <tr><td>Shape</td><td>Round or oval</td><td>Elongated filaments (hyphae)</td></tr>
+        <tr><td>Reproduction</td><td>Budding</td><td>Growth by tip extension of hyphae; spore formation</td></tr>
+        <tr><td>Structure</td><td>Single cells; may form pseudohyphae</td><td>Hyphae forming mycelium (tangled mass)</td></tr>
+        <tr><td>Colony appearance</td><td>Smooth, creamy, wet-looking colonies (like bacteria)</td><td>Cottony, powdery, velvety or granular colonies</td></tr>
+        <tr><td>Growth temperature</td><td>37°C (body temperature)</td><td>25°C (room temperature)</td></tr>
+        <tr><td>Microscopy</td><td>Budding yeast cells</td><td>Branched septate or non-septate hyphae</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Yeast‑এর কিছু example দিন?</p>
+      <p class="ca"><i>Cryptococcus neoformans</i> ও <i>Saccharomyces cerevisiae</i> — এই দুটি yeast।</p>
+      <p class="cq">Mold‑এর example?</p>
+      <p class="ca"><i>Aspergillus</i>, <i>Mucor</i>, <i>Rhizopus</i>, <i>Penicillium</i> আর dermatophytes।</p>
+      <p class="cq">Yeast‑like fungus মানে কী?</p>
+      <p class="ca">Yeast‑like fungus (যেমন <i>Candida</i>) হলো সেই yeast যা pseudohyphae তৈরি করতে পারে।</p>
+      <p class="cq">Dimorphic fungus দুটি form‑এ কীভাবে থাকে?</p>
+      <p class="ca">Environment‑এ 25°C‑এ <b>mold</b>, host‑এ 37°C‑এ <b>yeast</b> — অর্থাৎ temperature অনুযায়ী form বদলায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, yeast আর mold‑এর পার্থক্য তুলনা করে বলছি। <b>Cell number</b> — yeast unicellular, mold multicellular। <b>Shape</b> — yeast round বা oval, mold elongated filament (hyphae)। <b>Reproduction</b> — yeast <b>budding</b> দিয়ে; mold tip extension দিয়ে hyphae grow করে আর spore তৈরি করে।</p>
+      <p><b>Structure</b> — yeast single cell, pseudohyphae তৈরি করতে পারে; mold hyphae দিয়ে <b>mycelium</b> (tangled mass) গঠন করে। <b>Colony appearance</b> — yeast smooth, creamy, wet‑looking (bacteria‑র মতো); mold cottony, powdery, velvety বা granular। <b>Growth temperature</b> — yeast 37°C (body temperature), mold 25°C (room temperature)। <b>Microscopy</b> — yeast‑এ budding yeast cell; mold‑এ branched septate বা non‑septate hyphae।</p>
+      <p>Example হিসেবে remember করুন — yeast: <i>Cryptococcus</i>, <i>Saccharomyces</i>; mold: <i>Aspergillus</i>, <i>Mucor</i>, <i>Rhizopus</i>, <i>Penicillium</i>, dermatophytes। আর yeast‑like <i>Candida</i> pseudohyphae তৈরি করতে পারে, আর dimorphic fungi 25°C‑এ mold, 37°C‑এ yeast হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M6</span>
+      <p class="qtext">What do you mean by hyphae, pseudohyphae and mycelium? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Hyphae = filaments; pseudohyphae = chained buds; mycelium = tangled mass of hyphae</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Hyphae:</b> Long, branching filamentous structures formed by mold. Growth occurs by <b>extension of the tip</b> (not by cell division along the filament). Two types: <b>septate</b> (with cross walls) and <b>non-septate / coenocytic</b> (multinucleated, no cross walls).</p>
+      <ul>
+        <li><b>Septate hyphae:</b> Usually pathogenic — dermatophytes, systemic fungi.</li>
+        <li><b>Non-septate hyphae:</b> Mostly saprophytic — <i>Mucor</i>, <i>Rhizopus</i>.</li>
+      </ul>
+      <p><b>Pseudohyphae:</b> Formed in some yeasts (especially <i>Candida</i>) when buds remain attached to the mother cell, forming a chain of elongated cells. They are NOT true hyphae because they lack the continuous cytoplasmic flow seen in true hyphae.</p>
+      <p><b>Mycelium:</b> When hyphae grow continuously and form a <b>tangled mass or mat</b> of growth, it is called mycelium. This is visible to the naked eye and gives mold colonies their characteristic cottony/powdery appearance.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Pseudohyphae <i>Candida albicans</i>‑এর জন্য কেন characteristic?</p>
+      <p class="ca">কারণ <i>C. albicans</i> budding‑এর পর elongated cell‑এর chain আকারে pseudohyphae তৈরি করে — এটা এর একটি distinctive morphological feature।</p>
+      <p class="cq">Culture‑এ mycelium terminology কীভাবে ব্যবহৃত হয়?</p>
+      <p class="ca">SDA plate‑এ যে visible <b>"fuzzy" বা cottony growth</b> দেখা যায়, সেটাই <b>aerial mycelium</b>।</p>
+      <p class="cq">Hyphae microscope‑এ কীভাবে পরীক্ষা করা হয়?</p>
+      <p class="ca"><b>KOH preparation</b> বা <b>Lactophenol Cotton Blue</b> staining‑এর পরে পরীক্ষা করা হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, তিনটি term পরিষ্কার করে বলছি।</p>
+      <p><b>Hyphae</b> — mold‑এর তৈরি long, branching filamentous structure। Hyphae <b>tip‑এর extension</b> দিয়ে grow করে, cell division দিয়ে নয়। দুই প্রকার — <b>septate</b> (cross wall আছে) ও <b>non‑septate / coenocytic</b> (multinucleated, cross wall নেই)। Septate সাধারণত pathogenic — dermatophytes, systemic fungi; non‑septate বেশিরভাগ saprophytic — <i>Mucor</i>, <i>Rhizopus</i>।</p>
+      <p><b>Pseudohyphae</b> — কিছু yeast‑এ (বিশেষত <i>Candida</i>) bud মাদার cell‑এ attached থাকলে elongated cell‑এর chain তৈরি হয় — এটাই pseudohyphae। এটা <b>true hyphae নয়</b>, কারণ true hyphae‑র মতো continuous cytoplasmic flow থাকে না।</p>
+      <p><b>Mycelium</b> — hyphae যখন ক্রমাগত grow করে <b>tangled mass বা mat</b> তৈরি করে, তখন তাকে mycelium বলে। এটা naked eye‑এ visible, আর mold colony‑র cottony/powdery appearance‑এর কারণ।</p>
+      <p>Microscopically hyphae KOH preparation বা Lactophenol Cotton Blue staining দিয়ে দেখা হয়।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

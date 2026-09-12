@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Herpesvirus Family (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Herpesvirus Family</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">5 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">5 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-05-Diagnosis-Antivirals-Vaccines.html">‹ Prev</a><a href="Virology-07-Hepatitis.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Herpesvirus Family</h2><div class="en">HSV-1/HSV-2 differences, CMV, EBV, latency sites</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V55</span>
+      <p class="qtext">Mention five (05) important character of herpes virus family. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> DNA, enveloped, latent infection, giant cells, envelope from nuclear membrane, some cause cancer</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Common properties of Herpes virus family (Herpesviridae):</b></p>
+      <ul>
+        <li><b>Nucleic acid</b> — dsDNA, <b>linear .</b></li>
+        <li><b>Capsid</b> — icosahedral; <b>enveloped</b> — envelope is obtained from the <b>nuclear membrane</b> (unique to herpesviruses).</li>
+        <li><b>Replication</b> — in the <b>nucleus</b>; virion polymerase absent.</li>
+        <li><b>Latency</b> — they all cause <b>latent infection</b> (virus remains dormant, reactivates later; triggers: sunlight, fever, stress).</li>
+        <li><b>Multinucleated giant cell formation</b> — HSV-1, HSV-2, VZV &amp; CMV (not EBV, HHV-8); seen on Tzanck smear.</li>
+        <li><b>Some cause cancer</b> — EBV (Burkitt's lymphoma, nasopharyngeal carcinoma), HHV-8 (Kaposi's sarcoma).</li>
+        <li>All are structurally &amp; morphologically similar but <b>antigenically different</b>; tegument present between capsid &amp; envelope.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Herpes virus family-র ৫টি important character কী?</p>
+        <p class="ca">(১) DS DNA, (২) Enveloped (nuclear membrane থেকে), (৩) Latent infection, (৪) Multinucleated giant cell, (৫) Some cause cancer।</p>
+        <p class="cq">Herpes-র envelope কোথা থেকে আসে?</p>
+        <p class="ca">Host cell-র nuclear membrane থেকে — এটি herpes family-র unique feature।</p>
+        <p class="cq">কোন herpes virus cancer করে?</p>
+        <p class="ca">EBV (Burkitt's lymphoma, nasopharyngeal carcinoma), HHV-8 (Kaposi's sarcoma)।</p>
+        <p class="cq">Tegument কী?</p>
+        <p class="ca">Capsid আর envelope-এর মাঝে থাকা amorphous protein layer — herpes family-র characteristic।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Herpes family-র পাঁচটি মুখ্য character — (১) DS DNA, (২) Enveloped — envelope nuclear membrane থেকে নেয় (শোনে unique), (৩) Latent infection করে, (৪) Multinucleated giant cell তৈরি করে (HSV, VZV, CMV), (৫) কিছু cancer করে (EBV, HHV-8)।</p>
+<p>Replication nucleus-এ হয়। Tegument capsid আর envelope-এর মাঝে।</p>
+<p>"DNA + envelope + latent + giant cell + cancer" — এই পাঁচটি কথায় herpes family-র character বলে দেওয়া যায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V56</span>
+      <p class="qtext">Mention the name of virus, site of latency &amp; diseases of herpes family. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HSV-1 cranial ganglia, HSV-2 lumbar/sacral, VZV dorsal root, EBV B cells, CMV monocytes/kidney</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table class="ans-tbl">
+        <tbody><tr><th>Virus</th><th>Site of latency</th><th>Primary / Recurrent disease</th></tr>
+        <tr><td><b>HSV-1</b></td><td>Cranial sensory (trigeminal) ganglia</td><td>Gingivostomatitis, herpes labialis, encephalitis, keratitis</td></tr>
+        <tr><td><b>HSV-2</b></td><td>Lumbar &amp; sacral sensory ganglia</td><td>Herpes genitalis, neonatal herpes</td></tr>
+        <tr><td><b>VZV</b></td><td>Cranial or thoracic (dorsal root) ganglia</td><td>Varicella (chickenpox); zoster (shingles)</td></tr>
+        <tr><td><b>EBV</b></td><td>B lymphocytes</td><td>Infectious mononucleosis, Burkitt's lymphoma, nasopharyngeal carcinoma</td></tr>
+        <tr><td><b>CMV</b></td><td>Monocytes &amp; kidney</td><td>Congenital infection, cytomegalic inclusion disease, mononucleosis</td></tr>
+        <tr><td><b>HHV-8</b></td><td>—</td><td>Kaposi's sarcoma</td></tr>
+        <tr><td><b>HHV-6 / HHV-7</b></td><td>—</td><td>Roseola infantum (6th disease) / Pityriasis rosea</td></tr>
+      </tbody></table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HSV-1 latency site ও disease কী?</p>
+        <p class="ca">Latency: Trigeminal ganglia। Disease: Gingivostomatitis, herpes labialis, encephalitis, keratitis।</p>
+        <p class="cq">HSV-2 latency site ও disease কী?</p>
+        <p class="ca">Latency: Lumbar/sacral ganglia। Disease: Genital herpes, neonatal herpes।</p>
+        <p class="cq">VZV latency site ও disease কী?</p>
+        <p class="ca">Latency: Dorsal root ganglia। Disease: Chickenpox (primary), Zoster/Shingles (reactivation)।</p>
+        <p class="cq">EBV latency site ও disease কী?</p>
+        <p class="ca">Latency: B lymphocytes। Disease: Infectious mononucleosis, Burkitt's lymphoma, nasopharyngeal carcinoma।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Herpes family-র প্রতিটি virus-এর নিজস্ব <b>latency site</b> আছে, যা ভাইভায় প্রায়ই জিজ্ঞেস করা হয়:</p>
+      <ul>
+        <li><b>HSV-1</b> — trigeminal (cranial sensory) ganglia-তে latent থাকে; disease: gingivostomatitis, herpes labialis, encephalitis, keratitis।</li>
+        <li><b>HSV-2</b> — lumbar ও sacral sensory ganglia-তে latent থাকে; disease: genital herpes, neonatal herpes।</li>
+        <li><b>VZV</b> — dorsal root (cranial/thoracic) ganglia-তে latent থাকে; disease: varicella (chickenpox), reactivation-এ zoster (shingles)।</li>
+        <li><b>EBV</b> — B lymphocytes-এ latent থাকে; disease: infectious mononucleosis, Burkitt's lymphoma, nasopharyngeal carcinoma।</li>
+        <li><b>CMV</b> — monocytes ও kidney-তে latent থাকে; disease: congenital cytomegalic inclusion disease, mononucleosis।</li>
+      </ul>
+      <p>এছাড়াও <b>HHV-8</b> Kaposi's sarcoma করে, আর <b>HHV-6/7</b>-র main disease roseola infantum (6th disease)।</p>
+      <p><b>সম্পূর্ণ সুবিধার্থে:</b> Herpesviridae-র subfamily — <b>Alpha</b> (HSV-1, HSV-2, VZV — short replication cycle, neurons-এ latent), <b>Beta</b> (CMV, HHV-6, HHV-7 — long cycle), <b>Gamma</b> (EBV, HHV-8 — lymphoproliferative)। Latency site-গুলো মুখস্থ রাখলে viva-তে খুব ভালো উত্তর দেওয়া যাবে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V57</span>
+      <p class="qtext">Give three (03) importance differences between HSV-1 &amp; HSV-2. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HSV-1 upper body, HSV-2 lower body</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table class="ans-tbl">
+        <tbody><tr><th>Point</th><th>HSV-1</th><th>HSV-2</th></tr>
+        <tr><td><b>Common mode of transmission</b></td><td>Respiratory secretion, direct contact</td><td>Sexual mode, vertical</td></tr>
+        <tr><td><b>Site of latency</b></td><td>Trigeminal (cranial) ganglia</td><td>Lumbar &amp; sacral sensory ganglia</td></tr>
+        <tr><td><b>Common site of lesion</b></td><td><b>Above the waist</b> — oral/facial lesions, encephalitis, keratoconjunctivitis</td><td><b>Below the waist</b> — genital lesions, neonatal sepsis</td></tr>
+        <tr><td><b>Age affected</b></td><td>Children</td><td>Young adults</td></tr>
+        <tr><td><b>Neurovirulence</b></td><td>Less</td><td>More</td></tr>
+        <tr><td><b>Diseases</b></td><td>Gingivostomatitis, herpes labialis, keratitis, encephalitis</td><td>Genital herpes, neonatal herpes, aseptic meningitis</td></tr>
+      </tbody></table>
+      <p><b>Note:</b> HSV-1 &amp; HSV-2 show &gt;50% DNA homology and &gt;80% antigenic homology.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HSV-1 আর HSV-2-র transmission-এর পার্থক্য কী?</p>
+        <p class="ca">HSV-1: Respiratory secretion, direct contact। HSV-2: Sexual mode, vertical।</p>
+        <p class="cq">Latency site-এর পার্থক্য কী?</p>
+        <p class="ca">HSV-1: Trigeminal (cranial) ganglia। HSV-2: Lumbar &amp; sacral ganglia।</p>
+        <p class="cq">Lesion site-এর পার্থক্য কী?</p>
+        <p class="ca">HSV-1: Above the waist — oral/facial। HSV-2: Below the waist — genital।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>HSV-1 আর HSV-2-র main difference — HSV-1 উপরের body (mouth, oro-facial) infect করে, HSV-2 নিচের body (genital) infect করে।</p>
+<p>Transmission: HSV-1 respiratory/direct contact, HSV-2 sexual। Latency: HSV-1 trigeminal, HSV-2 lumbar-sacral।</p>
+<p>"Upper = HSV-1, lower = HSV-2" — এই মন্ত্রটা রেখে দিন। HSV-1 &amp; HSV-2 &gt;50% DNA homology আর &gt;80% antigenic homology share করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V58</span>
+      <p class="qtext">Mention the mode of transmission, diseases and complication of cytomegalovirus. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> all routes; congenital + immunocompromised pneumonia; owl's eye inclusions</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Mode of transmission</b> (CMV spreads by <b>almost all routes</b>):</p>
+      <ul>
+        <li><b>Vertical:</b> before birth (transplacental), during birth, and after birth (breast feeding).</li>
+        <li><b>Horizontal:</b> saliva, sexual contact (semen &amp; cervical secretion), organ transplant, blood transfusion, urine.</li>
+      </ul>
+      <p><b>Diseases:</b></p>
+      <ul>
+        <li><b>Cytomegalic inclusion disease</b> (congenital): microcephaly, seizures, deafness, jaundice, hepatosplenomegaly, purpura ("blueberry muffin" — due to thrombocytopenia). Congenital abnormalities more common if infected in the <b>1st trimester</b>.</li>
+        <li><b>Pneumonia</b> in immunocompromised patients (bone marrow/solid organ transplant recipients).</li>
+        <li><b>Heterophil-negative mononucleosis</b> in immunocompetent adults.</li>
+      </ul>
+      <p><b>Key feature:</b> giant cells — multinucleated giant cells with prominent <b>intranuclear "owl's eye" inclusion bodies</b>; name "cytomegalo" from giant cells.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">CMV transmission-এর routes কোন কোনটি?</p>
+        <p class="ca">Almost all routes — vertical (transplacental, birth, breast feeding) + horizontal (saliva, sexual, blood, organ transplant)।</p>
+        <p class="cq">CMV-র congenital infection-এ কী হয়?</p>
+        <p class="ca">Cytomegalic inclusion disease — microcephaly, seizures, deafness, jaundice, hepatosplenomegaly, purpura ("blueberry muffin")।</p>
+        <p class="cq">CMV identification-র key feature কী?</p>
+        <p class="ca">Giant cells + intranuclear "owl's eye" inclusion bodies।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>CMV প্রায় সব pathway-তে ছড়ায় — vertical (transplacental, birth, breast feeding) আর horizontal (saliva, sexual, blood, organ transplant)।</p>
+<p>Disease — congenital cytomegalic inclusion disease (microcephaly, deafness, jaundice, hepatosplenomegaly), immunocompromised-র pneumonia, mononucleosis।</p>
+<p>বড় identification point — owl's eye intracellular inclusion আর giant cell। CMV name "cytomegalo" giant cell-ই থেকে এসেছে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V59</span>
+      <p class="qtext">Mention the mode of transmission and diseases of EBV. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> saliva/kissing → infectious mononucleosis, Burkitt's lymphoma</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Mode of transmission:</b> EBV is transmitted mainly through <b>saliva</b> — the "kissing disease" (respiratory secretion and saliva; also blood/transplant).</p>
+      <p><b>Diseases:</b></p>
+      <ul>
+        <li><b>Infectious mononucleosis</b> — fever, lymphadenopathy, sore throat, atypical lymphocytes (&gt;30%).</li>
+        <li><b>Cancers:</b>
+          <ul>
+            <li>Burkitt's lymphoma</li>
+            <li>B-cell lymphomas — post-transplant lymphoproliferative disorder (PTLD)</li>
+            <li>Nasopharyngeal carcinoma</li>
+            <li>Hairy leukoplakia &amp; thymic carcinoma (immunocompromised)</li>
+          </ul>
+        </li>
+      </ul>
+      <p><b>Diagnosis:</b> Heterophil antibody (Monospot) test, EBV-specific antibodies, atypical lymphocytes (30%), PCR.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">EBV transmission-এর main route কী?</p>
+        <p class="ca">Saliva — "kissing disease"।</p>
+        <p class="cq">EBV-র disease-গুলো কোন কোনটি?</p>
+        <p class="ca">Infectious mononucleosis, Burkitt's lymphoma, nasopharyngeal carcinoma, B-cell lymphomas, hairy leukoplakia।</p>
+        <p class="cq">Monospot test কী?</p>
+        <p class="ca">Heterophil antibody test — infectious mononucleosis-এ diagnose করার জন্য।</p>
+        <p class="cq">EBV latency-তে কোথায় থাকে?</p>
+        <p class="ca">B lymphocytes-এ।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>EBV transmission saliva দিয়ে — তাই "kissing disease" বলে।</p>
+<p>Disease — infectious mononucleosis (fever, lymphadenopathy, atypical lymphocyte)। Cancer — Burkitt's lymphoma, nasopharyngeal carcinoma।</p>
+<p>EBV B lymphocyte-তে latent থাকে। Atypical lymphocytes হলো CD8+ T cells যারা EBV-infected B cell-এর বিরুদ্ধে react করে।</p>
+<p>"EBV + saliva + kissing + Burkitt's lymphoma" — এই চারটি কথা viva-তে khub কাজে আসবে।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

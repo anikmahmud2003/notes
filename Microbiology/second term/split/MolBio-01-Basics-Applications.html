@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molecular Biology & Biosafety — Molecular Biology — Basics & Applications (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Molecular Biology &amp; Biosafety</h1>
+  <h2>Molecular Biology — Basics &amp; Applications</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔵 Molecular Biology</span><span class="badge">5 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">5 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-14-Oncogenic-PPE-Biosafety.html">‹ Prev</a><a href="MolBio-02-Genetic-Engineering.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="molbio" class="subject s-mol">
+    <div class="sec-head"><div class="num">🧬</div><div><h2>Molecular Biology — Basics &amp; Applications</h2><div class="en">What is molecular biology, applications, central dogma, genomics/transcriptomics/proteomics, biotechnology</div></div></div>
+    <div id="molbio-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB1</span>
+      <p class="qtext">What is molecular biology? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> the branch of biology that studies biomolecules — DNA, RNA, proteins</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Molecular biology is the branch of biology that studies the <b>structure, function, and interactions of biomolecules</b> (cellular molecules such as <b>DNA, RNA, and proteins</b>) that are essential for life.</p>
+      <p>It combines principles from multiple disciplines:</p>
+      <ul>
+        <li><b>Biochemistry</b> — chemical basis of biological reactions</li>
+        <li><b>Genetics</b> — heredity and gene function</li>
+        <li><b>Microbiology</b> — study of microorganisms at molecular level</li>
+        <li><b>Biophysics</b> — physical principles underlying biological structures</li>
+      </ul>
+      <p>Molecular biology focuses on:</p>
+      <ul>
+        <li>Gene expression (transcription and translation)</li>
+        <li>DNA replication</li>
+        <li>Protein synthesis</li>
+        <li>Molecular mechanisms of diseases</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">মলিকুলার বায়োলজি থেকে কোন কোন টেকনিকের ভিত্তি তৈরি হয়?</p>
+      <p class="ca">মলিকুলার বায়োলজিই PCR, DNA sequencing, gene cloning এবং CRISPR-Cas9 gene editing এর মতো টেকনিকগুলোর ভিত্তি প্রদান করে।</p>
+      <p class="cq">জেনেটিক ইঞ্জিনিয়ারিং সাথে মলিকুলার বায়োলজির সম্পর্ক কী?</p>
+      <p class="ca">জেনেটিক ইঞ্জিনিয়ারিং হলো মলিকুলার বায়োলজির ফলিত (applied) রূপ — এটি biotechnology ও genetic engineering এর মতো প্রয়োগমুখী দিক নিয়ে কাজ করে।</p>
+      <p class="cq">সেলুলার লেভেলে মলিকুলার বায়োলজি কীভাবে ইনফরমেশন ফ্লো তদন্ত করে?</p>
+      <p class="ca">সেলুলার লেভেলে মলিকুলার বায়োলজি central dogma অনুসারে DNA → RNA → Protein তথ্যপ্রবাহ কীভাবে ঘটে তা তদন্ত করে।</p>
+      <p class="cq">মলিকুলার বায়োলজি প্রধানত কোন কোন বায়োমলিকিউল নিয়ে কাজ করে?</p>
+      <p class="ca">এটি প্রধানত DNA, RNA এবং protein — এই তিনটি জীবনধারণের জন্য প্রয়োজনীয় বায়োমলিকিউলের structure, function ও interaction নিয়ে কাজ করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>মলিকুলার বায়োলজি হলো জীববিজ্ঞানের সেই শাখা, যে শাখায় আমরা cell-এর ভেতরে থাকা জীবনের জন্য প্রয়োজনীয় জৈব অণুগুলো — যেমন <b>DNA</b>, <b>RNA</b> এবং <b>protein</b> — এদের structure, function এবং এরা কীভাবে পরস্পরের সাথে interaction করে তা study করি।</p>
+      <p>এটি একা কোন শাখা নয়, বরং একাধিক শাখার সমন্বয়ে গঠিত:</p>
+      <ul>
+        <li><b>Biochemistry</b> — জৈব বিক্রিয়ার রাসায়নিক ভিত্তি; <b>Genetics</b> — বংশগতি ও জিনের কাজ; <b>Microbiology</b> — অণুজীবের আণবিক স্তরে অধ্যয়ন; <b>Biophysics</b> — জীববৈজ্ঞানিক গঠনের ভৌত নীতি।</li>
+      </ul>
+      <p>মলিকুলার বায়োলজির প্রধান ফোকাস হলো:</p>
+      <ul>
+        <li>Gene expression — অর্থাৎ <b>transcription</b> ও <b>translation</b>;</li>
+        <li><b>DNA replication</b>;</li>
+        <li>Protein synthesis;</li>
+        <li>রোগের আণবিক প্রক্রিয়া (molecular mechanisms of diseases)।</li>
+      </ul>
+      <p>সহজভাবে বললে, মলিকুলার বায়োলজি আমাদের বোঝায় যে DNA থেকে কিভাবে তথ্য প্রবাহিত হয়ে RNA হয়ে শেষে functional protein তৈরি হয় — এটিই central dogma। আর এই ভিত্তির উপরেই PCR, DNA sequencing, gene cloning-এর মতো সকল আধুনিক টেকনিক দাঁড়িয়ে আছে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB2</span>
+      <p class="qtext">Mention some application molecular biology/ biotechnology/ genetic engineering/ DNA cloning/ Recombinant DNA technology. **** (in medicine, in agriculture, in industry, in forensic medicine)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> in medicine, in agriculture, in industry, in forensic medicine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Molecular biology and its allied technologies have wide-ranging applications:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr>
+            <th>Field</th>
+            <th>Applications</th>
+            <th>Examples</th>
+          </tr>
+          <tr>
+            <td><b>Medicine</b></td>
+            <td>Drug development, vaccine development, gene therapy, microorganism detection, genetic testing</td>
+            <td>Insulin production, HBV &amp; HPV vaccines, mRNA COVID-19 vaccines (Pfizer &amp; Moderna), CAR-T cell therapy for cancer, CRISPR-Cas9 for sickle cell anemia, PCR for COVID-19 &amp; HIV detection, BRCA mutation &amp; thalassemia screening</td>
+          </tr>
+          <tr>
+            <td><b>Agriculture</b></td>
+            <td>GM crops, disease-resistant plants, transgenic animals, animal cloning, marker-assisted breeding</td>
+            <td>Bt Cotton (pest-resistant), Golden Rice (Vitamin A enriched), CRISPR-edited crops, fast-growing salmon, Dolly the sheep (first cloned mammal)</td>
+          </tr>
+          <tr>
+            <td><b>Industry</b></td>
+            <td>Biofuels, enzyme production, biodegradable plastics, bioremediation, wastewater treatment</td>
+            <td>Yeast/algae-derived ethanol, amylases &amp; lipases in detergents, PHAs from bacteria, oil-eating bacteria for oil spill cleanup</td>
+          </tr>
+          <tr>
+            <td><b>Forensic medicine</b></td>
+            <td>DNA fingerprinting, paternity testing, criminal identification</td>
+            <td>STR analysis, mitochondrial DNA profiling</td>
+          </tr>
+          <tr>
+            <td><b>Research</b></td>
+            <td>Genome editing, organoids, lab-grown tissues</td>
+            <td>CRISPR for eradicating malaria-carrying mosquitoes, 3D bio-printing of human tissues</td>
+          </tr>
+          <tr>
+            <td><b>Evolutionary biology</b></td>
+            <td>Phylogenetics, ancient DNA analysis</td>
+            <td>DNA-based evolutionary relationship studies, fossil DNA extraction</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">মলিকুলার বায়োলজি থেকে জিনেটিক ইঞ্জিনিয়ারিং পর্যন্ত সম্পর্কের ধারাটি কীভাবে ব্যাখ্যা করবেন?</p>
+      <p class="ca">বৈজ্ঞানিক ধারা হলো: Molecular Biology → tools → DNA cloning → Recombinant DNA technology → Genetic engineering (CRISPR ও gene therapy) → Biotechnology-তে প্রয়োগ। অর্থাৎ মলিকুলার বায়োলজি ভিত্তি, আর biotechnology হলো প্রয়োগমুখী রূপ।</p>
+      <p class="cq">জিনেটিক ইঞ্জিনিয়ারিংয়ের সাথে কোন কোন নৈতিক ও নিরাপত্তা সংক্রান্ত উদ্বেগ জড়িত?</p>
+      <p class="ca">উদ্বেগগুলোর মধ্যে রয়েছে: GMO দ্বারা সম্ভাব্য ecosystem-এর ব্যাঘাত, human germ-line editing নিয়ে বিতর্ক (যেমন CRISPR babies), এবং bio-piracy — অর্থাৎ জিনগত সম্পদের অননুমোদিত ব্যবহার।</p>
+      <p class="cq">Biotechnology-এর color code অনুযায়ী প্রকারভেদগুলো কী কী?</p>
+      <p class="ca">Red (medical), White (industrial), Green (agricultural), Black (environmental) এবং Blue (marine) — এই পাঁচ রঙে biotechnology-এর শাখাগুলো চেনা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>মলিকুলার বায়োলজি ও জিনেটিক ইঞ্জিনিয়ারিংয়ের প্রয়োগ চারদিকে ছড়িয়ে আছে। আমি ক্ষেত্রগুলো ভাগ করে বলি:</p>
+      <ul>
+        <li><b>Medicine:</b> drug development, vaccine development, gene therapy, microorganism detection ও genetic testing। উদাহরণ — <b>Insulin</b> production, <b>HBV ও HPV vaccine</b>, <b>mRNA COVID-19 vaccine</b> (Pfizer ও Moderna), <b>CAR-T cell therapy</b> ক্যান্সারের জন্য, <b>CRISPR-Cas9</b> দিয়ে sickle cell anemia, PCR দিয়ে COVID-19 ও HIV detection, BRCA mutation ও thalassemia screening।</li>
+        <li><b>Agriculture:</b> GM crops, disease-resistant plant, transgenic animal, animal cloning। উদাহরণ — <b>Bt Cotton</b> (পোকামাকড়-প্রতিরোধী), <b>Golden Rice</b> (ভিটামিন A সমৃদ্ধ), CRISPR-edited crops, fast-growing salmon, এবং first cloned mammal <b>Dolly the sheep</b>।</li>
+        <li><b>Industry:</b> biofuel, enzyme production, biodegradable plastic, bioremediation, wastewater treatment। যেমন — yeast/algae থেকে ethanol, detergente amylase ও lipase, bacteria থেকে PHA, oil spill-এর জন্য oil-eating bacteria।</li>
+        <li><b>Forensic medicine:</b> <b>DNA fingerprinting</b>, paternity testing, criminal identification — যেমন STR analysis ও mitochondrial DNA profiling।</li>
+      </ul>
+      <p>এছাড়া research-এ genome editing (যেমন CRISPR দিয়ে malaria-বাহী মশা নির্মূল), আর evolutionary biology-তে DNA দিয়ে প্রজাতির বিবর্তনীয় সম্পর্ক নির্ণয় করা হয়। মূল কথা — DNA, RNA ও protein-কে বোঝা এবং সেটিকে বাস্তব জীবনে প্রয়োগ করাই এই শাখার সারমর্ম।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB3</span>
+      <p class="qtext">What do you mean by central dogma of genetics? ** (Transcription and Translation)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Transcription and Translation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The <b>central dogma of genetics</b> describes the flow of genetic information within a cell. It states that information flows from:</p>
+      <p style="text-align:center; font-size:1.1em;"><b>DNA → RNA → Protein</b></p>
+      <p>The three main processes are:</p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr>
+            <th>Process</th>
+            <th>Direction</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><b>Replication</b></td>
+            <td>DNA → DNA</td>
+            <td>DNA makes a copy of itself during cell division. Enzyme: DNA polymerase.</td>
+          </tr>
+          <tr>
+            <td><b>Transcription</b></td>
+            <td>DNA → RNA</td>
+            <td>A segment of DNA is copied into mRNA by RNA polymerase in the nucleus.</td>
+          </tr>
+          <tr>
+            <td><b>Translation</b></td>
+            <td>RNA → Protein</td>
+            <td>mRNA is decoded by ribosomes in the cytoplasm to synthesize a specific protein (polypeptide chain).</td>
+          </tr>
+        </tbody></table>
+      </div>
+      <p><b>Exception — Reverse Transcription:</b> In retroviruses (e.g., HIV), the enzyme <b>reverse transcriptase</b> converts RNA back into DNA (RNA → DNA), which reverses the usual flow. This was later added to the central dogma by Francis Crick.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কেন্দ্রীয় মতবাদ (central dogma) প্রথম কে প্রস্তাব করেন?</p>
+      <p class="ca">ফ্রান্সিস ক্রিক (Francis Crick) ১৯৫৮ সালে এই কেন্দ্রীয় মতবাদটি প্রথম প্রস্তাব করেন।</p>
+      <p class="cq">আণবিক স্তরে replication, transcription ও translation-এর গুরুত্ব কী?</p>
+      <p class="ca">DNA replication জিনগত ধারাবাহিকতা (genetic continuity) নিশ্চিত করে; transcription তথ্যটিকে portable message-এ (mRNA) রূপান্তর করে; আর translation সেই বার্তাকে decode করে functional protein তৈরি করে।</p>
+      <p class="cq">এই তিন প্রক্রিয়ার মূল এনজাইমগুলো কী কী?</p>
+      <p class="ca">DNA polymerase (replication), RNA polymerase (transcription), এবং ribosome + tRNA (translation) — এগুলো তিনটি প্রক্রিয়ার মূল এনজাইম।</p>
+      <p class="cq">Central dogma-র ব্যতিক্রম কী?</p>
+      <p class="ca">Reverse transcription হলো ব্যতিক্রম — রেট্রোভাইরাসে (HIV) reverse transcriptase এনজাইম RNA থেকে DNA তৈরি করে (RNA → DNA)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Central dogma মানে হলো — জিনগত তথ্য cell-এর ভেতরে কীভাবে প্রবাহিত হয়। অর্থাৎ তথ্য প্রবাহিত হয় <b>DNA → RNA → Protein</b> এই ধারায়।</p>
+      <p>এখানে তিনটি মূল প্রক্রিয়া আছে:</p>
+      <ul>
+        <li><b>Replication (DNA → DNA):</b> cell division-এর সময় DNA নিজের অনুলিপি (copy) তৈরি করে। এনজাইম — <b>DNA polymerase</b>।</li>
+        <li><b>Transcription (DNA → RNA):</b> nucleus-এ <b>RNA polymerase</b> DNA-এর একটি অংশকে mRNA-তে কপি করে।</li>
+        <li><b>Translation (RNA → Protein):</b> cytoplasm-এ ribosome mRNA-কে decode করে একটি নির্দিষ্ট protein (polypeptide chain) তৈরি করে।</li>
+      </ul>
+      <p>এখানে একটি <b>ব্যতিক্রম (exception)</b> আছে — <b>reverse transcription</b>: রেট্রোভাইরাসে (যেমন <b>HIV</b>) <b>reverse transcriptase</b> এনজাইম RNA থেকে DNA তৈরি করে, অর্থাৎ সাধারণ প্রবাহকে উল্টে দেয়। এই ব্যতিক্রমটি পরে <b>Francis Crick</b> কেন্দ্রীয় মতবাদে যোগ করেন।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB4</span>
+      <p class="qtext">What is genomics, transcriptomics, proteomics (genome, transcriptome, proteome)? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> genomic: all genome, Transcriptomics: All mRNA, proteomics: All protein</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap">
+        <table>
+          <tbody><tr>
+            <th>Term</th>
+            <th>Refers to</th>
+            <th>Definition</th>
+          </tr>
+          <tr>
+            <td><b>Genomics</b></td>
+            <td>Genome</td>
+            <td>Study of the <b>complete set of DNA</b> (all genes and non-coding regions) of an organism. Done by DNA sequencing and gene mapping.</td>
+          </tr>
+          <tr>
+            <td><b>Transcriptomics</b></td>
+            <td>Transcriptome</td>
+            <td>Study of <b>all RNA molecules</b> (all RNA transcripts including mRNA &amp; non-coding RNA such as miRNA) produced in a cell at a given time.</td>
+          </tr>
+          <tr>
+            <td><b>Proteomics</b></td>
+            <td>Proteome</td>
+            <td>Study of <b>all proteins</b> produced by a cell or organism at a given time.</td>
+          </tr>
+          <tr>
+            <td><b>Epigenetics</b></td>
+            <td>—</td>
+            <td>Study of gene expression changes <b>without</b> DNA sequence change (e.g., methylation).</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Genome বলতে কী বোঝায়?</p>
+      <p class="ca">Genome হলো একটি জীবের সম্পূর্ণ DNA — অর্থাৎ সকল gene-সহ non-coding region-ও অন্তর্ভুক্ত।</p>
+      <p class="cq">Transcriptome কী?</p>
+      <p class="ca">Transcriptome হলো একটি নির্দিষ্ট মুহূর্তে cell-এ উপস্থিত সকল RNA transcript — mRNA-সহ non-coding RNA (যেমন miRNA)।</p>
+      <p class="cq">Proteome বলতে কী বোঝায়?</p>
+      <p class="ca">Proteome হলো একটি নির্দিষ্ট সময়ে genome, cell, tissue বা organism দ্বারা প্রকাশিত মোট protein-এর সমষ্টি।</p>
+      <p class="cq">এই "-omics" পদ্ধতিগুলো কীভাবে পরস্পর সম্পর্কিত?</p>
+      <p class="ca">Genomics blueprint প্রদান করে, transcriptomics দেখায় কোন জিনগুলো সক্রিয় (active), আর proteomics প্রকাশ করে functional product-গুলো — অর্থাৎ DNA → RNA → Protein ধারার সাথে সম্পর্কিত।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>এই প্রশ্নটা মূলত DNA থেকে protein পর্যন্ত প্রতিটি স্তরের study নিয়ে। এখানে চারটি টার্ম আছে:</p>
+      <ul>
+        <li><b>Genomics:</b> organism-এর সম্পূর্ণ DNA study করা — অর্থাৎ সকল gene ও non-coding region। এটি করা হয় <b>DNA sequencing</b> ও <b>gene mapping</b> দিয়ে।</li>
+        <li><b>Transcriptomics:</b> একটি নির্দিষ্ট সময়ে cell-এ উৎপন্ন সকল <b>RNA molecule</b> study করা — mRNA-সহ non-coding RNA যেমন <b>miRNA</b>।</li>
+        <li><b>Proteomics:</b> একটি নির্দিষ্ট সময়ে cell বা organism-এর উৎপন্ন <b>সকল protein</b> study করা।</li>
+        <li><b>Epigenetics:</b> DNA sequence-এর পরিবর্তন <b>ছাড়াই</b> gene expression-এর পরিবর্তন — যেমন <b>methylation</b>।</li>
+      </ul>
+      <p>এগুলো একসাথে পড়া হয় কেননা এরা পরস্পর সম্পর্কিত — genomics blueprint দেয়, transcriptomics দেখায় কোন জিন active, আর proteomics দেখায় functional product। অর্থাৎ পুরো DNA → RNA → Protein ধারা।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">MB5</span>
+      <p class="qtext">What is biotechnology &amp; Genetic engineering? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> biotechnology = broad field; genetic engineering = specific DNA alteration</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Biotechnology</b> is a broad field that uses biological systems (living organisms or their products) to develop or create useful products for specific purposes — for medical, industrial, and agricultural applications.</p>
+      <p><b>Types of Biotechnology:</b></p>
+      <div class="tblwrap">
+        <table>
+          <tbody><tr><th>Type</th><th>Color Code</th><th>Application Area</th></tr>
+          <tr><td>Medical Biotechnology</td><td>Red</td><td>Vaccines, Gene therapy, Diagnostics</td></tr>
+          <tr><td>Industrial Biotechnology</td><td>White</td><td>Biofuels, Biodegradable plastics</td></tr>
+          <tr><td>Agricultural Biotechnology</td><td>Green</td><td>GM crops, Pest resistance</td></tr>
+          <tr><td>Environmental Biotechnology</td><td>Black</td><td>Waste treatment, Bioremediation</td></tr>
+          <tr><td>Marine Biotechnology</td><td>Blue</td><td>Aquaculture, Marine drugs</td></tr>
+        </tbody></table>
+      </div>
+      <p><b>Genetic Engineering</b> is a <b>specific branch</b> of biotechnology that alters DNA to improve or create organisms with desired traits. It involves modifying, inserting, or deleting DNA to alter genetic makeup using biotechnology tools.</p>
+      <p><b>Key techniques in biotechnology:</b> DNA cloning, Recombinant DNA technology, PCR &amp; RT-PCR, Gene editing (CRISPR-Cas9), Gene therapy.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Biotechnology ও genetic engineering-এর মধ্যে সম্পর্ক কী?</p>
+      <p class="ca">Biotechnology হলো umbrella-like বিস্তৃত ক্ষেত্র; genetic engineering হলো এর একটি core technique — যেখানে সরাসরি DNA-তে পরিবর্তন আনা হয়।</p>
+      <p class="cq">Genetic engineering-এর সাথে কোন নৈতিক উদ্বেগগুলো জড়িত?</p>
+      <p class="ca">GMO দ্বারা ecosystem-এর ব্যাঘাত, human germ-line editing (CRISPR babies বিতর্ক) এবং bio-piracy — এগুলোই প্রধান নৈতিক উদ্বেগ।</p>
+      <p class="cq">Genetic engineering-এ কোন কোন কাজ করা যায়?</p>
+      <p class="ca">তিন ধরনের কাজ করা যায় — একটি faulty gene প্রতিস্থাপন (replace) করা, mutated gene নিষ্ক্রিয় (inactivate) করা, অথবা organism-এ সম্পূর্ণ নতুন একটি gene প্রবেশ করানো (introduce)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>প্রথমে দুটি টার্ম আলাদা করে বুঝি।</p>
+      <p><b>Biotechnology</b> হলো একটি বিস্তৃত ক্ষেত্র — এটি জীবন্ত organism বা তার product ব্যবহার করে দরকারি দ্রব্য তৈরি করে, যেমন medical, industrial ও agricultural প্রয়োগ।</p>
+      <p>Biotechnology-এর পাঁচটি রঙ-ভিত্তিক প্রকারভেদ আছে:</p>
+      <ul>
+        <li><b>Red</b> — Medical (vaccine, gene therapy, diagnostics); <b>White</b> — Industrial (biofuel, biodegradable plastic); <b>Green</b> — Agricultural (GM crops, pest resistance); <b>Black</b> — Environmental (waste treatment, bioremediation); <b>Blue</b> — Marine (aquaculture, marine drugs)।</li>
+      </ul>
+      <p><b>Genetic engineering</b> হলো biotechnology-এর একটি <b>নির্দিষ্ট শাখা</b> — যেখানে desired trait পাওয়ার জন্য DNA-কে সরাসরি alter, insert, বা delete করা হয়।</p>
+      <p>মূল টেকনিকগুলো হলো: <b>DNA cloning</b>, <b>Recombinant DNA technology</b>, <b>PCR ও RT-PCR</b>, gene editing (<b>CRISPR-Cas9</b>) এবং <b>gene therapy</b>।</p>
+      <p>সংক্ষেপে — biotechnology হলো বিস্তৃত ছাতা, আর genetic engineering হলো তারই একটি মূল টুল।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

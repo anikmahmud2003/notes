@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Polio & Neurotropic Viruses (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Polio &amp; Neurotropic Viruses</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">12 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">12 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-09-Respiratory-Rash-Viruses.html">‹ Prev</a><a href="Virology-11-Rotavirus-HIV-STD.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Polio &amp; Neurotropic Viruses</h2><div class="en">OPV vs IPV, poliomyelitis, flaccid/spastic paralysis, rabies &amp; PEP, encephalitis, herd immunity</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V99</span>
+      <p class="qtext">What is the advantage and disadvantage of OPV over IPV? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> OPV = oral; IPV = injectable; risk of VAPP</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>OPV (Sabin — Oral Polio Vaccine)</th><th>IPV (Salk — Injectable Polio Vaccine)</th></tr></thead>
+        <tbody>
+          <tr><td>Type</td><td>Live attenuated</td><td>Killed (inactivated)</td></tr>
+          <tr><td>Route</td><td>Oral (drops)</td><td>Injectable (IM/SC)</td></tr>
+          <tr><td>OPV advantages over IPV</td><td colspan="2">
+            • Easy to administer (oral drops — no injection needed)<br>
+            • Produces gut (mucosal) immunity → stops virus circulation in community<br>
+            • Provides herd immunity more effectively<br>
+            • Cheaper<br>
+            • Can be given by minimally trained workers<br>
+            • Virus excreted in stool → contacts may also develop immunity (passive immunization of community)
+          </td></tr>
+          <tr><td>OPV disadvantages over IPV</td><td colspan="2">
+            • Risk of VAPP (Vaccine-Associated Paralytic Polio) — ~1 in 2.4 million doses<br>
+            • Risk of vaccine-derived poliovirus (VDPV) in under-immunized populations<br>
+            • Requires strict cold chain (freeze-dried, but still heat-labile)<br>
+            • Contraindicated in immunocompromised<br>
+            • Less immunogenic in children with poor gut health
+          </td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">OPV-তে কয়টি serotype থাকে?</p>
+<p class="ca">৩টি (টাইপ ১, ২, ৩); EPI তে trivalent OPV (tOPV) ব্যবহৃত। যেহেতু টাইপ ২ eradicate, এখন অধিকাংশ দেশে bivalent OPV (bOPV — টাইপ ১ ও ৩)।</p>
+<p class="cq">IPV কী ধরনের ইমিউনিটি দেয়?</p>
+<p class="ca">প্রধানত systemic (humoral) — রক্তে IgG; কিন্তু গাট (আন্ত্রিক) mucosal ইমিউনিটি দেয় না। OPV দুটোই দেয় (IgG + secretory IgA)।</p>
+<p class="cq">বৈশ্বিক পোলিও নির্মূল কৌশলে কেন OPV প্রধান?</p>
+<p class="ca">কারণ OPV গাট mucosal ইমিউনিটি ও community-তে হের্ড ইমিউনিটি তৈরি করে wild virus-এর সংবহন বন্ধ করে — তাই নির্মূলে এটিই মূল।</p>
+<p class="cq">OPV-র অসুবিধা কী?</p>
+<p class="ca">VAPP (vaccine-associated paralytic polio) — ~২.৪ মিলিয়ন ডোজে ১টি; immunocompromised-এ contraindicated; দুর্বল গাট হেলথে কম immunogenic।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — OPV ঠিক IPV-এর তুলনায় এর সুবিধা-অসুবিধা।</p>
+<p><b>OPV (Sabin — Oral Polio Vaccine) সুবিধা:</b> মুখে (oral drops) — ইনজেকশন লাগে না, সহজ; গাট (mucosal) ইমিউনিটি তৈরি করে → community থেকে virus সংবহন বন্ধ; কার্যকর herd immunity; সস্তা; ন্যূনতম প্রশিক্ষিত কর্মী দিয়েও দেওয়া যায়; ভাইরাস মুখ/মলে বের হয়ে সংস্পর্শকেও passively ইমিউনাইজ করে।</p>
+<p><b>OPV অসুবিধা:</b> VAPP ঝুঁকি (~১:২.৪ মিলিয়ন); vaccine-derived poliovirus (VDPV) ঝুঁকি কম-ইমিউনাইজড জনগোষ্ঠীতে; কঠোর কোল্ড চেইন; immunocompromised-এ contraindicated; দুর্বল গাট হেলথের শিশুতে কম immunogenic।</p>
+<p><b>IPV (Salk) সুবিধা:</b> VAPP নেই, নিরাপদ, নির্ভরযোগ্য seroconversion। <b>অসুবিধা:</b> ইনজেক্টেবল (প্রশিক্ষিত প্রয়োজন), ব্যয়বহুল, গাট mucosal ইমিউনিটি দেয় না (শুধু humoral), একাধিক ডোজ, community-তে wild virus সংবহন বন্ধ করে না।</p>
+<p>সারমর্ম — "OPV = গাট হের্ড ইমিউনিটি + সস্তা কিন্তু VAPP ঝুঁকি; IPV = নিরাপদ কিন্তু ব্যয়বহুল + গাট ইমিউনিটি নেই।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V100</span>
+      <p class="qtext">Mention the types and pathogenesis of Poliomyelitis. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> abortive, non-paralytic, paralytic</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Causative agent:</b> Poliovirus — family <b>Picornaviridae</b>, genus <b>Enterovirus</b>. Non-enveloped, ssRNA (+) virus with 3 serotypes (1, 2, 3). Type 1 is the most common cause of paralytic polio.</p>
+      <p><b>Pathogenesis:</b></p>
+      <ul>
+        <li>Fecal-oral transmission (primary) or droplet infection.</li>
+        <li>Virus multiplies in oropharynx and intestinal mucosa → enters bloodstream (viremia) → spreads to CNS.</li>
+        <li>In CNS: infects motor neurons of anterior horn cells of spinal cord → destruction → flaccid paralysis.</li>
+        <li>Severity depends on extent of neuronal destruction.</li>
+      </ul>
+      <p><b>Types (clinical spectrum):</b></p>
+      <ul>
+        <li><b>Inapparent infection (90-95%):</b> Asymptomatic.</li>
+        <li><b>Abortive polio (4-8%):</b> Non-specific febrile illness — fever, headache, malaise, sore throat, nausea, abdominal pain. No CNS involvement.</li>
+        <li><b>Non-paralytic (aseptic meningitis) polio (1-2%):</b> Meningeal irritation — neck stiffness, headache, vomiting. CSF shows lymphocytic pleocytosis. No paralysis.</li>
+        <li><b>Paralytic polio (&lt;1%):</b> Flaccid, asymmetric, lower motor neuron type paralysis. Deep tendon reflexes lost. No sensory loss. Most common: legs. Can progress to respiratory failure if diaphragm involved.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">পোলিও ভাইরাসের কোন টাইপ প্যারালাইটিক পোলিওর সবচেয়ে সাধারণ কারণ?</p>
+<p class="ca">টাইপ ১ — পিকর্নাভাইরিডি পরিবার, enterovirus; non-enveloped, ssRNA(+)।</p>
+<p class="cq">বালবার (Bulbar) পোলিও কী?</p>
+<p class="ca">মস্তিষ্ক-কাণ্ডের cranial nerve nucleus জড়িয়ে যায় — গিলতে অসুবিধা, শ্বাসযন্ত্রের পক্ষাঘাত; ভায়রাস প্যারালাইটিক ফর্ম।</p>
+<p class="cq">Post-polio syndrome কী?</p>
+<p class="ca">তীব্র সংক্রমণের কয়েক দশক পরে ধীরগতিতে পেশি দুর্বলতা ও ক্লান্তি ফিরে আসা।</p>
+<p class="cq">পোলিও ডায়াগনোসিসে গোল্ড স্ট্যান্ডার্ড কী?</p>
+<p class="ca">মলের (stool) ভাইরাস বিচ্ছিন্নতা; এছাড়া CSF বিশ্লেষণ ও PCR।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>কারক:</b> Poliovirus — Picornaviridae, genus Enterovirus; non-enveloped, ssRNA(+) ভাইরাস, ৩টি serotype (১, ২, ৩); টাইপ ১ প্যারালাইটিক পোলিওর সবচেয়ে সাধারণ কারণ।</p>
+<p><b>প্যাথোজেনেসিস:</b> fecal-oral (প্রধান) বা droplet; oropharynx ও আন্ত্রিক মিউকোসায় গুণিত হয় → viremia → CNS; স্পাইনাল কর্ডের <b>anterior horn cell-এর motor neuron</b> সংক্রমিত ও ধ্বংস → <b>flaccid paralysis</b>। তীব্রতা নির্ভর করে neuron ধ্বংসের মাত্রার উপর।</p>
+<p><b>ধরন (clinical spectrum):</b> (১) <b>Inapparent</b> (৯০-৯৫% — উপসর্গহীন); (২) <b>Abortive</b> (৪-৮% — অনির্দিষ্ট জ্বর: জ্বর, মাথাব্যথা, malaise, গলা ব্যথা, বমি, পেটে ব্যথা; CNS জড়িত নয়); (৩) <b>Non-paralytic</b> (aseptic meningitis, ১-২% — মেনিনজিয়াল উদ্দীপনা: ঘাড় শক্ত, CSF-তে lymphocytic pleocytosis; প্যারালাইসিস নেই); (৪) <b>Paralytic</b> (&lt;১% — flaccid, asymmetric, lower motor neuron পক্ষাঘাত; গভীর টেন্ডন রিফ্লেক্স চলে যায়; sensory loss নেই; সবচেয়ে সাধারণ পা; ডায়াফ্রাম জড়ালে শ্বাসযন্ত্রের ব্যর্থতা)।</p>
+<p>বিশ্বব্যাপী — wild type 2 (২০১৫) ও type 3 (২০১৯) eradicate, শুধু type 1 বাকি।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V101</span>
+      <p class="qtext">What is the difference between Flaccid paralysis and Spastic paralysis? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Flaccid-Polio (LMN); Spastic-Rabies (UMN)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Flaccid Paralysis</th><th>Spastic Paralysis</th></tr></thead>
+        <tbody>
+          <tr><td>Lesion</td><td>Lower Motor Neuron (LMN)</td><td>Upper Motor Neuron (UMN)</td></tr>
+          <tr><td>Muscle tone</td><td>Decreased (flaccid/limp)</td><td>Increased (spastic/stiff)</td></tr>
+          <tr><td>Deep tendon reflexes</td><td>Absent (lost)</td><td>Exaggerated (brisk)</td></tr>
+          <tr><td>Babinski sign</td><td>Absent</td><td>Present (upgoing plantar)</td></tr>
+          <tr><td>Muscle wasting</td><td>Prominent (early atrophy)</td><td>Late/less prominent</td></tr>
+          <tr><td>Fasciculations</td><td>Present (LMN sign)</td><td>Absent</td></tr>
+          <tr><td>Example</td><td>Polio, GBS, Botulism</td><td>Rabies, Stroke, MS, Spinal cord injury</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">LMN lesion (পোলিও) কেন flaccid paralysis দেয়?</p>
+<p class="ca">anterior horn cell-এর motor neuron ধ্বংস হলে পেশি nerve impulse পায় না → পেশি শিথিল (flaccid) হয়ে যায়, reflex ও atrophy হয়।</p>
+<p class="cq">UMN lesion (র্যাবিস) কেন spastic paralysis দেয়?</p>
+<p class="ca">মস্তিষ্ক থেকে স্পাইনাল কর্ডে নেমে আসা inhibitory পথ বাধাপ্রাপ্ত হয় → inhibition হারায় → hyperreflexia-সহ spastic paralysis হয়।</p>
+<p class="cq">পোলিও কি spastic না flaccid?</p>
+<p class="ca">পোলিও = LMN → flaccid; র্যাবিস = UMN → spastic — এটা কমন ভাইভা প্রশ্ন।</p>
+<p class="cq">কোন উদাহরণ flaccid আর কোন spastic?</p>
+<p class="ca">Flaccid: পোলিও, GBS, Botulism; Spastic: র্যাবিস, স্ট্রোক, MS, স্পাইনাল কর্ড ইনজুরি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — Flaccid আর spastic paralysis-এর পার্থক্য টেবিল আকারে।</p>
+<p><b>Flaccid paralysis (LMN):</b> lesion নিম্ন মোটর নিউরনে (anterior horn cell); পেশি টোন কম (flaccid/নরম); গভীর টেন্ডন রিফ্লেক্স অনুপস্থিত (হারা); Babinski চিহ্ন অনুপস্থিত; পেশি কুঁচকে যায় (প্রাথমিক atrophy); fasciculation থাকে। উদাহরণ — পোলিও, GBS, Botulism।</p>
+<p><b>Spastic paralysis (UMN):</b> lesion ঊর্ধ্ব মোটর নিউরনে (মস্তিষ্ক/করড ট্র্যাক্ট); পেশি টোন বেশি (spastic/শক্ত); রিফ্লেক্স অতিরঞ্জিত (brisk); Babinski চিহ্ন উপস্থিত (upgoing plantar); পেশি atrophy দেরিতে/কম; fasciculation নেই। উদাহরণ — র্যাবিস, স্ট্রোক, MS, স্পাইনাল কর্ড ইনজুরি।</p>
+<p>এক লাইনে — "পোলিও flaccid (LMN, reflex অনুপস্থিত); র্যাবিস spastic (UMN, reflex বাড়তি, Babinski +)।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V102</span>
+      <p class="qtext">How can you differentiate between Flaccid paralysis of polio and paralysis of rabies? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> LMN vs UMN; absent vs exaggerated reflexes</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Polio (LMN — Flaccid)</th><th>Rabies (UMN — Spastic)</th></tr></thead>
+        <tbody>
+          <tr><td>Neuron affected</td><td>Lower Motor Neuron (anterior horn cells)</td><td>Upper Motor Neuron (brain/spinal cord tracts)</td></tr>
+          <tr><td>Muscle tone</td><td>Flaccid (limp, soft)</td><td>Spastic (stiff, rigid)</td></tr>
+          <tr><td>Deep tendon reflexes</td><td>Absent</td><td>Exaggerated</td></tr>
+          <tr><td>Babinski sign</td><td>Absent</td><td>Present (upgoing plantar)</td></tr>
+          <tr><td>Muscle atrophy</td><td>Early and prominent</td><td>Late/less prominent</td></tr>
+          <tr><td>Fasciculations</td><td>Present</td><td>Absent</td></tr>
+          <tr><td>Paralysis pattern</td><td>Asymmetric, lower limbs most common</td><td>Generalized, ascending</td></tr>
+          <tr><td>Other features</td><td>Fever, meningism, CSF pleocytosis</td><td>Hydrophobia, aerophobia, aggression</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">পোলিও-র প্যারালাইসিসের ধরন কেমন?</p>
+<p class="ca">Asymmetric, নিচের অঙ্গ (পা) সবচেয়ে সাধারণ; দ্রুত atrophy।</p>
+<p class="cq">র্যাবিস-এর প্যারালাইসিসের ধরন কেমন?</p>
+<p class="ca">Generalized ও ascending, প্রায়ই bilateral; hyperreflexia-সহ।</p>
+<p class="cq">র্যাবিস-এর hallmarks কী?</p>
+<p class="ca">Hydrophobia (পানির ভয়), aerophobia (বাতাস/খসড়ার ভয়), photophobia।</p>
+<p class="cq">পোলিও-র সাথে কোন লক্ষণগুলো থাকে?</p>
+<p class="ca">জ্বর, meningism, CSF-তে pleocytosis।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — পোলিও আর র্যাবিসের প্যারালাইসিসের পার্থক্য।</p>
+<p><b>পোলিও (LMN — flaccid):</b> anterior horn cell (নিম্ন মোটর নিউরন) প্রভাবিত; পেশি টোন flaccid (নরম); গভীর টেন্ডন রিফ্লেক্স অনুপস্থিত; Babinski অনুপস্থিত; পেশি atrophy প্রাথমিক ও উল্লেখযোগ্য; fasciculation থাকে; প্যারালাইসিস <b>asymmetric, নিচের অঙ্গ সবচেয়ে সাধারণ</b>; সাথে জ্বর, meningism, CSF pleocytosis।</p>
+<p><b>র্যাবিস (UMN — spastic):</b> মস্তিষ্ক/স্পাইনাল কর্ড ট্র্যাক্ট (উর্ধ্ব মোটর নিউরন) প্রভাবিত; পেশি টোন spastic (শক্ত); রিফ্লেক্স অতিরঞ্জিত (exaggerated); Babinski উপস্থিত; atrophy দেরিতে/কম; fasciculation নেই; প্যারালাইসিস <b>generalized, ascending</b>; সাথে <b>hydrophobia, aerophobia</b>।</p>
+<p>এক লাইনে — "পোলিও = LMN flaccid + reflex অনুপস্থিত; র্যাবিস = UMN spastic + Babinski + hydrophobia।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V103</span>
+      <p class="qtext">What is the advantage and disadvantage of OPV and IPV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> See question 99</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>OPV (Oral Polio Vaccine — Sabin):</b></p>
+      <ul>
+        <li><b>Advantages:</b> Oral route (easy, no injection), produces gut mucosal immunity (secretory IgA), provides herd immunity, cheaper, can be given by minimally trained workers, virus excreted → community immunity.</li>
+        <li><b>Disadvantages:</b> Risk of VAPP (vaccine-associated paralytic polio, ~1 in 2.4 million), risk of vaccine-derived poliovirus (VDPV), requires cold chain, contraindicated in immunocompromised, less effective in malnourished children.</li>
+      </ul>
+      <p><b>IPV (Injectable Polio Vaccine — Salk):</b></p>
+      <ul>
+        <li><b>Advantages:</b> No risk of VAPP, safe for immunocompromised, reliable seroconversion.</li>
+        <li><b>Disadvantages:</b> Injectable (requires trained person), expensive, does NOT produce gut immunity (only humoral), multiple doses needed, does not stop wild virus circulation in community.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">বৈশ্বিক পোলিও নির্মূল কৌশলে OPV কেন ব্যবহৃত?</p>
+<p class="ca">কারণ OPV গাট mucosal ও হের্ড ইমিউনিটি তৈরি করে community-তে virus সংবহন বন্ধ করে।</p>
+<p class="cq">উন্নত দেশগুলোতে (ইউএস, ইউরোপ) কেন IPV ব্যবহৃত?</p>
+<p class="ca">সেখানে VAPP-ভয় ও ব্যয় কম প্রাসঙ্গিক — তাই নিরাপদ (VAPP-হীন) IPV পছন্দ।</p>
+<p class="cq">Sequential schedule (IPV তারপর OPV) কেন?</p>
+<p class="ca">VAPP ঝুঁকি কমানো এবং তবু গাট ইমিউনিটি বজায় রাখা — কিছু দেশে এ পদ্ধতি।</p>
+<p class="cq">OPV-র দুর্বল কার্যকারিতা কখন?</p>
+<p class="ca">দুর্বল পুষ্টি/গাট হেলথের শিশুতে — কম immunogenic।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — OPV ও IPV-র সুবিধা-অসুবিধা।</p>
+<p><b>OPV (Sabin):</b> সুবিধা — oral (সহজ, ইনজেকশন নেই), গাট mucosal ইমিউনিটি (secretory IgA), herd immunity, সস্তা, ন্যূনতম প্রশিক্ষিত কর্মী; ভাইরাস মলের মাধ্যমে বের হয়ে community-কে immunize করে। অসুবিধা — VAPP (~১:২.৪ মিলিয়ন), vaccine-derived poliovirus (VDPV) ঝুঁকি, কোল্ড চেইন, immunocompromised-এ contraindicated, অপুষ্ট শিশুতে কম কার্যকর।</p>
+<p><b>IPV (Salk):</b> সুবিধা — VAPP নেই, immunocompromised-এ নিরাপদ, নির্ভরযোগ্য seroconversion। অসুবিধা — injectable (প্রশিক্ষিত প্রয়োজন), ব্যয়বহুল, গাট ইমিউনিটি দেয় না (শুধু humoral), একাধিক ডোজ, community-তে wild virus সংবহন বন্ধ করে না।</p>
+<p>সারমর্ম — "বৈশ্বিক নির্মূলে OPV (গাট + হের্ড), কিন্তু VAPP ভয় বাড়লে উন্নত দেশে IPV।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V104</span>
+      <p class="qtext">What are the differences between fixed virus and street virus? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Fixed virus is used for vaccine preparation; street virus from natural infection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Street Virus</th><th>Fixed Virus</th></tr></thead>
+        <tbody>
+          <tr><td>Source</td><td>Isolated from natural infection (animal/human brain)</td><td>Laboratory-attenuated strain</td></tr>
+          <tr><td>Virulence</td><td>Highly virulent</td><td>Avirulent (fixed/attenuated)</td></tr>
+          <tr><td>Incubation period</td><td>Variable (10-60 days in mice)</td><td>Fixed (5-7 days in mice)</td></tr>
+          <tr><td>Brain lesions</td><td>Widespread, irregular</td><td>Stereo-taxic, predictable</td></tr>
+          <tr><td>Negri bodies</td><td>Present</td><td>Absent</td></tr>
+          <tr><td>Use</td><td>Diagnostic (from patient/animal brain)</td><td>Vaccine preparation (HDCV, PVRV)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Fixed virus কীভাবে তৈরি হয়?</p>
+<p class="ca">খরগোশের মস্তিষ্কে serial intracerebral passage-এর ফলে ক্ষীণকৃত (attenuate) হয় — ধারাবাহিক ৫-৭ দিনের incubation।</p>
+<p class="cq">Fixed virus পেরিফেরাল ইনোকুলেশন স্থানে রোগ সৃষ্টি করতে পারে কি?</p>
+<p class="ca">না — fixed virus পেরিফেরাল ইনোকুলেশন স্থানে রোগ সৃষ্টি করার ক্ষমতা হারায়, কারণ এটি attenuation হয়ে গেছে।</p>
+<p class="cq">Fixed virus কী কী ভ্যাকসিন তৈরিতে ব্যবহৃত?</p>
+<p class="ca">HDCV, PVRV, PCECV — র্যাবিস ভ্যাকসিন।</p>
+<p class="cq">Street virus-এ নেগ্রি বডি থাকে কেন?</p>
+<p class="ca">কারণ street virus প্রাকৃতিক সংক্রমণ থেকে আসা অত্যন্ত virulent — মস্তিষ্কে নেগ্রি বডি তৈরি করে; fixed (attenuated) ভাইরাসে তা থাকে না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — street আর fixed virus-এর পার্থক্য।</p>
+<p><b>Street virus:</b> প্রাকৃতিক সংক্রমণ (প্রাণী/মানুষের মস্তিষ্ক) থেকে বিচ্ছিন্ন; অত্যন্ত <b>virulent</b>; incubation <b>পরিবর্তনশীল</b> (ইঁদুরে ১০-৬০ দিন); মস্তিষ্কে বিস্তৃত, অনিয়মিত ক্ষত; <b>নেগ্রি বডি থাকে</b>; ডায়াগনস্টিক (রোগী/প্রাণীর মস্তিষ্ক থেকে) ব্যবহৃত।</p>
+<p><b>Fixed virus:</b> ল্যাবরেটরি-attenuated স্ট্রেন; <b>avirulent</b> (fixed); incubation <b>নির্দিষ্ট ৫-৭ দিন</b> (ইঁদুরে); মস্তিষ্কে stereo-taxic, পূর্বাভাসযোগ্য; <b>নেগ্রি বডি থাকে না</b>; ভ্যাকসিন প্রস্তুতিতে (HDCV, PVRV, PCECV) ব্যবহৃত।</p>
+<p>এক লাইনে — "street = virulent + natural + নেগ্রি বডি + variable incubation; fixed = attenuated + vaccine + নির্দিষ্ট ৫-৭ দিন।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V105</span>
+      <p class="qtext">What is neurotropic virus? Give examples. Mention the classification and pathogenesis of encephalitis. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HSV, Rabies, Enterovirus, Arbovirus; Encephalitis is inflammation of brain parenchyma</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Neurotropic virus:</b> A virus that has affinity for and infects nervous tissue (brain, spinal cord, peripheral nerves).</p>
+      <p><b>Examples:</b> Herpes simplex virus (HSV-1, HSV-2), Rabies virus, Poliovirus, Japanese encephalitis virus, West Nile virus, HIV, CMV, Measles virus (SSPE).</p>
+      <p><b>Encephalitis = inflammation of brain parenchyma.</b></p>
+      <p><b>Classification:</b></p>
+      <ul>
+        <li><b>Primary encephalitis:</b> Direct viral invasion of brain. Examples: HSV-1 encephalitis, Rabies.</li>
+        <li><b>Post-infectious encephalitis:</b> Immune-mediated demyelination following systemic viral infection (measles, rubella, varicella). NOT direct viral invasion.</li>
+        <li><b>Arboviral encephalitis:</b> Mosquito-borne — Japanese encephalitis, West Nile, Eastern equine encephalitis.</li>
+      </ul>
+      <p><b>Pathogenesis:</b></p>
+      <ul>
+        <li>Virus enters CNS via bloodstream (hematogenous) or along peripheral nerves (retrograde axonal transport — e.g., rabies, HSV).</li>
+        <li>Infects neurons and glial cells → direct cytopathic effect → neuronal necrosis.</li>
+        <li>Inflammatory response: edema, perivascular cuffing (lymphocytes), microglial activation, neuronophagia.</li>
+        <li>Intracytoplasmic or intranuclear inclusions may form (Negri bodies in rabies, Cowdry type A inclusions in HSV).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HSV-1 এনসেফালাইটিসের বৈশিষ্ট্য?</p>
+<p class="ca">Temporal lobe predilection, hemorrhagic necrosis, এবং sporadic fatal এনসেফালাইটিসের সবচেয়ে সাধারণ কারণ।</p>
+<p class="cq">জাপানিজ এনসেফালাইটিস কীভাবে ছড়ায়?</p>
+<p class="ca">Culex মশা (arbovirus) — বিশ্বব্যাপী epidemic viral এনসেফালাইটিসের সবচেয়ে সাধারণ কারণ।</p>
+<p class="cq">Post-infectious এনসেফালাইটিসে ভাইরাস কি মস্তিষ্কে থাকে?</p>
+<p class="ca">না — এটি ইমিউন-মধ্যস্থ demyelination; মস্তিষ্কে ভাইরাসের সরাসরি আক্রমণ নয় (measles, rubella, varicella-র পরে)।</p>
+<p class="cq">কোন ইনক্লুশন কোন ভাইরাসের?</p>
+<p class="ca">র্যাবিসে নেগ্রি বডি (intracytoplasmic), HSV-তে Cowdry type A (intranuclear)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Neurotropic virus</b> হলো স্নায়ু-টিস্যুতে সংক্রমণ ও বংশবিস্তারের আগ্রহী ভাইরাস। উদাহরণ: HSV-1/2, র্যাবিস, পোলিও, জাপানিজ এনসেফালাইটিস, West Nile, HIV, CMV, Measles (SSPE)। <b>এনসেফালাইটিস = মস্তিষ্কের parenchyma-র প্রদাহ।</b></p>
+<p><b>শ্রেণিবিভাগ:</b> (১) <b>Primary</b> — মস্তিষ্কে ভাইরাসের সরাসরি আক্রমণ (HSV-1, র্যাবিস); (২) <b>Post-infectious</b> — systemic ভাইরাল সংক্রমণের পরে ইমিউন-মধ্যস্থ demyelination (measles, rubella, varicella) — সরাসরি আক্রমণ নয়; (৩) <b>Arboviral</b> — মশা-বাহিত (জাপানিজ এনসেফালাইটিস, West Nile, Eastern equine)।</p>
+<p><b>প্যাথোজেনেসিস:</b> ভাইরাস রক্ত (hematogenous) বা পেরিফেরাল নার্ভ (retrograde axonal — র্যাবিস, HSV) দিয়ে CNS-তে প্রবেশ; neuron ও glial কোষ সংক্রমণ → সরাসরি cytopathic effect → neuronal necrosis; প্রদাহ — edema, perivascular cuffing (লিম্ফোসাইট), microglial activation, neuronophagia; অন্তঃকোষীয় ইনক্লুশন (র্যাবিসে নেগ্রি বডি, HSV-তে Cowdry type A) হতে পারে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V106</span>
+      <p class="qtext">What are the differences between Picornavirus and Flavivirus? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Pico = small; Polio, Rhinovirus (Picornavirus); Dengue, Hepatitis C (Flavivirus)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Picornaviridae</th><th>Flaviviridae</th></tr></thead>
+        <tbody>
+          <tr><td>Name meaning</td><td>Pico = very small + RNA</td><td>Flavi = yellow (jaundice)</td></tr>
+          <tr><td>Size</td><td>20-30 nm (smallest RNA virus)</td><td>40-60 nm</td></tr>
+          <tr><td>Envelope</td><td>Non-enveloped (naked)</td><td>Enveloped</td></tr>
+          <tr><td>Genome</td><td>ssRNA (+), positive sense, non-segmented</td><td>ssRNA (+), positive sense, non-segmented</td></tr>
+          <tr><td>Key viruses</td><td>Poliovirus, Rhinovirus, <b>Hepatitis A virus, </b>Coxsackievirus, Echovirus</td><td>Dengue, Yellow fever, Japanese encephalitis, <b>Hepatitis C, </b>Zika, West Nile</td></tr>
+          <tr><td>Transmission</td><td>Fecal-oral (Polio, HAV) or respiratory (Rhinovirus)</td><td>Vector-borne (mosquitoes — Aedes, Culex)</td></tr>
+          <tr><td>Clinical features</td><td>Common cold, polio, hepatitis A, hand-foot-mouth disease</td><td>Dengue fever, hemorrhagic fever, jaundice, encephalitis</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Picornavirus কীসের জন্য বিখ্যাত আকারগতভাবে?</p>
+<p class="ca">এটি সবচেয়ে ছোট RNA ভাইরাস (২০-৩০ nm) — non-enveloped, তাই পরিবেশে অত্যন্ত স্থিতিশীল।</p>
+<p class="cq">Flavivirus কোন মশা দিয়ে ছড়ায়?</p>
+<p class="ca">Aedes ও Culex মশা — arthropod-borne; ডেঙ্গু, জাপানিজ এনসেফালাইটিস, হলুদ জ্বর, Zika, West Nile।</p>
+<p class="cq">HCV কোন পরিবারের?</p>
+<p class="ca">Flaviviridae (genus Hepacivirus) — রক্ত-বাহিত, দীর্ঘস্থায়ী হেপাটাইটিস, সিরোসিস, HCC।</p>
+<p class="cq">ডেঙ্গুর কয়টি serotype?</p>
+<p class="ca">৪টি (DENV 1-4), Aedes মশা; হেমোরেজিক/শক সিনড্রোম secondary সংক্রমণে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — Picornavirus আর Flavivirus-এর পার্থক্য।</p>
+<p><b>Picornaviridae:</b> নাম — pico (খুব ছোট) + RNA; আকার ২০-৩০ nm (সবচেয়ে ছোট RNA ভাইরাস); <b>non-enveloped</b> (নগ্ন); জিনোম ssRNA(+), non-segmented; ভাইরাস — পোলিও, রাইনো, হেপাটাইটিস A, Coxsackie, Echo; সংক্রমণ — fecal-oral (পোলিও, HAV) বা respiratory (রাইনো); রোগ — common cold, পোলিও, হেপাটাইটিস A, hand-foot-mouth।</p>
+<p><b>Flaviviridae:</b> নাম — flavi (হলুদ — জন্ডিস); আকার ৪০-৬০ nm; <b>enveloped</b>; জিনোম ssRNA(+), non-segmented; ভাইরাস — ডেঙ্গু, হলুদ জ্বর, জাপানিজ এনসেফালাইটিস, হেপাটাইটিস C, Zika, West Nile; সংক্রমণ — মশা-বাহিত (vector); রোগ — ডেঙ্গু জ্বর, হেমোরেজিক ফিভার, জন্ডিস, এনসেফালাইটিস।</p>
+<p>এক লাইনে — "Pico = ছোট + naked + fecal-oral; Flavi = হলুদ + enveloped + mosquito-borne।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V107</span>
+      <p class="qtext">What is the pathogenesis of Polio? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Fecal-oral route → oropharynx and intestinal mucosa → blood → CNS → anterior horn cell of spinal cord</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Pathogenesis of Poliomyelitis:</b></p>
+      <ul>
+        <li><b>Entry:</b> Poliovirus enters via fecal-oral route (primary) or respiratory droplets.</li>
+        <li><b>Primary replication:</b> Multiplies in oropharynx (tonsils, pharyngeal lymphoid tissue) and intestinal mucosa (Peyer's patches).</li>
+        <li><b>Viremia:</b> Virus enters bloodstream from gut → spreads to reticuloendothelial system (liver, spleen).</li>
+        <li><b>Second viremia:</b> Virus re-enters blood → crosses blood-brain barrier → infects CNS.</li>
+        <li><b>CNS invasion:</b> Virus binds to CD155 receptor (poliovirus receptor — PVR) on anterior horn motor neurons of spinal cord.</li>
+        <li><b>Destruction of motor neurons:</b> Direct viral cytolysis of anterior horn cells → loss of motor supply to muscles → flaccid paralysis.</li>
+        <li><b>Severity depends on:</b> extent of neuronal destruction, viral virulence, host immune status.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">পোলিও-র incubation কতদিন?</p>
+<p class="ca">abortive-তে ৭-১৪ দিন; paralytic-এ ৩-৪ সপ্তাহ পর্যন্ত।</p>
+<p class="cq">কোন টাইপ প্যারালাইটিক পোলিওর প্রধান কারণ?</p>
+<p class="ca">টাইপ ১ পোলিওভাইরাস।</p>
+<p class="cq">কোন কোন পরিস্থিতিতে প্যারালাইসিস ঝুঁকি বাড়ে?</p>
+<p class="ca">Viremia-র সময় জোরালো ব্যায়াম, ইন্ট্রামাসকুলার ইনজেকশন, ও গর্ভাবস্থা।</p>
+<p class="cq">বালবার পোলিও কী করে?</p>
+<p class="ca">মস্তিষ্ক-কাণ্ড জড়ানো হয় — শ্বাসযন্ত্রের ব্যর্থতা ও dysphagia হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — পোলিওমাইলাইটিসের প্যাথোজেনেসিস ধাপে ধাপে।</p>
+<p><b>প্রবেশ:</b> ভাইরাস fecal-oral রুট (প্রধান) বা শ্বাস-কণা দিয়ে। <b>প্রাথমিক replication:</b> oropharynx (টনসিল, গলবিলীয় লিম্ফয়েড টিস্যু) ও আন্ত্রিক মিউকোসায় (Peyer's patches) গুণিত হয়। <b>ভিরেমিয়া:</b> ভাইরাস রক্তে ঢুকে reticuloendothelial system (লিভার, স্প্লিন)-এ ছড়ায়। <b>দ্বিতীয় ভিরেমিয়া:</b> রক্তে ফিরে রক্ত-মস্তিষ্ক বাধা পেরিয়ে CNS-তে প্রবেশ। <b>CNS আক্রমণ:</b> ভাইরাস স্পাইনাল কর্ডের anterior horn motor neuron-এর <b>CD155 receptor</b>-এ বাঁধে। <b>মোটর নিউরন ধ্বংস:</b> সরাসরি viral cytolysis → পেশিতে motor সরবরাহ বন্ধ → <b>flaccid paralysis</b>।</p>
+<p>তীব্রতা নির্ভর করে — neuron ধ্বংসের মাত্রা, ভাইরাল ভাইরুলেন্স এবং হোস্টের ইমিউন অবস্থার উপর। ঝুঁকি বাড়ায় — viremia-র সময় জোরালো ব্যায়াম, IM ইনজেকশন, গর্ভাবস্থা। এক লাইনে — "fecal-oral → oropharynx/গাট → viremia → anterior horn cell → flaccid paralysis।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V108</span>
+      <p class="qtext">How will you prevent Polio? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> OPV, IPV, sanitation, herd immunity</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Prevention of Polio:</b></p>
+      <ul>
+        <li><b>Active immunization:</b>
+          <ul>
+            <li><b>OPV (Oral Polio Vaccine):</b> Live attenuated; given at birth (birth dose), 6, 10, 14 weeks, 18 months. Provides gut immunity and herd immunity.</li>
+            <li><b>IPV (Injectable Polio Vaccine):</b> Killed; given IM. Provides systemic immunity but no gut immunity. Used in some countries as primary or supplementary.</li>
+          </ul>
+        </li>
+        <li><b>Passive immunization:</b> IPV + OPV in certain outbreak situations.</li>
+        <li><b>Sanitation:</b> Safe drinking water, proper sewage disposal — interrupts fecal-oral transmission.</li>
+        <li><b>Herd immunity:</b> Vaccination of &gt;80-85% of population prevents circulation of wild virus.</li>
+        <li><b>Surveillance:</b> Acute Flaccid Paralysis (AFP) surveillance — early detection and response.</li>
+        <li><b>National Immunization Days (NIDs):</b> Mass vaccination campaigns to boost population immunity.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">বাংলাদেশ EPI তে পোলিও টিকার সময়সূচি কী?</p>
+<p class="ca">OPV জন্ম (birth dose), ৬, ১০, ১৪ সপ্তাহ এবং ১৮ মাসে।</p>
+<p class="cq">পোলিও নির্মূল কর্মসূচি কে পরিচালনা করে?</p>
+<p class="ca">WHO/GPEI (Global Polio Eradication Initiative)।</p>
+<p class="cq">কোন wild type এখনো অবশিষ্ট?</p>
+<p class="ca">Type 1 — আফগানিস্তান ও পাকিস্তানে endemic; type 2 (২০১৫) ও type 3 (২০১৯) eradicate।</p>
+<p class="cq">IPV কেন EPI-তে যুক্ত হচ্ছে?</p>
+<p class="ca">অতিরিক্ত নিরাপত্তা ও VAPP ঝুঁকি কমানোর জন্য — অনেক দেশে এখনও IPV চালু।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — পোলিও প্রতিরোধের উপায়গুলো।</p>
+<p><b>সক্রিয় টিকাদান:</b> <b>OPV</b> (live attenuated) — জন্ম (birth dose), ৬, ১০, ১৪ সপ্তাহ, ১৮ মাস; গাট ও হের্ড ইমিউনিটি দেয়। <b>IPV</b> (killed) — IM; systemic ইমিউনিটি দেয় কিন্তু গাট নয়; কিছু দেশে primary/supplementary হিসেবে।</p>
+<p><b>প্যাসিভ ইমিউনাইজেশন:</b> নির্দিষ্ট প্রাদুর্ভাবে IPV + OPV। <b>স্যানিটেশন:</b> নিরাপদ পানি, সঠিক পয়ঃপ্রণালী — fecal-oral সংক্রমণ বন্ধ। <b>হের্ড ইমিউনিটি:</b> জনসংখ্যার &gt;৮০-৮৫% টিকাদানে wild virus সংবহন বন্ধ। <b>সারভেইল্যান্স:</b> Acute Flaccid Paralysis (AFP) surveillance — আগাম শনাক্তকরণ ও প্রতিক্রিয়া। <b>NIDs:</b> National Immunization Days — গণ টিকা অভিযান।</p>
+<p>এক লাইনে — "OPV/IPV + স্যানিটেশন + হের্ড ইমিউনিটি + AFP সারভেইল্যান্স = নির্মূলের পথ।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V109</span>
+      <p class="qtext">What is the vaccine schedule for Polio? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Birth, 6, 10, 14 weeks, 18 months</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Polio vaccine schedule (Bangladesh EPI):</b></p>
+      <table>
+        <thead><tr><th>Dose</th><th>Age</th><th>Vaccine</th><th>Route</th></tr></thead>
+        <tbody>
+          <tr><td>1st dose</td><td>At birth (within 24 hours)</td><td>OPV</td><td>Oral (2 drops)</td></tr>
+          <tr><td>2nd dose</td><td>6 weeks</td><td>OPV</td><td>Oral</td></tr>
+          <tr><td>3rd dose</td><td>10 weeks</td><td>OPV</td><td>Oral</td></tr>
+          <tr><td>4th dose</td><td>14 weeks</td><td>OPV</td><td>Oral</td></tr>
+          <tr><td>5th dose</td><td>18 months</td><td>OPV</td><td>Oral</td></tr>
+        </tbody>
+      </table>
+      <p><b>IPV schedule (sequential or supplementary):</b></p>
+      <ul>
+        <li>IPV can be given at 6 and 14 weeks along with DPT in some countries.</li>
+        <li>In countries using IPV + OPV: IPV at 6, 14 weeks (IM) + OPV at birth, 6, 10, 14 weeks, 18 months (oral).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Birth dose কেন গুরুত্বপূর্ণ?</p>
+<p class="ca">এন্ডেমিক এলাকায় আগাম সুরক্ষার জন্য — জন্মের ২৪ ঘণ্টার মধ্যে OPV ২ ড্রপ।</p>
+<p class="cq">OPV কীভাবে দেওয়া হয়?</p>
+<p class="ca">মুখে ২ ড্রপ (oral) — সহজ প্রশাসন।</p>
+<p class="cq">NIDs কী?</p>
+<p class="ca">National Immunization Days — ৫ বছরের নিচের সব শিশুর জন্য গণ টিকাদান অভিযান, আগের টিকা-অবস্থা যাই থাকুক।</p>
+<p class="cq">IPV কোন সময়সূচিতে দেওয়া হয়?</p>
+<p class="ca">সিকোয়েন্সিয়াল পদ্ধতিতে ৬ ও ১৪ সপ্তাহে IM — OPV-র সাথে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — পোলিও টিকার সময়সূচি (বাংলাদেশ EPI)।</p>
+<p>১ম ডোজ: জন্মে (২৪ ঘণ্টার মধ্যে) — OPV oral ২ ড্রপ; ২য় ডোজ: ৬ সপ্তাহ — OPV; ৩য় ডোজ: ১০ সপ্তাহ — OPV; ৪র্থ ডোজ: ১৪ সপ্তাহ — OPV; ৫ম ডোজ: ১৮ মাস — OPV।</p>
+<p>সিকোয়েন্সিয়াল/সাপ্লিমেন্টারি IPV: কিছু দেশে ৬ ও ১৪ সপ্তাহে DPT-র সাথে IPV দেওয়া হয়; OPV + IPV পদ্ধতিতে — OPV জন্ম, ৬, ১০, ১৪ সপ্তাহ, ১৮ মাস (oral) + IPV ৬, ১৪ সপ্তাহ (IM)।</p>
+<p>এক লাইনে — "OPV: জন্ম, ৬, ১০, ১৪ সপ্তাহ, ১৮ মাস — সব oral ২ ড্রপ।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V110</span>
+      <p class="qtext">What is herd immunity? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Protection of non-immune members of a community by immune members</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Herd immunity</b> (community immunity) is the indirect protection from an infectious disease that occurs when a sufficiently high proportion of the population is immune (through vaccination or previous infection), thereby reducing the likelihood of infection for individuals who lack immunity.</p>
+      <ul>
+        <li>When herd immunity threshold is reached, chains of transmission are interrupted → the disease cannot sustain itself in the population.</li>
+        <li>Protects vulnerable individuals who cannot be vaccinated (immunocompromised, infants, elderly, pregnant women).</li>
+      </ul>
+      <p><b>Herd immunity threshold varies by disease:</b></p>
+      <ul>
+        <li>Measles: ~95% (highly contagious)</li>
+        <li>Polio: ~80-85%</li>
+        <li>COVID-19: ~70-80% (estimated)</li>
+        <li>Influenza: ~70-80%</li>
+      </ul>
+      <p>Herd immunity is the basis for mass vaccination programs and disease eradication strategies.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">OPV কেন herd immunity প্রতিষ্ঠায় বিশেষ কার্যকর?</p>
+<p class="ca">কারণ OPV-র attenuated ভাইরাস মলে নিঃসৃত হয় — সংস্পর্শে থাকা ব্যক্তিদেরও passively immunize করতে পারে।</p>
+<p class="cq">Herd immunity threshold কীভাবে হিসাব করা হয়?</p>
+<p class="ca">threshold = 1 - (1/R₀), যেখানে R₀ = বেসিক প্রজনন সংখ্যা।</p>
+<p class="cq">হামের R₀ কত?</p>
+<p class="ca">১২-১৮ — তাই হামে প্রায় ৯৫% ভ্যাকসিন কভারেজ দরকার।</p>
+<p class="cq">হের্ড ইমিউনিটি কাদের সুরক্ষা দেয়?</p>
+<p class="ca">যাদের টিকা দেওয়া যায় না — immunocompromised, শিশু, বয়স্ক, গর্ভবতী।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Herd immunity</b> (community immunity) হলো পরোক্ষ সুরক্ষা — যখন জনসংখ্যার যথেষ্ট বড় অংশ ইমিউন (টিকা বা আগের সংক্রমণে), তখন সংক্রমণের শৃঙ্খল ছিন্ন হয়ে যায়, ফলে যাদের নিজস্ব ইমিউনিটি নেই তারাও সুরক্ষিত থাকে।</p>
+<p>হের্ড ইমিউনিটি থ্রেশহোল্ড পৌঁছালে রোগ জনসংখ্যায় টিকে থাকতে পারে না। এটি সুরক্ষা দেয় সেসব দুর্বল ব্যক্তিকে যারা টিকা নিতে পারে না (immunocompromised, শিশু, বয়স্ক, গর্ভবতী)।</p>
+<p>থ্রেশহোল্ড রোগভেদে: <b>Measles ~৯৫%</b> (খুব সংক্রামক), <b>Polio ~৮০-৮৫%</b>, <b>COVID-19 ~৭০-৮০%</b>, <b>Influenza ~৭০-৮০%</b>। এটিই গণ টিকা ও রোগ নির্মূল কৌশলের ভিত্তি।</p>
+<p>এক লাইনে — "বেশিরভাগকে টিকা দাও → সংক্রমণ শৃঙ্খল ভাঙো → অরক্ষিতরাও নিরাপদ।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

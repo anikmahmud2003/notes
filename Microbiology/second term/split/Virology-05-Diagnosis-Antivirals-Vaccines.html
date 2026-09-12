@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Diagnosis, Cultivation, Antivirals & Vaccines (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Diagnosis, Cultivation, Antivirals &amp; Vaccines</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">12 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">12 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-04-Transmission-Persistence.html">‹ Prev</a><a href="Virology-06-Herpesvirus.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Diagnosis, Cultivation, Antivirals &amp; Vaccines</h2><div class="en">Serology, viral cultivation, antiviral drugs, interferons, inclusion bodies, vaccine-preventable diseases</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V43</span>
+      <p class="qtext">Why serological methods are mostly used in viral disease diagnosis? ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> microscopy difficult (needs EM), culture difficult/routine not possible</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Serological (immunological) tests are the <b>most widely used</b> method for viral diagnosis because:</p>
+      <ul>
+        <li><b>Easy, affordable and best method</b> for most viruses (e.g., ELISA, ICT).</li>
+        <li><b>Microscopy is difficult &amp; not easily available</b> — electron microscope is needed for the virus itself (too small for light microscope); <b><i>only cytopathic effect (CPE) is seen on light microscopy.</i></b></li>
+        <li><b>Viral culture is difficult</b> — cannot grow on routine culture media; needs animal inoculation, embryonated eggs, or living cell/tissue culture which is laborious, time-consuming and technically demanding.</li>
+        <li><b>Molecular detection is possible but costly</b> and only available in tertiary-care hospitals.</li>
+      </ul>
+      <p><b>Serological tests used:</b> antigen detection (ICT, ELISA, RIA, IFA) and antibody detection (ICT, ELISA, RIA, IFA, Western blot, hemagglutination inhibition). IgM antibody = current infection; IgG antibody = past infection; 4-fold rise in titer = current infection.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Serological methods কেন viral diagnosis-এ বেশি ব্যবহার হয়?</p>
+        <p class="ca">সহজ, সাশ্রয়ী, সেরা। Microscopy difficult (EM লাগে), culture difficult (living cell লাগে), molecular costly।</p>
+        <p class="cq">Viral diagnosis-এর দুইটি main method কী?</p>
+        <p class="ca">(১) Immunological test (ELISA, ICT, etc.) — most common। (২) Molecular test (PCR, RT-PCR)।</p>
+        <p class="cq">IgM antibody-র মানে কী? IgG-র মানে কী?</p>
+        <p class="ca">IgM = current/recent infection। IgG = past infection। 4-fold rise in titer = current infection।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Viral disease diagnosis-এ serology (immunological test) সবচেয়ে বেশি ব্যবহার হয় — কারণ এটা সহজ, সাশ্রয়ী আর সেরা। Microscopy difficult — virus-র জন্য electron microscope লাগে, light microscope-এ virus দেখা যায় না।</p>
+<p>Culture-ও difficult — routine media-তে virus বাড়ে না, living cell লাগে যেটাই laborious। Molecular test costly আর শুধু tertiary hospital-এ।</p>
+<p>"Serology is king" viral diagnosis-তে। IgM = current, IgG = past।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V44</span>
+      <p class="qtext">Mention two (02) methods of viral cultivation. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> embryonated eggs, cell/tissue culture; also animal inoculation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses are obligate intracellular parasites and <b>cannot grow on artificial culture media</b>; they need living cells. The <b>3 methods</b> of cultivation (answer any 2):</p>
+      <p><b>1. Embryonated egg inoculation</b> — 7–12 day old embryonated hen/duck eggs; inoculation by 4 routes:</p>
+      <ul>
+        <li>Yolk sac — usually for <b>arbovirus</b></li>
+        <li>Amniotic sac — <b>Influenza virus</b></li>
+        <li>Allantoic sac — for <b>vaccine production</b> (influenza, rabies, yellow fever)</li>
+        <li>Chorio-allantoic membrane (CAM) — for <b>HSV and Poxvirus</b></li></ul><div><img src="image-4.png" alt="image.png" data-porda-id="p_a73f0306-5db7-415b-85fe-b50abe5a2c19" data-porda-status="timeout" class="porda-blur-img" data-porda-unblur="1"><br></div><ul>
+      </ul>
+      <p><b>2. Cell / Tissue culture</b> — most commonly used:</p>
+      <ul>
+        <li><b>Primary cell line</b> (diploid, 1–2 passages): rhesus monkey kidney, chick embryo fibroblast, human amnion.</li>
+        <li><b>Semi-continuous cell line</b> (diploid, 20–50 passages): MRC-5, WI-38.</li>
+        <li><b>Continuous cell line</b> (haploid, immortal — derived from cancer cells): HeLa, HEP-2, Vero, CV-1.</li>
+        <li><b>Shell vial culture</b> — rapid method.</li>
+      </ul>
+      <p><b>3. Animal inoculation</b> — suckling mice, hamster, cotton rats, guinea pigs, rabbits, monkeys (mainly for research due to ethical issues).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Viral cultivation-এর ৩টি method কী কী?</p>
+        <p class="ca">(১) Embryonated egg inoculation, (২) Cell/tissue culture, (৩) Animal inoculation।</p>
+        <p class="cq">Cell/tissue culture-এর ৩ ধরনের কী?</p>
+        <p class="ca">Primary cell line (diploid, 1-2 passages), Semi-continuous (diploid, 20-50 passages: MRC-5, WI-38), Continuous (haploid, immortal: HeLa, Vero)।</p>
+        <p class="cq">Embryonated egg-এ virus কোন route-এ inoculate করে?</p>
+        <p class="ca">Yolk sac (arbovirus), Amniotic sac (Influenza), Allantoic sac (vaccine production), CAM (HSV, Poxvirus)।</p>
+        <p class="cq">Virus culture routine-এ কেন নয়?</p>
+        <p class="ca">Laborious, time-consuming, technically demanding, specimen collection困难, refrigeration লাগে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Virus artificial media-তে বাড়ানো যায় না — living cell লাগে। তিন ভাবে cultivation — (১) Embryonated egg (ডিমের ভেতরের অংশ ব্যবহার হয় — influenza amniotic sac-এ, HSV CAM-এ), (২) Cell/tissue culture (সবচেয়ে common — HeLa, Vero), (৩) Animal inoculation (research-র জন্য)।</p>
+<p>Continuous cell line immortal — cancer cell-থেকে derived (HeLa, HEP-2, Vero)। Shell vial culture rapid method।</p>
+<p>Routine media-তে virus বাড়ে না, তাই culture করা difficult।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V45</span>
+      <p class="qtext">Why the number of antiviral drugs is small in comparison to antibacterial drugs? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> selective toxicity difficult — virus integrates into host DNA, replicates within cells</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The number of antiviral drugs is small because of <b>difficulty in achieving selective toxicity</b> — it is hard to find a drug that kills the virus but not the host cell:</p>
+      <ul>
+        <li><b>Viral replication is intimately involved with normal synthetic processes of the cell</b> — virus uses host machinery, so a drug targeting viral replication may also harm host cells.</li>
+        <li><b>Viral nucleic acid can be integrated into host cell DNA</b> (e.g., provirus) — difficult to target without damaging host DNA.</li>
+        <li><b>Many cycles of viral replication occur during the incubation period.</b></li>
+        <li><b>Some viruses become latent within cells</b> — no current antiviral drug can eradicate them.</li>
+        <li><b>Emergence of drug-resistant viral mutants.</b></li>
+      </ul>
+      <p>In contrast, bacteria are prokaryotic with unique targets (cell wall synthesis, 70S ribosomes) that differ from human cells, making selective toxicity easier → many more antibacterial drugs.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Antiviral drug কেন antibacterial-র তুলনায় কম?</p>
+        <p class="ca">Selective toxicity difficult — virus host cell-র machinery ব্যবহার করে, তাই virus মারলে host-ও মারা যায়।</p>
+        <p class="cq">Bacteria-র তুলনায় virus-কে target করা কেন কঠিন?</p>
+        <p class="ca">Virus-র নিজস্ব metabolism, ribosome, cell wall নেই — unique target নেই। Bacteria-র cell wall (peptidoglycan), 70S ribosome — unique target আছে।</p>
+        <p class="cq">Virus latent-এ থাকলে antiviral drug কী করে?</p>
+        <p class="ca">কিছুই করতে পারে না — no current antiviral drug latent virus-কে eradicate করতে পারে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Antiviral drug কম — কারণ selective toxicity পাওয়া কঠিন। মানে virus-কে মারে কিন্তু host cell-কে না মারে — এমন দুয়া খুঁজে পাওয়া কঠিন।</p>
+<p>Virus আর host cell-এর মধ্যে মিল — virus to host-র machinery ব্যবহার করে। আর virus host DNA-তে integrated হয়ে যায় (latent)। তাই virus-কে মারলে host-ও মারা যায়।</p>
+<p>Bacteria-র নিজের আলাদা target আছে (cell wall, 70S ribosome) — তাই antibiotic easier।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V46</span>
+      <p class="qtext">Mention the role of interferon. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> antiviral activity, nonspecific host defense</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Interferon (IFN)</b> is a cytokine produced by virus-infected cells that has <b>antiviral activity</b> — it protects uninfected cells. It is part of <b>nonspecific host defense</b>.</p>
+      <p><b>Types:</b></p>
+      <ul>
+        <li><b>Type I IFN</b> (α from leukocytes, β from fibroblasts) — stronger antiviral action, induced by virus (dsRNA).</li>
+        <li><b>Type II IFN</b> (γ from Th1 lymphocytes) — activates macrophages; induced by antigens.</li>
+      </ul>
+      <p><b>Mechanism (antiviral action):</b> IFN binds to receptors on uninfected cells → induces synthesis of <b>inactive oligo A synthetase, ribonuclease &amp; protein kinase</b>. When virus infects that cell, viral dsRNA is produced → activates these enzymes → oligo A synthetase activates ribonuclease to degrade mRNA, and protein kinase phosphorylates initiation factor-2 (eIF-2) → inhibits viral &amp; cell protein synthesis → the cell dies <b>without producing progeny virus</b>. IFN has no effect on extracellular viruses.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Interferon (IFN) কী?</p>
+        <p class="ca">Virus-infected cell থেকে তৈরি হওয়া একটি cytokine যার antiviral activity আছে। Uninfected cell-কে virus থেকে বাঁচায়। Nonspecific host defense।</p>
+        <p class="cq">Interferon-এর কত ধরনের আছে?</p>
+        <p class="ca">তিনটি — Type I (α leukocyte-থেকে, β fibroblast-থেকে), Type II (γ Th1 lymphocyte-থেকে)।</p>
+        <p class="cq">IFN কীভাবে কাজ করে?</p>
+        <p class="ca">IFN uninfected cell-এর receptor-এ bind করে → inactive enzymes (oligo A synthetase, RNase, PK) activate হয় → viral dsRNA-এ activation → mRNA degrade → protein synthesis inhibit → virus produce হয় না।</p>
+        <p class="cq">IFN-এর clinical ব্যবহার কী কী?</p>
+        <p class="ca">α-IFN: Hepatitis B/C, Kaposi's sarcoma, hairy cell leukemia। β-IFN: Multiple sclerosis। γ-IFN: Chronic granulomatous disease।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Interferon মানে একটি cytokine যেটা virus-infected cell থেকে বের হয়, আর uninfected cell-কে virus থেকে বাঁচায়। Eta nonspecific host defense।</p>
+<p>তিন ধরনের — α (leukocyte-থেকে), β (fibroblast-থেকে), γ (Th1 lymphocyte-থেকে)।</p>
+<p>কাজ: IFN receptor-এ bind হয়, inactive enzymes active হয়, viral dsRNA দিয়ে activation হয়ে mRNA degrade করে আর protein synthesis থামিয়ে দেয় — তাই virus বড় হতে পারে না। IFN extracellular virus-র উপর effect করে না।</p>
+<p>α-IFN hepatitis B/C, β-IFN multiple sclerosis, γ-IFN chronic granulomatous disease-তে use হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V47</span>
+      <p class="qtext">Define inclusion bodies with example. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intracytoplasmic (Negri in rabies), intranuclear (owl's eye in CMV), both (measles)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Inclusion bodies</b> are <b>globular masses of aggregated viral proteins or viral particles</b> found within virus-infected cells.</p>
+      <p><b>Types (by location) with examples:</b></p>
+      <ul>
+        <li><b>Intracytoplasmic:</b>
+          <ul>
+            <li>Rabies → <b>Negri bodies</b></li>
+            <li>Smallpox → Guarneri bodies</li>
+            <li>All paramyxoviruses (except measles)</li>
+            <li>Yellow fever → Torres bodies</li>
+          </ul>
+        </li>
+        <li><b>Intranuclear:</b>
+          <ul>
+            <li><b>Owl's eye</b> inclusions → CMV</li>
+            <li>Cowdry type A → HSV, VZV</li>
+            <li>Cowdry type B → Poliovirus, Adenovirus</li>
+          </ul>
+        </li>
+        <li><b>Both intracytoplasmic &amp; intranuclear:</b>
+          <ul>
+            <li><b>Measles virus</b></li>
+          </ul>
+        </li>
+      </ul>
+      <p><b>Importance:</b> inclusion bodies <b>help in laboratory diagnosis</b> of the virus.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Inclusion body কী?</p>
+        <p class="ca">Virus-infected cell-এ জমা aggregated viral protein বা viral particle-এর globular masses।</p>
+        <p class="cq">Inclusion body-র তিনটি category কী?</p>
+        <p class="ca">(১) Intracytoplasmic, (২) Intranuclear, (৩) Both।</p>
+        <p class="cq">Negri body কোন virus-এর?</p>
+        <p class="ca">Rabies virus — intracytoplasmic eosinophilic inclusion।</p>
+        <p class="cq">Owl's eye inclusion কোন virus-এর?</p>
+        <p class="ca">CMV — intranuclear eosinophilic inclusion।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Inclusion body মানে virus-infected cell-এর ভেতরে aggregated viral protein আর particle-এর জম। Location-অনুযায়ী তিন ধরনের — intracytoplasmic (Rabies-এ Negri body), intranuclear (CMV-এ owl's eye), Both (Measles)।</p>
+<p>Negri body Rabies-র বড় identification point, owl's eye CMV-র। এটা lab diagnosis-এ help করে।</p>
+<p>Guarneri bodies (Smallpox, intracytoplasmic), Torres bodies (Yellow fever), Cowdry type A (HSV, intranuclear), Cowdry type B (Polio, Adeno)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V48</span>
+      <p class="qtext">Mention four (04) viral diseases after which lifelong immunity is achieved. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> measles, mumps, rubella, chickenpox, HAV/HEV, dengue (same serotype)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viral diseases after which <b>life-long immunity</b> is achieved (these viruses have a <b>single serotype</b>):</p>
+      <ul>
+        <li><b>Measles</b></li>
+        <li><b>Mumps</b></li>
+        <li><b>Rubella</b></li>
+        <li><b>Chickenpox (varicella)</b> — but not zoster, which can recur</li>
+        <li><b>Hepatitis A (HAV)</b></li>
+        <li><b>Hepatitis E (HEV)</b></li>
+        <li><b>Dengue</b> — lifelong immunity <b>to the same serotype only</b> (not cross-serotype)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Lifelong immunity কোন viral disease-র পরে হয়?</p>
+        <p class="ca">Measles, Mumps, Rubella, Chickenpox, HAV, HEV, Dengue (same serotype only)।</p>
+        <p class="cq">Lifelong immunity-র শর্ত কী?</p>
+        <p class="ca">Virus-এর single serotype থাকতে হবে। Antigenic variation-ও virus (Influenza, HIV) lifelong immunity দেয় না।</p>
+        <p class="cq">Dengue-তে lifelong immunity কেন same serotype-তেই?</p>
+        <p class="ca">কারণ Dengue-র ৪টি serotype — cross-serotype protection হয় না। অন্য serotype-এ আবার infect হতে পারে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>কিছু viral disease-র পরে lifelong immunity হয় — Measles, Mumps, Rubella, Chickenpox, HAV, HEV। কারণ এদের single serotype virus।</p>
+<p>Dengue-তে lifelong immunity আছে কিন্তু শুধু same serotype-র জন্য। Antigenic variation দেখানো virus (Influenza, HIV) lifelong immunity দেয় না।</p>
+<p>Measles, Rubella, VZV, Rabies single serotype — lifelong immunity।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V49</span>
+      <p class="qtext">Mention two (02) viruses where adaptive immunity suppressed. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HIV (AIDS), Measles</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses that <b>suppress adaptive (acquired/cell-mediated) immunity</b> (immunosuppression):</p>
+      <ul>
+        <li><b>HIV (AIDS)</b> — destroys CD4+ helper T cells and reduces class I MHC expression, leading to profound immunosuppression and opportunistic infections.</li>
+        <li><b>Measles virus</b> — blocks synthesis of <b>IL-12</b>, thereby reducing an effective <b>Th-1 (CMI) response</b> → transient immunosuppression.</li>
+      </ul>
+      <p><b>Other examples of viral immune evasion/immunosuppression:</b> CMV (encodes chemokine receptor decoy + inhibits NK cells), HSV (reduces class I MHC, binds C3b), EBV (blocks eIF-2 phosphorylation → reduces IFN effect), Ebola (blocks induction &amp; action of IFN).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">কোন দুইটি virus adaptive immunity suppress করে?</p>
+        <p class="ca">HIV আর Measles।</p>
+        <p class="cq">HIV কীভাবে immunity suppress করে?</p>
+        <p class="ca">CD4+ helper T cell destroy করে + class I MHC expression reduce করে → profound immunosuppression → opportunistic infections।</p>
+        <p class="cq">Measles কীভাবে immunity suppress করে?</p>
+        <p class="ca">IL-12 synthesis block করে → Th-1 (CMI) response reduce হয় → transient immunosuppression।</p>
+        <p class="cq">CMV, HSV immune evasion কীভাবে করে?</p>
+        <p class="ca">Class I MHC expression কমায় — তাই CTL infected cell-কে kill করতে পারে না।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Adaptive immunity suppress করা virus দুইটা — HIV আর Measles। HIV CD4+ T cell নষ্ট করে ফেলে → immunity ভো করে।</p>
+<p>Measles IL-12 block করে → Th-1 response কমে। CMV, HSV-ও immune evasion করে (class I MHC কমায়)।</p>
+<p>Tai এই virus-গুলো immunocompromised patient-দের জন্য সবচেয়ে dangerous।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V50</span>
+      <p class="qtext">Name five (05) vaccine preventable viral diseases. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> measles, mumps, rubella, polio, HBV (read from EPI)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viral diseases preventable by vaccination (vaccine-preventable):</p>
+      <ul>
+        <li><b>Measles</b> (live attenuated — part of MMR/MR)</li>
+        <li><b>Mumps</b> (live attenuated — MMR)</li>
+        <li><b>Rubella</b> (live attenuated — MMR/MR)</li>
+        <li><b>Poliomyelitis</b> (OPV live / IPV killed)</li>
+        <li><b>Hepatitis B</b> (subunit/recombinant vaccine)</li>
+        <li><b>Chickenpox (varicella)</b> — live attenuated</li>
+        <li><b>Rotavirus</b> — live attenuated</li>
+        <li><b>Hepatitis A</b> — killed vaccine</li>
+        <li><b>Influenza</b> — killed vaccine</li>
+        <li><b>Yellow fever</b>, <b>Adenovirus</b>, <b>Smallpox</b> (eradicated)</li>
+      </ul>
+      <p><b>📌 From EPI (Bangladesh):</b> BCG (TB), Pentavalent (DPT + Hib + <b>Hepatitis B</b>), PCV (pneumococcal), OPV + IPV (polio), MR (measles + rubella) — all vaccine-preventable.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Vaccine preventable viral disease-গুলো কোন কোনটি?</p>
+        <p class="ca">Measles, Mumps, Rubella (MMR), Polio (OPV/IPV), HBV, Chickenpox, Rotavirus, HAV, Influenza, Yellow fever, Smallpox (eradicated)।</p>
+        <p class="cq">Bangladesh EPI schedule-এ কোন কোনটি?</p>
+        <p class="ca">BCG, Pentavalent (DPT+Hib+HBV), PCV, OPV/IPV (polio), MR (measles+rubella)।</p>
+        <p class="cq">HPV vaccine কোন type-র?</p>
+        <p class="ca">Subunit/recombinant vaccine।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Vaccine দিয়ে prevent করা যায় — Measles, Mumps, Rubella, Polio, Hepatitis B। Bangladesh EPI-তে আছে — BCG, Pentavalent (DPT+Hib+HBV), PCV, OPV/IPV (polio), MR (measles+rubella)।</p>
+<p>HPV, HBV — subunit vaccine। Live attenuated: OPV, MMR, Varicella। Killed: IPV, Rabies HDCV, HAV।</p>
+<p>EPI-র কথা বলে দিলে viva-তে ভালো impression পাওয়া যায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V51</span>
+      <p class="qtext">Mention some viral vaccine with example of each. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> live (MMR), killed (HDCV), subunit (HPV, HBV), viral vector (AstraZeneca), mRNA (Pfizer, Moderna)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Classification of viral vaccines with examples:</b></p>
+      <ul>
+        <li><b>Live attenuated vaccine</b> (organism alive but pathogenicity suppressed):
+          <ul>
+            <li><b>OPV (oral polio), Measles, Mumps, Rubella (MMR),</b> Varicella, Rotavirus, Yellow fever, Adenovirus, Smallpox.</li>
+          </ul>
+        </li>
+        <li><b>Killed (inactivated) vaccine</b> (organism killed):
+          <ul>
+            <li><b>IPV (polio), Rabies (HDCV — human diploid cell vaccine)</b>, Hepatitis A, Influenza, Japanese encephalitis, Sinovac/Sinopharm (COVID).</li>
+          </ul>
+        </li>
+        <li><b>Subunit / Recombinant vaccine</b> (contains fragment of pathogen):
+          <ul>
+            <li>Hepatitis B (HPV vaccine), Human Papillomavirus (HPV) vaccine, Novavax (COVID). Prepared by recombinant technology in bacteria (E. coli) or yeast (S. cerevisiae).</li>
+          </ul>
+        </li>
+        <li><b>Recombinant viral vector vaccine</b>:
+          <ul>
+            <li>AstraZeneca &amp; Janssen (COVID) — harmless adenovirus as vector.</li>
+          </ul>
+        </li>
+        <li><b>Nucleic acid–based (mRNA/DNA) vaccine</b>:
+          <ul>
+            <li>Pfizer/BioNTech &amp; Moderna (mRNA COVID vaccines).</li>
+          </ul>
+        </li>
+        <li><b>Combined vaccine</b>: MMR, MR, Pentavalent.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Live attenuated vaccine-র examples দাও।</p>
+        <p class="ca">OPV, MMR, Varicella, Rotavirus, Yellow fever, Adenovirus, Smallpox।</p>
+        <p class="cq">Killed vaccine-র examples দাও।</p>
+        <p class="ca">IPV, Rabies (HDCV), HAV, Influenza, Japanese encephalitis, Sinovac/Sinopharm (COVID)।</p>
+        <p class="cq">Subunit vaccine-র examples দাও।</p>
+        <p class="ca">HBV, HPV, Novavax (COVID)। E. coli বা yeast (S. cerevisiae) তে recombinant technology দিয়ে তৈরি।</p>
+        <p class="cq">mRNA vaccine-র examples দাও।</p>
+        <p class="ca">Pfizer/BioNTech আর Moderna (COVID vaccines)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Viral vaccine প্রধানত পাঁচ ধরনের হতে পারে — এদের ধরন আর উদাহরণটা viva-তে আলাদা করে বলতে হয়। প্রথমটি Live attenuated vaccine, যেমন OPV, MMR, Varicella — এখানে virus-কে দুর্বল (attenuate) করে দেহে দেওয়া হয়। দ্বিতীয়টি Killed/inactivated vaccine, যেমন IPV, Rabies HDCV, HAV — পূর্ণ virus-কে মেরে (inactivate) নেওয়া হয়। তৃতীয়টি Subunit vaccine, যেমন HPV আর HBV — এতে virus-এর শুধু অংশ দেওয়া হয়। চতুর্থটি Viral vector vaccine, যেমন AstraZeneca — অন্য কোনো harmless virus-কে বাহক (vector) হিসেবে ব্যবহার করা হয়। আর পঞ্চমটি হলো mRNA vaccine, যেমন Pfizer, Moderna — এতে শুধু mRNA-র টুকরো দেওয়া হয়।</p>
+<p>মনে রাখার সহজ উপায়: "OPV live, IPV killed, HPV subunit, AstraZeneca vector, Pfizer mRNA" — এভাবে বলে দিলেই সব ধরন চলে আসে।</p>
+<p>এবার immuno-response-র পার্থক্য: Live vaccine দীর্ঘস্থায়ী immunity দেয়, কারণ এটি দেহে replicate করে — ফলে IgA, IgG আর cell-mediated immunity (CMI) তিনটাই তৈরি হয়। Killed vaccine-এ replication নেই বলে immunity কম থাকে — শুধু IgG তৈরি হয়। Subunit vaccine সবচেয়ে безопасный (safer), কারণ এতে কোনো বেঁচে থাকা virus নেই — ফলে reversion (আবার virulent হয়ে ওঠা) হওয়ার আশঙ্কা নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V52</span>
+      <p class="qtext">Mention two (02) subunit vaccine. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> subunit = HPV and HBV — both are cancer-causing viruses</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Subunit (recombinant) vaccines:</b> contain only a fragment of the pathogen (not the whole organism), prepared by recombinant DNA technology in bacteria (E. coli) or yeast (Saccharomyces cerevisiae).</p>
+      <ul>
+        <li><b>Hepatitis B vaccine (HBV)</b> — contains HBsAg; prevents hepatocellular carcinoma (first vaccine to prevent a human cancer).</li>
+        <li><b>Human Papillomavirus vaccine (HPV)</b> — contains L1 virus-like particle; prevents cervical cancer.</li>
+      </ul>
+      <p><b>📌 Key point:</b> Both HPV and HBV are <b>cancer-causing (oncogenic) viruses</b>, and their subunit vaccines are the ones that prevent human cancer.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Subunit vaccine কী?</p>
+        <p class="ca">Pathogen-র পুরোটা না, শুধু fragment থাকে। Recombinant DNA technology দিয়ে তৈরি।</p>
+        <p class="cq">দুইটা subunit vaccine-র example দাও।</p>
+        <p class="ca">HBV vaccine (HBsAg) আর HPV vaccine (L1 virus-like particle)।</p>
+        <p class="cq">এই দুই vaccine-এর special point কী?</p>
+        <p class="ca">দুইটাই cancer-causing (oncogenic) virus-কে target করে — HBV liver cancer, HPV cervical cancer।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Subunit vaccine মানে pathogen-র পুরোটা না, শুধু একটি fragment থাকে। দুইটা main example — HBV vaccine (HBsAg part) আর HPV vaccine।</p>
+<p>একটা rongin point: দুই virus-ই cancer করে — HBV liver cancer, HPV cervical cancer। তাই এই দুই subunit vaccine দিয়ে cancer prevent করা যায়।</p>
+<p>Subunit vaccine whole pathogen contain করে না — safer, reversion to virulence নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V53</span>
+      <p class="qtext">Mention two (02) viral diseases those are prevented by passive active immunization. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HBV, Rabies (and HAV in some countries)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Passive-active immunization</b> = giving <b>passive</b> (antibodies/immunoglobulin, immediate protection) <b>together with active</b> (vaccine, long-term protection). Used for post-exposure prophylaxis.</p>
+      <ul>
+        <li><b>Hepatitis B (HBV)</b> — <b>HBIG</b> (passive) + HBV <b>vaccine</b> (active); given in needle-stick injury of HBsAg-positive patients and newborn of HBsAg-positive mother.</li>
+        <li><b>Rabies</b> — Rabies immunoglobulin <b>RIG</b> (passive) + HDCV <b>vaccine</b> (active) after animal bite.</li>
+        <li><b>Hepatitis A (HAV)</b> — in some countries; Human serum immunoglobulin + killed HAV vaccine.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Passive-active immunization কী?</p>
+        <p class="ca">Passive (antibody/immunoglobulin, immediate protection) + Active (vaccine, long-term immunity) — একসাথে দেওয়া।</p>
+        <p class="cq">Passive-active immunization-এর disease-গুলো কোন কোনটি?</p>
+        <p class="ca">Hepatitis B (HBIG + HBV vaccine), Rabies (RIG + vaccine), HAV (some countries)।</p>
+        <p class="cq">HBV needle stick injury-এ কী দেওয়া হয়?</p>
+        <p class="ca">HBIG (passive) + HBV vaccine (active)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Passive-active immunization মানে আগে antibody (immunoglobulin) দিয়ে immediate protection, আর সাথে vaccine দিয়ে long-term immunity।</p>
+<p>দুইটা main disease — Hepatitis B (HBIG + HBV vaccine) আর Rabies (RIG + vaccine)। Needle stick injury hole HBV-তে HBIG আর vaccine দেওয়া হয়।</p>
+<p>Passive = ready antibody, Active = vaccine — দুইটাই একসাথে দিতে হবে, কোনোটাই বাদ দিতে নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V54</span>
+      <p class="qtext">Mention two vaccine preventable cancer. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> cervical cancer (HPV), hepatocellular carcinoma (HBV)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Two cancers that are <b>vaccine-preventable</b>:</p>
+      <ul>
+        <li><b>Cervical cancer</b> — caused by <b>Human Papillomavirus (HPV)</b>; prevented by <b>HPV subunit vaccine</b> (recommended 9–13 years, 2 doses 6 months apart).</li>
+        <li><b>Hepatocellular carcinoma (HCC)</b> — caused by <b>Hepatitis B virus (HBV)</b>; prevented by <b>HBV subunit vaccine</b> (the first vaccine to prevent a human cancer).</li>
+      </ul>
+      <p><b>📌 Key point:</b> Both vaccines are <b>subunit/recombinant</b> vaccines against <b>oncogenic viruses</b> (HPV &amp; HBV).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Vaccine preventable cancer কোন কোনটি?</p>
+        <p class="ca">Cervical cancer (HPV vaccine), Hepatocellular carcinoma (HBV vaccine)।</p>
+        <p class="cq">HBV vaccine-এর special point কী?</p>
+        <p class="ca">প্রথম vaccine যা human cancer prevent করে। Subunit/recombinant।</p>
+        <p class="cq">HPV vaccine কাদের দেওয়া হয়?</p>
+        <p class="ca">Girls 9-13 বছর, 2 doses 6 months apart।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Vaccine দিয়ে prevent করা যায় এমন দুই cancer — Cervical cancer (HPV দিয়ে) আর Hepatocellular carcinoma (HBV দিয়ে)।</p>
+<p>HPV vaccine দিয়ে cervical cancer, HBV vaccine দিয়ে liver cancer prevent করা যায়। HBV vaccine হলো পৃথিবীর প্রথম vaccine যা কিন্তু একটি human cancer prevent করে।</p>
+<p>দুই vaccine-ই subunit — oncogenic virus-কে target করে।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

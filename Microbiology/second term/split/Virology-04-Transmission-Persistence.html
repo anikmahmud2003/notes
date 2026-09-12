@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Transmission, Persistence & Latency (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Transmission, Persistence &amp; Latency</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">12 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">12 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-03-Replication-CPE.html">‹ Prev</a><a href="Virology-05-Diagnosis-Antivirals-Vaccines.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Transmission, Persistence &amp; Latency</h2><div class="en">Routes of transmission, organ-specific viruses, persistence, latent/chronic/slow infections</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V31</span>
+      <p class="qtext">Mention the possible route of virus transmission with two examples of each. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> horizontal (air, feco-oral, blood, sexual, vector, animal bite) + vertical; 2 examples each</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Virus can be transmitted by two broad routes — <b>Horizontal</b> (between individuals) and <b>Vertical</b> (mother to offspring).</p>
+      <p><b>1. Horizontal transmission</b> — spread by direct or indirect contact between individuals, animals or other organisms:</p>
+      <ul>
+        <li><b>Respiratory / airborne</b>: Influenza, Measles, Rubella, Varicella (VZV), Mumps, RSV, Parainfluenza, Rhinovirus, Corona.</li>
+        <li><b>Feco-oral (GI tract)</b>: Rotavirus, Poliovirus, Hepatitis A (HAV), Hepatitis E (HEV), Norovirus.</li>
+        <li><b>Blood</b> (transfusion, needle stick, shared needles/razors): HBV, HCV, HDV, HIV, CMV, HTLV.</li>
+        <li><b>Sexual route</b>: HIV, HBV, HCV, HPV, HSV-2.</li>
+        <li><b>Skin / Direct contact</b>: HPV, Rabies, HSV-1.</li>
+        <li><b>Vector (arthropod) borne</b>: Dengue, Yellow fever (mosquito bite), Chikungunya.</li>
+        <li><b>Animal bite</b>: Rabies virus (bite of rabid animal).</li>
+      </ul>
+      <p><b>2. Vertical transmission</b> — mother to offspring, in 3 phases:</p>
+      <ul>
+        <li><b>Before delivery (transplacental)</b>: CMV, Rubella, Parvo B19, HIV.</li>
+        <li><b>During delivery (birth canal)</b>: HBV, HCV, HIV, HSV-2, HPV, CMV.</li>
+        <li><b>After delivery (breast feeding)</b>: CMV, HIV (rare), HTLV.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Virus transmission-এর কত ধরনের route আছে?</p>
+        <p class="ca">দুই বড় ধরনের — Horizontal (এক জন থেকে আরেক জনে) আর Vertical (মা থেকে সন্তানে)।</p>
+        <p class="cq">Horizontal transmission-এর কোন কোন route আছে?</p>
+        <p class="ca">Respiratory/droplet, feco-oral, blood (parenteral), sexual, skin/direct contact, vector-borne, animal bite।</p>
+        <p class="cq">Vertical transmission-এর তিনটি phase কী কী?</p>
+        <p class="ca">(১) Delivery-র আগে transplacental, (২) Delivery-র সময় birth canal, (৩) Delivery-র পরে breast feeding।</p>
+        <p class="cq">Vector-borne virus-র উদাহরণ দাও।</p>
+        <p class="ca">Dengue (mosquito bite), Yellow fever (mosquito bite), Chikungunya।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Virus transmission দুই ভাবে হয় — horizontal (এক জন থেকে আরেক জনে) আর vertical (মা থেকে সন্তানে)।</p>
+<p>Horizontal-এ respiratory/droplet (Influenza, Measles), feco-oral (Rota, HAV, HEV), blood (HBV, HCV, HIV), sexual (HIV, HBV, HPV), vector (Dengue), animal bite (Rabies)।</p>
+<p>Vertical-এ তিন phase — delivery-র আগে transplacental (Rubella, CMV), delivery-র সময় birth canal (HBV, HSV-2), delivery-র পরে breast feeding (CMV, HIV rare)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V32</span>
+      <p class="qtext">List the viruses responsible for respiratory tract infection. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> influenza, corona, RSV, measles, mumps, parainfluenza, rhinovirus, adenovirus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses that enter and infect through the <b>respiratory route</b> (portal of entry):</p>
+      <ul>
+        <li><b>Influenza virus</b> (upper &amp; lower respiratory tract)</li>
+        <li><b>Coronavirus</b> (including SARS-CoV-2, common cold)</li>
+        <li><b>Respiratory syncytial virus (RSV)</b></li>
+        <li><b>Measles virus</b> (also causes rash)</li>
+        <li><b>Mumps virus</b></li>
+        <li><b>Parainfluenza virus</b></li>
+        <li><b>Rhinovirus</b> (common cold)</li>
+        <li><b>Adenovirus</b> (pharyngitis, common cold)</li>
+        <li><b>Rubella virus</b></li></ul><div><br></div><div><ol><li><b>Influenza&nbsp;</b></li><li><b>parainfluenza</b></li><li><b>M</b></li><li><b>M</b></li><li><b>R</b></li><li><b>RSV</b></li><li><b>corona</b></li><li><b>Rhinovirus</b></li><li><b>Adenovirus</b></li></ol></div><ul>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Respiratory virus-দের নাম বলো।</p>
+        <p class="ca">Influenza, Coronavirus, RSV, Measles, Mumps, Parainfluenza, Rhinovirus, Adenovirus, Rubella।</p>
+        <p class="cq">Respiratory virus-রা কীভাবে ছড়ায়?</p>
+        <p class="ca">Droplet এর মাধ্যমে — cough, sneeze, direct contact।</p>
+        <p class="cq">Mask আর cough etiquette কেন important?</p>
+        <p class="ca">কারণ respiratory ছড়ায় droplet-borne — mask আর proper cough etiquette দিয়ে prevent করা যায়।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Respiratory path দিয়ে virus body-তে ঢুকে। নাম গুলো — Influenza, Coronavirus, RSV, Measles, Mumps, Parainfluenza, Rhinovirus, Adenovirus, Rubella।</p>
+<p>এই virus-গুলো droplet-এর মাধ্যমে ছড়ায়। অনেকগুলো systemic-ও হয় — যেমন Measles, Rubella-তে rash হয়।</p>
+<p>Respiratory naked virus environment-এ survive করতে পারে, তাই indirect transmission-ও হতে পারে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V33</span>
+      <p class="qtext">Enumerate the virus which are commonly transmitted by feco-oral route. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> rota, polio, HAV, HEV — all naked viruses</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses transmitted mainly by the <b>feco-oral route</b> (through contaminated food &amp; water):</p>
+      <ul>
+        <li><b>Rotavirus</b></li>
+        <li><b>Poliovirus</b></li>
+        <li><b>Hepatitis A virus (HAV)</b></li>
+        <li><b>Hepatitis E virus (HEV)</b></li>
+        <li><b>Norovirus</b> / Norwalk virus</li>
+        <li><b>Adenovirus</b> (enteric)</li>
+        <li><b>Astrovirus</b> &amp; <b>Sapovirus</b></li>
+      </ul>
+      <p><b>📌 Key point:</b> Rotavirus, Polio, HAV and HEV are all <b>naked (non-enveloped)</b> viruses — they survive well in the environment and resist bile/acid, hence survive GI transit.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Feco-oral route-এ কোন কোন virus ছড়ায়?</p>
+        <p class="ca">Rotavirus, Poliovirus, HAV, HEV, Norovirus, Adenovirus (enteric), Astrovirus, Sapovirus।</p>
+        <p class="cq">Feco-oral virus-রা কেন naked?</p>
+        <p class="ca">কারণ তাদের environment-এ survive করতে হয়, gastric acid আর bile-এর resistance লাগে। Naked virus stable।</p>
+        <p class="cq">Contaminated food/water ছাড়া আর কীভাবে feco-oral transmit হয়?</p>
+        <p class="ca">Infected food handler, sewage-contaminated water containing shellfish।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Feco-oral route-এ — Rotavirus, Poliovirus, HAV, HEV। Naked (envelope নেই) virus, তাই environment-এ survive করতে পারে, peter acid আর bile-এর resistant।</p>
+<p>এই virus-গুলো feco-oral ভাবে সবচেয়ে ভালো ছড়ায়। "Naked + feco-oral" — এটা একটি বড় viva point।</p>
+<p>Contaminated food, water, sewage-contaminated shellfish, infected food handler — সব feco-oral vehicle।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V34</span>
+      <p class="qtext">Enlist vertically transmitted virus. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> before birth (transplacental), during birth (birth canal), after birth (breast feeding)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Vertical transmission = virus spread from <b>mother to offspring</b>, occurring in 3 phases:</p>
+      <p><b>1. Before delivery (transplacental):</b></p>
+      <ul>
+        <li><b>Cytomegalovirus (CMV)</b></li>
+        <li>Rubella virus</li>
+        <li>Parvo B19 virus</li>
+        <li><b>HIV</b></li>
+      </ul>
+      <p><b>2. During delivery (birth canal):</b></p>
+      <ul>
+        <li>Hepatitis B virus (HBV)</li>
+        <li>Hepatitis C virus (HCV)</li><li>HSV-2</li><li>HPV</li></ul><ul><li><b>HIV</b></li><li><b>CMV</b></li>
+      </ul>
+      <p><b>3. After delivery (breast feeding):</b></p>
+      <ul>
+        <li>Cytomegalovirus (CMV)</li>
+        <li>HIV (rare chance)</li>
+        <li>Human T-cell lymphotropic virus (HTLV)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Vertically transmitted virus-গুলো কোন কোনটি?</p>
+        <p class="ca">CMV, Rubella, Parvo B19, HIV (transplacental); HBV, HCV, HIV, HSV-2, HPV (birth canal); CMV, HIV, HTLV (breast feeding)।</p>
+        <p class="cq">HBV vertical transmission কোন phase-এ বেশি হয়?</p>
+        <p class="ca">Delivery-র সময় birth canal diye — transplacental rare।</p>
+        <p class="cq">TORCH infection কী?</p>
+        <p class="ca">Toxoplasma, Others (Syphilis, HIV, Parvo B19, Zika), Rubella, CMV, Herpes — congenital infection-এর mnemonic।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Vertical transmission মানে মা থেকে সন্তানে virus চলে যাওয়া। তিন phase — delivery-র আগে transplacental (CMV, Rubella, Parvo B19, HIV), delivery-র সময় birth canal (HBV, HCV, HIV, HSV-2, HPV), delivery-র পরে breast feeding (CMV, HIV rare)।</p>
+<p>HBV আর HCV birth canal-এ বেশি ছড়ায়, transplacental-এ rare। Mon-এ রাখবেন।</p>
+<p>TORCH mnemonic — T: Toxoplasma, O: Others, R: Rubella, C: CMV, H: Herpes।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V35</span>
+      <p class="qtext">Enlist virus causing congenital infection. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> TORCH — Rubella, CMV, Zika, Parvo B19</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Congenital infection</b> = infection acquired in utero (transplacental) that may cause fetal malformation:</p>
+      <ul>
+        <li><b>Rubella virus</b> — Congenital Rubella Syndrome (CRS): cataract, deafness, congenital heart disease (classic triad).</li>
+        <li><b>Cytomegalovirus (CMV)</b> — cytomegalic inclusion disease: microcephaly, deafness, jaundice, hepatosplenomegaly.</li>
+        <li><b>Zika virus</b> — microcephaly.</li>
+        <li><b>Parvo B19 virus</b> — fetal anaemia, hydrops fetalis.</li>
+        <li><b>HIV</b> — transplacental vertical transmission.</li>
+      </ul>
+      <p><b>📌 Mnemonic:</b> <b>TORCH</b> = <b>T</b>oxoplasma, <b>O</b>thers (Syphilis, HIV, Parvo B19, Zika), <b>R</b>ubella, <b>C</b>ytomegalovirus, <b>H</b>erpes simplex.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Congenital infection-এর virus-গুলো কোন কোনটি?</p>
+        <p class="ca">Rubella (CRS), CMV (cytomegalic inclusion disease), Zika (microcephaly), Parvo B19 (hydrops fetalis), HIV।</p>
+        <p class="cq">TORCH mnemonic-টি বলো।</p>
+        <p class="ca">T: Toxoplasma, O: Others (Syphilis, HIV, Parvo B19, Zika), R: Rubella, C: CMV, H: Herpes simplex।</p>
+        <p class="cq">Congenital Rubella Syndrome-এর classic triad কী?</p>
+        <p class="ca">Cataract, deafness, congenital heart disease।</p>
+        <p class="cq">CMV congenital infection-এ কোন trimester-এ বেশি abnormality হয়?</p>
+        <p class="ca">First trimester-এ বেশি।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Congenital infection মানে গর্ভাবস্থায় virus-এর সংস্পর্শে এসে fetus-এ malformation হওয়া। গুরুত্বপূর্ণ virus — Rubella (CRS: cataract, deafness, heart disease), CMV (microcephaly, deafness, jaundice), Zika (microcephaly), Parvo B19 (hydrops fetalis)।</p>
+<p>TORCH mnemonic — T: Toxoplasma, O: Others, R: Rubella, C: CMV, H: Herpes। Viva-তে extra point নিতে পারেন।</p>
+<p>CMV first trimester-এ fetus infected হলে abnormality বেশি হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V36</span>
+      <p class="qtext">Name skin rash producing viral infections. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> measles, chickenpox, rubella, HSV-1, Parvo B19, dengue, HHV-6</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses producing <b>skin rash</b> (exanthema):</p>
+      <ul>
+        <li><b>Measles virus</b> (Rubeola) — maculopapular rash + Koplik's spot.</li>
+        <li><b>Varicella zoster virus (VZV)</b> — chickenpox (vesicular rash); zoster in reactivation.</li>
+        <li><b>Rubella virus</b> — "German measles", maculopapular rash + lymphadenopathy.</li>
+        <li><b>Parvo B19</b> — 5th disease, "slapped cheek" / erythema infectiosum.</li>
+        <li><b>HHV-6 / HHV-7</b> — 6th disease (roseola infantum / exanthem subitum).</li>
+        <li><b>HSV-1 / HSV-2</b> — vesicular lesions (herpes labialis, genital herpes).</li>
+        <li><b>Dengue virus</b> — hemorrhagic rash due to thrombocytopenia.</li>
+        <li><b>Chikungunya virus</b> — maculopapular rash.</li>
+        <li><b>Coxsackievirus</b> — hand, foot and mouth disease.</li>
+      </ul>
+      <p><b>📌 6 classic childhood rashes (1st–6th disease):</b> 1st = Measles, 2nd = Scarlet fever (Strep), 3rd = Rubella, 4th = Scalded skin (Staph), 5th = Erythema infectiosum (Parvo B19), 6th = Roseola (HHV-6/7).</p><p>MS RS PH</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Skin rash producing virus-গুলো কোন কোনটি?</p>
+        <p class="ca">Measles (Koplik spot), VZV (chickenpox), Rubella, Parvo B19 (slapped cheek), HHV-6 (roseola), HSV, Dengue, Chikungunya, Coxsackie (HFMD)।</p>
+        <p class="cq">৬টি classic childhood rash কী কী?</p>
+        <p class="ca">1st=Measles, 2nd=Scarlet fever (Strep), 3rd=Rubella, 4th=Scalded skin (Staph), 5th=Erythema infectiosum (Parvo B19), 6th=Roseola (HHV-6/7)।</p>
+        <p class="cq">Measles rash-এর specific feature কী?</p>
+        <p class="ca">Maculopapular rash + Koplik's spot — এটি pathognomonic।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Rash তৈরিকারী virus — Measles, Chickenpox (VZV), Rubella, Parvo B19, HSV, Dengue, HHV-6। 6 childhood diseases — measles, scarlet fever, rubella, scalded skin, slapped cheek (parvo), roseola (HHV-6)।</p>
+<p>Rash-এর virus বেশিরভাগ respiratory droplet-এ ছড়ায় (Dengue, Chikungunya ছাড়া — এরা mosquito-borne)।</p>
+<p>Measles, Rubella, Mumps, VZV single serotype — lifelong immunity হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V37</span>
+      <p class="qtext">Name the diarrhogenic virus. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Rota &amp; adenovirus (children), Norwalk (adult), astro &amp; sapovirus (both)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Diarrheogenic (diarrhea-causing) viruses:</b></p>
+      <ul>
+        <li><b>Rotavirus</b> — most common cause of viral gastroenteritis in <b>children</b>.</li>
+        <li><b>Adenovirus (enteric, type 40/41)</b> — gastroenteritis in <b>children</b>.</li>
+        <li><b>Norwalk virus (Norovirus)</b> — gastroenteritis in <b>adults</b> (outbreaks, cruise ships).</li>
+        <li><b>Astrovirus</b> &amp; <b>Sapovirus</b> — affect <b>both young and adult</b>.</li>
+        <li><b>Coronavirus</b> — also may cause diarrhea (especially in infants).</li>
+      </ul>
+      <p><b>📌 Mnemonic:</b> Children → <b>R</b>ota &amp; <b>A</b>deno; Adult → <b>N</b>orwalk; Both → <b>Astro &amp; Sapo</b>.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Diarrhea-কারী virus-গুলো কোন কোনটি?</p>
+        <p class="ca">Rotavirus (children), Adenovirus 40/41 (children), Norwalk/Norovirus (adults), Astrovirus, Sapovirus (both), Coronavirus।</p>
+        <p class="cq">Rotavirus কেন important?</p>
+        <p class="ca">Children-এ viral gastroenteritis-র সবচেয়ে common cause। Vaccine-preventable।</p>
+        <p class="cq">Adult-দের diarrhea-র virus কোনটি?</p>
+        <p class="ca">Norwalk virus (Norovirus) — outbreaks, cruise ships।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Diarrhea করা virus — Rotavirus আর Adenovirus বাচ্চা-দের বেশি দেয়, Norwalk virus adult-দের, Astrovirus আর Sapovirus দুইটাই এদের।</p>
+<p>"বাচ্চা: Rota Aden, adult: Norwalk, দুই: Astro Sapo" — এভাবে মনে রাখবেন।</p>
+<p>Feco-oral route দিয়ে এ virus-গুলো ছড়ায়। Rotavirus vaccine-preventable।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V38</span>
+      <p class="qtext">Name the viruses which exclusively infect liver. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Hepatitis A, B, C, D, E (hepatotropic)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Viruses that <b>exclusively (primarily) infect the liver</b> — the <b>hepatotropic hepatitis viruses</b>:</p>
+      <ul>
+        <li><b>Hepatitis A virus (HAV)</b></li>
+        <li><b>Hepatitis B virus (HBV)</b></li>
+        <li><b>Hepatitis C virus (HCV)</b></li>
+        <li><b>Hepatitis D virus (HDV)</b></li>
+        <li><b>Hepatitis E virus (HEV)</b></li>
+        <li>(± <b>Hepatitis G virus / HGV</b> — wrongly named, not a true hepatitis agent)</li>
+      </ul>
+      <p>They are called <b>hepatotropic</b> because their <b>main site of infection is the liver</b>.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Exclusively liver-কে infect করা virus-গুলো কোন কোনটি?</p>
+        <p class="ca">Hepatotropic hepatitis virus — HAV, HBV, HCV, HDV, HEV।</p>
+        <p class="cq">Hepatotropic মানে কী?</p>
+        <p class="ca">"Hepato" = liver, "tropic" = preference। মানে virus-এর liver-এর প্রতি preference আছে, exclusively/maintly liver-ই infect করে।</p>
+        <p class="cq">HGV কেন hepatitis virus-এর list-এ নেই (বা কেন ±)?</p>
+        <p class="ca">কারণ HGV ঠিকমতো hepatitis করে না, wrongly named।</p>
+        <p class="cq">Hepatitis F virus কেন list-এ নেই?</p>
+        <p class="ca">কারণ এটি HBV-র একটি mutant (HBx) — deleted from list।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>শুধু liver-কে infect করা virus — "hepatotropic hepatitis virus" — HAV, HBV, HCV, HDV, HEV। এদের main site of infection হলো liver।</p>
+<p>HGV-ও list-এ আছে কিন্তু এটি ঠিকমতো hepatitis নয়। Hepatitis F virus-টা আসলে HBV-র একটি mutant — তাই list-এ নেই।</p>
+<p>"Hepato" = liver, "tropic" = preference। "Hepatitis" = liver-র inflammation।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V39</span>
+      <p class="qtext">Define trophism with examples. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> cell/tissue tropism = preference; neuro, hepato, entero, pneumo</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Tropism (cell/tissue tropism)</b> = the movement or <b>preference/tendency of a virus (or organism) for a particular stimulus, cell or tissue</b>. Each virus selectively infects specific cells/tissues based on receptors present on the cell surface.</p>
+      <p>Types of tropism with examples:</p>
+      <ul>
+        <li><b>Neurotropic</b> (tropism to neurons): Rabies virus, Poliovirus.</li>
+        <li><b>Hepatotropic</b> (tropism to liver): Hepatitis A, B, C, D, E viruses.</li>
+        <li><b>Enterotropic</b> (tropism to enteric tract): Rotavirus, Norovirus.</li>
+        <li><b>Pneumotropic</b> (tropism to lungs): Influenza, Coronavirus, RSV, Rhinovirus.</li>
+      </ul>
+      <p>The basis of tropism is the <b>presence of specific receptors on the surface of the target cell</b> for the viral attachment protein.</p><p class="ca"></p>
+        <p class="cq">Tropism-এর basis কী?</p>
+        <p class="ca">Target cell-এর surface-এ virus-এর attachment protein-এর জন্য specific receptor থাকা।</p><p><br></p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Tropism কী?</p>
+        <p class="ca">Virus-এর নির্দিষ্ট tissue/cell-এর প্রতি preference/tendency। প্রতিটি virus specific cell-এই infect করে, কারণ target cell-এর surface-এ specific receptor থাকে।</p>
+        <p class="cq">Neurotropic virus-র উদাহরণ দাও।</p>
+        <p class="ca">Rabies virus, Poliovirus — neuron/nervous tissue-কে prefer করে।</p>
+        <p class="cq">Hepatotropic আর enterotropic-এর পার্থক্য কী?</p>
+        <p class="ca">Hepatotropic = liver-কে prefer করে (HAV-HEV)। Enterotropic = gut/enteric tract-কে prefer করে (Rotavirus, Norovirus)।</p>
+        <p class="cq">Tropism-এর basis কী?</p>
+        <p class="ca">Target cell-এর surface-এ virus-এর attachment protein-এর জন্য specific receptor থাকা।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Tropism মানে একটি virus-এর specific tissue/cell-এর প্রতি ঝোকা (preference)। মানে virus প্রতিটি cell-এ ঢুকে না — receptor থাকলেই ঢুকে।</p>
+<p>Neurotropic = neuron (Rabies, Polio), Hepatotropic = liver (HAV-HEV), Enterotropic = gut (Rota, Noro), Pneumotropic = lung (Influenza, Corona)।</p>
+<p>Tropism-এর কারণ specific receptor। কিছু cell-এ receptor নেই, তাই virus resist করে — যেমন chemokine receptor-এর absence HIV-র প্রতি resistance দেয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V40</span>
+      <p class="qtext">What do you mean by neurotropic/hepatotropic/enterotropic virus with example? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> neurotropic—neuron (polio, rabies); hepatotropic—liver (HAV–HEV); enterotropic—gut (rota)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Neurotropic virus</b> — virus with tropism (preference) for <b>neurons / nervous tissue</b>. <i>Examples:</i> Rabies virus, Poliovirus.</li>
+        <li><b>Hepatotropic virus</b> — virus with tropism for the <b>liver</b>. <i>Examples:</i> Hepatitis A, B, C, D &amp; E viruses (they exclusively or mainly infect the liver).</li>
+        <li><b>Enterotropic virus</b> — virus with tropism for the <b>enteric tract (gut)</b>. <i>Examples:</i> Rotavirus, Norwalk virus (Norovirus).</li>
+        <li><b>Pneumotropic virus</b> — virus with tropism for the <b>lungs</b>. <i>Examples:</i> Influenza, Coronavirus, RSV, Rhinovirus.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Neurotropic, Hepatotropic, Enterotropic virus-এর উদাহরণ দাও।</p>
+        <p class="ca">Neurotropic: Rabies, Polio। Hepatotropic: HAV-B-C-D-E। Enterotropic: Rotavirus, Norwalk virus।</p>
+        <p class="cq">Pneumotropic virus কোনগুলো?</p>
+        <p class="ca">Influenza, Coronavirus, RSV, Rhinovirus।</p>
+        <p class="cq">একটি virus কি একাধিক tropism-এর হতে পারে?</p>
+        <p class="ca">হ্যাঁ। যেমন Poliovirus — enterotropic (gut-এ প্রথমে) + neurotropic (nervous system-এ পরে)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Neurotropic = যেসব virus neuron (nervous tissue) prefer করে — Rabies, Polio। Hepatotropic = যেসব virus liver-এ বেশি দেয় — HAV-B-C-D-E। Enterotropic = gut-এ দেয় — Rotavirus। Pneumotropic = lung-এ — Influenza।</p>
+<p>Viva-তে জিজ্ঞেস করলে virus "পছন্দের" tissue-এর উপর base করে বলবেন।</p>
+<p>Poliovirus — প্রথমে gut-এ (enterotropic), তারপর nervous system-এ (neurotropic)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V41</span>
+      <p class="qtext">What are the causes of viral persistence? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> latent (herpes), chronic (HBV, HCV), slow (HIV, prion, SSPE)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Viral persistence</b> = virus remains in the body for a long period instead of being cleared. It is of <b>3 types</b>:</p>
+      <p><b>1. Latent infection</b> — virus remains dormant/hidden in cells (no virus produced now) and can be <b>reactivated later</b>.</p>
+      <ul>
+        <li><i>Example:</i> Herpes family — HSV-1 (trigeminal ganglion), HSV-2 (lumbar/sacral ganglia), VZV (dorsal root ganglia), EBV (B cells), CMV (monocytes/kidney).</li>
+      </ul>
+      <p><b>2. Chronic (carrier) infection</b> — virus continues to be <b>produced long term</b>; patient is a carrier and can transmit.</p>
+      <ul>
+        <li><i>Example:</i> Chronic hepatitis B (HBV) &amp; C (HCV) carriers, neonatal rubella, CMV infections.</li>
+      </ul>
+      <p><b>3. Slow viral infection</b> — very long incubation period (measured in <b>years</b>) between initial infection and disease onset.</p>
+      <ul>
+        <li><i>Example:</i> HIV → AIDS (≈10 years), Subacute sclerosing panencephalitis (SSPE, after measles), prion diseases (CJD, kuru), PML (JC virus).</li>
+      </ul>
+      <p><b>Mechanisms of persistence:</b> integration of DNA provirus into host DNA; immune tolerance; virus–antibody complexes; sheltered sites (brain); rapid antigenic variation; cell-to-cell spread without extracellular phase; immunosuppression.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Viral persistence-এর ৩ ধরনের কী কী?</p>
+        <p class="ca">Latent, Chronic (carrier), Slow viral infection।</p>
+        <p class="cq">Latent infection-এ virus কী করে?</p>
+        <p class="ca">Dormant থাকে, produce করে না। Pore reactivation হতে পারে — trigger: sunlight, fever, stress।</p>
+        <p class="cq">Slow viral infection-এ incubation period কেমন?</p>
+        <p class="ca">বছরের পর বছর। HIV→AIDS ≈ 10 বছর, SSPE measles-র পরে।</p>
+        <p class="cq">Persistence-র mechanism কী কী?</p>
+        <p class="ca">DNA provirus integration, immune tolerance, virus-antibody complex, sheltered sites (brain), antigenic variation, cell-to-cell ছড়ানো, immunosuppression।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Viral persistence মানে virus লম্বা সময় body-তে থেকে যায়। তিন ধরনের — Latent (virus লুকিয়ে থাকে, পরে উঠতে পারে — herpes family), Chronic carrier (virus একটার পর একটা produce হতে থাকে — HBV, HCV), Slow infection (incubation period বছরের কত দিন — HIV থেকে AIDS, SSPE)।</p>
+<p>কিছু virus এমন করে integrate হয়ে যায় host DNA-তে, তাই persist থাকে।</p>
+<p>Chronic carrier গুরুত্বপূর্ণ transmission-এর জন্য — HBsAg-positive mothers।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V42</span>
+      <p class="qtext">Name virus causing latent infection, chronic infection and slow viral infection. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> latent=herpes; chronic=HBV/HCV; slow=HIV, prion, SSPE</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>1. Latent infection (Herpes family + HIV):</b></p>
+      <ul>
+        <li>HSV-1 (latent in trigeminal/cranial sensory ganglia)</li>
+        <li>HSV-2 (latent in lumbar &amp; sacral sensory ganglia)</li>
+        <li>Varicella-zoster virus / VZV (cranial or thoracic/dorsal root ganglia)</li>
+        <li>Epstein-Barr virus / EBV (B lymphocytes)</li>
+        <li>Cytomegalovirus / CMV (monocytes &amp; kidney)</li>
+        <li>HIV (integration into host DNA)</li>
+      </ul>
+      <p><b>2. Chronic (carrier) infection:</b></p>
+      <ul>
+        <li>Hepatitis B virus (HBV) — chronic hepatitis / carrier</li>
+        <li>Hepatitis C virus (HCV) — chronic hepatitis / carrier</li>
+        <li>Hepatitis D virus (HDV)</li>
+        <li>CMV, Neonatal rubella</li>
+      </ul>
+      <p><b>3. Slow viral infection:</b></p>
+      <ul>
+        <li>HIV → AIDS (≈10 years)</li>
+        <li>Subacute sclerosing panencephalitis (SSPE) — after measles</li>
+        <li>Prion diseases — Creutzfeldt-Jakob disease (CJD), Kuru</li>
+        <li>Progressive multifocal leukoencephalopathy (PML) — JC virus</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Latent infection-এর virus-গুলো কোন কোনটি?</p>
+        <p class="ca">HSV-1 (trigeminal), HSV-2 (lumbosacral), VZV (dorsal root ganglia), EBV (B cells), CMV (monocytes/kidney), HIV।</p>
+        <p class="cq">Chronic infection-এর virus-গুলো কোন কোনটি?</p>
+        <p class="ca">HBV, HCV, HDV, CMV, neonatal rubella।</p>
+        <p class="cq">Slow viral infection-এর virus-গুলো কোন কোনটি?</p>
+        <p class="ca">HIV (AIDS, ≈10 years), SSPE (after measles), Prion diseases (CJD, Kuru), PML (JC virus)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Latent infection — HSV-1, HSV-2, VZV, EBV, CMV (সব herpes family)। Chronic — HBV, HCV (chronic hepatitis)। Slow — HIV (AIDS-এ ১০ বছর লাগে), SSPE (measles-র পরে), prion disease (CJD, Kuru)।</p>
+<p>Latent infection-এ virus produce করে না কিন্তু পরে reactivation হতে পারে। Chronic infection-এ virus continue করে produce করে।</p>
+<p>তিনটির নাম মুখস্থ করে viva-তে পড়ে দিন।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Classification & Dermatophytes (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Classification &amp; Dermatophytes</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">3 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">3 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-01-General-Mycology.html">‹ Prev</a><a href="Mycology-03-Laboratory-Diagnosis.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Classification &amp; Dermatophytes</h2><div class="en">Habitat-based classification, dimorphic fungi, dermatophytes &amp; their sites</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M7</span>
+      <p class="qtext">Classify fungus according to habitat. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Superficial cutaneous, subcutaneous, systemic, opportunistic</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Clinical classification based on <b>site of infection / habitat</b>:</p>
+      <p><b>A. Superficial Cutaneous Fungi</b> — affect skin, hair, nails; confined to body surfaces.</p>
+      <ul>
+        <li><i>Malassezia furfur</i> — tinea versicolor</li>
+        <li>Dermatophytes (<i>Epidermophyton</i>, <i>Trichophyton</i>, <i>Microsporum</i>) — dermatophytosis / tinea / ringworm</li>
+        <li><i>Trichosporon beigelii</i> — white piedra</li>
+        <li><i>Piedraia hortae</i> — black piedra</li>
+        <li><i>Hortaea werneckii</i> — tinea nigra</li>
+        <li><i>Candida albicans</i> (sometimes) — superficial candidiasis</li>
+      </ul>
+      <p><b>B. Subcutaneous Fungi</b> — inoculated through skin by cuts, scratches, or thorns.</p>
+      <ul>
+        <li><i>Sporothrix schenckii</i> — sporotrichosis (rose handler disease)</li>
+        <li><i>Rhinosporidium seeberi</i> — rhinosporidiosis</li>
+        <li><i>Madurella mycetomatis</i> — mycetoma / madura foot</li>
+        <li>Dematiaceous fungi (<i>Fonsecaea</i>, <i>Phialophora</i>, <i>Exophiala</i>, <i>Cladosporium</i>) — chromoblastomycosis &amp; pheohyphomycosis</li>
+      </ul>
+      <p><b>C. Systemic / Deep Fungi</b> — usually dimorphic; affect internal organs.</p>
+      <ul>
+        <li><i>Histoplasma capsulatum</i> — histoplasmosis</li>
+        <li><i>Blastomyces dermatitidis</i> — blastomycosis</li>
+        <li><i>Coccidioides immitis</i> — coccidioidomycosis</li>
+        <li><i>Paracoccidioides brasiliensis</i> — paracoccidioidomycosis</li>
+      </ul>
+      <p><b>D. Opportunistic Fungi</b> — cause disease in immunocompromised individuals.</p>
+      <ul>
+        <li><i>Candida albicans</i> — candidiasis</li>
+        <li><i>Cryptococcus neoformans</i> — cryptococcal meningitis</li>
+        <li><i>Pneumocystis jiroveci</i> — pneumocystis pneumonia</li>
+        <li><i>Aspergillus fumigatus</i> — aspergillosis</li>
+        <li><i>Mucor</i> &amp; <i>Rhizopus</i> — mucormycosis (black fungus)</li>
+        <li><i>Penicillium marneffei</i> — penicilliosis</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন fungi নিঃসন্দেহে superficial, আর কোনগুলো cutaneous?</p>
+      <p class="ca"><i>Malassezia furfur</i> ও dermatophytes নিঃসন্দেহে <b>superficial</b>; <i>Candida</i> ও dermatophytes‑কে superficial group‑এর মধ্যেই <b>cutaneous</b> হিসেবেও ধরা হয়।</p>
+      <p class="cq">Subcutaneous fungi কীভাবে infection তৈরি করে?</p>
+      <p class="ca">Skin‑এর thorn, splinter বা ছোটখাটো trauma‑এর মাধ্যমে <b>inoculation</b> হয়ে সংক্রমণ হয়।</p>
+      <p class="cq">Systemic fungi সাধারণত কেমন হয়?</p>
+      <p class="ca">সাধারণত <b>dimorphic</b> — environment‑এ mold, host‑এ yeast।</p>
+      <p class="cq"><i>Aspergillus</i>‑এর বিশেষত্ব কী?</p>
+      <p class="ca"><i>Aspergillus</i> হলো এমন একটি <b>opportunistic</b> fungus যা আবার <b>mold</b>ও বটে, এবং এর <b>septate hyphae</b> থাকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, habitat অনুযায়ী classification‑এ ৪টি group আছে — <b>A. Superficial Cutaneous</b>, <b>B. Subcutaneous</b>, <b>C. Systemic/Deep</b> ও <b>D. Opportunistic</b>।</p>
+      <p><b>A. Superficial Cutaneous Fungi</b> — skin, hair, nail‑কে প্রভাবিত করে, body surface‑এ সীমাবদ্ধ। Example — <i>Malassezia furfur</i> (tinea versicolor), dermatophytes (<i>Epidermophyton</i>, <i>Trichophyton</i>, <i>Microsporum</i>) — dermatophytosis/tinea/ringworm, <i>Trichosporon beigelii</i> (white piedra), <i>Piedraia hortae</i> (black piedra), <i>Hortaea werneckii</i> (tinea nigra), আর কখনো <i>Candida albicans</i> (superficial candidiasis)।</p>
+      <p><b>B. Subcutaneous Fungi</b> — cut, scratch বা thorn দিয়ে skin‑এর inoculation হয়। Example — <i>Sporothrix schenckii</i> (sporotrichosis/rose handler disease), <i>Rhinosporidium seeberi</i> (rhinosporidiosis), <i>Madurella mycetomatis</i> (mycetoma/madura foot), আর dematiaceous fungi (<i>Fonsecaea</i>, <i>Phialophora</i>, <i>Exophiala</i>, <i>Cladosporium</i>) — chromoblastomycosis &amp; pheohyphomycosis।</p>
+      <p><b>C. Systemic / Deep Fungi</b> — সাধারণত dimorphic, internal organ প্রভাবিত করে। Example — <i>Histoplasma capsulatum</i> (histoplasmosis), <i>Blastomyces dermatitidis</i> (blastomycosis), <i>Coccidioides immitis</i> (coccidioidomycosis), <i>Paracoccidioides brasiliensis</i> (paracoccidioidomycosis)।</p>
+      <p><b>D. Opportunistic Fungi</b> — immunocompromised ব্যক্তিদের disease করে। Example — <i>Candida albicans</i> (candidiasis), <i>Cryptococcus neoformans</i> (cryptococcal meningitis), <i>Pneumocystis jiroveci</i> (pneumocystis pneumonia), <i>Aspergillus fumigatus</i> (aspergillosis), <i>Mucor</i> &amp; <i>Rhizopus</i> (mucormycosis/black fungus), <i>Penicillium marneffei</i> (penicilliosis)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M8</span>
+      <p class="qtext">Define dimorphic fungus with example. *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Mold at 25°C, yeast at 37°C — remember the main dimorphic fungi</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Dimorphic fungi</b> are fungi that exist in two forms depending on temperature: they grow as <b>molds (hyphae) at room temperature (25°C)</b> in the environment and as <b>yeast at body temperature (37°C)</b> in human tissues. This property is called <b>thermal dimorphism</b>.</p>
+      <p>The mnemonic: <b>"Mold at 25, Yeast at 37 — the lung fungi!"</b></p>
+      <p><b>Examples of dimorphic fungi:</b></p>
+      <ul>
+        <li><i>Histoplasma capsulatum</i> — histoplasmosis</li>
+        <li><i>Blastomyces dermatitidis</i> — blastomycosis</li>
+        <li><i>Coccidioides immitis</i> — coccidioidomycosis</li>
+        <li><i>Paracoccidioides brasiliensis</i> — paracoccidioidomycosis</li>
+        <li><i>Sporothrix schenckii</i> — sporotrichosis</li>
+        <li><i>Penicillium marneffei</i> — penicilliosis</li>
+        <li><i>Malassezia furfur</i> — tinea versicolor</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Dimorphic fungus‑এর pathogenesis কীভাবে?</p>
+      <p class="ca">Environment থেকে mold spore <b>inhale</b> হয় → lung‑এ গিয়ে spore <b>yeast</b>‑এ differentiate করে → বেশিরভাগ infection asymptomatic ও self‑limited, কিন্তু disseminate করলে রোগ হতে পারে।</p>
+      <p class="cq">কোন fungi‑তে dimorphism বেশি দেখা যায়?</p>
+      <p class="ca">সব <b>systemic/deep fungi</b> সাধারণত dimorphic হয়ে থাকে।</p>
+      <p class="cq">Mold থেকে yeast‑এ রূপান্তর কেন virulence factor?</p>
+      <p class="ca">কারণ yeast form শরীরে <b>macrophage‑এর ভিতরেও survive</b> করতে পারে — এটাই আসল virulence factor।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>dimorphic fungi</b> হলো সেই fungus যারা temperature অনুযায়ী দুই রকম form‑এ থাকে — environment‑এ <b>25°C‑এ mold (hyphae)</b>, আর human tissue‑এ <b>37°C‑এ yeast</b>। এই বৈশিষ্ট্যকে বলে <b>thermal dimorphism</b>। Mnemonic — <b>"Mold at 25, Yeast at 37 — the lung fungi!"</b></p>
+      <p>Example — <i>Histoplasma capsulatum</i> (histoplasmosis), <i>Blastomyces dermatitidis</i> (blastomycosis), <i>Coccidioides immitis</i> (coccidioidomycosis), <i>Paracoccidioides brasiliensis</i> (paracoccidioidomycosis), <i>Sporothrix schenckii</i> (sporotrichosis), <i>Penicillium marneffei</i> (penicilliosis), আর <i>Malassezia furfur</i> (tinea versicolor)।</p>
+      <p>Pathogenesis‑উলটা বললে — environment থেকে mold spore inhale হয়, lung‑এ গিয়ে yeast‑এ convert হয়। বেশিরভাগ infection asymptomatic, self‑limited; তবে disseminate করলে নানা disease হতে পারে। সব systemic/deep fungi সাধারণত dimorphic। আর mold→yeast এই transition‑টা একটা key <b>virulence factor</b>, কারণ yeast form macrophage‑এর ভিতরে survive করতে পারে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M9</span>
+      <p class="qtext">What do you mean by dermatophytes? Mention the dermatophytes and their site of infection. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Keratinophilic fungi; infect skin, hair, nails</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Dermatophytes</b> are a group of fungi that infect only superficial keratinized tissues — the <b>skin</b> and skin appendages such as <b>hair and nails</b>. They are <b>keratinophilic</b>, meaning they thrive on keratin.</p>
+      <p><b>Keratin types in different structures:</b></p>
+      <ul>
+        <li>Skin — soft keratin</li>
+        <li>Hair — hard and soft keratin</li>
+        <li>Nail — hard keratin</li>
+      </ul>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Genus</th><th>Species</th><th>Site of Infection</th></tr>
+        <tr><td><b>Epidermophyton</b></td><td><i>E. floccosum</i></td><td>Skin &amp; Nail</td></tr>
+        <tr><td rowspan="4"><b>Trichophyton</b></td><td><i>T. rubrum</i></td><td>Skin, Hair &amp; Nail</td></tr>
+        <tr><td><i>T. tonsurans</i></td><td>Skin, Hair &amp; Nail</td></tr>
+        <tr><td><i>T. mentagrophytes</i></td><td>Skin, Hair &amp; Nail</td></tr>
+        <tr><td><i>T. schoenleinii, T. verrucosum</i></td><td>Skin, Hair &amp; Nail</td></tr>
+        <tr><td rowspan="2"><b>Microsporum</b></td><td><i>M. canis</i></td><td>Skin &amp; Hair</td></tr>
+        <tr><td><i>M. gypseum</i></td><td>Skin &amp; Hair</td></tr>
+      </tbody></table></div>
+      <p><b>Key point:</b> <i>Epidermophyton</i> does NOT infect hair; <i>Microsporum</i> does NOT infect nails; <i>Trichophyton</i> infects all three.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Dermatophytosis কীভাবে ছড়ায় (transmission)?</p>
+      <p class="ca">Direct contact — infected person থেকে (anthropophilic), infected animal থেকে যেমন dog/cat (zoophilic — প্রধানত <i>Microsporum</i>), আর indirect contact — shared clothing, comb, towel দিয়ে।</p>
+      <p class="cq">এই রোগকে আর কী কী নামে ডাকা হয়?</p>
+      <p class="ca"><b>Dermatophytosis / tinea / ringworm infection</b> নামে ডাকা হয়।</p>
+      <p class="cq">Tinea কীভাবে body area অনুযায়ী নাম পায়?</p>
+      <p class="ca">Tinea capitis (head hair), tinea corporis (trunk), tinea cruris (groin), tinea pedis (foot), tinea unguium (nail), tinea manuum (hand), tinea barbae (beard), tinea faciei (face)।</p>
+      <p class="cq">Microconidia‑র shape কী কী?</p>
+      <p class="ca"><i>T. rubrum</i> — single, tear drop; <i>T. mentagrophytes</i> — cluster, oval; <i>T. tonsurans</i> — elongated।</p>
+      <p class="cq">আর macroconidia‑র shape?</p>
+      <p class="ca"><i>Epidermophyton</i> — club shaped; <i>Trichophyton</i> — cylindrical; <i>Microsporum</i> — spindle shaped।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>dermatophytes</b> হলো সেই fungi যারা শুধু superficial keratinized tissue‑কে infect করে — <b>skin</b> আর তার appendage, যেমন <b>hair ও nail</b>। এরা <b>keratinophilic</b>, অর্থাৎ keratin‑এ বেঁচে থাকে।</p>
+      <p>Keratin type — skin‑এ <b>soft keratin</b>, hair‑এ <b>hard ও soft keratin</b>, nail‑এ <b>hard keratin</b>। তিনটি genus — <b>Epidermophyton</b>, <b>Trichophyton</b>, <b>Microsporum</b>। <i>E. floccosum</i> শুধু skin &amp; nail‑এ infect করে। <i>Trichophyton</i>‑এর species গুলো (rubrum, tonsurans, mentagrophytes, schoenleinii, verrucosum) skin, hair ও nail — তিনটিতেই infect করে। <i>Microsporum</i> (canis, gypseum) শুধু skin &amp; hair infect করে।</p>
+      <p>Key point — <i>Epidermophyton</i> <b>hair infect করে না</b>, <i>Microsporum</i> <b>nail infect করে না</b>, <i>Trichophyton</i> তিনটিই infect করে।</p>
+      <p>Transmission — direct contact: infected person (anthropophilic) বা infected animal (zoophilic — যেমন <i>Microsporum</i>), আর indirect — shared clothing, comb, towel। রোগের নাম dermatophytosis/tinea/ringworm। Site অনুযায়ী — tinea capitis (head), corporis (trunk), cruris (groin), pedis (foot), unguium (nail), manuum (hand), barbae (beard), faciei (face)। Identification — microconidia: <i>T. rubrum</i> single tear drop, <i>T. mentagrophytes</i> cluster oval, <i>T. tonsurans</i> elongated; macroconidia: <i>Epidermophyton</i> club, <i>Trichophyton</i> cylindrical, <i>Microsporum</i> spindle।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

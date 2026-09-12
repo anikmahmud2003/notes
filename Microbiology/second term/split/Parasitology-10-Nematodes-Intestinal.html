@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Nematodes — General & Intestinal Worms (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Nematodes — General &amp; Intestinal Worms</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">25 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">25 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-09-Trematodes.html">‹ Prev</a><a href="Parasitology-11-Filariasis-Tissue-Nematodes.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Nematodes — General &amp; Intestinal Worms</h2><div class="en">Characteristics &amp; classification, ova of AL/AD/TT/EV, A. lumbricoides, hookworm anaemia, enterobiasis, S. stercoralis</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P122</span>
+      <p class="qtext">Mention the general characteristics of nematodes. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> cylindrical, diecious, complete gut, body cavity present, cuticle</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li>Commonly called 'worm'; 'nematodes' means 'thread-like'.</li>
+        <li>Shape: elongated, cylindrical (filiform in appearance); unsegmented.</li>
+        <li>Size: few mm to 1 metre (D. medinensis up to 1 m); smallest are T. spiralis and S. stercoralis (&lt;5 mm); largest in human is A. lumbricoides. Male is generally smaller than female, with the posterior end of the male coiled ventrally.</li>
+        <li>Head: no sucker, no hook; some have a well-developed buccal capsule with teeth or cutting plate.</li>
+        <li>Sexes: separated (diecious).</li>
+        <li>Alimentary canal: present and complete (with anus).</li>
+        <li>Body cavity: present.</li>
+        <li>Body is covered with a <b>cuticle</b>.</li>
+        <li>Undergo 4 moults (shedding of cuticle) during development.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">নেমাটোডের লার্ভা কয় ধরনের ও কী কী?</p>
+      <p class="ca">দুই ধরনের — রেবডিটিফর্ম লার্ভা (non-infectious, খাদ্য গ্রহণ করে) এবং ফাইলারিফর্ম লার্ভা (infectious, খাদ্য গ্রহণ করে না)।</p>
+      <p class="cq">ইনটেস্টাইনাল নেমাটোডের host সম্পর্কে কী জানো?</p>
+      <p class="ca">মানুষই একমাত্র definitive host; সোমাটিক নেমাটোডদের (S. stercoralis ছাড়া) intermediate host প্রয়োজন।</p>
+      <p class="cq">সংক্রমণের পথ কী কী?</p>
+      <p class="ca">চামড়া দিয়ে penetration (hookworm, S. stercoralis) বা egg গ্রহণ দ্বারা (AL, EV, TT)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>নেমাটোডের সাধারণ বৈশিষ্ট্য ভাইভায় বলো —</p>
+<ul>
+<li>সাধারণ নাম worm; \"নেমাটোড\" মানে thread-এর মতো।</li>
+<li>আকৃতি: লম্বা, সিলিন্ড্রিকাল (filiform), আনসেগমেন্টেড।</li>
+<li>আয়তন: কয়েক মিমি থেকে ১ মিটার (D. medinensis); সবচেয়ে ছোট T. spiralis ও S. stercoralis (&lt;৫ মিমি); মানুষের সবচেয়ে বড় A. lumbricoides। পুরুষ সাধারণত ছোট, পেছনের প্রান্ত ventrally কুণ্ডলিত।</li>
+<li>মাথায় sucker বা hook নেই; কিছুতে buccal capsule ও দাঁত/ cutting plate থাকে।</li>
+<li>লিঙ্গ: আলাদা (diecious)।</li>
+<li>পরিপাকনালী: সম্পূর্ণ, anus সহ।</li>
+<li>শরীর গহ্বর: আছে।</li>
+<li>শরীর cuticle-এ ঢাকা; বিকাশের সময় ৪ বার moult (cuticle ঝরানো) ঘটে।</li>
+</ul>
+<p>মনে রাখো: <b>\"Nematode = full gut + diecious + body cavity\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P123</span>
+      <p class="qtext">Classify nematodes. ****** (intestinal: AL, AD, NA, TT, EV, SS and tissue: W. bancrofti, Loa loa, Oncocerca volvulus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intestinal: AL, AD, NA, TT, EV, SS; tissue: W. bancrofti, Loa loa, Onchocerca volvulus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Nematodes are classified according to habitat into:</p>
+      <p><b>1. Intestinal nematodes:</b></p>
+      <ul>
+        <li><b>Small intestine:</b> A. lumbricoides (AL, roundworm), A. duodenale (AD, old-world hookworm), N. americanus (NA, new-world hookworm), S. stercoralis (SS, small roundworm), T. spiralis, Capillaria.</li>
+        <li><b>Large intestine (caecum &amp; appendix):</b> T. trichiura (TT, whipworm), E. vermicularis (EV, thread/pinworm).</li>
+      </ul>
+      <p><b>2. Somatic (tissue) nematodes:</b></p>
+      <ul>
+        <li><b>Lymphatic:</b> W. bancrofti, Brugia malayi, Brugia timori.</li>
+        <li><b>Skin/subcutaneous:</b> Loa loa, Onchocerca volvulus, Dracunculus medinensis.</li>
+        <li><b>Lung:</b> Strongyloides stercoralis.</li>
+        <li><b>Conjunctiva/eye:</b> Loa loa, Onchocerca volvulus.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">ইনটেস্টাইনাল নেমাটোডের কি intermediate host প্রয়োজন?</p>
+      <p class="ca">না — ইনটেস্টাইনাল নেমাটোডের কোনো intermediate host নেই; মানুষই একমাত্র definitive host।</p>
+      <p class="cq">ইনটেস্টাইনাল নেমাটোডের ডায়াগনসিসের মূল বিষয় কী?</p>
+      <p class="ca">মলে egg (AL, TT — bile-stained; AD, NA — non-bile-stained), মলে larva (SS), perianal ত্বকে egg (EV)।</p>
+      <p class="cq">ফাইলারিয়াল কৃমি কীভাবে সংক্রমিত হয়?</p>
+      <p class="ca">রক্ত শোষণকারী পোকা (mosquito/vector) দ্বারা; W. bancrofti, Brugia, O. volvulus, Loa loa এরা microfilariae ছাড়ে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>নেমাটোডকে দুই ভাগে ভাগ করা যায় —</p>
+<p><b>১. ইনটেস্টাইনাল নেমাটোড:</b></p>
+<ul>
+<li>ছোট অন্ত্রে: A. lumbricoides (roundworm), A. duodenale (old-world hookworm), N. americanus (new-world hookworm), S. stercoralis (small roundworm), T. spiralis, Capillaria।</li>
+<li>বড় অন্ত্রে (caecum ও appendix): T. trichiura (whipworm), E. vermicularis (thread/pinworm)।</li>
+</ul>
+<p><b>২. সোমাটিক (টিস্যু) নেমাটোড:</b></p>
+<ul>
+<li>Lymphatic: W. bancrofti, Brugia malayi, Brugia timori।</li>
+<li>Skin/subcutaneous: Loa loa, Onchocerca volvulus, Dracunculus medinensis।</li>
+<li>Lung: Strongyloides stercoralis।</li>
+<li>Conjunctiva/eye: Loa loa, Onchocerca volvulus।</li>
+</ul>
+<p>মনে রাখো — intestinal-এর কোনো intermediate host নেই; somatic-দের vector/intermediate লাগে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P124</span>
+      <p class="qtext">Name five (05) intestinal and some tissue (somatic) nematodes. *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intestinal: AL, AD, NA, TT, EV, SS; tissue: W. bancrofti, Loa loa, O. volvulus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Five intestinal nematodes:</b></p>
+      <ul>
+        <li>Ascaris lumbricoides (roundworm)</li>
+        <li>Ancylostoma duodenale (old-world hookworm)</li>
+        <li>Necator americanus (new-world hookworm)</li>
+        <li>Trichuris trichiura (whipworm)</li>
+        <li>Enterobius vermicularis (pin/threadworm)</li>
+        <li>(Also Strongyloides stercoralis — small roundworm)</li>
+      </ul>
+      <p><b>Tissue (somatic) nematodes:</b></p>
+      <ul>
+        <li>Wuchereria bancrofti (lymphatic)</li>
+        <li>Loa loa (subcutaneous / eye)</li>
+        <li>Onchocerca volvulus (subcutaneous / eye)</li>
+        <li>Dracunculus medinensis (subcutaneous), Brugia malayi, Brugia timori</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">\"ফাইলারিয়াল কৃমি\" কাদের বলা হয়?</p>
+      <p class="ca">W. bancrofti, Brugia, O. volvulus এবং Loa loa — এরা মোটাইল microfilaria তৈরি করে রক্ত/টিস্যু তরলে।</p>
+      <p class="cq">D. medinensis কি ফাইলারিয়াল?</p>
+      <p class="ca">না — এটি non-filarial somatic nematode (Guinea worm)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>৫টি ইনটেস্টাইনাল নেমাটোড:</b></p>
+<ul>
+<li>Ascaris lumbricoides (roundworm)</li>
+<li>Ancylostoma duodenale (old-world hookworm)</li>
+<li>Necator americanus (new-world hookworm)</li>
+<li>Trichuris trichiura (whipworm)</li>
+<li>Enterobius vermicularis (pin/threadworm)</li>
+</ul>
+<p>(Strongyloides stercoralis — small roundworm — ও বলা যায়।)</p>
+<p><b>টিস্যু (সোমাটিক) নেমাটোড:</b></p>
+<ul>
+<li>Wuchereria bancrofti (lymphatic)</li>
+<li>Loa loa (subcutaneous / eye)</li>
+<li>Onchocerca volvulus (subcutaneous / eye)</li>
+<li>Dracunculus medinensis (subcutaneous), Brugia malayi, Brugia timori</li>
+</ul>
+<p>বিউটো — এদের মধ্যে W. bancrofti, Brugia, O. volvulus ও Loa loa ফাইলারিয়াল; D. medinensis non-filarial।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P125</span>
+      <p class="qtext">Name the common nematodes found in Bangladesh. **** (EV, AL, TT, W. bancrofti, AD, SS)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> EV, AL, TT, W. bancrofti, AD, SS</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The common nematodes found in Bangladesh are:</p>
+      <ul>
+        <li>Enterobius vermicularis (EV)</li>
+        <li>Ascaris lumbricoides (AL)</li>
+        <li>Trichuris trichiura (TT)</li>
+        <li>Wuchereria bancrofti (tissue nematode)</li>
+        <li>Ancylostoma duodenale (AD)</li>
+        <li>Strongyloides stercoralis (SS)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">বাংলাদেশে ব্যাংক্রফটিয়ান ফাইলারিয়াসিস কোথায় এন্ডেমিক?</p>
+      <p class="ca">উত্তরবঙ্গের জেলাগুলোতে — Nilphamari, Dinajpur, Rangpur, Panchagar, Kurigram, Gaibandha, Lalmonirhat।</p>
+      <p class="cq">স্কুল-বয়সী শিশুদের সবচেয়ে বেশি কোন অন্ত্রের পরজীবী হয়?</p>
+      <p class="ca">AL, EV এবং TT।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>বাংলাদেশে প্রচলিত নেমাটোডের তালিকা মুখস্থ রাখো —</p>
+<ul>
+<li>Enterobius vermicularis (EV)</li>
+<li>Ascaris lumbricoides (AL)</li>
+<li>Trichuris trichiura (TT)</li>
+<li>Wuchereria bancrofti (tissue nematode — উত্তরবঙ্গে filariasis)</li>
+<li>Ancylostoma duodenale (AD)</li>
+<li>Strongyloides stercoralis (SS)</li>
+</ul>
+<p>ভাইভাতে এই তালিকা শুনিয়ে দিলেই হবে — সাথে W. bancrofti যে উত্তরবঙ্গে (Nilphamari, Rangpur, Dinajpur প্রভৃতি) বেশি, কথাটাও বলে দাও।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P126</span>
+      <p class="qtext">Why are helminthic diseases not commonly seen in our country now? ** [deworming programme (because most people take antihelminthic drugs for prophylactic measure), sanitation improvement]</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> deworming programme because most people take antihelminthic drugs prophylactically, and sanitation improvement</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Helminthic diseases have become uncommon in Bangladesh because of:</p>
+      <ol>
+        <li><b>Deworming programmes:</b> most people, especially school children, take antihelminthic drugs (e.g. albendazole) regularly as a prophylactic measure through mass deworming campaigns conducted by the Ministry of Health.</li>
+        <li><b>Sanitation improvement:</b> safe drinking water (WA), proper disposal of human waste and reduction of open defecation (S), and improved personal hygiene (H) — the WASH approach.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">WASH পদ্ধতি কী বোঝায়?</p>
+      <p class="ca">Water (নিরাপদ পানি), Sanitation (সঠিক স্যানিটেশন), Hygiene (ব্যক্তিগত পরিচ্ছন্নতা)।</p>
+      <p class="cq">আর কী কী কারণে সংক্রমণ কমেছে?</p>
+      <p class="ca">উন্নত আবাসন, নর্দমা/স্যুয়েজ ব্যবস্থা, নগরায়ন, দারিদ্র্য হ্রাস, সচেতনতা ও শিক্ষা।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>হেলমিন্থ রোগ বাংলাদেশে কমেছে — এর দুটি প্রধান কারণ:</p>
+<ol>
+<li><b>Deworming programme:</b> স্কুলের শিশু থেকে শুরু করে অধিকাংশ মানুষ, স্বাস্থ্য মন্ত্রণালয়ের mass deworming কর্মসূচির মাধ্যমে নিয়মিত antihelminthic ওষুধ (যেমন albendazole) সেবন করছে — এটি prophylactic measure হিসাবে কাজ করে।</li>
+<li><b>স্যানিটেশন উন্নতি:</b> নিরাপদ পানীয় জল (Water), মানব বর্জ্যের সঠিক নিষ্পত্তি ও খোলা মলত্যাগ হ্রাস (Sanitation), এবং ব্যক্তিগত পরিচ্ছন্নতার উন্নতি (Hygiene) — একসাথে WASH দৃষ্টিভঙ্গি।</li>
+</ol>
+<p>উন্নত আবাসন, পয়ঃনিষ্কাশন, নগরায়ন, দারিদ্র্য হ্রাস ও শিক্ষাও সংক্রমণ কমাতে ভূমিকা রাখে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P127</span>
+      <p class="qtext">Name six (06) common nematodes with their infective form? *** (SS &amp; AD: filariform larva; rest of the intestinal nematodes: Egg)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> SS &amp; AD: filariform larva; rest of the intestinal nematodes: Egg</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <thead>
+          <tr><th>Nematode</th><th>Infective form</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S. stercoralis (SS)</td><td>Filariform larva (skin penetration)</td></tr>
+          <tr><td>A. duodenale (AD) — hookworm</td><td>Filariform larva (skin penetration)</td></tr>
+          <tr><td>Necator americanus (NA)</td><td>Filariform larva (skin penetration)</td></tr>
+          <tr><td>Enterobius vermicularis (EV)</td><td>Embryonated egg</td></tr>
+          <tr><td>Trichuris trichiura (TT)</td><td>Embryonated egg</td></tr>
+          <tr><td>Ascaris lumbricoides (AL)</td><td>Embryonated egg</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন নেমাটোড চামড়া দিয়ে ঢোকে?</p>
+      <p class="ca">Hookworm (AD, NA) এবং S. stercoralis — ফাইলারিফর্ম লার্ভা skin penetration করে।</p>
+      <p class="cq">কোনগুলো egg খেয়ে সংক্রমণ ছড়ায়?</p>
+      <p class="ca">AL, EV, TT — embryonated egg গ্রহণে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় টেবিলটা বলো —</p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tbody><tr><th>নেমাটোড</th><th>Infective form</th></tr>
+<tr><td>S. stercoralis (SS)</td><td>Filariform larva (skin penetration)</td></tr>
+<tr><td>A. duodenale (AD) — hookworm</td><td>Filariform larva (skin penetration)</td></tr>
+<tr><td>Ascaris lumbricoides (AL)</td><td>Embryonated egg</td></tr>
+<tr><td>Enterobius vermicularis (EV)</td><td>Embryonated egg</td></tr>
+<tr><td>Trichuris trichiura (TT)</td><td>Embryonated egg</td></tr>
+<tr><td>Necator americanus (NA)</td><td>Filariform larva (skin penetration)</td></tr>
+</tbody></table>
+<p>মনে রাখো: SS + hookworm (AD, NA) = filariform larva ও skin penetration; AL, EV, TT = embryonated egg গ্রহণ।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P128</span>
+      <p class="qtext">Which nematode's ovum are commonly found in stool? *** (AL, AD, TT)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> AL, AD, TT</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The ova of the following nematodes are commonly found in stool:</p>
+      <ul>
+        <li>Ascaris lumbricoides (AL) — bile-stained egg</li>
+        <li>Ancylostoma duodenale (AD) — non-bile-stained, segmented egg</li>
+        <li>Trichuris trichiura (TT) — bile-stained, barrel-shaped egg</li>
+      </ul>
+      <p>(Note: E. vermicularis eggs are found in the perianal skin, not usually in stool.)</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">বাইল-দাগা (bile-stained) egg মলে কোন কোন কৃমির?</p>
+      <p class="ca">AL ও TT — bile-stained egg; AD ও NA — non-bile-stained egg; SS — larva।</p>
+      <p class="cq">EV-এর egg কোথায় পাওয়া যায়?</p>
+      <p class="ca">Perianal ত্বকে (cellophane/NIH swab-এ), মলে নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>মলে ডিম্ব পাওয়া যায় এমন নেমাটোডগুলো:</p>
+<ul>
+<li><b>Ascaris lumbricoides (AL)</b> — bile-stained egg</li>
+<li><b>Ancylostoma duodenale (AD)</b> — non-bile-stained, segmented egg</li>
+<li><b>Trichuris trichiura (TT)</b> — bile-stained, barrel-shaped egg</li>
+</ul>
+<p>মনে রাখো — EV-এর egg মলে পাওয়া যায় না (perianal ত্বকে পাওয়া যায়), তাই এটা স্টুলে আসে না। আর SS-এর মলে larva থাকে, egg নয়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P129</span>
+      <p class="qtext">Which nematode's larva is found in stool? *** (SS)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> SS</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Strongyloides stercoralis (SS)</b> is the nematode whose <b>larva (rhabditiform larva)</b> is found in stool, not the egg. Because SS is <b>ovoviviparous </b>— the female lays eggs containing larvae which hatch immediately, and the rhabditiform larvae are passed in the faeces.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">রেবডিটিফর্ম লার্ভার বৈশিষ্ট্য কী?</p>
+      <p class="ca">এটি SS-এর মলে ডায়াগনস্টিক ফর্ম — ছোট, double-bulb esophagus বিশিষ্ট।</p>
+      <p class="cq">SS-এর infective form কোনটি?</p>
+      <p class="ca">Filariform larva (L3)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Strongyloides stercoralis (SS)</b>-ই সেই নেমাটোড যার <b>larva (rhabditiform larva)</b> মলে পাওয়া যায়, egg নয়। কারণ SS ovoviviparous — স্ত্রী কৃমি egg দেয় যার ভিতরে larva থাকে এবং সাথে সাথে ডিম্বগুলো ফুটে যায়, ফলে rhabditiform larva মলের সাথে বের হয়।</p>
+<p>এটা বলার সময় জোর দাও — <b>SS-এর ক্ষেত্রে মলে larva, অন্য সব worm-এর ক্ষেত্রে মলে egg</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P130</span>
+      <p class="qtext">Mention the pathogenecities caused by A. lumbricoides. *** (mechanical, surgical)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mechanical, surgical</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Pathogenic lesions caused by the larva:</b></p>
+      <ul>
+        <li>In the lungs: <b>Loeffler's syndrome (Ascaris pneumonia)</b> — low-grade fever, dry cough, dyspnoea, blood-tinged sputum, urticaria, massive eosinophilia (20%).</li>
+        <li>In general circulation: disturbances in spinal cord, heart, kidney.</li>
+      </ul>
+      <p><b>Pathogenic lesions caused by the adult worm (mechanical/surgical):</b></p>
+      <ul>
+        <li>Spoliative action / nutritional effects: protein-energy malnutrition, vitamin A deficiency (night blindness).</li>
+        <li>Toxic action: typhoid-like fever, allergic manifestations.</li>
+        <li><b>Mechanical / surgical effects:</b> intussusception, <b>intestinal obstruction</b> (especially in children), penetration of an ulcer, <b>appendicitis</b>, entry into bile duct causing obstructive jaundice / haemorrhagic pancreatitis, and <b>suffocation</b> when the worm enters the respiratory passage (Loeffler or rima glottidis blocking).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">AL-এর infective form কী?</p>
+      <p class="ca">Embryonated egg — যার ভিতরে L2 larva থাকে; দূষিত মাটি/খাবার/পানি থেকে গ্রহণ।</p>
+      <p class="cq">AL-এর জীবনচক্রে lung migration অন্তর্ভুক্ত কেন?</p>
+      <p class="ca">ডুওডেনামে egg ফুটে → portal → liver → ডান হৃৎপিণ্ড → ফুসফুস → trachea দিয়ে গিলে আবার ছোট অন্ত্রে ফেরত।</p>
+      <p class="cq">ডায়াগনসিস কীভাবে করবে?</p>
+      <p class="ca">মলে বৈশিষ্ট্যপূর্ণ fertilized (bile-stained, mammillated) ও unfertilized egg; রক্তে eosinophilia।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>A. lumbricoides-এর pathogenicity দুটো ভাগে বলো —</p>
+<p><b>লার্ভা জনিত:</b></p>
+<ul>
+<li>ফুসফুসে <b>Loeffler's syndrome (Ascaris pneumonia)</b> — নিম্ন-গ্রেড জ্বর, শুকনো কাশি, dyspnoea, রক্তমাখা স্পুটাম, urticaria, massive eosinophilia (২০%)।</li>
+<li>সাধারণ রক্তসঞ্চালনে — spinal cord, heart, kidney-তে ব্যাঘাত।</li>
+</ul>
+<p><b>প্রাপ্তবয়স্ক কৃমি জনিত (mechanical/surgical):</b></p>
+<ul>
+<li>Spoliative effect: protein-energy malnutrition, vitamin A deficiency → night blindness।</li>
+<li>Toxic effect: typhoid-সদৃশ জ্বর, অ্যালার্জিক প্রকাশ।</li>
+<li>Mechanical/surgical: intussusception, <b>intestinal obstruction</b> (বিশেষত শিশুতে), ulcer ছিদ্র, <b>appendicitis</b>, পিত্তনালীতে গেলে obstructive jaundice/ haemorrhagic pancreatitis, এবং শ্বাসপথে ঢুকে <b>suffocation</b>।</li>
+</ul>
+<p>মনে রাখো: <b>\"Big worm = big trouble (obstruction)\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P131</span>
+      <p class="qtext">Mention the important characteristics of ova of AL, AD, TT, EV? ** (AL: fertilized and heaviest unfertilized egg; AD: segmented egg with four blastomere, TT: barrel shaped with mucous plug, EV: planoconvex with tadpole like larva)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> AL: fertilized &amp; heaviest unfertilized egg; AD: segmented egg with four blastomeres; TT: barrel-shaped with mucous plug; EV: planoconvex with tadpole-like larva</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <thead>
+          <tr><th>Ovum</th><th>Shape</th><th>Size</th><th>Colour / covering</th><th>Content</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>A. lumbricoides (AL)</td><td>Fertilized: round/oval; Unfertilized: narrower, longer</td><td>Fertilized 60–75 × 40–50 µm; unfertilized 80 × 55 µm</td><td>Bile-stained, golden brown; thick mammillated albuminous shell (outer coat lost in unfertilized)</td><td>Fertilized: large unsegmented ovum with crescentic poles; unfertilized: mass of refractile granules. <b>Eggs are the heaviest.</b></td></tr>
+          <tr><td>A. duodenale (AD)</td><td>Oval / elliptical</td><td>65 × 40 µm</td><td>Not bile-stained; thin transparent hyaline shell</td><td>Segmented ovum with <b>4 (sometimes 8) blastomeres</b></td></tr>
+          <tr><td>T. trichiura (TT)</td><td><b>Barrel-shaped (lemon-shaped)</b> with <b>mucous plugs</b> at both poles</td><td>50 × 25 µm</td><td>Bile-stained, brownish; double-layered shell</td><td>Un-segmented ovum</td></tr>
+          <tr><td>E. vermicularis (EV)</td><td><b>Plano-convex</b> (one side flat, other convex), asymmetrical</td><td>50–60 × 20–30 µm</td><td>Not bile-stained, colourless; transparent double-layered shell</td><td>Coiled <b>tadpole-shaped larva</b></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">AL-এর fertilized egg যেমন স্যাচুরেটেড সল্ট দ্রবণে কী করে?</p>
+      <p class="ca">Fertilized egg float করে; unfertilized egg-টি ভাসে না।</p>
+      <p class="cq">ইনটেস্টাইনাল নেমাটোডের \"key\" কী?</p>
+      <p class="ca">bile-stained egg = AL, TT; non-bile-stained = AD, NA।</p>
+      <p class="cq">EV-এর egg কোথায় পাওয়া যায়?</p>
+      <p class="ca">Perianal ত্বকে, মলে নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ovo-গুলোর বৈশিষ্ট্য ভাইভায় টেবিল আকারে বলো:</p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tbody><tr><th>Ovum</th><th>আকৃতি ও বৈশিষ্ট্য</th></tr>
+<tr><td>A. lumbricoides (AL)</td><td>Fertilized — গোল/ডিম্বাকার, bile-stained, mammillated shell; unfertilized — সরু-লম্বা, refractile granules; <b>সবচেয়ে ভারী egg</b>।</td></tr>
+<tr><td>A. duodenale (AD)</td><td>Oval/elliptical, thin hyaline shell, <b>৪টি blastomere</b> (কখনো ৮টি), non-bile-stained।</td></tr>
+<tr><td>T. trichiura (TT)</td><td><b>Barrel/lemon আকৃতি</b>, দুটি মাথায় <b>mucous plug</b>, bile-stained, double-layered shell, unsegmented।</td></tr>
+<tr><td>E. vermicularis (EV)</td><td><b>Plano-convex</b> (এক পাশ সমতল), colourless, transparent shell, ভেতরে <b>tadpole-like larva</b>।</td></tr>
+</tbody></table>
+<p>মনে রাখো: <b>\"AL — heaviest, AD — 4 blastomeres, TT — barrel + mucous plug, EV — plano-convex + tadpole\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P132</span>
+      <p class="qtext">What do you mean by old world and new world hook worm? **** (old: outside America- AD, new world: within ameria- N. americanus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> old world: outside America — A. duodenale; new world: within America — N. americanus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Old-world hookworm:</b> <b>Ancylostoma duodenale</b> — found outside the American continent (in the Old World, e.g. Asia, Africa, Europe).</li>
+        <li><b>New-world hookworm:</b> <b>Necator americanus</b> — found within the American continent (New World). It actually originated in Africa and was transported to America with the slave trade.</li>
+      </ul>
+      <p>Due to movement of infected persons, N. americanus is now also commonly seen in Asia, and A. duodenale elsewhere — so both are now widespread.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Necator americanus নামের অর্থ কী?</p>
+      <p class="ca">\"New World murderer\" — লাতিন necator = murderer। N. americanus সংক্রমণ (~৮৩৫ মিলিয়ন) A. duodenale-এর চেয়ে বেশি সাধারণ।</p>
+      <p class="cq">কোন hookworm বেশি anaemia করে এবং কেন?</p>
+      <p class="ca">A. duodenale — কারণ এর buccal capsule এ ৬টি teeth থাকে (N. americanus-এ ৪টি cutting plate), কৃমি বড়, বেশি blood loss হয়।</p>
+      <p class="cq">হুকের আকৃতির কারণ কী?</p>
+      <p class="ca">দুই hookworm-এরই anterior প্রান্ত dorsally বাঁকানো — তাই hook-এর মতো দেখতে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>hookworm দুই ধরনের:</p>
+<ul>
+<li><b>Old-world hookworm:</b> <b>Ancylostoma duodenale</b> — আমেরিকা মহাদেশের বাইরে (Asia, Africa, Europe) পাওয়া যায়।</li>
+<li><b>New-world hookworm:</b> <b>Necator americanus</b> — আমেরিকা মহাদেশের ভেতরে; আসলে আফ্রিকা থেকে slave trade-এর মাধ্যমে আমেরিকায় গেছে।</li>
+</ul>
+<p>আজ উভয়ই সর্বত্র ছড়িয়ে গেছে — রোগীর চলাচলের ফলে N. americanus এখন এশিয়াতেও সাধারণ।</p>
+<p>মনে রাখো: <b>\"Old = outside America (AD), New = within America (NA)\"</b>। A. duodenale বেশি anaemia করে কারণ এর ৬টি teeth ও বেশি blood loss।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P133</span>
+      <p class="qtext">Mention the pathogenecities caused by A. duodenale. (Anaemia main)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Anaemia is the main pathogenicity</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Anaemia is the main pathogenicity</b> of A. duodenale (hookworm), specifically <b>microcytic hypochromic (iron-deficiency) anaemia</b>, rarely dimorphic anaemia.</p>
+      <p><b>Pathogenic lesions caused by the larva:</b></p>
+      <ul>
+        <li>In the skin: <b>Ancylostome dermatitis / ground itch</b> at the entry site (itching).</li>
+        <li>Creeping eruption / cutaneous larva migrans (more with animal hookworms).</li>
+        <li>In the lungs: bronchitis.</li>
+      </ul>
+      <p><b>Pathogenic lesions caused by the adult worm:</b></p>
+      <ul>
+        <li><b>Anaemia</b> (iron-deficiency, microcytic hypochromic; rarely dimorphic).</li>
+        <li>GIT discomfort: epigastric pain, dyspepsia, vomiting, diarrhoea.</li>
+        <li>Cardiac failure due to severe anaemia.</li>
+        <li>Protein-energy malnutrition (rarely).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন hookworm বেশি anaemia করে?</p>
+      <p class="ca">A. duodenale — buccal capsule-এ ৬টি teeth, বড় কৃমি, বেশি রক্তক্ষয় (~০.২ মিলি/কৃমি/দিন বনাম N. americanus-এর ০.০৩ মিলি)।</p>
+      <p class="cq">Infective form কী?</p>
+      <p class="ca">Filariform larva (L3) — skin penetration দিয়ে।</p>
+      <p class="cq">প্রতিরোধ কী?</p>
+      <p class="ca">জুতা পরে চলা, WASH, mass deworming।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>A. duodenale-এর প্রধান pathogenicity = <b>anaemia</b> — বিশেষত microcytic hypochromic (iron-deficiency) anaemia, কদাচিৎ dimorphic।</p>
+<p><b>লার্ভা জনিত:</b></p>
+<ul>
+<li>চামড়ায় — <b>ground itch / ancylostome dermatitis</b> (প্রবেশস্থলে চুলকানি)।</li>
+<li>Creeping eruption / cutaneous larva migrans (অধিকতর animal hookworm-এ)।</li>
+<li>ফুসফুসে — bronchitis।</li>
+</ul>
+<p><b>প্রাপ্তবয়স্ক কৃমি জনিত:</b></p>
+<ul>
+<li><b>Anaemia</b> (iron-deficiency, microcytic hypochromic)।</li>
+<li>GIT উপসর্গ — epigastric pain, dyspepsia, vomiting, diarrhoea।</li>
+<li>মারাত্মক anaemia থেকে cardiac failure।</li>
+<li>কদাচিৎ protein-energy malnutrition।</li>
+</ul>
+<p>মনে রাখো — সংক্রমণ skin penetration (filariform larva) দিয়ে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P134</span>
+      <p class="qtext">State the pathogenesis of anaemia caused by Hook worm. ******* (release anticoagulant, continuous oozing main)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> release anticoagulant, continuous oozing is main; chronic blood loss</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Hookworm anaemia is a <b>microcytic hypochromic (iron-deficiency) anaemia</b> (rarely dimorphic) caused by <b>chronic blood loss</b> from the small intestine. Mechanism:</p>
+      <ol>
+        <li><b>Sucking of blood:</b> the adult hookworm attaches to the intestinal mucosa and sucks blood as its food.</li>
+        <li><b>Release of anticoagulant:</b> the worm's oesophageal glands release an anticoagulant (and anti-allergic inhibitor) which prevents clotting of blood at the attachment site, producing <b>continuous oozing of blood</b> (the main mechanism).</li>
+        <li><b>Migration:</b> the worm changes its attachment site, leaving multiple bleeding points.</li>
+        <li><b>Nutritional loss:</b> the worm also consumes iron and vitamin B12/folic acid from the host's diet.</li>
+      </ol>
+      <p>Loss of iron → microcytic hypochromic anaemia (IDA); loss of vitamin B12/folic acid → macrocytic anaemia; loss of both → dimorphic anaemia.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">A. duodenale-র blood loss প্রায় কত?</p>
+      <p class="ca">~০.২ মিলি/কৃমি/দিন (iron ০.৭৬ মিলিগ্রাম/দিন); N. americanus-এর ~০.০৩ মিলি/কৃমি/দিন (iron ০.০৪৫ মিলিগ্রাম/দিন)। তাই A. duodenale বেশি anaemia করে।</p>
+      <p class="cq">কতগুলো worm-এ ~১% রক্ত ক্ষয় হয়?</p>
+      <p class="ca">A. duodenale-এর প্রায় ১২টি worm।</p>
+      <p class="cq">non-specific পরীক্ষায় কী পাবে?</p>
+      <p class="ca">Occult blood (OBT) প্রায়ই positive, eosinophilia।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Hookworm anaemia-এর রহস্য = <b>continuous oozing</b>। Mechanism ধাপে ধাপে বলো:</p>
+<ol>
+<li>প্রাপ্তবয়স্ক hookworm অন্ত্রের mucosa-তে লেগে রক্ত শোষণ করে খাদ্য হিসাবে।</li>
+<li>worm-এর oesophageal gland <b>anticoagulant</b> নিঃসরণ করে → রক্ত ঠেকে না → <b>continuous oozing</b> — এটি মূল mechanism।</li>
+<li>কৃমি জায়গা বদলায় — একাধিক bleeding point থেকে যায়।</li>
+<li>কৃমি হোস্টের খাদ্যের iron ও vitamin B12/folic acid ও খেয়ে নেয়।</li>
+</ol>
+<p>ফলাফল — iron ক্ষয় → microcytic hypochromic anaemia (IDA); B12/folic acid ক্ষয় → macrocytic anaemia; দুটোই হলে dimorphic anaemia।</p>
+<p>ভাইভাতে \"anticoagulant → continuous oozing\" এই লজিকটা জোর দিয়ে বলো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P135</span>
+      <p class="qtext">S/N: larva migran. *** (visceral and cutaneous larva migran)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> visceral and cutaneous larva migrans</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Larva migrans</b> occurs when certain nematode larvae accidentally infect man (humans are the unusual/aberrant host). The larvae cannot complete their normal development, their lifecycle is arrested, and they wander aimlessly in the body. Types:</p>
+      <p><b>1. Visceral larva migrans (VLM):</b></p>
+      <ul>
+        <li>Larva migration takes place in the viscera (organs) after ingestion of eggs of non-human nematodes; elicit eosinophilic inflammation.</li>
+        <li>Causes: Toxocara canis (dog roundworm), Toxocara cati (cat roundworm), Angiostrongylus, Anisakis simplex, Baylisascaris.</li>
+        <li>Eosinophilia: massive.</li>
+      </ul>
+      <p><b>2. Cutaneous larva migrans (CLM) — 'creeping eruption':</b></p>
+      <ul>
+        <li>Occurs in skin and subcutaneous tissue caused by larvae of animal hookworms that cannot penetrate below the stratum germinativum(stratum basale) of human skin.</li>
+        <li>Causes: Ancylostoma braziliense (dog/cat hookworm), A. caninum, A. ceylanicum, Uncinaria.</li>
+        <li>Eosinophilia: mild.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Larva currens কী?</p>
+      <p class="ca">Strongyloides-এর দ্রুত চলমান filariform larva (ঘণ্টায় ৩–৪ সেমি) — ছোট linear track তৈরি করে।</p>
+      <p class="cq">ভিএলএম ও সিএলএম-এর চিকিৎসা কী?</p>
+      <p class="ca">VLM — diethylcarbamazine (DEC) + prednisolone; CLM — thiabendazole।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Larva migrans</b> — যখন কিছু নেমাটোড লার্ভা ঘটনাক্রমে মানুষকে সংক্রমণ করে (মানুষ aberrant/unusual host), তখন লার্ভা স্বাভাবিক বিকাশ সম্পূর্ণ করতে পারে না এবং শরীরে ছোটাছুটি করে।</p>
+<p><b>১. Visceral larva migrans (VLM):</b></p>
+<ul>
+<li>অ-মানুষ নেমাটোডের egg গ্রহণে — visceral অঙ্গে লার্ভা চলাচল, eosinophilic প্রদাহ।</li>
+<li>কারণ: Toxocara canis (কুকুরের roundworm), Toxocara cati (বিড়ালের), Angiostrongylus, Anisakis simplex, Baylisascaris।</li>
+<li>Eosinophilia: massive।</li>
+</ul>
+<p><b>২. Cutaneous larva migrans (CLM) — \"creeping eruption\":</b></p>
+<ul>
+<li>চামড়ায়/চামড়ার নিচে — animal hookworm-এর লার্ভা human skin-এর stratum germinativum-এর নিচে ঢুকতে পারে না।</li>
+<li>কারণ: Ancylostoma braziliense, A. caninum, A. ceylanicum, Uncinaria।</li>
+<li>Eosinophilia: mild।</li>
+</ul>
+<p>মনে রাখো — <b>Toxocara = visceral (VLM), animal hookworm = cutaneous (CLM)</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P136</span>
+      <p class="qtext">Give the mode of transmission and pathogenesis of enterobiasis. ** (egg contaminated food and autoinfection)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> egg-contaminated food and autoinfection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Mode of transmission:</b></p>
+      <ul>
+        <li><b>Ingestion of embryonated eggs</b> (containing tadpole-like larva) in contaminated food and water.</li>
+        <li><b>Autoinfection</b> — external (scratching perianal area → eggs under nails → anus-to-mouth) and internal (retrograde migration).</li>
+        <li>Also by handling night clothes, close contact (bed-sharing), and rarely inhalation of airborne eggs.</li>
+      </ul>
+      <p><b>Pathogenesis (enterobiasis):</b></p>
+      <ul>
+        <li>Mostly asymptomatic.</li>
+        <li>Symptomatic: <b>perianal itching/pruritus</b> (especially at night, due to gravid female laying eggs on perianal skin), irritability, disturbed sleep.</li>
+        <li>Larva migration up to uterus/fallopian tubes/peritoneum → salpingitis, cervicitis, peritonitis, recurrent UTI.</li>
+        <li>Features of appendicitis (~2%).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Enterobiasis কোন বয়সে বেশি?</p>
+      <p class="ca">শিশুদের (৫–১৪ বছর) বেশি; নারী &gt; পুরুষ।</p>
+      <p class="cq">egg কেন মলে পাওয়া যায় না?</p>
+      <p class="ca">কারণ egg perianal অঞ্চলে oxygen-এর উপস্থিতিতে জমা হয় — তাই মলে নয়, perianal swab-এ দেখতে হয়।</p>
+      <p class="cq">কোন intermediate host আছে কি?</p>
+      <p class="ca">না — মানুষই একমাত্র definitive host।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Enterobiasis-এর সংক্রমণ ও রোগজনন:</p>
+<p><b>সংক্রমণের পথ (mode of transmission):</b></p>
+<ul>
+<li>দূষিত খাবার/পানিতে থাকা <b>embryonated egg</b> (tadpole-like larva সহ) গ্রহণ।</li>
+<li><b>Autoinfection</b> — external (perianal এলাকা চুলকিয়ে হাত — пальцев নখে egg → মুখে) এবং internal (retrograde migration)।</li>
+<li>রাতের পোশাক হাতলানো, close contact (bed-sharing), কদাচিৎ airborne egg নিঃশ্বাসের মাধ্যমে।</li>
+</ul>
+<p><b>রোগজনন (pathogenesis):</b></p>
+<ul>
+<li>বেশিরভাগ asymptomatic।</li>
+<li><b>Perianal itching/pruritus</b> (বিশেষত রাতে — gravid female egg দেয় বলে), irritability, ঘুমের ব্যাঘাত।</li>
+<li>লার্ভা uterus/fallopian tube/peritoneum-এ উঠলে — salpingitis, cervicitis, peritonitis, recurrent UTI।</li>
+<li>~২% ক্ষেত্রে appendicitis-এর বৈশিষ্ট্য।</li>
+</ul>
+<p>মনে রাখো — রাতের চুলকানি + শিশু = Enterobius।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P137</span>
+      <p class="qtext">Give the laboratory diagnosis of enterobiasis. ********* (sample: perianal swab by scotch tape or NIH swab)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> sample: perianal swab by scotch tape or NIH swab</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Sample collection:</b> perianal swab collected by <b>NIH swab method</b> or <b>scotch-tape (cellophane tape) method</b>; occasionally subungual (under-nail) material.</li>
+        <li><b>Best sample:</b> perianal swab — the gravid female lays eggs in the perianal region at night. Swab should be collected in the <b>early morning before going to the toilet or bathing</b>.</li>
+        <li><b>Microscopy:</b> the cellophane tape is applied to the perianal skin, transferred to a clear glass slide, and examined under the microscope — showing characteristic <b>plano-convex eggs containing a tadpole-like larva.</b></li>
+        <li>Stool examination is not useful for eggs (rarely found), but may show the adult worm.</li>
+        <li>Sometimes the gravid female may be seen on direct in<b>spection of the anal region at night.</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">NIH-এর অর্থ কী?</p>
+      <p class="ca">NIH = National Institute of Health, USA।</p>
+      <p class="cq">Enterobiasis-এ চিকিৎসা কাকে দেওয়া হয়?</p>
+      <p class="ca">পুরো পরিবার/ঘনিষ্ঠ সংস্পর্শের সবাইকে একসাথে — নতুবা re-infection হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Enterobiasis-এর lab diagnosis:</p>
+<ul>
+<li><b>নমুনা:</b> perianal swab — <b>NIH swab method</b> বা <b>scotch-tape (cellophane tape) method</b>; কখনো subungual (নখের নিচের) উপাদান।</li>
+<li><b>সেরা নমুনা:</b> perianal swab — কারণ gravid female রাতে perianal অঞ্চলে egg দেয়। Swab নিতে হবে <b>সকালে, টয়লেট বা গোসলের আগে</b>।</li>
+<li><b>Microscopy:</b> cellophane tape-টি perianal ত্বকে লাগিয়ে পরিষ্কার glass slide-এ স্থানান্তর করে microscope-এ দেখা যায় — plano-convex egg যার মধ্যে tadpole-like larva।</li>
+<li>মল পরীক্ষায় egg সাধারণত পাওয়া যায় না (সাধারণত অকেজো), তবে প্রাপ্তবয়স্ক কৃমি দেখা যেতে পারে।</li>
+<li>কদাচিৎ রাতে anal এলাকা দেখলে gravid female-কে দেখা যায়।</li>
+</ul>
+<p>মনে রাখো — সকালবেলা perianal swab = Gold standard।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P138</span>
+      <p class="qtext">Which sample is better for diagnosis of enterobiasis &amp; how is it collected? **** (sample: perianal swab by scotch tape or NIH swab)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> sample: perianal swab by scotch tape or NIH swab</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The <b>better sample</b> for diagnosis of enterobiasis is the <b>perianal swab</b>, because the gravid female worm lays eggs on the perianal skin at night (in the presence of oxygen).</p>
+      <p><b>How it is collected:</b></p>
+      <ul>
+        <li><b>NIH swab method:</b> a piece of transparent cellophane is attached by a rubber band to one end of a glass rod (swab), rubbed against the perianal skin, then the cellophane is transferred to a glass slide for microscopy.</li>
+        <li><b>Scotch-tape (cellophane tape) method:</b> clear adhesive tape is pressed against the perianal region and then placed sticky-side-down on a clean glass slide and examined microscopically.</li>
+        <li>Collection is done in the <b>early morning before defecation or bathing</b>.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">এই egg-এর বৈশিষ্ট্য কী?</p>
+      <p class="ca">Plano-convex, ভেতরে কুণ্ডলিত tadpole-like larva।</p>
+      <p class="cq">মল কেন ভালো নমুনা নয়?</p>
+      <p class="ca">কারণ egg perianal ত্বকে পড়ে, মলে নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Enterobiasis-এর সেরা নমুনা = perianal swab</b>, কারণ gravid female নাইটে perianal ত্বকে egg দেয় (oxygen-এর উপস্থিতিতে)।</p>
+<p>সংগ্রহ পদ্ধতি:</p>
+<ul>
+<li><b>NIH swab method:</b> glass rod-এর এক প্রান্তে রাবার ব্যান্ডে transparent cellophane লাগানো থাকে — তা perianal ত্বকে ঘষে, তারপর cellophane-টি glass slide-এ transfer করে microscopy।</li>
+<li><b>Scotch-tape method:</b> পরিষ্কার adhesive tape perianal অঞ্চলে চাপ দেওয়া হয়, তারপর sticky-side নিচে করে পরিষ্কার glass slide-এ বসিয়ে microscope-এ দেখা হয়।</li>
+<li>সংগ্রহ সকালে, <b>defecation বা গোসলের আগে</b>।</li>
+</ul>
+<p>ভাইভাতে বলো — \"সকালে ঘুম থেকে উঠেই, টয়লেটের আগে perianal swab নিন।\"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P139</span>
+      <p class="qtext">Mention the peculiarities in life cycle of E. vermicularis. *** (external autoinfection, retrograde or internal autoinfection, lay egg in perianal region, no intermediate host, no migration to lungs, complete its development in the presence of oxygen)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> external autoinfection, retrograde/internal autoinfection, lays eggs in perianal region, no intermediate host, no migration to lungs, completes development in presence of oxygen</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The peculiarities in the life cycle of Enterobius vermicularis are:</p>
+      <ul>
+        <li><b>External autoinfection:</b> embryonated eggs are ingested by hand-to-mouth after scratching the perianal area (anus-to-mouth), without an external source.</li>
+        <li><b>Internal / retrograde autoinfection:</b> eggs laid on the perianal skin hatch into infective larvae which migrate back through the anus (retrograde migration) into the colon (anus-to-colon).</li>
+        <li><b>Lays eggs in the perianal region</b> (gravid female migrates down and deposits eggs at night), not in the intestine — hence eggs are not found in stool.</li>
+        <li><b>No intermediate host</b> — man is the only definitive host.</li>
+        <li><b>No migration to the lungs</b> — unlike Ascaris/hookworm, E. vermicularis does not undergo pulmonary migration.</li>
+        <li><b>Completes its development in the presence of oxygen</b> — embryonation of eggs occurs on the perianal skin.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">পুরুষ কৃমির কী হয়?</p>
+      <p class="ca">Fertilization-এর পরই মারা যায়।</p>
+      <p class="cq">কোন নেমাটোডদের lung migration নেই?</p>
+      <p class="ca">EV ও TT — lung migration-বিহীন নেমাটোড।</p>
+      <p class="cq">প্রাপ্তবয়স্ক কৃমিকে কি host মেরে ফেলে?</p>
+      <p class="ca">অনেকে scratching-এর সময় পুরোনো কৃমি মেরে ফেলতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Enterobius vermicularis-এর জীবনচক্রের অসাধারণ বৈশিষ্ট্যগুলো (peculiarities):</p>
+<ul>
+<li><b>External autoinfection:</b> perianal এলাকা চুলকানোর পর হাত থেকে মুখে (anus-to-mouth) embryonated egg যাওয়া — বাইরের কোনো উৎস ছাড়াই।</li>
+<li><b>Internal/retrograde autoinfection:</b> perianal ত্বকে পড়া egg হ্যাচ করে infectivorous larva — যা anus দিয়ে পেছনের দিকে (retrograde) colon-এ ফিরে যায় (anus-to-colon)।</li>
+<li><b>Perianal অঞ্চলে egg দেয়</b> (gravid female রাতে নেমে আসে) — তাই মলে egg পাওয়া যায় না।</li>
+<li><b>কোনো intermediate host নেই</b> — মানুষই একমাত্র definitive host।</li>
+<li><b>Lung migration নেই</b> — Ascaris/hookworm-এর মতো ফুসফুসে যায় না।</li>
+<li><b>Oxygen-এর উপস্থিতিতে বিকাশ সম্পন্ন করে</b> — egg perianal ত্বকে embryonate হয়।</li>
+</ul>
+<p>মনে রাখো — lung migration-হীন নেমাটোড: <b>EV ও TT</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P140</span>
+      <p class="qtext">Why eggs are not found in stool of enterobiasis? *** (lay egg in perianal region in presence of oxygen)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> lay egg in perianal region in the presence of oxygen</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Eggs are not found in the stool of enterobiasis because the <b>gravid female worm migrates down to the perianal region and lays its eggs there</b>, in the <b>presence of oxygen</b> (at night when the host is in bed). The eggs complete their development on the perianal skin — not in the intestine — so they are not passed in the stool. This is why stool examination is not useful; instead, a perianal swab (NIH/scotch-tape) is used.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">মলে কখনো প্রাপ্তবয়স্ক কৃমি দেখা যায় কি?</p>
+      <p class="ca">কদাচিৎ প্রাপ্তবয়স্ক কৃমি মলে দেখা যেতে পারে, কিন্তু egg নয়।</p>
+      <p class="cq">egg কতক্ষণে infective হয়?</p>
+      <p class="ca">Perianal ত্বকে কয়েক ঘণ্টার মধ্যে egg infective হয়ে যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Enterobiasis-এর মলে egg পাওয়া যায় না — কারণ <b>gravid female worm অন্ত্র থেকে নিচে নেমে perianal অঞ্চলে egg দেয়</b> — <b>oxygen-এর উপস্থিতিতে</b> (রাতে, যখন রোগী বিছানায়)। Egg তাদের বিকাশ perianal ত্বকেই সম্পূর্ণ করে — অন্ত্রে নয় — তাই এগুলো মলে বের হয় না।</p>
+<p>এই কারণেই মল পরীক্ষা কাজে লাগে না — বদলে perianal swab (NIH/scotch-tape) ব্যবহার হয়।</p>
+<p>ভাইভাতে এই যুক্তিটো স্পষ্ট করে বলো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P141</span>
+      <p class="qtext">How autoinfection occurs in enterobiasis? *** (external autoinfection by hand to mouth after scracthing around anus and internal autoinfection due to retrograde movement against peristalsis)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> external autoinfection by hand-to-mouth after scratching around anus; internal autoinfection due to retrograde movement against peristalsis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Autoinfection in enterobiasis occurs by two ways:</p>
+      <ol>
+        <li><b>External autoinfection:</b> The female lays eggs on the perianal skin; intense itching leads the person to scratch the area, getting embryonated eggs under the nails. These eggs are transferred to the mouth (anus-to-mouth) by contaminated fingers/food, causing re-infection.</li>
+        <li><b>Internal (retrograde) autoinfection:</b> Eggs laid on the perianal skin hatch into infective larvae which migrate back <b>through the anus into the colon</b> (retrograde movement, against peristalsis), developing into adults without leaving the body.</li></ol><div>r kar kar hoi?</div><div>CSE HT</div><div>Cryptosporidium hominis</div><div>Strongyloides stercoralis</div><div>Enterobius vermicularis</div><div>Hymenolepis nana</div><div>Taenia solium</div><ol>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">External = কী, internal = কী?</p>
+      <p class="ca">External autoinfection = anus-to-mouth; internal autoinfection = anus-to-colon।</p>
+      <p class="cq">আর কাদের মধ্যে autoinfection দেখা যায়?</p>
+      <p class="ca">T. solium, Cryptosporidium hominis, S. stercoralis, H. nana।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Enterobiasis-এ autoinfection দুইভাবে হয়:</p>
+<ol>
+<li><b>External autoinfection:</b> স্ত্রী কৃমি perianal ত্বকে egg দেয়; তীব্র চুলকানিতে আক্রান্ত ব্যক্তি ওই এলাকা চুলকায়, ফলে নখের নিচে embryonated egg চলে আসে। সেই egg দূষিত আঙুল/খাবারের মাধ্যমে মুখে যায় (anus-to-mouth) — রি-ইনফেকশন ঘটে।</li>
+<li><b>Internal (retrograde) autoinfection:</b> perianal ত্বকে জমা egg হ্যাচ করে infective larva, যা <b>anus দিয়ে colon-এ পেছনের দিকে</b> (peristalsis-এর উল্টো দিকে) ঢুকে যায় — শরীর ছাড়াই আবার প্রাপ্তবয়স্ক হয়।</li>
+</ol>
+<p>মনে রাখো — external = anus-to-mouth; internal = anus-to-colon।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P142</span>
+      <p class="qtext">Mention the peculiarities in life cycle of S. stercoralis. *** (two distinct life cycle: in human and in soil, ovoviviparous, parthenogenesis, hyperinfection: reinfection and autoinfection)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> two distinct life cycle (in human and in soil), ovoviviparous, parthenogenesis, hyperinfection: reinfection and autoinfection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The life cycle of <i>S. stercoralis</i> is unique because of the following peculiarities:</p>
+      <ol>
+        <li><b>Two distinct life cycles:</b>
+          <ul>
+            <li><b>Direct (parasitic) cycle</b> — inside the human body.</li>
+            <li><b>Indirect / free-living cycle</b> — in the soil.</li>
+          </ul>
+        </li>
+        <li><b>Ovoviviparous:</b> The female produces eggs that hatch inside the body, so <b>larvae (not eggs)</b> are passed in the stool.</li>
+        <li><b>Parthenogenesis:</b> Reproduction without fertilization by a male (adult males are not found in the human intestine).</li>
+        <li><b>Hyperinfection</b> — of two types:
+          <ul>
+            <li><b>Reinfection</b> — in immunocompromised patients.</li>
+            <li><b>Autoinfection</b> — larvae reinvade within the same host.</li>
+          </ul>
+        </li>
+      </ol>
+      <p>Unlike other nematodes, a change of host is <b>not essential</b>; the larva can develop into the infective form without an intermediate host.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">SS-এর infective form ও diagnostic form কোনটি?</p>
+      <p class="ca">Infective = filariform larva (L3); diagnostic = রেবডিটিফর্ম larva (L1) মলে।</p>
+      <p class="cq">মাটিতে কী ঘটে?</p>
+      <p class="ca">রেবডিটিফর্ম লার্ভা সরাসরি infective filariform larva-তে বিকশিত হতে পারে অথবা free-living adults-এ (indirect development)।</p>
+      <p class="cq">Hyperinfection syndrome কখন মারাত্মক?</p>
+      <p class="ca">AIDS, malignancy, immunosuppressive drug, মারাত্মক অপুষ্টিতে — brain abscess, meningitis, peritonitis হতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>S. stercoralis-এর জীবনচক্র ৪টি বিশেষত্ব আছে:</p>
+<ol>
+<li><b>দুটি পৃথক জীবনচক্র:</b>
+<ul>
+<li><b>Direct (parasitic) cycle</b> — মানবদেহের ভিতরে।</li>
+<li><b>Indirect / free-living cycle</b> — মাটিতে।</li>
+</ul>
+</li>
+<li><b>Ovoviviparous:</b> স্ত্রী এমন egg দেয় যা শরীরের ভিতরেই ফুটে যায় — তাই মলে <b>larva</b> (egg নয়) বের হয়।</li>
+<li><b>Parthenogenesis:</b> পুরুষের ফার্টিলাইজেশন ছাড়াই প্রজনন; (মানুষের অন্ত্রে প্রাপ্তবয়স্ক পুরুষ পাওয়া যায় না)।</li>
+<li><b>Hyperinfection:</b> দুই ধরনের —
+<ul>
+<li><b>Reinfection</b> — immunocompromised রোগীর ক্ষেত্রে।</li>
+<li><b>Autoinfection</b> — লার্ভা একই হোস্টের ভিতরেই পুনরায় আক্রমণ করে।</li>
+</ul>
+</li>
+</ol>
+<p>অন্যান্য নেমাটোডের মতো host পরিবর্তন অপরিহার্য নয় — লার্ভা কোনো intermediate host ছাড়াই infective ফর্মে বিকশিত হতে পারে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P143</span>
+      <p class="qtext">Mention the name of nematodes which commonly migrate through lungs. *** (AL, AD, NA, SS)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> AL, AD, NA, SS</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The nematodes that <b>commonly migrate through the lungs</b> (systemic / lung migration) during their life cycle are:</p>
+      <ol>
+        <li><b>AL</b> — <i>Ascaris lumbricoides</i></li>
+        <li><b>AD</b> — <i>Ancylostoma duodenale</i> (hookworm)</li>
+        <li><b>NA</b> — <i>Necator americanus</i> (hookworm)</li>
+        <li><b>SS</b> — <i>Strongyloides stercoralis</i></li>
+      </ol>
+      <p>These larvae traverse: skin/ingested → circulation → right heart → pulmonary circulation → lung alveoli → bronchioles → trachea → swallowed → small intestine.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">ফুসফুসে বেশি লার্ভা হলে কী হয়?</p>
+      <p class="ca"><b>Loeffler's syndrome</b> (Ascaris pneumonia) — একটি transient eosinophilic pneumonia হতে পারে।</p>
+      <p class="cq">এদের জন্য lung migration কি? — স্বাভাবিক না অস্বাভাবিক?</p>
+      <p class="ca">এই কৃমিগুলোর স্বাভাবিক জীবনচক্রেরই অংশ — lung migration স্বাভাবিক।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>যেসব নেমাটোড ফুসফুসের মাধ্যমে migrates করে (systemic/lung migration):</p>
+<ol>
+<li><b>AL</b> — Ascaris lumbricoides</li>
+<li><b>AD</b> — Ancylostoma duodenale (hookworm)</li>
+<li><b>NA</b> — Necator americanus (hookworm)</li>
+<li><b>SS</b> — Strongyloides stercoralis</li>
+</ol>
+<p>পথটি: চামড়া/গেলা → রক্তসঞ্চালন → ডান হৃৎপিণ্ড → pulmonary circulation → ফুসফুসের alveoli → bronchioles → trachea → গিলে ফেলা → ছোট অন্ত্র।</p>
+<p>মনে রাখোর কৌশল: <b>\"AL, AD, NA, SS — lung migrants\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P144</span>
+      <p class="qtext">Mention the nematodes which usually not migrate through lungs. *** (EV, TT)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> EV, TT</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The nematodes that <b>do NOT show systemic (lung) migration</b> in man are:</p>
+      <ol>
+        <li><b>EV</b> — <i>Enterobius vermicularis</i> (pinworm)</li>
+        <li><b>TT</b> — <i>Trichuris trichiura</i> (whipworm)</li>
+      </ol>
+      <p>Their larvae develop entirely within the intestine without passing through the lungs.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Enterobius-এর লার্ভা কোথায় বিকশিত হয়?</p>
+      <p class="ca">ছোট অন্ত্রে লার্ভা বিকশিত হয়ে caecum-এ পূর্ণতা পায়; egg perianal ত্বকে দেওয়া হয়।</p>
+      <p class="cq">Trichuris-এর লার্ভা কীভাবে পূর্ণতা পায়?</p>
+      <p class="ca">Embryonated egg ছোট অন্ত্রে ফোটে → লার্ভা সরাসরি caecal crypts-এ ঢুকে যায় — ফুসফুসে যাওয়ার কোন পথ নেই।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>যারা lung migration দেখায় না —</p>
+<ol>
+<li><b>EV</b> — Enterobius vermicularis (pinworm)</li>
+<li><b>TT</b> — Trichuris trichiura (whipworm)</li>
+</ol>
+<p>এদের লার্ভা সম্পূর্ণভাবে অন্ত্রের ভিতরে বিকশিত হয় — ফুসফুস দিয়ে যাওয়ার প্রয়োজন হয় না।</p>
+<p>মনে রাখো: <b>\"যারা lung যায় না — pinworm আর whipworm\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P145</span>
+      <p class="qtext">Mention the mode of transmission and infective form of S. stercoralis. *** (infective form: filariform larva, skin penetration)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> infective form: filariform larva, skin penetration</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Infective form:</b> <b>Filariform larva (L3 stage)</b></li>
+        <li><b>Mode of transmission:</b> <b>Penetration of skin</b> by the filariform larva — most commonly when a person walks barefoot on damp, moist soil contaminated with infective larvae. The larva releases hydrolytic enzymes that help in penetration.</li>
+        <li><b>Portal of entry:</b> Skin.</li>
+      </ul>
+      <p>Autoinfection (rarely) is another route.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোনো intermediate host প্রয়োজন হয় কি?</p>
+      <p class="ca">না — মানুষই definitive host।</p>
+      <p class="cq">চামড়ার পরে লার্ভার পথ কী?</p>
+      <p class="ca">Subcutaneous small veins → venous circulation → ডান হৃৎপিণ্ড → pulmonary circulation → শ্বাসপথ → গেলা → ছোট অন্ত্র।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>S. stercoralis-এর সংক্রমণ:</p>
+<ul>
+<li><b>Infective form:</b> <b>Filariform larva (L3 stage)</b>।</li>
+<li><b>সংক্রমণের পথ:</b> ফাইলারিফর্ম লার্ভা <b>চামড়া দিয়ে penetrate</b> করে — সাধারণত damp/moist দূষিত মাটিতে খালি পায়ে চললে। লার্ভা hydrolytic enzyme নিঃসরণ করে penetration-এ সাহায্য করে।</li>
+<li><b>প্রবেশ বিন্দু:</b> চামড়া।</li>
+</ul>
+<p>চামড়া পরে: subcutaneous দিয়ে ভেইন → venous circulation → ডান হৃৎপিণ্ড → ফুসফুস → শ্বাসপথ → গিলে ফেলা → ছোট অন্ত্র।</p>
+<p>কদাচিৎ autoinfection-ও সংক্রমণের পথ।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P146</span>
+      <p class="qtext">What is parthenogenesis? * [female worm directly lay egg without fertilization (adult male worm of SS not found in intestine)]</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> female worm directly lays eggs without fertilization; adult male worm of SS not found in intestine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Parthenogenesis</b> is a form of reproduction in which the <b>female produces offspring without fertilization by a male</b>.</p>
+      <p>In <i>S. stercoralis</i>: adult male worms are <b>not found in the human intestine</b> (only parthenogenetic females are present). The female worm lays eggs directly without fertilization, releasing rhabditiform larvae.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">পুরুষ কৃমি কি ছোট ও চওড়া?</p>
+      <p class="ca">পুরুষ SS-এর পুরুষ সংক্ষিপ্ত ও চওড়া হয় কিন্তু intestinal wall-এ penetrate করে না — infective নয়।</p>
+      <p class="cq">ইনটেস্টাইনাল নেমাটোডের মধ্যে parthenogenesis কার?</p>
+      <p class="ca">S. stercoralis-এর — documented।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Parthenogenesis:</b> এমন প্রজনন পদ্ধতি যেখানে <b>স্ত্রী পুরুষের ফার্টিলাইজেশন ছাড়াই সন্তান উৎপাদন করে</b>।</p>
+<p>S. stercoralis-এ: প্রাপ্তবয়স্ক পুরুষ কৃমি <b>মানুষের অন্ত্রে পাওয়া যায় না</b> — শুধু parthenogenetic স্ত্রী থাকে। স্ত্রী কৃমি সরাসরি egg দেয় (ফার্টিলাইজেশন ছাড়াই), যা থেকে রেবডিটিফর্ম লার্ভা বেরিয়ে আসে।</p>
+<p>ভাইভাতে সংজ্ঞা বলো: \"asexual development of female gamete without male fertilization\"।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

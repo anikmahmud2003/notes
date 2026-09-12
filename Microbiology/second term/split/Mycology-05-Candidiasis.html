@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Candidiasis & Candida (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Candidiasis &amp; Candida</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">5 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">5 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-04-Systemic-Opportunistic-Fungi.html">‹ Prev</a><a href="Mycology-06-Cryptococcus-Pneumocystis-Aspergillus.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Candidiasis &amp; Candida</h2><div class="en">Properties of Candida, lesions of C. albicans, predisposing factors, diagnosis, germ tube test</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M20</span>
+      <p class="qtext">Mention some important properties of Candida. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> White fungus, yeast-like, normal flora, gram-positive, germ tube positive</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Important properties of <i>Candida albicans</i>:</b></p>
+      <ol>
+        <li>Also known as <b>"white fungus"</b> (due to white patches in oral thrush).</li>
+        <li><b>Yeast-like fungus</b> — oval yeast with a single bud. In tissues, appears as yeasts or pseudohyphae. True hyphae also form when invading tissues.</li>
+        <li><b>Only fungus found as normal flora</b> in the human body (GIT, upper respiratory tract, female genital tract).</li>
+        <li><b>Only fungus that takes Gram stain</b> — shows Gram positivity.</li>
+        <li><b>Germ tube positive</b> — forms germ tubes in serum at 37°C (specific for <i>C. albicans</i>).</li>
+        <li><b>Can be isolated on blood agar</b> media.</li>
+        <li><b>Most common opportunistic fungus.</b></li>
+        <li>Morphology: budding yeast with pseudohyphae in tissue; chlamydospores and pseudohyphae in culture at 20–25°C.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন কোন <i>Candida</i> species আছে?</p>
+      <p class="ca"><i>C. albicans</i>, <i>C. tropicalis</i>, <i>C. parapsilosis</i>, <i>C. glabrata</i>, <i>C. krusei</i>, <i>C. dubliniensis</i>।</p>
+      <p class="cq"><i>C. albicans</i>‑কে অন্য <i>Candida</i> থেকে কীভাবে আলাদা করা হয়?</p>
+      <p class="ca"><b>Germ tube test</b> ও <b>carbohydrate fermentation</b> test দিয়ে আলাদা করা হয়।</p>
+      <p class="cq">Transmission কীভাবে?</p>
+      <p class="ca">Normal flora থেকে, আর <b>vertical transmission</b> — birth‑এর সময় colonized birth canal দিয়ে।</p>
+      <p class="cq">SDA ও blood agar‑এ colony কেমন?</p>
+      <p class="ca"><b>Smooth, white, creamy</b> colony।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <i>Candida albicans</i>‑এর important properties বলছি।</p>
+      <ol>
+        <li><b>"White fungus"</b> নামে পরিচিত — oral thrush‑এর white patch‑এর কারণে।</li>
+        <li><b>Yeast‑like fungus</b> — oval yeast, single bud; tissue‑এ yeast বা pseudohyphae হিসেবে দেখা যায়।</li>
+        <li><b>একমাত্র fungus যা normal flora</b> (GIT, upper respiratory tract, female genital tract)।</li>
+        <li><b>একমাত্র fungus যা Gram stain নেয়</b> — Gram‑positive দেখায়।</li>
+        <li><b>Germ tube positive</b> — serum‑এ 37°C‑এ germ tube তৈরি করে (<i>C. albicans</i>‑এর জন্য specific)।</li>
+        <li><b>Blood agar</b>‑এ isolate করা যায়।</li>
+        <li><b>Most common opportunistic fungus।</b></li>
+        <li>Morphology — tissue‑এ budding yeast with pseudohyphae; culture 20–25°C‑এ chlamydospore ও pseudohyphae।</li>
+      </ol>
+      <p>Species — <i>albicans, tropicalis, parapsilosis, glabrata, krusei, dubliniensis</i>। <i>C. albicans</i> germ tube test ও carbohydrate fermentation test দিয়ে আলাদা করা হয়। Transmission — normal flora + vertical (birth canal)। Colony smooth, white, creamy।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M21</span>
+      <p class="qtext">List the lesions produced by C. albicans. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Mucosal, cutaneous, chronic mucocutaneous, systemic</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b><i>C. albicans</i> causes candidiasis (white fungus) with the following lesions:</b></p>
+      <p><b>A. Mucosal &amp; Cutaneous Candidiasis:</b></p>
+      <ul>
+        <li><b>Oral thrush</b> — white patches (pseudomembrane) on tongue, mouth, or throat.</li>
+        <li><b>Vulvovaginal candidiasis (moniliasis)</b> — vaginal discharge, itching.</li>
+        <li><b>Esophageal candidiasis</b></li>
+        <li><b>Onychomycosis</b> — nail infection.</li>
+        <li><b>Diaper rash</b> — in infants' diaper area.</li>
+      </ul>
+      <p><b>B. Chronic Mucocutaneous Candidiasis:</b></p>
+      <ul>
+        <li>Rare condition in early childhood associated with reduced cell-mediated immunity (CMI).</li>
+      </ul>
+      <p><b>C. Systemic Candidiasis:</b></p>
+      <ul>
+        <li>Candidemia (Candida in blood)</li>
+        <li>Meningitis</li>
+        <li>Endocarditis</li>
+        <li>Endophthalmitis</li>
+        <li>Subcutaneous nodules</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Oral thrush‑এর characteristic finding কী?</p>
+      <p class="ca"><b>White pseudomembrane</b> patch — যা scrape করে তুলে ফেলা যায়।</p>
+      <p class="cq">Vulvovaginal candidiasis‑এর আরেক নাম?</p>
+      <p class="ca"><b>Moniliasis</b>।</p>
+      <p class="cq">Systemic candidiasis কার জন্য life‑threatening?</p>
+      <p class="ca">Immunocompromised (ICU, post‑surgery, catheterized) রোগীদের জন্য life‑threatening।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <i>C. albicans</i> candidiasis (white fungus)‑এর কিছু lesion তৈরি করে।</p>
+      <p><b>A. Mucosal &amp; Cutaneous:</b> <b>Oral thrush</b> (tongue/mouth/throat‑এ white pseudomembrane), <b>Vulvovaginal candidiasis (moniliasis)</b> (vaginal discharge, itching), <b>Esophageal candidiasis</b>, <b>Onychomycosis</b> (nail), <b>Diaper rash</b> (infant‑এর diaper area)।</p>
+      <p><b>B. Chronic Mucocutaneous Candidiasis:</b> early childhood‑এর দুর্লভ অবস্থা, <b>reduced CMI (cell‑mediated immunity)</b>‑র সাথে যুক্ত।</p>
+      <p><b>C. Systemic Candidiasis:</b> <b>Candidemia</b> (blood‑এ Candida), meningitis, endocarditis, endophthalmitis, subcutaneous nodule।</p>
+      <p>High‑yield note — oral thrush‑এর white pseudomembrane patch scrape করে ওঠে; vulvovaginal candidiasis‑কে moniliasis বলে; systemic candidiasis ICU/post‑surgery/catheterized immunocompromised রোগীর জন্য life‑threatening।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M22</span>
+      <p class="qtext">State the predisposing factors for candidiasis. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Physiological, immunodeficiency, drugs, trauma, endocrine, others</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Predisposing factors for candidiasis:</b></p>
+      <ol>
+        <li><b>Physiological:</b> Infancy, pregnancy, old age.</li>
+        <li><b>Immunodeficiency diseases:</b> AIDS, malignancy (leukemia, lymphoma), chronic granulomatous disease, aplastic anemia.</li>
+        <li><b>Drugs (Iatrogenic):</b> Antibiotics (disrupt normal flora), steroids, oral contraceptive pills, anti-cancer drugs.</li>
+        <li><b>Traumatic:</b> Burns, infection.</li>
+        <li><b>Endocrine:</b> Diabetes mellitus.</li>
+        <li><b>Others:</b> Catheterization, IV drug abuse, conditions causing neutropenia.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Antibiotic কীভাবে candidiasis predispose করে?</p>
+      <p class="ca">Antibiotic প্রতিযোগী <b>bacterial flora নষ্ট</b> করে, তাই <i>Candida</i> overgrowth হয়।</p>
+      <p class="cq">Steroid/immunosuppressant কীভাবে?</p>
+      <p class="ca">এরা <b>CMI কমায়</b>, যা <i>Candida</i> নিয়ন্ত্রণের key।</p>
+      <p class="cq">Diabetes mellitus কীভাবে predispose করে?</p>
+      <p class="ca">Diabetes‑এ <b>high‑glucose environment</b> থাকে, যা fungal growth‑এর জন্য favorable।</p>
+      <p class="cq">Catheter/IV line‑এর ভূমিকা?</p>
+      <p class="ca">Catheter আর IV line <i>Candida</i>‑র জন্য bloodstream‑এ <b>সরাসরি প্রবেশপথ</b> তৈরি করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, candidiasis‑এর predisposing factors বলছি।</p>
+      <ol>
+        <li><b>Physiological:</b> infancy, pregnancy, old age।</li>
+        <li><b>Immunodeficiency:</b> AIDS, malignancy (leukemia, lymphoma), chronic granulomatous disease, aplastic anemia।</li>
+        <li><b>Drugs (Iatrogenic):</b> antibiotic (normal flora disrupt করে), steroid, oral contraceptive pill, anti‑cancer drug।</li>
+        <li><b>Traumatic:</b> burn, infection।</li>
+        <li><b>Endocrine:</b> diabetes mellitus।</li>
+        <li><b>Others:</b> catheterization, IV drug abuse, neutropenia।</li>
+      </ol>
+      <p>Mechanism ধরলে extra point — antibiotic প্রতিযোগী bacterial flora নষ্ট করে, তাই <i>Candida</i> overgrow করে; steroid/immunosuppressant <b>CMI কমায়</b>; diabetes high‑glucose environment দেয়; catheter/IV line bloodstream‑এ সরাসরি প্রবেশপথ দেয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M23</span>
+      <p class="qtext">Write down the laboratory diagnosis of candidiasis. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Specimen, microscopy (wet mount, Gram stain), culture (SDA, blood agar), germ tube test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Laboratory Diagnosis of Candidiasis:</b></p>
+      <p><b>1. Specimen Collection:</b> Swabs from site of infection — oral swab, throat swab, vaginal swab.</p>
+      <p><b>2. Microscopical Examination:</b></p>
+      <ul>
+        <li><b>Wet mount preparation:</b> Finding — budding yeast with pseudohyphae.</li>
+        <li><b>Gram stain:</b> Gram-positive budding yeast cells.</li>
+      </ul>
+      <p><b>3. Culture / Isolation and Identification:</b></p>
+      <ul>
+        <li>Smooth, white, creamy colonies.</li>
+        <li>Media: <b>SDA</b> (Sabouraud's Dextrose Agar) and <b>Blood Agar</b> (containing antibiotic).</li>
+      </ul>
+      <p><b>4. Immunological Tests:</b> Usually not done.</p>
+      <p><b>5. Molecular Detection:</b> PCR.</p>
+      <p><b>6. Other Tests:</b></p>
+      <ul>
+        <li><b>Germ tube test:</b> To differentiate <i>C. albicans</i> from other <i>Candida</i> species.</li>
+        <li><b>Carbohydrate fermentation test:</b> To differentiate various <i>Candida</i> species.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>C. albicans</i> germ tube তৈরি করে, অন্য <i>Candida</i> কেন না?</p>
+      <p class="ca"><i>C. albicans</i> serum‑এ 37°C‑এ <b>germ tube</b> তৈরি করে; most other pathogenic <i>Candida</i> করে না — এটাই পার্থক্যের ভিত্তি।</p>
+      <p class="cq">Germ tube test‑এর procedure কী?</p>
+      <p class="ca">Colony থেকে sample → 0.5 ml human/sheep serum‑এ mix → 37°C‑এ 2 hours incubate → wet mount → tube‑like projection (germ tube) দেখা যায়।</p>
+      <p class="cq">SDA ছাড়া অন্য কোন media‑তে <i>Candida</i> isolate হয়?</p>
+      <p class="ca"><b>Blood agar</b>‑এও isolate করা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, candidiasis‑এর lab diagnosis বলছি।</p>
+      <p><b>১. Specimen:</b> infection site থেকে swab — oral, throat, vaginal।</p>
+      <p><b>২. Microscopy:</b> wet mount‑এ <b>budding yeast with pseudohyphae</b>; Gram stain‑এ <b>gram‑positive budding yeast</b>।</p>
+      <p><b>৩. Culture:</b> smooth, white, creamy colony; media <b>SDA</b> ও <b>Blood Agar</b> (antibiotic সহ)।</p>
+      <p><b>৪. Immunological:</b> সাধারণত করা হয় না। <b>৫. Molecular:</b> PCR।</p>
+      <p><b>৬. Other tests:</b> <b>germ tube test</b> — <i>C. albicans</i>‑কে অন্য species থেকে আলাদা করে; <b>carbohydrate fermentation</b> — species differentiate করে।</p>
+      <p>Extra detail — germ tube test: colony + 0.5 ml serum → 37°C 2 hr → wet mount → tube‑like projection; শুধু <i>C. albicans</i> করে, অন্যরা করে না। Blood agar‑এও isolate করা যায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M24</span>
+      <p class="qtext">S/N: Germ tube test. ** (used to differentiate Candida albicans to other candida spp)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Used to differentiate Candida albicans from other Candida species</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Germ Tube Test</b> is a specific test for <i>Candida albicans</i>. It distinguishes <i>C. albicans</i> (which produces germ tubes) from other <i>Candida</i> species (which do not).</p>
+      <p><b>Procedure:</b></p>
+      <ol>
+        <li>Take a small amount of specimen from a colony of culture.</li>
+        <li>Mix with <b>0.5 ml of human or sheep serum</b>.</li>
+        <li>Incubate at <b>37°C for 2 hours</b>.</li>
+        <li>Examine under microscope after wet mount preparation.</li>
+      </ol>
+      <p><b>Result:</b> Tube-like projections or outgrowths of yeasts (germ tubes) are found → <b>positive</b> → confirms <i>C. albicans</i>.</p>
+      <p><b>Significance:</b> This is a rapid, simple, and inexpensive test widely used in clinical microbiology labs. <i>C. albicans</i> is the only <i>Candida</i> species that reliably produces germ tubes in serum.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Pseudohyphae আর germ tube কি আলাদা জিনিস?</p>
+      <p class="ca">হ্যাঁ — <b>pseudohyphae</b> হলো budding‑এর পর attached থাকা elongated cell‑এর chain (germ tube থেকে আলাদা); germ tube হলো true tube‑like projection।</p>
+      <p class="cq">Chlamydospore কী, আর <i>C. albicans</i>‑এ কখন হয়?</p>
+      <p class="ca">Chlamydospore হলো rounded, thick‑walled, resistant spore — <i>C. albicans</i>‑এ <b>culture 20–25°C‑এ</b> তৈরি হয়।</p>
+      <p class="cq">Candida species differentiate করার অন্য পদ্ধতি?</p>
+      <p class="ca"><b>Carbohydrate fermentation</b> test।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>germ tube test</b> হলো <i>Candida albicans</i>‑এর জন্য specific test — এটা <i>C. albicans</i> (যে germ tube produce করে)‑কে অন্য <i>Candida</i> species (যারা produce করে না) থেকে আলাদা করে।</p>
+      <p>Procedure — (১) culture colony থেকে সামান্য specimen; (২) <b>0.5 ml human বা sheep serum</b>‑এ mix; (৩) <b>37°C‑এ 2 ঘণ্টা</b> incubate; (৪) wet mount preparation করার পর microscope‑এ examine। Result — germ tube (tube‑like projection) দেখা গেলে → <b>positive</b> → <i>C. albicans</i> confirm।</p>
+      <p>Significance — rapid, simple, inexpensive test, clinical lab‑এ বহুল ব্যবহৃত। <i>C. albicans</i>‑ই একমাত্র <i>Candida</i> যা serum‑এ নির্ভরযোগ্যভাবে germ tube produce করে।</p>
+      <p>Clarification — pseudohyphae (<i>Candida</i>‑তেও হয়, elongated cell‑এর chain) germ tube নয়; chlamydospore <i>C. albicans</i> culture 20–25°C‑এ rounded thick‑walled resistant spore; carbohydrate fermentation অন্য differentiate পদ্ধতি।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

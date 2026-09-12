@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Laboratory Diagnosis of Fungal Infections (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Laboratory Diagnosis of Fungal Infections</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">6 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">6 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-02-Classification-Dermatophytes.html">‹ Prev</a><a href="Mycology-04-Systemic-Opportunistic-Fungi.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Laboratory Diagnosis of Fungal Infections</h2><div class="en">Culture media (SDA), staining methods, KOH wet mount, mycotoxins</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M10</span>
+      <p class="qtext">Write down the methods of laboratory diagnosis of fungal infections/dermatophytoses/ring worm infections. ***********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> KOH prep, culture on SDA, staining, PCR, Wood's lamp, hair perforation test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>1. Specimen Collection:</b></p>
+      <ul>
+        <li>Skin scraping (from margin of lesion and redness area)</li>
+        <li>Nail clipping</li>
+        <li>Hair plucking</li>
+        <li>Swabs (oral, throat, vaginal) for Candida</li>
+        <li>Blood (for serology in systemic mycosis)</li>
+      </ul>
+      <p><b>2. Microscopical Examination:</b></p>
+      <ul>
+        <li><b>KOH wet mount preparation</b> (most common): KOH 10–40% dissolves keratin → fungi visualized after 30 min. Findings: skin/nail — branching septate hyphae (± arthrospore); hair — ectothrix or endothrix.</li>
+        <li><b>Staining:</b> Calcofluor white (most common), Lactophenol cotton blue (for culture mount), Indian ink (for <i>Cryptococcus</i> capsule), Gram stain (only for <i>Candida</i> — shows gram-positive yeast), Methenamine silver, PAS, Giemsa, H&amp;E.</li>
+      </ul>
+      <p><b>3. Culture / Isolation and Identification:</b></p>
+      <ul>
+        <li><b>SDA (Sabouraud's Dextrose Agar)</b> — most common media.</li>
+        <li>Mold: incubate at <b>25°C for 2–4 weeks</b>. Yeast: at <b>37°C for 2–4 weeks</b>.</li>
+        <li>Naked eye: colony color (white, brown, greenish-yellow), texture (powdery, cottony, velvety, granular).</li>
+        <li>Microscopy of culture: stain with lactophenol cotton blue → macroconidia &amp; microconidia morphology.</li>
+        <li>Other media: SDA + chloramphenicol &amp; cycloheximide, dermatophyte test agar, potato dextrose agar, corn meal agar, mycobiotic agar.</li>
+      </ul>
+      <p><b>4. Immunological Tests:</b> Antigen detection &amp; antibody detection (mainly for systemic mycosis; not usually for dermatophytosis).</p>
+      <p><b>5. Molecular Detection:</b> PCR.</p>
+      <p><b>6. Other Tests:</b></p>
+      <ul>
+        <li><b>Wood's lamp:</b> <i>Microsporum</i> species show fluorescence under UV — used for tinea capitis.</li>
+        <li><b>Hair perforation test:</b> For <i>Microsporum</i> &amp; <i>Trichophyton</i>.</li>
+        <li><b>Skin test:</b> For systemic fungi, dermatophytes, <i>Sporothrix</i>, and <i>Candida</i>.</li>
+        <li><b>Germ tube test:</b> Differentiates <i>C. albicans</i> from other <i>Candida</i> species.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Superficial cutaneous fungus‑এ KOH কেন, আর অন্য body fluid‑এ কী ব্যবহার হয়?</p>
+      <p class="ca">Superficial cutaneous fungus‑এ KOH keratin dissolve করে, তাই fungus স্পষ্ট দেখা যায়; অন্য body fluid‑এ (যেমন blood, CSF) <b>normal saline wet mount</b> ব্যবহার হয়।</p>
+      <p class="cq">Macroconidia দিয়ে কীভাবে identify করা হয়?</p>
+      <p class="ca"><i>Epidermophyton</i> — club shaped; <i>Trichophyton</i> — cylindrical; <i>Microsporum</i> — spindle shaped।</p>
+      <p class="cq">আর microconidia দিয়ে?</p>
+      <p class="ca"><i>T. rubrum</i> — single tear drop; <i>T. mentagrophytes</i> — cluster oval; <i>T. tonsurans</i> — elongated।</p>
+      <p class="cq">সব fungus‑এ Gram stain ব্যবহার করা যায় কি?</p>
+      <p class="ca">না — শুধু <i>Candida</i>‑র জন্য Gram stain useful; অন্য fungus‑এ নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, fungal infection‑এর lab diagnosis ধাপে ধাপে বলছি।</p>
+      <p><b>১. Specimen collection:</b> skin scraping (lesion margin ও redness area থেকে), nail clipping, hair plucking; <i>Candida</i>‑র জন্য oral/throat/vaginal swab; systemic mycosis‑এ serology‑র জন্য blood।</p>
+      <p><b>২. Microscopical examination:</b> সবচেয়ে common <b>KOH wet mount</b> — KOH 10–40% keratin dissolve করে, 30 min পরে fungus দেখা যায়। Finding — skin/nail‑এ branching septate hyphae (± arthrospore), hair‑এ ectothrix বা endothrix। Staining — <b>Calcofluor white</b> (most common), Lactophenol cotton blue (culture mount), Indian ink (<i>Cryptococcus</i> capsule), Gram stain (শুধু <i>Candida</i> — gram‑positive yeast), Methenamine silver, PAS, Giemsa, H&amp;E।</p>
+      <p><b>৩. Culture/isolation:</b> common media <b>SDA</b>। Mold 25°C‑এ 2–4 week, yeast 37°C‑এ 2–4 week। Naked eye‑এ colony color/texture দেখি, তারপর lactophenol cotton blue দিয়ে macro‑ ও microconidia morphology। Onno media — SDA + chloramphenicol &amp; cycloheximide, dermatophyte test agar, potato dextrose agar, corn meal agar, mycobiotic agar।</p>
+      <p><b>৪. Immunological test</b> — antigen ও antibody detection, মূলত systemic mycosis‑এ। <b>৫. Molecular</b> — PCR। <b>৬. Other tests</b> — <b>Wood's lamp</b>: <i>Microsporum</i> UV‑তে fluoresce করে (tinea capitis); <b>hair perforation test</b>: <i>Microsporum</i> &amp; <i>Trichophyton</i>; <b>skin test</b>: systemic fungi, dermatophytes, <i>Sporothrix</i>, <i>Candida</i>; <b>germ tube test</b>: <i>C. albicans</i> আর অন্য <i>Candida</i> আলাদা করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M11</span>
+      <p class="qtext">S/N: Mycotoxin. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Fungal toxins that cause mycotoxicosis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Mycotoxins</b> are toxins released by certain fungi as they grow. <b>Mycotoxicosis</b> is the condition caused by ingestion of these fungal toxins.</p>
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Mycotoxin</th><th>Producing Fungus</th><th>Effect (Mycotoxicosis)</th></tr>
+        <tr><td><b>Amanitin</b></td><td><i>Amanita</i> mushrooms</td><td>Liver damage</td></tr>
+        <tr><td><b>Phalloidin</b></td><td><i>Amanita</i> mushrooms</td><td>Liver damage</td></tr>
+        <tr><td><b>Ergotamine</b></td><td><i>Claviceps purpurea</i></td><td>Ergotism (vascular &amp; neurological damage)</td></tr>
+        <tr><td><b>LSD</b> (Lysergic acid diethylamide)</td><td><i>Claviceps purpurea</i></td><td>Ergotism (vascular &amp; neurological damage)</td></tr>
+        <tr><td><b>Aflatoxins</b></td><td><i>Aspergillus flavus</i></td><td>Liver damage &amp; liver carcinoma</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Aflatoxin দিয়ে hepatocellular carcinoma কীভাবে হয় — pathway বলুন?</p>
+      <p class="ca">Spoiled grain/peanut‑এর সাথে aflatoxin খাওয়া হয় → liver metabolize করে → <b>epoxide</b> তৈরি করে (একটি potent carcinogen) → <b>p53 tumour suppressor gene</b>‑এ mutation → p53 protein‑এর loss → hepatocellular carcinoma।</p>
+      <p class="cq"><i>Amanita</i> mushroom কতগুলো toxin তৈরি করে?</p>
+      <p class="ca"><i>Amanita</i> mushroom মোট <b>পাঁচটি</b> ভিন্ন toxin produce করে।</p>
+      <p class="cq">Ergotism‑এর উপসর্গ কী কী?</p>
+      <p class="ca">Ergotism <b>vascular spasm</b> ও <b>neurological</b> — দুই ধরনের damage‑ই করতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>mycotoxin</b> হলো সেই toxin যা কিছু fungus grow করার সময় release করে। <b>Mycotoxicosis</b> হলো সেই অবস্থা যা এই fungal toxin খাওয়ার ফলে হয়।</p>
+      <p><b>Amanitin</b> ও <b>Phalloidin</b> — দুটোই <i>Amanita</i> mushroom থেকে; effect — <b>liver damage</b>। <b>Ergotamine</b> ও <b>LSD</b> (Lysergic acid diethylamide) — দুটোই <i>Claviceps purpurea</i> থেকে; effect — <b>ergotism</b> (vascular &amp; neurological damage)। <b>Aflatoxins</b> — <i>Aspergillus flavus</i> থেকে; effect — <b>liver damage ও liver carcinoma</b>।</p>
+      <p>Aflatoxin‑এর mechanism — spoiled grain/peanut → aflatoxin → liver metabolize → <b>epoxide</b> (potent carcinogen) → <b>p53 tumour suppressor gene</b>‑এ mutation → p53 protein loss → <b>hepatocellular carcinoma</b>। মনে রাখবেন — <i>Amanita</i> mushroom পাঁচটি আলাদা toxin produce করে, আর ergotism vascular ও neurological দুটো ধরনের damage‑ই করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M12</span>
+      <p class="qtext">Name five fungal culture media. ***** (SDA, mycobiotic media, dermatophyte test media, corn meal media)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> SDA, mycobiotic media, dermatophyte test media, corn meal media</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Five important fungal culture media:</b></p>
+      <ol>
+        <li><b>Sabouraud's Dextrose Agar (SDA)</b> — most commonly used fungal culture media.</li>
+        <li><b>Mycobiotic (Fungobiotic) Agar Media</b></li>
+        <li><b>Dermatophyte Test Agar (DTA) Media</b></li>
+        <li><b>Corn Meal Agar Media</b></li>
+        <li><b>Potato Dextrose Agar Media</b></li>
+      </ol>
+      <p><b>SDA details:</b></p>
+      <ul>
+        <li>High dextrose content — excellent carbon &amp; energy source.</li>
+        <li>Peptone — source of nitrogen, vitamins, and minerals.</li>
+        <li><b>Acidic pH (5.6)</b> — optimal for fungi, not bacteria.</li>
+        <li>Antibiotics frequently added: penicillin (kills gram-positive bacteria), streptomycin (kills gram-negative bacteria), cycloheximide (inhibits saprophytic/non-pathogenic fungi).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">আর কোন কোন fungal media আছে?</p>
+      <p class="ca">SDA + chloramphenicol &amp; cycloheximide, inhibitory mold agar, blood agar with antibiotic, brain heart infusion agar।</p>
+      <p class="cq">SDA‑তে bacteria কেন grow করে না?</p>
+      <p class="ca">তিনটি কারণ — <b>acidic pH</b> (bacteria pH 7 পছন্দ করে), <b>antibiotic</b> যোগ করা হয়, আর <b>high dextrose</b> osmotic pressure বাড়ায়, যা bacteria inhibit করে।</p>
+      <p class="cq">Culture time কত?</p>
+      <p class="ca">Mold 25°C‑এ 2–4 weeks; yeast 37°C‑এ 2–4 weeks।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, পাঁচটি fungal culture media বলছি।</p>
+      <ol>
+        <li><b>Sabouraud's Dextrose Agar (SDA)</b> — সবচেয়ে বেশি ব্যবহৃত fungal culture media।</li>
+        <li><b>Mycobiotic (Fungobiotic) Agar</b></li>
+        <li><b>Dermatophyte Test Agar (DTA)</b></li>
+        <li><b>Corn Meal Agar</b></li>
+        <li><b>Potato Dextrose Agar</b></li>
+      </ol>
+      <p>SDA‑র details — high dextrose (excellent carbon/energy source); peptone (nitrogen, vitamin, mineral source); <b>acidic pH 5.6</b> — fungus‑এর optimum, bacteria‑র নয়; আর antibiotic যোগ হয় — <b>penicillin</b> gram‑positive bacteria মারে, <b>streptomycin</b> gram‑negative bacteria মারে, <b>cycloheximide</b> saprophytic/non‑pathogenic fungus inhibit করে।</p>
+      <p>SDA‑তে bacteria না ওঠার কারণ — acidic pH, antibiotic, আর high dextrose‑র osmotic pressure। Culture time — mold 25°C 2–4 week, yeast 37°C 2–4 week। আরও media — SDA + chloramphenicol &amp; cycloheximide, inhibitory mold agar, blood agar with antibiotic, brain heart infusion agar।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M13</span>
+      <p class="qtext">Name three common fungal staining methods. ***** (calcoflour white ***, lactophenol cotton blue ***, indian ink, methenamine silver stain, gram staining, giemsa stain)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Calcofluor white, lactophenol cotton blue, Indian ink, methenamine silver, Gram stain, Giemsa</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Three most common fungal stains:</b></p>
+      <ol>
+        <li><b>Calcofluor White</b> — a fluorescent stain that binds to chitin and cellulose in fungal cell walls. Used for direct visualization of fungi in clinical specimens.</li>
+        <li><b>Lactophenol Cotton Blue (LPCB)</b> — the most common stain for examining fungal cultures. Cotton blue stains the chitin in fungal walls; lactic acid preserves fungal structures; phenol acts as a disinfectant.</li>
+        <li><b>Indian Ink</b> — a negative capsular stain used to visualize the wide unstained capsule of <i>Cryptococcus neoformans</i>. The capsule appears as a clear halo against a dark background.</li>
+      </ol>
+      <p><b>Other important stains:</b></p>
+      <ul>
+        <li><b>Gram stain</b> — only for <i>Candida</i> (shows gram-positive yeast).</li>
+        <li><b>Giemsa stain</b> — histopathological stain; also used for blood films.</li>
+        <li><b>Methenamine Silver (GMS)</b> — histopathological stain for fungi in tissue sections.</li>
+        <li><b>PAS (Periodic Acid Schiff)</b> — stains fungal polysaccharides magenta.</li>
+        <li><b>H&amp;E (Hematoxylin &amp; Eosin)</b> — general tissue stain.</li>
+        <li><b>Fluorescent antibody staining</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">রুটিন fungal identification‑এ সবচেয়ে common কোন দুটি stain?</p>
+      <p class="ca">Calcofluor white আর LPCB — এই দুটোই routine fungal identification‑এ সবচেয়ে common।</p>
+      <p class="cq">Indian ink rapid test কীভাবে করা হয়?</p>
+      <p class="ca">এক ফোঁটা CSF + Indian ink → microscope‑এ দেখুন → encapsulated budding yeast দেখা যায়।</p>
+      <p class="cq">Gram stain কি সব fungus‑এ useful?</p>
+      <p class="ca">না — <i>Candida</i> ছাড়া Gram stain fungus‑এর জন্য সাধারণত useful নয়; <i>Candida</i>‑তে gram‑positive oval yeast দেখা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, তিনটি common fungal stain বলছি।</p>
+      <ol>
+        <li><b>Calcofluor White</b> — fluorescent stain, fungal cell wall‑এর <b>chitin ও cellulose</b>‑এর সাথে binds হয়। Clinical specimen‑এ fungus সরাসরি দেখার জন্য।</li>
+        <li><b>Lactophenol Cotton Blue (LPCB)</b> — fungal culture পরীক্ষার সবচেয়ে common stain। Cotton blue chitin‑কে color করে; lactic acid fungal structure preserve করে; phenol disinfectant হিসেবে কাজ করে।</li>
+        <li><b>Indian Ink</b> — negative capsular stain, <i>Cryptococcus neoformans</i>‑এর wide unstained capsule দেখার জন্য। Capsule dark background‑এ clear halo হিসাবে দেখা যায়।</li>
+      </ol>
+      <p>অন্য important stains — <b>Gram stain</b> (শুধু <i>Candida</i> — gram‑positive yeast), <b>Giemsa</b> (histopathological + blood film), <b>Methenamine Silver (GMS)</b> (tissue section‑এ fungus), <b>PAS</b> (fungal polysaccharide‑কে magenta করে), <b>H&amp;E</b> (সাধারণ tissue stain), আর <b>fluorescent antibody staining</b>।</p>
+      <p>রুটিনে Calcofluor white ও LPCB সবচেয়ে common; Indian ink rapid — CSF + ink দিয়ে encapsulated budding yeast দেখা যায়; আর Gram stain শুধু <i>Candida</i>‑তে useful।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M14</span>
+      <p class="qtext">Why KOH is used in fungal wet mount preparation? ********* (to dissolve the keratin layer, easy visualization of fungus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> To dissolve the keratin layer, easy visualization of fungus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>KOH (Potassium Hydroxide)</b> is used in fungal wet mount preparation because:</p>
+      <ul>
+        <li><b>Dissolves keratin:</b> KOH (10–40%) dissolves the keratin present in skin, hair, and nail specimens. This removes the obscuring host tissue debris that would otherwise hide the fungal elements.</li>
+        <li><b>Easy visualization of fungi:</b> After keratin dissolution, the refractile fungal hyphae, spores, and other structures become clearly visible under the microscope.</li>
+        <li><b>KOH does NOT dissolve chitin</b> — the fungal cell wall component — so fungi remain intact while the surrounding host tissue is cleared.</li>
+      </ul>
+      <p><b>Procedure:</b> Place specimen on slide → add KOH (10–40%) → wait 30 minutes → examine under microscope with or without staining.</p>
+      <p><b>Note:</b> For specimens from non-skin sites (e.g. blood, CSF), normal saline wet mount is used instead of KOH.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Fungal lab diagnosis‑এ KOH wet mount কতটা গুরুত্বপূর্ণ?</p>
+      <p class="ca">Fungal lab diagnosis‑এর <b>most common</b> ও first‑line preparation হলো এটাই।</p>
+      <p class="cq">KOH preparation‑এ কী finding দেখা যায়?</p>
+      <p class="ca">Skin/nail scraping‑এ branching septate hyphae (± arthrospore); hair‑এ ectothrix বা endothrix।</p>
+      <p class="cq">Wait time কত, আর কী দিয়ে কমানো যায়?</p>
+      <p class="ca">Typical wait time <b>30 minutes</b>; slide গরম করলে clearing দ্রুত হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>KOH (Potassium Hydroxide)</b> fungal wet mount‑এ ব্যবহার হয় কারণ —</p>
+      <ul>
+        <li><b>Keratin dissolve করে:</b> KOH 10–40% skin, hair, nail‑এর keratin dissolve করে, ফলে সেই host tissue debris সরে যায় যা না হলে fungus‑কে লুকিয়ে রাখত।</li>
+        <li><b>Fungus সহজে দেখা যায়:</b> keratin dissolve‑এর পর refractile fungal hyphae, spore ইত্যাদি microscope‑এ স্পষ্ট দেখা যায়।</li>
+        <li><b>KOH chitin dissolve করে না</b> — fungal cell wall‑এর উপাদান chitin intact থাকে, তাই fungus বাঁচে, শুধু চারপাশের host tissue clear হয়।</li>
+      </ul>
+      <p>Procedure — specimen slide‑এ → KOH 10–40% যোগ → 30 min wait → staining সহ বা ছাড়া microscope‑এ দেখুন। Note — non‑skin site (blood, CSF)‑এ KOH নয়, <b>normal saline wet mount</b> ব্যবহার হয়।</p>
+      <p>এটা fungal lab diagnosis‑এর most common ও first‑line preparation। Finding — skin/nail‑এ branching septate hyphae (+ arthrospore), hair‑এ ectothrix/endothrix।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M15</span>
+      <p class="qtext">Why SDA media is used to diagnosed fungus? *** (acidic pH optimum for fungus not for bacteria, high sugar conc.: fungus is a sugar loving organism, added antibiotics: prevent bacterial growth)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Acidic pH optimum for fungus not for bacteria, high sugar conc., added antibiotics</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Sabouraud's Dextrose Agar (SDA)</b> is the most commonly used media for fungal diagnosis because of three key properties:</p>
+      <ol>
+        <li><b>Acidic pH (5.6):</b> Optimal for fungal growth. Most bacteria prefer neutral pH (~7.0) and cannot grow well at this acidic pH — so fungi are selectively encouraged while bacteria are inhibited.</li>
+        <li><b>High dextrose (glucose) concentration:</b> Provides an excellent source of carbon and energy. Fungi are sugar-loving organisms (saccharophilic). The high sugar also raises osmotic pressure, which inhibits many bacteria.</li>
+        <li><b>Added antibiotics:</b> Penicillin (inhibits gram-positive bacteria), streptomycin (inhibits gram-negative bacteria), and cycloheximide (inhibits saprophytic/non-pathogenic fungi) are frequently added to further ensure only pathogenic fungi grow.</li>
+      </ol>
+      <p><b>Additional components:</b> Peptone provides nitrogen, vitamins, and minerals.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">SDA‑তে culture time কত?</p>
+      <p class="ca">Mold 25°C‑এ 2–4 weeks; yeast 37°C‑এ 2–4 weeks।</p>
+      <p class="cq">অন্য fungal media গুলো কী কী?</p>
+      <p class="ca">SDA + chloramphenicol &amp; cycloheximide, mycobiotic agar, dermatophyte test agar, potato dextrose agar, corn meal agar।</p>
+      <p class="cq">Cycloheximide‑এর বিশেষ কাজ কী?</p>
+      <p class="ca">Cycloheximide বিশেষভাবে <b>saprophytic (non‑pathogenic) fungi</b>‑কে inhibit করে, যাতে clinical specimen থেকে pathogenic fungus select হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, SDA fungal diagnosis‑এর সবচেয়ে common media, আর এর কারণ তিনটি key property।</p>
+      <ol>
+        <li><b>Acidic pH (5.6):</b> fungal growth‑এর optimum। Most bacteria neutral pH (~7.0) পছন্দ করে, তাই এই acidic pH‑এ গজাতে পারে না — fungi selectively বাড়ে, bacteria inhibit হয়।</li>
+        <li><b>High dextrose concentration:</b> carbon ও energy‑র excellent source। Fungi হলো <b>sugar‑loving (saccharophilic)</b> organism। High sugar osmotic pressure‑ও বাড়ায়, ফলে অনেক bacteria‑ও inhibit হয়।</li>
+        <li><b>Antibiotic যোগ:</b> penicillin (gram‑positive bacteria inhibit), streptomycin (gram‑negative bacteria inhibit), cycloheximide (saprophytic/non‑pathogenic fungus inhibit) — যাতে শুধু pathogenic fungus‑ই grow করে।</li>
+      </ol>
+      <p>আরেকটি component — peptone, যা nitrogen, vitamin ও mineral দেয়। Culture time — mold 25°C 2–4 week, yeast 37°C 2–4 week। আরও media আছে — SDA + chloramphenicol &amp; cycloheximide, mycobiotic agar, DTA, PDA, corn meal agar। Cycloheximide‑র ভূমিকা — saprophytic fungus inhibit করে pathogenic fungus select করা।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

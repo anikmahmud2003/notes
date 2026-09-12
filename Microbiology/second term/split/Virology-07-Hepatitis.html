@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Hepatitis Viruses (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Hepatitis Viruses</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">16 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">16 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-06-Herpesvirus.html">‹ Prev</a><a href="Virology-08-Immunity-Vaccines-Prophylaxis.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Hepatitis Viruses</h2><div class="en">Hepatotropic viruses, comparison, seromarkers, window period, prevention, needle stick injury</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V60</span>
+      <p class="qtext">Why are hepatotropic viruses called hepatotropic? ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> because their main site of infection is liver / exclusively infect liver</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The hepatotropic hepatitis viruses are called <b>"hepatotropic"</b> because their <b>main site of infection is the liver</b> — they have a <b>tropism (preference) for hepatocytes</b>, i.e., they <b>exclusively (primarily) infect the liver</b>.</p>
+      <p>Such viruses are:</p>
+      <ul>
+        <li>Hepatitis A virus (HAV)</li>
+        <li>Hepatitis B virus (HBV)</li>
+        <li>Hepatitis C virus (HCV)</li>
+        <li>Hepatitis D virus (HDV)</li>
+        <li>Hepatitis E virus (HEV)</li>
+        <li>(± HGV)</li>
+      </ul>
+      <p><b>Note:</b> There are also <b>non-hepatotropic viruses</b> that can infect the liver but are <b>not exclusively</b> liver viruses — e.g., EBV, CMV, HSV-1, VZV, Rubella, Mumps, Dengue, Yellow fever.</p><h3><b>non-hepatotropic but infect liver</b></h3><div><ol><li>HSV-1</li><li>VZV</li><li>EBV</li><li>CMV</li><li>MUMPS</li><li>Rubella</li><li>dengue</li><li>yellow fever</li></ol></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Hepatotropic virus কেন hepatotropic বলে?</p>
+        <p class="ca">কারণ এদের main site of infection liver — hepatocytes-এর প্রতি tropism/preference আছে।</p>
+        <p class="cq">Hepatotropic virus-গুলো কোন কোনটি?</p>
+        <p class="ca">HAV, HBV, HCV, HDV, HEV (±HGV)।</p>
+        <p class="cq">Non-hepatotropic virus-গুলো কোনগুলো যারা liver-ও infect করে?</p>
+        <p class="ca">EBV, CMV, HSV-1, VZV, Rubella, Mumps, Dengue, Yellow fever — এদের liver-ও হতে পারে কিন্তু exclusively liver না।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatotropic virus মানে virus-যারা liver-কে target করে ভালোবাসে। এরা hepatitis virus (HAV-HEV) — কারণ এদের main site of infection liver, মানে অশুধু liver-ই infect করে।</p>
+<p>"Hepato" = liver, "tropic" = preference। "Hepatitis" = liver-র inflammation।</p>
+<p>Non-hepatotropic virus-রাও liver infect করে কিন্তু শুধু liver না — অন্য organ-ও infect করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V61</span>
+      <p class="qtext">Name the hepatotropic / hepatitis viruses. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HAV, HBV, HCV, HDV, HEV (± HGV)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The <b>hepatotropic hepatitis viruses</b> (which mainly/exclusively infect the liver):</p>
+      <ul>
+        <li><b>Hepatitis A virus (HAV)</b> — infectious hepatitis virus</li>
+        <li><b>Hepatitis B virus (HBV)</b> — serum &amp; transfusion hepatitis virus</li>
+        <li><b>Hepatitis C virus (HCV)</b> — non-A non-B transfusion-associated hepatitis virus</li>
+        <li><b>Hepatitis D virus (HDV)</b> — delta agent</li>
+        <li><b>Hepatitis E virus (HEV)</b> — non-A non-B enteric hepatitis virus</li>
+        <li><b>Hepatitis G virus (HGV)</b> — GB virus C / human pegivirus (±; wrongly named, not a true hepatitis agent)</li>
+      </ul>
+      <p><b>Note:</b> Hepatitis F virus is a mutant (HBx) of HBV and has been <b>deleted from the list</b>.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Hepatotropic virus-গুলোর নাম বলো।</p>
+        <p class="ca">HAV, HBV, HCV, HDV, HEV। ±HGV (wrongly named, not true hepatitis agent)।</p>
+        <p class="cq">Hepatitis F virus কেন deleted?</p>
+        <p class="ca">কারণ এটি HBV-র একটি mutant (HBx) — তাই list-�েকে বাদ দেওয়া হয়েছে।</p>
+        <p class="cq">HAV আর HEV-র commonality কী?</p>
+        <p class="ca">দুইটাই naked, feco-oral route, no chronicity, no oncogenicity।</p>
+        <p class="cq">HBV আর HCV-র commonality কী?</p>
+        <p class="ca">দুইটাই enveloped, chronicity করে, oncogenic (HCC)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatotropic hepatitis virus — HAV, HBV, HCV, HDV আর HEV। সবগুলোর main site liver।</p>
+<p>HGV-ও আছে কিন্তু ঠিকমতো hepatitis নয়। Hepatitis F virus-টা আসলে HBV-র mutant — তাই list-এ নেই।</p>
+<p>"A B C D E" — পাঁচজনই hepatotropic। HAV+HEV = naked + feco-oral + safe। HBV+HCV = enveloped + dangerous (chronic + cancer)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V62</span>
+      <p class="qtext">Name some non hepatotropic virus. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> EBV, CMV, HSV-1, VZV, Rubella, Mumps, Dengue, Yellow fever</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Non-hepatotropic viruses</b> are viruses that <b>may infect the liver</b> (can cause hepatitis) <b>but also infect other sites in the body</b>, so they are <b>not exclusively</b> liver viruses:</p>
+      <ul>
+        <li>Epstein-Barr virus (EBV)</li>
+        <li>Cytomegalovirus (CMV)</li>
+        <li>Herpes simplex virus (HSV-1)</li>
+        <li>Varicella-zoster virus (VZV)</li>
+        <li>Rubella virus</li>
+        <li>Mumps virus</li>
+        <li>Dengue virus</li>
+        <li>Yellow fever virus</li>
+        <li>Marburg virus, Coxsackie virus, Echo virus, Lassa fever virus</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Non-hepatotropic virus কী?</p>
+        <p class="ca">এমন virus যারা liver-ও infect করে কিন্তু শুধু liver না — অন্য organ-ও infect করে।</p>
+        <p class="cq">Non-hepatotropic virus-গুলো কোন কোনটি?</p>
+        <p class="ca">EBV, CMV, HSV-1, VZV, Rubella, Mumps, Dengue, Yellow fever, Marburg, Coxsackie, Echo, Lassa fever।</p>
+        <p class="cq">Hepatotropic আর non-hepatotropic-এর মূল পার্থক্য কী?</p>
+        <p class="ca">Hepatotropic = exclusively/maintly liver infect করে। Non-hepatotropic = liver-ও করে কিন্তু অন্য organ-ও করে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Non-hepatotropic মানে এই virus-গুলো যাতে liver infect করে কিন্তু শুধু liver না — অন্য organ-ও infect করে। তাই এরা exclusively liver-র virus না।</p>
+<p>নাম গুলো — EBV, CMV, HSV-1, VZV, Rubella, Mumps, Dengue, Yellow fever।</p>
+<p>"যদি জিজ্ঞেস করে কে hepatitis দেয় কিন্তু hepatotropic না? — EBV, CMV, HSV, VZV, yellow fever।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V63</span>
+      <p class="qtext">Write down the comparison among hepatitis virus. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> genome, envelope, family, transmission, chronicity, oncogenicity — viva favorite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table class="ans-tbl">
+        <tbody><tr><th>Point</th><th>HAV</th><th>HBV</th><th>HCV</th><th>HDV</th><th>HEV</th></tr>
+        <tr><td><b>Family</b></td><td>Picornavirus</td><td>Hepadnavirus</td><td>Flavivirus</td><td>Deltavirus</td><td>Hepevirus</td></tr>
+        <tr><td><b>Nucleic acid</b></td><td>ssRNA</td><td><b>dsDNA</b></td><td>ssRNA</td><td>ssRNA (circular)</td><td>ssRNA</td></tr>
+        <tr><td><b>Size</b></td><td>27 nm</td><td>42 nm</td><td>60 nm</td><td>35 nm</td><td>30–32 nm</td></tr>
+        <tr><td><b>Envelope</b></td><td>Absent (naked)</td><td>Present</td><td>Present</td><td>Present (HBsAg)</td><td>Absent (naked)</td></tr>
+        <tr><td><b>Transmission</b></td><td><b>Feco-oral</b></td><td>Parenteral, Sexual, Vertical</td><td>Parenteral, Sexual, Vertical</td><td>Parenteral, Sexual, Vertical</td><td><b>Feco-oral</b></td></tr>
+        <tr><td><b>Heat/acid stability</b></td><td>Stable</td><td>Sensitive</td><td>Sensitive</td><td>Sensitive</td><td>Stable</td></tr>
+        <tr><td><b>Age group</b></td><td>Children</td><td>Any age</td><td>Any age</td><td>Any age</td><td>Young adult (20–40)</td></tr>
+        <tr><td><b>Incubation</b></td><td>15–45 d</td><td><b>30–180 d</b></td><td>15–160 d</td><td><b>30–180 d</b></td><td>15–60 d</td></tr>
+        <tr><td><b>Chronicity</b></td><td>Absent</td><td>Present</td><td>Present</td><td>Present</td><td>Absent</td></tr>
+        <tr><td><b>Oncogenicity</b></td><td>Absent</td><td><b>Present (HCC)</b></td><td><b>Present (HCC)</b></td><td>Absent</td><td>Absent</td></tr>
+      </tbody></table>
+      <p><b>📌 Key viva points:</b></p>
+      <ul>
+        <li>HBV is the <b>only DNA hepatitis virus</b>.</li>
+        <li>HAV &amp; HEV are <b>naked + feco-oral + no chronicity + no oncogenicity</b>.</li>
+        <li>HBV &amp; HCV are <b>oncogenic</b> (HCC); both cause chronicity.</li>
+        <li>HDV is a <b>defective virus</b> needing HBsAg from HBV.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Hepatitis virus comparison-এর main points কী?</p>
+        <p class="ca">HAV/HEV = naked, feco-oral, no chronicity, no oncogenicity। HBV/HCV = enveloped, blood/sexual, chronicity, oncogenic (HCC)।</p>
+        <p class="cq">HBV কেন DNA hepatitis virus-এ unique?</p>
+        <p class="ca">কারণ HAV, HCV, HDV, HEV — সব RNA। HBV শুধু DNA hepatitis virus।</p>
+        <p class="cq">HDV কেন defective virus?</p>
+        <p class="ca">কারণ তার envelope-এর HBsAg লাগে — সেটা HBV থেকে আসে। HBV ছাড়া HDV replicate করতে পারে না।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatitis virus comparison-এ বড় কথা — HAV আর HEV naked (envelope নেই), feco-oral দিয়ে ছড়ায়, chronic করে না, cancer করে না। বিপরীতে HBV আর HCV enveloped, blood/sexual দিয়ে ছড়ায়, chronic করে আর cancer করে (HCC)।</p>
+<p>HBV শুধু DNA hepatitis virus। HDV defective — HBV থেকে HBsAg ধরে।</p>
+<p>"Naked vs enveloped" partition-টা viva-তে ভালো যায়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V64</span>
+      <p class="qtext">Mention the route of transmission of hepatitis virus. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HAV/HEV feco-oral; HBV/HCV/HDV sexual &amp; parenteral</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Transmission routes of hepatitis viruses:</b></p>
+      <ul>
+        <li><b>HAV &amp; HEV → feco-oral route:</b>
+          <ul>
+            <li>Contaminated food &amp; water</li>
+            <li>Sewage-contaminated water containing shellfish</li>
+            <li>Infected food handlers</li>
+          </ul>
+        </li>
+        <li><b>HBV, HCV &amp; HDV → parenteral, sexual &amp; vertical:</b>
+          <ul>
+            <li><b>Parenteral (blood):</b> needle-stick injury, IV drug users, blood transfusion without screening (HBV 30%, HCV 3%, HIV 0.3% chance per needle stick).</li>
+            <li><b>Sexual:</b> HBV in semen &amp; vaginal fluid; <b>HCV low sexual rate.</b></li>
+            <li><h3><b>Vertical (mother to offspring):</b> mainly during delivery.</h3></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HAV আর HEV transmission route কী?</p>
+        <p class="ca">Feco-oral route — contaminated food &amp; water, sewage-contaminated shellfish, infected food handlers।</p>
+        <p class="cq">HBV, HCV, HDV transmission routes কী?</p>
+        <p class="ca">Parenteral (blood — needle stick, IV drug, transfusion), sexual, vertical (mainly during delivery)।</p>
+        <p class="cq">Needle stick injury-এ HBV/HCV/HIV risk কত?</p>
+        <p class="ca">HBV 30%, HCV 3%, HIV 0.3% per needle stick।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatitis virus-র transmission দুই group-ে — HAV আর HEV feco-oral (contaminated food-water দিয়ে)। HBV, HCV, HDV — parenteral (blood, needle stick), sexual আর vertical (মা থেকে)।</p>
+<p>ভুল হয় না — HAV+HEV = mouth; HBV+HCV+HDV = blood/sexual।</p>
+<p>Needle stick injury-তে HBV-র risk সবচেয়ে বেশি (30%)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V65</span>
+      <p class="qtext">Mention the outcome or complications of hepatitis virus. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> recovery + complications: chronicity, carrier, oncogenicity, cirrhosis, fulminant failure</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Fate and complications of hepatitis viruses:</b></p>
+      <p><b>1. Complete recovery</b> — most cases (especially HAV, HEV; also acute HBV/HCV).</p>
+      <p><b>2. Complications</b> (HCV &gt;&gt; HBV):</p>
+      <ul>
+        <li><b>Asymptomatic carrier state</b> (HCV &gt;&gt; HBV) — a chronic carrier has HBsAg persisting ≥6 months.</li>
+        <li><b>Chronic hepatitis</b> (HBV &amp; HCV):
+          <ul>
+            <li>Chronic active hepatitis → cirrhosis &amp; HCC</li>
+            <li>Chronic persistent hepatitis</li>
+          </ul>
+        </li>
+        <li><b>Cirrhosis of liver</b> (HBV &amp; HCV).</li>
+        <li><b>Hepatocellular carcinoma (HCC)</b> (HBV &amp; HCV — oncogenic).</li>
+        <li><b>Fulminant hepatic failure</b> (HEV in pregnancy, rarely HBV &amp; HDV).</li>
+      </ul>
+      <p><b>📌 Key point:</b> HAV &amp; HEV → <b>no chronicity</b> and <b>no oncogenicity</b>; HBV &amp; HCV → chronicity + HCC.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Hepatitis-র outcome কত ধরনের?</p>
+        <p class="ca">দুই ধরনের — complete recovery বা complication।</p>
+        <p class="cq">Complication-গুলো কী কী?</p>
+        <p class="ca">Asymptomatic carrier, chronic hepatitis, cirrhosis, HCC (hepatocellular carcinoma), fulminant hepatic failure।</p>
+        <p class="cq">HAV আর HEV-র outcome কেমন?</p>
+        <p class="ca">Chronicity নেই, oncogenicity নেই — most cases complete recovery।</p>
+        <p class="cq">HEV pregnancy-তে কেন dangerous?</p>
+        <p class="ca">Fulminant hepatic failure হয়, mortality &gt;20%।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatitis-র outcome দুই ধরনের — complete recovery বা complication। Complication-গুলো: chronicity, carrier state, cirrhosis, HCC (cancer), fulminant liver failure।</p>
+<p>HAV আর HEV chronic করে না, cancer-ও করে না। বিপরীতে HBV আর HCV chronic আর HCC করে।</p>
+<p>HEV pregnancy-তে fulminant failure আর high mortality করে। "HAV/HEV safe, HBV/HCV dangerous" — এটা main sutro।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V66</span>
+      <p class="qtext">Mention the important seromarkers of each hepatitis virus. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HAV=Anti-HAV, HEV=Anti-HEV, HDV=Delta Ag/Anti-HDV, HCV=Anti-HCV (RIBA), HBV=2Ag+3Ab</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Seromarkers (viral markers) of each hepatitis virus:</b></p>
+      <ul>
+        <li><b>HAV:</b> <b>Anti-HAV IgM</b> (best, acute/recent infection); Anti-HAV IgG (past infection; 4-fold rise = current).</li>
+        <li><b>HBV</b> (most important, 2 Ag + 3 Ab):
+          <ul>
+            <li><b>Antigens:</b> <b>HBsAg</b> (surface), <b>HBeAg</b> (high transmissibility)</li>
+            <li><b>Antibodies:</b> <b>Anti-HBs</b>, <b>Anti-HBe</b> (low transmissibility), <b>Anti-HBc</b> (IgM = acute; IgG = past/chronic)</li>
+          </ul>
+        </li>
+        <li><b>HCV:</b> <b>Anti-HCV Ab</b> by <b>ELISA</b>; confirmed by <b>RIBA</b> (recombinant immunoblot assay — better than ELISA) or RT-PCR.</li>
+        <li><b>HDV:</b> <b>Delta (δ) antigen</b> &amp; <b>Anti-HDV Ab</b> (IgM).</li>
+        <li><b>HEV:</b> <b>Anti-HEV Ab (IgM)</b>.</li></ul><ul>
+      </ul>
+      <p><b>📌 Note:</b> HBV &amp; HCV markers are the most important for viva.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">প্রতিটি hepatitis virus-র seromarker কী কী?</p>
+        <p class="ca">HAV: Anti-HAV IgM। HBV: HBsAg, HBeAg + Anti-HBs, Anti-HBc, Anti-HBe (2 Ag + 3 Ab)। HCV: Anti-HCV Ab। HDV: Delta antigen + Anti-HDV। HEV: Anti-HEV IgM।</p>
+        <p class="cq">HBV-র seromarker কেন সবচেয়ে important?</p>
+        <p class="ca">কারণ 2 Ag + 3 Ab — অন্য কোনো virus-এ এত seromarker নেই। Interpretation-ও complex।</p>
+        <p class="cq">HCV diagnose কীভাবে করে?</p>
+        <p class="ca">Anti-HCV Ab (ELISA) দিয়ে, RIBA (recombinant immunoblot assay) দিয়ে confirm করে। RT-PCR molecular confirmation।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>প্রতিটি hepatitis virus-র নিজের seromarker আছে। HAV — Anti-HAV IgM (acute-র জন্য best)। HBV — HBsAg, HBeAg (Ag) আর Anti-HBs, Anti-HBc, Anti-HBe (Ab) — এটা সবচেয়ে important।</p>
+<p>HCV — Anti-HCV Ab (ELISA, RIBA confirmatory)। HDV — Delta antigen আর Anti-HDV। HEV — Anti-HEV IgM।</p>
+<p>ভুলে রাখবেন "HBV-র 2 Ag + 3 Ab" — এটা একটু মনে রাখলে viva-তে কোনো সমস্যা হবে না।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V67</span>
+      <p class="qtext">Mention the interpretation of seromarkers of HBV. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> 2 Ag (HBsAg, HBeAg) + 3 Ab (Anti-HBs, Anti-HBc, Anti-HBe) — details must be known</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>HBV seromarkers:</b> 2 antigens (HBsAg, HBeAg) + 3 antibodies (Anti-HBs, Anti-HBc, Anti-HBe).</p>
+      <table class="ans-tbl">
+        <tbody><tr><th>Marker pattern</th><th>Interpretation</th></tr>
+        <tr><td>HBsAg +, HBeAg +/-, Anti-HBs/HBe/HBc (−)</td><td><b>Early acute hepatitis B</b></td></tr>
+        <tr><td>HBsAg +, HBeAg +, Anti-HBc IgM +; Anti-HBs/HBe (−)</td><td><b>Acute hepatitis B (high infectivity)</b></td></tr>
+        <tr><td>HBsAg +, HBeAg +, Anti-HBc IgG +; Anti-HBs/HBe (−)</td><td><b>Chronic active hepatitis B (super carrier, high infectivity)</b></td></tr>
+        <tr><td>HBsAg +, Anti-HBc IgG +; HBeAg/Anti-HBs/Anti-HBe (−)</td><td><b>Chronic inactive hepatitis B (simple carrier, low infectivity)</b></td></tr>
+        <tr><td>HBsAg −, HBeAg −; Anti-HBs +, Anti-HBc IgG +, Anti-HBe +</td><td><b>Recovery (immune by natural infection)</b></td></tr>
+        <tr><td>HBsAg −, HBeAg −, Anti-HBc IgG −, Anti-HBe −; Anti-HBs +</td><td><b>Post-vaccination (immune)</b></td></tr>
+        <tr><td>HBsAg +, Anti-HBc IgG +; HBeAg/Anti-HBs/Anti-HBe (−)</td><td><b>Precore-mutant HBV infection</b></td></tr>
+        <tr><td>HBsAg −, Anti-HBc IgG +; HBeAg/Anti-HBs/Anti-HBe +/−</td><td><b>Escape-mutant or occult HBV infection</b></td></tr>
+      </tbody></table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HBsAg positive মানে কী?</p>
+        <p class="ca">Active infection (acute বা chronic)।</p>
+        <p class="cq">Anti-HBs positive মানে কী?</p>
+        <p class="ca">Immunity — recovery বা vaccination।</p>
+        <p class="cq">Anti-HBc IgM বনাম IgG — পার্থক্য কী?</p>
+        <p class="ca">IgM = acute/window period। IgG = past or chronic infection।</p>
+        <p class="cq">HBeAg positive মানে কী?</p>
+        <p class="ca">High infectivity — virus actively replicate করছে। Anti-HBe = low transmissibility।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>HBV-র seromarker interpret করতে হবে। Main গুলো — HBsAg positive = active infection (acute বা chronic)। Anti-HBs positive = immunity (recovery বা vaccine)।</p>
+<p>Anti-HBc IgM = acute, IgG = past/chronic। HBeAg positive = high infectivity।</p>
+<p>Sutra — "HBsAg থাকলে virus আছে, Anti-HBs থাকলে immunity আছে।" Main table-টা মনে থাকলে viva-তে কোনো সমস্যা হবে না।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V68</span>
+      <p class="qtext">Why are HBcAg not found in blood? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> core antigen on nucleocapsid, not secreted, only in hepatocytes, doesn't circulate</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>HBcAg (Hepatitis B core antigen) is not found in blood</b> because:</p>
+      <ul>
+        <li><b>HBcAg is located on the nucleocapsid (core) protein</b> of the virus, not on the surface.</li>
+        <li>It is <b>not secreted</b> by infected cells and therefore <b>does not circulate in the blood</b>.</li>
+        <li>It is <b>only found within the infected hepatocytes</b> (expressed on the surface of hepatocytes).</li>
+      </ul>
+      <p>In contrast, <b>HBsAg</b> (surface antigen) is on the envelope and <b>HBeAg</b> (precore antigen) is <b>soluble and secreted into blood</b> — both are detectable in serum.</p>
+      <p><b>Why Anti-HBc is still useful:</b> Although HBcAg is not in blood, <b>Anti-HBc antibody</b> IS detectable (IgM = acute, IgG = past/chronic) — an important marker.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HBcAg কেন blood-এ পাওয়া যায় না?</p>
+        <p class="ca">কারণ এটি nucleocapsid (core) protein-এ অবস্থিত, secret হয় না, তাই blood-এ চলে আসবে না। শুধু hepatocyte-র ভেতরে থাকে।</p>
+        <p class="cq">HBsAg আর HBeAg কেন blood-এ পাওয়া যায়?</p>
+        <p class="ca">HBsAg surface-এ থাকে (envelope), HBeAg soluble — দুইটাই secreted, তাই blood-এ detect হয়।</p>
+        <p class="cq">HBcAg blood-এ না থাকলেও Anti-HBc কেন important?</p>
+        <p class="ca">কারণ Anti-HBc antibody detect করা যায় (IgM = acute, IgG = past/chronic) — এটি একটি important diagnostic marker।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>HBcAg blood-এ পাওয়া যায় না — কারণ এটি nucleocapsid (core) protein-এ অবস্থিত, secret হয় না, তাই blood-এ চলে আসবে না। এটি শুধু hepatocyte-র ভেতরে থাকে।</p>
+<p>বিপরীতে HBsAg surface-এ থাকে আর HBeAg soluble — তাই তারা blood-এ পাওয়া যায়।</p>
+<p>HBcAg blood-এ না থাকলেও তার antibody (Anti-HBc) আছে, তাই diagnostic value আছে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V69</span>
+      <p class="qtext">How will you diagnosis of hepatitis caused by hepatitis virus? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> viral marker (seromarker) + liver function test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Diagnosis of hepatitis caused by hepatitis virus:</b></p>
+      <p><b>1. Specimen collection:</b> blood (serum),<strike> according to site of infection.</strike></p>
+      <p><b>2. Microscopy:</b> usually not done (may use immune electron microscopy).</p>
+      <p><b>3. Culture:</b> cell culture, but usually not done.</p>
+      <p><b>4. Immunological test (viral markers / seromarkers) — main:</b></p>
+      <ul>
+        <li><b>HAV:</b> Anti-HAV IgM (best, acute).</li>
+        <li><b>HBV:</b> HBsAg, HBeAg (Ag); Anti-HBs, Anti-HBe, Anti-HBc (Ab).</li>
+        <li><b>HCV:</b> Anti-HCV Ab (ELISA), confirmed by RIBA or RT-PCR.</li>
+        <li><b>HDV:</b> Delta (δ) antigen, Anti-HDV Ab.</li>
+        <li><b>HEV:</b> Anti-HEV Ab (IgM).</li>
+      </ul>
+      <p><b>5. Molecular test:</b> PCR for HBV; RT-PCR for other hepatitis viruses.</p>
+      <p><b>6. Liver function test (LFT) — common:</b> elevated serum bilirubin, elevated ALT (usually higher than AST).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Hepatitis virus-এর diagnosis-এর মূল কৌশল কী?</p>
+        <p class="ca">দুইটি pillar — viral marker (seromarker) detection + liver function test (LFT)।</p>
+        <p class="cq">Specimen কী নেওয়া হয়?</p>
+        <p class="ca">Blood (serum)।</p>
+        <p class="cq">Molecular test কোন virus-এ কী ব্যবহার হয়?</p>
+        <p class="ca">HBV-তে PCR, অন্য hepatitis virus-তে RT-PCR।</p>
+        <p class="cq">LFT-তে কী দেখা যায়?</p>
+        <p class="ca">Elevated serum bilirubin, elevated ALT (usually higher than AST)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Hepatitis diagnosis-র জান — viral marker (seromarker) detection আর liver function test (LFT)।</p>
+<p>কোনো একটি hepatitis virus ধরবো — তার seromarker খুঁজে বের করবো (HAV → Anti-HAV IgM; HBV → HBsAg ইত্যাদি)। Molecular test (PCR/RT-PCR)।</p>
+<p>আর LFT-তে bilirubin আর ALT বড় দেখা যাবে। "Viral marker + LFT" — এই দুইটাই hepatitis diagnosis-র মূল স্তম্ভ।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V70</span>
+      <p class="qtext">What do you mean by 'window period'? Mention its importance. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> period at which Ag disappear and Ab yet not appear</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Window period</b> is the time interval between the disappearance of a specific antigen from the blood and the appearance of the corresponding antibody against that antigen.</p>
+      <p>During this period, neither the antigen nor the antibody is detectable by routine serological tests, making diagnosis by standard markers difficult.</p>
+      <p><b>Key examples:</b></p>
+      <ul>
+        <li><b>In HBV infection:</b> There is a period when HBsAg declines to an undetectable level and anti-HBs Ab has not yet developed. Only <b>Anti-HBc IgM</b> is found during this period.</li>
+        <li><b>In HIV infection:</b> P24 antigen is found during the window period (between loss of p24 Ag and appearance of anti-HIV antibodies).</li>
+      </ul>
+      <p><b>Importance:</b></p>
+      <ul>
+        <li>A patient may be infectious during the window period but standard screening tests (HBsAg, anti-HIV ELISA) may be negative.</li>
+        <li>Special tests are needed to detect infection during this period<b> (Anti-HBc IgM for HBV, P24 antigen for HIV)</b>.</li>
+        <li><h3>Blood donated during this window period may transmit infection despite negative screening results.</h3></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">উইন্ডো পিরিয়ডকে কখন "সেরোলজিক্যাল গ্যাপ" (serological gap) বলা হয়?</p>
+<p class="ca">যখন অ্যান্টিজেন রক্ত থেকে নিশ্চিহ্ন হয়ে যায় কিন্তু নির্দিষ্ট অ্যান্টিবডি এখনো তৈরি হয়নি, তখন এই ফাঁকা সময়টাকে সেরোলজিক্যাল গ্যাপ বা উইন্ডো পিরিয়ড বলা হয় — এই সময়ে রুটিন সেরোটেস্টে কিছুই ধরা পড়ে না।</p>
+<p class="cq">উইন্ডো পিরিয়ডে রোগী কি সংক্রামক হতে পারে?</p>
+<p class="ca">হ্যাঁ, রোগী এই পিরিয়ডে অত্যন্ত সংক্রামক হতে পারে, কারণ রক্তে ভাইরাস (viremia) থাকে, অথচ স্ট্যান্ডার্ড স্ক্রিনিং টেস্ট (যেমন HBsAg বা anti-HIV ELISA) নেগেটিভ দেখায় — তাই রক্ত দান করলে সংক্রমণ ছড়াতে পারে।</p>
+<p class="cq">HBV-তে উইন্ডো পিরিয়ডে কোন মার্কারটি ধরা পড়ে?</p>
+<p class="ca">কেবলমাত্র Anti-HBc IgM ধরা পড়ে — কারণ এটা HBsAg আসার ১-২ সপ্তাহের মধ্যে তৈরি হয় এবং ৩-৬ মাস থাকে, এমন সময় যখন HBsAg চলে গেছে কিন্তু anti-HBs এখনো আসেনি।</p>
+<p class="cq">HIV-তে উইন্ডো পিরিয়ড কতদিন এবং কী দিয়ে শনাক্ত করা হয়?</p>
+<p class="ca">HIV-তে উইন্ডো পিরিয়ড প্রায় ২৫ দিন থেকে ১ মাস। এই সময়ে P24 অ্যান্টিজেন টেস্ট বা NAT/RT-PCR (viral RNA) দিয়ে সংক্রমণ শনাক্ত করা যায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — উইন্ডো পিরিয়ড মানে সেই সময়টা যখন নির্দিষ্ট অ্যান্টিজেন রক্ত থেকে হারিয়ে যায় কিন্তু তার বিপরীতে তৈরি হওয়া অ্যান্টিবডি এখনো আসে না। ফলে রুটিন সেরোলজিক্যাল টেস্টে দুটোর কিছুই ধরা পড়ে না — না অ্যান্টিজেন, না অ্যান্টিবডি।</p>
+<p>HBV-তে এই অবস্থাটা এমন — HBsAg কমে গিয়ে অশনাক্তযোগ্য হয়ে যায়, কিন্তু anti-HBs এখনো তৈরি হয়নি। এই ফাঁকে শুধু <b>Anti-HBc IgM</b> পাওয়া যায়। HIV-তে উইন্ডো পিরিয়ডে <b>P24 অ্যান্টিজেন</b> থাকে।</p>
+<p>এর গুরুত্ব — এই পিরিয়ডে রোগী সংক্রামক থাকতে পারে কিন্তু স্ট্যান্ডার্ড স্ক্রিনিং (HBsAg, anti-HIV ELISA) নেগেটিভ আসতে পারে। তাই রক্ত দান করলে এই উইন্ডো পিরিয়ডের রক্ত দিয়ে সংক্রমণ ছড়াতে পারে।</p>
+<p>বুঝানোর জন্য এক লাইনে বলো — "উইন্ডো পিরিয়ড = অ্যান্টিজেন গেল, অ্যান্টিবডি আসল না; HBV-তে Anti-HBc IgM, HIV-তে P24 অ্যান্টিজেন দিয়ে ধরা পড়ে।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V71</span>
+      <p class="qtext">What should you done to diagnosis hepatitis B and HIV in window period? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Anti-HBc Ab for HBV and P24 antigen for HIV</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>During the window period, standard antigen and antibody tests may be negative. Special markers must be used:</p>
+      <ul>
+        <li><b>For HBV:</b> Test for <b>Anti-HBc IgM</b> (IgM antibody to hepatitis B core antigen). Anti-HBc IgM appears within 1–2 weeks of HBsAg appearance and persists for 3–6 months. It is the only detectable seromarker during the HBV window period.</li>
+        <li><b>For HIV:</b> Test for <b>P24 antigen</b> (the core capsid protein of HIV). P24 antigen is detectable in blood before antibodies develop and can identify early HIV infection during the window period. Alternatively, <b>nucleic acid testing (NAT/RT-PCR)</b> for HIV RNA can detect viremia before seroconversion.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HBV-এর উইন্ডো পিরিয়ডে কেন Anti-HBc IgM-ই একমাত্র নির্ভরযোগ্য মার্কার?</p>
+<p class="ca">কারণ HBsAg তখন চলে গেছে (undetectable) এবং anti-HBs এখনো তৈরি হয়নি; Anti-HBc IgM HBsAg আসার ১-২ সপ্তাহে তৈরি হয়ে ৩-৬ মাস থাকে — তাই এই ফাঁকে শুধু এটাই ধরা পড়ে।</p>
+<p class="cq">HIV-র উইন্ডো পিরিয়ডে P24 অ্যান্টিজেন ছাড়াও আর কোন টেস্ট করা যায়?</p>
+<p class="ca">Nucleic acid test (NAT) বা RT-PCR দিয়ে HIV RNA শনাক্ত করা যায় — সেরোকনভার্সনের আগেই viremia ধরা পড়ে। আধুনিক ৪র্থ প্রজন্মের ELISA একসাথে P24 Ag ও anti-HIV Ab দুটোই শনাক্ত করে, ফলে উইন্ডো পিরিয়ড কমে যায়।</p>
+<p class="cq">এলিসা টেস্টের মিথ্যা-নেগেটিভ উইন্ডো কতদিন?</p>
+<p class="ca">আনুমানিক ২৫ দিন থেকে ১ মাস পর্যন্ত — এই সময়ে P24 অ্যান্টিজেন বা NAT কাজে লাগে।</p>
+<p class="cq">Western blot কোন প্রোটিনগুলোর অ্যান্টিবডি একসাথে সনাক্ত করে?</p>
+<p class="ca">p24, gp41, gp120 এবং gp160 — এগুলো HIV-র কনফার্মেটরি টেস্ট।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — উইন্ডো পিরিয়ডে স্ট্যান্ডার্ড অ্যান্টিজেন-অ্যান্টিবডি টেস্ট নেগেটিভ আসলেও বিশেষ মার্কার ব্যবহার করে সংক্রমণ শনাক্ত করতে হয়।</p>
+<p><b>HBV-এর জন্য:</b> টেস্ট করতে হবে <b>Anti-HBc IgM</b> (হেপাটাইটিস বি কোর অ্যান্টিজেনের বিপরীতে IgM অ্যান্টিবডি)। এটা HBsAg আসার ১-২ সপ্তাহ পরে তৈরি হয় এবং ৩-৬ মাস পর্যন্ত থাকে। HBV-র উইন্ডো পিরিয়ডে এটিই একমাত্র ধরা পড়া সেরোমার্কার।</p>
+<p><b>HIV-এর জন্য:</b> টেস্ট করতে হবে <b>P24 অ্যান্টিজেন</b> — HIV-র কোর ক্যাপসিড প্রোটিন। অ্যান্টিবডি তৈরি হওয়ার আগেই এটা রক্তে ধরা পড়ে। বিকল্পভাবে HIV RNA ধরা পড়ার জন্য <b>NAT/RT-PCR</b> করা যায় — সেরোকনভার্সনের আগেই viremia শনাক্ত হয়।</p>
+<p>এক লাইনে বলো — "HBV-তে Anti-HBc IgM, HIV-তে P24 অ্যান্টিজেন বা RT-PCR — এই স্পেশাল মার্কার না দিলে মিথ্যা নেগেটিভ রিপোর্ট আসতে পারে।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V72</span>
+      <p class="qtext">How will you prevent hepatitis? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HAV &amp; HEV- same, HCV, HBV same except HBV is vaccine preventable disease.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Prevention of HAV and HEV (fecal-oral route):</b></p>
+      <ul>
+        <li>Proper sanitation — safe drinking water, purification by filtration and chlorination, use boiled water during outbreaks.</li>
+        <li>Maintain personal hygiene — hand washing before eating and after toilet use.</li>
+        <li>Proper food management and proper excreta disposal.</li>
+        <li>Health education about sanitation and hepatitis.</li>
+        <li>Vaccination: HAV — killed vaccine <b>(2 doses, 2nd dose 6–12 months later), </b>not practiced in Bangladesh. HEV — no vaccine available.</li>
+      </ul>
+      <p><b>Prevention of HBV, HCV, and HDV (parenteral/sexual route):</b></p>
+      <ul>
+        <li>Avoid shared needles, razors, toothbrushes.</li>
+        <li>Use barrier method (condoms) during sexual contact.</li>
+        <li>Safe blood transfusion after screening tests.</li>
+        <li>Take standard safety precautions in hospital and healthcare settings.</li>
+        <li><b>HBV only:</b> Vaccination (subunit HBV vaccine). Pre-exposure: newborn (pentavalent at 6, 10, 14 weeks) and adult (0, 1, 6 months)<b>. Post-exposure: HBIG + vaccine (passive-active immunization).</b></li>
+        <li><b>HDV:</b> Prevent HBV first (since HDV is a defective virus needing HBsAg). No separate vaccine for HDV.</li>
+        <li><b>HCV:</b> No vaccine available. <b>Prevention relies on avoiding risk factors and safe blood screening.</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HAV-এর ভ্যাকসিন কেমন এবং কয় ডোজ দেওয়া হয়?</p>
+<p class="ca">HAV ভ্যাকসিন হলো killed (নিষ্ক্রিয়) ভ্যাকসিন — ২ ডোজ দেওয়া হয়, দ্বিতীয় ডোজ ৬-১২ মাস পরে। তবে বাংলাদেশে এটি প্র্যাকটিস করা হয় না।</p>
+<p class="cq">HEV-এর ভ্যাকসিন আছে কি?</p>
+<p class="ca">না, HEV-এর কোনো বাণিজ্যিক ভ্যাকসিন এখনো সহজলভ্য নয় — তাই HEV প্রতিরোধ শুধু স্যানিটেশন, নিরাপদ পানি ও পরিচ্ছন্নতার উপর নির্ভর করে।</p>
+<p class="cq">HCV প্রতিরোধের মূল উপায় কী?</p>
+<p class="ca">HCV-র ভ্যাকসিন নেই — তাই প্রধান উপায় হলো রক্ত স্ক্রিনিং, সুই/ব্লেড শেয়ার না করা, কন্ডোম ব্যবহার এবং হাসপাতালে নিরাপদতা ব্যবস্থা।</p>
+<p class="cq">HDV প্রতিরোধ করতে প্রথমে কী করতে হয়?</p>
+<p class="ca">প্রথমে HBV প্রতিরোধ করতে হয় — কারণ HDV একটি defective virus যা নিজের envelope নয়, HBV-র HBsAg ব্যবহার করে। HBV রুখলে HDV-ও সংক্রমণ করতে পারে না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় হেপাটাইটিস প্রতিরোধ বলতে গেলে প্রথমে ভাগ করে বলো — HAV ও HEV যায় fecal-oral রুট দিয়ে, আর HBV, HCV, HDV যায় রক্ত/যৌন রুট দিয়ে। তাই প্রতিরোধও আলাদা।</p>
+<p><b>HAV/HEV-এর জন্য:</b> নিরাপদ পানি (ফিল্টার/ক্লোরিনেশন, প্রাদুর্ভাবে ফুটানো পানি), হাত ধোয়া, সঠিক খাদ্য ব্যবস্থাপনা ও পায়খানার নিষ্পত্তি, স্বাস্থ্য শিক্ষা। HAV-র killed ভ্যাকসিন আছে (২ ডোজ, দ্বিতীয় ডোজ ৬-১২ মাস পরে) কিন্তু বাংলাদেশে প্রচলিত নয়; HEV-র কোনো ভ্যাকসিন নেই।</p>
+<p><b>HBV/HCV/HDV-এর জন্য:</b> শেয়ার করা সুই, ব্লেড, টুথব্রাশ এড়ানো; যৌনতায় কন্ডোম (barrier method); স্ক্রিনিং করা নিরাপদ রক্ত; হাসপাতালে স্ট্যান্ডার্ড সেফটি।</p>
+<p><b>HBV-র জন্য ভ্যাকসিন আছে</b> — এটি প্রথম ক্যান্সার প্রতিরোধকারী ভ্যাকসিন। নবজাতককে pentavalent (৬, ১০, ১৪ সপ্তাহে), প্রাপ্তবয়স্ককে ০, ১, ৬ মাসে। এক্সপোজারের পরে HBIG + ভ্যাকসিন (passive-active)।</p>
+<p><b>HDV:</b> প্রথমে HBV রুখতে হবে, HDV-র আলাদা ভ্যাকসিন নেই। <b>HCV:</b> ভ্যাকসিন নেই, রিস্ক ফ্যাক্টর এড়ানো ও রক্ত স্ক্রিনিংই প্রধান।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V73</span>
+      <p class="qtext">How will you prevent hepatitis caused by HDV? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> prevent HBV first</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>HDV is a <b>defective virus</b> that cannot replicate without HBV because it uses HBsAg (hepatitis B surface antigen) as its envelope protein. Therefore:</p>
+      <ul>
+        <li><b>Prevention of HDV = prevention of HBV.</b> If HBV infection is prevented, HDV cannot establish infection.</li>
+        <li><b>HBV vaccination</b> is the most effective measure — it prevents HBV and thereby prevents HDV co-infection or super-infection.</li>
+        <li>Avoid shared needles, razors, and unsafe sexual practices (same as HBV prevention).</li>
+        <li>Safe blood transfusion after screening.</li>
+        <li>No separate vaccine or specific immunoglobulin exists for HDV.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HDV সংক্রমণ কীভাবে হতে পারে?</p>
+<p class="ca">দুইভাবে — co-infection (HBV-এর সাথে একসাথে) বা super-infection (দীর্ঘস্থায়ী HBV-এর পরে)। Super-infection সবচেয়ে মারাত্মক — দ্রুত fulminant ও chronic লিভার রোগ হয়।</p>
+<p class="cq">HDV কেন defective virus?</p>
+<p class="ca">কারণ HDV-র নিজস্ব envelope/protein নেই — এটি HBV-র HBsAg-কে envelope হিসেবে ব্যবহার করে, তাই HBV না থাকলে HDV বংশবিস্তার করতে পারে না।</p>
+<p class="cq">HDV-র জন্য আলাদা অ্যান্টিভাইরাল বা ভ্যাকসিন আছে কি?</p>
+<p class="ca">HDV-র জন্য আলাদা কোনো ভ্যাকসিন নেই; peginterferon alfa chronic hepatitis কমানো যায় কিন্তু carrier state সম্পূর্ণ দূর হয় না। তাই মূল প্রতিরোধ HBV রোধ করা।</p>
+<p class="cq">HDV সংক্রমণের তীব্রতা HBV-এর তুলনায় কেমন?</p>
+<p class="ca">Super-infection &gt; co-infection &gt; শুধু HBV — এই ক্রমে তীব্রতা, chronicity ও fulminant রোগ বেশি হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HDV প্রতিরোধ করার মূল চাবিকাঠি হলো প্রথমে HBV প্রতিরোধ করা। কারণ HDV একটি <b>defective virus</b> — এর নিজের envelope নেই, এটি HBV-র HBsAg-কে নিজের envelope হিসেবে ব্যবহার করে বংশবিস্তার করে। তাই HBV না থাকলে HDV-ও সংক্রমণ করতে পারে না।</p>
+<p>সবচেয়ে কার্যকর ব্যবস্থা হলো <b>HBV ভ্যাকসিনেশন</b> — এতে HBV রোধ হয়, ফলে HDV-র co-infection বা super-infection দুটোই আটকায়। এছাড়া HBV-র মতোই শেয়ার করা সুই/ব্লেড এড়ানো, অসুরক্ষিত যৌনতা এড়ানো, এবং স্ক্রিনিং করা রক্ত দেওয়া জরুরি।</p>
+<p>মনে রাখতে হবে — HDV-র জন্য আলাদা কোনো ভ্যাকসিন বা নির্দিষ্ট immunoglobulin নেই। তাই এক লাইনে বলো — "HDV প্রতিরোধ = HBV প্রতিরোধ = HBV ভ্যাকসিন।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V74</span>
+      <p class="qtext">What will you do if needle stick injury occur from a HBV or baby from a HBV positive mother? ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HBIG + vaccination: if previously vaccinated then you should test the Anti-HBsAg antibody titer; if not then 3 complete dose (0,1, and 6 month)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Post-exposure prophylaxis (PEP) for HBV — passive-active immunization:</b></p>
+      <ul>
+        <li><b>If previously NOT vaccinated:</b> Give <b>HBIG (Hepatitis B Immunoglobulin)</b> as passive immunization + start complete course of <b>HBV vaccine (3 doses at 0, 1, and 6 months)</b> as active immunization.</li>
+        <li><b>If previously vaccinated:</b> First test <b>anti-HBs antibody titer</b>. If titer &gt;10 mIU/ml → patient is protected, no further action needed. If titer &lt;10 mIU/ml → give <b>HBIG</b> + <b>revaccination with 3 doses (0, 1, 6 months)</b>.</li>
+      </ul>
+      <p><b>Same protocol applies for:</b></p>
+      <ul>
+        <li>Needle-stick injury from HBsAg-positive patient.</li>
+        <li><h3>Newborn baby of HBsAg-positive mother (HBIG within 12 hours of birth + HBV vaccine per EPI schedule).</h3></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">সুই-স্টিক ইনজুরিতে HBV, HCV ও HIV-র সংক্রমণ সম্ভাবনা কত?</p>
+<p class="ca">HBV ৩০%, HCV ৩%, HIV মাত্র ০.৩% — মানে HBV সবচেয়ে সংক্রামক, HIV সবচেয়ে কম।</p>
+<p class="cq">HBIG আর ভ্যাকসিন একই স্থানে দেওয়া যায় কি?</p>
+<p class="ca">না, একসাথে একই স্থানে দেওয়া যাবে না — নাহলে পরস্পর neutralization হয়ে যাবে, সুরক্ষা কাজ করবে না। তাই আলাদা জায়গায় দিতে হয়।</p>
+<p class="cq">HBIG কেন দেওয়া হয়?</p>
+<p class="ca">HBIG দিয়ে immediate passive সুরক্ষা দেওয়া হয় — সাথে সাথে অ্যান্টিবডি সরবরাহ করে, যতক্ষণ পর্যন্ত ভ্যাকসিন থেকে সক্রিয় ইমিউনিটি তৈরি না হয়।</p>
+<p class="cq">আগে থেকে ভ্যাকসিন নেওয়া থাকলে সুই-স্টিক ইনজুরিতে কী করবেন?</p>
+<p class="ca">প্রথমে anti-HBs titer টেস্ট করুন। titer &gt;10 mIU/ml হলে সুরক্ষিত, আর কিছু দরকার নেই; &lt;10 mIU/ml হলে HBIG + ৩ ডোজ (০, ১, ৬ মাস) পুনরায় ভ্যাকসিন দিন।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HBV পজিটিভ রোগীর সুই-স্টিক ইনজুরি বা HBV পজিটিভ মায়ের সন্তানের ক্ষেত্রে পোস্ট-এক্সপোজার প্রফিল্যাক্সিস (PEP) করতে হয়, যাকে passive-active immunization বলা হয়।</p>
+<p>এটি দুই ভাগে ভাগ করা যায় — <b>আগে থেকে ভ্যাকসিন নেননি</b> এমন ক্ষেত্রে: HBIG (প্যাসিভ) + সম্পূর্ণ HBV ভ্যাকসিন ৩ ডোজ (০, ১, ৬ মাস) (অ্যাক্টিভ)। আর <b>আগে থেকে ভ্যাকসিন নেওয়া থাকলে</b>: প্রথমে anti-HBs অ্যান্টিবডি titer টেস্ট করতে হবে। titer &gt;10 mIU/ml হলে সুরক্ষিত — আর কিছু লাগবে না। titer &lt;10 mIU/ml হলে HBIG + পুনরায় ৩ ডোজ (০, ১, ৬ মাস) ভ্যাকসিন দিতে হবে।</p>
+<p>একই প্রোটোকল প্রয়োগ হয় — HBsAg পজিটিভ রোগীর সুই-স্টিক ইনজুরিতে, এবং HBsAg পজিটিভ মায়ের নবজাতকের ক্ষেত্রে (জন্মের ১২ ঘণ্টার মধ্যে HBIG + EPI সময়সূচি অনুযায়ী HBV ভ্যাকসিন)।</p>
+<p>মনে রাখো — HBIG immediate passive সুরক্ষা দেয়, ভ্যাকসিন দীর্ঘমেয়াদি অ্যাক্টিভ ইমিউনিটি তৈরি করে; এবং দুটো একই জায়গায় দেওয়া যাবে না।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V75</span>
+      <p class="qtext">What tests will you advise before taking vaccine against HBV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> if anti-HBsAg antibody titer &gt; 10mIU/ml, he or she is protected. if titer remain &lt;10mIU/ml after full dose of vaccination; re-vaccination should be done with 3 dose (0, 1 &amp; 6 months)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Before advising HBV vaccination, the following tests are recommended:</p>
+      <ul>
+        <li><b>HBsAg</b> — to check if the person is already infected.</li>
+        <li><b>Anti-HBs antibody titer</b> — to check if the person is already immune (from previous infection or vaccination).</li>
+      </ul>
+      <p><b>Interpretation:</b></p>
+      <ul>
+        <li>If <b>anti-HBs titer &gt;10 mIU/ml</b> → the person is already protected. No need for vaccination.</li>
+        <li>If <b>anti-HBs titer &lt;10 mIU/ml</b> after a full course of vaccination → re-vaccination with 3 doses (0, 1, and 6 months) is needed.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">সফল ভ্যাকসিনেশনের সেরোমার্কার প্যাটার্ন কেমন?</p>
+<p class="ca">HBsAg নেগেটিভ, anti-HBs পজিটিভ, anti-HBc নেগেটিভ — এটাই ভ্যাকসিনেশনের (প্রাকৃতিক সংক্রমণ নয়) সফলতা নির্দেশ করে।</p>
+<p class="cq">প্রাকৃতিক সংক্রমণ থেকে সুস্থ হওয়ার সেরোমার্কার কেমন?</p>
+<p class="ca">HBsAg নেগেটিভ, anti-HBs পজিটিভ, anti-HBc IgG পজিটিভ — এতে প্রাকৃতিক সংক্রমণের মাধ্যমে ইমিউনিটি হয়েছে বোঝা যায়।</p>
+<p class="cq">HBV ভ্যাকসিন কীভাবে তৈরি হয়?</p>
+<p class="ca">এটি subunit vaccine — রিকম্বিন্যান্ট ডিএনএ টেকনোলজি দিয়ে খামির (yeast) বা E. coli-তে HBsAg উৎপাদন করে তৈরি করা হয়।</p>
+<p class="cq">anti-HBs titer কত হলে সুরক্ষিত ধরা হয়?</p>
+<p class="ca">&gt;10 mIU/ml হলে সুরক্ষিত ধরা হয়; এর নিচে হলে পুনরায় ভ্যাকসিনেশন (৩ ডোজ) দরকার।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HBV ভ্যাকসিন দেওয়ার আগে দুটি টেস্ট করার পরামর্শ দেওয়া হয়। প্রথমটি <b>HBsAg</b> — দেখার জন্য রোগী ইতিমধ্যে সংক্রমিত কি না। দ্বিতীয়টি <b>anti-HBs অ্যান্টিবডি titer</b> — দেখার জন্য রোগী ইতিমধ্যে রোগ প্রতিরোধ ক্ষমতা (ইমিউন) পেয়েছে কি না (আগের সংক্রমণ বা ভ্যাকসিন থেকে)।</p>
+<p>ব্যাখ্যা: <b>anti-HBs titer &gt;10 mIU/ml</b> হলে রোগী ইতিমধ্যে সুরক্ষিত — ভ্যাকসিনের দরকার নেই। কিন্তু সম্পূর্ণ ভ্যাকসিন কোর্সের পরও titer &lt;10 mIU/ml থাকলে আবার ৩ ডোজ (০, ১, ৬ মাস) ভ্যাকসিন দিতে হবে।</p>
+<p>মনে রাখতে হয় — সফল ভ্যাকসিনেশন = HBsAg নেগেটিভ, anti-HBs পজিটিভ, anti-HBc নেগেটিভ; আর প্রাকৃতিক সংক্রমণ থেকে সুস্থ হওয়া = anti-HBc IgG পজিটিভ। এক লাইনে — "HBV ভ্যাকসিনই প্রথম ক্যান্সার প্রতিরোধকারী ভ্যাকসিন।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

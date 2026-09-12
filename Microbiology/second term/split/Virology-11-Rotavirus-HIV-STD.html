@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Rotavirus, HIV/AIDS & STDs (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Rotavirus, HIV/AIDS &amp; STDs</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">14 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">14 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-10-Polio-Neurotropic-Viruses.html">‹ Prev</a><a href="Virology-12-Dengue-Arboviruses.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Rotavirus, HIV/AIDS &amp; STDs</h2><div class="en">Rotavirus, HIV morphology/pathogenesis/diagnosis/treatment, vertical transmission, STDs, syphilis vs gonorrhea</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V111</span>
+      <p class="qtext">Write a short note on Rotavirus and its significance. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Most common cause of infantile diarrhea; wheel-like appearance</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Rotavirus</b> — family <b>Reoviridae</b>. Non-enveloped, dsRNA virus with 11 segments. Named "rota" (Latin for wheel) due to wheel-like appearance on electron microscopy.</p>
+      <p><b>Significance:</b></p>
+      <ul>
+        <li><b>Most common cause of severe infantile diarrhea worldwide</b> (especially in children aged 6 months to 2 years).</li>
+        <li>Responsible for ~40% of hospitalizations due to diarrhea in children.</li>
+        <li>Estimated 128,000-215,000 deaths annually in children under 5 years, mostly in developing countries.</li>
+      </ul>
+      <p><b>Key features:</b></p>
+      <ul>
+        <li><b>Transmission:</b> Fecal-oral route; contaminated water, fomites.</li>
+        <li><b>Pathogenesis:</b> Virus infects enterocytes of small intestine → destruction of villi → malabsorption → watery diarrhea (non-bloody).</li>
+        <li><b>Clinical features:</b> Acute watery diarrhea, vomiting, fever, dehydration. Incubation period: 1-3 days. Duration: 3-7 days.</li>
+        <li><b>Diagnosis:</b> Stool ELISA for rotavirus antigen.</li>
+        <li><b>Prevention:</b> Live oral vaccines — RotaTeq (3 doses), Rotarix (2 doses). Part of EPI in many countries.</li>
+        <li><b>Treatment:</b> ORS (Oral Rehydration Solution), zinc supplementation. No specific antiviral.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">কোন গ্রুপের রোটাভাইরাস শিশুদের গুরুতর ডায়রিয়ার কারণ?</p>
+<p class="ca">Group A rotavirus — ৬ মাস থেকে ২ বছরের শিশুদের সবচেয়ে সাধারণ গুরুতর ডায়রিয়া।</p>
+<p class="cq">রোটাভাইরাস fecal shedding কতদিন থাকে?</p>
+<p class="ca">লক্ষণ শেষ হওয়ার পরও দিন থেকে সপ্তাহ ধরে মলে ভাইরাস নিঃসৃত হতে থাকে।</p>
+<p class="cq">রোটাভাইরাস ভ্যাকসিনের প্রভাব কী?</p>
+<p class="ca">উচ্চ কভারেজের দেশে হাসপাতাল-ভর্তি ও মৃত্যু নাটকীয়ভাবে কমেছে।</p>
+<p class="cq">রোটাভাইরাস কি প্রাণীতে ডায়রিয়া করে?</p>
+<p class="ca">হ্যাঁ — প্রাণীতেও ঘটে; zoonotic সম্ভাবনা আছে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Rotavirus</b> — Reoviridae পরিবার; non-enveloped, dsRNA ভাইরাস, ১১ সেগমেন্ট। ইলেকট্রন মাইক্রোস্কোপিতে চাকার (wheel) মতো দেখা যায় বলে নাম "রোটা" (লাতিন: রোট = চাকা)।</p>
+<p><b>গুরুত্ব:</b> বিশ্বব্যাপী <b>শিশুদের গুরুতর ডায়রিয়ার সবচেয়ে সাধারণ কারণ</b> (৬ মাস-২ বছর); শিশু ডায়রিয়া-জনিত হাসপাতাল-ভর্তির ~৪০%; ৫ বছরের নিচে বার্ষিক আনুমানিক ১,২৮,০০০–২,১৫,০০০ মৃত্যু — প্রধানত উন্নয়নশীল দেশে।</p>
+<p><b>মূল বৈশিষ্ট্য:</b> fecal-oral সংক্রমণ (দূষিত পানি, fomites); ক্ষুদ্রান্ত্রের enterocyte সংক্রমণ → ভিলাস ধ্বংস → malabsorption → জলীয় (রক্তহীন) ডায়রিয়া। লক্ষণ: তীব্র জলীয় ডায়রিয়া, বমি, জ্বর, পানিশূন্যতা; incubation ১-৩ দিন; স্থিতি ৩-৭ দিন। ডায়াগনোসিস: মলের ELISA (রোটাভাইরাস অ্যান্টিজেন)। প্রতিরোধ: live oral ভ্যাকসিন — RotaTeq (৩ ডোজ), Rotarix (২ ডোজ); অনেক দেশে EPI-র অংশ। চিকিৎসা: ORS, জিঙ্ক; নির্দিষ্ট অ্যান্টিভাইরাল নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V112</span>
+      <p class="qtext">Write a short note on HIV. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Retrovirus, ssRNA, CD4+ T cells, gp120/gp41, reverse transcriptase</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Human Immunodeficiency Virus (HIV)</b> — family <b>Retroviridae</b>, genus <b>Lentivirus</b>. Enveloped, ssRNA (+) virus with two copies of RNA.</p>
+      <p><b>Structure:</b></p>
+      <ul>
+        <li><b>Envelope glycoproteins:</b> gp120 (surface, binds CD4 receptor) and gp41 (transmembrane, mediates fusion).</li>
+        <li><b>Matrix protein:</b> p17.</li>
+        <li><b>Capsid:</b> p24 (most abundant structural protein — basis of antigen detection).</li>
+        <li><b>Enzymes:</b> Reverse transcriptase (RNA → DNA), Integrase, Protease.</li>
+        <li><b>Two types:</b> HIV-1 (most common worldwide), HIV-2 (mainly West Africa, less virulent).</li>
+      </ul>
+      <p><b>Pathogenesis:</b></p>
+      <ul>
+        <li>gp120 binds CD4 receptor + CCR5/CXCR4 co-receptor on T-helper cells, macrophages, dendritic cells.</li>
+        <li>Reverse transcriptase converts viral RNA → DNA → integrates into host genome (provirus) via integrase.</li>
+        <li>Progressive depletion of CD4+ T cells → immunodeficiency → opportunistic infections, malignancies.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HIV-র উচ্চ মিউটেশন হারের প্রভাব কী?</p>
+<p class="ca">Antigenic variation — তাই ভ্যাকসিন তৈরি অত্যন্ত কঠিন।</p>
+<p class="cq">HIV-র প্রধান সংক্রমণ রুট কী?</p>
+<p class="ca">যৌন যোগাযোগ (সবচেয়ে সাধারণ); রক্ত/রক্তপণ্য, মা-থেকে-সন্তান (vertical), সুই-স্টিক।</p>
+<p class="cq">সুই-স্টিকে HIV সংক্রমণের সম্ভাবনা কত?</p>
+<p class="ca">০.৩% (HBV ৩০%, HCV ৩% এর তুলনায় কম)।</p>
+<p class="cq">ক্লিনিক্যাল স্পেকট্রাম কী?</p>
+<p class="ca">তীব্র সংক্রমণ → Clinical latency (CD4 কমতে থাকে) → AIDS (CD4 &lt;200/μl)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>HIV (Human Immunodeficiency Virus)</b> — Retroviridae পরিবার, genus Lentivirus; enveloped, ssRNA(+) ভাইরাস, RNA-র দুটি কপি থাকে।</p>
+<p><b>গঠন:</b> envelope গ্লাইকোপ্রোটিন gp120 (CD4 receptor-এ বাঁধা) ও gp41 (fusion); matrix p17; capsid p24 (সবচেয়ে প্রচুর কাঠামো-প্রোটিন — অ্যান্টিজেন শনাক্তকরণের ভিত্তি); এনজাইম reverse transcriptase, integrase, protease। দুই ধরন — HIV-1 (বিশ্বব্যাপী) ও HIV-2 (পশ্চিম আফ্রিকা, কম virulent)।</p>
+<p><b>প্যাথোজেনেসিস:</b> gp120 CD4 receptor + CCR5/CXCR4 co-receptor-এ বাঁধে (T-helper কোষ, ম্যাক্রোফেজ, dendritic কোষ); reverse transcriptase RNA → DNA; integrase দিয়ে host genome-এ প্রোভাইরাস হিসেবে সংযোজন; CD4+ T কোষ ধীরে ধীরে কমে → immunodeficiency → সুবিধাবাদী সংক্রমণ ও ক্যান্সার।</p>
+<p>মনে রাখো — সুই-স্টিকে ০.৩% ঝুঁকি, এবং উচ্চ মিউটেশন হারে ভ্যাকসিন কঠিন।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V113</span>
+      <p class="qtext">What is the morphology of HIV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> icosahedral capsid, two copies of ssRNA, reverse transcriptase, integrase, protease</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Morphology of HIV:</b></p>
+      <ul>
+        <li><b>Size:</b> 100-120 nm diameter.</li>
+        <li><b>Shape:</b> Spherical, enveloped.</li>
+        <li><b>Envelope:</b> Lipid bilayer derived from host cell membrane, studded with <b>gp120</b> (surface glycoprotein) and <b>gp41</b> (transmembrane glycoprotein). gp120/gp41 spikes protrude from surface.</li>
+        <li><b>Matrix:</b> p17 matrix protein (underneath envelope).</li>
+        <li><b>Capsid:</b> Cone-shaped (bullet-shaped), made of <b>p24</b> capsid protein. Contains viral RNA and enzymes.</li>
+        <li><b>Genome:</b> Two identical copies of positive-sense ssRNA (diploid). 9.7 kb, with 9 genes encoding 15 proteins.</li>
+        <li><b>Enzymes within capsid:</b>
+          <ul>
+            <li>Reverse transcriptase (RT) — RNA-dependent DNA polymerase + RNase H.</li>
+            <li>Integrase — integrates proviral DNA into host genome.</li>
+            <li>Protease — cleaves polyproteins during viral maturation.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">p24 অ্যান্টিজেন কেন পরীক্ষার ভিত্তি?</p>
+<p class="ca">কারণ p24 capsid-এর সবচেয়ে প্রচুর প্রোটিন — তাই p24 Ag ELISA দিয়ে অ্যান্টিজেন শনাক্ত করা যায়।</p>
+<p class="cq">gp120 কী নির্ধারণ করে?</p>
+<p class="ca">CD4 + CCR5 (ম্যাক্রোফেজে) বা CXCR4 (T কোষে) বাঁধাই cell tropism নির্ধারণ করে।</p>
+<p class="cq">HIV maturation কীভাবে ঘটে?</p>
+<p class="ca">Budding-এর পরে immature virion-এ protease পলিপ্রোটিন ভেঙে mature infectious virion তৈরি করে; protease inhibitor এই ধাপ আটকায়।</p>
+<p class="cq">HIV-র জিনোম কত ও কয়টি জিন?</p>
+<p class="ca">৯.৭ kb, ৯টি জিনে ১৫টি প্রোটিন; RNA-র দুটি অভিন্ন কপি (diploid)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV-<b>এর রূপগঠন (মরফোলজি)</b>। আকার ১০০-১২০ nm; গোলাকার, enveloped। <b>Envelope:</b> host কোষের ঝিল্লি থেকে আসা লিপিড বাইলেয়ার, যাতে <b>gp120</b> (surface) ও <b>gp41</b> (transmembrane) স্পাইক থাকে। <b>Matrix:</b> p17 (envelope-র নিচে)। <b>Capsid:</b> cones-accliped bullet আকৃতির — <b>p24</b> capsid প্রোটিনে গঠিত; ভেতরে viral RNA ও এনজাইম। <b>জিনোম:</b> ssRNA(+)-এর দুটি অভিন্ন কপি (diploid), ৯.৭ kb, ৯ জিনে ১৫ প্রোটিন। <b>এনজাইম:</b> reverse transcriptase (RNA → DNA + RNase H), integrase (প্রোভাইরাল DNA host genome-এ), protease (maturation-এ polyprotein ভাঙে)।</p>
+<p>মনে রাখো — p24 = abundance ক্যাপসিড প্রোটিন (antigen detection-এর ভিত্তি); gp120 binds CD4 + CCR5/CXCR4; protease inhibitor maturation ব্লক করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V114</span>
+      <p class="qtext">What is the pathogenesis of HIV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> CD4+ T cells, macrophages, gp120, reverse transcriptase, provirus, immunodeficiency</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Pathogenesis of HIV:</b></p>
+      <ul>
+        <li><b>Attachment:</b> gp120 binds to CD4 receptor + CCR5/CXCR4 co-receptor on target cells (CD4+ T cells, macrophages, dendritic cells).<img src="image-6.png" alt="image.png" data-porda-id="p_dbb48283-c6e8-4ed7-9583-66e6b6ec1213" data-porda-status="clean" class="porda-blur-img" data-porda-unblur="1"></li>
+        <li><b>Fusion:</b> gp41 mediates fusion of viral envelope with host cell membrane.</li>
+        <li><b>Reverse transcription:</b> Viral reverse transcriptase (RT) converts viral ssRNA → double-stranded DNA.</li>
+        <li><b>Integration:</b> Viral integrase integrates the proviral DNA into the host cell genome.</li>
+        <li><b>Replication:</b> Host cell machinery transcribes and translates viral proteins → new virions assembled → budded from cell.</li>
+        <li><b>Maturation:</b> Protease cleaves polyproteins → mature infectious virion.</li>
+        <li><b>CD4+ T cell depletion:</b> Progressive loss of CD4+ T cells via direct cytolysis, syncytia formation, apoptosis, and immune-mediated destruction → immunodeficiency.</li>
+        <li><b>Result:</b> Opportunistic infections (PCP, toxoplasmosis, CMV, TB, candidiasis) and malignancies (Kaposi sarcoma, lymphoma) — AIDS.</li></ul><div><img src="image-5.png" alt="image.png" data-porda-id="p_cc8d8158-f68d-432d-acb0-b16f40cd400d" data-porda-status="clean" class="porda-blur-img" data-porda-unblur="1"><br></div><ul>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">তীব্র ধাপে কী হয়?</p>
+<p class="ca">Massive viremia, CD4 দ্রুত কমে তারপর আংশিক ফিরে আসে।</p>
+<p class="cq">ক্লিনিক্যাল ল্যাটেন্সি-তে CD4 কমে কত হারে?</p>
+<p class="ca">চিকিৎসা ছাড়া প্রতি বছর ~৮০-১০০ কোষ/μl হারে।</p>
+<p class="cq">AIDS কখন বলা হয়?</p>
+<p class="ca">CD4 &lt;200/μl অথবা AIDS-defining illness-এর উপস্থিতি।</p>
+<p class="cq">ম্যাক্রোফেজ কেন reservoir?</p>
+<p class="ca">ম্যাক্রোফেজ মারা না গিয়ে ভাইরাস বহন করতে পারে — তাই দীর্ঘমেয়াদি ভাইরাসের আধার হয়ে থাকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV-<b>এর প্যাথোজেনেসিস ধাপে ধাপে</b>।</p>
+<p><b>Attachment:</b> gp120 CD4 receptor + CCR5/CXCR4 co-receptor-এ বাঁধে (CD4+ T কোষ, ম্যাক্রোফেজ, dendritic কোষ)। <b>Fusion:</b> gp41 ভাইরাল envelope ও host কোষের ঝিল্লির সংযুক্তি ঘটায়। <b>Reverse transcription:</b> reverse transcriptase ssRNA → dsDNA। <b>Integration:</b> integrase প্রোভাইরাল DNA host genome-এ সংযোজন করে। <b>Replication:</b> host machinery নতুন virion গড়ে, কোষ থেকে budding হয়। <b>Maturation:</b> protease polyprotein ভেঙে mature infectious virion তৈরি। <b>CD4+ T কোষ ক্ষয়:</b> সরাসরি cytolysis, syncytia, apoptosis ও immune-মধ্যস্থ ধ্বংসে CD4+ T কোষ কমে → immunodeficiency। <b>ফলাফল:</b> সুবিধাবাদী সংক্রমণ (PCP, toxoplasmosis, CMV, TB, candidiasis) ও ক্যান্সার (Kaposi sarcoma, lymphoma) — AIDS।</p>
+<p>মনে রাখো — <b>AIDS = CD4 &lt;200/μl</b>; ম্যাক্রোফেজ ভাইরাসের reservoir (মরে না)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V115</span>
+      <p class="qtext">Mention the opportunistic infections and malignancies of HIV patients. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> PCP, Toxoplasma, Cryptococcus, Candida, Kaposi sarcoma, CMV</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Opportunistic infections in HIV/AIDS (when CD4 &lt;200/μl):</b></p>
+      <ul>
+        <li><b>Pneumocystis jirovecii pneumonia (PCP)</b> — most common opportunistic infection; CD4 &lt;200.</li>
+        <li><b>Toxoplasma gondii</b> — encephalitis (ring-enhancing lesions on CT/MRI).</li>
+        <li><b>Cryptococcus neoformans</b> — meningitis (India ink positive).</li>
+        <li><b>Candida</b> — oral thrush, esophageal candidiasis.</li>
+        <li><b>CMV (Cytomegalovirus)</b> — retinitis, esophagitis, colitis.</li>
+        <li><b>Mycobacterium tuberculosis</b> — pulmonary and extrapulmonary TB.</li>
+        <li><b>Mycobacterium avium complex (MAC)</b> — disseminated infection (CD4 &lt;50).</li>
+        <li><b>Herpes zoster</b> — multidermatomal, severe.</li>
+        <li><b>Progressive multifocal leukoencephalopathy (PML)</b> — JC virus.</li>
+      </ul>
+      <p><b>AIDS-defining malignancies:</b></p>
+      <ul>
+        <li><b>Kaposi sarcoma</b> — HHV-8 (KSHV); violaceous skin lesions.</li>
+        <li><b>Non-Hodgkin lymphoma</b> (including primary CNS lymphoma).</li>
+        <li><b>Invasive cervical carcinoma</b> — HPV-associated.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">AIDS রোগীর মৃত্যুর সবচেয়ে সাধারণ কারণ কোন সুবিধাবাদী সংক্রমণ?</p>
+<p class="ca">PCP (Pneumocystis jirovecii pneumonia) — TMP-SMX (co-trimoxazole) দিয়ে চিকিৎসা।</p>
+<p class="cq">Oral hairy leukoplakia কী?</p>
+<p class="ca">EBV-সম্পর্কিত — জিভের পার্শ্বীয় পৃষ্ঠে সাদা ফলক, ব্যথাহীন।</p>
+<p class="cq">HIV wasting syndrome কী?</p>
+<p class="ca">ওজন হ্রাস &gt;১০% + ১ মাসের বেশি দীর্ঘস্থায়ী ডায়রিয়া বা জ্বর।</p>
+<p class="cq">HIV-সম্পর্কিত dementia কী?</p>
+<p class="ca">ধীরে বাড়া জ্ঞানীয় হ্রাস, মোটর ব্যাঘাত ও আচরণগত পরিবর্তন।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>HIV/AIDS-এ সুবিধাবাদী সংক্রমণ</b> (CD4 &lt;200/μl): <b>PCP</b> (সবচেয়ে সাধারণ; CD4 &lt;200), <b>Toxoplasma gondii</b> (এনসেফালাইটিস — CT/MRI-তে ring-enhancing), <b>Cryptococcus neoformans</b> (মেনিনজাইটিস — India ink পজিটিভ), <b>Candida</b> (oral thrush, esophageal candidiasis), <b>CMV</b> (retinitis, esophagitis, colitis), <b>Mycobacterium tuberculosis</b> (pulmonary/extrapulmonary), <b>MAC</b> (disseminated; CD4 &lt;50), <b>Herpes zoster</b> (multidermatomal, গুরুতর), <b>PML</b> (JC virus)।</p>
+<p><b>AIDS-defining malignancy:</b> <b>Kaposi sarcoma</b> (HHV-8/KSHV — বেগুনি ত্বক-ক্ষত), <b>Non-Hodgkin lymphoma</b> (primary CNS lymphoma সহ), <b>Invasive cervical carcinoma</b> (HPV)।</p>
+<p>এক লাইনে — "CD4 &lt;200 → OI (PCP, toxo, crypto, candida, CMV, TB); malignancy — Kaposi, NHL, cervical।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V116</span>
+      <p class="qtext">How do you diagnose HIV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> ELISA (screening), Western blot (confirmatory), CD4 count, viral load</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Diagnosis of HIV:</b></p>
+      <ul>
+        <li><b>Screening test:</b> <b>ELISA</b> (Enzyme-Linked Immunosorbent Assay) — detects anti-HIV antibodies (IgG/IgM) in serum. High sensitivity, but may give false positives. Window period: 25 days to 1 month.</li>
+        <li><b>Confirmatory test:</b> <b>Western Blot</b> — detects antibodies against specific HIV proteins (p24, gp41, gp120, gp160). More specific than ELISA.</li>
+        <li><b>Alternative screening:</b> Rapid tests, combination antigen-antibody tests (4th generation — detects both p24 Ag and anti-HIV Ab, reducing window period).</li>
+        <li><b>CD4 count:</b> Measures CD4+ T cell count — monitors disease progression and treatment response. Normal: 500-1500/μl. AIDS: &lt;200/μl.</li>
+        <li><b>Viral load (HIV RNA PCR):</b> Quantitative RT-PCR — measures viral RNA copies in blood. Used to monitor ART efficacy. Undetectable = &lt;50 copies/ml.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">উইন্ডো পিরিয়ডে কী দিয়ে HIV শনাক্ত?</p>
+<p class="ca">P24 অ্যান্টিজেন — অ্যান্টিবডি আসার আগেই ধরা পড়ে।</p>
+<p class="cq">NAT কতদিনে HIV RNA ধরতে পারে?</p>
+<p class="ca">সংক্রমণের ১০-১৪ দিনের মধ্যে।</p>
+<p class="cq">Western blot কখন পজিটিভ?</p>
+<p class="ca">p24, gp41, gp120/160 — এই ৩টি ব্যান্ডের মধ্যে কমপক্ষে ২টি থাকলে; indeterminate হলে ৪-৬ সপ্তাহ পরে পুনরায়।</p>
+<p class="cq">ভাইরাল লোড undetectable মানে কী?</p>
+<p class="ca">&lt;50 copies/ml — ART-র কার্যকারিতা নির্দেশ করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV-<b>এর ডায়াগনোসিস</b>।</p>
+<p><b>স্ক্রিনিং:</b> <b>ELISA</b> — সিরামে anti-HIV অ্যান্টিবডি (IgG/IgM) শনাক্ত করে; উচ্চ সংবেদনশীলতা কিন্তু মিথ্যা-পজিটিভ সম্ভব; উইন্ডো ২৫ দিন-১ মাস। <b>কনফার্মেটরি:</b> <b>Western blot</b> — নির্দিষ্ট HIV প্রোটিনের (p24, gp41, gp120, gp160) অ্যান্টিবডি শনাক্ত করে; ELISA-র চেয়ে নির্দিষ্ট। <b>বিকল্প স্ক্রিনিং:</b> rapid test, চতুর্থ-প্রজন্মের combination Ag-Ab (P24 Ag ও anti-HIV Ab দুটোই) — উইন্ডো পিরিয়ড কমায়।</p>
+<p><b>CD4 count:</b> রোগের অগ্রগতি ও চিকিৎসার ফলাফল পর্যবেক্ষণ; স্বাভাবিক ৫০০-১৫০০/μl; AIDS &lt;200/μl। <b>Viral load (HIV RNA PCR):</b> quantitative RT-PCR — ART ফলাফল পর্যবেক্ষণ; undetectable = &lt;50 copies/ml।</p>
+<p>এক লাইনে — "ELISA স্ক্রিনিং → Western blot কনফার্ম → CD4 + viral load মনিটরিং।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V117</span>
+      <p class="qtext">What are the stages of HIV infection? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Acute HIV syndrome → Clinical latency → AIDS</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Stages of HIV infection:</b></p>
+      <ul>
+        <li><b>Stage 1: Acute HIV Infection (Primary Infection):</b>
+          <ul>
+            <li>Occurs 2-4 weeks after exposure.</li>
+            <li>High-level viremia (up to 10⁶ copies/ml), sharp CD4 drop.</li>
+            <li>Flu-like illness: fever, rash, lymphadenopathy, pharyngitis, myalgia, headache.</li>
+            <li>Highly infectious during this stage.</li>
+          </ul>
+        </li>
+        <li><b>Stage 2: Clinical Latency (Chronic HIV Infection):</b>
+          <ul>
+            <li>Asymptomatic or minimal symptoms.</li>
+            <li>Gradual CD4 decline (80-100 cells/μl per year without treatment).</li>
+            <li>Viral load lower but persistent.</li>
+            <li>Without treatment: lasts 8-10 years on average.</li>
+          </ul>
+        </li>
+        <li><b>Stage 3: AIDS (Acquired Immunodeficiency Syndrome):</b>
+          <ul>
+            <li>CD4 &lt;200/μl OR presence of AIDS-defining illness.</li>
+            <li>Opportunistic infections (PCP, toxoplasmosis, candidiasis, CMV, TB).</li>
+            <li>Malignancies (Kaposi sarcoma, NHL, cervical carcinoma).</li>
+            <li>Without treatment: median survival 2-3 years.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">CDC শ্রেণিবিভাগ অনুযায়ী CD4 দিয়ে স্টেজ?</p>
+<p class="ca">&gt;500 = Stage 1; 200-499 = Stage 2; &lt;200 = Stage 3 (AIDS)।</p>
+<p class="cq">ART চললে ল্যাটেন্সি কতদিন থাকতে পারে?</p>
+<p class="ca">দশকেও AIDS-এ যাওয়া নাও হতে পারে — ART দীর্ঘদিন ক্লিনিক্যাল ল্যাটেন্সিতে রাখে।</p>
+<p class="cq">চিকিৎসা ছাড়া কত শতাংশ ১০ বছরে AIDS-এ যায়?</p>
+<p class="ca">~৫০% সংক্রমণের ১০ বছরের মধ্যে।</p>
+<p class="cq">তীব্র ধাপে কি অত্যন্ত সংক্রামক?</p>
+<p class="ca">হ্যাঁ — এই ধাপে উচ্চ viremia, তাই অত্যন্ত সংক্রামক।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV সংক্রমণের ৩টি ধাপ।</p>
+<p><b>ধাপ ১: তীব্র HIV সংক্রমণ</b> — এক্সপোজারের ২-৪ সপ্তাহে; উচ্চ viremia (১০⁶ copies/ml পর্যন্ত), CD4 দ্রুত কমে; flu-সদৃশ (জ্বর, rash, lymphadenopathy, গলা ব্যথা, myalgia, মাথাব্যথা); এই ধাপে অত্যন্ত সংক্রামক।</p>
+<p><b>ধাপ ২: Clinical latency</b> — উপসর্গহীন বা ন্যূনতম; CD4 ধীরে কমতে থাকে (চিকিৎসা ছাড়া প্রতি বছর ৮০-১০০ কোষ/μl); viral load নিচু কিন্তু স্থির; চিকিৎসা ছাড়া গড় ৮-১০ বছর।</p>
+<p><b>ধাপ ৩: AIDS</b> — CD4 &lt;200/μl বা AIDS-defining illness; সুবিধাবাদী সংক্রমণ (PCP, toxoplasmosis, candidiasis, CMV, TB); ক্যান্সার (Kaposi, NHL, cervical); চিকিৎসা ছাড়া মধ্যমা বেঁচে থাকা ২-৩ বছর।</p>
+<p>এক লাইনে — "তীব্র (viremia) → ল্যাটেন্সি (CD4 ক্ষয়) → AIDS (CD4 &lt;200)।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V118</span>
+      <p class="qtext">How will you prevent HIV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Safe sex, avoid shared needles, blood screening, PEP</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Prevention of HIV:</b></p>
+      <ul>
+        <li><b>Safe sexual practices:</b> Use condoms consistently, reduce number of sexual partners.</li>
+        <li><b>Avoid shared needles/syringes:</b> Important for IV drug users and healthcare workers.</li>
+        <li><b>Blood screening:</b> All donated blood must be screened for HIV (ELISA) before transfusion.</li>
+        <li><b>Healthcare precautions:</b> Universal precautions — gloves, sharps disposal, hand hygiene.</li>
+        <li><b>Prevention of mother-to-child transmission (PMTCT):</b> Antiretroviral therapy during pregnancy and delivery; Cesarean section if viral load is high; avoid breastfeeding (in developed countries); formula feeding (in developing countries when safe).</li>
+        <li><b>Post-exposure prophylaxis (PEP):</b> Within 72 hours of exposure (needle-stick injury, sexual assault): 3-drug ART regimen (e.g., TDF + 3TC + DTG) for 28 days.</li>
+        <li><b>Pre-exposure prophylaxis (PrEP):</b> TDF/FTC daily for high-risk individuals (e.g., serodiscordant couples).</li>
+        <li><b>Health education and awareness.</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">সুই-স্টিক-এ HIV-র সংক্রমণ সম্ভাবনা কত?</p>
+<p class="ca">০.৩% — HBV ৩০% ও HCV ৩% এর তুলনায় অনেক কম।</p>
+<p class="cq">U=U মানে কী?</p>
+<p class="ca">Undetectable = Untransmittable — ART-এ viral load undetectable থাকলে যৌন সংক্রমণ হয় না।</p>
+<p class="cq">HIV-র ভ্যাকসিন নেই কেন?</p>
+<p class="ca">উচ্চ মিউটেশন হার ও antigenic variation-এর কারণে।</p>
+<p class="cq">PEP-এর সময়সীমা কী?</p>
+<p class="ca">এক্সপোজারের ৭২ ঘণ্টার মধ্যে — ৩-ওষুধ ART (যেমন TDF + 3TC + DTG) ২৮ দিন।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV প্রতিরোধের উপায়গুলো।</p>
+<p><b>নিরাপদ যৌনতা:</b> ধারাবাহিক condom ব্যবহার, যৌনসঙ্গী কমানো। <b>সুই/সিরিঞ্জ শেয়ার বন্ধ:</b> IV মাদক সেবনকারী ও স্বাস্থ্যকর্মীদের জন্য। <b>রক্ত স্ক্রিনিং:</b> প্রতিটি দান করা রক্তে HIV ELISA; <b>স্বাস্থ্যসেবা সতর্কতা:</b> universal precautions (গ্লাভস, sharps নিষ্পত্তি, হাত ধোয়া)। <b>মা-থেকে-শিশু প্রতিরোধ (PMTCT):</b> গর্ভাবস্থা ও প্রসবে ART; উচ্চ viral load-এ সিজারিয়ান; (উন্নত দেশে) বুকের দুধ এড়ানো।</p>
+<p><b>PEP (post-exposure):</b> ৭২ ঘণ্টার মধ্যে — ৩-ওষুধ ART (TDF + 3TC + DTG) ২৮ দিন। <b>PrEP (pre-exposure):</b> উচ্চ-ঝুঁকির ব্যক্তিদের (serodiscordant couples) TDF/FTC দৈনিক। <b>স্বাস্থ্য শিক্ষা ও সচেতনতা।</b></p>
+<p>মনে রাখো — U=U, সুই-স্টিকে ০.৩%, আর HIV-র এখনো ভ্যাকসিন নেই।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V119</span>
+      <p class="qtext">What is the treatment of HIV? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> ART (Antiretroviral Therapy) — 3-drug regimen; NRTIs + NNRTIs or PI or INSTI</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Antiretroviral Therapy (ART):</b> Combination of at least 3 antiretroviral drugs from at least 2 different drug classes.</p>
+      <p><b>Drug classes:</b></p>
+      <ul>
+        <li><b>NRTIs (Nucleoside Reverse Transcriptase Inhibitors):</b> Tenofovir (TDF), Lamivudine (3TC), Emtricitabine (FTC), Zidovudine (AZT).</li>
+        <li><b>NNRTIs (Non-Nucleoside RTIs):</b> Efavirenz (EFV), Nevirapine (NVP).</li>
+        <li><b>PIs (Protease Inhibitors):</b> Atazanavir (ATV), Lopinavir (LPV).</li>
+        <li><b>INSTIs (Integrase Strand Transfer Inhibitors):</b> Dolutegravir (DTG), Raltegravir (RAL).</li>
+        <li><b>Fusion/Entry Inhibitors:</b> Enfuvirtide, Maraviroc.</li>
+      </ul>
+      <p><b>Standard first-line regimen (WHO/Bangladesh):</b></p>
+      <ul>
+        <li><b>TDF + 3TC (or FTC) + DTG</b> (preferred first-line).</li>
+        <li>If DTG not available: TDF + 3TC + EFV (or NVP).</li>
+        <li>If pregnant women or TB co-infected: specific adjustments needed.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">ART-এর লক্ষ্য কী?</p>
+<p class="ca">Viral load undetectable (&lt;50 copies/ml) করা, CD4 ফিরিয়ে আনা, সুবিধাবাদী সংক্রমণ প্রতিরোধ।</p>
+<p class="cq">ART কি আজীবন?</p>
+<p class="ca">হ্যাঁ — কোনো নিরাময় নেই, ART আজীবন চলতে থাকে।</p>
+<p class="cq">ART-এর পার্শ্বপ্রতিক্রিয়া কী?</p>
+<p class="ca">Lipodystrophy, metabolic syndrome, hepatotoxicity, nephrotoxicity (TDF)।</p>
+<p class="cq">CD4 ও viral load কত ঘন ঘন মনিটর করা হয়?</p>
+<p class="ca">CD4 প্রতি ৩-৬ মাস; viral load ৬ মাসে, তারপর প্রতি ১২ মাসে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV-<b>এর চিকিৎসা হলো ART</b> — কমপক্ষে ২টি ভিন্ন শ্রেণি থেকে ৩টি ওষুধের সংমিশ্রণ।</p>
+<p><b>শ্রেণিগুলো:</b> <b>NRTIs</b> — Tenofovir (TDF), Lamivudine (3TC), Emtricitabine (FTC), Zidovudine (AZT); <b>NNRTIs</b> — Efavirenz (EFV), Nevirapine (NVP); <b>PIs</b> — Atazanavir, Lopinavir; <b>INSTIs</b> — Dolutegravir (DTG), Raltegravir; <b>Fusion/Entry inhibitors</b> — Enfuvirtide, Maraviroc।</p>
+<p><b>স্ট্যান্ডার্ড প্রথম-ধাপ (WHO/বাংলাদেশ):</b> TDF + 3TC (বা FTC) + DTG; DTG না থাকলে TDF + 3TC + EFV (বা NVP); গর্ভবতী বা টিবি-সহসংক্রমণে বিশেষ সমন্বয়।</p>
+<p>মনে রাখো — ART আজীবন, উদ্দেশ্য undetectable viral load, adherence অত্যন্ত জরুরি (না হলে drug resistance)। এক লাইনে — "TDF + 3TC + DTG = প্রথম-ধাপ ART।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V120</span>
+      <p class="qtext">What is the difference between HIV-1 and HIV-2? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> HIV-1 — worldwide, more virulent; HIV-2 — mainly West Africa, less transmissible</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>HIV-1</th><th>HIV-2</th></tr></thead>
+        <tbody>
+          <tr><td>Prevalence</td><td>Most common worldwide (&gt;95% of cases)</td><td>Mainly West Africa; rare elsewhere</td></tr>
+          <tr><td>Virulence</td><td>More virulent</td><td>Less virulent</td></tr>
+          <tr><td>Transmission</td><td>More easily transmitted (sexual, vertical, blood)</td><td>Less efficiently transmitted</td></tr>
+          <tr><td>Progression to AIDS</td><td>Faster progression</td><td>Slower progression, longer latency</td></tr>
+          <tr><td>Viral load</td><td>Higher viral loads</td><td>Lower viral loads</td></tr>
+          <tr><td>CD4 decline</td><td>Faster CD4 decline</td><td>Slower CD4 decline</td></tr>
+          <tr><td>Subtypes</td><td>Multiple subtypes (A-K), CRFs</td><td>Fewer subtypes (A-H)</td></tr>
+          <tr><td>ELISA detection</td><td>Detected by standard anti-HIV ELISA</td><td>May not be detected by some standard ELISAs</td></tr>
+          <tr><td>ART response</td><td>Responds to standard ART</td><td>Some drugs may be less effective (e.g., NNRTIs less active)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HIV-1 আর HIV-2-এর গঠনগত পার্থক্য কী?</p>
+<p class="ca">HIV-1-এ gp120 ও p24; HIV-2-এ gp105 (envelope) ও p26 (core)।</p>
+<p class="cq">HIV-1 ও HIV-2-এর co-infection সম্ভব?</p>
+<p class="ca">হ্যাঁ, তবে বিরল।</p>
+<p class="cq">কোনটি প্রায়ই মা-থেকে-শিশু সংক্রমণ ঘটায়?</p>
+<p class="ca">HIV-1 — HIV-2-এর MTCT সম্ভাবনা কম।</p>
+<p class="cq">ভৌগোলিক পার্থক্য কী?</p>
+<p class="ca">HIV-1 বৈশ্বিক pandemic; HIV-2 পশ্চিম আফ্রিকায় endemic।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — HIV-1 আর HIV-2-এর পার্থক্য টেবিল আকারে।</p>
+<p><b>Prevalence:</b> HIV-1 বিশ্বব্যাপী (&gt;৯৫%), HIV-2 প্রধানত পশ্চিম আফ্রিকায়। <b>Virulence:</b> HIV-1 বেশি virulent, HIV-2 কম। <b>Transmission:</b> HIV-1 সহজে সংক্রমণ করে, HIV-2 কম। <b>AIDS-এ অগ্রগতি:</b> HIV-1 দ্রুত, HIV-2 ধীর (লম্বা ল্যাটেন্সি)। <b>Viral load:</b> HIV-1-এ বেশি, HIV-2-এ কম। <b>CD4 ক্ষয়:</b> HIV-1-এ দ্রুত, HIV-2-এ ধীর। <b>Subtype:</b> HIV-1-এ একাধিক (A-K) ও CRF; HIV-2-এ কম (A-H)। <b>ELISA:</b> HIV-1 স্ট্যান্ডার্ড ELISA-তে ধরা পড়ে; HIV-2 কিছু ELISA-তে ধরা নাও পড়তে পারে। <b>ART:</b> HIV-1 স্ট্যান্ডার্ড ART-এ সাড়া দেয়; HIV-2-তে কিছু ওষুধ কম কার্যকর (যেমন NNRTI)।</p>
+<p>এক লাইনে — "HIV-1 = বৈশ্বিক, virulent, দ্রুত; HIV-2 = পশ্চিম আফ্রিকা, কম virulent, ধীর।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V121</span>
+      <p class="qtext">What is the difference between NRTIs and NNRTIs? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Both inhibit reverse transcriptase; NRTIs are nucleoside analogs, NNRTIs bind directly to enzyme</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>NRTIs</th><th>NNRTIs</th></tr></thead>
+        <tbody>
+          <tr><td>Full form</td><td>Nucleoside/Nucleotide Reverse Transcriptase Inhibitors</td><td>Non-Nucleoside Reverse Transcriptase Inhibitors</td></tr>
+          <tr><td>Mechanism</td><td>Competitive inhibitors — act as nucleoside analogs; incorporated into growing DNA chain → chain termination</td><td>Non-competitive inhibitors — bind directly to RT enzyme at a site distinct from active site → conformational change → enzyme inhibition</td></tr>
+          <tr><td>Examples</td><td>Tenofovir (TDF), Lamivudine (3TC), Emtricitabine (FTC), Zidovudine (AZT), Abacavir (ABC)</td><td>Efavirenz (EFV), Nevirapine (NVP), Etravirine (ETR), Rilpivirine (RPV)</td></tr>
+          <tr><td>Resistance</td><td>Requires multiple mutations</td><td>Single mutation can cause resistance</td></tr>
+          <tr><td>Side effects</td><td>Lactic acidosis, lipodystrophy, nephrotoxicity (TDF), bone marrow suppression (AZT)</td><td>CNS side effects (dizziness, vivid dreams, depression), rash</td></tr>
+          <tr><td>Resistance barrier</td><td>Higher barrier</td><td>Lower barrier</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">NRTI কীভাবে সক্রিয় হয়?</p>
+<p class="ca">কোষের ভেতরে intracellular phosphorylation → active triphosphate রূপ; তারপর DNA-তে সংযোজিত হয়ে chain terminates।</p>
+<p class="cq">NRTI কি HBV-তে কাজ করে?</p>
+<p class="ca">হ্যাঁ — TDF, 3TC HBV reverse transcriptase-ও বাধা দেয় (HBV ও HIV দুটোতেই কার্যকর)।</p>
+<p class="cq">ART regimen-এর backbone কী?</p>
+<p class="ca">২টি NRTI + ১টি INSTI/NNRTI/PI।</p>
+<p class="cq">কোন ওষুধের resistance barrier বেশি?</p>
+<p class="ca">NRTI-র higher barrier (একাধিক মিউটেশন লাগে); NNRTI-র lower barrier (একটি মিউটেশনেই প্রতিরোধ)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — NRTI আর NNRTI-র পার্থক্য।</p>
+<p><b>NRTIs (Nucleoside/Nucleotide RTIs):</b> competitive inhibitor — nucleoside analog হয়ে growing DNA chain-এ সংযোজিত হয়ে <b>chain termination</b> করে। নিঃ-পর্যায়ে intracellular phosphorylation → active triphosphate লাগে। উদাহরণ: TDF, 3TC, FTC, AZT, ABC। Resistance-এ একাধিক মিউটেশন লাগে (higher barrier)। পার্শ্বপ্রতিক্রিয়া: lactic acidosis, lipodystrophy, nephrotoxicity (TDF), bone marrow suppression (AZT)।</p>
+<p><b>NNRTIs (Non-Nucleoside RTIs):</b> non-competitive inhibitor — RT এনজাইমে active site ভিন্ন স্থানে সরাসরি বেঁধে conformational change ঘটিয়ে এনজাইম বাধা দেয়। উদাহরণ: EFV, NVP, ETR, RPV। Resistance-এ একটি মিউটেশনই যথেষ্ট (lower barrier)। পার্শ্বপ্রতিক্রিয়া: CNS (মাথা ঘোরা, vivid dreams, depression), rash।</p>
+<p>এক লাইনে — "NRTI = nucleoside analog → chain terminator (high barrier); NNRTI = সরাসরি enzyme বাঁধা → conformational change (low barrier)।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V122</span>
+      <p class="qtext">What is the vertical transmission of HIV? How can you prevent it? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Mother-to-child during pregnancy, delivery, breastfeeding; ART during pregnancy, avoid breastfeeding</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Vertical transmission (Mother-to-Child Transmission — MTCT):</b></p>
+      <ul>
+        <li><b>During pregnancy:</b> Transplacental transmission (especially in 3rd trimester).</li>
+        <li><b>During delivery:</b> Exposure to blood and vaginal secretions (highest risk).</li>
+        <li><b>During breastfeeding:</b> Virus in breast milk (especially in resource-limited settings).</li>
+      </ul>
+      <p><b>Without intervention:</b> 15-45% transmission rate. <b>With intervention:</b> Reduced to &lt;2%.</p>
+      <p><b>Prevention of Vertical Transmission (PMTCT):</b></p>
+      <ul>
+        <li><b>ART for all HIV-positive pregnant women:</b> Start as early as possible; TDF + 3TC + DTG (or EFV) throughout pregnancy and delivery.</li>
+        <li><b>Intrapartum ART:</b> Continue ART during labor and delivery.</li>
+        <li><b>Neonatal prophylaxis:</b> NVP (single dose at birth) or AZT (6 weeks) for the newborn.</li>
+        <li><b>Delivery method:</b> Cesarean section recommended if viral load is high (&gt;1000 copies/ml) near delivery.</li>
+        <li><b>Infant feeding:</b> In developed countries: avoid breastfeeding (formula feeding). In developing countries: exclusive breastfeeding for 6 months if safe water available (breastfeeding with maternal ART is now recommended by WHO).</li>
+        <li><b>Infant testing:</b> HIV DNA PCR at birth, 6 weeks, 12 weeks; serology at 18 months (maternal antibodies wane by then).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">PMTCT কেন গুরুত্বপূর্ণ?</p>
+<p class="ca">শিশুদের HIV কমানোর সবচেয়ে কার্যকর ব্যবস্থাগুলোর একটি।</p>
+<p class="cq">বুকের দুধ খাওয়ানো নিয়ে WHO-র বর্তমান সুপারিশ?</p>
+<p class="ca">মায়ের ART-সহ একচেটিয়া বুকের দুধ ৬ মাস — উন্নয়নশীল দেশেও এখন সুপারিশ করা হয়।</p>
+<p class="cq">প্রসবজনিত (postnatal) সংক্রমণ এড়াতে কী?</p>
+<p class="ca">বুকের দুধ না খাওয়ালে (formula feeding) postnatal সংক্রমণ শেষ।</p>
+<p class="cq">সন্তানের শনাক্তকরণ কীভাবে?</p>
+<p class="ca">জন্মে, ৬ সপ্তাহে, ১২ সপ্তাহে HIV DNA PCR; ১৮ মাসে সেরোলজি (মায়ের অ্যান্টিবডি ততদিনে কমে যায়)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>মা-থেকে-শিশু সংক্রমণ (Vertical/MTCT)</b> তিন উপায়ে — (১) গর্ভাবস্থায় transplacental (বিশেষত ৩য় trimester), (২) প্রসবের সময় রক্ত ও যোনি নিঃসরণের সংস্পর্শে (সবচেয়ে বেশি ঝুঁকি), (৩) বুকের দুধে।</p>
+<p>হস্তক্ষেপ ছাড়া সংক্রমণের হার ১৫-৪৫%; হস্তক্ষেপে &lt;২%। <b>PMTCT:</b> (১) <b>সব HIV+ গর্ভবতীকে ART</b> — যত তাড়াতাড়ি সম্ভব; TDF + 3TC + DTG (বা EFV) গর্ভাবস্থা ও প্রসবজুড়ে; (২) প্রসবকালীন ART চলতে থাকে; (৩) নবজাতককে prophylactic NVP (জন্মের ১ ডোজ) বা AZT (৬ সপ্তাহ); (৪) উচ্চ viral load (&gt;1000 copies/ml) হলে সিজারিয়ান; (৫) শিশুকে খাওয়ানো: উন্নত দেশে বুকের দুধ এড়িয়ে formula; উন্নয়নশীল দেশে নিরাপদ পানিতে একচেটিয়া বুকের দুধ (WHO এখন মাতৃ-ART-সহ breast-feeding সুপারিশ করে); (৬) শিশুর টেস্ট — জন্মে, ৬ সপ্তাহ, ১২ সপ্তাহে HIV DNA PCR; ১৮ মাসে সেরোলজি।</p>
+<p>এক লাইনে — "গর্ভাবস্থা + প্রসব + বুকের দুধ = ৩ রুট; ART + Caesarean + infant prophylaxis = প্রতিরোধ।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V123</span>
+      <p class="qtext">Mention the common sexually transmitted infections. How can you prevent STDs? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Gonorrhea, syphilis, chlamydia, genital herpes, HPV, HIV; barrier method</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Common STDs:</b></p>
+      <ul>
+        <li><b>Bacterial:</b> Gonorrhea (N. gonorrhoeae), Syphilis (T. pallidum), Chlamydia (C. trachomatis), Chancroid (H. ducreyi).</li>
+        <li><b>Viral:</b> HIV, HSV-2 (genital herpes), HPV (genital warts, cervical cancer), HBV/HCV.</li>
+        <li><b>Parasitic:</b> Trichomoniasis (T. vaginalis).</li>
+      </ul>
+      <p><b>Prevention of STDs:</b></p>
+      <ul>
+        <li><b>Barrier method:</b> Consistent use of condoms — most effective prevention.</li>
+        <li><b>Monogamous relationship:</b> Reduce number of sexual partners.</li>
+        <li><b>Avoid high-risk behavior:</b> Avoid promiscuity, commercial sex work.</li>
+        <li><b>Screening:</b> Regular screening of high-risk groups (blood donors, pregnant women, sex workers).</li>
+        <li><b>Health education:</b> Awareness about STD transmission and prevention.</li>
+        <li><b>Vaccination:</b> HPV vaccine (prevents cervical cancer, genital warts), HBV vaccine.</li>
+        <li><b>Treatment of cases and contacts:</b> Early treatment prevents spread and complications.</li>
+        <li><b>Post-exposure prophylaxis:</b> For HIV (PEP within 72 hours).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">গনোরিয়া কত সাধারণ?</p>
+<p class="ca">বিশ্বব্যাপী সবচেয়ে সাধারণ ব্যাকটেরিয়াল STD।</p>
+<p class="cq">সিফিলিসকে কেন "great imitator" বলা হয়?</p>
+<p class="ca">একাধিক ধাপে অঙ্গ-প্রত্যঙ্গ যেকোনোটিকে প্রভাবিত করতে পারে, উপসর্গ অন্যদের মতো দেখায়।</p>
+<p class="cq">ক্ল্যামাইডিয়ার বিশেষত্ব?</p>
+<p class="ca">Urethritis ও cervical সংক্রমণের সাধারণ কারণ; প্রায়ই উপসর্গহীন।</p>
+<p class="cq">HPV-র কোন টাইপ কোন রোগ?</p>
+<p class="ca">টাইপ ১৬, ১৮ → cervical ক্যান্সার; টাইপ ৬, ১১ → যৌনাঙ্গের warts।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — সাধারণ STDs-গুলো: <b>ব্যাকটেরিয়াল</b> — Gonorrhea (N. gonorrhoeae), Syphilis (T. pallidum), Chlamydia (C. trachomatis), Chancroid (H. ducreyi); <b>ভাইরাল</b> — HIV, HSV-2 (genital herpes), HPV (warts, cervical ক্যান্সার), HBV/HCV; <b>পরজীবী</b> — Trichomoniasis (T. vaginalis)।</p>
+<p><b>প্রতিরোধ:</b> <b>Condom (barrier method)</b> — সবচেয়ে কার্যকর; এক-সঙ্গী সম্পর্ক; উচ্চ-ঝুঁকিপূর্ণ আচরণ এড়ানো; উচ্চ-ঝুঁকি গ্রুপের (রক্তদাতা, গর্ভবতী, যৌনকর্মী) নিয়মিত স্ক্রিনিং; স্বাস্থ্য শিক্ষা; <b>টিকাদান</b> — HPV ভ্যাকসিন (cervical ক্যান্সার, warts), HBV ভ্যাকসিন; ক্ষত ও সংস্পর্শের আগাম চিকিৎসা; HIV-র জন্য PEP (৭২ ঘণ্টায়)।</p>
+<p>এক লাইনে — "Condom + মনোগ্যামি + স্ক্রিনিং + টিকা = STD প্রতিরোধ।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V124</span>
+      <p class="qtext">What is the difference between Gonorrhea and Syphilis? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Gonorrhea — N. gonorrhoeae, purulent discharge; Syphilis — T. pallidum, chancre, systemic</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Gonorrhea</th><th>Syphilis</th></tr></thead>
+        <tbody>
+          <tr><td>Causative agent</td><td>Neisseria gonorrhoeae (Gram-negative diplococci)</td><td>Treponema pallidum (spirochete)</td></tr>
+          <tr><td>Incubation period</td><td>2-5 days</td><td>3 weeks (primary); months-years (secondary/tertiary)</td></tr>
+          <tr><td>Primary lesion</td><td>Purulent urethral/vaginal discharge</td><td>Chancre (painless, indurated ulcer)</td></tr>
+          <tr><td>Discharge</td><td>Purulent (yellow-green)</td><td>Chancre is painless, clean-based</td></tr>
+          <tr><td>Systemic involvement</td><td>Rare (mainly localized)</td><td>Yes — disseminates to skin, CNS, cardiovascular, liver</td></tr>
+          <tr><td>Stages</td><td>Not staged (localized infection)</td><td>Primary → Secondary → Latent → Tertiary</td></tr>
+          <tr><td>Complications</td><td>PID, infertility, disseminated gonococcal infection</td><td>Gumma, neurosyphilis, aortitis, tabes dorsalis, general paresis</td></tr>
+          <tr><td>Diagnosis</td><td>Gram stain (intracellular diplococci), culture</td><td>Dark-field microscopy, VDRL/RPR, FTA-ABS</td></tr>
+          <tr><td>Treatment</td><td>Ceftriaxone + Azithromycin</td><td>Benzathine penicillin G</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">গনোরিয়ার hallmarks কী?</p>
+<p class="ca">Purulent urethritis — হলুদ-সবুজ পুঁজ-নির্ভর স্রাব।</p>
+<p class="cq">সিফিলিসের chancre কেমন?</p>
+<p class="ca">বেদনাহীন, clean-based, indurated, রক্তপাতহীন আলসার।</p>
+<p class="cq">টারশিয়ারি সিফিলিসের প্রকাশ?</p>
+<p class="ca">Gumma (granuloma), neurosyphilis, cardiovascular syphilis (aortitis)।</p>
+<p class="cq">Congenital syphilis-এর চিহ্ন?</p>
+<p class="ca">Hutchinson teeth, interstitial keratitis, deafness — (Hutchinson triad)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — গনোরিয়া আর সিফিলিসের পার্থক্য টেবিল আকারে।</p>
+<p><b>কারক:</b> গনোরিয়া — Neisseria gonorrhoeae (গ্রাম-নেগেটিভ diplococci); সিফিলিস — Treponema pallidum (স্পাইরোকেট)। <b>Incubation:</b> গনোরিয়া ২-৫ দিন; সিফিলিস প্রাইমারি ৩ সপ্তাহ, সেকেন্ডারি/টারশিয়ারি মাস-বছর। <b>প্রাথমিক ক্ষত:</b> গনোরিয়া — purulent urethral/vaginal discharge; সিফিলিস — chancre (বেদনাহীন, indurated ulcer)। <b>Systemic involvement:</b> গনোরিয়া বিরল (স্থানীয়); সিফিলিস ব্যাপক (ত্বক, CNS, কার্ডিওভাসকুলার, লিভার)। <b>ধাপ:</b> গনোরিয়া staged নয়; সিফিলিস primary → secondary → latent → tertiary। <b>জটিলতা:</b> গনোরিয়া — PID, বন্ধ্যাত্ব, disseminated infection; সিফিলিস — gumma, neurosyphilis, aortitis, tabes dorsalis, general paresis। <b>Diagnosis:</b> গনোরিয়া — Gram stain (intracellular diplococci), culture; সিফিলিস — dark-field microscopy, VDRL/RPR, FTA-ABS। <b>চিকিৎসা:</b> গনোরিয়া — Ceftriaxone + Azithromycin; সিফিলিস — Benzathine penicillin G।</p>
+<p>এক লাইনে — "গনোরিয়া = পুঁজ + স্থানীয় + দ্রুত; সিফিলিস = chancre + systemic + ধাপে ধাপে।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

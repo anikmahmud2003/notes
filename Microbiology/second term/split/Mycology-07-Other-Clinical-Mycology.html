@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Other Clinical Mycology (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Other Clinical Mycology</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">3 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">3 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-06-Cryptococcus-Pneumocystis-Aspergillus.html">‹ Prev</a><a href="Parasitology-01-General-Parasite-Host.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Other Clinical Mycology</h2><div class="en">Id reaction, dematiaceous fungi, sexual &amp; asexual spores</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M31</span>
+      <p class="qtext">What is "id reaction"? ** (hypersensitivity reaction by circulating fungal antigen but not by fungus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Hypersensitivity reaction by circulating fungal antigen but not by fungus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>"Id reaction" (Dermatophytid reaction)</b> is a <b>hypersensitivity reaction</b> that occurs in response to <b>circulating fungal antigens</b> — without the actual presence of fungus (hyphae) at the site of the reaction.</p>
+      <ul>
+        <li>It is a systemic immune response — the fungal antigens from the primary infection site travel via the blood and trigger an allergic reaction elsewhere on the skin.</li>
+        <li>The "id" reaction sites do NOT contain fungal organisms on microscopy or culture.</li>
+        <li>It is a <b>Type IV hypersensitivity</b> reaction.</li>
+        <li>Commonly seen in dermatophytosis (ringworm) — e.g., vesicular eruptions on hands when feet are infected.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Id reaction চেনা কেন important?</p>
+      <p class="ca">কারণ এটা clinically <b>fungal infection‑এর মতো দেখায়</b>, কিন্তু আসলে immunological phenomenon — এটা বুঝলে secondary site‑এ ভুল diagnosis/unnecessary treatment এড়ানো যায়।</p>
+      <p class="cq">Treatment কীভাবে?</p>
+      <p class="ca">Primary infection‑এর জন্য antifungal + id reaction‑এর জন্য <b>antihistamine বা steroid</b>।</p>
+      <p class="cq">Id reaction বুঝলে কী লাভ?</p>
+      <p class="ca">Secondary site‑এর <b>misdiagnosis ও unnecessary treatment</b> prevent হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>"id reaction" (dermatophytid reaction)</b> হলো একটি <b>hypersensitivity reaction</b> যা <b>circulating fungal antigen</b>‑এর প্রতিক্রিয়ায় হয় — reaction‑এর জায়গায় আসলে fungus (hyphae) থাকে না।</p>
+      <ul>
+        <li>এটা systemic immune response — primary infection site‑এর fungal antigen রক্তে ভ্রমণ করে অন্য skin site‑এ allergic reaction trigger করে।</li>
+        <li>"id" reaction site‑এ <b>microscopy/culture‑তে fungal organism থাকে না</b>।</li>
+        <li>এটা <b>Type IV hypersensitivity</b>।</li>
+        <li>Common — dermatophytosis (ringworm)‑এ; যেমন foot infected থাকলে হাতে vesicular eruption।</li>
+      </ul>
+      <p>Important — এটা clinically fungal infection‑এর মতো, কিন্তু আসলে immunological; treatment — primary infection antifungal + id reaction‑এ antihistamine/steroid; চিনলে misdiagnosis/unnecessary treatment prevent হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M32</span>
+      <p class="qtext">What do you mean by dematiaceous fungi? * (having melanin or melanin like pigment. Exophiala, Cladosporium or Hortaea etc. but Mucor is not dematiaceous fungi)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Having melanin or melanin-like pigment. Exophiala, Cladosporium or Hortaea etc. but Mucor is not dematiaceous</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Dematiaceous fungi</b> are fungi that have <b>melanin or melanin-like pigment</b> in the wall of their hyphae and/or spores. Their conidia or hyphae appear <b>dark-colored (gray or black)</b>, which is why they are called "dematiaceous" (from Latin <i>dematiaceous</i> = dark-pigmented).</p>
+      <p><b>Important dematiaceous fungi:</b></p>
+      <ol>
+        <li><i>Fonsecaea</i> — <i>F. pedrosoi</i>, <i>F. compacta</i></li>
+        <li><i>Phialophora</i> — <i>P. verrucosa</i></li>
+        <li><i>Cladophialophora</i> — <i>C. carrionii</i>, <i>C. bantiana</i></li>
+        <li><i>Exophiala</i> — <i>E. dermatitidis</i>, <i>E. jeanselmei</i>, <i>E. spinifera</i>, <i>E. moniliae</i></li>
+        <li><i>Cladosporium</i> / <i>Hortaea</i> — <i>C. werneckii</i> (= <i>Hortaea werneckii</i>)</li>
+      </ol>
+      <p><b>Important: <i>Mucor</i> is NOT a dematiaceous fungus</b> — it does not contain melanin pigment.</p>
+      <p><b>Diseases caused by dematiaceous fungi:</b></p>
+      <ul>
+        <li><b>Chromoblastomycosis:</b> Chronic granulomatous infection of cutaneous and subcutaneous tissues.</li>
+        <li><b>Pheohyphomycosis:</b> Primary or opportunistic infection ranging from superficial tissue to deep organs.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Tinea nigra কোন fungus‑এর কারণে, আর কী দেখায়?</p>
+      <p class="ca"><i>Hortaea werneckii</i> / <i>Cladosporium werneckii</i>‑এর কারণে; melanin‑like pigment‑এর জন্য skin‑এ <b>brownish spot</b> দেখা যায়।</p>
+      <p class="cq"><i>Phialophora verrucosa</i> কোন disease করে?</p>
+      <p class="ca"><b>Chromoblastomycosis</b>।</p>
+      <p class="cq"><i>Exophiala dermatitidis</i> কোন disease করে?</p>
+      <p class="ca"><b>Pheohyphomycosis</b>।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>dematiaceous fungi</b> হলো সেইসব fungus যাদের hyphae/spore‑এর wall‑এ <b>melanin বা melanin‑like pigment</b> থাকে। তাই এরা <b>dark‑colored (gray বা black)</b> দেখায় — "dematiaceous" শব্দটি Latin থেকে এসেছে, মানে dark‑pigmented।</p>
+      <p>Important dematiaceous fungi — <i>Fonsecaea</i> (pedrosoi, compacta), <i>Phialophora</i> (verrucosa), <i>Cladophialophora</i> (carrionii, bantiana), <i>Exophiala</i> (dermatitidis, jeanselmei, spinifera, moniliae), <i>Cladosporium/Hortaea</i> (werneckii)।</p>
+      <p><b>Important:</b> <i>Mucor</i> dematiaceous <b>নয়</b> — এতে melanin pigment থাকে না।</p>
+      <p>Disease — <b>chromoblastomycosis</b> (cutaneous/subcutaneous‑এর chronic granulomatous infection) ও <b>pheohyphomycosis</b> (superficial tissue থেকে deep organ পর্যন্ত, primary বা opportunistic)। Extra — tinea nigra <i>H. werneckii</i>‑এর কারণে brownish spot; <i>P. verrucosa</i> → chromoblastomycosis; <i>E. dermatitidis</i> → pheohyphomycosis।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M33</span>
+      <p class="qtext">Mention the name of sexual and asexual spore.* (sexual spore: zygospore, ascospore, basidiospore, asexual spore: arthrospore, blastospore, chlamydospore, sporangiospore, microconidia and macroconidia)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Sexual: zygospore, ascospore, basidiospore; Asexual: arthrospore, blastospore, chlamydospore, sporangiospore, microconidia, macroconidia</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>A. Sexual Spores:</b></p>
+      <ol>
+        <li><b>Zygospore:</b> Single large spore with thick walls.</li>
+        <li><b>Ascospore:</b> Formed inside a sac called an <b>ascus</b>.</li>
+        <li><b>Basidiospore:</b> Formed externally on the tip of a pedestal called a <b>basidium</b>.</li>
+      </ol>
+      <p><b>B. Asexual Spores (Conidia):</b></p>
+      <ol>
+        <li><b>Arthrospore:</b> Arises by fragmentation of the ends of hyphae. Example: <i>Coccidioides immitis</i>.</li>
+        <li><b>Blastospore (Blastoconidia):</b> Formed by budding. Multiple buds that do not detach form pseudohyphae. Example: <i>Candida albicans</i>.</li>
+        <li><b>Chlamydospore:</b> Rounded, thick-walled, quite resistant. Example: <i>Candida albicans</i>.</li>
+        <li><b>Sporangiospore:</b> Formed within a sac (sporangium) on a stalk by molds. Example: <i>Rhizopus</i> and <i>Mucor</i>.</li>
+        <li><b>Microconidia:</b> Small conidia. Example: <i>Aspergillus</i>, <i>Microsporum</i>.</li>
+        <li><b>Macroconidia:</b> Large conidia. Example: <i>Microsporum</i>.</li>
+      </ol>
+      <p><b>Note:</b> Fungi that do NOT form sexual spores are termed <b>fungi imperfecti</b> (Deuteromycotina).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Macroconidia‑র shape genus অনুযায়ী কী কী?</p>
+      <p class="ca"><i>Epidermophyton</i> — club shaped; <i>Trichophyton</i> — cylindrical; <i>Microsporum</i> — spindle shaped।</p>
+      <p class="cq">আর microconidia species অনুযায়ী?</p>
+      <p class="ca"><i>T. rubrum</i> — single tear drop; <i>T. mentagrophytes</i> — cluster oval; <i>T. tonsurans</i> — elongated।</p>
+      <p class="cq">Sporangiospore আর conidia‑র পার্থক্য কী?</p>
+      <p class="ca">Sporangiospore <b>sporangium‑এর ভিতরে enclosed</b>; conidia <b>naked</b> (enclosed নয়)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, sexual ও asexual spore‑এর নাম বলছি।</p>
+      <p><b>A. Sexual spore (৩টি):</b> <b>Zygospore</b> — single, বড়, thick‑walled spore; <b>Ascospore</b> — <b>ascus</b> নামক থলির ভিতরে তৈরি হয়; <b>Basidiospore</b> — <b>basidium</b> নামক pedestal‑এর tip‑এ externally তৈরি হয়।</p>
+      <p><b>B. Asexual spore (conidia) (৬টি):</b> <b>Arthrospore</b> — hyphae‑এর প্রান্ত fragmentation‑এর ফলে; example <i>Coccidioides immitis</i>। <b>Blastospore (blastoconidia)</b> — budding‑এর ফলে; একাধিক bud detach না হলে pseudohyphae; example <i>Candida albicans</i>। <b>Chlamydospore</b> — rounded, thick‑walled, বেশ resistant; example <i>Candida albicans</i>। <b>Sporangiospore</b> — stalk‑এর উপর <b>sporangium</b> নামক থলির ভিতরে; example <i>Rhizopus</i>, <i>Mucor</i>। <b>Microconidia</b> — ছোট conidia; example <i>Aspergillus</i>, <i>Microsporum</i>। <b>Macroconidia</b> — বড় conidia; example <i>Microsporum</i>।</p>
+      <p>Note — যেসব fungus sexual spore তৈরি করে না, তাদের বলে <b>fungi imperfecti</b> (Deuteromycotina)। Shape মনে রাখুন — macroconidia: Epidermophyton club, Trichophyton cylindrical, Microsporum spindle; microconidia: rubrum single tear drop, mentagrophytes cluster oval, tonsurans elongated; sporangiospore enclosed, conidia naked।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

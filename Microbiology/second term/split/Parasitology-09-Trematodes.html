@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Trematodes (Flukes) (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Trematodes (Flukes)</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">5 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">5 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-08-Cestodes.html">‹ Prev</a><a href="Parasitology-10-Nematodes-Intestinal.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Trematodes (Flukes)</h2><div class="en">Characteristics, blood/liver/lung/intestinal flukes, schistosomiasis, cancer-causing parasites</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P117</span>
+      <p class="qtext">Write down the characteristics of trematodes/ flukes. *********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> flukes — leaf-like, unsegmented, two suckers, hermaphrodite except Schistosoma</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li>Another name: <b>flukes</b>.</li>
+        <li>Shape: leaf-like, flat, unsegmented; size 1 mm to several cm.</li>
+        <li><b>Head:</b> bears suckers but no hooks — two suckers: oral sucker (mouth) and ventral sucker (acetabulum).</li>
+        <li><b>Sexes:</b> not separated (monoecious/hermaphrodite) <b>except Schistosoma</b> (diecious).</li>
+        <li><b>Alimentary canal:</b> present but incomplete — no anus.</li>
+        <li><b>Body cavity:</b> absent.</li>
+        <li>Schistosoma (blood flukes) are the only trematodes that are diecious (separate sexes), with the female residing in the gynecophoric canal of the male.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">ট্রিমাটোডকে habitat অনুযায়ী কী কী ভাগে ভাগ করা হয়?</p>
+      <p class="ca">ইনটেস্টাইনাল (F. buski, G. hominis), হেপাটিক/লিভার (F. hepatica, C. sinensis), পালমোনারি/ফুসফুস (P. westermani), ব্লাড (S. haematobium, S. mansoni, S. japonicum)।</p>
+      <p class="cq">Schistosome-এর egg কীভাবে আলাদা করা হয়?</p>
+      <p class="ca">Non-operculated egg, কিন্তু spine থাকে — S. haematobium-এ terminal spine, S. mansoni-তে prominent lateral spine, S. japonicum-এ rudimentary lateral spine।</p>
+      <p class="cq">বেশিরভাগ fluke-এর intermediate host কী?</p>
+      <p class="ca">Freshwater snail — বেশিরভাগ trematode snail দিয়ে সংক্রমণ ছড়ায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ট্রিমাটোড মানে fluke। ভাইভায় বৈশিষ্ট্যগুলো বলো —</p>
+<ul>
+<li>পাতার মতো সমতল আকৃতি, আনসেগমেন্টেড; আয়তন ১ মিমি থেকে কয়েক সেমি।</li>
+<li>মাথায় দুটি sucker থাকে — <b>oral sucker</b> (মুখ) ও <b>ventral sucker</b> (acetabulum)। Hook নেই।</li>
+<li><b>Hermaphrodite</b> (লিঙ্গ আলাদা নয়) — তবে <b>Schistosoma ব্যতীত</b>, যা diecious। স্ত্রী Schistosoma পুরুষের gynecophoric canal-এ থাকে।</li>
+<li>পরিপাকনালী আছে কিন্তু anus নেই (incomplete)।</li>
+<li>শরীর গহ্বর নেই।</li>
+</ul>
+<p>ভাইভাতে একটা লাইন বলো: <b>\"Trematode = Two suckers, no anus, Schisto is diecious\"</b>।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P118</span>
+      <p class="qtext">List the medically important trematodes. ******* (blood flukes: Schistosoma hematobium, S. japonicum, S. mansoni; lungs flukes: P. westermani, intestinal flukes: F. buski, G. hominis, liver flukes: F. hepatica and C. sinensis)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> blood flukes: Schistosoma haematobium, S. japonicum, S. mansoni; lung flukes: P. westermani; intestinal: F. buski, G. hominis; liver: F. hepatica, C. sinensis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The medically important trematodes, classified by their site of infection, are:</p>
+      <ul>
+        <li><b>Blood flukes:</b> Schistosoma haematobium, Schistosoma japonicum, Schistosoma mansoni.</li>
+        <li><b>Lung flukes:</b> Paragonimus westermani.</li>
+        <li><b>Intestinal flukes:</b> Fasciolopsis buski, Gastrodiscoides hominis (also Heterophyes heterophyes, etc.).</li>
+        <li><b>Liver flukes:</b> Fasciola hepatica, Clonorchis sinensis.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">প্রত্যেকটি blood fluke কোন সাইটে থাকে?</p>
+      <p class="ca">S. haematobium — vesical/prostatic venous plexus; S. mansoni — mesenteric (sigmoidorectal); S. japonicum — mesenteric (ileocecal)।</p>
+      <p class="cq">বাংলাদেশে সবচেয়ে বেশি কোন trematode পাওয়া যায়?</p>
+      <p class="ca">Fasciolopsis buski (giant intestinal fluke) — বাংলাদেশে সবচেয়ে বেশি প্রচলিত trematode।</p>
+      <p class="cq">সব trematode-র intermediate host কি snail?</p>
+      <p class="ca">বেশিরভাগেরই freshwater snail intermediate host (দ্বিতীয় host হিসাবে aquatic plant বা মাছ লাগে যাদের)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>চিকিৎসাগতভাবে গুরুত্বপূর্ণ trematode-দের গ্রুপ অনুযায়ী মনে রাখো —</p>
+<ul>
+<li><b>ব্লাড ফ্লুক:</b> Schistosoma haematobium, Schistosoma japonicum, Schistosoma mansoni।</li>
+<li><b>ফুসফুসের ফ্লুক:</b> Paragonimus westermani।</li>
+<li><b>অন্ত্রের ফ্লুক:</b> Fasciolopsis buski, Gastrodiscoides hominis।</li>
+<li><b>লিভারের ফ্লুক:</b> Fasciola hepatica, Clonorchis sinensis।</li>
+</ul>
+<p>এই গ্রুপ অনুযায়ী \"blood, lung, intestine, liver\" ক্রমে বললেই কিছু বাদ পড়বে না।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P119</span>
+      <p class="qtext">Enumerate the blood flukes, intestinal flukes, liver flukes and lungs flukes. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> enumerate all flukes by their site</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Blood flukes:</b> Schistosoma haematobium, Schistosoma mansoni, Schistosoma japonicum.</li>
+        <li><b>Intestinal flukes:</b> Fasciolopsis buski, Gastrodiscoides hominis (small intestine — F. buski, Heterophyes heterophyes, Watsonius watsoni, Metagonimus yokogawai; large intestine — Gastrodiscoides hominis).</li>
+        <li><b>Liver flukes:</b> Fasciola hepatica, Clonorchis sinensis (also Opisthorchis felineus, Opisthorchis viverrini).</li>
+        <li><b>Lung flukes:</b> Paragonimus westermani.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Blood fluke-দের নিজস্ব সাইট কী কী?</p>
+      <p class="ca">S. haematobium → vesical/prostatic venous plexus; S. mansoni ও S. japonicum → mesenteric venous plexus।</p>
+      <p class="cq">Egg দিয়ে species আলাদা করবে কীভাবে?</p>
+      <p class="ca">S. haematobium-এর egg-এ terminal spine; S. mansoni-র egg-এ prominent lateral spine; S. japonicum-এর egg-এ rudimentary lateral spine।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>একই প্রশ্ন আগের সাথে মিলে, তবে এখানে আরও বিস্তারিত করতে হবে —</p>
+<ul>
+<li><b>ব্লাড ফ্লুক:</b> Schistosoma haematobium, mansoni, japonicum।</li>
+<li><b>অন্ত্রের ফ্লুক:</b> ছোট অন্ত্রে — F. buski, Heterophyes heterophyes, Watsonius watsoni, Metagonimus yokogawai; বড় অন্ত্রে — Gastrodiscoides hominis।</li>
+<li><b>লিভারের ফ্লুক:</b> F. hepatica, C. sinensis — এছাড়া Opisthorchis felineus, O. viverrini।</li>
+<li><b>ফুসফুসের ফ্লুক:</b> Paragonimus westermani।</li>
+</ul>
+<p>প্রত্যেক গ্রুপের নাম তালিকাভুক্ত করলেই যথেষ্ট।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P120</span>
+      <p class="qtext">Write in short about schistosomiasis/ Bilharziasis. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> blood fluke disease; cercariae penetrate skin; acute &amp; chronic forms</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Schistosomiasis (Bilharziasis)</b> is the disease caused by blood flukes of the genus Schistosoma (S. haematobium, S. mansoni, S. japonicum).</p>
+      <ul>
+        <li><b>Host:</b> definitive host — man; intermediate host — freshwater snails.</li>
+        <li><b>Infective form:</b> forked-tailed cercariae.</li>
+        <li><b>Route of transmission:</b> penetration of skin by cercariae from fresh water (skincare, swimming).</li>
+        <li><b>Acute schistosomiasis:</b> swimmer's itch (skin rash at entry site), toxic/anaphylactic syndrome, cough, Katayama fever (S. mansoni &amp; S. japonicum).</li>
+        <li><b>Chronic schistosomiasis:</b> granuloma formation in liver/spleen/gut wall, <b>painless haematuria &amp; dysuria </b>(S. haematobium), portal hypertension, and bladder carcinoma.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">প্রাপ্তবয়স্ক কৃমি কীভাবে ইমিউন সিস্টেম এড়িয়ে যায়?</p>
+      <p class="ca">প্রাপ্তবয়স্ক কৃমি তার পৃষ্ঠে হোস্টের antigen মাখিয়ে নেয়, ফলে ইমিউন সিস্টেম তাকে চিনতে পারে না।</p>
+      <p class="cq">নির্ণয় কীভাবে করবে?</p>
+      <p class="ca">মূত্রে egg — S. haematobium (terminal spine); মলে egg — S. mansoni/japonicum। Spine-এর ধরনই মূল চাবিকাঠি।</p>
+      <p class="cq">চিকিৎসা কী?</p>
+      <p class="ca">Praziquantel।</p>
+      <p class="cq">Schistosoma-র অন্য trematode থেকে বিশেষ পার্থক্য কী?</p>
+      <p class="ca">এটি একমাত্র diecious trematode; স্ত্রী কৃমি পুরুষের gynecophoric canal-এ অবস্থান করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Schistosomiasis = Bilharziasis — Schistosoma গোত্রের ব্লাড ফ্লুকের রোগ (S. haematobium, S. mansoni, S. japonicum)।</p>
+<p>ভাইভায় বলো —</p>
+<ul>
+<li>Definitive host = মানুষ; intermediate host = freshwater snail।</li>
+<li>Infective form = forked-tailed cercaria। সংক্রমণ = মিঠা পানি থেকে চামড়ায় cercaria-র penetration (সাঁতার কাটা বা ধোয়া)।</li>
+<li>Acute schistosomiasis: swimmer's itch (প্রবেশস্থলে rash), toxic/anaphylactic syndrome, কাশি, Katayama fever (S. mansoni ও S. japonicum)।</li>
+<li>Chronic: লিভার/প্লীহা/অন্ত্রের দেয়ালে granuloma, painless haematuria ও dysuria (S. haematobium), portal hypertension, bladder carcinoma।</li>
+</ul>
+<p>নির্ণয়: মূত্রে egg (S. haematobium) বা মলে egg (S. mansoni/japonicum)। চিকিৎসা: Praziquantel।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P121</span>
+      <p class="qtext">Mention three (03) cancer causing parasites. *** (mainly trematodes: S. hematobium: bladder cancer. F. hepatica and C. sinensis: liver cancer)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> mainly trematodes: S. haematobium → bladder cancer; F. hepatica and C. sinensis → liver cancer</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Cancer-causing parasites (mainly trematodes):</p>
+      <ul>
+        <li><b>Schistosoma haematobium</b> → <b>Bladder carcinoma</b> (eggs in the urinary bladder induce granulomas, fibrosis and later carcinoma).</li>
+        <li><b>Fasciola hepatica</b> → <b>Hepatocellular carcinoma</b> (liver cancer).</li>
+        <li><b>Clonorchis sinensis</b> → <b>Cholangiocarcinoma</b> (bile-duct/liver cancer).</li>
+      </ul>
+      <p>(Other related: S. mansoni → colorectal/liver carcinoma; Opisthorchis → cholangiocarcinoma; Plasmodium spp. → Burkitt's lymphoma.)</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">S. mansoni কোন ধরনের ক্যান্সার করে?</p>
+      <p class="ca">S. mansoni → colorectal carcinoma এবং কখনো কখনো liver carcinoma।</p>
+      <p class="cq">আর কোন পরজীবী cholangiocarcinoma করে?</p>
+      <p class="ca">Opisthorchis viverrini, O. felineus, Schistosoma japonicum।</p>
+      <p class="cq">Plasmodium কী ধরনের ক্যান্সারের সাথে যুক্ত?</p>
+      <p class="ca">Plasmodium spp. → Burkitt's lymphoma (পরোক্ষভাবে)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>তিনটি ক্যান্সার সৃষ্টিকারী পরজীবী (প্রধানত trematode):</p>
+<ol>
+<li><b>Schistosoma haematobium</b> → <b>Bladder carcinoma</b> — মূত্রাশয়ে egg জমে granuloma → fibrosis → পরবর্তীতে carcinoma।</li>
+<li><b>Fasciola hepatica</b> → <b>Hepatocellular carcinoma</b> (লিভার ক্যান্সার)।</li>
+<li><b>Clonorchis sinensis</b> → <b>Cholangiocarcinoma</b> (পিত্তনালী/লিভার ক্যান্সার)।</li>
+</ol>
+<p>মনে রাখো: <b>\"Bladder = haematobium, Liver/bile = hepatica &amp; sinensis\"</b>।</p>
+<p>সম্পর্কিত: S. mansoni → colorectal/liver carcinoma; Opisthorchis → cholangiocarcinoma; Plasmodium → Burkitt's lymphoma।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

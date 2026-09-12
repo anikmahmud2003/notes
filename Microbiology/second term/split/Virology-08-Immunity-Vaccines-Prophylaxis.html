@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Immunity, Vaccines & Prophylaxis (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Immunity, Vaccines &amp; Prophylaxis</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">11 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">11 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-07-Hepatitis.html">‹ Prev</a><a href="Virology-09-Respiratory-Rash-Viruses.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Immunity, Vaccines &amp; Prophylaxis</h2><div class="en">Opsonization, hypersensitivity, drug routes, endotoxin/exotoxin, toxoids, live vs killed vaccines</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V76</span>
+      <p class="qtext">What is opsonization? What are its importance? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> coating of microorganism with antibody and complement</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <h3>IgG (1,3)</h3><h3>C3b</h3><p><b>Opsonization</b> is the process by which microorganisms are coated with <b>antibody (IgG)</b> and <b>complement (C3b)</b> to enhance their recognition and phagocytosis by phagocytic cells (neutrophils, macrophages).</p>
+      <p>Phagocytic cells have receptors for Fc portion of IgG and for C3b on their surface. When a microbe is coated with these opsonins, it binds more efficiently to phagocytes, greatly enhancing phagocytosis.</p>
+      <p><b>Importance:</b></p>
+      <ul>
+        <li>Markedly enhances phagocytic uptake of bacteria — especially important for <b>encapsulated organisms (Streptococcus pneumoniae, Haemophilus influenzae, Neisseria meningitidis).</b></li>
+        <li>Antibodies (IgG1, IgG3) and complement C3b are the two major opsonins in the human body.</li>
+        <li>Opsonization is a critical defense mechanism <b>against pyogenic bacteria.</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">কোন দুটি প্রধান opsonin মানবদেহে আছে?</p>
+<p class="ca">Immunoglobulin IgG (বিশেষত IgG1, IgG3) এবং কমপ্লিমেন্ট C3b — এ দুটিই প্রধান opsonin।</p>
+<p class="cq">কমপ্লিমেন্টের কোন সিস্টেমটি C3b জমার কেন্দ্র?</p>
+<p class="ca">ক্লাসিক্যাল, অল্টারনেটিভ ও লেকটিন — তিনটি পাথওয়েই C3b-এ মিলিত হয়, তাই C3b-ই কেন্দ্রীয় opsonin।</p>
+<p class="cq">কমপ্লিমেন্ট ঘাটতিতে কোন রোগজীবাণুতে বেশি সংবেদনশীলতা থাকে?</p>
+<p class="ca">বিশেষত encapsulated ব্যাকটেরিয়া (যেমন Streptococcus pneumoniae, Haemophilus influenzae, Neisseria meningitidis) — কারণ এদের ক্যাপসুল ফ্যাগোসাইটোসিস থেকে রক্ষা করে, তাই opsonization অত্যন্ত জরুরি।</p>
+<p class="cq">ব্রিজিং মেকানিজমটি কেমন?</p>
+<p class="ca">microbe — opsonin (C3b/IgG) — ফ্যাগোসাইটের receptor — এই ব্রিজের মাধ্যমে ফ্যাগোসাইটোসিস ব্যাপকভাবে বাড়ে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Opsonization</b> হলো সেই প্রক্রিয়া যেখানে অণুজীবকে (microorganism) <b>অ্যান্টিবডি (IgG)</b> ও <b>কমপ্লিমেন্ট (C3b)</b> দিয়ে প্রলেপ (coat) দেওয়া হয়, যাতে ফ্যাগোসাইটিক কোষ (নিউট্রোফিল, ম্যাক্রোফেজ) সহজে এটিকে চিনতে ও গিলে ফেলতে পারে।</p>
+<p>কেন কাজ করে? ফ্যাগোসাইটের পৃষ্ঠে IgG-র Fc অংশের receptor আর C3b-এর receptor থাকে। অণুজীবের গায়ে opsonin লাগানো থাকলে তা ফ্যাগোসাইটের receptor-এর সাথে বেশি কার্যকরভাবে বাঁধে — ফলে ফ্যাগোসাইটোসিস অনেক বেড়ে যায়।</p>
+<p>গুরুত্ব: (১) encapsulated ব্যাকটেরিয়া (S. pneumoniae, H. influenzae, N. meningitidis) মেরে ফেলতে opsonization অপরিহার্য — কারণ তাদের ক্যাপসুল ফ্যাগোসাইটোসিস এড়িয়ে যায়; (২) IgG1, IgG3 ও C3b হলো মানবদেহের প্রধান দুটি opsonin; (৩) pyogenic ব্যাকটেরিয়ার বিরুদ্ধে এটি গুরুত্বপূর্ণ প্রতিরক্ষা।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V77</span>
+      <p class="qtext">Mention different types of hypersensitivity. Give examples. What are the tests for type-II hypersensitivity reactions? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Coombs test, Anti-human globulin test</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer&nbsp;&nbsp;</div>
+    <div class="bcontent b-ans">
+      <p><b>Four types of hypersensitivity reactions (Gell and Coombs classification):</b></p>
+      <ul>
+        <li><b>Type-I (Immediate / Anaphylactic):</b> IgE mediated. Examples: allergic rhinitis, bronchial asthma, anaphylaxis, urticaria.</li>
+        <li><b>Type-II (Cytotoxic):</b> IgG/IgM mediated against cell-surface or matrix antigens. Examples: hemolytic disease of the newborn (HDN), autoimmune hemolytic anemia, Goodpasture syndrome, pernicious anemia, rheumatic heart disease.</li>
+        <li><b>Type-III (Immune complex):</b> IgG/IgM + soluble antigen complex deposited in tissues. Examples: serum sickness, Arthus reaction, post-streptococcal glomerulonephritis, SLE, rheumatoid arthritis.</li>
+        <li><b>Type-IV (Delayed / Cell-mediated):</b> T-cell mediated. Examples: tuberculin test, contact dermatitis (poison ivy), graft rejection.</li>
+      </ul>
+      <p><b>Tests for Type-II hypersensitivity:</b></p>
+      <ul>
+        <li><b>Coombs test (Anti-human globulin test):</b> Detects antibody (IgG) bound to RBC surface. Used for diagnosis of HDN and autoimmune hemolytic anemia.</li>
+        <li><b>Direct Coombs test:</b> Detects antibody already bound to patient's RBCs in vivo.</li>
+        <li><b>Indirect Coombs test:</b> Detects free (unbound) antibody in patient's serum against RBC antigens.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">টাইপ-২ হাইপারসেন্সিটিভিটির তিনটি মেকানিজম কী কী?</p>
+<p class="ca">(১) কমপ্লিমেন্ট অ্যাক্টিভেশন → কোষ লাইসিস; (২) antibody-dependent cell-mediated cytotoxicity (ADCC); (৩) কোষের কার্যকারিতা পরিবর্তন কিন্তু লাইসিস ছাড়া (যেমন Graves disease-তে)।</p>
+<p class="cq">HDN-তে কী ঘটে?</p>
+<p class="ca">মায়ের IgG অ্যান্টি-D অ্যান্টিবডি প্লাসেন্টা পেরিয়ে ভ্রূণের Rh-পজিটিভ RBC ধ্বংস করে — এতে নবজাতকের হেমোলাইটিক রোগ হয়।</p>
+<p class="cq">টাইপ-২-এর অ্যান্টিজেন কোথায় থাকে?</p>
+<p class="ca">কোষের পৃষ্ঠে (surface) বা বাইরের এক্সট্রাসেলুলার ম্যাট্রিক্সে (বেসমেন্ট মেমব্রেন)।</p>
+<p class="cq">Direct ও Indirect Coombs টেস্টের পার্থক্য কী?</p>
+<p class="ca">Direct Coombs — রোগীর RBC-তে ইতিমধ্যে বাঁধা অ্যান্টিবডি (in vivo) শনাক্ত করে; Indirect Coombs — রোগীর সিরামে RBC অ্যান্টিজেনের বিরুদ্ধে মুক্ত (free) অ্যান্টিবডি শনাক্ত করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় হাইপারসেন্সিটিভিটি বলতে গেলে Gell-Coombs শ্রেণিবিভাগের ৪ ধরন ধরে এগোবে।</p>
+<p><b>টাইপ-১ (ইমিডিয়েট/অ্যানাফাইল্যাক্টিক):</b> IgE-মধ্যস্থ। উদাহরণ — অ্যালার্জিক রাইনাইটিস, ব্রঙ্কিয়াল অ্যাজমা, অ্যানাফাইল্যাক্সিস, urticaria।</p>
+<p><b>টাইপ-২ (সাইটোটক্সিক):</b> IgG/IgM কোষপৃষ্ঠ বা ম্যাট্রিক্স অ্যান্টিজেনের বিরুদ্ধে কাজ করে। উদাহরণ — HDN, অটোইমিউন হেমোলাইটিক অ্যানিমিয়া, Goodpasture সিনড্রোম, pernicious anemia, RHD।</p>
+<p><b>টাইপ-৩ (ইমিউন কমপ্লেক্স):</b> IgG/IgM + দ্রবণীয় অ্যান্টিজেনের কমপ্লেক্স টিস্যুতে জমে। উদাহরণ — serum sickness, Arthus reaction, post-streptococcal GN, SLE, RA।</p>
+<p><b>টাইপ-৪ (ডিলেড/সেল-মধ্যস্থ):</b> T-cell মধ্যস্থ। উদাহরণ — টিউবারকুলিন টেস্ট, contact dermatitis, গ্রাফ্ট রিজেকশন।</p>
+<p><b>টাইপ-২ পরীক্ষা:</b> <b>Coombs টেস্ট (anti-human globulin টেস্ট)</b> — RBC পৃষ্ঠের IgG শনাক্ত করে; HDN ও অটোইমিউন হেমোলাইটিক অ্যানিমিয়ায় ব্যবহৃত। Direct Coombs — in vivo বাঁধা অ্যান্টিবডি; Indirect Coombs — সিরামে free অ্যান্টিবডি।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V78</span>
+      <p class="qtext">What are the routes of drug administration and their criteria? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> tablets, capsules, syrup, suppository, injection, inhalation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Different routes of drug administration:</b></p>
+      <ul>
+        <li><b>Oral (PO):</b> Tablets, capsules, syrup — most common, cheapest, safest.</li>
+        <li><b>Sublingual:</b> Placed under the tongue for rapid absorption.</li>
+        <li><b>Rectal:</b> Suppositories — for patients who cannot take oral medication.</li>
+        <li><b>Parenteral (injections):</b> IV, IM, SC, ID — for rapid action or when oral route is not feasible.</li>
+        <li><b>Inhalation:</b> Gases and volatile liquids (general anesthetics).</li>
+        <li><b>Topical:</b> Creams, ointments — for local application on skin/mucous membrane.</li>
+        <li><b>Intrathecal:</b> Directly into CSF — for CNS infections.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">কোন রুট দিয়ে ওষুধ সবচেয়ে দ্রুত কাজ করে?</p>
+<p class="ca">IV (ইন্ট্রাভেনাস) — কারণ ওষুধ সরাসরি রক্তে যায়। গতি অনুযায়ী ক্রম: IV &gt; IM &gt; SC &gt; oral।</p>
+<p class="cq">অজ্ঞান বা বমি করা রোগীকে কোন রুটে ওষুধ দেওয়া হয়?</p>
+<p class="ca">Oral দেওয়া যায় না — এ ক্ষেত্রে parenteral (IV/IM) বা rectal (suppository) রুট ব্যবহার করা হয়, কারণ রোগী গিলতে পারে না।</p>
+<p class="cq">কেন্দ্রীয় স্নায়ুতন্ত্রের সংক্রমণে কোন রুট ব্যবহৃত হয়?</p>
+<p class="ca">Intrathecal — সরাসরি CSF-তে দেওয়া হয়, কারণ রক্ত-মস্তিষ্ক বাধা (BBB) প্রায় অ্যান্টিবায়োটিক আটকে রাখে।</p>
+<p class="cq">রুট নির্বাচনের মানদণ্ডগুলো কী কী?</p>
+<p class="ca">ওষুধের দ্রাব্যতা/স্থায়িত্ব, সংক্রমণের স্থান ও তীব্রতা, কাঙ্ক্ষিত গতি, রোগীর অবস্থা (সচেতন/অজ্ঞান, বমি), এবং বিভিন্ন রুটে শোষণ ও bioavailability।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ওষুধ দেওয়ার বিভিন্ন রুট আছে: <b>Oral</b> (ট্যাবলেট, ক্যাপসুল, সিরাপ — সবচেয়ে সাধারণ, সস্তা ও নিরাপদ), <b>Sublingual</b> (জিহ্বার নিচে — দ্রুত শোষণ), <b>Rectal</b> (সাপোজিটরি — যারা মুখে নিতে পারে না), <b>Parenteral</b> (IV, IM, SC, ID — দ্রুত কাজ বা মুখে অসম্ভব হলে), <b>Inhalation</b> (গ্যাস/উদ্বায়ী তরল — জেনারেল অ্যানেসথেটিক), <b>Topical</b> (ক্রিম/মলম — ত্বকে স্থানীয়), এবং <b>Intrathecal</b> (সরাসরি CSF-তে — CNS সংক্রমণে)।</p>
+<p>রুট নির্বাচনের মানদণ্ড: ওষুধের দ্রাব্যতা ও স্থায়িত্ব, সংক্রমণের স্থান ও তীব্রতা, কাঙ্ক্ষিত গতি (IV &gt; IM &gt; SC &gt; oral), রোগীর অবস্থা (অজ্ঞান/বমি হলে oral নয়), এবং শোষণ/বায়োঅ্যাভেইলেবিলিটি। এক লাইনে — "সবচেয়ে সাধারণ oral, সবচেয়ে দ্রুত IV, অজ্ঞান রোগীতে parenteral/rectal।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V79</span>
+      <p class="qtext">What is prophylaxis? What are the types and example of prophylaxis? * OR Define prophylaxis, describe the types of prophylaxis with example *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Primary- primary prevention by vaccine, secondary- prophylactic chemotherapy, tertiary- eradication of carrier</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Prophylaxis</b> means prevention of disease before it occurs.</p>
+      <p><b>Types of prophylaxis:</b></p>
+      <ul>
+        <li><b>Primary prophylaxis:</b> Prevention of disease before it occurs at all. Example: vaccination (primary prevention by vaccine), health education, safe water supply, vector control.</li>
+        <li><b>Secondary prophylaxis:</b> Early detection and treatment of disease before it becomes symptomatic or severe. Example: prophylactic chemotherapy (e.g., antimalarial prophylaxis for travelers to endemic areas).</li>
+        <li><b>Tertiary prophylaxis:</b> Prevention of complications and spread from existing cases. Example: eradication of carrier state (e.g., treatment of typhoid carriers to prevent spread), rehabilitation.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Chemoprophylaxis কী?</p>
+<p class="ca">রোগ প্রতিরোধের জন্য রাসায়নিক/ওষুধ ব্যবহার — উদাহরণ: টিবি সংস্পর্শে isoniazid, ভ্রমণকারীদের অ্যান্টিম্যালেরিয়াল প্রফিল্যাক্সিস।</p>
+<p class="cq">Immunoprophylaxis কী?</p>
+<p class="ca">রোগ প্রতিরোধে ভ্যাকসিন (অ্যাক্টিভ) বা immunoglobulin (প্যাসিভ) ব্যবহার।</p>
+<p class="cq">প্রাথমিক প্রফিল্যাক্সিসের উদাহরণ কী?</p>
+<p class="ca">ভ্যাকসিনেশন, স্বাস্থ্য শিক্ষা, নিরাপদ পানি সরবরাহ, ভেক্টর নিয়ন্ত্রণ।</p>
+<p class="cq">EPIC নীতি কী?</p>
+<p class="ca">Eradication, Prevention, Intermediate control, Control — রোগ নিয়ন্ত্রণের মূলনীতি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Prophylaxis</b> মানে রোগ হওয়ার আগেই তা প্রতিরোধ করা। এটি তিন ধরনের।</p>
+<p><b>প্রাইমারি প্রফিল্যাক্সিস:</b> রোগ একেবারেই হওয়ার আগে প্রতিরোধ — উদাহরণ: ভ্যাকসিনেশন (টিকা), স্বাস্থ্য শিক্ষা, নিরাপদ পানি সরবরাহ, ভেক্টর নিয়ন্ত্রণ।</p>
+<p><b>সেকেন্ডারি প্রফিল্যাক্সিস:</b> রোগটি উপসর্গহীন বা তীব্র হওয়ার আগেই আগাম শনাক্ত ও চিকিৎসা — উদাহরণ: প্রফিল্যাকটিক কেমোথেরাপি (যেমন এন্ডেমিক অঞ্চলে ভ্রমণকারীদের অ্যান্টিম্যালেরিয়াল)।</p>
+<p><b>টারশিয়ারি প্রফিল্যাক্সিস:</b> রোগ হয়েছে এমন ক্ষেত্রে জটিলতা ও ছড়ানো প্রতিরোধ — উদাহরণ: ক্যারিয়ার স্টেট নির্মূল (টাইফয়েড ক্যারিয়ারের চিকিৎসা যাতে রোগ না ছড়ায়), রিহ্যাবিলিটেশন।</p>
+<p>এক লাইনে — "প্রাইমারি = টিকা; সেকেন্ডারি = আগাম চিকিৎসা (কেমোপ্রফিল্যাক্সিস); টারশিয়ারি = ক্যারিয়ার নির্মূল।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V80</span>
+      <p class="qtext">Define Endotoxin and Exotoxin. Mention the differences between Endotoxin and Exotoxin. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> gram positive and negative have exotoxin and endotoxin respectively; and endotoxin is lipid-A part of LPS</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Exotoxin:</b> Toxic proteins secreted by bacteria (mainly Gram-positive) into surrounding medium during growth. Examples: tetanus toxin, botulinum toxin, diphtheria toxin, cholera toxin.</p>
+      <p><b>Endotoxin:</b> Lipopolysaccharide (LPS) component of the outer membrane of Gram-negative bacteria. The toxic part is <b>Lipid A</b>. Released upon bacterial lysis.</p>
+      <table>
+        <thead><tr><th>Feature</th><th>Exotoxin</th><th>Endotoxin</th></tr></thead>
+        <tbody>
+          <tr><td>Nature</td><td>Protein</td><td>Lipid A of LPS (lipopolysaccharide)</td></tr>
+          <tr><td>Produced by</td><td>Mainly Gram-positive bacteria</td><td>Gram-negative bacteria</td></tr>
+          <tr><td>Release</td><td>Secreted during growth</td><td>Released on cell lysis</td></tr>
+          <tr><td>Toxicity</td><td>Highly toxic (even in small amounts)</td><td>Less toxic (requires large amounts)</td></tr>
+          <tr><td>Antigenicity</td><td>Highly antigenic; can be toxoid</td><td>Weakly antigenic</td></tr>
+          <tr><td>Heat stability</td><td>Labile (destroyed at 60-80°C)</td><td>Stable (resists boiling)</td></tr>
+          <tr><td>Vaccination</td><td>Toxoid vaccine available (tetanus, diphtheria)</td><td>No toxoid vaccine</td></tr>
+          <tr><td>Fever</td><td>Usually no fever</td><td>Causes fever (pyrogenic)</td></tr>
+          <tr><td>Specificity</td><td>Specific action on particular tissues</td><td>Non-specific effects</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">LPS-এর বিষাক্ত অংশ কোনটি?</p>
+<p class="ca">Lipid A — এটিই endotoxin নামে পরিচিত, সব গ্রাম-নেগেটিভ ব্যাকটেরিয়ায় একই।</p>
+<p class="cq">এন্ডোটক্সিন কীভাবে জ্বর দেয়?</p>
+<p class="ca">ম্যাক্রোফেজ থেকে IL-1 ও TNF-α নিঃসরণ ঘটিয়ে হাইপোথ্যালামাসে কাজ করে জ্বর সৃষ্টি করে (pyrogenic)।</p>
+<p class="cq">এক্সোটক্সিনকে toxoid-এ রূপান্তর করা যায় কেন?</p>
+<p class="ca">কারণ এতে formalin/তাপ দিয়ে detoxinate করলে বিষাক্ততা যায় কিন্তু অ্যান্টিজেনিসিটি থেকে যায় — তাই ভ্যাকসিন প্রস্তুত করা যায় (টিটেনাস, ডিপথেরিয়া)।</p>
+<p class="cq">এন্ডোটক্সিনের প্যাথোজেনিক প্রভাব বিভিন্ন প্রজাতিতে আলাদা হয় কেন?</p>
+<p class="ca">হয় না — Lipid A সব গ্রাম-নেগেটিভ ব্যাকটেরিয়ায় একই, তাই প্রজাতি যাই হোক, ক্লিনিক্যাল প্রভাব (জ্বর, শক) প্রায় একই রকম।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় এন্ডো-এক্সোটক্সিনের পার্থক্য টেবিল আকারে বললেই ভালো। প্রথমে সংজ্ঞা: <b>Exotoxin</b> — প্রধানত গ্রাম-পজিটিভ ব্যাকটেরিয়া বৃদ্ধির সময় বাইরে নিঃসৃত বিষাক্ত প্রোটিন (টিটেনাস, বোটুলিনাম, ডিপথেরিয়া, কোলেরা টক্সিন)। <b>Endotoxin</b> — গ্রাম-নেগেটিভ ব্যাকটেরিয়ার বাইরের ঝিল্লির LPS-এর অংশ, বিষাক্ত অংশটি Lipid A; ব্যাকটেরিয়া লাইসিস হলে বের হয়।</p>
+<p>পার্থক্যগুলো: এক্সোটক্সিন প্রোটিন, এন্ডোটক্সিন Lipid A (LPS); এক্সোটক্সিন প্রধানত গ্রাম-পজিটিভ, এন্ডোটক্সিন গ্রাম-নেগেটিভ; এক্সোটক্সিন বৃদ্ধির সময় নিঃসৃত, এন্ডোটক্সিন লাইসিসে নিঃসৃত; এক্সোটক্সিন অল্প পরিমাণেও অত্যন্ত বিষাক্ত, এন্ডোটক্সিন কম বিষাক্ত (বেশি লাগে); এক্সোটক্সিন অত্যন্ত অ্যান্টিজেনিক ও toxoid বানানো যায়, এন্ডোটক্সিন দুর্বলভাবে অ্যান্টিজেনিক; এক্সোটক্সিন ৬০-৮০°C-তে নষ্ট (labile), এন্ডোটক্সিন ফুটন্তেও টেকে (stable); এক্সোটক্সিনের toxoid ভ্যাকসিন আছে (টিটেনাস, ডিপথেরিয়া), এন্ডোটক্সিনের নেই; এক্সোটক্সিন সাধারণত জ্বর দেয় না, এন্ডোটক্সিন জ্বর দেয় (pyrogenic); এক্সোটক্সিন নির্দিষ্ট টিস্যুতে কাজ করে, এন্ডোটক্সিন অ-নির্দিষ্ট।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V81</span>
+      <p class="qtext">What is endotoxin? What is its effects? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> LPS; LPS = lipid-A and polysaccharide; and Lipid-A is endotoxin</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Endotoxin</b> is the <b>Lipid A</b> component of the lipopolysaccharide (LPS) found in the outer membrane of Gram-negative bacteria.</p>
+      <p>LPS = Lipid A (toxic part) + Polysaccharide (O-antigen)</p>
+      <p><b>Effects of endotoxin:</b></p>
+      <ul>
+        <li><b>Fever (pyrogenic):</b> Stimulates macrophages to release IL-1 and TNF-α, which act on hypothalamus to cause fever.</li>
+        <li><b>Hypotension and shock:</b> Massive release can cause septic shock (endotoxic shock).</li>
+        <li><b>Disseminated intravascular coagulation (DIC):</b> Activation of clotting cascade.</li>
+        <li><b>Complement activation:</b> Via alternative pathway.</li>
+        <li><b>Leukopenia or leukocytosis.</b></li>
+        <li><b>Local effects:</b> Inflammation at the site of infection.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">এন্ডোটক্সিন কেন সব গ্রাম-নেগেটিভে একই রকম প্রভাব দেয়?</p>
+<p class="ca">কারণ Lipid A প্রজাতিভেদে একই — তাই ব্যাকটেরিয়া যা-ই হোক, ফলে জ্বর/শক একই রকম।</p>
+<p class="cq">এন্ডোটক্সিন কি তাপে নষ্ট হয়?</p>
+<p class="ca">না — এটি heat-stable, ১০০°C-তে ১ ঘণ্টা ফুটালেও নষ্ট হয় না (এক্সোটক্সিনের বিপরীতে)।</p>
+<p class="cq">Shwartzman reaction কী?</p>
+<p class="ca">খরগোশে এন্ডোটক্সিন ইনজেকশনের ফলে স্থানীয় ও সাধারণ (generalized) Shwartzman reaction হয়।</p>
+<p class="cq">এন্ডোটক্সিন শনাক্ত করতে কোন টেস্ট?</p>
+<p class="ca">Limulus amebocyte lysate (LAL) টেস্ট।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Endotoxin</b> হলো গ্রাম-নেগেটিভ ব্যাকটেরিয়ার বাইরের ঝিল্লিতে থাকা <b>lipopolysaccharide (LPS)</b>-এর <b>Lipid A</b> অংশ। LPS = Lipid A (বিষাক্ত অংশ) + Polysaccharide (O-antigen)।</p>
+<p>এন্ডোটক্সিনের প্রভাব: (১) <b>জ্বর (pyrogenic)</b> — ম্যাক্রোফেজ থেকে IL-1 ও TNF-α নিঃসরণ ঘটিয়ে হাইপোথ্যালামাসে কাজ করে জ্বর দেয়; (২) <b>হাইপোটেনশন ও শক</b> — বেশি নিঃসরণ হলে সেপটিক/এন্ডোটক্সিক শক; (৩) <b>DIC</b> — ক্লটিং ক্যাসকেড সক্রিয় হয়; (৪) <b>কমপ্লিমেন্ট অ্যাক্টিভেশন</b> — অল্টারনেটিভ পাথওয়েতে; (৫) লিউকোপেনিয়া বা লিউকোসাইটোসিস; (৬) স্থানীয় প্রদাহ।</p>
+<p>মনে রাখতে হবে — এন্ডোটক্সিন হল heat-stable, সব গ্রাম-নেগেটিভে Lipid A একই (তাই প্রভাবও একই), আর LAL টেস্ট দিয়ে শনাক্ত করা হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V82</span>
+      <p class="qtext">What is oil adjuvant vaccine? Give example. Why it is used? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> example- typhoid vaccine; used to increase immunogenicity of vaccine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Oil adjuvant vaccine</b> is a vaccine in which an oil-based substance (such as Freund's adjuvant or mineral oil) is added to the antigen to enhance the immune response.</p>
+      <p><b>Example:</b> Typhoid vaccine (some formulations use oil adjuvant).</p>
+      <p><b>Why used:</b></p>
+      <ul>
+        <li>To <b>increase immunogenicity</b> of the antigen — oil creates a depot effect, releasing antigen slowly over time.</li>
+        <li>To produce a <strong>stronger and longer-lasting immune response</strong>.</li>
+        <li>To <strong>reduce the number of doses</strong> needed.</li>
+      </ul>
+      <p><b>Types of adjuvants:</b></p>
+      <ul>
+        <li><b>Aluminum salts (alum):</b> Most commonly used — adsorb antigen.</li>
+        <li><b>Freund's complete adjuvant:</b> Contains killed mycobacteria + mineral oil — very potent but too reactogenic for human use.</li>
+        <li><b>Freund's incomplete adjuvant:</b> Mineral oil without mycobacteria.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Adjuvant কী?</p>
+<p class="ca">ভ্যাকসিনে যোগ করা এমন পদার্থ যা অ্যান্টিজেনের immunogenicity বাড়ায় — যেমন অ্যালাম, তেল (Freund's)।</p>
+<p class="cq">মানুষের ভ্যাকসিনে কোন adjuvant পছন্দ?</p>
+<p class="ca">অ্যালুমিনিয়াম সল্ট (অ্যালাম) — কারণ Freund's complete adjuvant অত্যন্ত reactogenic, তাই প্রধানত ভেটেরিনারি ভ্যাকসিনে ব্যবহার হয়।</p>
+<p class="cq">Depot effect কী?</p>
+<p class="ca">তেলের ডিপো থেকে অ্যান্টিজেন ধীরে ধীরে নিঃসৃত হয় — ফলে দীর্ঘসময় ধরে ইমিউন সিস্টেম উদ্দীপিত থাকে, ইমিউন রেসপন্স শক্তিশালী ও দীর্ঘস্থায়ী হয়।</p>
+<p class="cq">Freund's complete আর incomplete adjuvant-এ পার্থক্য?</p>
+<p class="ca">Complete-তে নিহত মাইকোব্যাকটেরিয়া + খনিজ তেল থাকে (অত্যন্ত শক্তিশালী কিন্তু reactogenic); incomplete-এ শুধু খনিজ তেল, মাইকোব্যাকটেরিয়া নেই।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Oil adjuvant vaccine</b> এমন একটি ভ্যাকসিন যাতে অ্যান্টিজেনের প্রতি ইমিউন রেসপন্স বাড়াতে তেল-ভিত্তিক পদার্থ (যেমন Freund's adjuvant বা খনিজ তেল) যোগ করা হয়। উদাহরণ — টাইফয়েড ভ্যাকসিন (কিছু ফর্মুলেশনে)।</p>
+<p>কেন ব্যবহার হয়: (১) অ্যান্টিজেনের <b>immunogenicity বাড়াতে</b> — তেল depot effect তৈরি করে, অ্যান্টিজেন ধীরে ধীরে নিঃসৃত হয়; (২) শক্তিশালী ও দীর্ঘস্থায়ী ইমিউন রেসপন্স তৈরি করতে; (৩) প্রযোজ্য ডোজের সংখ্যা কমাতে।</p>
+<p>Adjuvant-এর ধরন: <b>অ্যালুমিনিয়াম সল্ট (অ্যালাম)</b> — সবচেয়ে সাধারণ, অ্যান্টিজেন শোষণ করে; <b>Freund's complete adjuvant</b> — নিহত মাইকোব্যাকটেরিয়া + খনিজ তেল (খুব শক্তিশালী কিন্তু মানুষের জন্য অত্যধিক reactogenic); <b>Freund's incomplete adjuvant</b> — খনিজ তেল, মাইকোব্যাকটেরিয়া ছাড়া। মানব ভ্যাকসিনে প্রধানত অ্যালাম, তেলের adjuvant বেশি ভেটেরিনারিতে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V83</span>
+      <p class="qtext">Give an example of live attenuated vaccine and killed vaccine. Mention one advantage and disadvantage of live attenuated vaccine over killed vaccine.</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> live-BCG, OPV, MMR; killed-IPV, Rabies</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Live Attenuated</th><th>Killed (Inactivated)</th></tr></thead>
+        <tbody>
+          <tr><td>Examples</td><td>BCG, OPV, MMR, Yellow fever, Rotavirus</td><td>IPV, Rabies, Influenza, Hepatitis A, whole cell pertussis</td></tr>
+          <tr><td>Advantage</td><td>Single dose may suffice; strong and long-lasting immunity; produces both humoral and cell-mediated immunity</td><td>Safer; no risk of reversion; can be given to immunocompromised</td></tr>
+          <tr><td>Disadvantage</td><td>Risk of reversion to virulence; contraindicated in immunocompromised; requires cold chain</td><td>Multiple doses needed; mainly humoral (not cell-mediated) immunity; weaker immunity</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">লাইভ অ্যাটেনুয়েটেড ভ্যাকসিন কীভাবে প্রাকৃতিক সংক্রমণ অনুকরণ করে?</p>
+<p class="ca">ভ্যাকসিনের জীবাণু host-এ replication করে, ফলে IgG (humoral) ও T-cell (cell-mediated) ইমিউনিটি — দুটোই তৈরি হয়; এবং OPV-র মতো মিউকোসাল IgA-ও হয়।</p>
+<p class="cq">VAPP কী?</p>
+<p class="ca">Vaccine-associated paralytic polio — OPV (লাইভ অ্যাটেনুয়েটেড) দিলে ভাইরাস reversion-এর কারণে অতি বিরল ক্ষেত্রে প্যারালাইসিস হতে পারে।</p>
+<p class="cq">কেন killed ভ্যাকসিনে adjuvant ও booster দরকার?</p>
+<p class="ca">কারণ killed ভ্যাকসিন host-এ replication করে না — তাই ইমিউনোজেনিসিটি কম হয়, ফলে adjuvant ও একাধিক booster ডোজ লাগে।</p>
+<p class="cq">IPV কেন VAPP দেয় না?</p>
+<p class="ca">কারণ IPV killed/নিষ্ক্রিয় — তাই reversion বা replication সম্ভব নয়; তবে এতে গাট (আন্ত্রিক) মিউকোসাল ইমিউনিটি তৈরি হয় না।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Live attenuated vaccine</b>-এর উদাহরণ: BCG, OPV, MMR, Yellow fever, Rotavirus। <b>Killed (inactivated) vaccine</b>-এর উদাহরণ: IPV, Rabies, Influenza, Hepatitis A, whole-cell pertussis।</p>
+<p><b>Live attenuated-এর সুবিধা:</b> এক ডোজেই যথেষ্ট, শক্তিশালী ও দীর্ঘস্থায়ী ইমিউনিটি, humoral + cell-mediated উভয় ধরনের ইমিউনিটি তৈরি হয়। <b>অসুবিধা:</b> virulent হয়ে ফেরার (reversion) ঝুঁকি থাকে (যেমন OPV → VAPP), ইমিউনোকম্প্রোমাইজড রোগীকে দেওয়া যায় না, কঠোর কোল্ড চেইন দরকার।</p>
+<p><b>Killed vaccine-এর সুবিধা:</b> নিরাপদ, reversion-এর ঝুঁকি নেই, ইমিউনোকম্প্রোমাইজডকেও দেওয়া যায়। <b>অসুবিধা:</b> একাধিক ডোজ ও booster লাগে, প্রধানত humoral ইমিউনিটি (cell-mediated কম), দুর্বল ও স্বল্পস্থায়ী ইমিউনিটি।</p>
+<p>তুলনামূলক বললে — "live = শক্তিশালী কিন্তু ঝুঁকিসহ; killed = নিরাপদ কিন্তু দুর্বল-দীর্ঘস্থায়ী নয়।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V84</span>
+      <p class="qtext">What is vaccine? Give an example of Live attenuated vaccine and Inactivated vaccine. What are the differences between Live attenuated and Inactivated vaccine? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> live-BCG, OPV, MMR; killed-IPV, Rabies</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Vaccine:</b> A preparation of killed or attenuated microorganisms (or their products) used to stimulate active immunity and prevent infectious diseases.</p>
+      <p><b>Differences between Live Attenuated and Inactivated (Killed) vaccines:</b></p>
+      <table>
+        <thead><tr><th>Feature</th><th>Live Attenuated</th><th>Inactivated (Killed)</th></tr></thead>
+        <tbody>
+          <tr><td>Organism</td><td>Alive but weakened (attenuated)</td><td>Killed (heat/chemical)</td></tr>
+          <tr><td>Replication in host</td><td>Yes</td><td>No</td></tr>
+          <tr><td>Doses needed</td><td>Usually 1 dose</td><td>Multiple doses + boosters</td></tr>
+          <tr><td>Immunity type</td><td>Humoral + Cell-mediated</td><td>Mainly humoral</td></tr>
+          <tr><td>Duration</td><td>Long-lasting (years)</td><td>Shorter (booster needed)</td></tr>
+          <tr><td>Safety</td><td>Risk of reversion</td><td>Safe; no reversion risk</td></tr>
+          <tr><td>Immunocompromised</td><td>Contraindicated</td><td>Can be given</td></tr>
+          <tr><td>Cold chain</td><td>Strict cold chain needed</td><td>Less stringent</td></tr>
+          <tr><td>Examples</td><td>BCG, OPV, MMR, Yellow fever</td><td>IPV, Rabies, Influenza, Hep A</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">লাইভ অ্যাটেনুয়েটেড ভ্যাকসিন কীভাবে ভালো (মিউকোসাল) ইমিউনিটি দেয়?</p>
+<p class="ca">এটি প্রাকৃতিক সংক্রমণের মতোই replication করে — ফলে IgG (humoral), cell-mediated ও মিউকোসাল সিক্রেটরি IgA তিনটিই তৈরি হয় (যেমন OPV গাট ইমিউনিটি দেয়)।</p>
+<p class="cq">কেন inactivated ভ্যাকসিনে adjuvant যোগ করা হয়?</p>
+<p class="ca">কারণ নিষ্ক্রিয় ভ্যাকসিন replication করে না, তাই immunogenicity কম — adjuvant (যেমন অ্যালাম) যোগ করলে ইমিউন রেসপন্স বাড়ে।</p>
+<p class="cq">কেন লাইভ ভ্যাকসিন freeze-dried ফর্মে বেশি স্থিতিশীল?</p>
+<p class="ca">লাইভ ভ্যাকসিন heat-labile — freeze-dried (লাইওফিলাইজড) করলে দীর্ঘ সময় স্থিতিশীল থাকে ও ঘরের তাপমাত্রায় সহজে পরিবহন হয় (যেমন BCG, oral typhoid)।</p>
+<p class="cq">এক ডোজ-ই কি যথেষ্ট নাকি booster দরকার?</p>
+<p class="ca">লাইভ অ্যাটেনুয়েটেড সাধারণত এক ডোজেই দীর্ঘস্থায়ী ইমিউনিটি দেয়; killed ভ্যাকসিনে একাধিক ডোজ ও booster লাগে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Vaccine</b> হলো নিহত বা ক্ষীণকৃত (attenuated) অণুজীব (বা তাদের অংশ) দিয়ে তৈরি একটি প্রস্তুতি, যা সক্রিয় (active) রোগ প্রতিরোধ ক্ষমতা সৃষ্টি করে সংক্রামক রোগ প্রতিরোধ করে।</p>
+<p>তারপর পার্থক্য টেবিল বলো: <b>Live attenuated</b> — অণুজীব জীবিত কিন্তু দুর্বল; host-এ replication হয়; সাধারণত ১ ডোজ যথেষ্ট; humoral + cell-mediated উভয় ইমিউনিটি; দীর্ঘস্থায়ী; কিন্তু reversion ঝুঁকি; ইমিউনোকম্প্রোমাইজডে contraindicated; কঠোর কোল্ড চেইন। উদাহরণ: BCG, OPV, MMR, Yellow fever।</p>
+<p><b>Inactivated (killed)</b> — অণুজীব নিহত (তাপ/রাসায়নিক); replication নেই; একাধিক ডোজ ও booster; প্রধানত humoral ইমিউনিটি; স্বল্পস্থায়ী; নিরাপদ ও কোন reversion নেই; ইমিউনোকম্প্রোমাইজডে দেওয়া যায়; কম কঠোর কোল্ড চেইন। উদাহরণ: IPV, Rabies, Influenza, Hep A।</p>
+<p>এক লাইনে — "live = এক ডোজ + শক্তিশালী কিন্তু ঝুঁকিসহ; killed = একাধিক ডোজ + নিরাপদ কিন্তু দুর্বল।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V85</span>
+      <p class="qtext">What is toxoid vaccine? Give example. Mention advantages and disadvantages. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> detoxinated toxin; ex-diphtheria, tetanus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Toxoid vaccine</b> is prepared from bacterial <b>exotoxins</b> that have been <b>detoxinated</b> (inactivated) by treatment with formalin or heat, while retaining their antigenicity (ability to stimulate antitoxin antibody production).</p>
+      <p><b>Examples:</b> Diphtheria toxoid, Tetanus toxoid (DT, TT, DPT).</p>
+      <p><b>Advantages:</b></p>
+      <ul>
+        <li>Safe — no risk of causing disease (toxin is already inactivated).</li>
+        <li>Effective in producing antitoxin immunity.</li>
+        <li>Stable and relatively inexpensive to produce.</li>
+        <li>Can be combined with other antigens (e.g., DPT = Diphtheria + Pertussis + Tetanus).</li>
+      </ul>
+      <p><b>Disadvantages:</b></p>
+      <ul>
+        <li>Multiple doses and boosters needed for sustained immunity.</li>
+        <li>Provides immunity only against the toxin, not against the organism itself.</li>
+        <li>Adjuvant often required to enhance immunogenicity.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Toxoid ভ্যাকসিন আসলে কী?</p>
+<p class="ca">রাসায়নিকভাবে detoxinate করা টক্সিন — টক্সিসিটি যায় কিন্তু অ্যান্টিজেনিক গঠন অক্ষত থাকে; তাই antitoxin ইমিউনিটি তৈরি হয়।</p>
+<p class="cq">Tetanus toxoid কীভাবে দেওয়া হয়?</p>
+<p class="ca">শিশু/প্রাপ্তবয়স্কদের DT/TD হিসেবে, আর প্রাথমিক ধারায় EPI-তে DPT (৬, ১০, ১৪ সপ্তাহে) দেওয়া হয়।</p>
+<p class="cq">Toxoid ভ্যাকসিনের ইমিউনিটি কেমন — ব্যাকটেরিয়া না টক্সিনের বিরুদ্ধে?</p>
+<p class="ca">প্রধানত antitoxin (humoral IgG) — এটি ব্যাকটেরিয়া মারে না, শুধু নিঃসৃত টক্সিনকে নিরপেক্ষ করে।</p>
+<p class="cq">Toxoid ভ্যাকসিনের অসুবিধা কী?</p>
+<p class="ca">একাধিক ডোজ ও booster দরকার; শুধু টক্সিনের বিরুদ্ধে ইমিউনিটি (দেহজীবকে নয়); প্রায়ই adjuvant লাগে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Toxoid vaccine</b> ব্যাকটেরিয়ার <b>exotoxin</b> থেকে তৈরি হয়, যাকে <b>formalin বা তাপে detoxinate</b> (নিষ্ক্রিয়) করা হয় — বিষাক্ততা চলে যায় কিন্তু অ্যান্টিজেনিসিটি (antitoxin অ্যান্টিবডি তৈরির ক্ষমতা) থেকে যায়। উদাহরণ — ডিপথেরিয়া টক্সয়েড, টিটেনাস টক্সয়েড (DT, TT, DPT)।</p>
+<p><b>সুবিধা:</b> নিরাপদ (টক্সিন নিষ্ক্রিয়, তাই রোগ হওয়ার ঝুঁকি নেই); antitoxin ইমিউনিটি কার্যকর; উৎপাদন স্থিতিশীল ও তুলনামূলক সস্তা; অন্যান্য অ্যান্টিজেনের সাথে মেশানো যায় (যেমন DPT)।</p>
+<p><b>অসুবিধা:</b> দীর্ঘস্থায়ী ইমিউনিটির জন্য একাধিক ডোজ ও booster লাগে; শুধু টক্সিনের বিরুদ্ধে ইমিউনিটি (ব্যাকটেরিয়ার বিরুদ্ধে নয়); প্রায়ই adjuvant দরকার।</p>
+<p>এক লাইনে — "toxoid = নিষ্ক্রিয় টক্সিন, antitoxin ইমিউনিটি দেয়, কিন্তু দেহজীবের বিরুদ্ধে নয়।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V86</span>
+      <p class="qtext">Give an example of subunit vaccine and mention its advantage. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Hepatitis B vaccine is a subunit vaccine (HBsAg); recombinant DNA technology</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Subunit vaccine:</b> A vaccine that contains only selected purified antigenic components (subunits) of the pathogen, rather than the whole organism.</p>
+      <p><b>Example:</b> <b>Hepatitis B vaccine</b> — contains HBsAg (hepatitis B surface antigen) produced by recombinant DNA technology in yeast or E. coli.</p>
+      <p><b>Advantages:</b></p>
+      <ul>
+        <li>Very safe — no risk of infection since no whole organism is present.</li>
+        <li>Highly purified — fewer side effects.</li>
+        <li>Can be produced by recombinant DNA technology (genetically engineered).</li>
+        <li>Targeted immune response against specific protective antigen.</li>
+      </ul>
+      <p><b>Other examples:</b> Acellular pertussis vaccine (contains pertussis toxoid and other antigens), HPV vaccine (L1 protein).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">HBV ভ্যাকসিন কেন "প্রথম ক্যান্সার প্রতিরোধকারী ভ্যাকসিন"?</p>
+<p class="ca">কারণ এটি hepatocellular carcinoma (HCC) প্রতিরোধ করে — HBV-কে রুখলে ক্রনিক ভাইরাল হেপাটাইটিস → সিরোসিস → HCC-র পথ বন্ধ হয়।</p>
+<p class="cq">HBsAg কীভাবে উৎপাদিত হয়?</p>
+<p class="ca">রিকম্বিন্যান্ট ডিএনএ টেকনোলজিতে খামির (yeast) বা E. coli-তে — এটি সবচেয়ে বহুল ব্যবহৃত recombinant subunit ভ্যাকসিন।</p>
+<p class="cq">Subunit ভ্যাকসিনে সাধারণত কী যোগ করা হয়?</p>
+<p class="ca">Adjuvant (অ্যালাম) — কারণ subunit ভ্যাকসিনে গোটা দেহজীব নেই, তাই immunogenicity বাড়াতে adjuvant প্রয়োজন।</p>
+<p class="cq">ঔষুধি HBV ভ্যাকসিনের ডোজ কেমন?</p>
+<p class="ca">সাধারণত ৩ ডোজ (০, ১, ৬ মাস)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>Subunit vaccine</b> এমন একটি ভ্যাকসিন যাতে দেহজীবের (pathogen) পুরো অংশ নয়, শুধু নির্বাচিত বিশুদ্ধ অ্যান্টিজেনিক অংশ (subunit) থাকে।</p>
+<p><b>উদাহরণ:</b> <b>হেপাটাইটিস B ভ্যাকসিন</b> — এতে HBsAg থাকে, যা রিকম্বিন্যান্ট ডিএনএ টেকনোলজিতে খামির বা E. coli-তে উৎপাদিত হয়। অন্যান্য উদাহরণ: অ্যাসেলুলার পারটুসিস, HPV ভ্যাকসিন (L1 প্রোটিন)।</p>
+<p><b>সুবিধা:</b> (১) খুবই নিরাপদ — গোটা দেহজীব নেই, তাই সংক্রমণের কোনো ঝুঁকি নেই; (২) অত্যন্ত বিশুদ্ধ — উপ-প্রতিক্রিয়া কম; (৩) রিকম্বিন্যান্ট টেকনোলজিতে তৈরি করা যায়; (৪) নির্দিষ্ট সুরক্ষামূলক অ্যান্টিজেনের বিরুদ্ধে লক্ষ্যযুক্ত ইমিউন রেসপন্স।</p>
+<p>মনে রাখো — HBV ভ্যাকসিনই প্রথম ক্যান্সার প্রতিরোধকারী ভ্যাকসিন এবং সাধারণত ০, ১, ৬ মাসে ৩ ডোজ লাগে।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

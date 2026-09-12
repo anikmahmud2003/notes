@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Emerging & Re-emerging Infections (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Emerging &amp; Re-emerging Infections</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">7 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">7 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-12-Dengue-Arboviruses.html">‹ Prev</a><a href="Virology-14-Oncogenic-PPE-Biosafety.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Emerging &amp; Re-emerging Infections</h2><div class="en">SARS, MERS, COVID-19 — short notes &amp; differences</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V130</span>
+      <p class="qtext">Mention the emerging and re-emerging infectious diseases. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Newly appearing (HIV, COVID, Zika) vs re-appearing (TB, Dengue, Cholera)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Emerging infectious diseases:</b> Newly appearing or recently recognized diseases that are increasing in incidence.</p>
+      <ul>
+        <li><b>HIV/AIDS</b> (identified 1981)</li>
+        <li><b>COVID-19 / SARS-CoV-2</b> (2019)</li>
+        <li><b>SARS</b> (Severe Acute Respiratory Syndrome — 2003)</li>
+        <li><b>MERS</b> (Middle East Respiratory Syndrome — 2012)</li>
+        <li><b>Ebola</b> (identified 1976, outbreaks 2014-2016)</li>
+        <li><b>Zika virus disease</b> (2015-2016 epidemic)</li>
+        <li><b>Nipah virus</b> (emerging in South/Southeast Asia)</li>
+        <li><b>Hendra virus</b> (Australia)</li>
+        <li><b>H5N1, H7N9</b> (Avian influenza — emerging zoonotic threats)</li>
+      </ul>
+      <p><b>Re-emerging infectious diseases:</b> Diseases that were previously declining but are now re-appearing or increasing.</p>
+      <ul>
+        <li><b>Tuberculosis</b> (MDR-TB, XDR-TB)</li>
+        <li><b>Dengue</b> (expanding geographic range)</li>
+        <li><b>Malaria</b> (drug-resistant P. falciparum)</li>
+        <li><b>Cholera</b> (outbreaks in developing countries)</li>
+        <li><b>Yellow Fever</b> (re-emerging in Africa and South America)</li>
+        <li><b>Measles</b> (outbreaks due to vaccine hesitancy)</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">উদীয়মান সংক্রমণের চালক কী কী?</p>
+<p class="ca">Globalization, urbanization, climate change, deforestation, antimicrobial resistance, vaccine hesitancy, human-animal interface।</p>
+<p class="cq">কত শতাংশ উদীয়মান সংক্রমণ zoonotic?</p>
+<p class="ca">~৭৫% — প্রাণী থেকে মানুষের spillover।</p>
+<p class="cq">WHO R&amp;D Blueprint-এ কোন রোগ?</p>
+<p class="ca">Ebola, MERS, Nipah, Zika, Lassa fever, Rift Valley fever, Crimean-Congo hemorrhagic fever।</p>
+<p class="cq">একটি উদীয়মান ও একটি পুনঃউদীয়মান উদাহরণ দাও?</p>
+<p class="ca">উদীয়মান — COVID-19 (SARS-CoV-2); পুনঃউদীয়মান — ডেঙ্গু (ভৌগোলিক বিস্তার)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>উদীয়মান (emerging)</b> সংক্রামক রোগ হল নব-আবির্ভূত বা সাম্প্রতিক স্বীকৃত রোগ যাদের প্রবণতা বাড়ছে: HIV/AIDS (১৯৮১), COVID-19 (২০১৯), SARS (২০০৩), MERS (২০১২), Ebola, Zika (২০১৫-১৬), Nipah, Hendra, Avian influenza H5N1/H7N9।</p>
+<p><b>পুনঃউদীয়মান (re-emerging)</b> — আগে কমতে থাকা রোগ যা আবার ফিরছে/বাড়ছে: TB (MDR/XDR), ডেঙ্গু (ভৌগোলিক বিস্তার), ম্যালেরিয়া (ওষুধ-প্রতিরোধী falciparum), কলেরা, Yellow fever, Measles (vaccine hesitancy)।</p>
+<p>চালক: globalization, urbanization, climate change, deforestation, antimicrobial resistance, vaccine hesitancy, human-animal interface। ~৭৫% উদীয়মান সংক্রমণ zoonotic।</p>
+<p>এক লাইনে — "উদীয়মান = নতুন (HIV, COVID); পুনঃ-উদীয়মান = ফেরত আসা (TB, ডেঙ্গু)।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V131</span>
+      <p class="qtext">What is SARS? Write a short note. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Severe Acute Respiratory Syndrome; Coronavirus (SARS-CoV); 2003 outbreak</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>SARS (Severe Acute Respiratory Syndrome)</b> — caused by <b>SARS-CoV</b> (Coronavirus), identified during the <b>2003 outbreak</b>.</p>
+      <ul>
+        <li><b>Origin:</b> Guangdong province, China (2002-2003).</li>
+        <li><b>Reservoir:</b> Bats (natural reservoir); civets (intermediate host).</li>
+        <li><b>Transmission:</b> Respiratory droplets, close contact. R₀ ≈ 2-4.</li>
+        <li><b>Incubation period:</b> 2-7 days.</li>
+        <li><b>Clinical features:</b> High fever, dry cough, dyspnea, bilateral pneumonia, ARDS in severe cases.</li>
+        <li><b>Diagnosis:</b> RT-PCR (nasopharyngeal swab), chest X-ray/CT (ground-glass opacities).</li>
+        <li><b>Treatment:</b> Supportive; ribavirin + corticosteroids used but efficacy unclear.</li>
+        <li><b>Outcome:</b> ~10% case fatality rate (higher in elderly). No further cases since 2004.</li>
+        <li><b>Prevention:</b> Isolation of cases, contact tracing, travel restrictions, hand hygiene, masks.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">সার্স-CoV-2-এর জিনোম কী ধরনের?</p>
+<p class="ca">ssRNA(+) ৩০-kb — সর্ববৃহৎ RNA ভাইরাসগুলোর একটি; Coronaviridae।</p>
+<p class="cq">"করোনা" নাম কেন?</p>
+<p class="ca">সূর্যের মুকুটের মতো (corona) দেখতে S-প্রোটিন স্পাইক; electron microscope-এ এমন দেখায়।</p>
+<p class="cq">কোন প্রোটিন receptor-এর সঙ্গে বাঁধে?</p>
+<p class="ca">স্পাইক (S) প্রোটিন — ACE2 receptor (শ্বসন-পথ, হৃৎপিণ্ড, অন্ত্র, কিডনি)।</p>
+<p class="cq">SARS-CoV-2 কোন পরিবারের?</p>
+<p class="ca">Coronaviridae, Betacoronavirus গণ — SARS-CoV ও MERS-CoV-এর মতো।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — SARS-CoV-2 (COVID-19)-এর গঠন।</p>
+<p>Coronaviridae পরিবার, Betacoronavirus গণ। <b>Envelope:</b> লিপিড বাইলেয়ার, সংবেদনশীল (soap/detergent নষ্ট করে); <b>S protein (spike):</b> ACE2 receptor-এর সঙ্গে বাঁধে + entry; <b>M (membrane):</b> virion morphogenesis; <b>E (envelope):</b> budding; <b>N (nucleocapsid):</b> RNA-সহ গঠন। জিনোম ssRNA(+) 30-kb — সর্ববৃহৎ; 5′-cap, poly-A tail।</p>
+<p>Entry: S (RBD) → ACE2 receptor → TMPRSS2 দিয়ে S priming → endocytosis/fusion → cytoplasmic replication → virion budding। Mutation বেশি; variant: Alpha (B.1.1.7), Beta (B.1.351), Delta (B.1.617.2), Omicron (B.1.1.529)। Transmission: droplet + airborne + surface।</p>
+<p>মনে রাখো — "Spike = corona মুকুট + ACE2 entry + টিকা-র লক্ষ্য।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V132</span>
+      <p class="qtext">What is MERS? Mention the key features. *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Middle East Respiratory Syndrome; Coronavirus (MERS-CoV); camel reservoir; 35% fatality</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>MERS (Middle East Respiratory Syndrome)</b> — caused by <b>MERS-CoV</b> (Coronavirus), first identified in Saudi Arabia in <b>2012</b>.</p>
+      <ul>
+        <li><b>Reservoir:</b> Dromedary camels (intermediate host); bats (likely natural reservoir).</li>
+        <li><b>Transmission:</b> Close contact with infected camels (respiratory droplets, direct contact). Human-to-human transmission occurs but less efficient than SARS-CoV-2 (requires close contact, nosocomial spread).</li>
+        <li><b>Incubation period:</b> 2-14 days (average 5-6 days).</li>
+        <li><b>Clinical features:</b> Fever, cough, dyspnea → severe pneumonia, ARDS, multi-organ failure. GI symptoms (diarrhea) common.</li>
+        <li><b>Fatality rate:</b> ~35% (much higher than SARS or COVID-19).</li>
+        <li><b>Risk factors:</b> Elderly, diabetes, chronic kidney disease, immunocompromised.</li>
+        <li><b>Diagnosis:</b> RT-PCR (respiratory specimens, serum).</li>
+        <li><b>Treatment:</b> Supportive; no specific antiviral or vaccine.</li>
+        <li><b>Prevention:</b> Avoid contact with camels, hand hygiene, isolation of cases, infection control in healthcare settings.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">COVID-19-এর ঝুঁকি-জনসংখ্যা?</p>
+<p class="ca">বয়স্ক (৬৫+), diabetes, হৃদরোগ, HTN, obesity, COPD, CKD, immunocompromised, গর্ভবতী।</p>
+<p class="cq">COVID-19-এর সাধারণ জটিলতা?</p>
+<p class="ca">ARDS, pneumonitis, মায়োকার্ডাইটিস, VTE, AKI, sepsis, cytokine storm, long COVID।</p>
+<p class="cq">লং-কোভিড কী?</p>
+<p class="ca">সংক্রমণের সপ্তাহ-মাস পরে অব্যাহত/নতুন উপসর্গ — ক্লান্তি, ব্রেন ফগ, শ্বাসকষ্ট, দুর্বলতা।</p>
+<p class="cq">COVID-19-এর জরুরি লক্ষণ?</p>
+<p class="ca">শ্বাসকষ্ট, বুকে ব্যথা, ঠোঁট/মুখ নীল, বিভ্রান্তি, তীব্র মাথাব্যথা।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — COVID-19-এর ক্লিনিকাল ফিচার ও জটিলতা।</p>
+<p>Incubation ২-১৪ দিন (গড় ৫-৬)। <b>হালকা/মাঝারি (৮০%):</b> জ্বর, কাশি, ক্লান্তি, anosmia/hyposmia, sore throat, মাথাব্যথা, myalgia; <b>মারাত্মক (১৫-২০%):</b> pneumonia, শ্বাসকষ্ট, hypoxemia → <b>ARDS</b>; <b>critical (৫%):</b> শ্বাসযন্ত্রের ব্যর্থতা, shock, multi-organ failure।</p>
+<p><b>অতিরিক্ত প্রকাশ:</b> VTE (hypercoagulable state), myocardial injury, AKI, cytokine storm, multisystem inflammatory syndrome in children (MIS-C)। <b>ঝুঁকি জনসংখ্যা:</b> ৬৫+ বছর, obesity, diabetes, HTN, হৃদরোগ, COPD, CKD, immunocompromised, গর্ভবতী (৩য় trimester)।</p>
+<p><b>জটিলতা:</b> ARDS, sepsis, VTE, myocardial infarction/myocarditis, renal failure, stroke, secondary bacterial pneumonia, long COVID (ক্লান্তি, ব্রেন ফগ, অব্যাহত উপসর্গ)।</p>
+<p>এক লাইনে — "COVID = জ্বর+কাশি+anosmia → ARDS/VTE ঝুঁকি; বয়স্ক+comorbidity = মারাত্মক।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V133</span>
+      <p class="qtext">What is the difference between SARS, MERS and COVID-19? **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> All Coronaviruses; different receptors (ACE2 vs DPP4); different fatality rates</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>SARS (2003)</th><th>MERS (2012)</th><th>COVID-19 (2019)</th></tr></thead>
+        <tbody>
+          <tr><td>Virus</td><td>SARS-CoV</td><td>MERS-CoV</td><td>SARS-CoV-2</td></tr>
+          <tr><td>First identified</td><td>2003, China</td><td>2012, Saudi Arabia</td><td>2019, Wuhan, China</td></tr>
+          <tr><td>Reservoir</td><td>Bats; civets (intermediate)</td><td>Bats; dromedary camels (intermediate)</td><td>Bats (likely); possible intermediate host</td></tr>
+          <tr><td>Cell receptor</td><td>ACE2</td><td>DPP4</td><td>ACE2</td></tr>
+          <tr><td>R₀</td><td>2-4</td><td>&lt;1 (limited H2H)</td><td>2-7 (varies by variant)</td></tr>
+          <tr><td>Fatality rate</td><td>~10%</td><td>~35%</td><td>~0.5-2% (varies by age, variant)</td></tr>
+          <tr><td>Pandemic</td><td>No (contained 2003)</td><td>No (limited spread)</td><td>Yes (WHO pandemic declared March 2020)</td></tr>
+          <tr><td>Asymptomatic spread</td><td>Rare</td><td>Rare</td><td>Common (major driver)</td></tr>
+          <tr><td>Vaccine</td><td>None (contained)</td><td>None (limited spread)</td><td>Multiple (mRNA, viral vector, inactivated)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">COVID ডায়াগনোসিসের gold standard?</p>
+<p class="ca">RT-PCR — nasopharyngeal swab-এ SARS-CoV-2 RNA।</p>
+<p class="cq">Antigen test কখন ব্যবহার হয়?</p>
+<p class="ca">দ্রুত (১৫ মিনিট) — উচ্চ সংক্রামক ধাপে (প্রথম ৫-৭ দিন) সংবেদনশীল; নেতিবাচক হলে RT-PCR প্রয়োজন।</p>
+<p class="cq">Serology (অ্যান্টিবডি) কখন কাজে লাগে?</p>
+<p class="ca">পূর্ব সংক্রমণ/টিকার ইতিহাস, মহামারি-তাত্ত্বিক সমীক্ষা; acute diagnosis-এ নয়।</p>
+<p class="cq">CT chest-এ COVID-এর চিহ্ন?</p>
+<p class="ca">Bilateral ground-glass opacification, peripheral predominance, consolidation।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — COVID-19 নির্ণয়।</p>
+<p><b>RT-PCR (gold standard):</b> nasopharyngeal/oropharyngeal swab থেকে RNA — উচ্চ সংবেদনশীল ও নির্দিষ্ট; সংক্রমণের প্রথম দিন থেকে পজিটিভ; চিকিৎসা-এবং-কোয়ারান্টিনের সিদ্ধান্ত। <b>Antigen detection (RAT):</b> দ্রুত, সস্তা, ১৫ মিনিট — সক্রিয় সংক্রমণ (প্রথম ৫-৭ দিন, উচ্চ viral load) বোঝাতে দরকারি; সংবেদনশীলতা কম — RT-PCR নিশ্চিত করবে। <b>Serology:</b> IgM (সাম্প্রতিক) ও IgG (পূর্ব সংক্রমণ/টিকা) — acute diagnosis-এ নয়, জনগোষ্ঠী সমীক্ষায়। <b>Lung imaging:</b> CT — bilateral ground-glass opacities, peripheral distribution — ভর্তি ও তীব্রতা নিরূপণে।</p>
+<p>মনে রাখো — "Acute diagnosis = RT-PCR; দ্রুত = RAT; ইতিহাস = serology।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V134</span>
+      <p class="qtext">Write a short note on COVID-19. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> SARS-CoV-2, pandemic 2020, mRNA vaccines, ACE2 receptor, RT-PCR</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>COVID-19</b> — caused by <b>SARS-CoV-2</b> (Severe Acute Respiratory Syndrome Coronavirus 2). WHO pandemic declared <b>March 11, 2020</b>.</p>
+      <ul>
+        <li><b>Transmission:</b> Respiratory droplets, aerosols (airborne), fomites, close contact. Asymptomatic spread is a major driver.</li>
+        <li><b>Incubation period:</b> 2-14 days (average 5-6 days; Omicron shorter ~3-5 days).</li>
+        <li><b>Clinical spectrum:</b>
+          <ul>
+            <li>Asymptomatic (20-40%)</li>
+            <li>Mild (80%): fever, cough, anosmia/ageusia, fatigue, myalgia, sore throat</li>
+            <li>Moderate (15%): pneumonia, dyspnea</li>
+            <li>Severe (5%): ARDS, cytokine storm, multi-organ failure</li>
+            <li>Critical (1-2%): ICU admission, mechanical ventilation, death</li>
+          </ul>
+        </li>
+        <li><b>Pathogenesis:</b> Spike protein binds ACE2 receptor → TMPRSS2-mediated entry → replicates in respiratory epithelium → systemic inflammation, endothelial damage, thromboinflammation.</li>
+        <li><b>Diagnosis:</b> RT-PCR (nasopharyngeal swab — gold standard), Rapid Antigen Test (RAT), CT chest (ground-glass opacities).</li>
+        <li><b>Treatment:</b> Supportive; Remdesivir (antiviral), Dexamethasone (anti-inflammatory in severe cases), Tocilizumab (IL-6 inhibitor), Paxlovid (oral antiviral).</li>
+        <li><b>Vaccines:</b> mRNA (Pfizer, Moderna), Viral vector (AstraZeneca, J&amp;J), Inactivated (Sinopharm, Sinovac), Protein subunit (Novavax). Booster doses recommended.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">COVID-19-এর চিকিৎসার মূল কী?</p>
+<p class="ca">সহায়ক যত্ন (supportive care), অক্সিজেন, moderate-severe-এ corticosteroid (dexamethasone), anticoagulation, এবং নির্বাচিত ক্ষেত্রে antiviral (remdesivir/Paxlovid)।</p>
+<p class="cq">Dexamethasone কাকে দেওয়া হয়?</p>
+<p class="ca">অক্সিজেন-প্রয়োজন বা যান্ত্রিক বায়ুপ্রবাহ-প্রয়োজন এমন রোগীকে — ৬ মিলিগ্রাম/দিন ১০ দিন; হালকা ক্ষেত্রে নয়।</p>
+<p class="cq">Remdesivir কার ক্ষেত্রে?</p>
+<p class="ca">হাসপাতালে ভর্তি ও অক্সিজেন-প্রয়োজন শুরু হয়েছে এমন রোগী — ICU প্রি-অসুস্থ ক্ষেত্রে নয়।</p>
+<p class="cq">উচ্চ-ঝুঁকির রোগীর চিকিৎসা কখন শুরু হয়?</p>
+<p class="ca">৬৫+ বা comorbid রোগীর লক্ষণ শুরুর ৫ দিনের মধ্যে nirmatrelvir-ritonavir (Paxlovid) বা remdesivir — গুরুতর রোগ প্রতিরোধে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — COVID-19 ব্যবস্থাপনা।</p>
+<p><b>হালকা/মাঝারি (মোটের ৮০%):</b> সহায়ক যত্ন — paracetamol, বিশ্রাম, পর্যাপ্ত তরল, নজরদারি, আইসোলেশন; ঝুঁকিপূর্ণ রোগী (৬৫+, obesity, diabetes, HTN, হৃদরোগ) তে early antiviral: <b>nirmatrelvir-ritonavir (Paxlovid)</b> বা <b>remdesivir</b> — গুরুতর রোগ ও মৃত্যু কমায়।</p>
+<p><b>মারাত্মক (hypoxemia):</b> হাসপাতালে ভর্তি — <b>অক্সিজেন</b> (nasal cannula → HFNO → NIV → mechanical ventilation) — SpO2 &lt;94% বা শ্বাসকষ্টে; <b>Dexamethasone 6 mg/day ১০ দিন</b> — মৃত্যুহার-কমানোর সবচেয়ে প্রমাণিত ওষুধ (অক্সিজেন-বা-ভেন্টিলেশন-প্রয়োজন রোগী); <b>prophylactic anticoagulation</b> (LMWH/heparin) — VTE ঝুঁকিতে; <b>Remdesivir</b> শুরুর দিকে; মাধ্যমিক ব্যাকটেরিয়া সংক্রমণে antibiotic।</p>
+<p><b>প্রতিরোধ:</b> মাস্ক, শারীরিক দূরত্ব, হাতের পরিচ্ছন্নতা, বায়ু চলাচল, টিকা ও booster।</p>
+<p>এক লাইনে — "O2 + dexamethasone + anticoagulant + very-early Paxlovid/remdesivir = COVID-19 চিকিৎসার মূল।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V135</span>
+      <p class="qtext">What is the pathogenesis of COVID-19? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Spike protein → ACE2 → TMPRSS2 → cytokine storm → ARDS, thromboinflammation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Pathogenesis of COVID-19:</b></p>
+      <ul>
+        <li><b>Viral entry:</b> Spike (S) protein of SARS-CoV-2 binds to <b>ACE2 receptor</b> on host cells (type II pneumocytes, endothelial cells, enterocytes, etc.). <b>TMPRSS2</b> (transmembrane serine protease 2) cleaves the spike protein to facilitate membrane fusion and entry.</li>
+        <li><b>Viral replication:</b> Virus replicates in respiratory epithelial cells → cytopathic effect → cell damage.</li>
+        <li><b>Innate immune response:</b> Infected cells release cytokines (IL-6, TNF-α, IL-1β) and chemokines → recruitment of immune cells → inflammation.</li>
+        <li><b>Cytokine storm (in severe cases):</b> Dysregulated, excessive cytokine release → systemic inflammation → endothelial damage → vascular leak → ARDS, multi-organ failure.</li>
+        <li><b>Endothelial damage and thromboinflammation:</b> Virus infects endothelial cells directly (via ACE2) → endotheliitis → activation of coagulation cascade → microthrombi, DVT, PE, stroke.</li>
+        <li><b>Immune evasion:</b> SARS-CoV-2 can evade innate immunity (e.g., via NSP1, ORF proteins that suppress interferon response).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">COVID-19 ভ্যাকসিনের প্রধান ধরনগুলো?</p>
+<p class="ca">mRNA (Pfizer, Moderna), viral vector (AstraZeneca, Sputnik, Johnson &amp; Johnson), inactivated (Sinovac, Sinopharm), protein subunit (Novavax)।</p>
+<p class="cq">mRNA vaccine কীভাবে কাজ করে?</p>
+<p class="ca">S (spike) প্রোটিনের কোডিং mRNA কোষে প্রবেশ করে → কোষ নিজে S-প্রোটিন তৈরি করে → অ্যান্টিবডি ও সেলুলার ইমিউন রেসপন্স সৃষ্টি।</p>
+<p class="cq">AstraZeneca কী ধরনের ভ্যাকসিন?</p>
+<p class="ca">Viral vector — ক্ষতিকর adenovirus-এ SARS-CoV-2-এর S-প্রোটিন জিন; ২ ডোজে কার্যকর; খুবই বিরল VITT-ঝুঁকি।</p>
+<p class="cq">Booster dose কেন প্রয়োজন?</p>
+<p class="ca">সময়ের সঙ্গে অ্যান্টিবডি কমে যায় এবং নতুন variant (Omicron) এড়াতে পারে — booster পুনরায় সুরক্ষা জাগায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — COVID-19-এর টিকা <b>(vaccine types)</b>।</p>
+<p>(১) <b>mRNA vaccine:</b> Pfizer-BioNTech (BNT162b2), Moderna — লিপিড nanoparticle-এ বন্দি S-প্রোটিনের mRNA কোষে গিয়ে S-প্রোটিন সংশ্লেষ করে → immunoresponse; গুরুতর রোগ ও মৃত্যু প্রতিরোধে ৯০%+ কার্যকারিতা; শীতল-শৃঙ্খল (ultra-cold) স্টোরেজ; তরুণ পুরুষে বিরল myocarditis-ঝুঁকি।</p>
+<p>(২) <b>Viral vector vaccine:</b> AstraZeneca-Oxford (ChAdOx1), Johnson &amp; Johnson (Ad26) — পরিবর্তিত (ক্ষতিকর নয়) adenovirus-এ S-প্রোটিন-জিন বহন করা হয়; জীবন্ত ভাইরাস তৈরি হয় না; অত্যন্ত বিরল <b>TTS/VITT</b> (cerebral venous sinus thrombosis + thrombocytopenia) ঝুঁকি।</p>
+<p>(৩) <b>Inactivated vaccine:</b> Sinovac (CoronaVac), Sinopharm — সম্পূর্ণ নিষ্ক্রিয় ভাইরাস + adjuvant; নিরাপদ, স্টোরেজ-বান্ধব; প্রতিরোধ ক্ষমতা টিকিয়ে রাখতে booster দরকার।</p>
+<p>(৪) <b>Protein subunit vaccine:</b> Novavax — কৃত্রিম S-প্রোটিন + adjuvant — নিরাপদ, ভালো সহনশীলতা, জোরালো immunoresponse।</p>
+<p>এক লাইনে — "সব ভ্যাকসিনের লক্ষ্য — SARS-CoV-2 S-প্রোটিনের বিরুদ্ধে neutralizing antibody ও T-cell রেসপন্স।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V136</span>
+      <p class="qtext">What is the treatment and prevention of COVID-19? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Remdesivir, Dexamethasone, Tocilizumab; mRNA/viral vector/inactivated vaccines</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Treatment of COVID-19:</b></p>
+      <ul>
+        <li><b>Mild/Asymptomatic:</b> Home isolation, symptomatic treatment (paracetamol, fluids), monitoring.</li>
+        <li><b>Moderate (pneumonia, dyspnea):</b> Hospitalization, supplemental oxygen, Remdesivir.</li>
+        <li><b>Severe (ARDS, cytokine storm):</b>
+          <ul>
+            <li><b>Dexamethasone</b> (6 mg/day × 10 days) — reduces mortality in patients on oxygen/ventilation.</li>
+            <li><b>Remdesivir</b> (antiviral) — inhibits RNA-dependent RNA polymerase.</li>
+            <li><b>Tocilizumab</b> (IL-6 receptor antagonist) — for refractory cytokine storm.</li>
+            <li>Anticoagulation (LMWH) — prevent thrombosis.</li>
+            <li>Mechanical ventilation (invasive or non-invasive) for respiratory failure.</li>
+          </ul>
+        </li>
+        <li><b>NOT recommended:</b> Hydroxychloroquine, Ivermectin (evidence did not support efficacy).</li>
+      </ul>
+      <p><b>Prevention of COVID-19:</b></p>
+      <ul>
+        <li><b>Vaccination:</b> Multiple platforms available:
+          <ul>
+            <li>mRNA vaccines: Pfizer-BioNTech (BNT162b2), Moderna (mRNA-1273).</li>
+            <li>Viral vector vaccines: AstraZeneca (ChAdOx1), Johnson &amp; Johnson (Ad26.COV2.S).</li>
+            <li>Inactivated vaccines: Sinopharm (BBIBP-CorV), Sinovac (CoronaVac).</li>
+            <li>Protein subunit: Novavax (NVX-CoV2373).</li>
+          </ul>
+        </li>
+        <li><b>Public health measures:</b> Mask-wearing, hand hygiene (soap, sanitizer), physical distancing, ventilation, isolation of cases, contact tracing, quarantine.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">COVID-19 ভ্যাকসিনের পার্শ্বপ্রতিক্রিয়া?</p>
+<p class="ca">সাধারণ: ইনজেকশন-স্থানে ব্যথা, ক্লান্তি, মাথাব্যথা, জ্বর, myalgia — ভ্যাকসিনেশনের ১-২ দিনে।</p>
+<p class="cq">mRNA টিকার গুরুতর পার্শ্বপ্রতিক্রিয়া?</p>
+<p class="ca">Myocarditis/pericarditis — তরুণ পুরুষে; স্বাভাবিকভাবে হালকা, recoverable।</p>
+<p class="cq">Viral vector টিকার গুরুতর পার্শ্বপ্রতিক্রিয়া?</p>
+<p class="ca">TTS-VITT — খুবই বিরল (প্রতি মিলিয়নে ~১-৫); cerebral venous sinus thrombosis + low platelets।</p>
+<p class="cq">ভ্যাকসিন-জনিত anaphylaxis?</p>
+<p class="ca">মিলিয়ন-ডোজে খুবই বিরল (~২.৫ প্রতি ১০ লাখ) — পরিকল্পনা ও পর্যবেক্ষণ-সহ ভ্যাকসিন সেন্টার।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — COVID-19 টিকার পার্শ্বপ্রতিক্রিয়া নিরাপদ পরিসরে।</p>
+<p><b>সাধারণ হালকা (স্বাভাবিক, ক্ষণস্থায়ী):</b> ইনজেকশন-স্থানে ব্যথা/লালভাব/ফোলা, ক্লান্তি, মাথাব্যথা, জ্বর, myalgia, ঠাণ্ডা — ভ্যাকসিনেশনের ১২-২৪ ঘণ্টা পরে, ১-৩ দিন কমে যায়; body-র ইমিউন রেসপন্সের চিহ্ন।</p>
+<p><b>mRNA-সম্পর্কিত:</b> <b>Myocarditis/pericarditis</b> — তরুণ পুরুষ (৩০-এর নিচে), ২য় ডোজে বেশি, বুকে ব্যথা+ECG অস্বাভাবিক; সাধারণত হালকা এবং চিকিৎসায় recoverable।</p>
+<p><b>Viral vector-সম্পর্কিত:</b> <b>TTS (thrombosis with thrombocytopenia syndrome)/VITT</b> — খুবই বিরল (প্রতি মিলিয়নে ১-৫), ডোজের ৫-৩০ দিনে; cerebral venous sinus thrombosis + low platelet; নিম্ন plano-ডোজে নিয়মিত হেপারিন নয়; treatment: IVIG + non-heparin anticoagulant।</p>
+<p><b>অ্যালার্জি:</b> anaphylaxis খুবই বিরল — ১৫-৩০ মিনিট পর্যবেক্ষণ ও adrenaline ব্যবস্থা। এক লাইনে — "Benefits &gt; risks — কিন্তু TTS/myo-র চোখ-কান খোলা।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

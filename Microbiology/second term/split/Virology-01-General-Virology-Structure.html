@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — General Virology — Structure & Classification (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>General Virology — Structure &amp; Classification</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">15 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">15 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-11-Filariasis-Tissue-Nematodes.html">‹ Prev</a><a href="Virology-02-Virus-Lists.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>General Virology — Structure &amp; Classification</h2><div class="en">Virus definition &amp; structure, envelope, defective forms, prions, virus resistance, ICTV &amp; Baltimore classification</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V1</span>
+      <p class="qtext">Define virus. ******* Mention some characteristics of virus. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> acellular, obligate intracellular parasite, DNA or RNA never both, no ribosome, no energy generation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>A <b>virus</b> is the smallest infectious agent composed of an internal core containing either <b>DNA or RNA</b> (but never both), covered by a protective protein coat called a <b>capsid</b>. Some viruses have an outer lipoprotein membrane called an <b>envelope</b> external to the capsid.</p>
+      <p>A <b>virion</b> is the complete, structurally intact, infectious virus particle.</p>
+      <p><b>Characteristics of virus:</b></p>
+      <ul>
+        <li><b>Acellular</b> – not made of cells; acellular particles.</li>
+        <li><b>Obligate intracellular parasite</b> – can reproduce only within host cells.</li>
+        <li><b>Nucleic acid</b> – possess either DNA or RNA, never both.</li>
+        <li><b>No energy generation</b> – mitochondria absent; depend on host cell synthetic machinery.</li>
+        <li><b>No protein synthesis</b> – ribosomes absent; cannot synthesize proteins independently.</li>
+        <li><b>Small size</b> – 20 to 300 nm; cannot be visualized by light microscope; seen by electron microscope.</li>
+        <li><b>Culture</b> – cannot be grown on routine culture media; require living cells (cell/tissue culture, embryonated eggs, experimental animals).</li>
+        <li><b>Multiplication</b> – by replication (not binary fission or mitosis); one virus can produce hundreds of progeny.</li>
+        <li><b>Drug susceptibility</b> – susceptible to antiviral drugs (e.g., interferon) but <i>not</i> to antibiotics.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">ভাইরাস কী?</p>
+        <p class="ca">ভাইরাস হলো সবচেয়ে ক্ষুদ্রতম সংক্রামক কারক যার একটি অভ্যন্তরীণ নিউক্লিক এসিড কোর (DNA বা RNA) এবং বাইরের প্রোটিন কোট (capsid) থাকে। এটি obligate intracellular parasite।</p>
+        <p class="cq">ভাইরাসের কোনো নিজস্ব ribosome বা mitochondria আছে কি?</p>
+        <p class="ca">নেই। ভাইরাসের নিজস্ব ribosome বা mitochondria নেই — তাই সে নিজে প্রোটিন সংশ্লেষণ বা শক্তি উৎপাদন করতে পারে না। সে পুরোপুরি host cell-এর machinery এর উপর নির্ভরশীল।</p>
+        <p class="cq">ভাইরাসের নিউক্লিক এসিড কীভাবে আলাদা?</p>
+        <p class="ca">ভাইরাসের কাছে DNA বা RNA — দুটোই একসাথে থাকে না। এটিই ভাইরাসের ব্যাকটেরিয়া থেকে অন্যতম প্রধান পার্থক্য।</p>
+        <p class="cq">ভাইরাসকে আলোক মাইক্রোস্কোপে দেখা যায় কি?</p>
+        <p class="ca">না। ভাইরাসের আয়তন ২০–৩০০ nm — এত ছোট যে আলোক মাইক্রোস্কোপে দেখা যায় না। ইলেকট্রন মাইক্রোস্কোপ লাগে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>ভাইরাস হলো একটি submicroscopic, acellular particle যাকে live cell-এর বাইরে বাড়ানো যায় না। এটি obligate intracellular parasite — মানে নিজের চেষ্টায় reproduce করতে পারে না, host cell এর machinery ব্যবহার করতে হবে।</p>
+<p>ভাইরাসের নিজস্ব ribosome নেই, mitochondria নেই — সব host থেকে নিয়ে কাজ করে। DNA বা RNA থাকে, দুইটা একসাথে থাকে না। আলোক মাইক্রোস্কোপে দেখা যায় না, electron microscope লাগে।</p>
+<p>Antibiotics কাজ করে না, interferon-ধরনের antiviral drug লাগে। Virus নিজে metabolic activity করে না — host cell এর সাথে পুরোপুরি dependent।</p>
+<p>বুঝার সুবিধার জন্য বলব — "ভাইরাস মানে একটি জীবন্ত parasite যেটা শুধু আমাদের cell এর ভেতরে থেকেই বেঁচে থাকতে পারে, বাইরে গেলে মারা যায়।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V2</span>
+      <p class="qtext">Write down the differences of virus and bacteria. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> acellular vs prokaryotic, obligate intracellular vs extracellular+intracellular, no ribosome vs ribosome, replication vs binary fission</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Virus</th><th>Bacteria</th></tr>
+        <tr><td>Cell type</td><td>Acellular</td><td>Prokaryotic cell</td></tr>
+        <tr><td>Size</td><td>Smaller (20–300 nm)</td><td>Larger (&gt;300 nm)</td></tr>
+        <tr><td>Microscopy</td><td>Electron microscope</td><td>Light microscope</td></tr>
+        <tr><td>Nucleic acid</td><td>DNA <i>or</i> RNA (never both)</td><td>Both DNA and RNA</td></tr>
+        <tr><td>Outer surface</td><td>Capsid proteins (+ envelope)</td><td>Cell wall (+ capsule)</td></tr>
+        <tr><td>Ribosomes</td><td>Absent</td><td>Present</td></tr>
+        <tr><td>Protein synthesis</td><td>Not capable (depends on host)</td><td>Capable</td></tr>
+        <tr><td>Energy generation</td><td>Not capable (depends on host)</td><td>Capable</td></tr>
+        <tr><td>Reproduction</td><td>Not independently; replication</td><td>Independently; binary fission</td></tr>
+        <tr><td>Culture</td><td>Cell/tissue culture needed; not easy</td><td>Easy to culture on routine media</td></tr>
+        <tr><td>Metabolic activity</td><td>Absent</td><td>Present</td></tr>
+        <tr><td>Susceptibility</td><td>Interferon / antivirals</td><td>Antibiotics</td></tr>
+        <tr><td>Localization</td><td>Obligate intracellular</td><td>Extracellular &amp; intracellular</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">ভাইরাস আর ব্যাকটেরিয়ার মূল পার্থক্য কী?</p>
+        <p class="ca">ভাইরাস acellular, ব্যাকটেরিয়া prokaryotic cell। ভাইরাসের নিজস্ব ribosome নেই, ব্যাকটেরিয়ার আছে। ভাইরাস obligate intracellular, ব্যাকটেরিয়া বাইরেও বাঁচতে পারে।</p>
+        <p class="cq">ভাইরাস কীভাবে বংশবিস্তার করে আর ব্যাকটেরিয়া কীভাবে?</p>
+        <p class="ca">ভাইরাস replication এর মাধ্যমে — একটি ভাইরাস থেকে শত শত offspring তৈরি হয়। ব্যাকটেরিয়া binary fission এর মাধ্যমে — একটি ব্যাকটেরিয়া দুটি হয়।</p>
+        <p class="cq">ভাইরাসের বাইরের স্তর কী আর ব্যাকটেরিয়ার কী?</p>
+        <p class="ca">ভাইরাসের বাইরে capsid (প্রোটিন কোট), কিছুতে envelope থাকে। ব্যাকটেরিয়ার cell wall (peptidoglycan) এবং কিছুতে capsule থাকে।</p>
+        <p class="cq">Antibiotic ভাইরাসের উপর কাজ করে কেন না?</p>
+        <p class="ca">কারণ ভাইরাসের নিজস্ব metabolism, ribosome, বা cell wall নেই — antibiotic এর টার্গেটই নেই। Antibiotics শুধু bacteria এর unique structures কে টার্গেট করে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>ভাইরাস আর ব্যাকটেরিয়ার মূল পার্থক্য — ভাইরাস acellular, ব্যাকটেরিয়া prokaryotic cell। ভাইরাস খুব ছোট, এবং তার নিজের ribosome নেই, প্রোটিন সংশ্লেষণ করতে পারে না। ব্যাকটেরিয়া নিজেই প্রোটিন তৈরি করতে পারে, ribosome আছে।</p>
+<p>ভাইরাসের DNA বা RNA আছে, দুইটা একসাথে নেই। ব্যাকটেরিয়ায় দুইটাই থাকে। ভাইরাস lab-এ সাধারণ media-তে বাড়ে না, cell culture লাগে। ব্যাকটেরিয়া সহজে culture হয়।</p>
+<p>Antibiotics ব্যাকটেরিয়াকে মারে, ভাইরাসকে interferon-ধরনের drug কাজ করে। বুঝার জন্য — "ভাইরাস হলো একটি parasite যেটার নিজস্ব কিছুই নেই, সব চুরি করে host cell থেকে।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V3</span>
+      <p class="qtext">Mention the structure of a virus. (protein components of virus) ****** (NA+ structural protein + non structural protein)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> nucleic acid core + capsid + envelope (optional); structural: capsid, envelope glycoproteins, enzymes; non-structural: NS1-NS4</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>A virus is structurally composed of three main components:</p>
+      <p><b>1. Nucleic Acid (Viral Genome):</b> Either DNA or RNA (never both). May be single-stranded (ss) or double-stranded (ds), linear or circular, segmented or unsegmented, positive or negative polarity.</p>
+      <p><b>2. Structural Proteins:</b></p>
+      <ul>
+        <li><b>Capsid</b> – protein coat made of capsomeres (repeating polypeptide subunits). Determines virus shape (icosahedral, helical, or complex symmetry). Nucleic acid + capsid = <b>nucleocapsid</b>.</li>
+        <li><b>Envelope</b> (in enveloped viruses) – lipoprotein membrane (lipid from host cell + glycoprotein spikes/peplomers from virus). Surrounds the nucleocapsid externally.</li>
+        <li><b>Surface glycoproteins / spikes</b> – peplomers such as hemagglutinin (H), neuraminidase (N), M2 protein, gp120/gp41.</li>
+        <li><b>Enzymes</b> – DNA polymerase, RNA polymerase, reverse transcriptase, protease, integrase.</li>
+        <li><b>Matrix protein</b> – found between capsid and envelope.</li>
+        <li><b>Tegument</b> – amorphous protein between capsid and envelope; characteristic of herpes virus family.</li>
+      </ul>
+      <p><b>3. Non-structural (NS) Proteins:</b> Not part of virion structure; include NS1, NS2, NS3, NS4 etc. (e.g., NS1 antigen of Dengue virus). Regulatory and enzymatic functions during replication.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">ভাইরাসের structure এ কতগুলো মূল অংশ আছে?</p>
+        <p class="ca">তিনটি — nucleic acid (DNA বা RNA), capsid (প্রোটিন কোট), এবং optional envelope (লিপোপ্রোটিন মেমব্রেন)।</p>
+        <p class="cq">Capsid কী দিয়ে তৈরি?</p>
+        <p class="ca">Capsomere নামে repeating polypeptide subunits দিয়ে তৈরি। Capsomere-এর arrangement ভাইরাসের shape (icosahedral, helical, বা complex) নির্ধারণ করে।</p>
+        <p class="cq">Envelope কোথায় থাকে এবং এটা কীভাবে তৈরি হয়?</p>
+        <p class="ca">Enveloped virus-এ capsid-এর বাইরে থাকে। Lipid host cell membrane থেকে আসে, protein spike virus থেকে তৈরি হয়। Virus যখন budding করে host cell থেকে বের হয়, তখন envelope তৈরি হয়।</p>
+        <p class="cq">Non-structural protein কী?</p>
+        <p class="ca">যেসব protein virion-এর structure-এ থাকে না কিন্তু replication-এ কাজে লাগে। যেমন NS1, NS2, NS3 ইত্যাদি। Dengue virus-এর NS1 antigen এর উদাহরণ।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>ভাইরাসের structure তিনটি মূল অংশ নিয়ে গঠিত — nucleic acid (DNA বা RNA), capsid (প্রোটিন কোট), আর optional envelope (লিপোপ্রোটিন মেমব্রেন)।</p>
+<p>Capsid হলো capsomere নামে repeating unit দিয়ে তৈরি, ভাইরাসের shape determine করে। ভাইরাসের nucleic acid + capsid = nucleocapsid।</p>
+<p>Enveloped virus-এর lipid membrane থাকে — lipid host cell থেকে আসে, protein virus থেকে। Peplomer মানে spike protein, attachment এ সাহায্য করে। Herpes family-র সাথে tegument থাকে — capsid আর envelope-এর মাঝে একটি amorphous protein layer।</p>
+<p>Non-structural protein গুলো replication-এ কাজে লাগে কিন্তু virion-এর structure-এ থাকে না। যেমন Dengue virus-এর NS1 antigen।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V4</span>
+      <p class="qtext">Draw and label a virus (enveloped and non-enveloped). **** (only for written)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Naked: nucleocapsid only. Enveloped: nucleocapsid + envelope + spikes</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>This is a written/drawing question. Key elements to label:</p>
+      <p><b>A. Non-enveloped (Naked) Virus:</b></p>
+      <ul>
+        <li>Central nucleic acid core (DNA or RNA)</li>
+        <li>Capsid (composed of capsomeres) — icosahedral symmetry</li>
+        <li>Label: Nucleic acid core, Capsid, Capsomere</li>
+      </ul>
+      <p><b>B. Enveloped Virus:</b></p>
+      <ul>
+        <li>Central nucleic acid core (DNA or RNA)</li>
+        <li>Capsid (composed of capsomeres)</li>
+        <li>Envelope (lipoprotein membrane surrounding nucleocapsid)</li>
+        <li>Glycoprotein spikes (peplomers) projecting from envelope</li>
+        <li>Label: Nucleic acid, Capsid, Nucleocapsid, Lipid envelope, Glycoprotein spikes</li>
+      </ul><div><img src="image.png" alt="image.png" data-porda-id="p_be52d018-3c0b-48ce-9eec-519242b931b8" data-porda-status="timeout" class="porda-blur-img" data-porda-unblur="1"><br></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Naked virus আর enveloped virus কী পার্থক্য?</p>
+        <p class="ca">Naked virus-এ শুধু capsid + nucleic acid থাকে। Enveloped virus-এ capsid-এর বাইরে lipid envelope + glycoprotein spike থাকে।</p>
+        <p class="cq">Virus-এর diagram এ কী কী label দিতে হবে?</p>
+        <p class="ca">Naked virus-এ: Nucleic acid core, Capsid, Capsomere। Enveloped virus-এ: Nucleic acid, Capsid, Nucleocapsid, Lipid envelope, Glycoprotein spikes।</p>
+        <p class="cq">কোন ভাইরাস naked আর কোনটি enveloped?</p>
+        <p class="ca">Naked: Adenovirus, Rotavirus, Polio, HAV। Enveloped: Influenza, Rabies, HIV, HBV, Herpes।</p>
+        <p class="cq">Drawing question এ কীভাবে ভালো marks পাবেন?</p>
+        <p class="ca">কোনো viral diagram-এ capsid, nucleic acid, capsomere, envelope, spike protein — সব clear label দিতে হবে। Naked আর enveloped দুটোই আলাদা করে draw করতে হবে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>এটি একটি drawing question। Naked virus-এ শুধু capsid আর nucleic acid থাকে, বাইরে কিছু নেই। Enveloped virus-এ capsid-এর বাইরে lipid membrane (envelope) থাকে আর তার উপর থেকে glycoprotein spike (peplomer) বের হয়।</p>
+<p>Labels clearly দিতে হবে — capsid, nucleic acid, capsomere, envelope, spike protein। Naked virus-এ যেমন Adenovirus, Rotavirus — এদের icosahedral symmetry। Enveloped virus-এ যেমন Influenza, Rabies — এদের helical nucleocapsid।</p>
+<p>Draw করার সময় মনে রাখবেন — naked virus simple, enveloped virus এর বাইরের স্তরটি আলাদা করে দেখাতে হবে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V5</span>
+      <p class="qtext">Mention the importance of capsid. * (protect genome, help in attachment, antigenic, give shape of virus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> protect genome, attachment (non-enveloped), antigenic, determines shape</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The capsid is the protein coat composed of capsomeres. Its functions:</p>
+      <ul>
+        <li><b>Protects the nucleic acid (genome)</b> from physical damage, nucleases, and the external environment.</li>
+        <li><b>Mediates attachment</b> to host cell receptors (especially important for non-enveloped viruses, which use capsid proteins for binding).</li>
+        <li><b>Antigenic</b> – capsid proteins are major antigens and stimulate antibody production (important for serological diagnosis and vaccine development).</li>
+        <li><b>Determines the shape</b> (structural symmetry) of the virus – icosahedral, helical, or complex – based on capsomere arrangement.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Capsid এর কাজ কী কী?</p>
+        <p class="ca">চারটি মূল কাজ — (১) Nucleic acidকে সুরক্ষা করা, (২) Host cell-এ attachment করা, (৩) Antigen হিসেবে কাজ করা, (৪) Virus-এর shape নির্ধারণ করা।</p>
+        <p class="cq">Naked virus-এ capsid কীভাবে attachment করে?</p>
+        <p class="ca">Naked virus-এ capsid-ই বাইরের স্তর, তাই capsid protein-ই directly host cell receptor-এ bind করে।</p>
+        <p class="cq">Capsid antigenic মানে কী?</p>
+        <p class="ca">Capsid protein একটি antigen — মানে immune system এটাকে চেনে এবং antibody তৈরি করে। এটি serological diagnosis ও vaccine development-এ গুরুত্বপূর্ণ।</p>
+        <p class="cq">Capsomere-এর arrangement কী নির্ধারণ করে?</p>
+        <p class="ca">Capsomere-এর arrangement ভাইরাসের structural symmetry নির্ধারণ করে — icosahedral, helical, বা complex।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Capsid হলো virus-এর প্রোটিন কোট, এটা genomeকে সুরক্ষা করে বাইরের environment থেকে। Naked virus যখন host cell-এ attach করে, তখন capsid-ই directly receptor-এর সাথে bind করে।</p>
+<p>Capsid antigenic — মানে immune system এটাকে চেনে antibody বানায়। Capsid-এর arrangement virus-এর shape decide করে — icosahedral, helical, বা complex।</p>
+<p>Enveloped virus-এ capsid-কে envelope ঢেকে রাখে, তাই attachment মূলত envelope glycoprotein-এর মাধ্যমে হয়। কিন্তু naked virus-এ capsid-ই একমাত্র attachment structure।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V6</span>
+      <p class="qtext">Mention the composition of viral envelope. *** (lipid from host cell, protein from virus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Lipoprotein = Lipid (from host) + Protein/Glycoprotein (from virus, peplomers)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>The viral envelope is a <b>lipoprotein</b> membrane (Lipid + Protein) surrounding the nucleocapsid in enveloped viruses.</p>
+      <ul>
+        <li><b>Lipid part</b> – derived from <b>host cell membranes</b>. The virus acquires the envelope by "budding" through host cell membranes during exit.</li>
+        <li><b>Protein part</b> – derived from <b>the virus</b>. Glycoprotein projections called <b>peplomers</b> (spike proteins) project from the envelope surface (e.g., hemagglutinin and neuraminidase of orthomyxoviruses).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Viral envelope কী দিয়ে তৈরি?</p>
+        <p class="ca">Lipoprotein — lipid host cell membrane থেকে, protein (glycoprotein spike) virus থেকে তৈরি।</p>
+        <p class="cq">Envelope-এর lipid কোথা থেকে আসে?</p>
+        <p class="ca">Host cell membrane থেকে। Virus যখন budding করে host cell থেকে বের হয়, তখন host-এর membrane থেকে lipid layer নিয়ে নেয়।</p>
+        <p class="cq">Peplomer কী?</p>
+        <p class="ca">Peplomer মানে envelope-এর উপর থেকে বের হওয়া glycoprotein spike। যেমন Influenza-এর hemagglutinin ও neuraminidase।</p>
+        <p class="cq">Herpes virus envelope কোথা থেকে নেয়?</p>
+        <p class="ca">Host cell-এর nuclear membrane থেকে। Coronavirus-এর envelope আসে endoplasmic reticulum থেকে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Viral envelope হলো lipoprotein — lipid আসে host cell membrane থেকে, protein আসে virus থেকে। Virus যখন host cell থেকে budding করে বের হয়, তখন host-এর membrane থেকে lipid layer নিয়ে নেয়।</p>
+<p>Glycoprotein spike হলো virus-এর own protein, envelope-এর উপর projection করে। Herpes virus nuclear membrane থেকে envelope নেয়, Coronavirus endoplasmic reticulum থেকে নেয়।</p>
+<p>বুঝার জন্য — "envelope মানে virus-এর জামা, জামার কাপড় host থেকে, কিন্তু design virus নিজের।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V7</span>
+      <p class="qtext">Mention the sources &amp; importance of envelope of a virus. ***** (receptors, instability, antigenic)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Sources: host membrane/nuclear membrane/ER. Importance: attachment, antigenic, unstable (lipid), transmission route linked</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Sources of envelope:</b></p>
+      <ul>
+        <li><b>Host cell membrane:</b> All enveloped viruses acquire lipid from host cell plasma membrane.</li>
+        <li><b>Host nuclear membrane:</b> Only herpes virus family.</li>
+        <li><b>Host endoplasmic reticulum:</b> Coronavirus.</li>
+      </ul>
+      <p><b>Importance/Functions of envelope:</b></p>
+      <ul>
+        <li><b>Attachment to host</b> – envelope glycoproteins (peplomers/spikes) serve as receptors for binding to host cell receptors.</li>
+        <li><b>Antigenic</b> – surface glycoproteins are major antigens, important for diagnosis and vaccine development.</li>
+        <li><b>Instability</b> – envelope is lipid-based, making enveloped viruses <b>unstable</b> in the environment. More sensitive to heat, drying, detergents, disinfectants, and lipid solvents (alcohol, ether) than naked viruses.</li>
+        <li><b>Transmission route</b> – fecal-oral route viruses are usually <b>not</b> enveloped. Enveloped viruses usually transmitted by routes other than feco-oral.</li>
+        <li><b>Respiratory enveloped viruses</b> cannot survive in the environment for a significant period; require direct person-to-person droplet transmission.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Envelope-এর source কী কী?</p>
+        <p class="ca">তিনটি source — (১) Host cell membrane (সব enveloped virus), (২) Host nuclear membrane (শুধু Herpes virus), (৩) Host endoplasmic reticulum (Coronavirus)।</p>
+        <p class="cq">Envelope কেন unstable?</p>
+        <p class="ca">কারণ envelope lipid-based। Lipid মানে heat, drying, detergent, alcohol, ether দিয়ে easily dissolve হয়ে যায়। Envelope নষ্ট হলে virus attach করতে পারে না।</p>
+        <p class="cq">Feco-oral route-এ কেন enveloped virus কম থাকে?</p>
+        <p class="ca">কারণ feco-oral route-এ virus-কে environment-এ survive করতে হয়। Enveloped virus-এর lipid envelope environment-এ unstable, তাই survive করতে পারে না। Naked virus stable।</p>
+        <p class="cq">Peplomers-এর উদাহরণ দাও।</p>
+        <p class="ca">Hemagglutinin, Neuraminidase (Myxovirus), Spike protein (Coronavirus), gp120/gp41 (HIV)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Envelope-এর source host cell membrane — Herpes virus nuclear membrane থেকে নেয়, Coronavirus endoplasmic reticulum থেকে নেয়।</p>
+<p>Envelope-এর কারণ virus unstable, environmental condition-এ easily মারা যায়। Feco-oral route-এ যেসব virus ছড়ায় তারা বেশিরভাগ naked — কারণ তারা survive করতে পারে। Enveloped virus directly droplet contact দিয়ে ছড়ায়।</p>
+<p>Lipid solvent — alcohol, ether — envelope dissolve করতে পারে। Surface glycoprotein spike attachment এ সাহায্য করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V8</span>
+      <p class="qtext">What are the 'defective form of virus'/'atypical virus like agents'? *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> prion, viroid, pseudovirion, defective virus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Defective forms of virus or atypical virus-like agents:</p>
+      <ul>
+        <li><b>Viroids</b> – solely a single molecule of <b>circular RNA</b> without capsid or envelope. RNA is very small, does not encode protein. Cause <b>plant diseases</b> only (no human disease).</li>
+        <li><b>Prions</b> – infectious particles composed solely of <b>protein</b> (no detectable nucleic acid). Cause "slow" viral diseases: Creutzfeldt-Jakob disease, Kuru (humans), mad cow disease (cattle), scrapie (sheep).</li>
+        <li><b>Pseudovirions</b> – contain <b>host cell DNA</b> instead of viral DNA within the capsid. Can infect cells but <b>do not replicate</b>.</li>
+        <li><b>Defective viruses</b> – viral nucleic acid + proteins present but <b>cannot replicate without a "helper" virus</b> providing the missing function. Example: HDV requires HBV (needs HBsAg for envelope).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Defective virus-like agents কয় ধরনের?</p>
+        <p class="ca">চার ধরন — Viroid, Prion, Pseudovirion, এবং Defective virus।</p>
+        <p class="cq">Viroid আর Prion-এর পার্থক্য কী?</p>
+        <p class="ca">Viroid শুধু circular RNA — protein capsid নেই, plant disease করে। Prion শুধু protein — nucleic acid নেই, brain-এ slow disease করে (CJD, Kuru)।</p>
+        <p class="cq">HDV কেন defective virus?</p>
+        <p class="ca">কারণ HDV-র own envelope protein নেই — তাকে HBV-র HBsAg লাগে envelope-এর জন্য। HBV ছাড়া HDV replicate করতে পারে না।</p>
+        <p class="cq">Pseudovirion কী?</p>
+        <p class="ca">Host cell-এর DNA ভেতরে থাকে viral capsid-এর, কিন্তু replicate করতে পারে না।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Atypical virus-like agents মানে যারা typical virus-এর মতো কাজ করে না। চার ধরন —</p>
+<p>Viroid — শুধু RNA, কোনো protein capsid নেই। Plant disease করে, human disease করে না।</p>
+<p>Prion — শুধু protein, কোনো nucleic acid নেই। Brain-এ slow disease করে — CJD, Kuru (human), mad cow disease (cattle), scrapie (sheep)।</p>
+<p>Pseudovirion — host cell-এর DNA নিয়ে viral capsid-এ থাকে, replicate করতে পারে না। Defective virus — missing component আছে, helper virus ছাড়া কাজ করে না। যেমন HDV, HBV-র help ছাড়া replicate করতে পারে না।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V9</span>
+      <p class="qtext">What is prion, viroids, pseudovirion, defective virus? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> prion: only protein; viroid: only NA; pseudovirion: host cell NA; defective virus: need helper for missing components</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Agent</th><th>Composition</th><th>Replication</th></tr>
+        <tr><td><b>Prion</b></td><td>Only Protein (no nucleic acid)</td><td>No; causes protein misfolding</td></tr>
+        <tr><td><b>Viroid</b></td><td>Only Nucleic acid (circular RNA), no capsid</td><td>Yes; plant diseases only</td></tr>
+        <tr><td><b>Pseudovirion</b></td><td>Host cell DNA + Viral capsid</td><td>No; cannot replicate</td></tr>
+        <tr><td><b>Defective virus</b></td><td>Viral NA + Protein but missing genes</td><td>Only with helper virus</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Prion, Viroid, Pseudovirion, Defective virus — প্রত্যেকটির composition কী?</p>
+        <p class="ca">Prion: শুধু Protein। Viroid: শুধু RNA (circular)। Pseudovirion: Host cell DNA + Viral capsid। Defective virus: Viral NA + Protein কিন্তু missing genes।</p>
+        <p class="cq">Prion কীভাবে disease করে?</p>
+        <p class="ca">Prion protein normal form (PrPC) থেকে misfolded form (PrPSc) এ পরিণত হয়। PrPSc protease-resistant, β-pleated sheet — এটি brain-এ accumulate করে spongiform encephalopathy তৈরি করে।</p>
+        <p class="cq">HDV classic defective virus-এর উদাহরণ — কেন?</p>
+        <p class="ca">HDV-র নিজস্ব envelope protein নেই। তাকে HBV-র HBsAg লাগে। HBV ছাড়া HDV complete virion তৈরি করতে পারে না।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Prion শুধু protein, DNA RNA নেই। Viroid শুধু RNA, protein capsid নেই। Pseudovirion-এ host cell-এর DNA থাকে viral capsid-এর ভেতরে, replicate করতে পারে না। Defective virus-র missing gene আছে — helper virus ছাড়া কাজ করে না।</p>
+<p>HDV classic example — HBV না থাকলে HDV reproduce করতে পারবে না।</p>
+<p>Prion-এর দুইটা form — PrPC (normal, α-helix, protease-sensitive) আর PrPSc (pathogenic, β-pleated, protease-resistant)। Brain-এ "spongiform" appearance হয় — মানে dead neuron-এর vacuoles দিয়ে sponge-এর মতো হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V10</span>
+      <p class="qtext">Mention some prion mediated diseases. *** (Creutzfeldt Jakob disease, Kuru in man; mad cow disease in cow; scrapie in sheep)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> CJD, Kuru (human); Mad cow, Scrapie (animal). "Slow" viral diseases / transmissible spongiform encephalopathy</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Prion-mediated diseases are "slow" viral diseases / <b>transmissible spongiform encephalopathies</b>:</p>
+      <ul>
+        <li><b>In humans:</b> Creutzfeldt-Jakob disease (CJD), Kuru</li>
+        <li><b>In animals:</b> Mad cow disease (BSE) in cows, Scrapie in sheep</li>
+      </ul>
+      <p>The term "spongiform" refers to the sponge-like appearance of the brain — holes are vacuoles from dead neurons.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Prion disease কয় ধরনের?</p>
+        <p class="ca">Transmissible spongiform encephalopathy — human-এ CJD ও Kuru, animal-এ mad cow disease (BSE) ও scrapie।</p>
+        <p class="cq">Prion normal host gene-র product — তাহলে immune system কেন আক্রমণ করে না?</p>
+        <p class="ca">কারণ PrP normal host gene থেকেই তৈরি হয়, তাই immune system একে "foreign" মনে করে না। Kono immune response, kono inflammation হয় না।</p>
+        <p class="cq">Spongiform মানে কী?</p>
+        <p class="ca">Brain-এ sponge-এর মতো appearance — dead neuron-এর vacuoles দিয়ে।</p>
+        <p class="cq">Prion resistant কেন?</p>
+        <p class="ca">UV, heat, formaldehyde, nucleases-এর প্রতি virus-এর চেয়ে beshi resistant। Hypochlorite, NaOH, autoclaving দিয়ে inactivate করতে হয়।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Prion disease "slow" viral disease — transmissible spongiform encephalopathy। Human-এ CJD আর Kuru। Animal-এ mad cow disease (BSE) আর scrapie।</p>
+<p>Brain-এ sponge-like appearance দেখা যায় — dead neuron-এর vacuoles। Prion normal host gene থেকেই আসে তাই immune system একে চেনে না, kono inflammation হয় না।</p>
+<p>Prion-এর two forms — PrPC (normal) আর PrPSc (pathogenic)। PrPSc protease-resistant β-pleated sheet — brain-এ accumulate করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V11</span>
+      <p class="qtext">Which virus is more resistant between enveloped and naked viruses?- Explain. **** (naked are more resistant, enveloped confirm insensitivity of virus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Naked more resistant; enveloped have lipid layer → sensitive to heat, drying, detergent, disinfectant, lipid solvent</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Naked (non-enveloped) viruses are more resistant</b> than enveloped viruses.</p>
+      <ul>
+        <li>Envelope is <b>lipid-based</b> → inherently <b>unstable</b> in the external environment.</li>
+        <li>Enveloped viruses are more sensitive to: <b>heat, drying, detergents, disinfectants, lipid solvents</b> (alcohol, ether) — these dissolve/disrupt the lipid envelope.</li>
+        <li>Once lipid envelope is destroyed → virus loses ability to attach → <b>inactivated</b>.</li>
+        <li>Naked viruses, lacking lipid envelope, are more stable and survive longer in the environment.</li>
+      </ul>
+      <p>This is why <b>fecal-oral route viruses are usually naked</b> — they need to survive the harsh GI environment and external environment.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Naked virus কেন বেশি resistant?</p>
+        <p class="ca">কারণ তাদের lipid envelope নেই। Naked virus-এর capsid protein-only, environment-এ বেশি stable থাকে।</p>
+        <p class="cq">Enveloped virus কেন sensitive?</p>
+        <p class="ca">Lipid envelope easily dissolve হয় heat, drying, detergent, alcohol, ether দিয়ে। Lipid গেলে virus attach করতে পারবে না — inactivated।</p>
+        <p class="cq">Feco-oral route-এ কেন naked virus বেশি?</p>
+        <p class="ca">কারণ feco-oral route-এ environment-এ survive করতে হয়, gastric acid আর bile-এর মধ্য দিয়ে যেতে হয়। Naked virus stable — acid/heat resistant। Enveloped virus environmental survival-এ weak।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Naked virus বেশি resistant — কারণ তাদের lipid envelope নেই। Enveloped virus-এর lipid layer easily dissolve হয় — heat, drying, detergent, alcohol, ether দিয়ে।</p>
+<p>Lipid গেলে virus কাজ করতে পারবে না। তাই naked virus environment-এ বেশি থাকে, feco-oral route-এ বেশি naked virus ছড়ায়।</p>
+<p>Respiratory enveloped virus environment-এ বেশিক্ষণ survive করতে পারে না, তাই directly person-to-person droplet transmission লাগে। Naked virus contaminated surface থেকেও indirect transmit হতে পারে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V12</span>
+      <p class="qtext">Mention the names of largest and smallest virus. *** (largest virus: small pox, smallest: parvo B19, small RNA: Picornavirus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Largest: Smallpox (300 nm). Smallest: Parvovirus B19 (20 nm). Both DNA viruses.</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Largest virus:</b> Smallpox virus (Variola) — 300 nm. Also the most complex virus, brick-shaped.</li>
+        <li><b>Smallest virus:</b> Parvovirus B19 — 20 nm.</li>
+        <li>Both are <b>DNA viruses</b>.</li>
+        <li><b>Largest genome:</b> Retrovirus (RNA virus).</li>
+        <li><b>Smallest genome:</b> Hepatitis D virus (RNA virus).</li>
+        <li><b>Smallest RNA virus group:</b> Picornavirus (Polio, HAV, Rhinovirus).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">সবচেয়ে বড় আর সবচেয়ে ছোট virus কী?</p>
+        <p class="ca">বড়: Smallpox (Variola) 300 nm, brick-shaped। ছোট: Parvovirus B19, 20 nm। দুইটাই DNA virus।</p>
+        <p class="cq">সবচেয়ে বড় genome কোনটির?</p>
+        <p class="ca">Retrovirus (RNA virus)। সবচেয়ে ছোট RNA genome: Hepatitis D virus (HDV)।</p>
+        <p class="cq">Smallpox কেন eradicated হয়েছে?</p>
+        <p class="ca">Vaccination (vaccine) দিয়ে। শেষ case 1977, WHO 1980 সালে declare করে যে eradicated।</p>
+        <p class="cq">Smallest RNA virus group কী?</p>
+        <p class="ca">Picornavirus — Polio, HAV, Rhinovirus।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>বড় virus: Smallpox (Variola) — 300 nm, brick-shaped, most complex। ছোট virus: Parvovirus B19 — 20 nm। দুইটাই DNA virus।</p>
+<p>Retrovirus-এর genome largest, HDV-র genome smallest RNA-র মধ্যে। Picornavirus smallest RNA virus group।</p>
+<p>Virus-এর size এত ছোট light microscope-এ দেখা যায় না, electron microscope লাগে। Virus-এর shape — Poxvirus brick-shaped, Rabies bullet-shaped, Rotavirus cartwheel, Coronavirus crown-like, Ebola filamentous।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V13</span>
+      <p class="qtext">Mention the basis of classification of virus (ICTV classification – main heading with example) ****** (DNA or RNA, SS or DS, positive or negative sense, helical or icosahedral, naked or enveloped etc.)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> ICTV: by NA type, strand number, polarity, capsid symmetry, envelope, replication site, genome segmentation</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>ICTV (International Committee on Taxonomy of Viruses) classification:</b></p>
+      <ul>
+        <li><b>1. Type of nucleic acid:</b> DNA (Herpes, Adenovirus) or RNA (Influenza, Polio).</li>
+        <li><b>2. Number of strands:</b> ss — Parvovirus B19(ssDNA) , all RNA except Rotavirus. ds — Rotavirus(dsRNA) , all DNA except Parvovirus B19.&nbsp;&nbsp;<span class="iNqyIf" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 400; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);"><strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);"><pre><code></code></pre><code>​</code><code>​</code><code>​</code>Most DNA viruses</strong> are <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">double-stranded (ds)</strong>. The only major exception is <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">Parvovirus</strong>, which is <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">single-stranded (ss)</strong>.&nbsp;<strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">Most RNA viruses</strong> are <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">single-stranded (ss)</strong>. The only major exception is <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">Rotavirus (Reovirus)</strong>, which is <strong class="rQesXe MPyX" data-sfc-cp="" data-sfc-root="ep" data-copy-service-computed-style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);" style="font-family: sans-serif; font-size: 16px; font-weight: 700; margin: 0px; text-decoration: rgb(10, 10, 10); border-bottom: 0px rgb(10, 10, 10);">double-stranded (ds)</strong>.</span></li></ul><div><br></div><ul>
+        <li><b>3. Nature of genome:</b> Segmented (Rotavirus, Influenza) vs Non-segmented (Polio, Measles). Linear (HAV, HBV) vs Circular (HPV, HDV). Diploid (HIV).</li>
+        <li><b>4. Polarity (RNA only):</b> (+) sense (Polio, HAV, HCV, Dengue) vs (–) sense (Influenza, Measles, Mumps).</li>
+        <li><b>5. Capsid symmetry:</b> Icosahedral (all DNA except Pox; Polio, Dengue), Helical (Rabies, Influenza, Measles), Complex (Pox only).</li></ul><div>Icosahedral = All DNA + Polio + Dengue - pox</div><div>Helical = Influenza , Measles , Mumps&nbsp;</div><div>Complex = Pox&nbsp;</div><ul>
+        <li><b>6. Envelope:</b> Enveloped (Rabies, HBV, HCV) vs Naked (Rotavirus, Polio, HAV, Adenovirus).</li>
+        <li><b>7. Replication site:</b> Cytoplasm (Pox, all RNA except Retro/Orthomyxo/Delta) vs Nucleus (all DNA except Pox; Retro, Orthomyxo, Delta).</li></ul><div>cytoplasm = RNA virus - Retro/Orthomyxo/Delta + DNA (Pox)</div><div>Nucleus = All DNA +&nbsp;Retro/Orthomyxo/Delta - DNA (Pox)</div><ul>
+        <li><b>8. Family/Genus naming:</b> Families end with <i>–viridae</i> (Herpesviridae). Genera end with <i>–virus</i> (Coronavirus).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">ICTV classification-এ virus কী কী parameter অনুযায়ী ভাগ করা হয়?</p>
+        <p class="ca">৮টি parameter — nucleic acid type, strand number, genome nature (segmented/non-segmented), polarity, capsid symmetry, envelope, replication site, naming convention।</p>
+        <p class="cq">Polarity মানে কী? কোন virus-এ apply করে?</p>
+        <p class="ca">Polarity শুধু RNA virus-এ apply করে। (+) sense RNA genome directly mRNA-র মতো, (-) sense RNA genome mRNA-র complementary।</p>
+        <p class="cq">Family আর genus naming convention কী?</p>
+        <p class="ca">Family-র suffix —viridae (যেমন Herpesviridae)। Genus-র suffix —virus (যেমন Coronavirus)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>ICTV classification-এ virus-কে কয়েকটি parameter অনুযায়ী ভাগ করা হয় — DNA না RNA, single না double strand, positive না negative sense, icosahedral না helical capsid, envelope আছে না নেই, কোথায় replicate করে, segmented না non-segmented।</p>
+<p>Family-র –viridae, genus-র –virus suffix। All helical nucleocapsid virus-এ envelope থাকে — naked helical virus নেই।</p>
+<p>Non-infectious nucleic acid: Poxvirus, (-) sense RNA, Reovirus, Retrovirus। বাকি সবগুলোই infectious nucleic acid।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V14</span>
+      <p class="qtext">Enumerate the Baltimore classification of virus. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> 7 groups: dsDNA, ssDNA, dsRNA, (+)ssRNA, (-)ssRNA, ssRNA with DNA intermediate (retro), dsDNA with RNA intermediate (Hepadna)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Group</th><th>Genome</th><th>Examples</th></tr>
+        <tr><td><b>I</b></td><td>dsDNA</td><td>Herpes, Adenovirus, Poxvirus</td></tr>
+        <tr><td><b>II</b></td><td>ssDNA</td><td>Parvovirus B19</td></tr>
+        <tr><td><b>III</b></td><td>dsRNA</td><td>Rotavirus</td></tr>
+        <tr><td><b>IV</b></td><td>(+)ssRNA</td><td>Polio, HAV, HCV, Dengue, Corona</td></tr>
+        <tr><td><b>V</b></td><td>(–)ssRNA</td><td>Influenza, Measles, Mumps, Rabies</td></tr>
+        <tr><td><b>VI</b></td><td>ssRNA + DNA intermediate (Retrovirus)</td><td>HIV, HTLV</td></tr>
+        <tr><td><b>VII</b></td><td>dsDNA + RNA intermediate (Hepadnavirus)</td><td>HBV</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Baltimore classification কত group-এ virus ভাগ করে?</p>
+        <p class="ca">৭টি group। dsDNA, ssDNA, dsRNA, (+)ssRNA, (-)ssRNA, ssRNA with DNA intermediate (Retrovirus), dsDNA with RNA intermediate (Hepadnavirus)।</p>
+        <p class="cq">Group IV আর Group V-র মূল পার্থক্য কী?</p>
+        <p class="ca">Group IV (+)ssRNA genome directly mRNA-র মতো। Group V (-)ssRNA genome-কে প্রথমে virion RNA polymerase দিয়ে mRNA-তে convert করতে হবে।</p>
+        <p class="cq">Retrovirus আর Hepadnavirus-এ RT কখন কাজ করে?</p>
+        <p class="ca">Retrovirus (Group VI): RNA → DNA early (replication-র আগে)। Hepadnavirus (Group VII): RNA intermediate → DNA late (replication-র পরে)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Baltimore classification ৭টি group-এ divide করে — dsDNA, ssDNA, dsRNA, (+)ssRNA, (-)ssRNA, ssRNA with DNA intermediate (Retrovirus), dsDNA with RNA intermediate (Hepadnavirus)।</p>
+<p>Group IV (+)ssRNA virus-এ genome directly mRNA-র মতো। Group V (-)ssRNA virus-এ virion নিজের RNA polymerase নিয়ে আসে — host cell (-) RNA-কে mRNA-তে convert করতে পারে না।</p>
+<p>Retrovirus early replication-এ RT ব্যবহার করে, HBV late replication-এ RT ব্যবহার করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V15</span>
+      <p class="qtext">Mention two (02) vaccine preventable cancer. **** (HPV and HBV)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Cervical carcinoma by HPV vaccine, Hepatocellular carcinoma by HBV vaccine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Cervical carcinoma</b> — prevented by <b>HPV vaccine</b> (subunit, targets HPV-16/18 causing cancer, HPV-6/11 causing warts). Given to girls 9–13 years, 2 doses 6 months apart.</li>
+        <li><b>Hepatocellular carcinoma (HCC)</b> — prevented by <b>HBV vaccine</b> (subunit, recombinant in yeast/<i>E. coli</i>). <b>First vaccine to prevent a human cancer.</b> Newborns: 6, 10, 14 weeks. Adults: 0, 1, 6 months.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Vaccine preventable cancer কোনগুলো?</p>
+        <p class="ca">দুইটি — Cervical carcinoma (HPV vaccine দিয়ে) আর Hepatocellular carcinoma (HBV vaccine দিয়ে)।</p>
+        <p class="cq">HBV vaccine কেন special?</p>
+        <p class="ca">এটি প্রথম vaccine যা একটি human cancer prevent করে। Subunit/recombinant vaccine।</p>
+        <p class="cq">HPV vaccine কাদের দেওয়া হয়?</p>
+        <p class="ca">Girls 9–13 বছর বয়সীদের, 2 doses 6 months apart। HPV-16/18 cancer করে, HPV-6/11 wart করে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>দুইটি vaccine preventable cancer — HPV vaccine দিয়ে cervical carcinoma, HBV vaccine দিয়ে hepatocellular carcinoma prevent করা যায়।</p>
+<p>HBV vaccine প্রথম vaccine যা human cancer prevent করে। দুইটাই subunit vaccine — pathogen-র fragment ব্যবহৃত হওয়ায়।</p>
+<p>HPV-16/18 cervical cancer করে, HPV-6/11 genital wart করে। Pap smear দিয়ে diagnose করা হয়।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

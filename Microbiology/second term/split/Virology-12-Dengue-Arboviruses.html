@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Dengue & Arboviruses (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Dengue &amp; Arboviruses</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">5 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">5 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-11-Rotavirus-HIV-STD.html">‹ Prev</a><a href="Virology-13-Emerging-Infections-Corona.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Dengue &amp; Arboviruses</h2><div class="en">Dengue fever, pathogenesis, treatment &amp; prevention, Dengue vs Chikungunya, vector control</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V125</span>
+      <p class="qtext">What is Dengue? What do you know about Dengue fever? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Flavivirus, Aedes mosquito, 4 serotypes, breakbone fever</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Dengue fever</b> is an acute febrile illness caused by <b>Dengue virus</b> — family <b>Flaviviridae</b>, 4 serotypes (DENV 1-4). Transmitted by <b>Aedes aegypti</b> mosquito.</p>
+      <p><b>Key features:</b></p>
+      <ul>
+        <li><b>Transmission:</b> Bite of infected Aedes mosquito (daytime biter).</li>
+        <li><b>Incubation period:</b> 4-10 days.</li>
+        <li><b>Clinical spectrum:</b>
+          <ul>
+            <li><b>Dengue Fever (DF):</b> High fever, severe headache (retro-orbital), myalgia, arthralgia ("breakbone fever"), maculopapular rash, petechiae. Self-limiting (5-7 days).</li>
+            <li><b>Dengue Hemorrhagic Fever (DHF):</b> Severe form — hemorrhagic manifestations (petechiae, ecchymoses, epistaxis, melena), plasma leakage (hemoconcentration, pleural effusion, ascites), thrombocytopenia.</li>
+            <li><b>Dengue Shock Syndrome (DSS):</b> Circulatory failure — hypotension, narrow pulse pressure, cold clammy skin, restlessness. Fatal if untreated.</li>
+          </ul>
+        </li>
+        <li><b>Pathogenesis of severe dengue:</b> Antibody-dependent enhancement (ADE) — pre-existing non-neutralizing antibodies from previous infection with a different serotype enhance infection with another serotype → more severe disease.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">ডেঙ্গু ডায়াগনোসিস কীভাবে?</p>
+<p class="ca">NS1 অ্যান্টিজেন টেস্ট (প্রাথমিক, ১-৫ দিনে), IgM/IgG ELISA (পরে), PCR।</p>
+<p class="cq">ডেঙ্গুর চিকিৎসায় কী এড়ানো উচিত?</p>
+<p class="ca">Aspirin ও NSAIDs — রক্তপাতের ঝুঁকি বাড়ায়; শুধু paracetamol ব্যবহার।</p>
+<p class="cq">ডেঙ্গু প্রতিরোধের মূল?</p>
+<p class="ca">ভেক্টর নিয়ন্ত্রণ — Aedes-এর breeding স্থান (স্থির পানি) ধ্বংস; ব্যক্তিগত সুরক্ষা (repellent, জাল)।</p>
+<p class="cq">Dengvaxia ভ্যাকসিনের সতর্কতা কী?</p>
+<p class="ca">seronegative ব্যক্তিতে রোগ খারাপ করতে পারে — তাই এন্ডেমিক এলাকায় ৯-৪৫ বছর seropositive-তে সীমিত।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — <b>ডেঙ্গু জ্বর</b> হলো ডেঙ্গু ভাইরাস (Flaviviridae, ৪ serotype — DENV 1-4) দ্বারা সৃষ্ট তীব্র জ্বর-সহ রোগ। <b>Aedes aegypti</b> মশা (দিনে কামড়ায়) সংক্রমণ ঘটায়। Incubation ৪-১০ দিন।</p>
+<p><b>ক্লিনিক্যাল স্পেকট্রাম:</b> (১) <b>DF</b> — উচ্চ জ্বর, তীব্র মাথাব্যথা (retro-orbital), myalgia, arthralgia ("breakbone fever"), maculopapular rash, petechiae; ৫-৭ দিনে self-limiting। (২) <b>DHF</b> — মারাত্মক রূপ: রক্তক্ষরণের লক্ষণ (petechiae, ecchymoses, epistaxis, melena), plasma leakage (hemoconcentration, pleural effusion, ascites), thrombocytopenia। (৩) <b>DSS</b> — সংবহন ব্যর্থতা: hypotension, narrow pulse pressure, ঠান্ডা-আঠালো ত্বক, অস্থিরতা; চিকিৎসা না হলে মারাত্মক।</p>
+<p><b>মারাত্মক ডেঙ্গুর প্যাথোজেনেসিস:</b> <b>ADE (antibody-dependent enhancement)</b> — পূর্বের (অন্য serotype) সংক্রমণের non-neutralizing অ্যান্টিবডি নতুন serotype-এর infection বাড়িয়ে দেয় → মারাত্মক রোগ। চিকিৎসা সহায়ক (তরল, paracetamol)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V126</span>
+      <p class="qtext">What is the pathogenesis of Dengue? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> ADE (antibody-dependent enhancement); primary vs secondary infection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Pathogenesis of Dengue:</b></p>
+      <ul>
+        <li><b>Primary infection:</b> Aedes mosquito bites → virus enters → replicates in dendritic cells/macrophages → viremia → fever, rash. Antibodies (IgM, then IgG) develop. Usually mild (DF).</li>
+        <li><b>Secondary infection (different serotype):</b> Pre-existing non-neutralizing IgG antibodies from primary infection bind to the new serotype but do NOT neutralize it → instead, antibody-virus complex enters Fc receptor-bearing cells (macrophages) more efficiently → enhanced viral replication → more severe disease (DHF/DSS).</li>
+        <li><b>Antibody-Dependent Enhancement (ADE):</b> The key mechanism for severe dengue. Non-neutralizing antibodies from previous infection with one serotype enhance infection with a different serotype.</li>
+        <li><b>Consequences of ADE:</b>
+          <ul>
+            <li>Higher viral load.</li>
+            <li>Massive cytokine release (cytokine storm) → vascular permeability → plasma leakage → hemoconcentration, effusions.</li>
+            <li>Thrombocytopenia → hemorrhagic manifestations.</li>
+            <li>Complement activation → tissue damage.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">DHF/DSS-র উচ্চ ঝুঁকি কবে?</p>
+<p class="ca">Secondary infection-এ ভিন্ন serotype দিয়ে — সবচেয়ে বেশি ঝুঁকি।</p>
+<p class="cq">Congenital dengue হয় কি?</p>
+<p class="ca">হ্যাঁ — ভাইরাস প্লাসেন্টা পার হতে পারে; নবজাতকের ঝুঁকি।</p>
+<p class="cq">Dengvaxia-র নিরাপত্তা উদ্বেগ কী?</p>
+<p class="ca">seronegative ব্যক্তিতে মারাত্মক ডেঙ্গুর ঝুঁকি বাড়ায় — তাই সীমিত ব্যবহার।</p>
+<p class="cq">Primary সংক্রমণে রোগ সাধারণত কেমন?</p>
+<p class="ca">মৃদু (DF) — IgM তারপর IgG তৈরি হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ডেঙ্গুর প্যাথোজেনেসিস।</p>
+<p><b>Primary সংক্রমণ:</b> Aedes কামড় → ভাইরাস dendritic কোষ/ম্যাক্রোফেজে replication → viremia → জ্বর, rash; IgM তারপর IgG তৈরি হয়; সাধারণত মৃদু (DF)।</p>
+<p><b>Secondary সংক্রমণ (ভিন্ন serotype):</b> পূর্বের নন-নিউট্রালাইজিং IgG অ্যান্টিবডি নতুন serotype-কে neutralize না করে বাঁধে — অ্যান্টিবডি-ভাইরাস কমপ্লেক্স Fc receptor-যুক্ত কোষে (ম্যাক্রোফেজ) বেশি কার্যকরভাবে ঢোকে → viral replication বাড়ে → DHF/DSS।</p>
+<p><b>ADE</b> হলো মারাত্মক ডেঙ্গুর মূল প্রক্রিয়া। এর পরিণতি: বেশি viral load; massive cytokine release (cytokine storm) → vascular permeability → plasma leakage → hemoconcentration, effusion; thrombocytopenia → রক্তক্ষরণ; complement activation → টিস্যু ক্ষতি।</p>
+<p>এক লাইনে — "Secondary infection → ADE → viral load ↑ + cytokine storm → plasma leakage → DHF/DSS।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V127</span>
+      <p class="qtext">What is the treatment and prevention of Dengue? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Supportive treatment; no specific antiviral; vector control for prevention</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Treatment of Dengue:</b></p>
+      <ul>
+        <li><b>No specific antiviral treatment.</b> Treatment is purely supportive.</li>
+        <li><b>Mild Dengue (DF):</b> Oral hydration, paracetamol for fever/pain, adequate rest.</li>
+        <li><b>Severe Dengue (DHF/DSS):</b>
+          <ul>
+            <li>IV fluid resuscitation (NS or RL) — guided by hematocrit and clinical status.</li>
+            <li>Blood/platelet transfusion if severe bleeding or platelet count &lt;10,000/μl.</li>
+            <li>Monitor for plasma leakage: daily hematocrit, clinical assessment.</li>
+            <li>ICU care for DSS — vasopressors if needed, careful fluid management.</li>
+          </ul>
+        </li>
+        <li><b>Avoid:</b> Aspirin, NSAIDs (increase bleeding risk). Use paracetamol only.</li>
+      </ul>
+      <p><b>Prevention of Dengue:</b></p>
+      <ul>
+        <li><b>Vector control:</b> Eliminate Aedes breeding sites (standing water in containers, flower pots, tires). Environmental management.</li>
+        <li><b>Personal protection:</b> Insect repellents (DEET), protective clothing, window screens, bed nets.</li>
+        <li><b>Biological control:</b> Larvivorous fish (Gambusia), bacterial larvicides (Bti).</li>
+        <li><b>Vaccination:</b> Dengvaxia — restricted use (seropositive individuals only, ages 9-45 in endemic areas).</li>
+        <li><b>Health education.</b></li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">ডেঙ্গু কি notifiable?</p>
+<p class="ca">হ্যাঁ — বাংলাদেশে ডেঙ্গু একটি notifiable disease।</p>
+<p class="cq">ডেঙ্গুর উচ্চ ঝুঁকি-সময় কখন?</p>
+<p class="ca">বর্ষা মৌসুমে (জুন-অক্টোবর) — Aedes breeding বেশি।</p>
+<p class="cq">প্লেটলেট কখন ট্রান্সফিউজ করবেন?</p>
+<p class="ca">সক্রিয় রক্তপাত বা প্লেটলেট &lt;10,000/μl রক্তক্ষরণের লক্ষণসহ।</p>
+<p class="cq">IV fluid-এর নির্দেশক কী?</p>
+<p class="ca">Hematocrit ও ক্লিনিক্যাল অবস্থা — plasma leakage পর্যবেক্ষণে দৈনিক hematocrit।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ডেঙ্গুর চিকিৎসা ও প্রতিরোধ।</p>
+<p><b>চিকিৎসা:</b> নির্দিষ্ট অ্যান্টিভাইরাল নেই — সম্পূর্ণ সহায়ক। মৃদু (DF): oral hydration, paracetamol, বিশ্রাম। মারাত্মক (DHF/DSS): IV fluid (NS/RL) — hematocrit ও ক্লিনিক্যাল অবস্থা অনুযায়ী; তীব্র রক্তপাত বা প্লেটলেট &lt;10,000/μl হলে রক্ত/প্লেটলেট; দৈনিক hematocrit দিয়ে plasma leakage পর্যবেক্ষণ; DSS-এ ICU, প্রয়োজন হলে vasopressor। <b>এড়ানো:</b> aspirin, NSAIDs (রক্তপাত ঝুঁকি); শুধু paracetamol।</p>
+<p><b>প্রতিরোধ:</b> <b>ভেক্টর নিয়ন্ত্রণ:</b> Aedes breeding স্থান (পাত্র, ফুলের টব, টায়ারের পানি) নাশ — environmental management; <b>ব্যক্তিগত সুরক্ষা:</b> DEET repellent, ঢাকনা কাপড়, জানালার নেট, মশারি; <b>জৈবিক নিয়ন্ত্রণ:</b> larvivorous fish (Gambusia), Bti; <b>টিকা:</b> Dengvaxia — শুধু seropositive, ৯-৪৫ বছর; <b>স্বাস্থ্য শিক্ষা।</b></p>
+<p>এক লাইনে — "চিকিৎসা সহায়ক (fluid + paracetamol), প্রতিরোধ ভেক্টর নিয়ন্ত্রণ।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V128</span>
+      <p class="qtext">What is the difference between Dengue and Chikungunya? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Both Aedes-borne; Dengue Flavivirus, Chikungunya Togavirus; Chikungunya — severe joint pain, rarely fatal</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <table>
+        <thead><tr><th>Feature</th><th>Dengue</th><th>Chikungunya</th></tr></thead>
+        <tbody>
+          <tr><td>Family</td><td>Flaviviridae</td><td>Togaviridae (Alphavirus)</td></tr>
+          <tr><td>Vector</td><td>Aedes aegypti/albopictus</td><td>Aedes aegypti/albopictus (same vector)</td></tr>
+          <tr><td>Serotypes</td><td>4 serotypes (DENV 1-4)</td><td>Single serotype</td></tr>
+          <tr><td>Joint pain</td><td>Arthralgia (moderate)</td><td>Severe, debilitating joint pain (polyarthralgia) — hallmark feature</td></tr>
+          <tr><td>Hemorrhage</td><td>Yes (DHF/DSS)</td><td>Rare</td></tr>
+          <tr><td>Mortality</td><td>Higher (DHF/DSS fatal)</td><td>Low (rarely fatal)</td></tr>
+          <tr><td>Chronic joint pain</td><td>Uncommon</td><td>Common — can persist for months to years</td></tr>
+          <tr><td>ADE risk</td><td>Yes (secondary infection risk)</td><td>No ADE</td></tr>
+          <tr><td>Diagnosis</td><td>NS1 Ag, IgM/IgG, PCR</td><td>IgM/IgG, RT-PCR</td></tr>
+          <tr><td>Treatment</td><td>Supportive (fluids, paracetamol)</td><td>Supportive (NSAIDs more effective for joint pain)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">"চিকুনগুনিয়া" শব্দের অর্থ কী?</p>
+<p class="ca">"যে বেঁকে যায়" — তীব্র জয়েন্ট ব্যথার কারণে ঝুঁকে পড়া ভঙ্গিকে বোঝায়।</p>
+<p class="cq">চিকুনগুনিয়ার গুরুতর রূপ কী?</p>
+<p class="ca">এনসেফালাইটিস, হেপাটাইটিস, multi-organ failure — বিশেষত বয়স্ক/immunocompromised-এ।</p>
+<p class="cq">চিকুনগুনিয়া আর ডেঙ্গু একই এলাকায়?</p>
+<p class="ca">হ্যাঁ — সহ-সংবহন হয়; ক্লিনিক্যাল পার্থক্য করা কঠিন হতে পারে।</p>
+<p class="cq">কোনটির জয়েন্ট ব্যথা দীর্ঘস্থায়ী?</p>
+<p class="ca">চিকুনগুনিয়া — মাস থেকে বছর পর্যন্ত অক্ষমতাকর জয়েন্ট ব্যথা থাকতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ডেঙ্গু আর চিকুনগুনিয়ার পার্থক্য টেবিল আকারে।</p>
+<p><b>পরিবার:</b> ডেঙ্গু Flaviviridae; চিকুনগুনিয়া Togaviridae (Alphavirus)। <b>ভেক্টর:</b> দুটোই Aedes aegypti/albopictus। <b>Serotype:</b> ডেঙ্গু ৪টি; চিকুনগুনিয়া একক। <b>জয়েন্ট ব্যথা:</b> ডেঙ্গুতে মাঝারি arthralgia; চিকুনগুনিয়াতে তীব্র, অক্ষমতাকর polyarthralgia — hallmark। <b>রক্তক্ষরণ:</b> ডেঙ্গুতে (DHF/DSS), চিকুনগুনিয়াতে বিরল। <b>মৃত্যুহার:</b> ডেঙ্গু বেশি (DHF/DSS); চিকুনগুনিয়া কম (বিরল)। <b>দীর্ঘস্থায়ী জয়েন্ট ব্যথা:</b> ডেঙ্গুতে অস্বাভাবিক; চিকুনগুনিয়াতে সাধারণ — মাস-বছর স্থায়ী। <b>ADE:</b> ডেঙ্গুতে আছে (secondary ঝুঁকি); চিকুনগুনিয়াতে নেই। <b>ডায়াগনোসিস:</b> ডেঙ্গু NS1/IgM-IgG/PCR; চিকুনগুনিয়া IgM/IgG/RT-PCR। <b>চিকিৎসা:</b> ডেঙ্গুতে fluid+paracetamol; চিকুনগুনিয়াতে NSAID (জয়েন্ট ব্যথায় কার্যকর)।</p>
+<p>এক লাইনে — "ডেঙ্গু = রক্তক্ষরণ + ADE; চিকুনগুনিয়া = ভয়ানক জয়েন্ট ব্যথা + দীর্ঘস্থায়ী।"</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V129</span>
+      <p class="qtext">What is the vector of Dengue? How can you control it? *</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Aedes mosquito; breeding site elimination</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Vector of Dengue:</b> <b>Aedes aegypti</b> (primary vector) and <b>Aedes albopictus</b> (secondary vector).</p>
+      <p><b>Vector characteristics:</b></p>
+      <ul>
+        <li>Daytime biter (peak biting: early morning and late afternoon).</li>
+        <li>Small black mosquito with white stripes on legs and thorax (tiger mosquito).</li>
+        <li>Breeds in clean, stagnant water in artificial containers (tires, flower pots, plastic containers, water tanks).</li>
+        <li>Short flight range (~200 meters) — breeds near human habitation.</li>
+        <li>Female mosquito bites → transmits virus.</li>
+      </ul>
+      <p><b>Vector control measures:</b></p>
+      <ul>
+        <li><b>Source reduction (most important):</b> Eliminate all standing water — clean tires, flower pots, roof gutters, water containers. Cover water storage containers. Weekly cleaning.</li>
+        <li><b>Larvicides:</b> Temephos, Bti (Bacillus thuringiensis israelensis) in water containers.</li>
+        <li><b>Adult mosquito control:</b> Indoor residual spraying (IRS), fogging (thermal/ultra-low volume).</li>
+        <li><b>Personal protection:</b> DEET repellent, long sleeves, window/door screens, bed nets.</li>
+        <li><b>Biological control:</b> Larvivorous fish (Gambusia, Poecilia) in large water containers.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add"><p class="cq">Aedes আর কী কী রোগ ছড়ায়?</p>
+<p class="ca">ডেঙ্গু, চিকুনগুনিয়া, Zika, Yellow Fever — একই ভেক্টর।</p>
+<p class="cq">সবচেয়ে কার্যকর ভেক্টর ব্যবস্থাপনা কী?</p>
+<p class="ca">সম্প্রদায়ের অংশগ্রহণে সমন্বিত (integrated) ভেক্টর ব্যবস্থাপনা।</p>
+<p class="cq">Trans-ovarial transmission কী?</p>
+<p class="ca">মা-মশা থেকে ডিমে ভাইরাস চলে যায় — ডিম শুকনো সময়েও বাঁচে, পরে ডিম ফুটে।</p>
+<p class="cq">অ্যাডিস-এর বিমান পরিসর কত?</p>
+<p class="ca">~২০০ মিটার — মানুষের আবাসের কাছেই বংশবৃদ্ধি করে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় বলবে — ডেঙ্গুর ভেক্টর হলো <b>Aedes aegypti</b> (প্রধান) এবং <b>Aedes albopictus</b> (গৌণ)।</p>
+<p><b>ভেক্টর বৈশিষ্ট্য:</b> দিনে কামড়ায় (সকাল ও বিকেলের দিকে সবচেয়ে বেশি); ছোট কালো, পা ও বক্ষে সাদা ডোরাকাটা ("tiger mosquito"); পাত্র, টায়ার, ফুলের টব, পানির ট্যাঙ্কের স্থির পরিষ্কার পানিতে ডিম পাড়ে; স্বল্প উড্ডয়ন (~২০০ মিটার) — মানুষের বাসার কাছাকাছি; স্ত্রী-মশা কামড়ে ভাইরাস ছড়ায়।</p>
+<p><b>নিয়ন্ত্রণ:</b> (১) <b>Source reduction (সবচেয়ে গুরুত্বপূর্ণ)</b> — স্থির পানি নাশ: টায়ার, ফুলের টব, ছাদের নালা, পানির পাত্র পরিষ্কার/ঢাকনা; সাপ্তাহিক পরিষ্কার; (২) <b>Larvicide:</b> Temephos, Bti; (৩) <b>প্রাপ্তবয়স্ক নিয়ন্ত্রণ:</b> ইনডোর রেসিডুয়াল স্প্রে (IRS), fogging (thermal/ULV); (৪) <b>ব্যক্তিগত সুরক্ষা:</b> DEET repellent, লম্বা হাতা, নেট, মশারি; (৫) <b>জৈবিক:</b> larvivorous fish (Gambusia, Poecilia)।</p>
+<p>এক লাইনে — "Source reduction (স্থির পানি নাশ) = ডেঙ্গু নিয়ন্ত্রণের মূল।"</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

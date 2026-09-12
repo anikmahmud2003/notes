@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mycology — Cryptococcus, Pneumocystis & Aspergillus (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Mycology</h1>
+  <h2>Cryptococcus, Pneumocystis &amp; Aspergillus</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟢 Mycology</span><span class="badge">6 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">6 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Mycology-05-Candidiasis.html">‹ Prev</a><a href="Mycology-07-Other-Clinical-Mycology.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="mycology" class="subject s-myco">
+    <div class="sec-head"><div class="num">⚗</div><div><h2>Cryptococcus, Pneumocystis &amp; Aspergillus</h2><div class="en">C. neoformans, Pneumocystis jiroveci, aspergillosis, black/white fungus, fungal ball, rose handler disease</div></div></div>
+    <div id="mycology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M25</span>
+      <p class="qtext">Mention the important properties, diseases &amp; laboratory diagnosis of C. neoformans. **** (properties: only capsulated fungus, morphology yeast, causes meningitis)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Only capsulated fungus, morphology yeast, causes meningitis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Properties of <i>Cryptococcus neoformans:</i></b></p>
+      <ul>
+        <li><b>Only capsulated fungus</b> — unique among all pathogenic fungi.</li>
+        <li>Morphology: <b>Yeast</b> — round or oval budding yeast with a <b>narrow-based bud</b>.</li>
+        <li>Opportunistic fungus.</li>
+        <li>Transmission: <b>inhalation</b>.</li>
+        <li>Source: <b>Bird (especially pigeon) droppings</b>.</li>
+      </ul>
+      <p><b>Diseases:</b></p>
+      <ul>
+        <li><b>Cryptococcal meningitis</b> — especially in AIDS / immunocompromised patients.</li>
+        <li>Cryptococcal pneumonia.</li>
+        <li>Cryptococcosis (general term).</li>
+      </ul>
+      <p><b>Laboratory Diagnosis:</b></p>
+      <ol>
+        <li><b>Specimen:</b> CSF, sputum.</li>
+        <li><b>Indian ink preparation</b> (negative stain): round/oval yeast with narrow-based bud surrounded by a wide <b>unstained capsule</b> (clear halo against dark background).</li>
+        <li><b>Culture on SDA</b> at 37°C for 2–3 days: <b>cream-colored mucoid colonies</b>.</li>
+        <li><b>CRAG test</b> (Cryptococcal antigen): capsular antigen detection by <b>latex agglutination test</b>.</li>
+        <li><b>PCR</b> — molecular detection.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>C. neoformans</i> আর <i>B. dermatitidis</i>‑এর bud‑এর পার্থক্য কী?</p>
+      <p class="ca"><i>C. neoformans</i>‑এর yeast‑এ <b>narrow‑based bud</b>; <i>B. dermatitidis</i>‑এ <b>broad‑based bud</b> — এটাই key differentiator।</p>
+      <p class="cq">Capsule‑এর কাজ কী (virulence)?</p>
+      <p class="ca">Capsule <b>polysaccharide</b> দিয়ে তৈরি, এটাই main virulence factor — এটি <b>phagocytosis inhibit</b> করে।</p>
+      <p class="cq">কোন কোন fungus meningitis করতে পারে?</p>
+      <p class="ca"><i>C. neoformans</i>, <i>Coccidioides immitis</i>, <i>Paracoccidioides brasiliensis</i>, <i>Blastomyces dermatitidis</i>, <i>Aspergillus fumigatus</i>।</p>
+      <p class="cq">CRAG test‑এর উপযোগিতা?</p>
+      <p class="ca">Highly sensitive ও specific — diagnosis ও <b>treatment response monitoring</b> দুটোতেই ব্যবহৃত হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <i>Cryptococcus neoformans</i>‑এর properties, disease ও lab diagnosis বলছি।</p>
+      <p><b>Properties:</b> <b>একমাত্র capsulated fungus</b> — সব pathogenic fungus‑এর মধ্যে unique। Morphology <b>yeast</b> — round/oval budding yeast, <b>narrow‑based bud</b>। Opportunistic fungus। Transmission <b>inhalation</b>, source <b>bird (বিশেষ করে pigeon) droppings</b>।</p>
+      <p><b>Diseases:</b> <b>Cryptococcal meningitis</b> — বিশেষ করে AIDS/immunocompromised; cryptococcal pneumonia; cryptococcosis (সাধারণ নাম)।</p>
+      <p><b>Lab diagnosis:</b> (১) specimen — CSF, sputum; (২) <b>Indian ink preparation</b> (negative stain) — round/oval yeast + narrow‑based bud + wide <b>unstained capsule</b> (clear halo); (৩) <b>SDA</b>‑তে 37°C‑এ 2–3 দিন — <b>cream‑colored mucoid colony</b>; (৪) <b>CRAG test</b> — capsular antigen, latex agglutination দিয়ে detect; (৫) PCR।</p>
+      <p>Extra point — capsule polysaccharide‑নির্মিত, main virulence factor, <b>phagocytosis inhibit</b> করে; <i>C. neoformans</i> narrow‑based, <i>B. dermatitidis</i> broad‑based; CRAG diagnosis + monitoring‑এ ব্যবহৃত।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M26</span>
+      <p class="qtext">Write down the peculiar properties of Pneumocystis jiroveci/ Explain- "what type of organism is Pneumocystis jiroveci"? *** (at morphology: like parasites and at molecular level: like fungus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> At morphology: like parasites; at molecular level: like fungus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b><i>Pneumocystis jiroveci</i></b> is a unique organism that has features of both fungi and parasites. It is now classified as a <b>fungus</b> based on molecular evidence.</p>
+      <p><b>Peculiar Properties:</b></p>
+      <ul>
+        <li><b>Human species:</b> <i>Pneumocystis jiroveci</i>; <b>Rat species:</b> <i>Pneumocystis carinii</i>.</li>
+        <li><b>Transmission:</b> Inhalation of airborne organism.</li>
+        <li><b>Disease:</b> Atypical pneumonia (plasma cell pneumonia) — ground glass opacity on imaging.</li>
+        <li><b>Mortality:</b> Approximately 100% if untreated.</li>
+      </ul>
+      <p><b>Why it looks like a parasite:</b></p>
+      <ul>
+        <li>Cell membrane contains <b>cholesterol</b> (not ergosterol — unlike typical fungi).</li>
+        <li>In tissue, appears as <b>cysts</b> (resembles protozoal cysts).</li>
+        <li>Does not grow on standard fungal culture media.</li>
+        <li>Antifungal drugs are largely ineffective.</li>
+        <li>Major surface glycoprotein shows antigenic variation similar to <i>Trypanosoma brucei</i>.</li>
+      </ul>
+      <p><b>Why it is classified as a fungus:</b></p>
+      <ul>
+        <li>Molecular analysis: rRNA sequencing, mitochondrial DNA analysis, and major enzyme studies support fungal classification (related to yeasts like <i>Saccharomyces cerevisiae</i>).</li>
+        <li>Cell wall contains <b>β-glucans</b>.</li>
+      </ul>
+      <p><b>Laboratory Diagnosis:</b></p>
+      <ul>
+        <li>Specimen: lung biopsy, bronchoalveolar lavage (sputum not suitable).</li>
+        <li>Staining: methenamine silver, Giemsa, or fluorescent antibody stain → typical cysts.</li>
+        <li>Culture: difficult.</li>
+        <li>ELISA for antigen &amp; antibody — only for epidemiological purpose.</li>
+        <li>PCR.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>P. jiroveci</i> কি আগে protozoan ছিল?</p>
+      <p class="ca">হ্যাঁ — <b>আগে protozoan</b> হিসেবে শ্রেণিবদ্ধ ছিল; molecular study‑র পর <b>fungi</b>‑তে রূপান্তরিত হয়।</p>
+      <p class="cq">Ergosterol‑এর অনুপস্থিতি ও culture‑তে না ওঠা কীভাবে antifungal inefficacy ব্যাখ্যা করে?</p>
+      <p class="ca">Ergosterol <b>না থাকা</b> আর fungal media‑তে <b>grow না করা</b> — এই দুটোই conventional antifungal (যেগুলো ergosterol target করে)‑এর অকার্যকারিতা explains।</p>
+      <p class="cq">Treatment কী?</p>
+      <p class="ca"><b>Trimethoprim‑sulfamethoxazole (TMP‑SMX)</b> — এটা antibacterial/antiprotozoal, antifungal নয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <i>Pneumocystis jiroveci</i> একটি unique organism — fungus ও parasite দুটোরই বৈশিষ্ট্য আছে, আর molecular evidence‑র ভিত্তিতে এখন <b>fungus</b> হিসেবে শ্রেণিবদ্ধ।</p>
+      <p>Peculiar properties — Human species: <i>P. jiroveci</i>, rat species: <i>P. carinii</i>; transmission — airborne organism inhalation; disease — <b>atypical pneumonia (plasma cell pneumonia)</b>, imaging‑এ <b>ground glass opacity</b>; untreated হলে mortality প্রায় <b>100%</b>।</p>
+      <p>কেন parasite‑এর মতো দেখায় — (১) cell membrane‑এ <b>cholesterol</b> (ergosterol নয়); (২) tissue‑এ <b>cyst</b> হিসেবে দেখা যায়; (৩) standard fungal culture media‑তে grow করে না; (৪) antifungal drugs largely ineffective; (৫) major surface glycoprotein‑এ antigenic variation — <i>Trypanosoma brucei</i>‑এর মতো।</p>
+      <p>কেন fungus — molecular analysis (rRNA sequencing, mitochondrial DNA, enzyme study) <i>Saccharomyces cerevisiae</i>‑এর মতো yeast‑এর সাথে সম্পর্কিত; আর cell wall‑এ <b>β‑glucan</b> থাকে।</p>
+      <p>Lab diagnosis — specimen lung biopsy/BAL (sputum suitable নয়); staining — <b>methenamine silver</b>, Giemsa, fluorescent antibody → typical cyst; culture difficult; ELISA only <b>epidemiological</b> purpose; PCR। Treatment — <b>TMP‑SMX</b> (antibacterial/antiprotozoal, antifungal নয়)।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M27</span>
+      <p class="qtext">What are the diseases produced by Aspergillus? *** (A. flavus: ocular infection, liver damage; A. fumigatus: Allergic aspergilosis, fungal ball or aspergilloma)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> A. flavus: ocular infection, liver damage; A. fumigatus: Allergic aspergillosis, fungal ball</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Aspergillus</b> species are molds with septate hyphae that form V-shaped (dichotomous) branches. Conidia form radiating chains.</p>
+      <p><b>Diseases by species:</b></p>
+      <p><b><i>Aspergillus flavus:</i></b></p>
+      <ul>
+        <li>Ocular infections.</li>
+        <li>Liver damage or <b>liver carcinoma</b> — through its production of <b>aflatoxins</b>.</li>
+      </ul>
+      <p><b><i>Aspergillus fumigatus:</i></b></p>
+      <ul>
+        <li><b>Allergic aspergillosis:</b>
+          <ul>
+            <li>Asthma (Type I hypersensitivity).</li>
+            <li>Allergic bronchopulmonary aspergillosis / farmer's lung (Type III hypersensitivity).</li>
+          </ul>
+        </li>
+        <li><b>Fungal ball / Aspergilloma</b> in the lungs — a radiopaque structure on chest X-ray that changes position when the patient moves from erect to supine.</li>
+        <li><b>Invasive aspergillosis</b> — affecting lungs, liver, kidney, brain, eye etc.</li>
+      </ul>
+      <p><b>Transmission:</b> Airborne conidia.</p>
+      <p><b>Laboratory Diagnosis:</b></p>
+      <ul>
+        <li>Microscopy: septate hyphae, regular V-shaped branches.</li>
+        <li>Culture: mold with green conidia in radiating chain.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Aflatoxin দিয়ে hepatocellular carcinoma কীভাবে হয়?</p>
+      <p class="ca">Spoiled grain/peanut → liver metabolize → <b>epoxide</b> → p53 tumour suppressor gene‑এ mutation → hepatocellular carcinoma।</p>
+      <p class="cq">Aspergillus allergy কেন এত prominent (mechanism)?</p>
+      <p class="ca">Spore <b>highly allergenic</b> → immediate hypersensitivity → asthma, bronchopulmonary aspergillosis, eosinophilia, "wheal and flare" skin test reaction।</p>
+      <p class="cq">Aspergilloma chest X‑ray‑এ কেমন দেখা যায়?</p>
+      <p class="ca"><b>Radiopaque ball</b> — patient‑এর posture বদলালে position বদলায়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <i>Aspergillus</i> species হলো mold — septate hyphae, <b>V‑shaped (dichotomous)</b> branch; conidia radiating chain‑এ থাকে। diseases species অনুযায়ী আলাদা।</p>
+      <p><b><i>A. flavus</i></b> — ocular infection; liver damage বা <b>liver carcinoma</b> — কারণ এটা <b>aflatoxin</b> produce করে। <b><i>A. fumigatus</i></b> — <b>allergic aspergillosis</b> (asthma — Type I hypersensitivity; allergic bronchopulmonary aspergillosis / farmer's lung — Type III hypersensitivity); <b>fungal ball/aspergilloma</b> — chest X‑ray‑এ radiopaque structure, posture বদলালে position বদলায় (erect→supine); <b>invasive aspergillosis</b> — lungs, liver, kidney, brain, eye।</p>
+      <p>Transmission — <b>airborne conidia</b>। Lab diagnosis — microscopy: septate hyphae, regular V‑shaped branch; culture: mold, green conidia radiating chain।</p>
+      <p>Aflatoxin pathway মনে রাখুন — spoiled grain/peanut → epoxide → p53 mutation → HCC; আর aspergilloma posture‑dependent radiopaque ball।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M28</span>
+      <p class="qtext">Enumerate the black fungus and white fungus. Why they are so called? *** (Black fungus: Mucormycosis, here tissue necrosis make black area; white fungus: Candidiasis, here white patches).</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Black fungus: Mucormycosis, tissue necrosis makes black area; white fungus: Candidiasis, white patches</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Black Fungus:</b></p>
+      <ul>
+        <li><b>Disease:</b> Mucormycosis (zygomycosis, phycomycosis).</li>
+        <li><b>Causative agents:</b> <i>Mucor</i> &amp; <i>Rhizopus</i>.</li>
+        <li><b>Why called "black":</b> The infection causes <b>tissue necrosis</b>, which appears black in color.</li>
+        <li><b>Diseases:</b> Rhinocerebral lesion (orbit, palate, face, nose &amp; brain — cavernous sinus thrombosis is a common complication), pulmonary lesions (infarction, necrosis with cavitation).</li>
+        <li><b>Predisposing factors:</b> Diabetes mellitus, immunocompromised state.</li>
+        <li><b>Microscopy:</b> Non-septate (coenocytic) hyphae, irregular, right-angle branches.</li>
+      </ul>
+      <p><b>White Fungus:</b></p>
+      <ul>
+        <li><b>Disease:</b> Candidiasis (especially invasive candidiasis).</li>
+        <li><b>Causative agents:</b> <i>Candida albicans</i> (sometimes <i>C. tropicalis</i>, <i>C. auris</i>).</li>
+        <li><b>Why called "white":</b> In candidiasis (like oral thrush), <b>white patches</b> are seen on the tongue, mouth, or throat.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Mucormycosis‑এর transmission ও culture note?</p>
+      <p class="ca">Transmission — asexual spore inhalation; culture‑তে spore <b>sporangium‑এর ভিতরে enclosed</b> থাকে।</p>
+      <p class="cq">Mucormycosis কেন prominent হলো (COVID era)?</p>
+      <p class="ca">COVID‑19 pandemic‑এ immunocompromised/diabetic রোগীদের মধ্যে এটি বেশি prominence পায়।</p>
+      <p class="cq">White fungus‑এর white color‑এর কারণ কী?</p>
+      <p class="ca">Pseudomembrane formation‑এর কারণে — যা pseudohyphae ও yeast cell দিয়ে তৈরি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, black fungus আর white fungus দুটোই বলছি।</p>
+      <p><b>Black fungus</b> — disease <b>mucormycosis</b> (zygomycosis, phycomycosis); causative agent <i>Mucor</i> &amp; <i>Rhizopus</i>; <b>"black"</b> বলার কারণ <b>tissue necrosis</b> — যা <b>কালো</b> দেখায়। Diseases — <b>rhinocerebral lesion</b> (orbit, palate, face, nose &amp; brain — <b>cavernous sinus thrombosis</b> common complication), pulmonary lesion (infarction, necrosis with cavitation)। Predisposing — <b>diabetes mellitus</b>, immunocompromised state। Microscopy — <b>non‑septate (coenocytic) hyphae</b>, irregular, right‑angle branch।</p>
+      <p><b>White fungus</b> — disease <b>candidiasis</b> (বিশেষ করে invasive); causative agent <i>Candida albicans</i> (কখনো <i>C. tropicalis</i>, <i>C. auris</i>); <b>"white"</b> বলার কারণ oral thrush‑এর মতো candidiasis‑এ tongue, mouth, throat‑এ <b>white patch</b> দেখা যায়।</p>
+      <p>Extra — mucormycosis transmission asexual spore inhalation, sporangium‑এর ভিতরে enclosed spore; COVID pandemic‑এ diabetic/immunocompromised‑এ prominence; white color pseudomembrane (pseudohyphae + yeast cell)‑এর কারণে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M29</span>
+      <p class="qtext">What is fungal ball? *** (lungs lesion caused by Aspergillus fumigatus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Lung lesion caused by Aspergillus fumigatus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Fungal ball (Aspergilloma)</b> is a lung lesion caused by <i>Aspergillus fumigatus</i>. It is a mass of fungal hyphae, mucus, and cellular debris that colonizes a pre-existing lung cavity (e.g., from tuberculosis, sarcoidosis, or bronchiectasis).</p>
+      <p><b>Key features:</b></p>
+      <ul>
+        <li>Appears as a <b>radiopaque structure</b> on chest X-ray.</li>
+        <li><b>Changes position</b> when the patient is moved from erect to supine posture — this mobility is diagnostic.</li>
+        <li>Usually non-invasive but can cause hemoptysis (coughing up blood).</li>
+      </ul>
+      <p><b>Classification of <i>Aspergillus</i> lung diseases:</b></p>
+      <ol>
+        <li>Allergic aspergillosis (asthma, ABPA)</li>
+        <li><b>Fungal ball / Aspergilloma</b> (colonization of cavity)</li>
+        <li>Invasive aspergillosis (in immunocompromised)</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>Aspergillus</i>‑এর morphology কী?</p>
+      <p class="ca">Mold, septate hyphae, <b>V‑shaped (dichotomous)</b> branch।</p>
+      <p class="cq">Transmission কী?</p>
+      <p class="ca"><b>Airborne conidia</b>।</p>
+      <p class="cq">Microscopy ও culture finding?</p>
+      <p class="ca">Microscopy — septate hyphae, regular V‑shaped branch; culture — mold, <b>green conidia radiating chain</b>।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>fungal ball (aspergilloma)</b> হলো lung lesion, যা <i>Aspergillus fumigatus</i> ঘটায়। এটা fungal hyphae, mucus আর cellular debris‑এর mass, যা <b>আগে থেকে থাকা lung cavity</b>‑তে colonize করে (যেমন TB, sarcoidosis, bronchiectasis‑এর cavity)।</p>
+      <p>Key features — (১) chest X‑ray‑এ <b>radiopaque structure</b>; (২) patient erect থেকে <b>supine</b> হলে <b>position বদলায়</b> — এই mobility diagnostic; (৩) সাধারণত non‑invasive, কিন্তু <b>hemoptysis</b> (কাশিতে রক্ত) হতে পারে।</p>
+      <p><i>Aspergillus</i> lung disease‑এর classification — (১) allergic aspergillosis (asthma, ABPA); (২) <b>fungal ball/aspergilloma</b> (cavity‑র colonization); (৩) invasive aspergillosis (immunocompromised‑এ)।</p>
+      <p>Morphology note — mold, septate hyphae, V‑shaped branching; transmission airborne conidia; culture green conidia radiating chain।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">M30</span>
+      <p class="qtext">What do you mean by rose handler diseases? * (Sporothrix schenckii)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Sporothrix schenckii</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Rose handler disease (Rose gardener's disease / Sporotrichosis)</b> is a subcutaneous mycosis caused by <i>Sporothrix schenckii</i>.</p>
+      <ul>
+        <li>When <i>S. schenckii</i> is introduced into the skin (usually by a <b>rose thorn prick</b>), it causes a <b>local painless pustule or ulcer with nodules</b> along the draining lymphatics.</li>
+        <li>It occurs most often in <b>gardeners</b>, especially those who prune roses — hence the name "rose handler disease."</li>
+        <li><i>Sporothrix schenckii</i> is a <b>dimorphic fungus</b> (mold at 25°C, yeast at 37°C).</li></ul><div><img src="image_b561a525.jpg" alt="image_b561a525.jpg" data-porda-id="p_6ee1f6a4-6cce-4213-81fe-f9a64c0168ea" data-porda-status="clean" class="porda-blur-img" data-porda-unblur="1"><br></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq"><i>S. schenckii</i>‑এর classification কী?</p>
+      <p class="ca">Subcutaneous fungus — minor cut, scratch বা thorn‑এর মাধ্যমে <b>skin inoculation</b> হয়ে acquired হয়।</p>
+      <p class="cq">Nodule কোন পথ ধরে spread করে?</p>
+      <p class="ca">Nodule <b>lymphatic drainage</b>‑এর পথ ধরে — charakteristic <b>lymphocutaneous spread</b> pattern।</p>
+      <p class="cq">Diagnosis ও treatment?</p>
+      <p class="ca">Diagnosis — <b>SDA</b>‑তে culture, dimorphism 25°C (mold) vs 37°C (yeast) দিয়ে confirm; treatment — antifungal <b>itraconazole, potassium iodide</b>।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>স্যার, <b>rose handler disease</b> (rose gardener's disease / sporotrichosis) হলো একটি <b>subcutaneous mycosis</b>, যা <i>Sporothrix schenckii</i> ঘটায়।</p>
+      <p>যখন <i>S. schenckii</i> skin‑এ প্রবেশ করে (সাধারণত <b>rose thorn prick</b> দিয়ে), তখন <b>local painless pustule বা ulcer</b> তৈরি হয়, আর draining lymphatic‑এর পথ ধরে <b>nodule</b> থাকে। এটি বেশি হয় <b>gardener</b>‑দের মধ্যে, বিশেষ করে যারা rose prune করে — তাই "rose handler disease" নাম।</p>
+      <p><i>S. schenckii</i> হলো <b>dimorphic fungus</b> — 25°C‑এ mold, 37°C‑এ yeast।</p>
+      <p>Classification — subcutaneous fungus, skin inoculation (cut/scrat/thorn) দিয়ে। Spread pattern — lymphocutaneous। Diagnosis — SDA culture + dimorphism (25 vs 37°C)। Treatment — itraconazole, potassium iodide।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

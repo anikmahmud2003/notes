@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virology — Important Virus Lists (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Virology</h1>
+  <h2>Important Virus Lists</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🔴 Virology</span><span class="badge">7 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">7 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Virology-01-General-Virology-Structure.html">‹ Prev</a><a href="Virology-03-Replication-CPE.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="virology" class="subject s-viro">
+    <div class="sec-head"><div class="num">🧫</div><div><h2>Important Virus Lists</h2><div class="en">RNA &amp; DNA viruses, enveloped &amp; naked viruses, HPV &amp; Parvo B19 diseases</div></div></div>
+    <div id="virology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V16</span>
+      <p class="qtext">What are the lesions produced by HPV? *** (genital wart and Cervical cancer: you should know the strain)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Skin warts (HPV-1,2,3,4), genital warts (HPV-6,11), cervical cancer (HPV-16,18)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Skin warts</b> — HPV types <b>1, 2, 3, 4</b></li>
+        <li><b>Genital warts / Condylomata acuminata</b> — HPV types <b>6 and 11</b></li>
+        <li><b>Cervical carcinoma</b> and cancers of penis/anus — HPV types <b>16 and 18</b></li>
+      </ul>
+      <p>~30 types infect genital tract. Diagnosis: Pap smear (Papanicolaou test).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">HPV-র কোন type কোন disease করে?</p>
+        <p class="ca">Type 1,2,3,4 → skin wart। Type 6,11 → genital wart (Condylomata acuminata)। Type 16,18 → cervical cancer।</p>
+        <p class="cq">Genital wart আর cervical cancer-এর মধ্যে HPV type-এর পার্থক্য কী?</p>
+        <p class="ca">Genital wart low-risk type (6,11)। Cervical cancer high-risk type (16,18)।</p>
+        <p class="cq">HeLa cell line কোথা থেকে এসেছে?</p>
+        <p class="ca">Henrietta Lacks নামে এক নারীর cervix-এর cancer cell থেকে।</p>
+        <p class="cq">CIN কী?</p>
+        <p class="ca">Cervical intraepithelial neoplasm — precancerous lesion, Pap smear দিয়ে detect করা যায়।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>HPV type 1,2,3,4 দিয়ে skin wart হয়। Genital wart type 6,11 দিয়ে। Cervical cancer type 16,18 দিয়ে — এটি অবশ্যই জানতে হবে।</p>
+<p>Sexual/direct contact দিয়ে ছড়ায়। Pap smear দিয়ে diagnose করে। HPV vaccine girls-দের দেওয়া হয় cervical cancer থেকে protect করার জন্য।</p>
+<p>HeLa cell line Henrietta Lacks-এর cervical cancer cell থেকে এসেছে। CIN হলো precancerous change যা Pap smear-এ detect হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V17</span>
+      <p class="qtext">Name the diseases produced by Parvo B19 virus. ** (congenital infection, hydrops fetalis, aplastic anaemia, slapped cheek syndrome)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Slapped cheek syndrome (5th disease), hydrops fetalis, severe anemia, congenital infection</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Slapped cheek syndrome</b> (Fifth disease / Erythema infectiosum)</li>
+        <li><b>Hydrops fetalis</b> — fluid accumulation in fetus due to severe anemia</li>
+        <li><b>Severe aplastic anemia</b> — especially in hereditary anemia (sickle cell)</li>
+        <li><b>Congenital infection</b> — transplacental transmission</li></ul><div><img src="image-1.png" alt="image.png" data-porda-id="p_46a0ecd8-4b16-460e-a5ab-2c0f2b017d76" data-porda-status="timeout" class="porda-blur-img" data-porda-unblur="1"><br></div><ul>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Parvovirus B19 কোন disease করে?</p>
+        <p class="ca">Slapped cheek syndrome (5th disease), hydrops fetalis, severe aplastic anemia, congenital infection।</p>
+        <p class="cq">Hydrops fetalis কীভাবে হয়?</p>
+        <p class="ca">Virus erythroblast-এ infection করে → severe anemia → fetal heart high-output failure → fluid accumulation → hydrops fetalis।</p>
+        <p class="cq">Parvovirus B19 কেন sickle cell patient-দের বেশি affect করে?</p>
+        <p class="ca">Sickle cell patient-দের উচ্চ RBC turnover আছে, bone marrow suppression হলে severe aplastic crisis হয়।</p>
+        <p class="cq">Parvovirus B19-র size আর structure কী?</p>
+        <p class="ca">Smallest DNA virus (20 nm), naked, icosahedral, ss linear genome।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Parvovirus B19 slapped cheek syndrome (5th disease) করে — face-এ characteristic rash। Erythroblast-এ infection করে, তাই severe anemia — sickle cell patient-দের বেশি vulnerable।</p>
+<p>Pregnant woman থেকে transplacental fetus-এ গেলে hydrops fetalis হয়। Smallest DNA virus, naked, respiratory দিয়ে ছড়ায়।</p>
+<p>Sickle cell patient-দের high RBC turnover আছে, তাই bone marrow suppression হলে severe aplastic crisis হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V18</span>
+      <p class="qtext">Why there is anaemia or hydrops fetalis in Parvo B19? (Because – it infects erythroblast). **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Infects erythroblasts → destruction of RBC precursors → anemia; in fetus → severe anemia → high-output cardiac failure → hydrops fetalis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li>Parvovirus B19 has tropism for <b>erythroblasts</b> (immature RBC precursors in bone marrow).</li>
+        <li>Virus infects and destroys erythroblasts → decreased RBC production → <b>anemia</b>.</li>
+        <li>In normal individuals: mild, transient anemia (immune system clears virus).</li>
+        <li>In <b>hereditary hemolytic anemias</b> (sickle cell, thalassemia): high RBC turnover + bone marrow suppression → <b>severe aplastic crisis</b>.</li>
+        <li>In the <b>fetus</b>: severe anemia → reduced O₂ carrying capacity → high-output cardiac failure → fluid accumulation → <b>hydrops fetalis</b>.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">Parvovirus B19 কেন anemia করে?</p>
+        <p class="ca">কারণ এটি erythroblasts (immature RBC precursors)-কে infect ও destroy করে → RBC production কমে → anemia।</p>
+        <p class="cq">Normal individual-এ Parvovirus B19 infection কেমন হয়?</p>
+        <p class="ca">Mild, transient anemia — immune system virus-কে clear করে ফেলে।</p>
+        <p class="cq">Sickle cell patient-এ কেন severe?</p>
+        <p class="ca">High RBC turnover + bone marrow suppression = severe aplastic crisis।</p>
+        <p class="cq">Fetus-এ hydrops fetalis-র mechanism কী?</p>
+        <p class="ca">Severe anemia → O2 carrying capacity কমে → high-output cardiac failure → fluid accumulation → hydrops fetalis (generalized edema, ascites, pleural effusion)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Parvovirus B19 erythroblasts-কে target করে — immature RBC precursor। এই cell মারা গেলে RBC production কমে যায়, anemia হয়।</p>
+<p>Normal man-এ mild, কিন্তু sickle cell patient-দের severe aplastic crisis হয়। Fetus-এ severe anemia হলে heart high-output failure হয়, fluid accumulation হয় — এটাই hydrops fetalis।</p>
+<p>Endothelial cell-ও infect করে, তাই vascular component যোগ হয় hydrops fetalis-তে। Immunocompromised-এ persistent infection হলে chronic pure red cell aplasia হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V19</span>
+      <p class="qtext">Name ten (10) common RNA virus. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Influenza, Measles, Mumps, Rabies, Polio, Rota, Dengue, HAV, Corona, HIV + Parainfluenza, RSV, Rhino, Rubella, Chikungunya, HEV, HCV, HDV, Nipah, Ebola</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div><div class="bcontent b-ans">MMR&nbsp;</div><div class="bcontent b-ans">Dengue , Influenza</div><div class="bcontent b-ans">corona ,HIV</div><div class="bcontent b-ans">Rabies, Rota , Polio</div><div class="bcontent b-ans"><ol><li>Influenza virus</li>
+        <li>Measles virus</li>
+        <li>Mumps virus</li>
+        <li>Rabies virus</li>
+        <li>Polio virus</li>
+        <li>Rotavirus</li>
+        <li>Dengue virus</li>
+        <li>Hepatitis A virus (HAV)</li>
+        <li>Coronavirus</li>
+        <li>HIV</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">১০টি common RNA virus কী কী?</p>
+        <p class="ca">Influenza, Measles, Mumps, Rabies, Polio, Rotavirus, Dengue, HAV, Coronavirus, HIV।</p>
+        <p class="cq">RNA virus-র majority cytoplasm তে replicate করে — তাহলে কোনগুলো nucleus-এ করে?</p>
+        <p class="ca">তিনটি — Orthomyxovirus (Influenza), Retrovirus (HIV), Deltavirus (HDV)।</p>
+        <p class="cq">Rotavirus-র genome কেন special?</p>
+        <p class="ca">Rotavirus dsRNA — সব RNA virus-এর মধ্যে শুধু Rotavirus-এরই dsRNA আছে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>সাধারণ RNA virus — Influenza, Measles, Mumps, Rabies, Polio, Rotavirus, Dengue, HAV, Coronavirus, HIV। আরও আছে Parainfluenza, RSV, Rhinovirus, Rubella, Chikungunya, HEV, HCV, Nipah, Ebola।</p>
+<p>সব RNA virus single-stranded except Rotavirus (dsRNA)। বেশিরভাগ cytoplasm-এ replicate করে।</p>
+<p>Orthomyxovirus, Retrovirus, Deltavirus — এই তিনটি nucleus-এ replicate করে।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V20</span>
+      <p class="qtext">Name five common DNA virus. ****** (HSV-1, HSV-2, VZV, HBV, HPV, CMV, EBV, Adenovirus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Herpes family (HSV-1, HSV-2, VZV, CMV, EBV), HBV, HPV, Adenovirus, Parvovirus B19</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ol>
+        <li><b>HSV-1 and HSV-2</b> (Herpes Simplex Virus)</li>
+        <li><b>VZV</b> (Varicella-Zoster Virus)</li>
+        <li><b>CMV</b> (Cytomegalovirus)</li>
+        <li><b>HBV</b> (Hepatitis B Virus)</li>
+        <li><b>HPV</b> (Human Papillomavirus)</li>
+      </ol>
+      <p>Others: EBV, Adenovirus, Parvovirus B19, Poxvirus.</p><p>All dsDNA except Parvovirus B19 which is ssDNA</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">৫টি common DNA virus কী কী?</p>
+        <p class="ca">HSV-1, HSV-2, VZV, CMV, HBV। আরও: HPV, EBV, Adenovirus, Parvovirus B19।</p>
+        <p class="cq">DNA virus-র majority nucleus-এ replicate করে — exception কোনটি?</p>
+        <p class="ca">Poxvirus — cytoplasm-এ replicate করে, নিজের RNA polymerase আছে।</p>
+        <p class="cq">Hepatitis virus-দের মধ্যে কোনটি DNA virus?</p>
+        <p class="ca">শুধু HBV (Hepadnavirus)। বাকি HAV, HCV, HDV, HEV — সব RNA virus।</p>
+        <p class="cq">Herpes family-র DNA virus গুলো কোন কোনটি?</p>
+        <p class="ca">HSV-1, HSV-2, VZV, CMV, EBV, HHV-8 — সব dsDNA, icosahedral, enveloped (nuclear membrane থেকে)।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>সাধারণ DNA virus — HSV-1, HSV-2, VZV, CMV, EBV, HBV, HPV, Adenovirus, Parvovirus B19।</p>
+<p>সব dsDNA except Parvovirus (ssDNA)। সব icosahedral except Poxvirus (complex)। সব nucleus-এ replicate except Poxvirus (cytoplasm)।</p>
+<p>Hepatitis-র মধ্যে শুধু HBV DNA virus। Herpes family-র virus-গুলো envelope nuclear membrane থেকে নেয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V21</span>
+      <p class="qtext">Name eight (08) enveloped virus. ******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Influenza, Measles, Mumps, Rabies, HIV, HBV, HCV, HSV-1, HSV-2, VZV, CMV, Corona, Ebola</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ol>
+        <li>Influenza virus</li>
+        <li>Measles virus</li>
+        <li>Mumps virus</li>
+        <li>Rabies virus</li>
+        <li>HIV</li>
+        <li>HBV (Hepatitis B virus)</li>
+        <li>HSV-1 (Herpes Simplex Virus type 1)</li>
+        <li>Coronavirus</li>
+      </ol>
+      <p>Others: HSV-2, VZV, CMV, EBV, HCV, HDV, Dengue, Ebola, Parainfluenza, RSV, Rubella, Chikungunya.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">৮টি enveloped virus কী কী?</p>
+        <p class="ca">Influenza, Measles, Mumps, Rabies, HIV, HBV, HSV-1, Coronavirus। আরও: HSV-2, VZV, CMV, HCV, Dengue, Ebola।</p>
+        <p class="cq">Enveloped virus-র characteristic কী?</p>
+        <p class="ca">Environment-এ unstable — heat, drying, detergent, lipid solvent sensitive।</p>
+        <p class="cq">Naked helical virus আছে কি?</p>
+        <p class="ca">নেই। সব helical nucleocapsid virus-এ envelope আছে।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Enveloped virus — Influenza, Measles, Mumps, Rabies, HIV, HBV, HSV-1, Coronavirus। আরও HSV-2, VZV, CMV, HCV, Dengue, Ebola।</p>
+<p>সব helical nucleocapsid virus enveloped। Envelope host cell membrane-এর budding দিয়ে তৈরি হয়।</p>
+<p>Enveloped virus environment-এ unstable — lipid dissolve হয়ে গেলে virus inactivated হয়।</p>
+    </div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">V22</span>
+      <p class="qtext">Name five (05) non-enveloped/naked virus. ****** (Rota, Polio, HAV, HEV must, then other picorna virus)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Rotavirus, Poliovirus, HAV, HEV (must). Also: Parvovirus B19, Adenovirus, HPV, Rhinovirus, Norovirus</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ol>
+        <li><b>Rotavirus</b> (dsRNA, icosahedral)</li>
+        <li><b>Poliovirus</b> (ssRNA+, icosahedral, Picornavirus)</li>
+        <li><b>HAV</b> (ssRNA+, icosahedral, Picornavirus)</li>
+        <li><b>HEV</b> (ssRNA+, icosahedral, Hepevirus)</li>
+        <li><b>Adenovirus</b> (dsDNA, icosahedral)</li>
+      </ol>
+      <p>Others: Parvovirus B19, HPV, JC virus, BK virus, Rhinovirus, Norovirus.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+              <p class="cq">৫টি naked virus কী কী?</p>
+        <p class="ca">Rotavirus, Poliovirus, HAV, HEV, Adenovirus। আরও: Parvovirus B19, HPV, Rhinovirus, Norovirus।</p>
+        <p class="cq">Feco-oral route-এ কেন naked virus বেশি থাকে?</p>
+        <p class="ca">Naked virus acid/heat stable, environment-এ survive করতে পারে।</p>
+        <p class="cq">DNA virus-দের মধ্যে কোনগুলো naked?</p>
+        <p class="ca">Pox ও HBV ছাড়া সব DNA virus naked — Parvovirus, Papillomavirus, Polyomavirus, Adenovirus।</p>
+      
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font">
+      <p>Naked virus — Rota, Polio, HAV, HEV অবশ্যই জানতে হবে। আরও Adenovirus, Parvovirus B19, HPV, Rhinovirus, Norovirus।</p>
+<p>Feco-oral route-এ বেশিরভাগ naked virus ছড়ায় — তারা environment-এ survive করতে পারে। DNA virus-র Pox আর HBV ছাড়া সব naked।</p>
+<p>Naked virus gastric acid আর bile-এর resistant, তাই GI tract-এর through travel করতে পারে।</p>
+    </div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

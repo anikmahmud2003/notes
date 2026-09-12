@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Protozoa — General (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Protozoa — General</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">12 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">12 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-02-General-Transmission-Clinical.html">‹ Prev</a><a href="Parasitology-04-Amoebiasis.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Protozoa — General</h2><div class="en">Definition, criteria, classification by locomotion &amp; habitat, encystation/excystation</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P29</span>
+      <p class="qtext">Define protozoa. Mention important criteria of protozoa. *****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> unicellular eukaryotic, morphologically &amp; functionally complete single cell unit</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Protozoa</b> (Greek: protos = first, zoon = animal): <b>unicellular eukaryotic</b> organisms, <b>morphologically and functionally complete</b>, which act as a single "cell-like unit". A single cell of protozoa performs all life functions.</p>
+      <p><b>Important criteria of protozoa:</b></p>
+      <ul>
+        <li>Unicellular eukaryote (kingdom <b>Protista</b>)</li>
+        <li>Single cell performs <b>all functions</b> — reproduction, digestion, respiration, excretion, etc.</li>
+        <li>Two morphological forms: <b>trophozoite</b> (motile, feeding, pathogenic) and <b>cyst</b> (non-motile, resistant, infective)</li>
+        <li>Movement by pseudopodia / flagella / cilia / gliding</li>
+        <li>Can reproduce <b>both sexually and asexually</b></li>
+      </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Protozoa-র asexual reproduction কীভাবে হয়?</p>
+      <p class="ca">Asexual reproduction — binary fission (flagellates-এ longitudinal, ciliates-এ transverse), schizogony (Plasmodium → many merozoites), endodyogeny (Toxoplasma)।</p>
+      <p class="cq">Protozoa-র sexual reproduction কীভাবে হয়?</p>
+      <p class="ca">Sexual reproduction — conjugation (Balantidium coli), gametogony/syngamy (Plasmodium sporogony)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Protozoa — Greek "protos" (first) আর "zoon" (animal)। এটা <b>unicellular eukaryotic</b> organism — মানে একটাই cell দিয়ে গঠিত, আর সেটা <b>morphologically এবং functionally complete</b> — একটা protozoan cell-ই whole organism।</p>
+<p>Important criteria —</p>
+<ul>
+<li>Unicellular eukaryote, kingdom Protista</li>
+<li>একটাই cell সব functions করে — reproduction, digestion, respiration, excretion</li>
+<li>দুই morphological form — trophozoite (motile, feeding, pathogenic) আর cyst (non-motile, resistant, infective)</li>
+<li>Movement — pseudopodia / flagella / cilia / gliding</li>
+<li>Sexual এবং asexual — দুইভাবেই reproduce করে</li>
+</ul>
+<p>Asexual — binary fission, schizogony (Plasmodium many merozoites), endodyogeny (Toxoplasma)। Sexual — conjugation (Balantidium coli), gametogony (Plasmodium sporogony)।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P30</span>
+      <p class="qtext">"Protozoa act as a single cell like unit"- explain. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> single cell performs all functions — reproduction, digestion, respiration, excretion</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Protozoa is morphologically and functionally complete:</b> a single cell of protozoa is <b>not just a part of an organism — it is the whole organism</b>. Unlike metazoa where different cells perform different functions, in protozoa:</p>
+      <ul>
+        <li><b>Digestion</b> — food vacuoles within the same cell</li>
+        <li><b>Respiration</b> — gaseous exchange across the same cell membrane</li>
+        <li><b>Excretion</b> — contractile vacuoles remove waste from the same cell</li>
+        <li><b>Reproduction</b> — the cell divides and reproduces itself</li>
+        <li><b>Movement &amp; sensation</b> — pseudopodia/flagella/cilia of the same cell</li>
+      </ul>
+      <p>So the single protozoan cell is "morphologically and functionally complete" — it acts as a single cell-like unit.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Metazoa-র সাথে এই ধারণার পার্থক্য কী?</p>
+      <p class="ca">Metazoa (helminths)-এ আলাদা cells আলাদা functions করে; protozoa-তে একটাই cell সব করে। Metazoa-র সাথে comparison viva-র favorite twist।</p>
+      <p class="cq">Protozoa-র functional two forms কী?</p>
+      <p class="ca">Trophozoite (vegetative, motile) "living" করে; cyst হলো resistant resting form।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Explain করার সময় বলবে — "দেখো, আমাদের মতো multi-cellular animal-এ digestion আলাদা organ, respiration আলাদা organ করে। কিন্তু protozoa-তে একটাই মাত্র cell-ই সব কাজ করে।"</p>
+<ul>
+<li><b>Digestion</b> — সেই cell-এর ভিতরের food vacuoles</li>
+<li><b>Respiration</b> — একই cell membrane দিয়ে gaseous exchange</li>
+<li><b>Excretion</b> — contractile vacuoles সেই cell থেকে waste বের করে</li>
+<li><b>Reproduction</b> — cell divide হয়ে নিজে reproduce করে</li>
+<li><b>Movement &amp; sensation</b> — সেই cell-এর pseudopodia/flagella/cilia</li>
+</ul>
+<p>তাই একটাই cell হয় "morphologically এবং functionally complete" — whole organism নিজেই। এই কারণেই বলা হয় "a single cell like unit"।</p>
+<p>Metazoa-র সাথে পার্থক্য — সেখানে আলাদা cells আলাদা functions। Functional forms — trophozoite (living, motile) আর cyst (resistant resting form)।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P31</span>
+      <p class="qtext">Classify protozoa according to organ of locomotion with examples. *******</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> pseudopods, flagella and cilia</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Group / Class</th><th>Organ of locomotion</th><th>Examples</th></tr>
+        <tr><td><b>Rhizopoda</b> (Sarcodina)</td><td><b>Pseudopodia</b> (less movement)</td><td>Entamoeba histolytica, free-living amoeba (Acanthamoeba, Naegleria)</td></tr>
+        <tr><td><b>Mastigophora</b> (Zoomastigophora)</td><td><b>Flagella</b> (more movement)</td><td>Giardia lamblia/intestinalis, Leishmania donovani, Trichomonas vaginalis, Trypanosoma</td></tr>
+        <tr><td><b>Ciliata</b></td><td><b>Cilia</b> (highest movement)</td><td>Balantidium coli</td></tr>
+        <tr><td><b>Sporozoa</b></td><td><b>No organ of locomotion</b> (moves by gliding motility)</td><td>Plasmodium spp., Toxoplasma gondii, Cryptosporidium hominis<br>PTC</td></tr>
+      </tbody></table></div>
+      <p>Speed of movement: <b>Cilia &gt; Flagella &gt; Pseudopodia</b>.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কোন sporozoa-র gliding motility সবচেয়ে বেশি?</p>
+      <p class="ca">Toxoplasma gondii-র গ্লাইডিং highest (Plasmodium-এর চেয়ে বেশি)।</p>
+      <p class="cq">মানুষে pathogenic একমাত্র ciliated protozoan কোনটি?</p>
+      <p class="ca">Balantidium coli — একমাত্র ciliated protozoan যা man-এ pathogenic।</p>
+      <p class="cq">Trypanosoma-র শ্রেণীবিভাগ কি?</p>
+      <p class="ca">T. cruzi (America), T. brucei (Africa)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Protozoa-কে locomotion-এর ভিত্তিতে ৪টা ভাগ —</p>
+<ul>
+<li><b>Rhizopoda (Sarcodina)</b> — pseudopodia (কম গতি) — E. histolytica, free-living amoeba (Acanthamoeba, Naegleria)</li>
+<li><b>Mastigophora (Zoomastigophora)</b> — flagella (বেশি গতি) — Giardia, Leishmania, Trichomonas, Trypanosoma</li>
+<li><b>Ciliata</b> — cilia (সবচেয়ে বেশি গতি) — Balantidium coli (একমাত্র pathogenic ciliate)</li>
+<li><b>Sporozoa</b> — কোনো organ of locomotion নেই, gliding motility দিয়ে চলে — Plasmodium, Toxoplasma, Cryptosporidium</li>
+</ul>
+<p>Movement-এর speed: <b>Cilia &gt; Flagella &gt; Pseudopodia</b>। Toxoplasma-র gliding motility highest (Plasmodium-এর চেয়ে বেশি)। Trypanosoma — T. cruzi (America), T. brucei (Africa)।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P32</span>
+      <p class="qtext">Mention the protozoa which has no organ of locomotion. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Sporozoa</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Sporozoa</b> (Sporozoans) — the group of protozoa that has <b>no organ of locomotion</b> (no pseudopodia, flagella or cilia).</p>
+      <p>Examples: <b>Plasmodium</b>, <b>Toxoplasma gondii</b>, <b>Cryptosporidium hominis</b>, Isospora belli, Cyclospora cayetanensis, Sarcocystis, Babesia.</p>
+      <p>Despite having no locomotory organ, they <b>can move</b> — by <b>gliding motility</b> (highest gliding in Toxoplasma gondii, then Plasmodium).</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Sporozoa-র reproduction কেমন?</p>
+      <p class="ca">Sporozoa obligate intracellular parasites; sexual (sporogony) এবং asexual (schizogony) — দুই cycle-ই করে।</p>
+      <p class="cq">Apicomplexa-এর subcutaneous classification কি?</p>
+      <p class="ca">Class Sporozoa — subclasses Hemosporina (Plasmodium), Piroplasmia (Babesia), Coccidia (Toxoplasma, Cryptosporidium, Isospora, Cyclospora, Sarcocystis)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>যারা protozoa-র মধ্যে চলাচলের কোনো organ নেই, তাদের নাম <b>Sporozoa</b>। Pseudopodia নেই, flagella নেই, cilia নেই।</p>
+<p>Example — Plasmodium, Toxoplasma gondii, Cryptosporidium hominis, Isospora belli, Cyclospora cayetanensis, Sarcocystis, Babesia।</p>
+<p>কিন্তু attention — "they can't move" বলা ভুল! তারা gliding motility দিয়ে নড়তে পারে। সবচেয়ে highest gliding Toxoplasma gondii-তে, তারপর Plasmodium।</p>
+<p>Sporozoa obligate intracellular parasites — sexual (sporogony) আর asexual (schizogony) দুই cycle-ই করে। Classification — phylum Apicomplexa, class Sporozoa; subclass Hemosporina (Plasmodium), Piroplasmia (Babesia), Coccidia (Toxoplasma, Cryptosporidium ইত্যাদি)।</p>
+<p>Viva trap হতে পারে — "Sporozoa কি move করতে পারে?" → "Yes, by gliding motility।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P33</span>
+      <p class="qtext">Can sporozoa move? (Yes. They have no organ of locomotion but can move. Their movement is called "gliding". Highest gliding motility: Toxoplasma gondii &gt; Plasmodium &gt; other sporozoa.)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> they have no organ of locomotion but can move by gliding motility; Toxoplasma gondii highest</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Yes, sporozoa can move.</b> Although they have <b>no organ of locomotion</b> (no pseudopodia, flagella or cilia), they move by <b>gliding motility</b> — a smooth, gliding movement over the substrate (using actin-myosin motor of the apical complex).</p>
+      <p>Order of gliding motility: <b>Toxoplasma gondii &gt; Plasmodium spp. &gt; other sporozoa</b>.</p>
+      <p>The tachyzoite stage of Toxoplasma shows the highest gliding motility among the sporozoa.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">"Protozoa-র movement speed-এর order কী?</p>
+      <p class="ca">Movement speed order — Cilia &gt; Flagella &gt; Pseudopodia &gt; Gliding।</p>
+      <p class="cq">Sporozoa কোন phylum-এ পড়ে?</p>
+      <p class="ca">Sporozoa phylum Apicomplexa-তে (apical complex host-cell invasion-এ সাহায্য করে)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Sporozoa কি নড়তে পারে? — "Yes, they can move, but not with pseudopodia/flagella/cilia। They move by <b>gliding motility</b>।"</p>
+<p>Gliding মানে surface-এর উপর smoothভাবে নড়ে — apical complex-এর actin-myosin motor দিয়ে। কোন organ of locomotion নেই, কিন্তু movement করতে পারে।</p>
+<p>Order মনে রাখো — <b>Toxoplasma gondii &gt; Plasmodium spp. &gt; other sporozoa</b>। Toxoplasma-র tachyzoite stage সবচেয়ে highest gliding।</p>
+<p>Movement speed order — Cilia &gt; Flagella &gt; Pseudopodia &gt; Gliding। Sporozoa phylum Apicomplexa-তে (apical complex host-cell invasion-এ সাহায্য করে)।</p>
+<p>Viva-তে বলবে — "they are not unable to move; they just don't have a visible locomotory organ।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P34</span>
+      <p class="qtext">Mention three (03) name of sporozoa. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Plasmodium, Toxoplasma, Cryptosporidium</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Plasmodium spp.</b> (P. vivax, P. falciparum, P. malariae, P. ovale, P. knowlesi)</li>
+      <li><b>Toxoplasma gondii</b></li>
+      <li><b>Cryptosporidium hominis</b> (formerly C. parvum)</li>
+    </ul>
+      <p>Other sporozoa: Isospora belli, Cyclospora cayetanensis, Sarcocystis, Babesia microti.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Sporozoa-র সাধারণ বৈশিষ্ট্য কি?</p>
+      <p class="ca">সব sporozoa life-এর কোনো না কোনো stage-এ obligate intracellular parasites।</p>
+      <p class="cq">"Sporozoa" নাম কেন?</p>
+      <p class="ca">Spore (oocyst) formation এদের common feature — তাই নাম sporozoa।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Sporozoa-র ৩টা বড় নাম —</p>
+<ul>
+<li><b>Plasmodium spp.</b> — P. vivax, P. falciparum, P. malariae, P. ovale, P. knowlesi (malaria দেয়)</li>
+<li><b>Toxoplasma gondii</b> — cat থেকে আসে, congenital infection</li>
+<li><b>Cryptosporidium hominis</b> — (আগে C. parvum) diarrhoea, বিশেষত AIDS patient-এ</li>
+</ul>
+<p>অন্যান্য sporozoa — Isospora belli, Cyclospora cayetanensis, Sarcocystis, Babesia microti।</p>
+<p>সব sporozoa life-এর কোনো না কোনো stage-এ obligate intracellular parasite। Spore (oocyst) formation common feature — তাই নাম sporozoa।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P35</span>
+      <p class="qtext">Enlist the flagellates. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Tissue: Leishmania and Trypanosoma; luminal: T. vaginalis, G. lamblia</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Group</th><th>Site</th><th>Organisms</th></tr>
+        <tr><td><b>1. Hemo-flagellates / Tissue flagellates</b></td><td>Found in blood or tissue</td><td><b>Leishmania</b> (L. donovani, L. tropica, L. braziliensis etc.), <b>Trypanosoma</b> (T. cruzi and T. brucei)</td></tr>
+        <tr><td><b>2. Luminal flagellates</b> (intestinal, oral, genital)</td><td>Found in alimentary canal or genital tract</td><td><b>Giardia lamblia</b> (small intestine), <b>Trichomonas vaginalis</b> (vagina &amp; urethra), Trichomonas hominis (ileocaecal), Trichomonas tenax (mouth), Chilomastix mesnili (caecum), Enteromonas hominis, Retortamonas intestinalis (large intestine)</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Hemo-flagellates-এর morphological forms কি কি?</p>
+      <p class="ca">৪টা form — amastigote (no flagella), promastigote (flagella), epimastigote, trypomastigote।</p>
+      <p class="cq">সব flagellates কোন subphylum-এ পড়ে?</p>
+      <p class="ca">সব flagellates Subphylum Mastigophora / Class Zoomastigophora-র অন্তর্গত।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Flagellate মানে যাদের flagella আছে। দুটো ভাগে ভাগ করা যায় —</p>
+<ul>
+<li><b>Hemo-flagellates / Tissue flagellates</b> — blood বা tissue-এ থাকে। যেমন <b>Leishmania</b> (L. donovani, L. tropica, L. braziliensis), আর <b>Trypanosoma</b> (T. cruzi, T. brucei)।</li>
+<li><b>Luminal flagellates</b> — alimentary canal বা genital tract-এ থাকে। যেমন <b>Giardia lamblia</b> (small intestine), <b>Trichomonas vaginalis</b> (vagina, urethra), Trichomonas hominis (ileocaecal), Trichomonas tenax (mouth)।</li>
+</ul>
+<p>Hemo-flagellates-এর ৪টা morphological form — amastigote (no flagella), promastigote (flagella), epimastigote, trypomastigote।</p>
+<p>সব flagellates Subphylum Mastigophora / Class Zoomastigophora-র অন্তর্গত। Viva-তে বলবে — "tissue: Leishmania + Trypanosoma; luminal: Giardia + Trichomonas।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P36</span>
+      <p class="qtext">Classify protozoa according to habitat. ***</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> intestinal, blood/tissue, genital, intracellular location (table from notes)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Protozoa</th><th>Habitat</th><th>Disease</th></tr>
+        <tr><td>Entamoeba histolytica</td><td>Large intestine (mucosa &amp; submucosa)</td><td>Amoebiasis</td></tr>
+        <tr><td>Giardia lamblia</td><td>Small intestine (duodenum)</td><td>Diarrhoea, steatorrhoea</td></tr>
+        <tr><td>Trichomonas vaginalis</td><td>Vagina, urethra</td><td>Vaginitis, urethritis</td></tr>
+        <tr><td>Leishmania donovani</td><td>Monocyte / macrophage (RES)</td><td>Kala-azar, PKDL</td></tr>
+        <tr><td>Plasmodium species</td><td>RBC (+ hepatocytes)</td><td>Malaria</td></tr>
+        <tr><td>Babesia microti</td><td>RBC</td><td>Babesiosis</td></tr>
+        <tr><td>Trypanosoma brucei</td><td>Blood, CNS, lymph nodes</td><td>Sleeping sickness</td></tr>
+        <tr><td>Trypanosoma cruzi</td><td>Blood &amp; tissue (muscle, heart)</td><td>Chagas' disease</td></tr>
+        <tr><td>Cryptosporidium hominis</td><td>Small intestine (brush border)</td><td>Diarrhoea in AIDS</td></tr>
+        <tr><td>Isospora belli</td><td>Intestine</td><td>Diarrhoea in AIDS</td></tr>
+        <tr><td>Balantidium coli</td><td>Large intestine</td><td>Dysentery</td></tr>
+        <tr><td>Naegleria fowleri</td><td>CNS</td><td>Amoebic meningoencephalitis</td></tr>
+        <tr><td>Acanthamoeba</td><td>CNS, eye</td><td>Encephalitis, keratitis</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Free-living amoeba-র habitat কি?</p>
+      <p class="ca">Free-living amoeba (Naegleria fowleri, Acanthamoeba, Balamuthia, Sappinia) soil এবং water-এ থাকে।</p>
+      <p class="cq">Toxoplasma gondii-র habitat কি?</p>
+      <p class="ca">Toxoplasma gondii endothelial cells, tissue cells, body fluids-এ থাকে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Habitat দিয়ে classify করলে —</p>
+<ul>
+<li><b>Entamoeba histolytica</b> — large intestine (mucosa &amp; submucosa) — amoebiasis</li>
+<li><b>Giardia lamblia</b> — small intestine (duodenum) — diarrhoea, steatorrhoea</li>
+<li><b>Trichomonas vaginalis</b> — vagina, urethra — vaginitis, urethritis</li>
+<li><b>Leishmania donovani</b> — monocyte/macrophage (RES) — kala-azar, PKDL</li>
+<li><b>Plasmodium</b> — RBC (+hepatocytes) — malaria</li>
+<li><b>Trypanosoma brucei</b> — blood, CNS, lymph nodes — sleeping sickness</li>
+<li><b>Trypanosoma cruzi</b> — blood &amp; tissue (muscle, heart) — Chagas' disease</li>
+<li><b>Cryptosporidium hominis</b> — small intestine (brush border) — diarrhoea in AIDS</li>
+<li><b>Balantidium coli</b> — large intestine — dysentery</li>
+<li><b>Naegleria fowleri</b> — CNS — amoebic meningoencephalitis</li>
+<li><b>Acanthamoeba</b> — CNS, eye — encephalitis, keratitis</li>
+</ul>
+<p>Free-living amoeba soil-water-এ থাকে; Toxoplasma endothelial/tissue cells ও body fluids-এ। প্রত্যেকটা parasite-র site আর disease একসাথে মনে রাখলেই viva easy।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P37</span>
+      <p class="qtext">Name five (05) protozoa with their host, mode of transmission, infective form and diseases. ********</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> host + mode of transmission + infective form + disease table (from notes)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><div class="tblwrap"><table>
+        <tbody><tr><th>Protozoa</th><th>Transmission</th><th>Infective form</th><th>Host</th><th>Disease</th></tr>
+        <tr><td><b>Entamoeba histolytica</b></td><td>Contaminated food &amp; water, housefly (mechanical)</td><td>Mature quadrinucleated cyst</td><td>Man (definitive)</td><td>Amoebiasis (intestinal &amp; extra-intestinal)</td></tr>
+        <tr><td><b>Giardia lamblia / intestinalis</b></td><td>Contaminated food &amp; water, housefly</td><td>Mature (quadrinucleated) cyst</td><td>Man (definitive)</td><td>Giardiasis (steatorrhoea — fatty stool)</td></tr>
+        <tr><td><b>Plasmodium spp.</b></td><td>Female Anopheles mosquito bite</td><td>Sporozoite</td><td>Definitive: mosquito; Intermediate: man</td><td>Malaria</td></tr>
+        <tr><td><b>Leishmania donovani</b></td><td>Sandfly bite</td><td>Promastigote</td><td>Definitive: man; Intermediate: sandfly</td><td>Leishmaniasis / Kala-azar</td></tr>
+        <tr><td><b>Trichomonas vaginalis</b></td><td>Sexual route</td><td>Trophozoite (only form)</td><td>Man (definitive)</td><td>Trichomoniasis / vaginitis</td></tr>
+        <tr><td><b>Toxoplasma gondii</b></td><td>Cat feces, congenital, undercooked meat</td><td>Oocyst, bradyzoites, tachyzoites</td><td>Definitive: cats; Intermediate: man</td><td>Toxoplasmosis</td></tr>
+        <tr><td><b>Cryptosporidium hominis</b></td><td>Contaminated food &amp; water (feco-oral)</td><td>Oocyst</td><td>Man (definitive)</td><td>Cryptosporidiosis / diarrhoea in HIV pt.</td></tr>
+      </tbody></table></div></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">প্রতিটি parasite-র infective form কি?</p>
+      <p class="ca">Cyst (amoeba/Giardia), sporozoite (Plasmodium), promastigote (Leishmania), trophozoite (Trichomonas), oocyst (Toxoplasma/Crypto)।</p>
+      <p class="cq">Leishmania-র কোন form sandfly দিয়ে inject হয়?</p>
+      <p class="ca">Promastigote হলো infective form যা sandfly inject করে; amastigote হলো tissue/microscopy form।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>এটা খুব important — host, transmission, infective form, disease — ৪টা। Table অনুযায়ী মনে রাখো —</p>
+<ul>
+<li><b>E. histolytica</b> — transmission: contaminated food-water, housefly; infective form: mature quadrinucleated cyst; host: man (definitive); disease: amoebiasis।</li>
+<li><b>Giardia lamblia</b> — cyst (quadrinucleated); man; giardiasis (steatorrhoea)।</li>
+<li><b>Plasmodium</b> — female Anopheles bite; infective form: sporozoite; definitive: mosquito, intermediate: man; malaria।</li>
+<li><b>Leishmania donovani</b> — sandfly bite; infective form: promastigote; definitive: man, intermediate: sandfly; kala-azar।</li>
+<li><b>Trichomonas vaginalis</b> — sexual route; trophozoite (only form); man; trichomoniasis।</li>
+<li><b>Toxoplasma gondii</b> — cat feces, congenital, undercooked meat; oocyst/bradyzoite/tachyzoite; definitive: cats, intermediate: man; toxoplasmosis।</li>
+<li><b>Cryptosporidium hominis</b> — feco-oral; oocyst; man; cryptosporidiosis।</li>
+</ul>
+<p>Infective forms আলাদা করে মনে রাখো — cyst, sporozoite, promastigote, trophozoite, oocyst। Leishmania-র promastigote sandfly inject করে, amastigote tissue/microscopy form।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P38</span>
+      <p class="qtext">Name three protozoa causing diarrhoea. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> E. histolytica and G. intestinalis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Entamoeba histolytica</b> — amoebic dysentery (bloody, mucoid diarrhoea)</li>
+      <li><b>Giardia intestinalis (lamblia)</b> — acute watery diarrhoea → chronic steatorrhoea</li>
+      <li><b>Cryptosporidium hominis</b> — profuse watery diarrhoea (severe in immunocompromised / AIDS)</li>
+      <li>(Also: Isospora belli and Cyclospora cayetanensis cause diarrhoea in AIDS.)</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">E. histolytica কীভাবে intestine আক্রমণ করে?</p>
+      <p class="ca">E. histolytica large intestinal wall-এ invade করে — stool-এ trophozoites ingested RBCs সহ দেখা যায়।</p>
+      <p class="cq">Giardia-র malabsorption কী কী?</p>
+      <p class="ca">Giardia malabsorption করে (fat, carbohydrate, protein) → steatorrhoea, protein-losing enteropathy, lactose intolerance।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Diarrhoea দেয় এমন protozoa ৩টা —</p>
+<ul>
+<li><b>Entamoeba histolytica</b> — amoebic dysentery, bloody-mucoid diarrhoea। Large intestine-এ invade করে; stool-এ ingested RBC সহ trophozoites।</li>
+<li><b>Giardia intestinalis (lamblia)</b> — acute watery diarrhoea, পরে chronic steatorrhoea (fatty stool)। Fat, carbohydrate, protein-এর malabsorption হয় — steatorrhoea, protein-losing enteropathy, lactose intolerance।</li>
+<li><b>Cryptosporidium hominis</b> — profuse watery diarrhoea, immunocompromised/AIDS-এ severe।</li>
+</ul>
+<p>এছাড়া Isospora belli আর Cyclospora cayetanensis AIDS-এ diarrhoea দেয়। Balantidium coli-ও dysentery দেয়। Viva-তে ৩টা নাম বল আর প্রত্যেকটার stool character mention করো।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P39</span>
+      <p class="qtext">Enlist 02 protozoa located intracellularly. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> Leishmania: in monocyte or macrophage; Plasmodium: in RBC</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><ul>
+      <li><b>Leishmania donovani</b> — resides inside <b>monocytes / macrophages</b> (amastigote form / LD bodies)</li>
+      <li><b>Plasmodium spp.</b> — resides inside <b>RBCs</b> (and hepatocytes in liver stage)</li>
+      <li>(Also: <b>Babesia microti</b> inside RBC; <b>Toxoplasma gondii</b> inside tissue cells like endothelial cells, macrophages.)</li>
+    </ul></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Parasite-র intracellular location-এর সুবিধা কি?</p>
+      <p class="ca">Intracellular location parasite-কে host immune system থেকে রক্ষা করে।</p>
+      <p class="cq">Leishmania কীভাবে macrophage-এ multiply করে?</p>
+      <p class="ca">Leishmania macrophage-এর ভিতর multiply করে cell 50–200 parasites-এ ভরে rupture হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Intracellular protozoa মানে যারা cell-এর ভিতরে থাকে —</p>
+<ul>
+<li><b>Leishmania donovani</b> — monocyte/macrophage-এর ভিতরে amastigote (LD body) হিসেবে। Cell-এ 50–200 parasite ভরে গেলে cell ruptures।</li>
+<li><b>Plasmodium</b> — RBC-এর ভিতরে (ring, trophozoite, schizont) আর liver stage-এ hepatocytes-এ।</li>
+</ul>
+<p>এছাড়া <b>Babesia microti</b> RBC-তে, <b>Toxoplasma gondii</b> endothelial cells/macrophages-এর মতো tissue cells-এ থাকে।</p>
+<p>Intracellular location-এর সুবিধা — host immune system থেকে সুরক্ষা। Viva-তে বলবে — "Leishmania in monocyte/macrophage, Plasmodium in RBC।"</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P40</span>
+      <p class="qtext">What do you mean by encystation and excystation? ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> encystation: trophozoite to cyst; excystation: cyst to trophozoite</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans"><p><b>Encystation:</b> the process of transformation of <b>trophozoite → cyst</b>. It occurs inside the lumen of the infected individual's intestine. In E. histolytica it occurs in the <b>large intestine</b>.</p>
+      <p><b>Excystation:</b> the process of transformation of <b>cyst → trophozoite</b>, occurring when the cyst enters a new host's alimentary canal. In E. histolytica, excystation occurs in the <b>terminal ileum and caecum</b> — a mature quadrinucleated cyst gives rise to <b>8 amoebulae</b> (by division).</p>
+      <p>Note: encystation and excystation may occur in <b>one and the same host</b>; a new host is needed only for continuation of the species.</p></div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Cyst wall কেন gastric juice-এ survives করে?</p>
+      <p class="ca">Cyst wall gastric juice-এ resistant — তাই stomach দিয়ে passage-এ survive করে।</p>
+      <p class="cq">Giardia-র ক্ষেত্রে infective form আর pathogenicity কিভাবে?</p>
+      <p class="ca">Giardia-র infective form mature cyst; duodenum-এ excystation-এর পর trophozoite হয় আর pathogenicity ঘটে।</p>
+      <p class="cq">Cyst আর trophozoite-র বৈশিষ্ট্য কি?</p>
+      <p class="ca">Cyst = non-motile, infective, resistant; trophozoite = motile, pathogenic, vegetative।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Encystation</b> মানে trophozoite → cyst রূপান্তর — এটা infected ব্যক্তির intestine-এর lumen-এর ভিতর হয় (E. histolytica-তে large intestine-এ)।</p>
+<p><b>Excystation</b> মানে cyst → trophozoite রূপান্তর — যখন cyst নতুন host-এর alimentary canal-এ ঢোকে। E. histolytica-তে excystation হয় terminal ileum এবং caecum-এ; mature quadrinucleated cyst divide হয়ে <b>৮টা amoebulae</b> দেয়।</p>
+<p>Cyst wall gastric juice-এ resistant — তাই stomach দিয়ে survive করে। Cyst = non-motile, infective, resistant; trophozoite = motile, pathogenic, vegetative।</p>
+<p>Giardia-র infective form mature cyst, duodenum-এ excystation-এর পর pathogenicity। Encystation আর excystation একই host-এও হতে পারে; নতুন host শুধু species continuation-এর জন্য দরকার।</p>
+<p>Simple mnemonic — encystation = trophozoite→cyst, excystation = cyst→trophozoite।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>

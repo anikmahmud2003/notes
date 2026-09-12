@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parasitology — Filariasis & Tissue Nematodes (SZMC 2nd Term)</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#fff; --ink:#1d2733; --muted:#5b6b7b;
+    --line:#e3e8ee; --primary:#0f4c5c; --primary-dark:#0a3540;
+    --myco:#2e7d32; --para:#6a1b9a; --viro:#c62828; --mol#:#1565c0;
+    --mol:#1565c0;
+    --accent:#e36414;
+    --ans:#eaf4ea; --ansb:#2e7d32;
+    --add:#e8f0fe; --addb:#1565c0;
+    --bn:#fdf3e7; --bnb:#7a4a00;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Segoe UI",system-ui,"Noto Sans Bengali","Hind Siliguri",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 14px}
+
+  /* ---------- Cover ---------- */
+  .cover{background:linear-gradient(135deg,#0f4c5c,#08343f 60%,#a34100);color:#fff;padding:58px 20px 46px;text-align:center}
+  .cover .kicker{letter-spacing:3px;font-size:13px;opacity:.85;text-transform:uppercase}
+  .cover h1{font-size:34px;margin:14px 0 6px;line-height:1.3}
+  .cover h2{font-size:18px;font-weight:400;margin:0 0 18px;opacity:.92}
+  .cover .rule{width:84px;height:4px;background:var(--accent);margin:20px auto;border-radius:2px}
+  .cover .meta{font-size:14px;opacity:.8}
+  .badges{margin-top:18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:99px;font-size:13px;margin:3px}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{position:sticky;top:0;z-index:50;background:#0a3540;color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .toolbar .inner{display:flex;flex-direction:column;gap:8px;padding:10px 0}
+  .searchrow{display:flex;gap:8px;align-items:center}
+  .searchrow input{flex:1;padding:9px 12px;border:none;border-radius:8px;font-size:15px;outline:none}
+  .navlinks{display:flex;flex-wrap:wrap;gap:8px}
+  .navlinks a{color:#fff;text-decoration:none;font-size:13px;background:rgba(255,255,255,.12);padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.25)}
+  .navlinks a:hover{background:rgba(255,255,255,.25)}
+  .counter{margin-left:auto;font-size:12px;opacity:.75;align-self:center}
+
+  /* ---------- Sections ---------- */
+  section.subject{padding-top:26px;padding-bottom:10px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec-head .num{font-size:30px;font-weight:800;background:var(--c,#555);color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+  .sec-head h2{margin:0;font-size:24px;line-height:1.2}
+  .sec-head .en{font-size:13px;color:var(--muted)}
+  .s-myco{--c:var(--myco)} .s-para{--c:var(--para)} .s-viro{--c:var(--viro)} .s-mol{--c:var(--mol)}
+
+  /* ---------- Q&A Card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:14px 0;box-shadow:0 1px 4px rgba(15,30,50,.06);overflow:hidden}
+  .qbox{padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px dashed var(--line)}
+  .qbox .qrow{display:flex;gap:10px;align-items:flex-start}
+  .qno{font-weight:800;background:var(--tone,#555);color:#fff;border-radius:8px;padding:2px 10px;font-size:14px;white-space:nowrap;flex:0 0 auto;margin-top:2px}
+  .qtext{font-weight:600;font-size:16px;margin:0}
+  .hint{margin:8px 0 0 0;font-size:14px;color:var(--muted);background:#f5f7fa;border-left:4px solid var(--accent);padding:8px 12px;border-radius:6px}
+  .hint b{color:var(--accent)}
+  .chev{margin-left:auto;color:var(--muted);font-size:18px;transition:transform .2s}
+
+  /* ---------- Answer blocks ---------- */
+  .ansbox{padding:4px 16px 14px}
+  .band{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin:14px 0 6px;padding:6px 10px;border-radius:8px}
+  .band .tgl{display:inline-block;transition:transform .2s}
+  .band-ans{background:var(--ans);color:var(--ansb);border-left:5px solid var(--ansb);cursor:pointer}
+  .band-add{background:var(--add);color:var(--addb);border-left:5px solid var(--addb);cursor:pointer}
+  .band-bn{background:var(--bn);color:var(--bnb);border-left:5px solid var(--bnb);cursor:pointer}
+  .bcontent{padding:4px 4px 10px}
+  .bcontent p{margin:8px 0}
+  .bcontent ul,.bcontent ol{margin:6px 0;padding-left:24px}
+  .bcontent li{margin:4px 0}
+  .bn-font{font-style:normal}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14.5px}
+  th{background:var(--primary);color:#fff;padding:7px 9px;text-align:left;border:1px solid var(--primary-dark);font-weight:600}
+  td{padding:6px 9px;border:1px solid var(--line);vertical-align:top;word-break:break-word}
+  tr:nth-child(even) td{background:#f7f9fb}
+  .tblwrap{overflow-x:auto;margin:8px 0}
+  .star{color:var(--accent);font-weight:600}
+
+  /* ---------- Cross questions (b-add) ---------- */
+  .b-add .cq{font-weight:700;color:var(--addb);margin:10px 0 2px;background:#f0f5ff;border-left:4px solid var(--addb);padding:6px 10px;border-radius:6px}
+  .b-add .ca{margin:4px 0 10px;color:#0b2545}
+  .b-add .cq::before{content:"Q: ";font-weight:800}
+  .b-add .ca::before{content:"A: ";font-weight:800;color:var(--addb)}
+  .bn-font{color:#3a2a12}
+  .bn-font b{color:var(--bnb)}
+  .word{display:inline-block;background:#eef1f5;border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:13px;margin:2px}
+
+  .foot{background:var(--primary-dark);color:#eee;text-align:center;font-size:13px;padding:26px 10px;margin-top:40px}
+  @media (max-width:600px){
+    .cover h1{font-size:26px}
+    .qtext{font-size:15px}
+    .sec-head h2{font-size:20px}
+    body{font-size:15px}
+  }
+  @media print{
+    .toolbar{display:none}
+    .card{break-inside:avoid;box-shadow:none}
+    .ansbox,.bcontent{display:block!important}
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="kicker">SZMC · 2nd Term</div>
+  <h1>Parasitology</h1>
+  <h2>Filariasis &amp; Tissue Nematodes</h2>
+  <div class="rule"></div>
+  <div class="meta">Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)</div>
+  <div class="badges"><span class="badge">🟣 Parasitology</span><span class="badge">13 questions</span></div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="searchrow">
+      <input id="search" type="text" placeholder="🔍 Search question, topic, keyword…" oninput="filterAll(this.value)">
+      <span class="counter" id="shownCount">13 questions</span>
+    </div>
+    <div class="navlinks"><a href="index.html">🏠 Index</a><a href="Parasitology-10-Nematodes-Intestinal.html">‹ Prev</a><a href="Virology-01-General-Virology-Structure.html">Next ›</a></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="parasitology" class="subject s-para">
+    <div class="sec-head"><div class="num">🦠</div><div><h2>Filariasis &amp; Tissue Nematodes</h2><div class="en">Occult vs classical filariasis, W. bancrofti, periodicity, provocation test, chyluria, miscellaneous</div></div></div>
+    <div id="parasitology-list" class="qlist">
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P147</span>
+      <p class="qtext">Write down the differences between occult and classical filariasis. ******* (morphological form of parasites, type of granuloma, Rx and CFT test importance)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> morphological form of parasites, type of granuloma, Rx and CFT test importance</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Point</th><th>Classical filariasis</th><th>Occult filariasis</th></tr>
+        <tr><td><b>Cause</b></td><td>Due to <b>adult and developing worms</b> causing lymphatic obstruction</td><td>Due to <b>microfilariae</b> (hypersensitivity reaction to microfilarial antigens)</td></tr>
+        <tr><td><b>Morphological form of parasite</b></td><td>Adult worms in lymphatics</td><td>Microfilariae destroyed in tissues</td></tr>
+        <tr><td><b>Basic lesion</b></td><td>Lymphangitis, lymphadenitis &amp; lymphatic obstruction</td><td><b>Eosinophilic granuloma</b></td></tr>
+        <tr><td><b>Organs involved</b></td><td>Lymphatic vessels &amp; lymph nodes</td><td>Lungs, liver, spleen (eosinophilic granuloma)</td></tr>
+        <tr><td><b>Microfilaria in blood</b></td><td>Present in blood (10 pm to 4 am)</td><td>Absent in blood; present in tissues</td></tr>
+        <tr><td><b>CFT test</b></td><td>Not so sensitive</td><td><b>Highly sensitive</b></td></tr>
+        <tr><td><b>Therapeutic response by DEC</b></td><td>No / little response (acts on microfilariae, little on adult worm)</td><td><b>Prompt response</b> to diethylcarbamazine (DEC)</td></tr>
+        <tr><td><b>Serum IgE</b></td><td>Not so raised</td><td>Markedly raised</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Classical filariasis-এর আরেক নাম কী?</p>
+      <p class="ca">Lymphatic filariasis — প্রাপ্তবয়স্ক কৃমি লিম্ফ্যাটিক বাধা দেয়।</p>
+      <p class="cq">Occult filariasis-কে কোন syndrome বলা হয়?</p>
+      <p class="ca">Meyers-Kouwenaar syndrome — hypersensitivity-এ microfilaria রক্তে ধ্বংস হয়, তাই রক্তে পাওয়া যায় না।</p>
+      <p class="cq">Occult-এ রক্তবা কেমন থাকে?</p>
+      <p class="ca">Marocd eosinophilia (৩০–৮০%), hepatosplenomegaly, tropical pulmonary eosinophilia।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>ভাইভায় টেবিলটার প্রতিটি সারির অর্থ বুঝিয়ে বলো:</p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tbody><tr><th>Point</th><th>Classical filariasis</th><th>Occult filariasis</th></tr>
+<tr><td>কারণ</td><td>প্রাপ্তবয়স্ক ও বিকাশমান কৃমি — lymphatic obstruction</td><td>Microfilariae-অ্যান্টিজেনে hypersensitivity reaction</td></tr>
+<tr><td>পরজীবীর রূপ</td><td>Adult worm in lymphatics</td><td>Tissue-এ microfilariae ধ্বংস হয়</td></tr>
+<tr><td>মৌলিক ক্ষত</td><td>Lymphangitis, lymphadenitis, lymphatic obstruction</td><td><b>Eosinophilic granuloma</b></td></tr>
+<tr><td>অঙ্গ</td><td>লিম্ফ্যাটিক নালি ও নোড</td><td>ফুসফুস, লিভার, প্লীহা</td></tr>
+<tr><td>রক্তে microfilaria</td><td>রাতে থাকে (১০ pm–4 am)</td><td>রক্তে নাই — টিস্যুতে</td></tr>
+<tr><td>CFT test</td><td>তেমন সংবেদনশীল নয়</td><td><b>অত্যন্ত সংবেদনশীল</b></td></tr>
+<tr><td>DEC-এর প্রতিক্রিয়া</td><td>না/খুব কম</td><td><b>দ্রুত প্রতিক্রিয়া</b></td></tr>
+<tr><td>Serum IgE</td><td>তেমন বাড়ে না</td><td>মারাত্মকভাবে বাড়ে</td></tr>
+</tbody></table>
+<p>মূল পার্থক্য: classical = adult worm-এর mechanical block; occult = microfilaria-তে অ্যালার্জি।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P148</span>
+      <p class="qtext">Write down the characteristics of occult filariasis. ** (read from differences)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> read from differences</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Occult filariasis</b> (Meyers-Kouwenaar syndrome) is caused by <b>hypersensitivity reaction to microfilarial antigens</b>, not directly by lymphatic involvement. Its characteristics:</p>
+      <ol>
+        <li><b>Microfilariae absent in blood</b> — they are destroyed by the hypersensitivity reaction; present in tissues.</li>
+        <li><b>Marked eosinophilia</b> — mass eosinophilia (30–80%).</li>
+        <li><b>Hepatosplenomegaly</b>.</li>
+        <li><b>Tropical pulmonary eosinophilia / Weingarten's syndrome</b> — low-grade fever, weight loss, dry nocturnal cough, dyspnoea, wheezing.</li>
+        <li>Basic lesion = <b>eosinophilic granuloma</b> (lungs, liver, spleen).</li>
+        <li><b>CFT highly positive</b> (complement fixation test).</li>
+        <li><b>Prompt response to DEC</b>.</li>
+        <li>Others: arthritis, glomerulonephritis, thrombophlebitis, tenosynovitis.</li>
+      </ol>
+      <p>Male children and young adults are more commonly affected.</p><p><br></p><h2 data-section-id="2sssi7" data-start="1746" data-end="1777" class="PDq2pG_selectionAnchorContainer">পুরো ঘটনাটা গল্প বানিয়ে ফেলো<span aria-hidden="true" class="PDq2pG_selectionAnchor"></span></h2>
+<p data-start="1779" data-end="1825"><strong data-start="1779" data-end="1793">Young male</strong>-এর শরীরে filarial antigen ঢুকল।</p>
+<p data-start="1827" data-end="2111">→ শরীর <strong data-start="1834" data-end="1852">hypersensitive</strong> হয়ে গেল<br data-start="1860" data-end="1863">
+→ microfilariae <strong data-start="1879" data-end="1901">রক্তে পাওয়া গেল না</strong><br data-start="1901" data-end="1904">
+→ কিন্তু <strong data-start="1913" data-end="1935">eosinophils 30–80%</strong><br data-start="1935" data-end="1938">
+→ <strong data-start="1940" data-end="1961">liver + spleen বড়</strong><br data-start="1961" data-end="1964">
+→ lungs আক্রান্ত → <strong data-start="1983" data-end="2018">night cough + wheeze + dyspnoea</strong><br data-start="2018" data-end="2021">
+→ <strong data-start="2023" data-end="2049">eosinophilic granuloma</strong><br data-start="2049" data-end="2052">
+→ <strong data-start="2054" data-end="2079">CFT strongly positive</strong><br data-start="2079" data-end="2082">
+→ <strong data-start="2084" data-end="2111">DEC দিলে দ্রুত response</strong></p>
+<h3 data-section-id="1f8len5" data-start="2113" data-end="2140">একদম exam-hall version:</h3>
+<blockquote data-start="2142" data-end="2256">
+<p data-start="2144" data-end="2256"><strong data-start="2144" data-end="2256">Occult filariasis = NO MF + MASSIVE EOSINOPHILIA + HSM + TPE + EOSINOPHILIC GRANULOMA + CFT↑ + DEC response.</strong></p>
+</blockquote>
+<p data-start="2258" data-end="2271">আর <strong data-start="2261" data-end="2270">extra</strong>:</p>
+<blockquote data-start="2273" data-end="2333">
+<p data-start="2275" data-end="2333"><strong data-start="2275" data-end="2333">AGTT = Arthritis, GN, Thrombophlebitis, Tenosynovitis.</strong></p>
+</blockquote>
+<p data-start="2335" data-end="2364">সবচেয়ে গুরুত্বপূর্ণ contrast:</p>
+<p data-start="2366" data-end="2414"><strong data-start="2366" data-end="2414">Ordinary filariasis → microfilariae in blood</strong></p>
+<p data-start="2416" data-end="2501"><strong data-start="2416" data-end="2501">Occult filariasis → microfilariae absent + hypersensitivity/eosinophilic reaction</strong></p>
+<p data-start="2503" data-end="2590" data-is-last-node="" data-is-only-node="">এই <strong data-start="2506" data-end="2535">“MF নেই, EOSINOPHIL বেশি”</strong> paradox-টাই মনে থাকলে বাকি features সহজে বের হয়ে আসবে।</p><p><br></p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">রক্তের CBC-তে কেমন ফল দেখাবে?</p>
+      <p class="ca">Eosinophil count &gt;৩০০০/µL, ৫০,০০০ বা তারও বেশি হতে পারে; ESR উচ্চ।</p>
+      <p class="cq">বুকের X-ray কী দেখায়?</p>
+      <p class="ca">Diffuse mottled shadows — miliary tuberculosis-এর মতো।</p>
+      <p class="cq">Serology কী দেখায়?</p>
+      <p class="ca">উচ্চ IgE এবং ফাইলারিয়াল antibody; tissue biopsy-তে granuloma দেখা যেতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Occult filariasis</b> (Meyers-Kouwenaar syndrome) — microfilarial antigen-এ hypersensitivity-জনিত রোগ, lymphatic involvement নয়। বৈশিষ্ট্যগুলো:</p>
+<ol>
+<li><b>রক্তে microfilaria নাই</b> — hypersensitivity-এ ধ্বংস হয়ে যায়; টিস্যুতে থাকে।</li>
+<li><b>Marocd eosinophilia</b> (৩০–৮০%)।</li>
+<li><b>Hepatosplenomegaly</b>।</li>
+<li><b>Tropical pulmonary eosinophilia (Weingarten's syndrome)</b> — নিম্ন-গ্রেড জ্বর, ওজন হ্রাস, শুকনা রাতের কাশি, dyspnoea, wheezing।</li>
+<li>মৌলিক ক্ষত = <b>eosinophilic granuloma</b> (ফুসফুস, লিভার, প্লীহা)।</li>
+<li><b>CFT অত্যন্ত positive</b> (complement fixation test)।</li>
+<li><b>DEC-এ দ্রুত প্রতিক্রিয়া</b>।</li>
+<li>অন্যান্য: arthritis, glomerulonephritis, thrombophlebitis, tenosynovitis।</li>
+</ol>
+<p>পুরুষ শিশু ও তরুণদের বেশি আক্রান্ত হয়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P149</span>
+      <p class="qtext">State the pathogenesis of filariasis. **</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> (none)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Filariasis</b> occurs in two forms based on pathogenesis:</p>
+      <p><b>1. Classical (lymphatic) filariasis</b> — due to blockage of lymph vessels and lymph nodes by <b>adult worms</b>:</p>
+      <ul>
+        <li>Adult worm causes mechanical blockage or allergic inflammatory reaction.</li>
+        <li>Affected area infiltrated with macrophages, eosinophils, lymphocytes and plasma cells.</li>
+        <li>Vessel walls thicken, lumen narrows or occludes.</li>
+        <li>Granuloma formation → subsequent scarring and fibrosis.</li>
+        <li>Inflammation damages valves in lymph vessels → increased permeability → leakage of protein-rich lymph into tissues → pitting/brawny oedema → fibrous tissue deposition (non-pitting).</li>
+        <li>Recurrent secondary bacterial infections cause further damage.</li>
+      </ul>
+      <p><b>2. Occult filariasis</b> — due to <b>hypersensitivity reaction to microfilarial antigens</b>, not lymphatic involvement; microfilariae are destroyed in tissues producing eosinophilic granuloma.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Classical filariasis-এ acute ও chronic অবস্থার কী কী হয়?</p>
+      <p class="ca">Acute → জ্বর, lymphangitis (red streaks), lymphadenitis, lymphedema; chronic → hydrocele, elephantiasis (Malabar leg), lymphorrhagia, chyluria।</p>
+      <p class="cq">Elephantiasis-এর বিশেষত্ব কী?</p>
+      <p class="ca">এটি human filariasis-এর অনন্য — non-pitting brawny oedema, মোটা চামড়া, secondary infection-এ চিড়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Filariasis-এর pathogenesis — দুই রূপে:</p>
+<p><b>১. Classical (lymphatic) filariasis</b> — প্রাপ্তবয়স্ক কৃমি লিম্ফ নালি/নোড ব্লক করে:</p>
+<ul>
+<li>কৃমি mechanical blockage বা allergic inflammatory reaction ঘটায়।</li>
+<li>আক্রান্ত area-তে macrophages, eosinophils, lymphocytes, plasma cells জমে।</li>
+<li>নালির দেয়াল মোটা, lumen সরু/বন্ধ।</li>
+<li>Granuloma → scarring ও fibrosis।</li>
+<li>প্রদাহে lymph vessel-এর valve নষ্ট → permeability বাড়ে → protein-rich lymph টিস্যুতে ঝরে → pitting/brawny oedema → fibrous tissue deposition (non-pitting)।</li>
+<li>বারবার secondary bacterial infection আরও ক্ষতি করে।</li>
+</ul>
+<p><b>২. Occult filariasis</b> — microfilarial antigen-এ hypersensitivity; microfilaria টিস্যুতে ধ্বংস হয়ে eosinophilic granuloma।</p>
+<p>মূল পয়েন্ট: classical = mechanical block; occult = allergic reaction।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P150</span>
+      <p class="qtext">State the laboratory diagnosis of filariasis. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> (none)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Diagnosis depends on clinical features, history of exposure in endemic areas and laboratory findings:</p>
+      <ol>
+        <li><b>Specimen collection:</b> peripheral blood (first choice), chylous urine, exudate of lymph varix, hydrocele fluid.</li>
+        <li><b>Microscopical examination</b> — search for microfilariae (sheathed, nuclei not extending up to tail tip):
+          <ul>
+            <li>Thick &amp; thin blood films with Giemsa's stain (DEC provocation test helpful).</li>
+            <li>Wet mount of unstained blood — serpentine movements.</li>
+            <li>Centrifuged deposit of urine, exudate or hydrocele fluid.</li>
+          </ul>
+        </li>
+        <li><b>Isolation &amp; identification:</b> not done.</li>
+        <li><b>Immunological tests:</b>
+          <ul>
+            <li>Antigen detection: ELISA, ICT.</li>
+            <li>Antibody detection: ELISA, CFT.</li>
+          </ul>
+        </li>
+        <li><b>Molecular test:</b> PCR.</li>
+        <li><b>Others:</b> CBC (eosinophilia), serum IgE, intradermal test, lymph node biopsy, X-ray (calcified adult worm), USG of scrotum, xenodiagnosis (mosquitoes feed on patient, dissected after 4–6 days to demonstrate microfilariae).</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Classical filariasis-এ রক্ত কখন নিতে হয়?</p>
+      <p class="ca">রাতে (১০ pm–4 am) — nocturnal periodicity-এর কারণে।</p>
+      <p class="cq">CFT কখন বিশেষভাবে সংবেদনশীল?</p>
+      <p class="ca">Occult filariasis-এ — highly sensitive।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>Diagnosis নির্ভর করে ক্লিনিক্যাল বৈশিষ্ট্য, endemic এলাকার exposure ও ল্যাব ফলাফলের উপর:</p>
+<ol>
+<li><b>নমুনা:</b> peripheral blood (প্রথম পছন্দ), chylous urine, lymph varix-এর exudate, hydrocele fluid।</li>
+<li><b>Microscopy</b> — microfilaria খোঁজা (sheathed, nuclei tail tip পর্যন্ত যায় না):
+<ul>
+<li>Giemsa stain-এ thick ও thin blood film (DEC provocation test সাহায্য করে)।</li>
+<li>Unstained blood-এর wet mount — serpentine movement।</li>
+<li>মূত্র, exudate বা hydrocele fluid-এর centrifuged deposit।</li>
+</ul>
+</li>
+<li><b>Isolation &amp; identification:</b> করা হয় না।</li>
+<li><b>Immunological test:</b><ul>
+<li>Antigen detection: ELISA, ICT।</li>
+<li>Antibody detection: ELISA, CFT।</li>
+</ul></li>
+<li><b>Molecular test:</b> PCR।</li>
+<li><b>অন্যান্য:</b> CBC (eosinophilia), serum IgE, intradermal test, lymph node biopsy, X-ray (calcified adult worm), USG of scrotum, xenodiagnosis (mosquito রোগীকে কামড়ায়, ৪–৬ দিন পর dissect করে microfilaria দেখানো)।</li>
+</ol>
+<p>মূল কথা — nocturnal periodicity, তাই রাতেই sample নিতে হবে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P151</span>
+      <p class="qtext">Mention some conditions when microfilariae are not found in blood. ***** (occult filariasis, classical filariasis with some condition such as elephantiasis and wrong time of blood collection due to nocturnal periodicity)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> occult filariasis, classical filariasis with some condition such as elephantiasis and wrong time of blood collection due to nocturnal periodicity</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Microfilariae are <b>not found in blood</b> in the following conditions:</p>
+      <ol>
+        <li><b>Occult filariasis</b> — microfilariae are destroyed in tissues due to hypersensitivity reaction, so they are absent from blood.</li>
+        <li><b>Classical filariasis in advanced chronic stage</b> (e.g. <b>elephantiasis</b>) — microfilariaemia may be absent as lymphatic obstruction prevents microfilariae from reaching the peripheral circulation.</li>
+        <li><b>Wrong time of blood collection</b> — due to <b>nocturnal periodicity</b>, microfilariae are only found at night (10 pm–4 am); collecting blood during daytime gives a negative result.</li>
+        <li>After treatment / in early prepatent period before microfilariae appear.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">রক্তে না থাকলে microfilaria কোথায় থাকে?</p>
+      <p class="ca">ফুসফুসের capillaries (সবচেয়ে বেশি), কিডনি, হৃৎপিণ্ড ও বড় রক্তনালির capillaries-এ।</p>
+      <p class="cq">দিনে microfilaria-কে রক্তে দেখার উপায় কী?</p>
+      <p class="ca">DEC provocation test — DEC দিলে microfilaria দিনেও peripheral blood-এ আসে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>রক্তে microfilaria না পাওয়ার শর্তগুলো:</p>
+<ol>
+<li><b>Occult filariasis</b> — hypersensitivity-তে microfilaria টিস্যুতে ধ্বংস হয়ে যায়, তাই রক্তে নাই।</li>
+<li><b>Classical filariasis-এর অগ্রবর্তী chronic পর্যায়</b> (যেমন <b>elephantiasis</b>) — lymphatic obstruction-এর কারণে microfilaria peripheral circulation-এ পৌঁছায় না।</li>
+<li><b>ভুল সময়ে রক্ত সংগ্রহ</b> — <b>nocturnal periodicity</b>-র কারণে ১০ pm–4 am ছাড়া microfilaria রক্তে আসে না; দিনে নিলে result negative।</li>
+<li>চিকিৎসার পরে / prepatent period-এ microfilaria এখনো বের হয়নি।</li>
+</ol>
+<p>মনে রাখো — ফুসফুসের capillary হলো microfilaria-র প্রধান \"hiding place\"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P152</span>
+      <p class="qtext">Mention the mode of transmission and infective form of W. bancrofti. ****</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> (none)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <ul>
+        <li><b>Infective form:</b> <b>Third-stage larva (L3) — filariform larva</b>.</li>
+        <li><b>Mode of transmission:</b> By the <b>bite of an infected female Culex mosquito</b> (<i>Culex quinquefasciatus</i> is the principal vector) carrying L3 larvae; <i>Anopheles</i> or <i>Aedes</i> rarely.</li>
+      </ul>
+      <p>When the mosquito bites, the L3 larva is deposited on the skin near the puncture site, enters the puncture wound / penetrates skin, reaches the lymphatics and develops into adult worms.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Adult worm কোথায় থাকে?</p>
+      <p class="ca">Lymphatic system-এ; microfilaria রক্তে (১০ pm–4 am)।</p>
+      <p class="cq">Mosquito-তে কী ঘটে?</p>
+      <p class="ca">Microfilaria exsheath হয় → stomach wall penetrate → thoracic muscle-এ যায় → moult করে L2 → তারপর proboscis-এ infective L3।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>W. bancrofti-এর সংক্রমণ:</p>
+<ul>
+<li><b>Infective form:</b> <b>Third-stage larva (L3) — filariform larva</b>।</li>
+<li><b>সংক্রমণের পথ:</b> সংক্রমিত স্ত্রী <b>Culex মশার কামড়ে</b> (<i>Culex quinquefasciatus</i> প্রধান vector); Anopheles/Aedes কদাচিৎ।</li>
+</ul>
+<p>মশার কামড়ে L3 লার্ভা puncture site-এর কাছে ত্বকে জমা হয়, পুনরায় puncture wound/ত্বক penetrate করে lymphatics-এ পৌঁছে প্রাপ্তবয়স্ক হয়।</p>
+<p>মনে রাখো — Vector: Culex quinquefasciatus; adults: lymphatic system; microfilaria: রাতে রক্তে।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P153</span>
+      <p class="qtext">What is periodicity or nocturnal periodicity? *** (microfilariae found at 10pm to 4 am)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> microfilariae found at 10pm to 4 am</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Periodicity</b> is the time when most of the microfilariae are found in the <b>peripheral blood</b>.</p>
+      <p><b>Nocturnal periodicity</b> = microfilariae appear in the peripheral blood in large numbers <b>only at night, between 10 pm and 4 am</b>, and disappear during the day (they hide in deep capillaries of lungs, kidneys, heart, great vessels).</p>
+      <ul>
+        <li>Nocturnal periodicity — seen in <i>Wuchereria bancrofti</i>, <i>Brugia malayi</i> (vector Culex bites at night).</li>
+        <li>Diurnal periodicity (day time) — <i>Loa loa</i>.</li>
+        <li>Sub-periodic — present throughout with slight afternoon increase.</li>
+        <li>Non-periodic — any time (Mansonella, Onchocerca).</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Periodicity-র কারণ কী?</p>
+      <p class="ca">Vector-এর কামড়ানোর অভ্যাস (Culex রাতে কামড়ায়), হোস্টের ঘুমের প্যাটার্ন, পরিবেশ/তাপমাত্রা।</p>
+      <p class="cq">Peripheral blood-এ না থাকলে তারা কোথায় থাকে?</p>
+      <p class="ca">ফুসফুসের capillaries (সবচেয়ে বেশি), কিডনি, হৃৎপিণ্ড, বড় রক্তনালি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Periodicity</b> = peripheral blood-এ microfilaria কখন সবচেয়ে বেশি পাওয়া যায়, সেই সময়।</p>
+<p><b>Nocturnal periodicity</b> = microfilaria <b>রাত ১০টা–সকাল ৪টা</b> পর্যন্ত peripheral blood-এ বড় সংখ্যায় থাকে, দিনে অদৃশ্য (তারা ফুসফুস, কিডনি, হৃৎপিণ্ড, বড় রক্তনালির গভীর capillaries-এ লুকিয়ে থাকে)।</p>
+<ul>
+<li>Nocturnal periodicity — Wuchereria bancrofti, Brugia malayi (ভেক্টর Culex রাতে কামড়ায়)।</li>
+<li>Diurnal (দিনের) — Loa loa।</li>
+<li>Sub-periodic — সারাক্ষণ থাকে, বিকেলে সামান্য বাড়ে।</li>
+<li>Non-periodic — যেকোনো সময় (Mansonella, Onchocerca)।</li>
+</ul>
+<p>লজিক: Culex রাতে কামড়ায় — তাই microfilaria রাতেই রক্তে যায়।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P154</span>
+      <p class="qtext">What do you mean by provocation test? ****** (DEC is given, that induces microfilariae to appear in peripheral blood even during day time)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> DEC is given, that induces microfilariae to appear in peripheral blood even during day time</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Provocation test (DEC provocation test):</b> a dose of <b>diethylcarbamazine (DEC)</b> is given to the patient, which <b>induces the microfilariae to appear in the peripheral blood even during the daytime</b>. Blood is then collected and examined for microfilariae.</p>
+      <p>This test is helpful in detecting filariasis when blood is collected at the wrong time (during the day) or when microfilariae are scanty.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কেন এই পরীক্ষা দরকার?</p>
+      <p class="ca">Nocturnal periodicity-র সীমাবদ্ধতা কাটাতে — দিনে নেওয়া রক্তেও microfilaria দেখা যায়।</p>
+      <p class="cq">DEC কি শুধু পরীক্ষার জন্যই?</p>
+      <p class="ca">না — DEC চিকিৎসাও (বিশেষত occult filariasis-এ কার্যকর)।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Provocation test (DEC provocation test):</b> রোগীকে এক ডোজ <b>diethylcarbamazine (DEC)</b> দেওয়া হয়, যা microfilaria-কে <b>দিনের বেলায়ও peripheral blood-এ আসতে বাধ্য করে</b>। এরপর রক্ত নিয়ে microfilaria খোঁজা হয়।</p>
+<p>ভুল সময়ে (দিনে) রক্ত নেওয়া হলে বা microfilaria খুব কম হলে এই পরীক্ষা filariasis ধরতে সাহায্য করে।</p>
+<p>মনে রাখো — DEC = ডায়াগনসিসেও, ট্রিটমেন্টেও।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P155</span>
+      <p class="qtext">What is chyluria? ** [chyle (milky lymph+ fat) in urine].</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> chyle (milky lymph + fat) in urine</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p><b>Chyluria</b> is the presence of <b>chyle (milky lymph mixed with fat)</b> in the <b>urine</b>, giving it a milky white appearance.</p>
+      <p>It occurs due to <b>lymphorrhagia</b> — rupture/leakage of lymph vessels (in chronic classical filariasis) allowing chyle to drain into the urinary tract.</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Chyle কী?</p>
+      <p class="ca">Lymph + fat — দুধের মতো milky চেহারা।</p>
+      <p class="cq">Chylous urine কোন নির্ণয়ে নমুনা?</p>
+      <p class="ca">Filariasis-এর নমুনা হিসাবে — chylous urine পরীক্ষা করা হয়।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p><b>Chyluria</b> = মূত্রে <b>chyle (milky lymph + fat)</b> থাকা — ফলে মূত্র দুধের মতো সাদা দেখায়।</p>
+<p>এটি <b>lymphorrhagia</b>-র কারণে হয় — chronic classical filariasis-এ lymph vessel ফেটে/ঝরে chyle মূত্রনালীতে গড়িয়ে পড়ে।</p>
+<p>সংজ্ঞা সহজ রাখো — \"milky urine containing chyle\"।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P156</span>
+      <p class="qtext">Write down the mode of transmission &amp; diseases produced by Loa loa, O. volvulus, D. medinensis? ***(O. volvulus by black flies: river blindness; Loa loa by deer or mango flies: lesion in eye; D. medinensis by intermediate host cyclops: pruritus in dracunculiasis)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> O. volvulus by black flies: river blindness; Loa loa by deer or mango flies: lesion in eye; D. medinensis by intermediate host cyclops: pruritus in dracunculiasis</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Parasite</th><th>Mode of transmission</th><th>Disease produced</th></tr>
+        <tr><td><b><i>Loa loa</i></b> (African eye worm)</td><td>Bite of <b>deer fly / mango fly</b> (Chrysops)</td><td><b>Loiasis</b> — lesion in eye (and subcutaneous tissue), Calabar swelling</td></tr>
+        <tr><td><b><i>Onchocerca volvulus</i></b></td><td>Bite of <b>black fly</b> (Simulium)</td><td><b>Onchocerciasis / river blindness</b></td></tr>
+        <tr><td><b><i>Dracunculus medinensis</i></b></td><td>Ingestion of infected intermediate host <b>Cyclops</b> (copepod) in drinking water</td><td><b>Dracunculiasis</b> — pruritus/intense itching, skin ulcer</td></tr>
+      </tbody></table></div>
+      <p>Notes: Loa loa microfilariae show <b>diurnal periodicity</b> (day time). Onchocerca causes blindness — it is the <b>second major cause of blindness worldwide</b>; black flies breed in fast-flowing rivers, hence "river blindness". D. medinensis is the "Guinea worm" — Dracunculiasis (guinea worm disease).</p>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">Loa loa-এর microfilaria কোন periodicity দেখায়?</p>
+      <p class="ca">Diurnal periodicity — দিনের বেলা রক্তে পাওয়া যায়।</p>
+      <p class="cq">O. volvulus-এর microfilaria কোথায় পাওয়া যায়?</p>
+      <p class="ca">চামড়া ও চোখে (unsheathed, non-periodic) — নির্ণয় skin snip দিয়ে।</p>
+      <p class="cq">D. medinensis-এর infective form কী?</p>
+      <p class="ca">Cyclops-এর মধ্যে third-stage larva; প্রাপ্তবয়স্ক স্ত্রী ও larvae ত্বকের আলসারে। X-ray-তে মৃত কৃমি দেখা যায়।</p>
+      <p class="cq">Onchocerca-র চোখের ক্ষত কী কী?</p>
+      <p class="ca">Conjunctivitis, punctate/sclerosing keratitis, iridocyclitis, optic atrophy।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>মনে রাখার মnemonic: <b>\"Loa = eye/mango fly, Onchocerca = river/black fly, Dracunculus = Cyclops water\"</b>।</p>
+<p><b>Loa loa</b> (African eye worm) — deer/mango fly (<b>Chrysops</b>) এর কামড়ে → Loiasis — চোখে lesion ও subcutaneous tissue-এ Calabar swelling। Microfilaria diurnal (দিনে)।</p>
+<p><b>O. volvulus</b> — black fly (<b>Simulium</b>) এর কামড়ে → Onchocerciasis / <b>river blindness</b>। বিশ্বে অন্ধত্বের দ্বিতীয় প্রধান কারণ। Black fly দ্রুত প্রবাহিত নদীতে জন্মায় — তাই \"river blindness\"।</p>
+<p><b>D. medinensis</b> — Guinea worm — দূষিত পানিতে থাকা <b>Cyclops</b> (copepod) খেয়ে → Dracunculiasis — pruritus/প্রচণ্ড চুলকানিসহ ত্বকের আলসার।</p>
+<p>এই টেবিলটা ভাইভায় লেখো — প্রতিটি parasite-এর vector আর disease।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P157</span>
+      <p class="qtext">You should know the common or another name of important parasites (especially metazoa): Beef tapeworm (T. saginata), pork tapeworm (T. solium), armed tapeworm (T. solium), 7 tapeworm (T. saginata), dog tapeworm (E. granulosus), fish tapeworm (D. latum), old world (AD) and new world hook worm (N. americanus), round worm or giant round worm (AL), small round worm or military worm (SS), pinworm or seat worm or thread worm (EV), whipworm (TT), lungs flukes (P. westermani), liver flukes (F. hepatica, C. sinensis), intestinal flukes (F. buski, G. hominis), blood flukes (S. haematobium, S. mansoni, S. japonicum).</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> common / other names of important parasites (especially metazoa)</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <div class="tblwrap"><table>
+        <tbody><tr><th>Parasite</th><th>Common / other name</th></tr>
+        <tr><td><i>Taenia saginata</i></td><td>Beef tapeworm / Unarmed tapeworm</td></tr>
+        <tr><td><i>Taenia solium</i></td><td>Pork tapeworm / Armed tapeworm</td></tr>
+        <tr><td><i>Echinococcus granulosus</i></td><td>Dog tapeworm</td></tr>
+        <tr><td><i>Diphyllobothrium latum</i></td><td>Fish tapeworm</td></tr>
+        <tr><td><i>Ancylostoma duodenale</i></td><td>Old World hookworm</td></tr>
+        <tr><td><i>Necator americanus</i></td><td>New World hookworm</td></tr>
+        <tr><td><i>Ascaris lumbricoides</i></td><td>Round worm / Giant round worm</td></tr>
+        <tr><td><i>Strongyloides stercoralis</i></td><td>Small round worm / Military worm</td></tr>
+        <tr><td><i>Enterobius vermicularis</i></td><td>Pinworm / Seat worm / Thread worm</td></tr>
+        <tr><td><i>Trichuris trichiura</i></td><td>Whipworm</td></tr>
+        <tr><td><i>Paragonimus westermani</i></td><td>Lung fluke</td></tr>
+        <tr><td><i>Fasciola hepatica, Clonorchis sinensis</i></td><td>Liver flukes</td></tr>
+        <tr><td><i>Fasciolopsis buski, Gastrodiscoides hominis</i></td><td>Intestinal flukes</td></tr>
+        <tr><td><i>Schistosoma haematobium, S. mansoni, S. japonicum</i></td><td>Blood flukes</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">T. saginata কেন \"unarmed\"?</p>
+      <p class="ca">এর scolex-এ hooklet নেই; T. solium-এ hooklet আছে তাই \"armed\"।</p>
+      <p class="cq">SS-কে কেন \"military worm\" বলা হয়?</p>
+      <p class="ca">ফরাসি সৈন্যদের মলে প্রথম পাওয়া গিয়েছিল বলে।</p>
+      <p class="cq">Loa loa, D. medinensis, W. bancrofti-র অন্য নাম কী?</p>
+      <p class="ca">Loa loa = African eye worm; D. medinensis = Guinea worm; W. bancrofti = filarial worm।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>এই প্রশ্নটা মূলত নাম মুখস্থ করার — ভাইভায় common name জিজ্ঞাসা করে। টেবিলটা মনে রাখো:</p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tbody><tr><th>Parasite</th><th>Common / other name</th></tr>
+<tr><td>T. saginata</td><td>Beef tapeworm / Unarmed tapeworm</td></tr>
+<tr><td>T. solium</td><td>Pork tapeworm / Armed tapeworm</td></tr>
+<tr><td>E. granulosus</td><td>Dog tapeworm</td></tr>
+<tr><td>D. latum</td><td>Fish tapeworm</td></tr>
+<tr><td>A. duodenale</td><td>Old World hookworm</td></tr>
+<tr><td>N. americanus</td><td>New World hookworm</td></tr>
+<tr><td>A. lumbricoides</td><td>Round worm / Giant round worm</td></tr>
+<tr><td>S. stercoralis</td><td>Small round worm / Military worm</td></tr>
+<tr><td>E. vermicularis</td><td>Pinworm / Seat worm / Thread worm</td></tr>
+<tr><td>T. trichiura</td><td>Whipworm</td></tr>
+<tr><td>P. westermani</td><td>Lung fluke</td></tr>
+<tr><td>F. hepatica, C. sinensis</td><td>Liver flukes</td></tr>
+<tr><td>F. buski, G. hominis</td><td>Intestinal flukes</td></tr>
+<tr><td>S. haematobium, S. mansoni, S. japonicum</td><td>Blood flukes</td></tr>
+</tbody></table>
+<p>অতিরিক্ত: Loa loa = African eye worm; D. medinensis = Guinea worm; W. bancrofti = filarial worm।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P158</span>
+      <p class="qtext">Why freshly passed stool of worm infected patient cannot infect another host? ** (for molting of worm, soil is needed).</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> for molting of worm, soil is needed</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Freshly passed stool of a worm-infected patient <b>cannot infect another host</b> because the eggs/larvae passed are <b>not infective at the time of passage</b>.</p>
+      <ul>
+        <li>Most soil-transmitted helminths need a period of <b>development (embryonation/maturation &amp; molting) in the soil</b> before they become infective.</li>
+        <li>The immature rhabditiform larva / unembryonated egg <b>must moult in the soil</b> (warm, moist) to form the <b>infective filariform larva (L3)</b> before it can penetrate the skin.</li>
+        <li>Hence, direct person-to-person spread from fresh stool does not occur — soil is essential for maturation/molting.</li>
+      </ul>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">উদাহরণ দাও — কার infective filariform larva মাটিতে বিকশিত হয়?</p>
+      <p class="ca">Hookworm (AD/NA) ও S. stercoralis — মাটিতে filariform larva হয়।</p>
+      <p class="cq">ব্যতিক্রম কী?</p>
+      <p class="ca">Enterobius-এর egg perianal ত্বকে কয়েক ঘণ্টায় infective হয়; Enterobius/Strongyloides autoinfect করতে পারে।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>সদ্য পাস করা মল অন্য কাউকে সংক্রমিত করতে পারে না — কারণ সেই সময়ে ডিম্ব/লার্ভা <b>infective নয়</b>।</p>
+<ul>
+<li>বেশিরভাগ soil-transmitted helminth-এর মাটিতে <b>embryonation/maturation ও molting</b> সময় লাগে।</li>
+<li>অপরিণত rhabditiform larva / unembryonated egg-কে <b>মাটিতে (উষ্ণ, আর্দ্র) moult করে infective filariform larva (L3)</b> হতে হয়, তারপরই তা চামড়া penetrate করতে পারে।</li>
+<li>তাই সদ্য পাস করা মল থেকে সরাসরি person-to-person সংক্রমণ হয় না — <b>মাটি অপরিহার্য</b>।</li>
+</ul>
+<p>ব্যতিক্রম: Enterobius-এর egg perianal ত্বকে কয়েক ঘণ্টাতেই infective — তাই مباشرة সংক্রমণ সম্ভব।</p></div>
+  </div>
+</article>
+<article class="card">
+  <div class="qbox">
+    <div class="qrow">
+      <span class="qno">P159</span>
+      <p class="qtext">Why parasitic (helmintihic diseases) are uncommon in Bangladesh now? *** (cause: safe drinking water, safe sanitation: open space defecation reduced, deworming programed in school)</p>
+      </div>
+    <div class="hint"><b>📌 Hint:</b> safe drinking water, safe sanitation: open space defecation reduced, deworming programed in school</div>
+  </div>
+  <div class="ansbox">
+    <div class="band band-ans">✅ Answer</div>
+    <div class="bcontent b-ans">
+      <p>Helminthic (parasitic) diseases have become <b>uncommon in Bangladesh</b> nowadays due to:</p>
+      <ol>
+        <li><b>Safe drinking water</b> — reduced water-borne transmission.</li>
+        <li><b>Safe sanitation</b> — <b>open-space defecation reduced</b>, breaking the faecal-oral / soil-transmitted cycle.</li>
+        <li><b>Deworming programmes in schools</b> — mass deworming reduces worm burden and reservoir.</li>
+        <li>Improved health awareness, hygiene and public health measures.</li>
+      </ol>
+    </div>
+    <div class="band band-add">❓ Cross questions (from additional)</div>
+    <div class="bcontent b-add">
+      <p class="cq">কীভাবে soil-transmitted helminth-এর cycle ভাঙে?</p>
+      <p class="ca">Infective form মাটিতে বিকশিত হওয়ায় — open defecation বন্ধ ও safe sanitation-এ cycle ভেঙে যায়।</p>
+      <p class="cq">আর কী কারণ পরোক্ষভাবে ভূমিকা রাখে?</p>
+      <p class="ca">দারিদ্র্য হ্রাস এবং শিক্ষা/জনসচেতনতার উন্নতি।</p>
+    </div>
+    <div class="band band-bn">🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)</div>
+    <div class="bcontent b-bn bn-font"><p>হেলমিন্থ রোগ বাংলাদেশে এখন অস্বাভাবিক — কারণ:</p>
+<ol>
+<li><b>নিরাপদ পানীয় জল</b> — পানিবাহিত সংক্রমণ কমেছে।</li>
+<li><b>নিরাপদ স্যানিটেশন</b> — <b>খোলা মলত্যাগ হ্রাস</b> পেয়েছে, ফলে faecal-oral / soil-transmitted cycle ভেঙে গেছে।</li>
+<li><b>স্কুলে deworming programme</b> — mass deworming-এ worm burden ও reservoir কমেছে।</li>
+<li>স্বাস্থ্য সচেতনতা, স্বাস্থ্যবিধি ও public health ব্যবস্থার উন্নতি।</li>
+</ol>
+<p>মনে রাখো — তিনটি \"S/W\" — Safe water, Safe sanitation, School deworming।</p></div>
+  </div>
+</article>
+    </div>
+  </section>
+
+</main>
+
+<div class="foot">Dr. Roni · Assistant Professor &amp; Head, Microbiology, SZMC, Bogura · SZMC 2nd Term Comprehensive Notes — split topic-wise</div>
+
+<script>
+  function renumber(){}
+  function filterAll(term){
+    term=term.trim().toLowerCase();
+    const qs=document.querySelectorAll('.qlist .card');
+    let shown=0;
+    qs.forEach(c=>{
+      const txt=c.textContent.toLowerCase();
+      const hit=txt.includes(term);
+      c.style.display=hit?'':'none';
+      if(hit) shown++;
+    });
+    document.querySelectorAll('section.subject').forEach(s=>{
+      const cards=s.querySelectorAll('.card');
+      const any=[...cards].some(c=>c.style.display!=='none');
+      s.style.display=any?'':'none';
+    });
+    const cnt=document.getElementById('shownCount');
+    if(cnt) cnt.textContent=term? shown+' / '+qs.length : qs.length+' questions';
+  }
+</script></body>
+</html>
