@@ -69,6 +69,7 @@
 
 ## 📝 Notes
 
+- **Markdown twins:** every `.html` topic page also has a `.md` version (same text, Obsidian/vault-friendly, lossless round-trip verified).
 - **Content is untouched:** Each page's cards are byte-identical to the single comprehensive file — the split only re-wraps them in their own page shell.
 - **Navigation:** Every page has a search box plus 🏠 Index / ‹ Prev / Next › links in the toolbar.
 - **Connector page:** [`index.html`](index.html) is the entry point — it lists all 35 topics with ranges and question counts, and links back to the full single-file notes.

@@ -53,6 +53,7 @@
 
 ## 📝 Notes
 
+- **Markdown twins:** every `.html` chapter also has a `.md` version (same text, Obsidian/vault-friendly, lossless round-trip verified).
 - **One short question per flashcard:** Multi-part questions ("define + classify + causes") are split into separate single-question toggles, so each card is short and focused. Answers use bullet points and tables (not dense paragraphs).
 - **Inline True/False practice:** Under each major topic each chapter has a 🎯 quiz block of real board/university True/False MCQs (green **T** / red **F**) — practice topic-by-topic, then reveal.
 - **MCQ chapters folded:** Systemic Pathology MCQs (V2 ch18) and Clinical Pathology MCQs (V2 ch31) are distributed as inline quiz blocks + a Rapid-Fire ❓/✅ one-liner sweep at each chapter's end.

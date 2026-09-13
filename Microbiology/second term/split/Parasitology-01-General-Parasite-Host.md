@@ -5,7 +5,8 @@
 Question (with hint) → Full English Answer → Cross questions (Bangla Q/A) → Viva explanation (Bangla script)
 <b>🟣 Parasitology</b><b>13 questions</b>
 🏠 Index‹ PrevNext ›
-## General Parasitology — Parasite & Host
+## 🦠 General Parasitology — Parasite & Host
+<i>Parasite definition & classification, host classification, relationships, vectors</i>
 > <b>P1</b> Define parasite. Classify parasites. *****
 > <b>📌 Hint:</b> Protozoa & metazoa (cestodes, trematodes, nematodes)
 ✅ Answer
@@ -30,10 +31,10 @@ Protozoa-র trophic forms হলো cyst এবং trophozoite; Metazoa-র হ
 দেখো, parasite মানে যে organism অন্য একটা organism-এর ভিতর বা উপরে থাকে, সে host থেকে খাওয়া-শোয়া, থাকার জায়গা আর shelter নেয়, আর এতে host-এর কিছু না কিছু ক্ষতি হয়। "parasitos" শব্দ থেকে এসেছে, মানে "same table" এ বসে খাওয়া।
 এখন classify করতে বলবে দুই বড় দলে —
 - Protozoa — unicellular, মানে একটাই cell, যেমন E. histolytica, Plasmodium, Giardia lamblia
+- Metazoa / Helminths / Worms — multicellular, আবার তিনটে class আছে:
   - Cestodes (tapeworm) — যেমন Taenia solium, T. saginata, E. granulosus
   - Trematodes (fluke) — যেমন Schistosoma haematobium
   - Nematodes — যেমন Ascaris lumbricoides
-- Metazoa / Helminths / Worms — multicellular, আবার তিনটে class আছে:
 Viva-তে বলবে — "parasite দুই প্রকার — Protozoa আর Metazoa; Metazoa আবার তিন class — Cestode, Trematode, Nematode"। Cellularity অনুযায়ী শ্রেণীবিভাগ বললে বোনাস পয়েন্ট পাবে।
 > <b>P2</b> Mention 03 important differences between protozoa and metazoa. ****
 > <b>📌 Hint:</b> protozoa: unicellular, morphologically and functionally complete, single cell like unit, one cell does all the function
@@ -185,9 +186,9 @@ P. westermani-র intermediate host হলো snail এবং crab; C. sinensis-
 🗣️ ভাইভায় যেভাবে বুঝাব (বাংলা লিপি)
 কিছু parasite-র development complete হতে দুইটা intermediate host লাগে।
 উদাহরণ —
-- D. latum -র প্রথম intermediate host হলো Cyclops (freshwater copepod), দ্বিতীয় intermediate host হলো freshwater fish।
-- F. buski -র intermediate host হলো snail এবং aquatic plant — "পানির ফল" এর ওপর metacercaria encyst হয়, তাই পানির ফল খেলে infection হয়।
-- F. hepatica এবং G. hominis -ও একই — freshwater snail + aquatic plants।
+- D. latum-র প্রথম intermediate host হলো Cyclops (freshwater copepod), দ্বিতীয় intermediate host হলো freshwater fish।
+- F. buski-র intermediate host হলো snail এবং aquatic plant — "পানির ফল" এর ওপর metacercaria encyst হয়, তাই পানির ফল খেলে infection হয়।
+- F. hepatica এবং G. hominis-ও একই — freshwater snail + aquatic plants।
 বিশেষ attention — D. latum-এ definitive host হলো man, তাই মোট ৩টা host লাগে (১টা definitive + ২টা intermediate)। বেশিরভাগ trematodes-এর first intermediate host snail — P. westermani-তে snail + crab, C. sinensis-তে snail + fish।
 মনে রাখো — "two intermediate hosts" মানে snail + second host (fish/plant/crab) combination ভাবো।
 > <b>P9</b> What do you mean by dead end intermediate host with example? *
@@ -252,7 +253,7 @@ Viva-তে বলবে — "close relationship between two species where at le
 > <b>P12</b> What do you mean by symbiosis, commensalism, parasitism, mutualism? ****
 > <b>📌 Hint:</b> close relationship of two species where at least one is benefited
 ✅ Answer
-- Symbiosis: a close relationship between two species in which at least one species is benefited . It has 3 basic types — mutualism, commensalism and parasitism.
+- Symbiosis: a close relationship between two species in which at least one species is benefited. It has 3 basic types — mutualism, commensalism and parasitism.
 - Mutualism: relationship in which both species are benefited (e.g., Lactobacilli in the human gut feeding on sugars and helping digestion).
 - Commensalism: one species is benefited while the other is not affected (e.g., some normal flora of skin with human).
 - Parasitism: one species (the parasite) is benefited while the other species (host) is harmed (e.g., all pathogenic organisms, E. histolytica with man).
