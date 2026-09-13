@@ -20,7 +20,7 @@ Everything study-related, in one repo, readable from any browser.
 | [community/chapters/](community/chapters/) | Chapter-by-chapter full text of the Endeavour guide (26 chapters, 722 pages) |
 | [community/chapters/flashcard from raw endeavour/](community/chapters/flashcard%20from%20raw%20endeavour/) | Collapsible Q&A flashcards — click a question to reveal its answer |
 | [community/set questions/](community/set%20questions/) | Board-1 & Board-2 question sets + topic-wise Viva answer bank (Viva-01…32) |
-| [Medicine/davidson/davidson_immunology_bangla.html](Medicine/davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) |
+| [Medicine/davidson/davidson_immunology_bangla.html](Medicine/davidson/davidson_immunology_bangla.html) | Davidson Immunology notes (Bangla) — also as [.md](Medicine/davidson/davidson_immunology_bangla.md) for Obsidian |
 | [GK/bd-constitution.html](GK/bd-constitution.html) | Bangladesh Constitution notes |
 | [Islamic/](Islamic/) | Islamic notes — incl. Quran practice pages ([ar-rahman-practice.html](Islamic/quran/ar-rahman-practice.html)) |
 | [Ayurvedic/](Ayurvedic/) | Ayurvedic notes — incl. complete Hamdard medicines list in Bangla ([hamdard_medicines_bangla.html](Ayurvedic/hamdard_medicines_bangla.html)) |

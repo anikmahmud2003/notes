@@ -26,7 +26,7 @@
 
 | Topic | Range | Qs | File |
 |---|---|:--:|---|
-| General Parasitology — Parasite & Host | P1–P13 | 13 | [Parasitology-01-General-Parasite-Host.html](Parasitology-01-General-Parasite-Host.html) |
+| General Parasitology — Parasite & Host | P1–P13 | 13 | [Parasitology-01-General-Parasite-Host.html](Parasitology-01-General-Parasite-Host.html) · [.md](Parasitology-01-General-Parasite-Host.md) |
 | General Parasitology — Transmission & Clinical | P14–P28 | 15 | [Parasitology-02-General-Transmission-Clinical.html](Parasitology-02-General-Transmission-Clinical.html) |
 | Protozoa — General | P29–P40 | 12 | [Parasitology-03-Protozoa-General.html](Parasitology-03-Protozoa-General.html) |
 | Amoebiasis & Free-living Amoeba | P41–P52 | 12 | [Parasitology-04-Amoebiasis.html](Parasitology-04-Amoebiasis.html) |

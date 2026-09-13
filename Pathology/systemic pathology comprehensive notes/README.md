@@ -37,7 +37,7 @@
 | Ch | Chapter | File |
 |----|---------|------|
 | 19 | Liver Function Test and Jaundice | [ch19_Liver_Function_Test_Jaundice.html](ch19_Liver_Function_Test_Jaundice.html) |
-| 20 | Renal Function Test | [ch20_Renal_Function_Test.html](ch20_Renal_Function_Test.html) |
+| 20 | Renal Function Test | [ch20_Renal_Function_Test.html](ch20_Renal_Function_Test.html) · [.md](ch20_Renal_Function_Test.md) |
 | 21 | Blood Glucose and Diabetes Mellitus | [ch21_Blood_Glucose_Diabetes.html](ch21_Blood_Glucose_Diabetes.html) |
 | 22 | Semen Analysis | [ch22_Semen_Analysis.html](ch22_Semen_Analysis.html) |
 | 23 | Body Fluids — CSF, Pleural, Ascitic | [ch23_Body_Fluids_CSF_Pleural_Ascitic.html](ch23_Body_Fluids_CSF_Pleural_Ascitic.html) |
