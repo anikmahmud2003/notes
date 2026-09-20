@@ -105,6 +105,7 @@ Every chapter follows the same 5-layer recipe: **Big Picture mindmap → Chapter
 ## 🎤 Question Banks (answered)
 
 - **[Systemic Pathology item sets — README](systemic%20pathology%20set%20questions/README.md)** — index of **ALL answered items 1–26** (≈330 questions, every answer with Robbins + Arif reference footers).
+- **[Systemic Correlation (type-wise) — README](systemic%20correlation/README.md)** — same Q&A **regrouped by type, not item**: necrosis/cell death · granuloma · thrombosis/embolism/infarction · vasculitis/HTN/aneurysm · ulcer · stone/crystal/calcification · tumour + markers · cyst/obstruction · valve/vegetation/shunt/heart failure · blood tests (enzyme/LFT/RFT/lipid/glucose/TFT/PSA) · fluids (urine/CSF/sputum/pleura/semen/Pap/FNAC) · organism-wise · emergency/complication/PBQ patterns.
 - **Highlights:** Item 1 (vessels/lipid) · 2–3 (heart) · 4–5 (lung/TB/COPD/cancer) · 6–8 (kidney/UTI/RFT/tumours/bladder) · 9–11 (oral→GIT) · 12–14 (hepatobiliary/pancreas) · 15 (testis/prostate/semen) · 16–17 (female genital + CIN/Pap + ovary/pregnancy test) · 18–19 (breast/thyroid) · 20 (DM/OGTT/Benedict) · 21 (eye-ENT-CNS/CSF) · 22 (bone/joint/STT) · 23 (skin) · 24–26 (histo-cyto techniques/FNAC).
 
 ---

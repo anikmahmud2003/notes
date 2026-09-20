@@ -12,6 +12,7 @@ Everything study-related, in one repo, readable from any browser.
 | [Pathology/](Pathology/) | Full Robbins-based Pathology notes + item-set question banks |
 | [Pathology/robbins/](Pathology/robbins/) | Robbins & Cotran chapter notes — 29 chapters, index, start-here guide |
 | [Pathology/systemic pathology set questions/](Pathology/systemic%20pathology%20set%20questions/) | Systemic Pathology item-set question bank with answers (all Items 1–26, ≈330 Qs, Robbins + Arif references) |
+| [Pathology/systemic correlation/](Pathology/systemic%20correlation/) | Systemic Pathology type-wise correlation notes (same Q&A regrouped: necrosis, granuloma, thrombus, vessel, ulcer, stone, tumour+markers, cyst, valve/shunt, blood tests, fluids, organisms, emergency/PBQ) |
 | [Pathology/Arif Pathology/](Pathology/Arif%20Pathology/) | Arif's Pathology & Haematology 15e (2025) — extracted Vol-1 & Vol-2 chapter notes (MD) |
 | [TMJ-Complete-Reference.html](TMJ-Complete-Reference.html) | Temporomandibular Joint — the complete reference (Anatomy → Imaging → Treatment) |
 | [community/](community/) | Endeavour Community Medicine — full book text, board question sets & Viva bank |
