@@ -1,8 +1,8 @@
 # 2nd Term Comprehensive Notes — Split Topic-wise
 
-> **Source:** [`../2nd_Term_Comprehensive_Notes.html`](../2nd_Term_Comprehensive_Notes.html) — Microbiology 2nd term (SZMC), 350 Q&A cards.
+> **Source:** [`../2nd_Term_Comprehensive_Notes.html`](../2nd_Term_Comprehensive_Notes.html) — Microbiology 2nd term (SZMC), 338 Q&A cards.
 
-> **Format:** The same 350 cards split into 35 topic pages. Every `<article>` card is copied **verbatim** — not a single letter changed. Images are duplicated into this folder so relative paths stay valid.
+> **Format:** The same 338 cards split into 34 topic pages. Every `<article>` card is copied **verbatim** — not a single letter changed. Images are duplicated into this folder so relative paths stay valid.
 
 > **Start here:** [`index.html`](index.html) — connector page listing all topics by subject (search + links).
 
@@ -26,7 +26,7 @@
 
 | Topic | Range | Qs | File |
 |---|---|:--:|---|
-| General Parasitology — Parasite & Host | P1–P13 | 13 | [Parasitology-01-General-Parasite-Host.html](Parasitology-01-General-Parasite-Host.html) · [.md](Parasitology-01-General-Parasite-Host.md) |
+| General Parasitology — Parasite & Host | P1–P13 | 13 | [Parasitology-01-General-Parasite-Host.html](Parasitology-01-General-Parasite-Host.html) |
 | General Parasitology — Transmission & Clinical | P14–P28 | 15 | [Parasitology-02-General-Transmission-Clinical.html](Parasitology-02-General-Transmission-Clinical.html) |
 | Protozoa — General | P29–P40 | 12 | [Parasitology-03-Protozoa-General.html](Parasitology-03-Protozoa-General.html) |
 | Amoebiasis & Free-living Amoeba | P41–P52 | 12 | [Parasitology-04-Amoebiasis.html](Parasitology-04-Amoebiasis.html) |
@@ -38,7 +38,7 @@
 | Nematodes — General & Intestinal Worms | P122–P146 | 25 | [Parasitology-10-Nematodes-Intestinal.html](Parasitology-10-Nematodes-Intestinal.html) |
 | Filariasis & Tissue Nematodes | P147–P159 | 13 | [Parasitology-11-Filariasis-Tissue-Nematodes.html](Parasitology-11-Filariasis-Tissue-Nematodes.html) |
 
-### Virology (140)
+### Virology (128)
 
 | Topic | Range | Qs | File |
 |---|---|:--:|---|
@@ -50,7 +50,6 @@
 | Herpesvirus Family | V55–V59 | 5 | [Virology-06-Herpesvirus.html](Virology-06-Herpesvirus.html) |
 | Hepatitis Viruses | V60–V75 | 16 | [Virology-07-Hepatitis.html](Virology-07-Hepatitis.html) |
 | Immunity, Vaccines & Prophylaxis | V76–V86 | 11 | [Virology-08-Immunity-Vaccines-Prophylaxis.html](Virology-08-Immunity-Vaccines-Prophylaxis.html) |
-| Respiratory & Rash Viruses | V87–V98 | 12 | [Virology-09-Respiratory-Rash-Viruses.html](Virology-09-Respiratory-Rash-Viruses.html) |
 | Polio & Neurotropic Viruses | V99–V110 | 12 | [Virology-10-Polio-Neurotropic-Viruses.html](Virology-10-Polio-Neurotropic-Viruses.html) |
 | Rotavirus, HIV/AIDS & STDs | V111–V124 | 14 | [Virology-11-Rotavirus-HIV-STD.html](Virology-11-Rotavirus-HIV-STD.html) |
 | Dengue & Arboviruses | V125–V129 | 5 | [Virology-12-Dengue-Arboviruses.html](Virology-12-Dengue-Arboviruses.html) |
@@ -69,8 +68,8 @@
 
 ## 📝 Notes
 
-- **Markdown twins:** every `.html` topic page also has a `.md` version (same text, Obsidian/vault-friendly, lossless round-trip verified).
+- **HTML-only:** the 338 cards are split into HTML pages only — the earlier `.md` twin files were removed; each page is self-contained.
 - **Content is untouched:** Each page's cards are byte-identical to the single comprehensive file — the split only re-wraps them in their own page shell.
 - **Navigation:** Every page has a search box plus 🏠 Index / ‹ Prev / Next › links in the toolbar.
-- **Connector page:** [`index.html`](index.html) is the entry point — it lists all 35 topics with ranges and question counts, and links back to the full single-file notes.
+- **Connector page:** [`index.html`](index.html) is the entry point — it lists all 34 topics with ranges and question counts, and links back to the full single-file notes.
 - **How to use:** Open [`index.html`](index.html) in any browser (or on GitHub Pages). Each file is self-contained — no external resources needed beyond the images in this folder.

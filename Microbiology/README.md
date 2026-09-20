@@ -7,11 +7,10 @@ All extractions live in [**second term/**](second term/):
 | File | Pages | Source | Notes |
 |------|-------|--------|-------|
 | [parasitology.md](second term/parasitology.md) | 54 | 1-54-pages.pdf | Direct text extraction (layout preserved) |
-| [55-138-pages.md](second term/55-138-pages.md) | 85 | 55-138-pages.pdf | Direct text extraction (layout preserved) |
 | [Mycology.md](second term/Mycology.md) | 40 | Mycology.pdf | OCR extraction (eng+ben, PDF/A-2B) |
 | [Virology.md](second term/Virology.md) | 125 | Virology.pdf | OCR extraction (eng+ben, 250 DPI) |
-| [2nd Term Comprehensive Notes](second term/2nd_Term_Comprehensive_Notes.html) | – | Questions raw.md + all 4 MDs | Interactive HTML: 350 Q&A cards, search + nav; each card = English answer → Bangla cross-questions → বাংলা ভাইভা ব্যাখ্যা |
-| [Split topic-wise index](second term/split/index.html) | – | 2nd_Term_Comprehensive_Notes.html | The same 350 cards split into 35 topic pages (search + prev/next nav on each) — content byte-identical to the single file |
+| [2nd Term Comprehensive Notes](second term/2nd_Term_Comprehensive_Notes.html) | – | Questions raw.md + the 3 topic MDs | Interactive HTML: 350 Q&A cards, search + nav; each card = English answer → Bangla cross-questions → বাংলা ভাইভা ব্যাখ্যা |
+| [Split topic-wise index](second term/split/index.html) | – | 2nd_Term_Comprehensive_Notes.html | The same cards split into topic pages (search + prev/next nav on each) — content byte-identical to the single file |
 
 ## Split topic-wise pages ([↗ live index](second term/split/index.html))
 
@@ -45,7 +44,7 @@ Every `<article>` card is copied verbatim from the comprehensive notes — no le
 | Nematodes — General & Intestinal Worms | P122–P146 | 25 | [Parasitology-10-Nematodes-Intestinal.html](second term/split/Parasitology-10-Nematodes-Intestinal.html) |
 | Filariasis & Tissue Nematodes | P147–P159 | 13 | [Parasitology-11-Filariasis-Tissue-Nematodes.html](second term/split/Parasitology-11-Filariasis-Tissue-Nematodes.html) |
 
-**Virology (140)**
+**Virology (128)**
 
 | Topic | Range | Qs | File |
 |---|---|:--:|---|
@@ -57,7 +56,6 @@ Every `<article>` card is copied verbatim from the comprehensive notes — no le
 | Herpesvirus Family | V55–V59 | 5 | [Virology-06-Herpesvirus.html](second term/split/Virology-06-Herpesvirus.html) |
 | Hepatitis Viruses | V60–V75 | 16 | [Virology-07-Hepatitis.html](second term/split/Virology-07-Hepatitis.html) |
 | Immunity, Vaccines & Prophylaxis | V76–V86 | 11 | [Virology-08-Immunity-Vaccines-Prophylaxis.html](second term/split/Virology-08-Immunity-Vaccines-Prophylaxis.html) |
-| Respiratory & Rash Viruses | V87–V98 | 12 | [Virology-09-Respiratory-Rash-Viruses.html](second term/split/Virology-09-Respiratory-Rash-Viruses.html) |
 | Polio & Neurotropic Viruses | V99–V110 | 12 | [Virology-10-Polio-Neurotropic-Viruses.html](second term/split/Virology-10-Polio-Neurotropic-Viruses.html) |
 | Rotavirus, HIV/AIDS & STDs | V111–V124 | 14 | [Virology-11-Rotavirus-HIV-STD.html](second term/split/Virology-11-Rotavirus-HIV-STD.html) |
 | Dengue & Arboviruses | V125–V129 | 5 | [Virology-12-Dengue-Arboviruses.html](second term/split/Virology-12-Dengue-Arboviruses.html) |
@@ -79,6 +77,6 @@ copies have no password. Originals left untouched.
 
 ## Notes
 
-- parasitology (1-54) and 55-138 cover Parasitology (intro + protozoa, e.g. Plasmodium).
+- parasitology (1-54) covers Parasitology (intro + protozoa, e.g. Plasmodium).
 - Mycology and Virology were scanned images (CamScanner) → OCR'd with
   Tesseract (`eng+ben`). Minor OCR noise is expected; every page is included.

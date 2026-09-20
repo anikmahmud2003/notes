@@ -120,14 +120,14 @@
   <h2>Topic-wise split · Mycology · Parasitology · Virology · Molecular Biology</h2>
   <div class="rule"></div>
   <div class="meta">Click any topic to open its split page — all content unchanged (not a single letter)</div>
-  <div class="badges"><span class="badge">🟢 Mycology (33)</span><span class="badge">🟣 Parasitology (159)</span><span class="badge">🔴 Virology (140)</span><span class="badge">🔵 Molecular Biology &amp; Biosafety (18)</span></div>
+  <div class="badges"><span class="badge">🟢 Mycology (33)</span><span class="badge">🟣 Parasitology (159)</span><span class="badge">🔴 Virology (128)</span><span class="badge">🔵 Molecular Biology &amp; Biosafety (18)</span></div>
 </div>
 
 <div class="toolbar">
   <div class="wrap inner">
     <div class="searchrow">
       <input id="search" type="text" placeholder="🔍 Filter topics…" oninput="filterIndex(this.value)">
-      <span class="counter" id="shownCount">35 topics · 350 questions</span>
+      <span class="counter" id="shownCount">34 topics · 338 questions</span>
     </div>
     <div class="navlinks"><a href="../2nd_Term_Comprehensive_Notes.html">📄 Full notes (single file)</a></div>
   </div>
@@ -166,7 +166,7 @@
 </div>
 
 <div class="subject">
-  <div class="sec-head"><div class="num">🧫</div><div><h2>Virology</h2><div class="en">V1–V140 · 140 questions</div></div></div>
+  <div class="sec-head"><div class="num">🧫</div><div><h2>Virology</h2><div class="en">V1–V140 · 128 questions</div></div></div>
   <div class="tgrid">
       <a class="tlink" href="Virology-01-General-Virology-Structure.html"><span class="tno">V1–V15</span><span class="tt">General Virology — Structure &amp; Classification</span><span class="tq">15 questions</span><span class="td">Virus definition &amp; structure, envelope, defective forms, prions, virus resistance, ICTV &amp; Baltimore classification</span></a>
       <a class="tlink" href="Virology-02-Virus-Lists.html"><span class="tno">V16–V22</span><span class="tt">Important Virus Lists</span><span class="tq">7 questions</span><span class="td">RNA &amp; DNA viruses, enveloped &amp; naked viruses, HPV &amp; Parvo B19 diseases</span></a>
@@ -176,7 +176,6 @@
       <a class="tlink" href="Virology-06-Herpesvirus.html"><span class="tno">V55–V59</span><span class="tt">Herpesvirus Family</span><span class="tq">5 questions</span><span class="td">HSV-1/HSV-2 differences, CMV, EBV, latency sites</span></a>
       <a class="tlink" href="Virology-07-Hepatitis.html"><span class="tno">V60–V75</span><span class="tt">Hepatitis Viruses</span><span class="tq">16 questions</span><span class="td">Hepatotropic viruses, comparison, seromarkers, window period, prevention, needle stick injury</span></a>
       <a class="tlink" href="Virology-08-Immunity-Vaccines-Prophylaxis.html"><span class="tno">V76–V86</span><span class="tt">Immunity, Vaccines &amp; Prophylaxis</span><span class="tq">11 questions</span><span class="td">Opsonization, hypersensitivity, drug routes, endotoxin/exotoxin, toxoids, live vs killed vaccines</span></a>
-      <a class="tlink" href="Virology-09-Respiratory-Rash-Viruses.html"><span class="tno">V87–V98</span><span class="tt">Respiratory &amp; Rash Viruses</span><span class="tq">12 questions</span><span class="td">Influenza, orthomyxo vs paramyxo, antigenic drift/shift, measles, RSV, BCG vaccine</span></a>
       <a class="tlink" href="Virology-10-Polio-Neurotropic-Viruses.html"><span class="tno">V99–V110</span><span class="tt">Polio &amp; Neurotropic Viruses</span><span class="tq">12 questions</span><span class="td">OPV vs IPV, poliomyelitis, flaccid/spastic paralysis, rabies &amp; PEP, encephalitis, herd immunity</span></a>
       <a class="tlink" href="Virology-11-Rotavirus-HIV-STD.html"><span class="tno">V111–V124</span><span class="tt">Rotavirus, HIV/AIDS &amp; STDs</span><span class="tq">14 questions</span><span class="td">Rotavirus, HIV morphology/pathogenesis/diagnosis/treatment, vertical transmission, STDs, syphilis vs gonorrhea</span></a>
       <a class="tlink" href="Virology-12-Dengue-Arboviruses.html"><span class="tno">V125–V129</span><span class="tt">Dengue &amp; Arboviruses</span><span class="tq">5 questions</span><span class="td">Dengue fever, pathogenesis, treatment &amp; prevention, Dengue vs Chikungunya, vector control</span></a>
@@ -205,7 +204,7 @@
     let shown=0;
     ls.forEach(l=>{const hit=l.textContent.toLowerCase().includes(term);l.style.display=hit?'':'none';if(hit)shown++;});
     const cnt=document.getElementById('shownCount');
-    if(cnt) cnt.textContent=term? shown+' / '+ls.length+' topics' : ls.length+' topics · 350 questions';
+    if(cnt) cnt.textContent=term? shown+' / '+ls.length+' topics' : ls.length+' topics · 338 questions';
   }
 </script></body>
 </html>
