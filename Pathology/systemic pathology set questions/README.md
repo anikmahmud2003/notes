@@ -6,6 +6,8 @@
 > with a 📖/📗 citation footer under **every single answer**.
 >
 > 🩺 **How to use:** open the markdown (`.md`) file for your item → each question is fully answered with **tables**, **mnemonic one-liners** (🎯) and **bold key points** (🔴/📌) for viva prep.
+>
+> 📦 **Single-file copy:** [All_Items_1-26_Merged.md](All_Items_1-26_Merged.md) — Items 1–26 byte-identical merge (same Q&A, one file, with clickable contents).
 
 ---
 
