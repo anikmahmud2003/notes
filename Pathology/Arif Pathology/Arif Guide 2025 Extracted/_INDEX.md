@@ -65,3 +65,11 @@
 | V2-ch30_Miscellaneous | Unit-Ii  — Miscellaneous | pp. 499–499 |
 | V2-ch31_MCQs-Clinical-Pathology | Unit-Ii  — MCQs — Clinical Pathology | pp. 500–510 |
 | V2-ch32_Back-Matter | Back Matter | pp. 511–512 |
+
+## 🧠 Anki deck
+
+An Anki-importable flashcard deck generated from **all** the files above lives in
+[`anki/`](anki/README.md) — 2,173 Basic + 2,258 Cloze cards with subdecks per unit,
+MCQ answer highlighting, comparison tables, and CSS styling.
+See [`anki/README.md`](anki/README.md) for import instructions.
+
