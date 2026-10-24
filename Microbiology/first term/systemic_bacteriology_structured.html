@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systemic Bacteriology - Structured Correlated Notes</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --secondary: #34a853;
+            --accent: #ea4335;
+            --warning: #fbbc05;
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --text: #202124;
+            --text-light: #5f6368;
+            --border: #dadce0;
+            --code-bg: #f1f3f4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            line-height: 1.7;
+            background-color: var(--bg);
+            color: var(--text);
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #0d47a1 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 5px;
+        }
+        
+        header .credit {
+            font-size: 0.9em;
+            opacity: 0.85;
+            font-style: italic;
+        }
+        
+        nav {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        
+        nav h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 10px;
+        }
+        
+        nav ul li a {
+            color: var(--text);
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+        }
+        
+        nav ul li a:hover {
+            background-color: #e8f0fe;
+            color: var(--primary);
+            border-left-color: var(--primary);
+            padding-left: 20px;
+        }
+        
+        .section {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        
+        .section h2 {
+            color: var(--primary);
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section h3 {
+            color: var(--secondary);
+            font-size: 1.4em;
+            margin: 30px 0 15px 0;
+            padding: 10px 15px;
+            background: linear-gradient(to right, #e8f5e9, transparent);
+            border-left: 4px solid var(--secondary);
+            border-radius: 4px;
+        }
+        
+        .section h4 {
+            color: var(--text);
+            font-size: 1.2em;
+            margin: 25px 0 12px 0;
+            font-weight: 600;
+        }
+        
+        .question-block {
+            background: linear-gradient(to right, #fff3e0, #ffffff);
+            border: 2px solid var(--warning);
+            border-radius: 10px;
+            padding: 20px 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(251, 188, 5, 0.1);
+        }
+        
+        .question-block .q-number {
+            display: inline-block;
+            background: var(--warning);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        
+        .question-block .question {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #e65100;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .answer {
+            background: #f1f8e9;
+            border-left: 4px solid var(--secondary);
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+        
+        .answer strong {
+            color: var(--secondary);
+        }
+        
+        .key-point {
+            background: #ffebee;
+            border-left: 4px solid var(--accent);
+            padding: 12px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 12px 0;
+        }
+        
+        .key-point::before {
+            content: "🔴 ";
+        }
+        
+        .mnemonic {
+            background: #e3f2fd;
+            border: 1px dashed var(--primary);
+            padding: 12px 18px;
+            border-radius: 8px;
+            margin: 12px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .mnemonic::before {
+            content: "🎯 ";
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        thead {
+            background: linear-gradient(to right, var(--primary), #1565c0);
+            color: white;
+        }
+        
+        th {
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+            line-height: 1.7;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        .card h4 {
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        
+        .flow-diagram {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid var(--border);
+            text-align: center;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            line-height: 1.8;
+        }
+        
+        code {
+            background: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-light);
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            nav ul {
+                grid-template-columns: 1fr;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦠 Systemic Bacteriology - Structured Correlated Notes</h1>
+            <p class="subtitle">Comprehensive, Question-Oriented Revision Notes</p>
+            <p class="credit">Based on Systemic Bacteriology Lectures - Department of Microbiology, Shaheed Ziaur Rahman Medical College, Bogura</p>
+            <p class="credit">Compiled & Correlated | Organized for Exam Preparation</p>
+        </header>
+        
+        <nav>
+            <h2>📑 Table of Contents</h2>
+            <ul>
+                <li><a href="#questions-answers">1. ALL QUESTIONS WITH ANSWERS (Exam-Oriented)</a></li>
+                <li><a href="#introduction">2. Introduction & Classification of Cocci</a></li>
+                <li><a href="#staphylococcus">3. Staphylococcus</a></li>
+                <li><a href="#streptococcus">4. Streptococcus</a></li>
+                <li><a href="#neisseria">5. Neisseria (Gram-Negative Cocci)</a></li>
+                <li><a href="#meningitis">6. Meningitis - Causative Agents & Lab Diagnosis</a></li>
+                <li><a href="#corynebacterium-listeria-bacillus">7. Corynebacterium, Listeria & Bacillus</a></li>
+                <li><a href="#mycobacterium">8. Mycobacterium (Tuberculosis & Leprosy)</a></li>
+                <li><a href="#enterobacteriaceae">9. Enterobacteriaceae</a></li>
+                <li><a href="#vibrio-pseudomonas-acinetobacter">10. Vibrio, Pseudomonas & Acinetobacter</a></li>
+                <li><a href="#helicobacter-campylobacter">11. Helicobacter & Campylobacter</a></li>
+                <li><a href="#anaerobes">12. Anaerobic Bacteria (Clostridium & Bacteroides)</a></li>
+                <li><a href="#spirochetes">13. Spirochetes</a></li>
+                <li><a href="#rickettsia-chlamydia-mycoplasma">14. Rickettsia, Chlamydia & Mycoplasma</a></li>
+                <li><a href="#miscellaneous">15. Miscellaneous Bacteria</a></li>
+            </ul>
+        </nav>
+
+        <!-- SECTION 1: ALL QUESTIONS WITH ANSWERS -->
+        <section id="questions-answers" class="section">
+            <h2>🎯 1. ALL QUESTIONS WITH ANSWERS (Exam-Oriented)</h2>
+            <p style="margin-bottom: 25px; color: var(--text-light); font-style: italic;">All questions collected from lecture sheets, arranged topic-wise with complete answers correlated from the entire content.</p>
+
+            <!-- STAPHYLOCOCCUS QUESTIONS -->
+            <h3>🔸 A. Staphylococcus Questions</h3>
+            
+            <div class="question-block">
+                <span class="q-number">Q1</span>
+                <div class="question">a) Classify staphylococcus on the basis of pathogenicity. ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Coagulase positive:</strong> <em>S. aureus</em> (highly pathogenic)</li>
+                        <li><strong>Coagulase negative:</strong>
+                            <ul>
+                                <li><em>S. epidermidis</em> (opportunistic pathogen)</li>
+                                <li><em>S. saprophyticus</em> (opportunistic pathogen)</li>
+                                <li>Others: <em>S. lugdunensis, S. schleiferi, S. haemolyticus, S. warneri</em></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q2</span>
+                <div class="question">b) How will you differentiate Staphylococcus and Streptococcus? ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <table>
+                        <thead>
+                            <tr><th>Feature</th><th>Staphylococcus</th><th>Streptococcus</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><strong>Arrangement</strong></td><td>Grape-like clusters (multiply in different planes)</td><td>Chains or pairs (multiply in a single plane)</td></tr>
+                            <tr><td><strong>Catalase test</strong></td><td>Positive</td><td>Negative</td></tr>
+                            <tr><td><strong>Colony on Nutrient agar</strong></td><td>Large, golden yellow (S. aureus)</td><td>Pin-point colonies</td></tr>
+                            <tr><td><strong>Hemolysis</strong></td><td>Usually β-hemolytic (S. aureus)</td><td>α, β or γ hemolysis</td></tr>
+                            <tr><td><strong>Pus character</strong></td><td>Thick, creamy, golden yellow</td><td>Thin, watery, whitish</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q3</span>
+                <div class="question">c) How will you differentiate the species of Staphylococcus? ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <table>
+                        <thead>
+                            <tr><th>Test</th><th><em>S. aureus</em></th><th><em>S. epidermidis</em></th><th><em>S. saprophyticus</em></th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><strong>Catalase</strong></td><td>Positive</td><td>Positive</td><td>Positive</td></tr>
+                            <tr><td><strong>Coagulase</strong></td><td>Positive</td><td>Negative</td><td>Negative</td></tr>
+                            <tr><td><strong>Hemolysis</strong></td><td>β-hemolysis</td><td>Non-hemolytic</td><td>Non-hemolytic</td></tr>
+                            <tr><td><strong>Mannitol fermentation</strong></td><td>Ferments mannitol</td><td>Does not ferment mannitol</td><td>Does not ferment mannitol</td></tr>
+                            <tr><td><strong>Novobiocin sensitivity</strong></td><td>Sensitive (variable)</td><td><strong>Sensitive</strong></td><td><strong>Resistant</strong></td></tr>
+                            <tr><td><strong>Pigment</strong></td><td>Golden yellow</td><td>White</td><td>White/Lemon yellow</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q4</span>
+                <div class="question">d) Mention the important properties of Staphylococcus aureus. **</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Gram stain:</strong> Gram-positive cocci, 1μm, arranged in grape-like clusters</li>
+                        <li><strong>Catalase:</strong> Positive</li>
+                        <li><strong>Coagulase:</strong> Positive</li>
+                        <li><strong>Hemolysis:</strong> β-hemolytic on blood agar</li>
+                        <li><strong>Mannitol:</strong> Ferments mannitol</li>
+                        <li><strong>Growth:</strong> Facultative anaerobe</li>
+                        <li><strong>Motility & Spore:</strong> Non-motile, non-spore forming</li>
+                        <li><strong>Capsule:</strong> Occasionally capsulated (microcapsule)</li>
+                        <li><strong>Pigment:</strong> Golden yellow due to staphyloxanthin</li>
+                        <li><strong>Normal habitat:</strong> Skin, anterior nares, nasopharynx</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q5</span>
+                <div class="question">e) Mention the important virulence factors/toxins & enzymes of S. aureus with functions. *</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <h4>A. Cell wall & associated components</h4>
+                    <ul>
+                        <li><strong>Protein A:</strong> Binds Fc of IgG → prevents complement activation & opsonization → anti-phagocytic</li>
+                        <li><strong>Teichoic acid & Lipoteichoic acid:</strong> Endotoxin-like activity, role in septic shock</li>
+                        <li><strong>Peptidoglycan:</strong> Endotoxin-like activity</li>
+                        <li><strong>Microcapsule:</strong> Inhibits phagocytosis</li>
+                        <li><strong>Clumping factor (Bound coagulase):</strong> Binds fibrinogen → forms clumps</li>
+                    </ul>
+                    <h4>B. Toxins</h4>
+                    <ul>
+                        <li><strong>Enterotoxins:</strong> Superantigen → staphylococcal food poisoning (prominent vomiting)</li>
+                        <li><strong>TSST-1 (Toxic Shock Syndrome Toxin):</strong> Superantigen → Toxic Shock Syndrome</li>
+                        <li><strong>Exfoliatin (Epidermolytic toxin):</strong> Protease → Scalded Skin Syndrome</li>
+                        <li><strong>Hemolysins (α,β,γ,δ):</strong> Lyse RBCs, γ also acts as leukocidin</li>
+                        <li><strong>P-V Leukocidin (Panton-Valentine):</strong> Pore-forming toxin, damages leukocytes</li>
+                    </ul>
+                    <h4>C. Enzymes</h4>
+                    <ul>
+                        <li><strong>Coagulase (free):</strong> Forms fibrin clot → walls off infection</li>
+                        <li><strong>Staphylokinase:</strong> Fibrinolysin</li>
+                        <li><strong>Hyaluronidase:</strong> Spreading factor</li>
+                        <li><strong>DNase/Nuclease:</strong> Liquefies pus</li>
+                        <li><strong>β-lactamase:</strong> Drug resistance (penicillinase)</li>
+                        <li><strong>Protease, Lipase, Catalase:</strong> Tissue invasion & survival</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q6</span>
+                <div class="question">f) Different diseases produced by S. aureus. ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="two-column">
+                        <div class="card">
+                            <h4>1. Pyogenic (Suppurative) Diseases</h4>
+                            <ul>
+                                <li>Skin: Boil, furuncle, carbuncle, folliculitis, impetigo</li>
+                                <li>Wound infections, abscesses</li>
+                                <li>Pneumonia (post-viral)</li>
+                                <li>Osteomyelitis</li>
+                                <li>Septicemia, Endocarditis</li>
+                                <li>Meningitis</li>
+                                <li>Conjunctivitis</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4>2. Toxigenic Diseases</h4>
+                            <ul>
+                                <li><strong>Staphylococcal food poisoning:</strong> Preformed enterotoxin</li>
+                                <li><strong>Toxic Shock Syndrome (TSS):</strong> TSST-1 mediated</li>
+                                <li><strong>Scalded Skin Syndrome (Ritter's disease):</strong> Exfoliatin mediated</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q7</span>
+                <div class="question">g) Importance of protein A.</div>
+                <div class="answer">
+                    <strong>Ans:</strong> Protein A is a cell wall component of <em>S. aureus</em>. It binds to the <strong>Fc portion of IgG</strong> at the complement binding site, preventing complement activation. As a result, <strong>C3b is not formed</strong>, opsonization is reduced and <strong>phagocytosis is prevented</strong>. This is an important anti-phagocytic virulence factor. <strong>Coagulase-negative staphylococci do not produce Protein A.</strong>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q8</span>
+                <div class="question">h) Give the mechanism of staphylococcal food poisoning. ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="flow-diagram">
+                        S. aureus grows in protein & carbohydrate-rich food (cream pastries, bakery items)<br>
+                        ↓<br>
+                        Preformed heat-stable Enterotoxin produced<br>
+                        ↓<br>
+                        Ingestion of contaminated food<br>
+                        ↓<br>
+                        Enterotoxin acts as a <strong>SUPERANTIGEN</strong> → directly activates CD4+ T cells<br>
+                        ↓<br>
+                        Release of IL-1 (from macrophages) & IL-2 (from CD4+ T cells)<br>
+                        ↓<br>
+                        GI damage & Mast cell activation → Serotonin release<br>
+                        ↓<br>
+                        Serotonin stimulates enteric nervous system via Vagus nerve<br>
+                        ↓<br>
+                        Acts on Vomiting Centre of CNS → <strong>Prominent vomiting followed by watery diarrhoea</strong>
+                    </div>
+                    <p class="key-point">Key: <strong>Prominent vomiting</strong> is characteristic of staphylococcal food poisoning. If loose motion comes first followed by vomiting → think gastroenteritis from other causes.</p>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q9</span>
+                <div class="question">i) What is MRSA, VRSA, VISA? **</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>MRSA (Methicillin Resistant Staphylococcus aureus):</strong> Resistant to methicillin and all β-lactam antibiotics due to <strong>mecA gene</strong> coding for altered Penicillin Binding Protein (PBP2a). Multi-drug resistant.</li>
+                        <li><strong>VISA (Vancomycin Intermediate Staphylococcus aureus):</strong> Shows intermediate resistance to vancomycin.</li>
+                        <li><strong>VRSA (Vancomycin Resistant Staphylococcus aureus):</strong> Fully resistant to vancomycin due to acquisition of <strong>vanA gene</strong> (usually from enterococci) substituting D-lactate for D-alanine in peptidoglycan.</li>
+                    </ul>
+                    <div class="key-point"><strong>Drug of choice for MRSA:</strong> Vancomycin. <strong>For VRSA/VISA:</strong> Daptomycin or Quinupristin-Dalfopristin.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q10</span>
+                <div class="question">j) Which antibiotic is suitable for treatment of MRSA? *</div>
+                <div class="answer">
+                    <strong>Ans:</strong> <strong>Vancomycin</strong> is the drug of choice for treatment of MRSA infections.
+                </div>
+            </div>
+
+            <!-- STREPTOCOCCUS QUESTIONS -->
+            <h3>🔸 B. Streptococcus Questions</h3>
+
+            <div class="question-block">
+                <span class="q-number">Q11</span>
+                <div class="question">1) Classify Streptococcus. ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong> Streptococci can be classified by various methods:
+                    <ul>
+                        <li><strong>A) By Hemolysis on Blood Agar:</strong> α, β, γ hemolytic</li>
+                        <li><strong>B) By Lancefield Classification (based on C-carbohydrate):</strong> Groups A to U</li>
+                        <li><strong>C) By Griffith Typing (based on M-protein):</strong> For Group A streptococci</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q12</span>
+                <div class="question">2) Classify Streptococcus on the basis of C-carbohydrate ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong> <strong>Lancefield classification</strong> (Rebecca Lancefield)
+                    <table>
+                        <thead><tr><th>Group</th><th>Species</th><th>Clinical Importance</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>Group A</strong></td><td><em>S. pyogenes</em></td><td>Most pathogenic, causes sore throat, RF, AGN</td></tr>
+                            <tr><td><strong>Group B</strong></td><td><em>S. agalactiae</em></td><td>Neonatal sepsis & meningitis</td></tr>
+                            <tr><td><strong>Group C</strong></td><td><em>S. dysgalactiae</em></td><td>Infrequently causes human disease</td></tr>
+                            <tr><td><strong>Group D</strong></td><td><em>E. faecalis, E. faecium, S. bovis</em></td><td>UTI, endocarditis</td></tr>
+                            <tr><td><strong>Groups E-H, K-U</strong></td><td>Various</td><td>Rarely cause human disease</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q13</span>
+                <div class="question">3) Classify Streptococcus on the basis of M- protein. **</div>
+                <div class="answer">
+                    <strong>Ans:</strong> Based on <strong>M-protein</strong> (type-specific antigen of Group A <em>S. pyogenes</em>), Griffith classified into <strong>more than 100 serotypes</strong>:
+                    <ul>
+                        <li><strong>Rheumatogenic strains:</strong> Cause <strong>Acute Rheumatic Fever (ARF)</strong> e.g. M types 1,3,5,6,14,18,19,24</li>
+                        <li><strong>Nephritogenic strains:</strong> Cause <strong>Acute Post-streptococcal Glomerulonephritis (APSGN)</strong> e.g. M types 2,12,49,55,57,59-61</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q14</span>
+                <div class="question">4) Classify Streptococcus on hemolytic property with example *****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <table>
+                        <thead><tr><th>Type</th><th>Appearance on Blood Agar</th><th>Examples</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>α-hemolysis (Partial)</strong></td><td>Green zone around colonies (Hb → biliverdin)</td><td><em>S. pneumoniae</em>, Viridans streptococci (<em>S. mutans, S. mitis, S. salivarius, S. sanguinis</em>)</td></tr>
+                            <tr><td><strong>β-hemolysis (Complete)</strong></td><td>Clear zone around colonies (Streptolysin O & S)</td><td><em>S. pyogenes</em> (Group A), <em>S. agalactiae</em> (Group B)</td></tr>
+                            <tr><td><strong>γ-hemolysis (None)</strong></td><td>No change around colonies</td><td><em>Enterococcus faecalis, E. faecium</em>, <em>S. bovis</em></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q15</span>
+                <div class="question">5) What are the diseases/immunological diseases caused by S. pyogenes? ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="two-column">
+                        <div class="card">
+                            <h4>1. Pyogenic (Suppurative)</h4>
+                            <ul>
+                                <li>Pharyngitis (sore throat)</li>
+                                <li>Impetigo/Pyoderma</li>
+                                <li>Erysipelas, Cellulitis</li>
+                                <li>Otitis media, Sinusitis</li>
+                                <li>Pneumonia</li>
+                                <li>Necrotizing fasciitis</li>
+                                <li>Puerperal sepsis</li>
+                                <li>Osteomyelitis, Meningitis</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4>2. Toxigenic</h4>
+                            <ul>
+                                <li><strong>Scarlet fever</strong> - due to Erythrogenic toxin</li>
+                                <li><strong>Streptococcal Toxic Shock Syndrome</strong> - due to Pyrogenic exotoxin A</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 15px;">
+                        <h4>3. Immunological (Non-suppurative)</h4>
+                        <ul>
+                            <li><strong>Acute Rheumatic Fever (ARF)</strong> - follows pharyngitis (2 weeks later), Type II hypersensitivity (molecular mimicry)</li>
+                            <li><strong>Acute Post-streptococcal Glomerulonephritis (APSGN)</strong> - follows pharyngitis or pyoderma (1-3 weeks later), mainly Type III hypersensitivity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q16</span>
+                <div class="question">6) State the pathogenesis of AGN/Post streptococcal AGN **</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="flow-diagram">
+                        Nephritogenic strain of S. pyogenes (skin infection/pyoderma or rarely pharyngitis)<br>
+                        ↓<br>
+                        Antibody formation against M-protein<br>
+                        ↓<br>
+                        Formation of <strong>Antigen-Antibody (Immune) Complex</strong> in circulation<br>
+                        ↓<br>
+                        Deposition of immune complex in <strong>Glomerular Basement Membrane</strong><br>
+                        ↓<br>
+                        Activation of Complement (C3)<br>
+                        ↓<br>
+                        C3a, C5a act as chemotactic factors → Neutrophil aggregation<br>
+                        ↓<br>
+                        Release of lysosomal enzymes & toxins from neutrophils<br>
+                        ↓<br>
+                        <strong>Glomerular injury → Acute Glomerulonephritis</strong>
+                    </div>
+                    <div class="key-point">Type: Mainly <strong>Type III hypersensitivity</strong> (Immune complex mediated)</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q17</span>
+                <div class="question">7) State the pathogenesis of rheumatic fever. ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="flow-diagram">
+                        Rheumatogenic strain of S. pyogenes causing pharyngitis (M types 1,3,5,6,14,18,19,24)<br>
+                        ↓<br>
+                        Antibody formation against streptococcal M-protein<br>
+                        ↓<br>
+                        <strong>Molecular mimicry:</strong> These antibodies cross-react with host tissue antigens<br>
+                        (Heart valve glycoproteins, Cardiac myosin, Joint tissues, sometimes Brain)<br>
+                        ↓<br>
+                        Autoimmune reaction<br>
+                        ↓<br>
+                        <strong>Type II Hypersensitivity Reaction</strong><br>
+                        ↓<br>
+                        Inflammation of heart (carditis), joints (arthritis), CNS (chorea), skin (erythema marginatum, subcutaneous nodules)<br>
+                        ↓<br>
+                        <strong>Acute Rheumatic Fever</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q18</span>
+                <div class="question">8) What is ASO titer?</div>
+                <div class="answer">
+                    <strong>Ans:</strong> <strong>ASO (Anti-Streptolysin O) titer</strong> is the estimation of antibodies against <strong>Streptolysin O</strong> produced by <em>S. pyogenes</em>. 
+                    <ul>
+                        <li><strong>Normal value:</strong> < 200 Todd units/ml (varies by lab)</li>
+                        <li><strong>Significance:</strong> Elevated in most streptococcal infections except pyoderma and post-streptococcal glomerulonephritis</li>
+                        <li><strong>Diagnostic use:</strong> Important in diagnosis of <strong>Acute Rheumatic Fever</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q19</span>
+                <div class="question">9) Mention the important properties of S. pneumoniae.</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Gram stain:</strong> Gram-positive diplococci, <strong>lancet-shaped</strong></li>
+                        <li><strong>Capsule:</strong> Prominent polysaccharide capsule (antiphagocytic) - basis for Quellung reaction</li>
+                        <li><strong>Hemolysis:</strong> α-hemolysis on blood agar</li>
+                        <li><strong>Optochin:</strong> Sensitive</li>
+                        <li><strong>Bile solubility:</strong> Positive</li>
+                        <li><strong>Inulin fermentation:</strong> Positive</li>
+                        <li><strong>Catalase:</strong> Negative</li>
+                        <li><strong>Growth:</strong> Enhanced by 5-10% CO₂</li>
+                        <li><strong>Habitat:</strong> Upper respiratory tract commensal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q20</span>
+                <div class="question">10) Mention the predisposing factors of S. pneumoniae. *</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Depressed cough reflex:</strong> Alcoholism, drug intoxication, cerebral impairment</li>
+                        <li><strong>Abnormal mucociliary clearance:</strong> Viral infections, smoking, bronchial obstruction</li>
+                        <li><strong>Circulatory disorders:</strong> Pulmonary congestion, congestive cardiac failure</li>
+                        <li><strong>Splenectomy:</strong> Loss of splenic clearance of capsulated bacteria</li>
+                        <li><strong>Chronic diseases:</strong> Sickle cell anemia, nephrotic syndrome (spleen auto-infarcts in sickle cell)</li>
+                        <li><strong>Head trauma:</strong> CSF leakage through nose</li>
+                        <li><strong>Immunocompromised states</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q21</span>
+                <div class="question">11) Differentiate the skin lesion of Staphylococcus and Streptococcus infection. **</div>
+                <div class="answer">
+                    <strong>Ans:</strong> See comparison table below (also in differences section)
+                    <table>
+                        <thead><tr><th>Feature</th><th><em>Staphylococcus aureus</em></th><th><em>Streptococcus pyogenes</em></th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>Lesion type</strong></td><td>Localized (boil, furuncle, carbuncle)</td><td>Spreading (erysipelas, cellulitis)</td></tr>
+                            <tr><td><strong>Reason</strong></td><td>Coagulase forms fibrin clot → localizes infection</td><td>Hyaluronidase (stronger) spreads rapidly</td></tr>
+                            <tr><td><strong>Pus</strong></td><td>Thick, creamy, golden yellow</td><td>Thin, watery, whitish</td></tr>
+                            <tr><td><strong>Arrangement</strong></td><td>Clusters</td><td>Chains</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- NEISSERIA QUESTIONS -->
+            <h3>🔸 C. Neisseria Questions</h3>
+
+            <div class="question-block">
+                <span class="q-number">Q22</span>
+                <div class="question">2) What are the virulence factors of N. gonorrhoeae? ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Pili:</strong> Attachment to genital mucosa, antiphagocytic</li>
+                        <li><strong>Opa proteins (Protein II):</strong> Adhesion & invasion</li>
+                        <li><strong>Por protein (Protein I):</strong> Prevents phagolysosome fusion, binds C3b</li>
+                        <li><strong>Rmp (Reduction modifiable protein):</strong> Forms pores with Por protein</li>
+                        <li><strong>Lipooligosaccharide (LOS):</strong> Endotoxic activity</li>
+                        <li><strong>IgA protease:</strong> Cleaves secretory IgA</li>
+                        <li><strong>β-lactamase (Penicillinase):</strong> In PPNG strains (plasmid mediated)</li>
+                        <li><strong>Iron binding protein (Fbp)</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q23</span>
+                <div class="question">3) Discuss the pathogenesis of gonorrhea. *</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="flow-diagram">
+                        Sexual contact / birth<br>
+                        ↓<br>
+                        Attachment to <strong>columnar non-ciliated epithelium</strong> of urethra/cervix by Pili & Opa proteins<br>
+                        ↓<br>
+                        IgA protease hydrolyzes secretory IgA<br>
+                        ↓<br>
+                        Local cellular invasion<br>
+                        ↓<br>
+                        Marked PMN response & phagocytosis<br>
+                        ↓<br>
+                        Por protein prevents phagolysosome fusion → survival inside neutrophils<br>
+                        ↓<br>
+                        Inflammation extends to submucosa<br>
+                        ↓<br>
+                        <strong>Gonorrhea (urethritis/cervicitis)</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q24</span>
+                <div class="question">4) State the lab dx of gonorrhea/gonococcal urethritis or prostatitis. *****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <h4>1. Specimen Collection</h4>
+                    <ul>
+                        <li><strong>Male (acute):</strong> Urethral discharge</li>
+                        <li><strong>Male (chronic):</strong> Prostatic smear after prostatic massage</li>
+                        <li><strong>Female:</strong> <strong>Endocervical swab</strong> (High vaginal swab not ideal)</li>
+                        <li><strong>Newborn:</strong> Conjunctival swab</li>
+                    </ul>
+                    <h4>2. Microscopy</h4>
+                    <ul>
+                        <li><strong>Gram stain:</strong> Gram-negative diplococci, <strong>kidney-shaped</strong>, <strong>intracellular</strong> within polymorphs (highly diagnostic)</li>
+                    </ul>
+                    <h4>3. Culture</h4>
+                    <ul>
+                        <li><strong>Media:</strong> Thayer-Martin media or New York City media (modified chocolate agar with antibiotics)</li>
+                        <li><strong>Conditions:</strong> 5-10% CO₂ (Candle jar), 37°C</li>
+                        <li><strong>Transport:</strong> Stuart's or Amies transport medium</li>
+                    </ul>
+                    <h4>4. Biochemical Tests</h4>
+                    <ul>
+                        <li><strong>Oxidase test:</strong> Positive</li>
+                        <li><strong>Sugar fermentation:</strong> Glucose fermented, <strong>Maltose NOT fermented</strong></li>
+                    </ul>
+                    <h4>5. Confirmatory</h4>
+                    <ul>
+                        <li><strong>PCR:</strong> Rapid, sensitive & specific (confirmatory)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q25</span>
+                <div class="question">6) Discuss the complication of gonorrhea ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="two-column">
+                        <div class="card">
+                            <h4>In Males</h4>
+                            <ul>
+                                <li>Epididymitis</li>
+                                <li>Prostatitis</li>
+                                <li>Urethral stricture (from fibrosis)</li>
+                                <li>Proctitis (anal intercourse)</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h4>In Females</h4>
+                            <ul>
+                                <li>Salpingitis</li>
+                                <li>Pelvic Inflammatory Disease (PID)</li>
+                                <li><strong>Infertility</strong> (20% of salpingitis cases)</li>
+                                <li><strong>Ectopic pregnancy</strong></li>
+                                <li>Bartholinitis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 15px;">
+                        <h4>Others</h4>
+                        <ul>
+                            <li><strong>Ophthalmia neonatorum:</strong> In newborns</li>
+                            <li><strong>Disseminated Gonococcal Infection (DGI):</strong> Arthritis, tenosynovitis, dermatitis, pustular skin lesions, septicemia (rare)</li>
+                            <li><strong>Pharyngitis, Proctitis</strong> depending on route</li>
+                        </ul>
+                    </div>
+                    <div class="key-point">DGI more common in individuals with <strong>deficiency of late complement components (C6-C9)</strong></div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q26</span>
+                <div class="question">7) "Gonorrhoea is a recurrent disease": Is it true or false? - Explain. *</div>
+                <div class="answer">
+                    <strong>Ans:</strong> <strong>TRUE</strong>
+                    <ul>
+                        <li><em>N. gonorrhoeae</em> is a <strong>facultative intracellular organism</strong> → survives inside neutrophils</li>
+                        <li>Treatment of intracellular organisms is difficult</li>
+                        <li>Females are often <strong>asymptomatic carriers</strong> → reservoir of infection</li>
+                        <li>Antigenic variation of pili & Opa proteins → reinfection possible</li>
+                        <li>No effective vaccine available</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q27</span>
+                <div class="question">10) What are the virulence factors of N. meningitidis? **</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ul>
+                        <li><strong>Polysaccharide capsule:</strong> Antiphagocytic (serogroups A,B,C,Y,W135)</li>
+                        <li><strong>Pili:</strong> Attachment to nasopharyngeal mucosa</li>
+                        <li><strong>IgA protease:</strong> Cleaves secretory IgA</li>
+                        <li><strong>Lipooligosaccharide (LOS):</strong> Endotoxic → causes septic shock, DIC, hemorrhage</li>
+                        <li><strong>Factor H Binding Protein (FHBP):</strong> Binds factor H → inhibits complement → reduces opsonization & MAC formation</li>
+                        <li><strong>Outer membrane proteins (Por A, Por B)</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q28</span>
+                <div class="question">11) State the pathogenesis of N. meningitidis. ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <div class="flow-diagram">
+                        Airborne droplet transmission<br>
+                        ↓<br>
+                        Colonization of <strong>nasopharynx</strong> (often asymptomatic)<br>
+                        ↓<br>
+                        Pili mediate attachment, IgA protease breaks down mucosal IgA, Capsule prevents phagocytosis<br>
+                        ↓<br>
+                        In susceptible individuals → invasion of mucosa<br>
+                        ↓<br>
+                        Entry into bloodstream → <strong>Meningococcemia</strong><br>
+                        ↓<br>
+                        Crosses blood-brain barrier → reaches meninges<br>
+                        ↓<br>
+                        <strong>Meningitis</strong> (with or without meningococcemia)
+                    </div>
+                    <div class="key-point">High risk in <strong>C6-C9 complement deficiency</strong></div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q29</span>
+                <div class="question">12) State the lab diagnosis of N. meningitidis. **</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <h4>Specimen:</h4> <strong>CSF</strong> (most important), blood, nasopharyngeal swab
+                    <h4>1. Microscopy</h4>
+                    <ul><li><strong>Gram stain of CSF:</strong> Gram-negative diplococci, <strong>lens/plano-convex shaped</strong>, intracellular & extracellular</li></ul>
+                    <h4>2. Culture</h4>
+                    <ul>
+                        <li><strong>Media:</strong> <strong>Chocolate agar</strong> (preferred for CSF as sterile) or Blood agar</li>
+                        <li><strong>Conditions:</strong> 5-10% CO₂, 37°C</li>
+                        <li><strong>Note:</strong> Thayer-Martin not necessary for CSF (no normal flora)</li>
+                    </ul>
+                    <h4>3. Biochemical</h4>
+                    <ul>
+                        <li><strong>Oxidase:</strong> Positive</li>
+                        <li><strong>Sugar fermentation:</strong> <strong>Glucose & Maltose</strong> fermented</li>
+                    </ul>
+                    <h4>4. Rapid tests</h4>
+                    <ul>
+                        <li><strong>Latex agglutination:</strong> Detects capsular antigen in CSF</li>
+                        <li><strong>Capsular swelling (Quellung) test</strong></li>
+                    </ul>
+                    <h4>5. Confirmatory</h4>
+                    <ul><li><strong>PCR</strong></li></ul>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q30</span>
+                <div class="question">13) Name five (05) capsulated organism. ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ol>
+                        <li><em><strong>Streptococcus pneumoniae</strong></em></li>
+                        <li><em><strong>Neisseria meningitidis</strong></em></li>
+                        <li><em><strong>Haemophilus influenzae</strong></em> (type b)</li>
+                        <li><em><strong>Klebsiella pneumoniae</strong></em></li>
+                        <li><em><strong>Bacillus anthracis</strong></em> (capsule made of <strong>D-glutamic acid</strong>)</li>
+                    </ol>
+                    <p><em>Others: S. pyogenes (hyaluronic acid capsule), some S. aureus strains (microcapsule)</em></p>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q31</span>
+                <div class="question">14) Enlist five (05) bacterial agents of STI/STD. ****</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <ol>
+                        <li><em><strong>Neisseria gonorrhoeae</strong></em> → Gonorrhea</li>
+                        <li><em><strong>Treponema pallidum</strong></em> → Syphilis</li>
+                        <li><em><strong>Haemophilus ducreyi</strong></em> → Chancroid</li>
+                        <li><em><strong>Chlamydia trachomatis</strong></em> → NGU, LGV</li>
+                        <li><em><strong>Klebsiella granulomatis</strong></em> (<em>Calymmatobacterium granulomatis</em>) → Granuloma inguinale</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q32</span>
+                <div class="question">15) Name the causative agents of meningitis/pyogenic meningitis. ********</div>
+                <div class="answer">
+                    <strong>Ans:</strong> <strong>Age-wise distribution:</strong>
+                    <table>
+                        <thead><tr><th>Age Group</th><th>Common Causative Agents</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>Neonates (0-2 months)</strong></td><td><em>E. coli</em>, Group B <em>Streptococcus</em> (<em>S. agalactiae</em>), <em>Listeria monocytogenes</em> (less common)</td></tr>
+                            <tr><td><strong>Infants & Preschool (2 months - 6 years)</strong></td><td><em>Haemophilus influenzae</em> type b, <em>Neisseria meningitidis</em>, <em>Streptococcus pneumoniae</em></td></tr>
+                            <tr><td><strong>Older children & Adults</strong></td><td><em>Neisseria meningitidis</em>, <em>Streptococcus pneumoniae</em></td></tr>
+                            <tr><td><strong>All age groups (important)</strong></td><td><em>Mycobacterium tuberculosis</em> (tubercular meningitis)</td></tr>
+                        </tbody>
+                    </table>
+                    <div class="key-point"><strong>Overall most common:</strong> <em>S. pneumoniae</em> & <em>N. meningitidis</em></div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <span class="q-number">Q33</span>
+                <div class="question">16) State the laboratory diagnosis of meningitis/pyogenic meningitis ***</div>
+                <div class="answer">
+                    <strong>Ans:</strong>
+                    <h4>Specimen:</h4> <strong>CSF</strong> (collected by lumbar puncture), blood for culture/serology
+                    <h4>1. Physical & Chemical Examination</h4>
+                    <table>
+                        <thead><tr><th>Parameter</th><th>Bacterial (Pyogenic)</th><th>TB</th><th>Viral</th><th>Fungal</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>Appearance</strong></td><td>Turbid/Purulent</td><td>Clear/Cloudy</td><td>Clear</td><td>Clear</td></tr>
+                            <tr><td><strong>Cells</strong></td><td>Neutrophilic (1000-5000/mm³)</td><td>Lymphocytic (100-600/mm³)</td><td>Lymphocytic (10-2000/mm³)</td><td>Mixed/Lymphocytic (40-200/mm³)</td></tr>
+                            <tr><td><strong>Protein</strong></td><td>↑↑ (marked)</td><td>↑↑</td><td>Normal/↑</td><td>↑</td></tr>
+                            <tr><td><strong>Glucose</strong></td><td><strong>↓ (marked)</strong></td><td>↓</td><td>Normal</td><td>↓</td></tr>
+                            <tr><td><strong>Chloride</strong></td><td>↓</td><td>↓</td><td>Normal</td><td>↓</td></tr>
+                        </tbody>
+                    </table>
+                    <h4>2. Microscopy</h4>
+                    <ul>
+                        <li><strong>Gram stain:</strong> Identify Gram+ve/-ve cocci/bacilli</li>
+                        <li><strong>AFB stain:</strong> For tubercular meningitis</li>
+                        <li><strong>India ink:</strong> For <em>Cryptococcus neoformans</em></li>
+                    </ul>
+                    <h4>3. Culture</h4>
+                    <ul>
+                        <li><strong>Pyogenic:</strong> Blood agar, Chocolate agar, MacConkey agar</li>
+                        <li><strong>TB:</strong> Lowenstein-Jensen media</li>
+                        <li><strong>Fungal:</strong> Sabouraud's Dextrose Agar (SDA)</li>
+                        <li><strong>Viral:</strong> Tissue/cell culture</li>
+                    </ul>
+                    <h4>4. Other Tests</h4>
+                    <ul>
+                        <li><strong>Latex agglutination test:</strong> Detect capsular antigens</li>
+                        <li><strong>Quellung reaction:</strong> For capsulated organisms</li>
+                        <li><strong>PCR:</strong> Rapid & confirmatory</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: CORRELATED CONTENT -->
+        <section id="introduction" class="section">
+            <h2>📚 2. Introduction & Classification of Cocci</h2>
+            <p style="margin-bottom: 20px;">Cocci are spherical bacteria. Classification is best done by Gram stain followed by catalase test, then hemolysis and further tests.</p>
+            
+            <h3>General Classification of Cocci</h3>
+            <div class="flow-diagram">
+                Gram Stain → <strong>Gram Positive Cocci</strong> (Violet) vs <strong>Gram Negative Cocci</strong> (Red)<br><br>
+                Gram +ve Cocci → <strong>Catalase Test</strong><br>
+                • Catalase +ve → <strong>Staphylococcus</strong> (clusters)<br>
+                • Catalase -ve → <strong>Streptococcus/Enterococcus</strong> (chains/pairs)<br><br>
+                Gram -ve Cocci → <strong>Neisseria, Moraxella, Veillonella</strong> (diplococci)
+            </div>
+
+            <h3>Differences Between Staphylococcus & Streptococcus</h3>
+            <table>
+                <thead><tr><th>Points</th><th>Staphylococcus</th><th>Streptococcus</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>Shape & Arrangement</strong></td><td>Round cocci, grape-like clusters</td><td>Round cocci, chains or pairs</td></tr>
+                    <tr><td><strong>Catalase</strong></td><td>Positive</td><td>Negative</td></tr>
+                    <tr><td><strong>Coagulase</strong></td><td>Present in S. aureus</td><td>Absent</td></tr>
+                    <tr><td><strong>Hemolysis</strong></td><td>Mostly β-hemolytic</td><td>α, β or γ</td></tr>
+                    <tr><td><strong>Colony</strong></td><td>Large, opaque</td><td>Small, translucent (pin-point)</td></tr>
+                    <tr><td><strong>Pus</strong></td><td>Thick, creamy</td><td>Thin, serous</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="staphylococcus" class="section">
+            <h2>🧫 3. Staphylococcus</h2>
+            <p><strong>General:</strong> Greek - <em>Staphyle</em> (bunch of grapes), <em>Kokkos</em> (berry). Multiply in different planes → cluster formation.</p>
+
+            <h3>Classification</h3>
+            <div class="two-column">
+                <div class="card">
+                    <h4>A) Based on Coagulase Production</h4>
+                    <ul>
+                        <li><strong>Coagulase positive:</strong> <em>S. aureus</em></li>
+                        <li><strong>Coagulase negative:</strong> <em>S. epidermidis, S. saprophyticus</em> & others</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>B) Based on Pigment Production</h4>
+                    <ul>
+                        <li><strong>S. aureus:</strong> Golden yellow (staphyloxanthin)</li>
+                        <li><strong>S. albus:</strong> White</li>
+                        <li><strong>S. citrus:</strong> Lemon yellow/greenish</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Disease Spectrum by Species</h3>
+            <table>
+                <thead><tr><th>Species</th><th>Diseases</th></tr></thead>
+                <tbody>
+                    <tr><td><strong><em>S. aureus</em></strong></td><td>Boil, carbuncle, impetigo, folliculitis, wound infection, food poisoning, TSS, SSS, pneumonia, osteomyelitis, endocarditis, septicemia</td></tr>
+                    <tr><td><strong><em>S. epidermidis</em></strong></td><td>Prosthetic device infections (heart valves, joints), IV catheter infections, CSF shunt infections, endocarditis</td></tr>
+                    <tr><td><strong><em>S. saprophyticus</em></strong></td><td><strong>UTI in sexually active young women</strong> (honeymoon cystitis) - 2nd common after E. coli</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Laboratory Diagnosis of S. aureus</h3>
+            <ol>
+                <li><strong>Specimen:</strong> Pus/swab from lesion (collect from base/margin, not center)</li>
+                <li><strong>Microscopy:</strong> Gram-positive cocci in clusters</li>
+                <li><strong>Culture:</strong>
+                    <ul>
+                        <li><strong>Nutrient agar:</strong> Golden yellow colonies</li>
+                        <li><strong>Blood agar:</strong> β-hemolysis</li>
+                        <li><strong>Mannitol Salt Agar:</strong> Selective & differential</li>
+                    </ul>
+                </li>
+                <li><strong>Biochemical:</strong> Catalase +, Coagulase +, Mannitol fermenter</li>
+                <li><strong>Molecular:</strong> PCR for MRSA/VISA/VRSA detection</li>
+            </ol>
+        </section>
+
+        <section id="streptococcus" class="section">
+            <h2>🔗 4. Streptococcus</h2>
+            <p><strong>General:</strong> <em>Streptos</em> = twisted/chain. Multiply in single plane → chain formation.</p>
+
+            <h3>Important Streptococcal Species</h3>
+            <ul>
+                <li><em>S. pyogenes</em> - Group A β-hemolytic</li>
+                <li><em>S. agalactiae</em> - Group B β-hemolytic</li>
+                <li><em>S. pneumoniae</em> - α-hemolytic, diplococci</li>
+                <li>Viridans group - α-hemolytic</li>
+                <li>Enterococcus (<em>E. faecalis, E. faecium</em>) - Group D</li>
+                <li><em>S. bovis/gallolyticus</em> - Group D</li>
+            </ul>
+
+            <h3>Virulence Factors of S. pyogenes</h3>
+            <div class="two-column">
+                <div class="card">
+                    <h4>A. Cell Wall</h4>
+                    <ul>
+                        <li><strong>M-protein:</strong> Anti-phagocytic (main)</li>
+                        <li><strong>C-carbohydrate:</strong> Group specificity</li>
+                        <li><strong>Hyaluronic acid capsule:</strong> Anti-phagocytic</li>
+                        <li><strong>Lipoteichoic acid:</strong> Adhesion</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>B. Toxins</h4>
+                    <ul>
+                        <li><strong>Streptolysin O:</strong> Oxygen-labile, antigenic (ASO)</li>
+                        <li><strong>Streptolysin S:</strong> Oxygen-stable, hemolytic</li>
+                        <li><strong>Erythrogenic toxin:</strong> Scarlet fever</li>
+                        <li><strong>Exotoxin B:</strong> Necrotizing fasciitis</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="margin-top: 15px;">
+                <h4>C. Enzymes</h4>
+                <ul>
+                    <li><strong>Streptokinase:</strong> Fibrinolytic (used therapeutically)</li>
+                    <li><strong>DNase (Streptodornase):</strong> Liquefies pus (stronger than staph)</li>
+                    <li><strong>Hyaluronidase:</strong> Spreading factor</li>
+                    <li><strong>C5a peptidase:</strong> Inhibits chemotaxis</li>
+                </ul>
+            </div>
+
+            <h3>Laboratory Diagnosis of S. pyogenes</h3>
+            <ol>
+                <li><strong>Specimen:</strong> Throat swab (pharyngitis) or wound swab (skin infection)</li>
+                <li><strong>Microscopy:</strong> Gram-positive cocci in chains</li>
+                <li><strong>Culture:</strong>
+                    <ul>
+                        <li><strong>Blood agar:</strong> Pin-point colonies with <strong>wide clear zone of β-hemolysis</strong></li>
+                        <li><strong>Crystal violet blood agar:</strong> Selective</li>
+                    </ul>
+                </li>
+                <li><strong>Biochemical:</strong> Catalase (-), <strong>Bacitracin sensitive</strong></li>
+                <li><strong>Serology:</strong> ASO titer (↑ in ARF), Anti-DNAse B (↑ in pyoderma & AGN)</li>
+            </ol>
+
+            <h3>Differences: ARF vs Post-Streptococcal GN</h3>
+            <table>
+                <thead><tr><th>Feature</th><th>Acute Rheumatic Fever</th><th>Post-Streptococcal GN</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>Preceding infection</strong></td><td>Pharyngitis only</td><td>Pharyngitis or Pyoderma</td></tr>
+                    <tr><td><strong>Latent period</strong></td><td>2 weeks</td><td>1-3 weeks</td></tr>
+                    <tr><td><strong>Strains</strong></td><td>Rheumatogenic</td><td>Nephritogenic</td></tr>
+                    <tr><td><strong>Hypersensitivity</strong></td><td><strong>Type II</strong> (molecular mimicry)</td><td><strong>Type III</strong> (immune complex)</td></tr>
+                    <tr><td><strong>ASO</strong></td><td>Markedly raised</td><td>May be normal or less raised</td></tr>
+                    <tr><td><strong>Complement (C3)</strong></td><td>Normal</td><td><strong>Low</strong></td></tr>
+                    <tr><td><strong>Recurrence</strong></td><td><strong>Common</strong></td><td>Rare/Absent</td></tr>
+                    <tr><td><strong>Prophylaxis</strong></td><td><strong>Long-term penicillin</strong></td><td>Not required</td></tr>
+                    <tr><td><strong>Prognosis</strong></td><td>Variable</td><td>Generally good (spontaneous resolution)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="neisseria" class="section">
+            <h2>🧬 5. Neisseria (Gram-Negative Cocci)</h2>
+            <p>Gram-negative diplococci. Aerobic, oxidase positive, fastidious.</p>
+
+            <h3>Comparison: N. gonorrhoeae vs N. meningitidis</h3>
+            <table>
+                <thead><tr><th>Feature</th><th><em>N. gonorrhoeae</em> (Gonococcus)</th><th><em>N. meningitidis</em> (Meningococcus)</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>Habitat</strong></td><td>Genital tract</td><td>Nasopharynx (normal flora)</td></tr>
+                    <tr><td><strong>Capsule</strong></td><td>Absent</td><td><strong>Present</strong></td></tr>
+                    <tr><td><strong>Shape</strong></td><td>Kidney-shaped diplococci</td><td>Lens/plano-convex diplococci</td></tr>
+                    <tr><td><strong>Maltose fermentation</strong></td><td><strong>Negative</strong></td><td><strong>Positive</strong></td></tr>
+                    <tr><td><strong>Glucose fermentation</strong></td><td>Positive</td><td>Positive</td></tr>
+                    <tr><td><strong>Plasmid</strong></td><td>Usually present</td><td>Rare</td></tr>
+                    <tr><td><strong>β-lactamase</strong></td><td>Common (PPNG)</td><td>Rare</td></tr>
+                    <tr><td><strong>Location</strong></td><td>Predominantly intracellular</td><td>Intra & extracellular</td></tr>
+                    <tr><td><strong>Vaccine</strong></td><td>Not available</td><td>Available (Conjugate/Polysaccharide)</td></tr>
+                    <tr><td><strong>Disease</strong></td><td>Gonorrhea, Ophthalmia neonatorum, PID</td><td>Meningitis, Meningococcemia</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Culture Media for Neisseria</h3>
+            <ul>
+                <li><strong>Chocolate agar:</strong> Basic enriched media. Heat-lysed blood inactivates inhibitors.</li>
+                <li><strong>Thayer-Martin media:</strong> Modified chocolate agar + Vancomycin, Colistin, Nystatin, Trimethoprim. <strong>Selective for Neisseria</strong></li>
+                <li><strong>New York City media:</strong> Another selective medium</li>
+            </ul>
+            <div class="key-point"><strong>For CSF in meningitis:</strong> Use <strong>Chocolate agar</strong> (not Thayer-Martin) as CSF is sterile.</div>
+        </section>
+
+        <section id="meningitis" class="section">
+            <h2>🧠 6. Meningitis - Causative Agents & Lab Diagnosis</h2>
+            
+            <h3>Sexually Transmitted Infections/Diseases (STI/STD)</h3>
+            <table>
+                <thead><tr><th>Group</th><th>Causative Agent</th><th>Disease</th></tr></thead>
+                <tbody>
+                    <tr><td rowspan="5"><strong>Bacteria</strong></td><td><em>N. gonorrhoeae</em></td><td>Gonorrhea</td></tr>
+                    <tr><td><em>Treponema pallidum</em></td><td>Syphilis</td></tr>
+                    <tr><td><em>Haemophilus ducreyi</em></td><td>Chancroid</td></tr>
+                    <tr><td><em>Chlamydia trachomatis</em></td><td>LGV, NGU</td></tr>
+                    <tr><td><em>Klebsiella granulomatis</em></td><td>Granuloma inguinale (Donovanosis)</td></tr>
+                    <tr><td rowspan="4"><strong>Virus</strong></td><td>HIV</td><td>AIDS</td></tr>
+                    <tr><td>HSV-2</td><td>Genital herpes</td></tr>
+                    <tr><td>HBV, HCV</td><td>Hepatitis</td></tr>
+                    <tr><td>HPV</td><td>Genital warts</td></tr>
+                    <tr><td><strong>Parasite</strong></td><td><em>Trichomonas vaginalis</em></td><td>Trichomoniasis</td></tr>
+                    <tr><td><strong>Fungus</strong></td><td><em>Candida albicans</em></td><td>Vaginal candidiasis</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Causes of Urethritis</h3>
+            <ul>
+                <li><strong>Gonococcal:</strong> <em>N. gonorrhoeae</em></li>
+                <li><strong>Non-gonococcal (NGU):</strong> <em>Chlamydia trachomatis, Mycoplasma genitalium, Ureaplasma urealyticum, Trichomonas vaginalis, Candida, HSV-2</em></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📊 Quick Revision Summary</h2>
+            
+            <div class="two-column">
+                <div class="card">
+                    <h4>Must Know Catalase/Coagulase</h4>
+                    <ul>
+                        <li><strong>Staph:</strong> Catalase +, Coagulase + (<em>S. aureus</em>)</li>
+                        <li><strong>Strep/Entero:</strong> Catalase -</li>
+                        <li><strong>Neisseria:</strong> Oxidase +, Catalase +</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Key Drug Choices</h4>
+                    <ul>
+                        <li><strong>MRSA:</strong> Vancomycin</li>
+                        <li><strong>VRSA/VISA:</strong> Daptomycin/Quinupristin-Dalfopristin</li>
+                        <li><strong>S. pneumoniae meningitis:</strong> Ceftriaxone (+ Vancomycin)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mnemonic">
+                <strong>For Meningitis Age-wise:</strong> "ELHS" - E.coli, Listeria (neonates), H.influenzae, S.pneumoniae + N.meningitidis in older
+            </div>
+            
+            <div class="mnemonic">
+                <strong>Neisseria sugar fermentation:</strong> "Gonorrhea ferments Glucose only. Meningitis ferments Glucose + Maltose"
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>📝 Systemic Bacteriology - Structured Correlated Notes</p>
+            <p>Created for comprehensive exam preparation | All questions answered | Full correlation maintained</p>
+            <p style="margin-top: 10px;">Source: systemic_bacteriology_ocr.md | Department of Microbiology, SZMC, Bogura</p>
+        </footer>
+    </div>
+</body>
+</html>
