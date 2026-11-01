@@ -41,6 +41,9 @@
 | **24** | Histo-cytopathological sample collection, preservation, transport & processing | [Item-24_Sample_Collection_Preservation_Processing.md](Item-24_Sample_Collection_Preservation_Processing.md) | 6 |
 | **25** | Autopsy, histopathology techniques, gross examination & tissue processing | [Item-25_Autopsy_Histopathology_Techniques.md](Item-25_Autopsy_Histopathology_Techniques.md) | 8 |
 | **26** | Cytopathology techniques — FNAC, Pap smear, fluid cytology | [Item-26_Cytopathology_Techniques.md](Item-26_Cytopathology_Techniques.md) | 9 |
+| **27** | **1st Term (Supply) Written Exam (Batch Z-32) — Answer Scripts** — Cell injury + hypoxia, sting-bite inflammation, shock + septic shock + DIC, pitting edema, metaplasia, inflammation effects, Virchow triad, neoplasia, tumor grading/staging | [Item-27_1st_Term_Written_Exam_Answer_Scripts.md](../Item-27_1st_Term_Written_Exam_Answer_Scripts.md) | 9 (Groups A & B) |
+| **28** | **2nd Term (Supply) Exam (SAQ, SEQ, PBQ) (Batch Z-32) — Answer Scripts** — Atherosclerosis risk factors + plaque→MI + MI lab dx, lung cancer (SCC) dx, hepatic neoplasms + HCC from HBV, testicular mass, lymphadenopathy/Hodgkin, COPD, nephrotic vs nephritic syndrome | [Item-28_2nd_Term_Supply_Exam_Answer_Scripts.md](../Item-28_2nd_Term_Supply_Exam_Answer_Scripts.md) | 9 (Groups A & B) |
+| **29** | **2nd Term (Supply) Exam Part 2 (SAQ, SEQ, PBQ) (Batch Z-32) — Answer Scripts** — GIT ulcers + malignant ulcer + H. pylori, breast nodule D/D, DM (types/pathogenesis/complications), thyroid TFTs (TSH 11, T3 2.2), salivary tumours + appendicitis, AUB/leiomyoma/cervix, fixatives, skin lesions, FNAC/PAP/CSF | [Item-29_Second_2nd_Term_Exam_Answer_Scripts.md](../Item-29_Second_2nd_Term_Exam_Answer_Scripts.md) | 9 (Groups A & B) |
 
 ---
 
@@ -112,6 +115,9 @@
 - **Blistering diseases (pemphigus, pemphigoid, DH, EB)** → Item 23, Q8
 - **Sample collection / fixatives / processing** → Items 24 & 25
 - **FNAC & cytopathology** → Item 26
+- **1st term written exam answer scripts (Batch Z-32): cell injury, hypoxia, sting bite, shock/DIC, edema, metaplasia, inflammation, Virchow, neoplasia, tumor staging** → Item 27
+- **2nd term supply exam answer scripts (Batch Z-32): atherosclerosis, plaque→MI, lung cancer, hepatic neoplasms/HCC, testicular mass, lymphadenopathy/Hodgkin, COPD, nephrotic vs nephritic** → Item 28
+- **2nd term supply exam part 2 answer scripts (Batch Z-32): GIT ulcers/H. pylori, breast nodule, DM, thyroid TFTs, salivary/appendicitis, AUB/leiomyoma/cervix, fixatives, skin lesions, FNAC/PAP/CSF** → Item 29
 - **Respiratory: pulmonary edema, PE, pneumonia (lobar stages, lab dx)** → Item 4, Q1–8
 - **Respiratory: tuberculosis (primary/secondary, Ghon complex, miliary, Mantoux, lab dx) + lung abscess/ARDS** → Item 4, Q9–18
 - **Glomerular disease: nephritic vs nephrotic, AGN, MCD/IgA/lupus/diabetic nephropathy, AKI/CKD** → Item 6

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology — Exam Answer Scripts (Batch Z-32)</title>
+    <style>
+        :root {
+            --primary: #1a5276;
+            --primary-light: #2980b9;
+            --accent: #e74c3c;
+            --accent-light: #f5b7b1;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #2c3e50;
+            --text-light: #555;
+            --border: #dee2e6;
+            --warning: #f39c12;
+            --info-bg: #eaf2f8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        .header h1 { font-size: 1.4rem; margin-bottom: 0.3rem; }
+        .header p { font-size: 0.85rem; opacity: 0.9; }
+        .nav-tabs { display: flex; overflow-x: auto; background: white; padding: 0.5rem; gap: 0.4rem; border-bottom: 2px solid var(--border); position: sticky; top: 80px; z-index: 99; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+        .nav-tabs::-webkit-scrollbar { display: none; }
+        .nav-tab { flex-shrink: 0; padding: 0.5rem 0.9rem; border: 1px solid var(--border); border-radius: 20px; background: white; color: var(--text); font-size: 0.8rem; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s; }
+        .nav-tab:hover, .nav-tab.active { background: var(--primary); color: white; border-color: var(--primary); }
+        .container { max-width: 800px; margin: 0 auto; padding: 1rem; }
+        .set-section { display: none; }
+        .set-section.active { display: block; }
+        .set-title { background: var(--primary); color: white; padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 0.5rem; font-weight: 700; }
+        .set-subtitle { background: #fff; border: 1px solid var(--border); padding: 0.7rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-weight: 700; color: var(--primary); }
+        .question-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+        .question { padding: 0.9rem 1rem; cursor: pointer; display: flex; align-items: center; gap: 0.7rem; }
+        .question:hover { background: #fafbfc; }
+        .q-num { background: var(--primary); color: white; min-width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0; }
+        .q-text { flex: 1; font-weight: 600; font-size: 0.92rem; }
+        .toggle-btn { background: var(--accent); color: white; border: none; border-radius: 14px; padding: 0.25rem 0.8rem; font-size: 0.75rem; font-weight: 700; cursor: pointer; flex-shrink: 0; }
+        .answer { padding: 0.9rem 1rem; border-top: 1px solid var(--border); background: #fdfdfd; display: none; }
+        .answer.open { display: block; }
+        .answer p { margin-bottom: 0.6rem; font-size: 0.9rem; }
+        .answer strong { color: var(--primary); }
+        .answer ul, .answer ol { margin: 0.4rem 0 0.6rem 1.4rem; font-size: 0.88rem; }
+        .answer li { margin-bottom: 0.25rem; }
+        .answer table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 0.82rem; }
+        .answer th, .answer td { border: 1px solid var(--border); padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }
+        .answer th { background: var(--primary); color: white; }
+        .answer tr:nth-child(even) { background: var(--info-bg); }
+        .highlight-box { background: #fff8e1; border-left: 4px solid var(--warning); padding: 0.6rem 0.8rem; border-radius: 6px; margin: 0.5rem 0; font-size: 0.85rem; }
+        .ref { font-size: 0.75rem; color: var(--text-light); font-style: italic; border-top: 1px dashed var(--border); padding-top: 0.4rem; margin-top: 0.4rem; }
+        .marks { display: inline-block; background: var(--accent-light); color: #943126; border-radius: 12px; padding: 0.05rem 0.55rem; font-size: 0.72rem; font-weight: 700; margin-left: 0.4rem; }
+        .group-heading { background: var(--primary-light); color: white; padding: 0.6rem 1rem; font-weight: 700; margin-bottom: 0.6rem; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🩺 Pathology — Exam Answer Scripts</h1>
+        <p>1st Term (Written) &amp; 2nd Term (Supply) — SAQ / SEQ / PBQ — Batch Z-32 · Shaheed Ziaur Rahman Medical College, Bogura</p>
+    </div>
+
+    <div class="nav-tabs">
+        <button class="nav-tab active" onclick="showSet('set1')">Paper 1 — 1st Term Written</button>
+        <button class="nav-tab" onclick="showSet('set2')">Paper 2 — 2nd Term Supply</button>
+        <button class="nav-tab" onclick="showSet('set3')">Paper 3 — 2nd Term Supply Pt-2</button>
+    </div>
+
+    <div class="container">
+
+        <!-- SET 01 : PAPER 1 -->
+        <div class="set-section active" id="set1">
+            <div class="set-title">📄 PAPER 1 — 1st TERM (SUPPLY) EXAMINATION (WRITTEN) — [BATCH Z-32]</div>
+            <div class="set-subtitle">Total marks: 80 · Time: 2 hours 40 min · Answer four (4) from each group including Q1(SEQ) &amp; Q5(PBQ).</div>
+
+            <div class="group-heading">✍️ GROUP A — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Discuss the causes of cell injury with examples. Describe how hypoxia causes cell injury? <span class="marks">7(4+3)</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Causes (4):</strong> Ischemia, Hypoxia, Chemicals/toxins, Infection, Physical agents.</p>
+                    <p><strong>Hypoxia mechanism (3):</strong> ↓O₂ → ↓ATP → Na/K pump fails → cell swell; Ca²⁺ influx → lysosomal enzymes/PLA₂/NO → membrane injury → apoptosis/necrosis.</p>
+                    <div class="highlight-box"><strong>High yield:</strong> Hypoxia = O₂ down → ATP down → pump fails → swell; Ischemia = flow down → ATP down → same downstream.</div>
+                    <p class="ref">Ref: Robbins 10e, Ch 2 · Arif 15e (2025), Vol-1, Ch 01–02</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">Define and classify metaplasia with examples. Harmful effects? <span class="marks">3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Metaplasia:</strong> One adult cell type replaced by another adult cell type (differentiation shift).</p>
+                    <p><strong>Types:</strong> Squamous, Glandular — e.g., squamous metaplasia of bronchus (smoker); intestinal metaplasia of stomach (duodenum).</p>
+                    <p><strong>Harmful:</strong> Irreversible → dysplasia → carcinoma (intestinal metaplasia → colorectal cancer).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 2 · Arif 15e (2025), Vol-1, Ch 02</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Beneficial and harmful effects of inflammation. Systemic effects? <span class="marks">2+3</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Beneficial:</strong> Defense (phagocytosis), wound healing, fever.</p>
+                    <p><strong>Harmful:</strong> Chronic inflammation → tissue destruction (hepatitis, IBD, silicosis, TB), autoimmunity, cancer promotion.</p>
+                    <p><strong>Systemic:</strong> Fever, ↑CRP/ESR, leukocytosis, cytokines → SIRS/sepsis.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 3 · Arif 15e (2025), Vol-1, Ch 03</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">Hallmarks of chronic inflammation? Factors influencing wound healing? <span class="marks">1+4</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Hallmarks:</strong> IL-1, TNFα, IL-6, prostaglandins, nitric oxide, lysosomal enzymes, macrophages (M1), granuloma (TB).</p>
+                    <p><strong>Wound healing factors:</strong> Infection, ischemia, foreign body, diabetes, malnutrition, smoking, debridement.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 3 · Arif 15e (2025), Vol-1, Ch 03</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">Painful, red, edematous, warm swelling at arm following recent sting bite. Diagnosis? Mechanism? <span class="marks">1+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Diagnosis:</strong> Localized inflammatory reaction to sting (secondary cellulitis if infected).</p>
+                    <p><strong>Mechanism:</strong> Mast cell degranulation → histamine → vasodilation (red/warm) + ↑permeability (edema) + C-fiber pain.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 3 · Arif 15e (2025), Vol-1, Ch 03</p>
+                </div>
+            </div>
+
+            <div class="group-heading">✍️ GROUP B — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Define and classify shock with pathogenesis of septic shock. Shortly describe DIC. <span class="marks">7(5+2)</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Shock:</strong> Inadequate tissue perfusion → cellular dysfunction.</p>
+                    <p><strong>Types:</strong> Hypovolemic, Cardiogenic, Septic, Anaphylactic, Neurogenic.</p>
+                    <p><strong>Septic shock:</strong> Bacteria/endotoxin → cytokines → NO → vasodilation → ↓SVR → ↓CO → tissue hypoperfusion.</p>
+                    <p><strong>DIC:</strong> Microthrombi + consumptive coagulopathy → bleeding + thrombosis.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 4 · Arif 15e (2025), Vol-1, Ch 05</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">Describe Virchow triad? Fates of thrombus? <span class="marks">3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Virchow triad:</strong> Endothelial injury, Venous stasis, Hypercoagulability.</p>
+                    <p><strong>Fates:</strong> Embolization, Propagation, Regression (fibrinolysis), Organization.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 4 · Arif 15e (2025), Vol-1, Ch 05</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Define and classify neoplasm. Malignant features? <span class="marks">2+3</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Neoplasm:</strong> Uncontrolled cell growth; Benign vs Malignant.</p>
+                    <p><strong>Malignant:</strong> Invasion, metastasis, dedifferentiation, uncontrolled growth.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 7 · Arif 15e (2025), Vol-1, Ch 08</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">Tumor diagnosis in lab? Grading and staging? <span class="marks">3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Dx:</strong> Clinical → imaging → FNAC → biopsy (IHC) → molecular.</p>
+                    <p><strong>Grading:</strong> Differentiation (G1 well → G3 poorly); CLL → Rai/Binet.</p>
+                    <p><strong>Staging:</strong> TNM (T, N, M).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 7 · Arif 15e (2025), Vol-1, Ch 08</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">56 yrs old male, generalized edema which is pitting in nature. Causes? How diagnose cause? <span class="marks">1+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Causes:</strong> Cardiac (CHF), Renal (nephrotic), Hepatic (hypoalbuminemia), Protein-losing enteropathy, Malnutrition.</p>
+                    <p><strong>Diagnosis:</strong> History → exam (JVD, hepatojugular reflux) → labs (albumin, lipids, renal fn, urine protein/A ratio) → imaging (echo).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 4 · Arif 15e (2025), Vol-1, Ch 05</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SET 02 : PAPER 2 -->
+        <div class="set-section" id="set2">
+            <div class="set-title">📄 PAPER 2 — 2nd TERM (SUPPLY) EXAMINATION (SAQ, SEQ, PBQ) — [BATCH Z-32]</div>
+            <div class="set-subtitle">Total marks: 80 · Time: 3 hours · Answer FOUR(4) from each group including Q1 &amp; Q2.</div>
+
+            <div class="group-heading">✍️ GROUP A — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Risk factors of atherosclerosis? Plaque → MI? Lab diagnose MI? <span class="marks">2+3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Risk factors:</strong> Modifiable — HTN, DM, smoking, dyslipidemia, obesity; Non-modifiable — age, sex, genetics. + chronic inflammation.</p>
+                    <p><strong>Plaque → MI:</strong> Plaque rupture/erosion → thrombus → coronary occlusion → ischemia → necrosis.</p>
+                    <p><strong>Lab dx:</strong> Troponin T/I, CK-MB, myoglobin + ECG (ST elevation/depression).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 11, 12 · Arif 15e (2025), Vol-2, Ch 01–02, Ch 25</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">56 yrs smoker male, firm fixed LN at R supraclavicular; FNAC anaplastic SCC; CXR coin-like hilar lesion. Dx? Confirm? <span class="marks">1+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Dx:</strong> <strong>Squamous cell carcinoma of lung</strong> (central type; fixed LN = metastatic).</p>
+                    <p><strong>Confirm:</strong> Bronchoscopy biopsy → histopath + IHC (CK5/6, p63/p40).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 15 · Arif 15e (2025), Vol-2, Ch 04, Ch 03</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Enumerate causes of generalized lymphadenopathy. Hodgkin vs Non-Hodgkin differences? R-S cell variants? <span class="marks">1.5+2+1.5</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Causes:</strong> Infections (EBV, TB, HIV, bacterial), Malignancies (lymphoma), Autoimmune.</p>
+                    <p><strong>Hodgkin vs NHL:</strong> Hodgkin = Reed–Sternberg cells (CD15+, CD30+, MUM1+, EMA+); NHL = B-cell (most), T-cell, NK-cell.</p>
+                    <p><strong>R-S variants:</strong> Lacunar (classical Hodgkin), Binucleated (Burkitt), Multinucleated.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 13 · Arif 15e (2025), Vol-2, Ch 03</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">Obstructive lung diseases with etiology? What is COPD? <span class="marks">4+1</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Obstructive diseases:</strong> COPD (emphysema, chronic bronchitis), Asthma, Bronchiectasis, Cystic fibrosis, Hypersensitivity pneumonitis.</p>
+                    <p><strong>COPD:</strong> Chronic obstructive airflow limitation (emphysema: α1-antitrypsin deficiency; chronic bronchitis: smoking).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 15 · Arif 15e (2025), Vol-2, Ch 04</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">Classify glomerular diseases. Differentiate nephrotic vs nephritic syndrome from urine? <span class="marks">4+1</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Nephrotic:</strong> Proteinuria &gt;3.5 g/day (hypoalbuminemia, edema, lipiduria, low urine A/B ratio).</p>
+                    <p><strong>Nephritic:</strong> Hematuria + RBC casts + oliguria, urine protein moderate, urine A/B ratio &gt; 1.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 20 · Arif 15e (2025), Vol-2, Ch 08</p>
+                </div>
+            </div>
+
+            <div class="group-heading">✍️ GROUP B — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Classify hepatic neoplasms. Hepatic mass dx? Pathogenesis of HCC from HBV? <span class="marks">2+2+3</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Classify:</strong> Benign (HCA, FNH, hemangioma); Primary malignant (HCC, cholangiocarcinoma); Metastatic.</p>
+                    <p><strong>Hepatic mass dx:</strong> USG/CT (arterial enhancement + washout), AFP, biopsy.</p>
+                    <p><strong>HCC from HBV:</strong> Chronic HBV → injury/inflammation → cirrhosis → dysplasia → HCC.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 18 · Arif 15e (2025), Vol-2, Ch 07</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">A testicular mass. Causes? How will you investigate? <span class="marks">1+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Causes:</strong> Hydrocele, seminoma, germ cell tumour, torsion, epididymitis.</p>
+                    <p><strong>Investigate:</strong> Scrotal US, FNAC/biopsy, tumour markers (AFP/hCG/LDH/inhibin).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 22 · Arif 15e (2025), Vol-2, Ch 09</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Give the pathogenesis of BPH. <span class="marks">2+3</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>BPH pathogenesis:</strong> Androgens (DHT) → prostate stromal/epithelial hyperplasia → BPH → urinary symptoms.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 22 · Arif 15e (2025), Vol-2, Ch 09</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">What may be the cause of...? <span class="marks">3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Cause (renal):</strong> Renal impairment / renal stone — obstructive, infectious, stone-related causes.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 20 · Arif 15e (2025), Vol-2, Ch 08</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">Short note (any two): a. Gall bladder stone, b. Cirrhosis, c. Renal stone <span class="marks">2.5+2.5</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Gall bladder stone:</strong> Cholesterol/pigment stones; bile stasis → precipitation.</p>
+                    <p><strong>Cirrhosis:</strong> End-stage liver fibrosis (bridging septa, regenerative nodules, vascular shunting).</p>
+                    <p><strong>Renal stone:</strong> Calcium oxalate/pH-related; infection/obstruction causes.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 18, 20 · Arif 15e (2025), Vol-2, Ch 07, Ch 08</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SET 03 : PAPER 3 -->
+        <div class="set-section" id="set3">
+            <div class="set-title">📄 PAPER 3 — 2nd TERM (SUPPLY) EXAMINATION (SAQ, SEQ, PBQ) — PART 2 — [BATCH Z-32]</div>
+            <div class="set-subtitle">Total marks: 80 · Time: 3 hours · Answer FOUR(4) from each group including Q1 &amp; Q2.</div>
+
+            <div class="group-heading">✍️ GROUP A — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Name the common ulcers of GIT. Characteristics of malignant ulcer? Diseases caused by H. pylori? <span class="marks">2+3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Common ulcers:</strong> Peptic ulcer (gastric, duodenal); TB, typhoid, amoebic ulcers.</p>
+                    <p><strong>Malignant ulcer:</strong> Indurated, hard, fixed, irregular base, rolling edges, non-healing.</p>
+                    <p><strong>H. pylori:</strong> Peptic ulcer, gastritis, gastric cancer, MALT lymphoma, Type I IPC.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 17 · Arif 15e (2025), Vol-2, Ch 06</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">25 yrs woman, firm mobile nodule in outer quadrant of right breast. D/D? How investigate? <span class="marks">2+1</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>D/D:</strong> Fibroadenoma vs cyst vs carcinoma vs fibrocystic change.</p>
+                    <p><strong>Investigate:</strong> Clinical breast US → FNAC (triple assessment).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 23 · Arif 15e (2025), Vol-2, Ch 12</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Classify salivary gland tumors. Small intestine polyps? Pathogenesis of acute appendicitis? <span class="marks">2+1.5+1.5</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Salivary tumors:</strong> Benign (pleomorphic adenoma, Warthin); Malignant (adenocarcinoma).</p>
+                    <p><strong>Small intestine polyps:</strong> Peutz–Jeghers, Cronkhite–Canada.</p>
+                    <p><strong>Acute appendicitis:</strong> Luminal obstruction (fecalith) → mucosal ischemia → inflammation.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 17 · Arif 15e (2025), Vol-2, Ch 06</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">Causes of abnormal uterine bleeding in reproductive age group? Complications of leiomyoma? Pathogenesis of uterine cervical cancer? <span class="marks">1.5+1.5+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Causes of AUB:</strong> Fibroids, hormonal imbalance, infection, malignancy, pregnancy.</p>
+                    <p><strong>Leiomyoma complications:</strong> Menorrhagia, anemia, pain, infertility.</p>
+                    <p><strong>Cervical cancer pathogenesis:</strong> HPV → dysplasia → carcinoma.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 22 · Arif 15e (2025), Vol-2, Ch 10, Ch 12</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">Short note (any two): a. Pleomorphic adenoma, b. Endometriosis, c. Dermoid cyst <span class="marks">2.5+2.5</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Pleomorphic adenoma:</strong> Most common benign salivary gland tumor; mixed tissue.</p>
+                    <p><strong>Endometriosis:</strong> Endometrial tissue outside uterus.</p>
+                    <p><strong>Dermoid cyst:</strong> Benign teratoma (ovarian).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 23 · Arif 15e (2025), Vol-2, Ch 12</p>
+                </div>
+            </div>
+
+            <div class="group-heading">✍️ GROUP B — Answer Script</div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">1</span>
+                    <span class="q-text">Define and classify DM. Describe its pathogenesis and complications. <span class="marks">1+1+3+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>DM:</strong> Chronic metabolic disorder with hyperglycemia.</p>
+                    <p><strong>Types:</strong> Type 1 (autoimmune β-cell destruction), Type 2 (insulin resistance + β-cell failure).</p>
+                    <p><strong>Pathogenesis:</strong> T1 = autoimmune; T2 = obesity/insulin resistance.</p>
+                    <p><strong>Complications:</strong> DKA/HHS, microvascular (retinopathy/nephropathy/neuropathy), macrovascular (CAD/stroke).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 24 · Arif 15e (2025), Vol-2, Ch 21</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">2</span>
+                    <span class="q-text">Thyroid TFTs: TSH 11 mU/L, T3 2.2 pmol/L. Causes? <span class="marks">1+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Interpretation:</strong> TSH 11 (elevated, normal ~0.4–4.0) + low T3 → <strong>primary hypothyroidism</strong> (iodine deficiency / Hashimoto's).</p>
+                    <p><strong>Next:</strong> Serum free T4, anti-TPO; pituitary workup if secondary.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 24 · Arif 15e (2025), Vol-2, Ch 13</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">3</span>
+                    <span class="q-text">Name the fixatives used in histopathology and cytopathology. <span class="marks">1+2+2</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Histopathology:</strong> 10% neutral buffered formalin, carmine, quick, Ziehl–Neelsen, Gram, Giemsa.</p>
+                    <p><strong>Cytopathology:</strong> Wet fix (95% ethanol / spray Carbowax), air-dry (Giemsa/MGG), LBC.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 24 · Arif 15e (2025), Vol-2, Ch 23</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">4</span>
+                    <span class="q-text">Short note on skin lesions. <span class="marks">2+3</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>Inflammatory:</strong> Eczema, psoriasis.</p>
+                    <p><strong>Neoplastic:</strong> BCC, SCC, melanoma, benign naevus.</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 25 · Arif 15e (2025), Vol-2, Ch 14</p>
+                </div>
+            </div>
+            <div class="question-card">
+                <div class="question" onclick="toggleAnswer(this)">
+                    <span class="q-num">5</span>
+                    <span class="q-text">Short note (any two): a. FNAC, b. PAP smear, c. CSF examination <span class="marks">2.5+2.5</span></span>
+                    <button class="toggle-btn">Show</button>
+                </div>
+                <div class="answer">
+                    <p><strong>FNAC:</strong> Fine needle aspiration cytology (cells from lesion; screening/triage).</p>
+                    <p><strong>PAP smear:</strong> Cervical cytology (exfoliative/abrasive).</p>
+                    <p><strong>CSF examination:</strong> Meningitis diagnosis (cells, glucose, protein, culture).</p>
+                    <p class="ref">Ref: Robbins 10e, Ch 21 · Arif 15e (2025), Vol-2, Ch 23</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(el) {
+            const card = el.closest('.question-card');
+            const answer = card.querySelector('.answer');
+            card.classList.toggle('open');
+            answer.classList.toggle('open');
+            const btn = el.querySelector('.toggle-btn');
+            btn.textContent = answer.classList.contains('open') ? 'Hide' : 'Show';
+        }
+        function showSet(id) {
+            document.querySelectorAll('.set-section').forEach(s => s.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            const idx = {set1:0, set2:1, set3:2}[id];
+            document.querySelectorAll('.nav-tab')[idx]?.classList.add('active');
+        }
+    </script>
+</body>
+</html>
