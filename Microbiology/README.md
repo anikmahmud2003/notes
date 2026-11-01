@@ -11,6 +11,7 @@ All extractions live in [**second term/**](second term/):
 | [Virology.md](second term/Virology.md) | 125 | Virology.pdf | OCR extraction (eng+ben, 250 DPI) |
 | [2nd Term Comprehensive Notes](second term/2nd_Term_Comprehensive_Notes.html) | – | Questions raw.md + the 3 topic MDs | Interactive HTML: 350 Q&A cards, search + nav; each card = English answer → Bangla cross-questions → বাংলা ভাইভা ব্যাখ্যা |
 | [Split topic-wise index](second term/split/index.html) | – | 2nd_Term_Comprehensive_Notes.html | The same cards split into topic pages (search + prev/next nav on each) — content byte-identical to the single file |
+| [Reassessment Exam Answers 2026](second term/Reassessment_Exam_Answers_2026.html) + [`Reassessment_Exam_Answers_2026.md`](second term/Reassessment_Exam_Answers_2026.md) | 2 papers · 20 questions | User-provided re-assessment questions (Oct'2026 · Sep'2026) | Full answer key in HTML + MD; every group covers Q1–Q5 (Q5 compulsory); answers grounded in first term + second term notes |
 
 ## Split topic-wise pages ([↗ live index](second term/split/index.html))
 
