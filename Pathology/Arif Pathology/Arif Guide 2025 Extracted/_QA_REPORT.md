@@ -85,3 +85,21 @@
 | V2 | 503 | 46.6 |
 | V2 | 510 | 67.5 |
 | V2 | 512 | 83.7 |
+
+## Derived study edition — automated verification
+
+`Arif-Pathology-Haematology-2025_CATEGORISED_STUDY_NOTES.html` was generated directly from
+`Arif-Pathology-Haematology-2025_COMPLETE.md`; no text was re-typed, summarised or corrected.
+
+- Source lines owned exactly once: **74,437 / 74,437** (0 unowned, 0 duplicated)
+- Byte-exact reconstruction of the source Markdown from the embedded dataset: **PASS**
+  (SHA-256 `8d1e568cacc011060693d3e49f37186c6a902189f74d0d1fa779bf3652089438`)
+- Printed page anchors: **1,004** · chapters: **57** (+ document header)
+- Passages: **26,753** · questions: **3,616** · category assignments: **36,637**
+- Categories: **31 / 31 populated** · subcategory routes tested: **280, 0 empty**
+- Book-order chapter routes tested: **58, 0 empty**
+- Offline resources: **0** external scripts, styles, fonts or images
+- UI regression suite: **30 / 30 checks pass**, 0 console errors
+
+OCR quality caveats listed above still apply to the derived edition: the wording is the
+original OCR wording, preserved verbatim, including recognition errors.

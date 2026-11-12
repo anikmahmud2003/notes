@@ -66,6 +66,13 @@
 | V2-ch31_MCQs-Clinical-Pathology | Unit-Ii  — MCQs — Clinical Pathology | pp. 500–510 |
 | V2-ch32_Back-Matter | Back Matter | pp. 511–512 |
 
+## 📄 Single-file edition
+
+| File | Content |
+|---|---|
+| [`Arif-Pathology-Haematology-2025_COMPLETE.md`](Arif-Pathology-Haematology-2025_COMPLETE.md) | **All 57 files above merged in book order** into one document (~2.0 MB, 74 k lines) — cover-to-cover title, clickable table of contents, both volumes plus front/back matter. Chapter files above are kept unchanged. |
+| [`Arif-Pathology-Haematology-2025_CATEGORISED_STUDY_NOTES.html`](Arif-Pathology-Haematology-2025_CATEGORISED_STUDY_NOTES.html) | **Offline category-wise study edition** (~3.1 MB, single self-contained file) — all 2.09 MB of source text reorganised into 31 exam categories with subcategories, while retaining book order, chapter/page anchors, question headings and references. Includes search, collapsible navigation, cross-references, source-coverage checklist and byte-exact completeness report. |
+
 ## 🧠 Anki deck
 
 An Anki-importable flashcard deck generated from **all** the files above lives in

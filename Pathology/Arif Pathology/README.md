@@ -15,6 +15,7 @@
 ## 🗺️ Quick navigation
 
 - **Start here:** [`Arif Guide 2025 Extracted/_INDEX.md`](./Arif%20Guide%202025%20Extracted/_INDEX.md)
+- **Category-wise study edition (offline HTML):** [`Arif-Pathology-Haematology-2025_CATEGORISED_STUDY_NOTES.html`](./Arif%20Guide%202025%20Extracted/Arif-Pathology-Haematology-2025_CATEGORISED_STUDY_NOTES.html) — 31 exam categories, search, book-order view, coverage and completeness report
 - **Quality flags:** [`_QA_REPORT.md`](./Arif%20Guide%202025%20Extracted/_QA_REPORT.md)
 
 ### Vol-I — Unit-I: General Pathology

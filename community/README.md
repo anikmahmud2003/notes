@@ -10,6 +10,17 @@
 
 ---
 
+## 🎯 Exam Revision Guide (interactive HTML)
+
+> A single self-contained page covering the full Term 1 & Term 2 question list, built from the chapters below.
+> Every answer is collapsible, with live search, expand/collapse all, dark mode and print/PDF support.
+
+| Guide | Coverage | File |
+|---|---|---|
+| Community Medicine — Complete Exam Guide | Term 1 + Term 2 · 28 item groups · 101 questions | [Community_Medicine_Complete_Exam_Guide.html](Community_Medicine_Complete_Exam_Guide.html) |
+
+---
+
 ## 📑 Quick navigation
 
 | # | Chapter | Pages (PDF) | File |
